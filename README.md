@@ -35,6 +35,7 @@ Knowledge shortcuts:
 - `s`: save the selected Edge candidate for later
 - `i`: ignore the selected Edge candidate
 - `Esc`: close detail view or return to the workbench
+- `u`: pull/import latest cloud Knowledge results
 
 Knowledge Settings shortcuts:
 

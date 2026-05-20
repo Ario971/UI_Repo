@@ -112,6 +112,7 @@ export class UiDeskApp {
       this.mode = "workbench";
       return this.render();
     }
+    if (key === "u") return this.syncKnowledgeNow();
     if (key === "\t" || key.includes("[27;5;9") || key.includes("[1;5I")) {
       this.cycleKnowledgeSubtab(1);
       return this.render();
@@ -147,6 +148,12 @@ export class UiDeskApp {
     this.knowledgeSubtab = tabs[(index + step + tabs.length) % tabs.length];
     this.knowledgeDetail = null;
     this.knowledgeScroll = 0;
+  }
+
+  syncKnowledgeNow() {
+    const sync = pullAndImportKnowledge();
+    this.status = formatSyncStatus(sync);
+    this.render();
   }
 
   toggleSelectedSetting() {
@@ -376,7 +383,7 @@ export class UiDeskApp {
     this.knowledgeScroll = 0;
     if (this.mode === "knowledge") {
       const sync = pullAndImportKnowledge();
-      this.status = sync.message;
+      this.status = formatSyncStatus(sync);
       return this.render();
     }
     this.status = this.mode === "knowledge" ? "Knowledge tab" : "Workbench";
@@ -463,11 +470,12 @@ export class UiDeskApp {
       const label = `${active ? "[" : " "}${index + 1}:${tab.title}${active ? "]" : " "}`;
       return active ? `${color.accent}${label}${color.reset}` : `${color.gray}${label}${color.reset}`;
     }).join(" ");
-    const right = ` ${tabLine}  ${color.gray}(+ Ctrl+N, Ctrl+Tab)${color.reset}`;
+    const modeLabel = this.mode === "knowledge" ? `${color.accent}Knowledge${color.reset}` : `${color.gray}Workbench${color.reset}`;
+    const right = ` ${tabLine}  ${modeLabel}  ${color.gray}(+ Ctrl+N, x close, Ctrl+Tab)${color.reset}`;
     return [
-      move(row, 1), color.panel, clip(" UI Desk", leftWidth), color.reset, color.soft, clip(right.replace("(+ Ctrl+N, Ctrl+Tab)", "(+ Ctrl+N, x close, Ctrl+Tab)"), rightWidth + 1), color.reset,
-      move(row + 1, 1), color.gray, clip(" Files / Search", leftWidth), color.reset,
-      color.gray, clip(` ${providerLabel(this.tab.provider)} | ${this.tab.model}`, rightWidth + 1), color.reset,
+      move(row, 1), color.panel, clip(" UI Desk", leftWidth), color.reset, color.soft, clip(right, rightWidth + 1), color.reset,
+      move(row + 1, 1), color.gray, clip(` Files  ${path.basename(this.tab.root) || this.tab.root}`, leftWidth), color.reset,
+      color.gray, clip(` ${providerLabel(this.tab.provider)} | ${this.tab.model} | ${this.streaming ? "streaming" : "ready"}`, rightWidth + 1), color.reset,
       move(row + 2, 1), color.gray, "-".repeat(leftWidth), "+", "-".repeat(rightWidth), color.reset,
     ].join("");
   }
@@ -573,7 +581,9 @@ export class UiDeskApp {
     const tab = this.tab;
     const left = ` ${providerLabel(tab.provider)} | ${tab.model} | tokens ${tab.usage.total || 0}`;
     const mid = ` | ${this.status}`;
-    const right = " | Ctrl+O knowledge  Ctrl+Tab tabs  Ctrl+N new  x close  Ctrl+K files  Esc cancel ";
+    const right = this.mode === "knowledge"
+      ? " | Ctrl+O close  u sync  Tab views  Esc back "
+      : " | Ctrl+O knowledge  Ctrl+Tab tabs  Ctrl+N new  Ctrl+K files  Esc cancel ";
     return `${move(row, 1)}${color.soft}${clip(left + mid + right, columns)}${color.reset}`;
   }
 
@@ -583,10 +593,10 @@ export class UiDeskApp {
     const hint = this.knowledgeDetail
       ? "Up/Down scroll, Enter/Esc closes"
       : this.knowledgeSubtab === "feed"
-        ? "Up/Down select, Enter open, r read/unread, Tab switch, Esc returns"
+        ? "Up/Down select, Enter open, r read/unread, u sync"
         : this.knowledgeSubtab === "edge"
-          ? "Up/Down select, Enter open, a approve, s save, i ignore, Tab switch, Esc returns"
-          : "Up/Down select, Enter/Space toggle, +/- adjust, Tab switch, Esc returns";
+          ? "Up/Down select, Enter open, a approve, s save, i ignore, u sync"
+          : "Up/Down select, Enter/Space toggle, +/- adjust, u sync";
     const tabs = ` [${this.knowledgeSubtab === "feed" ? "Feed" : "feed"}] [${this.knowledgeSubtab === "edge" ? "Edge" : "edge"}] [${this.knowledgeSubtab === "settings" ? "Settings" : "settings"}]`;
     lines.push(move(startRow, 1), color.soft, clip(` Knowledge ${tabs}  ${hint}`, width), color.reset);
     const body = this.knowledgeDetail
@@ -656,10 +666,12 @@ export class UiDeskApp {
   }
 
   feedLines(summary, width, height) {
+    const unread = (summary.feedArticles || []).filter((article) => !article.read).length;
+    const selected = Math.min((this.knowledgeCursor.feed || 0) + 1, Math.max(1, summary.feedArticles.length));
     const lines = [
-      clip(" Feed: daily article digest", width),
+      clip(`${color.accent}Feed${color.reset}  daily article digest`, width),
       clip(`${color.gray}${"-".repeat(width)}${color.reset}`, width),
-      clip(` Articles saved: ${summary.feedCount} | Topics: ${summary.topicCount} | Sources: ${summary.feedPendingApproval ? "pending" : "approved"} | Last sync: ${formatDate(summary.feedLastSync)}`, width),
+      clip(` Articles ${summary.feedCount}  Unread ${unread}  Topics ${summary.topicCount}  Selected ${selected}/${Math.max(1, summary.feedArticles.length)}  Last sync ${formatDate(summary.feedLastSync)}`, width),
       "",
     ];
     if (!summary.feedArticles.length) {
@@ -679,7 +691,7 @@ export class UiDeskApp {
       const selected = index === this.knowledgeCursor.feed;
       const title = ` ${selected ? ">" : " "} ${marker} [${badge}] ${article.title}`;
       lines.push(clip(selected ? `${color.inverse}${title}${color.reset}` : title, width));
-      lines.push(clip(`   ${color.gray}${article.topic} | ${article.source} | ${article.date}${color.reset}`, width));
+      lines.push(clip(`   ${color.gray}${article.topic} / ${article.source} / ${article.date}${color.reset}`, width));
       lines.push(clip(`   ${article.summary || ""}`, width));
       lines.push("");
     }
@@ -687,10 +699,11 @@ export class UiDeskApp {
   }
 
   edgeLines(summary, width, height) {
+    const selected = Math.min((this.knowledgeCursor.edge || 0) + 1, Math.max(1, summary.edgeCandidates.length));
     const lines = [
-      clip(" Edge: system-improvement scout", width),
+      clip(`${color.accent}Edge${color.reset}  system-improvement scout`, width),
       clip(`${color.gray}${"-".repeat(width)}${color.reset}`, width),
-      clip(` Candidates saved: ${summary.edgeCount} | Categories: ${summary.edgeCategoryCount} | Sources: ${summary.edgePendingApproval ? "pending" : "approved"} | Last sync: ${formatDate(summary.edgeLastSync)}`, width),
+      clip(` Candidates ${summary.edgeCount}  Categories ${summary.edgeCategoryCount}  Selected ${selected}/${Math.max(1, summary.edgeCandidates.length)}  Last sync ${formatDate(summary.edgeLastSync)}`, width),
       "",
     ];
     if (!summary.edgeCandidates.length) {
@@ -724,9 +737,9 @@ export class UiDeskApp {
     const selectedRow = selectable[this.knowledgeCursor.settings];
     const selectedKey = selectedRow ? rowKey(selectedRow) : "";
     const lines = [
-      clip(" Knowledge Settings", width),
+      clip(`${color.accent}Settings${color.reset}  source and scoring controls`, width),
       clip(`${color.gray}${"-".repeat(width)}${color.reset}`, width),
-      clip(" Changes update local sources.json and the repo mirror. Commit/push to apply them in GitHub Actions.", width),
+      clip(" Local + repo mirror update immediately. Commit/push after changes to apply them in GitHub Actions.", width),
       "",
     ];
     const contentHeight = Math.max(1, height - lines.length);
@@ -799,4 +812,10 @@ function formatDate(value) {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return value;
   return date.toLocaleString();
+}
+
+function formatSyncStatus(sync) {
+  if (!sync) return "Knowledge sync unavailable";
+  if (sync.pulled && sync.imported) return `Knowledge synced: ${sync.copied || 0} file(s) imported`;
+  return sync.message || "Knowledge sync checked";
 }
