@@ -1,0 +1,12 @@
+---
+title: "Show HN: Dari-docs – Optimize your docs using parallel coding agents"
+source: "Hacker News Top + Show HN"
+url: "https://github.com/mupt-ai/dari-docs"
+date: "2026-05-20"
+topic: "AI agents"
+type: "article"
+read: false
+summary: "It’s well known at this point that documentation needs to be optimized for AI agents - we’re all pointing our Claude Code / Codex / Pi agents at documentation, and expecting the models to figure out how to implement a product. This, however, changes the entire optimization problem when writing documentation. Good documentation now becomes more objective -... (Local summary fallback used.)"
+---
+
+It’s well known at this point that documentation needs to be optimized for AI agents - we’re all pointing our Claude Code / Codex / Pi agents at documentation, and expecting the models to figure out how to implement a product. This, however, changes the entire optimization problem when writing documentation. Good documentation now becomes more objective - you are solving the very concrete problem: can a dumb harness running the dumbest model implement this reliably? Humans can typically compensate for inconsistent terminology or scattered context across pages, but for agents, this often will waste time (or even just completely confuse the agent). We’ve been building a small project around this called dari-docs: users can upload their documentation via website or CLI and run agents across different providers to see where they falter. You can upload your documentation, feed a list of tasks, and ask agents with varying intelligence / cost levels to complete those tasks in parallel. When a run is complete, you get back a list feedback markdown files from each agent run and can apply changes based on agent feedback. Managed service: https://optimize.dari.dev/ , repo link: https://github.com/mupt-ai/dari-docs The agents actually try to use the product end-to-end. They search through the docs, follow instructions, run commands, try examples, and attempt to debug failures. Importantly, this is not a static LLM review of the documentation. The agents are actually attempting the integration. You can also enable live verification with test credentials so the agents can actually verify workflows against real APIs: dari-docs check . --live-verify --secret-env DARI_TEST_API_KEY --task "Create a checkout session" If you’re building a CLI, API, MCP server, or SDK and actively maintaining docs for humans or agents, we’d love to work with you and test this on real workflows!

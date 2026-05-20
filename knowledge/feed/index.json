@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T19:54:11.341Z",
+  "updated_at": "2026-05-20T22:10:15.338Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/mupt-ai/dari-docs",
+      "date": "2026-05-20",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "It’s well known at this point that documentation needs to be optimized for AI agents - we’re all pointing our Claude Code / Codex / Pi agents at documentation, and expecting the models to figure out how to implement a product. This, however, changes the entire optimization problem when writing documentation. Good documentation now becomes more objective -... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
+    },
+    {
+      "title": "agorokh/applied-ai-research",
+      "source": "GitHub Trending",
+      "url": "https://github.com/agorokh/applied-ai-research",
+      "date": "2026-05-20",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Engineering research papers from EPAM Applied AI. Memory, agents, gateways, observability — frontier-to-enterprise translation. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/15-agorokh-applied-ai-research.md"
+    },
+    {
+      "title": "Skip to main content",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news#main-content",
+      "date": "2026-05-20",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Skip to main content (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/16-skip-to-main-content.md"
+    },
+    {
+      "title": "May 19, 2026 Announcements Widening the conversation on frontier AI",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "date": "2026-05-19",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "May 19, 2026 Announcements Widening the conversation on frontier AI (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-19/17-may-19-2026-announcements-widening-the-conversation-on-frontier-ai.md"
+    },
+    {
+      "title": "sigent-ai-dev/adm-kit",
+      "source": "GitHub Search API",
+      "url": "https://github.com/sigent-ai-dev/adm-kit",
+      "date": "2026-05-20",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ADM Kit — Analysis-Driven Modelling toolkit. Discover and version data schemas from messy real-world sources. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-20/18-sigent-ai-dev-adm-kit.md"
+    },
+    {
+      "title": "davidesilver/ZeroHuman-Agency",
+      "source": "GitHub Search API",
+      "url": "https://github.com/davidesilver/ZeroHuman-Agency",
+      "date": "2026-05-20",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ZeroHuman-Agency is an AI-powered content operations platform that automates the entire content lifecycle — from research and ideation to generation, review and publishing — while maintaining brand consistency across channels (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-20/19-davidesilver-zerohuman-agency.md"
+    },
+    {
+      "title": "TadeasUjvary/back-office-agent-web",
+      "source": "GitHub Search API",
+      "url": "https://github.com/TadeasUjvary/back-office-agent-web",
+      "date": "2026-05-20",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Real estate back-office AI agent — Next.js + Gemini 2.5 Flash + Vercel AI SDK with Generative UI (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-20/20-tadeasujvary-back-office-agent-web.md"
+    },
+    {
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/antoinezambelli/forge",
+      "date": "2026-05-19",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm Antoine Zambelli, AI Director at Texas Instruments. I built Forge, an open-source reliability layer for self-hosted LLM tool-calling. What it does: - Adds domain-and-tool-agnostic guardrails (retry nudges, step enforcement, error recovery, VRAM-aware context management) to local models running on consumer hardware - Takes an 8B model from ~53%... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-19/21-show-hn-forge-guardrails-take-an-8b-model-from-53-to-99-on-agentic-tas.md"
+    },
+    {
+      "title": "HalBench: I built a custom sycophancy and hallucination benchmark and tested 4 frontier models (Sonnet 4.6, Grok 4.3, GPT 5.4 and Gemini 3.1 Pro), looking for input on what OSS models to run next!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tizvih/halbench_i_built_a_custom_sycophancy_and/",
+      "date": "2026-05-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "HalBench Results: TL;DR: I built HalBench , an open benchmark for LLM sycophancy and hallucination. 3,200 false-premise prompts × 4 models = 12,800 graded responses. Validated against a human reader on 100 random items. Sonnet 4.6 > Grok 4.3 > GPT-5.4 > Gemini 3.1 Pro, with GPT and Gemini significantly below Sonnet and Grok. Dataset, Space, and code all o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-20/22-halbench-i-built-a-custom-sycophancy-and-hallucination-benchmark-and-t.md"
+    },
+    {
+      "title": "24GB M4 Mac - is Qwen 9B only option while system is running?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiuern/24gb_m4_mac_is_qwen_9b_only_option_while_system/",
+      "date": "2026-05-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I have mac at work that I want to use local model for prototyping and basic prompts that needs to stay on device. What sort of model I can run that I can fit at least 64k context ? Any setups share or guides welcome. I need to have firefox open with one tab at minium. Problem I have is all the crap that runs on Mac itself by default. submitted by /u/sagir... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-20/23-24gb-m4-mac-is-qwen-9b-only-option-while-system-is-running.md"
+    },
+    {
+      "title": "GPU Memory Math for LLMs (2026 Edition)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiz01z/gpu_memory_math_for_llms_2026_edition/",
+      "date": "2026-05-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/XMasterrrr [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-20/24-gpu-memory-math-for-llms-2026-edition.md"
+    },
+    {
+      "title": "bytedance-research/Lance Any-to-Any • Updated about 10 hours ago • 438 • 457",
+      "source": "Hugging Face Trending Models",
+      "url": "https://huggingface.co/bytedance-research/Lance",
+      "date": "2026-05-20",
+      "topic": "Local LLMs",
+      "type": "paper",
+      "read": false,
+      "summary": "bytedance-research/Lance Any-to-Any • Updated about 10 hours ago • 438 • 457 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-20/25-bytedance-research-lance-any-to-any-updated-about-10-hours-ago-438-457.md"
+    },
     {
       "title": "Show HN: Superlog (YC P26) – Observability that installs itself and fixes bugs",
       "source": "Hacker News Top + Show HN",
