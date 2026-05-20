@@ -36,6 +36,14 @@ Knowledge shortcuts:
 - `i`: ignore the selected Edge candidate
 - `Esc`: close detail view or return to the workbench
 
+Knowledge Settings shortcuts:
+
+- `Tab`: switch between Feed, Edge, and Settings
+- `Up` / `Down`: select a setting row
+- `Enter` / `Space`: toggle Feed topics or Edge categories
+- `+` / `-`: adjust topic article caps, Edge daily card cap, or score threshold
+- `Left` / `Right`: adjust the selected numeric setting
+
 ## Config
 
 Settings are stored at:
@@ -115,6 +123,8 @@ node .\scripts\knowledge-action.js ignore <candidate-id>
 `approve` adds the candidate to `active_stack.json`, `save` copies it to the watchlist, and `ignore` adds it to `ignored.json` while adjusting feedback weights.
 
 The same actions are also available directly in the TUI from the Knowledge Edge subtab with `a`, `s`, and `i`.
+
+The Knowledge Settings subtab can edit `sources.json` without hand-editing JSON. It updates both the local store in `C:\Projects\UI_Desk\knowledge` and the repo mirror in `C:\Projects\UI\knowledge`; commit and push after changing settings if you want GitHub Actions to use them.
 
 Edge scoring now inspects GitHub candidates before recommending them:
 

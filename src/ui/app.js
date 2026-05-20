@@ -9,6 +9,7 @@ import { writeSourceProposals } from "../knowledge/proposals.js";
 import { markArticleRead, readArticleDetail, toggleArticleRead } from "../knowledge/feedActions.js";
 import { approveCandidate, ignoreCandidate, readCandidateDetail, saveCandidateForLater } from "../knowledge/actions.js";
 import { pullAndImportKnowledge } from "../knowledge/gitSync.js";
+import { adjustSetting, settingsRows, toggleSetting } from "../knowledge/settings.js";
 
 export class UiDeskApp {
   constructor() {
@@ -18,7 +19,7 @@ export class UiDeskApp {
     this.focus = "chat";
     this.mode = "workbench";
     this.knowledgeSubtab = "feed";
-    this.knowledgeCursor = { feed: 0, edge: 0 };
+    this.knowledgeCursor = { feed: 0, edge: 0, settings: 0 };
     this.knowledgeDetail = null;
     this.knowledgeScroll = 0;
     this.input = "";
@@ -111,11 +112,25 @@ export class UiDeskApp {
       this.mode = "workbench";
       return this.render();
     }
-    if (key === "\t" || key.includes("[27;5;9") || key.includes("[1;5I") || key === "\x1b[C" || key === "\x1b[D") {
-      this.knowledgeSubtab = this.knowledgeSubtab === "feed" ? "edge" : "feed";
-      this.knowledgeDetail = null;
-      this.knowledgeScroll = 0;
+    if (key === "\t" || key.includes("[27;5;9") || key.includes("[1;5I")) {
+      this.cycleKnowledgeSubtab(1);
       return this.render();
+    }
+    if (key === "\x1b[C" && this.knowledgeSubtab !== "settings") {
+      this.cycleKnowledgeSubtab(1);
+      return this.render();
+    }
+    if (key === "\x1b[D" && this.knowledgeSubtab !== "settings") {
+      this.cycleKnowledgeSubtab(-1);
+      return this.render();
+    }
+    if (this.knowledgeSubtab === "settings") {
+      if (key === "\x1b[A") return this.moveKnowledgeCursor(-1);
+      if (key === "\x1b[B") return this.moveKnowledgeCursor(1);
+      if (key === "\r" || key === " ") return this.toggleSelectedSetting();
+      if (key === "\x1b[C" || key === "+") return this.adjustSelectedSetting(1);
+      if (key === "\x1b[D" || key === "-") return this.adjustSelectedSetting(-1);
+      return;
     }
     if (key === "\x1b[A") return this.moveKnowledgeCursor(-1);
     if (key === "\x1b[B") return this.moveKnowledgeCursor(1);
@@ -126,9 +141,48 @@ export class UiDeskApp {
     if (key === "i" && this.knowledgeSubtab === "edge") return this.applyEdgeAction("ignore");
   }
 
+  cycleKnowledgeSubtab(step) {
+    const tabs = ["feed", "edge", "settings"];
+    const index = tabs.indexOf(this.knowledgeSubtab);
+    this.knowledgeSubtab = tabs[(index + step + tabs.length) % tabs.length];
+    this.knowledgeDetail = null;
+    this.knowledgeScroll = 0;
+  }
+
+  toggleSelectedSetting() {
+    const row = this.selectedSettingsRow();
+    if (!row || row.kind === "section") return;
+    const result = toggleSetting(row);
+    this.status = result ? "Setting updated. Commit/push to apply in cloud." : "Use left/right or +/- for this setting";
+    this.render();
+  }
+
+  adjustSelectedSetting(delta) {
+    const row = this.selectedSettingsRow();
+    if (!row || row.kind === "section") return;
+    const result = adjustSetting(row, delta);
+    this.status = result ? "Setting updated. Commit/push to apply in cloud." : "Use Enter/Space for this setting";
+    this.render();
+  }
+
+  selectedSettingsRow() {
+    const rows = settingsRows().filter((row) => row.kind !== "section");
+    const max = Math.max(0, rows.length - 1);
+    this.knowledgeCursor.settings = Math.max(0, Math.min(max, this.knowledgeCursor.settings));
+    return rows[this.knowledgeCursor.settings];
+  }
+
+  settingsSelectableRows() {
+    return settingsRows().filter((row) => row.kind !== "section");
+  }
+
   moveKnowledgeCursor(step) {
     const summary = knowledgeSummary();
-    const list = this.knowledgeSubtab === "feed" ? summary.feedArticles : summary.edgeCandidates;
+    const list = this.knowledgeSubtab === "feed"
+      ? summary.feedArticles
+      : this.knowledgeSubtab === "edge"
+        ? summary.edgeCandidates
+        : this.settingsSelectableRows();
     const max = Math.max(0, list.length - 1);
     this.knowledgeCursor[this.knowledgeSubtab] = Math.max(0, Math.min(max, this.knowledgeCursor[this.knowledgeSubtab] + step));
     this.render();
@@ -530,13 +584,18 @@ export class UiDeskApp {
       ? "Up/Down scroll, Enter/Esc closes"
       : this.knowledgeSubtab === "feed"
         ? "Up/Down select, Enter open, r read/unread, Tab switch, Esc returns"
-        : "Up/Down select, Enter open, a approve, s save, i ignore, Tab switch, Esc returns";
-    lines.push(move(startRow, 1), color.soft, clip(` Knowledge  [${this.knowledgeSubtab === "feed" ? "Feed" : "feed"}] [${this.knowledgeSubtab === "edge" ? "Edge" : "edge"}]  ${hint}`, width), color.reset);
+        : this.knowledgeSubtab === "edge"
+          ? "Up/Down select, Enter open, a approve, s save, i ignore, Tab switch, Esc returns"
+          : "Up/Down select, Enter/Space toggle, +/- adjust, Tab switch, Esc returns";
+    const tabs = ` [${this.knowledgeSubtab === "feed" ? "Feed" : "feed"}] [${this.knowledgeSubtab === "edge" ? "Edge" : "edge"}] [${this.knowledgeSubtab === "settings" ? "Settings" : "settings"}]`;
+    lines.push(move(startRow, 1), color.soft, clip(` Knowledge ${tabs}  ${hint}`, width), color.reset);
     const body = this.knowledgeDetail
       ? this.knowledgeDetailLines(width, height - 1)
       : this.knowledgeSubtab === "feed"
         ? this.feedLines(summary, width, height - 1)
-        : this.edgeLines(summary, width, height - 1);
+        : this.knowledgeSubtab === "edge"
+          ? this.edgeLines(summary, width, height - 1)
+          : this.settingsLines(width, height - 1);
     for (let i = 1; i < height; i++) {
       lines.push(move(startRow + i, 1), body[i - 1] || " ".repeat(width));
     }
@@ -658,6 +717,53 @@ export class UiDeskApp {
     }
     return lines;
   }
+
+  settingsLines(width, height) {
+    const rows = settingsRows();
+    const selectable = rows.filter((row) => row.kind !== "section");
+    const selectedRow = selectable[this.knowledgeCursor.settings];
+    const selectedKey = selectedRow ? rowKey(selectedRow) : "";
+    const lines = [
+      clip(" Knowledge Settings", width),
+      clip(`${color.gray}${"-".repeat(width)}${color.reset}`, width),
+      clip(" Changes update local sources.json and the repo mirror. Commit/push to apply them in GitHub Actions.", width),
+      "",
+    ];
+    const contentHeight = Math.max(1, height - lines.length);
+    const selectedIndex = rows.findIndex((row) => rowKey(row) === selectedKey);
+    const start = Math.max(0, Math.min(selectedIndex - Math.floor(contentHeight / 2), Math.max(0, rows.length - contentHeight)));
+    for (const row of rows.slice(start, start + contentHeight)) {
+      if (row.kind === "section") {
+        lines.push(clip(`${color.gray}${row.label}${color.reset}`, width));
+        continue;
+      }
+      const selected = rowKey(row) === selectedKey;
+      const marker = selected ? ">" : " ";
+      const text = this.settingsRowText(row, marker);
+      lines.push(clip(selected ? `${color.inverse}${text}${color.reset}` : text, width));
+    }
+    return lines;
+  }
+
+  settingsRowText(row, marker) {
+    if (row.kind === "feed-topic") {
+      return ` ${marker} ${row.active ? "[x]" : "[ ]"} ${row.label}  max articles/run: ${row.value}`;
+    }
+    if (row.kind === "edge-category") {
+      return ` ${marker} ${row.active ? "[x]" : "[ ]"} ${row.label}  active sources: ${row.value}`;
+    }
+    if (row.kind === "edge-max-cards") {
+      return ` ${marker} ${row.label}: ${row.value} cards`;
+    }
+    if (row.kind === "edge-threshold") {
+      return ` ${marker} ${row.label}: ${row.value}%`;
+    }
+    return ` ${marker} ${row.label}`;
+  }
+}
+
+function rowKey(row) {
+  return `${row.kind}:${row.index ?? row.label}`;
 }
 
 function wrap(text, width) {
