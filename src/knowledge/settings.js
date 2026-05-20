@@ -70,12 +70,71 @@ export function adjustSetting(row, delta) {
   return null;
 }
 
+export function addFeedTopic(name) {
+  const clean = String(name || "").trim();
+  if (!clean) return null;
+  return updateFeedSources((feed) => {
+    feed.topics = feed.topics || [];
+    if (feed.topics.some((topic) => topic.name.toLowerCase() === clean.toLowerCase())) return;
+    feed.topics.push({
+      name: clean,
+      active: true,
+      max_articles_per_run: 4,
+      sources: starterSources(),
+    });
+  });
+}
+
+export function deleteFeedTopic(index) {
+  return updateFeedSources((feed) => {
+    if (!Array.isArray(feed.topics) || index < 0 || index >= feed.topics.length) return;
+    feed.topics.splice(index, 1);
+  });
+}
+
 function updateFeedSources(mutator) {
   const feed = readJson(FEED_SOURCES, { status: "approved", topics: [] });
   mutator(feed);
   writeJson(FEED_SOURCES, feed);
   mirror("feed", "sources.json", feed);
   return feed;
+}
+
+function starterSources() {
+  return [
+    {
+      name: "Hacker News Show HN",
+      type: "api",
+      url: "https://github.com/HackerNews/API",
+      access: "official_firebase_api",
+      reason: "High-signal launches and developer discussion.",
+      active: true,
+    },
+    {
+      name: "GitHub Search API",
+      type: "api",
+      url: "https://docs.github.com/en/rest/search/search",
+      access: "api",
+      reason: "Targeted repository discovery for this topic.",
+      active: true,
+    },
+    {
+      name: "arXiv topic search",
+      type: "paper_api",
+      url: "https://info.arxiv.org/help/api/index.html",
+      access: "api",
+      reason: "Recent papers matching the topic text.",
+      active: true,
+    },
+    {
+      name: "r/LocalLLaMA",
+      type: "reddit_rss",
+      url: "https://www.reddit.com/r/LocalLLaMA/.rss",
+      access: "rss",
+      reason: "Community signal for local AI/model topics.",
+      active: true,
+    },
+  ];
 }
 
 function updateEdgeSources(mutator) {

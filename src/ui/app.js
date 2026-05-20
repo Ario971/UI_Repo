@@ -9,7 +9,7 @@ import { writeSourceProposals } from "../knowledge/proposals.js";
 import { markArticleRead, readArticleDetail, toggleArticleRead } from "../knowledge/feedActions.js";
 import { approveCandidate, ignoreCandidate, readCandidateDetail, saveCandidateForLater } from "../knowledge/actions.js";
 import { pullAndImportKnowledge } from "../knowledge/gitSync.js";
-import { adjustSetting, settingsRows, toggleSetting } from "../knowledge/settings.js";
+import { addFeedTopic, adjustSetting, deleteFeedTopic, settingsRows, toggleSetting } from "../knowledge/settings.js";
 
 export class UiDeskApp {
   constructor() {
@@ -21,6 +21,7 @@ export class UiDeskApp {
     this.knowledgeSubtab = "feed";
     this.knowledgeCursor = { feed: 0, edge: 0, settings: 0 };
     this.knowledgeDetail = null;
+    this.knowledgePrompt = null;
     this.knowledgeScroll = 0;
     this.input = "";
     this.status = this.config.loadError || "Ready";
@@ -92,6 +93,7 @@ export class UiDeskApp {
   }
 
   handleKnowledgeKey(key) {
+    if (this.knowledgePrompt) return this.handleKnowledgePromptKey(key);
     if (this.knowledgeDetail) {
       if (key === "\x1b" || key === "\r") {
         this.knowledgeDetail = null;
@@ -128,6 +130,8 @@ export class UiDeskApp {
     if (this.knowledgeSubtab === "settings") {
       if (key === "\x1b[A") return this.moveKnowledgeCursor(-1);
       if (key === "\x1b[B") return this.moveKnowledgeCursor(1);
+      if (key === "n") return this.startAddFeedTopic();
+      if (key === "d") return this.deleteSelectedFeedTopic();
       if (key === "\r" || key === " ") return this.toggleSelectedSetting();
       if (key === "\x1b[C" || key === "+") return this.adjustSelectedSetting(1);
       if (key === "\x1b[D" || key === "-") return this.adjustSelectedSetting(-1);
@@ -153,6 +157,52 @@ export class UiDeskApp {
   syncKnowledgeNow() {
     const sync = pullAndImportKnowledge();
     this.status = formatSyncStatus(sync);
+    this.render();
+  }
+
+  startAddFeedTopic() {
+    this.knowledgePrompt = { action: "add-feed-topic", value: "" };
+    this.status = "New Feed topic";
+    this.render();
+  }
+
+  handleKnowledgePromptKey(key) {
+    if (key === "\x1b") {
+      this.knowledgePrompt = null;
+      this.status = "Cancelled";
+      return this.render();
+    }
+    if (key === "\r") {
+      const value = this.knowledgePrompt.value.trim();
+      if (this.knowledgePrompt.action === "add-feed-topic" && value) {
+        addFeedTopic(value);
+        this.status = `Added topic: ${value}. Commit/push to apply in cloud.`;
+      } else {
+        this.status = "No topic added";
+      }
+      this.knowledgePrompt = null;
+      return this.render();
+    }
+    if (key === "\x7f") {
+      this.knowledgePrompt.value = this.knowledgePrompt.value.slice(0, -1);
+      return this.render();
+    }
+    if (key >= " " && key !== "\x7f") {
+      this.knowledgePrompt.value += key;
+      return this.render();
+    }
+  }
+
+  deleteSelectedFeedTopic() {
+    const row = this.selectedSettingsRow();
+    if (!row || row.kind !== "feed-topic") {
+      this.status = "Select a Feed topic to delete";
+      return this.render();
+    }
+    deleteFeedTopic(row.index);
+    const rows = this.settingsSelectableRows();
+    this.knowledgeCursor.settings = Math.min(this.knowledgeCursor.settings, Math.max(0, rows.length - 1));
+    this.status = `Deleted topic: ${row.label}. Commit/push to apply in cloud.`;
     this.render();
   }
 
@@ -596,11 +646,13 @@ export class UiDeskApp {
         ? "Up/Down select, Enter open, r read/unread, u sync"
         : this.knowledgeSubtab === "edge"
           ? "Up/Down select, Enter open, a approve, s save, i ignore, u sync"
-          : "Up/Down select, Enter/Space toggle, +/- adjust, u sync";
+          : "n new topic, d delete topic, Enter toggle, +/- adjust, u sync";
     const tabs = ` [${this.knowledgeSubtab === "feed" ? "Feed" : "feed"}] [${this.knowledgeSubtab === "edge" ? "Edge" : "edge"}] [${this.knowledgeSubtab === "settings" ? "Settings" : "settings"}]`;
     lines.push(move(startRow, 1), color.soft, clip(` Knowledge ${tabs}  ${hint}`, width), color.reset);
     const body = this.knowledgeDetail
       ? this.knowledgeDetailLines(width, height - 1)
+      : this.knowledgePrompt
+        ? this.knowledgePromptLines(width, height - 1)
       : this.knowledgeSubtab === "feed"
         ? this.feedLines(summary, width, height - 1)
         : this.knowledgeSubtab === "edge"
@@ -619,6 +671,22 @@ export class UiDeskApp {
       ? this.articleDetailLines(item, width)
       : this.candidateDetailLines(item, width);
     return lines.slice(this.knowledgeScroll, this.knowledgeScroll + height);
+  }
+
+  knowledgePromptLines(width, height) {
+    const value = this.knowledgePrompt?.value || "";
+    const lines = [
+      clip(`${color.accent}New Feed Topic${color.reset}`, width),
+      clip(`${color.gray}${"-".repeat(width)}${color.reset}`, width),
+      clip(" Type a topic name. Enter saves, Esc cancels.", width),
+      "",
+      clip(`${color.inverse} ${value || "topic name..."} ${color.reset}`, width),
+      "",
+      clip(" Starter sources: Hacker News, GitHub Search, arXiv topic search, r/LocalLLaMA.", width),
+      clip(" You can disable the topic later with Space or delete it with d.", width),
+    ];
+    while (lines.length < height) lines.push(" ".repeat(width));
+    return lines.slice(0, height);
   }
 
   articleDetailLines(article, width) {
@@ -739,7 +807,7 @@ export class UiDeskApp {
     const lines = [
       clip(`${color.accent}Settings${color.reset}  source and scoring controls`, width),
       clip(`${color.gray}${"-".repeat(width)}${color.reset}`, width),
-      clip(" Local + repo mirror update immediately. Commit/push after changes to apply them in GitHub Actions.", width),
+      clip(" n new Feed topic  d delete selected Feed topic  Space toggle  +/- adjust. Commit/push for cloud.", width),
       "",
     ];
     const contentHeight = Math.max(1, height - lines.length);

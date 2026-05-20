@@ -44,6 +44,8 @@ Knowledge Settings shortcuts:
 - `Enter` / `Space`: toggle Feed topics or Edge categories
 - `+` / `-`: adjust topic article caps, Edge daily card cap, or score threshold
 - `Left` / `Right`: adjust the selected numeric setting
+- `n`: add a new Feed topic
+- `d`: delete the selected Feed topic
 
 ## Config
 
@@ -125,7 +127,7 @@ node .\scripts\knowledge-action.js ignore <candidate-id>
 
 The same actions are also available directly in the TUI from the Knowledge Edge subtab with `a`, `s`, and `i`.
 
-The Knowledge Settings subtab can edit `sources.json` without hand-editing JSON. It updates both the local store in `C:\Projects\UI_Desk\knowledge` and the repo mirror in `C:\Projects\UI\knowledge`; commit and push after changing settings if you want GitHub Actions to use them.
+The Knowledge Settings subtab can edit `sources.json` without hand-editing JSON. It updates both the local store in `C:\Projects\UI_Desk\knowledge` and the repo mirror in `C:\Projects\UI\knowledge`; commit and push after changing settings if you want GitHub Actions to use them. New Feed topics start with a broad starter source set: Hacker News, GitHub Search, arXiv topic search, and r/LocalLLaMA.
 
 Edge scoring now inspects GitHub candidates before recommending them:
 
