@@ -1,0 +1,151 @@
+{
+  "updated_at": "2026-05-20T19:54:11.341Z",
+  "topics": [
+    {
+      "name": "AI agents",
+      "active": true
+    },
+    {
+      "name": "AI dev tools",
+      "active": true
+    },
+    {
+      "name": "Local LLMs",
+      "active": true
+    }
+  ],
+  "articles": [
+    {
+      "title": "Show HN: Superlog (YC P26) – Observability that installs itself and fixes bugs",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://superlog.sh/",
+      "date": "2026-05-19",
+      "topic": "AI agents",
+      "type": "article",
+      "read": true,
+      "summary": "Hey HN, we’re Nico and Arseniy, co-founders of Superlog ( https://superlog.sh ). We're building a self-installing, self healing observability tool meant not to be opened. It has a wizard that daily sets up proper logging and an agent that investigates errors and opens PRs. Super short demo: https://www.youtube.com/watch?v=xFhU9Mk247M . In our earlier star...",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-19\\02-show-hn-superlog-yc-p26-observability-that-installs-itself-and-fixes-b.md"
+    },
+    {
+      "title": "Show HN: Haystack – Review the PRs that need human attention",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://haystackeditor.com/",
+      "date": "2026-05-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! We're building Haystack ( https://haystackeditor.com/ ) to help teams deal with the explosion in the number of pull requests that need to be reviewed due to the rise of coding agents. Haystack replaces the GitHub PR review system with a queue that triages each PR before a human has to read any diffs. It looks at the diffs, the codebase, and the co...",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-18\\03-show-hn-haystack-review-the-prs-that-need-human-attention.md"
+    },
+    {
+      "title": "Show HN: Id-agent – Token efficient UUID alternative for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/vostride/id-agent",
+      "date": "2026-05-19",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Id-agent – Token efficient UUID alternative for AI agents",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-19\\04-show-hn-id-agent-token-efficient-uuid-alternative-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: InsForge – Open-source Heroku for coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/InsForge/InsForge",
+      "date": "2026-05-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm Hang, cofounder of InsForge (YC P26). InsForge is an open-source Heroku for AI coding agents: a backend platform designed for coding agents to deploy, operate, and debug end-to-end. Open source under Apache 2.0 ( https://github.com/InsForge/InsForge ). Quick demo here ( https://youtu.be/7Bax5qz0IfM ). We started InsForge because we just wanted...",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-18\\05-show-hn-insforge-open-source-heroku-for-coding-agents.md"
+    },
+    {
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/MinishLab/semble",
+      "date": "2026-05-17",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can't find something directly, it falls back to grep, reading full files or launching subagents. This uses a lot of tokens, and often still misses the relevant code. There are existing tools for thi...",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI dev tools\\2026-05-17\\06-show-hn-semble-code-search-for-agents-that-uses-98-fewer-tokens-than-g.md"
+    },
+    {
+      "title": "May 13, 2026 · product Development environments for your cloud agents Samantha, David & Nick 7m Samantha, David & Nick · 7m",
+      "source": "Cursor Blog",
+      "url": "https://cursor.com/blog/cloud-agent-development-environments",
+      "date": "2026-05-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "May 13, 2026 · product Development environments for your cloud agents Samantha, David & Nick 7m Samantha, David & Nick · 7m",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI dev tools\\2026-05-12\\07-may-13-2026-product-development-environments-for-your-cloud-agents-sam.md"
+    },
+    {
+      "title": "cumbof/team",
+      "source": "GitHub Search API",
+      "url": "https://github.com/cumbof/team",
+      "date": "2026-05-20",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Orchestrate a cluster of containerized local LLMs — each with its own persona, role, and goal — that collaborate until the work is done.",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI dev tools\\2026-05-20\\08-cumbof-team.md"
+    },
+    {
+      "title": "Show HN: Lance – image/video generation and understanding in one model",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/bytedance/Lance",
+      "date": "2026-05-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "The model has 3B active parameters. We put the code, homepage, paper and model links here: - Code: https://github.com/bytedance/Lance - Homepage: https://lance-project.github.io/ - Paper: https://arxiv.org/abs/2605.18678 - Model: https://huggingface.co/bytedance-research/Lance p.s. Lance is a research project, not a polished product. The model was trained...",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI dev tools\\2026-05-20\\09-show-hn-lance-image-video-generation-and-understanding-in-one-model.md"
+    },
+    {
+      "title": "LLC: lightweight OpenWebUI alt - now with chat converter + custom tool calls",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiunzw/llc_lightweight_openwebui_alt_now_with_chat/",
+      "date": "2026-05-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Posted my project here a while back and got some solid feedback via DMs. The main ask was a converter so people don't lose their existing chats when switching - that's in now. https://preview.redd.it/mfn5i99d6c2h1.png?width=1400&format=png&auto=webp&s=10af6f8645c26d8d25b2356f98cee019c508a4d6 Quick context: LLC is a chat frontend for local LLMs. You downlo...",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\Local LLMs\\2026-05-20\\10-llc-lightweight-openwebui-alt-now-with-chat-converter-custom-tool-call.md"
+    },
+    {
+      "title": "Qwen 3.6 35B GGUF: NTP vs MTP quantization results across GPUs and CPUs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tipihx/qwen_36_35b_gguf_ntp_vs_mtp_quantization_results/",
+      "date": "2026-05-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA , We’ve released our ByteShape Qwen 3.6 35B GGUF quantizations in two families: standard NTP (Next Token Prediction or non-MTP) and MTP. Blog / Download NTP Models / Download MTP Models TL;DR For NTP, “pick the largest quant that fits” worked surprisingly well. Lower bpw was not automatically better: our largest model was very hard to bea...",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\Local LLMs\\2026-05-20\\11-qwen-3-6-35b-gguf-ntp-vs-mtp-quantization-results-across-gpus-and-cpus.md"
+    },
+    {
+      "title": "RTX 5080 16GB: Qwen3.6 35B MoE at 128k context — 56 tok/s, and why MTP doesn't help",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiixql/rtx_5080_16gb_qwen36_35b_moe_at_128k_context_56/",
+      "date": "2026-05-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "MTP (Multi-Token Prediction) just merged into mainline llama.cpp at b9190. I promised u/WarthogConfident4039 a Qwen3.6 benchmarking round. Three configs, tested at real coding-agent context lengths (not just 512 tokens). The main finding surprised me. TL;DR: 35B Q4_K_XL, no MTP, --fit-target 1536 **, 131k context. That's the config.** 56 tok/s generation,...",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\Local LLMs\\2026-05-20\\12-rtx-5080-16gb-qwen3-6-35b-moe-at-128k-context-56-tok-s-and-why-mtp-doe.md"
+    },
+    {
+      "title": "How accurate can “whichllm” be?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tij57l/how_accurate_can_whichllm_be/",
+      "date": "2026-05-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hello people I think the question is clear but I wanted to add some context: I work on internal tools in my job and some of the tools are for us developers (most tools are for marketing and factory production). I am currently working on a small cli tool that uses a local model and since our work laptops have 4-6gb of vRAM l, models need to be small. While...",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\Local LLMs\\2026-05-20\\13-how-accurate-can-whichllm-be.md"
+    }
+  ]
+}

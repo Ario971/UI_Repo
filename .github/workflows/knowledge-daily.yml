@@ -1,0 +1,39 @@
+name: Knowledge Daily Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 07:00 Europe/Berlin is 05:00 UTC during summer time.
+    # Adjust to 06:00 UTC during winter if exact local wall-clock time matters.
+    - cron: "0 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  knowledge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run Feed then Edge sync
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          UI_DESK_KNOWLEDGE_ROOT: ${{ github.workspace }}/knowledge
+        run: |
+          node scripts/knowledge-daily.js
+
+      - name: Commit knowledge updates
+        run: |
+          git config user.name "ui-desk-bot"
+          git config user.email "ui-desk-bot@users.noreply.github.com"
+          git add knowledge || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Update knowledge digest"
+          git push

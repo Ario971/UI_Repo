@@ -1,0 +1,14 @@
+{
+  "source_weights": {
+    "github_trending": 1,
+    "hn": 1,
+    "reddit_localllama": 1
+  },
+  "topic_weights": {
+    "claude_skills": 1,
+    "mcp": 1,
+    "agent_frameworks": 1
+  },
+  "approved": [],
+  "ignored": []
+}

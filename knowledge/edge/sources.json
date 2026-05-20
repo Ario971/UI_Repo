@@ -1,0 +1,212 @@
+{
+  "status": "approved",
+  "approved_at": "2026-05-20T19:47:39.793Z",
+  "categories": [
+    {
+      "name": "github_discovery",
+      "active": true,
+      "sources": [
+        {
+          "name": "GitHub Trending",
+          "url": "https://github.com/trending",
+          "access": "html_or_search_api",
+          "topics": [
+            "agents",
+            "llm",
+            "mcp",
+            "ai-tools"
+          ],
+          "active": true
+        },
+        {
+          "name": "GitHub Search API",
+          "url": "https://docs.github.com/en/rest/search/search",
+          "access": "api",
+          "topics": [
+            "claude-skill",
+            "codex-cli",
+            "mcp-server",
+            "agent-framework"
+          ],
+          "active": true
+        },
+        {
+          "name": "GH Archive",
+          "url": "https://www.gharchive.org/",
+          "access": "bigquery_or_archives",
+          "topics": [
+            "star_growth",
+            "repo_activity"
+          ],
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "community_signal",
+      "active": true,
+      "sources": [
+        {
+          "name": "Hacker News top/show",
+          "url": "https://github.com/HackerNews/API",
+          "access": "official_firebase_api",
+          "topics": [
+            "show_hn",
+            "devtools",
+            "agents"
+          ],
+          "active": true
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+          "access": "rss",
+          "topics": [
+            "ollama",
+            "quantization",
+            "local_models"
+          ],
+          "active": true
+        },
+        {
+          "name": "r/ClaudeAI",
+          "url": "https://www.reddit.com/r/ClaudeAI/.rss",
+          "access": "rss",
+          "topics": [
+            "claude_code",
+            "skills"
+          ],
+          "active": true
+        },
+        {
+          "name": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning/.rss",
+          "access": "rss",
+          "topics": [
+            "papers",
+            "techniques"
+          ],
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "official_ai_sources",
+      "active": true,
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/news/",
+          "access": "rss_or_html",
+          "topics": [
+            "models",
+            "tools",
+            "agents"
+          ],
+          "active": true
+        },
+        {
+          "name": "Anthropic News",
+          "url": "https://www.anthropic.com/news",
+          "access": "rss_or_html",
+          "topics": [
+            "claude",
+            "skills",
+            "mcp"
+          ],
+          "active": true
+        },
+        {
+          "name": "Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/",
+          "access": "docs_html",
+          "topics": [
+            "mcp"
+          ],
+          "active": true
+        },
+        {
+          "name": "Ollama Library",
+          "url": "https://ollama.com/library",
+          "access": "html",
+          "topics": [
+            "local_models"
+          ],
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "research_and_models",
+      "active": true,
+      "sources": [
+        {
+          "name": "arXiv cs.AI",
+          "url": "https://export.arxiv.org/api/query?search_query=cat:cs.AI",
+          "access": "api",
+          "topics": [
+            "agents",
+            "planning"
+          ],
+          "active": true
+        },
+        {
+          "name": "arXiv cs.CL",
+          "url": "https://export.arxiv.org/api/query?search_query=cat:cs.CL",
+          "access": "api",
+          "topics": [
+            "language_models"
+          ],
+          "active": true
+        },
+        {
+          "name": "Hugging Face Models",
+          "url": "https://huggingface.co/models?sort=trending",
+          "access": "api_or_html",
+          "topics": [
+            "models",
+            "spaces"
+          ],
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "awesome_lists",
+      "active": true,
+      "sources": [
+        {
+          "name": "awesome-mcp",
+          "url": "https://github.com/topics/awesome-mcp",
+          "access": "github_search",
+          "topics": [
+            "mcp"
+          ],
+          "active": true
+        },
+        {
+          "name": "awesome-llm-agents",
+          "url": "https://github.com/topics/llm-agents",
+          "access": "github_search",
+          "topics": [
+            "agent_frameworks"
+          ],
+          "active": true
+        },
+        {
+          "name": "awesome-claude-code",
+          "url": "https://github.com/search?q=awesome+claude+code&type=repositories",
+          "access": "github_search",
+          "topics": [
+            "claude_skills"
+          ],
+          "active": true
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "max_cards": 3,
+    "score_threshold": 65
+  }
+}

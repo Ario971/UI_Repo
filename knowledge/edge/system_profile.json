@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-05-20T19:14:07.026Z",
+  "os": {
+    "platform": "win32",
+    "release": "10.0.26200",
+    "arch": "x64"
+  },
+  "hardware": {
+    "cpu": "Intel(R) Core(TM) Ultra 9 275HX",
+    "ram_gb": 31,
+    "gpu": "RTX 5080 16GB (user-provided)"
+  },
+  "installed_clis": {
+    "git": "git version 2.54.0.windows.1",
+    "node": null,
+    "python": "Python 3.14.5",
+    "codex": null,
+    "claude": "2.1.143 (Claude Code)",
+    "ollama": null
+  },
+  "ollama_models": [],
+  "preferences": "Edit this section manually. Example: prefer Python over Node, use VS Code, avoid tools that require heavy setup."
+}

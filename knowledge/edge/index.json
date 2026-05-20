@@ -1,0 +1,173 @@
+{
+  "last_checked_at": "2026-05-20T21:43:10.031Z",
+  "settings": {
+    "max_cards": 3,
+    "score_threshold": 65
+  },
+  "candidates": [
+    {
+      "id": "marcusquinn/aidevops",
+      "name": "marcusquinn/aidevops",
+      "url": "https://github.com/marcusquinn/aidevops",
+      "date": "2026-05-20",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 88,
+      "momentum": 95,
+      "risk": 54,
+      "integration_effort": 58,
+      "expected_gain": 77,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Id-agent – Token efficient UUID alternative for AI agents",
+          "date": "2026-05-19",
+          "topic": "AI agents",
+          "similarity": 0.247,
+          "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-19\\04-show-hn-id-agent-token-efficient-uuid-alternative-for-ai-agents.md"
+        },
+        {
+          "title": "Show HN: InsForge – Open-source Heroku for coding agents",
+          "date": "2026-05-18",
+          "topic": "AI agents",
+          "similarity": 0.224,
+          "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-18\\05-show-hn-insforge-open-source-heroku-for-coding-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-20)",
+        "MIT license",
+        "249 GitHub stars",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 10,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps elysia, @secretlint/secretlint-rule-preset-recommend, @types/bun, secretlint, typescript; scripts dev, dashboard, quality, dspy:init, dspy:dev, dspy:build, install:python, setup"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps dspy==3.1.0b1, openai==2.8.0, litellm==1.79.3, pandas==2.3.3, numpy==2.0.2, requests==2.33.0, datasets==4.4.1, diskcache==5.6.3  # KNOWN: CVE-2025-69872 — no patch available yet, monitor for update"
+        }
+      ],
+      "install_commands": [
+        "npm install -g aidevops && aidevops update",
+        "git clone https://github.com/marcusquinn/aidevops.git ~/Git/aidevops",
+        "ollama pull glm-ocr",
+        "ollama run glm-ocr \"Extract all text\" --images /path/to/document.png",
+        "npm install -g markdownlint-language-server  # Markdown diagnostics",
+        "cargo install toon-lsp                        # TOON syntax validation"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-19 about AI agents; this candidate overlaps with \"Show HN: Id-agent – Token efficient UUID alternative for AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\edge\\candidates\\2026-05-20\\01-marcusquinn-aidevops.md"
+    },
+    {
+      "id": "hyperb1iss/sibyl",
+      "name": "hyperb1iss/sibyl",
+      "url": "https://github.com/hyperb1iss/sibyl",
+      "date": "2026-05-20",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 75,
+      "momentum": 72,
+      "risk": 45,
+      "integration_effort": 48,
+      "expected_gain": 81,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+          "date": "2026-05-17",
+          "topic": "AI dev tools",
+          "similarity": 0.193,
+          "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI dev tools\\2026-05-17\\06-show-hn-semble-code-search-for-agents-that-uses-98-fewer-tokens-than-g.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-20)",
+        "AGPL-3.0 license",
+        "24 GitHub stars",
+        "Matches 1 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 0,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-05-17 about AI dev tools; this candidate overlaps with \"Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep\" and may turn that reading into a practical workflow improvement.",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\edge\\candidates\\2026-05-20\\02-hyperb1iss-sibyl.md"
+    },
+    {
+      "id": "thiagoopro/ai-agent-framework",
+      "name": "Thiagoopro/AI-Agent-Framework",
+      "url": "https://github.com/Thiagoopro/AI-Agent-Framework",
+      "date": "2026-05-20",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 86,
+      "momentum": 45,
+      "risk": 35,
+      "integration_effort": 38,
+      "expected_gain": 77,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Id-agent – Token efficient UUID alternative for AI agents",
+          "date": "2026-05-19",
+          "topic": "AI agents",
+          "similarity": 0.277,
+          "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-19\\04-show-hn-id-agent-token-efficient-uuid-alternative-for-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-20)",
+        "MIT license",
+        "Matches 1 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, authors, license, readme, include, exclude"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-05-19 about AI agents; this candidate overlaps with \"Show HN: Id-agent – Token efficient UUID alternative for AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "C:\\Projects\\UI_Desk\\knowledge\\edge\\candidates\\2026-05-20\\03-thiagoopro-ai-agent-framework.md"
+    }
+  ]
+}

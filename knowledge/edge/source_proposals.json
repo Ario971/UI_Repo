@@ -1,0 +1,170 @@
+{
+  "status": "pending_approval",
+  "categories": {
+    "github_discovery": [
+      {
+        "name": "GitHub Trending",
+        "url": "https://github.com/trending",
+        "access": "html_or_search_api",
+        "topics": [
+          "agents",
+          "llm",
+          "mcp",
+          "ai-tools"
+        ]
+      },
+      {
+        "name": "GitHub Search API",
+        "url": "https://docs.github.com/en/rest/search/search",
+        "access": "api",
+        "topics": [
+          "claude-skill",
+          "codex-cli",
+          "mcp-server",
+          "agent-framework"
+        ]
+      },
+      {
+        "name": "GH Archive",
+        "url": "https://www.gharchive.org/",
+        "access": "bigquery_or_archives",
+        "topics": [
+          "star_growth",
+          "repo_activity"
+        ]
+      }
+    ],
+    "community_signal": [
+      {
+        "name": "Hacker News top/show",
+        "url": "https://github.com/HackerNews/API",
+        "access": "official_firebase_api",
+        "topics": [
+          "show_hn",
+          "devtools",
+          "agents"
+        ]
+      },
+      {
+        "name": "r/LocalLLaMA",
+        "url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+        "access": "rss",
+        "topics": [
+          "ollama",
+          "quantization",
+          "local_models"
+        ]
+      },
+      {
+        "name": "r/ClaudeAI",
+        "url": "https://www.reddit.com/r/ClaudeAI/.rss",
+        "access": "rss",
+        "topics": [
+          "claude_code",
+          "skills"
+        ]
+      },
+      {
+        "name": "r/MachineLearning",
+        "url": "https://www.reddit.com/r/MachineLearning/.rss",
+        "access": "rss",
+        "topics": [
+          "papers",
+          "techniques"
+        ]
+      }
+    ],
+    "official_ai_sources": [
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/news/",
+        "access": "rss_or_html",
+        "topics": [
+          "models",
+          "tools",
+          "agents"
+        ]
+      },
+      {
+        "name": "Anthropic News",
+        "url": "https://www.anthropic.com/news",
+        "access": "rss_or_html",
+        "topics": [
+          "claude",
+          "skills",
+          "mcp"
+        ]
+      },
+      {
+        "name": "Model Context Protocol",
+        "url": "https://modelcontextprotocol.io/",
+        "access": "docs_html",
+        "topics": [
+          "mcp"
+        ]
+      },
+      {
+        "name": "Ollama Library",
+        "url": "https://ollama.com/library",
+        "access": "html",
+        "topics": [
+          "local_models"
+        ]
+      }
+    ],
+    "research_and_models": [
+      {
+        "name": "arXiv cs.AI",
+        "url": "https://export.arxiv.org/api/query?search_query=cat:cs.AI",
+        "access": "api",
+        "topics": [
+          "agents",
+          "planning"
+        ]
+      },
+      {
+        "name": "arXiv cs.CL",
+        "url": "https://export.arxiv.org/api/query?search_query=cat:cs.CL",
+        "access": "api",
+        "topics": [
+          "language_models"
+        ]
+      },
+      {
+        "name": "Hugging Face Models",
+        "url": "https://huggingface.co/models?sort=trending",
+        "access": "api_or_html",
+        "topics": [
+          "models",
+          "spaces"
+        ]
+      }
+    ],
+    "awesome_lists": [
+      {
+        "name": "awesome-mcp",
+        "url": "https://github.com/topics/awesome-mcp",
+        "access": "github_search",
+        "topics": [
+          "mcp"
+        ]
+      },
+      {
+        "name": "awesome-llm-agents",
+        "url": "https://github.com/topics/llm-agents",
+        "access": "github_search",
+        "topics": [
+          "agent_frameworks"
+        ]
+      },
+      {
+        "name": "awesome-claude-code",
+        "url": "https://github.com/search?q=awesome+claude+code&type=repositories",
+        "access": "github_search",
+        "topics": [
+          "claude_skills"
+        ]
+      }
+    ]
+  }
+}

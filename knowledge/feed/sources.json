@@ -1,0 +1,139 @@
+{
+  "status": "approved",
+  "approved_at": "2026-05-20T19:47:39.793Z",
+  "topics": [
+    {
+      "name": "AI agents",
+      "active": true,
+      "max_articles_per_run": 4,
+      "sources": [
+        {
+          "name": "OpenAI Blog",
+          "type": "official_blog",
+          "url": "https://openai.com/news/",
+          "access": "rss_or_html",
+          "reason": "Primary source for OpenAI agent/model releases.",
+          "active": true
+        },
+        {
+          "name": "Anthropic News",
+          "type": "official_blog",
+          "url": "https://www.anthropic.com/news",
+          "access": "rss_or_html",
+          "reason": "Primary source for Claude and agent capability updates.",
+          "active": true
+        },
+        {
+          "name": "Hacker News Top + Show HN",
+          "type": "api",
+          "url": "https://github.com/HackerNews/API",
+          "access": "official_firebase_api",
+          "reason": "High-signal launches and developer discussion.",
+          "active": true
+        },
+        {
+          "name": "arXiv cs.AI/cs.CL/cs.LG",
+          "type": "paper_api",
+          "url": "https://info.arxiv.org/help/api/index.html",
+          "access": "api",
+          "reason": "Research papers on agents, retrieval, planning, and LLM systems.",
+          "active": true
+        },
+        {
+          "name": "Hugging Face Blog",
+          "type": "official_blog",
+          "url": "https://huggingface.co/blog",
+          "access": "rss_or_html",
+          "reason": "Applied model and tooling writeups.",
+          "active": true
+        },
+        {
+          "name": "GitHub Trending",
+          "type": "web_or_api_search",
+          "url": "https://github.com/trending",
+          "access": "html_or_github_search_api",
+          "reason": "Fast discovery of new open-source agent tools.",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "AI dev tools",
+      "active": true,
+      "max_articles_per_run": 4,
+      "sources": [
+        {
+          "name": "Cursor Blog",
+          "type": "official_blog",
+          "url": "https://cursor.com/blog",
+          "access": "rss_or_html",
+          "reason": "IDE/agent workflow updates.",
+          "active": true
+        },
+        {
+          "name": "Continue Blog",
+          "type": "official_blog",
+          "url": "https://blog.continue.dev/",
+          "access": "rss_or_html",
+          "reason": "Open-source coding assistant ecosystem.",
+          "active": true
+        },
+        {
+          "name": "GitHub Search API",
+          "type": "api",
+          "url": "https://docs.github.com/en/rest/search/search",
+          "access": "api",
+          "reason": "Targeted repo discovery for CLIs and extensions.",
+          "active": true
+        },
+        {
+          "name": "Hacker News Show HN",
+          "type": "api",
+          "url": "https://github.com/HackerNews/API",
+          "access": "official_firebase_api",
+          "reason": "New dev-tool launches.",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Local LLMs",
+      "active": true,
+      "max_articles_per_run": 4,
+      "sources": [
+        {
+          "name": "Ollama Blog",
+          "type": "official_blog",
+          "url": "https://ollama.com/blog",
+          "access": "rss_or_html",
+          "reason": "Local model and runtime releases.",
+          "active": true
+        },
+        {
+          "name": "Hugging Face Trending Models",
+          "type": "platform",
+          "url": "https://huggingface.co/models?sort=trending",
+          "access": "api_or_html",
+          "reason": "New and trending local/open models.",
+          "active": true
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "type": "reddit_rss",
+          "url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+          "access": "rss",
+          "reason": "Community signal for quantizations, benchmarks, and releases.",
+          "active": true
+        },
+        {
+          "name": "llama.cpp releases",
+          "type": "github_releases",
+          "url": "https://github.com/ggerganov/llama.cpp/releases",
+          "access": "github_api",
+          "reason": "Core local inference stack updates.",
+          "active": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "port": 8000,
+  "datasetDir": "Dataset",
+  "openaiModel": "gpt-5.4-mini",
+  "defaultProvider": "openai"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ui-desk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "ui-desk": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "check": "node --check ./src/index.js",
+    "knowledge:init": "node ./scripts/knowledge-init.js",
+    "knowledge:approve-sources": "node ./scripts/knowledge-approve-sources.js",
+    "knowledge:daily": "node ./scripts/knowledge-daily.js",
+    "knowledge:action": "node ./scripts/knowledge-action.js",
+    "knowledge:export": "node ./scripts/knowledge-export.js",
+    "knowledge:import": "node ./scripts/knowledge-import.js",
+    "cloud:check": "node ./scripts/cloud-check.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
