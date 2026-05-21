@@ -1,10 +1,174 @@
 {
-  "last_checked_at": "2026-05-20T22:10:49.337Z",
+  "last_checked_at": "2026-05-21T08:29:02.845Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "notnull92/hera-agent",
+      "name": "NotNull92/hera-agent",
+      "url": "https://github.com/NotNull92/hera-agent",
+      "date": "2026-05-21",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 97,
+      "momentum": 61,
+      "risk": 40,
+      "integration_effort": 48,
+      "expected_gain": 77,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
+          "date": "2026-05-20",
+          "topic": "AI agents",
+          "similarity": 0.209,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
+        },
+        {
+          "title": "Show HN: Agent Chat Bridge – give AI IDE agents an async callback",
+          "date": "2026-05-21",
+          "topic": "AI agents",
+          "similarity": 0.184,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/27-show-hn-agent-chat-bridge-give-ai-ide-agents-an-async-callback.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-21)",
+        "MIT license",
+        "12 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "go.mod",
+          "summary": "module github.com/NotNull92/hera-agent"
+        }
+      ],
+      "install_commands": [
+        "go install github.com/NotNull92/hera-agent@latest",
+        "go install"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-20 about AI agents; this candidate overlaps with \"Show HN: Dari-docs – Optimize your docs using parallel coding agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-21/01-notnull92-hera-agent.md"
+    },
+    {
+      "id": "viettua3978/iosm-cli",
+      "name": "viettua3978/iosm-cli",
+      "url": "https://github.com/viettua3978/iosm-cli",
+      "date": "2026-05-21",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 86,
+      "momentum": 49,
+      "risk": 30,
+      "integration_effort": 36,
+      "expected_gain": 79,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
+          "date": "2026-05-20",
+          "topic": "AI agents",
+          "similarity": 0.224,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
+        },
+        {
+          "title": "Show HN: Agent Chat Bridge – give AI IDE agents an async callback",
+          "date": "2026-05-21",
+          "topic": "AI agents",
+          "similarity": 0.193,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/27-show-hn-agent-chat-bridge-give-ai-ide-agents-an-async-callback.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-21)",
+        "MIT license",
+        "1 GitHub stars",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 85,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @mariozechner/jiti, @mariozechner/pi-agent-core, @mariozechner/pi-ai, @mariozechner/pi-tui, @modelcontextprotocol/sdk, @silvia-odwyer/photon-node, @sinclair/typebox, ajv; scripts clean, dev, build, deploy-local, build:binary, check, copy-assets, copy-binary-assets"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-05-20 about AI agents; this candidate overlaps with \"Show HN: Dari-docs – Optimize your docs using parallel coding agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-21/02-viettua3978-iosm-cli.md"
+    },
+    {
+      "id": "wjl1224734792/jarvis-agent-factory",
+      "name": "Wjl1224734792/Jarvis-Agent-Factory",
+      "url": "https://github.com/Wjl1224734792/Jarvis-Agent-Factory",
+      "date": "2026-05-21",
+      "source": "awesome-mcp",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 57,
+      "risk": 24,
+      "integration_effort": 60,
+      "expected_gain": 69,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [],
+      "pros": [
+        "Recently updated (2026-05-21)",
+        "MIT license",
+        "6 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @hono/node-server, @modelcontextprotocol/sdk, hono, yaml, @eslint/js, @types/node, @typescript-eslint/eslint-plugin, @typescript-eslint/parser; scripts clean, prebuild, lint, lint:fix, test, test:watch, typecheck, build"
+        }
+      ],
+      "install_commands": [
+        "npm i -g jarvis-agent-factory   # 安装 CLI（零原生依赖，node:sqlite 内置）",
+        "Claude Code",
+        "npm test",
+        "git tag -a v<version> -m \"v<version> - <概要>\"",
+        "git push origin main && git push origin v<version>",
+        "npm view jarvis-agent-factory version"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "Wjl1224734792/Jarvis-Agent-Factory matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-21/03-wjl1224734792-jarvis-agent-factory.md"
+    },
     {
       "id": "colbymchenry/codegraph",
       "name": "colbymchenry/codegraph",

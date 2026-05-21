@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T22:10:15.338Z",
+  "updated_at": "2026-05-21T08:28:10.640Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: SafeRun – Replay debugging and inline prevention for AI agents 3",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://news.ycombinator.com/item?id=48217376",
+      "date": "2026-05-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Background on why we built Replay first instead of validation: [ https://dev.to/saferunai/why-we-built-replay-before-everythi... ] Working SDK in Python and TypeScript. Sub-50ms p95 on the check-action API. Currently onboarding the first design partners. Happy to answer questions in the comments. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/26-show-hn-saferun-replay-debugging-and-inline-prevention-for-ai-agents-3.md"
+    },
+    {
+      "title": "Show HN: Agent Chat Bridge – give AI IDE agents an async callback",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/sathvikc/agent-chat-bridge",
+      "date": "2026-05-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Agent Chat Bridge – give AI IDE agents an async callback (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/27-show-hn-agent-chat-bridge-give-ai-ide-agents-an-async-callback.md"
+    },
+    {
+      "title": "bastion-soft/bastion-prompt-protection",
+      "source": "GitHub Trending",
+      "url": "https://github.com/bastion-soft/bastion-prompt-protection",
+      "date": "2026-05-21",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Lightweight prompt-injection detector built for AI agents, copilots, and LLM apps. Fast, local, calibrated. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/28-bastion-soft-bastion-prompt-protection.md"
+    },
+    {
+      "title": "May 18, 2026 Announcements Anthropic acquires Stainless",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "date": "2026-05-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "May 18, 2026 Announcements Anthropic acquires Stainless (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-18/29-may-18-2026-announcements-anthropic-acquires-stainless.md"
+    },
+    {
+      "title": "simpx/loopat",
+      "source": "GitHub Search API",
+      "url": "https://github.com/simpx/loopat",
+      "date": "2026-05-21",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Self-hosted AI workspace built around context management. Works solo, scales to teams. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/30-simpx-loopat.md"
+    },
+    {
+      "title": "xingkaixin/yomitomo",
+      "source": "GitHub Search API",
+      "url": "https://github.com/xingkaixin/yomitomo",
+      "date": "2026-05-21",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Yomitomo 是面向深度阅读的本地阅读伙伴，把网页阅读、文本批注、讨论线程和 AI 助手放进同一个阅读现场。它的目标是让用户在阅读时直接留下判断、追问和上下文，并让 AI 助手围绕原文参与批注。 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/31-xingkaixin-yomitomo.md"
+    },
+    {
+      "title": "yashbansal-dev/OpenSeek",
+      "source": "GitHub Search API",
+      "url": "https://github.com/yashbansal-dev/OpenSeek",
+      "date": "2026-05-21",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "yashbansal-dev/OpenSeek Stars: 1 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/32-yashbansal-dev-openseek.md"
+    },
+    {
+      "title": "Show HN: I made a tactical map-based WWII submarine simulator (public beta)",
+      "source": "Hacker News Show HN",
+      "url": "https://silentshark.app/alpha/",
+      "date": "2026-05-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I've seen quite a few simming discussions on HN, so thought some of you might like this - I've created a map-centered, tactical submarine simulator and it's been a blast to make. I grew up playing Silent Service II on Atari ST with my dad, then got into Silent Hunter IV in the 2000s, and most recently have been loving the more recent UBoat. In each case,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-18/33-show-hn-i-made-a-tactical-map-based-wwii-submarine-simulator-public-be.md"
+    },
+    {
+      "title": "Qwen3.6 27B and llama.cpp appreciation post",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjbi24/qwen36_27b_and_llamacpp_appreciation_post/",
+      "date": "2026-05-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "To preface, here's my config: llama-server \\ --host 0.0.0.0 \\ --port 1235 \\ --models-preset %h/Software/models.ini \\ --models-max 1 \\ --sleep-idle-seconds 3600 \\ --timeout 3600 \\ --parallel 1 \\ --device ROCm0,ROCm1 [*] flash-attn = on jinja = true fit = true ctxcp = 5 offline = true mmproj-offload = false mmap = false ; ... many other models here ... [tp-... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-21/34-qwen3-6-27b-and-llama-cpp-appreciation-post.md"
+    },
+    {
+      "title": "PDF and non-text local file reading with AnythingLLM?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tj7zba/pdf_and_nontext_local_file_reading_with/",
+      "date": "2026-05-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So far, AnythingLLM works well for me when i copy files over to docker folder (so originals can't be erased/modified), and i have LLM do a text search. RAG I tested but with number of files and specificity, just searching for file names and content works better. However, i don't know how to extend this so that .doc, .pdf, etc files are also read for their... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-21/35-pdf-and-non-text-local-file-reading-with-anythingllm.md"
+    },
+    {
+      "title": "b9259",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9259",
+      "date": "2026-05-21",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "common/speculative : fix nullptr crash in get_devices_str (#23386) ggml_backend_dev_by_name always appends a nullptr sentinel to the devices vector. Skipping nullptr entries prevents assertion failure in ggml_backend_dev_name. Assisted-by: llama.cpp:local pi **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/down... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-21/36-b9259.md"
+    },
+    {
+      "title": "Qwen will release another 27B with high probability",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiwnpc/qwen_will_release_another_27b_with_high/",
+      "date": "2026-05-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "They are waiting for the exact roadmap submitted by /u/serige [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-20/37-qwen-will-release-another-27b-with-high-probability.md"
+    },
     {
       "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
       "source": "Hacker News Top + Show HN",
