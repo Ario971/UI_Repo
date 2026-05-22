@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-21T08:28:10.640Z",
+  "updated_at": "2026-05-22T08:18:20.625Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://news.ycombinator.com/item?id=48225596",
+      "date": "2026-05-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! We're Haakam, Michael, and Adi from AgentMail- a ycs25 company. We give AI agents their own email inboxes. Recently, we ran an experiment called Agent.Email. It's a signup flow designed specifically for AI agents instead of humans. The inspiration came from a few comments we received when we did our seed launch a few months back. They all came from... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/38-show-hn-agent-email-sign-up-via-curl-claim-with-a-human-otp.md"
+    },
+    {
+      "title": "Show HN: Sylph – the open-source company brain behind my YC startup",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/getnao/sylph",
+      "date": "2026-05-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN! I'm Claire, founder of nao Labs (YC X25). Two months ago I started building a company brain in a git repo. Now I fully run my company with 8 AI agents, 20+ skills, and a self-learning context repo. I built it in a git repo because I refused to lock into any tool - not a context layer, not a specific agent harness. Today I'm open sourcing it so o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/39-show-hn-sylph-the-open-source-company-brain-behind-my-yc-startup.md"
+    },
+    {
+      "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/kiloloop/agent-estimate",
+      "date": "2026-05-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I have used Codex & Claude Code for coding for a while, but how long a coding task will actually take? When I ask Claude Code to estimate, the result is often from training data, which is based on human speed. That’s why I built this tool, to estimate effort in ai agent speed. I run it every morning before I dispatch coding tasks to my agents. What's in i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
+    },
+    {
+      "title": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.22814v1",
+      "date": "2026-05-21",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Exploration is a prerequisite for learning useful behaviors in sparse-reward, long-horizon tasks, particularly within 3D environments. Curiosity-driven reinforcement learning addresses this via intrinsic rewards derived from the mismatch between the agent's predictive model of the world and reality. However, translating this intrinsic motivation to comple... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/41-remember-to-be-curious-episodic-context-and-persistent-worlds-for-3d-e.md"
+    },
+    {
+      "title": "Show HN: I Dedicated 4 Years to Mastering Offline Password Cracking",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=48221896",
+      "date": "2026-05-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I am Bojta Lepenye, and first of all, I want to thank the core developers of Hashcat. In my experience, it is quite literally the most capable tool available for offline password cracking across a wide range of use cases. I have spent the last 4 years (from age 14 to 18) extensively working with Hashcat and the tools surrounding it, and I hav... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/42-show-hn-i-dedicated-4-years-to-mastering-offline-password-cracking.md"
+    },
+    {
+      "title": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/FredAntB/Spec-Driven-Development",
+      "date": "2026-05-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "At my work they provided a single Claude subscription for everyone on the team. To be honest I like kiro better as it provides a way better SDD management. But the company can't provide it and I can't afford it yet. Turns out I had the skill creator skill in my claude instance so I made use of it to create this Skill. I made it fully by using Claude but I... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/43-show-hn-i-made-a-claude-skill-for-spec-driven-development-sdd.md"
+    },
+    {
+      "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
+      "source": "Hacker News Show HN",
+      "url": "https://freenet.org/",
+      "date": "2026-05-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "For the past 5 years or so I've been working on a ground-up redesign of Freenet, my peer-to-peer project from the early 2000s (now renamed Hyphanet). The new Freenet has been up and running since December along with some early applications like River[1], our decentralized group chat and Delta - a decentralized CMS. Users have already started to build thei... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/44-show-hn-freenet-a-peer-to-peer-platform-for-decentralized-apps.md"
+    },
+    {
+      "title": "Show HN: TLS Certificate Management and PKI",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=48231769",
+      "date": "2026-05-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello! This project is a TLS/X.509 certificate manager and PKI. Designed to provision and install your TLS certificates across public and private endpoints. It's something I created for my home lab, but has quickly expanded as I have been experimenting more and more with AI development tooling. You can see the product overview: https://www.zaita.com It's... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-22/45-show-hn-tls-certificate-management-and-pki.md"
+    },
+    {
+      "title": "Qwen3.6 35Ba3 has changed my workflows and even how I use my computer",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjwrp7/qwen36_35ba3_has_changed_my_workflows_and_even/",
+      "date": "2026-05-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "My workflow has changed basically to ask Codex to do certain tasks and then document how to do them (including errors it found on its way) into a skill. I feed that skill to pi, and suddenly my qwen3.6 gets that hard stuff done: - devops on a VPS - using docling to create epubs from old PDFs - using playwright to test stuff - Doing code tickets And the li... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-21/46-qwen3-6-35ba3-has-changed-my-workflows-and-even-how-i-use-my-computer.md"
+    },
+    {
+      "title": "In theory, if I have $20k-ish to spend on hardware what would actually get me closest to local coding agent that would allow me to go totally off the social grid?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tk2s09/in_theory_if_i_have_20kish_to_spend_on_hardware/",
+      "date": "2026-05-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Let's say I'm in the market to buy a studio or RTX 6000's. At what point am I off the grid with a local coding agent? Probably a model question too. submitted by /u/Tired__Dev [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-22/47-in-theory-if-i-have-20k-ish-to-spend-on-hardware-what-would-actually-g.md"
+    },
+    {
+      "title": "New Release of ROCm based MLX LLM Engine - lemon-mlx-engine",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkbupt/new_release_of_rocm_based_mlx_llm_engine/",
+      "date": "2026-05-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone lemon-mlx-engine just got done integrating TheRock / ROCm 7.13 into the lemon-mlx-engine which means you get to try the latest ROCm on your local hardware with the MLX engine! This also includes various bug fixes and kernel fixes we have been seeing in Qwen3, 3.5 and 3.6 MoE and dense. try it out! https://github.com/lemonade-sdk/lemon-mlx-eng... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-22/48-new-release-of-rocm-based-mlx-llm-engine-lemon-mlx-engine.md"
+    },
+    {
+      "title": "Anyone evaluated the difference between Qwen Code for the local qwen models vs another harness? CC, OC, LC, Aider etc..",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tk8la2/anyone_evaluated_the_difference_between_qwen_code/",
+      "date": "2026-05-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For me, opencode doing fantastically but was wondering if qwen code would be more native and have better functionality, since idk which agentic harness they used to get their benchmark results submitted by /u/EggDroppedSoup [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-22/49-anyone-evaluated-the-difference-between-qwen-code-for-the-local-qwen-m.md"
+    },
     {
       "title": "Show HN: SafeRun – Replay debugging and inline prevention for AI agents 3",
       "source": "Hacker News Top + Show HN",

@@ -1,10 +1,170 @@
 {
-  "last_checked_at": "2026-05-21T08:29:02.845Z",
+  "last_checked_at": "2026-05-22T08:18:40.785Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "openaccountants/openaccountants",
+      "name": "openaccountants/openaccountants",
+      "url": "https://github.com/openaccountants/openaccountants",
+      "date": "2026-05-22",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 75,
+      "momentum": 82,
+      "risk": 30,
+      "integration_effort": 52,
+      "expected_gain": 69,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [],
+      "pros": [
+        "Recently updated (2026-05-22)",
+        "AGPL-3.0 license",
+        "69 GitHub stars",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 85,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [],
+      "install_commands": [
+        "Claude: calls list_jurisdictions → sees \"malta\"",
+        "Claude: calls list_files(\"malta\") → foundation.md, malta-vat.md, …",
+        "Claude: calls get_file(\"malta\", \"foundation.md\") → full skill loaded",
+        "Claude: processes your bank statement with the correct tax rules",
+        "git clone https://github.com/openaccountants/openaccountants.git",
+        "pip install ./mcp          # requires Python 3.10+"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "openaccountants/openaccountants matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-22/01-openaccountants-openaccountants.md"
+    },
+    {
+      "id": "bdaskbot-maker/bdask-super-ai-complete",
+      "name": "bdaskbot-maker/bdask-super-ai-complete",
+      "url": "https://github.com/bdaskbot-maker/bdask-super-ai-complete",
+      "date": "2026-05-22",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 52,
+      "expected_gain": 77,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
+          "date": "2026-05-20",
+          "topic": "AI agents",
+          "similarity": 0.218,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-22)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "Repository description is sparse"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @eslint/eslintrc, @google/generative-ai, @radix-ui/react-avatar, @radix-ui/react-dialog, @radix-ui/react-dropdown-menu, @radix-ui/react-scroll-area, @radix-ui/react-separator, @radix-ui/react-slot; scripts dev, build, start, lint, api:dev, api:start, test"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/bdaskbot-maker/bdask-super-ai.git",
+        "npm install",
+        "npm run dev",
+        "npm start",
+        "docker-compose up -d",
+        "docker-compose logs -f app"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-20 about AI agents; this candidate overlaps with \"Show HN: Dari-docs – Optimize your docs using parallel coding agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-22/02-bdaskbot-maker-bdask-super-ai-complete.md"
+    },
+    {
+      "id": "hesnotsoharry/ouroboros",
+      "name": "hesnotsoharry/Ouroboros",
+      "url": "https://github.com/hesnotsoharry/Ouroboros",
+      "date": "2026-05-22",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 94,
+      "momentum": 45,
+      "risk": 40,
+      "integration_effort": 56,
+      "expected_gain": 77,
+      "composite": 68,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
+          "date": "2026-05-20",
+          "topic": "AI agents",
+          "similarity": 0.195,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-22)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/colesam/agent-ide.git",
+        "npm install        # also runs electron-rebuild for node-pty and better-sqlite3",
+        "npm run dev        # starts dev server + Electron with hot-reload",
+        "npm run build          # Production build (electron-vite, 3 targets)",
+        "npm run dist           # Build + package (NSIS on Windows, DMG on Mac, AppImage on Linux)",
+        "npm run build:web      # Web deployment — renderer + WebSocket preload shim to out/web/"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-20 about AI agents; this candidate overlaps with \"Show HN: Dari-docs – Optimize your docs using parallel coding agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-22/03-hesnotsoharry-ouroboros.md"
+    },
     {
       "id": "notnull92/hera-agent",
       "name": "NotNull92/hera-agent",
