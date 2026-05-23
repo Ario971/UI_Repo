@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T08:18:20.625Z",
+  "updated_at": "2026-05-23T07:26:14.643Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: CoreMem – Portable context for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://coremem.app",
+      "date": "2026-05-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "CoreMem lets you build collections of context, called a mem, and share it with any AI agent via URL, a Chrome extension, MCP, Cursor/VS Code plugins, a skill, and more. Instead of re-explaining your project or goal when you switch agents or start new sessions, CoreMem keeps your context centrally organized so that any AI tool can read it. This originally... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/50-show-hn-coremem-portable-context-for-ai-agents.md"
+    },
+    {
+      "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.22781v1",
+      "date": "2026-05-21",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "LLM-powered AI agents require high-frequency state exploration (e.g., test-time tree search and reinforcement learning), relying on rapid checkpoint and rollback (C/R) of the complete sandbox state, including files and process state (e.g., memory, contexts, etc.). Existing mechanisms duplicate the entire state, causing hundreds of milliseconds to seconds... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/51-deltabox-scaling-stateful-ai-agents-with-millisecond-level-sandbox-che.md"
+    },
+    {
+      "title": "WorkstreamBench: Evaluating LLM Agents on End-to-End Spreadsheet Tasks in Finance",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.22664v1",
+      "date": "2026-05-21",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "LLM agents are increasingly expected to carry out end-to-end workflows, producing complete artifacts from high-level user instructions. To meet enterprise needs, frontier AI labs have developed agents that can construct entire spreadsheets from scratch. This is especially relevant in finance, where core workflows such as financial modeling, forecasting, a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/52-workstreambench-evaluating-llm-agents-on-end-to-end-spreadsheet-tasks-.md"
+    },
+    {
+      "title": "gHashTag/trios-mcp-rag",
+      "source": "GitHub Trending",
+      "url": "https://github.com/gHashTag/trios-mcp-rag",
+      "date": "2026-05-23",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "MCP server: RAG over PostgreSQL (GOLDEN BRIDGE chapters) — 5 tools for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
+    },
+    {
+      "title": "Show HN: Darnix – Darwin Built with Nix",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/jonhermansen/darnix",
+      "date": "2026-05-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "The Darwin kernel (XNU) has been open source since 1999. But \"open source\" and \"you can actually build and boot it\" are very different things. XNU depends on proprietary tooling, kexts, and a bunch of open source projects published without a build system. Darnix builds the whole thing with Nix. The kernel, the filesystem, the boot image, all the way to a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-22/54-show-hn-darnix-darwin-built-with-nix.md"
+    },
+    {
+      "title": "Show HN: Lilo – An open source personal AI assistant that lives in Telegram",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=48237730",
+      "date": "2026-05-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I wanted to share an open source Telegram-based personal AI assistant I built. It’s a model-agnostic agent with memory, skills, tools (like web search, browser user, etc.) operating in a persistent workspace. It also has support for scheduled tasks, and can build powerful HTML-based apps that live in the workspace. Here are some of my favorit... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-22/55-show-hn-lilo-an-open-source-personal-ai-assistant-that-lives-in-telegr.md"
+    },
+    {
+      "title": "Show HN: Pablo – a Chrome extension that copies UI from any website",
+      "source": "Hacker News Show HN",
+      "url": "https://www.usepablo.dev/",
+      "date": "2026-05-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Pablo is a Chrome extension that copies the HTML and CSS behind any element you hover. It captures computed styles, fonts (with @font-face and Google Fonts links), CSS keyframes, and animation props from GSAP and Framer Motion. The output is structured so it pastes cleanly into Claude Code, Cursor, or Codex when you want to rebuild a component in your own... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-22/56-show-hn-pablo-a-chrome-extension-that-copies-ui-from-any-website.md"
+    },
+    {
+      "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/helvesec/rmux",
+      "date": "2026-05-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Author here. RMUX started from a frustration: I've used tmux for years and got tired of scraping output with grep and sleeps to automate anything. So I rebuilt the multiplexer from scratch in Rust, with a programmable layer on top. Two surfaces: a tmux-compatible CLI (~90 commands, your keybindings just work), and a typed async Rust SDK on the same daemon... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/57-show-hn-rmux-a-programmable-terminal-multiplexer-with-a-playwright-sty.md"
+    },
+    {
+      "title": "397B competitor that fits in 256 RAM?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tl43xu/397b_competitor_that_fits_in_256_ram/",
+      "date": "2026-05-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Does one exist? I noticed 3.6 QWEN did not release locally in 397B-17B. Anything that can compete locally? any comment is appreciated submitted by /u/quietsubstrate [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-23/58-397b-competitor-that-fits-in-256-ram.md"
+    },
+    {
+      "title": "ByteShape Qwen3.6-35B-A3B: 30% faster than Unsloth IQ on 6GB VRAM laptop",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tknjcx/byteshape_qwen3635ba3b_30_faster_than_unsloth_iq/",
+      "date": "2026-05-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "A few days ago I posted about my experiments with MTP on a 6GB VRAM laptop. That didn't work so well; CPU offload hurts MTP performance badly. But now I've tried out the new ByteShape quants for Qwen3.6-35B-A3B that are claimed to be both smaller and faster than others while still having excellent quality. I decided to compare my previous best Unsloth UD-... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-22/59-byteshape-qwen3-6-35b-a3b-30-faster-than-unsloth-iq-on-6gb-vram-laptop.md"
+    },
+    {
+      "title": "club-rdna16: practical 16GB AMD/Radeon local LLM testing repo",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tl4o1m/clubrdna16_practical_16gb_amdradeon_local_llm/",
+      "date": "2026-05-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Following on from club-5060ti, I’ve been doing some testing with my desktop AMD GPU and wanted to make a similar repo for 16GB Radeon cards. Repo: https://github.com/5p00kyy/club-rdna16 Pages/results: https://5p00kyy.github.io/club-rdna16/ The first test machine is an RX 6900 XT 16GB running llama.cpp with ROCm/HIP. I’ve mainly been testing Qwen3.6 27B an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-23/60-club-rdna16-practical-16gb-amd-radeon-local-llm-testing-repo.md"
+    },
+    {
+      "title": "Scrambling to max StrixHalo (+NVLink dual eGPU 3090 mod)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkulbk/scrambling_to_max_strixhalo_nvlink_dual_egpu_3090/",
+      "date": "2026-05-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://preview.redd.it/kz66mxzseq2h1.jpg?width=4096&format=pjpg&auto=webp&s=da98623808c4bde0dc79b239c8cf8930c5572769 https://preview.redd.it/ocsigi0veq2h1.jpg?width=4096&format=pjpg&auto=webp&s=eb4b053e46e434b2c54de7fff6c584e01c80ea5e This pic is not representing bench setup, just happily captured while I figured out running same model over 3 GPUs. Halo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-22/61-scrambling-to-max-strixhalo-nvlink-dual-egpu-3090-mod.md"
+    },
     {
       "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
       "source": "Hacker News Top + Show HN",
