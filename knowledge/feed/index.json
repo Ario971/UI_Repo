@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T07:47:01.083Z",
+  "updated_at": "2026-05-25T08:51:45.621Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://codeberg.org/hydrafog/kanban",
+      "date": "2026-05-24",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN, Ever since agents have become increasingly common in development, I've been scratching my head as to how to control their randomness. Recently, I decided to emulate an issue-tracking and project-management tool for agent-driven workflows. Kanban is a Rust-based coordination layer designed to provide a feature-rich terminal interface and enforce... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-24/74-show-hn-kanban-cli-a-local-first-agent-first-task-manager-for-the-term.md"
+    },
+    {
+      "title": "AI Assurance: A Comprehensive Testing Strategy for Enterprise AI Systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.23459v1",
+      "date": "2026-05-22",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Enterprise AI systems, built on large language models, retrieval pipelines and autonomous agents, introduce a class of risks that traditional software quality assurance was never designed to address. These systems are probabilistic, context-sensitive and emergent: they cannot be verified to be correct in the classical sense, but only evaluated with increa... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/75-ai-assurance-a-comprehensive-testing-strategy-for-enterprise-ai-system.md"
+    },
+    {
+      "title": "Socially fluent AI decouples conversational signals from source identity in online interaction",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.23426v1",
+      "date": "2026-05-22",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Socially fluent agentic AI can now participate in online interaction in ways that resemble ordinary human conversation, potentially weakening people's ability to infer who is human from conversational signals alone. We tested this possibility in synchronous text-based group interaction by embedding undisclosed AI agents as ordinary teammates across analyt... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/76-socially-fluent-ai-decouples-conversational-signals-from-source-identi.md"
+    },
+    {
+      "title": "Design and Report Benchmarks for Knowledge Work",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.23262v1",
+      "date": "2026-05-22",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The development of LLM agents has led to a growing body of work on knowledge-work AI, including coding, research, and healthcare. However, current knowledge-work evaluation and benchmark design still largely follow the logic of traditional NLP tasks. As a result, higher benchmark performance does not reliably show that a system can carry out knowledge wor... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/77-design-and-report-benchmarks-for-knowledge-work.md"
+    },
+    {
+      "title": "Show HN: Local note engine uses LLM to organize notes into a knowledge graph",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/AlexWasHeree/NoteCast",
+      "date": "2026-05-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "i take a lot of notes but rarely find time to organize them so the value of most notes in my personal context quietly disappears. Notecast is a local note engine i've been building to help me with that. it runs a three stage LLM pipeline (Classify -> Organize -> Consolidate) that automatically builds and maintain a knowledge graph from the notes. the them... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/78-show-hn-local-note-engine-uses-llm-to-organize-notes-into-a-knowledge-.md"
+    },
+    {
+      "title": "Show HN: CRED-1 – Open domain credibility dataset for on-device pre-bunking",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/aloth/cred-1",
+      "date": "2026-05-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: CRED-1 – Open domain credibility dataset for on-device pre-bunking (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/79-show-hn-cred-1-open-domain-credibility-dataset-for-on-device-pre-bunki.md"
+    },
+    {
+      "title": "rastasan-cj/Electro-System-Pro",
+      "source": "GitHub Search API",
+      "url": "https://github.com/rastasan-cj/Electro-System-Pro",
+      "date": "2026-05-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Electro System Pro — Full ERP for DeltaTradeCenter (electrical tools). Built with React 19 + Vite + Firebase. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-25/80-rastasan-cj-electro-system-pro.md"
+    },
+    {
+      "title": "sanjeev23oct/zap",
+      "source": "GitHub Search API",
+      "url": "https://github.com/sanjeev23oct/zap",
+      "date": "2026-05-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "1. Skill-First Approach — Context That Earns Its Place Most AI coding agents front-load a massive system prompt every request — language conventions, architecture notes, team rules, API patterns, all of it, whether it's relevant or not. zap replaces that wall with a skill system: markdown files that are injected surgically, only when needed (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-25/81-sanjeev23oct-zap.md"
+    },
+    {
+      "title": "Is NVIDIA still the default best choice for local LLMs in 2026?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmkaua/is_nvidia_still_the_default_best_choice_for_local/",
+      "date": "2026-05-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/pmv143 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-24/82-is-nvidia-still-the-default-best-choice-for-local-llms-in-2026.md"
+    },
+    {
+      "title": "Wrote a custom C++ engine for MiniCPM-V 4.6 on Orange Pi AIPro (Ascend 310B) to bypass framework overhead",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmy4g9/wrote_a_custom_c_engine_for_minicpmv_46_on_orange/",
+      "date": "2026-05-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, just wanted to share a project I've been hacking on for the last few weeks. I managed to build a from-scratch C++ inference engine to run MiniCPM-V 4.6 entirely on the Orange Pi AIPro (the budget board with the Ascend 310B NPU, costs around $149 for 20 TOPS INT8 / 10 TFLOPS FP16). If you want to check out the custom ops, build scripts, or th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-25/83-wrote-a-custom-c-engine-for-minicpm-v-4-6-on-orange-pi-aipro-ascend-31.md"
+    },
+    {
+      "title": "server: fix checkpoints creation by jacekpoplawski · Pull Request #22929 · ggml-org/llama.cpp",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tn0jyp/server_fix_checkpoints_creation_by_jacekpoplawski/",
+      "date": "2026-05-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Imagine you are using a local model for agentic coding. You discuss the idea (50k tokens), then say “implement it”. The agent reads files, writes files, runs commands, produces another 20k tokens and the code is ready. Then your next prompt is just “thank you”, and... nothing happens, you have to wait for \"something\". What is happening is that some tools,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-25/84-server-fix-checkpoints-creation-by-jacekpoplawski-pull-request-22929-g.md"
+    },
+    {
+      "title": "hipEngine: Fast Native Qwen 3.6 Inference for RDNA3 (Strix Halo, 7900 XTX)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmq4s6/hipengine_fast_native_qwen_36_inference_for_rdna3/",
+      "date": "2026-05-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "A few weeks ago, after finishing FastDMS , I started toying around writing some RDNA3 kernels again to see how fast I could get Qwen 3.6 MoE running. It turned out well enough, so over the past couple weeks, I turned those experiments into hipEngine , a new open source (AGPLv3) ROCm-native local LLM inference engine. It's Python based, but with no heavy P... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-24/85-hipengine-fast-native-qwen-3-6-inference-for-rdna3-strix-halo-7900-xtx.md"
+    },
     {
       "title": "Show HN: Twixt – transform one word into another in four moves",
       "source": "Hacker News Top + Show HN",
