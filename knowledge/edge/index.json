@@ -1,10 +1,173 @@
 {
-  "last_checked_at": "2026-05-25T08:52:14.833Z",
+  "last_checked_at": "2026-05-26T08:26:18.533Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "matthiasn/lotti",
+      "name": "matthiasn/lotti",
+      "url": "https://github.com/matthiasn/lotti",
+      "date": "2026-05-26",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 77,
+      "momentum": 100,
+      "risk": 38,
+      "integration_effort": 40,
+      "expected_gain": 79,
+      "composite": 77,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: OpenBrief – Local-first video downloader/summarizer",
+          "date": "2026-05-25",
+          "topic": "AI agents",
+          "similarity": 0.191,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/87-show-hn-openbrief-local-first-video-downloader-summarizer.md"
+        },
+        {
+          "title": "WorkstreamBench: Evaluating LLM Agents on End-to-End Spreadsheet Tasks in Finance",
+          "date": "2026-05-21",
+          "topic": "AI agents",
+          "similarity": 0.191,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/52-workstreambench-evaluating-llm-agents-on-end-to-end-spreadsheet-tasks-.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-26)",
+        "GPL-3.0 license",
+        "1115 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 70,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-25 about AI agents; this candidate overlaps with \"Show HN: OpenBrief – Local-first video downloader/summarizer\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-26/01-matthiasn-lotti.md"
+    },
+    {
+      "id": "sxueck/llm-gateway",
+      "name": "sxueck/llm-gateway",
+      "url": "https://github.com/sxueck/llm-gateway",
+      "date": "2026-05-26",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 92,
+      "momentum": 77,
+      "risk": 37,
+      "integration_effort": 36,
+      "expected_gain": 69,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "vladimir120307-droid/mneme",
+          "date": "2026-05-24",
+          "topic": "AI dev tools",
+          "similarity": 0.26,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/67-vladimir120307-droid-mneme.md"
+        },
+        {
+          "title": "bastion-soft/bastion-prompt-protection",
+          "date": "2026-05-21",
+          "topic": "AI agents",
+          "similarity": 0.227,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/28-bastion-soft-bastion-prompt-protection.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-26)",
+        "MIT license",
+        "38 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps tsx, typescript; scripts dev, dev:backend, dev:web, dev:all, build, build:backend, build:web, typecheck"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/sxueck/llm-gateway.git"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-24 about AI dev tools; this candidate overlaps with \"vladimir120307-droid/mneme\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-26/02-sxueck-llm-gateway.md"
+    },
+    {
+      "id": "abinethacker/muster_mcp",
+      "name": "ABINETHACKER/MUSTer_MCP",
+      "url": "https://github.com/ABINETHACKER/MUSTer_MCP",
+      "date": "2026-05-26",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 86,
+      "momentum": 50,
+      "risk": 35,
+      "integration_effort": 48,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "gHashTag/trios-mcp-rag",
+          "date": "2026-05-23",
+          "topic": "AI agents",
+          "similarity": 0.288,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-26)",
+        "MIT license",
+        "Matches 1 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, readme, requires-python, dependencies, openpyxl, pandas"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-26/03-abinethacker-muster-mcp.md"
+    },
     {
       "id": "luohy15/y-agent",
       "name": "luohy15/y-agent",

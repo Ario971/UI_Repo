@@ -1,0 +1,305 @@
+---
+id: "sxueck/llm-gateway"
+name: "sxueck/llm-gateway"
+url: "https://github.com/sxueck/llm-gateway"
+date: "2026-05-26"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "ai_dev_tool"
+compatibility: 92
+momentum: 77
+risk: 37
+integration_effort: 36
+expected_gain: 69
+composite: 75
+replacement_target: ""
+related_articles: [{"title":"vladimir120307-droid/mneme","date":"2026-05-24","topic":"AI dev tools","similarity":0.26,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/67-vladimir120307-droid-mneme.md"},{"title":"bastion-soft/bastion-prompt-protection","date":"2026-05-21","topic":"AI agents","similarity":0.227,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/28-bastion-soft-bastion-prompt-protection.md"}]
+pros: ["Recently updated (2026-05-26)","MIT license","38 GitHub stars","GitHub Actions/CI detected"]
+cons: ["README mentions credentials or API tokens"]
+readme_quality: 100
+has_ci: true
+has_tests: false
+setup_steps_count: 1
+dependency_files: [{"name":"package.json","summary":"deps tsx, typescript; scripts dev, dev:backend, dev:web, dev:all, build, build:backend, build:web, typecheck"}]
+install_commands: ["git clone https://github.com/sxueck/llm-gateway.git"]
+risk_flags: ["README mentions credentials or API tokens"]
+status: "new"
+---
+
+# sxueck/llm-gateway
+
+Lightweight distributed LLM gateway w/ web UI for model mgmt & routing. Supports vibe programming, prompt opt., & optimized OpenAI API/Anthropic calls
+
+URL: https://github.com/sxueck/llm-gateway
+
+## Why it matters
+You saved an article on 2026-05-24 about AI dev tools; this candidate overlaps with "vladimir120307-droid/mneme" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-05-26)
++ MIT license
++ 38 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- README mentions credentials or API tokens
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: no
+Setup steps estimate: 1
+
+Dependency files:
+- package.json: deps tsx, typescript; scripts dev, dev:backend, dev:web, dev:all, build, build:backend, build:web, typecheck
+
+Install commands found:
+- git clone https://github.com/sxueck/llm-gateway.git
+
+Risk flags:
+- README mentions credentials or API tokens
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# LLM Gateway
+
+<div align="center">
+
+[![GitHub Wiki](https://img.shields.io/badge/docs-wiki-blue?style=flat-square)](https://github.com/sxueck/llm-gateway/wiki)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
+[![Node.js](https://img.shields.io/badge/node->=v22-339933?style=flat-square&logo=node.js)](https://nodejs.org/)
+[![Bun](https://img.shields.io/badge/bun->=v1.0-black?style=flat-square&logo=bun)](https://bun.sh/)
+
+[English](./README_EN.md) | **中文**
+
+</div>
+
+> 生产级别 LLM 网关管理系统，部署三个月已稳定负载超过 **50亿 Token** 的任务处理（持续累积中）
+>
+> 提供直观的 Web UI 界面，用于管理多个 LLM 提供商、虚拟密钥、路由配置和模型管理
+
+<p align="center">
+  <img width="80%" alt="Dashboard" src="https://github.com/user-attachments/assets/a69d7e89-5225-4c2e-bae3-d11faddc9b56" />
+</p>
+<p align="center">
+  <img width="80%" alt="Health Monitoring" src="https://github.com/user-attachments/assets/196adf78-2346-41f9-903b-a18920464486" />
+</p>
+
+<p align="center">
+  <a href="./docs/screenshot.md">更多截图</a>
+</p>
+
+---
+
+## 目录
+
+- [特性](#特性)
+- [快速开始](#快速开始)
+- [健康监控](#健康监控)
+- [贡献](#贡献)
+- [许可证](#许可证)
+- [致谢](#致谢)
+
+---
+
+## 特性
+
+| 功能 | 描述 |
+|------|------|
+| **提供商管理** | 支持 20+ 主流 LLM 提供商：OpenAI、Anthropic、Google、DeepSeek 等 |
+| **虚拟密钥** | 创建和管理虚拟 API 密钥，支持速率限制和访问控制 |
+| **路由配置** | 负载均衡和故障转移策略，提高服务可用性 |
+| **模型管理** | 统一管理所有提供商的模型，支持批量导入和自定义配置 |
+| **多端点支持** | 兼容 `/v1/chat/completions`、`/v1/responses`、`/v1/messages` 等端点 |
+| **健康监控** | 免登录健康检查页面，实时展示模型可用率、延迟分位数（P50/P95）和错误分布 |
+| **用户认证** | 基于 JWT 的安全认证机制 |
+| **实时监控** | 仪表盘展示系统状态和配置信息 |
+| **中转站支持** | 隔离 Codex 等上游强制注入的提示词，使下游应用对 Prompt 遵循更规范 |
+| **内置 PII 保护** | 自动检测和脱敏请求中的个人身份信息，支持流式响应还原 |
+
+---
+
+## 快速开始
+
+### 前置要求
+
+| 依赖 | 版本要求 | 说明 |
+|------|----------|------|
+| Node.js | >= v22 | 运行时环境 |
+| Bun | >= v1.0 | Monorepo 脚本基于 Bun workspaces |
+| MySQL | 8.x | 数据库（或兼容 MySQL 协议） |
+| Docker | - | 可选，用于容器化部署 |
+| 最低配置 | 1C2G | 开启 PII 隐私保护等计算密集功能需提升配置 |
+
+### 安装
+
+```bash
+# 克隆仓库
+git clone https://github.com/sxueck/llm-gateway.git
+cd llm-gateway
+
+# 安装依赖（包含 packages/backend 与 packages/web）
+bun install
+```
+
+### 配置
+
+创建 `.env` 文件并配置环境变量：
+
+```bash
+cp .env.example .env
+```
+
+编辑 `.env` 文件（至少需要配置 MySQL 与 `JWT_SECRET`）：
+
+```env
+PORT=3000
+NODE_ENV=development
+LOG_LEVEL=info
+JWT_SECRET=your-secret-key-change-this-in-production
+
+# MySQL 数据库配置
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_USER=root
+MYSQL_PASSWORD=your-mysql-password
+MYSQL_DATABASE=llm_gateway
+```
+
+> **重要**: 生产环境请务必修改 `JWT_SECRET` 为一个强随机字符串（至少 32 字符）
+
+### 启动服务
+
+```bash
+# 同时启动后端(3000)与前端(5173)
+bun run dev:all
+```
+
+| 服务 | 地址 |
+|------|------|
+| Web UI | http://localhost:5173 |
+| Backend API | http://localhost:3000 |
+
+**单独启动：**
+
+```bash
+# 仅后端
+bun run dev:backend
+
+# 仅前端
+bun run dev:web
+```
+
+**生产构建与启动（前后端分离部署）：**
+
+```bash
+# 构建前后端
+bun run build
+
+# 启动后端（生产模式）
+bun run start
+```
+
+> 提示：前端产物位于 `packages/web/dist`，请使用 Nginx/静态文件服务单独部署
+
+### Docker Compose 部署
+
+请参考 [Docker 部署指南](./docs/docker-deployment.md)
+
+### 快速使用
+
+1. **添加供应商** - 添加类似 DeepSeek 的 AI 服务商，并填入供应商密钥
+2. **添加模型** - 添加供应商提供的 AI 模型（如 DeepSeek 的 `deepseek-chat`）
+3. **创建虚拟密钥** - 用于访问 LLM Gateway 的 API
+4. **(可选) 配置 Prompt 管理规则** - 实现 prompt 的动态修改和增强
+5. **使用虚拟密钥访问 API** - 在应用中调用 LLM Gateway
+
+---
+
+## 健康监控
+
+LLM Gateway 提供公开的健康监控页面，无需登录即可访问，实时展示各模型的可用性和性能指标。
+
+### 启用持久监控
+
+1. 在"系统设置 -> 监控设置"中开启"启用持久监控"
+2. 首次开启时系统会自动创建一个"监控专用虚拟密钥"：
+   - 具备访问全部模型的能力
+   - 仅用于健康检查
+   - 默认禁用请求体/响应体日志
+
+**只有当"持久监控"为开启状态时，以下能力才会生效：**
+- 后端健康检查调度器运行（周期性对目标执行健康检查）
+- 公开监控页面与相关免鉴权 API 可访问
+
+> 提示：可随时关闭"持久监控"，系统将停止调度器并关闭公开访问（公开端点返回 404）
+
+### 访问健康监控页面
+
+访问 `http://your-gateway-url/status` 即可查看健康监控页面。
+
+### 功能特性
+
+- **实时状态监控** - 显示所有配置的模型目标的当前状态（健康/降级/宕机）
+- **可用率统计** - 展示 1小时 和 24小时 的可用率
+- **延迟指标** - P50 和 P95 延迟统计
+- **错误追踪** - 记录并展示错误类型和错误信息
+- **自动刷新** - 默认每 60 秒自动刷新数据
+- **详细历史** - 点击目标可查看详细的检查历史记录
+
+### API 端点
+
+健康监控提供以下公开 API 端点（免鉴权）：
+
+| 端点 | 描述 |
+|------|------|
+| `GET /public/health/summary` | 获取所有目标的汇总信息 |
+| `GET /public/health/targets` | 获取目标清单 |
+| `GET /public/health/detail?target_id=xxx` | 获取单个目标的详细信息 |
+| `GET /public/health/runs?target_id=xxx&window=24h&page=1&page_size=50` | 获取检查历史记录 |
+
+### 配置健康检查目标
+
+健康检查目标通过数据库配置，可以为任何模型或虚拟模型设置健康检查：
+
+```sql
+-- 示例：为模型添加健康检查
+INSERT INTO health_targets (id, name, type, target_id, enabled, check_interval_seconds, check_prompt)
+VALUES ('target-1', 'DeepSeek Chat', 'model', 'model-id-here', 1, 300, 'Say "OK"');
+```
+
+**主要配置参数：**
+
+| 参数 | 说明 | 默认值 |
+|------|------|--------|
+| `check_interval_seconds` | 检查频率（秒） | 300 秒（5分钟） |
+| `check_prompt` | 健康检查使用的提示词 | `"Say 'OK'"` |
+| `check_config` | JSON 配置，可设置超时、重试等参数 | - |
+
+### 限流保护
+
+健康监控 API 默认启用限流保护：
+- 每个 IP 每分钟最多 60 个请求
+- 超过限制将返回 429 错误
+
+---
+
+## 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
+---
+
+## 许可证
+
+[MIT License](./LICENSE) - LLM Gateway
+
+---
+
+## 致谢
+
+- [Naive UI](https://www.naiveui.com/) - UI 组件库
+- [Fastify](https://www.fastify.io/) - 高性能 Web 框架
+

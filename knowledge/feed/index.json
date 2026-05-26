@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T08:51:45.621Z",
+  "updated_at": "2026-05-26T08:25:41.963Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Nerve – self hosted runtime for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/ClickHouse/nerve",
+      "date": "2026-05-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Nerve – self hosted runtime for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/86-show-hn-nerve-self-hosted-runtime-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: OpenBrief – Local-first video downloader/summarizer",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/tantara/openbrief",
+      "date": "2026-05-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "OpenBrief is basically a GUI for yt-dlp with some AI on top — paste a link, it downloads locally, and transcription and voice generation run with local AI on your machine. Summaries and chat over the transcript use an LLM, which is bring-your-own-key for now. It's open source and free. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/87-show-hn-openbrief-local-first-video-downloader-summarizer.md"
+    },
+    {
+      "title": "Show HN: Fungible – A local personal finance app in the terminal",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/tomfunk/fungible",
+      "date": "2026-05-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Fungible is a terminal-based personal finance app that fills the Mint-shaped void in my life. It runs using your own plaid credentials (optional) and has its own integrated chatbot (also optional and BYO key). You connect banks via Plaid or import CSVs. Transactions get auto-categorized by rules you define. On top of normal categories there's a flexibilit... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/88-show-hn-fungible-a-local-personal-finance-app-in-the-terminal.md"
+    },
+    {
+      "title": "Show HN: Using Tailscale with an OrbStack VM on macOS",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/highpost/tailscale-macos-vm",
+      "date": "2026-05-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Using Tailscale with an OrbStack VM on macOS (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/89-show-hn-using-tailscale-with-an-orbstack-vm-on-macos.md"
+    },
+    {
+      "title": "wqjuser/AIQuantificationTools",
+      "source": "GitHub Search API",
+      "url": "https://github.com/wqjuser/AIQuantificationTools",
+      "date": "2026-05-26",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "wqjuser/AIQuantificationTools Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-26/90-wqjuser-aiquantificationtools.md"
+    },
+    {
+      "title": "Show HN: Built a tool to create brand-consistent images using AI",
+      "source": "Hacker News Show HN",
+      "url": "https://inktag.io",
+      "date": "2026-05-25",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello folks, Over the past months I found it extremely hard to find photos for my blog that looked like MY brand. I was tired of using stock photos and also did not want to spend time on canva creating graphics. The AI images also looked very off-brand and I always had to copy paste my brand instructions to create graphics for my blog. It led me to create... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-25/91-show-hn-built-a-tool-to-create-brand-consistent-images-using-ai.md"
+    },
+    {
+      "title": "Show HN: I made Pokémon but with real animals in the real world",
+      "source": "Hacker News Show HN",
+      "url": "https://apps.apple.com/gb/app/animalis-game/id6762081213",
+      "date": "2026-05-25",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Firstly, apologies, it's not free. It would be difficult to support this for free, it's a paid game. I will now share the technical details, which will probably be most of interest for HN readers. I previously made a carbon footprint tracking app where you photo objects and it tells you the carbon footprint by using an LLM to estimate the data on the fly,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-25/92-show-hn-i-made-pok-mon-but-with-real-animals-in-the-real-world.md"
+    },
+    {
+      "title": "Abhishekk-Sinha/sfdc-mentor-ai-agent",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Abhishekk-Sinha/sfdc-mentor-ai-agent",
+      "date": "2026-05-26",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Abhishekk-Sinha/sfdc-mentor-ai-agent Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-26/93-abhishekk-sinha-sfdc-mentor-ai-agent.md"
+    },
+    {
+      "title": "Using Local LLMs for Generating Custom Interactive Recursive Textbooks on the Fly",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnjxq6/using_local_llms_for_generating_custom/",
+      "date": "2026-05-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/Ryoiki-Tokuiten [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-25/94-using-local-llms-for-generating-custom-interactive-recursive-textbooks.md"
+    },
+    {
+      "title": "Stop pretending self-hosting is cheaper. It's not. We do it for different reasons and we should say so.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1to017p/stop_pretending_selfhosting_is_cheaper_its_not_we/",
+      "date": "2026-05-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Did the math on my own rig last week and I'm tired of seeing this sub repeat the \"local is cheaper\" line without numbers. Let me actaully break it down. My setup: 2x 3090 (used, $1400 total), Ryzen 7900X, 64GB DDR5, around $2800 all in. Pulls about 700W under load. At my electricity rate that's roughly $0.21/hour just to keep it serving. Add depreciation... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-26/95-stop-pretending-self-hosting-is-cheaper-it-s-not-we-do-it-for-differen.md"
+    },
+    {
+      "title": "Update on 12x32gb sxm v100 cluster / local AI for legal drafting",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnn29i/update_on_12x32gb_sxm_v100_cluster_local_ai_for/",
+      "date": "2026-05-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Update from the lawyer with the V100 server. A few of you asked what I actually ended up running once the dust settled, so here it is. Still just a lawyer, still driving the whole thing through Claude Code, still not fully sure what I'm doing — but it works now, which is more than I could say last time. First, the hardware caught up to the plan. The last... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-25/96-update-on-12x32gb-sxm-v100-cluster-local-ai-for-legal-drafting.md"
+    },
+    {
+      "title": "Is Qwen3.6 current king for local agentic use?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnbz23/is_qwen36_current_king_for_local_agentic_use/",
+      "date": "2026-05-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been testing other models but it seems like nothing even come close to Qwen3.6 35B A3B for agentic use. The worse I'd get is a loop sometimes, while Gemma4 produced broken tool calls occasionally and I couldn't even get GLM 4.7 Flash REAP past 2 or 3 messages before it starts looping. All IQ4_NL quants from Unsloth. I'm wondering if there are better... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-25/97-is-qwen3-6-current-king-for-local-agentic-use.md"
+    },
     {
       "title": "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal)",
       "source": "Hacker News Top + Show HN",
