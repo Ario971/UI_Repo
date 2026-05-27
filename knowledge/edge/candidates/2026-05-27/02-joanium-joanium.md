@@ -1,0 +1,218 @@
+---
+id: "joanium/joanium"
+name: "Joanium/Joanium"
+url: "https://github.com/Joanium/Joanium"
+date: "2026-05-27"
+source: "awesome-llm-agents"
+category: "awesome_lists"
+kind: "mcp_server"
+compatibility: 84
+momentum: 57
+risk: 24
+integration_effort: 64
+expected_gain: 87
+composite: 72
+replacement_target: ""
+related_articles: [{"title":"Show HN: Agent-estimate, how long a coding task takes, at agent speed","date":"2026-05-21","topic":"AI agents","similarity":0.383,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"},{"title":"TadeasUjvary/back-office-agent-web","date":"2026-05-20","topic":"AI dev tools","similarity":0.219,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-20/20-tadeasujvary-back-office-agent-web.md"},{"title":"Show HN: Agent.email – sign up via curl, claim with a human OTP","date":"2026-05-21","topic":"AI agents","similarity":0.217,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/38-show-hn-agent-email-sign-up-via-curl-claim-with-a-human-otp.md"}]
+pros: ["Recently updated (2026-05-27)","Apache-2.0 license","6 GitHub stars","GitHub Actions/CI detected"]
+cons: ["Integration may take more than a quick install"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 4
+dependency_files: [{"name":"package.json","summary":"deps electron-updater, exceljs, jszip, mammoth, pdf-parse, @electron/fuses, electron, electron-builder; scripts start, build, lint, lint:md, format, format:check, cpd, check:arch"}]
+install_commands: ["git clone https://github.com/withinjoel/joanium.git","npm install","npm start","npm run build","npm run lint","npm run format"]
+risk_flags: []
+status: "new"
+---
+
+# Joanium/Joanium
+
+Your smart, reliable, and friendly personal AI assistant.
+
+URL: https://github.com/Joanium/Joanium
+
+## Why it matters
+You saved an article on 2026-05-21 about AI agents; this candidate overlaps with "Show HN: Agent-estimate, how long a coding task takes, at agent speed" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-05-27)
++ Apache-2.0 license
++ 6 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- Integration may take more than a quick install
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 4
+
+Dependency files:
+- package.json: deps electron-updater, exceljs, jszip, mammoth, pdf-parse, @electron/fuses, electron, electron-builder; scripts start, build, lint, lint:md, format, format:check, cpd, check:arch
+
+Install commands found:
+- git clone https://github.com/withinjoel/joanium.git
+- npm install
+- npm start
+- npm run build
+- npm run lint
+- npm run format
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Joanium
+
+<p align="center">
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/5bee30c5-157b-4fc1-bb4e-731df9fae7cc">
+        <img src="https://github.com/user-attachments/assets/5bee30c5-157b-4fc1-bb4e-731df9fae7cc" alt="Joanium" width="200">
+    </picture>
+</p>
+
+<p align="center">
+  <strong>The AI desktop assistant that actually lives on your machine.</strong><br>
+  <sub>Multi-model chat · Scheduled automations · Background agents · MCP · Real integrations</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/joanium/joanium/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/joanium/joanium/ci.yml?style=for-the-badge&label=CI&logo=github&logoColor=white" alt="CI"></a>
+  <a href="https://github.com/joanium/joanium/releases"><img src="https://img.shields.io/github/v/release/joanium/joanium?include_prereleases&style=for-the-badge&label=release" alt="GitHub release"></a>
+  <a href="https://github.com/joanium/joanium/stargazers"><img src="https://img.shields.io/github/stars/joanium/joanium?style=for-the-badge&color=yellow" alt="GitHub Stars"></a>
+  <a href="https://github.com/joanium/joanium/issues"><img src="https://img.shields.io/github/issues/joanium/joanium?style=for-the-badge&color=red" alt="Open Issues"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue?style=for-the-badge" alt="Apache 2.0 License"></a>
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-555555?style=for-the-badge" alt="Platform">
+  <img src="https://img.shields.io/badge/node-%3E%3D24-43853d?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/built%20with-Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron">
+</p>
+
+<p align="center">
+  <a href="https://joanium.com">🌐 Website</a> ·
+  <a href="https://joanium.com/docs">📖 Docs</a> ·
+  <a href="https://joanium.com/marketplace">🛍️ Marketplace</a> ·
+  <a href="https://www.joanium.com/download">⬇️ Download</a> ·
+  <a href="https://github.com/joanium/joanium/discussions">💬 Discussions</a>
+</p>
+
+---
+
+> Local-first AI desktop assistant with multi-model chat, agents, automations, MCP, and real integrations.
+
+Joanium is a privacy-first, offline-capable desktop app built with Electron and vanilla JavaScript. It runs on your machine, connects to the AI providers you choose, and keeps your data yours.
+
+---
+
+## Demo
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/9465c90b-1d8d-409a-b3eb-4b4432903dc2" />
+
+---
+
+## Features
+
+- **Multi-model chat** — Anthropic, OpenAI, Gemini, and local models via Ollama
+- **Scheduled agents** — run autonomous tasks on a schedule with full tool access
+- **Channels** — reply to Telegram, WhatsApp, Discord, Slack, Zulip, and Mattermost through AI
+- **MCP support** — extend AI capabilities via Model Context Protocol servers
+- **Skills & Personas** — customise how the AI thinks and responds
+- **Built-in tools** — terminal, browser, file operations, Git, calculators, public data, and more
+- **Connectors** — GitHub, Gmail, Google Drive, Calendar, and more
+- **Memory** — persistent long-term memory across conversations
+- **Project workspaces** — context-aware chat scoped to a local codebase or folder
+- **Privacy-first** — all user data stays local in the `Data/` folder
+
+---
+
+## Tech Stack
+
+- [Electron](https://www.electronjs.org/) — desktop shell
+- Vanilla JavaScript (ESM) — no frameworks, no React
+- Node.js ≥ 24
+- CSS — Material 3 Expressive design language
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js 24+](https://nodejs.org/) (use [nvm](https://github.com/nvm-sh/nvm): `nvm use`)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+```bash
+git clone https://github.com/withinjoel/joanium.git
+cd joanium/v2
+cp .env.example .env   # add your API keys
+npm install
+npm start
+```
+
+---
+
+## Scripts
+
+| Command | Description |
+|---|---|
+| `npm start` | Run the app in development mode |
+| `npm run build` | Build distributable for the current platform |
+| `npm run lint` | Check for lint errors |
+| `npm run format` | Auto-format all source files |
+| `npm run format:check` | Check formatting without writing |
+
+---
+
+## Project Structure
+
+```markdown
+v2/
+├── App.js               # Electron entry point
+├── Packages/            # Feature packages (microservice architecture)
+│   ├── Chat/            # Core chat engine
+│   ├── Agents/          # Scheduled agents
+│   ├── Channels/        # External messaging channels
+│   ├── MCP/             # Model Context Protocol
+│   ├── Memory/          # Long-term memory
+│   ├── Providers/       # AI model providers
+│   ├── Toolset/         # Built-in AI tools
+│   └── ...
+├── Assets/              # Images, audio, video (read-only)
+├── Config/              # App configuration (read-only)
+├── Data/                # User data (read-write, gitignored)
+├── Datasets/            # Static datasets
+├── Personas/            # AI persona definitions
+├── Prompts/             # System prompt files
+├── Scripts/             # Build scripts
+├── Skills/              # AI skill definitions
+└── electron-builder.json
+```
+
+See [Arch.md](Arch.md) for full architecture documentation.
+
+---
+
+## Contributing
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR.
+Please follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+---
+
+## Security
+
+To report a vulnerability, see [SECURITY.md](SECURITY.md).
+
+---
+
+## License
+
+Apache-2.0 license
+

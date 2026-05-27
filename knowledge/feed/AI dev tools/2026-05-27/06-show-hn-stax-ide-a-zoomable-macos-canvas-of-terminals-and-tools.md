@@ -1,0 +1,12 @@
+---
+title: "Show HN: STAX IDE – A zoomable macOS canvas of terminals and tools"
+source: "Hacker News Show HN"
+url: "https://staxide.com"
+date: "2026-05-27"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "Hi HN. STAX IDE is a macOS app where every terminal session, code editor, and file browser is a movable, resizable window on a single zoomable canvas. `Cmd+wheel` to zoom out and see the whole workspace; zoom in to one window and use it like a normal app. I built it because I was running 8-10 Claude Code / Codex shells in parallel and tabbed terminal apps... (Local summary fallback used.)"
+---
+
+Hi HN. STAX IDE is a macOS app where every terminal session, code editor, and file browser is a movable, resizable window on a single zoomable canvas. `Cmd+wheel` to zoom out and see the whole workspace; zoom in to one window and use it like a normal app. I built it because I was running 8-10 Claude Code / Codex shells in parallel and tabbed terminal apps kept losing my place. I wanted to see every shell at once and drag them around like Post-its. And have my browsers and notes in there too. Implementation choices that might be interesting: • AppKit, not SwiftUI. I needed manual frame control during drag/zoom to avoid AppKit's display-cycle re-entrancy guard, and got it more reliably out of straight NSView land. • SwiftTerm (Miguel de Icaza's emulator) for VT100 + real PTYs (fork + openpty). One `LocalProcessTerminalView` per tab. OSC 7 → cwd → tab title. • `NSScrollView.magnification` for canvas zoom. Cmd+wheel events are coalesced to one mag-update per display frame and the resync broadcast is hopped to the next runloop tick. Earlier versions used to SIGTRAP inside `_postWindowNeedsLayoutUnlessPostingDisabled` because the broadcast was re-entering AppKit's layout pass under aggressive zooming. • Intentionally human-grep-able. No SQLite, no proprietary format. • NSPasteboard drag-and-drop. Finder→canvas drops a folder and spawns a new stack with that folder as cwd. File-panel→terminal drag inserts the absolute path at the cursor. •`NSTextStorageDelegate.processEditing` for syntax highlighting in the editor panels. 22 languages, extension auto-detect, plus a Sublime-style status-bar language picker. * macOS only. Install: brew install --cask vbario/staxide/staxide Site / DMG releases: https://staxide.com Built solo, used daily, lots of rough edges. Bug reports and corrections both welcome.

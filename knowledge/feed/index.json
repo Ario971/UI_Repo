@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T08:25:41.963Z",
+  "updated_at": "2026-05-27T08:34:08.546Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Mind-expander, a visual workspace for coding with AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/mbbill/mind-expander",
+      "date": "2026-05-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Mind-expander, a visual workspace for coding with AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-26/98-show-hn-mind-expander-a-visual-workspace-for-coding-with-ai-agents.md"
+    },
+    {
+      "title": "Show HN: I open-sourced two AI agents with real memory (chat and voice, MIT)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/SynapCores/synapcores-agent",
+      "date": "2026-05-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I open-sourced two AI agents with real memory (chat and voice, MIT) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-26/99-show-hn-i-open-sourced-two-ai-agents-with-real-memory-chat-and-voice-m.md"
+    },
+    {
+      "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.27360v1",
+      "date": "2026-05-26",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Cellular research and development (R&D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or research papers into production code; (ii) conformance and interoperability testing; (iii) hardening against field anomalies and diverse deployment environments;... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-26/01-genesis-harnessing-ai-agents-for-autonomous-6g-ran-synthesis-research-.md"
+    },
+    {
+      "title": "Modeling Agentic Technical Debt and Stochastic Tax: A Standalone Framework for Measurement, Simulation, and Dashboarding",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.27320v1",
+      "date": "2026-05-26",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Agentic AI systems combine probabilistic reasoning with delegated action through tools, context, memory, orchestration, and external workflow integration. This note develops a formal and managerially usable model that distinguishes Agentic Technical Debt from Stochastic Tax. Agentic Technical Debt is a stock of accumulated design and governance liability.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-26/02-modeling-agentic-technical-debt-and-stochastic-tax-a-standalone-framew.md"
+    },
+    {
+      "title": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/Alcray/SlopeAutoAcceptor",
+      "date": "2026-05-26",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "So, you know how bigtech gives nearly unlimited credits for coding tools and in the same time put a huge admin whitelist of what commands are allowed? So, instead of becoming a 100x engineers, you (including me) simply become a multi-window-enter-clicker I build a tool to solve this. It works locally, using OCR finds the \"run\" (or any other label you put... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-26/03-show-hn-i-built-a-tool-to-auto-accept-ai-slop-and-bigtech-devs-loves-i.md"
+    },
+    {
+      "title": "xfzhu01/child-ai-tools",
+      "source": "GitHub Search API",
+      "url": "https://github.com/xfzhu01/child-ai-tools",
+      "date": "2026-05-27",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "xfzhu01/child-ai-tools Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/04-xfzhu01-child-ai-tools.md"
+    },
+    {
+      "title": "Show HN: Posthorn, self-hosted mail without the mail server",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/craigmccaskill/posthorn",
+      "date": "2026-05-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Introducing Posthorn, a self hosted email gateway. One docker container (or Go binary) between every self hosted app on your VPS and your transactional email provider. Set up Posthorn once, point your apps to it, done. I was trying to deploy Ghost on a DigitalOcean droplet and found that DO and many different VPS services have started to block the default... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/05-show-hn-posthorn-self-hosted-mail-without-the-mail-server.md"
+    },
+    {
+      "title": "Show HN: STAX IDE – A zoomable macOS canvas of terminals and tools",
+      "source": "Hacker News Show HN",
+      "url": "https://staxide.com",
+      "date": "2026-05-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN. STAX IDE is a macOS app where every terminal session, code editor, and file browser is a movable, resizable window on a single zoomable canvas. `Cmd+wheel` to zoom out and see the whole workspace; zoom in to one window and use it like a normal app. I built it because I was running 8-10 Claude Code / Codex shells in parallel and tabbed terminal apps... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/06-show-hn-stax-ide-a-zoomable-macos-canvas-of-terminals-and-tools.md"
+    },
+    {
+      "title": "Stop traumatizing AI into loops and turn hallucinations into an honest \"I don't know!\" by being NICE to them (Proof of Concept, Research, I don't want to sell anything)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tot20j/stop_traumatizing_ai_into_loops_and_turn/",
+      "date": "2026-05-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "TL;DR Some AI behavior reminded me of ADHD/Trauma Response (thought loops, task paralysis...) and I laughed it off at first. Then I treated it like my neurodivergent friends: give em some slack. And just like that, the thought loops stopped, response was fast, the answers correct most of the time AND it actually said \"I don't know, help me!\" every time it... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-27/07-stop-traumatizing-ai-into-loops-and-turn-hallucinations-into-an-honest.md"
+    },
+    {
+      "title": "PrismML just released Binary and Ternary Bonsai Image 4B: 1-bit/ternary text-to-image diffusion transformers that can even run 100% locally in your browser on WebGPU.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1togflk/prismml_just_released_binary_and_ternary_bonsai/",
+      "date": "2026-05-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The PrismML team really cooked with these models. They're only ~3GB in size (compared to FLUX.2 Klein 4B, which is ~16GB). Apache-2.0! Official collection on HF: https://huggingface.co/collections/prism-ml/bonsai-image Link to demo: https://huggingface.co/spaces/webml-community/bonsai-image-webgpu submitted by /u/xenovatech [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-26/08-prismml-just-released-binary-and-ternary-bonsai-image-4b-1-bit-ternary.md"
+    },
+    {
+      "title": "Turning local agents into self-optimizing agents",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1toejzp/turning_local_agents_into_selfoptimizing_agents/",
+      "date": "2026-05-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I was experimenting with a self-optimizing agentic pipeline to climb the benchmark leaderboard (TerminalBench). On a 10-task subset, I got the performance to rise from ~30% → ~90%. That loop worked, so I asked: can the same reflect-and-rewrite step run continuously against everyday chats instead of a benchmark? How it works Every chat with your local LLM... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-26/09-turning-local-agents-into-self-optimizing-agents.md"
+    },
+    {
+      "title": "Okay 27B made me a believer",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1to73op/okay_27b_made_me_a_believer/",
+      "date": "2026-05-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I previously hated on this model, but I have just been impressed by it, and I understand the hype now. I have been working on a HTML5 game console and I decided to see if Qwen3.6 27B can handle making some quick games in it to showcase functionality (save games, console API handling for stat tracking and heartbeat management, meta data for the game, etc)... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-26/10-okay-27b-made-me-a-believer.md"
+    },
     {
       "title": "Show HN: Nerve – self hosted runtime for AI agents",
       "source": "Hacker News Top + Show HN",
