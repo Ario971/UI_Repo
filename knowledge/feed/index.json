@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T08:34:08.546Z",
+  "updated_at": "2026-05-28T08:38:05.797Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Teleport-env – <500ms stateful rollbacks for AI agents via CRIU",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/JaiCode08/teleport-env",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Teleport-env – <500ms stateful rollbacks for AI agents via CRIU (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/11-show-hn-teleport-env-500ms-stateful-rollbacks-for-ai-agents-via-criu.md"
+    },
+    {
+      "title": "tyanko-lab/agents-mission-control",
+      "source": "GitHub Trending",
+      "url": "https://github.com/tyanko-lab/agents-mission-control",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A control plane for production AI agents — operate, improve and govern fleets of agents from one calm, observable surface. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/12-tyanko-lab-agents-mission-control.md"
+    },
+    {
+      "title": "jhwreal/wechat-article-pipeline-skill",
+      "source": "GitHub Trending",
+      "url": "https://github.com/jhwreal/wechat-article-pipeline-skill",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "WeChat Article Pipeline Skill 是一个面向 Codex 与 AI Agent 的微信公众号内容生产 Skill，支持文章优化、配图规划、HTML/Markdown 排版，并可自动创建公众号草稿，实现半自动化发布流程。 A WeChat article production skill for Codex and AI agents, supporting article refinement, image planning, HTML/Markdown formatting, and automatic WeChat draft creation for publishing workflows. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/13-jhwreal-wechat-article-pipeline-skill.md"
+    },
+    {
+      "title": "Show HN: Open-Source AI Racing Harness",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
+      "date": "2026-05-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi I'm Dan from Elodin, making an open source real-time capable flight software simulation. For AI Grand Prix contestants, the wait for the Round 1 virtual qualifier simulation has been grueling. If you’re competing, check out our simulation harness to tide you over, built to match the published competition constraints and message format. It runs against... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-27/14-show-hn-open-source-ai-racing-harness.md"
+    },
+    {
+      "title": "Show HN: Open-source alternative to Duolingo for learning anything",
+      "source": "Hacker News Show HN",
+      "url": "https://www.zoonk.com/",
+      "date": "2026-05-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I built an open-source tool for learning anything using AI: - Type what you want to learn - It creates a full interactive course for you Move from beginner to mastery of any subject, even complex things like Quantum Physics It has three formats: - Explanation: bite-sized lessons that you swipe like TikTok/Instagram - Practice: solve problems in real-world... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/15-show-hn-open-source-alternative-to-duolingo-for-learning-anything.md"
+    },
+    {
+      "title": "Show HN: Hodor – a 701KB native macOS prompt launcher for AI tools",
+      "source": "Hacker News Show HN",
+      "url": "https://hodor.design",
+      "date": "2026-05-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hodor is a tiny macOS app that launches saved AI prompts into any text field — from the screen edge, keyboard shortcut, or keyword such as ;git. I work with different AI tools every day, and had prompts scattered across Raycast snippets, Apple Notes, and Notion — notes that kept getting longer and unmanageable. Raycast snippets are useful, but cumbersome... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/16-show-hn-hodor-a-701kb-native-macos-prompt-launcher-for-ai-tools.md"
+    },
+    {
+      "title": "Show HN: Open-source Workspace (mail,docs,spreadsheet,drive) web/iOS",
+      "source": "Hacker News Show HN",
+      "url": "https://tinycld.org/",
+      "date": "2026-05-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Open-source Workspace (mail,docs,spreadsheet,drive) web/iOS (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/17-show-hn-open-source-workspace-mail-docs-spreadsheet-drive-web-ios.md"
+    },
+    {
+      "title": "Show HN: I made an emergency page for my family",
+      "source": "Hacker News Show HN",
+      "url": "https://help.delduca.org",
+      "date": "2026-05-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I have a bad memory and can't memorize some important numbers, so I created this project. I've always been concerned about being without my phone (getting robbed - which is common in Brazil - running out of battery, having it break, etc.), so I decided to create a page that sends SMS messages (LLM-summarized) and emails with more detailed information such... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/18-show-hn-i-made-an-emergency-page-for-my-family.md"
+    },
+    {
+      "title": "I built a 103B-token Usenet corpus (1980–2013) — pre-web, human-only, zero AI contamination. Got strong traction on r/ML, thought this community would find it useful.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tphhqk/i_built_a_103btoken_usenet_corpus_19802013_preweb/",
+      "date": "2026-05-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Posted this to r/MachineLearning a couple weeks ago (30K views, 100+ upvotes) and have been meaning to share it here where the fine-tuning angle is more directly relevant. I spent years building and processing a complete Usenet corpus from 1980 to 2013. Here’s why it might matter for local model work specifically: Zero AI contamination. Every post predate... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-27/19-i-built-a-103b-token-usenet-corpus-1980-2013-pre-web-human-only-zero-a.md"
+    },
+    {
+      "title": "CrankGPT by Squeez Labs - hand-cranked edge AI - talk about local AI!!!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpm7m3/crankgpt_by_squeez_labs_handcranked_edge_ai_talk/",
+      "date": "2026-05-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I met Katrin from Squeez Labs at an event hosted by Pathway AI (the team behind Baby Dragon Hatchling) where she told me about CrankGPT, a literally hand-cranked device for running local LLMs. It's apparently real. It's appearently launched. It's apparently glorious. Check it out at https://crankgpt.com/ - if anyone from Squeez Labs posts here and I'm ste... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-27/20-crankgpt-by-squeez-labs-hand-cranked-edge-ai-talk-about-local-ai.md"
+    },
+    {
+      "title": "Behold! Probably the most ghetto local AI server:",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpdt5m/behold_probably_the_most_ghetto_local_ai_server/",
+      "date": "2026-05-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "AKA: Jank Incarnate After months of pain, I finally got a working setup. There's a bunch of quirks about running a multi-Tesla setup. I was planning to write something about my experience after I get it running. Currently, the fans are plugged into the wall, speed is controlled with a knob. I still gotta wire up a PWM controller for them. EDIT: Specs: Int... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-27/21-behold-probably-the-most-ghetto-local-ai-server.md"
+    },
+    {
+      "title": "Qwen3.6 huge quality gain from Q4 to Q6 for coding agent",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpebhw/qwen36_huge_quality_gain_from_q4_to_q6_for_coding/",
+      "date": "2026-05-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So, last week I tried to update my unused local LLM setup. I had to stop using it because quality was too low and deepseek was too cheap. First thing I stopped using Ollama and now I only use llama.cpp built in server that works really great. The quality improvement from Q4 to Q6 is outstanding and finally a local LLM server can work very similarly to pai... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-27/22-qwen3-6-huge-quality-gain-from-q4-to-q6-for-coding-agent.md"
+    },
     {
       "title": "Show HN: Mind-expander, a visual workspace for coding with AI agents",
       "source": "Hacker News Top + Show HN",

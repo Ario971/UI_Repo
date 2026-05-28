@@ -1,0 +1,12 @@
+---
+title: "I built a 103B-token Usenet corpus (1980–2013) — pre-web, human-only, zero AI contamination. Got strong traction on r/ML, thought this community would find it useful."
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1tphhqk/i_built_a_103btoken_usenet_corpus_19802013_preweb/"
+date: "2026-05-27"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Posted this to r/MachineLearning a couple weeks ago (30K views, 100+ upvotes) and have been meaning to share it here where the fine-tuning angle is more directly relevant. I spent years building and processing a complete Usenet corpus from 1980 to 2013. Here’s why it might matter for local model work specifically: Zero AI contamination. Every post predate... (Local summary fallback used.)"
+---
+
+Posted this to r/MachineLearning a couple weeks ago (30K views, 100+ upvotes) and have been meaning to share it here where the fine-tuning angle is more directly relevant. I spent years building and processing a complete Usenet corpus from 1980 to 2013. Here’s why it might matter for local model work specifically: Zero AI contamination. Every post predates LLMs by decades. Training on this won’t bake in GPT mannerisms, refusal patterns, or RLHF artifacts. It’s raw human writing - argumentative, unfiltered, stylistically diverse across 33 years. Pre-SEO, pre-algorithm internet. People wrote longer, more substantively, without optimizing for engagement. The writing character is noticeably different from anything scraped from the modern web. Good hierarchies for domain fine-tuning: • comp.* — 10.3B tokens of computing discussion from people literally building the internet • sci.* — 3.3B tokens of scientific back-and-forth • rec.* — 16.5B tokens of hobbies, sports, arts, games • humanities.* — philosophy, literature, classic texts The numbers: • 103.1B tokens (cl100k_base) • 408M posts across 18,347 newsgroups • 1980–2013, 96.6% English Processing: deduplicated, alt.binaries.* excluded, binaries removed, email addresses redacted, MBOX → gzip JSONL. Someone in the community already fine-tuned Gemma 4 on the sample data (wyan/usenet-gemma-4-E2B-lora on HF) — works as a proof of concept even if it’s early days. Samples (5K posts per hierarchy + combined sets) are free to download — no approval needed. Full corpus available for licensing. Link in first comment. submitted by /u/OwnerByDane [link] [comments]
