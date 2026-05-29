@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T08:38:05.797Z",
+  "updated_at": "2026-05-29T08:37:44.025Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Ktx – Open-source executable context layer for data agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Kaelio/ktx",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, we’re open-sourcing ktx. It’s an executable context layer that makes agents reliable on your data stack. We built it after going through the experience of building production-grade data agents for dozens of companies. If you’ve also tried building them, or simply tried using Claude Code or Codex on your data warehouse, you’ll know that accuracy is... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/23-show-hn-ktx-open-source-executable-context-layer-for-data-agents.md"
+    },
+    {
+      "title": "Show HN: Bootstrap a team of coding agents from a template, OSS",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/awebai/aweb-team-coord-worktrees",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I have spent the last few months working on infrastructure and tools to give agents global ids, and the ability to communicate. That is up and running now, but actually structuring their work together has been a real pain: I still have to give them roles and responsibilities, and start the agents in the right directories with the right id so that the actu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/24-show-hn-bootstrap-a-team-of-coding-agents-from-a-template-oss.md"
+    },
+    {
+      "title": "Show HN: Multiplayer, a debugging agent to run locally next to your coding agent",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.multiplayer.app/",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We built Multiplayer because we kept running into the same problem: coding agents connected to existing observability stacks inherit all the limitations those stacks were built with. Sampled traces, aggregated metrics, context that stops at service boundaries, missing request/response content from deep within the system. The PRs they produce look plausibl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/25-show-hn-multiplayer-a-debugging-agent-to-run-locally-next-to-your-codi.md"
+    },
+    {
+      "title": "May 28, 2026 Announcements Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/series-h",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "May 28, 2026 Announcements Anthropic raises $65B in Series H funding at $965B post-money valuation (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/26-may-28-2026-announcements-anthropic-raises-65b-in-series-h-funding-at-.md"
+    },
+    {
+      "title": "Show HN: TapToyPia",
+      "source": "Hacker News Show HN",
+      "url": "https://memalign.github.io/m/taptoypia/index.html",
+      "date": "2026-05-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "My wife started playing Pokopia and told me it's the best game she's ever played. I watched her play for 10 minutes and thought that a simple demake inspired by Pokopia could be satisfying to play. TapToyPia is the result, playable in your web browser. In TapToyPia, you are an explorer sent on a one-way mission to a new planet. Your mission: build a settl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/27-show-hn-taptoypia.md"
+    },
+    {
+      "title": "Show HN: AT4K Launcher - Apple TV inspired Launcher for Android TVs",
+      "source": "Hacker News Show HN",
+      "url": "https://at4klauncher.com",
+      "date": "2026-05-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! I'm the developer of OffChess a Hackernews favorite Chess puzzles app. About 6 months ago I saw someone reviewing an Apple TV 4k on their youtube channel and it looked vastly superior in terms of UI and UX to what Android based Google TVs provide. I asked the people over at r/AndroidTV if someone has ported Apple TV experience to Android TV and the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-28/28-show-hn-at4k-launcher-apple-tv-inspired-launcher-for-android-tvs.md"
+    },
+    {
+      "title": "mildoss/skillsync-backend-ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/mildoss/skillsync-backend-ai",
+      "date": "2026-05-29",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "mildoss/skillsync-backend-ai Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-29/29-mildoss-skillsync-backend-ai.md"
+    },
+    {
+      "title": "anuj-devops-sre/Devops-Study",
+      "source": "GitHub Search API",
+      "url": "https://github.com/anuj-devops-sre/Devops-Study",
+      "date": "2026-05-29",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Devops (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-29/30-anuj-devops-sre-devops-study.md"
+    },
+    {
+      "title": "Which Coding Agent Features Are Useful For Local LLMs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqohv6/which_coding_agent_features_are_useful_for_local/",
+      "date": "2026-05-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been slop coding my own coding agent over the last week (just an open source thing going up on github), and it got me wondering what kinds of features would make for a good coding agent, specifically for local models? I searched the subreddit and see quite a few conversations asking about which local coding agent is best, but not much discussion abou... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/31-which-coding-agent-features-are-useful-for-local-llms.md"
+    },
+    {
+      "title": "StepFun 3.7 Flash",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqloii/stepfun_37_flash/",
+      "date": "2026-05-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "StepFun dropped Step 3.7 Flash, 196B total / 11B active MoE, runs locally on 128GB RAM It's a multimodal MoE (196B total params, only 11B active) with a built-in 1.8B ViT for vision. Benchmark highlights vs. other flash-tier models: - SWE-Bench Pro: 56.26% (beats DeepSeek V4 Flash at 55.6%, matches Gemini 3.5 Flash at 55.1%) - DeepSearchQA F1: 92.82%, com... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/32-stepfun-3-7-flash.md"
+    },
+    {
+      "title": "Reachy Mini goes fully local!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tq4x48/reachy_mini_goes_fully_local/",
+      "date": "2026-05-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi! Andi from Hugging Face here! My team has been working over the last few months on creating a super smooth local experience for conversations with Reachy Mini, see the video! We hope people can extend this into tons of different cool use-cases. We wrote a blog explaining how to set this up, and how to modify it for tons of different use cases. Even if... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-28/33-reachy-mini-goes-fully-local.md"
+    },
+    {
+      "title": "How do I make MTP work in llama-server?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqukp3/how_do_i_make_mtp_work_in_llamaserver/",
+      "date": "2026-05-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Downloaded IQ4_NL gguf from unsloth/Qwen3.6-35B-A3B-MTP-GGUF. git cloned a recent llama.cpp (version: 9397 (ac4b5a3fd)) and compiled it with GGML_CUDA=ON to run on my single 3090 llama-server command without MTP: ./build/bin/llama-server -m ~/gguf/Qwen3.6-35B-A3B-UD-IQ4_NL.gguf --host 0.0.0.0 --port 8080 -c 4096 -fa on --no-mmap -np 1 -ngl 99 llama-server... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/34-how-do-i-make-mtp-work-in-llama-server.md"
+    },
     {
       "title": "Show HN: Teleport-env – <500ms stateful rollbacks for AI agents via CRIU",
       "source": "Hacker News Top + Show HN",

@@ -1,10 +1,210 @@
 {
-  "last_checked_at": "2026-05-28T08:38:45.681Z",
+  "last_checked_at": "2026-05-29T08:38:09.368Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "ai-zerolab/mcp-email-server",
+      "name": "ai-zerolab/mcp-email-server",
+      "url": "https://github.com/ai-zerolab/mcp-email-server",
+      "date": "2026-05-29",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 80,
+      "momentum": 98,
+      "risk": 32,
+      "integration_effort": 68,
+      "expected_gain": 87,
+      "composite": 77,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "gHashTag/trios-mcp-rag",
+          "date": "2026-05-23",
+          "topic": "AI agents",
+          "similarity": 0.369,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
+        },
+        {
+          "title": "anzy-renlab-ai/pronounce",
+          "date": "2026-05-24",
+          "topic": "AI dev tools",
+          "similarity": 0.264,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/66-anzy-renlab-ai-pronounce.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-29)",
+        "BSD-3-Clause license",
+        "241 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, authors, readme, keywords, requires-python, classifiers"
+        }
+      ],
+      "install_commands": [
+        "npx -y @smithery/cli install @ai-zerolab/mcp-email-server --client claude",
+        "pip install mcp-email-server",
+        "uv run mcp-email-server"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-29/01-ai-zerolab-mcp-email-server.md"
+    },
+    {
+      "id": "debpalash/omnivoice-studio",
+      "name": "debpalash/OmniVoice-Studio",
+      "url": "https://github.com/debpalash/OmniVoice-Studio",
+      "date": "2026-05-29",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 80,
+      "momentum": 100,
+      "risk": 53,
+      "integration_effort": 48,
+      "expected_gain": 77,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: OpenBrief – Local-first video downloader/summarizer",
+          "date": "2026-05-25",
+          "topic": "AI agents",
+          "similarity": 0.251,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/87-show-hn-openbrief-local-first-video-downloader-summarizer.md"
+        },
+        {
+          "title": "Show HN: I open-sourced two AI agents with real memory (chat and voice, MIT)",
+          "date": "2026-05-26",
+          "topic": "AI agents",
+          "similarity": 0.227,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-26/99-show-hn-i-open-sourced-two-ai-agents-with-real-memory-chat-and-voice-m.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-29)",
+        "5203 GitHub stars",
+        "GitHub Actions/CI detected",
+        "Matches 2 saved Feed article(s)"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "No clear install command found in README",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps concurrently, kill-port-process, playwright, turbo, typescript, wait-on; scripts setup:api, dev:api, dev:frontend, dev:desktop, wait:api, wait:frontend, predev, dev"
+        },
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, license, requires-python"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-25 about AI agents; this candidate overlaps with \"Show HN: OpenBrief – Local-first video downloader/summarizer\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-29/02-debpalash-omnivoice-studio.md"
+    },
+    {
+      "id": "digital-process-tools/claude-supertool",
+      "name": "Digital-Process-Tools/claude-supertool",
+      "url": "https://github.com/Digital-Process-Tools/claude-supertool",
+      "date": "2026-05-29",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 100,
+      "momentum": 63,
+      "risk": 50,
+      "integration_effort": 56,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
+          "date": "2026-05-21",
+          "topic": "AI dev tools",
+          "similarity": 0.263,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/43-show-hn-i-made-a-claude-skill-for-spec-driven-development-sdd.md"
+        },
+        {
+          "title": "anzy-renlab-ai/pronounce",
+          "date": "2026-05-24",
+          "topic": "AI dev tools",
+          "similarity": 0.236,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/66-anzy-renlab-ai-pronounce.md"
+        },
+        {
+          "title": "xfzhu01/child-ai-tools",
+          "date": "2026-05-27",
+          "topic": "AI dev tools",
+          "similarity": 0.211,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/04-xfzhu01-child-ai-tools.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-05-29)",
+        "10 GitHub stars",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "Integration may take more than a quick install",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 6,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, readme, requires-python, license, authors, keywords"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/Digital-Process-Tools/claude-supertool.git",
+        "claude -p \"...\" --permission-mode bypassPermissions \\",
+        "npm install -g intelephense cclsp",
+        "claude --dangerously-load-development-channels server:claude-channel",
+        "git status",
+        "claude -p"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-21 about AI dev tools; this candidate overlaps with \"Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-29/03-digital-process-tools-claude-supertool.md"
+    },
     {
       "id": "can1357/oh-my-pi",
       "name": "can1357/oh-my-pi",
