@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T08:37:44.025Z",
+  "updated_at": "2026-05-30T07:35:28.469Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://llmgame.scalex.dev",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/35-show-hn-continue-y-n-a-60-second-game-about-ai-agent-permission-fatigu.md"
+    },
+    {
+      "title": "Show HN: AionOS – self-healing microkernel in Zig (boots on real hardware)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/rodancz/aion",
+      "date": "2026-05-29",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: AionOS – self-healing microkernel in Zig (boots on real hardware) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-29/36-show-hn-aionos-self-healing-microkernel-in-zig-boots-on-real-hardware.md"
+    },
+    {
+      "title": "Show HN: MigraDiff – maintained fork of migra (PostgreSQL schema diff)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/migradiff/migra",
+      "date": "2026-05-29",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: MigraDiff – maintained fork of migra (PostgreSQL schema diff) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-29/37-show-hn-migradiff-maintained-fork-of-migra-postgresql-schema-diff.md"
+    },
+    {
+      "title": "Show HN: I brought back Airbnb categories",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.vibebnb.fyi/",
+      "date": "2026-05-29",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I miss airbnb categories. It was fun and I loved being able to just browse thorugh cool listings. I'm not exactly sure why they removed it. Then, a couple weeks ago, they hit me with some A/B test and I had access to a \"what\" freeform textbox to custom filter results. Now apparently they removed that too. At this point, I wasn't happy - so I decided to lo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-29/38-show-hn-i-brought-back-airbnb-categories.md"
+    },
+    {
+      "title": "dui14/vibe-coding-workflow",
+      "source": "GitHub Search API",
+      "url": "https://github.com/dui14/vibe-coding-workflow",
+      "date": "2026-05-30",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI-native project scaffold: describe your idea → agent writes all context files. Includes skills (skills.sh), MCP tools, UI system, and agent review workflow. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"
+    },
+    {
+      "title": "Show HN: Gaia Atlas – Local Stellar Map",
+      "source": "Hacker News Show HN",
+      "url": "https://valhovey.github.io/gaia-atlas/",
+      "date": "2026-05-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi there! I made the fan-created Project Hail Mary Star Map and had so much fun with the initial version that I decided to create a v2 that lets you explore our local star system and travel to many more stars. This new version lets you visit dozens of named stars, plan interstellar travel, view exoplanet systems, learn about stellar characteristics, and v... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-29/40-show-hn-gaia-atlas-local-stellar-map.md"
+    },
+    {
+      "title": "Show HN: NvEnvy – A Notational Velocity (NvAlt) Reboot in Swift. OSS",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/kenm47/nvEnvy",
+      "date": "2026-05-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I'm a long time user of Notational Velocity and then nvAlt, and tried nvUltra recently but in the world of Claude it felt like I should own my own——change behaviors as I need them. Right now it's just a Mac app, but iOS coming in the future for myself, sync with icloud. Notes are saves as .md files and have quick search. You can open the same folder with... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-29/41-show-hn-nvenvy-a-notational-velocity-nvalt-reboot-in-swift-oss.md"
+    },
+    {
+      "title": "I tested MTP on vLLM and llama.cpp for Gemma 4 & Qwen 3.6 — 3.34x faster inference, here are my findings RTX 6000 PRO.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1trf0r0/i_tested_mtp_on_vllm_and_llamacpp_for_gemma_4/",
+      "date": "2026-05-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey guys, I spent the last few weeks benchmarking Multi-Token Prediction (MTP) on Gemma 4 31B and Qwen 3.6 27B locally GGUF, FP8 using both vLLM and llama.cpp . MTP is the inference trick every major lab is quietly adding to their stack right now and the results genuinely surprised me. Benchmark config: - 10 runs per session - 1500 tokens per run - Sequen... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/42-i-tested-mtp-on-vllm-and-llama-cpp-for-gemma-4-qwen-3-6-3-34x-faster-i.md"
+    },
+    {
+      "title": "Me train LLM on 8GB from Scratch. Me happy",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1treb2z/me_train_llm_on_8gb_from_scratch_me_happy/",
+      "date": "2026-05-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I made post yesterday: https://www.reddit.com/r/LocalLLaMA/comments/1tqjuzg/why_is_there_no_community_project_for_training/ i program today: https://github.com/epoyraz/train-a-model-from-scratch Highlight: - train tinystories from scratch with 8GB VRAM. YAY - mHC no good (too small model) - BitNet too Slow (no memory gain while training) - TurboQuant (no... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/43-me-train-llm-on-8gb-from-scratch-me-happy.md"
+    },
+    {
+      "title": "Shoutout to Gemma4 as a conversational assistant / agent",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqy2iv/shoutout_to_gemma4_as_a_conversational_assistant/",
+      "date": "2026-05-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I'm seriously impressed by Gemma4 26B A4B. On my M5 Pro (so not much memory bandwidth by GPU standards), it's blazingly fast and it's a very good generalist / everyday local LLM. It has a little bit of personality to its responses, and seems to perform decently for everything: creative writing, debugging and coding, random chats, image recognition and cla... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/44-shoutout-to-gemma4-as-a-conversational-assistant-agent.md"
+    },
+    {
+      "title": "PSA",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tr7hzw/psa/",
+      "date": "2026-05-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/Signal_Ad657 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/45-psa.md"
+    },
     {
       "title": "Show HN: Ktx – Open-source executable context layer for data agents",
       "source": "Hacker News Top + Show HN",
