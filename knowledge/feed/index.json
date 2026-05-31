@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T07:35:28.469Z",
+  "updated_at": "2026-05-31T08:08:52.103Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Jynx, a matchmaking app to find gaming teammates",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://jynx.app/",
+      "date": "2026-05-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "TL;DR: Jynx is a gaming social platform that matches you with compatible teammates based on skill level, play style and schedule. Swipe to find players (Tinder-style), create or join game sessions (LFG), chat, and build your squad. 214k lines of Dart, 23 feature modules, built entirely with Claude Code as my entry into agentic engineering. Live on App Sto... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-30/46-show-hn-jynx-a-matchmaking-app-to-find-gaming-teammates.md"
+    },
+    {
+      "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.30353v1",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Are AI agents tools, co-authors, or researchers? We present a quantified case study ($N=1$): a physicist supervising an AI coding agent (Claude Code, Sonnet and Opus models) over 12 work days and 57 sessions to build CLAX-PT, a differentiable one-loop perturbation theory module in JAX. We documented and classified 15 supervision events by intervention lev... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/47-physics-is-all-you-need-a-case-study-in-physicist-supervised-ai-develo.md"
+    },
+    {
+      "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.30329v1",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Autonomous AI research agents aim to accelerate scientific discovery by automating the research pipeline, from hypothesis generation to peer review. However, existing benchmarks rarely test a fundamental bottleneck: whether Large Language Models can judge the methodological viability of a research idea before expending time and computational resources. We... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/48-soundnessbench-can-your-ai-scientist-really-tell-good-research-ideas-f.md"
+    },
+    {
+      "title": "Gram: Assessing sabotage propensities via automated alignment auditing",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2605.30322v1",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We introduce Gram, an automated alignment auditing framework to assess the propensity of AI agents to engage in sabotage. We evaluate Gemini models across 17 simulated agentic deployment scenarios that incentivize sabotage. We find Gemini models misbehave in about 2-3% of our simulated trajectories. Many of these cases are explained by \"overeagerness\" in... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/49-gram-assessing-sabotage-propensities-via-automated-alignment-auditing.md"
+    },
+    {
+      "title": "ayalmauda-ai/devops-final-project",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ayalmauda-ai/devops-final-project",
+      "date": "2026-05-31",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ayalmauda-ai/devops-final-project Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-31/50-ayalmauda-ai-devops-final-project.md"
+    },
+    {
+      "title": "Show HN: Helios – what plug-in solar could generate for any address in Britain",
+      "source": "Hacker News Show HN",
+      "url": "https://helios.southlondonscientific.com/",
+      "date": "2026-05-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Plug-in solar panels (no electrician needed) have just become legal in the UK and will go on sale soon. Helios estimates how much electricity a typical installation could generate at a given address and what that's worth against your tariff. It uses UK government LIDAR data to reflect the actual skyline, so it knows whether there's a building or a hill bl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/51-show-hn-helios-what-plug-in-solar-could-generate-for-any-address-in-br.md"
+    },
+    {
+      "title": "Show HN: I made a Gemma 4 Mac app that names screenshots with local AI",
+      "source": "Hacker News Show HN",
+      "url": "https://snapname.app",
+      "date": "2026-05-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I made my first macOS utility app that ships with a bundled Gemma 4 model, specifically the Gemma E4B one. It made my app DMG have 5.3 GB in size, but I think it is a small size for the power that this free local model can provide. It runs fine on CPU, but can also run on Apple Silicon GPU, although I did not notice any performance improvements with GPU (... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-31/52-show-hn-i-made-a-gemma-4-mac-app-that-names-screenshots-with-local-ai.md"
+    },
+    {
+      "title": "Show HN: Babo – A scripting natural language that works as intended",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/armbox/babo",
+      "date": "2026-05-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Babo script is source code written in plain English. LLM compiler reads the description, builds a runnable program and runs it. Not a dev tool, just scripting tool. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/53-show-hn-babo-a-scripting-natural-language-that-works-as-intended.md"
+    },
+    {
+      "title": "Parallax: Parameterized Local Linear Attention for Language Modeling",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ts79rg/parallax_parameterized_local_linear_attention_for/",
+      "date": "2026-05-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Large Language Models (LLMs) have become the central paradigm in artificial intelligence, yet the core computational primitive of attention has remained structurally unchanged. Local Linear Attention (LLA) is an attention mechanism derived from nonparametric statistics in the test-time regression framework. In contrast to prior research on efficient atten... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-30/54-parallax-parameterized-local-linear-attention-for-language-modeling.md"
+    },
+    {
+      "title": "Cost Analysis of my $6.4k Local LLM Server",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsbl9j/cost_analysis_of_my_64k_local_llm_server/",
+      "date": "2026-05-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I haven't seen any of these done, so I just wanted to share my experience in case it is useful for anyone. The purpose of this post is to show total cost of ownership of my local llm server versus API equivalent. Before you look at the final numbers, note that most people do not do proper financial accounting of hardware. Most people treat hardware as a f... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-30/55-cost-analysis-of-my-6-4k-local-llm-server.md"
+    },
+    {
+      "title": "mudler/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-MTP-GGUF just released !",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tslv3b/mudlerqwen3635ba3bclaude47opusreasoningdistilledap/",
+      "date": "2026-05-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Description of the module: I host 30+ free APEX MoE quantizations as independent research. My only local hardware is an NVIDIA DGX Spark (122 GB unified memory) — enough for ~30-50B-class MoEs, but bigger ones (200B+) require rented compute on H100/H200/Blackwell, typically $20-100 per quant. If APEX quants are useful to you, your support directly funds t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-31/56-mudler-qwen3-6-35b-a3b-claude-4-7-opus-reasoning-distilled-apex-mtp-gg.md"
+    },
+    {
+      "title": "125 tok/s for Qwen3.6 q4xl on 2x 4060ti is insane perf/dollar",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tryp2q/125_toks_for_qwen36_q4xl_on_2x_4060ti_is_insane/",
+      "date": "2026-05-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Under $1000 for 32gb vram from 2023, and ~300 watts draw... and this thing is outperforming the latest pick-your-vendor $5k mini pcs from 2026. So.. next question is can I make it squeeze 150 t/s with the same q4xl on cuda 13.3 this weekend. Anyone try it yet? **Edit** llamacpp ini/flags: podman run -d \\ --name llama-qwen36-router \\ --device nvidia.com/gp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-30/57-125-tok-s-for-qwen3-6-q4xl-on-2x-4060ti-is-insane-perf-dollar.md"
+    },
     {
       "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
       "source": "Hacker News Top + Show HN",
