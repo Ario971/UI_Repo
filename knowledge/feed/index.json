@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T08:08:52.103Z",
+  "updated_at": "2026-06-01T10:11:17.646Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Deliberate – log what your agent rejected, not just what it ran",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.deliberate.dev/",
+      "date": "2026-05-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'm building Deliberate in response to the PocketOS incident in April and the DataTalks.Club incident in February. Jer Crane could see the API call that deleted his prod volume. He couldn't see that the agent had other options and picked the worst one. Trace tools show you what ran. I wanted something that shows you what the agent was choosing between. Ea... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-31/58-show-hn-deliberate-log-what-your-agent-rejected-not-just-what-it-ran.md"
+    },
+    {
+      "title": "rutulraval/ai-coding-agents-autogen",
+      "source": "GitHub Trending",
+      "url": "https://github.com/rutulraval/ai-coding-agents-autogen",
+      "date": "2026-06-01",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "🤖 Hands-on Python demos for AI Coding Agents using AutoGen, MCP, Tavily & Gemini — practical patterns for building agentic AI workflows (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/59-rutulraval-ai-coding-agents-autogen.md"
+    },
+    {
+      "title": "Show HN: Breathe CLI – Paced resonance breathing in the macOS terminal",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/marekkowalczyk/breathe-cli",
+      "date": "2026-05-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I built a terminal app that paces slow breathing at 6 breaths per minute for vagal tone training. It's a single Python file, stdlib only, no dependencies — just run breathe and follow the bar. I'm a cardiology patient (HFrEF). Slow breathing at resonance frequency is one of the few non-pharmacological interventions shown to improve cardiac vagal tone and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-30/60-show-hn-breathe-cli-paced-resonance-breathing-in-the-macos-terminal.md"
+    },
+    {
+      "title": "Show HN: Open Envelope – an open schema for defining AI agent teams",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://openenvelope.org/docs/schema/",
+      "date": "2026-05-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Built an open JSON Schema for defining AI agent teams. Multi-agent systems are becoming a real deployment pattern — not single assistants, but teams with roles, handoffs, and human checkpoints. But there's no shared way to define one that travels across frameworks. Every implementation is scattered, locked to whichever tool you picked first. Built the sch... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/61-show-hn-open-envelope-an-open-schema-for-defining-ai-agent-teams.md"
+    },
+    {
+      "title": "massmr/wwwatch-journal",
+      "source": "GitHub Search API",
+      "url": "https://github.com/massmr/wwwatch-journal",
+      "date": "2026-06-01",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "The AI stack moves too fast to follow. wwwatch follows it for you. A daily journal of what actually moved in AI. The models, tools, and releases that change what you ship this week. Five minutes. Sourced. No hype. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-01/62-massmr-wwwatch-journal.md"
+    },
+    {
+      "title": "Show HN: Ouijit, an open-source task and terminal manager for coding agents",
+      "source": "Hacker News Show HN",
+      "url": "https://ouijit.com/",
+      "date": "2026-05-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I’m working on Ouijit. It’s a project and task-based terminal session manager that provides a few basic but useful tools for agent workflows: - Terminal sessions in Ouijit have access to the ouijit CLI, and supported agents (Claude, Codex, Pi) can work with it out of the box to manage tasks and customize a personal development workflow - Tasks live... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-31/63-show-hn-ouijit-an-open-source-task-and-terminal-manager-for-coding-age.md"
+    },
+    {
+      "title": "Show HN: Use Chrome DevTools Protocol to Control WinForm/MFC Apps",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/AIGCEra/Creator",
+      "date": "2026-05-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Use Chrome DevTools Protocol to Control WinForm/MFC Apps (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-31/64-show-hn-use-chrome-devtools-protocol-to-control-winform-mfc-apps.md"
+    },
+    {
+      "title": "vedantggwp/sentinel",
+      "source": "GitHub Search API",
+      "url": "https://github.com/vedantggwp/sentinel",
+      "date": "2026-06-01",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "OSS safety runtime for sponsored recommendations in AI conversations; API/MCP verification, signed receipts, deterministic gates. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-01/65-vedantggwp-sentinel.md"
+    },
+    {
+      "title": "GPU Prices. Buy now, or buy later?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt9r8j/gpu_prices_buy_now_or_buy_later/",
+      "date": "2026-05-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "If the Community could sound off on this, I'd be grateful. Do you think GPU prices are going to stop skyrocketing? Is this FOMO and hype driving the adoption of local inference? I wonder if this mass-market adoption will last for years? Is it a long-term trend? If I wait 6 months, will I regret it? (cause prices are going to keep screaming). I don't know... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-31/66-gpu-prices-buy-now-or-buy-later.md"
+    },
+    {
+      "title": "I was a Data Scientist for 10 years before becoming a quadriplegic. For the past 3 months, I built VibeETL from scratch: A lightning-fast, visual Alteryx alternative powered by Polars & React Flow.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tthxl4/i_was_a_data_scientist_for_10_years_before/",
+      "date": "2026-06-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA I spent nearly a decade working in the trenches as a data scientist, wrestling with massive datasets, handling messy enterprise schemas, and using just about every major ETL tool on the market. A few years ago, my life changed completely when I became a quadriplegic. But my passion for building software close to the metal never stopped. F... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-01/67-i-was-a-data-scientist-for-10-years-before-becoming-a-quadriplegic-for.md"
+    },
+    {
+      "title": "I ported NVIDIA Parakeet (speech-to-text) to ggml: same output as NeMo, faster, GGUF-quantized, no Python",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt6oja/i_ported_nvidia_parakeet_speechtotext_to_ggml/",
+      "date": "2026-05-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I ported NVIDIA's Parakeet speech-to-text models to pure C++/ggml (the engine behind llama.cpp and whisper.cpp). It runs the FastConformer TDT / CTC / RNNT / hybrid models with no Python and no PyTorch, on CPU and GPU (CUDA, HIP, Vulkan, Metal). The goal was to match NeMo exactly, then make it deployable anywhere. Where it landed: Output is byte-for-byte... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-31/68-i-ported-nvidia-parakeet-speech-to-text-to-ggml-same-output-as-nemo-fa.md"
+    },
+    {
+      "title": "Deepseek V4 flash performance on DGX Spark",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttlp99/deepseek_v4_flash_performance_on_dgx_spark/",
+      "date": "2026-06-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hello Reddit I have been trying to get Deepseek V4 on the DGX Spark for the past week. Yesterday I was finally able to get it to work thanks to the hard work from the folks at local-inference-lab . The variants I have are the ASUS GX10. Two GX10s are Hooked up to their connect X-7 port running in docker with a very janky setup. The max context I can safel... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-01/69-deepseek-v4-flash-performance-on-dgx-spark.md"
+    },
     {
       "title": "Show HN: Jynx, a matchmaking app to find gaming teammates",
       "source": "Hacker News Top + Show HN",

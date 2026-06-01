@@ -1,0 +1,12 @@
+---
+title: "I ported NVIDIA Parakeet (speech-to-text) to ggml: same output as NeMo, faster, GGUF-quantized, no Python"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1tt6oja/i_ported_nvidia_parakeet_speechtotext_to_ggml/"
+date: "2026-05-31"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "I ported NVIDIA's Parakeet speech-to-text models to pure C++/ggml (the engine behind llama.cpp and whisper.cpp). It runs the FastConformer TDT / CTC / RNNT / hybrid models with no Python and no PyTorch, on CPU and GPU (CUDA, HIP, Vulkan, Metal). The goal was to match NeMo exactly, then make it deployable anywhere. Where it landed: Output is byte-for-byte... (Local summary fallback used.)"
+---
+
+I ported NVIDIA's Parakeet speech-to-text models to pure C++/ggml (the engine behind llama.cpp and whisper.cpp). It runs the FastConformer TDT / CTC / RNNT / hybrid models with no Python and no PyTorch, on CPU and GPU (CUDA, HIP, Vulkan, Metal). The goal was to match NeMo exactly, then make it deployable anywhere. Where it landed: Output is byte-for-byte identical to NeMo (WER 0 on the f32/f16 path). Faster than NeMo's own PyTorch runtime: up to ~5x on the larger TDT/hybrid models on GPU, up to ~1.86x on CPU when quantized, and about 2x less memory. Around 600x realtime on GPU on a 23s clip (one hour of audio in roughly 6 seconds). Quantized GGUF for every variant: f16, q8_0, q6_k, q5_k, q4_k. https://preview.redd.it/t33li6b5aj4h1.png?width=1600&format=png&auto=webp&s=e50eaf8e1e3ba22314ad25586ec40ec613154b23 It also does cache-aware streaming with real-time end-of-utterance, word-level timestamps with confidence, and exposes a small flat C-API so you can embed it pretty much everywhere. The GGUF is self-contained: the tokenizer/vocab is baked into the model file, no external files needed. It ships as a backend in LocalAI too, so you get an OpenAI-compatible /v1/audio/transcriptions endpoint fully local. (Disclosure: I work on LocalAI.) https://reddit.com/link/1tt6oja/video/nxngb7x1aj4h1/player Links: Code (MIT): https://github.com/mudler/parakeet.cpp Models (GGUF): https://huggingface.co/mudler/parakeet-cpp-gguf All credit to NVIDIA for the Parakeet models and to ggml for the runtime. Benchmarks, methodology, and per-model plots are in the repo. Happy to answer questions about the port, the decoders, or the numbers. submitted by /u/mudler_it [link] [comments]
