@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T10:11:17.646Z",
+  "updated_at": "2026-06-02T09:01:04.192Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: DepsGuard – One command to harden NPM/pnpm/yarn/bun/uv configs",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/arnica/depsguard",
+      "date": "2026-06-01",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I kept seeing every npm/pnpm/yarn/bun/uv supply chain post end with the same advice (set a minimum release age, turn off install scripts), and while I know cooldowns are \"controversial\", they do work. But even if you convince people that they should set cooldowns, it seems many don't end up following through, not sure why, maybe because it means hand-edit... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/70-show-hn-depsguard-one-command-to-harden-npm-pnpm-yarn-bun-uv-configs.md"
+    },
+    {
+      "title": "Show HN: Viveka: filter LLM output against a Lean-verified Advaita Vedanta model",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/SpecStudio-net/Viveka",
+      "date": "2026-06-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Viveka: filter LLM output against a Lean-verified Advaita Vedanta model (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/71-show-hn-viveka-filter-llm-output-against-a-lean-verified-advaita-vedan.md"
+    },
+    {
+      "title": "Show HN: Textile – A desktop app for weaving together bits of text",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.gettextile.app",
+      "date": "2026-06-01",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi all, I'm excited to show off Textile, a desktop app I recently built. Textile can combine bits of text using various inputs, such as commands on your computer, the contents of your clipboard, and hard-coded strings that you provide. It lets you carefully build up and modify a dynamic string, step by step, until it's exactly how you need it. The saved s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/72-show-hn-textile-a-desktop-app-for-weaving-together-bits-of-text.md"
+    },
+    {
+      "title": "Show HN: NUA an agent that tests for product correctness",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://trynua.dev/",
+      "date": "2026-06-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We’ve been using background Claude loops a lot recently, and we would wake up to PRs that didn’t solve the problem we wanted, made on assumptions that were wrong. Furthermore, the tests that the agents wrote were usually tautological, and didn’t test for intent. We wanted an agent that took all the context a company has, and writes tests that check for pr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/73-show-hn-nua-an-agent-that-tests-for-product-correctness.md"
+    },
+    {
+      "title": "mikevillargr/TARS",
+      "source": "GitHub Search API",
+      "url": "https://github.com/mikevillargr/TARS",
+      "date": "2026-06-02",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Second Brain Personal Assistant (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/74-mikevillargr-tars.md"
+    },
+    {
+      "title": "linny006/awesome-agent-skills",
+      "source": "GitHub Search API",
+      "url": "https://github.com/linny006/awesome-agent-skills",
+      "date": "2026-06-02",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Curated, auto-updated awesome-list of vetted AI agent skills with quality ratings for Claude, GPT, a (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/75-linny006-awesome-agent-skills.md"
+    },
+    {
+      "title": "linny006/agent-eval-harness",
+      "source": "GitHub Search API",
+      "url": "https://github.com/linny006/agent-eval-harness",
+      "date": "2026-06-02",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Live, open-source benchmark for comparing AI coding agents on real GitHub issues (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/76-linny006-agent-eval-harness.md"
+    },
+    {
+      "title": "linny006/skills-tracker",
+      "source": "GitHub Search API",
+      "url": "https://github.com/linny006/skills-tracker",
+      "date": "2026-06-02",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Real-time tracking of every new GitHub 'skills' repo to capture the AI agent skill ecosystem trend (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/77-linny006-skills-tracker.md"
+    },
+    {
+      "title": "Stop asking what model to run. There are literally only two.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu82wi/stop_asking_what_model_to_run_there_are_literally/",
+      "date": "2026-06-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Can we please ban the daily \"I have an RTX 3060, what should I run?\" slop threads? It’s not complicated. As of right now, Hugging Face is empty and exactly two local models exist on this entire planet: Qwen 3.6 35b a3b Qwen 3.6 27b That is the entire list. Your specs don’t matter. Your use case doesn’t matter. Stop coping with your pristine, full-precisio... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-01/78-stop-asking-what-model-to-run-there-are-literally-only-two.md"
+    },
+    {
+      "title": "Intel Arc Pro B70 llama.cpp benchmarks posted",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuik6o/intel_arc_pro_b70_llamacpp_benchmarks_posted/",
+      "date": "2026-06-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://www.reddit.com/r/LocalLLM/comments/1tuf6l1/intel_arc_pro_b70_llamacpp_sycl_63_ts_on_qwen/ submitted by /u/jacek2023 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-02/79-intel-arc-pro-b70-llama-cpp-benchmarks-posted.md"
+    },
+    {
+      "title": "i dedicate this meme to you r/LocalLLaMA",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttu64m/i_dedicate_this_meme_to_you_rlocalllama/",
+      "date": "2026-06-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/LPFchan [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-01/80-i-dedicate-this-meme-to-you-r-localllama.md"
+    },
+    {
+      "title": "Man trains local model to detect and kill mosquitos with a laser",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuclzc/man_trains_local_model_to_detect_and_kill/",
+      "date": "2026-06-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Now this is local AI innovation we can all get behind. https://x.com/stevencheng/status/2059836738449854898 submitted by /u/No_Information9314 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-02/81-man-trains-local-model-to-detect-and-kill-mosquitos-with-a-laser.md"
+    },
     {
       "title": "Show HN: Deliberate – log what your agent rejected, not just what it ran",
       "source": "Hacker News Top + Show HN",
