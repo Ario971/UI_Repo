@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T09:01:04.192Z",
+  "updated_at": "2026-06-03T09:21:29.722Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: MetaBrain – A local document memory for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://metabrain.eu",
+      "date": "2026-06-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello there HN I experimented with agentic coding recently and I felt the need to track more contextual data by project. Also I felt the need to be able to go beyond the 1D chat to communicate with agents. So I created a local document memory, that is discoverable by agents themselves. The CLI is designed to be easy to pick up by agents. It allows humans... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/82-show-hn-metabrain-a-local-document-memory-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Clor – give your agent claws",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://clor.com/",
+      "date": "2026-06-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "At my last job I spent a year building an agentic coding platform used by hundreds of thousands of people. Along the way I tried building a hosting service on OpenClaw, and also ran Hermes myself for a while. Both projects have some great feature ideas, but when I tried to use them for real work they failed more often than not, and their security models w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/83-show-hn-clor-give-your-agent-claws.md"
+    },
+    {
+      "title": "Show HN: I built an on-chain economy where AI agents transact autonomously",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://agtchain.io/",
+      "date": "2026-06-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I built an on-chain economy where AI agents transact autonomously (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/84-show-hn-i-built-an-on-chain-economy-where-ai-agents-transact-autonomou.md"
+    },
+    {
+      "title": "RoyianChow/agentrx-ai-pharmacist-agents",
+      "source": "GitHub Trending",
+      "url": "https://github.com/RoyianChow/agentrx-ai-pharmacist-agents",
+      "date": "2026-06-03",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "RoyianChow/agentrx-ai-pharmacist-agents Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-03/85-royianchow-agentrx-ai-pharmacist-agents.md"
+    },
+    {
+      "title": "Show HN: Phive, a Gomoku-like game to play with friends or solo",
+      "source": "Hacker News Show HN",
+      "url": "https://phive.app",
+      "date": "2026-05-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "In 2025, my family and I had a long streak of playing a Gomoku / Go Bang / five-in-a-row based game called OK Play. I built a web version so that we could play any time we wanted (i.e. on our phones after kiddos went to sleep). The first player to get five-in-a-row (horizontally, vertically, or diagonally) wins. In the first phase of play, players take tu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/86-show-hn-phive-a-gomoku-like-game-to-play-with-friends-or-solo.md"
+    },
+    {
+      "title": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/s2-streamstore/replaya",
+      "date": "2026-06-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm one of the founders of s2.dev. RePlaya ( https://github.com/s2-streamstore/replaya ) is a self-hosted browser session replay tool using rrweb ( https://github.com/rrweb-io/rrweb ). It occurred to me that a durable stream per session would be a much neater architectural foundation for much of what you'd want from such a tool. As a unique feature... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/87-show-hn-replaya-self-hosted-browser-session-replay-with-live-tailing.md"
+    },
+    {
+      "title": "Show HN: Build Your Own AI Agent CLI in 150 Lines",
+      "source": "Hacker News Show HN",
+      "url": "https://go-micro.dev/blog/11",
+      "date": "2026-06-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I can't tell if HN is the right kind of place for this stuff anymore since people are so advanced in their use but I thought it was interesting to leverage my existing Go microservices framework and turn it into the core of what would provide tools for an agent cli or whatever beyond that. Extensibility is key. Thought I'd share and get a conversation going. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/88-show-hn-build-your-own-ai-agent-cli-in-150-lines.md"
+    },
+    {
+      "title": "Show HN: AI-Powered PDF to Markdown Converter",
+      "source": "Hacker News Show HN",
+      "url": "https://pdftomdconverter.com",
+      "date": "2026-06-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Turn complex PDFs into clean Markdown that people can review and AI tools can use. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-03/89-show-hn-ai-powered-pdf-to-markdown-converter.md"
+    },
+    {
+      "title": "Benchmarks of 20 small LLMs on a 6GB RTX 4050",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuvs6l/benchmarks_of_20_small_llms_on_a_6gb_rtx_4050/",
+      "date": "2026-06-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I'm looking for models that can run on my GPU and actually do something useful. I think that any small difference could be a \"big\" improvement, because they are all so small. So I went to the LM studio database and searched many variants from the same family, trying to select the newer models. Then asked claude to select known benchmarks and then run some... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-02/90-benchmarks-of-20-small-llms-on-a-6gb-rtx-4050.md"
+    },
+    {
+      "title": "Calling it now Microsoft is buying Unsloth.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvhv4b/calling_it_now_microsoft_is_buying_unsloth/",
+      "date": "2026-06-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I am going to be honest, I am leery of this new partnership with Unsloth. Microsoft historically hated open source, and this will not benefit the community in the end. It will look great at first. They will drop updates, play nice, and everyone will celebrate. But if you have been around the block, you know exactly how this play ends. Microsoft spent deca... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-03/91-calling-it-now-microsoft-is-buying-unsloth.md"
+    },
+    {
+      "title": "Microsoft Aion 1.0 Instruct and Aion 1.0 Plan models!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvekng/microsoft_aion_10_instruct_and_aion_10_plan_models/",
+      "date": "2026-06-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Microsoft announced 2 new on-device models at Microsoft Build 2026. Aion 1.0 Instruct: efficiency at scale. Aion 1.0 Instruct is our next-generation small language model, smaller, faster and more efficient than our current Windows OS SLM. Designed from the ground up for on-device workloads, Aion 1.0 Instruct powers everyday text intelligence (summarizatio... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-03/92-microsoft-aion-1-0-instruct-and-aion-1-0-plan-models.md"
+    },
+    {
+      "title": "Minimax M3 appears to have no political censorship",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuv1sv/minimax_m3_appears_to_have_no_political_censorship/",
+      "date": "2026-06-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I'm currently working on a chinese/CCP AI bias benchmark, and this has stood out as an outlier. All the other Minimax models are censored as is typical for chinese LLMs. submitted by /u/DingyAtoll [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-02/93-minimax-m3-appears-to-have-no-political-censorship.md"
+    },
     {
       "title": "Show HN: DepsGuard – One command to harden NPM/pnpm/yarn/bun/uv configs",
       "source": "Hacker News Top + Show HN",

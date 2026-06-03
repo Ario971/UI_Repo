@@ -1,0 +1,12 @@
+---
+title: "Show HN: Phive, a Gomoku-like game to play with friends or solo"
+source: "Hacker News Show HN"
+url: "https://phive.app"
+date: "2026-05-30"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "In 2025, my family and I had a long streak of playing a Gomoku / Go Bang / five-in-a-row based game called OK Play. I built a web version so that we could play any time we wanted (i.e. on our phones after kiddos went to sleep). The first player to get five-in-a-row (horizontally, vertically, or diagonally) wins. In the first phase of play, players take tu... (Local summary fallback used.)"
+---
+
+In 2025, my family and I had a long streak of playing a Gomoku / Go Bang / five-in-a-row based game called OK Play. I built a web version so that we could play any time we wanted (i.e. on our phones after kiddos went to sleep). The first player to get five-in-a-row (horizontally, vertically, or diagonally) wins. In the first phase of play, players take turns placing their pieces next to existing pieces (always edge-to-edge; you can't place a piece with only a corner-to-corner connection). After players exhaust their pieces, play moves into the movement phase: you pick up an existing piece you own and place it according to the previous placement rules. During the movement phase, you cannot move a piece that would leave other pieces disconnected. Play continues in player order until someone wins. I wrote the app using Elixir's Phoenix framework with Daisy UI / Tailwind CSS for styling. The app is deployed on Gigalixir via its generous free plan. I am by no means a frontend developer / designer, so there's for sure better ways to implement things than what I have here. I mostly focused on making it mobile friendly and getting it to support light and dark mode. There likely exists browser / device specific bugs, since we've only tested it out on our phones (iPhone 13 Pro, Safari / Chrome) and my computer (MacBook Pro, Safari). Happy to hear any suggestions, frontend or otherwise, if you have them! Developing this has been a real journey. Highlights have included learning about Gomoku and its variants, articulation points (and Trajan's algorithm for strongly connected components), and the Monte Carlo tree search algorithm (for the intermediate level "AI" mode I've recently added for single-player use). Lowlights have all been CSS related. I'd love to add a "matchmaking" mode in the future. I haven't really looked too much into the mechanics for how that's usually done though - it'll be a great learning opportunity!
