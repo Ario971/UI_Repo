@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T09:21:29.722Z",
+  "updated_at": "2026-06-04T08:43:15.446Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Jun 3, 2026 Policy What we learned mapping a year’s worth of AI-enabled cyber threats",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "date": "2026-06-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Jun 3, 2026 Policy What we learned mapping a year’s worth of AI-enabled cyber threats (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-03/94-jun-3-2026-policy-what-we-learned-mapping-a-year-s-worth-of-ai-enabled.md"
+    },
+    {
+      "title": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/zaydmulani09/mnemo",
+      "date": "2026-06-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-03/95-show-hn-mnemo-local-first-ai-memory-layer-for-any-llm-rust-sqlite-petg.md"
+    },
+    {
+      "title": "Show HN: Ideogram 4.0 – open-weight 9.3B text-to-image model",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/ideogram-oss/ideogram4",
+      "date": "2026-06-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "It's our new text-to-image model: a 9.3B single-stream diffusion transformer trained entirely from scratch. We focused heavily on controllability through structured JSON prompts, with strong text rendering, spatial awareness through bounding box guidance, and color palette control. It has the best text rendering of any open-weight model we've tested so fa... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-03/96-show-hn-ideogram-4-0-open-weight-9-3b-text-to-image-model.md"
+    },
+    {
+      "title": "Show HN: an AI app that settles small couple arguments",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://thepiece.app/en",
+      "date": "2026-06-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Nisrine and I have been working in the same company for many years (she's Head of Product, I am CPTO) and we have done great things for our employer(s) all along. But we always wondered if we could launch our own app – after all, we know the process of it all, we just \"never had the time\". The idea started from a random conversation, after Nisrine told me... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/97-show-hn-an-ai-app-that-settles-small-couple-arguments.md"
+    },
+    {
+      "title": "w932635477-bit/aicalc",
+      "source": "GitHub Search API",
+      "url": "https://github.com/w932635477-bit/aicalc",
+      "date": "2026-06-04",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Free AI developer tools — 21 privacy-first utilities for LLM pricing, token counting, cron generation, CSP headers, PII redaction and more. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-04/98-w932635477-bit-aicalc.md"
+    },
+    {
+      "title": "praveen66ai-66/AGENTIC-_AI_RAG",
+      "source": "GitHub Search API",
+      "url": "https://github.com/praveen66ai-66/AGENTIC-_AI_RAG",
+      "date": "2026-06-04",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "praveen66ai-66/AGENTIC-_AI_RAG Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-04/99-praveen66ai-66-agentic-ai-rag.md"
+    },
+    {
+      "title": "Show HN: Live breath detection and biofeedback from a phone microphone",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/shiihaa-app/shiihaa-breath-detection",
+      "date": "2026-06-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I am Felix, a famliy doctor from ZH, Switzerland. A couple of month ago I started this little project called shii • haa, a breathing app that uses the phone`s microphone for live biofeedback My prior work in emergency medicine and intensive care was closesly linked to breathing, mostly in critical situations... and let me to reevaluate my own... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/01-show-hn-live-breath-detection-and-biofeedback-from-a-phone-microphone.md"
+    },
+    {
+      "title": "Show HN: Solving complex optimization problems with Google OR-Tools in browser",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/Axelwickm/or-tools-wasm",
+      "date": "2026-06-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Solving complex optimization problems with Google OR-Tools in browser (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-03/02-show-hn-solving-complex-optimization-problems-with-google-or-tools-in-.md"
+    },
+    {
+      "title": "New Google Gemma 4 12B Claims Near-26B Performance - We Tested Both!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tw4tmf/new_google_gemma_4_12b_claims_near26b_performance/",
+      "date": "2026-06-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "We ran both models locally on one RTX 4090 and gave each the same task: write a self-contained HTML5 canvas animation with real physics in one file without libraries. Three scenes - a Galton board, two blocks colliding off a wall, and a chaotic triple pendulum Outputs: Gemma 4 26B-A4B: 15 GB VRAM usage, 6.9k tokens, 138 tok/s Gemma 4 12B: 9 GB VRAM usage,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-03/03-new-google-gemma-4-12b-claims-near-26b-performance-we-tested-both.md"
+    },
+    {
+      "title": "google/gemma-4-12B · Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvtn6m/googlegemma412b_hugging_face/",
+      "date": "2026-06-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on E2B, E4B, and 12B) and generating text output. This release includes open-weights models in both pre-trained and instruction-tuned variants. Gemma 4 features a context window of up to 256K tokens and maintains mu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-03/04-google-gemma-4-12b-hugging-face.md"
+    },
+    {
+      "title": "Gemma 4 12b 8Q Heretic Oneshot Coding",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twelo6/gemma_4_12b_8q_heretic_oneshot_coding/",
+      "date": "2026-06-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I was pretty impressed with the Gemma 4 12b release today and saw that the heretic version dropped. I was already getting refusals from the 8Q official model and decided to see how the heretic did oneshotting a retro game. It did so with ease. The single prompt start to finish ate 45k tokens total. Hardware Stack: Ryzen 9 9950X + AMD RX 6800 (16GB VRAM) v... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/05-gemma-4-12b-8q-heretic-oneshot-coding.md"
+    },
+    {
+      "title": "Ideal Local model technically possible?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twfmnw/ideal_local_model_technically_possible/",
+      "date": "2026-06-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Now that we have some great local models that can possibly run in mid-tier GPUs.. it makes me question, maybe companies have the capability to make much better models that are as small? Like, I am imagining a model that is as good as coding like Qwen3.6 27b and at the same time as good as Gemma 4 12b at languages and other stuff, at just say 30-32b dense.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/06-ideal-local-model-technically-possible.md"
+    },
     {
       "title": "Show HN: MetaBrain – A local document memory for AI agents",
       "source": "Hacker News Top + Show HN",
