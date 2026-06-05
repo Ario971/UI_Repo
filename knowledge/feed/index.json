@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T08:43:15.446Z",
+  "updated_at": "2026-06-05T08:37:53.632Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Lessons learned from running Claude Code swarms at scale",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://news.ycombinator.com/item?id=48407998",
+      "date": "2026-06-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Some time ago I built a simple app to run swarms of coding agents — I call it fleet ( https://news.ycombinator.com/item?id=48256389 ). It's based on centralized beads with a Python orchestrator and can run any coder (Claude, agy, Codex). Recently I added a UI to manage the whole agent lifecycle: adding new tasks, monitoring running ones, and a chat interf... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/07-show-hn-lessons-learned-from-running-claude-code-swarms-at-scale.md"
+    },
+    {
+      "title": "Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/schildep/verified-polygon-intersection",
+      "date": "2026-06-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "To my knowledge, this is the first formally verified implementation of an intersection algorithm for polygons. The experience of working with AI agents on this project changed a lot with recent model releases, as I describe in the readme. Opus 4.8 is able to provide algorithm implementation with formal proof in one shot, whereas previous models required m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/08-show-hn-formally-verified-polygon-intersection-opus-4-8-oneshots-prev-.md"
+    },
+    {
+      "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://cost.dev/",
+      "date": "2026-06-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We launched Infracost on HN five years ago ( https://news.ycombinator.com/item?id=26064588 ) where our CLI generated cost estimates for infra-as-code, e.g. \"this Terraform PR adds $400/mo\". The idea was to shift cloud costs (FinOps) left, so engineers get visibility of costs before deployment and make better decisions. Earlier this year we started seeing... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
+    },
+    {
+      "title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://boxes.dev",
+      "date": "2026-06-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, we’re Nick and Drew, and we’re building boxes.dev – the first cloud-only agentic dev environment (ADE) that gives every Codex and Claude Code agent its own cloud computer. We’re two engineers who previously built Gem (co-founder/CTO and first hire), and we spent the last year coding almost exclusively using Codex and Claude Code. It’s been a huge c... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/10-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-clo.md"
+    },
+    {
+      "title": "v9ai/agentic-sales",
+      "source": "GitHub Search API",
+      "url": "https://github.com/v9ai/agentic-sales",
+      "date": "2026-06-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "v9ai/agentic-sales Stars: 1 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-05/11-v9ai-agentic-sales.md"
+    },
+    {
+      "title": "metasession-dev/DevAudit-Installer",
+      "source": "GitHub Search API",
+      "url": "https://github.com/metasession-dev/DevAudit-Installer",
+      "date": "2026-06-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "metasession-dev/DevAudit-Installer Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-05/12-metasession-dev-devaudit-installer.md"
+    },
+    {
+      "title": "magicwubiao/go-magic-desktop",
+      "source": "GitHub Search API",
+      "url": "https://github.com/magicwubiao/go-magic-desktop",
+      "date": "2026-06-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A lightweight desktop client that enables local deployment and intuitive operation of go-magic AI Agent. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-05/13-magicwubiao-go-magic-desktop.md"
+    },
+    {
+      "title": "Show HN: Prela – Purely Algebraic Relation Combinators",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/remysucre/prela",
+      "date": "2026-06-01",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Prela is an embedded query language based on Tarski's Algebra of Relations. Its queries are concise, clear, and fast. It is implemented by shallow embedding in a host programming language: Prela operators are regular functions in the host. The implementation follows continuation-passing style which compiles to efficient columnar execution. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-01/14-show-hn-prela-purely-algebraic-relation-combinators.md"
+    },
+    {
+      "title": "Nvidia's been paying shills on LinkedIn",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twrvts/nvidias_been_paying_shills_on_linkedin/",
+      "date": "2026-06-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "3 different accounts, some even with LinkedIn Gold, made the above posts all on the same day. And clearly all of them followed the marketing team's pointers without even understanding how locally hosted AI works, no way a $249 8GB machine can replace frontier models. submitted by /u/jotunck [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/15-nvidia-s-been-paying-shills-on-linkedin.md"
+    },
+    {
+      "title": "You guys were right - Qwen 3.6 35B IS good...and KV Cache DOES matter.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twyoqe/you_guys_were_right_qwen_36_35b_is_goodand_kv/",
+      "date": "2026-06-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "WARNING: I'm speed typing this, no time to organizea/format, so if short paragraph chunks bother you, just keep it moving. CONTEXT UPDATE: (for those interested, otherwise skip) For those interested in the data points, the task was building an agentic workflow inside of rivet that included an mcp subgraph (with a list of 11 tools) that received json instr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/16-you-guys-were-right-qwen-3-6-35b-is-good-and-kv-cache-does-matter.md"
+    },
+    {
+      "title": "Gemma 4 12B is my new main squeeze",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txdcj9/gemma_4_12b_is_my_new_main_squeeze/",
+      "date": "2026-06-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The Unsloth Q5_K_XL is officially my main squeeze for local coding. I started out with the Q4_K_XL, but found myself fixing syntax errors a little too often. It wasn't terrible, but I had one file where I had to make 23 edits just for syntax. With the Q4 I was pulling around 61 t/s, and moving to the Q5 dropped me down to 50 t/s, but now most things get o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-05/17-gemma-4-12b-is-my-new-main-squeeze.md"
+    },
+    {
+      "title": "KVarN: new KV-cache quant from Huawei. 3–5× KV cache compression with actual speed-up instead of slow-down, and unlike TurboQuant it holds up on reasoning (Apache 2.0, vLLM single flag)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/",
+      "date": "2026-06-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The KV-cache quant race just got more interesting. Huawei just open-sourced KVarN , a KV-cache quantization method under Apache 2.0, drops into vLLM with one flag. Posting because the tradeoff it's claiming is genuinely different from what's already in the stack, and I'd like to see it stress-tested. The landscape it's stepping into FP8 ( --kv-cache-dtype... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/18-kvarn-new-kv-cache-quant-from-huawei-3-5-kv-cache-compression-with-act.md"
+    },
     {
       "title": "Jun 3, 2026 Policy What we learned mapping a year’s worth of AI-enabled cyber threats",
       "source": "Anthropic News",
