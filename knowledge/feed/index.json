@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T08:37:53.632Z",
+  "updated_at": "2026-06-06T07:40:26.807Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/zdk/lowfat",
+      "date": "2026-06-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, not sure if anyone would be interested, but just wanted to share that I've been maintaining my small tool called 'lowfat' that helps me filters some of my verbose CLI output. It's a single binary, works as an agent hook or a shell wrapper. It has a plugin system to customize filters per command. The idea is pretty simple: agents don't need the full... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/19-show-hn-lowfat-pluggable-cli-filter-that-saved-91-8-of-my-llm-tokens.md"
+    },
+    {
+      "title": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.06453v1",
+      "date": "2026-06-04",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Sparse attention is becoming increasingly important for serving large language models (LLMs) as generation lengths continue to grow. However, deploying and evaluating new sparse attention algorithms at scale remains highly engineering-intensive, slowing both human researchers and AI agents in exploring the sparse attention design. To address this challeng... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/20-vortex-efficient-and-programmable-sparse-attention-serving-for-ai-agen.md"
+    },
+    {
+      "title": "WebMCP Tool Surface Poisoning: Runtime Manipulation Attacks on LLM Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.06387v1",
+      "date": "2026-06-04",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "WebMCP is a newly emerging protocol that enables websites to expose tools directly to AI agents, bypassing traditional user interfaces and introducing new security risks. The dynamic exposure of agent-accessible tools in WebMCP expands the attack surface of web sessions, especially when third-party scripts are involved. In this study, we identify a new po... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/21-webmcp-tool-surface-poisoning-runtime-manipulation-attacks-on-llm-agen.md"
+    },
+    {
+      "title": "More than a Judge: An Empirical Study of Agent-Human Interaction in Crowdsourced Testing Assessment",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.06301v1",
+      "date": "2026-06-04",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Agentic AI is increasingly being integrated into software engineering workflows. In crowdsourced testing, however, the large volume and uneven quality of submitted reports still create a substantial review burden for developers. In prior work, we developed and validated a multi-agent assessment backbone based on the LLM-as-a-Judge paradigm. That backbone... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/22-more-than-a-judge-an-empirical-study-of-agent-human-interaction-in-cro.md"
+    },
+    {
+      "title": "Show HN: On-device transcriber that's 97% accurate at identifying speakers",
+      "source": "Hacker News Show HN",
+      "url": "https://mimicscribe.app/",
+      "date": "2026-06-05",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I’ve spent the last seven months building a tool I wish I’d had in my previous roles. MimicScribe is a macOS menu bar app that fits the \"AI notetaker\" category. It has accurate on-device speaker identification (a first possibly?), real-time meeting talking points for discovery calls, and a fully keyboard- and voice-driven interface. I believe the accuracy... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-05/23-show-hn-on-device-transcriber-that-s-97-accurate-at-identifying-speake.md"
+    },
+    {
+      "title": "Show HN: Bash Runtime for AWS Lambda",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/interchecks/bash-lambda-runtime",
+      "date": "2026-06-05",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I built a Bash runtime for AWS Lambda to make writing glue code simpler and faster. Sometimes, all you need is a bit of `sed`, `awk`, maybe a loop and a few HTTP API calls, and this runtime gives you all the tools to do that. It comes bundled with `jq` and `curl` so you can handle JSON payloads and string together HTTP API calls right out of the bo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-05/24-show-hn-bash-runtime-for-aws-lambda.md"
+    },
+    {
+      "title": "GeoffPidcock/pinchguard",
+      "source": "GitHub Search API",
+      "url": "https://github.com/GeoffPidcock/pinchguard",
+      "date": "2026-06-06",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Predicting OpenClaw Agent Misalignment - an AI Safety Project prepared for TARA June 26. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-06/25-geoffpidcock-pinchguard.md"
+    },
+    {
+      "title": "brother2050/ai-drama-pipeline",
+      "source": "GitHub Search API",
+      "url": "https://github.com/brother2050/ai-drama-pipeline",
+      "date": "2026-06-06",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "brother2050/ai-drama-pipeline Stars: 1 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-06/26-brother2050-ai-drama-pipeline.md"
+    },
+    {
+      "title": "OpenLumara - A different kind of AI agent, written from scratch, not vibecoded. Extremely token-efficient, super small system prompt, made for local models. Everything is modular.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txxgpq/openlumara_a_different_kind_of_ai_agent_written/",
+      "date": "2026-06-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi locallama community! Yes, I know, yet another AI agent announcement post. There are a dime a dozen out there... most of them though, are vibecoded, often very sloppy, and eat through context like no tomorrow. This is different. This runs beautifully and very fast with local models on modest hardware. I've spent months working on this in my free time, w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-05/27-openlumara-a-different-kind-of-ai-agent-written-from-scratch-not-vibec.md"
+    },
+    {
+      "title": "AA comparison of the latest local models",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tya05j/aa_comparison_of_the_latest_local_models/",
+      "date": "2026-06-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I picked models I consider local (usable on 3×3090), so there are no 300B models, and you should probably skip 200B models too (but MiniMax and Step are pretty fast in Q3) Gemma-4 12B is still missing submitted by /u/jacek2023 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-06/28-aa-comparison-of-the-latest-local-models.md"
+    },
+    {
+      "title": "FYI llamacpp server can hot swap models now-a-days in under 30sec",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txmg8q/fyi_llamacpp_server_can_hot_swap_models_nowadays/",
+      "date": "2026-06-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "See this question at least a handful of times when browsing new and in the comments, llamacpp has one of the cleaner model hotswap apis now that just works with openwebui and hermes. Bonus: the 2nd model gemma went derp as i was recording this, but the time spent swapping has gotten stupid fast... I remember starting a load and talking a walk while pytorc... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-05/29-fyi-llamacpp-server-can-hot-swap-models-now-a-days-in-under-30sec.md"
+    },
+    {
+      "title": "Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txhj2h/bringing_gemma_4_12b_to_your_laptop_unlocking/",
+      "date": "2026-06-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/zxyzyxz [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-05/30-bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-.md"
+    },
     {
       "title": "Show HN: Lessons learned from running Claude Code swarms at scale",
       "source": "Hacker News Top + Show HN",

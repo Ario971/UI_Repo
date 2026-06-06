@@ -1,10 +1,222 @@
 {
-  "last_checked_at": "2026-06-05T08:38:14.654Z",
+  "last_checked_at": "2026-06-06T07:40:47.609Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "ucsandman/dashclaw",
+      "name": "ucsandman/DashClaw",
+      "url": "https://github.com/ucsandman/DashClaw",
+      "date": "2026-06-06",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 96,
+      "risk": 40,
+      "integration_effort": 70,
+      "expected_gain": 87,
+      "composite": 78,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "dui14/vibe-coding-workflow",
+          "date": "2026-05-30",
+          "topic": "AI dev tools",
+          "similarity": 0.222,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"
+        },
+        {
+          "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
+          "date": "2026-05-21",
+          "topic": "AI agents",
+          "similarity": 0.217,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
+        },
+        {
+          "title": "Show HN: Open Envelope – an open schema for defining AI agent teams",
+          "date": "2026-05-28",
+          "topic": "AI agents",
+          "similarity": 0.216,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/61-show-hn-open-envelope-an-open-schema-for-defining-ai-agent-teams.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-06)",
+        "MIT license",
+        "273 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "npm run hooks:install",
+        "npm install dashclaw     # Node 18+",
+        "pip install dashclaw     # Python 3.7+",
+        "npm install @dashclaw/openclaw-plugin",
+        "npx dashclaw-demo",
+        "npm install dashclaw   # or: pip install dashclaw"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-30 about AI dev tools; this candidate overlaps with \"dui14/vibe-coding-workflow\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-06/01-ucsandman-dashclaw.md"
+    },
+    {
+      "id": "tuo-lei/vibe-replay",
+      "name": "tuo-lei/vibe-replay",
+      "url": "https://github.com/tuo-lei/vibe-replay",
+      "date": "2026-06-06",
+      "source": "awesome-claude-code",
+      "category": "awesome_lists",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 68,
+      "risk": 45,
+      "integration_effort": 48,
+      "expected_gain": 77,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
+          "date": "2026-05-21",
+          "topic": "AI agents",
+          "similarity": 0.316,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
+        },
+        {
+          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+          "date": "2026-06-04",
+          "topic": "AI agents",
+          "similarity": 0.315,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
+        },
+        {
+          "title": "dui14/vibe-coding-workflow",
+          "date": "2026-05-30",
+          "topic": "AI dev tools",
+          "similarity": 0.285,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-06)",
+        "MIT license",
+        "28 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @hono/node-server, hono, lefthook, oxfmt, oxlint, playwright, tsx, typescript; scripts build, build:website, start, dev, dev:menu, dev:dashboard, dev:website, test"
+        }
+      ],
+      "install_commands": [
+        "npx vibe-replay",
+        "npx skills add tuo-lei/vibe-replay --skill replay -g",
+        "git clone https://github.com/tuo-lei/vibe-replay.git",
+        "pnpm install",
+        "pnpm dev              # Viewer (Vite HMR) + CLI (auto-restart) — full HMR",
+        "pnpm dev:website      # Website (Astro HMR) + Viewer (Vite HMR)"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-21 about AI agents; this candidate overlaps with \"Show HN: Agent-estimate, how long a coding task takes, at agent speed\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-06/02-tuo-lei-vibe-replay.md"
+    },
+    {
+      "id": "macpritchard/codemap",
+      "name": "MacPRITCHARD/codemap",
+      "url": "https://github.com/MacPRITCHARD/codemap",
+      "date": "2026-06-06",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 93,
+      "momentum": 45,
+      "risk": 43,
+      "integration_effort": 48,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
+          "date": "2026-06-04",
+          "topic": "AI agents",
+          "similarity": 0.315,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/10-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-clo.md"
+        },
+        {
+          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+          "date": "2026-06-04",
+          "topic": "AI agents",
+          "similarity": 0.304,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
+        },
+        {
+          "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
+          "date": "2026-05-21",
+          "topic": "AI agents",
+          "similarity": 0.296,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-06)",
+        "MIT license",
+        "Matches 3 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions credentials or API tokens",
+        "Repository description is sparse"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "go.mod",
+          "summary": "module codemap"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-04 about AI agents; this candidate overlaps with \"Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-06/03-macpritchard-codemap.md"
+    },
     {
       "id": "klotzkette/claude-fuer-deutsches-recht",
       "name": "Klotzkette/claude-fuer-deutsches-recht",
