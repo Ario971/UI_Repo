@@ -1,0 +1,512 @@
+---
+id: "theihtisham/agent-shadow-brain"
+name: "theihtisham/agent-shadow-brain"
+url: "https://github.com/theihtisham/agent-shadow-brain"
+date: "2026-06-07"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 84
+momentum: 75
+risk: 40
+integration_effort: 64
+expected_gain: 87
+composite: 73
+replacement_target: ""
+related_articles: [{"title":"Which Coding Agent Features Are Useful For Local LLMs","date":"2026-05-29","topic":"Local LLMs","similarity":0.303,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/31-which-coding-agent-features-are-useful-for-local-llms.md"},{"title":"linny006/agent-eval-harness","date":"2026-06-02","topic":"AI dev tools","similarity":0.286,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/76-linny006-agent-eval-harness.md"},{"title":"Show HN: Agent-estimate, how long a coding task takes, at agent speed","date":"2026-05-21","topic":"AI agents","similarity":0.285,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"}]
+pros: ["Recently updated (2026-06-07)","MIT license","33 GitHub stars","GitHub Actions/CI detected"]
+cons: ["Integration may take more than a quick install","README mentions credentials or API tokens","README mentions telemetry/analytics"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 4
+dependency_files: [{"name":"package.json","summary":"deps @anthropic-ai/sdk, chalk, chokidar, commander, conf, diff, execa, ink; scripts build, dev, watch, test, lint, verify, pack:dry, prepublishOnly"}]
+install_commands: ["npm install -g @theihtisham/agent-shadow-brain","npx @theihtisham/agent-shadow-brain@latest --help","npm install","npm run build","npm test","npx vitest run tests/brain/live-brain.test.ts tests/brain/context-continuity.test.ts"]
+risk_flags: ["README mentions credentials or API tokens","README mentions telemetry/analytics"]
+status: "new"
+---
+
+# theihtisham/agent-shadow-brain
+
+🧠 v6.0 Hive Mind — One open-source brain every AI coding agent can share (Claude Code, Cursor, Cline, Codex, Copilot, Windsurf). 22 novel features. Free. Local-first. MIT.
+
+URL: https://github.com/theihtisham/agent-shadow-brain
+
+## Why it matters
+You saved an article on 2026-05-29 about Local LLMs; this candidate overlaps with "Which Coding Agent Features Are Useful For Local LLMs" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-06-07)
++ MIT license
++ 33 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- Integration may take more than a quick install
+- README mentions credentials or API tokens
+- README mentions telemetry/analytics
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 4
+
+Dependency files:
+- package.json: deps @anthropic-ai/sdk, chalk, chokidar, commander, conf, diff, execa, ink; scripts build, dev, watch, test, lint, verify, pack:dry, prepublishOnly
+
+Install commands found:
+- npm install -g @theihtisham/agent-shadow-brain
+- npx @theihtisham/agent-shadow-brain@latest --help
+- npm install
+- npm run build
+- npm test
+- npx vitest run tests/brain/live-brain.test.ts tests/brain/context-continuity.test.ts
+
+Risk flags:
+- README mentions credentials or API tokens
+- README mentions telemetry/analytics
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Agent Shadow Brain
+
+Local-first memory and coordination for AI coding agents.
+
+Version: 6.3.0
+
+<p align="center">
+  <img src="Banner.png" alt="Agent Shadow Brain shared local memory layer for AI agents" width="100%">
+</p>
+<p align="center">
+  <a href="https://trendshift.io/repositories/20881" target="_blank"><img src="https://trendshift.io/api/badge/repositories/20881" alt="chopratejas%2Fheadroom | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</p>
+<p align="center">
+  <img src="docs/launch/github-trending-ready.svg" alt="GitHub Trending Ready - Agent Shadow Brain v6.0.3 live on npm" width="420">
+</p>
+
+Agent Shadow Brain gives tools like Codex, Claude Code, Cursor, Cline, OpenCode, Aider, and related MCP clients a shared local memory layer. It stores compact, source-backed lessons about projects, recalls them later, generates fresh-session briefings, audits memory quality, and exports JSONL training/eval packs.
+
+It does not change model weights by itself. It helps agents work better by giving them relevant, current, source-linked context before and during complex work.
+
+## What's New in 6.3.0
+
+Recall confidence scoring, plus the 6.2.0 dashboard upgrade for clarity and visibility.
+
+- **Recall confidence.** Every recalled memory now carries a blended confidence score (high/medium/low) so an agent can weight what it trusts. The score combines keyword relevance, recency (30-day half-life), author-assigned importance, cross-agent corroboration, and prior usage. Exposed via `GlobalBrain.recallScored()`, the `global_recall_scored` MCP tool, and a color-coded badge in the dashboard.
+- **Quieter automation.** Fixed a GitHub Actions bot that opened duplicate milestone/momentum issues; notifiers are now idempotent and verify against GitHub before posting.
+
+- **Simple by default, Advanced on demand.** The dashboard opens with eight plain-English tabs (Home, Brain Map, Memories, Ask the Brain, Activity, Connected Tools, Brain Health, Settings). Flip to Advanced to reveal every feature — nothing was removed, just tidied.
+- **Brain Map.** An interactive graph of everything the brain remembers — memories, projects, tools, and tags — sized by importance (PageRank) and linked by shared context. Zoom, pan, click a node for details, and watch it grow live as new memories arrive.
+- **Realtime activity.** Memory writes, reflections, and tool events stream live over WebSocket instead of polling, with a live pulse on Home.
+- **Live Network.** A refreshed animation of your tools talking to the brain, with flowing signal pulses.
+- **Two-way knowledge seeding.** Quick-Save captures knowledge in one click; "Hand to Agent" generates a ready briefing to pass context back to any tool.
+- **Plain-language everywhere.** Cryptic feature names rewritten (e.g. Calibration → Accuracy, Pre-Mortem → Risk Check, Tokens → Cost & Usage), each with a hover description.
+
+<p align="center">
+  <img src="docs/screenshots/01-home.png" alt="Shadow Brain dashboard Home — summary of memories, connected tools, and live activity" width="100%">
+</p>
+<p align="center">
+  <img src="docs/screenshots/02-brain-map.png" alt="Brain Map — interactive memory constellation graph" width="100%">
+</p>
+<p align="center">
+  <img src="docs/screenshots/03-live-network.png" alt="Live Network — animated view of tools communicating with the brain" width="100%">
+</p>
+<p align="center">
+  <img src="docs/screenshots/04-recall-confidence.png" alt="Recall confidence - recalled memories ranked with color-coded high, medium, and low confidence badges" width="100%">
+</p>
+
+## What It Actually Does
+
+- Stores cross-project and cross-agent memories in a local JSON brain at `~/.shadow-brain/global.json`.
+- Recalls memories by project, agent, category, and keywords.
+- Generates source-backed resume packs for fresh sessions, account switches, context compaction, and handoffs.
+- Audits memory quality: source coverage, stale entries, duplicates, low-quality notes, recall health.
+- Creates verified memory seed drafts from dashboard/API, then requires user, agent, or dual approval before writing to durable memory.
+- Exports JSONL rows for evals, distillation, or local fine-tuning pipelines.
+- Provides CLI, dashboard API, and MCP tool surfaces.
+- Includes safety helpers such as hook audit, detach, and action firewall checks.
+- Works without telemetry and without an API key for local memory features.
+
+## What It Does Not Claim
+
+- It does not secretly train GPT, Claude, Gemini, or any remote model.
+- It does not guarantee perfect recall.
+- It does not replace project docs, tests, source control, or human review.
+- It does not make every listed agent automatically available. Agent support depends on local installation and hook/config compatibility.
+- It does not publish or sync data unless you explicitly use export, sync, or other sharing commands.
+
+## Install
+
+```bash
+npm install -g @theihtisham/agent-shadow-brain
+```
+
+CLI binaries:
+
+```bash
+shadow-brain --help
+asb --help
+```
+
+You can also run without global install:
+
+```bash
+npx @theihtisham/agent-shadow-brain@latest --help
+```
+
+## Safe First Run
+
+Start by auditing before attaching hooks:
+
+```bash
+shadow-brain audit-hooks .
+shadow-brain live-brain status .
+```
+
+Only attach after you review what will be changed:
+
+```bash
+shadow-brain attach-all .
+```
+
+Detach later if needed:
+
+```bash
+shadow-brain detach-all .
+```
+
+## v6.0.3: Live Brain
+
+The 6.0.3 release focuses on practical long-memory improvement for agents.
+
+### Live Brain Status
+
+```bash
+shadow-brain live-brain status .
+```
+
+Shows:
+
+- memory count
+- average memory quality
+- source coverage
+- stale memories
+- duplicate clusters
+- recall eval score
+- recommended cleanup actions
+
+JSON output:
+
+```bash
+shadow-brain live-brain status . --json
+```
+
+### Agent Briefing
+
+Generate a markdown briefing for a fresh agent session:
+
+```bash
+shadow-brain live-brain brief . -o SHADOW_BRAIN_AGENT_BRIEF.md
+```
+
+The briefing includes:
+
+- rules for agents
+- top source-backed memories
+- memory warnings
+- recall health
+- commands agents should run next
+
+### Recall Eval
+
+Check whether the brain can retrieve useful memories for common agent tasks:
+
+```bash
+shadow-brain live-brain eval .
+```
+
+Custom eval queries use pipe separators:
+
+```bash
+shadow-brain live-brain eval . --queries "current blocker|do not repeat|verified command"
+```
+
+### Memory Hygiene
+
+List concrete cleanup and learning actions:
+
+```bash
+shadow-brain live-brain hygiene .
+```
+
+This highlights missing sources, stale memories, duplicates, weak recall, and missing project-scoped memories.
+
+### Training/Eval Export
+
+Export source-backed memories as JSONL:
+
+```bash
+shadow-brain live-brain train-pack . --out shadow-brain-training.jsonl
+```
+
+This is useful for:
+
+- retrieval evals
+- local distillation experiments
+- supervised fine-tuning datasets
+- memory regression tests
+
+The export is only data preparation. You choose the downstream training/eval tool.
+
+## Core Memory Commands
+
+Recall from the global brain:
+
+```bash
+shadow-brain global recall --query "current blocker next step" --json --limit 8
+```
+
+Show global stats:
+
+```bash
+shadow-brain global stats
+```
+
+Create a source-backed resume seed:
+
+```bash
+shadow-brain resume-seed . -o SHADOW_BRAIN_RESUME_SEED.md
+```
+
+Show what a project has learned:
+
+```bash
+shadow-brain timeline . --limit 30
+```
+
+Create a cross-agent handoff packet:
+
+```bash
+shadow-brain handoff codex claude-code . --task "continue release verification"
+```
+
+Record a durable memory from a script:
+
+```bash
+node tools/record-global-memory.mjs ^
+  --project-dir "." ^
+  --project-name "my-project" ^
+  --agent codex ^
+  --category "project.lesson" ^
+  --importance 0.8 ^
+  --tags "memory,release" ^
+  --sources "README.md,CHANGELOG.md" ^
+  --content "Keep release notes source-backed and verify npm metadata before publish."
+```
+
+## Dashboard
+
+Start the local dashboard:
+
+```bash
+shadow-brain dash . --no-open --port 7341
+```
+
+For a fast UI/API-only launch on a large repo:
+
+```bash
+shadow-brain dash . --no-open --no-analysis --host 127.0.0.1 --port 7341
+```
+
+Open:
+
+```text
+http://127.0.0.1:7341
+```
+
+The v6 dashboard includes a **Live Brain** tab for memory health, source coverage, recall evals, hygiene actions, top memories, and the generated agent briefing.
+
+It also includes:
+
+- **Memory Browser intelligence cards** for total memories, source coverage, fresh learning, seed queue, top categories, agent coverage, and top tags.
+- **Memory Seeder** for controlled research-to-memory workflows. Drafts stay out of the global brain until approval is complete.
+- **Token Economy accuracy split**: current runtime agent is shown separately from historical model spend, so old Claude/Cursor spend records do not imply the dashboard is running that agent.
+
+### Realtime Activity (new in 6.1.0)
+
+The dashboard now streams brain activity live over its WebSocket instead of polling. Memory writes, dreams, seed drafts/commits, collisions, sub-agent spawns, and consolidation cycles appear the instant they happen.
+
+- **Live Pulse** card on the Overview with a streaming mini-feed and an events/min rate.
+- **Activity Log** tab with filter chips, a pulsing LIVE badge, pause/resume, clear, search, and an events/min sparkline.
+- **Connection indicator** in the header — green when the realtime socket is live, amber while reconnecting.
+- **Cross-process aware**: a memory written by an agent in a *different* terminal is picked up by watching `~/.shadow-brain/global.json`, so the feed reflects the whole machine, not just this process.
+
+Polling remains as a 15-second reconciliation fallback; live events arrive in well under a second.
+
+### Intelligence Hub — Memory Constellation (new in 6.2.0)
+
+A new **Intelligence** tab turns the brain into an interactive graph. Every memory, project, agent, and tag is a node in a force-directed **Memory Constellation**, sized by importance (PageRank blended with each memory's own score) and linked by project, author, tags, and shared-tag relatedness.
+
+- **Interactive**: scroll to zoom, drag to pan, click a node to focus its neighborhood and open a detail drawer; hover for a tooltip.
+- **Filters + search** by node type (memory / project / agent / tag).
+- **Live**: new memories pulse into the graph over the realtime stream.
+- **Analytics strip**: source-coverage gauge, agent-contribution and category charts, tag cloud, and a recent-memory feed.
+- Works instantly on your existing `~/.shadow-brain/global.json` — no project analysis or setup step.
+
+Several previously sparse tabs were also rebuilt with real visualizations: **Pre-Mortem** (risk matrix + failure cards), **Attention** (weighted heat bars), **Calibration** (Brier/trust chart), **Reputation** (trust rings), **Causal Chains** (node-link DAG), and **Branch Brains** (stat cards).
+
+Constellation API:
+
+```text
+GET /api/v6/memory-graph
+```
+
+
+Memory seeding API:
+
+```text
+GET  /api/v6/seed-drafts
+POST /api/v6/seed-draft
+POST /api/v6/seed-approve
+POST /api/v6/seed-reject
+POST /api/v6/seed-commit
+GET  /api/v6/memory-intelligence
+```
+
+Useful API endpoints:
+
+```text
+GET/POST /api/v6/live-brain
+GET/POST /api/v6/resume-pack
+GET/POST /api/v6/ww2br-recall
+GET/POST /api/v6/memory-browser
+```
+
+Example:
+
+```bash
+curl "http://127.0.0.1:7341/api/v6/live-brain?projectDir=C:/path/to/project"
+```
+
+## MCP Tools
+
+The MCP server exposes memory and agent-control tools for compatible clients.
+
+New in 6.3.0:
+
+- `global_recall_scored` — recall with a per-memory confidence score (recency, author importance, cross-agent corroboration, prior usage, keyword relevance). Results are ranked by confidence so agents can weight memories instead of trusting every hit equally. Supports `minConfidence` to drop low-trust hits.
+
+New in 6.0.3:
+
+- `live_brain_status`
+- `live_brain_brief`
+- `live_brain_train_pack`
+
+Existing useful tools include:
+
+- `global_recall`
+- `global_recall_scored`
+- `global_stats`
+- `global_timeline`
+- `subconscious_inject`
+- `agent_handoff`
+- `firewall_check`
+
+Start MCP from the dashboard API or existing CLI/server integration, depending on your setup.
+
+## How Agents Should Use It
+
+Recommended workflow for complex work:
+
+1. Run `shadow-brain live-brain status <project>`.
+2. Generate or read a live briefing.
+3. Verify current project docs and source files.
+4. Work normally.
+5. Record only durable, source-backed lessons after proof.
+6. Run recall evals when memory quality starts to drift.
+
+Good memories are short, action-oriented, and source-backed:
+
+```text
+[lesson:release-readme-v1] Before publishing, verify package.json version, package-lock root version, README install commands, build output, and npm pack contents.
+Sources: package.json; package-lock.json; README.md
+Tags: release,npm,verification
+```
+
+Bad memories are vague:
+
+```text
+Make project better.
+```
+
+## Local Data
+
+Default global brain:
+
+```text
+~/.shadow-brain/global.json
+```
+
+Project-local generated files may include:
+
+```text
+SHADOW_BRAIN_AGENT_BRIEF.md
+SHADOW_BRAIN_RESUME_SEED.md
+shadow-brain-training.jsonl
+```
+
+Do not store secrets, API keys, passwords, private keys, or raw credentials in memory content, metadata, tags, prompts, reports, or exported training data.
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
+
+Focused tests:
+
+```bash
+npx vitest run tests/brain/live-brain.test.ts tests/brain/context-continuity.test.ts
+```
+
+On Windows PowerShell, if execution policy blocks `npm.ps1`, use:
+
+```powershell
+npm.cmd run build
+npx.cmd vitest run tests\brain\live-brain.test.ts
+```
+
+## Release Checklist
+
+For a 6.0.3 release:
+
+```bash
+npm run build
+npm test
+npm pack --dry-run
+```
+
+Then publish only after verifying the package contents:
+
+```bash
+npm publish --access public
+```
+
+GitHub release should include:
+
+- this README
+- `CHANGELOG.md`
+- `docs/launch/RELEASE_NOTES_v6.0.3.md`
+- `docs/launch/RELEASE_CHECKLIST_v6.0.3.md`
+- build/test output
+- npm package dry-run output
+
+## License
+
+MIT
+

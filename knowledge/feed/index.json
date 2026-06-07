@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T07:40:26.807Z",
+  "updated_at": "2026-06-07T08:18:24.614Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Free animated icon library for Vue",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://respeak-io.github.io/lucide-motion-vue/",
+      "date": "2026-06-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone! Tim here, maintainer of the lucide-motion-vue library. I build this as a way to use nice animated icons in my webapps. We were already on lucide, and found animate-ui animated icons as a great collection, unfortunately React only or made to be used with shadcn. So I ported the library to Vue, and combined it with another library (lucide-anima... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/31-show-hn-free-animated-icon-library-for-vue.md"
+    },
+    {
+      "title": "Show HN: Infinite canvas notes in the non-Euclidean Poincaré disk",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://uonr.github.io/poincake/",
+      "date": "2026-06-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi! This is an infinite canvas note-taking tool where notes are laid out in a non-Euclidean, hyperbolic geometric space. As you drag and navigate through the view, you’ll experience a unique fluid distortion that naturally leverages your brain's spatial memory. I’ve been obsessed with the concept of space in HCI for years. Many modern UI patterns are esse... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/32-show-hn-infinite-canvas-notes-in-the-non-euclidean-poincar-disk.md"
+    },
+    {
+      "title": "Show HN: Markdown Editor and Reader for Mac",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.kitemarkdown.com/",
+      "date": "2026-06-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I read Markdown all day, mostly Claude .md, and other AI outputs. Every app I have tried felt janky or too much work to just read an md file. I just wanted to open a .md file and read it the way Preview opens a PDF. So I built Kite, a Markdown reader for Mac. It has QuickLook just like Preview and I have baked in features that help people reading lot's of... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-07/33-show-hn-markdown-editor-and-reader-for-mac.md"
+    },
+    {
+      "title": "Show HN: Persist – an AI agent that follows up accrued channels till they reply",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://persist.chat",
+      "date": "2026-06-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I am co-founder of Persist AI. Meet Persist.chat an AI sales agent that follows up to prospects till you secure a sale. It can help you find prospects for your product with our extensive lists of Linkedin and email lists and also you can bring your own list of customers with their email/phone_number,linkedin/x handle It sends a personalized email/t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-07/34-show-hn-persist-an-ai-agent-that-follows-up-accrued-channels-till-they.md"
+    },
+    {
+      "title": "Show HN: Dap-mux – Connect your editor and REPL to the same debug session",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=48429058",
+      "date": "2026-06-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I have been coding over four decades, in many languages, on many projects (including Firefox, Final Cut Pro, the Newton, and Fullwrite Professional if you can remember that far back; all these using my \"dead-name\"). I wrote something small and simple to scratch an itch. It's the UNIX philosophy: small \"one-trick ponies\", each *really* good at their one tr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-06/35-show-hn-dap-mux-connect-your-editor-and-repl-to-the-same-debug-session.md"
+    },
+    {
+      "title": "Show HN: Resonate – Low-latency, high-resolution spectral analysis",
+      "source": "Hacker News Show HN",
+      "url": "https://alexandrefrancois.org/Resonate/",
+      "date": "2026-06-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Last April I shared about my Resonate project here ( https://news.ycombinator.com/item?id=43694157 ) A lot has happened since: the work I presented in much more detail at last June's International Computer Music Conference (ICMC) got best paper award. I also gave a talk at the Audio Developer Conference in Bristol last November, the video is on YouTube).... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-06/36-show-hn-resonate-low-latency-high-resolution-spectral-analysis.md"
+    },
+    {
+      "title": "MeetQuinn/anima",
+      "source": "GitHub Search API",
+      "url": "https://github.com/MeetQuinn/anima",
+      "date": "2026-06-07",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI teammates in your Slack, building shared team context. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-07/37-meetquinn-anima.md"
+    },
+    {
+      "title": "Show HN: ABC Classic 100 Rankings visualised",
+      "source": "Hacker News Show HN",
+      "url": "https://classic100.gotski.workers.dev/",
+      "date": "2026-06-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "This weekend is the ABC Classic FM countdown, which prompted me to dust off an old un-published data visualisation of rankings from previous years. I've considered adding a search function, but I also kind of like that it requires a bit of exploration in the current form. Some of the code is a bit clunky and I wouldn't mind refactoring it. I'm also not su... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-06/38-show-hn-abc-classic-100-rankings-visualised.md"
+    },
+    {
+      "title": "RTX 3090 EBay Pricing is Crazy!!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tysbyj/rtx_3090_ebay_pricing_is_crazy/",
+      "date": "2026-06-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Couple of years ago, before Local LLMs were in vogue, I bought 8 RTX 3090 @ $700 each to build a AI rig, it been working great and I was looking to build another to increase my capacity but looking at EBay those are now selling for 1,300 -1,500 range! That price seems totally crazy because on my main machine I have 3090 Ti that I bought new 5 years ago fo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-06/39-rtx-3090-ebay-pricing-is-crazy.md"
+    },
+    {
+      "title": "Gemma 4 31B QAT Q4 vs standard Q4 — Top1 KLD benchmark results have me confused. Someone please explain or poke holes in this.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/",
+      "date": "2026-06-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Edited - After digging into this some more and reviewing unsloth post for better understanding, the divergence APPEARS to stem from I did not use the BF16 QAT model as the \"reference\" model.... The QAT vs standard Q4 comparison in our benchmark is not apples-to-apples . The QAT models were evaluated against a reference they were never optimised toward. Th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-07/40-gemma-4-31b-qat-q4-vs-standard-q4-top1-kld-benchmark-results-have-me-c.md"
+    },
+    {
+      "title": "Best Coding Harness for Qwen3.6 35B?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyrrht/best_coding_harness_for_qwen36_35b/",
+      "date": "2026-06-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been happily using GitHub Copilot for 7-8 months, primarily in Visual Studio and VS Code, mostly with the built-in flagship models and have felt like the output is worth the cost. Lately I've been playing with a lot of different local LLM models and decided to try using Qwen3.6 35B on some non trivial programming tasks within a repository that is 10i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-06/41-best-coding-harness-for-qwen3-6-35b.md"
+    },
+    {
+      "title": "Cohere's unreleased coding model (early access for localllama)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/",
+      "date": "2026-06-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey, Nick here from Cohere. Thanks for all the feedback on Command A+ the other week everyone. I read these threads all the time about other releases so it was fun to read one about our own :) we would like to do more of it. We actually have our first coding model we’re getting ready to release soon, and I wanted to give this community an opportunity to t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-06/42-cohere-s-unreleased-coding-model-early-access-for-localllama.md"
+    },
     {
       "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
       "source": "Hacker News Top + Show HN",
