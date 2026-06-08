@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T08:18:24.614Z",
+  "updated_at": "2026-06-08T09:17:23.570Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Web Speed – A shared web-map registry for AI agents (MCP, open source)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.getwebspeed.io/",
+      "date": "2026-06-08",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, I've been working on a tool called Web Speed. It takes web pages full of HTML and parses them into an easily readable sitemap for an AI agent. By ensuring the AI doesn't have to analyze the full HTML from the page or screenshots of the page, it makes the agent a lot cheaper and faster. It's MCP-native, so any AI that supports MCP can run it... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/43-show-hn-web-speed-a-shared-web-map-registry-for-ai-agents-mcp-open-sou.md"
+    },
+    {
+      "title": "How AI Agents Reshape Knowledge Work: Autonomy, Efficiency, and Scope",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.07489v1",
+      "date": "2026-06-05",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Frontier AI systems are bridging the gap between intelligence and utility by shifting from conversational assistants to autonomous agents that execute tasks end to end. Using production data from Perplexity's Search and Computer products, we study this transition by examining how AI agents accelerate and reshape knowledge work. Three key empirical finding... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/44-how-ai-agents-reshape-knowledge-work-autonomy-efficiency-and-scope.md"
+    },
+    {
+      "title": "Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.07462v1",
+      "date": "2026-06-05",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "As foundation models advance and agent scaffolding becomes increasingly sophisticated, agents have demonstrated remarkable proficiency in complex, long-horizon coding tasks and even autonomous experiment execution. Despite their evolution from research assistants into autonomous research agents, these systems still exhibit significant limitations in field... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/45-act-as-a-real-researcher-a-suite-of-benchmarks-evaluating-frontier-llm.md"
+    },
+    {
+      "title": "Agentic Very Much! Adoption of Coding Agent in New GitHub Projects",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.07448v1",
+      "date": "2026-06-05",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "In previous work, we investigated the adoption of coding agents in GitHub projects, finding that it was very significant. This study follows this line of work, but analyses new projects, that were created after the previous study. In this new sample, we find that the adoption of coding agents is more than twice as high. We also find that the adoption is s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/46-agentic-very-much-adoption-of-coding-agent-in-new-github-projects.md"
+    },
+    {
+      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/devenjarvis/lathe",
+      "date": "2026-06-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! Lathe is an experiment in using LLMs to teach me something new, instead of doing the work for me. It generates a hands-on, source-backed tutorial for any technical topic you want to learn. Then you work through it yourself by reading and typing the code by hand ( gasp ) in a local UI built for exactly that. It's a Go CLI plus LLM agent skills (Cla... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-07/47-show-hn-lathe-use-llms-to-learn-a-new-domain-not-skip-past-it.md"
+    },
+    {
+      "title": "Show HN: NoSuggest – Watch YouTube without the recommendation algorithm",
+      "source": "Hacker News Show HN",
+      "url": "https://www.nosuggest.com/",
+      "date": "2026-06-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "NoSuggest is a quiet act of resistance against YouTube algorithms always trying to pull you into a loop of unlimited videos in turn into unlimited screen time. With unending side cards of videos, auto-play, what's next suggestions, YouTube shorts and notifications, users will be doom scrolling for many hours in a day. I faced the same problem. Acknowledgi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-03/48-show-hn-nosuggest-watch-youtube-without-the-recommendation-algorithm.md"
+    },
+    {
+      "title": "Show HN: Help SourceLibrary.org Translate the Renaissance",
+      "source": "Hacker News Show HN",
+      "url": "https://sourcelibrary.org",
+      "date": "2026-06-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "SourceLibrary.org is currently the world’s largest online library of translated ancient sources. It contains over 15,000 books translated from dozens of languages (Latin, Greek, Chinese, Sanskrit, Arabic, Hebrew, Egyptian, etc)—from sacred texts to early science. Our vision is to make ancient wisdom accessible to both people and AI. Did you know that less... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-07/49-show-hn-help-sourcelibrary-org-translate-the-renaissance.md"
+    },
+    {
+      "title": "shinshekai/Deep",
+      "source": "GitHub Search API",
+      "url": "https://github.com/shinshekai/Deep",
+      "date": "2026-06-08",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Local-first AI document intelligence pipeline with multi-agent solver, deep research, guided learning, and persistent memory — powered by LM Studio. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-08/50-shinshekai-deep.md"
+    },
+    {
+      "title": "Control a 3D avatar with language instead of buttons",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tzgn87/control_a_3d_avatar_with_language_instead_of/",
+      "date": "2026-06-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I built a 3D character you can control with language: https://programasweights.com/avatar Traditionally, 3D avatars are controlled through predefined buttons or scripts. Here you just describe what you want in plain English - including sequences and combinations you'd never wire to buttons, like \"wave while walking, then jump a couple times.\" How it works... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-07/51-control-a-3d-avatar-with-language-instead-of-buttons.md"
+    },
+    {
+      "title": "Best Local TTS solution",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tzv1uz/best_local_tts_solution/",
+      "date": "2026-06-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So I have been testing a bunch of different solutions for local TTS - nothing so far comes close to elevenlabs for dynamic ability, voices, cloning. I’d like to have a phone-compatible setup. So far the best I can find for edge devices is moss-nano and kokoro. Free/cloud so far : edgeTTS Anyone else have luck so far? Getting their Hermes/openclaw/opencode... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-08/52-best-local-tts-solution.md"
+    },
+    {
+      "title": "Qwen 3.6 27B on DeepSWE",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tzmq5y/qwen_36_27b_on_deepswe/",
+      "date": "2026-06-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Overview: It scored 2% (1.79% rounded up) It is 18/20th place scoring above Haiku 4.5 and Minimax M2.7 Full benchmark took 70 hours Average time per task 32m Average output tokens per task: 44k Perspectives: It scored suspiciously similar to 3.6 Plus and it really gets me wondering how the architecture of 3.6 Plus differs from 27B. Qwen 3.6 27B has a bad... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-07/53-qwen-3-6-27b-on-deepswe.md"
+    },
+    {
+      "title": "You don't need a GPU to run gemma-4-26B-A4B",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tz5ffp/you_dont_need_a_gpu_to_run_gemma426ba4b/",
+      "date": "2026-06-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been running LLMs on my old potato i5-8500 with 32GB of RAM and *no GPU* for awhile now, running up to 12B dense models which run slow but perfectly useable. But this Gemma-4-26B-A4B simply flies on this CPU - only machine using Koboldcpp on Linux. That's right, an old used $150 desktop computer is running state of the art LLMs with something like 7... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-07/54-you-don-t-need-a-gpu-to-run-gemma-4-26b-a4b.md"
+    },
     {
       "title": "Show HN: Free animated icon library for Vue",
       "source": "Hacker News Top + Show HN",

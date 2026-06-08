@@ -1,10 +1,198 @@
 {
-  "last_checked_at": "2026-06-07T08:18:42.686Z",
+  "last_checked_at": "2026-06-08T09:17:48.050Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "tamircohen28/production-master",
+      "name": "Tamircohen28/production-master",
+      "url": "https://github.com/Tamircohen28/production-master",
+      "date": "2026-06-08",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 84,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 40,
+      "expected_gain": 87,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "tyanko-lab/agents-mission-control",
+          "date": "2026-05-28",
+          "topic": "AI agents",
+          "similarity": 0.29,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/12-tyanko-lab-agents-mission-control.md"
+        },
+        {
+          "title": "Show HN: CoreMem – Portable context for AI agents",
+          "date": "2026-05-22",
+          "topic": "AI agents",
+          "similarity": 0.288,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/50-show-hn-coremem-portable-context-for-ai-agents.md"
+        },
+        {
+          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
+          "date": "2026-05-20",
+          "topic": "AI agents",
+          "similarity": 0.276,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-08)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts none"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps pyyaml>=6.0.3"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/TamirCohen28/production-master ~/.claude/skills/production-master"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-05-28 about AI agents; this candidate overlaps with \"tyanko-lab/agents-mission-control\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-08/01-tamircohen28-production-master.md"
+    },
+    {
+      "id": "timcsy/ai-api",
+      "name": "timcsy/ai-api",
+      "url": "https://github.com/timcsy/ai-api",
+      "date": "2026-06-08",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 61,
+      "risk": 32,
+      "integration_effort": 52,
+      "expected_gain": 77,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "vladimir120307-droid/mneme",
+          "date": "2026-05-24",
+          "topic": "AI dev tools",
+          "similarity": 0.203,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/67-vladimir120307-droid-mneme.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-08)",
+        "MIT license",
+        "14 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, requires-python, readme, dependencies, litellm, cryptography"
+        }
+      ],
+      "install_commands": [
+        "Codex[\"OpenAI Codex CLI\"] -->|Bearer token| NG",
+        "codex \"在這個資料夾建一個 hello.py 並執行\"",
+        "uv sync",
+        "uv run alembic upgrade head",
+        "uv run uvicorn ai_api.main:app --reload --port 8000",
+        "npm install"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-24 about AI dev tools; this candidate overlaps with \"vladimir120307-droid/mneme\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-08/02-timcsy-ai-api.md"
+    },
+    {
+      "id": "lzy1102/openaide",
+      "name": "lzy1102/openaide",
+      "url": "https://github.com/lzy1102/openaide",
+      "date": "2026-06-08",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 89,
+      "momentum": 45,
+      "risk": 40,
+      "integration_effort": 28,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+          "date": "2026-06-04",
+          "topic": "AI agents",
+          "similarity": 0.299,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
+        },
+        {
+          "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
+          "date": "2026-05-21",
+          "topic": "AI agents",
+          "similarity": 0.287,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
+        },
+        {
+          "title": "Which Coding Agent Features Are Useful For Local LLMs",
+          "date": "2026-05-29",
+          "topic": "Local LLMs",
+          "similarity": 0.254,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/31-which-coding-agent-features-are-useful-for-local-llms.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-08)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [],
+      "install_commands": [
+        "git clone https://github.com/lzy1102/openaide.git"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-04 about AI agents; this candidate overlaps with \"Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-08/03-lzy1102-openaide.md"
+    },
     {
       "id": "santifer/career-ops",
       "name": "santifer/career-ops",

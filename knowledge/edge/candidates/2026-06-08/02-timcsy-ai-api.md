@@ -1,0 +1,230 @@
+---
+id: "timcsy/ai-api"
+name: "timcsy/ai-api"
+url: "https://github.com/timcsy/ai-api"
+date: "2026-06-08"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "agent_framework"
+compatibility: 92
+momentum: 61
+risk: 32
+integration_effort: 52
+expected_gain: 77
+composite: 72
+replacement_target: ""
+related_articles: [{"title":"vladimir120307-droid/mneme","date":"2026-05-24","topic":"AI dev tools","similarity":0.203,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/67-vladimir120307-droid-mneme.md"}]
+pros: ["Recently updated (2026-06-08)","MIT license","14 GitHub stars","GitHub Actions/CI detected"]
+cons: ["README mentions credentials or API tokens"]
+readme_quality: 85
+has_ci: true
+has_tests: true
+setup_steps_count: 3
+dependency_files: [{"name":"pyproject.toml","summary":"python project; deps name, version, description, requires-python, readme, dependencies, litellm, cryptography"}]
+install_commands: ["Codex[\"OpenAI Codex CLI\"] -->|Bearer token| NG","codex \"在這個資料夾建一個 hello.py 並執行\"","uv sync","uv run alembic upgrade head","uv run uvicorn ai_api.main:app --reload --port 8000","npm install"]
+risk_flags: ["README mentions credentials or API tokens"]
+status: "new"
+---
+
+# timcsy/ai-api
+
+Self-hosted, OpenAI-compatible AI gateway for organizations — multi-provider (Azure/OpenAI/Anthropic/Gemini), revocable per-allocation credentials, usage & cost tracking, and an OpenAI Codex–ready /v1/responses endpoint.
+
+URL: https://github.com/timcsy/ai-api
+
+## Why it matters
+You saved an article on 2026-05-24 about AI dev tools; this candidate overlaps with "vladimir120307-droid/mneme" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-06-08)
++ MIT license
++ 14 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- README mentions credentials or API tokens
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- pyproject.toml: python project; deps name, version, description, requires-python, readme, dependencies, litellm, cryptography
+
+Install commands found:
+- Codex["OpenAI Codex CLI"] -->|Bearer token| NG
+- codex "在這個資料夾建一個 hello.py 並執行"
+- uv sync
+- uv run alembic upgrade head
+- uv run uvicorn ai_api.main:app --reload --port 8000
+- npm install
+
+Risk flags:
+- README mentions credentials or API tokens
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# AI API Manager
+
+[![CI](https://github.com/timcsy/ai-api/actions/workflows/ci.yml/badge.svg)](https://github.com/timcsy/ai-api/actions/workflows/ci.yml)
+[![Frontend CI](https://github.com/timcsy/ai-api/actions/workflows/frontend.yml/badge.svg)](https://github.com/timcsy/ai-api/actions/workflows/frontend.yml)
+[![Image build](https://github.com/timcsy/ai-api/actions/workflows/image.yml/badge.svg)](https://github.com/timcsy/ai-api/actions/workflows/image.yml)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![React](https://img.shields.io/badge/react-19-61dafb)
+![runtime](https://img.shields.io/badge/runtime-distroless-0b7285)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+
+組織內部 AI API 的**單一分流入口**：用一套 OpenAI 相容的閘道，把多家 AI 供應商
+（Azure OpenAI / OpenAI / Anthropic / Gemini）統一對成員開放，並以**可撤回的分配憑證**
+管控誰能用、用多少、花多少——用量與成本全部統一歸戶。
+
+> 核心理念：**分享就是資源的分配**。每一筆 AI 存取都是一份有對象、有額度、可調整、
+> 可收回的資源，而不是一次性把 key 發出去。
+
+## 功能總覽
+
+- **OpenAI 相容代理**
+  - `POST /v1/chat/completions`（Chat Completions）
+  - `POST /v1/responses`（Responses API，**支援 SSE streaming、工具呼叫、reasoning**）
+    — 讓 **OpenAI Codex** 等 agent CLI 用平台憑證即可使用
+- **多供應商**：經 `litellm`（library form）統一抽象；OpenAI/Azure 原生高保真、其他家自動橋接
+- **可撤回分配憑證**：每筆分配發行獨立 token；撤回後即時生效（不等過期），也可**暫停 / 恢復**
+- **身份與成員管理**：Google Workspace SSO + 本機密碼；白名單 / 自動註冊規則 / 來源限制
+- **模型目錄**：以「模型」為第一公民，多面向 filter；可見性 = 已配置 credential ∩ 存取政策
+- **Tag-based 存取規則**：用 tag 批次授權；新成員可依規則自動貼 tag
+- **自助領取憑證**：被授權的成員可對開放的 model 一鍵領取；亦可自助暫停/恢復自己的憑證
+- **用量觀測與計費**：point-in-time 計費，分項記錄 input / output / **reasoning / cached** token；
+  月度配額、自適應配額池、CSV/JSON 匯出
+- **管理員 Web UI**：成員、分配、用量、配額、價目、Provider 憑證、稽核紀錄
+- **安全加固**：Provider key 以 Fernet 加密落 DB（金鑰由 K8s Secret 提供，pod 啟動即驗證）、
+  K8s NetworkPolicy、CI Trivy 掃描 + SBOM、distroless runtime
+
+## 架構
+
+```mermaid
+flowchart TD
+    Codex["OpenAI Codex CLI"] -->|Bearer token| NG
+    SDK["curl / OpenAI SDK"] -->|Bearer token| NG
+    Admin["管理員 / 成員瀏覽器"] -->|session cookie| NG
+    NG["nginx（單一來源反向代理）"] --> API
+
+    subgraph GW["FastAPI Gateway"]
+        API["API 路由<br/>/v1/responses · /v1/chat/completions<br/>/admin · /me · /catalog"]
+        PF["共用 preflight<br/>憑證 → 分配狀態 → 配額 → model binding → 存取政策"]
+        UP["litellm（library form）"]
+        REC["計費 + 用量記錄"]
+        API --> PF --> UP
+        API --> REC
+    end
+
+    UP --> AZ["Azure OpenAI"]
+    UP --> OA["OpenAI"]
+    UP --> AN["Anthropic"]
+    UP --> GE["Gemini"]
+
+    GW --> DB[("PostgreSQL<br/>members · allocations · credentials<br/>call_records · price_list<br/>stored_responses · model_catalog")]
+```
+
+- **後端**：FastAPI（Python 3.11+）+ SQLAlchemy 2.x async + Alembic；上游經 `litellm` library form
+- **前端**：React 19 + Vite 6 + TypeScript（strict）+ shadcn/ui + TanStack Query
+- **資料庫**：PostgreSQL（生產）/ SQLite（dev、CI）
+- **部署**：Kubernetes + Helm chart（`deploy/helm/ai-api`）；前端為單一來源 nginx 反向代理到後端
+- **映像**：後端 distroless、前端 unprivileged nginx；CI 以 GitHub Actions build + Trivy 把關
+
+## 對外 API
+
+把 `$TOKEN` 換成你分配到的憑證，放在 `Authorization: Bearer`。
+
+```bash
+# Chat Completions
+curl -X POST https://<host>/v1/chat/completions \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+  -d '{"model":"azure/gpt-4o","messages":[{"role":"user","content":"你好"}]}'
+
+# Responses（含串流）
+curl -N -X POST https://<host>/v1/responses \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+  -d '{"model":"azure/gpt-5.4","input":"你好","stream":true}'
+```
+
+### 搭配 OpenAI Codex
+
+支援 `responses` 能力的模型可在後台「模型目錄 → 如何呼叫 → Codex」分頁**下載 `config.toml`**
+並依各作業系統步驟設定。基本設定：
+
+```toml
+# ~/.codex/config.toml
+model = "azure/gpt-5.4"
+model_provider = "gateway"
+
+[model_providers.gateway]
+name = "AI Gateway"
+base_url = "https://<host>/v1"
+wire_api = "responses"
+env_key = "AIAPI_TOKEN"
+```
+
+```bash
+export AIAPI_TOKEN="$TOKEN"
+codex "在這個資料夾建一個 hello.py 並執行"
+```
+
+## 本機開發
+
+需要 Python 3.11+、[uv](https://github.com/astral-sh/uv)、Node.js（前端）、一個 Postgres。
+
+```bash
+# 後端
+export DATABASE_URL=postgresql+asyncpg://aiapi:aiapi@localhost:5432/aiapi
+uv sync
+uv run alembic upgrade head
+uv run uvicorn ai_api.main:app --reload --port 8000
+
+# 前端（另一個終端）
+cd frontend
+npm install
+npm run dev
+```
+
+詳細環境變數與首位管理員設定見 [`docs/deployment.md`](./docs/deployment.md)。
+
+## 測試與檢查
+
+```bash
+# 後端：單元 + 契約（Docker-free，in-memory/temp SQLite）
+uv run pytest tests/unit tests/contract
+uv run pytest            # 含整合測試（需 Docker / Postgres）
+uv run ruff check . && uv run mypy src/ai_api
+
+# 前端
+cd frontend && npm run lint && npm run typecheck && npm test
+```
+
+## 部署
+
+Kubernetes / Helm 部署、必填機密、首位管理員 bootstrap、Responses/Codex 與 SSE 不緩衝
+等注意事項，詳見 [`docs/deployment.md`](./docs/deployment.md)。
+
+## 文件
+
+- 工程憲章：[`.specify/memory/constitution.md`](./.specify/memory/constitution.md)
+- 領域原則：[`knowledge/principles.md`](./knowledge/principles.md)
+- 願景與路線圖：[`knowledge/vision.md`](./knowledge/vision.md)
+- 經驗教訓：[`knowledge/experience.md`](./knowledge/experience.md)
+- 設計文件：[`knowledge/design/`](./knowledge/design/)
+- 功能規格（spec / plan / tasks）：[`specs/`](./specs/)
+- 部署指南：[`docs/deployment.md`](./docs/deployment.md)
+
+## 開發流程
+
+本專案採 spec-driven 開發（spec → plan → tasks → 失敗測試 → 實作 → 重構 → 審查 → 合併），
+並強制 TDD 與契約優先；規格文件一律繁體中文、程式識別字英文。詳見工程憲章。
+
+## 授權
+
+[MIT License](./LICENSE)。
+
