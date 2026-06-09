@@ -1,10 +1,223 @@
 {
-  "last_checked_at": "2026-06-08T09:17:48.050Z",
+  "last_checked_at": "2026-06-09T08:26:36.773Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "mingye-lu/agenticcrawler",
+      "name": "Mingye-Lu/AgenticCrawler",
+      "url": "https://github.com/Mingye-Lu/AgenticCrawler",
+      "date": "2026-06-09",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 56,
+      "risk": 40,
+      "integration_effort": 68,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "gHashTag/trios-mcp-rag",
+          "date": "2026-05-23",
+          "topic": "AI agents",
+          "similarity": 0.361,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
+        },
+        {
+          "title": "Show HN: Web Speed – A shared web-map registry for AI agents (MCP, open source)",
+          "date": "2026-06-08",
+          "topic": "AI agents",
+          "similarity": 0.303,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/43-show-hn-web-speed-a-shared-web-map-registry-for-ai-agents-mcp-open-sou.md"
+        },
+        {
+          "title": "dui14/vibe-coding-workflow",
+          "date": "2026-05-30",
+          "topic": "AI dev tools",
+          "similarity": 0.228,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-09)",
+        "MIT license",
+        "5 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 8,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps cloakbrowser, playwright-core; scripts none"
+        },
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/Mingye-Lu/AgenticCrawler.git",
+        "cargo build --release",
+        "npm install",
+        "claude mcp add acrawl -- acrawl mcp",
+        "cargo build --release                                     # build",
+        "cargo test --workspace                                    # run all tests"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-09/01-mingye-lu-agenticcrawler.md"
+    },
+    {
+      "id": "truongnat/ai-engineering-harness",
+      "name": "truongnat/ai-engineering-harness",
+      "url": "https://github.com/truongnat/ai-engineering-harness",
+      "date": "2026-06-09",
+      "source": "awesome-claude-code",
+      "category": "awesome_lists",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 49,
+      "risk": 32,
+      "integration_effort": 56,
+      "expected_gain": 77,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: AI-Powered PDF to Markdown Converter",
+          "date": "2026-06-03",
+          "topic": "AI dev tools",
+          "similarity": 0.215,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-03/89-show-hn-ai-powered-pdf-to-markdown-converter.md"
+        },
+        {
+          "title": "linny006/agent-eval-harness",
+          "date": "2026-06-02",
+          "topic": "AI dev tools",
+          "similarity": 0.2,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/76-linny006-agent-eval-harness.md"
+        },
+        {
+          "title": "rutulraval/ai-coding-agents-autogen",
+          "date": "2026-06-01",
+          "topic": "AI agents",
+          "similarity": 0.185,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/59-rutulraval-ai-coding-agents-autogen.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-09)",
+        "MIT license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @clack/prompts, @changesets/cli, @eslint/eslintrc, @eslint/js, @types/node, c8, eslint, husky; scripts install:harness, build, build:watch, build:codex-plugin, publish:codex-plugin, prepack, test, test:evals"
+        }
+      ],
+      "install_commands": [
+        "npx ai-engineering-harness install",
+        "npx ai-engineering-harness status",
+        "npx ai-engineering-harness doctor",
+        "npx ai-engineering-harness install --provider claude --yes",
+        "npx ai-engineering-harness eval list",
+        "npx ai-engineering-harness eval run sample-bugfix --provider codex --yes"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-03 about AI dev tools; this candidate overlaps with \"Show HN: AI-Powered PDF to Markdown Converter\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-09/02-truongnat-ai-engineering-harness.md"
+    },
+    {
+      "id": "lemmaoracle/lemma",
+      "name": "lemmaoracle/lemma",
+      "url": "https://github.com/lemmaoracle/lemma",
+      "date": "2026-06-09",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 52,
+      "risk": 47,
+      "integration_effort": 48,
+      "expected_gain": 81,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "gHashTag/trios-mcp-rag",
+          "date": "2026-05-23",
+          "topic": "AI agents",
+          "similarity": 0.276,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
+        },
+        {
+          "title": "Show HN: I built an on-chain economy where AI agents transact autonomously",
+          "date": "2026-06-02",
+          "topic": "AI agents",
+          "similarity": 0.24,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/84-show-hn-i-built-an-on-chain-economy-where-ai-agents-transact-autonomou.md"
+        },
+        {
+          "title": "Show HN: Agent Chat Bridge – give AI IDE agents an async callback",
+          "date": "2026-05-21",
+          "topic": "AI agents",
+          "similarity": 0.228,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/27-show-hn-agent-chat-bridge-give-ai-ide-agents-an-async-callback.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-09)",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected",
+        "Matches 3 saved Feed article(s)"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "No clear install command found in README"
+      ],
+      "readme_quality": 55,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @eslint/js, @types/node, astro-eslint-parser, eslint-config-prettier, eslint-plugin-astro, eslint-plugin-functional, prettier, prettier-plugin-astro; scripts build, type-check, lint, test, format, format:check, sync:workers:spec"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-09/03-lemmaoracle-lemma.md"
+    },
     {
       "id": "tamircohen28/production-master",
       "name": "Tamircohen28/production-master",

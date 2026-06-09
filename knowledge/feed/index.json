@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T09:17:23.570Z",
+  "updated_at": "2026-06-09T08:25:59.298Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Command Center, the AI coding env for people who care about quality",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.cc.dev/",
+      "date": "2026-06-08",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! We’re Jimmy and Ray. Jimmy is a Thiel Fellow with a Ph. D. from MIT who has worked on programming tools for 15 years; Ray became VP of Sales at a $2B company when he was 19 and has built side-businesses vibe-coding. Last year, we set to answer the question “If AI can write code 100x faster, then why aren’t you shipping 100x faster?” What we learned... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/55-show-hn-command-center-the-ai-coding-env-for-people-who-care-about-qua.md"
+    },
+    {
+      "title": "Show HN: Startup sci-fi novel that took me 5 years to write",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.blockchainednovel.com/",
+      "date": "2026-06-08",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "It started after reading Stephen King's \"On Writing\" where he likened the art of writing as the unearthing of an archeological site after you stumbled upon a unique bone of a story. His advice was to choose a domain you are deeply intimate with. For me, I've been a struggling startup founder for 15 years—enough material to inspire a novel. A 1,000-word wr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/56-show-hn-startup-sci-fi-novel-that-took-me-5-years-to-write.md"
+    },
+    {
+      "title": "Show HN: Deep Memory – Vocabulary-driven graph memory for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/TjWheeler/deep-memory",
+      "date": "2026-06-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Deep Memory – Vocabulary-driven graph memory for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/57-show-hn-deep-memory-vocabulary-driven-graph-memory-for-ai-agents.md"
+    },
+    {
+      "title": "Observability for Delegated Execution in Agentic AI Systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.09692v1",
+      "date": "2026-06-08",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Delegation-scoped execution is not identifiable from standard observables: audit logs and execution traces can be identical under multiple incompatible delegation assignments. This gap is especially acute in LLM-based agentic systems, where agents dynamically select tools, vary execution sequences across runs for the same instruction, and spawn cooperatin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/58-observability-for-delegated-execution-in-agentic-ai-systems.md"
+    },
+    {
+      "title": "Show HN: Mach – A compiled systems language looking for contributions",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/octalide/mach",
+      "date": "2026-06-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm the creator of Mach ( https://github.com/octalide/mach or https://machlang.org ). Two days ago, we finally achieved full self hosting. I wanted to make a post here to show off the language since this is a big milestone for us. ## TL;DR about the language for those curious: - There are no external dependencies anywhere in the pipeline. This incl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-08/59-show-hn-mach-a-compiled-systems-language-looking-for-contributions.md"
+    },
+    {
+      "title": "Show HN: Ustps (UDP Speedy Transmission Protocol Secure) and USSH",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/x1colegal/USTP-Secure",
+      "date": "2026-06-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, Over the last few days I've been building USTPS (UDP Speedy Transmission Protocol Secure), an experimental encrypted transport protocol built on top of UDP. The primary goal of USTPS is low-latency video streaming. A server can take a video source and expose it through a USTPS endpoint, while Linux and Android (Termux) clients receive the stream an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-08/60-show-hn-ustps-udp-speedy-transmission-protocol-secure-and-ussh.md"
+    },
+    {
+      "title": "kushal-soni-official/janrakshak-vision",
+      "source": "GitHub Search API",
+      "url": "https://github.com/kushal-soni-official/janrakshak-vision",
+      "date": "2026-06-09",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "An AI-powered deepfake detector so simple, a 65-year-old in Kolkata can verify a suspicious WhatsApp photo in 3 seconds — no technical knowledge required. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-09/61-kushal-soni-official-janrakshak-vision.md"
+    },
+    {
+      "title": "0xsteve-00/trading-agents",
+      "source": "GitHub Search API",
+      "url": "https://github.com/0xsteve-00/trading-agents",
+      "date": "2026-06-09",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "🏦 Multi-agent AI trading desk with 4 parallel analysts, Solana memecoin sniper, backtesting, portfolio optimization, and smart execution (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-09/62-0xsteve-00-trading-agents.md"
+    },
+    {
+      "title": "I fine-tuned Parakeet 0.6B for medical ASR — open weights, local Mac/CUDA/CPU",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0q5h9/i_finetuned_parakeet_06b_for_medical_asr_open/",
+      "date": "2026-06-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I fine-tuned NVIDIA's Parakeet TDT 0.6B v2 for clinical speech and am releasing the weights as Omi Med STT v1 (CC-BY-4.0). Disclosure: I'm the founder of Omi Health and built this. Happy to dig into the training mix, benchmark, failure cases, quantization, or anything else. The goal was simple: get a small local ASR model close enough to the strong cloud... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-09/63-i-fine-tuned-parakeet-0-6b-for-medical-asr-open-weights-local-mac-cuda.md"
+    },
+    {
+      "title": "Was BitNet a dead end? What happened to ternary LLMs?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0hy5p/was_bitnet_a_dead_end_what_happened_to_ternary/",
+      "date": "2026-06-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "They seemed so promising at one point but the biggest ternary model is still 2B. What happened? Why aren't the frontier open weights AI labs attempting to use them? submitted by /u/3ntrope [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-08/64-was-bitnet-a-dead-end-what-happened-to-ternary-llms.md"
+    },
+    {
+      "title": "Have we reached the point where open-source LLMs are “just good enough”?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0yo32/have_we_reached_the_point_where_opensource_llms/",
+      "date": "2026-06-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The question I’m asking myself is whether open-source LLMs are now “ just good enough ” to meet 95% of requirements. I know, of course, that they still need to and will get even better, but where does the added value of the remaining 5% come from? a) Better answer quality? Okay, but does that justify the extra cost? b) Cleaner automated loops? Do the extr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-09/65-have-we-reached-the-point-where-open-source-llms-are-just-good-enough.md"
+    },
+    {
+      "title": "Luce Spark: a 35B MoE on a 16 GB GPU, without the offload tax",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0b3cu/luce_spark_a_35b_moe_on_a_16_gb_gpu_without_the/",
+      "date": "2026-06-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey fellow Llamas, your time is precious, so I'll keep it short (while trying to explain everything lol). TL;DR: 33-35B MoE on a 16 GB GPU. Qwen3.6 35B-A3B: 13.3 GiB (was ~20.5). Laguna XS.2 33B-A3B: 14.6 GiB (was 18.8). Both measured on an RTX 3090, both under 16 GiB. Only the active experts stay on the GPU. An A3B model routes to ~8 of 256 experts per t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-08/66-luce-spark-a-35b-moe-on-a-16-gb-gpu-without-the-offload-tax.md"
+    },
     {
       "title": "Show HN: Web Speed – A shared web-map registry for AI agents (MCP, open source)",
       "source": "Hacker News Top + Show HN",
