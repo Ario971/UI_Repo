@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T08:25:59.298Z",
+  "updated_at": "2026-06-10T08:42:55.948Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.11150v1",
+      "date": "2026-06-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large language models (LLMs) are rapidly acquiring capabilities relevant to biological research, from literature synthesis to interpretation of experimental data. Increasingly, LLM agents can also perform in silico biology tasks that previously required experienced human biologists. These emerging AI capabilities offer new opportunities for scientific dis... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/67-abc-bench-an-agentic-bio-capabilities-benchmark-for-biosecurity.md"
+    },
+    {
+      "title": "OpenPCC: Open and Confidential LLM Serving on Commodity TEEs",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.11145v1",
+      "date": "2026-06-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Generative AI applications such as personal AI agents, image generators, and chat assistants offer advanced capabilities to improve user experience. Behind the scenes, Large Language Models (LLMs) that power these services require a massive amount of computation and are usually deployed in the cloud, available as APIs, meaning that a user's request has to... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/68-openpcc-open-and-confidential-llm-serving-on-commodity-tees.md"
+    },
+    {
+      "title": "Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.11042v1",
+      "date": "2026-06-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Recent years have witnessed the rapid evolution of AI agents toward handling increasingly complex, real-world tasks. However, existing benchmarks rarely evaluate whether agents can operate graphical user interfaces to complete long-horizon, high-value professional workflows across diverse domains. Current GUI benchmarks still predominantly focus on genera... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/69-workflow-gym-towards-long-horizon-evaluation-of-computer-use-agentic-t.md"
+    },
+    {
+      "title": "Understanding and mitigating the risks of OpenClaw for non-technical users: A practical guide with Skill",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.11007v1",
+      "date": "2026-06-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "OpenClaw has rapidly emerged as a transformative artificial intelligence (AI) agent framework, and its ability to autonomously execute complex, multi-step tasks has attracted an ever-growing and diverse user base. However, this capability comes with significant risks. While existing research has made important strides in characterizing these threats, such... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/70-understanding-and-mitigating-the-risks-of-openclaw-for-non-technical-u.md"
+    },
+    {
+      "title": "Show HN: The agent that builds and operates its own SaaS tools",
+      "source": "Hacker News Show HN",
+      "url": "https://craftbot.live",
+      "date": "2026-06-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "For context, we started working on our general AI agent CraftBot before OpenClaw came out. It works similarly to OpenClaw and Hermes agent: control your PC to do task + memory + proactivity. However, here is the catch: it can create and operate its own SaaS tools with the concept of Living UI Living UI is a system where an AI agent can scaffold and launch... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-09/71-show-hn-the-agent-that-builds-and-operates-its-own-saas-tools.md"
+    },
+    {
+      "title": "notanaskhan/serval",
+      "source": "GitHub Search API",
+      "url": "https://github.com/notanaskhan/serval",
+      "date": "2026-06-10",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Serval — agentic organizational memory platform. Captures meetings, decisions, and documents across client engagements; serves humans and AI agents from the same query pipeline. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-10/72-notanaskhan-serval.md"
+    },
+    {
+      "title": "Show HN: Gravity – Interactive solar-system simulator, from Newton to Einstein",
+      "source": "Hacker News Show HN",
+      "url": "https://qunabu.github.io/Gravity/",
+      "date": "2026-06-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. It opens with a guided tour that builds the idea up step by step: two bodies and the equal/opposite force, inertia (the Sun is removed and Earth just drifts straight... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-09/73-show-hn-gravity-interactive-solar-system-simulator-from-newton-to-eins.md"
+    },
+    {
+      "title": "Show HN: GentleOS – A pair of hobby OSes for vintage 32-bit and 16-bit PCs",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/luke8086/gentleos32",
+      "date": "2026-06-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN, I've been working on a simple OS for tinkering and running bare metal apps on vintage PCs. Since I couldn't quite decide whether to target pure 16-bit, or slightly more capable 32-bit machines, I ended up with two separate versions: - GentleOS/32 ( https://github.com/luke8086/gentleos32 ) works on i386+, requires 4MB of RAM and VGA display suppo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-07/74-show-hn-gentleos-a-pair-of-hobby-oses-for-vintage-32-bit-and-16-bit-pc.md"
+    },
+    {
+      "title": "Anthropic is intentionally nerfing Fable when asked to develop other LLMs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/",
+      "date": "2026-06-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Reason 458 why local LLMs are going to be a necessity submitted by /u/onil_gova [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-10/75-anthropic-is-intentionally-nerfing-fable-when-asked-to-develop-other-l.md"
+    },
+    {
+      "title": "I'm brand new to running LLMs and the sheer number of tools is overwhelming",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1pi1w/im_brand_new_to_running_llms_and_the_sheer_number/",
+      "date": "2026-06-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone. I'm brand new to running LLMs in general, even more new to running them locally, and the sheer number of tools available is absolutely overwhelming. Regarding applications, I look at github and see so many different options that I don't know what to pick. Can't really fully decipher the differences between the tools either, mostly because th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-10/76-i-m-brand-new-to-running-llms-and-the-sheer-number-of-tools-is-overwhe.md"
+    },
+    {
+      "title": "Without open source LLMs, US AI companies could have already monopoled the technology",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1siyl/without_open_source_llms_us_ai_companies_could/",
+      "date": "2026-06-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For such technology with clear importance and impact on all of us, I believe that making it open source is an ethical duty, otherwise, especially with the 1-sided politics of the US we experience today, they could have already monopolized the technology by now, maybe make it exclusively available to US companies only, and starve the entire world including... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-10/77-without-open-source-llms-us-ai-companies-could-have-already-monopoled-.md"
+    },
+    {
+      "title": "Releasing Apodex-1.0 Smol Models (0.8B, 2B, 4B Open-Weights) optimized for Agentic Verification + AgentHarness Evals",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1p2me/releasing_apodex10_smol_models_08b_2b_4b/",
+      "date": "2026-06-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA , We just released Apodex 1.0 , and alongside our flagship API, we are releasing the weights for our Smol models (0.8B, 2B, and 4B) . Our core research focuses on independent verification in long-horizon tasks. Instead of just scaling up parameter sizes for raw generation, we’ve been experimenting with small, highly specialized local mode... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-10/78-releasing-apodex-1-0-smol-models-0-8b-2b-4b-open-weights-optimized-for.md"
+    },
     {
       "title": "Show HN: Command Center, the AI coding env for people who care about quality",
       "source": "Hacker News Top + Show HN",

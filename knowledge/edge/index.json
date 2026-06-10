@@ -1,10 +1,186 @@
 {
-  "last_checked_at": "2026-06-09T08:26:36.773Z",
+  "last_checked_at": "2026-06-10T08:43:20.219Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "kbigdata/omniharness",
+      "name": "kbigdata/omniharness",
+      "url": "https://github.com/kbigdata/omniharness",
+      "date": "2026-06-10",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 87,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 42,
+      "expected_gain": 77,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "gHashTag/trios-mcp-rag",
+          "date": "2026-05-23",
+          "topic": "AI agents",
+          "similarity": 0.331,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
+        },
+        {
+          "title": "rutulraval/ai-coding-agents-autogen",
+          "date": "2026-06-01",
+          "topic": "AI agents",
+          "similarity": 0.286,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/59-rutulraval-ai-coding-agents-autogen.md"
+        },
+        {
+          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
+          "date": "2026-05-20",
+          "topic": "AI agents",
+          "similarity": 0.244,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-10)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "May require elevated privileges"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [],
+      "install_commands": [
+        "claude --plugin-dir /path/to/omniharness",
+        "claude --plugin-dir ."
+      ],
+      "risk_flags": [
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-10/01-kbigdata-omniharness.md"
+    },
+    {
+      "id": "ryangerardwilson/looptab",
+      "name": "ryangerardwilson/looptab",
+      "url": "https://github.com/ryangerardwilson/looptab",
+      "date": "2026-06-10",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 79,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 48,
+      "expected_gain": 77,
+      "composite": 68,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "jhwreal/wechat-article-pipeline-skill",
+          "date": "2026-05-28",
+          "topic": "AI agents",
+          "similarity": 0.243,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/13-jhwreal-wechat-article-pipeline-skill.md"
+        },
+        {
+          "title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
+          "date": "2026-06-04",
+          "topic": "AI agents",
+          "similarity": 0.23,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/10-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-clo.md"
+        },
+        {
+          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+          "date": "2026-06-04",
+          "topic": "AI agents",
+          "similarity": 0.196,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-10)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "go.mod",
+          "summary": "module github.com/ryangerardwilson/looptab"
+        }
+      ],
+      "install_commands": [
+        "go install github.com/ryangerardwilson/looptab/cmd/looptab@latest",
+        "codex exec --color never --cd <cwd> <prompt>"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-05-28 about AI agents; this candidate overlaps with \"jhwreal/wechat-article-pipeline-skill\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-10/02-ryangerardwilson-looptab.md"
+    },
+    {
+      "id": "nimosocute/ctf-codex-toolkit",
+      "name": "nimosocute/ctf-codex-toolkit",
+      "url": "https://github.com/nimosocute/ctf-codex-toolkit",
+      "date": "2026-06-10",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 100,
+      "momentum": 49,
+      "risk": 32,
+      "integration_effort": 48,
+      "expected_gain": 59,
+      "composite": 68,
+      "replacement_target": null,
+      "related_articles": [],
+      "pros": [
+        "Recently updated (2026-06-10)",
+        "MIT license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts smoke, pack:dry"
+        }
+      ],
+      "install_commands": [
+        "codex --version",
+        "npm exec --yes --package ctf-codex-toolkit@latest -- ctf-codex-toolkit setup",
+        "npm exec --yes --package ctf-codex-toolkit@0.1.12 -- ctf-codex-toolkit setup",
+        "npm install -g ctf-codex-toolkit",
+        "npm exec --yes --package github:nimosocute/ctf-codex-toolkit -- ctf-codex-toolkit setup",
+        "git clone --depth 1 https://github.com/ljagiello/ctf-skills.git \"$tmp/ctf-skills\""
+      ],
+      "risk_flags": [
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "nimosocute/ctf-codex-toolkit matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-10/03-nimosocute-ctf-codex-toolkit.md"
+    },
     {
       "id": "mingye-lu/agenticcrawler",
       "name": "Mingye-Lu/AgenticCrawler",
