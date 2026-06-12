@@ -1,0 +1,12 @@
+---
+title: "Show HN: Claumon – forecasting Claude Code usage limits with a Gamma process"
+source: "Hacker News Show HN"
+url: "https://github.com/fabioconcina/claumon"
+date: "2026-06-11"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "Anthropic's usage analytics dashboard is only available to Team and Enterprise org admins. On a Pro or Max plan all you get is /usage and the claude.ai usage page, which show where you stand right now but not where you're heading. I looked at various open-source projects but none quite matched what I had in mind: an all-round control panel for Claude Code... (Local summary fallback used.)"
+---
+
+Anthropic's usage analytics dashboard is only available to Team and Enterprise org admins. On a Pro or Max plan all you get is /usage and the claude.ai usage page, which show where you stand right now but not where you're heading. I looked at various open-source projects but none quite matched what I had in mind: an all-round control panel for Claude Code that's also a single binary, with no dependencies and no install steps. The other thing I cared about was forecasting the usage limits. Existing tools do burn-rate projections (ccusage) or percentile heuristics (Claude-Code-Usage-Monitor), which felt too simplistic for what I wanted - I was after a calibrated statistical model with proper credible intervals. I built claumon over the last few months in Go. It runs on Linux, macOS and Windows, with a Homebrew install. It has the usual consumption gauges, cost breakdowns and conversation history, plus two tabs for memory management: after a while I had memories scattered across several projects and wanted to see them in one place and prune the stale ones. In the last few weeks I focused on the forecast model. I started from an empirical-Bayes linear regression with Brownian noise, but ended up with a Gamma process for the path noise: token usage can't decrease over time, so Brownian motion, however mathematically convenient, was the wrong choice. The intervals are calibrated against your own recorded history, and there's tooling that scores the forecasts out-of-sample, so the coverage is checked rather than assumed. I wrote a formal, versioned spec for the model, and the implementation follows it: https://github.com/fabioconcina/claumon/blob/main/internal/f... Everything runs locally - nothing leaves your machine. It's open source, MIT. I'd welcome feedback on the model especially.

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T09:07:29.594Z",
+  "updated_at": "2026-06-12T08:53:14.827Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Claw Patrol, a security firewall for agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/denoland/clawpatrol",
+      "date": "2026-06-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "At Deno we've been using OpenClaw and other agents increasingly for addressing production problems in Deno Deploy - when a PagerDuty alert fires, the agent starts researching the cause and making fixes. In order to do this, the agent needs access to real production systems - postgres, kubernetes, gcp, clickhouse, github, etc. But this is dangerous to say... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/91-show-hn-claw-patrol-a-security-firewall-for-agents.md"
+    },
+    {
+      "title": "Show HN: TunnelMind – reputation API for IPs, ASNs, and ad-tech supply chains",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://tunnelmind.ai/",
+      "date": "2026-06-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'm a network engineer that likes to think about the future of the internet and this is what I've built over many nights and weekends. One reputation graph over IPs, ASNs, domains, and entities, exposed as a JSON API. Try it: curl https://api.tunnelmind.ai/v1/check/1.1.1.1 Every answer is a signed receipt with an attestation tier so you can see what was p... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-11/92-show-hn-tunnelmind-reputation-api-for-ips-asns-and-ad-tech-supply-chai.md"
+    },
+    {
+      "title": "Show HN: AVP – an agent can't leak a secret it never had",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/inflightsec/agent-vault-proxy",
+      "date": "2026-06-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "A process can't leak a secret it never had. Shai-hulud, prompt-injection - you name it. They cannot steal what your agent (or an process) don't have. I run coding agents (Claude Code, Codex) on my own machines most of the day. Every one of them wants real API keys in env and I was scratching my head for the last few months how to contain it. The usual ans... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-11/93-show-hn-avp-an-agent-can-t-leak-a-secret-it-never-had.md"
+    },
+    {
+      "title": "EpiBench: Verifiable Evaluation of AI Agents on Epigenomics Analysis",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.13602v1",
+      "date": "2026-06-11",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We introduce EpiBench, a verifiable benchmark for short-horizon epigenomics analysis. EpiBench evaluates whether agents can make well-defined analysis decisions from realistic workflow states and return deterministically gradable answers. The benchmark includes 106 evaluations across CUT\\&Tag/CUT\\&RUN, ATAC-seq, ChIP-seq, and DNA methylation workflows. Ac... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-11/94-epibench-verifiable-evaluation-of-ai-agents-on-epigenomics-analysis.md"
+    },
+    {
+      "title": "Show HN: Manob: A social media plaform without algorithm, ads, or data-tracking",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=48500132",
+      "date": "2026-06-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I built Manob because I kept running into the same frustration with every major social media platform. A feed I couldn't control, content that I couldn't trust, and also a sense that I (my user data) am the product, not the user. I talked with people about these thoughts and concerns, and added my personal observation. I built this instead: - Chronologica... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/95-show-hn-manob-a-social-media-plaform-without-algorithm-ads-or-data-tra.md"
+    },
+    {
+      "title": "Show HN: Claumon – forecasting Claude Code usage limits with a Gamma process",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/fabioconcina/claumon",
+      "date": "2026-06-11",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Anthropic's usage analytics dashboard is only available to Team and Enterprise org admins. On a Pro or Max plan all you get is /usage and the claude.ai usage page, which show where you stand right now but not where you're heading. I looked at various open-source projects but none quite matched what I had in mind: an all-round control panel for Claude Code... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-11/96-show-hn-claumon-forecasting-claude-code-usage-limits-with-a-gamma-proc.md"
+    },
+    {
+      "title": "AlexNthLab/nth-dao",
+      "source": "GitHub Search API",
+      "url": "https://github.com/AlexNthLab/nth-dao",
+      "date": "2026-06-12",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Pluggable team-collaboration layer for any AI agent framework — Hermes, Claude Code, OpenClaw, Codex, OpenHands, custom (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
+    },
+    {
+      "title": "ZIRAKU-SW/ai-media-prototype",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ZIRAKU-SW/ai-media-prototype",
+      "date": "2026-06-12",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AIビジネスメディア デザインプロトタイプ（3パターン比較） (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/98-ziraku-sw-ai-media-prototype.md"
+    },
+    {
+      "title": "Qwen Who? DiffusionGemma running at 1,500 tk/s on a Digital Pregnancy Test.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2wks2/qwen_who_diffusiongemma_running_at_1500_tks_on_a/",
+      "date": "2026-06-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "First Doom, now DiffusionGwmma 4. We are truly living in the future. Who even needs a new Qwen release anymore? /s (Satire - Shaq doesn’t actually make a digital pregnancy test capable of running diffusion-based LLMs) Credit to Obvious Plant for the original Shaq pregnancy test box (that I doctored slightly). submitted by /u/Porespellar [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-11/99-qwen-who-diffusiongemma-running-at-1-500-tk-s-on-a-digital-pregnancy-t.md"
+    },
+    {
+      "title": "Why hasn't any mainstream game integrated LLMs into NPCs yet?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3nn4j/why_hasnt_any_mainstream_game_integrated_llms/",
+      "date": "2026-06-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "tech demos exist but nothing's actually shipped in a real game. Is it a latency problem or are game studios just not interested~ submitted by /u/Enough-Astronaut9278 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-12/01-why-hasn-t-any-mainstream-game-integrated-llms-into-npcs-yet.md"
+    },
+    {
+      "title": "Open sourcing InfiniteKV: a KV cache that files old tokens as 104-byte searchable records in RAM or on disk instead of deleting them. Mistral-7B answered from token 76,747, 2.3x past its trained window. Colab demo",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3nicr/open_sourcing_infinitekv_a_kv_cache_that_files/",
+      "date": "2026-06-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "What it is, in plain words. Your GPU keeps two float vectors for every token of your conversation. That’s the KV cache, and it’s why long contexts eat VRAM: Llama-3.1-8B needs about 0.12 MB per token, so 100k tokens costs 12 GB and a million tokens costs 122 GB. No consumer card holds that, so when it stops fitting, serving stacks quietly delete the oldes... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-12/02-open-sourcing-infinitekv-a-kv-cache-that-files-old-tokens-as-104-byte-.md"
+    },
+    {
+      "title": "Some contrived tests comparing the accuracy of different Gemma and Qwen quantizations",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3i8x7/some_contrived_tests_comparing_the_accuracy_of/",
+      "date": "2026-06-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I mostly ran these tests for myself, because the published KLD numbers are hard to interpret, and you cannot compare 9B-Q4 vs 4B-Q8 , for example. But I'm happy to share the results with anyone interested: Test 1 (Arithmetic) 1000 questions like Print only one number as the answer to the following question. Print nothing else, please. Do not use commas or... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-12/03-some-contrived-tests-comparing-the-accuracy-of-different-gemma-and-qwe.md"
+    },
     {
       "title": "Show HN: Extend UI – open-source UI kit for modern document apps",
       "source": "Hacker News Top + Show HN",
