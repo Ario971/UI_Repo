@@ -1,0 +1,712 @@
+---
+id: "mupozg823/codelens-mcp-plugin"
+name: "mupozg823/codelens-mcp-plugin"
+url: "https://github.com/mupozg823/codelens-mcp-plugin"
+date: "2026-06-13"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 79
+momentum: 53
+risk: 40
+integration_effort: 56
+expected_gain: 87
+composite: 68
+replacement_target: ""
+related_articles: [{"title":"gHashTag/trios-mcp-rag","date":"2026-05-23","topic":"AI agents","similarity":0.356,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"},{"title":"anzy-renlab-ai/pronounce","date":"2026-05-24","topic":"AI dev tools","similarity":0.276,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/66-anzy-renlab-ai-pronounce.md"},{"title":"dui14/vibe-coding-workflow","date":"2026-05-30","topic":"AI dev tools","similarity":0.25,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"}]
+pros: ["Recently updated (2026-06-13)","Apache-2.0 license","3 GitHub stars","GitHub Actions/CI detected"]
+cons: ["Integration may take more than a quick install","README mentions credentials or API tokens","README mentions telemetry/analytics"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 5
+dependency_files: [{"name":"Cargo.toml","summary":"Rust project metadata detected"}]
+install_commands: ["cargo install codelens-mcp","cargo install codelens-mcp --features semantic","cargo install --git https://github.com/mupozg823/codelens-mcp-plugin codelens-mcp","cargo install --git https://github.com/mupozg823/codelens-mcp-plugin codelens-mcp --features semantic,http","cargo build --release                              # semantic pipeline enabled (~75MB)","cargo build --release --no-default-features        # without ML model (~58MB slim)"]
+risk_flags: ["README mentions credentials or API tokens","README mentions telemetry/analytics"]
+status: "new"
+---
+
+# mupozg823/codelens-mcp-plugin
+
+Rust MCP server for bounded code intelligence, gated mutation, and auditable agent workflows.
+
+URL: https://github.com/mupozg823/codelens-mcp-plugin
+
+## Why it matters
+You saved an article on 2026-05-23 about AI agents; this candidate overlaps with "gHashTag/trios-mcp-rag" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-06-13)
++ Apache-2.0 license
++ 3 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- Integration may take more than a quick install
+- README mentions credentials or API tokens
+- README mentions telemetry/analytics
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 5
+
+Dependency files:
+- Cargo.toml: Rust project metadata detected
+
+Install commands found:
+- cargo install codelens-mcp
+- cargo install codelens-mcp --features semantic
+- cargo install --git https://github.com/mupozg823/codelens-mcp-plugin codelens-mcp
+- cargo install --git https://github.com/mupozg823/codelens-mcp-plugin codelens-mcp --features semantic,http
+- cargo build --release                              # semantic pipeline enabled (~75MB)
+- cargo build --release --no-default-features        # without ML model (~58MB slim)
+
+Risk flags:
+- README mentions credentials or API tokens
+- README mentions telemetry/analytics
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+<div align="center">
+
+# CodeLens MCP
+
+**Agent-native code intelligence server with bounded workflows, precise fallback, and auditable releases.**
+
+If you are preparing automation or host configs for the eventual cutover, use the host-by-host migration guide: [`docs/migrate-from-codelens.md`](docs/migrate-from-codelens.md).
+
+Pure Rust MCP server for multi-agent harnesses with hybrid retrieval (tree-sitter + semantic), mutation-gated refactoring, token compression, and enterprise-ready observability. The binary statically links SQLite, the vector store, and the ONNX runtime, so no external daemons or service installs are required for the core retrieval and mutation surfaces. **Semantic search additionally needs a sidecar model directory** (~80 MB ONNX) — GitHub Release tarballs bundle it automatically, but users installing via `cargo install codelens-mcp` must point `CODELENS_MODEL_DIR` at a separately-fetched model payload (see the [Install Channel Matrix](#install-channel-matrix)).
+
+[![CI](https://github.com/mupozg823/codelens-mcp-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/mupozg823/codelens-mcp-plugin/actions)
+[![crates.io](https://img.shields.io/crates/v/codelens-mcp.svg)](https://crates.io/crates/codelens-mcp)
+[![docs.rs](https://docs.rs/codelens-engine/badge.svg)](https://docs.rs/codelens-engine)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+[![Downloads](https://img.shields.io/crates/d/codelens-mcp.svg)](https://crates.io/crates/codelens-mcp)
+
+</div>
+
+<!-- SURFACE_MANIFEST_README_SNAPSHOT:BEGIN -->
+
+## Surface Snapshot
+
+- Workspace version: `1.13.32`
+- Workspace members: `2` (`crates/codelens-engine`, `crates/codelens-mcp`)
+- Registered tool definitions: `87`
+- Tool output schemas: `55 / 87`
+- Supported language families: `30` across `49` extensions
+- Profiles: `planner-readonly` (36), `builder-minimal` (35), `reviewer-graph` (40), `evaluator-compact` (36), `refactor-full` (35), `ci-audit` (40), `workflow-first` (36)
+- Presets: `minimal` (20), `balanced` (74), `full` (87)
+- Canonical manifest: [`docs/generated/surface-manifest.json`](docs/generated/surface-manifest.json)
+
+<!-- SURFACE_MANIFEST_README_SNAPSHOT:END -->
+
+---
+
+## The Problem
+
+Multi-agent coding harnesses fail when every agent sees too many tools, too much raw code, and too many intermediate results. Tokens get burned on `tools/list`, repeated file reads, and low-value raw graph expansion.
+
+## The Solution
+
+CodeLens maintains a **live, indexed understanding** of your codebase and exposes it as a harness optimization layer. The model asks a precise question and gets a bounded answer with a handle for deeper expansion only when needed.
+
+```
+Without CodeLens                                    With CodeLens (with semantic feature on)
+────────────────────────────────────────────────────────────────────────────────────────────
+Read file + grep references   → 4,600 tokens       get_impact_analysis    → 1,500 tokens  (67% saved)
+Read manifest + entry + files → 5,000 tokens       onboard_project        →   660 tokens  (87% saved)
+Read + grep × 3 files         → 3,200 tokens       get_ranked_context     →   800 tokens  (75% saved)
+```
+
+> Measured with tiktoken (cl100k_base) on real projects with `--features semantic` enabled and the bundled CodeSearchNet model loaded. Reproducible via `benchmarks/token-efficiency.py`. The default crates.io build (BM25 + AST only) still hits the bounded-output and workflow-shape benefits but does not run the hybrid semantic ranker.
+
+## Quick Install
+
+**Default (BM25 + AST + call-graph, no model sidecar)** — works out of the box, no extra setup:
+
+```bash
+cargo install codelens-mcp
+```
+
+**Hybrid retrieval (semantic + bundled CodeSearchNet model)** — pick one:
+
+```bash
+# Option A: GitHub Release tarball — model is bundled and verified in CI.
+curl -fsSL https://raw.githubusercontent.com/mupozg823/codelens-mcp-plugin/main/install.sh | bash
+
+# Option B: cargo install with the semantic feature, then point CODELENS_MODEL_DIR at a model
+#          payload (the model is not on crates.io due to the 10 MB cap).
+cargo install codelens-mcp --features semantic
+export CODELENS_MODEL_DIR=/path/to/codesearch/model
+
+# Option C: Homebrew tap (macOS / Linux) — release-tarball-equivalent
+brew install mupozg823/tap/codelens-mcp
+```
+
+**HTTP daemon mode** — add `--features http` to either path above. Source builds:
+
+```bash
+cargo install --git https://github.com/mupozg823/codelens-mcp-plugin codelens-mcp
+cargo install --git https://github.com/mupozg823/codelens-mcp-plugin codelens-mcp --features semantic,http
+```
+
+> The default `cargo install codelens-mcp` build was switched to `default = []` in 1.10.0 (ADR-0012) so a fresh install boots without the ~80 MB ONNX sidecar. Existing users running `cargo install --force` will see the change in the startup banner.
+
+Latest release: [GitHub Releases](https://github.com/mupozg823/codelens-mcp-plugin/releases/latest). For local release comparisons, use `git tag --sort=-v:refname | head -1` instead of copying a fixed tag into docs.
+
+### Install Channel Matrix
+
+| Channel                                          | What you get                                                                              | Good for                                             | Extra install needed?                                                                                                                                                                                         |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `cargo install codelens-mcp`                     | crates.io package, **BM25 + AST + call-graph default** (no semantic, no model needed)     | Single-agent local MCP sessions, fast first install  | Add `--features semantic` for hybrid retrieval (model sidecar required, see below). Add `--features http` for shared HTTP daemons.                                                                            |
+| `cargo install codelens-mcp --features semantic` | crates.io package + ONNX/fastembed/sqlite-vec compiled in                                 | Hybrid retrieval users who prefer crates.io          | **Semantic search requires a sidecar model directory** — model files are excluded from `cargo publish` (10 MB cap on crates.io); fetch one from a GitHub Release tarball and point `CODELENS_MODEL_DIR` at it |
+| `cargo install codelens-mcp --features http`     | crates.io package, BM25/AST default + HTTP transport                                      | Shared daemon mode from crates.io without semantic   | Combine with `--features semantic,http` if hybrid retrieval is wanted                                                                                                                                         |
+| GitHub Releases / installer / Homebrew           | latest tagged release binary, built in CI with `--features http` (`http,coreml` on macOS) | Tagged release users who want HTTP without compiling | Model payload is bundled in the tarball and verified pre-/post-archive in CI; airgap users can rebundle via `scripts/build-airgap-bundle.sh`                                                                  |
+| `cargo install --git ...` or source build        | current repository HEAD                                                                   | Unreleased features on `main` / branch testing       | Models live at `crates/codelens-engine/models/codesearch/` in the source tree; no extra fetch needed                                                                                                          |
+
+Important:
+
+- `CodeLens standalone` means the `codelens-mcp` binary itself. Basic stdio MCP use needs only that binary plus host MCP config.
+- `Shared HTTP + multi-agent coordination` still uses the same binary, but the binary must include the `http` feature and the clients must attach by URL.
+- If a feature is mentioned in this repository but not present in your installed binary, compare `codelens-mcp --version` with the latest GitHub release and your install channel before assuming a bug.
+
+## Claude Code Plugin
+
+CodeLens ships as a Claude Code plugin that wires the MCP server plus the
+CodeLens-specific skills and read-only explorer agent in one install.
+
+**Prerequisite — install the binary first.** The plugin connects to a
+`codelens-mcp` binary on your `PATH`; the plugin system does not build it.
+The recommended path is the installer or a GitHub Release tarball, which
+bundle the semantic model so `semantic_search` and hybrid retrieval work
+out of the box:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/mupozg823/codelens-mcp-plugin/main/install.sh | bash
+```
+
+A leaner `cargo install codelens-mcp` also works but provides BM25 + AST +
+call-graph only (no semantic model; `semantic_search` is gracefully absent
+until you add `--features semantic` and a model directory — see the
+[Install Channel Matrix](#install-channel-matrix)).
+
+**Install the plugin:**
+
+```text
+/plugin marketplace add mupozg823/codelens-mcp-plugin
+/plugin install codelens@codelens
+```
+
+**What you get:** the `mcp__codelens__*` tools, the `codelens-analyze`,
+`codelens-review`, and `codelens-onboard` skills, and the read-only
+`codelens-explorer` agent.
+
+**If the tools don't appear** after install, the binary isn't on your
+`PATH`. Verify the install with:
+
+```bash
+codelens-mcp doctor claude-code
+```
+
+**Optional — post-edit diagnostics.** The repo ships
+`hooks/post-edit-diagnostics.sh`, which runs CodeLens diagnostics on each
+edited file. It is **not** auto-installed by the plugin. To enable it, add a
+`PostToolUse` hook for the `Edit` matcher pointing at that script in your
+Claude Code settings.
+
+## Setup
+
+### Environment Variables
+
+Copy `.env.example` to `.env` and fill in the values for your environment:
+
+```bash
+cp .env.example .env
+```
+
+Key variables include `CODELENS_MODEL_DIR` for semantic search, `CODELENS_OTEL_ENDPOINT` for telemetry, and `CODELENS_PROJECT_BRIDGES_ON` to opt into project-specific NL→code bridges.
+
+### Claude Code / Cursor
+
+```json
+{
+  "mcpServers": {
+    "codelens": {
+      "command": "codelens-mcp",
+      "args": []
+    }
+  }
+}
+```
+
+### Shared HTTP Daemon (Multi-Agent)
+
+Running every editor or agent as its own stdio subprocess spawns **one `codelens-mcp` instance per session**, each with its own index and embedding state. Measured on a typical developer laptop with Claude Code + Codex Desktop + Cursor attached to the same project, this adds up to **200–300 MB** of duplicated resident memory for effectively the same data. The HTTP daemon collapses that into a single shared process.
+
+If you installed from crates.io or built from source and need HTTP transport, make sure the binary was built with the `http` feature. The prebuilt release assets and the installer fallback should ship HTTP support.
+
+Minimal setup:
+
+```bash
+# Start once, keep running in the background
+codelens-mcp /path/to/project --transport http --profile reviewer-graph --daemon-mode read-only --port 7837
+
+# Optional: a second daemon scoped for refactor-capable agents
+codelens-mcp /path/to/project --transport http --profile refactor-full --daemon-mode mutation-enabled --port 7838
+```
+
+Those ports are the public generic example. In this repository's local launchd
+workflow, the repo-local dual-daemon installer uses `:7839` for the read-only
+daemon and `:7838` for the mutation daemon.
+
+Every MCP client then attaches by URL instead of spawning a subprocess:
+
+```json
+{
+  "mcpServers": {
+    "codelens": { "type": "http", "url": "http://127.0.0.1:7837/mcp" }
+  }
+}
+```
+
+If you are following this repository's local launchd workflow, replace the
+read-only example URL above with `http://127.0.0.1:7839/mcp`. The `:7837`
+address remains the public generic example used throughout this section.
+
+#### When to prefer HTTP vs stdio
+
+| Situation                                            | Transport                 | Why                                                                    |
+| ---------------------------------------------------- | ------------------------- | ---------------------------------------------------------------------- |
+| Single-agent, ephemeral sessions                     | stdio                     | Zero setup, auto-lifecycle, no port management                         |
+| 2+ agents (Claude + Codex + Cursor) on the same repo | **HTTP**                  | One shared index, 100–200 MB saved per extra agent                     |
+| Long-running agent or automation loop                | **HTTP**                  | Avoids cold-start on every session                                     |
+| CI / one-shot script                                 | stdio                     | `--oneshot` matches short-lived commands                               |
+| Mutation-heavy workflow needing isolation            | **HTTP with two daemons** | Read-only port for planners, mutation-enabled port for refactor agents |
+
+For shared HTTP deployments, treat CodeLens coordination as advisory evidence rather than a central lock manager. The practical pattern is: bootstrap with `prepare_harness_session`, register intent with `register_agent_work`, claim mutation targets with `claim_files`, and let `verify_change_readiness` surface `overlapping_claims` as a `caution` signal before edits.
+
+What the standalone binary does and does not cover:
+
+- `CodeLens only` is enough for stdio use, HTTP daemon use, role-based surfaces, mutation gates, and coordination tools.
+- `Semantic retrieval` needs the packaged model sidecar at `./models/codesearch/` next to the binary, an installed prefix sidecar such as `../models/codesearch/`, or an explicit `CODELENS_MODEL_DIR`. Release packaging fails closed if the model payload is incomplete; release CI can point at a staged model root with `CODELENS_RELEASE_MODELS_DIR`. macOS release binaries enable the `coreml` feature so the INT8 ONNX model can use the CoreML execution provider instead of silently falling back to CPU.
+- `IDE adapters` are external adapter endpoints that can be plugged in for IDE-specific semantic edits; no bundled adapters are required for core operation. `semantic_edit_backend=tree_sitter` is the default and always available.
+- `SCIP precise navigation` needs a binary built with `--features scip-backend` and an external SCIP index.
+- `Claude -> Codex` live delegation is not a CodeLens feature. It additionally needs Claude configured with a `codex` MCP server and a working Codex CLI install.
+
+Recommended operating policy:
+
+- one mutation-enabled agent per worktree
+- additional agents stay planner/reviewer/read-only on the same daemon
+- use `codelens://activity/current` to inspect active sessions, recent intent, and advisory file claims
+
+#### Troubleshooting
+
+- **`Failed to reconnect` on the client** — the daemon likely exited or the configured URL/port is wrong. Verify with `curl <configured-mcp-url>`; for this repository's local launchd workflow that is usually `http://127.0.0.1:7839/mcp` for read-only and `http://127.0.0.1:7838/mcp` for mutation.
+- **Stale index warning on first attach** — expected when the watcher hasn't caught up after a daemon restart. Call `refresh_symbol_index` via MCP once, or restart the daemon with the project root as its CWD.
+- **Host config sanity check** — `codelens-mcp doctor <host>` (or `codelens-mcp status <host>`) inspects the host-native files and tells you whether the CodeLens entry is attached exactly, customized, missing, or needs manual review. Add `--json` when another script or host automation needs a machine-readable report.
+- **Broken or stale `~/.local/bin/codelens-mcp`** — if `cargo clean` removed the repo build a symlink points at, or if PATH still resolves to an older cargo-installed binary that does not know newer subcommands like `doctor` / `status`, run `bash scripts/sync-local-bin.sh .` to rebuild and re-link the local checkout, or `cargo install --path crates/codelens-mcp --force` to install a fresh standalone binary under `~/.cargo/bin/`.
+- **Multiple daemons listening on the same port** — only one will actually bind; the rest exit immediately. Check the actual configured port, for example `lsof -iTCP:7839 -sTCP:LISTEN` or `lsof -iTCP:7838 -sTCP:LISTEN` in this repository's local launchd workflow.
+- **Health check** — `scripts/mcp-doctor.sh . --strict` verifies that the configured transport matches an actual attach.
+
+#### Auto-start on macOS (launchd)
+
+For this repository, prefer the installer script over hand-editing plist files:
+
+```bash
+bash scripts/install-http-daemons-launchd.sh . --load
+```
+
+That installs two repo-local launchd agents from a current
+`--features http,semantic` build by default:
+
+- `dev.codelens.mcp-readonly` -> `reviewer-graph` on `:7839`
+- `dev.codelens.mcp-mutation` -> `refactor-full` on `:7838`
+
+> **Build flag reminder (v1.10.1+)**: the installer builds the daemon
+> with `http,semantic` by default and writes `CODELENS_MODEL_DIR` into
+> the plists when the repo-local model sidecar exists. Use `--no-semantic`
+> only when you intentionally want an HTTP-only daemon. See
+> [`docs/release-verification.md`](docs/release-verification.md#feature-flag-matrix-build-time-requirements)
+> for the full feature-flag matrix.
+
+It also updates `.codelens/config.json` with repo-local `host_attach` URL
+overrides so `codelens-mcp attach`, `status`, and `doctor` reuse the same
+host-to-daemon contract.
+
+Generic single-daemon example, if you want to hand-edit a plist instead of
+using the installer above:
+
+```xml
+<!-- ~/Library/LaunchAgents/dev.codelens.mcp.plist -->
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0"><dict>
+  <key>Label</key>            <string>dev.codelens.mcp</string>
+  <key>ProgramArguments</key> <array>
+    <string>/Users/you/.local/bin/codelens-mcp</string>
+    <string>/Users/you/your-project</string>
+    <string>--transport</string><string>http</string>
+    <string>--profile</string><string>reviewer-graph</string>
+    <string>--daemon-mode</string><string>read-only</string>
+    <string>--port</string><string>7837</string>
+  </array>
+  <key>RunAtLoad</key>        <true/>
+  <key>KeepAlive</key>        <true/>
+  <key>StandardOutPath</key>  <string>/tmp/codelens-mcp.out.log</string>
+  <key>StandardErrorPath</key><string>/tmp/codelens-mcp.err.log</string>
+</dict></plist>
+```
+
+```bash
+launchctl load ~/Library/LaunchAgents/dev.codelens.mcp.plist
+launchctl list | grep codelens   # confirm it's running
+```
+
+For the separate daily aggregate audit snapshot, install the operator job with:
+
+```bash
+bash scripts/install-eval-session-audit-launchd.sh . --hour 23 --minute 55
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/dev.codelens.eval-session-audit.codelens-mcp-plugin.plist
+```
+
+That scheduled job keeps JSON snapshots as the canonical history and refreshes
+`.codelens/reports/daily/latest-summary.md` plus
+`.codelens/reports/daily/latest-gate.md` after each run by default.
+
+For an ad hoc operator snapshot without launchd, run:
+
+```bash
+bash scripts/export-eval-session-audit.sh
+bash scripts/export-eval-session-audit.sh --format markdown
+bash scripts/export-eval-session-audit.sh --history-summary-path .codelens/reports/daily/latest-summary.md
+bash scripts/export-eval-session-audit.sh --history-gate-path .codelens/reports/daily/latest-gate.md
+```
+
+To summarize recent daily snapshots into a drift/trend report, run:
+
+```bash
+bash scripts/summarize-eval-session-audit-history.sh
+bash scripts/summarize-eval-session-audit-history.sh --limit 7
+```
+
+To turn that history into an operator `pass` / `warn` / `fail` verdict, run:
+
+```bash
+bash scripts/eval-session-audit-operator-gate.sh
+bash scripts/eval-session-audit-operator-gate.sh --fail-on-warn
+```
+
+If `.codelens/eval-session-audit-gate.json` exists, the gate script loads it
+automatically. CLI flags and env vars still override the repo-local policy.
+
+The export script can also refresh that gate artifact automatically after each
+JSON snapshot, so scheduled operators do not need a second wrapper job just to
+keep `latest-gate.md` current.
+
+See [docs/platform-setup.md](docs/platform-setup.md) for Codex, Windsurf, VS Code, and other platforms.
+
+### Distribution Channels
+
+| Channel          | Delivery                                  | Notes                                            |
+| ---------------- | ----------------------------------------- | ------------------------------------------------ |
+| crates.io        | `cargo install codelens-mcp`              | Standard Rust install path                       |
+| Homebrew tap     | `brew install mupozg823/tap/codelens-mcp` | macOS/Linux package install                      |
+| GitHub Releases  | prebuilt archives                         | `darwin-arm64`, `linux-x86_64`, `windows-x86_64` |
+| installer script | `install.sh`                              | Convenience bootstrap for release assets         |
+| source build     | `cargo build --release`                   | Custom feature builds and local hacking          |
+
+## Why CodeLens?
+
+|                       | CodeLens                             | Read/Grep baseline           |
+| --------------------- | ------------------------------------ | ---------------------------- |
+| **Token cost**        | 50-87% less                          | Full file content every time |
+| **Context quality**   | Ranked, bounded, structured          | Raw text, no prioritization  |
+| **Multi-file impact** | 1 tool call                          | 5-10 grep + read cycles      |
+| **Runtime**           | Single Rust binary, <12ms cold start | N/A                          |
+| **Language support**  | Generated from the surface manifest  | N/A                          |
+| **Agent awareness**   | Doom-loop detection, mutation gates  | None                         |
+
+## Key Features
+
+### Problem-First Workflows
+
+Instead of starting from the full raw tool registry, begin with the workflow-first entrypoints:
+
+| Workflow                | Tool                      | When                                  |
+| ----------------------- | ------------------------- | ------------------------------------- |
+| Explore codebase        | `explore_codebase`        | First look or targeted context search |
+| Trace execution         | `trace_request_path`      | Follow request or symbol flow         |
+| Audit architecture      | `review_architecture`     | Boundaries, coupling, module shape    |
+| Plan safe refactor      | `plan_safe_refactor`      | Preview rename/refactor risk first    |
+| Review changes          | `review_changes`          | Diff-aware pre-merge review           |
+| Diagnose issues         | `diagnose_issues`         | File, symbol, or directory diagnosis  |
+| Cleanup duplicate logic | `cleanup_duplicate_logic` | Duplicate or removable logic cleanup  |
+
+### Role-Based Surfaces
+
+| Profile            | Tools Visible                  | Use Case                                        |
+| ------------------ | ------------------------------ | ----------------------------------------------- |
+| `planner-readonly` | Workflow-first                 | Planner/architect context compression           |
+| `builder-minimal`  | Workflow-first                 | Implementation with focused Codex/agent surface |
+| `reviewer-graph`   | Review-heavy                   | Graph-aware review and risk analysis            |
+| `refactor-full`    | Preview-first + gated mutation | Safe refactors                                  |
+| `ci-audit`         | Machine-oriented               | CI/CD review and report emission                |
+
+### Adaptive Token Compression
+
+5-stage budget-aware compression automatically adjusts response size. The per-request `max_tokens` parameter is honoured by the envelope budget logic; earlier versions silently capped at the profile default even when the caller explicitly asked for a larger budget.
+
+- **Stage 1** (<75% budget): Full detail pass-through
+- **Stage 2-3** (75-95%): Structured summarization
+- **Stage 4-5** (>95%): Skeleton + truncation with expansion handles
+
+### Analysis Handles
+
+Heavy reports run as durable async jobs. Agents poll for completion and expand only needed sections:
+
+```
+start_analysis_job → get_analysis_job → get_analysis_section("impact")
+```
+
+### Mutation Safety
+
+Refactor flows require verification before code changes:
+
+```
+verify_change_readiness → "ready" → rename_symbol
+                        → "blocked" → fix blockers first
+```
+
+## What CodeLens Does Well (vs native grep/ls)
+
+A complement to the existing routing matrix in `CLAUDE.md`. The cases below
+have shown up repeatedly across self-dogfood and external project sessions
+(see `benchmarks/cl-positive-findings-2026-05-03.md` for measurement notes).
+
+| Task                       | CodeLens                                                      | Native fallback               | Why CL wins                                                                                                |
+| -------------------------- | ------------------------------------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Project bootstrap          | `prepare_harness_session(profile=…, detail=compact)` — 1 call | `ls + cargo build + python …` | activation + index recovery + capability + tool surface together                                           |
+| Pre-merge change review    | `review_changes(changed_files=[…])`                           | manual diff inspection        | quantified 4-axis verifier (diagnostics / refs / tests / mutation), `readiness_score` 0–1, `blocker_count` |
+| Function definition lookup | `find_symbol(name=…)`                                         | `grep -rn "def X"`            | exact symbol kind + signature + nearby tests in one response                                               |
+
+For the full _when not_ matrix (where `Grep` / `Read` win), keep the
+`CLAUDE.md` "Tool Routing — honest scenario matrix" as the single source
+of truth. This section only fixes the recurring "I can use CodeLens for
+this?" gap.
+
+## Language Support
+
+<!-- SURFACE_MANIFEST_README_LANGUAGES:BEGIN -->
+
+Canonical parser families (30): C, Clojure/ClojureScript, C++, C#, CSS, Dart, Erlang, Elixir, Go, Haskell, HTML, Java, Julia, JavaScript, Kotlin, Lua, OCaml, PHP, Python, R, Ruby, Rust, Scala, Bash/Shell, Swift, TOML, TypeScript, TSX/JSX, YAML, Zig
+
+Import-graph capable families: C, C++, C#, CSS, Dart, Go, Java, JavaScript, Kotlin, PHP, Python, Ruby, Rust, Scala, Swift, TypeScript, TSX/JSX
+
+The canonical family/extension inventory is generated from `codelens_engine::lang_registry` and published in [`docs/generated/surface-manifest.json`](docs/generated/surface-manifest.json).
+
+<!-- SURFACE_MANIFEST_README_LANGUAGES:END -->
+
+## Performance
+
+| Operation              | Time  | Backend                 |
+| ---------------------- | ----- | ----------------------- |
+| `find_symbol`          | <1ms  | SQLite FTS5             |
+| `get_symbols_overview` | <1ms  | Cached                  |
+| `get_ranked_context`   | ~20ms | 4-signal hybrid ranking |
+| `get_impact_analysis`  | ~1ms  | Graph cache             |
+| Cold start             | ~12ms | No LSP boot needed      |
+
+## Semantic Search
+
+Optional embedding-based code search (feature-gated: `semantic`):
+
+- **Sidecar MiniLM-L12 CodeSearchNet** model (ONNX INT8) — load from `CODELENS_MODEL_DIR` or next to the binary
+- Hybrid ranking: semantic supplements structural in `get_ranked_context`
+- 2-tier NL→code bridging: generic core (15 entries) + auto-generated project bridges (`.codelens/bridges.json`)
+- Multi-language test symbol filtering: Python, JS/TS, Go, Java, Kotlin, Ruby
+
+### Retrieval Quality
+
+Self-benchmark re-measured on commit `26d513e` (v1.9.32, 2026-04-17), model `MiniLM-L12-CodeSearchNet-INT8` (SHA256 prefix `ef1d1e9c`), dataset `benchmarks/embedding-quality-dataset-self.json` (104 queries). Two independent runs produced identical numbers (0% variance — deterministic).
+
+| Method                            | MRR@10    | Acc@1   | Acc@3   | Avg ms  |
+| --------------------------------- | --------- | ------- | ------- | ------- |
+| Lexical only (no semantic)        | 0.583     | 53%     | 65%     | 41      |
+| Semantic only                     | 0.689     | 65%     | 74%     | 498     |
+| **Hybrid** (`get_ranked_context`) | **0.712** | **68%** | **75%** | **115** |
+
+Hybrid uplift over lexical: **+0.128 MRR, +15% Acc@1**. Semantic alone beats lexical but hybrid beats semantic by blending both signals. Identifier queries reach `MRR 0.935` with every method (structural matching is sufficient); the hybrid advantage concentrates on natural-language queries (+0.159 MRR) and short phrases (+0.318 MRR).
+
+> **v1.9.23 → v1.9.32 re-measurement**: Hybrid −0.046 (0.758 → 0.712), Semantic −0.043, Lexical −0.018. Dataset and model unchanged. Commit span `84c825d..26d513e` includes retrieval-path tuning that slightly dropped the aggregate score; the architecture refactors in v1.9.31–v1.9.32 (`dispatch/`, `tools/`, `main.rs` splits) do not touch retrieval code. Root-cause investigation is a follow-up in a dedicated bench session.
+
+Cross-project matrix (6 languages, last run v1.9.23 line — not re-measured this cycle): Rust (self / axum / ripgrep), Python (django / requests), TS/JS (jest / next-js / react-core / typescript), Go (gin), Java (gson), C (curl). Historical hybrid numbers for those projects are tracked in `benchmarks/embedding-quality-phase3-matrix.json`.
+
+> 2-tier NL→code bridges: generic core (15 entries) + auto-generated project bridges (`.codelens/bridges.json`).
+>
+> **Bridge measurement honesty (v1.9.46 three-arm ablation, 2026-04-18)**: on the self dataset, project bridges (`.codelens/bridges.json`, 659 entries) contribute **0 MRR** — both-on and generic-on are bit-exact identical to six decimals. Generic core contributes **+0.010 MRR** overall (+0.016 on natural-language queries). Flask pilot (n=20, Python) found **0/20 generic-term matches** — the generic bridges are CodeLens-dev-tooling vocabulary ("categorize", "camelcase", "who calls", "into an ast"), not a language-agnostic mapping. Cross-language bridge contribution remains unverified pending multi-repo pilots. Artifacts: `benchmarks/results/v1.9.46-3arm-bridge-*.json`.
+>
+> **Default change (v1.9.60)**: project bridges are now **disabled by default** (`CODELENS_PROJECT_BRIDGES_ON=1` to re-enable) because the ablation proved zero retrieval benefit while imposing per-query file I/O. Generic bridges remain active.
+
+```bash
+# Measure on your project
+python3 benchmarks/embedding-quality.py . --isolated-copy
+```
+
+## Enterprise Features
+
+| Feature                    | Status                                                                     |
+| -------------------------- | -------------------------------------------------------------------------- |
+| Config policy              | `.codelens/config.json` per-project feature flags                          |
+| Rate limiting              | Session-level throttle (default 300 calls, configurable)                   |
+| Schema versioning          | `schema_version: "1.0"` in all responses                                   |
+| Intelligence sources       | `tree_sitter`, `lsp`, `semantic`, `scip` — reported via `get_capabilities` |
+| Mutation audit log         | `.codelens/audit/mutation-audit.jsonl`                                     |
+| OTel exporter              | OTLP gRPC via `--features otel` + `CODELENS_OTEL_ENDPOINT` env var         |
+| OTel-ready spans           | `tool.success`, `tool.backend`, `tool.elapsed_ms`, `otel.status_code`      |
+| SBOM                       | CycloneDX per release                                                      |
+| Dataset lint               | CI-integrated benchmark hygiene (5 rules)                                  |
+| Multi-language test filter | Python, JS/TS, Go, Java, Kotlin, Ruby test symbols excluded from index     |
+| SCIP precise backend       | `--features scip-backend` — definitions, references, diagnostics, hover    |
+| Docker                     | Release-runtime `Dockerfile.release` with healthcheck                      |
+
+## vs Serena
+
+| Axis             | CodeLens                                                  | Serena                          |
+| ---------------- | --------------------------------------------------------- | ------------------------------- |
+| Runtime          | Single Rust binary, <12ms cold start                      | Python + uv                     |
+| Intelligence     | tree-sitter + SQLite + optional LSP/SCIP                  | LSP by default                  |
+| Token efficiency | Bounded workflows, 50-87% savings                         | Standard tool responses         |
+| Workflow layer   | Composite reports + analysis handles                      | Symbolic tools                  |
+| Semantic search  | Sidecar ONNX + hybrid ranking + NL bridging               | No bundled model                |
+| Refactoring      | Gated mutations + LSP rename/navigation/safe-delete apply | Stronger broad IDE-backed edits |
+| Enterprise       | Config policy, rate limit, OTel, SBOM                     | None                            |
+| Offline          | Works offline with a staged sidecar model                 | Depends on backend              |
+
+See [docs/serena-comparison.md](docs/serena-comparison.md) for detailed gap analysis.
+
+## Building
+
+```bash
+cargo build --release                              # semantic pipeline enabled (~75MB)
+cargo build --release --no-default-features        # without ML model (~58MB slim)
+cargo build --release --features http              # add HTTP transport
+cargo build --release --features http,coreml       # macOS HTTP + CoreML semantic runtime
+cargo build --release --features otel              # add OpenTelemetry OTLP exporter
+cargo build --release --features scip-backend      # add SCIP precise navigation
+cargo build --release --features http,otel         # HTTP + OTel
+
+# Core verification
+cargo test -p codelens-engine
+cargo test -p codelens-mcp
+cargo test -p codelens-mcp --features http
+cargo test -p codelens-mcp --no-default-features   # semantic=off path
+```
+
+### Feature Flags
+
+| Feature        | Description                                             | Binary Size Impact |
+| -------------- | ------------------------------------------------------- | ------------------ |
+| `semantic`     | Semantic pipeline with sidecar ONNX model               | +53MB              |
+| `coreml`       | macOS CoreML execution provider for semantic embeddings | platform-dependent |
+| `http`         | Streamable HTTP + SSE transport                         | +2MB               |
+| `otel`         | OpenTelemetry OTLP gRPC exporter                        | +4MB               |
+| `scip-backend` | SCIP index precise navigation                           | +1MB               |
+
+## Harness Architecture
+
+CodeLens is designed as a **harness coprocessor** — it doesn't replace your agent, it makes your agent's harness smarter.
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│                        Agent Harness                             │
+│                                                                  │
+│   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐       │
+│   │ Planner  │  │ Builder  │  │ Reviewer  │  │ Refactor │       │
+│   └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘       │
+│        │              │              │              │             │
+│        └──────────────┴──────────────┴──────────────┘             │
+│                              │ MCP                               │
+│                    ┌─────────▼──────────┐                        │
+│                    │   CodeLens MCP     │                        │
+│                    │  ┌──────────────┐  │                        │
+│                    │  │  Profiles    │  │ planner-readonly       │
+│                    │  │  Workflows   │  │ builder-minimal        │
+│                    │  │  Handles     │  │ reviewer-graph         │
+│                    │  │  Gates       │  │ refactor-full          │
+│                    │  └──────┬───────┘  │                        │
+│                    │         │          │                        │
+│                    │  ┌──────▼───────┐  │                        │
+│                    │  │codelens-engine│  │ tree-sitter + SQLite  │
+│                    │  │  25 langs    │  │ + embedding + graphs  │
+│                    │  └──────────────┘  │                        │
+│                    └────────────────────┘                        │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+**Each agent role sees a different tool surface:**
+
+- **Planner** gets `analyze_change_request`, `onboard_project` — compressed context, no mutations
+- **Builder** gets `find_symbol`, `get_ranked_context` — minimal surface, focused implementation
+- **Reviewer** gets `impact_report`, `diff_aware_references` — graph-aware bounded reviews
+- **Refactor** gets `safe_rename_report`, `verify_change_readiness` — gate-protected mutations
+
+**Harness primitives built in:**
+
+- **Analysis handles** — agents expand only the section they need, not the full report
+- **Mutation gates** — verification required before code changes, preventing blind rewrites
+- **Doom-loop detection** — identical tool calls auto-detected and redirected
+- **Token compression** — 5-stage adaptive budget keeps responses bounded
+- **Suggested next tools** — contextual chaining guides agents through optimal tool sequences
+
+## MCP Spec Compliance
+
+| Feature                                 | Status                                  |
+| --------------------------------------- | --------------------------------------- |
+| Streamable HTTP + SSE                   | Supported                               |
+| Role-based capability negotiation       | `--profile` flag                        |
+| Tool Annotations (readOnly/destructive) | Supported                               |
+| Tool Output Schemas                     | Generated from the surface manifest     |
+| `.well-known/mcp.json` Server Card      | HTTP transport                          |
+| HTTPS transport                         | Built-in rustls PEM cert/key support    |
+| Bearer/JWKS auth                        | Protected resource server mode          |
+| Anthropic remote connector              | Tool-only compatibility profile         |
+| Analysis handles + section expansion    | Supported                               |
+| Durable analysis jobs                   | Supported                               |
+| Mutation audit log                      | `.codelens/audit/mutation-audit.jsonl`  |
+| Multi-project queries                   | `query_project`                         |
+| Contextual tool chaining                | `suggested_next_tools`                  |
+| MCP 2025-11-25 spec                     | Latest + 2025-06-18/03-26 compatibility |
+
+## Quality Assurance
+
+| Suite                      | Gate                                               | Scope                                       |
+| -------------------------- | -------------------------------------------------- | ------------------------------------------- |
+| codelens-engine            | `cargo test -p codelens-engine`                    | Parsing, ranking, embedding, IR             |
+| codelens-mcp               | `cargo test -p codelens-mcp`                       | Dispatch, workflows, profiles, schemas      |
+| codelens-mcp (no semantic) | `cargo test -p codelens-mcp --no-default-features` | Feature-off path verification               |
+| Dataset lint               | `python3 benchmarks/lint-datasets.py --project .`  | file_exists, negative!=positive, duplicates |
+
+```bash
+# Full verification
+cargo test -p codelens-engine && cargo test -p codelens-mcp
+cargo test -p codelens-mcp --no-default-features  # semantic=off path
+python3 benchmarks/lint-datasets.py --project .     # dataset hygiene
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue first to discuss what you'd like to change.
+
+```bash
+# Development workflow
+cargo check && cargo test -p codelens-engine && cargo test -p codelens-mcp
+cargo clippy -- -W clippy::all
+```
+
+## License
+
+[Apache-2.0](LICENSE)
+

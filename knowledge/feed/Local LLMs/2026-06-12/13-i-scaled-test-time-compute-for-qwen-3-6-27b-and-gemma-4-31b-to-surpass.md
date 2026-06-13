@@ -1,0 +1,12 @@
+---
+title: "I scaled test-time compute for Qwen-3.6-27B and Gemma-4-31B to surpass Claude Mythos in code optimizations and speedups."
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1u47cvc/i_scaled_testtime_compute_for_qwen3627b_and/"
+date: "2026-06-12"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "The scaffold uses ~25-40x more compute on the original baseline model to attempt the same problem. I put it into max mode by setting the branches exploration breadth to 5, iterative corrections loop depth to 10 and 6 branch aware selective hypothesis that are revised after every 2 iterations. These hypotheses tests various claims, local speedups or comple... (Local summary fallback used.)"
+---
+
+The scaffold uses ~25-40x more compute on the original baseline model to attempt the same problem. I put it into max mode by setting the branches exploration breadth to 5, iterative corrections loop depth to 10 and 6 branch aware selective hypothesis that are revised after every 2 iterations. These hypotheses tests various claims, local speedups or completely different algorithmic designs independently and are selectively injected in a specific branch context. The most useful component of this entire system is solution pool which adds structured noise to the iterative corrections loop so that the LLMs don't get stuck in the local minima. All the agents have access to python environment so they can instantly check up their work programmatically and see if their ideas are actually organic and a real improvement. Because both these models (Gemma & Qwen) don't have stable reasoning over long context windows, the performance actually starts dropping significantly at iteration 4 and 5, or after the PQF update, in the iteration 9 and 10. Like these are genuine regressions, we can't stop at say iteration 3 because sometimes the updated/evolved branch has more chances of doing better than all other branches so far. Can't do memory bank distillation after every 3 iterations either because that'd be too narrow search (and frontier LLMs do well in that). So I gave them branch history separately and asked them to judge and pick the most performing/optimized candidate in each branch and then select the best one from each and give it to the final judge. Original Paper Link: https://arxiv.org/abs/2605.15222 Github repo link for this scaffold: https://github.com/ryoiki-tokuiten/Iterative-Contextual-Refinements submitted by /u/Ryoiki-Tokuiten [link] [comments]
