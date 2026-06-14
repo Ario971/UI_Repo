@@ -1,0 +1,206 @@
+---
+id: "soul421/personal-network-manager"
+name: "Soul421/personal-network-manager"
+url: "https://github.com/Soul421/personal-network-manager"
+date: "2026-06-14"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "claude_skill"
+compatibility: 83
+momentum: 45
+risk: 35
+integration_effort: 24
+expected_gain: 87
+composite: 72
+replacement_target: ""
+related_articles: [{"title":"AlexNthLab/nth-dao","date":"2026-06-12","topic":"AI dev tools","similarity":0.306,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"},{"title":"Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud","date":"2026-06-04","topic":"AI agents","similarity":0.276,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/10-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-clo.md"},{"title":"jhwreal/wechat-article-pipeline-skill","date":"2026-05-28","topic":"AI agents","similarity":0.274,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/13-jhwreal-wechat-article-pipeline-skill.md"}]
+pros: ["Recently updated (2026-06-14)","MIT license","README includes install commands","Matches 3 saved Feed article(s)"]
+cons: ["No obvious v1 warning, still review upstream code before use"]
+readme_quality: 78
+has_ci: false
+has_tests: false
+setup_steps_count: 1
+dependency_files: []
+install_commands: ["git clone https://github.com/Soul421/personal-network-manager.git"]
+risk_flags: []
+status: "new"
+---
+
+# Soul421/personal-network-manager
+
+AI-powered personal relationship management skill for Codex/Claude Code
+
+URL: https://github.com/Soul421/personal-network-manager
+
+## Why it matters
+You saved an article on 2026-06-12 about AI dev tools; this candidate overlaps with "AlexNthLab/nth-dao" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-06-14)
++ MIT license
++ README includes install commands
++ Matches 3 saved Feed article(s)
+
+## Cons
+- No obvious v1 warning, still review upstream code before use
+
+## Repository Inspection
+README quality: 78/100
+CI detected: no
+Tests mentioned: no
+Setup steps estimate: 1
+
+Dependency files:
+- none detected
+
+Install commands found:
+- git clone https://github.com/Soul421/personal-network-manager.git
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Personal Network Manager
+
+用自然语言管理你的人脉网络，自动同步飞书，智能发现合作机会。
+
+## 这是什么
+
+一个人脉管理 Skill，让 AI Agent 帮你：
+
+1. **自然语言录入**：直接说「张三，小米产品经理，擅长AI产品，之前在字节做过抖音电商」，自动提取并结构化存储
+2. **飞书多维表格同步**：录入的人脉自动同步到飞书 Base，你可以在飞书里随时查看和编辑
+3. **全网背景调查**：新增人物时自动搜索公开信息，帮你发现对方资料中的夸大成分或潜在风险
+4. **智能合作匹配**：自动分析你的所有人脉，发现 A 和 B 之间、甚至 A、B、C 三方之间的合作可能性
+
+## 核心场景
+
+### 场景一：见完一个人，一句话录入
+
+```
+今天见了李总，他是XX公司的CTO，之前在腾讯做了8年云计算，
+现在在做企业级AI助手，融了A轮，团队30人。
+```
+
+AI 会自动提取姓名、公司、职位、背景、阶段，存入数据库并同步飞书。
+
+### 场景二：录入后自动背调
+
+录入时立即存储（标记"待核实"），同时触发全网背调：
+
+```
+录入陈六 → 立即存储（状态：待核实）
+  ↓ 同时
+后台搜索工商信息、融资历史、负面新闻
+  ↓
+背调完成 → 自动更新状态（无风险/有疑点/有风险）
+  ↓
+飞书表格实时显示背调状态
+```
+
+你不需要等待背调完成才继续录入，背调在后台异步进行。
+
+### 场景三：智能发现合作机会
+
+当你的人脉库里有足够多人时，Skill 会自动分析：
+
+```
+你认识的张三在找AI技术合伙人，你认识的李四正好是AI领域的技术专家。
+你们三个下周都要去上海，要不要安排聊聊？
+```
+
+支持多对多匹配：A 的资源 + B 的需求 + C 的渠道 = 一个三方合作机会。
+
+## 快速开始
+
+### 1. 安装
+
+```bash
+# 克隆仓库
+git clone https://github.com/Soul421/personal-network-manager.git
+cd personal-network-manager
+
+# 初始化数据目录
+python3 scripts/network_manager.py init
+```
+
+### 2. 录入人脉
+
+直接用自然语言告诉 AI：
+
+```
+帮我记一下：王五，杭州，做跨境电商的，年营收大概5000万，
+现在想找国内的品牌方合作，他那边有东南亚的渠道。
+```
+
+AI 会自动结构化并保存。
+
+### 3. 同步飞书（可选）
+
+如果你用飞书，可以配置自动同步到多维表格：
+
+```bash
+# 设置飞书应用凭证
+export FEISHU_APP_ID="your_app_id"
+export FEISHU_APP_SECRET="your_app_secret"
+
+# 测试连通性
+python3 scripts/feishu_sync.py doctor
+
+# 同步到飞书
+python3 scripts/feishu_sync.py sync
+```
+
+详见 [飞书配置指南](references/feishu-setup.md)。
+
+### 4. 背景调查
+
+录入新人物时，AI 会自动进行公开信息调查。你也可以手动触发深度调查：
+
+```
+帮我查一下李四这个人，特别是他之前那家公司的情况。
+```
+
+### 5. 合作匹配
+
+```
+帮我看看现在人脉库里有没有人可以跟张三合作。
+```
+
+或者：
+
+```
+帮我分析一下，我认识的人里面，谁最有可能帮我对接医院资源。
+```
+
+## 隐私设计
+
+- 本仓库只包含框架和虚构示例，不包含任何真实人物数据
+- 真实数据保存在你本地的私有目录
+- 所有背景调查只使用公开信息
+- 不会自动联系任何人，所有合作建议需要你确认
+
+## 数据结构
+
+每个人物包含：
+
+| 字段 | 说明 |
+|------|------|
+| 姓名 | 必填，支持别名 |
+| 公司 | 公司名称、职位 |
+| 背景 | 职业经历、教育背景 |
+| 资源 | 对方能提供什么 |
+| 需求 | 对方在找什么 |
+| 风险 | 背调发现的问题 |
+| 关系状态 | 正式人脉 / 候选线索 |
+| 来源 | user_provided / public_verified / ai_inference |
+
+详见 [数据结构文档](references/data-schema.md)。
+
+## License
+
+MIT
+
