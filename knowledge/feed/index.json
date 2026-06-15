@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T08:36:44.685Z",
+  "updated_at": "2026-06-15T10:50:01.722Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: AwsmAudio – a WebAudio editor with native MCP",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://audio.awsm.fun",
+      "date": "2026-06-15",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey y'all, So - the main idea of this is to make a WebAudio synthesis/sequencer tool which humans can use via the UI, but where the big unlock is for agents to drive with MCP It's semi decent as \"make a groovy jazz track\", especially for retro sounds - but the real use case is more like \"make a jetpack whoosh effect I can control via code at runtime - whe... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-15/28-show-hn-awsmaudio-a-webaudio-editor-with-native-mcp.md"
+    },
+    {
+      "title": "Regulating the Machine Contributor: Governance and Policy Alignment in Open Source",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.14594v1",
+      "date": "2026-06-12",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI-assisted software development has moved from line-level autocomplete to agents that can plan changes, edit files, and submit pull requests with limited human supervision. Open-source software, however, evolves through a process designed for humans: contributor agreements, codes of conduct, and review norms all assume a legally accountable person who ca... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-12/29-regulating-the-machine-contributor-governance-and-policy-alignment-in-.md"
+    },
+    {
+      "title": "From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.14502v1",
+      "date": "2026-06-12",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large Language Models (LLMs) are undergoing a fundamental transformation from conversational generators into integrated AI systems capable of reasoning, action, memory, and self-improvement. We conceptualize this transition as a shift from Chatbot to Digital Colleague: from conversational answers to persistent work. We organize this transition along two t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-12/30-from-chatbot-to-digital-colleague-the-paradigm-shift-toward-persistent.md"
+    },
+    {
+      "title": "AgentCyberRange: Benchmarking Frontier AI Systems in Realistic Cyber Ranges",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.14295v1",
+      "date": "2026-06-12",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Frontier AI systems are increasingly capable of cybersecurity tasks, including codebase inspection, vulnerability detection, and exploitation. However, evaluating their offensive capabilities remains constrained by limited access to open, reproducible, multi-host cyber ranges. Existing public benchmarks capture isolated skills such as CTF solving, vulnera... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-12/31-agentcyberrange-benchmarking-frontier-ai-systems-in-realistic-cyber-ra.md"
+    },
+    {
+      "title": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
+      "source": "Hacker News Show HN",
+      "url": "https://traceapp.info",
+      "date": "2026-06-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I'm the developer of Trace, a non-intrusive, shortcut-driven Mac app that records and transcribes your meetings on-device. I know, another meeting transcription app. Please bear with me though, I'm confident that this is at least a little novel. I primarily built Trace for myself. I'd been using MacWhisper, but there was enough fiddling before each call t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-13/32-show-hn-trace-offline-mac-meeting-transcripts-you-can-flag-mid-call.md"
+    },
+    {
+      "title": "Show HN: Ray Hosting – Topology-aware game server orchestrator made from scratch",
+      "source": "Hacker News Show HN",
+      "url": "https://ray-hosting.com/en-US",
+      "date": "2026-06-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I have built a game server orchestrator from scratch, As a solo-dev it took me 3+ years and almost 10 hours daily to finally complete it since i started in the beginning of 2023. Im 26 years old now!. The complexity and stuff i had to research to complete this project i couldnt have imagined them even in my dreams, but hey, here it is, my greatest... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-14/33-show-hn-ray-hosting-topology-aware-game-server-orchestrator-made-from-.md"
+    },
+    {
+      "title": "momossa-work/halalyield",
+      "source": "GitHub Search API",
+      "url": "https://github.com/momossa-work/halalyield",
+      "date": "2026-06-15",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Halal passive income from property and ETFs. Shariah-compliant AI-powered analysis for Muslim investors. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-15/34-momossa-work-halalyield.md"
+    },
+    {
+      "title": "eugnmueller-87/DIGITNEWS",
+      "source": "GitHub Search API",
+      "url": "https://github.com/eugnmueller-87/DIGITNEWS",
+      "date": "2026-06-15",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Aushang — privacy-by-construction digitization for old-school German orgs (Kitas, Vereine, Kirchengemeinden). Photograph the physical notice board; local OCR + PII redaction → EU (Mistral) LLM extraction → admin review → private member feed, shared calendar, ICS feed & email digest. Next.js 16 + Supabase (EU) + FastAPI ML worker. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-15/35-eugnmueller-87-digitnews.md"
+    },
+    {
+      "title": "Introducing the Heretic Grimoire: The takedown-resilient, local-first backup system that keeps uncensored models available forever",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u5lmge/introducing_the_heretic_grimoire_the/",
+      "date": "2026-06-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Welcome to another episode of THE HERETIC SHOW, where authoritarian dreams are destroyed by unreasonably effective linear algebra! Let's start with an important announcement: Heretic now has an official website at https://heretic-project.org This website contains: Links to all official resources associated with the Heretic project A complete tutorial for... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-14/36-introducing-the-heretic-grimoire-the-takedown-resilient-local-first-ba.md"
+    },
+    {
+      "title": "An agent that plans with a frontier model but runs most of tokens locally (built it for my own dual-3090 rig)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u698b1/an_agent_that_plans_with_a_frontier_model_but/",
+      "date": "2026-06-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For the past couple of months, I've been building a tool for my personal use. I have a dual RTX 3090 system which I wanted to use but the qwen 3.5/3.6 27B and Gemma 4 31B while being really good, just didn't have the taste or the ability that a frontier model has. OTOH, frontier models are expensive and I didn't want everything I do running through them.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-15/37-an-agent-that-plans-with-a-frontier-model-but-runs-most-of-tokens-loca.md"
+    },
+    {
+      "title": "Made a macOS app that creates highly personal macOS apps. Works with models as small as Gemma 4 E2B",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u63qny/made_a_macos_app_that_creates_highly_personal/",
+      "date": "2026-06-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Apologies in advance as the video is demonstrating with GPT 5.4 mini (a local model would take too long for a video), however I’ve made the same app with Gemma 4 E4B. Been working on an open source project for a while called Ironsmith. The gist is you can create highly specific macOS apps with just a prompt, and one of my main goals from the beginning was... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-15/38-made-a-macos-app-that-creates-highly-personal-macos-apps-works-with-mo.md"
+    },
+    {
+      "title": "Voice-to-voice chatbot update",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u5uqsc/voicetovoice_chatbot_update/",
+      "date": "2026-06-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been working on this after hours for a few months continuously improving it. Now at a point where the chatbot is close to real-time (thanks to SSE streaming) and also interruptible while preserving context of what was last said. 100% local and powered by Qwen3.5-397B (Unsloth's UD-Q3_K_XL), Whisper-small STT, and Orpheus Q4_K_XL TTS with a custom SNA... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-14/39-voice-to-voice-chatbot-update.md"
+    },
     {
       "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
       "source": "Hacker News Top + Show HN",
