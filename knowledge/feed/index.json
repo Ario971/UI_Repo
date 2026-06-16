@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T10:50:01.722Z",
+  "updated_at": "2026-06-16T10:01:32.530Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://machine0.io",
+      "date": "2026-06-15",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! Excited to launch machine0, a CLI that makes it easy to create, provision and snapshot persistent NixOS (& Ubuntu) VMs. You can think of machine0 as a modern VPS provider. VMs stay on unless switched-off (with 99.99% uptime), they have static IPs and HTTPS endpoints, 1-60 vCPU, up to 240GB RAM and optionally GPUs. The CLI provides commands to manag... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-15/40-show-hn-machine0-persistent-nixos-vms-you-control-from-the-cli.md"
+    },
+    {
+      "title": "Greed Is Learned: Visible Incentives as Reward-Hacking Triggers",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.16914v1",
+      "date": "2026-06-15",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Deployed agents increasingly act with their reward proxy in view, such as a balance, score, or KPI dashboard. We show that reinforcement learning can make a policy \\emph{addicted} to such a visible self-benefit channel. It chases the displayed payoff across held-out domains, sacrifices the true task to do so, and follows the channel wherever we rewrite it... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-15/41-greed-is-learned-visible-incentives-as-reward-hacking-triggers.md"
+    },
+    {
+      "title": "Directory-Aware Query and Maintenance in Vector Databases",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.16903v1",
+      "date": "2026-06-15",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Vector databases typically manage metadata as flat scalar attributes, which limits their ability to express hierarchical directory semantics commonly used to organize code repositories, enterprise documents, and agent memories. As a result, directory-scoped retrieval and structural updates are often implemented as application-layer workarounds, making rec... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-15/42-directory-aware-query-and-maintenance-in-vector-databases.md"
+    },
+    {
+      "title": "Human-on-the-Bridge: Scalable Evaluation for AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.16871v1",
+      "date": "2026-06-15",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents must be evaluated as behavioral systems, not as isolated response generators. They reason across turns, call tools, preserve context, follow policies, and act under uncertainty. Existing methods provide useful but fragmented signals: benchmarks measure fixed capabilities, Human-in-the-Loop review preserves expert judgment but does not scale easi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-15/43-human-on-the-bridge-scalable-evaluation-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Fata – Spaced repetition to fight skill rot from AI coding",
+      "source": "Hacker News Show HN",
+      "url": "https://fata.dev",
+      "date": "2026-06-11",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm Djoumé. I've been a developer for over 20 years, and like a lot of you I've been coding almost exclusively through an agent in the past few months. It's been amazing to vibe code prototypes in any stack, but when it comes to building something reliable/scalable, I couldn't effectively guide the agent unless I knew the technology. And the scarie... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-11/44-show-hn-fata-spaced-repetition-to-fight-skill-rot-from-ai-coding.md"
+    },
+    {
+      "title": "Show HN: HashMeterAi – Private AI Token Real Usage Meter for All Models",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/Hash-7777/HashMeterAi",
+      "date": "2026-06-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "The honest, local-first usage meter for AI coding tools. Claude Code, Codex, Kimi, Qwen CLI, HashCortx, HashCerebrum — unified into one clean dashboard with usage based trophies :) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-15/45-show-hn-hashmeterai-private-ai-token-real-usage-meter-for-all-models.md"
+    },
+    {
+      "title": "HelpexAI/helpexai-app",
+      "source": "GitHub Search API",
+      "url": "https://github.com/HelpexAI/helpexai-app",
+      "date": "2026-06-16",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "HelpexAI/helpexai-app Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-16/46-helpexai-helpexai-app.md"
+    },
+    {
+      "title": "Show HN: Veterinarian turned founder, AI lawn diagnosis",
+      "source": "Hacker News Show HN",
+      "url": "https://grassdx.com/",
+      "date": "2026-06-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I know, it's kind of weird. What is a veterinarian doing creating an analysis tool for lawn problems? Frankly, the idea was born of my own lawn care struggles. Endless lawn care company fees without any actual improvement. Googling problems and finding generic solutions without regional considerations. One time I overseeded my grass not realizing I had to... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-15/47-show-hn-veterinarian-turned-founder-ai-lawn-diagnosis.md"
+    },
+    {
+      "title": "Are small local models for automation a thing?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u75nx4/are_small_local_models_for_automation_a_thing/",
+      "date": "2026-06-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I’ve been following this sub for a while, and it feels like the massive hype is always around having a local vibe coding assistant or trying to run heavy, near-frontier models locally, and that’s amazing. But I feel like we are overlooking a massive use case, for me, an important part of local LLMs is automation. I’m talking about using small, efficient m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-16/48-are-small-local-models-for-automation-a-thing.md"
+    },
+    {
+      "title": "Evalatro: an open benchmark where LLMs play the real Balatro",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u6qso1/evalatro_an_open_benchmark_where_llms_play_the/",
+      "date": "2026-06-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey! I made Evalatro - an open benchmark where your LLMs play actual Balatro. Real game. It started because I kept asking Claude to help me beat levels while playing (yeah, I'm too weak). I'd just throw screenshots at it and ask for tactics. Then the idea grew into something bigger and I decided to dig a little deeper. Dug in... First I wanted to build an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-15/49-evalatro-an-open-benchmark-where-llms-play-the-real-balatro.md"
+    },
+    {
+      "title": "A fast, optimised, and open source application for running local AI easily (made for Apple Silicon only)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u786se/a_fast_optimised_and_open_source_application_for/",
+      "date": "2026-06-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey people, I've been working on a small personal project that I'm gonna be publishing today as open source, AeroLLM. It's a chat application for running local AI (more specific details on \"AI\" below) fast and easily via a nice GUI, and it's optimised for Apple silicon hardware (MLX backend for native silicon inference). AeroLLM supports text to speech, s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-16/50-a-fast-optimised-and-open-source-application-for-running-local-ai-easi.md"
+    },
+    {
+      "title": "Reason to run local agents instead #645",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u6tdjk/reason_to_run_local_agents_instead_645/",
+      "date": "2026-06-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/ToastFetish [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-15/51-reason-to-run-local-agents-instead-645.md"
+    },
     {
       "title": "Show HN: AwsmAudio – a WebAudio editor with native MCP",
       "source": "Hacker News Top + Show HN",
