@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T10:01:32.530Z",
+  "updated_at": "2026-06-17T09:25:42.070Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Ctx, save tokens by loading only the relevant tools",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/stevesolun/ctx",
+      "date": "2026-06-16",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! Token cost has started to become a high topic of concern to all of us. I tried a few (awesome) tools such as rtk, caveman, and the recent (hillarious but effective) ponytail. What they usually do, is in-line token reduction, e.g. try to compress requests / responses as much as possible. But then it hit me (and I’m sure others had similar ideas) - j... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/52-show-hn-ctx-save-tokens-by-loading-only-the-relevant-tools.md"
+    },
+    {
+      "title": "RubricsTree: Scalable and Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.18203v1",
+      "date": "2026-06-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The LLM-empowered personal health agents with user health (sensor) metrics have offered a promising pathway to alleviate global disparities in healthcare access. However, large-scale clinical deployment remains constrained by an open-ended evaluation bottleneck: physician annotation is reliable but costly and unscalable, while LLM-as-a-judge evaluators ar... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/53-rubricstree-scalable-and-evolving-open-ended-evaluation-of-personal-he.md"
+    },
+    {
+      "title": "All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.18168v1",
+      "date": "2026-06-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Software practitioners increasingly use AI coding agents that generate test code alongside production code in open source pull requests (PRs). Recent studies report more than 932,000 agent-authored PRs across more than 116,000 repositories, yet whether their test files contain meaningful verification logic remains underexplored. Test files lacking explici... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/54-all-smoke-no-alarm-oracle-signals-in-agent-authored-test-code.md"
+    },
+    {
+      "title": "Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.18142v1",
+      "date": "2026-06-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents are moving from advisors to actors, booking travel, planning menus, and running procurement on behalf of users. Existing benchmarks for AI and animal welfare evaluate model text responses to question-answer prompts, leaving open whether the welfare reasoning surfaced in those responses transfers to agentic deployment where the model must take ac... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/55-your-ai-travel-agent-would-book-you-a-bullfight-an-agentic-benchmark-f.md"
+    },
+    {
+      "title": "Show HN: Pen and paper resource development game with an emergent world",
+      "source": "Hacker News Show HN",
+      "url": "https://www.jameshylands.co.uk/2026/06/sortis-paper-empire-game.html",
+      "date": "2026-06-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I've been working for a while on trying to curate a game that has the emergence of procedurally generated computer games but that can be played with only pen and paper. Here I present the best version I've been able to come up with that is simple and emergent. I've really enjoyed being able to engage with this sort of game while not feeling like my brain... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-16/56-show-hn-pen-and-paper-resource-development-game-with-an-emergent-world.md"
+    },
+    {
+      "title": "Show HN: Dev-friendly native OTel: only OSS stateful, on-the-wire Observability",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=48560279",
+      "date": "2026-06-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, We’re the team at MyDecisive.ai, and today we’re giving developers a peek at Octant — point-and-click control and visibility for your OpenTelemetry. You've likely felt the pain of the \"observability tax,\" especially if you manage K8S clusters. The modern standard is to instrument everything with OpenTelemetry, but piping all those rich OTLP logs, m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-16/57-show-hn-dev-friendly-native-otel-only-oss-stateful-on-the-wire-observa.md"
+    },
+    {
+      "title": "Show HN: Memento – Self-hosted agentic search and LLM wiki over your email",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=48557937",
+      "date": "2026-06-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Our email inboxes carry multiple decades of messages (100K-500K). This is a good proxy for all the important things that happened in your life, the projects you have done and the people that you have connected with. With the chronological view of messages in the inbox, these details remain hidden. What if we could turn this archive into a personal wiki th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-16/58-show-hn-memento-self-hosted-agentic-search-and-llm-wiki-over-your-emai.md"
+    },
+    {
+      "title": "jinzheng8115/aicmd",
+      "source": "GitHub Search API",
+      "url": "https://github.com/jinzheng8115/aicmd",
+      "date": "2026-06-17",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AIChat-derived terminal workflow with daily sessions, evidence protocol, Tavily MCP search, and agentmemory helpers (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-17/59-jinzheng8115-aicmd.md"
+    },
+    {
+      "title": "Hashicorp founder thinks local models \"aren't good ENOUGH yet\"",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7nph8/hashicorp_founder_thinks_local_models_arent_good/",
+      "date": "2026-06-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Generally, respect him a lot, but this is a wrong take. More than 1 year ppl are doing alright using SLMs for coding; only vibecoders might struggle Link submitted by /u/Orbit652002 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-16/60-hashicorp-founder-thinks-local-models-aren-t-good-enough-yet.md"
+    },
+    {
+      "title": "Is Le Gros Chaton opensource?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7pj4i/is_le_gros_chaton_opensource/",
+      "date": "2026-06-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "so i keep hearing about le gros chaton, the upcoming mistral model that allegedly destroys claude mythos, gpt-5.5, my sleep schedule, and possibly the french economy. people say it has 1b context, self-improves in real time, writes perfect code, and only hallucinates in elegant parisian metaphors. the only downsides seem to be that it shuts down every 3 h... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-16/61-is-le-gros-chaton-opensource.md"
+    },
+    {
+      "title": "Cheapest way to run GLM 5.x locally that's not a unified memory system?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7y1df/cheapest_way_to_run_glm_5x_locally_thats_not_a/",
+      "date": "2026-06-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This is primarily an exercise to determine the possible options, obscure as they might be, to run at least a 4bit quant (let's say roughly IQ4_XS). Got a CPU only setup? Please share your experience. Sapphire Rapids ES 56core + DDR5 might be an option Multi GPU setups with partial or complete offloading? What's your performance like? It's not limited to G... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-17/62-cheapest-way-to-run-glm-5-x-locally-that-s-not-a-unified-memory-system.md"
+    },
+    {
+      "title": "GLM 5.2 API is live, weights are on HF, and ollama has it already",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7o9vp/glm_52_api_is_live_weights_are_on_hf_and_ollama/",
+      "date": "2026-06-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "GLM 5.2 dropped on Friday locked behind the GLM Coding Plan. That was annoying if you just wanted to test it without subscribing to another IDE tier. Two hours ago today they opened the API and pushed weights to HuggingFace under MIT. Ollama already has it. So now you can actually run it locally or call it through whatever gateway you already use. Links i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-16/63-glm-5-2-api-is-live-weights-are-on-hf-and-ollama-has-it-already.md"
+    },
     {
       "title": "Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
       "source": "Hacker News Top + Show HN",
