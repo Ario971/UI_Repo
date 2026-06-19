@@ -1,0 +1,12 @@
+---
+title: "Show HN: Talos – Open-source WASM interpreter for Lean"
+source: "Hacker News Show HN"
+url: "https://github.com/cajal-technologies/talos"
+date: "2026-06-18"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "At Cajal (YC W26) we’re excited to share Talos ( https://github.com/cajal-technologies/talos ), an open source framework for formal verification of WebAssembly modules in Lean. AI is now writing tons of the code that gets pushed to production. As code generation gets cheaper, verification becomes the bottleneck. We believe in a future where every piece of... (Local summary fallback used.)"
+---
+
+At Cajal (YC W26) we’re excited to share Talos ( https://github.com/cajal-technologies/talos ), an open source framework for formal verification of WebAssembly modules in Lean. AI is now writing tons of the code that gets pushed to production. As code generation gets cheaper, verification becomes the bottleneck. We believe in a future where every piece of software comes with a mathematical proof that it does what its author intended - in doing so, eliminating many classes of exploits. Talos is part of the foundation for that. Talos provides a Wasm interpreter optimized for reasoning at the binary level, together with a weakest-precondition calculus layer for proving properties about programs. Because we reason directly about WebAssembly, any language with a Wasm backend is in scope: Rust, C++, Go, C, Swift, Kotlin, Zig, C#, and many more. To make this possible, we use Lean: a programming language and theorem prover that lets you both write software and mathematically prove that it's correct - all in one system. That's what lets Talos double as both an executable interpreter and the formal object Lean reasons about. Lean also integrates with modern AI proving tools, discharging goals automatically via both proof search and direct evaluation. To see Talos in action check out a proof for Stein's GCD algorithm, implemented in the popular Rust crate num-integer: https://github.com/cajal-technologies/talos/blob/main/progra... . Our roadmap: - Full Wasm coverage by first passing the official W3C testsuite, then later verifying against SpecTec (formal Wasm spec) - Arbitrary crate verification - any Rust crate that compiles to Wasm should be in scope - Building our proof library codelib, to make verifying increasingly complex programs tractable We would love to hear the community’s feedback on Talos and comments on the state of formal verification right now. Contributions are also welcome!
