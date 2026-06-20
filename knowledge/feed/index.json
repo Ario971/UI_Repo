@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T09:24:33.545Z",
+  "updated_at": "2026-06-20T08:17:02.468Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Let agents send/receive SMS using your old Android phone",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://simlink.snaz.cz/",
+      "date": "2026-06-19",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "While playing with agents I realised it might be quite handy if they could get access to OTP codes. And while at it, why not give them ability to send the SMS as well. Twillio is expensive and annoying to set up for my taste. I vibe coded simple Android app that can read/send SMS and simple relay server that acts as MCP for agents. Works surprisingly well... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-19/88-show-hn-let-agents-send-receive-sms-using-your-old-android-phone.md"
+    },
+    {
+      "title": "Analyzing Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.20470v1",
+      "date": "2026-06-18",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Agentic AI systems increasingly rely on language-model components to interpret instructions, process external data, invoke tools, and coordinate with other agents. These capabilities make prompt-injection and jailbreak attacks more consequential, especially as attackers adopt model-guided automation to scale probing, prompt refinement, and response evalua... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-18/89-analyzing-defensive-misdirection-against-model-guided-automated-attack.md"
+    },
+    {
+      "title": "PowerAgentBench-Dyn: A Benchmark for Agentic AI in Power System Dynamic Studies",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.20401v1",
+      "date": "2026-06-18",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large Language Model (LLM)-based agents are increasingly being used to automate multi-step engineering work flows by interacting with software tools, interpreting intermediate results, and autonomously planning subsequent actions. Power system dynamic studies represent a particularly promising yet largely unexplored application domain for these agents. Un... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-18/90-poweragentbench-dyn-a-benchmark-for-agentic-ai-in-power-system-dynamic.md"
+    },
+    {
+      "title": "Jun 17, 2026 Announcements Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "date": "2026-06-17",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Jun 17, 2026 Announcements Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-17/91-jun-17-2026-announcements-anthropic-opens-seoul-office-and-announces-n.md"
+    },
+    {
+      "title": "Show HN: Metiq: a real time 3D globe for 100 public datasets",
+      "source": "Hacker News Show HN",
+      "url": "https://metiq.space",
+      "date": "2026-06-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "The concept for metiq.space came after playing Global Magnates with friends and realizing how fragmented live global data is. ships, aircraft, satellites, ports, weather, hazards, infrastructure, cyber, and public datasets all exist, but they usually live in separate tools and maps. The goal was to build one interactive 3D globe where live public data cou... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-16/92-show-hn-metiq-a-real-time-3d-globe-for-100-public-datasets.md"
+    },
+    {
+      "title": "llm011/ethan-agent",
+      "source": "GitHub Search API",
+      "url": "https://github.com/llm011/ethan-agent",
+      "date": "2026-06-20",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A lightweight, high-performance personal AI agent. Fast async core, pluggable tools, and open integration with external agent ecosystems (Claude Code, Codex, MCP). Simple to configure, easy to extend. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
+    },
+    {
+      "title": "Show HN: Autonomy – Self-Harness/Self-Directed AI Agent Core Under Development",
+      "source": "Hacker News Show HN",
+      "url": "https://autonomy-landing-page.vercel.app/",
+      "date": "2026-06-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Autonomy – Self-Harness/Self-Directed AI Agent Core Under Development (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/94-show-hn-autonomy-self-harness-self-directed-ai-agent-core-under-develo.md"
+    },
+    {
+      "title": "Show HN: Jumpjet – a WASM runtime for game developers",
+      "source": "Hacker News Show HN",
+      "url": "https://jumpjet.dev",
+      "date": "2026-06-19",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I built Jumpjet because I realized that engine and indie game developers are always repeating the same work: building the core infrastructure that touches the OS. Webassembly solves this in the Component Model by enabling interop between packages written in different languages. And in my opinion it's sort of the perfect fit for Jumpjet's model: providing... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-19/95-show-hn-jumpjet-a-wasm-runtime-for-game-developers.md"
+    },
+    {
+      "title": "Best Local Agents - Jun 2026",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uaebfe/best_local_agents_jun_2026/",
+      "date": "2026-06-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "A megathread that is overdue! Let's discuss and debate on what the best local agents available today are Prologue First a note on terminology: While most regular users are going to have a general sense of what these are, I think its worth a brief pause to preempt turbulence in the discussion. Agent : There is no standard/universally agreed upon term that... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-19/96-best-local-agents-jun-2026.md"
+    },
+    {
+      "title": "Giving a local agent web access without paid search/scrape APIs: SearXNG + Scrapling",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uam3iv/giving_a_local_agent_web_access_without_paid/",
+      "date": "2026-06-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I wanted web access for a local-first agent without reaching for Tavily, Serper, Firecrawl, etc. For this agent path, I wanted no paid API keys, a search service I control, and page extraction I can run myself. What I ended up with is two tools: web_search and web_extract . Nothing fancy. Mostly just wiring together good open-source pieces. 1. Search -> S... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-20/97-giving-a-local-agent-web-access-without-paid-search-scrape-apis-searxn.md"
+    },
+    {
+      "title": "$1800 (in GPU cost running with P2P running Qwen/Qwen3.6-27b-FP8 with 262K context and BF16 KV cache at 55 tok/s",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uah3oc/1800_in_gpu_cost_running_with_p2p_running/",
+      "date": "2026-06-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey peeps, wanted to share what is possible for folks with an inference only single user use case with 1700 in GPU cost. Setup: 4x 5060 ti (16GB) with P2P If you are in the US and you keep an eye on facebook marketplace and places like slickdeals you can find some 5060 ti 16 GB models for 425 to 475 used. A giant caveat is this type of configuration is on... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-19/98-1800-in-gpu-cost-running-with-p2p-running-qwen-qwen3-6-27b-fp8-with-26.md"
+    },
+    {
+      "title": "[NEW MODEL] SupraLabs just released supra-title-FFT-preview, 115K samples, almost 10x our first chat title dataset",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ualbn2/new_model_supralabs_just_released/",
+      "date": "2026-06-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA ! Following up on Supra-Title-350M-exp (our first chat title generation model), we're releasing supra-title-FFT-preview , trained on a much larger and cleaner dataset. 🤗 supra-title-FFT-preview What changed Our first chat title model was trained on 12K samples ( chat-titles-12K ) and it showed: decent on common conversation patterns, wea... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-20/99-new-model-supralabs-just-released-supra-title-fft-preview-115k-samples.md"
+    },
     {
       "title": "Show HN: Crawlie – Free open-source SEO audit tool for humans and agents",
       "source": "Hacker News Top + Show HN",
