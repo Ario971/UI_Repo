@@ -1,0 +1,12 @@
+---
+title: "Show HN: Domphy – plain-object UI for tool apps, AI-correctable output"
+source: "Hacker News Show HN"
+url: "https://news.ycombinator.com/item?id=48593346"
+date: "2026-06-19"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "I built a UI framework named Domphy because I could not learn React although I tried many times. I mean I could not understand React code which is hidden behind multiple layers, especially when some of them use React ecosystem libs. Maybe I am an architect turned developer, so I had no foundation of programming, or I expected something clear and clean. I... (Local summary fallback used.)"
+---
+
+I built a UI framework named Domphy because I could not learn React although I tried many times. I mean I could not understand React code which is hidden behind multiple layers, especially when some of them use React ecosystem libs. Maybe I am an architect turned developer, so I had no foundation of programming, or I expected something clear and clean. I just think that UI should be simple — HTML and JS are enough and just need some way to make it stateful instead of making it more complicated. My idea: just using JS objects to reflect HTML, and using functions for state. When I need to reuse a component I had one more concept — just make a partial (I call it a Patch) to add props to the main object (but native props still win). With a component-based approach you get deep nesting and exploding props, but with patches you don't. The example below: import { ElementNode, toState } from "@domphy/core"; import { tooltip } from "@domphy/ui"; const count = toState(0); const App = { div: [ { h3: (listener) => `Count: ${count.get(listener)}` }, { button: "Increment", onClick: () => count.set(count.get() + 1), $: [tooltip({ content: "Add one to the count" })], }, ], style: { display: "flex", gap: "8px", alignItems: "center" }, }; const root = new ElementNode(App); root.render(document.getElementById("app")!); Right now I am the only one using Domphy, for around a year, for creating SketchUp and Revit plugins in the AEC (Architecture, Engineering, Construction) industry. I created Domphy before AI code generation took off, to make code humans can read and understand clearly, but now AI can build UIs with React well, so sometimes I feel my work is meaningless. But I still use Domphy for my apps, because I feel more confident when I need to read and edit UI code when the AI gets stuck.

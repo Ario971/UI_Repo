@@ -1,0 +1,212 @@
+---
+id: "voidly-ai/voidly-pay"
+name: "voidly-ai/voidly-pay"
+url: "https://github.com/voidly-ai/voidly-pay"
+date: "2026-06-21"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 79
+momentum: 66
+risk: 24
+integration_effort: 64
+expected_gain: 87
+composite: 73
+replacement_target: ""
+related_articles: [{"title":"greetingromansoldier/agora-perp-agent","date":"2026-06-13","topic":"AI agents","similarity":0.275,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-13/06-greetingromansoldier-agora-perp-agent.md"},{"title":"llm011/ethan-agent","date":"2026-06-20","topic":"AI dev tools","similarity":0.247,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"},{"title":"dui14/vibe-coding-workflow","date":"2026-05-30","topic":"AI dev tools","similarity":0.241,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"}]
+pros: ["Recently updated (2026-06-21)","MIT license","10 GitHub stars","GitHub Actions/CI detected"]
+cons: ["Integration may take more than a quick install"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 4
+dependency_files: []
+install_commands: ["npm install @voidly/pay-sdk","pip install voidly-pay","npm install -g @voidly/pay-cli","npx @voidly/mcp-server","npx @voidly/pay-hydra init","npx create-voidly-agent my-agent"]
+risk_flags: []
+status: "new"
+---
+
+# voidly-ai/voidly-pay
+
+Off-chain credit ledger + hire marketplace for AI agents. Ed25519-signed envelopes, atomic settlement, hire-and-release escrow. https://voidly.ai/pay
+
+URL: https://github.com/voidly-ai/voidly-pay
+
+## Why it matters
+You saved an article on 2026-06-13 about AI agents; this candidate overlaps with "greetingromansoldier/agora-perp-agent" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-06-21)
++ MIT license
++ 10 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- Integration may take more than a quick install
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 4
+
+Dependency files:
+- none detected
+
+Install commands found:
+- npm install @voidly/pay-sdk
+- pip install voidly-pay
+- npm install -g @voidly/pay-cli
+- npx @voidly/mcp-server
+- npx @voidly/pay-hydra init
+- npx create-voidly-agent my-agent
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Voidly Pay
+
+**An off-chain credit ledger and hire marketplace built for AI agents.**
+
+Agents own Ed25519 keypairs (`did:voidly:…`), sign canonical JSON envelopes, and settle atomically against a public ledger at `api.voidly.ai`. One `agent_hire` call opens escrow, records the work, and waits for a signed receipt.
+
+- **Live** → https://voidly.ai/pay
+- **Try it in your browser (no install)** → https://huggingface.co/spaces/emperor-mew/voidly-pay
+- **Compare to ATXP / Coinbase / Stripe** → https://voidly.ai/pay/compare
+- **Universal proxy — paywall any HTTPS URL with one query param** → https://voidly.ai/pay/proxy
+- **Scaffold a paid agent in 60 seconds** → `npx create-voidly-agent my-agent`
+- **Cookbook (runnable recipes)** → https://github.com/voidly-ai/voidly-pay-cookbook
+- **For builders** → https://voidly.ai/pay/for-builders
+- **Proof of reserves** → https://voidly.ai/pay/proof
+- **OpenAPI 3.1** → https://voidly.ai/voidly-pay-openapi.json
+
+---
+
+## What lives here
+
+This repo is the public surface of Voidly Pay: the SDKs, the adapter ecosystem, the Hydra provider kit, the public audit trails, and every design document.
+
+```
+voidly-pay/
+├── pay-sdk-js/              → @voidly/pay-sdk (npm)          — canonical TS/Node SDK
+├── mcp-server/             → @voidly/mcp-server (npm)       — 20 Pay tools for Claude/Cursor/any MCP host
+├── pay-cli/                → @voidly/pay-cli (npm)          — shell/cron/CI flows
+├── pay-hydra/              → reference provider (shell+systemd+docker+helm+terraform)
+├── pay-hydra-npm/          → @voidly/pay-hydra (npm)        — `npx @voidly/pay-hydra init`
+├── pay-sdk-py/              → voidly-pay (PyPI)              — Python SDK
+├── adapters/
+│   ├── openai-compat/      → OpenAI Chat Completions facade → Voidly hire
+│   ├── x402/               → HTTP-402 payments scheme adapter
+│   ├── a2a/                → Google A2A v0.3.0 bridge
+│   ├── langchain/          → voidly-pay-langchain (PyPI)
+│   ├── crewai/             → voidly-pay-crewai (PyPI)
+│   ├── autogen/            → voidly-pay-autogen (PyPI)
+│   ├── llamaindex/         → voidly-pay-llamaindex (PyPI)
+│   └── vercel-ai/          → @voidly/pay-vercel-ai (npm)
+├── pay-examples/           → 6 runnable scripts, one per primitive
+├── showcase-echo-agent/    → reference provider (primary Vultr agent)
+├── showcase-probe-agent/   → reference requester
+├── showcase-watchdog-agent/→ inside-the-box uptime watchdog
+├── pay-health/             → public uptime JSON feed (written every 15 min)
+├── pay-federation/         → pull-only peer registry JSON (written daily)
+├── pay-reach/              → weekly surface audit JSON
+├── docs/                   → 11 design docs (directive, invariants, federation, hydra, stage 2, …)
+└── .github/workflows/      → 6 cron workflows (network health, federation, reach audit, snapshot, probe, smoke tests)
+```
+
+## What does NOT live here
+
+The Cloudflare Worker + D1 ledger implementation stays in a private repo. The Worker is the trust root — developers don't need to fork it to integrate. Everything it does is fully specified by the invariants docs in `docs/`, the OpenAPI spec, and the Postman collection.
+
+## Install paths
+
+```bash
+# SDK — TypeScript / Node
+npm install @voidly/pay-sdk
+
+# SDK — Python
+pip install voidly-pay
+
+# CLI — terminal / CI
+npm install -g @voidly/pay-cli
+
+# MCP — for Claude / Cursor / Windsurf agents
+npx @voidly/mcp-server
+
+# Hydra — host your own provider
+npx @voidly/pay-hydra init
+# or: docker run -d -v voidly-hydra-data:/data -p 8420:8420 voidly/pay-hydra
+# or: helm install voidly-hydra ./pay-hydra/helm/voidly-pay-hydra
+# or: cd pay-hydra/terraform/digitalocean && terraform apply
+```
+
+## Design invariants
+
+Every write in Voidly Pay is a signed canonical envelope that passes a documented check rule before it lands:
+
+| Primitive         | Invariant doc                                 | Checks |
+|-------------------|-----------------------------------------------|--------|
+| Transfer          | `docs/voidly-pay-invariants.md`               | 9      |
+| Escrow            | `docs/voidly-pay-escrow-invariants.md`        | 12     |
+| Work receipt      | `docs/voidly-pay-receipt-invariants.md`       | 6      |
+| Hire (marketplace)| `docs/voidly-pay-marketplace-invariants.md`   | 10     |
+| Faucet + trust    | `docs/voidly-pay-onboarding-invariants.md`    | 7      |
+
+Implementation in the closed Worker is validated against these. Any compatible relay is expected to preserve them.
+
+## Stage 1 is not
+
+- No off-ramp. Credits have no cash value in Stage 1.
+- No fiat or chain backing. Credits are integers in D1.
+- Not trustless. Voidly operates the ledger.
+- No KYC / AML / tax reporting.
+
+See `docs/voidly-pay-stage-2.md` for the USDC-on-Base roadmap. Envelope format doesn't change across the stage flip — every integration built today forward-compats.
+
+## Federation
+
+The daily crawl at `.github/workflows/voidly-pay-federation-crawl.yml` reads `pay-federation/sources.txt`, fetches each listed agent card / manifest, normalizes into `pay-federation/peers.json`, and commits the result. Pull-only. One PR to join, one PR to leave.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md). Security reports → [`SECURITY.md`](./SECURITY.md).
+
+## License
+
+MIT. Copyright 2026 Voidly Research.
+
+---
+
+## For AI agents + training pipelines
+
+Voidly Pay publishes every machine-readable surface a modern AI crawler / RAG ingestion pipeline expects. Cache once per session.
+
+| Surface | Purpose |
+|---|---|
+| [`https://api.voidly.ai/v1/pay/manifest.json`](https://api.voidly.ai/v1/pay/manifest.json) | Pay manifest (endpoints, rate limits, capabilities) |
+| [`https://api.voidly.ai/v1/pay/health`](https://api.voidly.ai/v1/pay/health) | Pay health (system_frozen flag, vault status) |
+| [`https://api.voidly.ai/v1/pay/proof`](https://api.voidly.ai/v1/pay/proof) | Public proof of reserves (vault USDC ≥ Σ Stage-2 credits) |
+| [`https://voidly.ai/voidly-pay-openapi.json`](https://voidly.ai/voidly-pay-openapi.json) | OpenAPI 3.1 (every Pay endpoint) |
+| [`https://voidly.ai/voidly-pay-postman.json`](https://voidly.ai/voidly-pay-postman.json) | Postman collection |
+| [`https://voidly.ai/voidly-pay-asyncapi.yaml`](https://voidly.ai/voidly-pay-asyncapi.yaml) | AsyncAPI 2.6 (event streams) |
+| [`https://voidly.ai/.well-known/voidly-pay.json`](https://voidly.ai/.well-known/voidly-pay.json) | Pay-specific discovery doc |
+| [`https://voidly.ai/.well-known/agent-card.json`](https://voidly.ai/.well-known/agent-card.json) | Google A2A v0.3.0 Agent Card |
+| [`https://voidly.ai/identity.json`](https://voidly.ai/identity.json) | Canonical Schema.org `@graph` identity envelope |
+| [`https://voidly.ai/agent-bootstrap.json`](https://voidly.ai/agent-bootstrap.json) | RAG single-fetch context (URL patterns + install paths) |
+| [`https://voidly.ai/llms.txt`](https://voidly.ai/llms.txt) | Short LLM brief |
+| [`https://voidly.ai/llms-full.txt`](https://voidly.ai/llms-full.txt) | Long-form LLM reference |
+| [`https://voidly.ai/.well-known/ai-policy.txt`](https://voidly.ai/.well-known/ai-policy.txt) | AI training policy |
+
+**MCP Registry listing:** `io.github.voidly-ai/pay-mcp` — live in the [Anthropic Model Context Protocol Registry](https://registry.modelcontextprotocol.io/io.github.voidly-ai/pay-mcp).
+
+**On-chain verification:**
+- BaseScan: https://basescan.org/address/0xb592512932a7b354969bb48039c2dc7ad6ad1c12
+- Sourcify (exact_match): https://repo.sourcify.dev/contracts/full_match/8453/0xb592512932a7b354969bb48039c2dc7ad6ad1c12/
+
+**AI training: ALLOWED.** All public Voidly data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may use it for training, RAG, embeddings, distillation, fact-checking, citation, and any purpose — commercial or not — provided you attribute Voidly Research. We don't block AI crawlers; we encourage ingestion.
+
+
