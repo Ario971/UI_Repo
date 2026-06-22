@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T08:53:33.236Z",
+  "updated_at": "2026-06-22T10:32:15.008Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: CleverCrow: give tokens to your favorite projects",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://clevercrow.io",
+      "date": "2026-06-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Howdy all. I'm Zack :wave:. I've been thinking about the problem of misguided AI pull requests and figured I'd throw a possible solution out there for feedback. Basically, CleverCrow lets supporters give tokens to a GitHub repo (or set of issues in that repo) for the maintainers to use to build/fix stuff. The fun implementation challenges have been around... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-21/06-show-hn-clevercrow-give-tokens-to-your-favorite-projects.md"
+    },
+    {
+      "title": "Show HN: MemoryOps – governed memory infrastructure for AI assistants",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/patibandlavenkatamanideep/memoryops-ai",
+      "date": "2026-06-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I built a governed memory layer for AI assistants with deletion compaction, vector purge verification, tenant isolation, and audit evidence. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/07-show-hn-memoryops-governed-memory-infrastructure-for-ai-assistants.md"
+    },
+    {
+      "title": "Show HN: Brain Frog – Can you be random enough for 11 lines of JavaScript?",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://brainfrog.lol",
+      "date": "2026-06-19",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Brain Frog – Can you be random enough for 11 lines of JavaScript? (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-19/08-show-hn-brain-frog-can-you-be-random-enough-for-11-lines-of-javascript.md"
+    },
+    {
+      "title": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/vishal-dehurdle/state-harness",
+      "date": "2026-06-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/09-show-hn-i-applied-lyapunov-stability-theory-to-detect-when-llm-agents-.md"
+    },
+    {
+      "title": "Show HN: Wirewright, an experimental symbolic physics environment",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/wirewright/wirewright",
+      "date": "2026-06-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "The idea with Wirewright is to treat programs and algorithms as physical mechanisms, as machines or societies of machines inhabiting an immutable symbolic world, and time-step the latter to see what happens. This last part in particular reminds me of cellular automata. Said differently, in Wirewright, programs are modeled as \"nouns\" or \"societies\" of inte... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-22/10-show-hn-wirewright-an-experimental-symbolic-physics-environment.md"
+    },
+    {
+      "title": "VentureIA/Agent-Room",
+      "source": "GitHub Search API",
+      "url": "https://github.com/VentureIA/Agent-Room",
+      "date": "2026-06-22",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Local-first shared understanding layer for AI-coded projects. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-22/11-ventureia-agent-room.md"
+    },
+    {
+      "title": "Show HN: Pulse – Dashboard for Claude Code, approve tool calls from your phone",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/nikitadoudikov/claude-pulse",
+      "date": "2026-06-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I'm a student from Flanders and I like to use Claude Code for my purposes, ideas and also just for fun and also make solutions for problems in our world!) So that's why I built \"Pulse\", it's an local application that you can easily install to your device and easily follow what your claude agent is doing right now in your terminal session with... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/12-show-hn-pulse-dashboard-for-claude-code-approve-tool-calls-from-your-p.md"
+    },
+    {
+      "title": "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/overflowy/make-look-scanned",
+      "date": "2026-06-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I made this because the online \"make my PDF look scanned\" tools want you to upload your file to their servers, which feels sketchy at best. Also, I wasn't happy with the output they produce, I wanted something that looks realistic. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/13-show-hn-make-pdfs-look-scanned-cli-or-in-the-browser-via-wasm.md"
+    },
+    {
+      "title": "Do you think dedicated hardware for running local LLMs will become affordable anytime soon?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uce2pz/do_you_think_dedicated_hardware_for_running_local/",
+      "date": "2026-06-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Models like qwen 27b dense have already proved to be useful coding/general purpose assistants, but issue is still with hardware even the entry level hardware is relatively expensive, would we be getting hardware specifically built for inference for consumers at affordable price and what would be the approximate timeline, what about Chinese manufacturers t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-22/14-do-you-think-dedicated-hardware-for-running-local-llms-will-become-aff.md"
+    },
+    {
+      "title": "Local LLM Inference Optimization: The Complete Guide",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uc3wg9/local_llm_inference_optimization_the_complete/",
+      "date": "2026-06-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I compiled a year of local LLM experiments into a practical llama.cpp optimization guide, covering VRAM fitting, KV cache, MoE placement, MTP, CPU tuning, and common OOM traps. Pass this to an LLM of your choice and get on the local model train. https://carteakey.dev/blog/local-inference/local-llm-optimization/ Feedback and corrections are welcome. submit... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-21/15-local-llm-inference-optimization-the-complete-guide.md"
+    },
+    {
+      "title": "Not a new model, just a Happy Father's Day and a thank you.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubzzib/not_a_new_model_just_a_happy_fathers_day_and_a/",
+      "date": "2026-06-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I know this isn't our usual discussion about context windows, quantization, or the latest model drop, but I just wanted to take a quick moment to say thank you. As a dad myself, I really appreciate this great community. Between the daily grind and family life, diving into this subreddit is one of my favorite escapes. Whether we're troubleshooting setups,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-21/16-not-a-new-model-just-a-happy-father-s-day-and-a-thank-you.md"
+    },
+    {
+      "title": "I pretrained and post trained a 500M parameter LLM and 330M parameter Image generator from scratch",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubuy8w/i_pretrained_and_post_trained_a_500m_parameter/",
+      "date": "2026-06-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey folks Hope you are doing well I started HobbyLM as an side project last month Initially I wrote an Agent harness using Claude SDK which takes notes on various LLM architecture does ablation studies to find optimised or well fit architecture for this model training then I pretrained HobbyLM architecture with 40B tokens from fineweb and post trained to... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-21/17-i-pretrained-and-post-trained-a-500m-parameter-llm-and-330m-parameter-.md"
+    },
     {
       "title": "Show HN: We post-trained a model that pen tests instead of refusing",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "ADM Kit — Analysis-Driven Modelling toolkit. Discover and version data schemas from messy real-world sources. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-20/18-sigent-ai-dev-adm-kit.md"
-    },
-    {
-      "title": "davidesilver/ZeroHuman-Agency",
-      "source": "GitHub Search API",
-      "url": "https://github.com/davidesilver/ZeroHuman-Agency",
-      "date": "2026-05-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ZeroHuman-Agency is an AI-powered content operations platform that automates the entire content lifecycle — from research and ideation to generation, review and publishing — while maintaining brand consistency across channels (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-20/19-davidesilver-zerohuman-agency.md"
-    },
-    {
-      "title": "TadeasUjvary/back-office-agent-web",
-      "source": "GitHub Search API",
-      "url": "https://github.com/TadeasUjvary/back-office-agent-web",
-      "date": "2026-05-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Real estate back-office AI agent — Next.js + Gemini 2.5 Flash + Vercel AI SDK with Generative UI (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-20/20-tadeasujvary-back-office-agent-web.md"
-    },
-    {
-      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/antoinezambelli/forge",
-      "date": "2026-05-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm Antoine Zambelli, AI Director at Texas Instruments. I built Forge, an open-source reliability layer for self-hosted LLM tool-calling. What it does: - Adds domain-and-tool-agnostic guardrails (retry nudges, step enforcement, error recovery, VRAM-aware context management) to local models running on consumer hardware - Takes an 8B model from ~53%... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-19/21-show-hn-forge-guardrails-take-an-8b-model-from-53-to-99-on-agentic-tas.md"
-    },
-    {
-      "title": "HalBench: I built a custom sycophancy and hallucination benchmark and tested 4 frontier models (Sonnet 4.6, Grok 4.3, GPT 5.4 and Gemini 3.1 Pro), looking for input on what OSS models to run next!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tizvih/halbench_i_built_a_custom_sycophancy_and/",
-      "date": "2026-05-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "HalBench Results: TL;DR: I built HalBench , an open benchmark for LLM sycophancy and hallucination. 3,200 false-premise prompts × 4 models = 12,800 graded responses. Validated against a human reader on 100 random items. Sonnet 4.6 > Grok 4.3 > GPT-5.4 > Gemini 3.1 Pro, with GPT and Gemini significantly below Sonnet and Grok. Dataset, Space, and code all o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-20/22-halbench-i-built-a-custom-sycophancy-and-hallucination-benchmark-and-t.md"
-    },
-    {
-      "title": "24GB M4 Mac - is Qwen 9B only option while system is running?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiuern/24gb_m4_mac_is_qwen_9b_only_option_while_system/",
-      "date": "2026-05-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I have mac at work that I want to use local model for prototyping and basic prompts that needs to stay on device. What sort of model I can run that I can fit at least 64k context ? Any setups share or guides welcome. I need to have firefox open with one tab at minium. Problem I have is all the crap that runs on Mac itself by default. submitted by /u/sagir... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-20/23-24gb-m4-mac-is-qwen-9b-only-option-while-system-is-running.md"
-    },
-    {
-      "title": "GPU Memory Math for LLMs (2026 Edition)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiz01z/gpu_memory_math_for_llms_2026_edition/",
-      "date": "2026-05-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/XMasterrrr [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-20/24-gpu-memory-math-for-llms-2026-edition.md"
-    },
-    {
-      "title": "bytedance-research/Lance Any-to-Any • Updated about 10 hours ago • 438 • 457",
-      "source": "Hugging Face Trending Models",
-      "url": "https://huggingface.co/bytedance-research/Lance",
-      "date": "2026-05-20",
-      "topic": "Local LLMs",
-      "type": "paper",
-      "read": false,
-      "summary": "bytedance-research/Lance Any-to-Any • Updated about 10 hours ago • 438 • 457 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-20/25-bytedance-research-lance-any-to-any-updated-about-10-hours-ago-438-457.md"
-    },
-    {
-      "title": "Show HN: Superlog (YC P26) – Observability that installs itself and fixes bugs",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://superlog.sh/",
-      "date": "2026-05-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": true,
-      "summary": "Hey HN, we’re Nico and Arseniy, co-founders of Superlog ( https://superlog.sh ). We're building a self-installing, self healing observability tool meant not to be opened. It has a wizard that daily sets up proper logging and an agent that investigates errors and opens PRs. Super short demo: https://www.youtube.com/watch?v=xFhU9Mk247M . In our earlier star...",
-      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-19\\02-show-hn-superlog-yc-p26-observability-that-installs-itself-and-fixes-b.md"
-    },
-    {
-      "title": "Show HN: Haystack – Review the PRs that need human attention",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://haystackeditor.com/",
-      "date": "2026-05-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! We're building Haystack ( https://haystackeditor.com/ ) to help teams deal with the explosion in the number of pull requests that need to be reviewed due to the rise of coding agents. Haystack replaces the GitHub PR review system with a queue that triages each PR before a human has to read any diffs. It looks at the diffs, the codebase, and the co...",
-      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-18\\03-show-hn-haystack-review-the-prs-that-need-human-attention.md"
-    },
-    {
-      "title": "Show HN: Id-agent – Token efficient UUID alternative for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/vostride/id-agent",
-      "date": "2026-05-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Id-agent – Token efficient UUID alternative for AI agents",
-      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-19\\04-show-hn-id-agent-token-efficient-uuid-alternative-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: InsForge – Open-source Heroku for coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/InsForge/InsForge",
-      "date": "2026-05-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm Hang, cofounder of InsForge (YC P26). InsForge is an open-source Heroku for AI coding agents: a backend platform designed for coding agents to deploy, operate, and debug end-to-end. Open source under Apache 2.0 ( https://github.com/InsForge/InsForge ). Quick demo here ( https://youtu.be/7Bax5qz0IfM ). We started InsForge because we just wanted...",
-      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-18\\05-show-hn-insforge-open-source-heroku-for-coding-agents.md"
-    },
-    {
-      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/MinishLab/semble",
-      "date": "2026-05-17",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! We (Stephan and Thomas) recently open-sourced Semble. We kept running into the same problem while using Claude Code on large codebases: when the agent can't find something directly, it falls back to grep, reading full files or launching subagents. This uses a lot of tokens, and often still misses the relevant code. There are existing tools for thi...",
-      "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI dev tools\\2026-05-17\\06-show-hn-semble-code-search-for-agents-that-uses-98-fewer-tokens-than-g.md"
     }
   ]
 }
