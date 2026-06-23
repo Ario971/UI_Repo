@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T10:32:15.008Z",
+  "updated_at": "2026-06-23T08:23:43.142Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Selector Forge – browser extension for AI-generated resilient selectors",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Intuned/selector-forge",
+      "date": "2026-06-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm Ahmad from the Intuned ( https://intunedhq.com ) team. Today, we're releasing and open-sourcing Selector Forge ( https://selectorforge.ai/ ), a browser extension that generates reliable CSS/XPath selectors using AI. You can use it to create a selector for a single element or for an array of elements. The selectors it creates are meant to be \"se... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/06-show-hn-selector-forge-browser-extension-for-ai-generated-resilient-se.md"
+    },
+    {
+      "title": "AbdallahKhaldi/COSMOS77-ex06",
+      "source": "GitHub Trending",
+      "url": "https://github.com/AbdallahKhaldi/COSMOS77-ex06",
+      "date": "2026-06-23",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "UOH-RL07 HW6 — Cops & Robbers: dual AI agents over MCP servers (203.3763) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/07-abdallahkhaldi-cosmos77-ex06.md"
+    },
+    {
+      "title": "Show HN: Oak – Git alternative designed for agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://oak.space/oak/oak",
+      "date": "2026-06-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Oak is a version control system I've been working on designed for agents ( https://oak.space ). It improves the speed and context your agents need when working on serious projects. With virtual mounts, agents locally and in the cloud no longer need a full copy of a repo to get working. You can work on many tasks in parallel without needing to download eve... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/08-show-hn-oak-git-alternative-designed-for-agents.md"
+    },
+    {
+      "title": "Show HN: A pure ARM64 Assembly web server, now on Linux with CGI for no reason",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/imtomt/ymawky/tree/linux",
+      "date": "2026-06-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "This is ymawky, a now-dynamic web server written entirely in ARM64 Assembly. I've previously posted about ymawky here: https://news.ycombinator.com/item?id=48080587 In the past month and a half, I've made some pretty major improvements: I've added CGI scripting support, so the server now supports query strings and dynamic content; and I've fully ported ym... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/09-show-hn-a-pure-arm64-assembly-web-server-now-on-linux-with-cgi-for-no-.md"
+    },
+    {
+      "title": "sciencebanda09/nexus-multiagent",
+      "source": "GitHub Search API",
+      "url": "https://github.com/sciencebanda09/nexus-multiagent",
+      "date": "2026-06-23",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Local multi-agent AI system 6 agents, 12 tools, ChromaDB memory, Ollama LLM (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
+    },
+    {
+      "title": "Show HN: LoomStack – Helping engineering orgs scale AI-driven development",
+      "source": "Hacker News Show HN",
+      "url": "https://loomstack.co/",
+      "date": "2026-06-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: LoomStack – Helping engineering orgs scale AI-driven development (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-loomstack-helping-engineering-orgs-scale-ai-driven-development.md"
+    },
+    {
+      "title": "LuD1161/agentjail",
+      "source": "GitHub Search API",
+      "url": "https://github.com/LuD1161/agentjail",
+      "date": "2026-06-23",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Policy guardrails for coding agents (Claude Code, Codex, Cursor) — every tool call is checked locally, before it runs. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
+    },
+    {
+      "title": "Show HN: Pagecast – Publish Markdown/HTML Reports to Cloudflare Pages",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/Amal-David/pagecast",
+      "date": "2026-06-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I built this because I kept generating HTML/Markdown reports from Claude Code/Codex and needed a permanent share link instead of a localhost tunnel. Pagecast is a local CLI that publishes those files to your own Cloudflare Pages account. It supports Markdown and HTML, stable URLs, renaming, republishing to the same URL, and watch mode for continuous updat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-18/13-show-hn-pagecast-publish-markdown-html-reports-to-cloudflare-pages.md"
+    },
+    {
+      "title": "Is Gemma 4 going to be the next Mistral (or Qwen3.6) one day? Concerning the lack of finetunes",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ucy863/is_gemma_4_going_to_be_the_next_mistral_or_qwen36/",
+      "date": "2026-06-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://eqbench.com/creative_writing.html#:~:text=gemma%2D4%2D31B,Sample From what I've seen Gemma 4 has better everything (especially long-context adherence) EXCEPT for the raw prosing performance of Mistral... finetunes . Comparing bases only, Mistral Small 3.2 (the backbone of a large chunk of the AI RP community at this point) appears to have lower cr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-22/14-is-gemma-4-going-to-be-the-next-mistral-or-qwen3-6-one-day-concerning-.md"
+    },
+    {
+      "title": "Why is NO one talking about Microsoft's open source Fast Context!!!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ud1lro/why_is_no_one_talking_about_microsofts_open/",
+      "date": "2026-06-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT https://github.com/microsoft/fastcontext FastContext-1.0 is a lightweight repository-exploration subagent for LLM coding agents. Instead of letting a single model both explore the repository and solve the task, FastContext separates these two roles: it is invoked on demand by a main coding agent, iss... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-23/15-why-is-no-one-talking-about-microsoft-s-open-source-fast-context.md"
+    },
+    {
+      "title": "GLM5.2 @7tg on 4x3090 + 192GB on budget motherboard + cpu",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ucknck/glm52_7tg_on_4x3090_192gb_on_budget_motherboard/",
+      "date": "2026-06-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I finally finished by home lab computer I started working on in May. I carefully waited and bought the 3090s in three local transactions. Every single seller was a gamer who was upgrading to 4090 or 5090 and none had any interest in AI. I bought the 192GB of 5200MHz of DDR5 and have overclocked it to 5600 MHz. I power capped the 3090s to 200W each in Linu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-22/16-glm5-2-7tg-on-4x3090-192gb-on-budget-motherboard-cpu.md"
+    },
+    {
+      "title": "Human Evaluation of GLM-5.2",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udaq2e/human_evaluation_of_glm52/",
+      "date": "2026-06-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've seen plenty of benchmarks that put GLM-5.2 below many of the closed source alternatives but at their heels. I thought to myself, next version GLM will totally be where the best frontiers are at now. The last few days I've been testing it on a real world project, and it's basically Goated in my view. I wish I can run it locally but I've seen some madl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-23/17-human-evaluation-of-glm-5-2.md"
+    },
     {
       "title": "Show HN: CleverCrow: give tokens to your favorite projects",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Self-hosted AI workspace built around context management. Works solo, scales to teams. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/30-simpx-loopat.md"
-    },
-    {
-      "title": "xingkaixin/yomitomo",
-      "source": "GitHub Search API",
-      "url": "https://github.com/xingkaixin/yomitomo",
-      "date": "2026-05-21",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Yomitomo 是面向深度阅读的本地阅读伙伴，把网页阅读、文本批注、讨论线程和 AI 助手放进同一个阅读现场。它的目标是让用户在阅读时直接留下判断、追问和上下文，并让 AI 助手围绕原文参与批注。 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/31-xingkaixin-yomitomo.md"
-    },
-    {
-      "title": "yashbansal-dev/OpenSeek",
-      "source": "GitHub Search API",
-      "url": "https://github.com/yashbansal-dev/OpenSeek",
-      "date": "2026-05-21",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "yashbansal-dev/OpenSeek Stars: 1 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/32-yashbansal-dev-openseek.md"
-    },
-    {
-      "title": "Show HN: I made a tactical map-based WWII submarine simulator (public beta)",
-      "source": "Hacker News Show HN",
-      "url": "https://silentshark.app/alpha/",
-      "date": "2026-05-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I've seen quite a few simming discussions on HN, so thought some of you might like this - I've created a map-centered, tactical submarine simulator and it's been a blast to make. I grew up playing Silent Service II on Atari ST with my dad, then got into Silent Hunter IV in the 2000s, and most recently have been loving the more recent UBoat. In each case,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-18/33-show-hn-i-made-a-tactical-map-based-wwii-submarine-simulator-public-be.md"
-    },
-    {
-      "title": "Qwen3.6 27B and llama.cpp appreciation post",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjbi24/qwen36_27b_and_llamacpp_appreciation_post/",
-      "date": "2026-05-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "To preface, here's my config: llama-server \\ --host 0.0.0.0 \\ --port 1235 \\ --models-preset %h/Software/models.ini \\ --models-max 1 \\ --sleep-idle-seconds 3600 \\ --timeout 3600 \\ --parallel 1 \\ --device ROCm0,ROCm1 [*] flash-attn = on jinja = true fit = true ctxcp = 5 offline = true mmproj-offload = false mmap = false ; ... many other models here ... [tp-... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-21/34-qwen3-6-27b-and-llama-cpp-appreciation-post.md"
-    },
-    {
-      "title": "PDF and non-text local file reading with AnythingLLM?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tj7zba/pdf_and_nontext_local_file_reading_with/",
-      "date": "2026-05-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So far, AnythingLLM works well for me when i copy files over to docker folder (so originals can't be erased/modified), and i have LLM do a text search. RAG I tested but with number of files and specificity, just searching for file names and content works better. However, i don't know how to extend this so that .doc, .pdf, etc files are also read for their... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-21/35-pdf-and-non-text-local-file-reading-with-anythingllm.md"
-    },
-    {
-      "title": "b9259",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9259",
-      "date": "2026-05-21",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "common/speculative : fix nullptr crash in get_devices_str (#23386) ggml_backend_dev_by_name always appends a nullptr sentinel to the devices vector. Skipping nullptr entries prevents assertion failure in ggml_backend_dev_name. Assisted-by: llama.cpp:local pi **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/down... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-21/36-b9259.md"
-    },
-    {
-      "title": "Qwen will release another 27B with high probability",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiwnpc/qwen_will_release_another_27b_with_high/",
-      "date": "2026-05-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "They are waiting for the exact roadmap submitted by /u/serige [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-20/37-qwen-will-release-another-27b-with-high-probability.md"
-    },
-    {
-      "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/mupt-ai/dari-docs",
-      "date": "2026-05-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "It’s well known at this point that documentation needs to be optimized for AI agents - we’re all pointing our Claude Code / Codex / Pi agents at documentation, and expecting the models to figure out how to implement a product. This, however, changes the entire optimization problem when writing documentation. Good documentation now becomes more objective -... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
-    },
-    {
-      "title": "agorokh/applied-ai-research",
-      "source": "GitHub Trending",
-      "url": "https://github.com/agorokh/applied-ai-research",
-      "date": "2026-05-20",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Engineering research papers from EPAM Applied AI. Memory, agents, gateways, observability — frontier-to-enterprise translation. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/15-agorokh-applied-ai-research.md"
-    },
-    {
-      "title": "Skip to main content",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news#main-content",
-      "date": "2026-05-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Skip to main content (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/16-skip-to-main-content.md"
-    },
-    {
-      "title": "May 19, 2026 Announcements Widening the conversation on frontier AI",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/widening-conversation-ai",
-      "date": "2026-05-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "May 19, 2026 Announcements Widening the conversation on frontier AI (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-19/17-may-19-2026-announcements-widening-the-conversation-on-frontier-ai.md"
-    },
-    {
-      "title": "sigent-ai-dev/adm-kit",
-      "source": "GitHub Search API",
-      "url": "https://github.com/sigent-ai-dev/adm-kit",
-      "date": "2026-05-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ADM Kit — Analysis-Driven Modelling toolkit. Discover and version data schemas from messy real-world sources. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-20/18-sigent-ai-dev-adm-kit.md"
     }
   ]
 }

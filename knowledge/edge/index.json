@@ -1,10 +1,194 @@
 {
-  "last_checked_at": "2026-06-22T10:32:41.153Z",
+  "last_checked_at": "2026-06-23T08:24:13.667Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "agenticsnz/unsorry",
+      "name": "agenticsnz/unsorry",
+      "url": "https://github.com/agenticsnz/unsorry",
+      "date": "2026-06-23",
+      "source": "awesome-claude-code",
+      "category": "awesome_lists",
+      "kind": "agent_framework",
+      "compatibility": 79,
+      "momentum": 76,
+      "risk": 32,
+      "integration_effort": 44,
+      "expected_gain": 59,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [],
+      "pros": [
+        "Recently updated (2026-06-23)",
+        "Apache-2.0 license",
+        "31 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [],
+      "install_commands": [
+        "git clone https://github.com/agenticsnz/unsorry && cd unsorry",
+        "claude -p"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "agenticsnz/unsorry matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-23/01-agenticsnz-unsorry.md"
+    },
+    {
+      "id": "abdallahkhaldi/cosmos77-ex06",
+      "name": "AbdallahKhaldi/COSMOS77-ex06",
+      "url": "https://github.com/AbdallahKhaldi/COSMOS77-ex06",
+      "date": "2026-06-23",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 80,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 60,
+      "expected_gain": 87,
+      "composite": 68,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "AbdallahKhaldi/COSMOS77-ex06",
+          "date": "2026-06-23",
+          "topic": "AI agents",
+          "similarity": 0.892,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/07-abdallahkhaldi-cosmos77-ex06.md"
+        },
+        {
+          "title": "gHashTag/trios-mcp-rag",
+          "date": "2026-05-23",
+          "topic": "AI agents",
+          "similarity": 0.424,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
+        },
+        {
+          "title": "rutulraval/ai-coding-agents-autogen",
+          "date": "2026-06-01",
+          "topic": "AI agents",
+          "similarity": 0.285,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/59-rutulraval-ai-coding-agents-autogen.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-23)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, readme, requires-python, license, authors, keywords"
+        }
+      ],
+      "install_commands": [
+        "uv sync",
+        "uv run cosmos77-pursuit --version",
+        "uv run python -m cosmos77_ex06.mcp_servers.cop_server     # :8001/mcp",
+        "uv run python -m cosmos77_ex06.mcp_servers.thief_server   # :8002/mcp",
+        "uv run cosmos77-pursuit run --local --games 1 --grid 3    # one tiny sub-game end-to-end",
+        "uv run cosmos77-pursuit run --local --games 6             # full autonomous game (6 valid sub-games)"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-23 about AI agents; this candidate overlaps with \"AbdallahKhaldi/COSMOS77-ex06\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-23/02-abdallahkhaldi-cosmos77-ex06.md"
+    },
+    {
+      "id": "sciencebanda09/nexus-multiagent",
+      "name": "sciencebanda09/nexus-multiagent",
+      "url": "https://github.com/sciencebanda09/nexus-multiagent",
+      "date": "2026-06-23",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "local_model_tool",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 60,
+      "expected_gain": 77,
+      "composite": 68,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "sciencebanda09/nexus-multiagent",
+          "date": "2026-06-23",
+          "topic": "AI dev tools",
+          "similarity": 0.889,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
+        },
+        {
+          "title": "vladimir120307-droid/mneme",
+          "date": "2026-05-24",
+          "topic": "AI dev tools",
+          "similarity": 0.392,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/67-vladimir120307-droid-mneme.md"
+        },
+        {
+          "title": "greetingromansoldier/agora-perp-agent",
+          "date": "2026-06-13",
+          "topic": "AI agents",
+          "similarity": 0.358,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-13/06-greetingromansoldier-agora-perp-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-23)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "requirements.txt",
+          "summary": "deps crewai>=0.80.0, crewai-tools>=0.17.0, langchain-ollama>=0.2.0, langchain-community>=0.3.0, chromadb>=0.5.0, duckduckgo-search>=7.0.0, sentence-transformers>=3.0.0, streamlit>=1.40.0"
+        }
+      ],
+      "install_commands": [
+        "ollama pull qwen2.5:3b",
+        "ollama pull qwen2.5:0.5b",
+        "git clone https://github.com/sciencebanda09/nexus-multiagent.git",
+        "pip install -r requirements.txt",
+        "ollama serve",
+        "ollama:"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"sciencebanda09/nexus-multiagent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-23/03-sciencebanda09-nexus-multiagent.md"
+    },
     {
       "id": "crewrig/crewrig",
       "name": "crewrig/crewrig",
