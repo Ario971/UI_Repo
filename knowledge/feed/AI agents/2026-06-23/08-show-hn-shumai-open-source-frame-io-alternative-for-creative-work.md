@@ -1,0 +1,12 @@
+---
+title: "Show HN: Shumai – open-source Frame.io alternative for creative work"
+source: "Hacker News Top + Show HN"
+url: "https://github.com/shumaiOne/shumai"
+date: "2026-06-23"
+topic: "AI agents"
+type: "article"
+read: false
+summary: "Shumai is an open source platform for uploading creative files, managing projects, collecting precise feedback, sharing work, and collaborating with AI agents, all in one simple creative-first workspace. I’ve always liked the product design of Frame.io, and I wanted to build an alternative that feels just as polished, while being open source and easy to s... (Local summary fallback used.)"
+---
+
+Shumai is an open source platform for uploading creative files, managing projects, collecting precise feedback, sharing work, and collaborating with AI agents, all in one simple creative-first workspace. I’ve always liked the product design of Frame.io, and I wanted to build an alternative that feels just as polished, while being open source and easy to self host. You can deploy Shumai with docker compose in just a few minutes. It can also be installed from npm, though you'll need to provide your own PostgreSQL instance with the pgvector extension installed. For larger deployments, Shumai supports distributed processing via Temporal, allowing resource intensive tasks such as transcoding to be scaled independently. It's still early in development, feel free to try and share any feedback. Demo: https://staging.shumai.one

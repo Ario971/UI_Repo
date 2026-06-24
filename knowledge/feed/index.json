@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T08:23:43.142Z",
+  "updated_at": "2026-06-24T08:17:51.213Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://tikz.dev/editor/",
+      "date": "2026-06-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \\draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/06-show-hn-tikz-editor-wysiwyg-editor-for-figures-in-latex.md"
+    },
+    {
+      "title": "Show HN: RLM-based local debugger for AI agent traces",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/context-labs/halo",
+      "date": "2026-06-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We built HALO (Hierarchal Agent Loop Optimizer), an open-source tool for debugging and optimizing AI agents using their execution traces. It’s a loop. Run your agent, feed the traces to HALO, get the report, apply the fixes, then re-run your agent. HALO takes in OTEL compliant traces from AI agents using tracing frameworks such as Langfuse, Arize/OpenInfe... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/07-show-hn-rlm-based-local-debugger-for-ai-agent-traces.md"
+    },
+    {
+      "title": "Show HN: Shumai – open-source Frame.io alternative for creative work",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/shumaiOne/shumai",
+      "date": "2026-06-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Shumai is an open source platform for uploading creative files, managing projects, collecting precise feedback, sharing work, and collaborating with AI agents, all in one simple creative-first workspace. I’ve always liked the product design of Frame.io, and I wanted to build an alternative that feels just as polished, while being open source and easy to s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/08-show-hn-shumai-open-source-frame-io-alternative-for-creative-work.md"
+    },
+    {
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.24855v1",
+      "date": "2026-06-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to train models that generalize across diverse agentic tasks... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/09-openthoughts-agent-data-recipes-for-agentic-models.md"
+    },
+    {
+      "title": "Show HN: Keep all microservices consistent and make batch changes",
+      "source": "Hacker News Show HN",
+      "url": "https://infraas.ai",
+      "date": "2026-06-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone! tl;dr At work, I needed to find every repository that uses deprecated Node 16 and make a batch update. This process was exhausting, I had to find them, make a change and a PR for 30 repositories, and then follow up with the pipeline to make sure it's green. I built an MCP server that indexes all the repos, lets you query repositories, makes b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-24/10-show-hn-keep-all-microservices-consistent-and-make-batch-changes.md"
+    },
+    {
+      "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
+      "source": "Hacker News Show HN",
+      "url": "https://answerjournal.com/",
+      "date": "2026-06-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "AnswerJournal is a simple MCP server (only 7 tools) to save and share AI answers. Answers can be public or private and live on your own personal feed. Connect to an MCP compatible AI and just say \"save that to my AnswerJournal\" during any conversation. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
+    },
+    {
+      "title": "Show HN: FastUbu – An Ultrafast Video Archive",
+      "source": "Hacker News Show HN",
+      "url": "https://fastubu.com/",
+      "date": "2026-06-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Ubu is a 30 year old archive of strange films you'd usually only see in museums. I felt it was a perfect candidate for modern Midjourney-like performance. Really enjoyed using Cheng Lou's pretext and masonry pattern. AI indexing, transcription, and video processing via my startup Kino's API (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-22/12-show-hn-fastubu-an-ultrafast-video-archive.md"
+    },
+    {
+      "title": "Show HN: Monolisa v3 – a typeface for developers and creatives",
+      "source": "Hacker News Show HN",
+      "url": "https://www.monolisa.dev/",
+      "date": "2026-06-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Originally we (Andrey, Marcus, Juho) built MonoLisa in 2020 as we realised there's room for a better monospaced typeface for developers. The key insight was to make the glyphs slightly wider to make more room for design to make letters like m feel less cramped. Since then we've released a variable v2 (2022) and now we're happy to expand the typeface with... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-22/13-show-hn-monolisa-v3-a-typeface-for-developers-and-creatives.md"
+    },
+    {
+      "title": "I benchmarked 8 LLMs for medical scribing. Hallucinations were rare; omissions need attention.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udlrmf/i_benchmarked_8_llms_for_medical_scribing/",
+      "date": "2026-06-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I ran a small benchmark on LLMs for medical scribing. Reason: most discussion around AI scribe safety focuses on hallucinations. That matters, but in notes I kept seeing another problem: models often leave out clinically relevant details from the conversation. So I evaluated 8 frontier models on 300 synthetic doctor-patient dialogues. Each model wrote a S... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-23/14-i-benchmarked-8-llms-for-medical-scribing-hallucinations-were-rare-omi.md"
+    },
+    {
+      "title": "Seems this community might have missed it: Bill that would mandate AI chip location tracking gains industry support | Half a dozen companies have come out in support of the Chip Security Act, which would require location-tracking mechanisms for America’s most advanced computing chips.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue2fd7/seems_this_community_might_have_missed_it_bill/",
+      "date": "2026-06-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Web / reddit search have not found this posted in this sub, even though it is several days old news. So I do post. Related links: https://www.reddit.com/r/politics/comments/1uahgcs/bill_that_would_mandate_ai_chip_location_tracking/ https://www.reddit.com/r/LocalLLM/comments/1ubz5xh/us_to_require_location_tracking_for_ai_and/ submitted by /u/alex20_202020... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-24/15-seems-this-community-might-have-missed-it-bill-that-would-mandate-ai-c.md"
+    },
+    {
+      "title": "Mimo 2.5 is _fast_ at large context (dual RTX Pro 6000)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udwabh/mimo_25_is_fast_at_large_context_dual_rtx_pro_6000/",
+      "date": "2026-06-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For agentic work fast high context is king, OpenCode fills the window quickly and most models that feel snappy at 8k context turn into dial-up ADSL brrr by the time you're at 150k context deep. So I've been testing lots of models and runners trying to get \"local Sonnet\" on 2x RTX PRO 6000 (Spoiler, yes!). The drop-off is all about how each model handles a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-23/16-mimo-2-5-is-fast-at-large-context-dual-rtx-pro-6000.md"
+    },
+    {
+      "title": "I love GLM 5.2's attitude! It is a nice refresher from those bootlicker doormats they are feeding us. Does that come from training datasets related to the local culture?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udci9l/i_love_glm_52s_attitude_it_is_a_nice_refresher/",
+      "date": "2026-06-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I have realised one thing I really like about GLM 5.2, apart from its capabilites and huge consistent context, is its attitude : It is direct, concise, no fluff (as one infamous model likes to say) It won't take shit It won't sugar coat its answers, and will not blindly agree with you, like those saccharine vomit inducing US models do It is focused and re... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-23/17-i-love-glm-5-2-s-attitude-it-is-a-nice-refresher-from-those-bootlicker.md"
+    },
     {
       "title": "Show HN: Selector Forge – browser extension for AI-generated resilient selectors",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hi everyone, I am Bojta Lepenye, and first of all, I want to thank the core developers of Hashcat. In my experience, it is quite literally the most capable tool available for offline password cracking across a wide range of use cases. I have spent the last 4 years (from age 14 to 18) extensively working with Hashcat and the tools surrounding it, and I hav... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/42-show-hn-i-dedicated-4-years-to-mastering-offline-password-cracking.md"
-    },
-    {
-      "title": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/FredAntB/Spec-Driven-Development",
-      "date": "2026-05-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "At my work they provided a single Claude subscription for everyone on the team. To be honest I like kiro better as it provides a way better SDD management. But the company can't provide it and I can't afford it yet. Turns out I had the skill creator skill in my claude instance so I made use of it to create this Skill. I made it fully by using Claude but I... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/43-show-hn-i-made-a-claude-skill-for-spec-driven-development-sdd.md"
-    },
-    {
-      "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
-      "source": "Hacker News Show HN",
-      "url": "https://freenet.org/",
-      "date": "2026-05-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "For the past 5 years or so I've been working on a ground-up redesign of Freenet, my peer-to-peer project from the early 2000s (now renamed Hyphanet). The new Freenet has been up and running since December along with some early applications like River[1], our decentralized group chat and Delta - a decentralized CMS. Users have already started to build thei... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/44-show-hn-freenet-a-peer-to-peer-platform-for-decentralized-apps.md"
-    },
-    {
-      "title": "Show HN: TLS Certificate Management and PKI",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=48231769",
-      "date": "2026-05-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello! This project is a TLS/X.509 certificate manager and PKI. Designed to provision and install your TLS certificates across public and private endpoints. It's something I created for my home lab, but has quickly expanded as I have been experimenting more and more with AI development tooling. You can see the product overview: https://www.zaita.com It's... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-22/45-show-hn-tls-certificate-management-and-pki.md"
-    },
-    {
-      "title": "Qwen3.6 35Ba3 has changed my workflows and even how I use my computer",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjwrp7/qwen36_35ba3_has_changed_my_workflows_and_even/",
-      "date": "2026-05-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "My workflow has changed basically to ask Codex to do certain tasks and then document how to do them (including errors it found on its way) into a skill. I feed that skill to pi, and suddenly my qwen3.6 gets that hard stuff done: - devops on a VPS - using docling to create epubs from old PDFs - using playwright to test stuff - Doing code tickets And the li... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-21/46-qwen3-6-35ba3-has-changed-my-workflows-and-even-how-i-use-my-computer.md"
-    },
-    {
-      "title": "In theory, if I have $20k-ish to spend on hardware what would actually get me closest to local coding agent that would allow me to go totally off the social grid?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tk2s09/in_theory_if_i_have_20kish_to_spend_on_hardware/",
-      "date": "2026-05-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Let's say I'm in the market to buy a studio or RTX 6000's. At what point am I off the grid with a local coding agent? Probably a model question too. submitted by /u/Tired__Dev [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-22/47-in-theory-if-i-have-20k-ish-to-spend-on-hardware-what-would-actually-g.md"
-    },
-    {
-      "title": "New Release of ROCm based MLX LLM Engine - lemon-mlx-engine",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkbupt/new_release_of_rocm_based_mlx_llm_engine/",
-      "date": "2026-05-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone lemon-mlx-engine just got done integrating TheRock / ROCm 7.13 into the lemon-mlx-engine which means you get to try the latest ROCm on your local hardware with the MLX engine! This also includes various bug fixes and kernel fixes we have been seeing in Qwen3, 3.5 and 3.6 MoE and dense. try it out! https://github.com/lemonade-sdk/lemon-mlx-eng... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-22/48-new-release-of-rocm-based-mlx-llm-engine-lemon-mlx-engine.md"
-    },
-    {
-      "title": "Anyone evaluated the difference between Qwen Code for the local qwen models vs another harness? CC, OC, LC, Aider etc..",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tk8la2/anyone_evaluated_the_difference_between_qwen_code/",
-      "date": "2026-05-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "For me, opencode doing fantastically but was wondering if qwen code would be more native and have better functionality, since idk which agentic harness they used to get their benchmark results submitted by /u/EggDroppedSoup [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-22/49-anyone-evaluated-the-difference-between-qwen-code-for-the-local-qwen-m.md"
-    },
-    {
-      "title": "Show HN: SafeRun – Replay debugging and inline prevention for AI agents 3",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://news.ycombinator.com/item?id=48217376",
-      "date": "2026-05-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Background on why we built Replay first instead of validation: [ https://dev.to/saferunai/why-we-built-replay-before-everythi... ] Working SDK in Python and TypeScript. Sub-50ms p95 on the check-action API. Currently onboarding the first design partners. Happy to answer questions in the comments. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/26-show-hn-saferun-replay-debugging-and-inline-prevention-for-ai-agents-3.md"
-    },
-    {
-      "title": "Show HN: Agent Chat Bridge – give AI IDE agents an async callback",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/sathvikc/agent-chat-bridge",
-      "date": "2026-05-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Agent Chat Bridge – give AI IDE agents an async callback (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/27-show-hn-agent-chat-bridge-give-ai-ide-agents-an-async-callback.md"
-    },
-    {
-      "title": "bastion-soft/bastion-prompt-protection",
-      "source": "GitHub Trending",
-      "url": "https://github.com/bastion-soft/bastion-prompt-protection",
-      "date": "2026-05-21",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Lightweight prompt-injection detector built for AI agents, copilots, and LLM apps. Fast, local, calibrated. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/28-bastion-soft-bastion-prompt-protection.md"
-    },
-    {
-      "title": "May 18, 2026 Announcements Anthropic acquires Stainless",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "date": "2026-05-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "May 18, 2026 Announcements Anthropic acquires Stainless (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-18/29-may-18-2026-announcements-anthropic-acquires-stainless.md"
-    },
-    {
-      "title": "simpx/loopat",
-      "source": "GitHub Search API",
-      "url": "https://github.com/simpx/loopat",
-      "date": "2026-05-21",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Self-hosted AI workspace built around context management. Works solo, scales to teams. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/30-simpx-loopat.md"
     }
   ]
 }
