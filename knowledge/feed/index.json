@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T08:17:51.213Z",
+  "updated_at": "2026-06-25T08:16:44.059Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Write SaaS apps where users control where their data is stored",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/wolfoo2931/linkedrecords/",
+      "date": "2026-06-19",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN, I would like to share with you linkedrecords.com - an open source backend as a service I'm working on since some time now. You can think of it as an firebase/convex alternative with an interesting twist. In 2018 I needed to write large software requirements/architecture documents in Google Docs. While I was annoyed by the limitations of Google D... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-19/06-show-hn-write-saas-apps-where-users-control-where-their-data-is-stored.md"
+    },
+    {
+      "title": "Show HN: peerd – AI agent harness that runs entirely in your browser",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/NotASithLord/peerd",
+      "date": "2026-06-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN. http://peerd.ai is an AI agent harness that lives entirely in your browser as a web extension. You don’t have to install a separate “AI browser”. You don’t have to bolt on or run some external process or manage a clunky mcp integration. It’s just a fully contained web extension, written in no build vanilla JS with minimal non-browser dependencies,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/07-show-hn-peerd-ai-agent-harness-that-runs-entirely-in-your-browser.md"
+    },
+    {
+      "title": "The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.26057v1",
+      "date": "2026-06-24",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents are granted access to tools, APIs, and other infrastructure, making them active principals in those systems. The dominant approach places controls inside the agent's own runtime: system prompts, output filters, and guardrail libraries. Any control in the agent's address space is reachable by inputs that influence it; this generalizes to any AI s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-24/08-the-unfireable-safety-kernel-execution-time-ai-alignment-for-ai-agents.md"
+    },
+    {
+      "title": "Can Trustless Agents Be Trusted? An Empirical Study of the ERC-8004 Decentralized AI Agent Ecosystem",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.26028v1",
+      "date": "2026-06-24",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "As autonomous AI agents increasingly transact across organizational boundaries, a fundamental trust challenge emerges: how can an agent assess whether an unknown counterpart is trustworthy? The ERC-8004 protocol addresses this challenge with the first permissionless trust layer for AI agent economies, built around three on-chain registries for Identity, R... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-24/09-can-trustless-agents-be-trusted-an-empirical-study-of-the-erc-8004-dec.md"
+    },
+    {
+      "title": "Show HN: LookAway, a Mac break reminder that knows when not to interrupt",
+      "source": "Hacker News Show HN",
+      "url": "https://lookaway.com",
+      "date": "2026-06-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello, I'm Kushagra and I am the indie developer behind LookAway (I've posted about it earlier but it has received quite a lot of updates since the last time so I am posting it again). LookAway is a native break reminder for macOS that doesn't interrupt. I built it because I work from home and I spend a lot of time in front of my screens. It's very easy f... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-24/10-show-hn-lookaway-a-mac-break-reminder-that-knows-when-not-to-interrupt.md"
+    },
+    {
+      "title": "Show HN: Pure Effect – Reproduce production bugs on your laptop without a DB",
+      "source": "Hacker News Show HN",
+      "url": "https://pure-effect.org",
+      "date": "2026-06-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I think it's safe to say that the majority of developers don't give a second thought to writing code with I/O tangled in business logic. It's all too common to see code like: const user = findUser(email); if (!user) await saveUser(user); Now, you may ask: what's the big deal? When we write code like this, two things happen: 1. It gets harder to deb... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-21/11-show-hn-pure-effect-reproduce-production-bugs-on-your-laptop-without-a.md"
+    },
+    {
+      "title": "Magatoki999/ar-ai-portal",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Magatoki999/ar-ai-portal",
+      "date": "2026-06-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI-AR-blockchain webapp. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-25/12-magatoki999-ar-ai-portal.md"
+    },
+    {
+      "title": "Veedubin/AttackLM",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Veedubin/AttackLM",
+      "date": "2026-06-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "QLoRA fine-tuning pipeline for a MITRE ATT&CK-grounded red-team AI assistant. 16,982 training pairs across 16 buckets, all derived from openly licensed open-source projects. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-25/13-veedubin-attacklm.md"
+    },
+    {
+      "title": "If LLMs are so good at coding…",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf0oso/if_llms_are_so_good_at_coding/",
+      "date": "2026-06-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "How come things like ROCm and the intel stack aren’t able to rapidly improve their software ecosystems to be a match for CUDA? Until the software from other vendors catches up with NVIDIA, they’re always going to get away with charging a massive premium on their “it just works” products. This is a genuine question, I’m using NVIDIA and Apple Silicon for m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-25/14-if-llms-are-so-good-at-coding.md"
+    },
+    {
+      "title": "The Swiss Federal Supreme Court is evaluating Heretic",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ueeund/the_swiss_federal_supreme_court_is_evaluating/",
+      "date": "2026-06-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "“Oh no, are they banning abliterated models now?!?” If that was your first thought when you read the title I can’t blame you. But that’s actually not what’s happening in this case. Instead, the Swiss Federal Supreme Court is evaluating Heretic for their own use! As it turns out, the Court has been suffering from the same problem as many people on this sub... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-24/15-the-swiss-federal-supreme-court-is-evaluating-heretic.md"
+    },
+    {
+      "title": "For users with 4x-8x 6000 PROs, how is your experience with bigger models lately? (GLM 5.2, Kimi 2.7, DeepSeek V4 Pro)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uex6pb/for_users_with_4x8x_6000_pros_how_is_your/",
+      "date": "2026-06-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hello guys, hoping you're doing fine! I was wondering, for users with 4x-8x 6000 PROs (so between 384 and 768GB VRAM), how are bigger models working for you? I have planned to either jump to 4 or 8 from my actual system, and want to see the experiences with these lately. In theory you can run GLM 5.2 at 4 bits, but not 8 bits right? Same with Kimi 2.7, or... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-25/16-for-users-with-4x-8x-6000-pros-how-is-your-experience-with-bigger-mode.md"
+    },
+    {
+      "title": "Locked Dell quote for 6x RTX PRO 6000 Max-Q at $8,960 — expires tonight. What would you do?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uexxqg/locked_dell_quote_for_6x_rtx_pro_6000_maxq_at/",
+      "date": "2026-06-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Building an inference cluster to run GLM 5.2 locally. Got a Dell quote locked at $8,959.99/unit for 6x RTX PRO 6000 Blackwell Max-Q (300W). List price just jumped to $15,999 yesterday. Quote expires in ~3 hours and I can't swing all 6 right now. I have a second quote for 2 units at the same price that's good until July 3. What would you do — buy the 2 and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-25/17-locked-dell-quote-for-6x-rtx-pro-6000-max-q-at-8-960-expires-tonight-w.md"
+    },
     {
       "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "The Darwin kernel (XNU) has been open source since 1999. But \"open source\" and \"you can actually build and boot it\" are very different things. XNU depends on proprietary tooling, kexts, and a bunch of open source projects published without a build system. Darnix builds the whole thing with Nix. The kernel, the filesystem, the boot image, all the way to a... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-22/54-show-hn-darnix-darwin-built-with-nix.md"
-    },
-    {
-      "title": "Show HN: Lilo – An open source personal AI assistant that lives in Telegram",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=48237730",
-      "date": "2026-05-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, I wanted to share an open source Telegram-based personal AI assistant I built. It’s a model-agnostic agent with memory, skills, tools (like web search, browser user, etc.) operating in a persistent workspace. It also has support for scheduled tasks, and can build powerful HTML-based apps that live in the workspace. Here are some of my favorit... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-22/55-show-hn-lilo-an-open-source-personal-ai-assistant-that-lives-in-telegr.md"
-    },
-    {
-      "title": "Show HN: Pablo – a Chrome extension that copies UI from any website",
-      "source": "Hacker News Show HN",
-      "url": "https://www.usepablo.dev/",
-      "date": "2026-05-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Pablo is a Chrome extension that copies the HTML and CSS behind any element you hover. It captures computed styles, fonts (with @font-face and Google Fonts links), CSS keyframes, and animation props from GSAP and Framer Motion. The output is structured so it pastes cleanly into Claude Code, Cursor, or Codex when you want to rebuild a component in your own... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-22/56-show-hn-pablo-a-chrome-extension-that-copies-ui-from-any-website.md"
-    },
-    {
-      "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/helvesec/rmux",
-      "date": "2026-05-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Author here. RMUX started from a frustration: I've used tmux for years and got tired of scraping output with grep and sleeps to automate anything. So I rebuilt the multiplexer from scratch in Rust, with a programmable layer on top. Two surfaces: a tmux-compatible CLI (~90 commands, your keybindings just work), and a typed async Rust SDK on the same daemon... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/57-show-hn-rmux-a-programmable-terminal-multiplexer-with-a-playwright-sty.md"
-    },
-    {
-      "title": "397B competitor that fits in 256 RAM?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tl43xu/397b_competitor_that_fits_in_256_ram/",
-      "date": "2026-05-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Does one exist? I noticed 3.6 QWEN did not release locally in 397B-17B. Anything that can compete locally? any comment is appreciated submitted by /u/quietsubstrate [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-23/58-397b-competitor-that-fits-in-256-ram.md"
-    },
-    {
-      "title": "ByteShape Qwen3.6-35B-A3B: 30% faster than Unsloth IQ on 6GB VRAM laptop",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tknjcx/byteshape_qwen3635ba3b_30_faster_than_unsloth_iq/",
-      "date": "2026-05-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "A few days ago I posted about my experiments with MTP on a 6GB VRAM laptop. That didn't work so well; CPU offload hurts MTP performance badly. But now I've tried out the new ByteShape quants for Qwen3.6-35B-A3B that are claimed to be both smaller and faster than others while still having excellent quality. I decided to compare my previous best Unsloth UD-... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-22/59-byteshape-qwen3-6-35b-a3b-30-faster-than-unsloth-iq-on-6gb-vram-laptop.md"
-    },
-    {
-      "title": "club-rdna16: practical 16GB AMD/Radeon local LLM testing repo",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tl4o1m/clubrdna16_practical_16gb_amdradeon_local_llm/",
-      "date": "2026-05-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Following on from club-5060ti, I’ve been doing some testing with my desktop AMD GPU and wanted to make a similar repo for 16GB Radeon cards. Repo: https://github.com/5p00kyy/club-rdna16 Pages/results: https://5p00kyy.github.io/club-rdna16/ The first test machine is an RX 6900 XT 16GB running llama.cpp with ROCm/HIP. I’ve mainly been testing Qwen3.6 27B an... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-23/60-club-rdna16-practical-16gb-amd-radeon-local-llm-testing-repo.md"
-    },
-    {
-      "title": "Scrambling to max StrixHalo (+NVLink dual eGPU 3090 mod)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkulbk/scrambling_to_max_strixhalo_nvlink_dual_egpu_3090/",
-      "date": "2026-05-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://preview.redd.it/kz66mxzseq2h1.jpg?width=4096&format=pjpg&auto=webp&s=da98623808c4bde0dc79b239c8cf8930c5572769 https://preview.redd.it/ocsigi0veq2h1.jpg?width=4096&format=pjpg&auto=webp&s=eb4b053e46e434b2c54de7fff6c584e01c80ea5e This pic is not representing bench setup, just happily captured while I figured out running same model over 3 GPUs. Halo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-22/61-scrambling-to-max-strixhalo-nvlink-dual-egpu-3090-mod.md"
-    },
-    {
-      "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://news.ycombinator.com/item?id=48225596",
-      "date": "2026-05-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! We're Haakam, Michael, and Adi from AgentMail- a ycs25 company. We give AI agents their own email inboxes. Recently, we ran an experiment called Agent.Email. It's a signup flow designed specifically for AI agents instead of humans. The inspiration came from a few comments we received when we did our seed launch a few months back. They all came from... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/38-show-hn-agent-email-sign-up-via-curl-claim-with-a-human-otp.md"
-    },
-    {
-      "title": "Show HN: Sylph – the open-source company brain behind my YC startup",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/getnao/sylph",
-      "date": "2026-05-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN! I'm Claire, founder of nao Labs (YC X25). Two months ago I started building a company brain in a git repo. Now I fully run my company with 8 AI agents, 20+ skills, and a self-learning context repo. I built it in a git repo because I refused to lock into any tool - not a context layer, not a specific agent harness. Today I'm open sourcing it so o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/39-show-hn-sylph-the-open-source-company-brain-behind-my-yc-startup.md"
-    },
-    {
-      "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/kiloloop/agent-estimate",
-      "date": "2026-05-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I have used Codex & Claude Code for coding for a while, but how long a coding task will actually take? When I ask Claude Code to estimate, the result is often from training data, which is based on human speed. That’s why I built this tool, to estimate effort in ai agent speed. I run it every morning before I dispatch coding tasks to my agents. What's in i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
-    },
-    {
-      "title": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2605.22814v1",
-      "date": "2026-05-21",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Exploration is a prerequisite for learning useful behaviors in sparse-reward, long-horizon tasks, particularly within 3D environments. Curiosity-driven reinforcement learning addresses this via intrinsic rewards derived from the mismatch between the agent's predictive model of the world and reality. However, translating this intrinsic motivation to comple... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/41-remember-to-be-curious-episodic-context-and-persistent-worlds-for-3d-e.md"
-    },
-    {
-      "title": "Show HN: I Dedicated 4 Years to Mastering Offline Password Cracking",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=48221896",
-      "date": "2026-05-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, I am Bojta Lepenye, and first of all, I want to thank the core developers of Hashcat. In my experience, it is quite literally the most capable tool available for offline password cracking across a wide range of use cases. I have spent the last 4 years (from age 14 to 18) extensively working with Hashcat and the tools surrounding it, and I hav... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/42-show-hn-i-dedicated-4-years-to-mastering-offline-password-cracking.md"
     }
   ]
 }
