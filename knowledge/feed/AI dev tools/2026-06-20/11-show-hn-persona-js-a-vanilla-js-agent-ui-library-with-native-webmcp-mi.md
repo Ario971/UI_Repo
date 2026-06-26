@@ -1,0 +1,12 @@
+---
+title: "Show HN: Persona.js – a vanilla-JS agent UI library with native WebMCP (MIT)"
+source: "Hacker News Show HN"
+url: "https://github.com/runtypelabs/persona"
+date: "2026-06-20"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "Hey everyone. My cofounder and I are open sourcing Persona.js ( https://www.persona-chat.dev/ ). It's a VanillaJS library that helps anyone build agentic experiences on the web, without a framework dependency, and full WebMCP support So, why'd we do this? 1) We're super fans of the web and the browser can do a ton today 2) We've seen AI builds be way over... (Local summary fallback used.)"
+---
+
+Hey everyone. My cofounder and I are open sourcing Persona.js ( https://www.persona-chat.dev/ ). It's a VanillaJS library that helps anyone build agentic experiences on the web, without a framework dependency, and full WebMCP support So, why'd we do this? 1) We're super fans of the web and the browser can do a ton today 2) We've seen AI builds be way overly complex because the FE requires a large project within an existing app OR the site wasn't using a framework to begin with If you've been a part of huge apps with multiple frameworks inside them, or work inside CMS / website builders / ecomm platforms... you know what we're talking about. A "simple" AI feature disrupts your life for months If you have a singular React codebase and can't possibly imagine building an interface without JSX, nothing to see here! You already have a lot of great options that are really cool too. Check out Assistant UI / CopilotKit / AI Elements which are all MIT. There's a demo video here: https://www.youtube.com/watch?v=68D80uNsfH0 . Some specifics: Persona has a ~15 kB brotli to first paint (the full widget lazy-loads on first click) while being able to render most of the primary agent experiences you see on the web: from 'Fin' (pill launcher) to 'Claude' (fullscreen assistant) to 'Shopify Sidekick' (docked) You can run it in Shadow DOM isolated mode so existing styles play nice Everything has hooks and events, so you can add unique flavor (and easily share back!) in a few lines We have a ton of demos on the library site, along with all the knobs to play with how each aspect renders. Tool and reasoning, custom loading animations, voice, approval UX, etc We've also added a ton of examples across agent and frontend stacks Check out the code @ https://github.com/runtypelabs/persona Feedback and contributions welcome!

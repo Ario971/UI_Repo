@@ -1,10 +1,172 @@
 {
-  "last_checked_at": "2026-06-25T08:17:07.884Z",
+  "last_checked_at": "2026-06-26T08:25:40.042Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "ax-llm/ax",
+      "name": "ax-llm/ax",
+      "url": "https://github.com/ax-llm/ax",
+      "date": "2026-06-26",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "local_model_tool",
+      "compatibility": 92,
+      "momentum": 100,
+      "risk": 30,
+      "integration_effort": 66,
+      "expected_gain": 85,
+      "composite": 81,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "sciencebanda09/nexus-multiagent",
+          "date": "2026-06-23",
+          "topic": "AI dev tools",
+          "similarity": 0.207,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-26)",
+        "Apache-2.0 license",
+        "2794 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "npm run example -- list",
+        "npm run example -- python src/examples/python/generation/axgen-openai.py",
+        "npm run example -- java src/examples/java/generation/BasicGenerationExample.java",
+        "npm run example -- cpp src/examples/cpp/generation/basic_generation.cpp",
+        "npm run example -- go src/examples/go/generation/basic_generation.go",
+        "npm run example -- rust src/examples/rust/generation/basic_generation.rs"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"sciencebanda09/nexus-multiagent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-26/01-ax-llm-ax.md"
+    },
+    {
+      "id": "dorylab/dory",
+      "name": "dorylab/dory",
+      "url": "https://github.com/dorylab/dory",
+      "date": "2026-06-26",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 94,
+      "momentum": 91,
+      "risk": 37,
+      "integration_effort": 64,
+      "expected_gain": 69,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [],
+      "pros": [
+        "Recently updated (2026-06-26)",
+        "Apache-2.0 license",
+        "237 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @playwright/test; scripts dev, prebuild, build, build:bootstrap, deploy, start, studio, pglite:studio"
+        }
+      ],
+      "install_commands": [
+        "docker run -d --name dory \\",
+        "docker compose up -d",
+        "codex mcp add dory --url http://127.0.0.1:3318/api/mcp",
+        "codex mcp list",
+        "claude mcp add --transport http dory http://127.0.0.1:3318/api/mcp",
+        "claude mcp list"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "dorylab/dory matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-26/02-dorylab-dory.md"
+    },
+    {
+      "id": "randomwalkhan/short-term-reversal-strategy",
+      "name": "randomwalkhan/Short-Term-Reversal-Strategy",
+      "url": "https://github.com/randomwalkhan/Short-Term-Reversal-Strategy",
+      "date": "2026-06-26",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "local_model_tool",
+      "compatibility": 81,
+      "momentum": 93,
+      "risk": 48,
+      "integration_effort": 40,
+      "expected_gain": 69,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "0xsteve-00/trading-agents",
+          "date": "2026-06-09",
+          "topic": "AI dev tools",
+          "similarity": 0.386,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-09/62-0xsteve-00-trading-agents.md"
+        },
+        {
+          "title": "greetingromansoldier/agora-perp-agent",
+          "date": "2026-06-13",
+          "topic": "AI agents",
+          "similarity": 0.249,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-13/06-greetingromansoldier-agora-perp-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-06-26)",
+        "251 GitHub stars",
+        "README mentions tests or validation",
+        "README includes install commands"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub"
+      ],
+      "readme_quality": 100,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [],
+      "install_commands": [
+        "pip install numpy pandas matplotlib scipy yfinance notebook"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-06-09 about AI dev tools; this candidate overlaps with \"0xsteve-00/trading-agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-26/03-randomwalkhan-short-term-reversal-strategy.md"
+    },
     {
       "id": "comarkdown/comark",
       "name": "comarkdown/comark",
