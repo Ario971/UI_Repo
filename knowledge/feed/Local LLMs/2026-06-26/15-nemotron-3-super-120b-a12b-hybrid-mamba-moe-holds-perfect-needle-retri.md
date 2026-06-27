@@ -1,0 +1,12 @@
+---
+title: "Nemotron-3-Super-120B-A12B (hybrid Mamba+MoE) holds perfect needle retrieval to 504K tokens on 4×3090"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1ugj1sf/nemotron3super120ba12b_hybrid_mambamoe_holds/"
+date: "2026-06-26"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "TLDR: The Mamba/SSM layers keep a constant-size recurrent state instead of a growing KV cache, so context is nearly free. Full needle retrieval at half a million tokens, fully on-GPU, ~71GB. The new imatrix gguf here https://huggingface.co/mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF/resolve/main/NVIDIA-Nemotron-3-Super-120B-A12B-BF16.i1-Q4... (Local summary fallback used.)"
+---
+
+TLDR: The Mamba/SSM layers keep a constant-size recurrent state instead of a growing KV cache, so context is nearly free. Full needle retrieval at half a million tokens, fully on-GPU, ~71GB. The new imatrix gguf here https://huggingface.co/mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF/resolve/main/NVIDIA-Nemotron-3-Super-120B-A12B-BF16.i1-Q4_K_S.gguf Solo setup, local only. Pulled NVIDIA's Nemotron-3-Super (nemotron_h: hybrid Mamba2 + periodic attention + MoE, A12B active, trained for 1M ctx) as the i1-Q4_K_S from mradermacher (71GB) and ran it across 4×3090. ## Numbers (llama.cpp-latest, i1-Q4_K_S, fully GPU-resident, q8_0 KV) Decode (t/s): 72tg short · 67tg 30K · 51tg 96K · 47tg 126K · 39tg 200K · 34tg 269K · 23tg 504K Prefill (t/s): ~2080pp 30K · 1469pp 200K · 885pp 504K Needle-in-haystack (codes planted at 10/50/90% depth): exact recall at EVERY depth tested, up to 504,482 tokens. No miss. VRAM: ~20GB/card Full-attention models pay for a KV cache that grows with context, so decode craters as you fill. Nemotron's Mamba layers carry a fixed-size state — only the few attention layers have KV (2 KV heads, tiny). Net: decode at 500K (23 t/s) is about the speed a comparable full-attention MoE (MiniMax-M2.7-REAP, also ~74GB, A10B) ran at 30K (24.5 t/s) on the same box/engine. Same-box head-to-head: Nemotron ~2.7× the decode at a 30K spine and held precision to 500K. Buried standing instructions lose to a later conflicting one (recency bias) — a "frozen contract" planted near the top flipped when I contradicted it at the end. Put hard rules near the end / in system, not buried in a long spine. submitted by /u/Important_Quote_1180 [link] [comments]

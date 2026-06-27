@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T08:25:14.612Z",
+  "updated_at": "2026-06-27T07:42:59.253Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/workweave/router",
+      "date": "2026-06-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here's a quick demo of running it locally: https://www.youtube.com/watch?v=isKhAyivtfM . At Weave, we write most of our code with AI, and it's been getting more expensive. This came to a head when... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-show-hn-smart-model-routing-directly-in-claude-codex-and-cursor.md"
+    },
+    {
+      "title": "Show HN: TBD, a Mac-native CLI-forward coding agent multiplexer",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/cheapsteak/tbd",
+      "date": "2026-06-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Inspired by Conductor, dmux, claude-squad, agent-deck, and Git Tower ## What makes it different: (Aside from GUI) A core tenet is -- everything a user can do manually, must be exposed via CLI for agents/automation Best paired with something that lets agents in different worktrees talk to each other (e.g. https://github.com/cheapsteak/agent-channels ) ## B... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/07-show-hn-tbd-a-mac-native-cli-forward-coding-agent-multiplexer.md"
+    },
+    {
+      "title": "The Spec Growth Engine: Spec-Anchored, Code-Coupled, Drift-Enforced Architecture for AI-Assisted Software Development",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.27045v1",
+      "date": "2026-06-25",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI coding agents dramatically accelerate implementation speed but introduce two structural failure modes that existing spec-driven approaches do not fully solve: (1) context explosion -- the agent must reason over an entire repository at once, degrading output quality as the context window fills; and (2) silent spec-code drift -- code evolves, the specifi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/08-the-spec-growth-engine-spec-anchored-code-coupled-drift-enforced-archi.md"
+    },
+    {
+      "title": "Toward Agentic SysAdmin: Rethinking System Administration with AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.26960v1",
+      "date": "2026-06-25",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The growing complexity of computer networks, driven by cloud-native architectures, heterogeneous devices, and distributed systems, places increasing pressure on network administrators who must simultaneously manage configuration, troubleshooting, and security under tight operational constraints. Large Language Models (LLMs) have emerged as a promising too... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/09-toward-agentic-sysadmin-rethinking-system-administration-with-ai-agent.md"
+    },
+    {
+      "title": "dspachos/awesome-ai-tools",
+      "source": "GitHub Search API",
+      "url": "https://github.com/dspachos/awesome-ai-tools",
+      "date": "2026-06-27",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A curated list of awesome AI tools (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/10-dspachos-awesome-ai-tools.md"
+    },
+    {
+      "title": "Jun 25, 2026 · research Reward hacking is swamping model intelligence gains Naman Jain 7m Naman Jain · 7m",
+      "source": "Cursor Blog",
+      "url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
+      "date": "2026-06-25",
+      "topic": "AI dev tools",
+      "type": "paper",
+      "read": false,
+      "summary": "Jun 25, 2026 · research Reward hacking is swamping model intelligence gains Naman Jain 7m Naman Jain · 7m (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-25/11-jun-25-2026-research-reward-hacking-is-swamping-model-intelligence-gai.md"
+    },
+    {
+      "title": "meta-xucong/alchemy-dev-agent",
+      "source": "GitHub Search API",
+      "url": "https://github.com/meta-xucong/alchemy-dev-agent",
+      "date": "2026-06-27",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "meta-xucong/alchemy-dev-agent Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/12-meta-xucong-alchemy-dev-agent.md"
+    },
+    {
+      "title": "Show HN: Hacker News on a train station-style flip board",
+      "source": "Hacker News Show HN",
+      "url": "https://popflame.quickish.space/hn-flipboard/",
+      "date": "2026-06-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Although the page itself is more just fun to have made and look at (I like the flip sound), the fun part is how I made it to verify the (and I hate to say it) vibe host service I've been working on. The recent flip board back and forth's on Twitter (X) are what inspired me. The idea here is that people (like me or you) can create something neat like this,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/13-show-hn-hacker-news-on-a-train-station-style-flip-board.md"
+    },
+    {
+      "title": "\"What should I do?\" - consider post-training",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugg1dm/what_should_i_do_consider_posttraining/",
+      "date": "2026-06-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This is in response to the common post where OP has acquired some cool hardware and is wondering what to do with it. The standard response is always (1) download model X, (2) benchmark it on tps, (3) share screenshots. I argue this is boring and intellectually lazy, and propose an alternative: post-training. For background: I have been \"post-training-as-a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-26/14-what-should-i-do-consider-post-training.md"
+    },
+    {
+      "title": "Nemotron-3-Super-120B-A12B (hybrid Mamba+MoE) holds perfect needle retrieval to 504K tokens on 4×3090",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugj1sf/nemotron3super120ba12b_hybrid_mambamoe_holds/",
+      "date": "2026-06-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "TLDR: The Mamba/SSM layers keep a constant-size recurrent state instead of a growing KV cache, so context is nearly free. Full needle retrieval at half a million tokens, fully on-GPU, ~71GB. The new imatrix gguf here https://huggingface.co/mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF/resolve/main/NVIDIA-Nemotron-3-Super-120B-A12B-BF16.i1-Q4... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-26/15-nemotron-3-super-120b-a12b-hybrid-mamba-moe-holds-perfect-needle-retri.md"
+    },
+    {
+      "title": "Took the plunge! (Minisforum MS-S1 Max)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugkvrm/took_the_plunge_minisforum_mss1_max/",
+      "date": "2026-06-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "With Apple prices entering the stratosphere, the recent Fable gov't rug pull, and the inevitable closed-model price increases, I decided to pick up a (lightly) used Minisforum MS-S1 Max with 128GB of memory. Comes with a 10-day return and a 3-month warranty. Paid the local equiv of US$2800. Compared to what they sold for originally it's a ridiculous price... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-26/16-took-the-plunge-minisforum-ms-s1-max.md"
+    },
+    {
+      "title": "Ornith-1.0-35B Q3_K_M: ~17 GB VRAM, KLD-checked against BF16",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugqipi/ornith1035b_q3_k_m_17_gb_vram_kldchecked_against/",
+      "date": "2026-06-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I quantized deepreinforce-ai/Ornith-1.0-35B down to Q3_K_M so it fits comfortably on a single GPU. Produced locally with llama-quantize from the upstream BF16 GGUF — the quantizer took it from 16.01 BPW down to 3.87 BPW , landing at 16.8 GB on disk / ~17 GiB loaded VRAM , about 21% smaller than Q4_K_M. It’s the smallest validated quant in the repo and sti... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-27/17-ornith-1-0-35b-q3-k-m-17-gb-vram-kld-checked-against-bf16.md"
+    },
     {
       "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "i take a lot of notes but rarely find time to organize them so the value of most notes in my personal context quietly disappears. Notecast is a local note engine i've been building to help me with that. it runs a three stage LLM pipeline (Classify -> Organize -> Consolidate) that automatically builds and maintain a knowledge graph from the notes. the them... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/78-show-hn-local-note-engine-uses-llm-to-organize-notes-into-a-knowledge-.md"
-    },
-    {
-      "title": "Show HN: CRED-1 – Open domain credibility dataset for on-device pre-bunking",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/aloth/cred-1",
-      "date": "2026-05-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: CRED-1 – Open domain credibility dataset for on-device pre-bunking (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/79-show-hn-cred-1-open-domain-credibility-dataset-for-on-device-pre-bunki.md"
-    },
-    {
-      "title": "rastasan-cj/Electro-System-Pro",
-      "source": "GitHub Search API",
-      "url": "https://github.com/rastasan-cj/Electro-System-Pro",
-      "date": "2026-05-25",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Electro System Pro — Full ERP for DeltaTradeCenter (electrical tools). Built with React 19 + Vite + Firebase. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-25/80-rastasan-cj-electro-system-pro.md"
-    },
-    {
-      "title": "sanjeev23oct/zap",
-      "source": "GitHub Search API",
-      "url": "https://github.com/sanjeev23oct/zap",
-      "date": "2026-05-25",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "1. Skill-First Approach — Context That Earns Its Place Most AI coding agents front-load a massive system prompt every request — language conventions, architecture notes, team rules, API patterns, all of it, whether it's relevant or not. zap replaces that wall with a skill system: markdown files that are injected surgically, only when needed (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-25/81-sanjeev23oct-zap.md"
-    },
-    {
-      "title": "Is NVIDIA still the default best choice for local LLMs in 2026?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmkaua/is_nvidia_still_the_default_best_choice_for_local/",
-      "date": "2026-05-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/pmv143 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-24/82-is-nvidia-still-the-default-best-choice-for-local-llms-in-2026.md"
-    },
-    {
-      "title": "Wrote a custom C++ engine for MiniCPM-V 4.6 on Orange Pi AIPro (Ascend 310B) to bypass framework overhead",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmy4g9/wrote_a_custom_c_engine_for_minicpmv_46_on_orange/",
-      "date": "2026-05-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, just wanted to share a project I've been hacking on for the last few weeks. I managed to build a from-scratch C++ inference engine to run MiniCPM-V 4.6 entirely on the Orange Pi AIPro (the budget board with the Ascend 310B NPU, costs around $149 for 20 TOPS INT8 / 10 TFLOPS FP16). If you want to check out the custom ops, build scripts, or th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-25/83-wrote-a-custom-c-engine-for-minicpm-v-4-6-on-orange-pi-aipro-ascend-31.md"
-    },
-    {
-      "title": "server: fix checkpoints creation by jacekpoplawski · Pull Request #22929 · ggml-org/llama.cpp",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tn0jyp/server_fix_checkpoints_creation_by_jacekpoplawski/",
-      "date": "2026-05-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Imagine you are using a local model for agentic coding. You discuss the idea (50k tokens), then say “implement it”. The agent reads files, writes files, runs commands, produces another 20k tokens and the code is ready. Then your next prompt is just “thank you”, and... nothing happens, you have to wait for \"something\". What is happening is that some tools,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-25/84-server-fix-checkpoints-creation-by-jacekpoplawski-pull-request-22929-g.md"
-    },
-    {
-      "title": "hipEngine: Fast Native Qwen 3.6 Inference for RDNA3 (Strix Halo, 7900 XTX)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmq4s6/hipengine_fast_native_qwen_36_inference_for_rdna3/",
-      "date": "2026-05-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "A few weeks ago, after finishing FastDMS , I started toying around writing some RDNA3 kernels again to see how fast I could get Qwen 3.6 MoE running. It turned out well enough, so over the past couple weeks, I turned those experiments into hipEngine , a new open source (AGPLv3) ROCm-native local LLM inference engine. It's Python based, but with no heavy P... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-24/85-hipengine-fast-native-qwen-3-6-inference-for-rdna3-strix-halo-7900-xtx.md"
-    },
-    {
-      "title": "Show HN: Twixt – transform one word into another in four moves",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://twixt.games/",
-      "date": "2026-05-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I made this game while working on a different project about teaching English spelling. I was reading about homophones and got struck by how much a homophone can transform the shape of a word, so I started experimenting with little games built on that. I added a few more transforms, anagrams, verb/tense changes, but the answers kept coming out too obvious.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/62-show-hn-twixt-transform-one-word-into-another-in-four-moves.md"
-    },
-    {
-      "title": "Show HN: Qavvali Wiki",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.qavvali.com/",
-      "date": "2026-05-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey folks — I’ve been working on this pet project for the last few months, and would love some feedback. Qavvali (or Qawwali) is a South Asian genre that I’ve been passionate about for a while, and I’d love to introduce it to as many folks as I can. There are many aspects of the genre that I love, and I can go into depth if anyone is interested. AMA — hap... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-24/63-show-hn-qavvali-wiki.md"
-    },
-    {
-      "title": "Show HN: Play nbsdgames to increase your brain (exclamation mark)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/abakh/nbsdgames",
-      "date": "2026-05-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "The ~500 kB NBSDGames 6 has managed to be published ahead of GTA 6! 2026 is the year of Linux desktop because of NBSDGames 6! I play them all the time, maybe you would too. Some games are newly invented original ideas. https://github.com/abakh/nbsdgames (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-24/64-show-hn-play-nbsdgames-to-increase-your-brain-exclamation-mark.md"
-    },
-    {
-      "title": "Show HN: A platform to find people to jam on side projects with",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.letsjam.live/",
-      "date": "2026-05-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I have always found it funny how challenging it can be to find people to jam on side projects with. There are literally entire sub-Reddits where people post looking for someone to work on a project with. That is super inefficient. There are also newsletters for this (also pretty inefficient). Let's Jam is my attempt to solve this. This is NOT a cofounder... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-24/65-show-hn-a-platform-to-find-people-to-jam-on-side-projects-with.md"
-    },
-    {
-      "title": "anzy-renlab-ai/pronounce",
-      "source": "GitHub Search API",
-      "url": "https://github.com/anzy-renlab-ai/pronounce",
-      "date": "2026-05-24",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "🔊 Pronounce developer jargon out loud. 544+ entries (kubectl, GIF, JSON, JWT, …), sourced with confidence levels. Bash CLI + interactive quiz + voice search + MCP server + Claude Code skill. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/66-anzy-renlab-ai-pronounce.md"
     }
   ]
 }

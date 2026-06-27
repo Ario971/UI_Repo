@@ -1,0 +1,12 @@
+---
+title: "Show HN: TBD, a Mac-native CLI-forward coding agent multiplexer"
+source: "Hacker News Top + Show HN"
+url: "https://github.com/cheapsteak/tbd"
+date: "2026-06-26"
+topic: "AI agents"
+type: "article"
+read: false
+summary: "Inspired by Conductor, dmux, claude-squad, agent-deck, and Git Tower ## What makes it different: (Aside from GUI) A core tenet is -- everything a user can do manually, must be exposed via CLI for agents/automation Best paired with something that lets agents in different worktrees talk to each other (e.g. https://github.com/cheapsteak/agent-channels ) ## B... (Local summary fallback used.)"
+---
+
+Inspired by Conductor, dmux, claude-squad, agent-deck, and Git Tower ## What makes it different: (Aside from GUI) A core tenet is -- everything a user can do manually, must be exposed via CLI for agents/automation Best paired with something that lets agents in different worktrees talk to each other (e.g. https://github.com/cheapsteak/agent-channels ) ## Background: I used and loved Conductor for months starting around January, but hit some persistent issues that made me realize that a core tool that I'm actively using for most of my waking hours sits too close to my skin to produce itches that I can't scratch myself After realizing I needed to switch to something hackable, I went through a few week-ish long trials of dmux, claude-squad, and agent-deck. They were all great, but I then realized I really didn't want to memorize keyboard shortcuts, and I've managed to put off learning how to drive tmux for over a decade, didn't want to end that streak XD So TBD happened in March. In the months since, it's gotten stable enough to the point where a few former and current colleagues have switched to using it as their daily drivers as well. It's been kind of like a fun little club house we contribute to The architecture is a daemon that handles the bulk of state management and actual work, and CLI and GUI clients as two interfaces. Users go through GUI, LLMs and scripts go through CLI. It works best for Claude Code (our shared daily drivers) but two of us also use Codex on the side, so there's some basic support there as well The only way to run it is to clone and build from source, partially b/c I imagine the main appeal is for people who need to hack on the thing they're using (but also b/c didn't want to shell out for an Apple dev license) I think it's now a good enough starting point for similarly minded folks to use as a base to fork and build your own variants, tailored to your own workflows
