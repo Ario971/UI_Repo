@@ -1,0 +1,12 @@
+---
+title: "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work"
+source: "Hacker News Top + Show HN"
+url: "https://github.com/kageroumado/adrafinil"
+date: "2026-06-27"
+topic: "AI agents"
+type: "article"
+read: false
+summary: "A month ago there was a wave of posts and tweets about engineers walking around cafes and parks with their MacBooks propped half-open, as fully closing the lid forces sleep that stops their AI agents. Some people made snarky comments about using tmux or Amphetamine, and some defended their choice with “but I only need it sometimes, and forgetting to disab... (Local summary fallback used.)"
+---
+
+A month ago there was a wave of posts and tweets about engineers walking around cafes and parks with their MacBooks propped half-open, as fully closing the lid forces sleep that stops their AI agents. Some people made snarky comments about using tmux or Amphetamine, and some defended their choice with “but I only need it sometimes, and forgetting to disable Amphetamine and finding my laptop discharged in my bag is worse.” This is a solution to this problem. Unlike caffeinate, it will prevent your MacBook from sleeping even with the lid closed, with no external power or display, using pmset disablesleep 1. Unlike other sleep-preventing apps, Adrafinil only activates when there’s an agent actively doing something. It detects agent activity through hooks it installs into Claude Code, Codex, and others. To reassure you it’s working, the app shows the active status in the menu bar, and it plays a chime when you close the lid. Once the agent is done, Adrafinil detects it and lets the laptop go to sleep by setting pmset disablesleep back to 0. It will also let it sleep in case of overheating. And if you want to manually toggle it, you can install an optional MCP and tell your agent to keep the MacBook awake for a specific time. It has four binaries, one of which is a root helper exposing a single setSleepBlocked call. All the logic and policy live in the unprivileged parts. They’re all notarized, and the app is fully open source (MIT).

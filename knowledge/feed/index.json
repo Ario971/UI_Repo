@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T07:42:59.253Z",
+  "updated_at": "2026-06-28T08:15:44.446Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/kageroumado/adrafinil",
+      "date": "2026-06-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "A month ago there was a wave of posts and tweets about engineers walking around cafes and parks with their MacBooks propped half-open, as fully closing the lid forces sleep that stops their AI agents. Some people made snarky comments about using tmux or Amphetamine, and some defended their choice with “but I only need it sometimes, and forgetting to disab... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-27/06-show-hn-adrafinil-keep-a-lid-closed-mac-awake-only-while-agents-work.md"
+    },
+    {
+      "title": "Skip to main content",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news#main-content",
+      "date": "2026-06-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Skip to main content (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-28/07-skip-to-main-content.md"
+    },
+    {
+      "title": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://decomp-academy.dev",
+      "date": "2026-06-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Over the past few months I've been heavily involved in the decompilation community. I've been hands-on decompiling a beloved game from my childhood (Star Fox Adventures). I started this journey with zero prior decomp experience—and to make things worse I had never really touched C nor assembly either. Learning how to decompile was challenging. It's diffic... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-28/08-show-hn-decomp-academy-learn-to-decompile-gamecube-games-into-matching.md"
+    },
+    {
+      "title": "Show HN: Metaspec: The DpANS3R Common Lisp Spec in S-Expr and HTML Format",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://metaspec.dev/#",
+      "date": "2026-06-24",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I started this project back in 2015, to translate the TeX original specification into an easily parsed format (s-doc), and to create an HTML rendering of that format as a proof of concept. The project is homed here: https://codeberg.org/dlowe/metaspectre/ Differences from the Hyperspec (from the README): - Most importantly, it is free to modify and distri... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-24/09-show-hn-metaspec-the-dpans3r-common-lisp-spec-in-s-expr-and-html-forma.md"
+    },
+    {
+      "title": "Show HN: Engye – transfer files between any two devices by scanning a QR code",
+      "source": "Hacker News Show HN",
+      "url": "https://engye.fuzzyworld.net/",
+      "date": "2026-06-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Early in April I needed to print some tax forms at the library, first time in forever, and I began to wonder: what's the easiest way to get a file onto a public computer? There are many ways, but most of them involve creating an account somewhere or plugging in a thumb-drive. I use a password manager, so my passwords are long and complicated, not easily t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-28/10-show-hn-engye-transfer-files-between-any-two-devices-by-scanning-a-qr-.md"
+    },
+    {
+      "title": "Show HN: KV-psi, using Linux PSI to to trim an LLM KV cache",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/infiniteregrets/kv-psi",
+      "date": "2026-06-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I thought it'd be interesting to use Linux PSI (Pressure Stall Information) for an LLM runtime to trim the KV cache. This is mainly useful imo for edge devices like the Jetson Orin super nano kit which have unified memory. I haven't benched much, but plan to do so more over time and see if I can make a real use of it as I run local LLMs. Let me know if it... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/11-show-hn-kv-psi-using-linux-psi-to-to-trim-an-llm-kv-cache.md"
+    },
+    {
+      "title": "velnori/memlink",
+      "source": "GitHub Search API",
+      "url": "https://github.com/velnori/memlink",
+      "date": "2026-06-28",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI Memory Interchange Layer — bridge AI memory formats, like Pandoc for memories (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-28/12-velnori-memlink.md"
+    },
+    {
+      "title": "swarm-ai-research/aeon",
+      "source": "GitHub Search API",
+      "url": "https://github.com/swarm-ai-research/aeon",
+      "date": "2026-06-28",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Public-facing snapshot of aeon (sanitized — no operational state) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-28/13-swarm-ai-research-aeon.md"
+    },
+    {
+      "title": "b9829",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9829",
+      "date": "2026-06-28",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "logs : reduce v2 (#25078) * server : reduce logs * cont : common * cont : spec * cont : CMN_ -> COM_ **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9829/llama-b9829-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) -... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-28/14-b9829.md"
+    },
+    {
+      "title": "b9828",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9828",
+      "date": "2026-06-27",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "opencl: flash attention improvement (#25069) * opencl: rework FA kernel for f16 and f32 * opencl: flash-attention prefill prepass kernels - flash_attn_kv_pad_f16 pads the tail KV tile to a BLOCK_N multiple - flash_attn_mask_pad_f16 pads the matching mask tile - flash_attn_blk_f16 classifies each KV tile per query block as fully masked / mixed / fully unma... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-27/15-b9828.md"
+    },
+    {
+      "title": "b9827",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9827",
+      "date": "2026-06-27",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "[CUDA] Added a cudaMemcpy2DAsync fast path to ggml_cuda_cpy (#25057) * [CUDA] Added a cudaMemcpy2DAsync fast path to ggml_cuda_cpy Add a CUDA ggml_cpy fast path for same-type, same-shape strided copies that are just 2D pitched block copies. When tensors are not fully contiguous but each row is contiguous, it now uses cudaMemcpy2DAsync instead of the slow... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-27/16-b9827.md"
+    },
+    {
+      "title": "b9826",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9826",
+      "date": "2026-06-27",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "sycl : fix failed ut cases of norm (#25044) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9826/llama-b9826-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-27/17-b9826.md"
+    },
     {
       "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "wqjuser/AIQuantificationTools Stars: 0 (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-26/90-wqjuser-aiquantificationtools.md"
-    },
-    {
-      "title": "Show HN: Built a tool to create brand-consistent images using AI",
-      "source": "Hacker News Show HN",
-      "url": "https://inktag.io",
-      "date": "2026-05-25",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello folks, Over the past months I found it extremely hard to find photos for my blog that looked like MY brand. I was tired of using stock photos and also did not want to spend time on canva creating graphics. The AI images also looked very off-brand and I always had to copy paste my brand instructions to create graphics for my blog. It led me to create... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-25/91-show-hn-built-a-tool-to-create-brand-consistent-images-using-ai.md"
-    },
-    {
-      "title": "Show HN: I made Pokémon but with real animals in the real world",
-      "source": "Hacker News Show HN",
-      "url": "https://apps.apple.com/gb/app/animalis-game/id6762081213",
-      "date": "2026-05-25",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Firstly, apologies, it's not free. It would be difficult to support this for free, it's a paid game. I will now share the technical details, which will probably be most of interest for HN readers. I previously made a carbon footprint tracking app where you photo objects and it tells you the carbon footprint by using an LLM to estimate the data on the fly,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-25/92-show-hn-i-made-pok-mon-but-with-real-animals-in-the-real-world.md"
-    },
-    {
-      "title": "Abhishekk-Sinha/sfdc-mentor-ai-agent",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Abhishekk-Sinha/sfdc-mentor-ai-agent",
-      "date": "2026-05-26",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Abhishekk-Sinha/sfdc-mentor-ai-agent Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-26/93-abhishekk-sinha-sfdc-mentor-ai-agent.md"
-    },
-    {
-      "title": "Using Local LLMs for Generating Custom Interactive Recursive Textbooks on the Fly",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnjxq6/using_local_llms_for_generating_custom/",
-      "date": "2026-05-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/Ryoiki-Tokuiten [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-25/94-using-local-llms-for-generating-custom-interactive-recursive-textbooks.md"
-    },
-    {
-      "title": "Stop pretending self-hosting is cheaper. It's not. We do it for different reasons and we should say so.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1to017p/stop_pretending_selfhosting_is_cheaper_its_not_we/",
-      "date": "2026-05-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Did the math on my own rig last week and I'm tired of seeing this sub repeat the \"local is cheaper\" line without numbers. Let me actaully break it down. My setup: 2x 3090 (used, $1400 total), Ryzen 7900X, 64GB DDR5, around $2800 all in. Pulls about 700W under load. At my electricity rate that's roughly $0.21/hour just to keep it serving. Add depreciation... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-26/95-stop-pretending-self-hosting-is-cheaper-it-s-not-we-do-it-for-differen.md"
-    },
-    {
-      "title": "Update on 12x32gb sxm v100 cluster / local AI for legal drafting",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnn29i/update_on_12x32gb_sxm_v100_cluster_local_ai_for/",
-      "date": "2026-05-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Update from the lawyer with the V100 server. A few of you asked what I actually ended up running once the dust settled, so here it is. Still just a lawyer, still driving the whole thing through Claude Code, still not fully sure what I'm doing — but it works now, which is more than I could say last time. First, the hardware caught up to the plan. The last... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-25/96-update-on-12x32gb-sxm-v100-cluster-local-ai-for-legal-drafting.md"
-    },
-    {
-      "title": "Is Qwen3.6 current king for local agentic use?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnbz23/is_qwen36_current_king_for_local_agentic_use/",
-      "date": "2026-05-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been testing other models but it seems like nothing even come close to Qwen3.6 35B A3B for agentic use. The worse I'd get is a loop sometimes, while Gemma4 produced broken tool calls occasionally and I couldn't even get GLM 4.7 Flash REAP past 2 or 3 messages before it starts looping. All IQ4_NL quants from Unsloth. I'm wondering if there are better... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-25/97-is-qwen3-6-current-king-for-local-agentic-use.md"
-    },
-    {
-      "title": "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://codeberg.org/hydrafog/kanban",
-      "date": "2026-05-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN, Ever since agents have become increasingly common in development, I've been scratching my head as to how to control their randomness. Recently, I decided to emulate an issue-tracking and project-management tool for agent-driven workflows. Kanban is a Rust-based coordination layer designed to provide a feature-rich terminal interface and enforce... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-24/74-show-hn-kanban-cli-a-local-first-agent-first-task-manager-for-the-term.md"
-    },
-    {
-      "title": "AI Assurance: A Comprehensive Testing Strategy for Enterprise AI Systems",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2605.23459v1",
-      "date": "2026-05-22",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Enterprise AI systems, built on large language models, retrieval pipelines and autonomous agents, introduce a class of risks that traditional software quality assurance was never designed to address. These systems are probabilistic, context-sensitive and emergent: they cannot be verified to be correct in the classical sense, but only evaluated with increa... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/75-ai-assurance-a-comprehensive-testing-strategy-for-enterprise-ai-system.md"
-    },
-    {
-      "title": "Socially fluent AI decouples conversational signals from source identity in online interaction",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2605.23426v1",
-      "date": "2026-05-22",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Socially fluent agentic AI can now participate in online interaction in ways that resemble ordinary human conversation, potentially weakening people's ability to infer who is human from conversational signals alone. We tested this possibility in synchronous text-based group interaction by embedding undisclosed AI agents as ordinary teammates across analyt... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/76-socially-fluent-ai-decouples-conversational-signals-from-source-identi.md"
-    },
-    {
-      "title": "Design and Report Benchmarks for Knowledge Work",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2605.23262v1",
-      "date": "2026-05-22",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The development of LLM agents has led to a growing body of work on knowledge-work AI, including coding, research, and healthcare. However, current knowledge-work evaluation and benchmark design still largely follow the logic of traditional NLP tasks. As a result, higher benchmark performance does not reliably show that a system can carry out knowledge wor... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/77-design-and-report-benchmarks-for-knowledge-work.md"
-    },
-    {
-      "title": "Show HN: Local note engine uses LLM to organize notes into a knowledge graph",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/AlexWasHeree/NoteCast",
-      "date": "2026-05-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "i take a lot of notes but rarely find time to organize them so the value of most notes in my personal context quietly disappears. Notecast is a local note engine i've been building to help me with that. it runs a three stage LLM pipeline (Classify -> Organize -> Consolidate) that automatically builds and maintain a knowledge graph from the notes. the them... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/78-show-hn-local-note-engine-uses-llm-to-organize-notes-into-a-knowledge-.md"
     }
   ]
 }
