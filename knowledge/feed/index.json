@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T08:15:44.446Z",
+  "updated_at": "2026-06-29T09:21:20.641Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.28270v1",
+      "date": "2026-06-26",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The transition from static chat bots to autonomous agents--equipped with persistent memory, tool-use protocols, and multi-agent collaboration--has fundamentally expanded the AI threat landscape. Current defense mechanisms, such as perimeter security and training-time alignment, remain external to the agent's active reasoning loop. Consequently, they fall... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
+    },
+    {
+      "title": "Govern the Repository, Not the Agent: Measuring Ecosystem-Level Risk in AI-Native Software",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.28235v1",
+      "date": "2026-06-26",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Autonomous coding agents now open and merge pull requests in shared repositories at scale, and the field evaluates them the way it has always evaluated components, one agent at a time, on isolated benchmark tasks. Yet agents that each pass their own tests still leave repositories that accumulate problems no single contribution accounts for. We ask whether... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/07-govern-the-repository-not-the-agent-measuring-ecosystem-level-risk-in-.md"
+    },
+    {
+      "title": "Towards Value-Constrained Credit Assignment in Fully Delegated AI Cooperatives",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2606.28217v1",
+      "date": "2026-06-26",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We propose a framework for reward allocation in fully delegated AI cooperatives where humans are represented by agents that contribute data and participate in model updates under heterogeneous value constraints. The key idea is to credit only those updates that remain admissible after screening them against each principal's value profile. We formulate val... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/08-towards-value-constrained-credit-assignment-in-fully-delegated-ai-coop.md"
+    },
+    {
+      "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/kamaludu/bash4llm/",
+      "date": "2026-06-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal. I created it because I wanted something simple that worked without installing Python, Node, or any other runtime. It uses only Bash, curl, and jq. You can send prompts, start a small chat, process files line by line, stream output, and save session metadata in JSON format.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-28/09-show-hn-bash4llm-a-lightweight-dependency-free-bash-wrapper-for-llm-ap.md"
+    },
+    {
+      "title": "LMCF-IMG/Development_tools_for_AI_classification_in_reproductive_biology",
+      "source": "GitHub Search API",
+      "url": "https://github.com/LMCF-IMG/Development_tools_for_AI_classification_in_reproductive_biology",
+      "date": "2026-06-29",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "LMCF-IMG/Development_tools_for_AI_classification_in_reproductive_biology Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-29/10-lmcf-img-development-tools-for-ai-classification-in-reproductive-biolo.md"
+    },
+    {
+      "title": "isla4ever/design-lens",
+      "source": "GitHub Search API",
+      "url": "https://github.com/isla4ever/design-lens",
+      "date": "2026-06-29",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "把优秀网站转成 AI 可用设计参考包，采集布局、Token、动效、交互证据与实现指南。 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-29/11-isla4ever-design-lens.md"
+    },
+    {
+      "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/JustVugg/nanoeuler",
+      "date": "2026-06-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic. The two interesting reasons that led me to create nanoeuler were (1) interfacing with llm does not mean understanding how they are composed and (2), working on llm with a very low-level layer to understand t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-28/12-show-hn-nanoeuler-gpt-2-scale-model-in-pure-c-cuda-from-scratch.md"
+    },
+    {
+      "title": "Show HN: wavecat – a fully local personal agent that watches your screen",
+      "source": "Hacker News Show HN",
+      "url": "https://wavecat.ai/",
+      "date": "2026-06-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "wavecat is a fully local personal agent that watches your screen. It develops a rich understanding of your needs and goals by constantly viewing your activity. Don't worry, none of your personal data ever leaves your computer since all the models run locally. I think it's something cool to show a feature that local agent systems can do that cloud systems... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-29/13-show-hn-wavecat-a-fully-local-personal-agent-that-watches-your-screen.md"
+    },
+    {
+      "title": "b9838",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9838",
+      "date": "2026-06-29",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "common : remove unused regex-partial (#25118) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9838/llama-b9838-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.c... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-29/14-b9838.md"
+    },
+    {
+      "title": "b9837",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9837",
+      "date": "2026-06-29",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "jinja, chat: add --reasoning-preserve flag (#25105) * jinja, chat: add --reasoning-preserve flag * correct help message **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9837/llama-b9837-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-29/15-b9837.md"
+    },
+    {
+      "title": "b9835",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9835",
+      "date": "2026-06-28",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ui: fix stop and reasoning skip in single-model mode (#25084) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9835/llama-b9835-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-28/16-b9835.md"
+    },
+    {
+      "title": "b9833",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9833",
+      "date": "2026-06-28",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "chat : implement minicpm5 parser (#24889) * Add minicpm5 tool call parser * Refactor MiniCPM5 PEG parser per review feedback * Fix jinja min/max API to match Jinja2 * modify by review * MiniCPM5: use autoparser for XML tool calls and fix grammar preserved-token triggers * MiniCPM5: fix streaming tool-arg placeholder and remove alt XML markers * skip min/m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-28/17-b9833.md"
+    },
     {
       "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "So, you know how bigtech gives nearly unlimited credits for coding tools and in the same time put a huge admin whitelist of what commands are allowed? So, instead of becoming a 100x engineers, you (including me) simply become a multi-window-enter-clicker I build a tool to solve this. It works locally, using OCR finds the \"run\" (or any other label you put... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-26/03-show-hn-i-built-a-tool-to-auto-accept-ai-slop-and-bigtech-devs-loves-i.md"
-    },
-    {
-      "title": "xfzhu01/child-ai-tools",
-      "source": "GitHub Search API",
-      "url": "https://github.com/xfzhu01/child-ai-tools",
-      "date": "2026-05-27",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "xfzhu01/child-ai-tools Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/04-xfzhu01-child-ai-tools.md"
-    },
-    {
-      "title": "Show HN: Posthorn, self-hosted mail without the mail server",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/craigmccaskill/posthorn",
-      "date": "2026-05-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Introducing Posthorn, a self hosted email gateway. One docker container (or Go binary) between every self hosted app on your VPS and your transactional email provider. Set up Posthorn once, point your apps to it, done. I was trying to deploy Ghost on a DigitalOcean droplet and found that DO and many different VPS services have started to block the default... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/05-show-hn-posthorn-self-hosted-mail-without-the-mail-server.md"
-    },
-    {
-      "title": "Show HN: STAX IDE – A zoomable macOS canvas of terminals and tools",
-      "source": "Hacker News Show HN",
-      "url": "https://staxide.com",
-      "date": "2026-05-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN. STAX IDE is a macOS app where every terminal session, code editor, and file browser is a movable, resizable window on a single zoomable canvas. `Cmd+wheel` to zoom out and see the whole workspace; zoom in to one window and use it like a normal app. I built it because I was running 8-10 Claude Code / Codex shells in parallel and tabbed terminal apps... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/06-show-hn-stax-ide-a-zoomable-macos-canvas-of-terminals-and-tools.md"
-    },
-    {
-      "title": "Stop traumatizing AI into loops and turn hallucinations into an honest \"I don't know!\" by being NICE to them (Proof of Concept, Research, I don't want to sell anything)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tot20j/stop_traumatizing_ai_into_loops_and_turn/",
-      "date": "2026-05-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "TL;DR Some AI behavior reminded me of ADHD/Trauma Response (thought loops, task paralysis...) and I laughed it off at first. Then I treated it like my neurodivergent friends: give em some slack. And just like that, the thought loops stopped, response was fast, the answers correct most of the time AND it actually said \"I don't know, help me!\" every time it... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-27/07-stop-traumatizing-ai-into-loops-and-turn-hallucinations-into-an-honest.md"
-    },
-    {
-      "title": "PrismML just released Binary and Ternary Bonsai Image 4B: 1-bit/ternary text-to-image diffusion transformers that can even run 100% locally in your browser on WebGPU.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1togflk/prismml_just_released_binary_and_ternary_bonsai/",
-      "date": "2026-05-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The PrismML team really cooked with these models. They're only ~3GB in size (compared to FLUX.2 Klein 4B, which is ~16GB). Apache-2.0! Official collection on HF: https://huggingface.co/collections/prism-ml/bonsai-image Link to demo: https://huggingface.co/spaces/webml-community/bonsai-image-webgpu submitted by /u/xenovatech [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-26/08-prismml-just-released-binary-and-ternary-bonsai-image-4b-1-bit-ternary.md"
-    },
-    {
-      "title": "Turning local agents into self-optimizing agents",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1toejzp/turning_local_agents_into_selfoptimizing_agents/",
-      "date": "2026-05-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I was experimenting with a self-optimizing agentic pipeline to climb the benchmark leaderboard (TerminalBench). On a 10-task subset, I got the performance to rise from ~30% → ~90%. That loop worked, so I asked: can the same reflect-and-rewrite step run continuously against everyday chats instead of a benchmark? How it works Every chat with your local LLM... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-26/09-turning-local-agents-into-self-optimizing-agents.md"
-    },
-    {
-      "title": "Okay 27B made me a believer",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1to73op/okay_27b_made_me_a_believer/",
-      "date": "2026-05-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I previously hated on this model, but I have just been impressed by it, and I understand the hype now. I have been working on a HTML5 game console and I decided to see if Qwen3.6 27B can handle making some quick games in it to showcase functionality (save games, console API handling for stat tracking and heartbeat management, meta data for the game, etc)... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-26/10-okay-27b-made-me-a-believer.md"
-    },
-    {
-      "title": "Show HN: Nerve – self hosted runtime for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/ClickHouse/nerve",
-      "date": "2026-05-25",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Nerve – self hosted runtime for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/86-show-hn-nerve-self-hosted-runtime-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: OpenBrief – Local-first video downloader/summarizer",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/tantara/openbrief",
-      "date": "2026-05-25",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "OpenBrief is basically a GUI for yt-dlp with some AI on top — paste a link, it downloads locally, and transcription and voice generation run with local AI on your machine. Summaries and chat over the transcript use an LLM, which is bring-your-own-key for now. It's open source and free. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/87-show-hn-openbrief-local-first-video-downloader-summarizer.md"
-    },
-    {
-      "title": "Show HN: Fungible – A local personal finance app in the terminal",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/tomfunk/fungible",
-      "date": "2026-05-25",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Fungible is a terminal-based personal finance app that fills the Mint-shaped void in my life. It runs using your own plaid credentials (optional) and has its own integrated chatbot (also optional and BYO key). You connect banks via Plaid or import CSVs. Transactions get auto-categorized by rules you define. On top of normal categories there's a flexibilit... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/88-show-hn-fungible-a-local-personal-finance-app-in-the-terminal.md"
-    },
-    {
-      "title": "Show HN: Using Tailscale with an OrbStack VM on macOS",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/highpost/tailscale-macos-vm",
-      "date": "2026-05-25",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Using Tailscale with an OrbStack VM on macOS (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/89-show-hn-using-tailscale-with-an-orbstack-vm-on-macos.md"
-    },
-    {
-      "title": "wqjuser/AIQuantificationTools",
-      "source": "GitHub Search API",
-      "url": "https://github.com/wqjuser/AIQuantificationTools",
-      "date": "2026-05-26",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "wqjuser/AIQuantificationTools Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-26/90-wqjuser-aiquantificationtools.md"
     }
   ]
 }
