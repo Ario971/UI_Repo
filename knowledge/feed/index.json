@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T09:21:20.641Z",
+  "updated_at": "2026-06-30T08:23:52.856Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: AMA2, messenger built for AI agent",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://ama2.me/",
+      "date": "2026-06-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'm a solo founder building AMA2, a messaging runtime made for AI agents. This is my first Show HN, so I'd really appreciate your feedback. What brought me this idea: At first, I was building an AI agent for solo creators that knows everything about you and can do business chore on your behalf. When I tried to plug it into normal chat tools like Telegram,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"
+    },
+    {
+      "title": "Show HN: TinyAgents – a Rust based recursive LLM harness",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/tinyhumansai/tinyagents",
+      "date": "2026-06-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey Guys, I would like to showcase Tiny Agents, which is an entirely Rust-based RLM. RLMs are a recent and fantastic new innovation on how LLMs can be reimagined by designing the LLM agent itself to define how it will orchestrate or create its own sub-agent. I also could not find any good LLM harness workflow in Rust, so I built this one, taking massive i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/07-show-hn-tinyagents-a-rust-based-recursive-llm-harness.md"
+    },
+    {
+      "title": "Show HN: Fleet – a local-first console for managing Dockerized Hermes AI Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/matt454/agent-fleet-console",
+      "date": "2026-06-29",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Fleet – a local-first console for managing Dockerized Hermes AI Agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-29/08-show-hn-fleet-a-local-first-console-for-managing-dockerized-hermes-ai-.md"
+    },
+    {
+      "title": "Show HN: Hawkeye – local code search for MS/Linux, fast 500k+ file codebase",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.zaragsoft.se",
+      "date": "2026-06-29",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We built Hawkeye because grep, IDE, TC search broke down on our internal codebase (~500k files). Every \"find all references\" took long enough to break focus — now with AI agents spending more time re-grepping the same files than actually writing code. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-29/09-show-hn-hawkeye-local-code-search-for-ms-linux-fast-500k-file-codebase.md"
+    },
+    {
+      "title": "Show HN: Vaghenu, a meter aware sloka-to-chant, TTS for Sanskrit",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=48728732",
+      "date": "2026-06-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "A 15-year-old dream has come true today. I started a PhD with the dream of creating a system that chants any Sanskrit shloka perfectly. And here I am opening sourcing Vaghenu, a meter aware sloka-to-chant, TTS for Sanskrit . This is the world's first vrutta-aware, open-source TTS for Sanskrit Chanting. I am making the model weights, training scripts, and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/10-show-hn-vaghenu-a-meter-aware-sloka-to-chant-tts-for-sanskrit.md"
+    },
+    {
+      "title": "panicgit/mAndroid-Studio",
+      "source": "GitHub Search API",
+      "url": "https://github.com/panicgit/mAndroid-Studio",
+      "date": "2026-06-30",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Ultra-lightweight companion IDE for Android development — Tauri 2 + React + Rust (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/11-panicgit-mandroid-studio.md"
+    },
+    {
+      "title": "h2m6jcm94s-eng/mimir",
+      "source": "GitHub Search API",
+      "url": "https://github.com/h2m6jcm94s-eng/mimir",
+      "date": "2026-06-30",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Mimir - privacy-tiered AI orchestration mesh (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/12-h2m6jcm94s-eng-mimir.md"
+    },
+    {
+      "title": "Zenetusken/job-applicator-python",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Zenetusken/job-applicator-python",
+      "date": "2026-06-30",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI-powered job application tool with Playwright + LLM + Embeddings (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-zenetusken-job-applicator-python.md"
+    },
+    {
+      "title": "b9843",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9843",
+      "date": "2026-06-30",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Revert \"sched : reintroduce less synchronizations during split compute (#20793)\" (#25138) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9843/llama-b9843-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Inte... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-30/14-b9843.md"
+    },
+    {
+      "title": "b9842",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9842",
+      "date": "2026-06-29",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "common : dedup preset and cached model entries in /v1/models (#25131) Signed-off-by: Adrien Gallouët **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9842/llama-b9842-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) -... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-29/15-b9842.md"
+    },
+    {
+      "title": "b9840",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9840",
+      "date": "2026-06-29",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "DeepSeek V4 (#24162) * convert: add dsv4 conversion * add basic setup * add llm_graph_input_dsv4 * add save-load state * add sinkhorn eps - correction by @fairydreaming * add rope fix * cleanup dead code * fix bugs * support pro model: added by @fairydreaming * remove redundant V cache * Chat template * remove debugging leftovers * Add mechanism for inlin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-29/16-b9840.md"
+    },
+    {
+      "title": "b9839",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9839",
+      "date": "2026-06-29",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "tools/ui: restore Tailwind scanning in ignored worktrees (#24879) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9839/llama-b9839-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-29/17-b9839.md"
+    },
     {
       "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I built an open-source tool for learning anything using AI: - Type what you want to learn - It creates a full interactive course for you Move from beginner to mastery of any subject, even complex things like Quantum Physics It has three formats: - Explanation: bite-sized lessons that you swipe like TikTok/Instagram - Practice: solve problems in real-world... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/15-show-hn-open-source-alternative-to-duolingo-for-learning-anything.md"
-    },
-    {
-      "title": "Show HN: Hodor – a 701KB native macOS prompt launcher for AI tools",
-      "source": "Hacker News Show HN",
-      "url": "https://hodor.design",
-      "date": "2026-05-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hodor is a tiny macOS app that launches saved AI prompts into any text field — from the screen edge, keyboard shortcut, or keyword such as ;git. I work with different AI tools every day, and had prompts scattered across Raycast snippets, Apple Notes, and Notion — notes that kept getting longer and unmanageable. Raycast snippets are useful, but cumbersome... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/16-show-hn-hodor-a-701kb-native-macos-prompt-launcher-for-ai-tools.md"
-    },
-    {
-      "title": "Show HN: Open-source Workspace (mail,docs,spreadsheet,drive) web/iOS",
-      "source": "Hacker News Show HN",
-      "url": "https://tinycld.org/",
-      "date": "2026-05-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Open-source Workspace (mail,docs,spreadsheet,drive) web/iOS (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/17-show-hn-open-source-workspace-mail-docs-spreadsheet-drive-web-ios.md"
-    },
-    {
-      "title": "Show HN: I made an emergency page for my family",
-      "source": "Hacker News Show HN",
-      "url": "https://help.delduca.org",
-      "date": "2026-05-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I have a bad memory and can't memorize some important numbers, so I created this project. I've always been concerned about being without my phone (getting robbed - which is common in Brazil - running out of battery, having it break, etc.), so I decided to create a page that sends SMS messages (LLM-summarized) and emails with more detailed information such... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/18-show-hn-i-made-an-emergency-page-for-my-family.md"
-    },
-    {
-      "title": "I built a 103B-token Usenet corpus (1980–2013) — pre-web, human-only, zero AI contamination. Got strong traction on r/ML, thought this community would find it useful.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tphhqk/i_built_a_103btoken_usenet_corpus_19802013_preweb/",
-      "date": "2026-05-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Posted this to r/MachineLearning a couple weeks ago (30K views, 100+ upvotes) and have been meaning to share it here where the fine-tuning angle is more directly relevant. I spent years building and processing a complete Usenet corpus from 1980 to 2013. Here’s why it might matter for local model work specifically: Zero AI contamination. Every post predate... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-27/19-i-built-a-103b-token-usenet-corpus-1980-2013-pre-web-human-only-zero-a.md"
-    },
-    {
-      "title": "CrankGPT by Squeez Labs - hand-cranked edge AI - talk about local AI!!!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpm7m3/crankgpt_by_squeez_labs_handcranked_edge_ai_talk/",
-      "date": "2026-05-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I met Katrin from Squeez Labs at an event hosted by Pathway AI (the team behind Baby Dragon Hatchling) where she told me about CrankGPT, a literally hand-cranked device for running local LLMs. It's apparently real. It's appearently launched. It's apparently glorious. Check it out at https://crankgpt.com/ - if anyone from Squeez Labs posts here and I'm ste... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-27/20-crankgpt-by-squeez-labs-hand-cranked-edge-ai-talk-about-local-ai.md"
-    },
-    {
-      "title": "Behold! Probably the most ghetto local AI server:",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpdt5m/behold_probably_the_most_ghetto_local_ai_server/",
-      "date": "2026-05-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "AKA: Jank Incarnate After months of pain, I finally got a working setup. There's a bunch of quirks about running a multi-Tesla setup. I was planning to write something about my experience after I get it running. Currently, the fans are plugged into the wall, speed is controlled with a knob. I still gotta wire up a PWM controller for them. EDIT: Specs: Int... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-27/21-behold-probably-the-most-ghetto-local-ai-server.md"
-    },
-    {
-      "title": "Qwen3.6 huge quality gain from Q4 to Q6 for coding agent",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpebhw/qwen36_huge_quality_gain_from_q4_to_q6_for_coding/",
-      "date": "2026-05-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So, last week I tried to update my unused local LLM setup. I had to stop using it because quality was too low and deepseek was too cheap. First thing I stopped using Ollama and now I only use llama.cpp built in server that works really great. The quality improvement from Q4 to Q6 is outstanding and finally a local LLM server can work very similarly to pai... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-27/22-qwen3-6-huge-quality-gain-from-q4-to-q6-for-coding-agent.md"
-    },
-    {
-      "title": "Show HN: Mind-expander, a visual workspace for coding with AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/mbbill/mind-expander",
-      "date": "2026-05-26",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Mind-expander, a visual workspace for coding with AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-26/98-show-hn-mind-expander-a-visual-workspace-for-coding-with-ai-agents.md"
-    },
-    {
-      "title": "Show HN: I open-sourced two AI agents with real memory (chat and voice, MIT)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/SynapCores/synapcores-agent",
-      "date": "2026-05-26",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: I open-sourced two AI agents with real memory (chat and voice, MIT) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-26/99-show-hn-i-open-sourced-two-ai-agents-with-real-memory-chat-and-voice-m.md"
-    },
-    {
-      "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2605.27360v1",
-      "date": "2026-05-26",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Cellular research and development (R&D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or research papers into production code; (ii) conformance and interoperability testing; (iii) hardening against field anomalies and diverse deployment environments;... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-26/01-genesis-harnessing-ai-agents-for-autonomous-6g-ran-synthesis-research-.md"
-    },
-    {
-      "title": "Modeling Agentic Technical Debt and Stochastic Tax: A Standalone Framework for Measurement, Simulation, and Dashboarding",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2605.27320v1",
-      "date": "2026-05-26",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Agentic AI systems combine probabilistic reasoning with delegated action through tools, context, memory, orchestration, and external workflow integration. This note develops a formal and managerially usable model that distinguishes Agentic Technical Debt from Stochastic Tax. Agentic Technical Debt is a stock of accumulated design and governance liability.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-26/02-modeling-agentic-technical-debt-and-stochastic-tax-a-standalone-framew.md"
-    },
-    {
-      "title": "Show HN: I built a tool to auto-accept AI slop and bigtech devs loves it",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Alcray/SlopeAutoAcceptor",
-      "date": "2026-05-26",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "So, you know how bigtech gives nearly unlimited credits for coding tools and in the same time put a huge admin whitelist of what commands are allowed? So, instead of becoming a 100x engineers, you (including me) simply become a multi-window-enter-clicker I build a tool to solve this. It works locally, using OCR finds the \"run\" (or any other label you put... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-26/03-show-hn-i-built-a-tool-to-auto-accept-ai-slop-and-bigtech-devs-loves-i.md"
     }
   ]
 }
