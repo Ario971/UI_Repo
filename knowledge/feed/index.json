@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T08:23:52.856Z",
+  "updated_at": "2026-07-01T08:43:29.384Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Morph Reflexes – Multi-head classifiers for agent traces",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://news.ycombinator.com/item?id=48739038",
+      "date": "2026-06-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "The most common failures for production agents are behavioral: looping, reasoning leakage, user frustration, and more. Using a frontier model like GPT or Sonnet to judge every turn is too expensive and slow to run at scale. To solve this, we built Reflexes: semantic signals from agent traces, served fast and cheap over API. Built on custom kernels and a c... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-morph-reflexes-multi-head-classifiers-for-agent-traces.md"
+    },
+    {
+      "title": "Show HN: Kage, verification and freshness for Google's OKF agent memory",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://kage-core.com/",
+      "date": "2026-06-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Kage was always a document format memory with it's own memory standards... and was betting on file based memory + git native. It's good to see that Google also thinks the same and released OKF(Open Knowledge Format) and Kage has adopted OKF with open arms. Though Google has released the Memory standard and how to structure the memory, it doesn't do verifi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/07-show-hn-kage-verification-and-freshness-for-google-s-okf-agent-memory.md"
+    },
+    {
+      "title": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/typedef-ai/fenic",
+      "date": "2026-06-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey friends. I'd like to share a project that's dear to me. fenic is a dataframe API with LLMs added as first-class citizens, a classic lazy dataframe API extended with new operators that are backed by LLMs. What this gets you is the ability to work with structured and unstructured data in the same context. Most importantly, the LLMs aren't integrates as... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/08-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-structure.md"
+    },
+    {
+      "title": "Show HN: Shoaku – Your Coding Navigator",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/seachicken/intellij-shoaku",
+      "date": "2026-06-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "AI Agents like Codex and Claude are incredibly powerful and have drastically sped up implementation. However, I noticed a strange side effect: I began to lose confidence in my own coding. I submitted a pull request after the AI completed the implementation. It looked good, but during code review, I was asked, \"Why did you implement it this way?\" I grew in... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/09-show-hn-shoaku-your-coding-navigator.md"
+    },
+    {
+      "title": "Show HN: My 13-year-old built an ant colony tracker",
+      "source": "Hacker News Show HN",
+      "url": "https://formicarium.es",
+      "date": "2026-06-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "He's 13 years old. He wanted to track his own ant colonies — growth, feeding, humidity, and other metrics. He built the whole app himself with some help from AI tools; I just helped him deploy it to a server. Would love to hear your feedback! (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/10-show-hn-my-13-year-old-built-an-ant-colony-tracker.md"
+    },
+    {
+      "title": "Show HN: Don't ask if devs cheat with AI, test if they're good with it",
+      "source": "Hacker News Show HN",
+      "url": "https://tryevaluator.com",
+      "date": "2026-06-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Don't ask if devs cheat with AI, test if they're good with it (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/11-show-hn-don-t-ask-if-devs-cheat-with-ai-test-if-they-re-good-with-it.md"
+    },
+    {
+      "title": "Show HN: Curvytron 2, I rewrote my browser party game, 10 years later",
+      "source": "Hacker News Show HN",
+      "url": "https://curvytron2.com/",
+      "date": "2026-06-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, french web dev here, About 10 years ago I did a little party game in the browser inspired by Achtung die Kurve genre, it reached HN ( https://news.ycombinator.com/item?id=9494619 ) and everything went crazy, it's still largely played in open-spaces all over the world today. This past year, I've been working on a sequel: https://curvytron2.com... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/12-show-hn-curvytron-2-i-rewrote-my-browser-party-game-10-years-later.md"
+    },
+    {
+      "title": "Kuberwastaken/VPSmaxxing",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Kuberwastaken/VPSmaxxing",
+      "date": "2026-06-30",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A skill to get Claude to set up your Claude Code and Codex AI workflows on a remote VPS without going broke (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+    },
+    {
+      "title": "b9852",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9852",
+      "date": "2026-07-01",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "opencl: initial q1_0 support (#25160) * opencl: general q1_0 support * opencl: add Adreno GEMM/GEMV for q1_0 **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9852/llama-b9852-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/2... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-01/14-b9852.md"
+    },
+    {
+      "title": "b9851",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9851",
+      "date": "2026-06-30",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "cuda : prevent integer truncation and overflow errors when using KQ mask strides in flash_attn_mask_to_KV_max kernel (#24945) Co-authored-by: Stanisław Szymczyk **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9851/llama-b9851-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DI... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-30/15-b9851.md"
+    },
+    {
+      "title": "b9850",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9850",
+      "date": "2026-06-30",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "model : register t_layer_inp for qwen3next (#25141) * Fix input assignment in layer processing loop Fix DFLASH for qwen-coder-next * add line break Added tensor for attention normalization in Qwen3 model. **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9850/llama-b9850-bin-macos-arm64.tar.gz) - macOS... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-30/16-b9850.md"
+    },
+    {
+      "title": "b9849",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9849",
+      "date": "2026-06-30",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "common,server: handle bracketed IPv6 literals in URL authority (#25140) * common,server: handle bracketed IPv6 literals in URL authority Parse the [host]:port form (RFC 3986) and bracket IPv6 hosts when formatting a URL authority: listening log, proxy Host header, proxy log, client rebuild. The per-request remote_addr stays bare. * common: restore unsuppo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-30/17-b9849.md"
+    },
     {
       "title": "Show HN: AMA2, messenger built for AI agent",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "My wife started playing Pokopia and told me it's the best game she's ever played. I watched her play for 10 minutes and thought that a simple demake inspired by Pokopia could be satisfying to play. TapToyPia is the result, playable in your web browser. In TapToyPia, you are an explorer sent on a one-way mission to a new planet. Your mission: build a settl... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/27-show-hn-taptoypia.md"
-    },
-    {
-      "title": "Show HN: AT4K Launcher - Apple TV inspired Launcher for Android TVs",
-      "source": "Hacker News Show HN",
-      "url": "https://at4klauncher.com",
-      "date": "2026-05-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! I'm the developer of OffChess a Hackernews favorite Chess puzzles app. About 6 months ago I saw someone reviewing an Apple TV 4k on their youtube channel and it looked vastly superior in terms of UI and UX to what Android based Google TVs provide. I asked the people over at r/AndroidTV if someone has ported Apple TV experience to Android TV and the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-28/28-show-hn-at4k-launcher-apple-tv-inspired-launcher-for-android-tvs.md"
-    },
-    {
-      "title": "mildoss/skillsync-backend-ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/mildoss/skillsync-backend-ai",
-      "date": "2026-05-29",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "mildoss/skillsync-backend-ai Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-29/29-mildoss-skillsync-backend-ai.md"
-    },
-    {
-      "title": "anuj-devops-sre/Devops-Study",
-      "source": "GitHub Search API",
-      "url": "https://github.com/anuj-devops-sre/Devops-Study",
-      "date": "2026-05-29",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Devops (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-29/30-anuj-devops-sre-devops-study.md"
-    },
-    {
-      "title": "Which Coding Agent Features Are Useful For Local LLMs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqohv6/which_coding_agent_features_are_useful_for_local/",
-      "date": "2026-05-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been slop coding my own coding agent over the last week (just an open source thing going up on github), and it got me wondering what kinds of features would make for a good coding agent, specifically for local models? I searched the subreddit and see quite a few conversations asking about which local coding agent is best, but not much discussion abou... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/31-which-coding-agent-features-are-useful-for-local-llms.md"
-    },
-    {
-      "title": "StepFun 3.7 Flash",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqloii/stepfun_37_flash/",
-      "date": "2026-05-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "StepFun dropped Step 3.7 Flash, 196B total / 11B active MoE, runs locally on 128GB RAM It's a multimodal MoE (196B total params, only 11B active) with a built-in 1.8B ViT for vision. Benchmark highlights vs. other flash-tier models: - SWE-Bench Pro: 56.26% (beats DeepSeek V4 Flash at 55.6%, matches Gemini 3.5 Flash at 55.1%) - DeepSearchQA F1: 92.82%, com... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/32-stepfun-3-7-flash.md"
-    },
-    {
-      "title": "Reachy Mini goes fully local!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tq4x48/reachy_mini_goes_fully_local/",
-      "date": "2026-05-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi! Andi from Hugging Face here! My team has been working over the last few months on creating a super smooth local experience for conversations with Reachy Mini, see the video! We hope people can extend this into tons of different cool use-cases. We wrote a blog explaining how to set this up, and how to modify it for tons of different use cases. Even if... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-28/33-reachy-mini-goes-fully-local.md"
-    },
-    {
-      "title": "How do I make MTP work in llama-server?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqukp3/how_do_i_make_mtp_work_in_llamaserver/",
-      "date": "2026-05-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Downloaded IQ4_NL gguf from unsloth/Qwen3.6-35B-A3B-MTP-GGUF. git cloned a recent llama.cpp (version: 9397 (ac4b5a3fd)) and compiled it with GGML_CUDA=ON to run on my single 3090 llama-server command without MTP: ./build/bin/llama-server -m ~/gguf/Qwen3.6-35B-A3B-UD-IQ4_NL.gguf --host 0.0.0.0 --port 8080 -c 4096 -fa on --no-mmap -np 1 -ngl 99 llama-server... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/34-how-do-i-make-mtp-work-in-llama-server.md"
-    },
-    {
-      "title": "Show HN: Teleport-env – <500ms stateful rollbacks for AI agents via CRIU",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/JaiCode08/teleport-env",
-      "date": "2026-05-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Teleport-env – <500ms stateful rollbacks for AI agents via CRIU (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/11-show-hn-teleport-env-500ms-stateful-rollbacks-for-ai-agents-via-criu.md"
-    },
-    {
-      "title": "tyanko-lab/agents-mission-control",
-      "source": "GitHub Trending",
-      "url": "https://github.com/tyanko-lab/agents-mission-control",
-      "date": "2026-05-28",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A control plane for production AI agents — operate, improve and govern fleets of agents from one calm, observable surface. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/12-tyanko-lab-agents-mission-control.md"
-    },
-    {
-      "title": "jhwreal/wechat-article-pipeline-skill",
-      "source": "GitHub Trending",
-      "url": "https://github.com/jhwreal/wechat-article-pipeline-skill",
-      "date": "2026-05-28",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "WeChat Article Pipeline Skill 是一个面向 Codex 与 AI Agent 的微信公众号内容生产 Skill，支持文章优化、配图规划、HTML/Markdown 排版，并可自动创建公众号草稿，实现半自动化发布流程。 A WeChat article production skill for Codex and AI agents, supporting article refinement, image planning, HTML/Markdown formatting, and automatic WeChat draft creation for publishing workflows. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/13-jhwreal-wechat-article-pipeline-skill.md"
-    },
-    {
-      "title": "Show HN: Open-Source AI Racing Harness",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
-      "date": "2026-05-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi I'm Dan from Elodin, making an open source real-time capable flight software simulation. For AI Grand Prix contestants, the wait for the Round 1 virtual qualifier simulation has been grueling. If you’re competing, check out our simulation harness to tide you over, built to match the published competition constraints and message format. It runs against... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-27/14-show-hn-open-source-ai-racing-harness.md"
-    },
-    {
-      "title": "Show HN: Open-source alternative to Duolingo for learning anything",
-      "source": "Hacker News Show HN",
-      "url": "https://www.zoonk.com/",
-      "date": "2026-05-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built an open-source tool for learning anything using AI: - Type what you want to learn - It creates a full interactive course for you Move from beginner to mastery of any subject, even complex things like Quantum Physics It has three formats: - Explanation: bite-sized lessons that you swipe like TikTok/Instagram - Practice: solve problems in real-world... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/15-show-hn-open-source-alternative-to-duolingo-for-learning-anything.md"
     }
   ]
 }

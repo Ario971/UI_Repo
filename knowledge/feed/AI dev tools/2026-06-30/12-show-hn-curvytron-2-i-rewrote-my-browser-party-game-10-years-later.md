@@ -1,0 +1,12 @@
+---
+title: "Show HN: Curvytron 2, I rewrote my browser party game, 10 years later"
+source: "Hacker News Show HN"
+url: "https://curvytron2.com/"
+date: "2026-06-30"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "Hi everyone, french web dev here, About 10 years ago I did a little party game in the browser inspired by Achtung die Kurve genre, it reached HN ( https://news.ycombinator.com/item?id=9494619 ) and everything went crazy, it's still largely played in open-spaces all over the world today. This past year, I've been working on a sequel: https://curvytron2.com... (Local summary fallback used.)"
+---
+
+Hi everyone, french web dev here, About 10 years ago I did a little party game in the browser inspired by Achtung die Kurve genre, it reached HN ( https://news.ycombinator.com/item?id=9494619 ) and everything went crazy, it's still largely played in open-spaces all over the world today. This past year, I've been working on a sequel: https://curvytron2.com is live. Same goal as the first one: challenge myself, perfect my skills, have fun and give back to the internet community the best way I know; by just putting a free little fun game out there. No ads, no tracking, no business plan. A decade of professional web development and hours of GMTK have raised my expectations and this time I aimed for: - a good looking top-down 3D view with improved gameplay and real game juice: I learn Three.JS and WebGL for this project, worked on the camera movements, screen shake, sound design, gameplay feedback and I'm proud of the portal-like effect of the bonus that allows you to peak and cross over to the other side of the map. - a solid 100fps server simulation (in Go) serving clients with a really bandwidth efficient netcode (it's binary websocket instead of plain JSON and I open-sourced it: https://github.com/Tom32i/netcode ). - Instant reconnection, at any time: I had this requirement from day one, in the first curvytron losing connexion meant dropping out of the game permanently. Not anymore. You can just refresh the page mid-game and keep playing, try it yourself. The game runs in any desktop and mobile browser and supports gamepads I've put up servers in US and Europe to offer a good ping to as much players as I can afford at the moment. I still maintain and host the first game to keep the original experience live. I'd love to get feedback from HN, and don't hesitate to stress-test the game of course! I'll be around to answer questions and discuss if you're interested. Cheers!
