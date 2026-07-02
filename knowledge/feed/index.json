@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T08:43:29.384Z",
+  "updated_at": "2026-07-02T07:59:46.028Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Margarita - Programming language for Agents using Markdown-ish syntax",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.margarita.run",
+      "date": "2026-07-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "On my list of build it from scratch has always been to build a programming language. So with the help of AI I was able to get it done! Why did I build it? At work I've seen two major problems with our ai workflows/ skills libraries. There is a lack of determinism when your whole workflow is a markdown file of 100 steps, and markdown skill libraries lack c... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/06-show-hn-margarita-programming-language-for-agents-using-markdown-ish-s.md"
+    },
+    {
+      "title": "Show HN: Simulate what AI agents do to an engineering org (no signup)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.orgonaut.co/tools/agentic-reorg-simulator/",
+      "date": "2026-07-01",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Simulate what AI agents do to an engineering org (no signup) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-01/07-show-hn-simulate-what-ai-agents-do-to-an-engineering-org-no-signup.md"
+    },
+    {
+      "title": "Show HN: CLI that helps AI agents avoid vulnerable dependencies",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/clidey/deptrust",
+      "date": "2026-07-01",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "deptrust is a CLI that checks package versions for known vulnerabilities across npm, PyPI, crates.io, Go modules, RubyGems, NuGet, Maven, Packagist, pub.dev, CocoaPods, Hex.pm, Hackage, GitHub Actions, and more. It runs locally as a CLI and as an MCP server. It calls public package registry and OSV APIs directly; there is no hosted deptrust service. I bui... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-01/08-show-hn-cli-that-helps-ai-agents-avoid-vulnerable-dependencies.md"
+    },
+    {
+      "title": "Optimal Resource Utilization for Autonomous Laboratory Orchestrators",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.01188v1",
+      "date": "2026-07-01",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "In autonomous laboratories, AI agents suggest the next batch of experiments to do. However, planning and executing those tasks taking full advantage of the available resources is a completely different question. This can be challenging when dealing with real-world hardware constraints, especially so when there are multiple instruments with different capac... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-01/09-optimal-resource-utilization-for-autonomous-laboratory-orchestrators.md"
+    },
+    {
+      "title": "eve-ai-dev/steroids-openai-image-gen",
+      "source": "GitHub Search API",
+      "url": "https://github.com/eve-ai-dev/steroids-openai-image-gen",
+      "date": "2026-06-24",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Hermes image generation provider for OpenAI-compatible endpoints and Codex Auth (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-24/10-eve-ai-dev-steroids-openai-image-gen.md"
+    },
+    {
+      "title": "Show HN: GolemUI – Declarative Form Engine",
+      "source": "Hacker News Show HN",
+      "url": "https://golemui.com",
+      "date": "2026-07-01",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "We're a team of three friends who have been working with forms and Open Source for a decade, and we joined forces together to create something where we can apply all of our experience. We recently released GolemUI, an Open Source library to generate forms dynamically from JSON definitions, with a typed layer to simplify authoring. This library has a lot t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-01/11-show-hn-golemui-declarative-form-engine.md"
+    },
+    {
+      "title": "Show HN: I built a photography weather alert system",
+      "source": "Hacker News Show HN",
+      "url": "https://photosignal.app/",
+      "date": "2026-07-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "hi HN, I'm a landscape photographer by heart and a software developer by trade. I build a web app for automating alerts for photography weather. It is meant to solve the following issues I (and probably others) had: - the need to check multiple weather apps multiple times a day - keeping an eye out for some long range conditions like full moon or moon + a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-02/12-show-hn-i-built-a-photography-weather-alert-system.md"
+    },
+    {
+      "title": "Show HN: Unobin compiles Infrastructure as Code to one binary",
+      "source": "Hacker News Show HN",
+      "url": "https://cloudboss.co/docs/unobin",
+      "date": "2026-06-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Unobin is a language and compiler for Infrastructure as Code (IaC). IaC source is written and compiled to a binary, called a factory. The factory includes the runtime and all dependencies. To run a factory, pass it a configuration called a stack file that defines backend state and factory inputs. The stack file can only contain configuration, not arbitrar... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-28/13-show-hn-unobin-compiles-infrastructure-as-code-to-one-binary.md"
+    },
+    {
+      "title": "I mapped which local LLMs actually fit each RAM tier, 8 to 128GB (open dataset)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukn45x/i_mapped_which_local_llms_actually_fit_each_ram/",
+      "date": "2026-07-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I kept answering the same question for friends (\"I've got a 16GB MacBook / a 3060, what can I actually run?\") and got tired of guessing, so I started a spreadsheet. It grew into a real dataset, so I put it on GitHub under CC BY for anyone to use or fix. Rule of thumb I landed on: at Q4_K_M a model needs roughly 0.6GB of memory per billion params, and you... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-01/14-i-mapped-which-local-llms-actually-fit-each-ram-tier-8-to-128gb-open-d.md"
+    },
+    {
+      "title": "qwen 3.6 35a3b on 32gb ram + 8gb vram?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ula7q6/qwen_36_35a3b_on_32gb_ram_8gb_vram/",
+      "date": "2026-07-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "is it possible to run a reasonable quant of qwen 3.6 (or I guess even ornith/3.5) 35B A3B on a laptop with 32gb of lpddr5 (7500 mt/s so technically faster/higher bandwith than standard ddr5) and an rtx 5060 laptop gpu (which is similar to a desktop 5060) I'm not getting this laptop specifically FOR running local LLMs but I do really using them and based o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-02/15-qwen-3-6-35a3b-on-32gb-ram-8gb-vram.md"
+    },
+    {
+      "title": "Palantir CEO rages against closed models",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulb4nx/palantir_ceo_rages_against_closed_models/",
+      "date": "2026-07-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For context, this week they struck a deal to buy Nvidia chips and run local models for their enterprise clients. So in this video he is railing against Anthropic and OpenAI saying they are ripping everyone off while stealing their data too. Always a special moment when the enemy comes around and embraces your world view. submitted by /u/burner20170218 [li... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-02/16-palantir-ceo-rages-against-closed-models.md"
+    },
+    {
+      "title": "Making LLMs Better at Creative Writing using Entropy",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul6enz/making_llms_better_at_creative_writing_using/",
+      "date": "2026-07-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/CountBayesie [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-02/17-making-llms-better-at-creative-writing-using-entropy.md"
+    },
     {
       "title": "Show HN: Morph Reflexes – Multi-head classifiers for agent traces",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I miss airbnb categories. It was fun and I loved being able to just browse thorugh cool listings. I'm not exactly sure why they removed it. Then, a couple weeks ago, they hit me with some A/B test and I had access to a \"what\" freeform textbox to custom filter results. Now apparently they removed that too. At this point, I wasn't happy - so I decided to lo... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-29/38-show-hn-i-brought-back-airbnb-categories.md"
-    },
-    {
-      "title": "dui14/vibe-coding-workflow",
-      "source": "GitHub Search API",
-      "url": "https://github.com/dui14/vibe-coding-workflow",
-      "date": "2026-05-30",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI-native project scaffold: describe your idea → agent writes all context files. Includes skills (skills.sh), MCP tools, UI system, and agent review workflow. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"
-    },
-    {
-      "title": "Show HN: Gaia Atlas – Local Stellar Map",
-      "source": "Hacker News Show HN",
-      "url": "https://valhovey.github.io/gaia-atlas/",
-      "date": "2026-05-29",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi there! I made the fan-created Project Hail Mary Star Map and had so much fun with the initial version that I decided to create a v2 that lets you explore our local star system and travel to many more stars. This new version lets you visit dozens of named stars, plan interstellar travel, view exoplanet systems, learn about stellar characteristics, and v... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-29/40-show-hn-gaia-atlas-local-stellar-map.md"
-    },
-    {
-      "title": "Show HN: NvEnvy – A Notational Velocity (NvAlt) Reboot in Swift. OSS",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/kenm47/nvEnvy",
-      "date": "2026-05-29",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I'm a long time user of Notational Velocity and then nvAlt, and tried nvUltra recently but in the world of Claude it felt like I should own my own——change behaviors as I need them. Right now it's just a Mac app, but iOS coming in the future for myself, sync with icloud. Notes are saves as .md files and have quick search. You can open the same folder with... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-29/41-show-hn-nvenvy-a-notational-velocity-nvalt-reboot-in-swift-oss.md"
-    },
-    {
-      "title": "I tested MTP on vLLM and llama.cpp for Gemma 4 & Qwen 3.6 — 3.34x faster inference, here are my findings RTX 6000 PRO.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1trf0r0/i_tested_mtp_on_vllm_and_llamacpp_for_gemma_4/",
-      "date": "2026-05-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey guys, I spent the last few weeks benchmarking Multi-Token Prediction (MTP) on Gemma 4 31B and Qwen 3.6 27B locally GGUF, FP8 using both vLLM and llama.cpp . MTP is the inference trick every major lab is quietly adding to their stack right now and the results genuinely surprised me. Benchmark config: - 10 runs per session - 1500 tokens per run - Sequen... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/42-i-tested-mtp-on-vllm-and-llama-cpp-for-gemma-4-qwen-3-6-3-34x-faster-i.md"
-    },
-    {
-      "title": "Me train LLM on 8GB from Scratch. Me happy",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1treb2z/me_train_llm_on_8gb_from_scratch_me_happy/",
-      "date": "2026-05-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I made post yesterday: https://www.reddit.com/r/LocalLLaMA/comments/1tqjuzg/why_is_there_no_community_project_for_training/ i program today: https://github.com/epoyraz/train-a-model-from-scratch Highlight: - train tinystories from scratch with 8GB VRAM. YAY - mHC no good (too small model) - BitNet too Slow (no memory gain while training) - TurboQuant (no... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/43-me-train-llm-on-8gb-from-scratch-me-happy.md"
-    },
-    {
-      "title": "Shoutout to Gemma4 as a conversational assistant / agent",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqy2iv/shoutout_to_gemma4_as_a_conversational_assistant/",
-      "date": "2026-05-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I'm seriously impressed by Gemma4 26B A4B. On my M5 Pro (so not much memory bandwidth by GPU standards), it's blazingly fast and it's a very good generalist / everyday local LLM. It has a little bit of personality to its responses, and seems to perform decently for everything: creative writing, debugging and coding, random chats, image recognition and cla... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/44-shoutout-to-gemma4-as-a-conversational-assistant-agent.md"
-    },
-    {
-      "title": "PSA",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tr7hzw/psa/",
-      "date": "2026-05-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/Signal_Ad657 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/45-psa.md"
-    },
-    {
-      "title": "Show HN: Ktx – Open-source executable context layer for data agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Kaelio/ktx",
-      "date": "2026-05-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, we’re open-sourcing ktx. It’s an executable context layer that makes agents reliable on your data stack. We built it after going through the experience of building production-grade data agents for dozens of companies. If you’ve also tried building them, or simply tried using Claude Code or Codex on your data warehouse, you’ll know that accuracy is... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/23-show-hn-ktx-open-source-executable-context-layer-for-data-agents.md"
-    },
-    {
-      "title": "Show HN: Bootstrap a team of coding agents from a template, OSS",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/awebai/aweb-team-coord-worktrees",
-      "date": "2026-05-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I have spent the last few months working on infrastructure and tools to give agents global ids, and the ability to communicate. That is up and running now, but actually structuring their work together has been a real pain: I still have to give them roles and responsibilities, and start the agents in the right directories with the right id so that the actu... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/24-show-hn-bootstrap-a-team-of-coding-agents-from-a-template-oss.md"
-    },
-    {
-      "title": "Show HN: Multiplayer, a debugging agent to run locally next to your coding agent",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.multiplayer.app/",
-      "date": "2026-05-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We built Multiplayer because we kept running into the same problem: coding agents connected to existing observability stacks inherit all the limitations those stacks were built with. Sampled traces, aggregated metrics, context that stops at service boundaries, missing request/response content from deep within the system. The PRs they produce look plausibl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/25-show-hn-multiplayer-a-debugging-agent-to-run-locally-next-to-your-codi.md"
-    },
-    {
-      "title": "May 28, 2026 Announcements Anthropic raises $65B in Series H funding at $965B post-money valuation",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/series-h",
-      "date": "2026-05-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "May 28, 2026 Announcements Anthropic raises $65B in Series H funding at $965B post-money valuation (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/26-may-28-2026-announcements-anthropic-raises-65b-in-series-h-funding-at-.md"
-    },
-    {
-      "title": "Show HN: TapToyPia",
-      "source": "Hacker News Show HN",
-      "url": "https://memalign.github.io/m/taptoypia/index.html",
-      "date": "2026-05-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "My wife started playing Pokopia and told me it's the best game she's ever played. I watched her play for 10 minutes and thought that a simple demake inspired by Pokopia could be satisfying to play. TapToyPia is the result, playable in your web browser. In TapToyPia, you are an explorer sent on a one-way mission to a new planet. Your mission: build a settl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/27-show-hn-taptoypia.md"
     }
   ]
 }
