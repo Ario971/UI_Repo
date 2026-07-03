@@ -1,10 +1,177 @@
 {
-  "last_checked_at": "2026-07-02T08:00:15.445Z",
+  "last_checked_at": "2026-07-03T07:55:37.802Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "aterdev/perigon.cli",
+      "name": "AterDev/Perigon.CLI",
+      "url": "https://github.com/AterDev/Perigon.CLI",
+      "date": "2026-07-03",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 71,
+      "momentum": 78,
+      "risk": 35,
+      "integration_effort": 48,
+      "expected_gain": 81,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: AwsmAudio – a WebAudio editor with native MCP",
+          "date": "2026-06-15",
+          "topic": "AI agents",
+          "similarity": 0.184,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-15/28-show-hn-awsmaudio-a-webaudio-editor-with-native-mcp.md"
+        },
+        {
+          "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
+          "date": "2026-06-23",
+          "topic": "AI dev tools",
+          "similarity": 0.183,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-03)",
+        "Apache-2.0 license",
+        "53 GitHub stars",
+        "Matches 2 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 63,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-06-15 about AI agents; this candidate overlaps with \"Show HN: AwsmAudio – a WebAudio editor with native MCP\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-03/01-aterdev-perigon-cli.md"
+    },
+    {
+      "id": "theweihu/devbrain",
+      "name": "TheWeiHu/devbrain",
+      "url": "https://github.com/TheWeiHu/devbrain",
+      "date": "2026-07-03",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 79,
+      "momentum": 53,
+      "risk": 24,
+      "integration_effort": 48,
+      "expected_gain": 77,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "llm011/ethan-agent",
+          "date": "2026-06-20",
+          "topic": "AI dev tools",
+          "similarity": 0.294,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
+        },
+        {
+          "title": "AlexNthLab/nth-dao",
+          "date": "2026-06-12",
+          "topic": "AI dev tools",
+          "similarity": 0.283,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
+        },
+        {
+          "title": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
+          "date": "2026-06-13",
+          "topic": "AI dev tools",
+          "similarity": 0.237,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-13/11-show-hn-skill-for-your-agent-to-visualize-your-gbrain-and-obsidian.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-03)",
+        "MIT license",
+        "3 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "go.mod",
+          "summary": "module github.com/TheWeiHu/devbrain"
+        }
+      ],
+      "install_commands": [
+        "go install github.com/TheWeiHu/devbrain/cmd/devbrain@latest",
+        "git diff main...nightshift"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-06-20 about AI dev tools; this candidate overlaps with \"llm011/ethan-agent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-03/02-theweihu-devbrain.md"
+    },
+    {
+      "id": "alisongm03/eva01",
+      "name": "AlisonGM03/Eva01",
+      "url": "https://github.com/AlisonGM03/Eva01",
+      "date": "2026-07-03",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 98,
+      "momentum": 49,
+      "risk": 35,
+      "integration_effort": 44,
+      "expected_gain": 69,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
+          "date": "2026-06-26",
+          "topic": "AI agents",
+          "similarity": 0.181,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-03)",
+        "MIT license",
+        "1 GitHub stars",
+        "Matches 1 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, requires-python, readme, license, dependencies, embed-openai"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps -e ., absl-py==2.4.0, aiofiles==25.1.0, aiohappyeyeballs==2.6.1, aiohttp==3.13.3, aiosignal==1.4.0, aiosqlite==0.22.1, alembic==1.18.4"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-06-26 about AI agents; this candidate overlaps with \"Agent-Native Immune System: Architecture, Taxonomy, and Engineering\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-03/03-alisongm03-eva01.md"
+    },
     {
       "id": "semantica-agi/semantica",
       "name": "semantica-agi/semantica",

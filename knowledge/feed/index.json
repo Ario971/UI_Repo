@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T07:59:46.028Z",
+  "updated_at": "2026-07-03T07:55:14.569Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Imagent – agentic image/video/speech generation",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/unliftedq/imagent",
+      "date": "2026-07-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Imagent gives AI agents the ability to generate images, video, and speech as a first-class step in their workflows, behind a single interface that hides the differences between providers and models (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-03/06-show-hn-imagent-agentic-image-video-speech-generation.md"
+    },
+    {
+      "title": "Show HN: ctx – Search the coding agent history already on your machine",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/ctxrs/ctx",
+      "date": "2026-07-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Coding agents don't have long-term memory. But you do have months of full-fidelity agent transcripts stored on your machine. A simple solution that goes a long way: ingest those transcripts and logs into a structured SQLite database, then search them with ranked text match. Everything is fully local and doesn't require anything fancy like a graph database... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/07-show-hn-ctx-search-the-coding-agent-history-already-on-your-machine.md"
+    },
+    {
+      "title": "tharunverse08/voyagefalcon",
+      "source": "GitHub Trending",
+      "url": "https://github.com/tharunverse08/voyagefalcon",
+      "date": "2026-07-03",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI-powered trip planning agent - Kaggle AI Agents Capstone (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-03/08-tharunverse08-voyagefalcon.md"
+    },
+    {
+      "title": "Jul 2, 2026 Announcements More details on Fable 5’s cyber safeguards and our jailbreak framework",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "date": "2026-07-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Jul 2, 2026 Announcements More details on Fable 5’s cyber safeguards and our jailbreak framework (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/09-jul-2-2026-announcements-more-details-on-fable-5-s-cyber-safeguards-an.md"
+    },
+    {
+      "title": "Show HN: Bramble – Local-first password manager",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/flythenimbus/bramble",
+      "date": "2026-07-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I'm currently working on Bramble, an open source password manager with P2P cross-device sync. Initially I released the Chrome extension, but recently I also published the Android app and iOS is pending Apple's approval. Besides that, the latest version also includes passkey storage for all platforms! About Bramble: It aims to be as feature-rich as all pop... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-02/10-show-hn-bramble-local-first-password-manager.md"
+    },
+    {
+      "title": "PratyushRanjanDas/ai_Guide",
+      "source": "GitHub Search API",
+      "url": "https://github.com/PratyushRanjanDas/ai_Guide",
+      "date": "2026-07-03",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "PratyushRanjanDas/ai_Guide Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-03/11-pratyushranjandas-ai-guide.md"
+    },
+    {
+      "title": "ignacioCrespoDeveloper/strategy-game",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ignacioCrespoDeveloper/strategy-game",
+      "date": "2026-07-03",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ignacioCrespoDeveloper/strategy-game Stars: 1 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-03/12-ignaciocrespodeveloper-strategy-game.md"
+    },
+    {
+      "title": "dabstractor/stagehand",
+      "source": "GitHub Search API",
+      "url": "https://github.com/dabstractor/stagehand",
+      "date": "2026-07-03",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI-powered commit manager (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-03/13-dabstractor-stagehand.md"
+    },
+    {
+      "title": "b9860",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9860",
+      "date": "2026-07-02",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "llama : add llama_model_ftype_name() (#25134) * llama : add llama_model_ftype_name() Expose the model file type (quantization) name, e.g. \"Q8_0\" or \"Q4_K - Medium\", through a new public C API. The returned pointer is valid for the lifetime of the model and nullptr when the model is invalid or the file type is unknown. Signed-off-by: Adrien Gallouët * Expo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-02/14-b9860.md"
+    },
+    {
+      "title": "b9859",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9859",
+      "date": "2026-07-01",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "opencl: allow loading precompiled binary kernels from library (#23042) * opencl: allow loading binary kernel * opencl: add libdl.h * ggml-backend-dl is in ggml, which depends backend libs, thus ggml-opencl cannot depend on ggml-backend-dl * add libdl.h to break cyclic dep * opencl: allow loading bin kernel lib * opencl: load `gemm_moe_mxfp4_f32_ns` from k... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-01/15-b9859.md"
+    },
+    {
+      "title": "b9858",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9858",
+      "date": "2026-07-01",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "common : use hf primary split as model path (#25194) Fixes #25181 **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9858/llama-b9858-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-01/16-b9858.md"
+    },
+    {
+      "title": "b9857",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9857",
+      "date": "2026-07-01",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "hexagon: flash attention rework (optimizations, accuracy improvements, etc) (#25085) * hex-mm: fold mm quant tasks into the main matmul threads * hex-mm: minor formatting fixes * hex-mm: cleanup is_quant checks in dma dispatch * hex-mm: fix dst-spad alignment * hex-mm: move fp kernels in the hvx-mm-kernels header * hex-mm: fuse with ADD * hex-fa: factor o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-01/17-b9857.md"
+    },
     {
       "title": "Show HN: Margarita - Programming language for Agents using Markdown-ish syntax",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "We introduce Gram, an automated alignment auditing framework to assess the propensity of AI agents to engage in sabotage. We evaluate Gemini models across 17 simulated agentic deployment scenarios that incentivize sabotage. We find Gemini models misbehave in about 2-3% of our simulated trajectories. Many of these cases are explained by \"overeagerness\" in... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/49-gram-assessing-sabotage-propensities-via-automated-alignment-auditing.md"
-    },
-    {
-      "title": "ayalmauda-ai/devops-final-project",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ayalmauda-ai/devops-final-project",
-      "date": "2026-05-31",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ayalmauda-ai/devops-final-project Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-31/50-ayalmauda-ai-devops-final-project.md"
-    },
-    {
-      "title": "Show HN: Helios – what plug-in solar could generate for any address in Britain",
-      "source": "Hacker News Show HN",
-      "url": "https://helios.southlondonscientific.com/",
-      "date": "2026-05-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Plug-in solar panels (no electrician needed) have just become legal in the UK and will go on sale soon. Helios estimates how much electricity a typical installation could generate at a given address and what that's worth against your tariff. It uses UK government LIDAR data to reflect the actual skyline, so it knows whether there's a building or a hill bl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/51-show-hn-helios-what-plug-in-solar-could-generate-for-any-address-in-br.md"
-    },
-    {
-      "title": "Show HN: I made a Gemma 4 Mac app that names screenshots with local AI",
-      "source": "Hacker News Show HN",
-      "url": "https://snapname.app",
-      "date": "2026-05-31",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I made my first macOS utility app that ships with a bundled Gemma 4 model, specifically the Gemma E4B one. It made my app DMG have 5.3 GB in size, but I think it is a small size for the power that this free local model can provide. It runs fine on CPU, but can also run on Apple Silicon GPU, although I did not notice any performance improvements with GPU (... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-31/52-show-hn-i-made-a-gemma-4-mac-app-that-names-screenshots-with-local-ai.md"
-    },
-    {
-      "title": "Show HN: Babo – A scripting natural language that works as intended",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/armbox/babo",
-      "date": "2026-05-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Babo script is source code written in plain English. LLM compiler reads the description, builds a runnable program and runs it. Not a dev tool, just scripting tool. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/53-show-hn-babo-a-scripting-natural-language-that-works-as-intended.md"
-    },
-    {
-      "title": "Parallax: Parameterized Local Linear Attention for Language Modeling",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ts79rg/parallax_parameterized_local_linear_attention_for/",
-      "date": "2026-05-30",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Large Language Models (LLMs) have become the central paradigm in artificial intelligence, yet the core computational primitive of attention has remained structurally unchanged. Local Linear Attention (LLA) is an attention mechanism derived from nonparametric statistics in the test-time regression framework. In contrast to prior research on efficient atten... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-30/54-parallax-parameterized-local-linear-attention-for-language-modeling.md"
-    },
-    {
-      "title": "Cost Analysis of my $6.4k Local LLM Server",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsbl9j/cost_analysis_of_my_64k_local_llm_server/",
-      "date": "2026-05-30",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I haven't seen any of these done, so I just wanted to share my experience in case it is useful for anyone. The purpose of this post is to show total cost of ownership of my local llm server versus API equivalent. Before you look at the final numbers, note that most people do not do proper financial accounting of hardware. Most people treat hardware as a f... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-30/55-cost-analysis-of-my-6-4k-local-llm-server.md"
-    },
-    {
-      "title": "mudler/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-MTP-GGUF just released !",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tslv3b/mudlerqwen3635ba3bclaude47opusreasoningdistilledap/",
-      "date": "2026-05-31",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Description of the module: I host 30+ free APEX MoE quantizations as independent research. My only local hardware is an NVIDIA DGX Spark (122 GB unified memory) — enough for ~30-50B-class MoEs, but bigger ones (200B+) require rented compute on H100/H200/Blackwell, typically $20-100 per quant. If APEX quants are useful to you, your support directly funds t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-31/56-mudler-qwen3-6-35b-a3b-claude-4-7-opus-reasoning-distilled-apex-mtp-gg.md"
-    },
-    {
-      "title": "125 tok/s for Qwen3.6 q4xl on 2x 4060ti is insane perf/dollar",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tryp2q/125_toks_for_qwen36_q4xl_on_2x_4060ti_is_insane/",
-      "date": "2026-05-30",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Under $1000 for 32gb vram from 2023, and ~300 watts draw... and this thing is outperforming the latest pick-your-vendor $5k mini pcs from 2026. So.. next question is can I make it squeeze 150 t/s with the same q4xl on cuda 13.3 this weekend. Anyone try it yet? **Edit** llamacpp ini/flags: podman run -d \\ --name llama-qwen36-router \\ --device nvidia.com/gp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-30/57-125-tok-s-for-qwen3-6-q4xl-on-2x-4060ti-is-insane-perf-dollar.md"
-    },
-    {
-      "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://llmgame.scalex.dev",
-      "date": "2026-05-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/35-show-hn-continue-y-n-a-60-second-game-about-ai-agent-permission-fatigu.md"
-    },
-    {
-      "title": "Show HN: AionOS – self-healing microkernel in Zig (boots on real hardware)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/rodancz/aion",
-      "date": "2026-05-29",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: AionOS – self-healing microkernel in Zig (boots on real hardware) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-29/36-show-hn-aionos-self-healing-microkernel-in-zig-boots-on-real-hardware.md"
-    },
-    {
-      "title": "Show HN: MigraDiff – maintained fork of migra (PostgreSQL schema diff)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/migradiff/migra",
-      "date": "2026-05-29",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: MigraDiff – maintained fork of migra (PostgreSQL schema diff) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-29/37-show-hn-migradiff-maintained-fork-of-migra-postgresql-schema-diff.md"
-    },
-    {
-      "title": "Show HN: I brought back Airbnb categories",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.vibebnb.fyi/",
-      "date": "2026-05-29",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I miss airbnb categories. It was fun and I loved being able to just browse thorugh cool listings. I'm not exactly sure why they removed it. Then, a couple weeks ago, they hit me with some A/B test and I had access to a \"what\" freeform textbox to custom filter results. Now apparently they removed that too. At this point, I wasn't happy - so I decided to lo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-29/38-show-hn-i-brought-back-airbnb-categories.md"
     }
   ]
 }
