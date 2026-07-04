@@ -1,10 +1,163 @@
 {
-  "last_checked_at": "2026-07-03T07:55:37.802Z",
+  "last_checked_at": "2026-07-04T07:36:31.287Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "openclaw/clawsweeper",
+      "name": "openclaw/clawsweeper",
+      "url": "https://github.com/openclaw/clawsweeper",
+      "date": "2026-07-04",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 72,
+      "momentum": 100,
+      "risk": 22,
+      "integration_effort": 52,
+      "expected_gain": 77,
+      "composite": 77,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "AlexNthLab/nth-dao",
+          "date": "2026-06-12",
+          "topic": "AI dev tools",
+          "similarity": 0.249,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-04)",
+        "MIT license",
+        "1896 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "pnpm install",
+        "pnpm run build",
+        "pnpm run plan -- --target-repo openclaw/openclaw --batch-size 5 --shard-count 89 --max-pages 250 --codex-model internal --codex-reasoning-effort high",
+        "pnpm run review -- --target-repo openclaw/openclaw --target-dir ../openclaw --batch-size 5 --max-pages 250 --artifact-dir artifacts/reviews --codex-model internal --codex-reasoning-effort high --codex-timeout-ms 600000",
+        "pnpm run apply-artifacts -- --target-repo openclaw/openclaw --artifact-dir artifacts/reviews --skip-dashboard",
+        "pnpm run audit -- --target-repo openclaw/openclaw --max-pages 250 --sample-limit 25 --update-dashboard"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-12 about AI dev tools; this candidate overlaps with \"AlexNthLab/nth-dao\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-04/01-openclaw-clawsweeper.md"
+    },
+    {
+      "id": "alarming-japanesefloweringcherry987/claude-coach-kit",
+      "name": "Alarming-japanesefloweringcherry987/claude-coach-kit",
+      "url": "https://github.com/Alarming-japanesefloweringcherry987/claude-coach-kit",
+      "date": "2026-07-04",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 90,
+      "momentum": 49,
+      "risk": 43,
+      "integration_effort": 28,
+      "expected_gain": 79,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.186,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-04)",
+        "MIT license",
+        "1 GitHub stars",
+        "Matches 1 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @hello-pangea/dnd, @supabase/supabase-js, @tailwindcss/vite, @tanstack/react-query, @tiptap/extension-link, @tiptap/extension-placeholder, @tiptap/pm, @tiptap/react; scripts dev, build, lint, preview, format"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-04/02-alarming-japanesefloweringcherry987-claude-coach-kit.md"
+    },
+    {
+      "id": "ryannel/groundwork",
+      "name": "ryannel/GroundWork",
+      "url": "https://github.com/ryannel/GroundWork",
+      "date": "2026-07-04",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 46,
+      "expected_gain": 69,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [],
+      "pros": [
+        "Recently updated (2026-07-04)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps web-tree-sitter, yaml, @nx/devkit, @tree-sitter-grammars/tree-sitter-kotlin, @tree-sitter-grammars/tree-sitter-lua, @types/node, esbuild, nx; scripts test, build, build:dev-cli, gen:workflow-index, build:grammars, prepublishOnly"
+        }
+      ],
+      "install_commands": [
+        "npx groundwork-method init",
+        "npx groundwork-method check",
+        "npx groundwork-method help",
+        "npx groundwork-method repo-map"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "ryannel/GroundWork matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-04/03-ryannel-groundwork.md"
+    },
     {
       "id": "aterdev/perigon.cli",
       "name": "AterDev/Perigon.CLI",
