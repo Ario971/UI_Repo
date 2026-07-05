@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T07:36:14.962Z",
+  "updated_at": "2026-07-05T07:51:56.006Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Two-tier-memory – queryable long-term memory for AI coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/tadelstein9/two-tier-memory",
+      "date": "2026-07-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Two-tier-memory – queryable long-term memory for AI coding agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/06-show-hn-two-tier-memory-queryable-long-term-memory-for-ai-coding-agent.md"
+    },
+    {
+      "title": "superduperlarry/enosone",
+      "source": "GitHub Trending",
+      "url": "https://github.com/superduperlarry/enosone",
+      "date": "2026-07-05",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A consumer webapp that aggregates AI agents (same job as OpenClaw / Hermes Agent: bring any model, run agents in one workspace) but originates from payments: every agent gets working money under owner-defined control. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/07-superduperlarry-enosone.md"
+    },
+    {
+      "title": "Show HN: I trained a language model that thinks the capital of Japan is Paris",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://hamiltonianresearch.xyz/blog/hr-diffuse-1.html",
+      "date": "2026-07-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I trained a language model that thinks the capital of Japan is Paris (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/08-show-hn-i-trained-a-language-model-that-thinks-the-capital-of-japan-is.md"
+    },
+    {
+      "title": "Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.local-mcp.com/en",
+      "date": "2026-07-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I kept hitting the same wall: AI assistants are great until they need my context — the email thread, the calendar, the iMessage, the file on my disk. Cloud connectors can only reach things with a public API, so they physically can't touch the stuff that lives only on my machine. So I built Local MCP — a native macOS app that connects Claude Desktop, Claud... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/09-show-hn-local-mcp-claude-chatgpt-read-your-imessage-teams-files-on-dev.md"
+    },
+    {
+      "title": "Show HN: I built an encrypted BLE dongle for pasting stuff to air-gapped devices",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/Brisk4t/ToothPaste",
+      "date": "2026-07-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Definitely one of those \"20 minute adventure gone wrong\" projects where all I wanted initially was a quick wireless rubber ducky for bitlocker keys and the like and then I kept adding stuff like AES-256..... Currently working on adding WebAuthn/FIDO support because the hardware is already there and scope creep is a lifestyle at this point. Would love feed... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-04/10-show-hn-i-built-an-encrypted-ble-dongle-for-pasting-stuff-to-air-gappe.md"
+    },
+    {
+      "title": "opsvr-ai/game-workspace",
+      "source": "GitHub Search API",
+      "url": "https://github.com/opsvr-ai/game-workspace",
+      "date": "2026-07-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "陪玩工作室 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/11-opsvr-ai-game-workspace.md"
+    },
+    {
+      "title": "mnimtz/nimtaflow",
+      "source": "GitHub Search API",
+      "url": "https://github.com/mnimtz/nimtaflow",
+      "date": "2026-07-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Self-hosted, privacy-first photo & video manager — AI search, face recognition, map & 3D globe, memories, and a native iOS app. Your hardware, your data. AGPL-3.0. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/12-mnimtz-nimtaflow.md"
+    },
+    {
+      "title": "zhanjiyun/markflow",
+      "source": "GitHub Search API",
+      "url": "https://github.com/zhanjiyun/markflow",
+      "date": "2026-07-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "MarkFlow 是一个基于 Tauri v2 的跨平台 Markdown 编辑器，提供 Typora 式的体验，内置 AI 写作助手，所有数据完全本地存储。 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/13-zhanjiyun-markflow.md"
+    },
+    {
+      "title": "b9873",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9873",
+      "date": "2026-07-04",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "llama : add guard for K/V rotation input when buffer is unallocated (#25215) llm_graph_input_attn_kv::set_input and llm_graph_input_attn_kv_iswa::set_input call set_input_k_rot / set_input_v_rot whenever the rotation tensor pointer is non-null, but the tensor's buffer can be unallocated (NULL) when a graph only stores K/V without attending -- e.g. DFlash... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-04/14-b9873.md"
+    },
+    {
+      "title": "b9871",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9871",
+      "date": "2026-07-04",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ggml : fix broken CPU concat implementation for quantized types (#25247) * ggml : fix broken CPU concat implementation for quantized types * tests : concat tests for quantized types --------- Co-authored-by: Stanisław Szymczyk **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9871/llama-b9871-bin-macos... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-04/15-b9871.md"
+    },
+    {
+      "title": "b9870",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9870",
+      "date": "2026-07-03",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "chat: trim messages sent to StepFun parser (fixes long reasoning loops) (#25238) * chat: trim messages sent to StepFun parser (fixes long reasoning loops) * add regression test; remove duplicate template * chat: trim StepFun content parts before rendering The StepFun trim workaround ran on the already-rendered messages, where typed content parts have been... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-03/16-b9870.md"
+    },
+    {
+      "title": "b9867",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9867",
+      "date": "2026-07-03",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "spec: support spec-draft-p-min in DFlash (#25246) * spec: support spec-draft-p-min in DFlash * dflash: add n_min guard * dflash: guard both n_min and n_max **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9867/llama-b9867-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLE... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-03/17-b9867.md"
+    },
     {
       "title": "Distributed Attacks in Persistent-State AI Control",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "We’ve been using background Claude loops a lot recently, and we would wake up to PRs that didn’t solve the problem we wanted, made on assumptions that were wrong. Furthermore, the tests that the agents wrote were usually tautological, and didn’t test for intent. We wanted an agent that took all the context a company has, and writes tests that check for pr... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/73-show-hn-nua-an-agent-that-tests-for-product-correctness.md"
-    },
-    {
-      "title": "mikevillargr/TARS",
-      "source": "GitHub Search API",
-      "url": "https://github.com/mikevillargr/TARS",
-      "date": "2026-06-02",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Second Brain Personal Assistant (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/74-mikevillargr-tars.md"
-    },
-    {
-      "title": "linny006/awesome-agent-skills",
-      "source": "GitHub Search API",
-      "url": "https://github.com/linny006/awesome-agent-skills",
-      "date": "2026-06-02",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Curated, auto-updated awesome-list of vetted AI agent skills with quality ratings for Claude, GPT, a (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/75-linny006-awesome-agent-skills.md"
-    },
-    {
-      "title": "linny006/agent-eval-harness",
-      "source": "GitHub Search API",
-      "url": "https://github.com/linny006/agent-eval-harness",
-      "date": "2026-06-02",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Live, open-source benchmark for comparing AI coding agents on real GitHub issues (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/76-linny006-agent-eval-harness.md"
-    },
-    {
-      "title": "linny006/skills-tracker",
-      "source": "GitHub Search API",
-      "url": "https://github.com/linny006/skills-tracker",
-      "date": "2026-06-02",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Real-time tracking of every new GitHub 'skills' repo to capture the AI agent skill ecosystem trend (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/77-linny006-skills-tracker.md"
-    },
-    {
-      "title": "Stop asking what model to run. There are literally only two.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu82wi/stop_asking_what_model_to_run_there_are_literally/",
-      "date": "2026-06-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Can we please ban the daily \"I have an RTX 3060, what should I run?\" slop threads? It’s not complicated. As of right now, Hugging Face is empty and exactly two local models exist on this entire planet: Qwen 3.6 35b a3b Qwen 3.6 27b That is the entire list. Your specs don’t matter. Your use case doesn’t matter. Stop coping with your pristine, full-precisio... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-01/78-stop-asking-what-model-to-run-there-are-literally-only-two.md"
-    },
-    {
-      "title": "Intel Arc Pro B70 llama.cpp benchmarks posted",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuik6o/intel_arc_pro_b70_llamacpp_benchmarks_posted/",
-      "date": "2026-06-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://www.reddit.com/r/LocalLLM/comments/1tuf6l1/intel_arc_pro_b70_llamacpp_sycl_63_ts_on_qwen/ submitted by /u/jacek2023 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-02/79-intel-arc-pro-b70-llama-cpp-benchmarks-posted.md"
-    },
-    {
-      "title": "i dedicate this meme to you r/LocalLLaMA",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttu64m/i_dedicate_this_meme_to_you_rlocalllama/",
-      "date": "2026-06-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/LPFchan [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-01/80-i-dedicate-this-meme-to-you-r-localllama.md"
-    },
-    {
-      "title": "Man trains local model to detect and kill mosquitos with a laser",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuclzc/man_trains_local_model_to_detect_and_kill/",
-      "date": "2026-06-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Now this is local AI innovation we can all get behind. https://x.com/stevencheng/status/2059836738449854898 submitted by /u/No_Information9314 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-02/81-man-trains-local-model-to-detect-and-kill-mosquitos-with-a-laser.md"
-    },
-    {
-      "title": "Show HN: Deliberate – log what your agent rejected, not just what it ran",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.deliberate.dev/",
-      "date": "2026-05-31",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I'm building Deliberate in response to the PocketOS incident in April and the DataTalks.Club incident in February. Jer Crane could see the API call that deleted his prod volume. He couldn't see that the agent had other options and picked the worst one. Trace tools show you what ran. I wanted something that shows you what the agent was choosing between. Ea... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-31/58-show-hn-deliberate-log-what-your-agent-rejected-not-just-what-it-ran.md"
-    },
-    {
-      "title": "rutulraval/ai-coding-agents-autogen",
-      "source": "GitHub Trending",
-      "url": "https://github.com/rutulraval/ai-coding-agents-autogen",
-      "date": "2026-06-01",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "🤖 Hands-on Python demos for AI Coding Agents using AutoGen, MCP, Tavily & Gemini — practical patterns for building agentic AI workflows (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/59-rutulraval-ai-coding-agents-autogen.md"
-    },
-    {
-      "title": "Show HN: Breathe CLI – Paced resonance breathing in the macOS terminal",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/marekkowalczyk/breathe-cli",
-      "date": "2026-05-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I built a terminal app that paces slow breathing at 6 breaths per minute for vagal tone training. It's a single Python file, stdlib only, no dependencies — just run breathe and follow the bar. I'm a cardiology patient (HFrEF). Slow breathing at resonance frequency is one of the few non-pharmacological interventions shown to improve cardiac vagal tone and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-30/60-show-hn-breathe-cli-paced-resonance-breathing-in-the-macos-terminal.md"
-    },
-    {
-      "title": "Show HN: Open Envelope – an open schema for defining AI agent teams",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://openenvelope.org/docs/schema/",
-      "date": "2026-05-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Built an open JSON Schema for defining AI agent teams. Multi-agent systems are becoming a real deployment pattern — not single assistants, but teams with roles, handoffs, and human checkpoints. But there's no shared way to define one that travels across frameworks. Every implementation is scattered, locked to whichever tool you picked first. Built the sch... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/61-show-hn-open-envelope-an-open-schema-for-defining-ai-agent-teams.md"
     }
   ]
 }

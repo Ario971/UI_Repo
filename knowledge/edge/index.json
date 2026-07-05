@@ -1,10 +1,216 @@
 {
-  "last_checked_at": "2026-07-04T07:36:31.287Z",
+  "last_checked_at": "2026-07-05T07:52:26.138Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "getty104/claude-task-worker",
+      "name": "getty104/claude-task-worker",
+      "url": "https://github.com/getty104/claude-task-worker",
+      "date": "2026-07-05",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 92,
+      "momentum": 55,
+      "risk": 24,
+      "integration_effort": 48,
+      "expected_gain": 77,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.37,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "AlexNthLab/nth-dao",
+          "date": "2026-06-12",
+          "topic": "AI dev tools",
+          "similarity": 0.309,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
+        },
+        {
+          "title": "llm011/ethan-agent",
+          "date": "2026-06-20",
+          "topic": "AI dev tools",
+          "similarity": 0.289,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-05)",
+        "MIT license",
+        "2 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Repository description is sparse"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @eslint/js, @types/node, esbuild, eslint, eslint-config-prettier, prettier, typescript, typescript-eslint; scripts build, dev, lint, lint:fix, format, format:check, prepublishOnly"
+        }
+      ],
+      "install_commands": [
+        "npx claude-task-worker install",
+        "npm install -g claude-task-worker",
+        "npm install",
+        "npm run build",
+        "npm link",
+        "claude plugin marketplace add getty104/claude-task-worker"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-05/01-getty104-claude-task-worker.md"
+    },
+    {
+      "id": "buihongduc132/pi-acp-agents",
+      "name": "buihongduc132/pi-acp-agents",
+      "url": "https://github.com/buihongduc132/pi-acp-agents",
+      "date": "2026-07-05",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 58,
+      "risk": 40,
+      "integration_effort": 48,
+      "expected_gain": 77,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+          "date": "2026-06-04",
+          "topic": "AI agents",
+          "similarity": 0.307,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
+        },
+        {
+          "title": "Show HN: AMA2, messenger built for AI agent",
+          "date": "2026-06-30",
+          "topic": "AI agents",
+          "similarity": 0.294,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"
+        },
+        {
+          "title": "greetingromansoldier/agora-perp-agent",
+          "date": "2026-06-13",
+          "topic": "AI agents",
+          "similarity": 0.287,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-13/06-greetingromansoldier-agora-perp-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-05)",
+        "MIT license",
+        "4 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @agentclientprotocol/sdk, pi-acp-types, @mariozechner/pi-coding-agent, @mariozechner/pi-tui, @types/node, @vitest/coverage-v8, typebox, typescript; scripts test, test:ci, test:watch, typecheck, prepublishOnly, prepack, postpack, version"
+        }
+      ],
+      "install_commands": [
+        "npm install @buihongduc132/pi-acp-agents",
+        "npm install",
+        "npm test              # all tests",
+        "npm run test:ci       # with coverage",
+        "npm run typecheck     # TypeScript validation",
+        "npm run publish:dry   # verify package contents before publish"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-04 about AI agents; this candidate overlaps with \"Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-05/02-buihongduc132-pi-acp-agents.md"
+    },
+    {
+      "id": "anywhere-labs/agents-anywhere",
+      "name": "anywhere-labs/Agents-Anywhere",
+      "url": "https://github.com/anywhere-labs/Agents-Anywhere",
+      "date": "2026-07-05",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 85,
+      "momentum": 90,
+      "risk": 61,
+      "integration_effort": 53,
+      "expected_gain": 77,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "AlexNthLab/nth-dao",
+          "date": "2026-06-12",
+          "topic": "AI dev tools",
+          "similarity": 0.317,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
+        },
+        {
+          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+          "date": "2026-06-04",
+          "topic": "AI agents",
+          "similarity": 0.316,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
+        },
+        {
+          "title": "superduperlarry/enosone",
+          "date": "2026-07-05",
+          "topic": "AI agents",
+          "similarity": 0.308,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/07-superduperlarry-enosone.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-05)",
+        "307 GitHub stars",
+        "README includes install commands",
+        "Matches 3 saved Feed article(s)"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "Risk score is elevated; inspect install scripts carefully",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 2,
+      "dependency_files": [],
+      "install_commands": [
+        "docker/      Development, production, and PostgreSQL compose deployment files",
+        "docker compose -f docker/docker-compose.postgres.yml up --build"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-12 about AI dev tools; this candidate overlaps with \"AlexNthLab/nth-dao\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-05/03-anywhere-labs-agents-anywhere.md"
+    },
     {
       "id": "openclaw/clawsweeper",
       "name": "openclaw/clawsweeper",
