@@ -1,10 +1,207 @@
 {
-  "last_checked_at": "2026-07-05T07:52:26.138Z",
+  "last_checked_at": "2026-07-06T08:55:04.418Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "kvcache-ai/mooncake",
+      "name": "kvcache-ai/Mooncake",
+      "url": "https://github.com/kvcache-ai/Mooncake",
+      "date": "2026-07-06",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 72,
+      "momentum": 100,
+      "risk": 30,
+      "integration_effort": 44,
+      "expected_gain": 77,
+      "composite": 77,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Local LLM Inference Optimization: The Complete Guide",
+          "date": "2026-06-21",
+          "topic": "Local LLMs",
+          "similarity": 0.202,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-21/15-local-llm-inference-optimization-the-complete-guide.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-06)",
+        "Apache-2.0 license",
+        "5755 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "requirements.txt",
+          "summary": "deps pre-commit==3.7.1, ruff==0.6.9, codespell==2.2.6, cmake-format==0.6.13"
+        }
+      ],
+      "install_commands": [
+        "pip install mooncake-transfer-engine",
+        "pip install mooncake-transfer-engine-cuda13"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-21 about Local LLMs; this candidate overlaps with \"Local LLM Inference Optimization: The Complete Guide\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-06/01-kvcache-ai-mooncake.md"
+    },
+    {
+      "id": "jolliai/jolliai",
+      "name": "jolliai/jolliai",
+      "url": "https://github.com/jolliai/jolliai",
+      "date": "2026-07-06",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 84,
+      "momentum": 83,
+      "risk": 32,
+      "integration_effort": 40,
+      "expected_gain": 77,
+      "composite": 76,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Two-tier-memory – queryable long-term memory for AI coding agents",
+          "date": "2026-07-05",
+          "topic": "AI agents",
+          "similarity": 0.243,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/06-show-hn-two-tier-memory-queryable-long-term-memory-for-ai-coding-agent.md"
+        },
+        {
+          "title": "sciencebanda09/nexus-multiagent",
+          "date": "2026-06-23",
+          "topic": "AI dev tools",
+          "similarity": 0.224,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
+        },
+        {
+          "title": "Show HN: Deep Memory – Vocabulary-driven graph memory for AI agents",
+          "date": "2026-06-09",
+          "topic": "AI agents",
+          "similarity": 0.203,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/57-show-hn-deep-memory-vocabulary-driven-graph-memory-for-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-06)",
+        "Apache-2.0 license",
+        "104 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts build, build:cli, build:vscode, typecheck, typecheck:cli, typecheck:vscode, lint, lint:cli"
+        }
+      ],
+      "install_commands": [
+        "npm install -g @jolli.ai/site-cli",
+        "npm install",
+        "npm run build        # builds both CLI and VS Code",
+        "npm run typecheck",
+        "npm run lint",
+        "npm run test"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-05 about AI agents; this candidate overlaps with \"Show HN: Two-tier-memory – queryable long-term memory for AI coding agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-06/02-jolliai-jolliai.md"
+    },
+    {
+      "id": "dollardill/beads-superpowers",
+      "name": "DollarDill/beads-superpowers",
+      "url": "https://github.com/DollarDill/beads-superpowers",
+      "date": "2026-07-06",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 84,
+      "momentum": 62,
+      "risk": 40,
+      "integration_effort": 48,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+          "date": "2026-06-04",
+          "topic": "AI agents",
+          "similarity": 0.426,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
+        },
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.331,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "LuD1161/agentjail",
+          "date": "2026-06-23",
+          "topic": "AI dev tools",
+          "similarity": 0.331,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-06)",
+        "MIT license",
+        "16 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README includes remote script execution pattern",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts none"
+        }
+      ],
+      "install_commands": [
+        "claude plugin marketplace add DollarDill/beads-superpowers",
+        "claude plugin install beads-superpowers@beads-superpowers-marketplace",
+        "codex plugin marketplace add DollarDill/beads-superpowers",
+        "codex plugin install beads-superpowers@beads-superpowers-marketplace",
+        "npx skills add DollarDill/beads-superpowers -g --copy -y",
+        "npm install -g @beads/bd"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-04 about AI agents; this candidate overlaps with \"Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-06/03-dollardill-beads-superpowers.md"
+    },
     {
       "id": "getty104/claude-task-worker",
       "name": "getty104/claude-task-worker",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T07:51:56.006Z",
+  "updated_at": "2026-07-06T08:54:23.991Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Make No Mistakes – AI coding agents must prove their work",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/momomuchu/make-no-mistakes",
+      "date": "2026-07-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Make No Mistakes – AI coding agents must prove their work (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/06-show-hn-make-no-mistakes-ai-coding-agents-must-prove-their-work.md"
+    },
+    {
+      "title": "taipei49314/TradingAgents-TW",
+      "source": "GitHub Trending",
+      "url": "https://github.com/taipei49314/TradingAgents-TW",
+      "date": "2026-07-06",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Taiwan TradingAgents paper trading research system (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/07-taipei49314-tradingagents-tw.md"
+    },
+    {
+      "title": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://homegames.io",
+      "date": "2026-07-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'm making a platform for simple open source games you can play anywhere. Games are all just JavaScript classes and you can read the source of every game on the platform. I started working on initial \"games\" (mostly rendering tests) in 2018 and eventually built all of the platform stuff around it to make it easy to share games. There's also an in-browser... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/08-show-hn-homegames-an-open-source-game-platform-i-ve-been-making-for-8-.md"
+    },
+    {
+      "title": "Show HN: Osint tool that finds exposed files on domains",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://search.cerast-intelligence.com/",
+      "date": "2026-07-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "hey guys, wanted to show one of my side projects i just made public. the idea is basically another osint tool for pentesters and bug bounty hunters. it watches certificate transparency logs and checks newly-seen domains for exposed stuff like .env files, open .git dirs, config files, db dumps and so on, and puts whatever it finds into a searchable db. you... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/09-show-hn-osint-tool-that-finds-exposed-files-on-domains.md"
+    },
+    {
+      "title": "Show HN: I hated how much my 12-year-old played Roblox, so we built our own FPS",
+      "source": "Hacker News Show HN",
+      "url": "https://cooked.house",
+      "date": "2026-07-05",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I'm a father of two, 7 and 12. They are obsessed with Roblox, especially Rivals. Like a lot of parents, we did not love it. We tried the usual things: block it, limit it, set timers.\" It became a daily battle, a lose-lose situation. So I flipped the problem. Instead of fighting what they loved, I decided to lean into it, but with a twist. Why just play an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/10-show-hn-i-hated-how-much-my-12-year-old-played-roblox-so-we-built-our-.md"
+    },
+    {
+      "title": "Show HN: KiCad in the Browser",
+      "source": "Hacker News Show HN",
+      "url": "https://demo.pcbjam.com/",
+      "date": "2026-07-05",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "KiCad, a PCB EDA suite is now working in a browser, you can try it at the link, there's a demo project or you can bring your own. Firefox is best, Chrome is good, Safari is \"working\". We’re Emergence Engineering, a dev shop from Hungary, mostly working with rich text editors, CRDTs. PCBJam started as my (Viktor, CTO, ex-electrical engineer) hobby project... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/11-show-hn-kicad-in-the-browser.md"
+    },
+    {
+      "title": "Show HN: An unmetered LLM API–$6/month, no token tracking, no limits",
+      "source": "Hacker News Show HN",
+      "url": "https://yolo-auto.com/",
+      "date": "2026-07-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I was once given the advice: Don't waste expensive frontier model credits (GPT/Claude/etc.) on bulk work. Send the boring, repetitive, high-volume jobs to a smaller model, and save the expensive prompts for when you actually need frontier-level reasoning. I complained and told my manager that I shouldnt have to think about using certain models for... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-06/12-show-hn-an-unmetered-llm-api-6-month-no-token-tracking-no-limits.md"
+    },
+    {
+      "title": "Show HN: Logo Design for Busy Founders",
+      "source": "Hacker News Show HN",
+      "url": "https://iconicity.cc",
+      "date": "2026-07-05",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "General purpose illustration tools like adobe illustrator or affinity have a great amount of flexibility but come at the cost of complexity that isn't needed for a logo design tool. So I trimmed down the fat to a minimal set of 10 tools acting on a logo grid, when combined together makes it easy to build quite a surprising variety of logo marks pretty fas... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/13-show-hn-logo-design-for-busy-founders.md"
+    },
+    {
+      "title": "I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/",
+      "date": "2026-07-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads — prefill dominates everything, and KV head count beats parameter count I've been running local LLMs for agentic workflows (tool use, coding agents, RAG) and kept seeing people obsess over tg128 (token generation speed) as the headline performance metric. S... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-05/14-i-benchmarked-13-models-at-65k-128k-context-to-find-out-what-actually-.md"
+    },
+    {
+      "title": "Best Local VLMs - July 2026",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoalfq/best_local_vlms_july_2026/",
+      "date": "2026-07-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Share what your favorite models are right now and why . Given the nature of the beast in evaluating VLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in describing your setup (at least hardware and inference engine) nature of your usage (what applications, how much, personal/professional u... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-05/15-best-local-vlms-july-2026.md"
+    },
+    {
+      "title": "As promised, here is the GitHub link for my 100% local voice-to-voice assistant",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uom9zb/as_promised_here_is_the_github_link_for_my_100/",
+      "date": "2026-07-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've posted up earlier versions of this project before, promising a GitHub link, but never got around to pushing the code from my local system. Sorry all, I have a very busy life :P Anyway, without further ado: GitHub: https://github.com/igorbarshteyn/athena Athena is a fully offline, privacy-first voice assistant that runs entirely on local hardware. Ath... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-06/16-as-promised-here-is-the-github-link-for-my-100-local-voice-to-voice-as.md"
+    },
+    {
+      "title": "I developed a 270 million parameter language model entirely from scratch as an independent research project",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoauvk/i_developed_a_270_million_parameter_language/",
+      "date": "2026-07-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The model is built on a custom Transformer architecture featuring Rotary Positional Embeddings, RMSNorm, SwiGLU feed forward layers, grouped query attention, and an efficient autoregressive decoder optimized for local inference. Here is the Huggingface Spaces Demo link - https://huggingface.co/spaces/pranavupadhyaya52/WikiSmartBot For anyone interested in... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-05/17-i-developed-a-270-million-parameter-language-model-entirely-from-scrat.md"
+    },
     {
       "title": "Show HN: Two-tier-memory – queryable long-term memory for AI coding agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "RoyianChow/agentrx-ai-pharmacist-agents Stars: 0 (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-03/85-royianchow-agentrx-ai-pharmacist-agents.md"
-    },
-    {
-      "title": "Show HN: Phive, a Gomoku-like game to play with friends or solo",
-      "source": "Hacker News Show HN",
-      "url": "https://phive.app",
-      "date": "2026-05-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "In 2025, my family and I had a long streak of playing a Gomoku / Go Bang / five-in-a-row based game called OK Play. I built a web version so that we could play any time we wanted (i.e. on our phones after kiddos went to sleep). The first player to get five-in-a-row (horizontally, vertically, or diagonally) wins. In the first phase of play, players take tu... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/86-show-hn-phive-a-gomoku-like-game-to-play-with-friends-or-solo.md"
-    },
-    {
-      "title": "Show HN: RePlaya – self-hosted browser session replay with live tailing",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/s2-streamstore/replaya",
-      "date": "2026-06-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm one of the founders of s2.dev. RePlaya ( https://github.com/s2-streamstore/replaya ) is a self-hosted browser session replay tool using rrweb ( https://github.com/rrweb-io/rrweb ). It occurred to me that a durable stream per session would be a much neater architectural foundation for much of what you'd want from such a tool. As a unique feature... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/87-show-hn-replaya-self-hosted-browser-session-replay-with-live-tailing.md"
-    },
-    {
-      "title": "Show HN: Build Your Own AI Agent CLI in 150 Lines",
-      "source": "Hacker News Show HN",
-      "url": "https://go-micro.dev/blog/11",
-      "date": "2026-06-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I can't tell if HN is the right kind of place for this stuff anymore since people are so advanced in their use but I thought it was interesting to leverage my existing Go microservices framework and turn it into the core of what would provide tools for an agent cli or whatever beyond that. Extensibility is key. Thought I'd share and get a conversation going. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/88-show-hn-build-your-own-ai-agent-cli-in-150-lines.md"
-    },
-    {
-      "title": "Show HN: AI-Powered PDF to Markdown Converter",
-      "source": "Hacker News Show HN",
-      "url": "https://pdftomdconverter.com",
-      "date": "2026-06-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Turn complex PDFs into clean Markdown that people can review and AI tools can use. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-03/89-show-hn-ai-powered-pdf-to-markdown-converter.md"
-    },
-    {
-      "title": "Benchmarks of 20 small LLMs on a 6GB RTX 4050",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuvs6l/benchmarks_of_20_small_llms_on_a_6gb_rtx_4050/",
-      "date": "2026-06-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I'm looking for models that can run on my GPU and actually do something useful. I think that any small difference could be a \"big\" improvement, because they are all so small. So I went to the LM studio database and searched many variants from the same family, trying to select the newer models. Then asked claude to select known benchmarks and then run some... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-02/90-benchmarks-of-20-small-llms-on-a-6gb-rtx-4050.md"
-    },
-    {
-      "title": "Calling it now Microsoft is buying Unsloth.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvhv4b/calling_it_now_microsoft_is_buying_unsloth/",
-      "date": "2026-06-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I am going to be honest, I am leery of this new partnership with Unsloth. Microsoft historically hated open source, and this will not benefit the community in the end. It will look great at first. They will drop updates, play nice, and everyone will celebrate. But if you have been around the block, you know exactly how this play ends. Microsoft spent deca... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-03/91-calling-it-now-microsoft-is-buying-unsloth.md"
-    },
-    {
-      "title": "Microsoft Aion 1.0 Instruct and Aion 1.0 Plan models!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvekng/microsoft_aion_10_instruct_and_aion_10_plan_models/",
-      "date": "2026-06-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Microsoft announced 2 new on-device models at Microsoft Build 2026. Aion 1.0 Instruct: efficiency at scale. Aion 1.0 Instruct is our next-generation small language model, smaller, faster and more efficient than our current Windows OS SLM. Designed from the ground up for on-device workloads, Aion 1.0 Instruct powers everyday text intelligence (summarizatio... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-03/92-microsoft-aion-1-0-instruct-and-aion-1-0-plan-models.md"
-    },
-    {
-      "title": "Minimax M3 appears to have no political censorship",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuv1sv/minimax_m3_appears_to_have_no_political_censorship/",
-      "date": "2026-06-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I'm currently working on a chinese/CCP AI bias benchmark, and this has stood out as an outlier. All the other Minimax models are censored as is typical for chinese LLMs. submitted by /u/DingyAtoll [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-02/93-minimax-m3-appears-to-have-no-political-censorship.md"
-    },
-    {
-      "title": "Show HN: DepsGuard – One command to harden NPM/pnpm/yarn/bun/uv configs",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/arnica/depsguard",
-      "date": "2026-06-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I kept seeing every npm/pnpm/yarn/bun/uv supply chain post end with the same advice (set a minimum release age, turn off install scripts), and while I know cooldowns are \"controversial\", they do work. But even if you convince people that they should set cooldowns, it seems many don't end up following through, not sure why, maybe because it means hand-edit... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/70-show-hn-depsguard-one-command-to-harden-npm-pnpm-yarn-bun-uv-configs.md"
-    },
-    {
-      "title": "Show HN: Viveka: filter LLM output against a Lean-verified Advaita Vedanta model",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/SpecStudio-net/Viveka",
-      "date": "2026-06-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Viveka: filter LLM output against a Lean-verified Advaita Vedanta model (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/71-show-hn-viveka-filter-llm-output-against-a-lean-verified-advaita-vedan.md"
-    },
-    {
-      "title": "Show HN: Textile – A desktop app for weaving together bits of text",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.gettextile.app",
-      "date": "2026-06-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi all, I'm excited to show off Textile, a desktop app I recently built. Textile can combine bits of text using various inputs, such as commands on your computer, the contents of your clipboard, and hard-coded strings that you provide. It lets you carefully build up and modify a dynamic string, step by step, until it's exactly how you need it. The saved s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/72-show-hn-textile-a-desktop-app-for-weaving-together-bits-of-text.md"
-    },
-    {
-      "title": "Show HN: NUA an agent that tests for product correctness",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://trynua.dev/",
-      "date": "2026-06-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We’ve been using background Claude loops a lot recently, and we would wake up to PRs that didn’t solve the problem we wanted, made on assumptions that were wrong. Furthermore, the tests that the agents wrote were usually tautological, and didn’t test for intent. We wanted an agent that took all the context a company has, and writes tests that check for pr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/73-show-hn-nua-an-agent-that-tests-for-product-correctness.md"
     }
   ]
 }
