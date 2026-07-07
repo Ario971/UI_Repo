@@ -1,0 +1,12 @@
+---
+title: "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1upjgqs/update_i_built_a_tool_to_turn_your_claude_code/"
+date: "2026-07-07"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "A few days ago I shared this resource I created to convert your Claude Code sessions into training data (Thank you so much for all the support :D ): Original Post Today I'm sharing that I just released version 1.5.0, which now supports converting your Claude Code, Codex, and Pi sessions. It also includes a unified API. Here are some examples: Claude Code... (Local summary fallback used.)"
+---
+
+A few days ago I shared this resource I created to convert your Claude Code sessions into training data (Thank you so much for all the support :D ): Original Post Today I'm sharing that I just released version 1.5.0, which now supports converting your Claude Code, Codex, and Pi sessions. It also includes a unified API. Here are some examples: Claude Code from claude_converter import Converter from huggingface_hub import hf_hub_download converter = Converter() hf_hub_download(repo_id="armand0e/claude-fable-5-claude-code", filename="06ec42c3-2184-40c5-b0ee-98c3235b4c4c.jsonl", repo_type="dataset", local_dir=".") converter.inspect_session("06ec42c3-2184-40c5-b0ee-98c3235b4c4c.jsonl") Codex from claude_converter import Converter from huggingface_hub import hf_hub_download converter = Converter(converter="codex") hf_hub_download(repo_id="AletheiaResearch/GPT-5.5-Codex", filename="rollout-2026-06-22T08-33-58-019eee77-052d-7530-af09-17a140e08123.jsonl", repo_type="dataset", local_dir=".") converter.inspect_session("rollout-2026-06-22T08-33-58-019eee77-052d-7530-af09-17a140e08123.jsonl") Pi from claude_converter import Converter from huggingface_hub import hf_hub_download converter = Converter(converter="pi") hf_hub_download(repo_id="armand0e/claude-opus-4.8-pi-traces", filename="2026-06-07T00-07-46-038Z_019e9f68-3075-7136-b429-c6b2c871ed67.jsonl", repo_type="dataset", local_dir=".") converter.inspect_session("2026-06-07T00-07-46-038Z_019e9f68-3075-7136-b429-c6b2c871ed67.jsonl") Here is the release in more detail: Claude-Converter-v1.5.0 Thank you so much in advance for all your support, I hope this tool is very helpful to you :D submitted by /u/F4k3r22 [link] [comments]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T08:54:23.991Z",
+  "updated_at": "2026-07-07T08:14:12.065Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Scan your AI agents for dangerous capabilities",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/makerchecker/MakerChecker",
+      "date": "2026-07-06",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Scan your AI agents for dangerous capabilities (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/06-show-hn-scan-your-ai-agents-for-dangerous-capabilities.md"
+    },
+    {
+      "title": "Agent Data Injection Attacks are Realistic Threats to AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.05120v1",
+      "date": "2026-07-06",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents act on behalf of user prompts, consuming external data and taking actions based on the agent context. Prior research on AI agent security has primarily focused on indirect prompt injection (IPI). Its most well-studied category is instruction injection, where attacker-controlled untrusted data is interpreted as an instruction. In response, many m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/07-agent-data-injection-attacks-are-realistic-threats-to-ai-agents.md"
+    },
+    {
+      "title": "Using Process Mining to Generate AI Agents from Software Engineering Process Records",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.04948v1",
+      "date": "2026-07-06",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Integrating AI agents into Software Engineering (SE) raises an important challenge: how can we specify and realize AI agents that work effectively alongside humans in hybrid SE teams? Determining the right granularity and separation of concerns for such agents is non-trivial. Coarse-grained agents may introduce unmanageable complexity, whereas micro-agent... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/08-using-process-mining-to-generate-ai-agents-from-software-engineering-p.md"
+    },
+    {
+      "title": "Strategic Buying Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.04708v1",
+      "date": "2026-07-06",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Agentic AI is shifting online shopping from search toward delegated purchasing, where autonomous buying agents monitor markets and decide when to buy on a consumer's behalf. We study the design of such strategic buying agents, which must decide when to purchase within a finite shopping window, translating price observations, the remaining time horizon, an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/09-strategic-buying-agents.md"
+    },
+    {
+      "title": "ayankhanbebea-lgtm/PDFAIHUB",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ayankhanbebea-lgtm/PDFAIHUB",
+      "date": "2026-07-07",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "An all-in-one AI PDF platform featuring PDF editing tools, AI document analysis, Google OAuth, Stripe payments, and a modern Next.js interface. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-07/10-ayankhanbebea-lgtm-pdfaihub.md"
+    },
+    {
+      "title": "Show HN: Nectar, a Rust-like React that compiles to WebAssembly",
+      "source": "Hacker News Show HN",
+      "url": "https://buildnectar.com",
+      "date": "2026-07-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "After a pretty rough gig experience, I wanted to remind myself that I was a vaguely capable developer. I had recently jumped on the Rust train and wanted a Rust equivalent of React that is more performant and easier to work with. I also wondered if I could effectively eject Javascript. This project came from that... Nectar is a programming language that c... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-06/11-show-hn-nectar-a-rust-like-react-that-compiles-to-webassembly.md"
+    },
+    {
+      "title": "Jul 6, 2026 · company CFOs and the new economics of AI Jordan Topoleski 4m Jordan Topoleski · 4m",
+      "source": "Cursor Blog",
+      "url": "https://cursor.com/blog/cfo-council",
+      "date": "2026-07-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Jul 6, 2026 · company CFOs and the new economics of AI Jordan Topoleski 4m Jordan Topoleski · 4m (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-06/12-jul-6-2026-company-cfos-and-the-new-economics-of-ai-jordan-topoleski-4.md"
+    },
+    {
+      "title": "OpenBox-AI/openbox-langchain-sdk-ts",
+      "source": "GitHub Search API",
+      "url": "https://github.com/OpenBox-AI/openbox-langchain-sdk-ts",
+      "date": "2026-07-07",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "OpenBox-AI/openbox-langchain-sdk-ts Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-07/13-openbox-ai-openbox-langchain-sdk-ts.md"
+    },
+    {
+      "title": "Prefill vs. decoding and local LLM ROI: is prefill underrated?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up9054/prefill_vs_decoding_and_local_llm_roi_is_prefill/",
+      "date": "2026-07-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I'm trying to understand why, when people discuss the ROI of running LLMs locally, they almost always focus on output speed (decoding) and rarely on input speed (prefill), which seems like it could have a significant impact on hardware ROI. Yesterday I saw a post on X where someone was running GLM 5.2 on 4 NVIDIA DGX Spark (4bit, speculative decoding, and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-06/14-prefill-vs-decoding-and-local-llm-roi-is-prefill-underrated.md"
+    },
+    {
+      "title": "HuggingBay",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upmvb3/huggingbay/",
+      "date": "2026-07-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Someone saw the [meme]( https://old.reddit.com/r/LocalLLaMA/comments/1uht2m0/were\\_probably\\_going\\_to\\_need\\_that\\_soon/ ) and built it. submitted by /u/zxyzyxz [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/15-huggingbay.md"
+    },
+    {
+      "title": "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upjgqs/update_i_built_a_tool_to_turn_your_claude_code/",
+      "date": "2026-07-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "A few days ago I shared this resource I created to convert your Claude Code sessions into training data (Thank you so much for all the support :D ): Original Post Today I'm sharing that I just released version 1.5.0, which now supports converting your Claude Code, Codex, and Pi sessions. It also includes a unified API. Here are some examples: Claude Code... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/16-update-i-built-a-tool-to-turn-your-claude-code-sessions-into-fine-tuni.md"
+    },
+    {
+      "title": "Qwen3.6-27B: NVFP4/FP8 agent loops vs flawless BF16. Config or quant issue?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uplzs7/qwen3627b_nvfp4fp8_agent_loops_vs_flawless_bf16/",
+      "date": "2026-07-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I'm trying to determine if I'm dealing with a misconfiguration in my stack or if this is an inherent limitation of current quantization methods for agentic workflows. I recently set up a dedicated rig with an RTX PRO 6000 Blackwell and have been benchmarking Qwen3.6-27B , but I'm hitting severe reliability issues with quantized models that do... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/17-qwen3-6-27b-nvfp4-fp8-agent-loops-vs-flawless-bf16-config-or-quant-iss.md"
+    },
     {
       "title": "Show HN: Make No Mistakes – AI coding agents must prove their work",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Nisrine and I have been working in the same company for many years (she's Head of Product, I am CPTO) and we have done great things for our employer(s) all along. But we always wondered if we could launch our own app – after all, we know the process of it all, we just \"never had the time\". The idea started from a random conversation, after Nisrine told me... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/97-show-hn-an-ai-app-that-settles-small-couple-arguments.md"
-    },
-    {
-      "title": "w932635477-bit/aicalc",
-      "source": "GitHub Search API",
-      "url": "https://github.com/w932635477-bit/aicalc",
-      "date": "2026-06-04",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Free AI developer tools — 21 privacy-first utilities for LLM pricing, token counting, cron generation, CSP headers, PII redaction and more. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-04/98-w932635477-bit-aicalc.md"
-    },
-    {
-      "title": "praveen66ai-66/AGENTIC-_AI_RAG",
-      "source": "GitHub Search API",
-      "url": "https://github.com/praveen66ai-66/AGENTIC-_AI_RAG",
-      "date": "2026-06-04",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "praveen66ai-66/AGENTIC-_AI_RAG Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-04/99-praveen66ai-66-agentic-ai-rag.md"
-    },
-    {
-      "title": "Show HN: Live breath detection and biofeedback from a phone microphone",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/shiihaa-app/shiihaa-breath-detection",
-      "date": "2026-06-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, I am Felix, a famliy doctor from ZH, Switzerland. A couple of month ago I started this little project called shii • haa, a breathing app that uses the phone`s microphone for live biofeedback My prior work in emergency medicine and intensive care was closesly linked to breathing, mostly in critical situations... and let me to reevaluate my own... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/01-show-hn-live-breath-detection-and-biofeedback-from-a-phone-microphone.md"
-    },
-    {
-      "title": "Show HN: Solving complex optimization problems with Google OR-Tools in browser",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Axelwickm/or-tools-wasm",
-      "date": "2026-06-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Solving complex optimization problems with Google OR-Tools in browser (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-03/02-show-hn-solving-complex-optimization-problems-with-google-or-tools-in-.md"
-    },
-    {
-      "title": "New Google Gemma 4 12B Claims Near-26B Performance - We Tested Both!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tw4tmf/new_google_gemma_4_12b_claims_near26b_performance/",
-      "date": "2026-06-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "We ran both models locally on one RTX 4090 and gave each the same task: write a self-contained HTML5 canvas animation with real physics in one file without libraries. Three scenes - a Galton board, two blocks colliding off a wall, and a chaotic triple pendulum Outputs: Gemma 4 26B-A4B: 15 GB VRAM usage, 6.9k tokens, 138 tok/s Gemma 4 12B: 9 GB VRAM usage,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-03/03-new-google-gemma-4-12b-claims-near-26b-performance-we-tested-both.md"
-    },
-    {
-      "title": "google/gemma-4-12B · Hugging Face",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvtn6m/googlegemma412b_hugging_face/",
-      "date": "2026-06-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on E2B, E4B, and 12B) and generating text output. This release includes open-weights models in both pre-trained and instruction-tuned variants. Gemma 4 features a context window of up to 256K tokens and maintains mu... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-03/04-google-gemma-4-12b-hugging-face.md"
-    },
-    {
-      "title": "Gemma 4 12b 8Q Heretic Oneshot Coding",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twelo6/gemma_4_12b_8q_heretic_oneshot_coding/",
-      "date": "2026-06-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I was pretty impressed with the Gemma 4 12b release today and saw that the heretic version dropped. I was already getting refusals from the 8Q official model and decided to see how the heretic did oneshotting a retro game. It did so with ease. The single prompt start to finish ate 45k tokens total. Hardware Stack: Ryzen 9 9950X + AMD RX 6800 (16GB VRAM) v... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/05-gemma-4-12b-8q-heretic-oneshot-coding.md"
-    },
-    {
-      "title": "Ideal Local model technically possible?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twfmnw/ideal_local_model_technically_possible/",
-      "date": "2026-06-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Now that we have some great local models that can possibly run in mid-tier GPUs.. it makes me question, maybe companies have the capability to make much better models that are as small? Like, I am imagining a model that is as good as coding like Qwen3.6 27b and at the same time as good as Gemma 4 12b at languages and other stuff, at just say 30-32b dense.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/06-ideal-local-model-technically-possible.md"
-    },
-    {
-      "title": "Show HN: MetaBrain – A local document memory for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://metabrain.eu",
-      "date": "2026-06-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello there HN I experimented with agentic coding recently and I felt the need to track more contextual data by project. Also I felt the need to be able to go beyond the 1D chat to communicate with agents. So I created a local document memory, that is discoverable by agents themselves. The CLI is designed to be easy to pick up by agents. It allows humans... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/82-show-hn-metabrain-a-local-document-memory-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Clor – give your agent claws",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://clor.com/",
-      "date": "2026-06-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "At my last job I spent a year building an agentic coding platform used by hundreds of thousands of people. Along the way I tried building a hosting service on OpenClaw, and also ran Hermes myself for a while. Both projects have some great feature ideas, but when I tried to use them for real work they failed more often than not, and their security models w... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/83-show-hn-clor-give-your-agent-claws.md"
-    },
-    {
-      "title": "Show HN: I built an on-chain economy where AI agents transact autonomously",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://agtchain.io/",
-      "date": "2026-06-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: I built an on-chain economy where AI agents transact autonomously (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/84-show-hn-i-built-an-on-chain-economy-where-ai-agents-transact-autonomou.md"
-    },
-    {
-      "title": "RoyianChow/agentrx-ai-pharmacist-agents",
-      "source": "GitHub Trending",
-      "url": "https://github.com/RoyianChow/agentrx-ai-pharmacist-agents",
-      "date": "2026-06-03",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "RoyianChow/agentrx-ai-pharmacist-agents Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-03/85-royianchow-agentrx-ai-pharmacist-agents.md"
     }
   ]
 }
