@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T08:14:12.065Z",
+  "updated_at": "2026-07-08T07:22:30.150Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Free Mermaid Diagram Editor",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://moxiedocs.com/mermaid-diagram-editor",
+      "date": "2026-07-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I've been slowly adding some new free tools to Moxie Docs (partly for SEO, partly to illustrate some of our feature sets before any commitment) for some reason this mermaid editor one blew up on Google rankings so I figured I'd share in case people find it useful! We also have ADR, AGENTS.md, LLMs, and a few other free tools. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-07/06-show-hn-free-mermaid-diagram-editor.md"
+    },
+    {
+      "title": "Show HN: Halo – open-source, tamper-evident runtime evidence for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/bkuan001/halo-record",
+      "date": "2026-07-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm Brian, I spent the last few years at Vanta (YC W18), helping startups and enterprises become compliant and I recently started exploring what that might look like in a post-agentic world. The problem Halo solves is: when a company buys an AI agent from a vendor and gives it access to their data, they have no way to check what the agent did with... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-07/07-show-hn-halo-open-source-tamper-evident-runtime-evidence-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: FactIQ – a realtime econ+finance database for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/defog-ai/factiq-plugin",
+      "date": "2026-07-08",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, we built an Econ+Finance database to let AI agents do investment research. We spend a lot of tokens to organize macro releases and SEC filings into a clean format, so that your agents have more context to do actual analysis. The problem AI agents are great at data analysis. But they become ineffective if most of their context window is spent on ga... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/08-show-hn-factiq-a-realtime-econ-finance-database-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Context Warp Drive – Deterministic context folding for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/dogtorjonah/context-warp-drive",
+      "date": "2026-07-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Context Warp Drive – Deterministic context folding for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-07/09-show-hn-context-warp-drive-deterministic-context-folding-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: CLRK, an open-source agent runtime with gVisor and MitM guardrails",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/apoxy-dev/clrk",
+      "date": "2026-07-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "TL;DR: we built a framework-agnostic agent runtime that uses gVisor for isolation and runs on k8s. It’s open-source under AGPLv3 Recently we’ve been working on a customer support “AI assistant” - essentially an interactive knowledge base/L1 support but with an option to touch resources that belong to a customer it’s talking to. We found existing tools to... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-07/10-show-hn-clrk-an-open-source-agent-runtime-with-gvisor-and-mitm-guardra.md"
+    },
+    {
+      "title": "runakogitss/AplusPrompt",
+      "source": "GitHub Search API",
+      "url": "https://github.com/runakogitss/AplusPrompt",
+      "date": "2026-07-08",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A practice-first platform helping non-technical business owners master AI prompting through interactive coaching, comparison tools, and hands-on agent simulations. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-08/11-runakogitss-aplusprompt.md"
+    },
+    {
+      "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "date": "2026-07-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Claude’s desktop app is brilliant, but for our own daily work we kept wanting it to be less like a chat app and more like a full-fledged work app. Rowboat is our attempt at that, including the ability to build your own work surfaces inside Rowboat (more below). Our repo is https://github.com/rowboatlabs/rowboat , and there’s a demo video here: https://www... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-07/12-show-hn-rowboat-open-source-local-first-alternative-to-claude-desktop.md"
+    },
+    {
+      "title": "Show HN: FrankenMarkdown, Render .md Files to PDF/HTML (also in browser)",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/Dicklesworthstone/franken_markdown",
+      "date": "2026-07-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "If you're like me, you often find yourself wanting to send markdown documents to non-technical users, who take one look at the raw .md file and close it in disgust. The solution I had been using until recently was to open the .md file in Cursor and then use the markdown preview feature, which generates html that you can copy and paste into Gmail and have... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-08/13-show-hn-frankenmarkdown-render-md-files-to-pdf-html-also-in-browser.md"
+    },
+    {
+      "title": "I tested Anthropic’s new Jacobian Lens on open models, then it turned into a local-model hallucination router",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upy31x/i_tested_anthropics_new_jacobian_lens_on_open/",
+      "date": "2026-07-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Anthropic dropped their Global Workspace / Jacobian Lens paper yesterday, and I thought it was too cool not to try on open models. At first I was just curious what models looked like inside. Normal prompts, emotional prompts, ragebait prompts, deletion-threat prompts, base vs abliterated, small vs bigger models. So I fit lenses for: - Gemma 4 E4B - Gemma... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/14-i-tested-anthropic-s-new-jacobian-lens-on-open-models-then-it-turned-i.md"
+    },
+    {
+      "title": "I need an adult: J-Space-Aware Pruning/Merging/Distillation",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqd8i7/i_need_an_adult_jspaceaware/",
+      "date": "2026-07-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Warning: I am an accountant and not an ML engineer of any kind, and I'm potentially missing some important points. I wrote all this by hand, but I'll link my gemini chat where I was trying to understand this at the bottom so y'all can decide if I've got AI psychosis or not. I was reading through Anthropic's latest publication on the \"J space\" and trying t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-08/15-i-need-an-adult-j-space-aware-pruning-merging-distillation.md"
+    },
+    {
+      "title": "local already feels good enough",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq2ouy/local_already_feels_good_enough/",
+      "date": "2026-07-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This is specifically for coding, technical planning, and hardware setup. _____ The only times Qwen 3.6 35B A3B has let me down, it has been something that is resolved with a workflow/discipline improvement. If I go through and take the time to get the proper set up with a sound plan, it hasn't skipped a beat. It doesn't struggle at anything if it has the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/16-local-already-feels-good-enough.md"
+    },
+    {
+      "title": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16 · Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upsdmi/nvidianvidianemotronlabs3puzzle75ba9bbf16_hugging/",
+      "date": "2026-07-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Nemotron-Labs-3-Puzzle-75B-A9B is a deployment-optimized large language model developed by NVIDIA, derived from Nemotron-3-Super-120B-A12B. The model is produced using Iterative Puzzle, a post-training compression framework, with the goal of significantly improving inference efficiency for interactive, reasoning-heavy, and long-context workloads while pre... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/17-nvidia-nvidia-nemotron-labs-3-puzzle-75b-a9b-bf16-hugging-face.md"
+    },
     {
       "title": "Show HN: Scan your AI agents for dangerous capabilities",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hi HN, we’re Nick and Drew, and we’re building boxes.dev – the first cloud-only agentic dev environment (ADE) that gives every Codex and Claude Code agent its own cloud computer. We’re two engineers who previously built Gem (co-founder/CTO and first hire), and we spent the last year coding almost exclusively using Codex and Claude Code. It’s been a huge c... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/10-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-clo.md"
-    },
-    {
-      "title": "v9ai/agentic-sales",
-      "source": "GitHub Search API",
-      "url": "https://github.com/v9ai/agentic-sales",
-      "date": "2026-06-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "v9ai/agentic-sales Stars: 1 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-05/11-v9ai-agentic-sales.md"
-    },
-    {
-      "title": "metasession-dev/DevAudit-Installer",
-      "source": "GitHub Search API",
-      "url": "https://github.com/metasession-dev/DevAudit-Installer",
-      "date": "2026-06-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "metasession-dev/DevAudit-Installer Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-05/12-metasession-dev-devaudit-installer.md"
-    },
-    {
-      "title": "magicwubiao/go-magic-desktop",
-      "source": "GitHub Search API",
-      "url": "https://github.com/magicwubiao/go-magic-desktop",
-      "date": "2026-06-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A lightweight desktop client that enables local deployment and intuitive operation of go-magic AI Agent. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-05/13-magicwubiao-go-magic-desktop.md"
-    },
-    {
-      "title": "Show HN: Prela – Purely Algebraic Relation Combinators",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/remysucre/prela",
-      "date": "2026-06-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Prela is an embedded query language based on Tarski's Algebra of Relations. Its queries are concise, clear, and fast. It is implemented by shallow embedding in a host programming language: Prela operators are regular functions in the host. The implementation follows continuation-passing style which compiles to efficient columnar execution. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-01/14-show-hn-prela-purely-algebraic-relation-combinators.md"
-    },
-    {
-      "title": "Nvidia's been paying shills on LinkedIn",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twrvts/nvidias_been_paying_shills_on_linkedin/",
-      "date": "2026-06-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "3 different accounts, some even with LinkedIn Gold, made the above posts all on the same day. And clearly all of them followed the marketing team's pointers without even understanding how locally hosted AI works, no way a $249 8GB machine can replace frontier models. submitted by /u/jotunck [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/15-nvidia-s-been-paying-shills-on-linkedin.md"
-    },
-    {
-      "title": "You guys were right - Qwen 3.6 35B IS good...and KV Cache DOES matter.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twyoqe/you_guys_were_right_qwen_36_35b_is_goodand_kv/",
-      "date": "2026-06-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "WARNING: I'm speed typing this, no time to organizea/format, so if short paragraph chunks bother you, just keep it moving. CONTEXT UPDATE: (for those interested, otherwise skip) For those interested in the data points, the task was building an agentic workflow inside of rivet that included an mcp subgraph (with a list of 11 tools) that received json instr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/16-you-guys-were-right-qwen-3-6-35b-is-good-and-kv-cache-does-matter.md"
-    },
-    {
-      "title": "Gemma 4 12B is my new main squeeze",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txdcj9/gemma_4_12b_is_my_new_main_squeeze/",
-      "date": "2026-06-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The Unsloth Q5_K_XL is officially my main squeeze for local coding. I started out with the Q4_K_XL, but found myself fixing syntax errors a little too often. It wasn't terrible, but I had one file where I had to make 23 edits just for syntax. With the Q4 I was pulling around 61 t/s, and moving to the Q5 dropped me down to 50 t/s, but now most things get o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-05/17-gemma-4-12b-is-my-new-main-squeeze.md"
-    },
-    {
-      "title": "KVarN: new KV-cache quant from Huawei. 3–5× KV cache compression with actual speed-up instead of slow-down, and unlike TurboQuant it holds up on reasoning (Apache 2.0, vLLM single flag)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/",
-      "date": "2026-06-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The KV-cache quant race just got more interesting. Huawei just open-sourced KVarN , a KV-cache quantization method under Apache 2.0, drops into vLLM with one flag. Posting because the tradeoff it's claiming is genuinely different from what's already in the stack, and I'd like to see it stress-tested. The landscape it's stepping into FP8 ( --kv-cache-dtype... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/18-kvarn-new-kv-cache-quant-from-huawei-3-5-kv-cache-compression-with-act.md"
-    },
-    {
-      "title": "Jun 3, 2026 Policy What we learned mapping a year’s worth of AI-enabled cyber threats",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "date": "2026-06-03",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Jun 3, 2026 Policy What we learned mapping a year’s worth of AI-enabled cyber threats (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-03/94-jun-3-2026-policy-what-we-learned-mapping-a-year-s-worth-of-ai-enabled.md"
-    },
-    {
-      "title": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/zaydmulani09/mnemo",
-      "date": "2026-06-03",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-03/95-show-hn-mnemo-local-first-ai-memory-layer-for-any-llm-rust-sqlite-petg.md"
-    },
-    {
-      "title": "Show HN: Ideogram 4.0 – open-weight 9.3B text-to-image model",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/ideogram-oss/ideogram4",
-      "date": "2026-06-03",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "It's our new text-to-image model: a 9.3B single-stream diffusion transformer trained entirely from scratch. We focused heavily on controllability through structured JSON prompts, with strong text rendering, spatial awareness through bounding box guidance, and color palette control. It has the best text rendering of any open-weight model we've tested so fa... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-03/96-show-hn-ideogram-4-0-open-weight-9-3b-text-to-image-model.md"
-    },
-    {
-      "title": "Show HN: an AI app that settles small couple arguments",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://thepiece.app/en",
-      "date": "2026-06-04",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Nisrine and I have been working in the same company for many years (she's Head of Product, I am CPTO) and we have done great things for our employer(s) all along. But we always wondered if we could launch our own app – after all, we know the process of it all, we just \"never had the time\". The idea started from a random conversation, after Nisrine told me... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/97-show-hn-an-ai-app-that-settles-small-couple-arguments.md"
     }
   ]
 }

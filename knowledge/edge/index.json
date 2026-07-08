@@ -1,10 +1,189 @@
 {
-  "last_checked_at": "2026-07-07T08:15:01.323Z",
+  "last_checked_at": "2026-07-08T07:23:04.988Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "markusleben/ha-nova",
+      "name": "markusleben/ha-nova",
+      "url": "https://github.com/markusleben/ha-nova",
+      "date": "2026-07-08",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 94,
+      "momentum": 66,
+      "risk": 40,
+      "integration_effort": 28,
+      "expected_gain": 81,
+      "composite": 76,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.261,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
+          "date": "2026-06-04",
+          "topic": "AI agents",
+          "similarity": 0.235,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/10-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-clo.md"
+        },
+        {
+          "title": "LuD1161/agentjail",
+          "date": "2026-06-23",
+          "topic": "AI dev tools",
+          "similarity": 0.226,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-08)",
+        "MIT license",
+        "17 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 70,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-08/01-markusleben-ha-nova.md"
+    },
+    {
+      "id": "vincentkoc/dotskills",
+      "name": "vincentkoc/dotskills",
+      "url": "https://github.com/vincentkoc/dotskills",
+      "date": "2026-07-08",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 87,
+      "momentum": 83,
+      "risk": 24,
+      "integration_effort": 44,
+      "expected_gain": 69,
+      "composite": 76,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.31,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "AlexNthLab/nth-dao",
+          "date": "2026-06-12",
+          "topic": "AI dev tools",
+          "similarity": 0.278,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
+        },
+        {
+          "title": "llm011/ethan-agent",
+          "date": "2026-06-20",
+          "topic": "AI dev tools",
+          "similarity": 0.268,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-08)",
+        "MIT license",
+        "96 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [],
+      "install_commands": [
+        "npx skills add vincentkoc/dotskills --skill ghcrawl-cluster-operator -y",
+        "npx skills add vincentkoc/dotskills --skill technical-deslop -y",
+        "npx skills add vincentkoc/dotskills --skill technical-documentation -y",
+        "npx skills add vincentkoc/dotskills --skill technical-integrations -y",
+        "npx skills add vincentkoc/dotskills --skill technical-skill-finder -y",
+        "npx skills add vincentkoc/dotskills --skill openclaw-github-dedupe -y"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-08/02-vincentkoc-dotskills.md"
+    },
+    {
+      "id": "aashutoshr2062/productskills",
+      "name": "AashutoshR2062/productskills",
+      "url": "https://github.com/AashutoshR2062/productskills",
+      "date": "2026-07-08",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "claude_skill",
+      "compatibility": 90,
+      "momentum": 55,
+      "risk": 30,
+      "integration_effort": 28,
+      "expected_gain": 81,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code",
+          "date": "2026-06-16",
+          "topic": "AI agents",
+          "similarity": 0.186,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/54-all-smoke-no-alarm-oracle-signals-in-agent-authored-test-code.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-08)",
+        "MIT license",
+        "2 GitHub stars",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 70,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts none"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-06-16 about AI agents; this candidate overlaps with \"All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-08/03-aashutoshr2062-productskills.md"
+    },
     {
       "id": "github/gh-aw",
       "name": "github/gh-aw",
