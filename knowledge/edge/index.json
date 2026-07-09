@@ -1,10 +1,195 @@
 {
-  "last_checked_at": "2026-07-08T07:23:04.988Z",
+  "last_checked_at": "2026-07-09T08:23:52.975Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "bigbio/sdrf-skills",
+      "name": "bigbio/sdrf-skills",
+      "url": "https://github.com/bigbio/sdrf-skills",
+      "date": "2026-07-09",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 84,
+      "momentum": 67,
+      "risk": 24,
+      "integration_effort": 48,
+      "expected_gain": 69,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [],
+      "pros": [
+        "Recently updated (2026-07-09)",
+        "MIT license",
+        "8 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "requirements.txt",
+          "summary": "deps sdrf-pipelines[ontology], requests>=2.28, defusedxml>=0.7"
+        }
+      ],
+      "install_commands": [
+        "git clone --recurse-submodules https://github.com/bigbio/sdrf-skills",
+        "git submodule update --init --recursive",
+        "git submodule update --remote --recursive",
+        "pip install -r requirements.txt",
+        "Claude: For your experiment, I recommend:",
+        "Claude:"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "bigbio/sdrf-skills matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-09/01-bigbio-sdrf-skills.md"
+    },
+    {
+      "id": "hoanganhduc/coding-system-rebuild",
+      "name": "hoanganhduc/coding-system-rebuild",
+      "url": "https://github.com/hoanganhduc/coding-system-rebuild",
+      "date": "2026-07-09",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 87,
+      "momentum": 49,
+      "risk": 40,
+      "integration_effort": 36,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "AlexNthLab/nth-dao",
+          "date": "2026-06-12",
+          "topic": "AI dev tools",
+          "similarity": 0.313,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
+        },
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.289,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "LuD1161/agentjail",
+          "date": "2026-06-23",
+          "topic": "AI dev tools",
+          "similarity": 0.265,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-09)",
+        "MIT license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [],
+      "install_commands": [
+        "git clone https://github.com/hoanganhduc/coding-system-rebuild",
+        "git show       # review what changed"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-12 about AI dev tools; this candidate overlaps with \"AlexNthLab/nth-dao\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-09/02-hoanganhduc-coding-system-rebuild.md"
+    },
+    {
+      "id": "origintrail/dkg",
+      "name": "OriginTrail/dkg",
+      "url": "https://github.com/OriginTrail/dkg",
+      "date": "2026-07-09",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "agent_framework",
+      "compatibility": 80,
+      "momentum": 86,
+      "risk": 48,
+      "integration_effort": 56,
+      "expected_gain": 77,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: HelixDB – A graph database built on object storage",
+          "date": "2026-06-10",
+          "topic": "AI agents",
+          "similarity": 0.305,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-10/80-show-hn-helixdb-a-graph-database-built-on-object-storage.md"
+        },
+        {
+          "title": "Show HN: Deep Memory – Vocabulary-driven graph memory for AI agents",
+          "date": "2026-06-09",
+          "topic": "AI agents",
+          "similarity": 0.301,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/57-show-hn-deep-memory-vocabulary-driven-graph-memory-for-ai-agents.md"
+        },
+        {
+          "title": "Show HN: Kage, verification and freshness for Google's OKF agent memory",
+          "date": "2026-06-30",
+          "topic": "AI agents",
+          "similarity": 0.187,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/07-show-hn-kage-verification-and-freshness-for-google-s-okf-agent-memory.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-09)",
+        "Apache-2.0 license",
+        "168 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "npm install -g @origintrail-official/dkg",
+        "npm install -g @origintrail-official/dkg     # installs CLI + bundled adapter",
+        "git clone https://github.com/OriginTrail/dkg.git",
+        "pnpm install",
+        "pnpm dkg start             # or `pnpm dkg <any subcommand>`",
+        "pnpm bench"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-10 about AI agents; this candidate overlaps with \"Show HN: HelixDB – A graph database built on object storage\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-09/03-origintrail-dkg.md"
+    },
     {
       "id": "markusleben/ha-nova",
       "name": "markusleben/ha-nova",
