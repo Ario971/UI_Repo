@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T08:23:29.948Z",
+  "updated_at": "2026-07-10T08:15:09.112Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/JustVugg/colibri",
+      "date": "2026-07-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I've gotten from models like Claude or GPT, and this really surprised me. But then I thought, \"I wonder how it would work on a normal computer like mine,\" and above all, \"I wonder if it would... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/06-show-hn-getting-glm-5-2-running-on-my-slow-computer.md"
+    },
+    {
+      "title": "Show HN: Reverse-engineering web apps into agent tools",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://news.ycombinator.com/item?id=48847834",
+      "date": "2026-07-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! We built a browser-based agent that runs inside an authenticated web app, watches how the app calls its own APIs, and automatically turns those into agent tools. You can think of it as an auto-generated MCP server that self-updates as the host app changes. The result is a skilled AI assistant that actually integrates deeply with any product (not j... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
+    },
+    {
+      "title": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/ronak-create/FableCut",
+      "date": "2026-07-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/08-show-hn-fablecut-a-browser-video-editor-ai-agents-can-drive-zero-deps.md"
+    },
+    {
+      "title": "Show HN: Pylon Sync, an agent-first full-stack realtime framework",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.pylonsync.com",
+      "date": "2026-07-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I created Pylon to make it easier to move from hobby projects to full production apps. When I work on hobby projects, I usually use React or Next.js because they are quick to set up and easy to deploy on Vercel. For production apps, I separate the frontend and backend, then deploy the backend on AWS. But setting up a full backend on AWS can be complex and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/09-show-hn-pylon-sync-an-agent-first-full-stack-realtime-framework.md"
+    },
+    {
+      "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex",
+      "source": "Hacker News Show HN",
+      "url": "https://kastra.ai/",
+      "date": "2026-07-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Runtime authorization for Claude Code, Cursor, and Codex Hi HN, Fernando and I built Kastra. Kastra intercepts AI agent tool calls and evaluates them against deterministic policies before they execute. This is aimed at developers using coding agents like Claude Code, Codex, Cursor, and OpenClaw. We built Kastra after one of our Cursor agents almo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/10-show-hn-policy-enforcement-for-claude-code-cursor-and-codex.md"
+    },
+    {
+      "title": "Show HN: I built a web tool to see and edit what an AI thinks before it answers",
+      "source": "Hacker News Show HN",
+      "url": "https://lucid.earthpilot.ai",
+      "date": "2026-07-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I run a small AI lab and playground and got super excited about Anthropics paper \"Verbalizable Representations Form a Global Workspace in Language Models\" ( https://transformer-circuits.pub/2026/workspace/index.html ) It talks about how they use a tool they call a Jacobian Lens to view inside the middle layers of LLM while it's working before it commits t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/11-show-hn-i-built-a-web-tool-to-see-and-edit-what-an-ai-thinks-before-it.md"
+    },
+    {
+      "title": "Show HN: Devthropology – Better Insights for GitHub Repos",
+      "source": "Hacker News Show HN",
+      "url": "https://devthropology.com/demo",
+      "date": "2026-07-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Devthropology is a passion project built on top of GitHub pull data. The name is a play on developer anthropology. Pull request data can be cut a lot of ways. The functionality has been built out of curiosity as I want to see different insights into codebases that I work on. Some of the data is typical and other parts I haven't seen elsewhere. I think of... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/12-show-hn-devthropology-better-insights-for-github-repos.md"
+    },
+    {
+      "title": "Show HN: Fortress – Give your agents unlimited access to the web",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=48854467",
+      "date": "2026-07-10",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "i personally believe that the internet is the best thing we've ever built, and arguably, nothing we made before comes close. now agents can use it too, but the web treats them as second-class. every agent works for a person, so whatever it keeps from agents it keeps from us. we believe that if we let them in, each of us gets the whole of what we built, a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-10/13-show-hn-fortress-give-your-agents-unlimited-access-to-the-web.md"
+    },
+    {
+      "title": "If You Already Pay for an LLM Service, Running Local Embeddings and Rerankers Feels More Useful Than Running Local LLMs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us3li5/if_you_already_pay_for_an_llm_service_running/",
+      "date": "2026-07-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://preview.redd.it/v0xtn3jdu9ch1.png?width=2047&format=png&auto=webp&s=628a6a541fe5f097d0f771ae0ba3b7f44126198f https://preview.redd.it/vjxiucsdu9ch1.png?width=2047&format=png&auto=webp&s=74f7a18a5a30276e206e2bfb5a0c529826ce86e4 This post was originally written in Korean, then polished and translated into English using ChatGPT. I do run llama.cpp loc... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-09/14-if-you-already-pay-for-an-llm-service-running-local-embeddings-and-rer.md"
+    },
+    {
+      "title": "Locally run assistant on a w-10 board on a local Xiaozhi server",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us9yjo/locally_run_assistant_on_a_w10_board_on_a_local/",
+      "date": "2026-07-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hello, Locallama! \"long-time\" member here, from the days when the max context window doubled from 2K to a whooping 4K! Now I feel like I am living in a dream world, doing things I could not have imagined back then. This is Belochka, or Bella, running on a Mac and projected to an ESP 32 w-10 board, the \"Rune Board\" because runes :-). In the background is Q... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/15-locally-run-assistant-on-a-w-10-board-on-a-local-xiaozhi-server.md"
+    },
+    {
+      "title": "I built barebrowse: give a local-model agent a browser without Playwright — pruned ARIA snapshots instead of raw HTML (far fewer tokens)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usg4cq/i_built_barebrowse_give_a_localmodel_agent_a/",
+      "date": "2026-07-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Author here, sharing something I built. If you run agents on a local model, feeding a whole page as raw HTML burns your context fast. barebrowse turns a URL into a pruned ARIA snapshot — the semantic tree with nav/ads/boilerplate stripped — so each page is a fraction of the tokens. Useful when the context window is your bottleneck. No Playwright / bundled... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/16-i-built-barebrowse-give-a-local-model-agent-a-browser-without-playwrig.md"
+    },
+    {
+      "title": "Neuralwatt Pricing will Double From 07/16 - Got This Email",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1use2ee/neuralwatt_pricing_will_double_from_0716_got_this/",
+      "date": "2026-07-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Welp, the age of cheap tokens coming to an end. Many here use this service to access GLM 5.2. Looks like only sustainable way moving forward to local LLM. submitted by /u/BoogerheadCult [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/17-neuralwatt-pricing-will-double-from-07-16-got-this-email.md"
+    },
     {
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hi HN, I am co-founder of Persist AI. Meet Persist.chat an AI sales agent that follows up to prospects till you secure a sale. It can help you find prospects for your product with our extensive lists of Linkedin and email lists and also you can bring your own list of customers with their email/phone_number,linkedin/x handle It sends a personalized email/t... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-07/34-show-hn-persist-an-ai-agent-that-follows-up-accrued-channels-till-they.md"
-    },
-    {
-      "title": "Show HN: Dap-mux – Connect your editor and REPL to the same debug session",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=48429058",
-      "date": "2026-06-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I have been coding over four decades, in many languages, on many projects (including Firefox, Final Cut Pro, the Newton, and Fullwrite Professional if you can remember that far back; all these using my \"dead-name\"). I wrote something small and simple to scratch an itch. It's the UNIX philosophy: small \"one-trick ponies\", each *really* good at their one tr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-06/35-show-hn-dap-mux-connect-your-editor-and-repl-to-the-same-debug-session.md"
-    },
-    {
-      "title": "Show HN: Resonate – Low-latency, high-resolution spectral analysis",
-      "source": "Hacker News Show HN",
-      "url": "https://alexandrefrancois.org/Resonate/",
-      "date": "2026-06-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Last April I shared about my Resonate project here ( https://news.ycombinator.com/item?id=43694157 ) A lot has happened since: the work I presented in much more detail at last June's International Computer Music Conference (ICMC) got best paper award. I also gave a talk at the Audio Developer Conference in Bristol last November, the video is on YouTube).... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-06/36-show-hn-resonate-low-latency-high-resolution-spectral-analysis.md"
-    },
-    {
-      "title": "MeetQuinn/anima",
-      "source": "GitHub Search API",
-      "url": "https://github.com/MeetQuinn/anima",
-      "date": "2026-06-07",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI teammates in your Slack, building shared team context. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-07/37-meetquinn-anima.md"
-    },
-    {
-      "title": "Show HN: ABC Classic 100 Rankings visualised",
-      "source": "Hacker News Show HN",
-      "url": "https://classic100.gotski.workers.dev/",
-      "date": "2026-06-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "This weekend is the ABC Classic FM countdown, which prompted me to dust off an old un-published data visualisation of rankings from previous years. I've considered adding a search function, but I also kind of like that it requires a bit of exploration in the current form. Some of the code is a bit clunky and I wouldn't mind refactoring it. I'm also not su... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-06/38-show-hn-abc-classic-100-rankings-visualised.md"
-    },
-    {
-      "title": "RTX 3090 EBay Pricing is Crazy!!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tysbyj/rtx_3090_ebay_pricing_is_crazy/",
-      "date": "2026-06-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Couple of years ago, before Local LLMs were in vogue, I bought 8 RTX 3090 @ $700 each to build a AI rig, it been working great and I was looking to build another to increase my capacity but looking at EBay those are now selling for 1,300 -1,500 range! That price seems totally crazy because on my main machine I have 3090 Ti that I bought new 5 years ago fo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-06/39-rtx-3090-ebay-pricing-is-crazy.md"
-    },
-    {
-      "title": "Gemma 4 31B QAT Q4 vs standard Q4 — Top1 KLD benchmark results have me confused. Someone please explain or poke holes in this.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/",
-      "date": "2026-06-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Edited - After digging into this some more and reviewing unsloth post for better understanding, the divergence APPEARS to stem from I did not use the BF16 QAT model as the \"reference\" model.... The QAT vs standard Q4 comparison in our benchmark is not apples-to-apples . The QAT models were evaluated against a reference they were never optimised toward. Th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-07/40-gemma-4-31b-qat-q4-vs-standard-q4-top1-kld-benchmark-results-have-me-c.md"
-    },
-    {
-      "title": "Best Coding Harness for Qwen3.6 35B?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyrrht/best_coding_harness_for_qwen36_35b/",
-      "date": "2026-06-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been happily using GitHub Copilot for 7-8 months, primarily in Visual Studio and VS Code, mostly with the built-in flagship models and have felt like the output is worth the cost. Lately I've been playing with a lot of different local LLM models and decided to try using Qwen3.6 35B on some non trivial programming tasks within a repository that is 10i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-06/41-best-coding-harness-for-qwen3-6-35b.md"
-    },
-    {
-      "title": "Cohere's unreleased coding model (early access for localllama)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/",
-      "date": "2026-06-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey, Nick here from Cohere. Thanks for all the feedback on Command A+ the other week everyone. I read these threads all the time about other releases so it was fun to read one about our own :) we would like to do more of it. We actually have our first coding model we’re getting ready to release soon, and I wanted to give this community an opportunity to t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-06/42-cohere-s-unreleased-coding-model-early-access-for-localllama.md"
-    },
-    {
-      "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/zdk/lowfat",
-      "date": "2026-06-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, not sure if anyone would be interested, but just wanted to share that I've been maintaining my small tool called 'lowfat' that helps me filters some of my verbose CLI output. It's a single binary, works as an agent hook or a shell wrapper. It has a plugin system to customize filters per command. The idea is pretty simple: agents don't need the full... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/19-show-hn-lowfat-pluggable-cli-filter-that-saved-91-8-of-my-llm-tokens.md"
-    },
-    {
-      "title": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.06453v1",
-      "date": "2026-06-04",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Sparse attention is becoming increasingly important for serving large language models (LLMs) as generation lengths continue to grow. However, deploying and evaluating new sparse attention algorithms at scale remains highly engineering-intensive, slowing both human researchers and AI agents in exploring the sparse attention design. To address this challeng... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/20-vortex-efficient-and-programmable-sparse-attention-serving-for-ai-agen.md"
-    },
-    {
-      "title": "WebMCP Tool Surface Poisoning: Runtime Manipulation Attacks on LLM Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.06387v1",
-      "date": "2026-06-04",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "WebMCP is a newly emerging protocol that enables websites to expose tools directly to AI agents, bypassing traditional user interfaces and introducing new security risks. The dynamic exposure of agent-accessible tools in WebMCP expands the attack surface of web sessions, especially when third-party scripts are involved. In this study, we identify a new po... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/21-webmcp-tool-surface-poisoning-runtime-manipulation-attacks-on-llm-agen.md"
-    },
-    {
-      "title": "More than a Judge: An Empirical Study of Agent-Human Interaction in Crowdsourced Testing Assessment",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.06301v1",
-      "date": "2026-06-04",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Agentic AI is increasingly being integrated into software engineering workflows. In crowdsourced testing, however, the large volume and uneven quality of submitted reports still create a substantial review burden for developers. In prior work, we developed and validated a multi-agent assessment backbone based on the LLM-as-a-Judge paradigm. That backbone... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/22-more-than-a-judge-an-empirical-study-of-agent-human-interaction-in-cro.md"
     }
   ]
 }

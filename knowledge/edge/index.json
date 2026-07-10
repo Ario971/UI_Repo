@@ -1,10 +1,216 @@
 {
-  "last_checked_at": "2026-07-09T08:23:52.975Z",
+  "last_checked_at": "2026-07-10T08:16:55.957Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "leon-drq/openagentskill",
+      "name": "Leon-Drq/openagentskill",
+      "url": "https://github.com/Leon-Drq/openagentskill",
+      "date": "2026-07-10",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 84,
+      "momentum": 90,
+      "risk": 40,
+      "integration_effort": 40,
+      "expected_gain": 87,
+      "composite": 79,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
+          "date": "2026-06-13",
+          "topic": "AI dev tools",
+          "similarity": 0.386,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-13/11-show-hn-skill-for-your-agent-to-visualize-your-gbrain-and-obsidian.md"
+        },
+        {
+          "title": "llm011/ethan-agent",
+          "date": "2026-06-20",
+          "topic": "AI dev tools",
+          "similarity": 0.372,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
+        },
+        {
+          "title": "Show HN: Reverse-engineering web apps into agent tools",
+          "date": "2026-07-09",
+          "topic": "AI agents",
+          "similarity": 0.335,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-10)",
+        "MIT license",
+        "195 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @hookform/resolvers, @radix-ui/react-accordion, @radix-ui/react-alert-dialog, @radix-ui/react-aspect-ratio, @radix-ui/react-avatar, @radix-ui/react-checkbox, @radix-ui/react-collapsible, @radix-ui/react-context-menu; scripts dev, build, start, seed:popular, indexer:backfill, lint"
+        }
+      ],
+      "install_commands": [
+        "npx openagentskill outcome-contract",
+        "git clone https://github.com/Leon-Drq/openagentskill.git",
+        "pnpm install",
+        "pnpm dev",
+        "pnpm run lint",
+        "pnpm run build"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-13 about AI dev tools; this candidate overlaps with \"Show HN: Skill for your agent to visualize your gbrain and Obsidian\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-10/01-leon-drq-openagentskill.md"
+    },
+    {
+      "id": "jamie-bitflight/claude_skills",
+      "name": "Jamie-BitFlight/claude_skills",
+      "url": "https://github.com/Jamie-BitFlight/claude_skills",
+      "date": "2026-07-10",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "claude_skill",
+      "compatibility": 92,
+      "momentum": 80,
+      "risk": 40,
+      "integration_effort": 44,
+      "expected_gain": 87,
+      "composite": 78,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.358,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
+          "date": "2026-07-08",
+          "topic": "AI agents",
+          "similarity": 0.342,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
+        },
+        {
+          "title": "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)",
+          "date": "2026-07-07",
+          "topic": "Local LLMs",
+          "similarity": 0.325,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/16-update-i-built-a-tool-to-turn-your-claude-code-sessions-into-fine-tuni.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-10)",
+        "MIT license",
+        "58 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, requires-python, dependencies, idna, marko, pygithub, skill-seekers, version"
+        }
+      ],
+      "install_commands": [
+        "npm install",
+        "npm run build",
+        "claude --plugin-dir ./plugins/python-engineering --plugin-dir ./plugins/holistic-linting"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-10/02-jamie-bitflight-claude-skills.md"
+    },
+    {
+      "id": "rrsaldanha/burp-mcp-agents",
+      "name": "rrsaldanha/burp-mcp-agents",
+      "url": "https://github.com/rrsaldanha/burp-mcp-agents",
+      "date": "2026-07-10",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 98,
+      "momentum": 61,
+      "risk": 43,
+      "integration_effort": 48,
+      "expected_gain": 81,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
+          "date": "2026-06-23",
+          "topic": "AI dev tools",
+          "similarity": 0.242,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
+        },
+        {
+          "title": "dingmanjiang/ai-resource-config",
+          "date": "2026-06-11",
+          "topic": "AI dev tools",
+          "similarity": 0.222,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-11/85-dingmanjiang-ai-resource-config.md"
+        },
+        {
+          "title": "Show HN: AwsmAudio – a WebAudio editor with native MCP",
+          "date": "2026-06-15",
+          "topic": "AI agents",
+          "similarity": 0.2,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-15/28-show-hn-awsmaudio-a-webaudio-editor-with-native-mcp.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-10)",
+        "MIT license",
+        "5 GitHub stars",
+        "Matches 3 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 63,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "requirements.txt",
+          "summary": "deps mcp, ollama, openai, rich"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"Show HN: AnswerJournal – An MCP server to save and share AI answers\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-10/03-rrsaldanha-burp-mcp-agents.md"
+    },
     {
       "id": "bigbio/sdrf-skills",
       "name": "bigbio/sdrf-skills",
