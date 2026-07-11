@@ -1,0 +1,12 @@
+---
+title: "Show HN: Wyrm – Solve algebra by touch, built on an open-source soundness engine"
+source: "Hacker News Show HN"
+url: "https://github.com/dicroce/wyrm_math"
+date: "2026-07-09"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "There is a mobile game called DragonBox. It sort of tricks you into learning algebra by starting with very abstract manipulations of a puzzle that must follow rules... gradually the game teaches you more and more rules and also strips out the more abstract elements until on the last levels you are finally solving real equations. I loved it, it taught my k... (Local summary fallback used.)"
+---
+
+There is a mobile game called DragonBox. It sort of tricks you into learning algebra by starting with very abstract manipulations of a puzzle that must follow rules... gradually the game teaches you more and more rules and also strips out the more abstract elements until on the last levels you are finally solving real equations. I loved it, it taught my kids algebra.... and it was just fun. Over the years I often thought that there should be a calculator for Algebra that works this way... something where you can drag terms around and cancel & distribute with gestures, but most importantly enter your own problems. It should also do more kinds of problems than DragonBox allowed. So I finally decided to build it. https://dicroce.github.io/wyrm/home.html Here's a video showing it: https://www.youtube.com/watch?v=_STbS4zvIlU . If you'd rather just play with it: there's a limited in-browser demo (real engine, a few example equations, no download) on the landing page — https://dicroce.github.io/wyrm/home.html . The app can be found on iOS ( https://apps.apple.com/us/app/wyrm-math/id6782342042 ) and as of this week on Google Play ( https://play.google.com/store/apps/details?id=com.dicroce.wy... ). I also decided to open source the underlying math engine so others could build on it: https://github.com/dicroce/wyrm_math . My goal for the engine btw is to build it all the way up to Calculus. Monetization is deliberately boring: the engine is free (MIT), and the polished gesture app is $4.99 once. No subscriptions, ads, accounts, or analytics. I'd love feedback on the engine design — especially from anyone who's worked on CAS or proof-assistant-adjacent problems. And if you played DragonBox as a kid and wished it went further: this is for you!

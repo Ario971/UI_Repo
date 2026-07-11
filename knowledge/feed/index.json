@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T08:15:09.112Z",
+  "updated_at": "2026-07-11T07:05:04.934Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.08681v1",
+      "date": "2026-07-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "As agentic AI systems are increasingly applied to cyber-physical environments, their evaluation requires assessment of both task performance and trustworthiness. In decentralized energy markets, autonomous agents may improve market utility, but may also exploit invalid physical data, create artificial liquidity, and produce unstable governance decisions.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/06-solarchain-eval-a-physics-constrained-benchmark-for-trustworthy-econom.md"
+    },
+    {
+      "title": "The Context Access Divide: Interaction-Level Architecture as a Complementary Dimension of Agentic Inequality",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.08495v1",
+      "date": "2026-07-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Sharp et al. (2025) introduce \"agentic inequality\" as a framework for analyzing disparities in access to AI agents across three dimensions: availability, quality, and quantity. These person- and organization-level dimensions characterize who can access agents and at what capability, but do not address a structurally important divide operating at a finer l... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-the-context-access-divide-interaction-level-architecture-as-a-compleme.md"
+    },
+    {
+      "title": "Token-Flow Firewall: Semantic Runtime Auditing for Persistent AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.08395v1",
+      "date": "2026-07-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Persistent AI agents extend large language models (LLMs) beyond single-turn interaction into long-lived software systems. Unlike traditional chat assistants, unsafe content in these agents can propagate through persistent state, reusable skills, and tool-mediated interactions, creating a substantially larger semantic attack surface. We observe that most s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/08-token-flow-firewall-semantic-runtime-auditing-for-persistent-ai-agents.md"
+    },
+    {
+      "title": "Jul 9, 2026 Case Study UST is bringing Claude to physical AI",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/ust-claude",
+      "date": "2026-07-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Jul 9, 2026 Case Study UST is bringing Claude to physical AI (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/09-jul-9-2026-case-study-ust-is-bringing-claude-to-physical-ai.md"
+    },
+    {
+      "title": "Show HN: SubjectiveZero, an open-source agentic node editor for creative coding",
+      "source": "Hacker News Show HN",
+      "url": "https://sxp.studio/apps/subz",
+      "date": "2026-07-10",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey there, My name is Clem, I've been a solo indie dev for a couple years now, exploring frontier tech like XR and agentic workflows in the context of creative / interactive work. I've been building creation tools for a while and some common design challenge is to figure out the right level of abstraction for your tool. You can always make it super advanc... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-10/10-show-hn-subjectivezero-an-open-source-agentic-node-editor-for-creative.md"
+    },
+    {
+      "title": "Show HN: SpeechCompass – speaker direction for captioning group conversations",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/google-deepmind/speech-compass/",
+      "date": "2026-07-10",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! We are excited to finally open-source SpeechCompass (from my time at Google, released with google-deepmind). If you've used live captions in group conversations, you've seen how different voices get mixed up into one wall of text. In our survey of 263 captioning power users, the merging of speakers was a top issue (46%). SpeechCompass (Best Paper A... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-10/11-show-hn-speechcompass-speaker-direction-for-captioning-group-conversat.md"
+    },
+    {
+      "title": "GhostXia/AIRP",
+      "source": "GitHub Search API",
+      "url": "https://github.com/GhostXia/AIRP",
+      "date": "2026-07-11",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AIRP — AI Roleplay Platform monorepo: state-protocol + gateway + mcp-server + core + ui (unified Cargo workspace) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-11/12-ghostxia-airp.md"
+    },
+    {
+      "title": "Show HN: Wyrm – Solve algebra by touch, built on an open-source soundness engine",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/dicroce/wyrm_math",
+      "date": "2026-07-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "There is a mobile game called DragonBox. It sort of tricks you into learning algebra by starting with very abstract manipulations of a puzzle that must follow rules... gradually the game teaches you more and more rules and also strips out the more abstract elements until on the last levels you are finally solving real equations. I loved it, it taught my k... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/13-show-hn-wyrm-solve-algebra-by-touch-built-on-an-open-source-soundness-.md"
+    },
+    {
+      "title": "2.5x faster Qwen3.6 NVFP4 Unsloth quants",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usniqh/25x_faster_qwen36_nvfp4_unsloth_quants/",
+      "date": "2026-07-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA folks! We made NVFP4 quants 2.5x faster for Qwen3.6 27B and also 1.56x to 1.79x faster for 35B-A3B vs NVIDIA's NVFP4 quants without any accuracy degradation! We used W4A4 so actual 4bit tensor cores for matmuls, whilst NVIDIA's ones uses W4A16. FP8 KV Cache calibration is also provided, auto allowing 2x longer contexts . For accuracy we c... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/14-2-5x-faster-qwen3-6-nvfp4-unsloth-quants.md"
+    },
+    {
+      "title": "Nostalgia for Bloom",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut1tno/nostalgia_for_bloom/",
+      "date": "2026-07-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Incredible how far we have come, I remember buying 768gb optane drives to try to run the full bloom with swap and waiting like 20 mins for one token. Anyone else play with these early models? I kind of want to go back to trying them again to remind myself of how much progress has happened locally. submitted by /u/ilarp [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/15-nostalgia-for-bloom.md"
+    },
+    {
+      "title": "Has anyone created a \"Local LLM Survival Kit\"?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uspcg0/has_anyone_created_a_local_llm_survival_kit/",
+      "date": "2026-07-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Here's what I'm thinking about: A USB thumb drive that you can plug into any PC or laptop, and immediately get a usable knowledge base powered by an LLM, without requiring an Internet connection. I believe the technology for this should be ready. Rough architecture: llama.cpp binaries for CPU-only inference, for Windows, macOS, and Linux (each for all maj... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/16-has-anyone-created-a-local-llm-survival-kit.md"
+    },
+    {
+      "title": "MIT LLM Serve Dashboard I am making open source",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut3p89/mit_llm_serve_dashboard_i_am_making_open_source/",
+      "date": "2026-07-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "A single-file, dependency-free live dashboard for your local LLM serving box — GPU utilization, per-model throughput, KV/context fill, and system stats for llama.cpp and vLLM , in one green terminal-styled page. No framework, no build step, no external requests. The frontend is one index.html (opens on file:// ); the backend is one stdlib Python file that... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/17-mit-llm-serve-dashboard-i-am-making-open-source.md"
+    },
     {
       "title": "Show HN: Getting GLM 5.2 running on my slow computer",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "In previous work, we investigated the adoption of coding agents in GitHub projects, finding that it was very significant. This study follows this line of work, but analyses new projects, that were created after the previous study. In this new sample, we find that the adoption of coding agents is more than twice as high. We also find that the adoption is s... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/46-agentic-very-much-adoption-of-coding-agent-in-new-github-projects.md"
-    },
-    {
-      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/devenjarvis/lathe",
-      "date": "2026-06-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! Lathe is an experiment in using LLMs to teach me something new, instead of doing the work for me. It generates a hands-on, source-backed tutorial for any technical topic you want to learn. Then you work through it yourself by reading and typing the code by hand ( gasp ) in a local UI built for exactly that. It's a Go CLI plus LLM agent skills (Cla... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-07/47-show-hn-lathe-use-llms-to-learn-a-new-domain-not-skip-past-it.md"
-    },
-    {
-      "title": "Show HN: NoSuggest – Watch YouTube without the recommendation algorithm",
-      "source": "Hacker News Show HN",
-      "url": "https://www.nosuggest.com/",
-      "date": "2026-06-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "NoSuggest is a quiet act of resistance against YouTube algorithms always trying to pull you into a loop of unlimited videos in turn into unlimited screen time. With unending side cards of videos, auto-play, what's next suggestions, YouTube shorts and notifications, users will be doom scrolling for many hours in a day. I faced the same problem. Acknowledgi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-03/48-show-hn-nosuggest-watch-youtube-without-the-recommendation-algorithm.md"
-    },
-    {
-      "title": "Show HN: Help SourceLibrary.org Translate the Renaissance",
-      "source": "Hacker News Show HN",
-      "url": "https://sourcelibrary.org",
-      "date": "2026-06-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "SourceLibrary.org is currently the world’s largest online library of translated ancient sources. It contains over 15,000 books translated from dozens of languages (Latin, Greek, Chinese, Sanskrit, Arabic, Hebrew, Egyptian, etc)—from sacred texts to early science. Our vision is to make ancient wisdom accessible to both people and AI. Did you know that less... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-07/49-show-hn-help-sourcelibrary-org-translate-the-renaissance.md"
-    },
-    {
-      "title": "shinshekai/Deep",
-      "source": "GitHub Search API",
-      "url": "https://github.com/shinshekai/Deep",
-      "date": "2026-06-08",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Local-first AI document intelligence pipeline with multi-agent solver, deep research, guided learning, and persistent memory — powered by LM Studio. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-08/50-shinshekai-deep.md"
-    },
-    {
-      "title": "Control a 3D avatar with language instead of buttons",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tzgn87/control_a_3d_avatar_with_language_instead_of/",
-      "date": "2026-06-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I built a 3D character you can control with language: https://programasweights.com/avatar Traditionally, 3D avatars are controlled through predefined buttons or scripts. Here you just describe what you want in plain English - including sequences and combinations you'd never wire to buttons, like \"wave while walking, then jump a couple times.\" How it works... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-07/51-control-a-3d-avatar-with-language-instead-of-buttons.md"
-    },
-    {
-      "title": "Best Local TTS solution",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tzv1uz/best_local_tts_solution/",
-      "date": "2026-06-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So I have been testing a bunch of different solutions for local TTS - nothing so far comes close to elevenlabs for dynamic ability, voices, cloning. I’d like to have a phone-compatible setup. So far the best I can find for edge devices is moss-nano and kokoro. Free/cloud so far : edgeTTS Anyone else have luck so far? Getting their Hermes/openclaw/opencode... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-08/52-best-local-tts-solution.md"
-    },
-    {
-      "title": "Qwen 3.6 27B on DeepSWE",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tzmq5y/qwen_36_27b_on_deepswe/",
-      "date": "2026-06-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Overview: It scored 2% (1.79% rounded up) It is 18/20th place scoring above Haiku 4.5 and Minimax M2.7 Full benchmark took 70 hours Average time per task 32m Average output tokens per task: 44k Perspectives: It scored suspiciously similar to 3.6 Plus and it really gets me wondering how the architecture of 3.6 Plus differs from 27B. Qwen 3.6 27B has a bad... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-07/53-qwen-3-6-27b-on-deepswe.md"
-    },
-    {
-      "title": "You don't need a GPU to run gemma-4-26B-A4B",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tz5ffp/you_dont_need_a_gpu_to_run_gemma426ba4b/",
-      "date": "2026-06-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been running LLMs on my old potato i5-8500 with 32GB of RAM and *no GPU* for awhile now, running up to 12B dense models which run slow but perfectly useable. But this Gemma-4-26B-A4B simply flies on this CPU - only machine using Koboldcpp on Linux. That's right, an old used $150 desktop computer is running state of the art LLMs with something like 7... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-07/54-you-don-t-need-a-gpu-to-run-gemma-4-26b-a4b.md"
-    },
-    {
-      "title": "Show HN: Free animated icon library for Vue",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://respeak-io.github.io/lucide-motion-vue/",
-      "date": "2026-06-04",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone! Tim here, maintainer of the lucide-motion-vue library. I build this as a way to use nice animated icons in my webapps. We were already on lucide, and found animate-ui animated icons as a great collection, unfortunately React only or made to be used with shadcn. So I ported the library to Vue, and combined it with another library (lucide-anima... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/31-show-hn-free-animated-icon-library-for-vue.md"
-    },
-    {
-      "title": "Show HN: Infinite canvas notes in the non-Euclidean Poincaré disk",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://uonr.github.io/poincake/",
-      "date": "2026-06-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi! This is an infinite canvas note-taking tool where notes are laid out in a non-Euclidean, hyperbolic geometric space. As you drag and navigate through the view, you’ll experience a unique fluid distortion that naturally leverages your brain's spatial memory. I’ve been obsessed with the concept of space in HCI for years. Many modern UI patterns are esse... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-02/32-show-hn-infinite-canvas-notes-in-the-non-euclidean-poincar-disk.md"
-    },
-    {
-      "title": "Show HN: Markdown Editor and Reader for Mac",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.kitemarkdown.com/",
-      "date": "2026-06-07",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I read Markdown all day, mostly Claude .md, and other AI outputs. Every app I have tried felt janky or too much work to just read an md file. I just wanted to open a .md file and read it the way Preview opens a PDF. So I built Kite, a Markdown reader for Mac. It has QuickLook just like Preview and I have baked in features that help people reading lot's of... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-07/33-show-hn-markdown-editor-and-reader-for-mac.md"
-    },
-    {
-      "title": "Show HN: Persist – an AI agent that follows up accrued channels till they reply",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://persist.chat",
-      "date": "2026-06-07",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I am co-founder of Persist AI. Meet Persist.chat an AI sales agent that follows up to prospects till you secure a sale. It can help you find prospects for your product with our extensive lists of Linkedin and email lists and also you can bring your own list of customers with their email/phone_number,linkedin/x handle It sends a personalized email/t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-07/34-show-hn-persist-an-ai-agent-that-follows-up-accrued-channels-till-they.md"
     }
   ]
 }
