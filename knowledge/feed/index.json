@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T07:05:04.934Z",
+  "updated_at": "2026-07-12T07:24:11.622Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/shehryarsaroya/agenttransfer",
+      "date": "2026-07-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/06-show-hn-agenttransfer-open-source-file-transfer-for-ai-agents-one-go-b.md"
+    },
+    {
+      "title": "Show HN: BoundFlow – an open-source control plane for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/boundflow/boundflow",
+      "date": "2026-07-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: BoundFlow – an open-source control plane for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/07-show-hn-boundflow-an-open-source-control-plane-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: OpenBenchmarks – Helping agents discover and pick the right SaaS APIs",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://openbenchmarks.com",
+      "date": "2026-07-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'm Fenil, co-founder/CEO of OpenFunnel (YC F24), building this with my co-founder/CTO Aditya. We're launching OpenBenchmarks ( https://openbenchmarks.com ), open-source, reproducible benchmarks for SaaS APIs, starting with the category we know best: GTM APIs. ## Why we built this More and more B2B software evaluation will/already runs through reasoning m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/08-show-hn-openbenchmarks-helping-agents-discover-and-pick-the-right-saas.md"
+    },
+    {
+      "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://antjs.org",
+      "date": "2026-07-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN! I'm the author of Ant, a JavaScript ecosystem built around a runtime with its own JavaScript engine. Ant also includes a package manager, the ants.land package registry, a platform for deploying and hosting applications, and Ant Desktop for building native desktop apps with web technologies, similar to Electron. The goal is for these pieces to w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/09-show-hn-ant-a-javascript-runtime-and-ecosystem.md"
+    },
+    {
+      "title": "CarolineSmith2159/gpt56-claude-gateway",
+      "source": "GitHub Search API",
+      "url": "https://github.com/CarolineSmith2159/gpt56-claude-gateway",
+      "date": "2026-07-12",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Access notes for GPT-5.6, Claude Opus 4.8, Gemini 3.5, DeepSeek V4, Qwen3.7 and Grok 4.5 through lightweight AI API relay and gateway routes. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/10-carolinesmith2159-gpt56-claude-gateway.md"
+    },
+    {
+      "title": "BoB-Compright/e-Prowler-mvp",
+      "source": "GitHub Search API",
+      "url": "https://github.com/BoB-Compright/e-Prowler-mvp",
+      "date": "2026-07-12",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI-Powered Infrastructure Security Scanning Tool - MVP (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/11-bob-compright-e-prowler-mvp.md"
+    },
+    {
+      "title": "boynaa1122-ui/thailand-coupon-hub",
+      "source": "GitHub Search API",
+      "url": "https://github.com/boynaa1122-ui/thailand-coupon-hub",
+      "date": "2026-07-12",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Modern Thailand coupon, promo code, deals, discounts, affiliate marketing, cashback and shopping platform built with Next.js 15, React 19, TypeScript, Tailwind CSS, Supabase and Vercel. Includes admin dashboard, blog CMS, SEO optimization, AI search optimization, Material Design 3, responsive UI, authentication, analytics, PWA and high-performance (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/12-boynaa1122-ui-thailand-coupon-hub.md"
+    },
+    {
+      "title": "Show HN: Orbit – AR satellite tracker, watch 15k+ objects",
+      "source": "Hacker News Show HN",
+      "url": "https://nagylukas.github.io/orbit.html",
+      "date": "2026-07-11",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! I made Orbit, an iOS app that allows you to see the satellites, planets, and constellations above you in AR, on a 2D map, and on a 3D globe. The app includes more than 15,000 objects tracked by CelesTrack, together with their pass predictions, descriptions, and detailed orbital data. A searchable catalog of all objects is also available, as well a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-11/13-show-hn-orbit-ar-satellite-tracker-watch-15k-objects.md"
+    },
+    {
+      "title": "i would like to share my experience. working with huge LLMs and poor Machine",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu6qvh/i_would_like_to_share_my_experience_working_with/",
+      "date": "2026-07-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "hello people i wanted to share my experience with big and huge models (usually 100B+ models and 200B+ models and more) my laptop specs is very poor I7-8750H 20G Ram GTX 1050 Mobile 4G Vram but what nearly saved me is my NVMe from samsung i have 512G NVMe from samsung and yes as you expected. i run these huge models while throwing most of the parameters in... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/14-i-would-like-to-share-my-experience-working-with-huge-llms-and-poor-ma.md"
+    },
+    {
+      "title": "Performance comparison on full compute performance (Anima) and LLM prompt processing of 5090 (600,475 and 400W) vs 6000 PRO MaxQ shunt modded and water cooled (at 300, 400, 475 and 600W), and 6000 PRO WS/SE (600W).",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utvbey/performance_comparison_on_full_compute/",
+      "date": "2026-07-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hello guys, hoping you're doing fine! I'm continuing after this post some time ago, comparing stock MaxQ performance and such on Anima here. This time, I shunt modded the 6000 PRO MaxQ, to use up to 2x amounts of power. These cards seems to be binned for high clocks and it is reflected after this. R002 resistance on top of stock resistance, making the car... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-11/15-performance-comparison-on-full-compute-performance-anima-and-llm-promp.md"
+    },
+    {
+      "title": "I didn't give up - extGemma4-40_5B returned",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu4hxp/i_didnt_give_up_extgemma440_5b_returned/",
+      "date": "2026-07-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Continue from my previous posts: https://www.reddit.com/r/LocalLLaMA/comments/1ul0cx9/i_extended_gemma431b_to_44b_88_layers_since/ https://www.reddit.com/r/LocalLLaMA/comments/1um20ev/why_new_inserted_layers_kill_the_gemma4/ (Warning : AI generated Post - due to my bad English) Hugging Face : https://huggingface.co/TOTORONG/extGemma4-40_5B https://preview... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/16-i-didn-t-give-up-extgemma4-40-5b-returned.md"
+    },
+    {
+      "title": "**Your $80 Tesla P100 has been doing silently noisy math in llama.cpp for years. Three lines fix it, for free.**",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu6p9o/your_80_tesla_p100_has_been_doing_silently_noisy/",
+      "date": "2026-07-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "## TLDR; Shipped — in turboquant v0.3.0, downloadable now. https://github.com/TheTom/llama-cpp-turboquant/releases/tag/tqp-v0.3.0 llama.cpp's CUDA code has a flag that means \"this GPU is fast at fp16, so do the math in fp16.\" The GTX 10-series and P40's (sm_61) were exempted from it long ago. The P100 (sm_60) was not, ironically, because it's the one Pasc... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/17-your-80-tesla-p100-has-been-doing-silently-noisy-math-in-llama-cpp-for.md"
+    },
     {
       "title": "SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Delegation-scoped execution is not identifiable from standard observables: audit logs and execution traces can be identical under multiple incompatible delegation assignments. This gap is especially acute in LLM-based agentic systems, where agents dynamically select tools, vary execution sequences across runs for the same instruction, and spawn cooperatin... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/58-observability-for-delegated-execution-in-agentic-ai-systems.md"
-    },
-    {
-      "title": "Show HN: Mach – A compiled systems language looking for contributions",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/octalide/mach",
-      "date": "2026-06-08",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm the creator of Mach ( https://github.com/octalide/mach or https://machlang.org ). Two days ago, we finally achieved full self hosting. I wanted to make a post here to show off the language since this is a big milestone for us. ## TL;DR about the language for those curious: - There are no external dependencies anywhere in the pipeline. This incl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-08/59-show-hn-mach-a-compiled-systems-language-looking-for-contributions.md"
-    },
-    {
-      "title": "Show HN: Ustps (UDP Speedy Transmission Protocol Secure) and USSH",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/x1colegal/USTP-Secure",
-      "date": "2026-06-08",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, Over the last few days I've been building USTPS (UDP Speedy Transmission Protocol Secure), an experimental encrypted transport protocol built on top of UDP. The primary goal of USTPS is low-latency video streaming. A server can take a video source and expose it through a USTPS endpoint, while Linux and Android (Termux) clients receive the stream an... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-08/60-show-hn-ustps-udp-speedy-transmission-protocol-secure-and-ussh.md"
-    },
-    {
-      "title": "kushal-soni-official/janrakshak-vision",
-      "source": "GitHub Search API",
-      "url": "https://github.com/kushal-soni-official/janrakshak-vision",
-      "date": "2026-06-09",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "An AI-powered deepfake detector so simple, a 65-year-old in Kolkata can verify a suspicious WhatsApp photo in 3 seconds — no technical knowledge required. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-09/61-kushal-soni-official-janrakshak-vision.md"
-    },
-    {
-      "title": "0xsteve-00/trading-agents",
-      "source": "GitHub Search API",
-      "url": "https://github.com/0xsteve-00/trading-agents",
-      "date": "2026-06-09",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "🏦 Multi-agent AI trading desk with 4 parallel analysts, Solana memecoin sniper, backtesting, portfolio optimization, and smart execution (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-09/62-0xsteve-00-trading-agents.md"
-    },
-    {
-      "title": "I fine-tuned Parakeet 0.6B for medical ASR — open weights, local Mac/CUDA/CPU",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0q5h9/i_finetuned_parakeet_06b_for_medical_asr_open/",
-      "date": "2026-06-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I fine-tuned NVIDIA's Parakeet TDT 0.6B v2 for clinical speech and am releasing the weights as Omi Med STT v1 (CC-BY-4.0). Disclosure: I'm the founder of Omi Health and built this. Happy to dig into the training mix, benchmark, failure cases, quantization, or anything else. The goal was simple: get a small local ASR model close enough to the strong cloud... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-09/63-i-fine-tuned-parakeet-0-6b-for-medical-asr-open-weights-local-mac-cuda.md"
-    },
-    {
-      "title": "Was BitNet a dead end? What happened to ternary LLMs?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0hy5p/was_bitnet_a_dead_end_what_happened_to_ternary/",
-      "date": "2026-06-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "They seemed so promising at one point but the biggest ternary model is still 2B. What happened? Why aren't the frontier open weights AI labs attempting to use them? submitted by /u/3ntrope [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-08/64-was-bitnet-a-dead-end-what-happened-to-ternary-llms.md"
-    },
-    {
-      "title": "Have we reached the point where open-source LLMs are “just good enough”?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0yo32/have_we_reached_the_point_where_opensource_llms/",
-      "date": "2026-06-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The question I’m asking myself is whether open-source LLMs are now “ just good enough ” to meet 95% of requirements. I know, of course, that they still need to and will get even better, but where does the added value of the remaining 5% come from? a) Better answer quality? Okay, but does that justify the extra cost? b) Cleaner automated loops? Do the extr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-09/65-have-we-reached-the-point-where-open-source-llms-are-just-good-enough.md"
-    },
-    {
-      "title": "Luce Spark: a 35B MoE on a 16 GB GPU, without the offload tax",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0b3cu/luce_spark_a_35b_moe_on_a_16_gb_gpu_without_the/",
-      "date": "2026-06-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey fellow Llamas, your time is precious, so I'll keep it short (while trying to explain everything lol). TL;DR: 33-35B MoE on a 16 GB GPU. Qwen3.6 35B-A3B: 13.3 GiB (was ~20.5). Laguna XS.2 33B-A3B: 14.6 GiB (was 18.8). Both measured on an RTX 3090, both under 16 GiB. Only the active experts stay on the GPU. An A3B model routes to ~8 of 256 experts per t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-08/66-luce-spark-a-35b-moe-on-a-16-gb-gpu-without-the-offload-tax.md"
-    },
-    {
-      "title": "Show HN: Web Speed – A shared web-map registry for AI agents (MCP, open source)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.getwebspeed.io/",
-      "date": "2026-06-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, I've been working on a tool called Web Speed. It takes web pages full of HTML and parses them into an easily readable sitemap for an AI agent. By ensuring the AI doesn't have to analyze the full HTML from the page or screenshots of the page, it makes the agent a lot cheaper and faster. It's MCP-native, so any AI that supports MCP can run it... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/43-show-hn-web-speed-a-shared-web-map-registry-for-ai-agents-mcp-open-sou.md"
-    },
-    {
-      "title": "How AI Agents Reshape Knowledge Work: Autonomy, Efficiency, and Scope",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.07489v1",
-      "date": "2026-06-05",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Frontier AI systems are bridging the gap between intelligence and utility by shifting from conversational assistants to autonomous agents that execute tasks end to end. Using production data from Perplexity's Search and Computer products, we study this transition by examining how AI agents accelerate and reshape knowledge work. Three key empirical finding... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/44-how-ai-agents-reshape-knowledge-work-autonomy-efficiency-and-scope.md"
-    },
-    {
-      "title": "Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.07462v1",
-      "date": "2026-06-05",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "As foundation models advance and agent scaffolding becomes increasingly sophisticated, agents have demonstrated remarkable proficiency in complex, long-horizon coding tasks and even autonomous experiment execution. Despite their evolution from research assistants into autonomous research agents, these systems still exhibit significant limitations in field... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/45-act-as-a-real-researcher-a-suite-of-benchmarks-evaluating-frontier-llm.md"
-    },
-    {
-      "title": "Agentic Very Much! Adoption of Coding Agent in New GitHub Projects",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.07448v1",
-      "date": "2026-06-05",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "In previous work, we investigated the adoption of coding agents in GitHub projects, finding that it was very significant. This study follows this line of work, but analyses new projects, that were created after the previous study. In this new sample, we find that the adoption of coding agents is more than twice as high. We also find that the adoption is s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/46-agentic-very-much-adoption-of-coding-agent-in-new-github-projects.md"
     }
   ]
 }
