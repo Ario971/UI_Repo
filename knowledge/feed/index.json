@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T07:24:11.622Z",
+  "updated_at": "2026-07-13T08:09:02.155Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.09653v1",
+      "date": "2026-07-10",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testing approaches. While recent adoptions of Large Language Model (LLM) agents have demonstrated promise in penetration testing and Capture-the-Flag (CTF) enviro... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-10/06-vexaiot-autonomous-iot-vulnerability-exploitation-using-ai-agents.md"
+    },
+    {
+      "title": "Writing Bug Reports for Software Repair Agents: What Information Matters Most?",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.09553v1",
+      "date": "2026-07-10",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Software development is increasingly moving toward agentic-first workflows. This includes AI agents responsible for generating initial fixes for submitted issue reports. In this setting, issue reports are no longer merely documentation for human maintainers; they become the primary task specification for the agent. However, little is known about how such... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-10/07-writing-bug-reports-for-software-repair-agents-what-information-matter.md"
+    },
+    {
+      "title": "Show HN: Codebase Posters – turn any Git repo into generative poster art",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/unable12/codebase-posters",
+      "date": "2026-07-12",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "npx codebase-posters inside any git repo opens a local exhibition: 18 pieces painted live from your commit history. everything renders from git log, nothing leaves your machine. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-12/08-show-hn-codebase-posters-turn-any-git-repo-into-generative-poster-art.md"
+    },
+    {
+      "title": "Show HN: Kurvengefahr – browser CAD/CAM for pen plotters",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://kurvengefahr.org/",
+      "date": "2026-07-12",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "A few years ago I made a pen plotter attachment for Prusa MK4 ( https://www.printables.com/model/827264-pen-plotter-attachme... ) and at the time I didn't have a good way to turn artwork into G-code for it, and I put the project on ice for a while. I recently wanted to dabble in line art again and made a small browser app to make it easier. As agentic AI... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-12/09-show-hn-kurvengefahr-browser-cad-cam-for-pen-plotters.md"
+    },
+    {
+      "title": "Show HN: Skillscript – A declarative, sandboxed language for tool orchestration",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/sshwarts/skillscript",
+      "date": "2026-07-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN — I'm Scott. Skillscript is a small language I built to write what I want my local agent to actually do, in a form I can read and version, instead of hoping the model gets it right each time. The itch started with something small. I wanted my NanoClaw agent to run my morning brief the same way every day. Check overnight tickets, summarize the deploy... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/10-show-hn-skillscript-a-declarative-sandboxed-language-for-tool-orchestr.md"
+    },
+    {
+      "title": "Atypical-Consulting/Koine",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Atypical-Consulting/Koine",
+      "date": "2026-07-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A DSL for Domain-Driven Design: write your ubiquitous language once in .koi files and compile it to idiomatic, self-contained code — 7 languages (C#, TypeScript, Python, PHP, Rust, Java, Kotlin) plus living docs, AsyncAPI & OpenAPI. Value objects, entities, aggregates, invariants, events, state machines, CQRS, context maps. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-13/11-atypical-consulting-koine.md"
+    },
+    {
+      "title": "olegsaveliev/aifactory",
+      "source": "GitHub Search API",
+      "url": "https://github.com/olegsaveliev/aifactory",
+      "date": "2026-07-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "olegsaveliev/aifactory Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-13/12-olegsaveliev-aifactory.md"
+    },
+    {
+      "title": "Show HN: Self-hosted voice AI agent for Asterisk/FreePBX",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk",
+      "date": "2026-07-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Self-hosted voice AI agent for Asterisk/FreePBX (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-13/13-show-hn-self-hosted-voice-ai-agent-for-asterisk-freepbx.md"
+    },
+    {
+      "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uudxi8/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+      "date": "2026-07-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "TL:DR: I’m a grad student in AI. I saw that Google released TabFM and TimesFM last week. I built an MCP wrapper to serve both transformer models in a single Docker container so you can connect their new ML transformer models to a local LLM via Open WebUI, Claude Code, or Codex and do ML tasks that would have previously required building, training, and tun... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/14-zer0fit-i-took-google-s-new-tabfm-timesfm-ml-foundation-models-and-mad.md"
+    },
+    {
+      "title": "Local Image to 3D (<2gb RAM, <20s, Apple Silicon, iPhone)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuga40/local_image_to_3d_2gb_ram_20s_apple_silicon_iphone/",
+      "date": "2026-07-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "TLDR checkout the app here: github.com/ZimengXiong/Modelr My swift-mlx/python mlx port of Hunyuan3D-Paint and Hunyuan3D-Shape is finally complete! It's also available as a standalone image to 3D desktop app, the only of its kind for Apple Silicon. Some quick benchmarks in FP16 on my M4 Max: run wall time peak memory hy3d shape (small) 20.9 s ~5.6 gb hy3d... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/15-local-image-to-3d-2gb-ram-20s-apple-silicon-iphone.md"
+    },
+    {
+      "title": "Experiment: autonomous NPCs powered by Gemma 4 E2B in the browser",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv3wnt/experiment_autonomous_npcs_powered_by_gemma_4_e2b/",
+      "date": "2026-07-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This weekend I got to what I consider a shareable state with this experiment to create little characters that can run commands to do funny things. I want something to play around with local AI on my laptop which is a HP Omen from like 6 or 7 years ago and has a 2060. The idea is that since it's a very small model, the NPCs are dumb. So I imagine I can lea... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-13/16-experiment-autonomous-npcs-powered-by-gemma-4-e2b-in-the-browser.md"
+    },
+    {
+      "title": "Anthropic found Claude reasoning in silence (J-space) — we ran the same lens on open Qwen3-8B",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uugulk/anthropic_found_claude_reasoning_in_silence/",
+      "date": "2026-07-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Anthropic’s research on Claude found a silent internal workspace they call J-space — hidden reasoning that never shows up as visible text. Classic example: the model answers 49 , but inside J-space they caught 21 → 42 → 49 . Important distinction: Chain-of-thought = text you can read J-space = silent concepts in activations (“what’s on its mind”) We fitte... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/17-anthropic-found-claude-reasoning-in-silence-j-space-we-ran-the-same-le.md"
+    },
     {
       "title": "Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "OpenClaw has rapidly emerged as a transformative artificial intelligence (AI) agent framework, and its ability to autonomously execute complex, multi-step tasks has attracted an ever-growing and diverse user base. However, this capability comes with significant risks. While existing research has made important strides in characterizing these threats, such... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/70-understanding-and-mitigating-the-risks-of-openclaw-for-non-technical-u.md"
-    },
-    {
-      "title": "Show HN: The agent that builds and operates its own SaaS tools",
-      "source": "Hacker News Show HN",
-      "url": "https://craftbot.live",
-      "date": "2026-06-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "For context, we started working on our general AI agent CraftBot before OpenClaw came out. It works similarly to OpenClaw and Hermes agent: control your PC to do task + memory + proactivity. However, here is the catch: it can create and operate its own SaaS tools with the concept of Living UI Living UI is a system where an AI agent can scaffold and launch... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-09/71-show-hn-the-agent-that-builds-and-operates-its-own-saas-tools.md"
-    },
-    {
-      "title": "notanaskhan/serval",
-      "source": "GitHub Search API",
-      "url": "https://github.com/notanaskhan/serval",
-      "date": "2026-06-10",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Serval — agentic organizational memory platform. Captures meetings, decisions, and documents across client engagements; serves humans and AI agents from the same query pipeline. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-10/72-notanaskhan-serval.md"
-    },
-    {
-      "title": "Show HN: Gravity – Interactive solar-system simulator, from Newton to Einstein",
-      "source": "Hacker News Show HN",
-      "url": "https://qunabu.github.io/Gravity/",
-      "date": "2026-06-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. It opens with a guided tour that builds the idea up step by step: two bodies and the equal/opposite force, inertia (the Sun is removed and Earth just drifts straight... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-09/73-show-hn-gravity-interactive-solar-system-simulator-from-newton-to-eins.md"
-    },
-    {
-      "title": "Show HN: GentleOS – A pair of hobby OSes for vintage 32-bit and 16-bit PCs",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/luke8086/gentleos32",
-      "date": "2026-06-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN, I've been working on a simple OS for tinkering and running bare metal apps on vintage PCs. Since I couldn't quite decide whether to target pure 16-bit, or slightly more capable 32-bit machines, I ended up with two separate versions: - GentleOS/32 ( https://github.com/luke8086/gentleos32 ) works on i386+, requires 4MB of RAM and VGA display suppo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-07/74-show-hn-gentleos-a-pair-of-hobby-oses-for-vintage-32-bit-and-16-bit-pc.md"
-    },
-    {
-      "title": "Anthropic is intentionally nerfing Fable when asked to develop other LLMs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/",
-      "date": "2026-06-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Reason 458 why local LLMs are going to be a necessity submitted by /u/onil_gova [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-10/75-anthropic-is-intentionally-nerfing-fable-when-asked-to-develop-other-l.md"
-    },
-    {
-      "title": "I'm brand new to running LLMs and the sheer number of tools is overwhelming",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1pi1w/im_brand_new_to_running_llms_and_the_sheer_number/",
-      "date": "2026-06-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone. I'm brand new to running LLMs in general, even more new to running them locally, and the sheer number of tools available is absolutely overwhelming. Regarding applications, I look at github and see so many different options that I don't know what to pick. Can't really fully decipher the differences between the tools either, mostly because th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-10/76-i-m-brand-new-to-running-llms-and-the-sheer-number-of-tools-is-overwhe.md"
-    },
-    {
-      "title": "Without open source LLMs, US AI companies could have already monopoled the technology",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1siyl/without_open_source_llms_us_ai_companies_could/",
-      "date": "2026-06-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "For such technology with clear importance and impact on all of us, I believe that making it open source is an ethical duty, otherwise, especially with the 1-sided politics of the US we experience today, they could have already monopolized the technology by now, maybe make it exclusively available to US companies only, and starve the entire world including... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-10/77-without-open-source-llms-us-ai-companies-could-have-already-monopoled-.md"
-    },
-    {
-      "title": "Releasing Apodex-1.0 Smol Models (0.8B, 2B, 4B Open-Weights) optimized for Agentic Verification + AgentHarness Evals",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1p2me/releasing_apodex10_smol_models_08b_2b_4b/",
-      "date": "2026-06-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey r/LocalLLaMA , We just released Apodex 1.0 , and alongside our flagship API, we are releasing the weights for our Smol models (0.8B, 2B, and 4B) . Our core research focuses on independent verification in long-horizon tasks. Instead of just scaling up parameter sizes for raw generation, we’ve been experimenting with small, highly specialized local mode... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-10/78-releasing-apodex-1-0-smol-models-0-8b-2b-4b-open-weights-optimized-for.md"
-    },
-    {
-      "title": "Show HN: Command Center, the AI coding env for people who care about quality",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.cc.dev/",
-      "date": "2026-06-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! We’re Jimmy and Ray. Jimmy is a Thiel Fellow with a Ph. D. from MIT who has worked on programming tools for 15 years; Ray became VP of Sales at a $2B company when he was 19 and has built side-businesses vibe-coding. Last year, we set to answer the question “If AI can write code 100x faster, then why aren’t you shipping 100x faster?” What we learned... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/55-show-hn-command-center-the-ai-coding-env-for-people-who-care-about-qua.md"
-    },
-    {
-      "title": "Show HN: Startup sci-fi novel that took me 5 years to write",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.blockchainednovel.com/",
-      "date": "2026-06-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "It started after reading Stephen King's \"On Writing\" where he likened the art of writing as the unearthing of an archeological site after you stumbled upon a unique bone of a story. His advice was to choose a domain you are deeply intimate with. For me, I've been a struggling startup founder for 15 years—enough material to inspire a novel. A 1,000-word wr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/56-show-hn-startup-sci-fi-novel-that-took-me-5-years-to-write.md"
-    },
-    {
-      "title": "Show HN: Deep Memory – Vocabulary-driven graph memory for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/TjWheeler/deep-memory",
-      "date": "2026-06-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Deep Memory – Vocabulary-driven graph memory for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/57-show-hn-deep-memory-vocabulary-driven-graph-memory-for-ai-agents.md"
-    },
-    {
-      "title": "Observability for Delegated Execution in Agentic AI Systems",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.09692v1",
-      "date": "2026-06-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Delegation-scoped execution is not identifiable from standard observables: audit logs and execution traces can be identical under multiple incompatible delegation assignments. This gap is especially acute in LLM-based agentic systems, where agents dynamically select tools, vary execution sequences across runs for the same instruction, and spawn cooperatin... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/58-observability-for-delegated-execution-in-agentic-ai-systems.md"
     }
   ]
 }
