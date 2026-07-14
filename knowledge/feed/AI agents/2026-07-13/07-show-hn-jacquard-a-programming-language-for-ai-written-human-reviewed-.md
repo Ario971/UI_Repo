@@ -1,0 +1,12 @@
+---
+title: "Show HN: Jacquard, a programming language for AI-written, human-reviewed code"
+source: "Hacker News Top + Show HN"
+url: "https://github.com/jbwinters/jacquard-lang"
+date: "2026-07-13"
+topic: "AI agents"
+type: "article"
+read: false
+summary: "I'm fascinated by the generative AI wave rolling over us, and wondered if AI could create a language that it might prefer using over the ones created by and for humans. To create the design, I had AI analyze the ASTs of several mainstream languages plus a few of the conceptually groundbreaking but esoteric ones (listed in the README) and then create a new... (Local summary fallback used.)"
+---
+
+I'm fascinated by the generative AI wave rolling over us, and wondered if AI could create a language that it might prefer using over the ones created by and for humans. To create the design, I had AI analyze the ASTs of several mainstream languages plus a few of the conceptually groundbreaking but esoteric ones (listed in the README) and then create a new structure and new syntax. It was named after the Jacquard machine ( https://en.wikipedia.org/wiki/Jacquard_machine ), a precursor to Babbage's Analytical Engine (and punch cards). The result reused a lot of existing ideas but combined them in what I found to be an interesting way. External/world effects are visible in function signatures, and the runtime requires explicit permission to touch the filesystem, network, etc. Effect interactions can be recorded and replayed to see what happens under different conditions or code. And since code is given a content-addressed semantic identity internally, renames and formatting changes don't require recompile or retesting. Another piece that fell out of this was a testing framework called Warp, which combines replay, results caching, handler substitution, and a few other tools that I frankly wish I had when writing Python. There are a few examples available in the demos directory. There's more to do, but it's installable and usable. I'm hoping people will have their agents digest the docs/SKILL.md file and maybe write a few programs or see where it might fit in their projects. It should be particularly useful in agent systems. If an agent says something is painful or you as a human find the code tough to understand, I'd like to hear about it so I can address it. More detail here: Repository: https://github.com/jbwinters/jacquard-lang Further intro/human-oriented write-up here: https://research.friendmachine.co/jacquard/
