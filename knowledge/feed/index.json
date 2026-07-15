@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T07:02:53.052Z",
+  "updated_at": "2026-07-15T07:05:57.953Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Vehir – a platform built for AI agents: compiler, microkernel, CAS",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/grigoriitropin/vehir-platform",
+      "date": "2026-07-15",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Vehir – a platform built for AI agents: compiler, microkernel, CAS (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-15/06-show-hn-vehir-a-platform-built-for-ai-agents-compiler-microkernel-cas.md"
+    },
+    {
+      "title": "Show HN: Oodle.ai – $10 per million agent traces",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.oodle.ai/product/agent-observability",
+      "date": "2026-07-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, we're Kiran and Vijay! Over the past two years, we have built a columnar storage engine for observability: logs, metrics, and traces. Today, it's exciting for us to show what we've built on top of that foundation: LLM Agent Observability. Given how non-deterministic agents are, storing all traces without sampling was critical for us. But these trac... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-14/07-show-hn-oodle-ai-10-per-million-agent-traces.md"
+    },
+    {
+      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.13034v1",
+      "date": "2026-07-14",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--re-reading files and dependencies they have already seen--turning a one-line edit into a small code-base audit. We argue the missing capa... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-14/08-do-ai-agents-know-when-a-task-is-simple-toward-complexity-aware-reason.md"
+    },
+    {
+      "title": "Human-AI Agent Interaction as a Neuroplastic Training Environment",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.12823v1",
+      "date": "2026-07-14",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Interaction with AI agents has become one of the most frequent activities of everyday digital life. Whether conversing with an assistant, working with a coding copilot, or generating images, the interaction follows a common iterative loop: a request is issued, a result returned, appraised, and the request revised. We observe that this loop is a high-frequ... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-14/09-human-ai-agent-interaction-as-a-neuroplastic-training-environment.md"
+    },
+    {
+      "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/juggler-ai/juggler",
+      "date": "2026-07-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN, I don't post on here much, but wanted to get some eyes on a new project I'm just launching. I think we definitely need one more AI code agent.. I'm a long-term C++ dev, and over 30+ years I've created some successful audio dev tools (JUCE, the Tracktion DAW, the Cmajor DSP language). All of these came from me getting annoyed with something I had... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/10-show-hn-juggler-an-open-source-gui-coding-agent-by-the-creator-of-juce.md"
+    },
+    {
+      "title": "Show HN: GWZ – Git Workspace Zone (multi-repo that feels like plain Git)",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=48915923",
+      "date": "2026-07-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Coming from the land of the mono-repo (ex-googler), I decided to embrace the multi-repo, plain-git style. Methought, “hey, submodules, what could possibly go wrong”. Well, how about everything: detached HEADs, impossibly tedious commit management, and just about everything else. \"OKAY\" I said, a simple Python script should be fine, right? Well, NO. It tur... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-15/11-show-hn-gwz-git-workspace-zone-multi-repo-that-feels-like-plain-git.md"
+    },
+    {
+      "title": "tomtomo/tomai200",
+      "source": "GitHub Search API",
+      "url": "https://github.com/tomtomo/tomai200",
+      "date": "2026-07-15",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "tomtomo/tomai200 Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-15/12-tomtomo-tomai200.md"
+    },
+    {
+      "title": "Show HN: I RL-trained an agent that trains models with RL (for ~$1.3k)",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/Danau5tin/ai-trains-ai",
+      "date": "2026-07-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I RL-trained an agent that trains models with RL (for ~$1.3k) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-14/13-show-hn-i-rl-trained-an-agent-that-trains-models-with-rl-for-1-3k.md"
+    },
+    {
+      "title": "Bonsai 27B: 1-bit dense LLM running locally in your browser using custom WebGPU kernels",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwfva9/bonsai_27b_1bit_dense_llm_running_locally_in_your/",
+      "date": "2026-07-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Very impressive release by the PrismML team. 1-bit quantization shrinks it from 54GB to just 3.8GB (-93%), while retaining 90% of its intelligence. - Collection on Hugging Face: https://huggingface.co/collections/prism-ml/bonsai-27b - Demo link: https://huggingface.co/spaces/webml-community/bonsai-webgpu-kernels submitted by /u/xenovatech [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-14/14-bonsai-27b-1-bit-dense-llm-running-locally-in-your-browser-using-custo.md"
+    },
+    {
+      "title": "[audio.cpp] 10 hours of audio generated in 3 minutes on RTX 5090 (demo included)! C++/GGML based Supertonic 3, MOSS-TTS, IndexTTS2, and Irodori-TTS released",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwpvt9/audiocpp_10_hours_of_audio_generated_in_3_minutes/",
+      "date": "2026-07-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "audio.cpp again. Hopefully you are not sick of it yet :) Release 0.3 adds five new models: Supertonic 3, MOSS-TTS-Local, MOSS-TTS-Nano, IndexTTS2, and Irodori-TTS. The highlight is Supertonic 3. It can hit 200 ×+ real time on CUDA (RTX 5090), 6×+ on CPU, and around 47 ms TTFT in CUDA streaming mode. In the demo (sorry for the rough demo), I used The Adven... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-15/15-audio-cpp-10-hours-of-audio-generated-in-3-minutes-on-rtx-5090-demo-in.md"
+    },
+    {
+      "title": "If you had a 384GB (4x Blackwell), what model would you put on it and why?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwv48k/if_you_had_a_384gb_4x_blackwell_what_model_would/",
+      "date": "2026-07-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey guys, Company I work for is actually very interested in spending the money to host our own local model for the team. We expect probably 2-3 super users and at the worst case 10-20 concurrent users. The LLM would be mostly used for internal company policies/data management and other various \"thinking tasks\". No real coding will be done by such a machin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-15/16-if-you-had-a-384gb-4x-blackwell-what-model-would-you-put-on-it-and-why.md"
+    },
+    {
+      "title": "llama.cpp milestone",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw5p73/llamacpp_milestone/",
+      "date": "2026-07-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Thanks to all contributors for our local inference! submitted by /u/sergeysi [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-14/17-llama-cpp-milestone.md"
+    },
     {
       "title": "Show HN: Benchmark your eng team's AI agent maturity in 5 minutes",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "We introduce EpiBench, a verifiable benchmark for short-horizon epigenomics analysis. EpiBench evaluates whether agents can make well-defined analysis decisions from realistic workflow states and return deterministically gradable answers. The benchmark includes 106 evaluations across CUT\\&Tag/CUT\\&RUN, ATAC-seq, ChIP-seq, and DNA methylation workflows. Ac... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-11/94-epibench-verifiable-evaluation-of-ai-agents-on-epigenomics-analysis.md"
-    },
-    {
-      "title": "Show HN: Manob: A social media plaform without algorithm, ads, or data-tracking",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=48500132",
-      "date": "2026-06-12",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built Manob because I kept running into the same frustration with every major social media platform. A feed I couldn't control, content that I couldn't trust, and also a sense that I (my user data) am the product, not the user. I talked with people about these thoughts and concerns, and added my personal observation. I built this instead: - Chronologica... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/95-show-hn-manob-a-social-media-plaform-without-algorithm-ads-or-data-tra.md"
-    },
-    {
-      "title": "Show HN: Claumon – forecasting Claude Code usage limits with a Gamma process",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/fabioconcina/claumon",
-      "date": "2026-06-11",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Anthropic's usage analytics dashboard is only available to Team and Enterprise org admins. On a Pro or Max plan all you get is /usage and the claude.ai usage page, which show where you stand right now but not where you're heading. I looked at various open-source projects but none quite matched what I had in mind: an all-round control panel for Claude Code... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-11/96-show-hn-claumon-forecasting-claude-code-usage-limits-with-a-gamma-proc.md"
-    },
-    {
-      "title": "AlexNthLab/nth-dao",
-      "source": "GitHub Search API",
-      "url": "https://github.com/AlexNthLab/nth-dao",
-      "date": "2026-06-12",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Pluggable team-collaboration layer for any AI agent framework — Hermes, Claude Code, OpenClaw, Codex, OpenHands, custom (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
-    },
-    {
-      "title": "ZIRAKU-SW/ai-media-prototype",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ZIRAKU-SW/ai-media-prototype",
-      "date": "2026-06-12",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AIビジネスメディア デザインプロトタイプ（3パターン比較） (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/98-ziraku-sw-ai-media-prototype.md"
-    },
-    {
-      "title": "Qwen Who? DiffusionGemma running at 1,500 tk/s on a Digital Pregnancy Test.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2wks2/qwen_who_diffusiongemma_running_at_1500_tks_on_a/",
-      "date": "2026-06-11",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "First Doom, now DiffusionGwmma 4. We are truly living in the future. Who even needs a new Qwen release anymore? /s (Satire - Shaq doesn’t actually make a digital pregnancy test capable of running diffusion-based LLMs) Credit to Obvious Plant for the original Shaq pregnancy test box (that I doctored slightly). submitted by /u/Porespellar [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-11/99-qwen-who-diffusiongemma-running-at-1-500-tk-s-on-a-digital-pregnancy-t.md"
-    },
-    {
-      "title": "Why hasn't any mainstream game integrated LLMs into NPCs yet?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3nn4j/why_hasnt_any_mainstream_game_integrated_llms/",
-      "date": "2026-06-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "tech demos exist but nothing's actually shipped in a real game. Is it a latency problem or are game studios just not interested~ submitted by /u/Enough-Astronaut9278 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-12/01-why-hasn-t-any-mainstream-game-integrated-llms-into-npcs-yet.md"
-    },
-    {
-      "title": "Open sourcing InfiniteKV: a KV cache that files old tokens as 104-byte searchable records in RAM or on disk instead of deleting them. Mistral-7B answered from token 76,747, 2.3x past its trained window. Colab demo",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3nicr/open_sourcing_infinitekv_a_kv_cache_that_files/",
-      "date": "2026-06-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "What it is, in plain words. Your GPU keeps two float vectors for every token of your conversation. That’s the KV cache, and it’s why long contexts eat VRAM: Llama-3.1-8B needs about 0.12 MB per token, so 100k tokens costs 12 GB and a million tokens costs 122 GB. No consumer card holds that, so when it stops fitting, serving stacks quietly delete the oldes... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-12/02-open-sourcing-infinitekv-a-kv-cache-that-files-old-tokens-as-104-byte-.md"
-    },
-    {
-      "title": "Some contrived tests comparing the accuracy of different Gemma and Qwen quantizations",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3i8x7/some_contrived_tests_comparing_the_accuracy_of/",
-      "date": "2026-06-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I mostly ran these tests for myself, because the published KLD numbers are hard to interpret, and you cannot compare 9B-Q4 vs 4B-Q8 , for example. But I'm happy to share the results with anyone interested: Test 1 (Arithmetic) 1000 questions like Print only one number as the answer to the following question. Print nothing else, please. Do not use commas or... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-12/03-some-contrived-tests-comparing-the-accuracy-of-different-gemma-and-qwe.md"
-    },
-    {
-      "title": "Show HN: Extend UI – open-source UI kit for modern document apps",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.extend.ai/ui",
-      "date": "2026-06-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We're open-sourcing 14 components & examples today for PDF, DOCX, and XLSX viewers, plus bounding box citations, file upload, e-signature, and more. It's MIT licensed and fully customizable. Demo video here: https://share.extend.ai/kRmSGKRF When we started, we tried every file viewer and document component library we could find. Unfortunately, none of the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-10/79-show-hn-extend-ui-open-source-ui-kit-for-modern-document-apps.md"
-    },
-    {
-      "title": "Show HN: HelixDB – A graph database built on object storage",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/HelixDB/helix-db/tree/main",
-      "date": "2026-06-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, it’s been just over a year since we launched HelixDB ( https://news.ycombinator.com/item?id=43975423 ), a project a friend and I started in college. It’s an OLTP graph database built on object-storage, with native vector search and full-text search (FTS). Why graph, vector and FTS? Graph databases provide a natural cognitive model for data, vector... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-10/80-show-hn-helixdb-a-graph-database-built-on-object-storage.md"
-    },
-    {
-      "title": "Show HN: Artie – Real-time data replication to your warehouse, now self-serve",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.artie.com",
-      "date": "2026-06-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, cofounder of Artie here. We’ve built a real-time data replication tool that captures every row-level change in your source database and streams it to your warehouse in under 60 seconds. The last time I posted here, people had to book a call with us in order to access Artie. Today, that’s no longer the case. You can now connect your source and dest... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-10/81-show-hn-artie-real-time-data-replication-to-your-warehouse-now-self-se.md"
-    },
-    {
-      "title": "Show HN: Kctx – A read-only Kubernetes context engine for SREs and AI Agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/lucasepe/kctx",
-      "date": "2026-06-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Kctx – A read-only Kubernetes context engine for SREs and AI Agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-10/82-show-hn-kctx-a-read-only-kubernetes-context-engine-for-sres-and-ai-age.md"
     }
   ]
 }
