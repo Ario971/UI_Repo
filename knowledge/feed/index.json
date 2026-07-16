@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T07:05:57.953Z",
+  "updated_at": "2026-07-16T07:14:47.042Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Forall – An AI coding agent that generates machine-checkable proofs",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/astrio-labs/forall",
+      "date": "2026-07-16",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We've been working on an open-source coding agent that generates code alongside machine-checkable proofs. We'd love feedback from the HN community, especially from people interested in formal verification, Lean, Dafny, or AI coding agents. Currently, only 3 langauges can be verified. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/06-show-hn-forall-an-ai-coding-agent-that-generates-machine-checkable-pro.md"
+    },
+    {
+      "title": "Building Shor's Algorithm in Lean: An Agentic Formalization of Quantum Attacks on RSA-2048 and P-256",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.14082v1",
+      "date": "2026-07-15",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large language models are increasingly assisting with demanding formal theorem-proving tasks, particularly when grounded in machine-checked libraries such as Lean. Agentic systems further amplify this process by searching, reusing, and extending existing formal developments to uncover new discoveries. In quantum computing, Shor's algorithm and its variant... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-15/07-building-shor-s-algorithm-in-lean-an-agentic-formalization-of-quantum-.md"
+    },
+    {
+      "title": "The Dynamic Verifiable Multi-Agent Human Agentic Loyalty Loop (DVM-HALL) Model and the Net Human-Agent Score (NHAS) in Autonomous Commerce",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.13998v1",
+      "date": "2026-07-15",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The rapid proliferation of Agentic Artificial Intelligence fundamentally disrupts traditional customer loyalty paradigms. As AI evolves from passive recommendation algorithms to autonomous, goal-directed agents capable of executing purchasing decisions, the conventional understanding of consumer-brand relationships requires a structural reevaluation. By s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-15/08-the-dynamic-verifiable-multi-agent-human-agentic-loyalty-loop-dvm-hall.md"
+    },
+    {
+      "title": "A Self-Evolving Agent for Longitudinal Personal Health Management",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.13940v1",
+      "date": "2026-07-15",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Personal health management unfolds over repeated encounters, yet most health AI systems treat each request in isolation. We developed HealthClaw, an open-source agent architecture that updates support as a person's routines, preferences, measurements and risks change. It separates shared safety rules and medical knowledge from private longitudinal memory... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-15/09-a-self-evolving-agent-for-longitudinal-personal-health-management.md"
+    },
+    {
+      "title": "Show HN: Make senders work to get into your inbox",
+      "source": "Hacker News Show HN",
+      "url": "https://www.captchainbox.com",
+      "date": "2026-07-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN :) really excited to share this with you. The one thing AI reliably does is generate noise. Half the tools I see launch are just machines for producing more noise across more channels. And people are starting to see this in the form of emails in their inboxes as spam filters are struggling. There used to be a useful signal in email: the effort a sen... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-15/10-show-hn-make-senders-work-to-get-into-your-inbox.md"
+    },
+    {
+      "title": "Show HN: Throttle – Local Claude Cockpit for macOS, now with remote control",
+      "source": "Hacker News Show HN",
+      "url": "https://lorislab.fr/throttle/",
+      "date": "2026-07-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Kevin here, indie dev (lorisLabs.) Thorttle started as a menu bar meter for Claude code usage, and grow into a cockpit ! you have the full claude meter as expected with no telemetry, no network. and that in the free version. Pro is where it got interesting : Cockpit have every claude code project on your Mac in one window. Each embedded terminal using Swi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/11-show-hn-throttle-local-claude-cockpit-for-macos-now-with-remote-contro.md"
+    },
+    {
+      "title": "f3nd1/gd4_simulator",
+      "source": "GitHub Search API",
+      "url": "https://github.com/f3nd1/gd4_simulator",
+      "date": "2026-07-16",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ai agent simulator (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/12-f3nd1-gd4-simulator.md"
+    },
+    {
+      "title": "julesvbertolino/raycast-redmine-tickets",
+      "source": "GitHub Search API",
+      "url": "https://github.com/julesvbertolino/raycast-redmine-tickets",
+      "date": "2026-07-16",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Raycast extension: browse, edit and ask AI about your Redmine tickets. Fork of jwickers/redmine. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/13-julesvbertolino-raycast-redmine-tickets.md"
+    },
+    {
+      "title": "The best model is the one you can actually run",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux9xze/the_best_model_is_the_one_you_can_actually_run/",
+      "date": "2026-07-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Don't get me wrong, all the big models are amazing, and every contribution to open source models is great. But I'm GPU poor and I can't use them locally. I'm currently running gemma-4-12b-it-qat-GGUF:UD-Q4_K_XL as my personal chat assistant, and I am so so happy with it! I still can't believe I can talk to my computer. submitted by /u/OneFanFare [link] [c... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-15/14-the-best-model-is-the-one-you-can-actually-run.md"
+    },
+    {
+      "title": "Has anyone using antirez ds4 compared to the unsloth GGUF?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxil7b/has_anyone_using_antirez_ds4_compared_to_the/",
+      "date": "2026-07-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been using DS4 flash as a local \"big brain\" for when my qwen 3.6 35b a3b gets stuck on something, and for planning. I'm blown away by how capable it is at a 2 bit quant Has anyone used the GGUF at a similar 2bit quant and compared performance? I've got a Nimo Strix Halo box, 128GB, kyuz0 stack with rocm submitted by /u/dbinnunE3 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-15/15-has-anyone-using-antirez-ds4-compared-to-the-unsloth-gguf.md"
+    },
+    {
+      "title": "Linus Torvalds tells people to stop attacking others for using AI",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxbrw4/linus_torvalds_tells_people_to_stop_attacking/",
+      "date": "2026-07-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The full quote: I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just walk away. AI is a tool, just like other tools we use. And i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-15/16-linus-torvalds-tells-people-to-stop-attacking-others-for-using-ai.md"
+    },
+    {
+      "title": "Thinking Machines releases first open-weight model “Inkling”",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxdv34/thinking_machines_releases_first_openweight_model/",
+      "date": "2026-07-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://thinkingmachines.ai/news/introducing-inkling/ submitted by /u/WhyLifeIs4 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-15/17-thinking-machines-releases-first-open-weight-model-inkling.md"
+    },
     {
       "title": "Show HN: Vehir – a platform built for AI agents: compiler, microkernel, CAS",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Show HN: Putt.day a daily mini golf game (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-12/07-show-hn-putt-day-a-daily-mini-golf-game.md"
-    },
-    {
-      "title": "Show HN: Turn your name into a tree in an infinite procedural shanshui landscape",
-      "source": "Hacker News Show HN",
-      "url": "https://landscape.bairui.dev/",
-      "date": "2026-06-10",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! I made this after collecting hundreds of \"name → tree\" submissions at ITP. Live: https://landscape.bairui.dev/ Source: https://github.com/pearmini/infinite-landscape Plant a tree: https://tree.bairui.dev/ Pan and zoom an infinite procedural landscape. Each name is converted to ASCII codes, which grow into a unique tree (breadth-first branching; rep... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-10/08-show-hn-turn-your-name-into-a-tree-in-an-infinite-procedural-shanshui-.md"
-    },
-    {
-      "title": "Jei-sKappa/skillrouter",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Jei-sKappa/skillrouter",
-      "date": "2026-06-13",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Deterministic skill routing for AI agents: write rich Markdown templates once, then render only the instructions each task actually needs. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-13/09-jei-skappa-skillrouter.md"
-    },
-    {
-      "title": "howiehu/superxp",
-      "source": "GitHub Search API",
-      "url": "https://github.com/howiehu/superxp",
-      "date": "2026-06-13",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "An agentic skills framework & software development methodology that works - based on Extreme Programming (XP). (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-13/10-howiehu-superxp.md"
-    },
-    {
-      "title": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/vladignatyev/brain-map-skill",
-      "date": "2026-06-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Skill for your agent to visualize your gbrain and Obsidian (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-13/11-show-hn-skill-for-your-agent-to-visualize-your-gbrain-and-obsidian.md"
-    },
-    {
-      "title": "Local LLMs aren't democratic anymore... the hardware barrier has gotten out of hand.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u479jf/local_llms_arent_democratic_anymore_the_hardware/",
-      "date": "2026-06-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "When we first started experimenting with local LLMs, it was a completely different story! We were using gaming GPUs to tinker around. 8GB or 16GB of VRAM (which wasn't even a given for everyone) was the norm, and so many people could actually get their hands dirty and experiment. Let’s just forget for a second that long crypto-mining phase that bloated th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-12/12-local-llms-aren-t-democratic-anymore-the-hardware-barrier-has-gotten-o.md"
-    },
-    {
-      "title": "I scaled test-time compute for Qwen-3.6-27B and Gemma-4-31B to surpass Claude Mythos in code optimizations and speedups.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u47cvc/i_scaled_testtime_compute_for_qwen3627b_and/",
-      "date": "2026-06-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The scaffold uses ~25-40x more compute on the original baseline model to attempt the same problem. I put it into max mode by setting the branches exploration breadth to 5, iterative corrections loop depth to 10 and 6 branch aware selective hypothesis that are revised after every 2 iterations. These hypotheses tests various claims, local speedups or comple... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-12/13-i-scaled-test-time-compute-for-qwen-3-6-27b-and-gemma-4-31b-to-surpass.md"
-    },
-    {
-      "title": "We should heavily discourage and moderate cloud API (deepseek api, GLM api, etc.) topics and discussion. This is LOCAL first.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3vrrk/we_should_heavily_discourage_and_moderate_cloud/",
-      "date": "2026-06-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I’m just some fucking guy. This is just some fucking opinion. I’ve seen tons of stealth marketing or related topics on this subreddit about how great or how easy it is to use some random subscription api. Why the fuck are we allowing people to so casually talk about how much more affordable their zai subscription is than Claude? Who cares? I don’t give a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-12/14-we-should-heavily-discourage-and-moderate-cloud-api-deepseek-api-glm-a.md"
-    },
-    {
-      "title": "Anthropic forced to abruptly disable Fable 5 & Mythos 5 globally by US Gov over a jailbreak. This is exactly why we need local models.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4e1p5/anthropic_forced_to_abruptly_disable_fable_5/",
-      "date": "2026-06-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I just saw this statement regarding Anthropic being hit with an emergency export control directive from the US government. They were forced to pull the plug on Fable 5 and Mythos 5 for all customers globally. The tl;dr is that the government got spooked by a narrow jailbreak (which basically just sounds like asking the model to fix vulnerabilities in a sp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-13/15-anthropic-forced-to-abruptly-disable-fable-5-mythos-5-globally-by-us-g.md"
-    },
-    {
-      "title": "Show HN: Claw Patrol, a security firewall for agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/denoland/clawpatrol",
-      "date": "2026-06-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "At Deno we've been using OpenClaw and other agents increasingly for addressing production problems in Deno Deploy - when a PagerDuty alert fires, the agent starts researching the cause and making fixes. In order to do this, the agent needs access to real production systems - postgres, kubernetes, gcp, clickhouse, github, etc. But this is dangerous to say... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/91-show-hn-claw-patrol-a-security-firewall-for-agents.md"
-    },
-    {
-      "title": "Show HN: TunnelMind – reputation API for IPs, ASNs, and ad-tech supply chains",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://tunnelmind.ai/",
-      "date": "2026-06-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I'm a network engineer that likes to think about the future of the internet and this is what I've built over many nights and weekends. One reputation graph over IPs, ASNs, domains, and entities, exposed as a JSON API. Try it: curl https://api.tunnelmind.ai/v1/check/1.1.1.1 Every answer is a signed receipt with an attestation tier so you can see what was p... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-11/92-show-hn-tunnelmind-reputation-api-for-ips-asns-and-ad-tech-supply-chai.md"
-    },
-    {
-      "title": "Show HN: AVP – an agent can't leak a secret it never had",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/inflightsec/agent-vault-proxy",
-      "date": "2026-06-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "A process can't leak a secret it never had. Shai-hulud, prompt-injection - you name it. They cannot steal what your agent (or an process) don't have. I run coding agents (Claude Code, Codex) on my own machines most of the day. Every one of them wants real API keys in env and I was scratching my head for the last few months how to contain it. The usual ans... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-11/93-show-hn-avp-an-agent-can-t-leak-a-secret-it-never-had.md"
-    },
-    {
-      "title": "EpiBench: Verifiable Evaluation of AI Agents on Epigenomics Analysis",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.13602v1",
-      "date": "2026-06-11",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We introduce EpiBench, a verifiable benchmark for short-horizon epigenomics analysis. EpiBench evaluates whether agents can make well-defined analysis decisions from realistic workflow states and return deterministically gradable answers. The benchmark includes 106 evaluations across CUT\\&Tag/CUT\\&RUN, ATAC-seq, ChIP-seq, and DNA methylation workflows. Ac... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-11/94-epibench-verifiable-evaluation-of-ai-agents-on-epigenomics-analysis.md"
     }
   ]
 }
