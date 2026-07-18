@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T07:09:47.654Z",
+  "updated_at": "2026-07-18T06:52:33.273Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Lific: Issue trackers should be simple, right?",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://lific.dev",
+      "date": "2026-07-17",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I built Lific because I direct AI coding agents on largish projects and needed somewhere for project state to live that isn't markdown files in the repo. When I was begging to work on long horizon ideas, I started on Linear, but my agent files issues faster than a human does, and I hit their limits and pricing wall almost immediately. Then I self-hosted a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-17/06-show-hn-lific-issue-trackers-should-be-simple-right.md"
+    },
+    {
+      "title": "Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.15143v1",
+      "date": "2026-07-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI coding agents set up projects by reading documentation and installing the dependencies it lists, without verifying their names, sources, or known vulnerabilities. By editing only a README, requirements file, or Makefile, an attacker can redirect the agent to an untrusted registry, a known-vulnerable version, or a wrong-but-plausible name: documentation... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/07-setup-complete-now-you-are-compromised-weaponizing-setup-instructions-.md"
+    },
+    {
+      "title": "BrainPilot: Automating Brain Discovery with Agentic Research",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.15079v1",
+      "date": "2026-07-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Understanding the brain increasingly depends on integrating evidence across scales, modalities, and disciplines. Addressing a single research question therefore requires a coordinated sequence of operations, from surveying prior work to executing analyses and interpreting results in light of domain knowledge. AI agents promise to accelerate this process,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/08-brainpilot-automating-brain-discovery-with-agentic-research.md"
+    },
+    {
+      "title": "ANet Patu-1: The Value of Connection in the Agent Network",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.15053v1",
+      "date": "2026-07-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The Internet taught us that the value of a network depends on \\emph{how} its nodes connect: broadcast stars scale as $V\\!\\propto\\!N$ (Sarnoff), fully-connected meshes as $N^2$ (Metcalfe), and group-forming networks as $2^{N}$ (Reed). We ask the analogous question for networks of AI agents. We model the net value of connection as a function of coordination... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/09-anet-patu-1-the-value-of-connection-in-the-agent-network.md"
+    },
+    {
+      "title": "scharissis/coh3-tempo",
+      "source": "GitHub Search API",
+      "url": "https://github.com/scharissis/coh3-tempo",
+      "date": "2026-07-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Tempo — a Company of Heroes 3 opening timing lab: simulate a build order, optimize for a goal, and measure a replay against both. Runs entirely in the browser. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/10-scharissis-coh3-tempo.md"
+    },
+    {
+      "title": "attestral-labs/attestral",
+      "source": "GitHub Search API",
+      "url": "https://github.com/attestral-labs/attestral",
+      "date": "2026-07-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Open-source security scanner for MCP servers and AI agents: finds prompt injection, tool poisoning, and excessive agency, and models the cloud your agents can reach. pip install attestral. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/11-attestral-labs-attestral.md"
+    },
+    {
+      "title": "bitpixi2/bitpixi-learns-cybersec",
+      "source": "GitHub Search API",
+      "url": "https://github.com/bitpixi2/bitpixi-learns-cybersec",
+      "date": "2026-07-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Public Australian cyber-security and responsible AI fieldbook with a synthetic blue-team audit trail. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/12-bitpixi2-bitpixi-learns-cybersec.md"
+    },
+    {
+      "title": "Arx88/koru-mvp",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Arx88/koru-mvp",
+      "date": "2026-07-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Koru AI assistant MVP (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/13-arx88-koru-mvp.md"
+    },
+    {
+      "title": "A year ago you told me my open-source screen-watching app was flaky. You were right, so I spent the year fixing it with your feedback. Thank you r/LocalLLaMA c: !!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uz8596/a_year_ago_you_told_me_my_opensource/",
+      "date": "2026-07-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "TL;DR: This post is part update, mostly thank you for your support :)) Observer is an open-source app that lets local LLMs watch your screen and notify you (WhatsApp/SMS/email/Discord) when something happens. A year of your feedback later , setup went from \"flaky and very manual\" (your words, and fair hahaha) to literally typing one sentence and the app a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-17/14-a-year-ago-you-told-me-my-open-source-screen-watching-app-was-flaky-yo.md"
+    },
+    {
+      "title": "Bonsai 27B runs locally on an iPhone - a 27B model in 3.9GB",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyz9n2/bonsai_27b_runs_locally_on_an_iphone_a_27b_model/",
+      "date": "2026-07-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "PrismML built Bonsai on top of Qwen3.6-27B by quantizing the weights down to 1-bit. That takes it from ~54GB to 3.9GB, small enough to fit and run on a phone, while keeping ~90% of the benchmark scores It's true binary quantization (\"binary g128\") - every weight is a single sign bit and each group of 128 shares one FP16 scale, so it lands at ~1.125 bits/w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-17/15-bonsai-27b-runs-locally-on-an-iphone-a-27b-model-in-3-9gb.md"
+    },
+    {
+      "title": "[RESEARCH] Breaking the 1-bit Floor: Achieving \"Negative-Bit Quantization\" (NBQ) via Phase-Inverted Tensor Embedding (satire)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uz80b4/research_breaking_the_1bit_floor_achieving/",
+      "date": "2026-07-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, I’ve spent the last three weeks compiling custom llama.cpp forks and running imatrix maps on a modified CUDA kernel setup, and the numbers don’t lie. We’ve been looking at model compression completely wrong. Everyone in the community has assumed that 1-bit quantization (like BitNet or ternary quants) is the absolute physical floor for LLM co... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-17/16-research-breaking-the-1-bit-floor-achieving-negative-bit-quantization-.md"
+    },
+    {
+      "title": "Soofi S - 30B-A3B European Open Source Model",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyysg1/soofi_s_30ba3b_european_open_source_model/",
+      "date": "2026-07-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I just saw that these had dropped. Still very much early days, but nice to see a new locally runnable foundation model, along with a couple of thinking preview versions. Anyone taken a look at this yet? Am intrigued to see how it holds up compared to Qwen 3.6 and Gemma 4 (my current stack) submitted by /u/Graemer71 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-17/17-soofi-s-30b-a3b-european-open-source-model.md"
+    },
     {
       "title": "Show HN: Libretto PR agents – Automatically fix failing playwright scripts",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Frontier AI systems are increasingly capable of cybersecurity tasks, including codebase inspection, vulnerability detection, and exploitation. However, evaluating their offensive capabilities remains constrained by limited access to open, reproducible, multi-host cyber ranges. Existing public benchmarks capture isolated skills such as CTF solving, vulnera... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-12/31-agentcyberrange-benchmarking-frontier-ai-systems-in-realistic-cyber-ra.md"
-    },
-    {
-      "title": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
-      "source": "Hacker News Show HN",
-      "url": "https://traceapp.info",
-      "date": "2026-06-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I'm the developer of Trace, a non-intrusive, shortcut-driven Mac app that records and transcribes your meetings on-device. I know, another meeting transcription app. Please bear with me though, I'm confident that this is at least a little novel. I primarily built Trace for myself. I'd been using MacWhisper, but there was enough fiddling before each call t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-13/32-show-hn-trace-offline-mac-meeting-transcripts-you-can-flag-mid-call.md"
-    },
-    {
-      "title": "Show HN: Ray Hosting – Topology-aware game server orchestrator made from scratch",
-      "source": "Hacker News Show HN",
-      "url": "https://ray-hosting.com/en-US",
-      "date": "2026-06-14",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I have built a game server orchestrator from scratch, As a solo-dev it took me 3+ years and almost 10 hours daily to finally complete it since i started in the beginning of 2023. Im 26 years old now!. The complexity and stuff i had to research to complete this project i couldnt have imagined them even in my dreams, but hey, here it is, my greatest... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-14/33-show-hn-ray-hosting-topology-aware-game-server-orchestrator-made-from-.md"
-    },
-    {
-      "title": "momossa-work/halalyield",
-      "source": "GitHub Search API",
-      "url": "https://github.com/momossa-work/halalyield",
-      "date": "2026-06-15",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Halal passive income from property and ETFs. Shariah-compliant AI-powered analysis for Muslim investors. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-15/34-momossa-work-halalyield.md"
-    },
-    {
-      "title": "eugnmueller-87/DIGITNEWS",
-      "source": "GitHub Search API",
-      "url": "https://github.com/eugnmueller-87/DIGITNEWS",
-      "date": "2026-06-15",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Aushang — privacy-by-construction digitization for old-school German orgs (Kitas, Vereine, Kirchengemeinden). Photograph the physical notice board; local OCR + PII redaction → EU (Mistral) LLM extraction → admin review → private member feed, shared calendar, ICS feed & email digest. Next.js 16 + Supabase (EU) + FastAPI ML worker. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-15/35-eugnmueller-87-digitnews.md"
-    },
-    {
-      "title": "Introducing the Heretic Grimoire: The takedown-resilient, local-first backup system that keeps uncensored models available forever",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u5lmge/introducing_the_heretic_grimoire_the/",
-      "date": "2026-06-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Welcome to another episode of THE HERETIC SHOW, where authoritarian dreams are destroyed by unreasonably effective linear algebra! Let's start with an important announcement: Heretic now has an official website at https://heretic-project.org This website contains: Links to all official resources associated with the Heretic project A complete tutorial for... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-14/36-introducing-the-heretic-grimoire-the-takedown-resilient-local-first-ba.md"
-    },
-    {
-      "title": "An agent that plans with a frontier model but runs most of tokens locally (built it for my own dual-3090 rig)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u698b1/an_agent_that_plans_with_a_frontier_model_but/",
-      "date": "2026-06-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "For the past couple of months, I've been building a tool for my personal use. I have a dual RTX 3090 system which I wanted to use but the qwen 3.5/3.6 27B and Gemma 4 31B while being really good, just didn't have the taste or the ability that a frontier model has. OTOH, frontier models are expensive and I didn't want everything I do running through them.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-15/37-an-agent-that-plans-with-a-frontier-model-but-runs-most-of-tokens-loca.md"
-    },
-    {
-      "title": "Made a macOS app that creates highly personal macOS apps. Works with models as small as Gemma 4 E2B",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u63qny/made_a_macos_app_that_creates_highly_personal/",
-      "date": "2026-06-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Apologies in advance as the video is demonstrating with GPT 5.4 mini (a local model would take too long for a video), however I’ve made the same app with Gemma 4 E4B. Been working on an open source project for a while called Ironsmith. The gist is you can create highly specific macOS apps with just a prompt, and one of my main goals from the beginning was... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-15/38-made-a-macos-app-that-creates-highly-personal-macos-apps-works-with-mo.md"
-    },
-    {
-      "title": "Voice-to-voice chatbot update",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u5uqsc/voicetovoice_chatbot_update/",
-      "date": "2026-06-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been working on this after hours for a few months continuously improving it. Now at a point where the chatbot is close to real-time (thanks to SSE streaming) and also interruptible while preserving context of what was last said. 100% local and powered by Qwen3.5-397B (Unsloth's UD-Q3_K_XL), Whisper-small STT, and Orpheus Q4_K_XL TTS with a custom SNA... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-14/39-voice-to-voice-chatbot-update.md"
-    },
-    {
-      "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Paca-AI/paca",
-      "date": "2026-06-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I built Paca out of pure passion—a free and lightweight Jira alternative written in Go where humans and AI agents work together as equal teammates to plan sprints and assign tasks to each other. It is fully customizable with custom views, fields, and a WASM-based plugin architecture. My team uses it daily for our own development, so it will be continuousl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-13/16-show-hn-paca-lightweight-jira-alternative-for-human-ai-collaboration.md"
-    },
-    {
-      "title": "n8watkins/echo-genai-voice-agent",
-      "source": "GitHub Trending",
-      "url": "https://github.com/n8watkins/echo-genai-voice-agent",
-      "date": "2026-06-14",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Echo — a realtime GenAI voice agent (Next.js + Gemini): streamed, interruptible speech-to-speech with tool use and personas. Voice AI · conversational AI · LLM agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-14/17-n8watkins-echo-genai-voice-agent.md"
-    },
-    {
-      "title": "n8watkins/scout-agentic-ai-researcher",
-      "source": "GitHub Trending",
-      "url": "https://github.com/n8watkins/scout-agentic-ai-researcher",
-      "date": "2026-06-14",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Scout — an agentic AI research assistant (Next.js + Gemini): watch a ReAct agent plan, web-search, read pages, and stream a fully cited report. GenAI · AI agents · tool-use · LLM (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-14/18-n8watkins-scout-agentic-ai-researcher.md"
-    },
-    {
-      "title": "Show HN: Bastion – isolated Linux VMs for background coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://bastion.computer/",
-      "date": "2026-06-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Bastion – isolated Linux VMs for background coding agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-14/19-show-hn-bastion-isolated-linux-vms-for-background-coding-agents.md"
     }
   ]
 }
