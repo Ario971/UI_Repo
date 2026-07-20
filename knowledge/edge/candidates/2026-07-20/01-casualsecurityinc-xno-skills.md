@@ -1,0 +1,314 @@
+---
+id: "casualsecurityinc/xno-skills"
+name: "CasualSecurityInc/xno-skills"
+url: "https://github.com/CasualSecurityInc/xno-skills"
+date: "2026-07-20"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 92
+momentum: 56
+risk: 24
+integration_effort: 52
+expected_gain: 87
+composite: 75
+replacement_target: ""
+related_articles: [{"title":"sciencebanda09/nexus-multiagent","date":"2026-06-23","topic":"AI dev tools","similarity":0.242,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"},{"title":"Show HN: Ctx, save tokens by loading only the relevant tools","date":"2026-06-16","topic":"AI agents","similarity":0.222,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/52-show-hn-ctx-save-tokens-by-loading-only-the-relevant-tools.md"},{"title":"Show HN: AMA2, messenger built for AI agent","date":"2026-06-30","topic":"AI agents","similarity":0.214,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"}]
+pros: ["Recently updated (2026-07-20)","MIT license","5 GitHub stars","GitHub Actions/CI detected"]
+cons: ["No obvious v1 warning, still review upstream code before use"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 4
+dependency_files: [{"name":"package.json","summary":"deps @modelcontextprotocol/sdk, @noble/curves, @noble/hashes, @open-wallet-standard/core, @openrai/nano-core, commander, nano-rspow-node, qrcode-svg; scripts preversion, version, postversion, prebuild, prebuild:esm, prebuild:cjs, test, test:watch"}]
+install_commands: ["npx skills add CasualSecurityInc/xno-skills -g","npx -y skills add CasualSecurityInc/xno-skills -g -y --all","npm install -g xno-skills && npx -y skills add CasualSecurityInc/xno-skills -g -y --all","npm install -g xno-skills@4.5.2 && npx -y skills add CasualSecurityInc/xno-skills -g -y --all","codex mcp add nano \\","npm install"]
+risk_flags: []
+status: "new"
+---
+
+# CasualSecurityInc/xno-skills
+
+AI agent Skill, MCP server, and CLI for transacting in the Nano (XNO) cryptocurrency. Manage wallets securely via OWS, sign messages, and build seamless zero-fee integrations.
+
+URL: https://github.com/CasualSecurityInc/xno-skills
+
+## Why it matters
+You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with "sciencebanda09/nexus-multiagent" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-07-20)
++ MIT license
++ 5 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- No obvious v1 warning, still review upstream code before use
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 4
+
+Dependency files:
+- package.json: deps @modelcontextprotocol/sdk, @noble/curves, @noble/hashes, @open-wallet-standard/core, @openrai/nano-core, commander, nano-rspow-node, qrcode-svg; scripts preversion, version, postversion, prebuild, prebuild:esm, prebuild:cjs, test, test:watch
+
+Install commands found:
+- npx skills add CasualSecurityInc/xno-skills -g
+- npx -y skills add CasualSecurityInc/xno-skills -g -y --all
+- npm install -g xno-skills && npx -y skills add CasualSecurityInc/xno-skills -g -y --all
+- npm install -g xno-skills@4.5.2 && npx -y skills add CasualSecurityInc/xno-skills -g -y --all
+- codex mcp add nano \
+- npm install
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# xno-skills
+
+[![npm version](https://img.shields.io/npm/v/xno-skills.svg)](https://www.npmjs.com/package/xno-skills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
+
+A CLI, MCP server, and AI skills for [Nano](https://nano.org/) (XNO). Built on top of [Open Wallet Standard (OWS)](https://github.com/open-wallet-standard/core) for secure key custody.
+
+![xno-skills CLI preview](assets/xno-skills-cli.png)
+
+## Agent Skills
+
+[![smithery badge](https://smithery.ai/badge/casualsecurityinc/xno-skills)](https://smithery.ai/servers/casualsecurityinc/xno-skills)
+[![skills.sh](https://skills.sh/b/casualsecurityinc/xno-skills)](https://skills.sh/casualsecurityinc/xno-skills)
+
+Built-in skill for Personal AI Agents (OpenClaw etc.) and humans with AI Coding Assistants (Claude Code, Cursor, etc.) alike:
+
+```bash
+npx skills add CasualSecurityInc/xno-skills -g
+# or non-interactively, i.e. for agent use: 
+npx -y skills add CasualSecurityInc/xno-skills -g -y --all
+```
+
+### Claude Code
+
+```
+/plugin marketplace add CasualSecurityInc/xno-skills
+/plugin install xno-skills@casual-security-inc
+```
+
+> [!IMPORTANT]
+> If you installed skills from this repository before May 4, 2026, you have 11 individual `nano-*` skills that have been consolidated into a single `nano` skill. Remove the old ones first:
+> ```bash
+> npx skills remove nano-block-lattice-expert nano-check-balance nano-convert-units nano-create-wallet nano-generate-qr nano-mcp-wallet nano-request-payment nano-return-funds nano-sign-message nano-validate-address nano-verify-message -g -y
+> ```
+> Then reinstall as above.
+
+Available skills:
+- `nano`: Wallet ops, balance, send/receive, QR codes, address validation, unit conversion, payment requests, refunds, block-lattice protocol expertise, and more — all in one skill. Uses `xno-mcp` MCP tools first, falls back to `xno-skills` CLI.
+
+## CLI
+
+### Installation & Upgrades
+
+To install or upgrade the CLI, AI agent skills, and wallet dependencies to the latest version, run:
+```bash
+npm install -g xno-skills && npx -y skills add CasualSecurityInc/xno-skills -g -y --all
+xno-skills --help
+```
+
+To pin to the current stable release instead:
+```bash
+npm install -g xno-skills@4.5.2 && npx -y skills add CasualSecurityInc/xno-skills -g -y --all
+```
+
+
+### Wallet Operations
+
+| Command | Description |
+|---|---|
+| `wallets [options]` | List wallets that have Nano accounts |
+| `balance [options]` | Show balance and pending amount |
+| `receive [options]` | Receive pending blocks |
+| `send [options]` | Send Nano |
+| `change-rep [options]` | Submit a change representative block |
+| `submit-block [options]` | Sign and submit a prepared block hex |
+| `history [options]` | Show transaction history |
+
+### Utilities
+
+| Command | Description |
+|---|---|
+| `info [options]` | Discover the current state and representative of any Nano account |
+| `convert [options] <amount> <from>` | Convert between XNO units |
+| `qr [options] <address>` | Generate a QR code for a Nano address |
+| `validate [options] <input>` | Validate a Nano address or block hash |
+
+### Cryptography & Signing
+
+| Command | Description |
+|---|---|
+| `sign [options] <message>` | Sign a NOMS message with a private key |
+| `verify [options] <address> <message> <signature>` | Verify a NOMS message signature |
+
+### Advanced & RPC
+
+| Command | Description |
+|---|---|
+| `rpc` | Query a Nano node RPC |
+| `rpc probe-caps [url]` | Probe one or more comma-separated RPC URLs for JSON RPC, ledger-read, process, and remote PoW support |
+| `block` | Build unsigned Nano state blocks for manual/expert workflows |
+
+### System
+
+| Command | Description |
+|---|---|
+| `diag` | Show version, environment, effective RPC/work URLs, and local PoW recommendation without network probes |
+| `mcp` | Start the MCP server or view configuration instructions |
+
+All commands support `-j` / `--json` for machine-readable output.
+
+Use `diag` for local configuration diagnostics. Use `rpc probe-caps <effective-work-url>` when you need live endpoint capability checks, including `work_generate` support.
+
+Wallet lifecycle (create, import, rename, delete) is managed by [OWS](https://github.com/open-wallet-standard/core). `xno-skills` bundles OWS as a dependency — no separate install needed. See the [OWS quick-start](https://openwallet.sh/#quickstart) for terminal usage, or install OWS agent skills with `npx skills add open-wallet-standard/core@ows`.
+
+## MCP Server
+
+Exposes Nano wallet functions as tools for AI agents (Claude Desktop, Cursor, Codex, etc.). MCP resources (`xno-wallet://` URIs) are served but require client-side `resources/read` support — not yet available in OpenCode ([#15535](https://github.com/anomalyco/opencode/issues/15535)).
+
+```json
+{
+  "mcpServers": {
+    "nano": {
+      "command": "npx",
+      "args": ["-y", "-p", "xno-skills@4.5.2", "xno-mcp"]
+    }
+  }
+}
+```
+
+
+### Client Setup Examples
+
+<details>
+<summary>Codex</summary>
+
+```bash
+codex mcp add nano \
+  -c sandbox_mode="danger-full-access" \
+  -c 'sandbox_permissions=["network-access"]' \
+  -- npx -y -p xno-skills@4.5.2 xno-mcp
+```
+</details>
+
+<details>
+<summary>Claude Desktop (<code>claude_desktop_config.json</code>)</summary>
+
+```json
+{
+  "mcpServers": {
+    "nano": {
+      "command": "npx",
+      "args": ["-y", "-p", "xno-skills@4.5.2", "xno-mcp"]
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary>OpenCode (<code>~/.config/opencode/opencode.json</code>)</summary>
+
+```jsonc
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "nano": {
+      "type": "local",
+      "command": ["npx", "-y", "-p", "xno-skills@4.5.2", "xno-mcp"],
+      "enabled": true
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary>Gemini CLI (<code>~/.gemini/settings.json</code>)</summary>
+
+```json
+{
+  "mcpServers": {
+    "nano": {
+      "command": "npx",
+      "args": ["-y", "-p", "xno-skills@4.5.2", "xno-mcp"]
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary>Antigravity (<code>~/.gemini/antigravity/mcp_config.json</code>)</summary>
+
+```json
+{
+  "mcpServers": {
+    "nano": {
+      "command": "npx",
+      "args": ["-y", "-p", "xno-skills@4.5.2", "xno-mcp"]
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary>VS Code (<code>.vscode/mcp.json</code>)</summary>
+
+```json
+{
+  "servers": {
+    "nano": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "-p", "xno-skills@4.5.2", "xno-mcp"]
+    }
+  }
+}
+```
+</details>
+
+## Library
+
+For using `xno-skills` as a TypeScript library, see [LIBRARY.md](./LIBRARY.md).
+
+## Security Notes
+
+- **Never share your seed or private keys.** Anyone with access can fully control your wallet.
+- **Store seeds securely.** Use hardware wallets or encrypted storage — never in plain text or version control.
+- **Address validation.** Always validate addresses before sending. Nano addresses include checksums.
+- **Unit precision.** Nano uses 30 decimal places. Always use string-based conversion to avoid floating-point errors.
+
+## Development
+
+```bash
+npm install
+npm test
+npm run build
+```
+
+## Releasing
+
+See `RELEASING.md`.
+
+## Similar Projects
+
+- [kilkelly/nano-currency-mcp-server](https://github.com/kilkelly/nano-currency-mcp-server) — MCP server for Nano with a simple per-transaction send limit
+- [strawberry-labs/berrypay-cli](https://github.com/strawberry-labs/berrypay-cli) — Nano wallet CLI for AI agents with payment processing and auto-sweep
+
+## License
+
+MIT
+
