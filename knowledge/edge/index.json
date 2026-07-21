@@ -1,10 +1,220 @@
 {
-  "last_checked_at": "2026-07-20T07:51:37.862Z",
+  "last_checked_at": "2026-07-21T07:27:36.889Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "huangchihhungleo/claude-real-video",
+      "name": "HUANGCHIHHUNGLeo/claude-real-video",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "date": "2026-07-21",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 92,
+      "momentum": 100,
+      "risk": 35,
+      "integration_effort": 48,
+      "expected_gain": 95,
+      "composite": 85,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.353,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)",
+          "date": "2026-07-07",
+          "topic": "Local LLMs",
+          "similarity": 0.302,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/16-update-i-built-a-tool-to-turn-your-claude-code-sessions-into-fine-tuni.md"
+        },
+        {
+          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
+          "date": "2026-07-08",
+          "topic": "AI agents",
+          "similarity": 0.3,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-21)",
+        "MIT license",
+        "1784 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
+        }
+      ],
+      "install_commands": [
+        "pip install \"claude-real-video[whisper]\"",
+        "npx skills add HUANGCHIHHUNGLeo/claude-real-video   # one command, installs the skill into Claude Code, Cursor, Codex, Copilot, Gemini CLI & 50+ agent hosts",
+        "npx skills add HUANGCHIHHUNGLeo/claude-real-video",
+        "git clone https://github.com/HUANGCHIHHUNGLeo/claude-real-video.git",
+        "pip install \"claude-real-video[whisper]\"   # recommended: frames + dedup + audio transcription",
+        "pip install claude-real-video              # core only (frames + dedup)"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-21/01-huangchihhungleo-claude-real-video.md"
+    },
+    {
+      "id": "modu-ai/moai-adk",
+      "name": "modu-ai/moai-adk",
+      "url": "https://github.com/modu-ai/moai-adk",
+      "date": "2026-07-21",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 79,
+      "momentum": 100,
+      "risk": 30,
+      "integration_effort": 40,
+      "expected_gain": 95,
+      "composite": 83,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "The Spec Growth Engine: Spec-Anchored, Code-Coupled, Drift-Enforced Architecture for AI-Assisted Software Development",
+          "date": "2026-06-25",
+          "topic": "AI agents",
+          "similarity": 0.324,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/08-the-spec-growth-engine-spec-anchored-code-coupled-drift-enforced-archi.md"
+        },
+        {
+          "title": "llm011/ethan-agent",
+          "date": "2026-06-20",
+          "topic": "AI dev tools",
+          "similarity": 0.286,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
+        },
+        {
+          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
+          "date": "2026-07-08",
+          "topic": "AI agents",
+          "similarity": 0.273,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-21)",
+        "Apache-2.0 license",
+        "1135 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "go.mod",
+          "summary": "module github.com/modu-ai/moai-adk"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/modu-ai/moai-adk.git",
+        "claude        # launch Claude Code inside the project",
+        "git checkout -b feature/my-feature"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-25 about AI agents; this candidate overlaps with \"The Spec Growth Engine: Spec-Anchored, Code-Coupled, Drift-Enforced Architecture for AI-Assisted Software Development\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-21/02-modu-ai-moai-adk.md"
+    },
+    {
+      "id": "samuraigpt/awesome-hermes-agent",
+      "name": "SamurAIGPT/awesome-hermes-agent",
+      "url": "https://github.com/SamurAIGPT/awesome-hermes-agent",
+      "date": "2026-07-21",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 63,
+      "momentum": 100,
+      "risk": 36,
+      "integration_effort": 48,
+      "expected_gain": 95,
+      "composite": 77,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
+          "date": "2026-06-26",
+          "topic": "AI agents",
+          "similarity": 0.367,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
+        },
+        {
+          "title": "dspachos/awesome-ai-tools",
+          "date": "2026-06-27",
+          "topic": "AI dev tools",
+          "similarity": 0.357,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/10-dspachos-awesome-ai-tools.md"
+        },
+        {
+          "title": "Show HN: AMA2, messenger built for AI agent",
+          "date": "2026-06-30",
+          "topic": "AI agents",
+          "similarity": 0.342,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-21)",
+        "MIT license",
+        "1843 GitHub stars",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [],
+      "install_commands": [
+        "npx skills add ohad6k/ditto",
+        "npx skills add longbridge/skills -g",
+        "npx robrain install --hermes",
+        "npx -y @piprail/mcp",
+        "npx -y screenpipe-mcp"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-26 about AI agents; this candidate overlaps with \"Agent-Native Immune System: Architecture, Taxonomy, and Engineering\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-21/03-samuraigpt-awesome-hermes-agent.md"
+    },
     {
       "id": "casualsecurityinc/xno-skills",
       "name": "CasualSecurityInc/xno-skills",

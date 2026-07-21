@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T07:50:54.339Z",
+  "updated_at": "2026-07-21T07:27:11.647Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: The0 – self-hosted runtime for trading bots, bring your own language",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/alexanderwanyoike/the0",
+      "date": "2026-07-20",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "So Im a solo developer who has always had an itch for algorithmic trading. Initially I started off learning how to trade algorithmically with Yves Hilpisch book \"Python for Algorithmic Trading\" after reading that book I was hooked and started building algorithmic trading bots. Initially these were separate python scripts that I ran on my local machine. Th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-20/06-show-hn-the0-self-hosted-runtime-for-trading-bots-bring-your-own-langu.md"
+    },
+    {
+      "title": "Show HN: Shackle – Deterministic runtime governance for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Fame510/SHACKLE",
+      "date": "2026-07-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Shackle – Deterministic runtime governance for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/07-show-hn-shackle-deterministic-runtime-governance-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Agent Search Engine – an independent index of 247 AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://agentsearchengine.app",
+      "date": "2026-07-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Agent Search Engine – an independent index of 247 AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/08-show-hn-agent-search-engine-an-independent-index-of-247-ai-agents.md"
+    },
+    {
+      "title": "TRIM: Reducing AI-Generated CodeSlop via Agent Trajectory Minimization",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.18161v1",
+      "date": "2026-07-20",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Coding agents are increasingly used to accelerate code generation in many downstream tasks, such as fixing bugs, building applications, and prototyping. However, despite their value as coding assistants, agent-generated code tends to be larger and more verbose than the corresponding human-written implementation. In this work, we show that the cause lies i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-20/09-trim-reducing-ai-generated-codeslop-via-agent-trajectory-minimization.md"
+    },
+    {
+      "title": "AI is Glue",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/ai-is-glue",
+      "date": "2025-12-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "LLMs are the new glue code for engineering workflows. See how AI connects deterministic tools like the GitHub CLI and Snyk API, filling the gaps to automate complex tasks that were previously impractical. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2025-12-03/10-ai-is-glue.md"
+    },
+    {
+      "title": "Show HN: Ekko – post-quantum E2EE layer for Instagram, WhatsApp, Telegram Web",
+      "source": "Hacker News Show HN",
+      "url": "https://useekko.app/",
+      "date": "2026-07-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I am a big privacy activist and the amount of privacy concerns in the internet with the discussions around European Chat Control, Meta removing e2ee in Instagram and corporations harvesting personal data for AI training is on the rise. The closed source social media companies keep managing and storing our private keys, allowing them to effect... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-21/11-show-hn-ekko-post-quantum-e2ee-layer-for-instagram-whatsapp-telegram-w.md"
+    },
+    {
+      "title": "Show HN: PounceDomains – Domain discovery and sniping for Namecheap Marketplace",
+      "source": "Hacker News Show HN",
+      "url": "https://pouncedomains.com",
+      "date": "2026-07-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I built PounceDomains to find undervalued domains on the Namecheap Marketplace before others. It scans domain auctions based on your configurations around the clock, AI-scores each candidate against your buying strategy, enriches matches with authority/backlink/demand data. Free plan available. And 14-day free trial of Pro plans. It also includes a sister... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-21/12-show-hn-pouncedomains-domain-discovery-and-sniping-for-namecheap-marke.md"
+    },
+    {
+      "title": "Check on Your Spaghetti Software Factory",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/spaghetti-software-factory",
+      "date": "2026-03-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Everyone building with AI agents is speedrunning the Factorio experience. Spaghetti factories are still factories. But slop compounds, and the fix isn&apos;t faster review. It&apos;s quality control. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-03-06/13-check-on-your-spaghetti-software-factory.md"
+    },
+    {
+      "title": "DavidAU somehow managed to improve Qwen 3.6 27B",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v275de/davidau_somehow_managed_to_improve_qwen_36_27b/",
+      "date": "2026-07-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I know DavidAU gets a bad rap, and rightfully so. I've tried some of his fine tunes in the past and they have been... Interesting. I stumbled on this model on accident. A locallama post asking people to name some of longest model names they have found: https://www.reddit.com/r/LocalLLaMA/s/rsvWBHZasI So I hopped on the HF page and noticed a few things tha... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-21/14-davidau-somehow-managed-to-improve-qwen-3-6-27b.md"
+    },
+    {
+      "title": "Unsloth now supports AMD!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1nor4/unsloth_now_supports_amd/",
+      "date": "2026-07-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA folks! Unsloth now officially supports AMD hardware for local inference, fine-tuning, reinforcement learning, and deployment! It's been in the works for quite some time, but it works on Windows, Linux & WSL devices (+ technically Mac) with AMD GPUs! Unsloth Studio is fully open source and free , and supports: Radeon RX 9000 and 7000 serie... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-20/15-unsloth-now-supports-amd.md"
+    },
+    {
+      "title": "543 tok/s single-request Qwen3.6-35B-A3B on one RTX 5090 over a 65K-token decode",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1no8e/543_toks_singlerequest_qwen3635ba3b_on_one_rtx/",
+      "date": "2026-07-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "An example TL;DR I have open-sourced NInfer , a from-scratch C++/CUDA inference engine currently specialized for two exact Qwen3.6 checkpoints on a single RTX 5090. Both the engine and the converted model artifacts are publicly available: Github : https://github.com/Neroued/ninfer The main result: Qwen3.6-35B-A3B sustained 542 tok/s while generating a ful... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-20/16-543-tok-s-single-request-qwen3-6-35b-a3b-on-one-rtx-5090-over-a-65k-to.md"
+    },
+    {
+      "title": "openbmb released MiniCPM5-2B, not yet available at huggingface",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1m264/openbmb_released_minicpm52b_not_yet_available_at/",
+      "date": "2026-07-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "According to source, it is the locally ranked AI model, the best among 4b models Source : https://x.com/i/status/2079088670804767114 submitted by /u/Illustrious-Swim9663 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-20/17-openbmb-released-minicpm5-2b-not-yet-available-at-huggingface.md"
+    },
     {
       "title": "A Human-Centric Evaluation of a Retrieval-Augmented Generation System for Explaining Quebec Insurance Contracts",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "The World Wide Web was built on an assumption held for three decades: the primary consumer of web content is a human being. This permeates every layer; its access model presumes human visitors, its economics rest on human attention, and its content targets human perception. The rapid emergence of AI agents as intermediaries between humans and web content... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-17/67-towards-an-agent-first-web-redesigning-the-web-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Local personal data redaction for any AI tools",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/sophia486/pii-gui",
-      "date": "2026-06-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built the desktop app that detects and redacts personal data (or PII) locally without sending any text to server. It supports rule-based filtering and AI model-based redaction (eg openai privacy filter). It's open source and free. Please check out the repo and https://pii-gui.vercel.app/ (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-18/68-show-hn-local-personal-data-redaction-for-any-ai-tools.md"
-    },
-    {
-      "title": "Show HN: Attagram, a tiny printer that gives kids a magical daily digest",
-      "source": "Hacker News Show HN",
-      "url": "https://www.attagram.com/",
-      "date": "2026-06-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I’m building Attagram: a small printer that lives in the kitchen and prints a daily paper digest for kids. The idea came from an emerging family dynamic I kept noticing. My daughters (A, 9 and J, 8) are becoming increasingly independent, but as parents, we hold an enormous amount of invisible state in our heads and phones: what day a project is due, who n... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-18/69-show-hn-attagram-a-tiny-printer-that-gives-kids-a-magical-daily-digest.md"
-    },
-    {
-      "title": "Show HN: Reyn – local-first AI that journals and recalls your work",
-      "source": "Hacker News Show HN",
-      "url": "https://www.usereyn.com/",
-      "date": "2026-06-17",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I built Reyn - which I like to describe as \"granola but for everything\". You're probably thinking another screen capture AI tool (which is true). Same as always, the biggest question that comes up is privacy, so I'll talk about that first 1. raw screen data is never stored in the cloud 2. user controlled filters are granular to the point that you'... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-17/70-show-hn-reyn-local-first-ai-that-journals-and-recalls-your-work.md"
-    },
-    {
-      "title": "Show HN: Chatty Lingo – A language practicing app",
-      "source": "Hacker News Show HN",
-      "url": "https://www.chattylingo.com",
-      "date": "2026-06-17",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey all, I've built a web app for practicing spoken conversations in a language you're learning. It was driven by my own needs when I learn Korean. The main functionality includes two modes: 1. Chat with AI — you pick a situation (ordering at a café, taking a taxi, checking into a hotel) and the AI plays the other role entirely in your target language. It... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-17/71-show-hn-chatty-lingo-a-language-practicing-app.md"
-    },
-    {
-      "title": "Headless screenshot loops let a local 30B agent finish a raytraced FPS demo in pure C",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u89f2q/headless_screenshot_loops_let_a_local_30b_agent/",
-      "date": "2026-06-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Some background so this is honest. Over the past few months I ran a lot of oneshot experiments with single file three.js games. Minecraft clones, that kind of thing. I picked those on purpose because they sit deep in the training data and are trivial to debug by eye. The goal was never a quality comparison. I wanted a class of problems that oneshots cheap... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-17/72-headless-screenshot-loops-let-a-local-30b-agent-finish-a-raytraced-fps.md"
-    },
-    {
-      "title": "I released a local LLM-powered RPG where generated NPCs, locations, items, and quests persist as in-game objects",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u894z7/i_released_a_local_llmpowered_rpg_where_generated/",
-      "date": "2026-06-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "In this game, NPCs, locations, items, quests, and other elements are generated not as one-off text, but as persistent in-game objects. The LLM handles dialogue, narration, situational interpretation, quest progression, and similar parts of the experience. Meanwhile, the game system manages the RPG structure itself, such as inventory, equipment, party memb... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-17/73-i-released-a-local-llm-powered-rpg-where-generated-npcs-locations-item.md"
-    },
-    {
-      "title": "I released Inflect-Nano, an ultra-extreme tiny 4.63m parameter TTS model.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8p9s1/i_released_inflectnano_an_ultraextreme_tiny_463m/",
-      "date": "2026-06-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I’ve been experimenting with how small a usable neural TTS model can realistically get, and I just released Inflect-Nano-v1 . Inflect-Nano is one of the smallest TTS models, and it performs surprisingly well for its model weight. Even if you have a certified potato computer, it can run on that. It is not SOTA, and I’m not pretending it beats large models.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-17/74-i-released-inflect-nano-an-ultra-extreme-tiny-4-63m-parameter-tts-mode.md"
-    },
-    {
-      "title": "GLM-5.2 is a win for local AI",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8ai2a/glm52_is_a_win_for_local_ai/",
-      "date": "2026-06-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I know GLM 5.2's massive 753B footprint means none of us are running it at home without an enterprise cluster, but having a true frontier-level, MIT-licensed coding agent out in the wild makes me optimistic. The distillation potential here is massive. Once the community starts fine-tuning smaller 8B and 70B architectures on GLM 5.2's reasoning and synthet... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-17/75-glm-5-2-is-a-win-for-local-ai.md"
-    },
-    {
-      "title": "Show HN: Ctx, save tokens by loading only the relevant tools",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/stevesolun/ctx",
-      "date": "2026-06-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! Token cost has started to become a high topic of concern to all of us. I tried a few (awesome) tools such as rtk, caveman, and the recent (hillarious but effective) ponytail. What they usually do, is in-line token reduction, e.g. try to compress requests / responses as much as possible. But then it hit me (and I’m sure others had similar ideas) - j... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/52-show-hn-ctx-save-tokens-by-loading-only-the-relevant-tools.md"
-    },
-    {
-      "title": "RubricsTree: Scalable and Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.18203v1",
-      "date": "2026-06-16",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The LLM-empowered personal health agents with user health (sensor) metrics have offered a promising pathway to alleviate global disparities in healthcare access. However, large-scale clinical deployment remains constrained by an open-ended evaluation bottleneck: physician annotation is reliable but costly and unscalable, while LLM-as-a-judge evaluators ar... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/53-rubricstree-scalable-and-evolving-open-ended-evaluation-of-personal-he.md"
-    },
-    {
-      "title": "All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.18168v1",
-      "date": "2026-06-16",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Software practitioners increasingly use AI coding agents that generate test code alongside production code in open source pull requests (PRs). Recent studies report more than 932,000 agent-authored PRs across more than 116,000 repositories, yet whether their test files contain meaningful verification logic remains underexplored. Test files lacking explici... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/54-all-smoke-no-alarm-oracle-signals-in-agent-authored-test-code.md"
-    },
-    {
-      "title": "Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.18142v1",
-      "date": "2026-06-16",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents are moving from advisors to actors, booking travel, planning menus, and running procurement on behalf of users. Existing benchmarks for AI and animal welfare evaluate model text responses to question-answer prompts, leaving open whether the welfare reasoning surfaced in those responses transfers to agentic deployment where the model must take ac... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/55-your-ai-travel-agent-would-book-you-a-bullfight-an-agentic-benchmark-f.md"
     }
   ]
 }
