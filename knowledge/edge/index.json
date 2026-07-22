@@ -1,10 +1,212 @@
 {
-  "last_checked_at": "2026-07-21T07:27:36.889Z",
+  "last_checked_at": "2026-07-22T07:29:31.628Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "taewooopark/agent-blackbox",
+      "name": "TaewoooPark/Agent-Blackbox",
+      "url": "https://github.com/TaewoooPark/Agent-Blackbox",
+      "date": "2026-07-22",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 79,
+      "risk": 40,
+      "integration_effort": 56,
+      "expected_gain": 77,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: AMA2, messenger built for AI agent",
+          "date": "2026-06-30",
+          "topic": "AI agents",
+          "similarity": 0.392,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"
+        },
+        {
+          "title": "Show HN: ctx – Search the coding agent history already on your machine",
+          "date": "2026-07-02",
+          "topic": "AI agents",
+          "similarity": 0.338,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/07-show-hn-ctx-search-the-coding-agent-history-already-on-your-machine.md"
+        },
+        {
+          "title": "sciencebanda09/nexus-multiagent",
+          "date": "2026-06-23",
+          "topic": "AI dev tools",
+          "similarity": 0.338,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-22)",
+        "MIT license",
+        "59 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @types/node, @types/react, @types/react-dom, @types/ws, @vitejs/plugin-react, esbuild, tsx, typescript; scripts build, build:cli, check, lint, optimize, start, test, typecheck"
+        }
+      ],
+      "install_commands": [
+        "npx @taewooopark/agent-blackbox up --host claude-code",
+        "npx @taewooopark/agent-blackbox up --host codex",
+        "npx @taewooopark/agent-blackbox up",
+        "npx @taewooopark/agent-blackbox up --host all",
+        "claude            # Claude Code, in any folder — zero setup, just run it",
+        "codex              # Codex CLI (desktop-app tasks are captured too)"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-30 about AI agents; this candidate overlaps with \"Show HN: AMA2, messenger built for AI agent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-22/01-taewooopark-agent-blackbox.md"
+    },
+    {
+      "id": "autonomous-ai/autonomous-os",
+      "name": "autonomous-ai/autonomous-os",
+      "url": "https://github.com/autonomous-ai/autonomous-os",
+      "date": "2026-07-22",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 79,
+      "momentum": 61,
+      "risk": 32,
+      "integration_effort": 28,
+      "expected_gain": 81,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: BoundFlow – an open-source control plane for AI agents",
+          "date": "2026-07-11",
+          "topic": "AI agents",
+          "similarity": 0.407,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/07-show-hn-boundflow-an-open-source-control-plane-for-ai-agents.md"
+        },
+        {
+          "title": "Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)",
+          "date": "2026-07-11",
+          "topic": "AI agents",
+          "similarity": 0.365,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/06-show-hn-agenttransfer-open-source-file-transfer-for-ai-agents-one-go-b.md"
+        },
+        {
+          "title": "attestral-labs/attestral",
+          "date": "2026-07-18",
+          "topic": "AI dev tools",
+          "similarity": 0.344,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/11-attestral-labs-attestral.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-22)",
+        "Apache-2.0 license",
+        "14 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README includes remote script execution pattern"
+      ],
+      "readme_quality": 70,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "go.mod",
+          "summary": "module go.autonomous.ai/os"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "README includes remote script execution pattern"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-11 about AI agents; this candidate overlaps with \"Show HN: BoundFlow – an open-source control plane for AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-22/02-autonomous-ai-autonomous-os.md"
+    },
+    {
+      "id": "sticklane/claude",
+      "name": "sticklane/claude",
+      "url": "https://github.com/sticklane/claude",
+      "date": "2026-07-22",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 79,
+      "momentum": 55,
+      "risk": 32,
+      "integration_effort": 36,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.4,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "llm011/ethan-agent",
+          "date": "2026-06-20",
+          "topic": "AI dev tools",
+          "similarity": 0.312,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
+        },
+        {
+          "title": "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)",
+          "date": "2026-07-07",
+          "topic": "Local LLMs",
+          "similarity": 0.294,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/16-update-i-built-a-tool-to-turn-your-claude-code-sessions-into-fine-tuni.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-22)",
+        "MIT license",
+        "4 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "Repository description is sparse"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [],
+      "install_commands": [
+        "git clone https://github.com/sticklane/claude.git ~/agentic-toolkit",
+        "git add .claude && git commit -m \"Add agentic development toolkit\""
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-22/03-sticklane-claude.md"
+    },
     {
       "id": "huangchihhungleo/claude-real-video",
       "name": "HUANGCHIHHUNGLeo/claude-real-video",

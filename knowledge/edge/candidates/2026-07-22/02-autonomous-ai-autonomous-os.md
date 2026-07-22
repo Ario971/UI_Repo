@@ -1,0 +1,228 @@
+---
+id: "autonomous-ai/autonomous-os"
+name: "autonomous-ai/autonomous-os"
+url: "https://github.com/autonomous-ai/autonomous-os"
+date: "2026-07-22"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "claude_skill"
+compatibility: 79
+momentum: 61
+risk: 32
+integration_effort: 28
+expected_gain: 81
+composite: 73
+replacement_target: ""
+related_articles: [{"title":"Show HN: BoundFlow – an open-source control plane for AI agents","date":"2026-07-11","topic":"AI agents","similarity":0.407,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/07-show-hn-boundflow-an-open-source-control-plane-for-ai-agents.md"},{"title":"Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)","date":"2026-07-11","topic":"AI agents","similarity":0.365,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/06-show-hn-agenttransfer-open-source-file-transfer-for-ai-agents-one-go-b.md"},{"title":"attestral-labs/attestral","date":"2026-07-18","topic":"AI dev tools","similarity":0.344,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/11-attestral-labs-attestral.md"}]
+pros: ["Recently updated (2026-07-22)","Apache-2.0 license","14 GitHub stars","GitHub Actions/CI detected"]
+cons: ["No clear install command found in README","README includes remote script execution pattern"]
+readme_quality: 70
+has_ci: true
+has_tests: true
+setup_steps_count: 0
+dependency_files: [{"name":"go.mod","summary":"module go.autonomous.ai/os"}]
+install_commands: []
+risk_flags: ["README includes remote script execution pattern"]
+status: "new"
+---
+
+# autonomous-ai/autonomous-os
+
+An Open Source Operating System for Physical AI Agents
+
+URL: https://github.com/autonomous-ai/autonomous-os
+
+## Why it matters
+You saved an article on 2026-07-11 about AI agents; this candidate overlaps with "Show HN: BoundFlow – an open-source control plane for AI agents" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-07-22)
++ Apache-2.0 license
++ 14 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- No clear install command found in README
+- README includes remote script execution pattern
+
+## Repository Inspection
+README quality: 70/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 0
+
+Dependency files:
+- go.mod: module go.autonomous.ai/os
+
+Install commands found:
+- none detected
+
+Risk flags:
+- README includes remote script execution pattern
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Autonomous OS
+
+**Autonomous OS is the open source operating system for physical AI agents.** It runs on edge devices
+with cameras, microphones, speakers, displays, motors, lights, and sensors, and gives
+an AI agent a body: it sees, hears, speaks, moves, senses, remembers, runs skills, and
+updates itself — locally first.
+
+**Autonomous Lamp** is the first reference device. **Intern** is the second. Anyone can
+build a third.
+
+> The brain is a swappable **agentic runtime** (OpenClaw, Hermes, PicoClaw, OpenAI Codex,
+> Claude Code, or any LLM + skills + memory). Autonomous OS is everything else — the body, the skills, and the bounds.
+
+## Reference devices
+
+| | Device | What it is | Declares |
+|---|--------|-----------|----------|
+| <img src="devices/lamp/images/lamp.webp" width="210"> | [**Autonomous Lamp**](devices/lamp) | 5-DOF expressive desk robot | the maximal set — audio, vision, motion, light, display, sensing |
+| <img src="devices/intern-v2/images/intern.webp" width="210"> | [**Autonomous Intern**](devices/intern-v2) | always-on desk agent | audio, sensing, light — **no** camera, motion, or display |
+| <img src="devices/unitree-go2w/images/go2-w.webp" width="210"> | [**Unitree Go2-W**](devices/unitree-go2w) | a *different manufacturer's* mobile robot, running Autonomous | audio, vision (+ depth), motion (locomotion), sensing |
+
+Lamp and Intern are **Autonomous's own** devices; the **Unitree Go2-W is a different
+manufacturer's** robot running the identical OS — the Android playbook (Android on Samsung,
+Pixel, …). All three run the **same OS image**; only their `DEVICE.md` differs. The Go2-W makes
+it vivid: its `motion` is **locomotion** driven by the Unitree SDK, yet a "come here" skill
+calling `motion.move` runs on it and on Lamp alike — skills address capabilities, not hardware.
+
+## Architecture
+
+Autonomous OS is a layered stack: each layer exposes an interface to the one above and
+depends only on the one below, so any layer can be replaced without touching the others.
+
+![Autonomous OS architecture](docs/architecture/autonomous-stack.svg)
+
+### Skills
+
+What the device does — 24 skills, each a `SKILL.md` the runtime invokes: apps like `guard`,
+`mood`, `scene`, `habit`, `wellbeing`, plus capability wrappers (`led-control`,
+`servo-control`, `camera`, `music`, …). A skill is an *ability*; the device's *character* is
+its `SOUL.md`. First-party skills use the same public contract a third party gets. *(`skills/`)*
+
+### System Managers
+
+The always-on Go daemon: `intent` (fast local commands), `network`, `sensing` routing,
+`monitor` (flow event bus), `healthwatch`, `ambient`, and `device`. Deterministic — they run
+with or without the runtime. OTA runs as its own worker (`bootstrap/`).
+*(`system/`)*
+
+### Agentic Runtime
+
+**OpenClaw**, **Hermes**, **PicoClaw**, **OpenAI Codex**, **Claude Code**, or a custom
+runtime. Runs the skills, embodies the device's `SOUL.md`, and decides what to act on.
+Swappable at runtime (web Settings or MQTT) — and where Autonomous OS's differentiated value
+(the default brain, memory, character) lives. Its **tools** — how it reaches beyond the device —
+are **MCP connectors** (`runtimes/*/mcp.go`, synced across a switch by `system/agent`) and the
+**CLI** the LLM calls directly (`curl`, shell); skills are the device's own abilities through the
+HAL, tools are external capabilities the runtime calls.
+*(`runtimes/{openclaw,hermes,picoclaw,codex,claudecode}`; adding
+your own: `docs/agentic/adding-agent-runtime.md`)*
+
+### Hardware Abstraction Layer (HAL)
+
+The frozen, versioned interface — 12 capabilities: `audio`, `vision`, `sensing`, `presence`,
+`motion`, `light`, `display`, `expression`, `media`, `connectivity`, `companion`, `system`.
+Skills call capabilities (`motion.move`), never hardware models — so one skill runs on any
+body that declares the capability. A device's `DEVICE.md` declares which it has; the runtime
+mounts only those. The HAL also hosts the **safety gate** (`hal/safety`): `SAFETY.md`
+bounds — e-stop, motion limits, brightness, quiet hours — **enforced deterministically below
+the brain, never by the LLM**.
+*(`devices/contract/` + `hal` — see [HAL](docs/architecture/hal.md))*
+
+### Agentic Middle
+
+The realtime voice agent (`hal/realtime`) — brain-tier code the HAL hosts in-process, so it sits
+between the runtime and the HAL. Voice turns land here first and it decides per turn: **answer
+directly** when the turn is simple (small talk, nothing that needs skills or tools), or **delegate
+up** to the main agentic runtime when the turn needs skills or complex tool calls. Runs on Gemini
+Live, OpenAI Realtime, or Qwen.
+*(`hal/realtime` — see [realtime-voice.md](docs/realtime-voice.md))*
+
+### Linux Kernel
+
+The vendor kernel (Raspberry Pi OS / OrangePi, or the robot's onboard compute) we run on — we
+don't ship one. Our **Drivers** (`motors`, `rgb`, `display`, `camera`, `voice` (STT/TTS/VAD),
+`gpio`/`touch`, `bluetooth` in `hal/drivers`, with per-board wiring in `hal/board`) are
+userspace programs talking to it through GPIO/SPI/ALSA/V4L2;
+**Power Management** is the foundation.
+*(see [kernel](docs/architecture/kernel.md))*
+
+📖 Full docs: [overview](docs/architecture/overview.md) · [HAL](docs/architecture/hal.md) · [kernel](docs/architecture/kernel.md)
+
+## The Autonomous Physical Agent Standard
+
+Every device is self-describing to both humans and the runtime, in four files:
+
+| File | Role | Consumer |
+|------|------|----------|
+| `DEVICE.md` | the **body** — what hardware is present | the OS, at boot |
+| `SKILL.md` | the **hands** — what it can do | the runtime |
+| `SOUL.md` | the **self** — who it is | the runtime |
+| `SAFETY.md` | the **bounds** — what it must never do | the OS (deterministic) |
+
+The contract that governs them lives under [`devices/contract/`](devices/contract/) — see
+[`DEVICE-SPEC.md`](devices/contract/DEVICE-SPEC.md) and [`capabilities.md`](devices/contract/capabilities.md).
+
+## Repository layout
+
+The tree maps onto the architecture layers (top of the stack first):
+
+```
+# The OS
+skills/           Skills — the apps (SKILL.md)
+system/           System Managers (Go): one folder per manager — intent, network, monitor, OTA…
+  web/            on-device setup + monitor UI (React)
+runtimes/         Agentic Runtime — one folder per swappable brain (openclaw, hermes, picoclaw, codex, claudecode)
+hal/              HAL (Python) — the package; capability host + routes
+  drivers/        Drivers — by subsystem (motion, audio, vision, light, display, sensing)
+  board/          Board Support — per-board profiles + declaration-driven mounting
+devices/          reference devices: lamp/, intern-v2/ (DEVICE · SOUL · SAFETY · README · hardware/)
+  contract/       HAL capability ABI — frozen, versioned (what skills build against)
+    cts/          compliance test suite — validates devices against the contract
+
+# Supporting
+docs/             documentation, incl. docs/architecture/
+scripts/          build, OTA, and SBC image tooling (incl. scripts/imager/)
+
+# Off-device & integrations
+integrations/
+  companions/          desktop companion apps (autonomous-buddy, claude-desktop-buddy)
+  chat-bridges/        chat bridges into the device (Twitch, web chat)
+  perception-service/  off-device cloud perception inference
+```
+
+> `Drivers` and `Board Support` are surfaced as `hal/drivers` and `hal/board`.
+
+## Quick start
+
+```bash
+# Go system services (cross-compiled to linux/arm64 — Pi or OrangePi)
+make os-build              # builds the system server (system/)
+make os-test               # go test ./...
+
+# Hardware runtime (runs on the Pi or OrangePi)
+cd hal && uv sync
+make hal-dev               # uvicorn reload on :5001
+make hal-test              # pytest
+
+# Web UI
+make web-install && make web-dev
+```
+
+## API convention
+
+All HTTP endpoints return `{"status": 1, "data": <payload>, "message": null}` on success
+and `{"status": 0, "data": null, "message": "error"}` on failure.
+
+## License & contributing
+
+**Apache 2.0** — fully open. Build a device by writing a `DEVICE.md`, a driver, and a
+`SOUL.md`; you never fork the OS. PRs welcome — vibe-coded ones too 🤖. See
+[CONTRIBUTING.md](CONTRIBUTING.md).
+

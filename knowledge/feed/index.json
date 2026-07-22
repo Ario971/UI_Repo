@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T07:27:11.647Z",
+  "updated_at": "2026-07-22T07:29:07.924Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Kalcode/spaceprojectsim",
+      "date": "2026-07-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes. A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a shipyard, or dock so the crew can rest before morale tanks. M... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/06-show-hn-a-self-running-space-economy-sim-in-rust-and-bevy.md"
+    },
+    {
+      "title": "Show HN: CodeAlmanac – Karpathy-style codebase wiki from your conversations",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/AlmanacCode/codealmanac/",
+      "date": "2026-07-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! This is Divit from Almanac (YC S26). We built CodeAlmanac, a wiki for your coding agents that updates as you talk to them. It is open-source, local, and free. Here’s a demo: https://www.youtube.com/watch?v=XNQWV3TFBWM Your CC/Codex conversations contain a LOT of knowledge that is forgotten because it was never documented. People have their own met... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/07-show-hn-codealmanac-karpathy-style-codebase-wiki-from-your-conversatio.md"
+    },
+    {
+      "title": "Show HN: Word in Web – Near MS Word Parity Docx Editor in Web",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://word-in-web.com/",
+      "date": "2026-07-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Word in web is a pure JS docx editor/renderer benched against MS Word directly. This was largely inspired by Eigenpal going closed source, and some personal frustrations I had with working on complex Word templates, pleading papers, etc... and not having a clean way to view/edit them without owning MS Word (which I did just eventually buy but it sucked).... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/08-show-hn-word-in-web-near-ms-word-parity-docx-editor-in-web.md"
+    },
+    {
+      "title": "Show HN: Browser Tools SDK – an optimal browser harness for agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://libretto.sh/browser-tools",
+      "date": "2026-07-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We’re open-sourcing Browser Tools SDK: a small TypeScript package to give any AI agent a reliable way to control a real browser. With just a few lines of code, you can give any agent a production-ready browser harness import { createAiSdkBrowserTools } from \"libretto-browser-tools/ai-sdk\"; import { LocalBrowserProvider } from \"libretto-browser-tools\"; con... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/09-show-hn-browser-tools-sdk-an-optimal-browser-harness-for-agents.md"
+    },
+    {
+      "title": "Show HN: An MCP server that turns async-work practices into tools",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/open-and-async/mcp",
+      "date": "2026-07-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "More than a decade ago, I adopted the self-imposed rule, if I answer a question more than once, the third time I need to be able to answer with a URL. Today, I published one very large URL - a book distilling what I learned from helping people work remotely at GitHub, and I wanted to rethink my rule for the age of AI. What if, instead of a URL, I could cr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-21/10-show-hn-an-mcp-server-that-turns-async-work-practices-into-tools.md"
+    },
+    {
+      "title": "Show HN: Orate – On-device neural text-to-speech queue for Mac",
+      "source": "Hacker News Show HN",
+      "url": "https://orate.to/",
+      "date": "2026-07-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey friends! Brad here - long time HN user, founder, engineer (Coinbase, Soothe, Jeevz, Release, Hired, GrowthX, etc)... I have been struggling recently with too many tabs, emails, articles, etc sitting unread while I swap between Claude code sessions all day. So I decided to build Orate to help me work through the backlog by listening to it all like I wo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-21/11-show-hn-orate-on-device-neural-text-to-speech-queue-for-mac.md"
+    },
+    {
+      "title": "AI Slop Is a Process Problem, Not a People Problem",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/ai-slop-team-sport",
+      "date": "2026-02-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "CI/CD shifted blame from people to process. AI code quality needs the same shift: systematic checks, not individual vigilance. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-02-27/12-ai-slop-is-a-process-problem-not-a-people-problem.md"
+    },
+    {
+      "title": "soumyasax3010/InterviewIQ-AI",
+      "source": "GitHub Search API",
+      "url": "https://github.com/soumyasax3010/InterviewIQ-AI",
+      "date": "2026-07-22",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI-powered interview preparation platform with resume analysis, mock interviews, AI feedback, speech recognition, and analytics dashboard. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-22/13-soumyasax3010-interviewiq-ai.md"
+    },
+    {
+      "title": "arXiv publication: \"Skip a Layer or Loop It? Learning Program-of-Layers in LLMs\"",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2udpa/arxiv_publication_skip_a_layer_or_loop_it/",
+      "date": "2026-07-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "In this paper, Li, Li, and Zhou review formal theory describing how inference-time compute can be traded off for higher or lower inference competence, and apply that theory to a handful of familiar open-weight LLMs (Llama-3.2, Qwen1.5, Qwen2.5, and Qwen3): https://arxiv.org/abs/2606.06574v1 > Large language models (LLMs) perform inference by following a f... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-21/14-arxiv-publication-skip-a-layer-or-loop-it-learning-program-of-layers-i.md"
+    },
+    {
+      "title": "Felix Rieseberg (Anthropic, ElectronJS) has released a free Mac app designed to help people build their own LLMs from scratch.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v32ob7/felix_rieseberg_anthropic_electronjs_has_released/",
+      "date": "2026-07-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Announcement tweet here. Direct link: Language Model Builder From the site: \"Using the default settings, you’ll get a model that writes coherent, grammatical multi-paragraph text in as little as a day. On a MacBook Pro M5 Max you could train a GPT-2-small-class model (~100–150M parameters on a few billion tokens) in about a week. It might be obvious, but... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-22/15-felix-rieseberg-anthropic-electronjs-has-released-a-free-mac-app-desig.md"
+    },
+    {
+      "title": "Anthropic claims local models are stealing from it, meanwhile it pays $1.5B for theft",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ky1e/anthropic_claims_local_models_are_stealing_from/",
+      "date": "2026-07-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "$1.5 billion settlement largest known payout in U.S. copyright case Case part of a wave of lawsuits from copyright holders against AI companies Some authors and publishers opted out and continue separate ​cases against Anthropic submitted by /u/Terminator857 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-21/16-anthropic-claims-local-models-are-stealing-from-it-meanwhile-it-pays-1.md"
+    },
+    {
+      "title": "I ran Laguna-S-2.1 through my private agentic eval vs Qwen3.5-122B on an RTX Pro 6000 (96GB). Fastest 100B+ I've tested and the best tool calling, but it invents facts under pressure.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ua8g/i_ran_lagunas21_through_my_private_agentic_eval/",
+      "date": "2026-07-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Laguna-S-2.1 dropped few hours ago and as I am in the market for an upgrade to trusty qwen3.6 dense and the current daily 122B, I ran it through the same eval harness I use to pick the model that runs my local agent stack. Posting because the results don't fit the usual \"benchmaxed or king\" binary, it's genuinely both impressive and flawed, in specific wa... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-21/17-i-ran-laguna-s-2-1-through-my-private-agentic-eval-vs-qwen3-5-122b-on-.md"
+    },
     {
       "title": "Show HN: The0 – self-hosted runtime for trading bots, bring your own language",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Securing AI agents that operate in complex digital environments has become a critical need, and runtime monitoring approaches that formulate and enforce policies expressed in a formal language like Datalog offer a promising solution. However, existing approaches are restricted to deterministic policies. In many practical applications of AI agents, there i... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-18/79-efficient-and-sound-probabilistic-verification-for-ai-agents.md"
-    },
-    {
-      "title": "saimamustafa-520/Wealthflow",
-      "source": "GitHub Search API",
-      "url": "https://github.com/saimamustafa-520/Wealthflow",
-      "date": "2026-06-19",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "WealthFlow is a smart expense tracking and budgeting platform developed as a software project. The repository contains source code, project planning documents, WBS, Gantt charts, reports, and implementation details. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-19/80-saimamustafa-520-wealthflow.md"
-    },
-    {
-      "title": "Show HN: Talos – Open-source WASM interpreter for Lean",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/cajal-technologies/talos",
-      "date": "2026-06-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "At Cajal (YC W26) we’re excited to share Talos ( https://github.com/cajal-technologies/talos ), an open source framework for formal verification of WebAssembly modules in Lean. AI is now writing tons of the code that gets pushed to production. As code generation gets cheaper, verification becomes the bottleneck. We believe in a future where every piece of... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-18/81-show-hn-talos-open-source-wasm-interpreter-for-lean.md"
-    },
-    {
-      "title": "Show HN: Run Agent Skills with mistral.rs v0.8.10: /v1/skills support and more",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=48581792",
-      "date": "2026-06-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey all! I'm the maintainer of mistral.rs. I just landed support for OpenAI-compatible Agent Skills via a /v1/skills endpoint, and it works with local open models. Until now Skills have basically been locked to closed models, and with the ability to have private, local intelligence becoming increasingly important, but this feature allows you to do XYZ wit... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-18/82-show-hn-run-agent-skills-with-mistral-rs-v0-8-10-v1-skills-support-and.md"
-    },
-    {
-      "title": "acoyfellow/my-ax",
-      "source": "GitHub Search API",
-      "url": "https://github.com/acoyfellow/my-ax",
-      "date": "2026-06-19",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A personal AI agent operating environment you self-host on Cloudflare. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-19/83-acoyfellow-my-ax.md"
-    },
-    {
-      "title": "[NEW MODEL] SupraLabs just released SupraVL-Nano-900k, a Vision-Language Model built entirely from scratch!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9q6m2/new_model_supralabs_just_released_supravlnano900k/",
-      "date": "2026-06-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey r/LocalLLaMA ! We just released SupraVL-Nano-900k , our first VLM. It has ~900k parameters, was trained from scratch on Flickr8k, and the entire architecture fits in a single Jupyter notebook. This is not a production model, it's a fully transparent, readable blueprint for anyone who wants to understand how image-to-text models actually work under the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-19/84-new-model-supralabs-just-released-supravl-nano-900k-a-vision-language-.md"
-    },
-    {
-      "title": "GLM-5.2 can now run locally in llama.cpp and Unsloth Studio.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9vfhf/glm52_can_now_run_locally_in_llamacpp_and_unsloth/",
-      "date": "2026-06-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The 2-bit model retains ~82% accuracy after we shrunk it from 1.51TB to 238GB (-84% size). Run on a 256GB Mac or RAM/VRAM setups. GLM-5.2 is the strongest open model to date. Check the graph for the accuracy of each GLM-5.2-GGUF quantization. Full guide: https://unsloth.ai/docs/models/glm-5.2 GGUF: https://huggingface.co/unsloth/GLM-5.2-GGUF submitted by... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-19/85-glm-5-2-can-now-run-locally-in-llama-cpp-and-unsloth-studio.md"
-    },
-    {
-      "title": "Giving GLM-5.2 a spin locally on CPU only! (poor man's rig for big models)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9jbd4/giving_glm52_a_spin_locally_on_cpu_only_poor_mans/",
-      "date": "2026-06-18",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This is the UD-Q2-K_XL quant. Hardware is: Model: Dell PowerEdge R740 CPU: Dual Xeon 6248R (24 cores each) RAM: 768 GB (All memory channels populated) I'm using ik_llama.cpp which provides some significant performance improvements over the base llama.cpp for CPU-only inference. Unfortunately, we dual CPU folks have to worry about NUMA nodes and cross-sock... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-18/86-giving-glm-5-2-a-spin-locally-on-cpu-only-poor-man-s-rig-for-big-model.md"
-    },
-    {
-      "title": "GLM-5.2 (744B, 2-bit) at 7.3 tok/s on 4×3090 + 192GB — and why IQ1_M wasn't any faster",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9mpty/glm52_744b_2bit_at_73_toks_on_43090_192gb_and_why/",
-      "date": "2026-06-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "TLDR: For the first time, I feel relief that they could shut down the cloud services and I would be ok. I got my 4th 3090 and then unsloth dropped the Q2 and Q1. I wrote nothing else here its from CC, so it might be wrong. GLM-5.2 UD-IQ2_M runs across 4×3090 + RAM expert offload at ~7.3 tok/s. Two decode A/Bs: halving the quant (IQ2->IQ1) did NOTHING; goi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-19/87-glm-5-2-744b-2-bit-at-7-3-tok-s-on-4-3090-192gb-and-why-iq1-m-wasn-t-a.md"
-    },
-    {
-      "title": "Show HN: BlitzGraph – Supabase for graphs, built for LLM agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://blitzgraph.com",
-      "date": "2026-06-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN After becoming allergic to SQL, I opened 120+ issues in Dgraph, Typedb and surrealdb looking for the perfect graphDB. None of them was built for agents nor were they the perfect fit for what we wanted to achieve: fully ditching the SQL legacy to properly model reality. So we decided to build BlitzGraph In BlitzGraph, records (units) can belong to... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-16/64-show-hn-blitzgraph-supabase-for-graphs-built-for-llm-agents.md"
-    },
-    {
-      "title": "TxBench-PP: Analyzing AI Agent Performance on Small-Molecule Preclinical Pharmacology",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.19245v1",
-      "date": "2026-06-17",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Artificial intelligence (AI) agents promise to accelerate drug discovery by compressing interpretation and decision-making loops, but practical deployment requires trusted evaluation on realistic program decisions. We introduce TherapeuticsBench Preclinical Pharmacology (TxBench-PP), a verifiable benchmark for small-molecule preclinical pharmacology and t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-17/65-txbench-pp-analyzing-ai-agent-performance-on-small-molecule-preclinica.md"
-    },
-    {
-      "title": "Runtime Compliance Verification for AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.19242v1",
-      "date": "2026-06-17",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents now handle personal data through tool use, function calls, and multi turn dialogue, which can create obligations under the General Data Protection Regulation (GDPR). Current testing practices mainly rely on offline red teaming or static prompt review, but they do not guarantee at runtime that agent behavior follows regulatory rules. We propose C... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-17/66-runtime-compliance-verification-for-ai-agents.md"
-    },
-    {
-      "title": "Towards an Agent-First Web: Redesigning the Web for AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.19116v1",
-      "date": "2026-06-17",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The World Wide Web was built on an assumption held for three decades: the primary consumer of web content is a human being. This permeates every layer; its access model presumes human visitors, its economics rest on human attention, and its content targets human perception. The rapid emergence of AI agents as intermediaries between humans and web content... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-17/67-towards-an-agent-first-web-redesigning-the-web-for-ai-agents.md"
     }
   ]
 }
