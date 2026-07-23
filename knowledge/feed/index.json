@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T07:29:07.924Z",
+  "updated_at": "2026-07-23T07:26:40.738Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: AgentNest, self-hosted sandboxes for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/mihirahuja1/agentnestOSS",
+      "date": "2026-07-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: AgentNest, self-hosted sandboxes for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/06-show-hn-agentnest-self-hosted-sandboxes-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Millwright – Rust-based, self-hosted LLM router",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Northwood-Systems/millwright",
+      "date": "2026-07-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, With the news of OpenRouter possibly being acquired and proliferation of hosted LLM routers (i.e. Ramp Router, Vercel’s AI Gateway), I saw the need for a self hosted solution focused on cost savings, transparency, and performance. So, I built an open sourced router with a simple CLI interface that can easily sit between coding agents and GenAI wor... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-22/07-show-hn-millwright-rust-based-self-hosted-llm-router.md"
+    },
+    {
+      "title": "Show HN: Grimoire – Best Practices for Everyone Installed for Your AI Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/jeffreytse/grimoire",
+      "date": "2026-07-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Grimoire – Best Practices for Everyone Installed for Your AI Agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/08-show-hn-grimoire-best-practices-for-everyone-installed-for-your-ai-age.md"
+    },
+    {
+      "title": "Show HN: Agent in 9 Lines Python",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://gist.github.com/tosh/6e91a9dbf08dd630c535e7345ac7f0b5",
+      "date": "2026-07-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I asked myself: what would a minimal implementation of an agent look like? Something that works out of the box, is a real agent with tool calling, but without 1000s of lines of code, without dozens or hundreds of npm or pypi dependencies. Something with just a few 'essential' features (not a whole kitchen sink that most agent harnesses come with nowadays)... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-22/09-show-hn-agent-in-9-lines-python.md"
+    },
+    {
+      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/cactus-compute/cactus-hybrid",
+      "date": "2026-07-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, Henry & Roman here from Cactus. A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-22/10-show-hn-cactus-hybrid-we-taught-gemma-4-to-know-when-it-s-wrong.md"
+    },
+    {
+      "title": "Show HN: ValuePair – a friendship app that cares about values first",
+      "source": "Hacker News Show HN",
+      "url": "https://valuepair.app",
+      "date": "2026-07-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey, I would like to show you my project, but it's difficult because it only works with a registration, so I explain the concept to you. The Idea: Everyone who registers has to do an onboarding and answer meaningful questions that help you to find a right match. The matching happens by the system. Once you're done with the onboarding, you enter the pool.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-22/11-show-hn-valuepair-a-friendship-app-that-cares-about-values-first.md"
+    },
+    {
+      "title": "Show HN: Sambaudit, a secrets scanner for SMB shares with a web UI",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/d-woosley/SambAudit",
+      "date": "2026-07-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I built this tool from working as a security engineer and pentester for a number of years and felt that the task of searching SMB shares for secrets was far too difficult. I ended up either barely doing it at all or spending far too much time on it. However, I know there is a tone of sensitive info in SMB shares and I could almost always find passwords in... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-23/12-show-hn-sambaudit-a-secrets-scanner-for-smb-shares-with-a-web-ui.md"
+    },
+    {
+      "title": "Show HN: LitigationBench. A Litigation Task-Based AI Benchmark",
+      "source": "Hacker News Show HN",
+      "url": "https://litco.ai/litigationbench",
+      "date": "2026-07-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Adding to the sea of AI benchmarks, but with a focus on legal and litigation-based tasks and tests. E.g., hallucinating cases, misreading precedent, drafting, AI writing tics, etc. Developed as part of a litigation platform I've started, but not sharing this benchmark to promote that. Just thought the findings were interesting--namely, Anthropic's models... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-23/13-show-hn-litigationbench-a-litigation-task-based-ai-benchmark.md"
+    },
+    {
+      "title": "Instead of panicking about the Hugging Face attack, people need to start questioning OpenAI's insecure sandboxes.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3lo6k/instead_of_panicking_about_the_hugging_face/",
+      "date": "2026-07-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "One thing I noticed in American politics, whenever the government wants to push unpopular actions or laws, they often introduce fear to convince the public to support them. This is actually how i view the recent news about OpenAI’s model breaking out of its sandbox. The whole news i see it as two corporate goals. 1. Scare the public into supporting laws t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-22/14-instead-of-panicking-about-the-hugging-face-attack-people-need-to-star.md"
+    },
+    {
+      "title": "+1 if you are friend of open weight models and would rather pay $20 for Kimi rather than closed cloud providers",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3uoo1/1_if_you_are_friend_of_open_weight_models_and/",
+      "date": "2026-07-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "If you are a fan of local A.I. boycott the big cloud providers. I have several cloud accounts but I'm planning on letting them expire. What do you think? submitted by /u/Terminator857 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-22/15-1-if-you-are-friend-of-open-weight-models-and-would-rather-pay-20-for-.md"
+    },
+    {
+      "title": "MindControl - llama.cpp fork to guide the reasoning process via injection during sampling",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3ms3c/mindcontrol_llamacpp_fork_to_guide_the_reasoning/",
+      "date": "2026-07-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The primary driver of this project is that I'd become frustrated with the reasoning behavior of smaller local models such as Qwen3.6-27B (i believe particularly at lower temperatures, and where system prompts are highly specific), their reasoning process is highly unreliable and often tends to spiral into neverending \"But, wait\" loops or, occasionally, co... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-22/16-mindcontrol-llama-cpp-fork-to-guide-the-reasoning-process-via-injectio.md"
+    },
+    {
+      "title": "FYI You dont need expensive networking for multi-node gpu. 30t/s laguna Q2_K_XL (39.7GB) on 2x4060+1x4060 using a $20 usb->ethernet.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3xosh/fyi_you_dont_need_expensive_networking_for/",
+      "date": "2026-07-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "ethernet.\" title=\"FYI You dont need expensive networking for multi-node gpu. 30t/s laguna Q2_K_XL (39.7GB) on 2x4060+1x4060 using a $20 usb->ethernet.\" /> Turns out a regular ethernet cable between 2 nodes can run laguna UD-Q2_K_XL (39.7GB) using a direct point to point network. Interestingly on `nvidia-smi dmon -s pucvmet -d 2`, the inter/intra gpu traff... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-23/17-fyi-you-dont-need-expensive-networking-for-multi-node-gpu-30t-s-laguna.md"
+    },
     {
       "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Jun 17, 2026 Announcements Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-17/91-jun-17-2026-announcements-anthropic-opens-seoul-office-and-announces-n.md"
-    },
-    {
-      "title": "Show HN: Metiq: a real time 3D globe for 100 public datasets",
-      "source": "Hacker News Show HN",
-      "url": "https://metiq.space",
-      "date": "2026-06-16",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "The concept for metiq.space came after playing Global Magnates with friends and realizing how fragmented live global data is. ships, aircraft, satellites, ports, weather, hazards, infrastructure, cyber, and public datasets all exist, but they usually live in separate tools and maps. The goal was to build one interactive 3D globe where live public data cou... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-16/92-show-hn-metiq-a-real-time-3d-globe-for-100-public-datasets.md"
-    },
-    {
-      "title": "llm011/ethan-agent",
-      "source": "GitHub Search API",
-      "url": "https://github.com/llm011/ethan-agent",
-      "date": "2026-06-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A lightweight, high-performance personal AI agent. Fast async core, pluggable tools, and open integration with external agent ecosystems (Claude Code, Codex, MCP). Simple to configure, easy to extend. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
-    },
-    {
-      "title": "Show HN: Autonomy – Self-Harness/Self-Directed AI Agent Core Under Development",
-      "source": "Hacker News Show HN",
-      "url": "https://autonomy-landing-page.vercel.app/",
-      "date": "2026-06-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Autonomy – Self-Harness/Self-Directed AI Agent Core Under Development (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/94-show-hn-autonomy-self-harness-self-directed-ai-agent-core-under-develo.md"
-    },
-    {
-      "title": "Show HN: Jumpjet – a WASM runtime for game developers",
-      "source": "Hacker News Show HN",
-      "url": "https://jumpjet.dev",
-      "date": "2026-06-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built Jumpjet because I realized that engine and indie game developers are always repeating the same work: building the core infrastructure that touches the OS. Webassembly solves this in the Component Model by enabling interop between packages written in different languages. And in my opinion it's sort of the perfect fit for Jumpjet's model: providing... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-19/95-show-hn-jumpjet-a-wasm-runtime-for-game-developers.md"
-    },
-    {
-      "title": "Best Local Agents - Jun 2026",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uaebfe/best_local_agents_jun_2026/",
-      "date": "2026-06-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "A megathread that is overdue! Let's discuss and debate on what the best local agents available today are Prologue First a note on terminology: While most regular users are going to have a general sense of what these are, I think its worth a brief pause to preempt turbulence in the discussion. Agent : There is no standard/universally agreed upon term that... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-19/96-best-local-agents-jun-2026.md"
-    },
-    {
-      "title": "Giving a local agent web access without paid search/scrape APIs: SearXNG + Scrapling",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uam3iv/giving_a_local_agent_web_access_without_paid/",
-      "date": "2026-06-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I wanted web access for a local-first agent without reaching for Tavily, Serper, Firecrawl, etc. For this agent path, I wanted no paid API keys, a search service I control, and page extraction I can run myself. What I ended up with is two tools: web_search and web_extract . Nothing fancy. Mostly just wiring together good open-source pieces. 1. Search -> S... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-20/97-giving-a-local-agent-web-access-without-paid-search-scrape-apis-searxn.md"
-    },
-    {
-      "title": "$1800 (in GPU cost running with P2P running Qwen/Qwen3.6-27b-FP8 with 262K context and BF16 KV cache at 55 tok/s",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uah3oc/1800_in_gpu_cost_running_with_p2p_running/",
-      "date": "2026-06-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey peeps, wanted to share what is possible for folks with an inference only single user use case with 1700 in GPU cost. Setup: 4x 5060 ti (16GB) with P2P If you are in the US and you keep an eye on facebook marketplace and places like slickdeals you can find some 5060 ti 16 GB models for 425 to 475 used. A giant caveat is this type of configuration is on... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-19/98-1800-in-gpu-cost-running-with-p2p-running-qwen-qwen3-6-27b-fp8-with-26.md"
-    },
-    {
-      "title": "[NEW MODEL] SupraLabs just released supra-title-FFT-preview, 115K samples, almost 10x our first chat title dataset",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ualbn2/new_model_supralabs_just_released/",
-      "date": "2026-06-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey r/LocalLLaMA ! Following up on Supra-Title-350M-exp (our first chat title generation model), we're releasing supra-title-FFT-preview , trained on a much larger and cleaner dataset. 🤗 supra-title-FFT-preview What changed Our first chat title model was trained on 12K samples ( chat-titles-12K ) and it showed: decent on common conversation patterns, wea... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-20/99-new-model-supralabs-just-released-supra-title-fft-preview-115k-samples.md"
-    },
-    {
-      "title": "Show HN: Crawlie – Free open-source SEO audit tool for humans and agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/spronta/crawlie",
-      "date": "2026-06-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "With AI, it's faster than ever to ship a marketing site... but most of what gets generated is slop that was never built to be found. Plus the tools meant to catch that fall short: most SEO auditors cost money, don't play nicely with your agents, or tell you what's wrong without telling you how to actually rank for SEO and GEO (Generative Engine Optimizati... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-18/76-show-hn-crawlie-free-open-source-seo-audit-tool-for-humans-and-agents.md"
-    },
-    {
-      "title": "Show HN: BeamWeaver – LangChain/DeepAgents-style agents and workflows for Elixir",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/caudena/beam_weaver",
-      "date": "2026-06-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, We build agents in Elixir. We kept running into the same issue and found there is no observability for agentic systems. We decided to take the best aspects of LangChain, LangGraph, and DeepAgents and put them into Elixir. BeamWeaver comes with an OTP-native design and: - agents and tool calling - graph workflows - checkpoints and resumable executio... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-19/77-show-hn-beamweaver-langchain-deepagents-style-agents-and-workflows-for.md"
-    },
-    {
-      "title": "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.20537v1",
-      "date": "2026-06-18",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Mainstream LLM serving systems reuse prefix work mainly through paged or radix key-value (KV) caches. This is highly effective for high-throughput, high-concurrency serving, but it manages only one positional fragment of execution state: the KV cache. We study the opposite regime: low-latency, small-batch, on-device physical-AI serving, where interactive... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-18/78-execution-state-capsules-graph-bound-execution-state-checkpoint-and-re.md"
-    },
-    {
-      "title": "Efficient and Sound Probabilistic Verification for AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.20510v1",
-      "date": "2026-06-18",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Securing AI agents that operate in complex digital environments has become a critical need, and runtime monitoring approaches that formulate and enforce policies expressed in a formal language like Datalog offer a promising solution. However, existing approaches are restricted to deterministic policies. In many practical applications of AI agents, there i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-18/79-efficient-and-sound-probabilistic-verification-for-ai-agents.md"
     }
   ]
 }
