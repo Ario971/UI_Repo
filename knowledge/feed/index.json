@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T07:26:40.738Z",
+  "updated_at": "2026-07-24T07:25:22.264Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "date": "2026-07-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, we are Marcos and Harrison, cofounders of Palmier ( https://palmier.io ). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos: - Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4 - Multicam editing with Codex: https... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/06-show-hn-palmier-pro-open-source-macos-video-editor-built-for-ai.md"
+    },
+    {
+      "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/onecli/onecli",
+      "date": "2026-07-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "hey HN, Jonathan and Guy here, creators of OneCLI ( https://onecli.sh/ ). OneCLI is an open source vault for AI Agents. Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/07-show-hn-onecli-oss-credential-gateway-that-keeps-secrets-out-of-ai-age.md"
+    },
+    {
+      "title": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/kdeps/turo",
+      "date": "2026-07-24",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-24/08-show-hn-turo-an-aggressive-token-saving-proxy-for-cli-ai-agents.md"
+    },
+    {
+      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.21557v1",
+      "date": "2026-07-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make agents hard to train end-to-end with open infrastructure, whose SFT/RL stacks cannot natively express stateful, multi-process harness infe... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/09-openforgerl-train-harness-native-agents-in-any-environment.md"
+    },
+    {
+      "title": "Show HN: Trifle – Open-source analytics that stores answers, not events",
+      "source": "Hacker News Show HN",
+      "url": "https://trifle.io/",
+      "date": "2026-07-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Trifle is an open-source time-series analytics library that aggregates nested counters instead of storing raw events. All in the database you already have. After rebuilding it twice over 10 years, it now tracks ~1B events a day at my day job. It started in 2015 as my own Rails APM. I plugged into ActiveSupport::Notifications, got a few small users, and on... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-22/10-show-hn-trifle-open-source-analytics-that-stores-answers-not-events.md"
+    },
+    {
+      "title": "Show HN: Life Tile – Passive time tracker that shows your day as a Mondrian grid",
+      "source": "Hacker News Show HN",
+      "url": "https://apps.apple.com/us/app/life-tile-auto-tracker/id6767332648",
+      "date": "2026-07-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi, I developed Life Tile for iPhone. It tracks your time passively and visualizes it as a Mondrian-style grid. It's a one-time purchase app with a 7-day trial. I was a user of a similar app named Life Cycle. Since the app hasn't been updated in a while, I tried to make a better app with my ideas and experiences. I used a big square timeline instead of a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/11-show-hn-life-tile-passive-time-tracker-that-shows-your-day-as-a-mondri.md"
+    },
+    {
+      "title": "aviralmathur-infogain/loopworks",
+      "source": "GitHub Search API",
+      "url": "https://github.com/aviralmathur-infogain/loopworks",
+      "date": "2026-07-24",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "aviralmathur-infogain/loopworks Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/12-aviralmathur-infogain-loopworks.md"
+    },
+    {
+      "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=49026810",
+      "date": "2026-07-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I’ve been building Echo ( https://echo.tracerml.ai/ ), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task. It started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-23/13-show-hn-echo-fable-level-results-at-1-3-the-cost-using-open-weight-mod.md"
+    },
+    {
+      "title": "UPDATE - HuggingHack Is Now On Github",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4yljf/update_hugginghack_is_now_on_github/",
+      "date": "2026-07-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Due to encouragement to move my local huggingface project, it is now available on Github! Let me know your thoughts! Repo: https://github.com/tyedalwaves/HuggingHack/ submitted by /u/TyedalWaves [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-24/14-update-hugginghack-is-now-on-github.md"
+    },
+    {
+      "title": "Never forget the promises of June!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v52im7/never_forget_the_promises_of_june/",
+      "date": "2026-07-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Good morning to everyone that didn't fall for the trap of waiting since March of 2025 for a good local machine to your favorite localllm. For all the others, just \"morning\"! submitted by /u/Turbulent_Pin7635 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-24/15-never-forget-the-promises-of-june.md"
+    },
+    {
+      "title": "I compared local models and different quants / config on a subset of swe-verified bench",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4qq4x/i_compared_local_models_and_different_quants/",
+      "date": "2026-07-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "And gathered a lot of data. you can see them for yourself And For the most curious, there are additional details here In this graph, I regrouped the finetunes under their base models. but you can see the details in the page. The python code to generate those pages is obviously vibecoded. I find the output kinda pretty and somewhat useful for me. maybe it'... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-23/16-i-compared-local-models-and-different-quants-config-on-a-subset-of-swe.md"
+    },
+    {
+      "title": "Running Qwen 3.6 35B MoE (Q4_K_M) on a Zeus (Xiaomi 12 Pro, 12GB RAM)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4q5gm/running_qwen_36_35b_moe_q4_k_m_on_a_zeus_xiaomi/",
+      "date": "2026-07-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Shoutout to this awesome guy - https://www.reddit.com/r/LLM/s/IDUyU3v9ap Thanks to his project, BigMoeOnEdge https://github.com/Helldez/BigMoeOnEdge , I managed to successfully run a 35B MoE model on just 12GB of RAM! My setup is a modified Xiaomi 12 Pro (12GB RAM) that I call \"Zeus\". https://www.reddit.com/r/LocalLLaMA/s/5zBUl15jd6 There is a bottleneck,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-23/17-running-qwen-3-6-35b-moe-q4-k-m-on-a-zeus-xiaomi-12-pro-12gb-ram.md"
+    },
     {
       "title": "Show HN: AgentNest, self-hosted sandboxes for AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I read HN on my phone every day and never really settled on a reader, so I wrote my own and finally tidied it up enough to put out there. It's plain SwiftUI with no third-party dependencies. A few things I spent the most time on: Comments are parsed and drawn as native text instead of being dumped into a web view. Links, italics, quotes and code blocks be... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-20/04-show-hn-ember-a-native-ios-hacker-news-reader-i-built-around-accessibi.md"
-    },
-    {
-      "title": "Show HN: TLA+ Process Studio",
-      "source": "Hacker News Show HN",
-      "url": "https://tlaplus-process-studio.com/?example=meeting-lifecycle",
-      "date": "2026-06-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Disclaimer: This was made with LLMs. I made this tool to help understand large business processes that can be modelled as a single state machine. The core loop of this is to enable to walk stakeholders through discussing each step, adding comments, and reiterating with an LLM of their choice to generate the TLA+ syntax on the left. Users can click through... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/05-show-hn-tla-process-studio.md"
-    },
-    {
-      "title": "sairajbaman/loopspec",
-      "source": "GitHub Search API",
-      "url": "https://github.com/sairajbaman/loopspec",
-      "date": "2026-06-21",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "MCP server + CLI that makes AI coding assistants smarter — persistent memory, drift detection, goal tracking, dependency graphs. Zero API calls. 125 tests. 42 tools. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-21/06-sairajbaman-loopspec.md"
-    },
-    {
-      "title": "Show HN: Domphy – plain-object UI for tool apps, AI-correctable output",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=48593346",
-      "date": "2026-06-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built a UI framework named Domphy because I could not learn React although I tried many times. I mean I could not understand React code which is hidden behind multiple layers, especially when some of them use React ecosystem libs. Maybe I am an architect turned developer, so I had no foundation of programming, or I expected something clear and clean. I... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-19/07-show-hn-domphy-plain-object-ui-for-tool-apps-ai-correctable-output.md"
-    },
-    {
-      "title": "Show HN: Rocannon – Any Ansible module to MCP Tool, record sessions as playbooks",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/msradam/rocannon",
-      "date": "2026-06-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I've been using Ansible for IT automation for a while, and the process of writing imperative playbooks in something that looks closer to English I felt was a good fit to design MCP tooling around. I specifically wanted to have a process of running Ansible modules directly as tools from an LLM and record it so my exploratory sessions can become runnable pl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-21/08-show-hn-rocannon-any-ansible-module-to-mcp-tool-record-sessions-as-pla.md"
-    },
-    {
-      "title": "Deep Neural Network that can turn any Image into a Playable Game! BUT LOCALLY, NOT ON DATACENTER",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ub2kmt/deep_neural_network_that_can_turn_any_image_into/",
-      "date": "2026-06-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone!! I really wanted to share my research what I've been working on. I wanted to build a nn that can simulate games, or at least start doing that Most video generators are too large to run on consumer hardware realtime, so I I designed a model that does this from scratch. No fine tuning bs or anything The core de noiser network is fully trained f... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-20/09-deep-neural-network-that-can-turn-any-image-into-a-playable-game-but-l.md"
-    },
-    {
-      "title": "It’s time to decentralize model distribution! Introducing Noema Atlas",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubasxo/its_time_to_decentralize_model_distribution/",
-      "date": "2026-06-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "TL;DR: Noema Atlas is a peer-to-peer network software using Iroh for local LLM weights, free and open source (Apache-2.0). Models come from whichever peers have them, with Hugging Face and mirrors as fallback (opt-in). Every file is identified by its content hash and a signed manifest, so the same weights from any source dedupe into one verified copy and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-20/10-it-s-time-to-decentralize-model-distribution-introducing-noema-atlas.md"
-    },
-    {
-      "title": "GLM 5.2, what speeds are we getting locally?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ub69xu/glm_52_what_speeds_are_we_getting_locally/",
-      "date": "2026-06-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Can everyone that is able to run GLM 5.2 locally report what their inference engine, system specs, quantization, context size, and tokens/sec? If you're getting great numbers expect follow-up questions. I'll start: llamma.cpp, 6x RTX 3090, 128 DDR5, i7-13700K, unsloth UD-IQ2_M, 90K context @ Q8_0 KV: 7.8 tokens/sec generation, prompt processing was roughl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-20/11-glm-5-2-what-speeds-are-we-getting-locally.md"
-    },
-    {
-      "title": "GLM 5.2: 98% of max level intelligence with less than half of tokens usage",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uar4e2/glm_52_98_of_max_level_intelligence_with_less/",
-      "date": "2026-06-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "According to this number of reasoning tokens from GLM 5.1 to GLM 5.2 more than doubled from 16.7k to 36.7k and for me as a local user with old junk Xeon setup this makes GLM 5.2 unusable to the extent where I had to shut down model after 12h of waiting it to respond to my math problem question. But then I saw this graph from z_ai technical report , which... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-20/12-glm-5-2-98-of-max-level-intelligence-with-less-than-half-of-tokens-usa.md"
-    },
-    {
-      "title": "Show HN: Let agents send/receive SMS using your old Android phone",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://simlink.snaz.cz/",
-      "date": "2026-06-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "While playing with agents I realised it might be quite handy if they could get access to OTP codes. And while at it, why not give them ability to send the SMS as well. Twillio is expensive and annoying to set up for my taste. I vibe coded simple Android app that can read/send SMS and simple relay server that acts as MCP for agents. Works surprisingly well... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-19/88-show-hn-let-agents-send-receive-sms-using-your-old-android-phone.md"
-    },
-    {
-      "title": "Analyzing Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.20470v1",
-      "date": "2026-06-18",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Agentic AI systems increasingly rely on language-model components to interpret instructions, process external data, invoke tools, and coordinate with other agents. These capabilities make prompt-injection and jailbreak attacks more consequential, especially as attackers adopt model-guided automation to scale probing, prompt refinement, and response evalua... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-18/89-analyzing-defensive-misdirection-against-model-guided-automated-attack.md"
-    },
-    {
-      "title": "PowerAgentBench-Dyn: A Benchmark for Agentic AI in Power System Dynamic Studies",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.20401v1",
-      "date": "2026-06-18",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large Language Model (LLM)-based agents are increasingly being used to automate multi-step engineering work flows by interacting with software tools, interpreting intermediate results, and autonomously planning subsequent actions. Power system dynamic studies represent a particularly promising yet largely unexplored application domain for these agents. Un... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-18/90-poweragentbench-dyn-a-benchmark-for-agentic-ai-in-power-system-dynamic.md"
-    },
-    {
-      "title": "Jun 17, 2026 Announcements Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-      "date": "2026-06-17",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Jun 17, 2026 Announcements Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-17/91-jun-17-2026-announcements-anthropic-opens-seoul-office-and-announces-n.md"
     }
   ]
 }
