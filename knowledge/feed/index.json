@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T07:25:22.264Z",
+  "updated_at": "2026-07-25T07:09:20.224Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: A gate for AI agents that ships a board of its own worst flaws",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/githubscum/lotor",
+      "date": "2026-07-24",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: A gate for AI agents that ships a board of its own worst flaws (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-24/06-show-hn-a-gate-for-ai-agents-that-ships-a-board-of-its-own-worst-flaws.md"
+    },
+    {
+      "title": "Benchmarking Agents for Proving Theorems in Quantum Algorithms and Quantum Information",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.21533v1",
+      "date": "2026-07-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Formal verification is becoming increasingly practical for quantum computing, yet the ability of AI agents to construct machine-checkable proofs in this domain remains unmeasured. We introduce Lean-QuantumAlg-Bench and Lean-QIT-Bench, two Lean 4 benchmarks containing 36 and 40 theorem-completion tasks for quantum algorithms and quantum information theory,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/07-benchmarking-agents-for-proving-theorems-in-quantum-algorithms-and-qua.md"
+    },
+    {
+      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.21522v1",
+      "date": "2026-07-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motions, and visual fidelity. Recent advances in generative foundation models have sparked interest in learning t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/08-gs-agent-creating-4d-physical-worlds-with-generative-simulation.md"
+    },
+    {
+      "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.21503v1",
+      "date": "2026-07-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Production AI agents' failures are less often due to an inability to reason well and more often because they cannot manage what is in their reasoning context: conversation histories, large prompts, large tool definitions, and ballooning tool outputs. Agents drown in their own accumulating history while paying a token cost that grows every turn, producing... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/09-agentic-context-management-solving-agent-memory-and-cost-by-treating-t.md"
+    },
+    {
+      "title": "Show HN: How well do you use Claude Code?",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=49042653",
+      "date": "2026-07-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "A bunch of companies that I spoke to had their own claude & codex OTel dashboards that showed spend + seats per month. However, none of the dashboards actually analyzed how the engineers worked with the tools and if there were any areas for improvement! That's why I created https://www.promptster.ai . Managers get aggregate level view of code quality and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/10-show-hn-how-well-do-you-use-claude-code.md"
+    },
+    {
+      "title": "Show HN: Mboxreader – easily view your Gmail Takeouts",
+      "source": "Hacker News Show HN",
+      "url": "https://mboxreader.com",
+      "date": "2026-07-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, Did you know you can download all your emails (and attachments) from GMail into a .mbox format using Google Takeout ( https://takeout.google.com )? I did this and for the longest time my .mbox backup just sat around. I built a web app that can take an .mbox file and load it into a UI that looks like GMail: threaded conversations, original labels a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/11-show-hn-mboxreader-easily-view-your-gmail-takeouts.md"
+    },
+    {
+      "title": "Show HN: Crisp – Open-source display manager for macOS (DDC, HiDPI, presets)",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/didriksg/Crisp",
+      "date": "2026-07-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I recently bought a new 1440p monitor and connected it to my mac, but at native resolution the UI felt so tiny and unfamiliar. I'm fairly new to mac in general so I checked my options for scaling, but quickly learnt (afaik) that this wasn't a thing for external monitors. I found some options in BetterDisplay and Lunar, but it felt stupid to pay for a feat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/12-show-hn-crisp-open-source-display-manager-for-macos-ddc-hidpi-presets.md"
+    },
+    {
+      "title": "yearningss/gamemaker-mcp",
+      "source": "GitHub Search API",
+      "url": "https://github.com/yearningss/gamemaker-mcp",
+      "date": "2026-07-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A powerful, project-aware Model Context Protocol (MCP) server for GameMaker Studio with 190 tools, GML static analysis, refactoring, and automated builds. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/13-yearningss-gamemaker-mcp.md"
+    },
+    {
+      "title": "Can LLMs solve mazes?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5rvuq/can_llms_solve_mazes/",
+      "date": "2026-07-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://reddit.com/link/1v5rvuq/video/bgmwc754i9fh1/player My goal was to create a benchmark to measure the spatial awareness and memory of models. Eventually, I came up with the simple idea of a maze where the model must find a key and use it to open the escape door. Here’s the difference to a normal maze, however! The model CANNOT see the whole map. At... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-24/14-can-llms-solve-mazes.md"
+    },
+    {
+      "title": "I released Inflect v2: two ultra-tiny complete TTS models under 4M and 10M parameters",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5ve6v/i_released_inflect_v2_two_ultratiny_complete_tts/",
+      "date": "2026-07-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I’ve spent the past month trying to find the point where an extremely small TTS model stops feeling like a size experiment and starts feeling genuinely useful. Today I’m releasing Inflect v2 , with two complete local text-to-speech models: Inflect-Nano-v2: 3.96M parameters, 15.97 MB FP32 Inflect-Micro-v2: 9.36M parameters, 37.53 MB FP32 These are total in... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/15-i-released-inflect-v2-two-ultra-tiny-complete-tts-models-under-4m-and-.md"
+    },
+    {
+      "title": "PSA: DO NOT use Intel consumer platforms for multi-GPU setups",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5x1h0/psa_do_not_use_intel_consumer_platforms_for/",
+      "date": "2026-07-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Since a lot more people are trying to build their own multi-GPU machines, I thought I should help to prevent a common mistake people make with building multi-GPU machines. Which is using an Intel consumer platform like Z890 for multi-GPU setups. Although the CPU provides 24 PCIe 5.0 lanes with 16x available to bifurcate to 8x8x on two PCIe x16 slots on th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/16-psa-do-not-use-intel-consumer-platforms-for-multi-gpu-setups.md"
+    },
+    {
+      "title": "[Paper] Statistically-Lossless Quantization of Large Language Models",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5j35f/paper_statisticallylossless_quantization_of_large/",
+      "date": "2026-07-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Model quantization has become essential for efficient large language model deployment, yet existing approaches involve clear trade-offs: methods such as GPTQ and AWQ achieve practical compression but are lossy, while lossless techniques preserve fidelity but typically do not accelerate inference. This paper explores the middle ground of statistically-loss... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-24/17-paper-statistically-lossless-quantization-of-large-language-models.md"
+    },
     {
       "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/09-show-hn-i-applied-lyapunov-stability-theory-to-detect-when-llm-agents-.md"
-    },
-    {
-      "title": "Show HN: Wirewright, an experimental symbolic physics environment",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/wirewright/wirewright",
-      "date": "2026-06-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "The idea with Wirewright is to treat programs and algorithms as physical mechanisms, as machines or societies of machines inhabiting an immutable symbolic world, and time-step the latter to see what happens. This last part in particular reminds me of cellular automata. Said differently, in Wirewright, programs are modeled as \"nouns\" or \"societies\" of inte... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-22/10-show-hn-wirewright-an-experimental-symbolic-physics-environment.md"
-    },
-    {
-      "title": "VentureIA/Agent-Room",
-      "source": "GitHub Search API",
-      "url": "https://github.com/VentureIA/Agent-Room",
-      "date": "2026-06-22",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Local-first shared understanding layer for AI-coded projects. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-22/11-ventureia-agent-room.md"
-    },
-    {
-      "title": "Show HN: Pulse – Dashboard for Claude Code, approve tool calls from your phone",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/nikitadoudikov/claude-pulse",
-      "date": "2026-06-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, I'm a student from Flanders and I like to use Claude Code for my purposes, ideas and also just for fun and also make solutions for problems in our world!) So that's why I built \"Pulse\", it's an local application that you can easily install to your device and easily follow what your claude agent is doing right now in your terminal session with... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/12-show-hn-pulse-dashboard-for-claude-code-approve-tool-calls-from-your-p.md"
-    },
-    {
-      "title": "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/overflowy/make-look-scanned",
-      "date": "2026-06-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I made this because the online \"make my PDF look scanned\" tools want you to upload your file to their servers, which feels sketchy at best. Also, I wasn't happy with the output they produce, I wanted something that looks realistic. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/13-show-hn-make-pdfs-look-scanned-cli-or-in-the-browser-via-wasm.md"
-    },
-    {
-      "title": "Do you think dedicated hardware for running local LLMs will become affordable anytime soon?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uce2pz/do_you_think_dedicated_hardware_for_running_local/",
-      "date": "2026-06-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Models like qwen 27b dense have already proved to be useful coding/general purpose assistants, but issue is still with hardware even the entry level hardware is relatively expensive, would we be getting hardware specifically built for inference for consumers at affordable price and what would be the approximate timeline, what about Chinese manufacturers t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-22/14-do-you-think-dedicated-hardware-for-running-local-llms-will-become-aff.md"
-    },
-    {
-      "title": "Local LLM Inference Optimization: The Complete Guide",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uc3wg9/local_llm_inference_optimization_the_complete/",
-      "date": "2026-06-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I compiled a year of local LLM experiments into a practical llama.cpp optimization guide, covering VRAM fitting, KV cache, MoE placement, MTP, CPU tuning, and common OOM traps. Pass this to an LLM of your choice and get on the local model train. https://carteakey.dev/blog/local-inference/local-llm-optimization/ Feedback and corrections are welcome. submit... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-21/15-local-llm-inference-optimization-the-complete-guide.md"
-    },
-    {
-      "title": "Not a new model, just a Happy Father's Day and a thank you.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubzzib/not_a_new_model_just_a_happy_fathers_day_and_a/",
-      "date": "2026-06-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I know this isn't our usual discussion about context windows, quantization, or the latest model drop, but I just wanted to take a quick moment to say thank you. As a dad myself, I really appreciate this great community. Between the daily grind and family life, diving into this subreddit is one of my favorite escapes. Whether we're troubleshooting setups,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-21/16-not-a-new-model-just-a-happy-father-s-day-and-a-thank-you.md"
-    },
-    {
-      "title": "I pretrained and post trained a 500M parameter LLM and 330M parameter Image generator from scratch",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubuy8w/i_pretrained_and_post_trained_a_500m_parameter/",
-      "date": "2026-06-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey folks Hope you are doing well I started HobbyLM as an side project last month Initially I wrote an Agent harness using Claude SDK which takes notes on various LLM architecture does ablation studies to find optimised or well fit architecture for this model training then I pretrained HobbyLM architecture with 40B tokens from fineweb and post trained to... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-21/17-i-pretrained-and-post-trained-a-500m-parameter-llm-and-330m-parameter-.md"
-    },
-    {
-      "title": "Show HN: We post-trained a model that pen tests instead of refusing",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.argusred.com/cli",
-      "date": "2026-06-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Anthropic and OpenAI's publicly available models are explicitly guard-railed so that they refuse offensive tasks. And their cyber-focussed models are gated for enterprises. This leaves SMEs and mid market open to major vulnerabilities. AI can be used as both an adversarial and defensive tool in the world of cyber. A worst case outcome is if only the adver... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-20/01-show-hn-we-post-trained-a-model-that-pen-tests-instead-of-refusing.md"
-    },
-    {
-      "title": "Show HN: FERNme – agent memory that updates with ~zero LLM calls",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/mirkofr/FERNme",
-      "date": "2026-06-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi I have been working on persistent memory. I wanted to see whether a brain like graph-based memory system could be used and more importantly how much we could save on llm tokens. FERNme uses fuzzy edge with Hebbian co-occurrence rule to create memory tags. I think FERNme could become a great personal memory of people that can be used by agents to give m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-20/02-show-hn-fernme-agent-memory-that-updates-with-zero-llm-calls.md"
-    },
-    {
-      "title": "a-Fig/Accordion-AI-hackBerkeley",
-      "source": "GitHub Trending",
-      "url": "https://github.com/a-Fig/Accordion-AI-hackBerkeley",
-      "date": "2026-06-21",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "🪗 Continuous, reversible, turn-level context compression for AI coding agents. Fold your history instead of forgetting it. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-21/03-a-fig-accordion-ai-hackberkeley.md"
-    },
-    {
-      "title": "Show HN: Ember, a native iOS Hacker News reader I built around accessibility",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/DatanoiseTV/ember-hackernews",
-      "date": "2026-06-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I read HN on my phone every day and never really settled on a reader, so I wrote my own and finally tidied it up enough to put out there. It's plain SwiftUI with no third-party dependencies. A few things I spent the most time on: Comments are parsed and drawn as native text instead of being dumped into a web view. Links, italics, quotes and code blocks be... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-20/04-show-hn-ember-a-native-ios-hacker-news-reader-i-built-around-accessibi.md"
     }
   ]
 }

@@ -1,10 +1,218 @@
 {
-  "last_checked_at": "2026-07-24T07:26:08.138Z",
+  "last_checked_at": "2026-07-25T07:09:39.723Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "sirmalloc/ccstatusline",
+      "name": "sirmalloc/ccstatusline",
+      "url": "https://github.com/sirmalloc/ccstatusline",
+      "date": "2026-07-25",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 92,
+      "momentum": 100,
+      "risk": 38,
+      "integration_effort": 52,
+      "expected_gain": 85,
+      "composite": 81,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.349,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
+          "date": "2026-07-08",
+          "topic": "AI agents",
+          "similarity": 0.287,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
+        },
+        {
+          "title": "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)",
+          "date": "2026-07-07",
+          "topic": "Local LLMs",
+          "similarity": 0.268,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/16-update-i-built-a-tool-to-turn-your-claude-code-sessions-into-fine-tuni.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-25)",
+        "MIT license",
+        "11985 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @eslint/js, @remotion/cli, @stylistic/eslint-plugin, @types/bun, @types/pluralize, @types/react, @types/react-dom, chalk; scripts start, build, postbuild, example, video:studio, video:still, video:render, video:gif"
+        }
+      ],
+      "install_commands": [
+        "npx -y ccstatusline@latest",
+        "Git CI Status",
+        "Git Branch",
+        "Git Root Dir",
+        "Git PR/MR",
+        "Git Staged Files"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-25/01-sirmalloc-ccstatusline.md"
+    },
+    {
+      "id": "yearningss/gamemaker-mcp",
+      "name": "yearningss/gamemaker-mcp",
+      "url": "https://github.com/yearningss/gamemaker-mcp",
+      "date": "2026-07-25",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 57,
+      "risk": 24,
+      "integration_effort": 60,
+      "expected_gain": 87,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "yearningss/gamemaker-mcp",
+          "date": "2026-07-25",
+          "topic": "AI dev tools",
+          "similarity": 0.825,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/13-yearningss-gamemaker-mcp.md"
+        },
+        {
+          "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
+          "date": "2026-06-23",
+          "topic": "AI dev tools",
+          "similarity": 0.189,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
+        },
+        {
+          "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+          "date": "2026-06-26",
+          "topic": "AI agents",
+          "similarity": 0.184,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-show-hn-smart-model-routing-directly-in-claude-codex-and-cursor.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-25)",
+        "MIT license",
+        "6 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @modelcontextprotocol/sdk, jsonc-parser, zod, @types/node, typescript; scripts build, check, start, smoke, test"
+        }
+      ],
+      "install_commands": [
+        "npx gamemaker-mcp@latest connect all",
+        "npx gamemaker-mcp@latest install \"C:\\Path\\To\\YourGame\\YourGame.yyp\"",
+        "npm install -g gamemaker-mcp",
+        "npm run smoke -- \"C:\\path\\to\\Game.yyp\""
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-07-25 about AI dev tools; this candidate overlaps with \"yearningss/gamemaker-mcp\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-25/02-yearningss-gamemaker-mcp.md"
+    },
+    {
+      "id": "sleepstars/ochub",
+      "name": "Sleepstars/OcHub",
+      "url": "https://github.com/Sleepstars/OcHub",
+      "date": "2026-07-25",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 89,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 44,
+      "expected_gain": 79,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device",
+          "date": "2026-07-05",
+          "topic": "AI agents",
+          "similarity": 0.301,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/09-show-hn-local-mcp-claude-chatgpt-read-your-imessage-teams-files-on-dev.md"
+        },
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.286,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "yearningss/gamemaker-mcp",
+          "date": "2026-07-25",
+          "topic": "AI dev tools",
+          "similarity": 0.283,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/13-yearningss-gamemaker-mcp.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-25)",
+        "GPL-3.0 license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/Sleepstars/OcHub.git",
+        "cargo run -p ochub-app",
+        "cargo install cargo-packager --version 0.11.8 --locked"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-05 about AI agents; this candidate overlaps with \"Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-25/03-sleepstars-ochub.md"
+    },
     {
       "id": "stablyai/orca",
       "name": "stablyai/orca",
