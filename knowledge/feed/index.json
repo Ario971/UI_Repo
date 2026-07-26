@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T07:09:20.224Z",
+  "updated_at": "2026-07-26T07:30:06.798Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Axtary – Content Authorization for AI Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://axtary.com",
+      "date": "2026-07-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Axtary – Content Authorization for AI Agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-26/06-show-hn-axtary-content-authorization-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Rules that stop AI coding agents from breaking working code",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/avenna01-ceo/claude-code-survival-kr",
+      "date": "2026-07-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Rules that stop AI coding agents from breaking working code (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-26/07-show-hn-rules-that-stop-ai-coding-agents-from-breaking-working-code.md"
+    },
+    {
+      "title": "Show HN: Yorishiro – a macOS terminal where AI agents live",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/sktkkoo/Yorishiro",
+      "date": "2026-07-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Yorishiro is an open source project that gives Claude Code / Codex a body-like anime character. The name “Yorishiro” in Japanese means an object inhabited by spirit. My first idea started comunicating with AI agent long time by terminal is very tired. Because AI agent is no face, no expression, no body, and I don’t see they think. So I provided a 3D body... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-22/08-show-hn-yorishiro-a-macos-terminal-where-ai-agents-live.md"
+    },
+    {
+      "title": "Toward Continuous Assurance for the Democratization of AI Agent Creation in Industry",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.21495v1",
+      "date": "2026-07-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents are increasingly created inside organizations by non-engineering users through low-code, no-code, and conversational development environments. This democratization enables rapid local innovation, but it also creates a reliability gap: agents that appear to users as simple productivity artifacts may depend on changing models, tools, retrieval sou... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/09-toward-continuous-assurance-for-the-democratization-of-ai-agent-creati.md"
+    },
+    {
+      "title": "Show HN: I made some transistor animations",
+      "source": "Hacker News Show HN",
+      "url": "https://brandonli.net/semisim/animations",
+      "date": "2026-07-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I made some animations of the most important kinds of transistors using my semiconductor simulation, details of which are on the page. I tried to make the visuals as realistic as possible while also aiming for clarity. If you want to go beyond the charge carriers and look at, for example, the electric field, you can do so in the simulation software... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/10-show-hn-i-made-some-transistor-animations.md"
+    },
+    {
+      "title": "Show HN: Cross-Platform Flutter and React-Native Plugin – FFmpeg-Kit-Extended",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=49052579",
+      "date": "2026-07-25",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Full featured React-Native and Flutter plugin that lets you execute FFmpeg, FFprobe and FFplay commands without needing to deploy those executables. Get the full power of FFmpeg at native performance level. Includes support for 100+ external libraries with pre-bundled preset distributions for 24 different binaries distributed per platform with various inc... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/11-show-hn-cross-platform-flutter-and-react-native-plugin-ffmpeg-kit-exte.md"
+    },
+    {
+      "title": "SaswataGA/FairRent-AI-assisted-rental-platform",
+      "source": "GitHub Search API",
+      "url": "https://github.com/SaswataGA/FairRent-AI-assisted-rental-platform",
+      "date": "2026-07-26",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "SaswataGA/FairRent-AI-assisted-rental-platform Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/12-saswataga-fairrent-ai-assisted-rental-platform.md"
+    },
+    {
+      "title": "LagPixelLOL/shadertoy-local",
+      "source": "GitHub Search API",
+      "url": "https://github.com/LagPixelLOL/shadertoy-local",
+      "date": "2026-07-26",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Local simulation of Shadertoy for agentic development. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/13-lagpixellol-shadertoy-local.md"
+    },
+    {
+      "title": "Llama.cpp now has full MCP support!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6n33i/llamacpp_now_has_full_mcp_support/",
+      "date": "2026-07-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "After a long and grueling effort spearheaded by ngxson, llama.cpp now fully supports MCP for all protocols. Over-the-web HTTP servers were already supported in the client (since they don't require any sort of plumbing), but stdio servers required real integration. After we modified the `llama-cli` terminal client to use the server instead of a separate mo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/14-llama-cpp-now-has-full-mcp-support.md"
+    },
+    {
+      "title": "Is it worth getting 128GB MacBook Pro? Will it ever be comparable to today’s frontier models for coding?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6jpvn/is_it_worth_getting_128gb_macbook_pro_will_it/",
+      "date": "2026-07-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I am a long time iOS app developer. In the last year I have been using Cursor+Claude/others to assist with app development. I am concerned that the current low pricing will disappear eventually. I am pricing out a new laptop with the intention of using local models instead. New MacBook Pros can be configured with 128GB of ram, but obviously the price is h... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/15-is-it-worth-getting-128gb-macbook-pro-will-it-ever-be-comparable-to-to.md"
+    },
+    {
+      "title": "Will small model intelligence be limited by parameter count?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6q22t/will_small_model_intelligence_be_limited_by/",
+      "date": "2026-07-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Qwen3.6-27b is fantastic! It makes me wonder if there's a hard ceiling to smaller sized models. Do you guys think the ceiling of intelligence for smaller models will be constrained by factors like parameter count, or VRAM size? Or will we continue to see improvements for small models and see jumps of intelligence like Qwen3 coder 30b to Qwen3.6 27b for th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-26/16-will-small-model-intelligence-be-limited-by-parameter-count.md"
+    },
+    {
+      "title": "Who ONLY use local models?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v62z48/who_only_use_local_models/",
+      "date": "2026-07-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Please be honest. I would love to hear about guys really dedicated to local AI and who really reject subscriptions (especially to openai and anthropic). What do you use your model for? submitted by /u/takoulseum [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/17-who-only-use-local-models.md"
+    },
     {
       "title": "Show HN: A gate for AI agents that ships a board of its own worst flaws",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "This is ymawky, a now-dynamic web server written entirely in ARM64 Assembly. I've previously posted about ymawky here: https://news.ycombinator.com/item?id=48080587 In the past month and a half, I've made some pretty major improvements: I've added CGI scripting support, so the server now supports query strings and dynamic content; and I've fully ported ym... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/09-show-hn-a-pure-arm64-assembly-web-server-now-on-linux-with-cgi-for-no-.md"
-    },
-    {
-      "title": "sciencebanda09/nexus-multiagent",
-      "source": "GitHub Search API",
-      "url": "https://github.com/sciencebanda09/nexus-multiagent",
-      "date": "2026-06-23",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Local multi-agent AI system 6 agents, 12 tools, ChromaDB memory, Ollama LLM (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
-    },
-    {
-      "title": "Show HN: LoomStack – Helping engineering orgs scale AI-driven development",
-      "source": "Hacker News Show HN",
-      "url": "https://loomstack.co/",
-      "date": "2026-06-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: LoomStack – Helping engineering orgs scale AI-driven development (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-loomstack-helping-engineering-orgs-scale-ai-driven-development.md"
-    },
-    {
-      "title": "LuD1161/agentjail",
-      "source": "GitHub Search API",
-      "url": "https://github.com/LuD1161/agentjail",
-      "date": "2026-06-23",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Policy guardrails for coding agents (Claude Code, Codex, Cursor) — every tool call is checked locally, before it runs. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
-    },
-    {
-      "title": "Show HN: Pagecast – Publish Markdown/HTML Reports to Cloudflare Pages",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Amal-David/pagecast",
-      "date": "2026-06-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built this because I kept generating HTML/Markdown reports from Claude Code/Codex and needed a permanent share link instead of a localhost tunnel. Pagecast is a local CLI that publishes those files to your own Cloudflare Pages account. It supports Markdown and HTML, stable URLs, renaming, republishing to the same URL, and watch mode for continuous updat... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-18/13-show-hn-pagecast-publish-markdown-html-reports-to-cloudflare-pages.md"
-    },
-    {
-      "title": "Is Gemma 4 going to be the next Mistral (or Qwen3.6) one day? Concerning the lack of finetunes",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ucy863/is_gemma_4_going_to_be_the_next_mistral_or_qwen36/",
-      "date": "2026-06-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://eqbench.com/creative_writing.html#:~:text=gemma%2D4%2D31B,Sample From what I've seen Gemma 4 has better everything (especially long-context adherence) EXCEPT for the raw prosing performance of Mistral... finetunes . Comparing bases only, Mistral Small 3.2 (the backbone of a large chunk of the AI RP community at this point) appears to have lower cr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-22/14-is-gemma-4-going-to-be-the-next-mistral-or-qwen3-6-one-day-concerning-.md"
-    },
-    {
-      "title": "Why is NO one talking about Microsoft's open source Fast Context!!!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ud1lro/why_is_no_one_talking_about_microsofts_open/",
-      "date": "2026-06-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT https://github.com/microsoft/fastcontext FastContext-1.0 is a lightweight repository-exploration subagent for LLM coding agents. Instead of letting a single model both explore the repository and solve the task, FastContext separates these two roles: it is invoked on demand by a main coding agent, iss... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-23/15-why-is-no-one-talking-about-microsoft-s-open-source-fast-context.md"
-    },
-    {
-      "title": "GLM5.2 @7tg on 4x3090 + 192GB on budget motherboard + cpu",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ucknck/glm52_7tg_on_4x3090_192gb_on_budget_motherboard/",
-      "date": "2026-06-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I finally finished by home lab computer I started working on in May. I carefully waited and bought the 3090s in three local transactions. Every single seller was a gamer who was upgrading to 4090 or 5090 and none had any interest in AI. I bought the 192GB of 5200MHz of DDR5 and have overclocked it to 5600 MHz. I power capped the 3090s to 200W each in Linu... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-22/16-glm5-2-7tg-on-4x3090-192gb-on-budget-motherboard-cpu.md"
-    },
-    {
-      "title": "Human Evaluation of GLM-5.2",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udaq2e/human_evaluation_of_glm52/",
-      "date": "2026-06-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've seen plenty of benchmarks that put GLM-5.2 below many of the closed source alternatives but at their heels. I thought to myself, next version GLM will totally be where the best frontiers are at now. The last few days I've been testing it on a real world project, and it's basically Goated in my view. I wish I can run it locally but I've seen some madl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-23/17-human-evaluation-of-glm-5-2.md"
-    },
-    {
-      "title": "Show HN: CleverCrow: give tokens to your favorite projects",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://clevercrow.io",
-      "date": "2026-06-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Howdy all. I'm Zack :wave:. I've been thinking about the problem of misguided AI pull requests and figured I'd throw a possible solution out there for feedback. Basically, CleverCrow lets supporters give tokens to a GitHub repo (or set of issues in that repo) for the maintainers to use to build/fix stuff. The fun implementation challenges have been around... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-21/06-show-hn-clevercrow-give-tokens-to-your-favorite-projects.md"
-    },
-    {
-      "title": "Show HN: MemoryOps – governed memory infrastructure for AI assistants",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/patibandlavenkatamanideep/memoryops-ai",
-      "date": "2026-06-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I built a governed memory layer for AI assistants with deletion compaction, vector purge verification, tenant isolation, and audit evidence. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/07-show-hn-memoryops-governed-memory-infrastructure-for-ai-assistants.md"
-    },
-    {
-      "title": "Show HN: Brain Frog – Can you be random enough for 11 lines of JavaScript?",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://brainfrog.lol",
-      "date": "2026-06-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Brain Frog – Can you be random enough for 11 lines of JavaScript? (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-19/08-show-hn-brain-frog-can-you-be-random-enough-for-11-lines-of-javascript.md"
-    },
-    {
-      "title": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/vishal-dehurdle/state-harness",
-      "date": "2026-06-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/09-show-hn-i-applied-lyapunov-stability-theory-to-detect-when-llm-agents-.md"
     }
   ]
 }
