@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T07:30:06.798Z",
+  "updated_at": "2026-07-27T08:21:05.995Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://con-dog.github.io/MINIMIO-PUBLIC-FRONTEND/",
+      "date": "2026-07-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HackerNews, I built this project over the last few weeks as a palette cleanser from a failed game launch. I wanted to learn a bit about AI/Neural-Networks and naively thought I could build a tiny maze-solving AI in a weekend with a 100% solve rate. Well - I couldn't, but I got pretty close. 14 Bytes total model size, and a 96.5% solve rate on unseen m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-27/06-show-hn-watch-14-byte-ai-brains-attempt-to-solve-a-2d-maze-its-hard.md"
+    },
+    {
+      "title": "Show HN: ASL V6 – Open-source AST red-teaming engine for Python AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/sivaadityacoder/asl-v6",
+      "date": "2026-07-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: ASL V6 – Open-source AST red-teaming engine for Python AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-27/07-show-hn-asl-v6-open-source-ast-red-teaming-engine-for-python-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Wmux – A workspace multiplexer for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/openwong2kim/wmux",
+      "date": "2026-07-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Wmux – A workspace multiplexer for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-26/08-show-hn-wmux-a-workspace-multiplexer-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Physically accurate black hole you can put in your room",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://blackhole.plav.in",
+      "date": "2026-07-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We have a black hole at home — with actual relativistic physics, live in your browser. I'm Sasha (Alexander) Plavin, an astrophysicist at Harvard's Black Hole Initiative studying quasars and black hole environments. I work with raytracing/radiative transfer simulations professionally, and wanted to make one anyone can play with — so I built this app. Put... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/09-show-hn-physically-accurate-black-hole-you-can-put-in-your-room.md"
+    },
+    {
+      "title": "Show HN: GG Translator – Turn gaming shit talk into friendly phrases",
+      "source": "Hacker News Show HN",
+      "url": "https://ggtranslator.com",
+      "date": "2026-07-26",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Flaming teammates usually results in them cooperating even less. But sometimes you just need to let the devil out of you. Instead of venting on your teammates and pissing them off, vent into GG Translator and it will convert your toxic message into a friendly and constructive one to share with your team. https://ggtranslator.com My background is in buildi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/10-show-hn-gg-translator-turn-gaming-shit-talk-into-friendly-phrases.md"
+    },
+    {
+      "title": "DheerajPranav/mnemo-ir",
+      "source": "GitHub Search API",
+      "url": "https://github.com/DheerajPranav/mnemo-ir",
+      "date": "2026-07-26",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "MnemoIR — Causal Memory Incident Response for AI agents. Trace the blast radius of a bad/poisoned memory, repair the affected state, and prove the agent recovered. Composes Mnemo + NeuroTrace + RIFT. Built with Genesis. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/11-dheerajpranav-mnemo-ir.md"
+    },
+    {
+      "title": "Saishivram/skylark",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Saishivram/skylark",
+      "date": "2026-07-27",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Saishivram/skylark Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-27/12-saishivram-skylark.md"
+    },
+    {
+      "title": "Mayank2142/AI-Powered-Suspicious-Activity-Detection",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Mayank2142/AI-Powered-Suspicious-Activity-Detection",
+      "date": "2026-07-27",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Mayank2142/AI-Powered-Suspicious-Activity-Detection Stars: 1 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-27/13-mayank2142-ai-powered-suspicious-activity-detection.md"
+    },
+    {
+      "title": "We could really use Qwen3.8 in 27B, 35B, 122B and 397B sizes",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7nrfm/we_could_really_use_qwen38_in_27b_35b_122b_and/",
+      "date": "2026-07-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Instead of 2T+ models, continuing to release highly capable small to medium size LLMs would really help to keep this community vibrant. Hardly anyone can even dream of running the recent 1.5-2T+ beasts, while the range from the title could run comfortably (especially with CPU expert offloading) across a wide range of systems we have today. The trend towar... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/14-we-could-really-use-qwen3-8-in-27b-35b-122b-and-397b-sizes.md"
+    },
+    {
+      "title": "What local model do you still use after the hype wore off?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7r87j/what_local_model_do_you_still_use_after_the_hype/",
+      "date": "2026-07-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Every time a new model is released, I tend to check it out. The benchmarks, readme, or whatever seem pretty convincing, so I download it, test it for a few hours, and then I just go back to the same couple of ones I already had. Curious what models people here have actually kept using for weeks, months, or even longer. And not just that - but why? Was it... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/15-what-local-model-do-you-still-use-after-the-hype-wore-off.md"
+    },
+    {
+      "title": "My Ollama box picks the music now: an agentic DJ running on a 9B model",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7mmgg/my_ollama_box_picks_the_music_now_an_agentic_dj/",
+      "date": "2026-07-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I got tired of my Ollama server sitting idle between chat experiments, so I pointed it at my Navidrome library and made it run a radio station. The DJ is an agent, not a shuffler. Each turn it gets tools (search the library, look at what played recently, check the schedule, read the weather) and picks the next track with a reason. Then it writes a short i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/16-my-ollama-box-picks-the-music-now-an-agentic-dj-running-on-a-9b-model.md"
+    },
+    {
+      "title": "~20s that you'll never get back",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7fquf/20s_that_youll_never_get_back/",
+      "date": "2026-07-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "There is no quality or value to this post, however, I hope you might find humor in this broken output from my local Qwen TTS setup. Evidently I messed something up. submitted by /u/Full_Dimension_3495 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-26/17-20s-that-you-ll-never-get-back.md"
+    },
     {
       "title": "Show HN: Axtary – Content Authorization for AI Agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to train models that generalize across diverse agentic tasks... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/09-openthoughts-agent-data-recipes-for-agentic-models.md"
-    },
-    {
-      "title": "Show HN: Keep all microservices consistent and make batch changes",
-      "source": "Hacker News Show HN",
-      "url": "https://infraas.ai",
-      "date": "2026-06-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone! tl;dr At work, I needed to find every repository that uses deprecated Node 16 and make a batch update. This process was exhausting, I had to find them, make a change and a PR for 30 repositories, and then follow up with the pipeline to make sure it's green. I built an MCP server that indexes all the repos, lets you query repositories, makes b... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-24/10-show-hn-keep-all-microservices-consistent-and-make-batch-changes.md"
-    },
-    {
-      "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
-      "source": "Hacker News Show HN",
-      "url": "https://answerjournal.com/",
-      "date": "2026-06-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "AnswerJournal is a simple MCP server (only 7 tools) to save and share AI answers. Answers can be public or private and live on your own personal feed. Connect to an MCP compatible AI and just say \"save that to my AnswerJournal\" during any conversation. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
-    },
-    {
-      "title": "Show HN: FastUbu – An Ultrafast Video Archive",
-      "source": "Hacker News Show HN",
-      "url": "https://fastubu.com/",
-      "date": "2026-06-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Ubu is a 30 year old archive of strange films you'd usually only see in museums. I felt it was a perfect candidate for modern Midjourney-like performance. Really enjoyed using Cheng Lou's pretext and masonry pattern. AI indexing, transcription, and video processing via my startup Kino's API (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-22/12-show-hn-fastubu-an-ultrafast-video-archive.md"
-    },
-    {
-      "title": "Show HN: Monolisa v3 – a typeface for developers and creatives",
-      "source": "Hacker News Show HN",
-      "url": "https://www.monolisa.dev/",
-      "date": "2026-06-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Originally we (Andrey, Marcus, Juho) built MonoLisa in 2020 as we realised there's room for a better monospaced typeface for developers. The key insight was to make the glyphs slightly wider to make more room for design to make letters like m feel less cramped. Since then we've released a variable v2 (2022) and now we're happy to expand the typeface with... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-22/13-show-hn-monolisa-v3-a-typeface-for-developers-and-creatives.md"
-    },
-    {
-      "title": "I benchmarked 8 LLMs for medical scribing. Hallucinations were rare; omissions need attention.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udlrmf/i_benchmarked_8_llms_for_medical_scribing/",
-      "date": "2026-06-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I ran a small benchmark on LLMs for medical scribing. Reason: most discussion around AI scribe safety focuses on hallucinations. That matters, but in notes I kept seeing another problem: models often leave out clinically relevant details from the conversation. So I evaluated 8 frontier models on 300 synthetic doctor-patient dialogues. Each model wrote a S... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-23/14-i-benchmarked-8-llms-for-medical-scribing-hallucinations-were-rare-omi.md"
-    },
-    {
-      "title": "Seems this community might have missed it: Bill that would mandate AI chip location tracking gains industry support | Half a dozen companies have come out in support of the Chip Security Act, which would require location-tracking mechanisms for America’s most advanced computing chips.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue2fd7/seems_this_community_might_have_missed_it_bill/",
-      "date": "2026-06-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Web / reddit search have not found this posted in this sub, even though it is several days old news. So I do post. Related links: https://www.reddit.com/r/politics/comments/1uahgcs/bill_that_would_mandate_ai_chip_location_tracking/ https://www.reddit.com/r/LocalLLM/comments/1ubz5xh/us_to_require_location_tracking_for_ai_and/ submitted by /u/alex20_202020... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-24/15-seems-this-community-might-have-missed-it-bill-that-would-mandate-ai-c.md"
-    },
-    {
-      "title": "Mimo 2.5 is _fast_ at large context (dual RTX Pro 6000)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udwabh/mimo_25_is_fast_at_large_context_dual_rtx_pro_6000/",
-      "date": "2026-06-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "For agentic work fast high context is king, OpenCode fills the window quickly and most models that feel snappy at 8k context turn into dial-up ADSL brrr by the time you're at 150k context deep. So I've been testing lots of models and runners trying to get \"local Sonnet\" on 2x RTX PRO 6000 (Spoiler, yes!). The drop-off is all about how each model handles a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-23/16-mimo-2-5-is-fast-at-large-context-dual-rtx-pro-6000.md"
-    },
-    {
-      "title": "I love GLM 5.2's attitude! It is a nice refresher from those bootlicker doormats they are feeding us. Does that come from training datasets related to the local culture?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1udci9l/i_love_glm_52s_attitude_it_is_a_nice_refresher/",
-      "date": "2026-06-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I have realised one thing I really like about GLM 5.2, apart from its capabilites and huge consistent context, is its attitude : It is direct, concise, no fluff (as one infamous model likes to say) It won't take shit It won't sugar coat its answers, and will not blindly agree with you, like those saccharine vomit inducing US models do It is focused and re... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-23/17-i-love-glm-5-2-s-attitude-it-is-a-nice-refresher-from-those-bootlicker.md"
-    },
-    {
-      "title": "Show HN: Selector Forge – browser extension for AI-generated resilient selectors",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Intuned/selector-forge",
-      "date": "2026-06-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm Ahmad from the Intuned ( https://intunedhq.com ) team. Today, we're releasing and open-sourcing Selector Forge ( https://selectorforge.ai/ ), a browser extension that generates reliable CSS/XPath selectors using AI. You can use it to create a selector for a single element or for an array of elements. The selectors it creates are meant to be \"se... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/06-show-hn-selector-forge-browser-extension-for-ai-generated-resilient-se.md"
-    },
-    {
-      "title": "AbdallahKhaldi/COSMOS77-ex06",
-      "source": "GitHub Trending",
-      "url": "https://github.com/AbdallahKhaldi/COSMOS77-ex06",
-      "date": "2026-06-23",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "UOH-RL07 HW6 — Cops & Robbers: dual AI agents over MCP servers (203.3763) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/07-abdallahkhaldi-cosmos77-ex06.md"
-    },
-    {
-      "title": "Show HN: Oak – Git alternative designed for agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://oak.space/oak/oak",
-      "date": "2026-06-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Oak is a version control system I've been working on designed for agents ( https://oak.space ). It improves the speed and context your agents need when working on serious projects. With virtual mounts, agents locally and in the cloud no longer need a full copy of a repo to get working. You can work on many tasks in parallel without needing to download eve... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/08-show-hn-oak-git-alternative-designed-for-agents.md"
-    },
-    {
-      "title": "Show HN: A pure ARM64 Assembly web server, now on Linux with CGI for no reason",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/imtomt/ymawky/tree/linux",
-      "date": "2026-06-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "This is ymawky, a now-dynamic web server written entirely in ARM64 Assembly. I've previously posted about ymawky here: https://news.ycombinator.com/item?id=48080587 In the past month and a half, I've made some pretty major improvements: I've added CGI scripting support, so the server now supports query strings and dynamic content; and I've fully ported ym... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/09-show-hn-a-pure-arm64-assembly-web-server-now-on-linux-with-cgi-for-no-.md"
     }
   ]
 }
