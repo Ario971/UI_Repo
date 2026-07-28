@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T08:21:05.995Z",
+  "updated_at": "2026-07-28T07:34:03.230Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Orchard – Let AI agents set up your app's back end with one prompt",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://orchard-dashboard.pages.dev/landing",
+      "date": "2026-07-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Orchard – Let AI agents set up your app's back end with one prompt (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/06-show-hn-orchard-let-ai-agents-set-up-your-app-s-back-end-with-one-prom.md"
+    },
+    {
+      "title": "Show HN: Call Me, your AI agents ring you with no extra carrier costs",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/radres/call-me",
+      "date": "2026-07-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Just a fun app I've been working on. Not necessarily AI only and works with any AI harness or just as an API. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-27/07-show-hn-call-me-your-ai-agents-ring-you-with-no-extra-carrier-costs.md"
+    },
+    {
+      "title": "Show HN: Aidress – Coordination layer for autonomous AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Aidress-ai/Aidress",
+      "date": "2026-07-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Aidress – Coordination layer for autonomous AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-27/08-show-hn-aidress-coordination-layer-for-autonomous-ai-agents.md"
+    },
+    {
+      "title": "Decentralised Consensus Learning Networks: SME Rotation Without Centralised Reward",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.24416v1",
+      "date": "2026-07-27",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Centralised reward signals dominate modern AI learning systems, but they impose a single external definition of correct or valuable knowledge. We present a decentralised, consensus-based multi-agent learning framework in which expertise emerges through peer validation rather than prescribed reward. Agents update beliefs via weighted social consensus, whil... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-27/09-decentralised-consensus-learning-networks-sme-rotation-without-central.md"
+    },
+    {
+      "title": "Show HN: Yap – OSS on-device voice dictation for macOS with no model to download",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/FrigadeHQ/yap",
+      "date": "2026-07-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! I wanted to share this OSS project I've been working on. It's called Yap and its a small menu-bar app for macOS that does voice to text for any input. You'll set a hotkey, press it, talk, press it again, and the text gets pasted into whatever field you were in. Everything runs locally and never leaves your computer. Fully OSS and MIT licensed. Wit... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-27/10-show-hn-yap-oss-on-device-voice-dictation-for-macos-with-no-model-to-d.md"
+    },
+    {
+      "title": "arunnatarajan01-dev/ai-requirement-test-gen-main",
+      "source": "GitHub Search API",
+      "url": "https://github.com/arunnatarajan01-dev/ai-requirement-test-gen-main",
+      "date": "2026-07-28",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "arunnatarajan01-dev/ai-requirement-test-gen-main Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-28/11-arunnatarajan01-dev-ai-requirement-test-gen-main.md"
+    },
+    {
+      "title": "muhrafi-fsdev/NUSAMIND-SWIFT",
+      "source": "GitHub Search API",
+      "url": "https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT",
+      "date": "2026-07-26",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Fast local-first AI assistant with bounded reasoning, verified retrieval, privacy-aware memory, and defensive cybersecurity. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/12-muhrafi-fsdev-nusamind-swift.md"
+    },
+    {
+      "title": "Show HN: Let's Seal – Let's Encrypt for document signing, free and self-hosted",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/letsseal/letsseal",
+      "date": "2026-07-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "TLDR, Let's Seal gives the finger to Adobe and every doc signing tool (docusign, google, etc) who pay to play with the Adobe Approved Trust List and then charge you for something that should be free. Currently even the person checking if a document/contract is sealed or code is authentic has to also be inside the same Adobe walled garden too. Verification... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-27/13-show-hn-let-s-seal-let-s-encrypt-for-document-signing-free-and-self-ho.md"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang defends Open Source AI by saying distillation is fundamental to learning",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v81nqt/nvidia_ceo_jensen_huang_defends_open_source_ai_by/",
+      "date": "2026-07-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Nvidia CEO Jensen Huang “Distillation - learning from AI, learning from other people, and learning from other sources of knowledge, is fundamental to intelligence. We are constantly learning from one another. AI also has to learn from something.” Since using AI Desktop 98 , I have become a staunch advocate of local AI. In his Axios interview, Jensen expla... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/14-nvidia-ceo-jensen-huang-defends-open-source-ai-by-saying-distillation-.md"
+    },
+    {
+      "title": "Kimi K3 is like an F1 machine inside a show window.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8gum2/kimi_k3_is_like_an_f1_machine_inside_a_show_window/",
+      "date": "2026-07-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Moonshot dropped Kimi K3, and as expected, it’s a absolute monster. Even with 2~4x RTX 6000 Blackwell local workstations, running a model natively is virtually impossible. It feels like an F1 machine inside a show window. Does anyone trying to hack this monster? or Is anyone with datacenter/cluster capacity or sponsor? I either carve this monster down mys... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/15-kimi-k3-is-like-an-f1-machine-inside-a-show-window.md"
+    },
+    {
+      "title": "Viable ways to run K3 locally",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v866sg/viable_ways_to_run_k3_locally/",
+      "date": "2026-07-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "just curious how would people run it cheap if they really want kimi k3. dgx spark / strix halo clusters optane persistent memory platform + some gpus mac studio clusters orange pi 6 clusters ssd streaming + gpus multiple ddr3 + connectx 5 rdma clients two dgx stations power 10 systems? other submitted by /u/ylchao [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/16-viable-ways-to-run-k3-locally.md"
+    },
+    {
+      "title": "Anthropic is calling for a ban on open-weights models by proposing mandatory requirements they will probably never be able to meet",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8hk6b/anthropic_is_calling_for_a_ban_on_openweights/",
+      "date": "2026-07-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/realmvp77 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/17-anthropic-is-calling-for-a-ban-on-open-weights-models-by-proposing-man.md"
+    },
     {
       "title": "Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "As autonomous AI agents increasingly transact across organizational boundaries, a fundamental trust challenge emerges: how can an agent assess whether an unknown counterpart is trustworthy? The ERC-8004 protocol addresses this challenge with the first permissionless trust layer for AI agent economies, built around three on-chain registries for Identity, R... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-24/09-can-trustless-agents-be-trusted-an-empirical-study-of-the-erc-8004-dec.md"
-    },
-    {
-      "title": "Show HN: LookAway, a Mac break reminder that knows when not to interrupt",
-      "source": "Hacker News Show HN",
-      "url": "https://lookaway.com",
-      "date": "2026-06-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello, I'm Kushagra and I am the indie developer behind LookAway (I've posted about it earlier but it has received quite a lot of updates since the last time so I am posting it again). LookAway is a native break reminder for macOS that doesn't interrupt. I built it because I work from home and I spend a lot of time in front of my screens. It's very easy f... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-24/10-show-hn-lookaway-a-mac-break-reminder-that-knows-when-not-to-interrupt.md"
-    },
-    {
-      "title": "Show HN: Pure Effect – Reproduce production bugs on your laptop without a DB",
-      "source": "Hacker News Show HN",
-      "url": "https://pure-effect.org",
-      "date": "2026-06-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I think it's safe to say that the majority of developers don't give a second thought to writing code with I/O tangled in business logic. It's all too common to see code like: const user = findUser(email); if (!user) await saveUser(user); Now, you may ask: what's the big deal? When we write code like this, two things happen: 1. It gets harder to deb... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-21/11-show-hn-pure-effect-reproduce-production-bugs-on-your-laptop-without-a.md"
-    },
-    {
-      "title": "Magatoki999/ar-ai-portal",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Magatoki999/ar-ai-portal",
-      "date": "2026-06-25",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI-AR-blockchain webapp. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-25/12-magatoki999-ar-ai-portal.md"
-    },
-    {
-      "title": "Veedubin/AttackLM",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Veedubin/AttackLM",
-      "date": "2026-06-25",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "QLoRA fine-tuning pipeline for a MITRE ATT&CK-grounded red-team AI assistant. 16,982 training pairs across 16 buckets, all derived from openly licensed open-source projects. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-25/13-veedubin-attacklm.md"
-    },
-    {
-      "title": "If LLMs are so good at coding…",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf0oso/if_llms_are_so_good_at_coding/",
-      "date": "2026-06-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "How come things like ROCm and the intel stack aren’t able to rapidly improve their software ecosystems to be a match for CUDA? Until the software from other vendors catches up with NVIDIA, they’re always going to get away with charging a massive premium on their “it just works” products. This is a genuine question, I’m using NVIDIA and Apple Silicon for m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-25/14-if-llms-are-so-good-at-coding.md"
-    },
-    {
-      "title": "The Swiss Federal Supreme Court is evaluating Heretic",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ueeund/the_swiss_federal_supreme_court_is_evaluating/",
-      "date": "2026-06-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "“Oh no, are they banning abliterated models now?!?” If that was your first thought when you read the title I can’t blame you. But that’s actually not what’s happening in this case. Instead, the Swiss Federal Supreme Court is evaluating Heretic for their own use! As it turns out, the Court has been suffering from the same problem as many people on this sub... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-24/15-the-swiss-federal-supreme-court-is-evaluating-heretic.md"
-    },
-    {
-      "title": "For users with 4x-8x 6000 PROs, how is your experience with bigger models lately? (GLM 5.2, Kimi 2.7, DeepSeek V4 Pro)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uex6pb/for_users_with_4x8x_6000_pros_how_is_your/",
-      "date": "2026-06-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hello guys, hoping you're doing fine! I was wondering, for users with 4x-8x 6000 PROs (so between 384 and 768GB VRAM), how are bigger models working for you? I have planned to either jump to 4 or 8 from my actual system, and want to see the experiences with these lately. In theory you can run GLM 5.2 at 4 bits, but not 8 bits right? Same with Kimi 2.7, or... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-25/16-for-users-with-4x-8x-6000-pros-how-is-your-experience-with-bigger-mode.md"
-    },
-    {
-      "title": "Locked Dell quote for 6x RTX PRO 6000 Max-Q at $8,960 — expires tonight. What would you do?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uexxqg/locked_dell_quote_for_6x_rtx_pro_6000_maxq_at/",
-      "date": "2026-06-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Building an inference cluster to run GLM 5.2 locally. Got a Dell quote locked at $8,959.99/unit for 6x RTX PRO 6000 Blackwell Max-Q (300W). List price just jumped to $15,999 yesterday. Quote expires in ~3 hours and I can't swing all 6 right now. I have a second quote for 2 units at the same price that's good until July 3. What would you do — buy the 2 and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-25/17-locked-dell-quote-for-6x-rtx-pro-6000-max-q-at-8-960-expires-tonight-w.md"
-    },
-    {
-      "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://tikz.dev/editor/",
-      "date": "2026-06-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \\draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/06-show-hn-tikz-editor-wysiwyg-editor-for-figures-in-latex.md"
-    },
-    {
-      "title": "Show HN: RLM-based local debugger for AI agent traces",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/context-labs/halo",
-      "date": "2026-06-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We built HALO (Hierarchal Agent Loop Optimizer), an open-source tool for debugging and optimizing AI agents using their execution traces. It’s a loop. Run your agent, feed the traces to HALO, get the report, apply the fixes, then re-run your agent. HALO takes in OTEL compliant traces from AI agents using tracing frameworks such as Langfuse, Arize/OpenInfe... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/07-show-hn-rlm-based-local-debugger-for-ai-agent-traces.md"
-    },
-    {
-      "title": "Show HN: Shumai – open-source Frame.io alternative for creative work",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/shumaiOne/shumai",
-      "date": "2026-06-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Shumai is an open source platform for uploading creative files, managing projects, collecting precise feedback, sharing work, and collaborating with AI agents, all in one simple creative-first workspace. I’ve always liked the product design of Frame.io, and I wanted to build an alternative that feels just as polished, while being open source and easy to s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/08-show-hn-shumai-open-source-frame-io-alternative-for-creative-work.md"
-    },
-    {
-      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.24855v1",
-      "date": "2026-06-23",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to train models that generalize across diverse agentic tasks... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/09-openthoughts-agent-data-recipes-for-agentic-models.md"
     }
   ]
 }
