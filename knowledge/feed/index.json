@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T07:34:03.230Z",
+  "updated_at": "2026-07-29T07:36:23.817Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Flashpaper – Self-destructing secret sharing with no database",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://flashpaper.app/",
+      "date": "2026-07-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone! This is my first HN and I’m very new to the scene. My name is Min from Bangkok. At first, I just want to create a dead man's switch for personal use and for fun. then, I think about information that self destruct like a spy movie. after that, I try to come up with the better version of Privnote or Bitwarden with self-destruct and some kind of... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/06-show-hn-flashpaper-self-destructing-secret-sharing-with-no-database.md"
+    },
+    {
+      "title": "Toward Standardized Cross-Vendor Agent Tool Trust Management in Autonomous Networks",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.25914v1",
+      "date": "2026-07-28",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Autonomous Network Levels 4-5 require AI agents to invoke tools across vendor boundaries without human oversight, yet existing management standards lack a standardized mechanism for cross-vendor trust visibility. When a tool from Vendor B is compromised, agents from Vendor A continue invoking it -- unaware of the trust degradation -- causing cascading ser... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/07-toward-standardized-cross-vendor-agent-tool-trust-management-in-autono.md"
+    },
+    {
+      "title": "Messier: A High-Resolution Corpus for Cross-Benchmark Agent Evaluation",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.25891v1",
+      "date": "2026-07-28",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Evaluating AI agents in interactive environments is hindered by fragmented tasks, scaffolds, verifiers, and scoring rules. Existing efforts focus on narrow settings, remain limited in scale, or require costly reruns, leaving much of the empirical record incomparable. We introduce Messier, a unified corpus of 957,253 records that span 30 benchmarks, 714 ag... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/08-messier-a-high-resolution-corpus-for-cross-benchmark-agent-evaluation.md"
+    },
+    {
+      "title": "Distributing Security Controls Through Harness Engineering",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.25890v1",
+      "date": "2026-07-28",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI coding agents are being adopted at historic speed, yet security and risk concerns remain the primary barrier to scaling agentic AI across organizations. Existing security controls for coding agents are not systematically distributed to engineering teams, and vendor-native solutions introduce ecosystem dependencies that may not suit every deployment con... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/09-distributing-security-controls-through-harness-engineering.md"
+    },
+    {
+      "title": "Show HN: tale.fyi, we deserve a home for fiction",
+      "source": "Hacker News Show HN",
+      "url": "https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link",
+      "date": "2026-07-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "for decades, i have been concerned that the internet was being built around non-fiction, so i built something to show how we could celebrate great fiction on the web. i started with an amazing library from the public domain, and i also added tools to add your own stories super interested to hear any feedback, and if you read anything good! (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-28/10-show-hn-tale-fyi-we-deserve-a-home-for-fiction.md"
+    },
+    {
+      "title": "Show HN: Local meeting notes transcriber, but linuxy",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/tomelliot/all-ears",
+      "date": "2026-07-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Granola started clamping down on downloading your notes without paying for a subscription, and I got sick of all the barely maintained GUIs on top of various local models (MacWhisper ). All-Ears is a set of composable tools to transcribe and summarise meetings. - A daemon that records audio sources - `transcribe` to transcribe the audio (with diarisation)... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/11-show-hn-local-meeting-notes-transcriber-but-linuxy.md"
+    },
+    {
+      "title": "blurifycom/openora",
+      "source": "GitHub Search API",
+      "url": "https://github.com/blurifycom/openora",
+      "date": "2026-07-29",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Open-source, headless, plugin-based, AI-native iGaming framework - domain modules, plugin engine, Zod-first contracts, typed React SDK (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/12-blurifycom-openora.md"
+    },
+    {
+      "title": "Vaibhav-Gupta-001/wellness-coach-bot-final",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Vaibhav-Gupta-001/wellness-coach-bot-final",
+      "date": "2026-07-29",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Vaibhav-Gupta-001/wellness-coach-bot-final Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/13-vaibhav-gupta-001-wellness-coach-bot-final.md"
+    },
+    {
+      "title": "DeepSeek V4 Flash, up to 32 tok/s on AMD Ryzen AI MAX+ 395",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9100b/deepseek_v4_flash_up_to_32_toks_on_amd_ryzen_ai/",
+      "date": "2026-07-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey fellow llamas. we have something new for Strix Halo owners we thought would be useful to share. i'll keep it short: We were able to fit DeepSeek V4 Flash plus its speculative draft on a single Ryzen AI MAX+ 395 with 128 GB of unified memory, and got it to a usable decode rate. Blog post with all details here: https://www.lucebox.com/blog/deepseek-v4-s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-28/14-deepseek-v4-flash-up-to-32-tok-s-on-amd-ryzen-ai-max-395.md"
+    },
+    {
+      "title": "Built and released BetterGPT-150M – A compact 150M parameter completion model (+ live HF Space demo)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9oa1u/built_and_released_bettergpt150m_a_compact_150m/",
+      "date": "2026-07-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, ​I recently finished pre-training BetterGPT-150M, a small, lightweight causal language model with ~152 million parameters.Trained on 15B tokens. Dataset & Training: Trained across stable and annealing phases using curated datasets (including FineWeb-Edu, fine maths, cosmopedia, starcode-python), ensuring strong capability retention while max... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-29/15-built-and-released-bettergpt-150m-a-compact-150m-parameter-completion-.md"
+    },
+    {
+      "title": "microsoft/Mage-VL · Hugging Face - An Efficient Codec-Native Streaming Multimodal Foundation Model",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v97f8d/microsoftmagevl_hugging_face_an_efficient/",
+      "date": "2026-07-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Mage-VL is a codec-native, proactive-streaming multimodal foundation model for image and video understanding, whose visual encoder is trained entirely from scratch at a compact 4B scale. It targets a modern Moravec's paradox of VLMs — strong at complex offline reasoning, yet slow and compute-heavy on simple real-time streaming perception. Instead of decod... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-28/16-microsoft-mage-vl-hugging-face-an-efficient-codec-native-streaming-mul.md"
+    },
+    {
+      "title": "Appreciation for Gemma 4 26b A4b",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v95tka/appreciation_for_gemma_4_26b_a4b/",
+      "date": "2026-07-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I really love this model, I have been using the q4_k_l by Bartowski (I have heard QAT is quite the downgrade in some aspects) and it handles every task I throw at it easily. Agentic and coding performance is not as good as Qwen of course but good enough and I have found myself to be constantly surprised by it considering the size and speed. I really like... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-28/17-appreciation-for-gemma-4-26b-a4b.md"
+    },
     {
       "title": "Show HN: Orchard – Let AI agents set up your app's back end with one prompt",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "We present a conceptual framework for analyzing dialogue in collaborative problem-solving contexts, with an emphasis on the emerging dynamics of human-AI and multi-agent collaboration. As intelligent systems become active agents capable of autonomous reasoning and strategic cooperation, understanding the dialogic interaction during collaborative problem s... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/09-bridging-talk-and-thought-understanding-dialogue-dynamics-across-colla.md"
-    },
-    {
-      "title": "Show HN: Turn native language audio into flashcards and shadowing practice",
-      "source": "Hacker News Show HN",
-      "url": "https://lingochunk.com/try",
-      "date": "2026-06-25",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Here is a tool I built initially for myself to help with my German and Greek language studies. It started as a hack for creating Anki cards from native language audio. It extracts the words, finds their base forms (lemmas) and groups the examples by the lemma. At some point I realised that I have a transcription with word level timestamps that opens a lot... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-25/10-show-hn-turn-native-language-audio-into-flashcards-and-shadowing-pract.md"
-    },
-    {
-      "title": "Show HN: Persona.js – a vanilla-JS agent UI library with native WebMCP (MIT)",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/runtypelabs/persona",
-      "date": "2026-06-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone. My cofounder and I are open sourcing Persona.js ( https://www.persona-chat.dev/ ). It's a VanillaJS library that helps anyone build agentic experiences on the web, without a framework dependency, and full WebMCP support So, why'd we do this? 1) We're super fans of the web and the browser can do a ton today 2) We've seen AI builds be way over... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/11-show-hn-persona-js-a-vanilla-js-agent-ui-library-with-native-webmcp-mi.md"
-    },
-    {
-      "title": "Show HN: Secs-man, a secrets manager you can (not) rely on",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Fran314/secrets-manager-rs",
-      "date": "2026-06-25",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "This is a tool to manage encrypted local backups of secrets. The core idea is that it aims to be usable without depending on it, meaning that even if the software disappeared from the face of Earth tomorrow, your data would still be recoverable. It also integrates nicely with NixOS (which is what I use, though it does not require NixOS to be used). I have... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-25/12-show-hn-secs-man-a-secrets-manager-you-can-not-rely-on.md"
-    },
-    {
-      "title": "Show HN: DeepSeek Flash inverted the economics of agent products",
-      "source": "Hacker News Show HN",
-      "url": "https://www.rtrvr.ai/blog/code-as-plan-deepseek-flash-text-only-browser-agent",
-      "date": "2026-06-25",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "There is an adversarial relationship between developers and big model labs. Model labs charged developers higher API prices to subsidize their own agent harness offerings. Think Anthropic charging 5x higher Claude API prices to subsidize consumer subscriptions. So Cursor in a way was subsidizing their own direct competitor. DeepSeek V4 Flash totally inver... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-25/13-show-hn-deepseek-flash-inverted-the-economics-of-agent-products.md"
-    },
-    {
-      "title": "b9788",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9788",
-      "date": "2026-06-25",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "sycl : support --split-mode tensor (#24152) * Sycl tp stage1 (#1) * SYCL: tensor parallelism (--split-mode tensor) for dual-GPU Adds the comm_init/comm_free/comm_allreduce_tensor trio that the meta-backend queries via get_proc_address to enable backend-specific all-reduce, mirroring the pattern used by ggml-cuda.cu. For N=2 (the common dual-GPU case) impl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-25/14-b9788.md"
-    },
-    {
-      "title": "NVIDIA Nemotron 3 Ultra June 4, 2026 NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.",
-      "source": "Ollama Blog",
-      "url": "https://ollama.com/blog/nemotron-3-ultra",
-      "date": "2026-06-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "NVIDIA Nemotron 3 Ultra June 4, 2026 NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-04/15-nvidia-nemotron-3-ultra-june-4-2026-nvidia-nemotron-3-ultra-is-built-f.md"
-    },
-    {
-      "title": "b9804",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9804",
-      "date": "2026-06-26",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "mamba2: remove hardcoded 2x expansion factor and invalid d_inner % d_state check (#23082) * mamba2: remove hardcoded 2x expansion factor, support any expand value * mamba2: remove invalid d_inner %% d_state check (unrelated parameters) * Update convert_hf_to_gguf.py: make expand optional with default 2 Co-authored-by: Sigbjørn Skjæret * mamba2: apply expa... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-26/16-b9804.md"
-    },
-    {
-      "title": "b9803",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9803",
-      "date": "2026-06-26",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "opencl: flush profiling batch at shutdown for incomplete batches (#25016) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9803/llama-b9803-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https:/... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-26/17-b9803.md"
-    },
-    {
-      "title": "Show HN: Write SaaS apps where users control where their data is stored",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/wolfoo2931/linkedrecords/",
-      "date": "2026-06-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN, I would like to share with you linkedrecords.com - an open source backend as a service I'm working on since some time now. You can think of it as an firebase/convex alternative with an interesting twist. In 2018 I needed to write large software requirements/architecture documents in Google Docs. While I was annoyed by the limitations of Google D... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-19/06-show-hn-write-saas-apps-where-users-control-where-their-data-is-stored.md"
-    },
-    {
-      "title": "Show HN: peerd – AI agent harness that runs entirely in your browser",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/NotASithLord/peerd",
-      "date": "2026-06-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN. http://peerd.ai is an AI agent harness that lives entirely in your browser as a web extension. You don’t have to install a separate “AI browser”. You don’t have to bolt on or run some external process or manage a clunky mcp integration. It’s just a fully contained web extension, written in no build vanilla JS with minimal non-browser dependencies,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/07-show-hn-peerd-ai-agent-harness-that-runs-entirely-in-your-browser.md"
-    },
-    {
-      "title": "The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.26057v1",
-      "date": "2026-06-24",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents are granted access to tools, APIs, and other infrastructure, making them active principals in those systems. The dominant approach places controls inside the agent's own runtime: system prompts, output filters, and guardrail libraries. Any control in the agent's address space is reachable by inputs that influence it; this generalizes to any AI s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-24/08-the-unfireable-safety-kernel-execution-time-ai-alignment-for-ai-agents.md"
-    },
-    {
-      "title": "Can Trustless Agents Be Trusted? An Empirical Study of the ERC-8004 Decentralized AI Agent Ecosystem",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.26028v1",
-      "date": "2026-06-24",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "As autonomous AI agents increasingly transact across organizational boundaries, a fundamental trust challenge emerges: how can an agent assess whether an unknown counterpart is trustworthy? The ERC-8004 protocol addresses this challenge with the first permissionless trust layer for AI agent economies, built around three on-chain registries for Identity, R... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-24/09-can-trustless-agents-be-trusted-an-empirical-study-of-the-erc-8004-dec.md"
     }
   ]
 }

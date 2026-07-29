@@ -1,0 +1,197 @@
+---
+id: "lx-wnk/agent-context"
+name: "lx-wnk/Agent-Context"
+url: "https://github.com/lx-wnk/Agent-Context"
+date: "2026-07-29"
+source: "awesome-claude-code"
+category: "awesome_lists"
+kind: "claude_skill"
+compatibility: 84
+momentum: 56
+risk: 32
+integration_effort: 40
+expected_gain: 87
+composite: 73
+replacement_target: ""
+related_articles: [{"title":"Show HN: Context Warp Drive – Deterministic context folding for AI agents","date":"2026-07-07","topic":"AI agents","similarity":0.353,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-07/09-show-hn-context-warp-drive-deterministic-context-folding-for-ai-agents.md"},{"title":"Show HN: AMA2, messenger built for AI agent","date":"2026-06-30","topic":"AI agents","similarity":0.302,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"},{"title":"Show HN: Two-tier-memory – queryable long-term memory for AI coding agents","date":"2026-07-05","topic":"AI agents","similarity":0.291,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/06-show-hn-two-tier-memory-queryable-long-term-memory-for-ai-coding-agent.md"}]
+pros: ["Recently updated (2026-07-29)","MIT license","5 GitHub stars","GitHub Actions/CI detected"]
+cons: ["README includes remote script execution pattern"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 3
+dependency_files: [{"name":"package.json","summary":"deps prettier; scripts prettier:fix, prettier, test"}]
+install_commands: ["CLAUDE.md                          (3 lines — bootstrap pointer)","npm test","npm run prettier"]
+risk_flags: ["README includes remote script execution pattern"]
+status: "new"
+---
+
+# lx-wnk/Agent-Context
+
+Layered, agent-agnostic context architecture for AI coding agents: a tiny always-on baseline, on-demand skills & memory, and deterministic guardrails.
+
+URL: https://github.com/lx-wnk/Agent-Context
+
+## Why it matters
+You saved an article on 2026-07-07 about AI agents; this candidate overlaps with "Show HN: Context Warp Drive – Deterministic context folding for AI agents" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-07-29)
++ MIT license
++ 5 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- README includes remote script execution pattern
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- package.json: deps prettier; scripts prettier:fix, prettier, test
+
+Install commands found:
+- CLAUDE.md                          (3 lines — bootstrap pointer)
+- npm test
+- npm run prettier
+
+Risk flags:
+- README includes remote script execution pattern
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Agent Context Architecture
+
+[![License: MIT](https://img.shields.io/github/license/lx-wnk/Agent-Context)](LICENSE)
+[![Latest release](https://img.shields.io/github/v/release/lx-wnk/Agent-Context)](https://github.com/lx-wnk/Agent-Context/releases/latest)
+[![CI](https://github.com/lx-wnk/Agent-Context/actions/workflows/ci.yml/badge.svg)](https://github.com/lx-wnk/Agent-Context/actions/workflows/ci.yml)
+
+A project-based setup and memory-handling system for AI coding agents, with first-class Claude Code support. Its entry point is the agent-agnostic `AGENTS.md`. Optimized for structuring project knowledge so that your agent always has the right context at the right time — without bloating the context window.
+
+Instead of dumping everything into a single `CLAUDE.md`, Agent Context provides a layered architecture: all layers (0-3) are loaded at startup via `@`-includes in `AGENTS.md`, keeping the baseline at ~150-200 lines. Detailed reference (skills, memory files) is pulled in on-demand based on the task at hand. Auto-updates keep shared infrastructure current across all your projects.
+
+## Contents
+
+- [The Problem](#the-problem)
+- [The Solution](#the-solution)
+- [Installation](#installation)
+- [Architecture](#architecture)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [License](#license)
+
+## The Problem
+
+Claude Code loads project instructions into its context window every conversation. Most projects dump everything into a single `CLAUDE.md`, resulting in:
+
+- **Context bloat:** 500-1000+ lines loaded for every task, even a one-line CSS fix
+- **Duplication:** Same information in `CLAUDE.md`, `README.md`, `.claude/rules/`, and memory files
+- **Noise:** Entity schemas, route tables, and file trees that Claude can discover by reading the code
+- **No structure:** Flat files with no way to load context progressively based on the task
+
+## The Solution
+
+A layered architecture where all layers load at startup via `@`-includes in `AGENTS.md`:
+
+```
+CLAUDE.md                          (3 lines — bootstrap pointer)
+AGENTS.md                          (~35 lines — identity, quick rules)
+.agent-context/
+  layer0-agent-workflow.md         (~35 lines — universal agent patterns)
+  layer1-bootstrap.md              (~25 lines — tech stack, project identity)
+  layer2-project-core.md           (~25 lines — dev principles, conventions)
+  layer3-guidebook.md              (~45 lines — task → file routing table)
+  memory/                          (stubs, ~10 lines each)
+  skills/                          (full reference, loaded on-demand)
+```
+
+**Baseline:** AGENTS.md + all layers. Full reference (skills, memory): loaded only when trigger keywords match.
+
+Auto-updates are built in: the agent fetches the setup prompt from remote, which auto-detects UPDATE mode, checks for new releases via the GitHub Releases API, and updates shared files. Project-owned files are never overwritten.
+
+See a fully installed project in [example.md](example.md).
+
+## Installation
+
+### Quick Start
+
+Run this one-liner from your project root:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lx-wnk/Agent-Context/main/install.sh)"
+```
+
+**Requires:** [Claude Code CLI](https://claude.ai/code) installed and authenticated.
+
+See [what gets created](docs/architecture.md#what-gets-created) and [alternative install](docs/architecture.md#alternative-paste-into-a-session).
+
+## Architecture
+
+The core idea in one picture — a small baseline loads at startup, and everything heavy is pulled only when a task actually needs it:
+
+```mermaid
+flowchart TD
+    Start([Session start]) --> AG[AGENTS.md]
+    AG -->|"@-includes"| Base["Always-on baseline (~150–200 lines):<br/>agent-startup · layer0 · layer1 · layer2 · layer3<br/>· knowledge-map · skills index"]
+    Base --> Task{Task begins}
+    Task --> Route["Layer 0 / Layer 3 routing:<br/>what does THIS task need?"]
+
+    Route -->|skill trigger| Skill["skills/&lt;name&gt;.md"]
+    Route -->|domain keyword| Mem["memory/&lt;domain&gt;.md"]
+    Route -->|external source| Doc["doc via knowledge-map"]
+    Route -->|unfamiliar subsystem| Map["map.json → 1–2 nodes → memory/&lt;node&gt;.md"]
+
+    Skill --> Act([Act with just-enough context])
+    Mem --> Act
+    Doc --> Act
+    Map --> Act
+
+    subgraph OnDemand ["pulled on demand · never at startup"]
+        Skill
+        Mem
+        Doc
+        Map
+    end
+```
+
+The file-ownership view — what the framework ships vs. what your project owns:
+
+```
+agent-context Repo (source)              Project / User (target)
+─────────────────────────────            ──────────────────────────
+context/agent-startup.md          →──    .agent-context/agent-startup.md (overwritable)
+context/layer0-agent-workflow.md  →──    .agent-context/layer0-agent-workflow.md (overwritable)
+context/base-principles.md        →──    .agent-context/base-principles.md (overwritable)
+templates/*                       →──    AGENTS.md, layer1-3, memory/ (project-owned)
+```
+
+**Overwritable** files are updated on every release. **Project-owned** files are created once and never overwritten. The installed version is tracked in `.agent-context/.agent-context-version` — written by the agent from the release tag.
+
+See [Architecture](docs/architecture.md) for the full mental model, layer loading, and runtime read flow.
+
+## Documentation
+
+- [Example](example.md)
+- [Architecture](docs/architecture.md)
+- [Discovery Map](docs/discovery-map.md)
+- [Enforcement & Hygiene](docs/enforcement.md)
+- [Key Principles](docs/principles.md)
+- [Research & References](docs/references.md)
+- [Skill Standard](docs/skill-standard.md)
+- [Contributing](CONTRIBUTING.md)
+
+See [docs/](docs/README.md) for the full documentation index.
+
+## Contributing
+
+Contributions are welcome. Run `npm test` and `npm run prettier` before opening a PR — see [CONTRIBUTING.md](CONTRIBUTING.md) for the full dev setup, smoke tests, and the PR template.
+
+## License
+
+MIT
+
