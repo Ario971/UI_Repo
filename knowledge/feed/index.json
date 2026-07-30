@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T07:36:23.817Z",
+  "updated_at": "2026-07-30T07:26:36.337Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: A local merge queue for parallel Claude Code agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/funador/claude-code-merge-queue",
+      "date": "2026-07-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I have been pushing up to 90 commits a day on a MacBook Air via 4-5 parallel agents. As you can imagine when all the agents try to build, test and run dev servers on an 8GB machine it is the fast lane to a force quit and restart. I also did not want to pay the CI minutes on 90 pushes a day. So I designed a local merge queue to have all commits land one at... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-30/06-show-hn-a-local-merge-queue-for-parallel-claude-code-agents.md"
+    },
+    {
+      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.27191v1",
+      "date": "2026-07-29",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Forecasts of explosive AI progress hinge on AI agents automating AI research. But evidence on whether agents can carry out open-ended AI research is thin. Current evaluations either test agents on narrow, verifiable tasks, which excludes open-ended research, or submit AI-generated papers to blind peer review, which is overstretched, stochastic, and suffer... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/07-can-ai-agents-conduct-open-ended-ai-research-early-evidence-from-two-c.md"
+    },
+    {
+      "title": "Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.27177v1",
+      "date": "2026-07-29",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Effective collaboration with novel and diverse partners is a crucial skill for autonomous agents. Most current ad-hoc teamwork (AHT) approaches assume that agents will collaborate on a single, fixed task and that the partner's capabilities, their ability to successfully execute the desired action, are already known. In reality, a partner's true capabiliti... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/08-partner-capability-estimation-for-task-agnostic-adaptation-in-ad-hoc-t.md"
+    },
+    {
+      "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.26935v1",
+      "date": "2026-07-29",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Bot detectors deployed at scale treat traffic as binary: human or bot. This assumption breaks when AI agents browse the web through browser automation, a traffic class that is neither and that binary classifiers structurally cannot represent. We present a three-class detection framework distinguishing humans, bots, and AI agents, and show that the binary-... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/09-what-does-it-take-to-detect-an-ai-agent-minimal-feature-sets-for-behav.md"
+    },
+    {
+      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "date": "2026-07-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal. I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whos... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/10-show-hn-open-source-engine-running-gemma-4-26b-in-2-gb-ram-on-any-m-se.md"
+    },
+    {
+      "title": "Show HN: RunNburn – Run a 295B Moe from a 98GB GGUF on a 64GB RAM Desktop",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/coderredlab/runNburn",
+      "date": "2026-07-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "runNburn is an Apache-2.0 Rust inference engine for quantized GGUF models that are too big for your fast memory. The core idea: weights stay file-backed (mmap), host residency stays under an explicit byte budget (--ram-budget), and GPU caches are sized from detected free/total VRAM — never from device-name presets. There is no conversion step, no sidecar... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/11-show-hn-runnburn-run-a-295b-moe-from-a-98gb-gguf-on-a-64gb-ram-desktop.md"
+    },
+    {
+      "title": "Show HN: Echologue – the private AI voice journal I built for myself",
+      "source": "Hacker News Show HN",
+      "url": "https://echologue.com/",
+      "date": "2026-07-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I have tried journaling many times but nothing stuck. So I decided to make my own app for myself with these features: * Voice first * Private first * AI chat * Automatic tagging, meaning extraction, and semantic retrieval using embeddings stored locally * Export to LLM the AI angle is especially interesting for me. It allows me to ask questions like: * \"r... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/12-show-hn-echologue-the-private-ai-voice-journal-i-built-for-myself.md"
+    },
+    {
+      "title": "Show HN: Replicant Space – an HTTP API-based game based on the Bobiverse books",
+      "source": "Hacker News Show HN",
+      "url": "https://replicant.space/",
+      "date": "2026-07-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "During Christmas 2025, I found myself burnt out from work. The last few years had been hard, and multiple redundancies saw the company I loved reduce down to just a handful of remaining staff. As a coping mechanism, I kinda disassociated for a while - throwing myself into my personal projects. AI was destroying the passion I had for coding. I tried to fin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/13-show-hn-replicant-space-an-http-api-based-game-based-on-the-bobiverse-.md"
+    },
+    {
+      "title": "\"Uncensored\" LLMs are measurably more optimistic than their base models",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9vwev/uncensored_llms_are_measurably_more_optimistic/",
+      "date": "2026-07-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi. Many people think uncensored models are basically the same model that just doesn't refuse, but... I was recently checking whether uncensored models would give me better answers for stock market predictions (my idea was: the uncensored one will tell you the truth and won't be polite where it shouldn't be). And I noticed that abliteration didn't only re... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-29/14-uncensored-llms-are-measurably-more-optimistic-than-their-base-models.md"
+    },
+    {
+      "title": "Kimi K3 for local use (1.56TB → 594GB) compressed and released by Unsloth",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va6ot2/kimi_k3_for_local_use_156tb_594gb_compressed_and/",
+      "date": "2026-07-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The model was quantized to 8, 4, 2, and 1 bit. Characteristics: Q8 : 8-bit 1.56 TB, lossless Q4 : 4-bit, 1.51 TB Q2 : 2-bit: 861 GB Q1 : 1-bit, 594 GB The smallest Q1 model keeps 78.9% accuracy, while being almost 3 times smaller than the original one. Instruction for running the model is in the model's card submitted by /u/BankApprehensive7612 [link] [co... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-29/15-kimi-k3-for-local-use-1-56tb-594gb-compressed-and-released-by-unsloth.md"
+    },
+    {
+      "title": "Are you guys not scared of where we're heading? A year ago, GPT-5 was considered one of the best models in the world. Today, we have open-weight models like Qwen3.6-27B that are competitive enough to run locally on high-end consumer hardware. The pace of progress is absolutely brutal.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va7nm7/are_you_guys_not_scared_of_where_were_heading_a/",
+      "date": "2026-07-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I think the claims about having Mythos level-model in our laptops in 1-2 years might not be so crazy of a theory submitted by /u/SilverRegion9394 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-29/16-are-you-guys-not-scared-of-where-we-re-heading-a-year-ago-gpt-5-was-co.md"
+    },
+    {
+      "title": "A slide deck you can edit with a local model or in Chrome — the whole deck is a JSON block in one HTML file (~640KB with editor and viewer included)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9vewv/a_slide_deck_you_can_edit_with_a_local_model_or/",
+      "date": "2026-07-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool inclu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-29/17-a-slide-deck-you-can-edit-with-a-local-model-or-in-chrome-the-whole-de.md"
+    },
     {
       "title": "Show HN: Flashpaper – Self-destructing secret sharing with no database",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "The growing complexity of computer networks, driven by cloud-native architectures, heterogeneous devices, and distributed systems, places increasing pressure on network administrators who must simultaneously manage configuration, troubleshooting, and security under tight operational constraints. Large Language Models (LLMs) have emerged as a promising too... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/09-toward-agentic-sysadmin-rethinking-system-administration-with-ai-agent.md"
-    },
-    {
-      "title": "dspachos/awesome-ai-tools",
-      "source": "GitHub Search API",
-      "url": "https://github.com/dspachos/awesome-ai-tools",
-      "date": "2026-06-27",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A curated list of awesome AI tools (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/10-dspachos-awesome-ai-tools.md"
-    },
-    {
-      "title": "Jun 25, 2026 · research Reward hacking is swamping model intelligence gains Naman Jain 7m Naman Jain · 7m",
-      "source": "Cursor Blog",
-      "url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
-      "date": "2026-06-25",
-      "topic": "AI dev tools",
-      "type": "paper",
-      "read": false,
-      "summary": "Jun 25, 2026 · research Reward hacking is swamping model intelligence gains Naman Jain 7m Naman Jain · 7m (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-25/11-jun-25-2026-research-reward-hacking-is-swamping-model-intelligence-gai.md"
-    },
-    {
-      "title": "meta-xucong/alchemy-dev-agent",
-      "source": "GitHub Search API",
-      "url": "https://github.com/meta-xucong/alchemy-dev-agent",
-      "date": "2026-06-27",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "meta-xucong/alchemy-dev-agent Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/12-meta-xucong-alchemy-dev-agent.md"
-    },
-    {
-      "title": "Show HN: Hacker News on a train station-style flip board",
-      "source": "Hacker News Show HN",
-      "url": "https://popflame.quickish.space/hn-flipboard/",
-      "date": "2026-06-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Although the page itself is more just fun to have made and look at (I like the flip sound), the fun part is how I made it to verify the (and I hate to say it) vibe host service I've been working on. The recent flip board back and forth's on Twitter (X) are what inspired me. The idea here is that people (like me or you) can create something neat like this,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/13-show-hn-hacker-news-on-a-train-station-style-flip-board.md"
-    },
-    {
-      "title": "\"What should I do?\" - consider post-training",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugg1dm/what_should_i_do_consider_posttraining/",
-      "date": "2026-06-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This is in response to the common post where OP has acquired some cool hardware and is wondering what to do with it. The standard response is always (1) download model X, (2) benchmark it on tps, (3) share screenshots. I argue this is boring and intellectually lazy, and propose an alternative: post-training. For background: I have been \"post-training-as-a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-26/14-what-should-i-do-consider-post-training.md"
-    },
-    {
-      "title": "Nemotron-3-Super-120B-A12B (hybrid Mamba+MoE) holds perfect needle retrieval to 504K tokens on 4×3090",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugj1sf/nemotron3super120ba12b_hybrid_mambamoe_holds/",
-      "date": "2026-06-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "TLDR: The Mamba/SSM layers keep a constant-size recurrent state instead of a growing KV cache, so context is nearly free. Full needle retrieval at half a million tokens, fully on-GPU, ~71GB. The new imatrix gguf here https://huggingface.co/mradermacher/NVIDIA-Nemotron-3-Super-120B-A12B-BF16-i1-GGUF/resolve/main/NVIDIA-Nemotron-3-Super-120B-A12B-BF16.i1-Q4... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-26/15-nemotron-3-super-120b-a12b-hybrid-mamba-moe-holds-perfect-needle-retri.md"
-    },
-    {
-      "title": "Took the plunge! (Minisforum MS-S1 Max)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugkvrm/took_the_plunge_minisforum_mss1_max/",
-      "date": "2026-06-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "With Apple prices entering the stratosphere, the recent Fable gov't rug pull, and the inevitable closed-model price increases, I decided to pick up a (lightly) used Minisforum MS-S1 Max with 128GB of memory. Comes with a 10-day return and a 3-month warranty. Paid the local equiv of US$2800. Compared to what they sold for originally it's a ridiculous price... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-26/16-took-the-plunge-minisforum-ms-s1-max.md"
-    },
-    {
-      "title": "Ornith-1.0-35B Q3_K_M: ~17 GB VRAM, KLD-checked against BF16",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugqipi/ornith1035b_q3_k_m_17_gb_vram_kldchecked_against/",
-      "date": "2026-06-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I quantized deepreinforce-ai/Ornith-1.0-35B down to Q3_K_M so it fits comfortably on a single GPU. Produced locally with llama-quantize from the upstream BF16 GGUF — the quantizer took it from 16.01 BPW down to 3.87 BPW , landing at 16.8 GB on disk / ~17 GiB loaded VRAM , about 21% smaller than Q4_K_M. It’s the smallest validated quant in the repo and sti... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-27/17-ornith-1-0-35b-q3-k-m-17-gb-vram-kld-checked-against-bf16.md"
-    },
-    {
-      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/inkeep/open-knowledge",
-      "date": "2026-06-25",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, Nick here. We’re launching OpenKnowledge ( https://openknowledge.ai/ ), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and other agents. Available as MacOS app or Web UI+CLI. Fully free/local and OSS. We built this because we wanted a Notion-like experience for writing and sharing markdown files ac... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/06-show-hn-openknowledge-open-source-ai-first-alternative-to-obsidian-not.md"
-    },
-    {
-      "title": "Show HN: Appaca – AI Workspace for Operators",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.appaca.ai/",
-      "date": "2026-06-26",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Appaca is my third pivot. A couple of years ago, I started working on an idea on no-code platform that generates code. The goal is to help devs and agencies ship products faster for their clients. I went through Antler startup accelerator and got initial funding. I was working on the right problem, but wrong solution. Instead of no-code, I should have jum... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/07-show-hn-appaca-ai-workspace-for-operators.md"
-    },
-    {
-      "title": "CHIA: An open-source framework for principled, agentic AI-driven hardware/software co-design research",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.27350v1",
-      "date": "2026-06-25",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Agentic artificial intelligence shows great promise for radically improving the pace of innovation in hardware/software co-design research across computer architecture, systems, compilers, and VLSI. Thus far, however, applications of AI in these contexts have generally been demonstrated in isolated settings on small-scale problems, due to the difficulty o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/08-chia-an-open-source-framework-for-principled-agentic-ai-driven-hardwar.md"
-    },
-    {
-      "title": "Bridging Talk and Thought: Understanding Dialogue Dynamics Across Collaborative Problem-Solving Contexts",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.27233v1",
-      "date": "2026-06-25",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We present a conceptual framework for analyzing dialogue in collaborative problem-solving contexts, with an emphasis on the emerging dynamics of human-AI and multi-agent collaboration. As intelligent systems become active agents capable of autonomous reasoning and strategic cooperation, understanding the dialogic interaction during collaborative problem s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/09-bridging-talk-and-thought-understanding-dialogue-dynamics-across-colla.md"
     }
   ]
 }

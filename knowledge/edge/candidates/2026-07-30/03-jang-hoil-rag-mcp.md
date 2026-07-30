@@ -1,0 +1,305 @@
+---
+id: "jang-hoil/rag-mcp"
+name: "jang-hoil/rag-mcp"
+url: "https://github.com/jang-hoil/rag-mcp"
+date: "2026-07-30"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 98
+momentum: 45
+risk: 35
+integration_effort: 56
+expected_gain: 87
+composite: 72
+replacement_target: ""
+related_articles: [{"title":"yearningss/gamemaker-mcp","date":"2026-07-25","topic":"AI dev tools","similarity":0.33,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/13-yearningss-gamemaker-mcp.md"},{"title":"attestral-labs/attestral","date":"2026-07-18","topic":"AI dev tools","similarity":0.261,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/11-attestral-labs-attestral.md"},{"title":"Llama.cpp now has full MCP support!","date":"2026-07-25","topic":"Local LLMs","similarity":0.239,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/14-llama-cpp-now-has-full-mcp-support.md"}]
+pros: ["Recently updated (2026-07-30)","MIT license","README includes install commands","Matches 3 saved Feed article(s)"]
+cons: ["Integration may take more than a quick install","Repository description is sparse"]
+readme_quality: 78
+has_ci: false
+has_tests: false
+setup_steps_count: 2
+dependency_files: [{"name":"pyproject.toml","summary":"python project; deps name, version, description, requires-python, dependencies, mcp, anyio, qdrant-client"}]
+install_commands: ["Claude: 2026년 공직윤리 실무과정 351쪽에 이렇게 나와 있습니다.","git clone https://github.com/jang-hoil/rag-mcp.git \"RAG MCP\"","uv sync","claude mcp add rag-mcp -- \"C:\\Users\\Owner\\Desktop\\RAG MCP\\.venv\\Scripts\\rag-mcp.exe\" serve"]
+risk_flags: []
+status: "new"
+---
+
+# jang-hoil/rag-mcp
+
+
+
+URL: https://github.com/jang-hoil/rag-mcp
+
+## Why it matters
+You saved an article on 2026-07-25 about AI dev tools; this candidate overlaps with "yearningss/gamemaker-mcp" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-07-30)
++ MIT license
++ README includes install commands
++ Matches 3 saved Feed article(s)
+
+## Cons
+- Integration may take more than a quick install
+- Repository description is sparse
+
+## Repository Inspection
+README quality: 78/100
+CI detected: no
+Tests mentioned: no
+Setup steps estimate: 2
+
+Dependency files:
+- pyproject.toml: python project; deps name, version, description, requires-python, dependencies, mcp, anyio, qdrant-client
+
+Install commands found:
+- Claude: 2026년 공직윤리 실무과정 351쪽에 이렇게 나와 있습니다.
+- git clone https://github.com/jang-hoil/rag-mcp.git "RAG MCP"
+- uv sync
+- claude mcp add rag-mcp -- "C:\Users\Owner\Desktop\RAG MCP\.venv\Scripts\rag-mcp.exe" serve
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# RAG MCP
+
+**지침서 PDF를 내 PC에 넣어두고, Claude에게 말로 물어보면 근거 문단과 페이지를 찾아주는 도구입니다.**
+
+```
+나:     재산등록 의무자 범위 알려줘
+
+Claude: 2026년 공직윤리 실무과정 351쪽에 이렇게 나와 있습니다.
+        "..."
+        (목차 위치: 7. 퇴직공직자 행위제한제도 > 재산등록 > 제2장 신고서관리)
+```
+
+---
+
+## 왜 필요한가
+
+**지침서는 두껍고, Ctrl+F로는 잘 안 찾아집니다.**
+수백 쪽짜리 회계·감사·공직윤리 지침에서 조항을 찾으려면 문서에 적힌 단어를 **정확히 똑같이** 입력해야 합니다. "출장비"로 검색하면 "여비"라고 쓰인 조항은 안 나옵니다. 이 도구는 **뜻이 비슷한 문장까지** 찾습니다.
+
+**챗봇에 PDF를 통째로 올리는 건 한계가 있습니다.**
+분량이 크면 잘리고, 여러 지침을 놓고 비교하기 어렵고, 매번 다시 올려야 합니다. 이 도구는 **한 번 색인해두면** 이후에는 질문만 하면 됩니다.
+
+**문서가 밖으로 나가지 않습니다.**
+색인과 검색이 **전부 내 PC 안에서** 돌아갑니다. API 키가 필요 없고, 모델을 한 번 받은 뒤에는 인터넷도 필요 없습니다. 대외비 지침을 외부 서비스에 올릴 수 없는 환경을 위해 이렇게 만들었습니다.
+
+**답의 근거를 확인할 수 있습니다.**
+몇 쪽인지, 목차 어디에 속하는지 함께 알려줍니다. 원본 페이지를 그림으로 띄워 눈으로 확인할 수도 있습니다.
+
+---
+
+## 무엇을 할 수 있나
+
+| | |
+|---|---|
+| **말로 검색** | "일상경비 한도 찾아줘" — 정확한 단어를 몰라도 됩니다 |
+| **근거 표시** | 몇 쪽인지, 목차 어디인지 함께 나옵니다 |
+| **원본 페이지 보기** | 해당 쪽을 그림으로 띄워 확인합니다 |
+| **표 보존** | 표를 중간에 자르지 않고 통째로 다룹니다 |
+| **문서별 검색** | 지침 하나만 지정해 찾습니다. 다른 문서가 섞이지 않습니다 |
+| **스캔 문서 대응** | 글자가 그림으로 된 페이지는 OCR로 읽습니다 |
+
+---
+
+## 설치 (Windows)
+
+명령을 **한 줄씩** 복사해 실행하세요.
+
+### 1. 도구 3개 설치
+
+새 **cmd 창**을 열고:
+
+```bat
+winget install --id Git.Git -e
+winget install --id Python.Python.3.11 -e
+winget install --id astral-sh.uv -e
+```
+
+> 끝나면 **cmd 창을 닫고 새로 여세요.** 그래야 방금 설치한 명령을 인식합니다.
+
+### 2. 코드 받기
+
+```bat
+cd /d "%USERPROFILE%\Desktop"
+git clone https://github.com/jang-hoil/rag-mcp.git "RAG MCP"
+cd "RAG MCP"
+```
+
+바탕화면에 **`RAG MCP` 폴더가 자동으로 생깁니다.** 미리 만들 필요 없습니다.
+
+### 3. 설치
+
+```bat
+uv sync
+```
+
+이 한 줄이 전부입니다. 처음에는 검색용 모델(약 2GB)을 받느라 몇 분 걸립니다.
+
+### 4. PDF 넣기
+
+받은 폴더 안에 **`pdf` 폴더가 이미 들어 있습니다.** 여기에 지침서를 넣으세요.
+
+```
+RAG MCP\
+├─ pdf\      ← 여기에 PDF를 넣습니다
+├─ data\     ← 색인 결과가 쌓입니다 (자동 생성)
+└─ src\
+```
+
+다른 폴더에 둬도 동작하지만 **여기를 권합니다.** 색인할 때 PDF 경로가 기록되어서, 나중에 파일을 옮기면 재색인과 페이지 보기가 안 됩니다. PDF 파일은 GitHub에 올라가지 않습니다.
+
+### 5. Claude Desktop에 연결
+
+먼저 `uv` 위치를 확인합니다.
+
+```bat
+where uv
+```
+
+Claude Desktop → **Settings → Developer → Edit Config**를 열고 아래를 붙여넣습니다. **경로 두 곳만** 본인 값으로 바꾸세요.
+
+```json
+{
+  "mcpServers": {
+    "rag-mcp": {
+      "command": "여기에 where uv 결과 경로",
+      "args": [
+        "--directory",
+        "여기에 RAG MCP 폴더 경로",
+        "run",
+        "rag-mcp",
+        "serve"
+      ]
+    }
+  }
+}
+```
+
+> **주의:** JSON에서는 `\`를 **두 번** 씁니다.
+> `C:\Users\Owner\Desktop\RAG MCP` → `C:\\Users\\Owner\\Desktop\\RAG MCP`
+
+### 6. Claude Desktop 껐다 켜기 → 끝
+
+완전히 종료한 뒤 다시 실행하고 이렇게 물어보세요.
+
+```
+collection_status 실행해서 상태 확인해줘
+```
+
+<details>
+<summary>Codex · Claude Code에서 쓰려면</summary>
+
+**Codex** — `~/.codex/config.toml`
+
+```toml
+[mcp_servers.rag_mcp]
+command = 'C:\Users\Owner\Desktop\RAG MCP\.venv\Scripts\rag-mcp.exe'
+args = ["serve"]
+startup_timeout_sec = 120
+```
+
+**Claude Code** — 프로젝트 폴더에서
+
+```bat
+claude mcp add rag-mcp -- "C:\Users\Owner\Desktop\RAG MCP\.venv\Scripts\rag-mcp.exe" serve
+```
+
+</details>
+
+---
+
+## 사용하기
+
+### 색인하기
+
+```
+pdf 폴더의 2026년 공직윤리 실무과정.pdf 를 색인해줘
+```
+
+큰 PDF는 시간이 걸립니다. 색인이 시작되면 번호(`job_id`)를 알려주니 진행 상황을 확인합니다.
+
+```
+방금 그 job_id로 진행 상태 확인해줘
+```
+
+### 검색하기
+
+문서를 지정해 물어봅니다.
+
+```
+2026년 공직윤리 실무과정에서 재산등록 의무자 범위를 찾아줘
+```
+
+문서 이름이 기억나지 않으면:
+
+```
+색인된 문서 목록 보여줘
+```
+
+### 원본 페이지 보기
+
+```
+그 문서 351쪽을 이미지로 보여줘
+```
+
+### 삭제하기
+
+```
+이 문서 삭제해줘, confirm=True로
+```
+
+실수를 막기 위해 `confirm=True`를 함께 말해야 실행됩니다.
+
+---
+
+## 어떻게 동작하나
+
+```
+PDF ─► 문단·표 단위로 잘라 저장 ─► 질문 ─► 비슷한 뜻 + 같은 단어 둘 다 검색 ─► 근거 문단
+```
+
+- **두 방식으로 동시에 찾습니다.** 뜻이 비슷한 문장을 찾는 방식과 같은 단어를 찾는 방식을 함께 쓰고 결과를 합칩니다. 한쪽만 쓰면 놓치는 게 생깁니다.
+- **한국어에 맞춰져 있습니다.** 한국어 형태소 분석기(Kiwi)와 한국어 임베딩 모델(KURE)을 씁니다.
+- **문서마다 따로 보관합니다.** 지침 A를 검색할 때 지침 B의 단어 빈도가 영향을 주지 않습니다.
+
+---
+
+## 문제가 생기면
+
+| 증상 | 확인할 것 |
+|---|---|
+| 도구가 안 보임 | Claude Desktop을 **완전히 종료**했다 다시 켰는지 |
+| 경로 오류 | JSON에서 `\`를 두 번 썼는지 |
+| 색인이 안 끝남 | 큰 PDF는 수십 분 걸립니다. `ingest_status`로 확인 |
+| 검색 결과가 이상함 | 문서를 지정했는지 |
+
+더 자세한 내용:
+
+- [운영가이드.md](운영가이드.md) — 환경 변수, 운영 주의사항, 전체 구조, 도구 10개 상세
+- [MCP_연동가이드.md](MCP_연동가이드.md) — 연동 상세와 문제 해결
+
+---
+
+## 요구 사항
+
+| | |
+|---|---|
+| OS | Windows (Linux·macOS도 동작) |
+| Python | 3.11 |
+| 디스크 | 모델 약 2GB + 문서당 수십 MB |
+| 메모리 | 4GB 이상 권장 |
+| 인터넷 | 최초 설치 때만 |
+
+## 라이선스
+
+MIT
+
