@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T07:26:36.337Z",
+  "updated_at": "2026-07-31T07:44:37.023Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: What should the GUI for AI agents look like?",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://marbleos.com/demo",
+      "date": "2026-07-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal commands: C:\\> DIR C:\\> COPY FILE.TXT A: You had to remember the command, synt... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/06-show-hn-what-should-the-gui-for-ai-agents-look-like.md"
+    },
+    {
+      "title": "Show HN: Noisegate – a differential-privacy gateway for untrusted AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/yashmahajan10/llm-differential-privacy-gateway",
+      "date": "2026-07-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Noisegate – a differential-privacy gateway for untrusted AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-30/07-show-hn-noisegate-a-differential-privacy-gateway-for-untrusted-ai-agen.md"
+    },
+    {
+      "title": "Show HN: Supapool – a Supabase per coding agent in ~400 ms",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://supapool.io/",
+      "date": "2026-07-29",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "hi HN, I built supapool.io, an ephemeral full copy of supabase's services that you can spin up in ~400 ms (Auth, postgres, storage, realtime). so if you run multiple coding agents in parallel in different worktrees, they can now have their own copy of supabase without making changes that conflict with eachother. > why not use supabase docker locally? when... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/08-show-hn-supapool-a-supabase-per-coding-agent-in-400-ms.md"
+    },
+    {
+      "title": "Show HN: ResiliReplay - Chaos testing for AI agents and MCP servers",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/aliengineering-byte/resilireplay",
+      "date": "2026-07-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: ResiliReplay - Chaos testing for AI agents and MCP servers (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/09-show-hn-resilireplay-chaos-testing-for-ai-agents-and-mcp-servers.md"
+    },
+    {
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "source": "Hacker News Show HN",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "date": "2026-07-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. With V4 as the teacher though, we realized it would be time... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/10-show-hn-distilling-deepseek-into-gpt-oss-doesn-t-transfer-censorship-t.md"
+    },
+    {
+      "title": "Show HN: Optimize and serve models with Fable quality at half the cost",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/experientiallabs/world-model-optimizer",
+      "date": "2026-07-26",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, we built world-model-optimizer, an open source tool to continually improve a specialized model for an agent. It does this by simulating production tool responses through text world modeling (similar to QwenAgentWorld, summary here https://x.com/silennai/status/2073887455884058814 ). We can then use this to train a router for frontier, OS, and local... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/11-show-hn-optimize-and-serve-models-with-fable-quality-at-half-the-cost.md"
+    },
+    {
+      "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/hamzarehmandeveloper/claude-account",
+      "date": "2026-07-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I use separate Claude Code accounts for work and personal projects. Having to log out and go through the login flow every time I switched accounts became annoying, so I built a small CLI to solve it. The commands are intentionally simple: claude account add myworkaccount claude account add mypersonalaccount claude account use myworkaccount claude account... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
+    },
+    {
+      "title": "Show HN: Widen – Open-source Mac Postgres GUI with local or cloud text-to-SQL",
+      "source": "Hacker News Show HN",
+      "url": "https://widen.dev/",
+      "date": "2026-07-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Github: https://github.com/betocmn/widen I was paying for DataGrip for several years as my desktop database GUI but if I wanted text-to-SQL with LLMs I'd have to pay even more on top. So I decided to build my own and I've been using it for a few weeks now. At any time I'm usually working with 3 to 6 databases, and having them set up in something like Cond... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-31/13-show-hn-widen-open-source-mac-postgres-gui-with-local-or-cloud-text-to.md"
+    },
+    {
+      "title": "Software Engineers: Do you honestly get anything useful out of LLMs?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vavh2h/software_engineers_do_you_honestly_get_anything/",
+      "date": "2026-07-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For 6 months now I've been trying to make agentic coding work for me, using Pi and a handful 30-120B models (Qwens, Nemotrons, Leguna...etc). I'm not greedy either, I stick to decent quants, never quantize kv cache, and keep my sessions up to 90k max. But the results have ALWAYS been disappointing. No matter how much you harness the model or bombard it wi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-30/14-software-engineers-do-you-honestly-get-anything-useful-out-of-llms.md"
+    },
+    {
+      "title": "My second Inspur AGX-2 with another x8 v100 arrived!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbft9q/my_second_inspur_agx2_with_another_x8_v100_arrived/",
+      "date": "2026-07-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So now full 512gb of vram, I think I will need to get a third one soon seeing that llms keep getting absurdly huge! submitted by /u/UltraFOV [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-31/15-my-second-inspur-agx-2-with-another-x8-v100-arrived.md"
+    },
+    {
+      "title": "What actually happened to the whole Openclaw frenzy?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vb8d2v/what_actually_happened_to_the_whole_openclaw/",
+      "date": "2026-07-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "A while back you couldn't open reddit or youtube without sifting through tons of Openclaw content. And it wasn't just the internet that blew up, I remember seeing images from China where crowds would gather in the streets to get their instance set up by their local homelabber. Heck, even Nvidia jumped on the bandwaggon releasing some sort of enterprise ve... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-30/16-what-actually-happened-to-the-whole-openclaw-frenzy.md"
+    },
+    {
+      "title": "Open Source Ternary LLM Engine in Rust/CUDA for Quantization, Serving, and Training of models on consumer GPUs, called Tritium (Apache 2.0)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbf0nt/open_source_ternary_llm_engine_in_rustcuda_for/",
+      "date": "2026-07-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This post was not written by a clanker. Hey guys, I'm a comp sci major who wanted to introduce a cool project I built for quantizing models to ternary (1.58 bit) with as minimal of loss as possible, a process that can provide even more than 10x reductions in VRAM usage and much faster inference speed, disk space, and more. There is a disclaimer, in that a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-31/17-open-source-ternary-llm-engine-in-rust-cuda-for-quantization-serving-a.md"
+    },
     {
       "title": "Show HN: A local merge queue for parallel Claude Code agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I started this project back in 2015, to translate the TeX original specification into an easily parsed format (s-doc), and to create an HTML rendering of that format as a proof of concept. The project is homed here: https://codeberg.org/dlowe/metaspectre/ Differences from the Hyperspec (from the README): - Most importantly, it is free to modify and distri... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-24/09-show-hn-metaspec-the-dpans3r-common-lisp-spec-in-s-expr-and-html-forma.md"
-    },
-    {
-      "title": "Show HN: Engye – transfer files between any two devices by scanning a QR code",
-      "source": "Hacker News Show HN",
-      "url": "https://engye.fuzzyworld.net/",
-      "date": "2026-06-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Early in April I needed to print some tax forms at the library, first time in forever, and I began to wonder: what's the easiest way to get a file onto a public computer? There are many ways, but most of them involve creating an account somewhere or plugging in a thumb-drive. I use a password manager, so my passwords are long and complicated, not easily t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-28/10-show-hn-engye-transfer-files-between-any-two-devices-by-scanning-a-qr-.md"
-    },
-    {
-      "title": "Show HN: KV-psi, using Linux PSI to to trim an LLM KV cache",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/infiniteregrets/kv-psi",
-      "date": "2026-06-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I thought it'd be interesting to use Linux PSI (Pressure Stall Information) for an LLM runtime to trim the KV cache. This is mainly useful imo for edge devices like the Jetson Orin super nano kit which have unified memory. I haven't benched much, but plan to do so more over time and see if I can make a real use of it as I run local LLMs. Let me know if it... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/11-show-hn-kv-psi-using-linux-psi-to-to-trim-an-llm-kv-cache.md"
-    },
-    {
-      "title": "velnori/memlink",
-      "source": "GitHub Search API",
-      "url": "https://github.com/velnori/memlink",
-      "date": "2026-06-28",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI Memory Interchange Layer — bridge AI memory formats, like Pandoc for memories (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-28/12-velnori-memlink.md"
-    },
-    {
-      "title": "swarm-ai-research/aeon",
-      "source": "GitHub Search API",
-      "url": "https://github.com/swarm-ai-research/aeon",
-      "date": "2026-06-28",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Public-facing snapshot of aeon (sanitized — no operational state) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-28/13-swarm-ai-research-aeon.md"
-    },
-    {
-      "title": "b9829",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9829",
-      "date": "2026-06-28",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "logs : reduce v2 (#25078) * server : reduce logs * cont : common * cont : spec * cont : CMN_ -> COM_ **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9829/llama-b9829-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) -... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-28/14-b9829.md"
-    },
-    {
-      "title": "b9828",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9828",
-      "date": "2026-06-27",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "opencl: flash attention improvement (#25069) * opencl: rework FA kernel for f16 and f32 * opencl: flash-attention prefill prepass kernels - flash_attn_kv_pad_f16 pads the tail KV tile to a BLOCK_N multiple - flash_attn_mask_pad_f16 pads the matching mask tile - flash_attn_blk_f16 classifies each KV tile per query block as fully masked / mixed / fully unma... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-27/15-b9828.md"
-    },
-    {
-      "title": "b9827",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9827",
-      "date": "2026-06-27",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "[CUDA] Added a cudaMemcpy2DAsync fast path to ggml_cuda_cpy (#25057) * [CUDA] Added a cudaMemcpy2DAsync fast path to ggml_cuda_cpy Add a CUDA ggml_cpy fast path for same-type, same-shape strided copies that are just 2D pitched block copies. When tensors are not fully contiguous but each row is contiguous, it now uses cudaMemcpy2DAsync instead of the slow... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-27/16-b9827.md"
-    },
-    {
-      "title": "b9826",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9826",
-      "date": "2026-06-27",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "sycl : fix failed ut cases of norm (#25044) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9826/llama-b9826-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.cpp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-27/17-b9826.md"
-    },
-    {
-      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/workweave/router",
-      "date": "2026-06-26",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here's a quick demo of running it locally: https://www.youtube.com/watch?v=isKhAyivtfM . At Weave, we write most of our code with AI, and it's been getting more expensive. This came to a head when... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-show-hn-smart-model-routing-directly-in-claude-codex-and-cursor.md"
-    },
-    {
-      "title": "Show HN: TBD, a Mac-native CLI-forward coding agent multiplexer",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/cheapsteak/tbd",
-      "date": "2026-06-26",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Inspired by Conductor, dmux, claude-squad, agent-deck, and Git Tower ## What makes it different: (Aside from GUI) A core tenet is -- everything a user can do manually, must be exposed via CLI for agents/automation Best paired with something that lets agents in different worktrees talk to each other (e.g. https://github.com/cheapsteak/agent-channels ) ## B... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/07-show-hn-tbd-a-mac-native-cli-forward-coding-agent-multiplexer.md"
-    },
-    {
-      "title": "The Spec Growth Engine: Spec-Anchored, Code-Coupled, Drift-Enforced Architecture for AI-Assisted Software Development",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.27045v1",
-      "date": "2026-06-25",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI coding agents dramatically accelerate implementation speed but introduce two structural failure modes that existing spec-driven approaches do not fully solve: (1) context explosion -- the agent must reason over an entire repository at once, degrading output quality as the context window fills; and (2) silent spec-code drift -- code evolves, the specifi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/08-the-spec-growth-engine-spec-anchored-code-coupled-drift-enforced-archi.md"
-    },
-    {
-      "title": "Toward Agentic SysAdmin: Rethinking System Administration with AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.26960v1",
-      "date": "2026-06-25",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The growing complexity of computer networks, driven by cloud-native architectures, heterogeneous devices, and distributed systems, places increasing pressure on network administrators who must simultaneously manage configuration, troubleshooting, and security under tight operational constraints. Large Language Models (LLMs) have emerged as a promising too... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/09-toward-agentic-sysadmin-rethinking-system-administration-with-ai-agent.md"
     }
   ]
 }

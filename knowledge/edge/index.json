@@ -1,10 +1,223 @@
 {
-  "last_checked_at": "2026-07-30T07:27:08.264Z",
+  "last_checked_at": "2026-07-31T07:45:00.404Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "vivekchand/clawmetry",
+      "name": "vivekchand/clawmetry",
+      "url": "https://github.com/vivekchand/clawmetry",
+      "date": "2026-07-31",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 98,
+      "risk": 56,
+      "integration_effort": 60,
+      "expected_gain": 77,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
+          "date": "2026-06-26",
+          "topic": "AI agents",
+          "similarity": 0.295,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
+        },
+        {
+          "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+          "date": "2026-07-23",
+          "topic": "AI agents",
+          "similarity": 0.282,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/07-show-hn-onecli-oss-credential-gateway-that-keeps-secrets-out-of-ai-age.md"
+        },
+        {
+          "title": "Show HN: Reverse-engineering web apps into agent tools",
+          "date": "2026-07-09",
+          "topic": "AI agents",
+          "similarity": 0.273,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-31)",
+        "MIT license",
+        "393 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 6,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts deploy, deploy:landing"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps flask>=3.1.3,<4, duckdb>=1.5.5  # local event store (epic #964 phase 1), pytest>=9.1.1, pytest-playwright>=0.8.0, requests>=2.34.2"
+        }
+      ],
+      "install_commands": [
+        "pip install clawmetry && clawmetry",
+        "pip install clawmetry",
+        "git clone https://github.com/vivekchand/clawmetry.git",
+        "npm ci",
+        "npm run dev",
+        "npm run build"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-26 about AI agents; this candidate overlaps with \"Agent-Native Immune System: Architecture, Taxonomy, and Engineering\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-31/01-vivekchand-clawmetry.md"
+    },
+    {
+      "id": "kabutojira/papertrader",
+      "name": "Kabutojira/PaperTrader",
+      "url": "https://github.com/Kabutojira/PaperTrader",
+      "date": "2026-07-31",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 40,
+      "expected_gain": 77,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: ResiliReplay - Chaos testing for AI agents and MCP servers",
+          "date": "2026-07-31",
+          "topic": "AI agents",
+          "similarity": 0.288,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/09-show-hn-resilireplay-chaos-testing-for-ai-agents-and-mcp-servers.md"
+        },
+        {
+          "title": "yearningss/gamemaker-mcp",
+          "date": "2026-07-25",
+          "topic": "AI dev tools",
+          "similarity": 0.235,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/13-yearningss-gamemaker-mcp.md"
+        },
+        {
+          "title": "attestral-labs/attestral",
+          "date": "2026-07-18",
+          "topic": "AI dev tools",
+          "similarity": 0.227,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/11-attestral-labs-attestral.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-31)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
+        }
+      ],
+      "install_commands": [
+        "uv sync --locked --all-groups",
+        "uv run papertrader daily prepare \\",
+        "uv run papertrader agent harness start \\",
+        "uv run papertrader agent harness finish \\",
+        "uv run papertrader daily finalize \\",
+        "uv run papertrader queue enqueue \\"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-31 about AI agents; this candidate overlaps with \"Show HN: ResiliReplay - Chaos testing for AI agents and MCP servers\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-31/02-kabutojira-papertrader.md"
+    },
+    {
+      "id": "thevoidorange/codex-pet-studio",
+      "name": "thevoidorange/codex-pet-studio",
+      "url": "https://github.com/thevoidorange/codex-pet-studio",
+      "date": "2026-07-31",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 79,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 28,
+      "expected_gain": 77,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Kuberwastaken/VPSmaxxing",
+          "date": "2026-06-30",
+          "topic": "AI dev tools",
+          "similarity": 0.309,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
+        },
+        {
+          "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex",
+          "date": "2026-07-09",
+          "topic": "AI dev tools",
+          "similarity": 0.212,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/10-show-hn-policy-enforcement-for-claude-code-cursor-and-codex.md"
+        },
+        {
+          "title": "Show HN: Pull Claude Code transcripts into your Codex session, and vice versa",
+          "date": "2026-07-03",
+          "topic": "AI dev tools",
+          "similarity": 0.211,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-03/11-show-hn-pull-claude-code-transcripts-into-your-codex-session-and-vice-.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-07-31)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions credentials or API tokens",
+        "Repository description is sparse"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-31/03-thevoidorange-codex-pet-studio.md"
+    },
     {
       "id": "hoangp8/tokless",
       "name": "HoangP8/tokless",
