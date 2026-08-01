@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T07:44:37.023Z",
+  "updated_at": "2026-08-01T07:22:43.301Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: How to build and self-host a code review agent",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
+      "date": "2026-07-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I've had a side-project that I've slowly ticked away at over the last year called Tilde. Tilde is a harness SDK platform - I've tried to take the best things of OpenClaw, Hermes & other harnesses and decompose them and make them available as cloud API building blocks. You can use Tilde to create AI agents for your use case, fast and self-host the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/06-show-hn-how-to-build-and-self-host-a-code-review-agent.md"
+    },
+    {
+      "title": "Show HN: The Goal is simple, there should be an actual free editor",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://sylixide.com",
+      "date": "2026-07-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I'm Saai, one of the creators of Sylix. I made this open-minded version of Cursor where you can get all of the core features of Cursor but in a fully customizable IDE (Ctrl+K, @docs, parallel agents). We love Cursor so much, but there are so many other features we're building, including all things like multi-edit, parallel swaps, agent indexing (b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/07-show-hn-the-goal-is-simple-there-should-be-an-actual-free-editor.md"
+    },
+    {
+      "title": "Show HN: GAI – A Go runtime for typed, tool-using LLM agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/lace-ai/gai",
+      "date": "2026-07-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: GAI – A Go runtime for typed, tool-using LLM agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/08-show-hn-gai-a-go-runtime-for-typed-tool-using-llm-agents.md"
+    },
+    {
+      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.28618v1",
+      "date": "2026-07-30",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemble cross-paper answers manually. We present AskChem, a cl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-30/09-askchem-claim-centered-infrastructure-for-chemistry-literature-synthes.md"
+    },
+    {
+      "title": "Show HN: SmokeVPN – All-in-One WireGuard VPN Hub – Switch Exits in Realtime",
+      "source": "Hacker News Show HN",
+      "url": "https://smokevpn.com",
+      "date": "2026-08-01",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I have started developing a prototype of a WireGuard VPN hub, where I could set a custom exit to a specific device, for example, my TV box would use a VPN in Germany, while my desktop a VPN is Serbia and I could switch the exit in realtime without having to stop the VPN connections and consequently no disconnections (ssh, etc). The project grew, and I end... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-01/10-show-hn-smokevpn-all-in-one-wireguard-vpn-hub-switch-exits-in-realtime.md"
+    },
+    {
+      "title": "Show HN: Slope remade in HTML5 to load instantly on any browser, any device",
+      "source": "Hacker News Show HN",
+      "url": "https://hurtle.site/",
+      "date": "2026-07-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "A whole free daily game served in under 100kb with no ads, lags or logins. The URL will serve a new track every day, forever. And I've added setting sliders so players have full control over their experience. Would love to know your thoughts guys. This was just me working with Claude Opus 5. Cheers, Nathan (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-31/11-show-hn-slope-remade-in-html5-to-load-instantly-on-any-browser-any-dev.md"
+    },
+    {
+      "title": "Show HN: I built a cross-browser extension that controls fingerprinting surfaces",
+      "source": "Hacker News Show HN",
+      "url": "https://privacything.com/en/",
+      "date": "2026-07-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello Hacker News! I’m Tomasz, creator of Privacy Thing, a browser extension for Firefox and Chromium-based browsers. I’ve just released its Preview version. Privacy Thing aims to reduce browser fingerprinting—the tracking of users without cookies. It began as an internal project: a simple location simulator. Over time, I expanded it to cover more fingerp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-31/12-show-hn-i-built-a-cross-browser-extension-that-controls-fingerprinting.md"
+    },
+    {
+      "title": "IanOliverU/Project-Akiha",
+      "source": "GitHub Search API",
+      "url": "https://github.com/IanOliverU/Project-Akiha",
+      "date": "2026-08-01",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI desktop companion combining a desktop pet, AI assistant, and virtual companion into one modular application. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-01/13-ianoliveru-project-akiha.md"
+    },
+    {
+      "title": "What is the point of the funny tag in this sub if you can't even post a damn meme????",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcdprx/what_is_the_point_of_the_funny_tag_in_this_sub_if/",
+      "date": "2026-08-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I'm constantly bombarded by non-local LLMs in this sub but god forbid I post a local model meme. submitted by /u/fragment_me [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-01/14-what-is-the-point-of-the-funny-tag-in-this-sub-if-you-can-t-even-post-.md"
+    },
+    {
+      "title": "Rule Suggestion: \"Open\" models without weight releases should be tagged [no weights]",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbpi44/rule_suggestion_open_models_without_weight/",
+      "date": "2026-07-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "A lot of recent models are being announced with promised open weights, but the weights are either weeks away, or in some cases (looking at you Meta) not being released at all. This sub is about local LLMs - not \"maybe local in the future\" llms. These models are still useful to post, but I'm kind of sick of having to click through posts like this to find o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-31/15-rule-suggestion-open-models-without-weight-releases-should-be-tagged-n.md"
+    },
+    {
+      "title": "[audio.cpp] Release 0.5: DramaBox expressive TTS, Confucius4 cross-lingual voice transfer, plus 7 more models and ROCm/HIP",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vc8lpl/audiocpp_release_05_dramabox_expressive_tts/",
+      "date": "2026-08-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "audio.cpp 0.5 is out :) The most fun new model in 0.5 is DramaBox . It is closer to prompt-directed voice acting. DramaBox is built on the LTX-2.3 audio architecture, and prompts can control emotion, delivery, laughs, sighs, pauses, transitions, and speaker behavior. Example input (check the audio in the post): A nervous young man whispers, \"I do not thin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-01/16-audio-cpp-release-0-5-dramabox-expressive-tts-confucius4-cross-lingual.md"
+    },
+    {
+      "title": "With release of Deepseek V4 I wanted see how the model sizes are trending over time. The trend is that by this time next year, we probably will have Opus 4.5 level models on consumer grade laptops!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbzicu/with_release_of_deepseek_v4_i_wanted_see_how_the/",
+      "date": "2026-07-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I was surprised to see that Deepseek V4 Flash is extremely smart and small enough to fit in setup that can be built with I am not an expert in LLMs and I am sure there are physical limitations to small models. But I also don't know how far we are from reaching the limits - maybe the small models have a long way to go before being saturated. I am hoping th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-31/17-with-release-of-deepseek-v4-i-wanted-see-how-the-model-sizes-are-trend.md"
+    },
     {
       "title": "Show HN: What should the GUI for AI agents look like?",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal. I created it because I wanted something simple that worked without installing Python, Node, or any other runtime. It uses only Bash, curl, and jq. You can send prompts, start a small chat, process files line by line, stream output, and save session metadata in JSON format.... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-28/09-show-hn-bash4llm-a-lightweight-dependency-free-bash-wrapper-for-llm-ap.md"
-    },
-    {
-      "title": "LMCF-IMG/Development_tools_for_AI_classification_in_reproductive_biology",
-      "source": "GitHub Search API",
-      "url": "https://github.com/LMCF-IMG/Development_tools_for_AI_classification_in_reproductive_biology",
-      "date": "2026-06-29",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "LMCF-IMG/Development_tools_for_AI_classification_in_reproductive_biology Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-29/10-lmcf-img-development-tools-for-ai-classification-in-reproductive-biolo.md"
-    },
-    {
-      "title": "isla4ever/design-lens",
-      "source": "GitHub Search API",
-      "url": "https://github.com/isla4ever/design-lens",
-      "date": "2026-06-29",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "把优秀网站转成 AI 可用设计参考包，采集布局、Token、动效、交互证据与实现指南。 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-29/11-isla4ever-design-lens.md"
-    },
-    {
-      "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/JustVugg/nanoeuler",
-      "date": "2026-06-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic. The two interesting reasons that led me to create nanoeuler were (1) interfacing with llm does not mean understanding how they are composed and (2), working on llm with a very low-level layer to understand t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-28/12-show-hn-nanoeuler-gpt-2-scale-model-in-pure-c-cuda-from-scratch.md"
-    },
-    {
-      "title": "Show HN: wavecat – a fully local personal agent that watches your screen",
-      "source": "Hacker News Show HN",
-      "url": "https://wavecat.ai/",
-      "date": "2026-06-29",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "wavecat is a fully local personal agent that watches your screen. It develops a rich understanding of your needs and goals by constantly viewing your activity. Don't worry, none of your personal data ever leaves your computer since all the models run locally. I think it's something cool to show a feature that local agent systems can do that cloud systems... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-29/13-show-hn-wavecat-a-fully-local-personal-agent-that-watches-your-screen.md"
-    },
-    {
-      "title": "b9838",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9838",
-      "date": "2026-06-29",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "common : remove unused regex-partial (#25118) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9838/llama-b9838-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/ggml-org/llama.c... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-29/14-b9838.md"
-    },
-    {
-      "title": "b9837",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9837",
-      "date": "2026-06-29",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "jinja, chat: add --reasoning-preserve flag (#25105) * jinja, chat: add --reasoning-preserve flag * correct help message **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9837/llama-b9837-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-29/15-b9837.md"
-    },
-    {
-      "title": "b9835",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9835",
-      "date": "2026-06-28",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ui: fix stop and reasoning skip in single-model mode (#25084) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9835/llama-b9835-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.com/... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-28/16-b9835.md"
-    },
-    {
-      "title": "b9833",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9833",
-      "date": "2026-06-28",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "chat : implement minicpm5 parser (#24889) * Add minicpm5 tool call parser * Refactor MiniCPM5 PEG parser per review feedback * Fix jinja min/max API to match Jinja2 * modify by review * MiniCPM5: use autoparser for XML tool calls and fix grammar preserved-token triggers * MiniCPM5: fix streaming tool-arg placeholder and remove alt XML markers * skip min/m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-28/17-b9833.md"
-    },
-    {
-      "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/kageroumado/adrafinil",
-      "date": "2026-06-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "A month ago there was a wave of posts and tweets about engineers walking around cafes and parks with their MacBooks propped half-open, as fully closing the lid forces sleep that stops their AI agents. Some people made snarky comments about using tmux or Amphetamine, and some defended their choice with “but I only need it sometimes, and forgetting to disab... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-27/06-show-hn-adrafinil-keep-a-lid-closed-mac-awake-only-while-agents-work.md"
-    },
-    {
-      "title": "Skip to main content",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news#main-content",
-      "date": "2026-06-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Skip to main content (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-28/07-skip-to-main-content.md"
-    },
-    {
-      "title": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://decomp-academy.dev",
-      "date": "2026-06-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Over the past few months I've been heavily involved in the decompilation community. I've been hands-on decompiling a beloved game from my childhood (Star Fox Adventures). I started this journey with zero prior decomp experience—and to make things worse I had never really touched C nor assembly either. Learning how to decompile was challenging. It's diffic... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-28/08-show-hn-decomp-academy-learn-to-decompile-gamecube-games-into-matching.md"
-    },
-    {
-      "title": "Show HN: Metaspec: The DpANS3R Common Lisp Spec in S-Expr and HTML Format",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://metaspec.dev/#",
-      "date": "2026-06-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I started this project back in 2015, to translate the TeX original specification into an easily parsed format (s-doc), and to create an HTML rendering of that format as a proof of concept. The project is homed here: https://codeberg.org/dlowe/metaspectre/ Differences from the Hyperspec (from the README): - Most importantly, it is free to modify and distri... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-24/09-show-hn-metaspec-the-dpans3r-common-lisp-spec-in-s-expr-and-html-forma.md"
     }
   ]
 }
