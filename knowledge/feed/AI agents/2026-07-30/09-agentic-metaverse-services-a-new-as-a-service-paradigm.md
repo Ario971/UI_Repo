@@ -1,0 +1,12 @@
+---
+title: "Agentic Metaverse Services: A New As-a-Service Paradigm"
+source: "arXiv cs.AI/cs.CL/cs.LG"
+url: "https://arxiv.org/abs/2607.28242v1"
+date: "2026-07-30"
+topic: "AI agents"
+type: "paper"
+read: false
+summary: "Generative Artificial Intelligence (GenAI) is reconstructing the digital virtual world, upgrading agents through enhancing their abilities in autonomous learning, multi-modal interaction, content generation, and collaborative decision-making. In particular, the shift from conversational chatbots to agentic AI, the most recent significant technical breakth... (Local summary fallback used.)"
+---
+
+Generative Artificial Intelligence (GenAI) is reconstructing the digital virtual world, upgrading agents through enhancing their abilities in autonomous learning, multi-modal interaction, content generation, and collaborative decision-making. In particular, the shift from conversational chatbots to agentic AI, the most recent significant technical breakthrough of GenAI, has brought a new form of services, agentic services and Agent-as-a-Service (AaaS), in which the agent's abilities are encapsulated, such as perception, decision-making, execution, collaboration, and content generation, to provide the customized agent services to users. The metaverse is a virtual ecosystem for human life, work, creation, and entertainment, supported by the new generation of digital technologies. Through combining agentic services and the metaverse, an Agentic Metaverse Service, denoted as AMServ, is produced for metaverse business processing, as a new form of metaverse service. The AaaS in the metaverse environment, denoted as Meta-AaaS, as an approach to realize AMServ, has become a new paradigm of agentic services and service computing. This paper overviews the evolution and new features of agents and services empowered by GenAI, reveals the roles and principles of agentic services in the metaverse environment, presents the forms, characteristics, and principles of the AMServ and the Meta-AaaS, discusses the typical application examples of the AMServ and the Meta-AaaS, and finally points out the new tendencies and research directions of the AMServ and the Meta-AaaS. The AMServ and the Meta-AaaS will bring great opportunities to human society and services in the AI era, and promote the rapid development of emerging service industries in the future.

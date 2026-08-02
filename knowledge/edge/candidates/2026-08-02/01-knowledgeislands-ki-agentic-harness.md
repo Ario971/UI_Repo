@@ -1,0 +1,113 @@
+---
+id: "knowledgeislands/ki-agentic-harness"
+name: "knowledgeislands/ki-agentic-harness"
+url: "https://github.com/knowledgeislands/ki-agentic-harness"
+date: "2026-08-02"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 92
+momentum: 45
+risk: 24
+integration_effort: 36
+expected_gain: 81
+composite: 74
+replacement_target: ""
+related_articles: [{"title":"Show HN: ResiliReplay - Chaos testing for AI agents and MCP servers","date":"2026-07-31","topic":"AI agents","similarity":0.309,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/09-show-hn-resilireplay-chaos-testing-for-ai-agents-and-mcp-servers.md"},{"title":"Distributing Security Controls Through Harness Engineering","date":"2026-07-28","topic":"AI agents","similarity":0.29,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/09-distributing-security-controls-through-harness-engineering.md"},{"title":"The Context Access Divide: Interaction-Level Architecture as a Complementary Dimension of Agentic Inequality","date":"2026-07-09","topic":"AI agents","similarity":0.267,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-the-context-access-divide-interaction-level-architecture-as-a-compleme.md"}]
+pros: ["Recently updated (2026-08-02)","MIT license","GitHub Actions/CI detected","README mentions tests or validation"]
+cons: ["No clear install command found in README"]
+readme_quality: 70
+has_ci: true
+has_tests: true
+setup_steps_count: 0
+dependency_files: [{"name":"package.json","summary":"deps @biomejs/biome, @types/bun, @types/node, husky, knip, lint-staged, markdownlint-cli2, prettier; scripts clean, ki:binding:build-plugin, ki:deps:update, ki:eval, prepare, test"}]
+install_commands: []
+risk_flags: []
+status: "new"
+---
+
+# knowledgeislands/ki-agentic-harness
+
+Knowledge Islands agentic harness — canonical home for Agent Skills, Agents, MCP servers, and Evals across the Knowledge Islands ecosystem.
+
+URL: https://github.com/knowledgeislands/ki-agentic-harness
+
+## Why it matters
+You saved an article on 2026-07-31 about AI agents; this candidate overlaps with "Show HN: ResiliReplay - Chaos testing for AI agents and MCP servers" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-08-02)
++ MIT license
++ GitHub Actions/CI detected
++ README mentions tests or validation
+
+## Cons
+- No clear install command found in README
+
+## Repository Inspection
+README quality: 70/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 0
+
+Dependency files:
+- package.json: deps @biomejs/biome, @types/bun, @types/node, husky, knip, lint-staged, markdownlint-cli2, prettier; scripts clean, ki:binding:build-plugin, ki:deps:update, ki:eval, prepare, test
+
+Install commands found:
+- none detected
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# ki-agentic-harness
+
+The **agentic harness** for Knowledge Islands work — the canonical home for what an agent is equipped with here, kept in one place so the whole set can be versioned, reviewed, and installed together rather than scattered across the bases and projects that use it.
+
+## Place in the Knowledge Islands ecosystem
+
+The harness is the canonical source for reusable Knowledge Islands agentic capabilities. It generalises patterns proven in [Arcadia Principal](https://github.com/knowledgeislands/ki-arcadia-principal) into compatible harnesses, skills, agents, MCP wrappers, evals, and hooks; it does not originate the Knowledge Islands philosophy or model, or implement the public CLI. [tools-ki](https://github.com/knowledgeislands/tools-ki) supplies the `ki` executable platform that installs and hosts those capabilities. Implementation evidence from both repositories helps [KI Specifications](https://github.com/knowledgeislands/ki-specifications) formalise portable contracts, and applicable Active specifications constrain implementations that claim conformance.
+
+The [KI Website](https://github.com/knowledgeislands/ki-website) may vendor source-labelled harness documentation for public publication, while this repository remains canonical for the capability artifacts it publishes. The mirrored [ecosystem decision](docs/decisions/GDR-KI-FUNDAMENTALS-001-knowledge-islands-ecosystem-fundamentals.md) defines the five authorities and publication flows.
+
+A harness is **five parts** — the things an agent is given to work with:
+
+- **Skills** ([`skills/`](skills)) — reusable [Agent Skills](https://agentskills.io/specification): the most-built-out part of the harness today, all governance skills — including `ki-harness`, which governs this five-part container itself, and `ki-bootstrap`, which explains first-time activation through the CLI. What a skill is and the map of the set are in [Skills](https://knowledgeislands.info/guidance/skills/); the per-skill catalogue is in the [Skill catalogue](https://knowledgeislands.info/guidance/skills/catalogue/).
+- **Agents** ([`subagents/`](subagents)) — Knowledge Islands [Claude Code subagents](https://code.claude.com/docs/en/sub-agents), one per file. Governance agents live under `subagents/governance/`, governed by the `ki-subagents` skill. See [`subagents/README.md`](subagents/README.md).
+- **MCP servers** ([`mcp/`](mcp)) — where KI's MCP servers would consolidate as workspace packages. An empty **shelf** today; they currently live as separate `mcp-*` repos, governed by the `ki-mcp` skill. See [`mcp/README.md`](mcp/README.md).
+- **Evals** ([`evals/`](evals)) — a behavioural test suite that checks a skill actually _changes what the model does_, not just that its `SKILL.md` is well-formed. A rough signal, not a gate. See [`evals/README.md`](evals/README.md).
+- **Hooks** ([`hooks/`](hooks)) — durable global Claude Code hook payloads for Plan Mode lifecycle and stale Git-lock recovery; a user-environment manager binds them into settings separately. See [`hooks/README.md`](hooks/README.md).
+
+All five parts are first-class; skills are simply the most built-out, with agents, the eval suite, and hooks now populated and `mcp/` still an empty shelf. A skill does not have to be wedded to Knowledge Islands — the repository layout and delivery conventions apply to every kind equally.
+
+## Get started
+
+```bash
+brew install knowledgeislands/tap/ki
+ki bootstrap
+```
+
+`ki bootstrap` configures detected agent runtimes, installs the verified canonical harness, and activates the core user skills. Repository governance remains explicit through `.ki-config.toml`, `ki skill repo`, and the native `ki repo` operations. [Install and get started](https://knowledgeislands.info/guidance/using-ki/getting-started/) covers the complete flow; [Use skills](https://knowledgeislands.info/guidance/using-ki/using-skills/) explains how to work with the resulting skills. Harness contributors should see [local skill linking](docs/guides/developer/linking-skills.md).
+
+## Documentation
+
+- [Overview](https://knowledgeislands.info/guidance/using-ki/) — a short account of what the harness is, what it does for its owner, and how the parts fit.
+- [Install and get started](https://knowledgeislands.info/guidance/using-ki/getting-started/) — install `ki`, bootstrap the user environment, activate skills, and govern a repository.
+- [Use skills](https://knowledgeislands.info/guidance/using-ki/using-skills/) — how a skill fires from a plain-language request or slash command.
+- [Skills](https://knowledgeislands.info/guidance/skills/) — what a skill is, the domain map of the set and its interdependencies, and the shared governance-skill shape.
+- [Skill catalogue](https://knowledgeislands.info/guidance/skills/catalogue/) — every skill, one by one, grouped by domain: what each governs and when to reach for it.
+- [Onboarding reference](https://knowledgeislands.info/guidance/using-ki/onboarding/) — the detailed installed-harness, activation, native-governance, and legacy-retirement boundaries.
+- [Command-line interface](https://knowledgeislands.info/guidance/using-ki/command-line-interface/) — the current end-user `ki` command surface and scope boundaries.
+- [Optional tools](https://knowledgeislands.info/guidance/using-ki/recommended-tools/) — optional user and system tools: chezmoi, headroom-ai, Codex skill discovery, mcporter, and claude.ai connectors.
+- [Developer linking](docs/guides/developer/linking-skills.md) — the current local live-link workflow for harness contributors.
+- [Prompting guides](https://knowledgeislands.info/guidance/prompting/) — how to prompt the models we run, with one source-backed guide per model.
+
+The public website guidance is self-contained. For how it relates to the decisions, feature definitions, roadmap items, and skill code underneath it — and to the Knowledge Islands concept — see [docs/docs.md](docs/docs.md).
+
+## Roadmap
+
+The forward view — what's next and why — lives in [ROADMAP.md](ROADMAP.md). The standards, the mechanical checkers, and the advisory eval harness are all in place, and keeping them applied is a continuous practice tied to the invariants the `ki-skills` rubric enforces, not roadmap work.
+

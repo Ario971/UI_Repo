@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T07:22:43.301Z",
+  "updated_at": "2026-08-02T07:26:20.309Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: I get 25 deep researched ideas with one single prompt",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/ringlochid/banksia",
+      "date": "2026-08-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Make a three-layer workflow with 19 agents work together in parallel with one single prompt, then use that to research anything I want. If I don't specify any topic, it can prompt me some topics and wait for my response. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-02/06-show-hn-i-get-25-deep-researched-ideas-with-one-single-prompt.md"
+    },
+    {
+      "title": "Show HN: Pronto – real‑time wire for AI agents (70k+ feeds connected)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://pronto.stream/",
+      "date": "2026-08-01",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Pronto – real‑time wire for AI agents (70k+ feeds connected) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-01/07-show-hn-pronto-real-time-wire-for-ai-agents-70k-feeds-connected.md"
+    },
+    {
+      "title": "Show HN: Wienerdog – memory and self-improving skills for Claude Code/Codex",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/wienerdog-ai/wienerdog/",
+      "date": "2026-08-01",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "The idea of Wienerdog was born out of my experience setting up my own simple but effective system of memory, self-improving skills and hooks for Claude Code and Codex. As I was teaching my friends and colleagues how to set up their own I found myself automating more and more of my system setup and finally I decided to publish it on GitHub to help others g... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-01/08-show-hn-wienerdog-memory-and-self-improving-skills-for-claude-code-cod.md"
+    },
+    {
+      "title": "Agentic Metaverse Services: A New As-a-Service Paradigm",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.28242v1",
+      "date": "2026-07-30",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Generative Artificial Intelligence (GenAI) is reconstructing the digital virtual world, upgrading agents through enhancing their abilities in autonomous learning, multi-modal interaction, content generation, and collaborative decision-making. In particular, the shift from conversational chatbots to agentic AI, the most recent significant technical breakth... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-30/09-agentic-metaverse-services-a-new-as-a-service-paradigm.md"
+    },
+    {
+      "title": "Show HN: Use iPhone's camera as a lux meter",
+      "source": "Hacker News Show HN",
+      "url": "https://www.impulsearc.com/wavelength/",
+      "date": "2026-08-01",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "After suffering one too many times from bad jet lag, I read a bunch of circadian rhythm papers and developed a simple app to help fight jet lag. I knew that avoiding devices at night was helpful, but it turns out that getting the right light at specific times of day can help not just with jet lag but overall sleep and well being. How it works: you give th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-01/10-show-hn-use-iphone-s-camera-as-a-lux-meter.md"
+    },
+    {
+      "title": "Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
+      "source": "Hacker News Show HN",
+      "url": "https://costperprompt.com/",
+      "date": "2026-08-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-02/11-show-hn-costperprompt-live-ai-api-pricing-and-real-workload-cost-calcu.md"
+    },
+    {
+      "title": "Show HN: FirstEmployee.ai – Start a Business",
+      "source": "Hacker News Show HN",
+      "url": "https://firstemployee.ai/",
+      "date": "2026-08-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: FirstEmployee.ai – Start a Business (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-02/12-show-hn-firstemployee-ai-start-a-business.md"
+    },
+    {
+      "title": "Show HN: Symbio self fine-tuning AI loop",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/huyedits/Symbio",
+      "date": "2026-08-01",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "It trains based off the mistakes it made with the solution you gave OR what it got. Thank you for reading (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-01/13-show-hn-symbio-self-fine-tuning-ai-loop.md"
+    },
+    {
+      "title": "How well do multiple GPUs scale for LLM inference? (Trying to understand the basics)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd2wf1/how_well_do_multiple_gpus_scale_for_llm_inference/",
+      "date": "2026-08-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I’m fairly new to the multi-GPU side of local LLMs and I’m trying to understand how inference actually scales across multiple GPUs. Suppose I have a model running on a single GPU and then move to two or more GPUs using llama.cpp (or similar backends). My questions are: - Is the performance gain anywhere close to 1:1 (e.g. 2× GPUs ≈ 2× speed),... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-02/14-how-well-do-multiple-gpus-scale-for-llm-inference-trying-to-understand.md"
+    },
+    {
+      "title": "DeepSeek-V4-Flash-0731: Models you can run locally now have the intelligence score of the top frontier model from March 2026",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vchoua/deepseekv4flash0731_models_you_can_run_locally/",
+      "date": "2026-08-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "March 6th, 2026 the highest intelligence index score was 51 for frontier models. deepseek-ai/DeepSeek-V4-Flash-0731 that has an intelligence score of 50. If these benchmarks are accurate, models available to run locally on This is absolutely nuts. I just impulse purchased 128GB of DDR4 so I can run it combined with my 4x 5060 ti's (64GB VRAM total). submi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-01/15-deepseek-v4-flash-0731-models-you-can-run-locally-now-have-the-intelli.md"
+    },
+    {
+      "title": "Ran DS V4-Flash-0731 Locally on 3xMI50 32GB @ ~15 t/s TG",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd51ey/ran_ds_v4flash0731_locally_on_3xmi50_32gb_15_ts_tg/",
+      "date": "2026-08-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey y'all. I'll be concise. TL;DR: DS V4-Flash-0731 @ UD-IQ2_M running fully in VRAM on 3xMI50s (90.9 GB model, 96 GB VRAM). Actual speed on llama-server is: - Text Generation: ~15-16 tokens/second stable. Never dipped below 14 tokens/second, even when the model was spitting out a 30K token long reply. - Prompt Processing: ~105-110 tokens/second or so. Di... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-02/16-ran-ds-v4-flash-0731-locally-on-3xmi50-32gb-15-t-s-tg.md"
+    },
+    {
+      "title": "Deepseek v4 flash 0731 still not holding up.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vct09w/deepseek_v4_flash_0731_still_not_holding_up/",
+      "date": "2026-08-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The biggest issue with preview was its inability to follow rules prompts and skills. It seems like no matter what you do it ignores them. I've tried first person and second person. I've tried Chinese and English. It does not follow them. That's the only problem with these models and why they're not actually frontier level and not just benchmaxxed. Every u... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-01/17-deepseek-v4-flash-0731-still-not-holding-up.md"
+    },
     {
       "title": "Show HN: How to build and self-host a code review agent",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "We built Hawkeye because grep, IDE, TC search broke down on our internal codebase (~500k files). Every \"find all references\" took long enough to break focus — now with AI agents spending more time re-grepping the same files than actually writing code. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-29/09-show-hn-hawkeye-local-code-search-for-ms-linux-fast-500k-file-codebase.md"
-    },
-    {
-      "title": "Show HN: Vaghenu, a meter aware sloka-to-chant, TTS for Sanskrit",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=48728732",
-      "date": "2026-06-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "A 15-year-old dream has come true today. I started a PhD with the dream of creating a system that chants any Sanskrit shloka perfectly. And here I am opening sourcing Vaghenu, a meter aware sloka-to-chant, TTS for Sanskrit . This is the world's first vrutta-aware, open-source TTS for Sanskrit Chanting. I am making the model weights, training scripts, and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/10-show-hn-vaghenu-a-meter-aware-sloka-to-chant-tts-for-sanskrit.md"
-    },
-    {
-      "title": "panicgit/mAndroid-Studio",
-      "source": "GitHub Search API",
-      "url": "https://github.com/panicgit/mAndroid-Studio",
-      "date": "2026-06-30",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Ultra-lightweight companion IDE for Android development — Tauri 2 + React + Rust (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/11-panicgit-mandroid-studio.md"
-    },
-    {
-      "title": "h2m6jcm94s-eng/mimir",
-      "source": "GitHub Search API",
-      "url": "https://github.com/h2m6jcm94s-eng/mimir",
-      "date": "2026-06-30",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Mimir - privacy-tiered AI orchestration mesh (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/12-h2m6jcm94s-eng-mimir.md"
-    },
-    {
-      "title": "Zenetusken/job-applicator-python",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Zenetusken/job-applicator-python",
-      "date": "2026-06-30",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI-powered job application tool with Playwright + LLM + Embeddings (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-zenetusken-job-applicator-python.md"
-    },
-    {
-      "title": "b9843",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9843",
-      "date": "2026-06-30",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Revert \"sched : reintroduce less synchronizations during split compute (#20793)\" (#25138) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9843/llama-b9843-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Inte... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-30/14-b9843.md"
-    },
-    {
-      "title": "b9842",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9842",
-      "date": "2026-06-29",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "common : dedup preset and cached model entries in /v1/models (#25131) Signed-off-by: Adrien Gallouët **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9842/llama-b9842-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) -... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-29/15-b9842.md"
-    },
-    {
-      "title": "b9840",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9840",
-      "date": "2026-06-29",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "DeepSeek V4 (#24162) * convert: add dsv4 conversion * add basic setup * add llm_graph_input_dsv4 * add save-load state * add sinkhorn eps - correction by @fairydreaming * add rope fix * cleanup dead code * fix bugs * support pro model: added by @fairydreaming * remove redundant V cache * Chat template * remove debugging leftovers * Add mechanism for inlin... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-29/16-b9840.md"
-    },
-    {
-      "title": "b9839",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9839",
-      "date": "2026-06-29",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "tools/ui: restore Tailwind scanning in ignored worktrees (#24879) **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9839/llama-b9839-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-29/17-b9839.md"
-    },
-    {
-      "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.28270v1",
-      "date": "2026-06-26",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The transition from static chat bots to autonomous agents--equipped with persistent memory, tool-use protocols, and multi-agent collaboration--has fundamentally expanded the AI threat landscape. Current defense mechanisms, such as perimeter security and training-time alignment, remain external to the agent's active reasoning loop. Consequently, they fall... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
-    },
-    {
-      "title": "Govern the Repository, Not the Agent: Measuring Ecosystem-Level Risk in AI-Native Software",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.28235v1",
-      "date": "2026-06-26",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Autonomous coding agents now open and merge pull requests in shared repositories at scale, and the field evaluates them the way it has always evaluated components, one agent at a time, on isolated benchmark tasks. Yet agents that each pass their own tests still leave repositories that accumulate problems no single contribution accounts for. We ask whether... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/07-govern-the-repository-not-the-agent-measuring-ecosystem-level-risk-in-.md"
-    },
-    {
-      "title": "Towards Value-Constrained Credit Assignment in Fully Delegated AI Cooperatives",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2606.28217v1",
-      "date": "2026-06-26",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We propose a framework for reward allocation in fully delegated AI cooperatives where humans are represented by agents that contribute data and participate in model updates under heterogeneous value constraints. The key idea is to credit only those updates that remain admissible after screening them against each principal's value profile. We formulate val... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/08-towards-value-constrained-credit-assignment-in-fully-delegated-ai-coop.md"
-    },
-    {
-      "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/kamaludu/bash4llm/",
-      "date": "2026-06-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal. I created it because I wanted something simple that worked without installing Python, Node, or any other runtime. It uses only Bash, curl, and jq. You can send prompts, start a small chat, process files line by line, stream output, and save session metadata in JSON format.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-28/09-show-hn-bash4llm-a-lightweight-dependency-free-bash-wrapper-for-llm-ap.md"
     }
   ]
 }
