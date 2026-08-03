@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T07:26:20.309Z",
+  "updated_at": "2026-08-03T08:19:32.653Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.29516v1",
+      "date": "2026-07-31",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI coding agents are generating code at volumes that exceed the capacity of traditional peer review. At the same time, existing AI code review tools over-index on low-value suggestions such as style and best practices while under-indexing on the concerns human reviewers prioritize most: correctness, security, and performance. We present ARCTIC, an AI-powe... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/06-from-code-review-to-code-critique-intent-drift-and-spotlight-for-ai-ge.md"
+    },
+    {
+      "title": "AgenticRepair: Multi-Faceted Program Context Engineering for Agentic Vulnerability Repair",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.29422v1",
+      "date": "2026-07-31",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Automated vulnerability repair aims to reduce the time and effort required to patch security flaws from a vulnerability triage report. Recent agentic AI approaches have shown promising results in automated program repair. However, vulnerability repair demands richer program context than general bug repair - context that security engineers routinely assemb... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/07-agenticrepair-multi-faceted-program-context-engineering-for-agentic-vu.md"
+    },
+    {
+      "title": "Tool Specifications Matter: Uncovering and Mitigating Safety Risks in AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2607.29254v1",
+      "date": "2026-07-31",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents extend large language models (LLMs) with external tools, enabling them to perform complex tasks and translate model outputs into consequential real-world actions. Yet LLMs often become substantially less safe when deployed as agents, and the source of this degradation remains poorly understood. In this paper, we identify schema-formatted tool sp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/08-tool-specifications-matter-uncovering-and-mitigating-safety-risks-in-a.md"
+    },
+    {
+      "title": "Skip to main content",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news#main-content",
+      "date": "2026-08-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Skip to main content (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-03/09-skip-to-main-content.md"
+    },
+    {
+      "title": "Show HN: MPEdb - Drop in replacement for SQLite3 with concurrency support",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/punnerud/mpedb",
+      "date": "2026-08-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi, the last weeks I have used 3x my 20x Anthropic tokens budget during the holiday to build a server less database like Sqlite3 with concurrency support like PostgreSQL. Faster on most benchmarks and 100% on internal unit tests for SQLite3, CPython, Django and SQLAlchemy. Testet on multiple Django projects with 0 errors. The concurrency support faster th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-03/10-show-hn-mpedb-drop-in-replacement-for-sqlite3-with-concurrency-support.md"
+    },
+    {
+      "title": "Show HN: Fuse – statically typed functional programming language",
+      "source": "Hacker News Show HN",
+      "url": "https://fuselang.org",
+      "date": "2026-08-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! I've been working on the fuse programming language, it's a statically typed purely functional language with higher-kinder types and ad-hoc polymorphism. It compiles to the GRIN whole-program optimizer, producing LLVM-generated native code. Fuse supports ADTs, Generics, Type Methods, Traits, Pattern matching etc. all in a functional style with no mu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-02/11-show-hn-fuse-statically-typed-functional-programming-language.md"
+    },
+    {
+      "title": "strozynskiw/bonsai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/strozynskiw/bonsai",
+      "date": "2026-08-02",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Provider-independent coding agent for your terminal — fast Rust TUI + headless mode, OS-sandboxed, multi-provider (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-02/12-strozynskiw-bonsai.md"
+    },
+    {
+      "title": "Show HN: A Handwritten Blogging Platform",
+      "source": "Hacker News Show HN",
+      "url": "https://handwritten.blog/",
+      "date": "2026-07-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "The idea is a place for beautiful notes like https://insidevoices.handwritten.blog . (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-31/13-show-hn-a-handwritten-blogging-platform.md"
+    },
+    {
+      "title": "b10233",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10233",
+      "date": "2026-08-02",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "opencl: limit local workgroup size for GLU operation (#26383) **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10233/llama-b10233-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](ht... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-02/14-b10233.md"
+    },
+    {
+      "title": "b10237",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10237",
+      "date": "2026-08-03",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "llama : MTP support for DeepSeek V3.2 (#26457) * llama : MTP support for DeepSeek V3.2 * model : no need to include MTP layers during DeepSeek V3.2 model type discovery --------- Co-authored-by: Stanisław Szymczyk **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10237/llama-b10237-bin-m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-03/15-b10237.md"
+    },
+    {
+      "title": "b10236",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10236",
+      "date": "2026-08-03",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "metal: implement DSv4 Lightning Indexer (#25893) * metal: implement F16 Lightning Indexer - Implement GGML_OP_LIGHTNING_INDEXER for 128-dimensional, 64-head inputs with F32 queries and weights plus F16 keys and masks. - Add tiled and tail kernels and test KV lengths around 8- and 64-element boundaries. llama-bench (--mmap 1, -fa 1, -p 512, -n 128; d=0/10k... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-03/16-b10236.md"
+    },
+    {
+      "title": "b10235",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10235",
+      "date": "2026-08-02",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "metal : add SILU_BACK (#25982) * feat(silu_back): implemented silu_back op for f32 * fix(silu_back): removed redundant asserts in ggml-metal-ops.cpp function ggml_metal_op_silu_back. **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10235/llama-b10235-bin-macos-arm64.tar.gz) - macOS Appl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-02/17-b10235.md"
+    },
     {
       "title": "Show HN: I get 25 deep researched ideas with one single prompt",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "AI Agents like Codex and Claude are incredibly powerful and have drastically sped up implementation. However, I noticed a strange side effect: I began to lose confidence in my own coding. I submitted a pull request after the AI completed the implementation. It looked good, but during code review, I was asked, \"Why did you implement it this way?\" I grew in... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/09-show-hn-shoaku-your-coding-navigator.md"
-    },
-    {
-      "title": "Show HN: My 13-year-old built an ant colony tracker",
-      "source": "Hacker News Show HN",
-      "url": "https://formicarium.es",
-      "date": "2026-06-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "He's 13 years old. He wanted to track his own ant colonies — growth, feeding, humidity, and other metrics. He built the whole app himself with some help from AI tools; I just helped him deploy it to a server. Would love to hear your feedback! (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/10-show-hn-my-13-year-old-built-an-ant-colony-tracker.md"
-    },
-    {
-      "title": "Show HN: Don't ask if devs cheat with AI, test if they're good with it",
-      "source": "Hacker News Show HN",
-      "url": "https://tryevaluator.com",
-      "date": "2026-06-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Don't ask if devs cheat with AI, test if they're good with it (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/11-show-hn-don-t-ask-if-devs-cheat-with-ai-test-if-they-re-good-with-it.md"
-    },
-    {
-      "title": "Show HN: Curvytron 2, I rewrote my browser party game, 10 years later",
-      "source": "Hacker News Show HN",
-      "url": "https://curvytron2.com/",
-      "date": "2026-06-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, french web dev here, About 10 years ago I did a little party game in the browser inspired by Achtung die Kurve genre, it reached HN ( https://news.ycombinator.com/item?id=9494619 ) and everything went crazy, it's still largely played in open-spaces all over the world today. This past year, I've been working on a sequel: https://curvytron2.com... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/12-show-hn-curvytron-2-i-rewrote-my-browser-party-game-10-years-later.md"
-    },
-    {
-      "title": "Kuberwastaken/VPSmaxxing",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Kuberwastaken/VPSmaxxing",
-      "date": "2026-06-30",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A skill to get Claude to set up your Claude Code and Codex AI workflows on a remote VPS without going broke (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
-    },
-    {
-      "title": "b9852",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9852",
-      "date": "2026-07-01",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "opencl: initial q1_0 support (#25160) * opencl: general q1_0 support * opencl: add Adreno GEMM/GEMV for q1_0 **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9852/llama-b9852-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/2... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-01/14-b9852.md"
-    },
-    {
-      "title": "b9851",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9851",
-      "date": "2026-06-30",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "cuda : prevent integer truncation and overflow errors when using KQ mask strides in flash_attn_mask_to_KV_max kernel (#24945) Co-authored-by: Stanisław Szymczyk **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9851/llama-b9851-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DI... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-30/15-b9851.md"
-    },
-    {
-      "title": "b9850",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9850",
-      "date": "2026-06-30",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "model : register t_layer_inp for qwen3next (#25141) * Fix input assignment in layer processing loop Fix DFLASH for qwen-coder-next * add line break Added tensor for attention normalization in Qwen3 model. **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9850/llama-b9850-bin-macos-arm64.tar.gz) - macOS... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-30/16-b9850.md"
-    },
-    {
-      "title": "b9849",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9849",
-      "date": "2026-06-30",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "common,server: handle bracketed IPv6 literals in URL authority (#25140) * common,server: handle bracketed IPv6 literals in URL authority Parse the [host]:port form (RFC 3986) and bracket IPv6 hosts when formatting a URL authority: listening log, proxy Host header, proxy log, client rebuild. The per-request remote_addr stays bare. * common: restore unsuppo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-30/17-b9849.md"
-    },
-    {
-      "title": "Show HN: AMA2, messenger built for AI agent",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://ama2.me/",
-      "date": "2026-06-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I'm a solo founder building AMA2, a messaging runtime made for AI agents. This is my first Show HN, so I'd really appreciate your feedback. What brought me this idea: At first, I was building an AI agent for solo creators that knows everything about you and can do business chore on your behalf. When I tried to plug it into normal chat tools like Telegram,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"
-    },
-    {
-      "title": "Show HN: TinyAgents – a Rust based recursive LLM harness",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/tinyhumansai/tinyagents",
-      "date": "2026-06-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey Guys, I would like to showcase Tiny Agents, which is an entirely Rust-based RLM. RLMs are a recent and fantastic new innovation on how LLMs can be reimagined by designing the LLM agent itself to define how it will orchestrate or create its own sub-agent. I also could not find any good LLM harness workflow in Rust, so I built this one, taking massive i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/07-show-hn-tinyagents-a-rust-based-recursive-llm-harness.md"
-    },
-    {
-      "title": "Show HN: Fleet – a local-first console for managing Dockerized Hermes AI Agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/matt454/agent-fleet-console",
-      "date": "2026-06-29",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Fleet – a local-first console for managing Dockerized Hermes AI Agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-29/08-show-hn-fleet-a-local-first-console-for-managing-dockerized-hermes-ai-.md"
-    },
-    {
-      "title": "Show HN: Hawkeye – local code search for MS/Linux, fast 500k+ file codebase",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.zaragsoft.se",
-      "date": "2026-06-29",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We built Hawkeye because grep, IDE, TC search broke down on our internal codebase (~500k files). Every \"find all references\" took long enough to break focus — now with AI agents spending more time re-grepping the same files than actually writing code. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-29/09-show-hn-hawkeye-local-code-search-for-ms-linux-fast-500k-file-codebase.md"
     }
   ]
 }

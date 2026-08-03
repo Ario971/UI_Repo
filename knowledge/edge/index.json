@@ -1,10 +1,194 @@
 {
-  "last_checked_at": "2026-08-02T07:26:57.781Z",
+  "last_checked_at": "2026-08-03T08:19:55.017Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "esengine/deepseek-reasonix",
+      "name": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "date": "2026-08-03",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 67,
+      "momentum": 100,
+      "risk": 30,
+      "integration_effort": 48,
+      "expected_gain": 77,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: ctx – Search the coding agent history already on your machine",
+          "date": "2026-07-02",
+          "topic": "AI agents",
+          "similarity": 0.342,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/07-show-hn-ctx-search-the-coding-agent-history-already-on-your-machine.md"
+        },
+        {
+          "title": "Show HN: Reverse-engineering web apps into agent tools",
+          "date": "2026-07-09",
+          "topic": "AI agents",
+          "similarity": 0.312,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
+        },
+        {
+          "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
+          "date": "2026-07-29",
+          "topic": "AI agents",
+          "similarity": 0.311,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/09-what-does-it-take-to-detect-an-ai-agent-minimal-feature-sets-for-behav.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-03)",
+        "MIT license",
+        "29438 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "go.mod",
+          "summary": "module reasonix"
+        }
+      ],
+      "install_commands": [
+        "npm i -g reasonix                  # any OS; pulls the prebuilt native binary",
+        "git clone https://github.com/esengine/DeepSeek-Reasonix.git"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-02 about AI agents; this candidate overlaps with \"Show HN: ctx – Search the coding agent history already on your machine\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-03/01-esengine-deepseek-reasonix.md"
+    },
+    {
+      "id": "lij768423-svg/grok2api-egress-enhancements",
+      "name": "lij768423-svg/grok2api-egress-enhancements",
+      "url": "https://github.com/lij768423-svg/grok2api-egress-enhancements",
+      "date": "2026-08-03",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 67,
+      "momentum": 88,
+      "risk": 32,
+      "integration_effort": 52,
+      "expected_gain": 77,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents",
+          "date": "2026-07-24",
+          "topic": "AI agents",
+          "similarity": 0.186,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-24/08-show-hn-turo-an-aggressive-token-saving-proxy-for-cli-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-03)",
+        "MIT license",
+        "101 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [],
+      "install_commands": [
+        "git fetch --tags origin",
+        "git checkout -b egress-enhancements v3.0.11",
+        "git am --3way /path/to/grok2api-egress-enhancements/patches/0001-feat-add-egress-recovery-and-quality-guard.patch",
+        "go test ./...",
+        "pnpm lint",
+        "pnpm build"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-24 about AI agents; this candidate overlaps with \"Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-03/02-lij768423-svg-grok2api-egress-enhancements.md"
+    },
+    {
+      "id": "r-jed/codex-agent-team",
+      "name": "R-jed/codex-agent-team",
+      "url": "https://github.com/R-jed/codex-agent-team",
+      "date": "2026-08-03",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 29,
+      "integration_effort": 32,
+      "expected_gain": 77,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: GAI – A Go runtime for typed, tool-using LLM agents",
+          "date": "2026-07-31",
+          "topic": "AI agents",
+          "similarity": 0.288,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/08-show-hn-gai-a-go-runtime-for-typed-tool-using-llm-agents.md"
+        },
+        {
+          "title": "Show HN: ResiliReplay - Chaos testing for AI agents and MCP servers",
+          "date": "2026-07-31",
+          "topic": "AI agents",
+          "similarity": 0.288,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/09-show-hn-resilireplay-chaos-testing-for-ai-agents-and-mcp-servers.md"
+        },
+        {
+          "title": "Show HN: Agent Search Engine – an independent index of 247 AI agents",
+          "date": "2026-07-21",
+          "topic": "AI agents",
+          "similarity": 0.272,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/08-show-hn-agent-search-engine-an-independent-index-of-247-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-03)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README includes install commands"
+      ],
+      "cons": [
+        "Repository description is sparse"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps testpaths, addopts"
+        }
+      ],
+      "install_commands": [
+        "codex plugin marketplace add R-jed/codex-agent-team --ref main",
+        "Codex Delegate"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-07-31 about AI agents; this candidate overlaps with \"Show HN: GAI – A Go runtime for typed, tool-using LLM agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-03/03-r-jed-codex-agent-team.md"
+    },
     {
       "id": "knowledgeislands/ki-agentic-harness",
       "name": "knowledgeislands/ki-agentic-harness",
