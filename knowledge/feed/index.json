@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T08:19:32.653Z",
+  "updated_at": "2026-08-04T07:29:57.856Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://armature.tech/",
+      "date": "2026-08-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! We’re Theodore and Louis, founders of Armature (YC P26). We reconstruct the entire session behind the MCP tool calls you receive, including what the user asked their agent to do and what the agent thought. You wrap your MCP in 3 lines of code (our SDK is available in Typescript, Python and Go) and start seeing in your dashboard: - All sessions reco... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-03/06-show-hn-product-analytics-and-evals-for-agent-sessions-on-your-mcp.md"
+    },
+    {
+      "title": "Show HN: Hacker News with AI stories filtered out",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://hcker.news/?view=frontpage&ai=exclude",
+      "date": "2026-08-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi folks, I've noticed that a lot of people here seem exhausted by the amount of AI news on the front page. I shared hcker.news here a year ago and it has since gained a ton of filtering features, including a dedicated AI filter, so I figured I should tell more people about it. The filter works in three passes: 1. Known AI-related keywords and domains are... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-03/07-show-hn-hacker-news-with-ai-stories-filtered-out.md"
+    },
+    {
+      "title": "ACEM: A Cost Estimation Model for Agentic Software Engineering",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.02582v1",
+      "date": "2026-08-03",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Traditional software cost estimation models, such as COCOMO II, Function Points, and Story Points, assume that development effort is primarily driven by human labor in design, coding, and testing. Agentic software engineering, where autonomous AI agents perform substantial implementation work and humans focus on planning, specification, and validation, ch... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-03/08-acem-a-cost-estimation-model-for-agentic-software-engineering.md"
+    },
+    {
+      "title": "Magnet: Detecting Cross-Session AI Misuse Through Capability Accumulation",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.02518v1",
+      "date": "2026-08-03",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The most capable AI deployments are not single models but ensembles of specialized agents that delegate and act in coordination. This architecture unlocks powerful new capabilities, and it also introduces risks that existing frameworks for monitoring, detection, and mitigation were not designed to address. Most state-of-the-art AI abuse detection literatu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-03/09-magnet-detecting-cross-session-ai-misuse-through-capability-accumulati.md"
+    },
+    {
+      "title": "qinxiangrui-dev/edge-ai-agent",
+      "source": "GitHub Search API",
+      "url": "https://github.com/qinxiangrui-dev/edge-ai-agent",
+      "date": "2026-08-04",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "An edge AI agent that combines vision perception and language reasoning. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/10-qinxiangrui-dev-edge-ai-agent.md"
+    },
+    {
+      "title": "scian0204/ClaudeCodeWorkspace",
+      "source": "GitHub Search API",
+      "url": "https://github.com/scian0204/ClaudeCodeWorkspace",
+      "date": "2026-08-04",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Turn the Claude Code CLI into a team asset — per-session isolation, shared rooms with fine-grained delegation, in-browser tool approval, and code-server editing. One docker compose up. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/11-scian0204-claudecodeworkspace.md"
+    },
+    {
+      "title": "misabegovic/brain",
+      "source": "GitHub Search API",
+      "url": "https://github.com/misabegovic/brain",
+      "date": "2026-08-04",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "misabegovic/brain Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/12-misabegovic-brain.md"
+    },
+    {
+      "title": "VrajDiyora06/foodbridge-ai-backend",
+      "source": "GitHub Search API",
+      "url": "https://github.com/VrajDiyora06/foodbridge-ai-backend",
+      "date": "2026-08-04",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Production-ready AI-powered Food Donation & Distribution Platform Backend built with Node.js, Express.js, TypeScript, MongoDB, Redis, BullMQ, and Docker. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/13-vrajdiyora06-foodbridge-ai-backend.md"
+    },
+    {
+      "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1veg9uq/data_center_in_a_box_on_wheels_256gb_vram512gb/",
+      "date": "2026-08-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been out of these forums for awhile but I figured I would provide a formal update on how this has been going now that it has some operation time under its belt, just to put the information out there and share knowledge if there is any interest. I also wasn't satisfied with the quality of my original post so I will probably remove it and let this one... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-03/14-data-center-in-a-box-on-wheels-256gb-vram-512gb-ram-ai-server-6-8-mont.md"
+    },
+    {
+      "title": "Is LM Studio abandoning their core product?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf2hhp/is_lm_studio_abandoning_their_core_product/",
+      "date": "2026-08-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Some of you may be aware that a few weeks ago, LM Studio announced a new agent, Bionic. This is pretty much an agentic harness for both local models and paid cloud models. But most aren't aware that LM Studio replaced almost every link to the original app that built their brand and reputation with the new Bionic agent. If you go to the LM Studio website r... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-04/15-is-lm-studio-abandoning-their-core-product.md"
+    },
+    {
+      "title": "KAT Coder 2.5 dev: Do yourself a favor and try it!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve9r2q/kat_coder_25_dev_do_yourself_a_favor_and_try_it/",
+      "date": "2026-08-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "It is so good! I don't know why there aren't more people talking about it. Fewer tokens, faster and more accurate than Qwen 3.6 35b a3b. On my setup it's nearly as good as 27b, but 5x faster. And it completely trashes the Gemma 4 models. At least for my use case, it feels amazing. I'd love to hear other people's experience with it. If you want an actual m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-03/16-kat-coder-2-5-dev-do-yourself-a-favor-and-try-it.md"
+    },
+    {
+      "title": "More Qwen 3.8 sizes coming",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vevsv9/more_qwen_38_sizes_coming/",
+      "date": "2026-08-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/appakaradi [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-04/17-more-qwen-3-8-sizes-coming.md"
+    },
     {
       "title": "From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "In autonomous laboratories, AI agents suggest the next batch of experiments to do. However, planning and executing those tasks taking full advantage of the available resources is a completely different question. This can be challenging when dealing with real-world hardware constraints, especially so when there are multiple instruments with different capac... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-01/09-optimal-resource-utilization-for-autonomous-laboratory-orchestrators.md"
-    },
-    {
-      "title": "eve-ai-dev/steroids-openai-image-gen",
-      "source": "GitHub Search API",
-      "url": "https://github.com/eve-ai-dev/steroids-openai-image-gen",
-      "date": "2026-06-24",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Hermes image generation provider for OpenAI-compatible endpoints and Codex Auth (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-24/10-eve-ai-dev-steroids-openai-image-gen.md"
-    },
-    {
-      "title": "Show HN: GolemUI – Declarative Form Engine",
-      "source": "Hacker News Show HN",
-      "url": "https://golemui.com",
-      "date": "2026-07-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "We're a team of three friends who have been working with forms and Open Source for a decade, and we joined forces together to create something where we can apply all of our experience. We recently released GolemUI, an Open Source library to generate forms dynamically from JSON definitions, with a typed layer to simplify authoring. This library has a lot t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-01/11-show-hn-golemui-declarative-form-engine.md"
-    },
-    {
-      "title": "Show HN: I built a photography weather alert system",
-      "source": "Hacker News Show HN",
-      "url": "https://photosignal.app/",
-      "date": "2026-07-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "hi HN, I'm a landscape photographer by heart and a software developer by trade. I build a web app for automating alerts for photography weather. It is meant to solve the following issues I (and probably others) had: - the need to check multiple weather apps multiple times a day - keeping an eye out for some long range conditions like full moon or moon + a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-02/12-show-hn-i-built-a-photography-weather-alert-system.md"
-    },
-    {
-      "title": "Show HN: Unobin compiles Infrastructure as Code to one binary",
-      "source": "Hacker News Show HN",
-      "url": "https://cloudboss.co/docs/unobin",
-      "date": "2026-06-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Unobin is a language and compiler for Infrastructure as Code (IaC). IaC source is written and compiled to a binary, called a factory. The factory includes the runtime and all dependencies. To run a factory, pass it a configuration called a stack file that defines backend state and factory inputs. The stack file can only contain configuration, not arbitrar... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-28/13-show-hn-unobin-compiles-infrastructure-as-code-to-one-binary.md"
-    },
-    {
-      "title": "I mapped which local LLMs actually fit each RAM tier, 8 to 128GB (open dataset)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukn45x/i_mapped_which_local_llms_actually_fit_each_ram/",
-      "date": "2026-07-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I kept answering the same question for friends (\"I've got a 16GB MacBook / a 3060, what can I actually run?\") and got tired of guessing, so I started a spreadsheet. It grew into a real dataset, so I put it on GitHub under CC BY for anyone to use or fix. Rule of thumb I landed on: at Q4_K_M a model needs roughly 0.6GB of memory per billion params, and you... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-01/14-i-mapped-which-local-llms-actually-fit-each-ram-tier-8-to-128gb-open-d.md"
-    },
-    {
-      "title": "qwen 3.6 35a3b on 32gb ram + 8gb vram?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ula7q6/qwen_36_35a3b_on_32gb_ram_8gb_vram/",
-      "date": "2026-07-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "is it possible to run a reasonable quant of qwen 3.6 (or I guess even ornith/3.5) 35B A3B on a laptop with 32gb of lpddr5 (7500 mt/s so technically faster/higher bandwith than standard ddr5) and an rtx 5060 laptop gpu (which is similar to a desktop 5060) I'm not getting this laptop specifically FOR running local LLMs but I do really using them and based o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-02/15-qwen-3-6-35a3b-on-32gb-ram-8gb-vram.md"
-    },
-    {
-      "title": "Palantir CEO rages against closed models",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulb4nx/palantir_ceo_rages_against_closed_models/",
-      "date": "2026-07-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "For context, this week they struck a deal to buy Nvidia chips and run local models for their enterprise clients. So in this video he is railing against Anthropic and OpenAI saying they are ripping everyone off while stealing their data too. Always a special moment when the enemy comes around and embraces your world view. submitted by /u/burner20170218 [li... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-02/16-palantir-ceo-rages-against-closed-models.md"
-    },
-    {
-      "title": "Making LLMs Better at Creative Writing using Entropy",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul6enz/making_llms_better_at_creative_writing_using/",
-      "date": "2026-07-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/CountBayesie [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-02/17-making-llms-better-at-creative-writing-using-entropy.md"
-    },
-    {
-      "title": "Show HN: Morph Reflexes – Multi-head classifiers for agent traces",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://news.ycombinator.com/item?id=48739038",
-      "date": "2026-06-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "The most common failures for production agents are behavioral: looping, reasoning leakage, user frustration, and more. Using a frontier model like GPT or Sonnet to judge every turn is too expensive and slow to run at scale. To solve this, we built Reflexes: semantic signals from agent traces, served fast and cheap over API. Built on custom kernels and a c... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-morph-reflexes-multi-head-classifiers-for-agent-traces.md"
-    },
-    {
-      "title": "Show HN: Kage, verification and freshness for Google's OKF agent memory",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://kage-core.com/",
-      "date": "2026-06-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Kage was always a document format memory with it's own memory standards... and was betting on file based memory + git native. It's good to see that Google also thinks the same and released OKF(Open Knowledge Format) and Kage has adopted OKF with open arms. Though Google has released the Memory standard and how to structure the memory, it doesn't do verifi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/07-show-hn-kage-verification-and-freshness-for-google-s-okf-agent-memory.md"
-    },
-    {
-      "title": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/typedef-ai/fenic",
-      "date": "2026-06-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey friends. I'd like to share a project that's dear to me. fenic is a dataframe API with LLMs added as first-class citizens, a classic lazy dataframe API extended with new operators that are backed by LLMs. What this gets you is the ability to work with structured and unstructured data in the same context. Most importantly, the LLMs aren't integrates as... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/08-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-structure.md"
-    },
-    {
-      "title": "Show HN: Shoaku – Your Coding Navigator",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/seachicken/intellij-shoaku",
-      "date": "2026-06-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "AI Agents like Codex and Claude are incredibly powerful and have drastically sped up implementation. However, I noticed a strange side effect: I began to lose confidence in my own coding. I submitted a pull request after the AI completed the implementation. It looked good, but during code review, I was asked, \"Why did you implement it this way?\" I grew in... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/09-show-hn-shoaku-your-coding-navigator.md"
     }
   ]
 }
