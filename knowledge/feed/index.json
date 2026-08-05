@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T07:29:57.856Z",
+  "updated_at": "2026-08-05T07:31:28.780Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Mint MCP – Generate 3D assets from coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://mcp.mint.gg",
+      "date": "2026-08-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I and my co founder built Mint MCP, a remote server that lets Codex, Claude Code, and Cursor create 3D models, worlds, materials, images, and audio. The server handles long-running jobs, preview revisions, partial failures, and file delivery. When generation finishes, Mint gives the agent stable links to the files and tells it what each file is for... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/06-show-hn-mint-mcp-generate-3d-assets-from-coding-agents.md"
+    },
+    {
+      "title": "Show HN: Collab Word in Web – Collaborative Near MS Word Parity Docx Editor",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://collab.word-in-web.com/",
+      "date": "2026-08-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "TLDR: Collab WIW is a DOCX editor with MS Word parity that supports real-time collaborative editing between humans and BYO Agents. The collab layer is end to end encrypted and uses ephemeral rooms with stable share URLs. Ever collab room lives in only memory. Collaborator saved copies can bring the room back online at the same URL and reconcile offline ed... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/07-show-hn-collab-word-in-web-collaborative-near-ms-word-parity-docx-edit.md"
+    },
+    {
+      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.04003v1",
+      "date": "2026-08-04",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task histories, tool routines, and learned skills across sessions. Yet whether retained experience actually improves them over time has not been sys... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/08-past-bench-benchmarking-the-foundations-of-recursive-self-improvement-.md"
+    },
+    {
+      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.03979v1",
+      "date": "2026-08-04",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams, a setting that demands dense spatiotemporal grounding coupled with open-web exploration. Preliminary evaluations reveal two critical bottlenecks in current models: (1) modality bias, where agents bypass visual tools in favor of textual s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/09-video-deepresearch-towards-the-next-generation-multimodal-deepresearch.md"
+    },
+    {
+      "title": "Show HN: Sign language translation with smart glasses",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/aadisang/hand-wave",
+      "date": "2026-08-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi! I have relatives that speak sign language, and always found it odd that despite unbelievable advances in AI in recent years, the problem still felt somewhat neglected. Especially with the advent of wearable tech; to my knowledge, this is the first project that integrates the meta glasses w/ fingerspelling translation software. As for the technical asp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/10-show-hn-sign-language-translation-with-smart-glasses.md"
+    },
+    {
+      "title": "PrashamJain1318/Rishabh-Provision-Store",
+      "source": "GitHub Search API",
+      "url": "https://github.com/PrashamJain1318/Rishabh-Provision-Store",
+      "date": "2026-08-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "PrashamJain1318/Rishabh-Provision-Store Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-05/11-prashamjain1318-rishabh-provision-store.md"
+    },
+    {
+      "title": "MohamadKoteich/repo-studio",
+      "source": "GitHub Search API",
+      "url": "https://github.com/MohamadKoteich/repo-studio",
+      "date": "2026-08-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Repo Studio — a GitHub-Desktop-style web UI to manage Gitea repositories (builds, releases, AI assist) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-05/12-mohamadkoteich-repo-studio.md"
+    },
+    {
+      "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+      "source": "Hacker News Show HN",
+      "url": "https://toneyalexander.github.io/inclusive-color-space/",
+      "date": "2026-08-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN! I found that picking out plausible but diverse skin tones for my digital art and game development projects was kind of difficult, and I got curious about if there was a way to define a color space that made it easy. I've built a color picker and procedural generation algorithm based on the space as well as a bunch of other fun js features and de... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/13-show-hn-simple-algorithm-and-color-space-to-generate-diverse-skin-tone.md"
+    },
+    {
+      "title": "A 2.6B model with tool calling and 128K context now runs at 30 tok/s on a phone",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfn9vc/a_26b_model_with_tool_calling_and_128k_context/",
+      "date": "2026-08-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Liquid AI released LFM2.5-2.6B today, and this might be more relevant to local AI than another massive model most people cannot run. The model is only 2.69B parameters, has 128K context, supports tool calling and was post-trained specifically for multi-step agent workflows. The official Q4_K_M GGUF is around 1.67 GB and already works with llama.cpp. Their... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-04/14-a-2-6b-model-with-tool-calling-and-128k-context-now-runs-at-30-tok-s-o.md"
+    },
+    {
+      "title": "Maple-Preview: 20B-A1B ternary-weight reasoning open-weight LLM",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfrr5t/maplepreview_20ba1b_ternaryweight_reasoning/",
+      "date": "2026-08-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/cafedude [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-05/15-maple-preview-20b-a1b-ternary-weight-reasoning-open-weight-llm.md"
+    },
+    {
+      "title": "SK hynix, In Collaboration With SanDisk, Unveils The New High Bandwidth Flash (HBF) Standard, Helping To Resolve AI Inference Bottlenecks, Targeting Up To 3TB/s Bandwidth",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfa3tq/sk_hynix_in_collaboration_with_sandisk_unveils/",
+      "date": "2026-08-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hopefully this would let us have faster local models....but it will probably be out of our price range. submitted by /u/giveen [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-04/16-sk-hynix-in-collaboration-with-sandisk-unveils-the-new-high-bandwidth-.md"
+    },
+    {
+      "title": "VibeVoice 1.5B Running Locally...On an iPhone! Only ~2.2 GB of Memory and Up to 1.28× Real-Time Speed",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfuawi/vibevoice_15b_running_locallyon_an_iphone_only_22/",
+      "date": "2026-08-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I speed up the generation part of the demo in case you get bored 😄 I also tested another long-form generation, and the VRAM usage looks stable. The demo is about a minute long, and I posted it on X. This started as a random idea and somehow turned into a full detour from working on the next audio.cpp release. The model was uploaded to the audio.cpp HF re... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-05/17-vibevoice-1-5b-running-locally-on-an-iphone-only-2-2-gb-of-memory-and-.md"
+    },
     {
       "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Jul 2, 2026 Announcements More details on Fable 5’s cyber safeguards and our jailbreak framework (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/09-jul-2-2026-announcements-more-details-on-fable-5-s-cyber-safeguards-an.md"
-    },
-    {
-      "title": "Show HN: Bramble – Local-first password manager",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/flythenimbus/bramble",
-      "date": "2026-07-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I'm currently working on Bramble, an open source password manager with P2P cross-device sync. Initially I released the Chrome extension, but recently I also published the Android app and iOS is pending Apple's approval. Besides that, the latest version also includes passkey storage for all platforms! About Bramble: It aims to be as feature-rich as all pop... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-02/10-show-hn-bramble-local-first-password-manager.md"
-    },
-    {
-      "title": "PratyushRanjanDas/ai_Guide",
-      "source": "GitHub Search API",
-      "url": "https://github.com/PratyushRanjanDas/ai_Guide",
-      "date": "2026-07-03",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "PratyushRanjanDas/ai_Guide Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-03/11-pratyushranjandas-ai-guide.md"
-    },
-    {
-      "title": "ignacioCrespoDeveloper/strategy-game",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ignacioCrespoDeveloper/strategy-game",
-      "date": "2026-07-03",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ignacioCrespoDeveloper/strategy-game Stars: 1 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-03/12-ignaciocrespodeveloper-strategy-game.md"
-    },
-    {
-      "title": "dabstractor/stagehand",
-      "source": "GitHub Search API",
-      "url": "https://github.com/dabstractor/stagehand",
-      "date": "2026-07-03",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI-powered commit manager (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-03/13-dabstractor-stagehand.md"
-    },
-    {
-      "title": "b9860",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9860",
-      "date": "2026-07-02",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "llama : add llama_model_ftype_name() (#25134) * llama : add llama_model_ftype_name() Expose the model file type (quantization) name, e.g. \"Q8_0\" or \"Q4_K - Medium\", through a new public C API. The returned pointer is valid for the lifetime of the model and nullptr when the model is invalid or the file type is unknown. Signed-off-by: Adrien Gallouët * Expo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-02/14-b9860.md"
-    },
-    {
-      "title": "b9859",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9859",
-      "date": "2026-07-01",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "opencl: allow loading precompiled binary kernels from library (#23042) * opencl: allow loading binary kernel * opencl: add libdl.h * ggml-backend-dl is in ggml, which depends backend libs, thus ggml-opencl cannot depend on ggml-backend-dl * add libdl.h to break cyclic dep * opencl: allow loading bin kernel lib * opencl: load `gemm_moe_mxfp4_f32_ns` from k... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-01/15-b9859.md"
-    },
-    {
-      "title": "b9858",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9858",
-      "date": "2026-07-01",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "common : use hf primary split as model path (#25194) Fixes #25181 **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9858/llama-b9858-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://github.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-01/16-b9858.md"
-    },
-    {
-      "title": "b9857",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9857",
-      "date": "2026-07-01",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "hexagon: flash attention rework (optimizations, accuracy improvements, etc) (#25085) * hex-mm: fold mm quant tasks into the main matmul threads * hex-mm: minor formatting fixes * hex-mm: cleanup is_quant checks in dma dispatch * hex-mm: fix dst-spad alignment * hex-mm: move fp kernels in the hvx-mm-kernels header * hex-mm: fuse with ADD * hex-fa: factor o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-01/17-b9857.md"
-    },
-    {
-      "title": "Show HN: Margarita - Programming language for Agents using Markdown-ish syntax",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.margarita.run",
-      "date": "2026-07-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "On my list of build it from scratch has always been to build a programming language. So with the help of AI I was able to get it done! Why did I build it? At work I've seen two major problems with our ai workflows/ skills libraries. There is a lack of determinism when your whole workflow is a markdown file of 100 steps, and markdown skill libraries lack c... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/06-show-hn-margarita-programming-language-for-agents-using-markdown-ish-s.md"
-    },
-    {
-      "title": "Show HN: Simulate what AI agents do to an engineering org (no signup)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.orgonaut.co/tools/agentic-reorg-simulator/",
-      "date": "2026-07-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Simulate what AI agents do to an engineering org (no signup) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-01/07-show-hn-simulate-what-ai-agents-do-to-an-engineering-org-no-signup.md"
-    },
-    {
-      "title": "Show HN: CLI that helps AI agents avoid vulnerable dependencies",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/clidey/deptrust",
-      "date": "2026-07-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "deptrust is a CLI that checks package versions for known vulnerabilities across npm, PyPI, crates.io, Go modules, RubyGems, NuGet, Maven, Packagist, pub.dev, CocoaPods, Hex.pm, Hackage, GitHub Actions, and more. It runs locally as a CLI and as an MCP server. It calls public package registry and OSV APIs directly; there is no hosted deptrust service. I bui... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-01/08-show-hn-cli-that-helps-ai-agents-avoid-vulnerable-dependencies.md"
-    },
-    {
-      "title": "Optimal Resource Utilization for Autonomous Laboratory Orchestrators",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.01188v1",
-      "date": "2026-07-01",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "In autonomous laboratories, AI agents suggest the next batch of experiments to do. However, planning and executing those tasks taking full advantage of the available resources is a completely different question. This can be challenging when dealing with real-world hardware constraints, especially so when there are multiple instruments with different capac... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-01/09-optimal-resource-utilization-for-autonomous-laboratory-orchestrators.md"
     }
   ]
 }
