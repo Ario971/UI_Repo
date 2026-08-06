@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T07:31:28.780Z",
+  "updated_at": "2026-08-06T07:32:07.584Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Capy – A Git-style platform for managing your team's secrets",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/capysc/capy-cli",
+      "date": "2026-08-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN! We're all spending more and more time making stuff with agents, but I've noticed that one of the things that is the most disconnected from my daily engineering workflow is dealing with secrets and credentials. It often involves a lot of click-ops, copying/pasting, and collaboration, and none of the secrets management products out there have trul... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/06-show-hn-capy-a-git-style-platform-for-managing-your-team-s-secrets.md"
+    },
+    {
+      "title": "Show HN: Ocean – All your team's agent sessions in one place",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://ocean.mosaic.inc/",
+      "date": "2026-08-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I spend a lot of time in Claude Code and Codex with my friend. We kept losing the context behind changes because every agent session lived on one person's laptop, and by the time code made it into a PR, all the reasoning was gone. We tried commits, PRs, and docs, but they only really capture the end result, so we built a tool to keep all of our agent sess... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/07-show-hn-ocean-all-your-team-s-agent-sessions-in-one-place.md"
+    },
+    {
+      "title": "Characterizing Visual Accessibility Issues in AI Developer Tools: An Empirical Study",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.05116v1",
+      "date": "2026-08-05",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI-assisted developer tools increasingly mediate programming through chat panels, terminal agents, generated diffs, and streaming status output. These interaction surfaces may create visual accessibility barriers for blind, low-vision, and color-vision-deficient developers, yet little is known about how such barriers are reported in public tool ecosystems... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/08-characterizing-visual-accessibility-issues-in-ai-developer-tools-an-em.md"
+    },
+    {
+      "title": "CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.05107v1",
+      "date": "2026-08-05",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI-supported care planning can help clinicians, patients, caregivers, and care teams coordinate complex decisions across clinical, functional, psychosocial, and environmental needs. However, many AI systems present recommendations as fixed outputs, limiting stakeholders' ability to inspect, challenge, and revise plans when they conflict with clinical judg... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/09-coplan-a-trustworthy-co-intelligence-interface-for-care-planning-throu.md"
+    },
+    {
+      "title": "junleynes/aitools",
+      "source": "GitHub Search API",
+      "url": "https://github.com/junleynes/aitools",
+      "date": "2026-08-04",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "junleynes/aitools Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/10-junleynes-aitools.md"
+    },
+    {
+      "title": "GunaTeja777/SpotiGlory",
+      "source": "GitHub Search API",
+      "url": "https://github.com/GunaTeja777/SpotiGlory",
+      "date": "2026-08-06",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "SpotiGlory is a Spotify analytics web app that turns your listening history into personal insights. It analyzes genres, artists, listening time, and behavior patterns to build a music profile and AI-generated narrative. Built with TypeScript and Next.js, it features a modern Liquid Glass UI and responsive design. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/11-gunateja777-spotiglory.md"
+    },
+    {
+      "title": "winwinrina/PoseForge",
+      "source": "GitHub Search API",
+      "url": "https://github.com/winwinrina/PoseForge",
+      "date": "2026-08-06",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI 私人健身教练 — 体态评估 + AI 训练/饮食计划 + 对话式教练 Agent（LangGraph + RAG + React） (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/12-winwinrina-poseforge.md"
+    },
+    {
+      "title": "Show HN: Sift – MCP aggregator that exposes 2 tools instead of hundreds",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/Narasimha1997/sift",
+      "date": "2026-08-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Sift – MCP aggregator that exposes 2 tools instead of hundreds (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/13-show-hn-sift-mcp-aggregator-that-exposes-2-tools-instead-of-hundreds.md"
+    },
+    {
+      "title": "you can now buy llm's at your local supermarket",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgj0h8/you_can_now_buy_llms_at_your_local_supermarket/",
+      "date": "2026-08-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/ECrispy [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-05/14-you-can-now-buy-llm-s-at-your-local-supermarket.md"
+    },
+    {
+      "title": "Qwen Developers' responses from their recent Twitter/X AMA",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg569y/qwen_developers_responses_from_their_recent/",
+      "date": "2026-08-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Questions & Responses(in BOLD ) below. Favorite question(s) moved to end of the thread with combined responses(removed duplicates). Be optimistic folks. I'm sure we're getting other models too apart from 27B. And 27B gonna make massive noise on release. (Based on their responses) Tweet thread : https://xcancel.com/QwenDevs/status/2084102417885585597#m you... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-05/15-qwen-developers-responses-from-their-recent-twitter-x-ama.md"
+    },
+    {
+      "title": "Get AI max+ 395 laptop or wait for rtx spark?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgqwyf/get_ai_max_395_laptop_or_wait_for_rtx_spark/",
+      "date": "2026-08-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So I can either pull the trigger on a 128gb AI max+ 395 laptop or wait for RTX Spark for LLMs. Maybe I get it now and the price of the spark is super high so it's a good purchase or maybe the Spark shocks everyone with a low price and I forever regret my purchasing decision. What do yall think? submitted by /u/Dance-Till-Night1 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/16-get-ai-max-395-laptop-or-wait-for-rtx-spark.md"
+    },
+    {
+      "title": "GLM/Qwen Appreciation Post",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgtkgc/glmqwen_appreciation_post/",
+      "date": "2026-08-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://preview.redd.it/o6ik6qboeohh1.png?width=1134&format=png&auto=webp&s=4016f26c50c1d93bd3d0c7e880e9b55a2d75310f I have been running Qwen3.6 27b for a little while (mostly coding tasks) and recently trying out V4 flash 0731 in it's place. It was very apparent the new v4 flash will make more stuff up, and confidently. Despite closeish overall benchmark... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/17-glm-qwen-appreciation-post.md"
+    },
     {
       "title": "Show HN: Mint MCP – Generate 3D assets from coding agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Mental health disorders affect nearly one billion people globally, yet 75% of individuals in low- and middle-income countries receive no treatment due to workforce shortages, cost barriers, and stigma. Current AI-powered wellness solutions predominantly rely on single-mode conversational interfaces that suffer high abandonment rates and fail to provide me... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/09-copewell-a-multi-agent-swarm-architecture-for-equitable-mental-wellnes.md"
-    },
-    {
-      "title": "Show HN: Opbox – CRDT based sync for text files on disk",
-      "source": "Hacker News Show HN",
-      "url": "https://www.opbox.dev/",
-      "date": "2026-07-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi! I’m one of the founders of s2.dev, and recently have been hacking on opbox, which is an open-source daemon that turns directories of text files (code, markdown, etc) into collaborative, multi-player workspaces. This started as a bit of an intellectual curiosity, to see if it was possible to do real-time sync at the filesystem level (i.e., in an editor... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-03/10-show-hn-opbox-crdt-based-sync-for-text-files-on-disk.md"
-    },
-    {
-      "title": "Show HN: Pull Claude Code transcripts into your Codex session, and vice versa",
-      "source": "Hacker News Show HN",
-      "url": "https://contextify.sh/",
-      "date": "2026-07-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm Rob. Contextify indexes every Claude Code and Codex session on your machine into one local, searchable database. The current session, in either tool, can search all of it: /total-recall in Claude Code, $total-recall in Codex. Demo: https://www.youtube.com/watch?v=FvrvRGp4C9M | Mac app: https://contextify.sh (App Store or DMG) | Linux: CLI with... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-03/11-show-hn-pull-claude-code-transcripts-into-your-codex-session-and-vice-.md"
-    },
-    {
-      "title": "hasitpbhatt/devcheap",
-      "source": "GitHub Search API",
-      "url": "https://github.com/hasitpbhatt/devcheap",
-      "date": "2026-07-04",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "hasitpbhatt/devcheap Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-04/12-hasitpbhatt-devcheap.md"
-    },
-    {
-      "title": "Show HN: Classify mechanical faults using Contrastive Language-Audio Pretraining",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/adam-s/car-diagnosis",
-      "date": "2026-07-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Classify mechanical faults using Contrastive Language-Audio Pretraining (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-01/13-show-hn-classify-mechanical-faults-using-contrastive-language-audio-pr.md"
-    },
-    {
-      "title": "Qwen3.6-27b-mtp-q8 successfully created an A* pathfinding implementation on a test game built in Java from scratch.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/",
-      "date": "2026-07-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I used Claude Code locally running this model. Took a surprisingly long amount of time to pull off. This game is just a test game my friend is making and we're both vibecoding. He uses Codex due to lack of hardware for local models to do the graphics, UI and lighting, while I vibecode with this model on the gameplay, AI and technical sides of this game's... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-04/14-qwen3-6-27b-mtp-q8-successfully-created-an-a-pathfinding-implementatio.md"
-    },
-    {
-      "title": "According to Bernstein, SK Hynix has 90% profit margin on dram",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umgsu2/according_to_bernstein_sk_hynix_has_90_profit/",
-      "date": "2026-07-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://x.com/jukan05/status/2073032040451366952 https://www.google.com/search?q=bernstein+dram+report Now if we could get them down to a typical automotive profit margin of 5%, then we would have ram for our local systems at 1/10th the cost? submitted by /u/Terminator857 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-03/15-according-to-bernstein-sk-hynix-has-90-profit-margin-on-dram.md"
-    },
-    {
-      "title": "Qwen 27B",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umk3ax/qwen_27b/",
-      "date": "2026-07-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Just a datapoint I wanted to share.Qwen 27b, at q6kxl, with multi-token prediction, on a 4090+3090 system, using lcpp, puts out 50-90 tokens/s decode and 1500-2200 token/s pre-fill. Regardless of harness, it reliably interfaces with every API I have asked it to as long as I can link it to the docs. It generates code that works, all the way from single-pag... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-03/16-qwen-27b.md"
-    },
-    {
-      "title": "Deepseek V4 Flash running on RTX 5090 MoE",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umsik8/deepseek_v4_flash_running_on_rtx_5090_moe/",
-      "date": "2026-07-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Here is the results of optimizing it for my setup: Benchmark results of the optimisation showing TG T/S from 22.7 to 21.3, and PP T/S from 1105 to 927, test ranges Prompt Processing from 8192 tokens to 65536 tokens, and is set to MoE with no unified KV, no memory map, n-cpu-moe 37 My setup: X870 AORUS ELITE WIFI7 AMD Ryzen 9 9900X3D (24) @ 4.40 GHz NVIDIA... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-03/17-deepseek-v4-flash-running-on-rtx-5090-moe.md"
-    },
-    {
-      "title": "Show HN: Imagent – agentic image/video/speech generation",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/unliftedq/imagent",
-      "date": "2026-07-03",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Imagent gives AI agents the ability to generate images, video, and speech as a first-class step in their workflows, behind a single interface that hides the differences between providers and models (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-03/06-show-hn-imagent-agentic-image-video-speech-generation.md"
-    },
-    {
-      "title": "Show HN: ctx – Search the coding agent history already on your machine",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/ctxrs/ctx",
-      "date": "2026-07-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Coding agents don't have long-term memory. But you do have months of full-fidelity agent transcripts stored on your machine. A simple solution that goes a long way: ingest those transcripts and logs into a structured SQLite database, then search them with ranked text match. Everything is fully local and doesn't require anything fancy like a graph database... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/07-show-hn-ctx-search-the-coding-agent-history-already-on-your-machine.md"
-    },
-    {
-      "title": "tharunverse08/voyagefalcon",
-      "source": "GitHub Trending",
-      "url": "https://github.com/tharunverse08/voyagefalcon",
-      "date": "2026-07-03",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI-powered trip planning agent - Kaggle AI Agents Capstone (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-03/08-tharunverse08-voyagefalcon.md"
-    },
-    {
-      "title": "Jul 2, 2026 Announcements More details on Fable 5’s cyber safeguards and our jailbreak framework",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-      "date": "2026-07-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Jul 2, 2026 Announcements More details on Fable 5’s cyber safeguards and our jailbreak framework (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/09-jul-2-2026-announcements-more-details-on-fable-5-s-cyber-safeguards-an.md"
     }
   ]
 }

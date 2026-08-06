@@ -1,10 +1,186 @@
 {
-  "last_checked_at": "2026-08-05T07:32:00.964Z",
+  "last_checked_at": "2026-08-06T07:32:51.959Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "huangruiteng/loopx",
+      "name": "huangruiteng/loopx",
+      "url": "https://github.com/huangruiteng/loopx",
+      "date": "2026-08-06",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 100,
+      "risk": 30,
+      "integration_effort": 44,
+      "expected_gain": 85,
+      "composite": 84,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
+          "date": "2026-07-29",
+          "topic": "AI agents",
+          "similarity": 0.329,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/09-what-does-it-take-to-detect-an-ai-agent-minimal-feature-sets-for-behav.md"
+        },
+        {
+          "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+          "date": "2026-07-23",
+          "topic": "AI agents",
+          "similarity": 0.318,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/07-show-hn-onecli-oss-credential-gateway-that-keeps-secrets-out-of-ai-age.md"
+        },
+        {
+          "title": "Agent Data Injection Attacks are Realistic Threats to AI Agents",
+          "date": "2026-07-06",
+          "topic": "AI agents",
+          "similarity": 0.314,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/07-agent-data-injection-attacks-are-realistic-threats-to-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-06)",
+        "MIT license",
+        "2430 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
+        }
+      ],
+      "install_commands": [
+        "Codex / Claude Code / Cursor / shell agent executes one turn",
+        "git clone https://github.com/huangruiteng/loopx ~/loopx"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-29 about AI agents; this candidate overlaps with \"What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-06/01-huangruiteng-loopx.md"
+    },
+    {
+      "id": "sgl-project/sglang",
+      "name": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang",
+      "date": "2026-08-06",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "ai_dev_tool",
+      "compatibility": 67,
+      "momentum": 100,
+      "risk": 27,
+      "integration_effort": 50,
+      "expected_gain": 77,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Qwen Developers' responses from their recent Twitter/X AMA",
+          "date": "2026-08-05",
+          "topic": "Local LLMs",
+          "similarity": 0.181,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-05/15-qwen-developers-responses-from-their-recent-twitter-x-ama.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-06)",
+        "Apache-2.0 license",
+        "31393 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-05 about Local LLMs; this candidate overlaps with \"Qwen Developers' responses from their recent Twitter/X AMA\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-06/02-sgl-project-sglang.md"
+    },
+    {
+      "id": "agentpostmortem/agentrace",
+      "name": "AgentPostmortem/Agentrace",
+      "url": "https://github.com/AgentPostmortem/Agentrace",
+      "date": "2026-08-06",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 44,
+      "expected_gain": 77,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
+          "date": "2026-07-08",
+          "topic": "AI agents",
+          "similarity": 0.381,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
+        },
+        {
+          "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
+          "date": "2026-07-30",
+          "topic": "AI dev tools",
+          "similarity": 0.302,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
+        },
+        {
+          "title": "scian0204/ClaudeCodeWorkspace",
+          "date": "2026-08-04",
+          "topic": "AI dev tools",
+          "similarity": 0.256,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/11-scian0204-claudecodeworkspace.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-06)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, requires-python, dependencies, packages, dev, agentrace"
+        }
+      ],
+      "install_commands": [
+        "pip install -e \".[dev]\""
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-07-08 about AI agents; this candidate overlaps with \"Show HN: Abralo – Free, easy way to run several Claude Code agents in one window\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-06/03-agentpostmortem-agentrace.md"
+    },
     {
       "id": "echovic/orca-agent",
       "name": "echoVic/orca-agent",
