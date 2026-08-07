@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T07:32:07.584Z",
+  "updated_at": "2026-08-07T06:04:08.781Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Bennyoooo/write-like-me",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Bennyoooo/write-like-me",
+      "date": "2026-08-06",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Local-first writing voice memory for Codex, Claude Code, OpenCode, Gemini CLI, Cursor, and other AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/06-bennyoooo-write-like-me.md"
+    },
+    {
+      "title": "Aug 4, 2026 Announcements Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "date": "2026-08-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Aug 4, 2026 Announcements Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/07-aug-4-2026-announcements-mariano-florentino-tino-cu-llar-to-join-anthr.md"
+    },
+    {
+      "title": "Show HN: Open-source pixel art editor with animation and auto-tiling tilesets",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://simplepixelart.com/editor",
+      "date": "2026-08-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! I built a free pixel art editor that runs entirely in the browser — no install, no signup, no watermark. The frontend is open source (MIT): https://github.com/comficker/simplepixelart What it does: - Sprite editor with layers, selections, mirror drawing, and an infinite-canvas workspace (multiple boards on one desk) - Frame-by-frame animation with... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/08-show-hn-open-source-pixel-art-editor-with-animation-and-auto-tiling-ti.md"
+    },
+    {
+      "title": "Show HN: AI Tutoring with Visual Grounding",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://useknowable.ai/",
+      "date": "2026-08-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I've always felt that AI tutoring as we see it now is going in the wrong direction. I made Knowable as a way to see if it's possible to have a real AI tutor. Because of hardware limitations it can only be used on Macbooks 2023+. Let me know your thoughts! (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/09-show-hn-ai-tutoring-with-visual-grounding.md"
+    },
+    {
+      "title": "Show HN: demake – one source project compiles to any retro game console ROM",
+      "source": "Hacker News Show HN",
+      "url": "https://geosona.com/demake/",
+      "date": "2026-08-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "This started life as a graphics tool for a specific problem: gen AI can make retro-styled sprites but can't follow exact hardware constraints of pixels and colors. While building this I liked the idea that I can fan-out to any retro videogame console or handheld's specifications. I then devised my own declarative language - Demotic - to express the game y... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/10-show-hn-demake-one-source-project-compiles-to-any-retro-game-console-r.md"
+    },
+    {
+      "title": "kwakuoseikwakye/alacran",
+      "source": "GitHub Search API",
+      "url": "https://github.com/kwakuoseikwakye/alacran",
+      "date": "2026-08-06",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Give your AI a memory of your business — a local-first control panel for running an AI-native company on your own machine. MIT. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/11-kwakuoseikwakye-alacran.md"
+    },
+    {
+      "title": "adityasaxena-ai/OpsPilot-AI",
+      "source": "GitHub Search API",
+      "url": "https://github.com/adityasaxena-ai/OpsPilot-AI",
+      "date": "2026-08-07",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Autonomous IT Operations Control Tower powered by AI, OpenTelemetry and intelligent incident management. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/12-adityasaxena-ai-opspilot-ai.md"
+    },
+    {
+      "title": "thatbrowncraft/cellfie",
+      "source": "GitHub Search API",
+      "url": "https://github.com/thatbrowncraft/cellfie",
+      "date": "2026-08-07",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Cellfie AI Library (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/13-thatbrowncraft-cellfie.md"
+    },
+    {
+      "title": "b10298",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10298",
+      "date": "2026-08-06",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "mtmd: add chunk save/load function (#26645) * mtmd: add chunk save/load function * nits * add tests * rn _MAX --> _COUNT **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10298/llama-b10298-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/14-b10298.md"
+    },
+    {
+      "title": "b10297",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10297",
+      "date": "2026-08-06",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "server: fix empty response for /cors-proxy (#26656) **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10297/llama-b10297-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://gith... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/15-b10297.md"
+    },
+    {
+      "title": "b10295",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10295",
+      "date": "2026-08-06",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "model-loader : fix quantized reshaped tensor strides (#26672) **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10295/llama-b10295-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](ht... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/16-b10295.md"
+    },
+    {
+      "title": "b10293",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10293",
+      "date": "2026-08-06",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ci : onboard AMD ROCm CI with gfx1151 fixes (#26544) * ci: prepare for amd rocm ci Signed-off-by: Aaron Teo * ci: fix editorconfig-checker Signed-off-by: Aaron Teo * ci: fix device not recognised Signed-off-by: Aaron Teo * ci: rename gpu-amd to gpu-hip Signed-off-by: Aaron Teo * ci: gpu-hip to gpu-rocm haha Signed-off-by: Aaron Teo * CUDA: allow integrate... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/17-b10293.md"
+    },
     {
       "title": "Show HN: Capy – A Git-style platform for managing your team's secrets",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I kept hitting the same wall: AI assistants are great until they need my context — the email thread, the calendar, the iMessage, the file on my disk. Cloud connectors can only reach things with a public API, so they physically can't touch the stuff that lives only on my machine. So I built Local MCP — a native macOS app that connects Claude Desktop, Claud... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/09-show-hn-local-mcp-claude-chatgpt-read-your-imessage-teams-files-on-dev.md"
-    },
-    {
-      "title": "Show HN: I built an encrypted BLE dongle for pasting stuff to air-gapped devices",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Brisk4t/ToothPaste",
-      "date": "2026-07-04",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Definitely one of those \"20 minute adventure gone wrong\" projects where all I wanted initially was a quick wireless rubber ducky for bitlocker keys and the like and then I kept adding stuff like AES-256..... Currently working on adding WebAuthn/FIDO support because the hardware is already there and scope creep is a lifestyle at this point. Would love feed... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-04/10-show-hn-i-built-an-encrypted-ble-dongle-for-pasting-stuff-to-air-gappe.md"
-    },
-    {
-      "title": "opsvr-ai/game-workspace",
-      "source": "GitHub Search API",
-      "url": "https://github.com/opsvr-ai/game-workspace",
-      "date": "2026-07-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "陪玩工作室 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/11-opsvr-ai-game-workspace.md"
-    },
-    {
-      "title": "mnimtz/nimtaflow",
-      "source": "GitHub Search API",
-      "url": "https://github.com/mnimtz/nimtaflow",
-      "date": "2026-07-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Self-hosted, privacy-first photo & video manager — AI search, face recognition, map & 3D globe, memories, and a native iOS app. Your hardware, your data. AGPL-3.0. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/12-mnimtz-nimtaflow.md"
-    },
-    {
-      "title": "zhanjiyun/markflow",
-      "source": "GitHub Search API",
-      "url": "https://github.com/zhanjiyun/markflow",
-      "date": "2026-07-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "MarkFlow 是一个基于 Tauri v2 的跨平台 Markdown 编辑器，提供 Typora 式的体验，内置 AI 写作助手，所有数据完全本地存储。 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/13-zhanjiyun-markflow.md"
-    },
-    {
-      "title": "b9873",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9873",
-      "date": "2026-07-04",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "llama : add guard for K/V rotation input when buffer is unallocated (#25215) llm_graph_input_attn_kv::set_input and llm_graph_input_attn_kv_iswa::set_input call set_input_k_rot / set_input_v_rot whenever the rotation tensor pointer is non-null, but the tensor's buffer can be unallocated (NULL) when a graph only stores K/V without attending -- e.g. DFlash... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-04/14-b9873.md"
-    },
-    {
-      "title": "b9871",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9871",
-      "date": "2026-07-04",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ggml : fix broken CPU concat implementation for quantized types (#25247) * ggml : fix broken CPU concat implementation for quantized types * tests : concat tests for quantized types --------- Co-authored-by: Stanisław Szymczyk **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9871/llama-b9871-bin-macos... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-04/15-b9871.md"
-    },
-    {
-      "title": "b9870",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9870",
-      "date": "2026-07-03",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "chat: trim messages sent to StepFun parser (fixes long reasoning loops) (#25238) * chat: trim messages sent to StepFun parser (fixes long reasoning loops) * add regression test; remove duplicate template * chat: trim StepFun content parts before rendering The StepFun trim workaround ran on the already-rendered messages, where typed content parts have been... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-03/16-b9870.md"
-    },
-    {
-      "title": "b9867",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9867",
-      "date": "2026-07-03",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "spec: support spec-draft-p-min in DFlash (#25246) * spec: support spec-draft-p-min in DFlash * dflash: add n_min guard * dflash: guard both n_min and n_max **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b9867/llama-b9867-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLE... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-03/17-b9867.md"
-    },
-    {
-      "title": "Distributed Attacks in Persistent-State AI Control",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.02514v1",
-      "date": "2026-07-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR with the best natural cover. To study the resulting dynamic... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/06-distributed-attacks-in-persistent-state-ai-control.md"
-    },
-    {
-      "title": "Seek to Segment: Active Perception for Panoramic Referring Segmentation",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.02497v1",
-      "date": "2026-07-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Existing referring segmentation models passively process static images captured from fixed perspectives, limiting their applicability in Embodied AI, where agents must perform active perception in the continuous 360$^\\circ$ environments. To bridge this gap, we introduce a novel task: Active Panoramic Referring Segmentation (APRS). In this setting, an agen... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/07-seek-to-segment-active-perception-for-panoramic-referring-segmentation.md"
-    },
-    {
-      "title": "Adoption and Ecosystem Health: A Longitudinal Analysis of Open-Source Multi-Agent Frameworks",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.02453v1",
-      "date": "2026-07-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Since ChatGPT's launch in November 2022, open-source agentic frameworks have proliferated, making framework selection important for engineering teams while obscured by popularity signals such as GitHub stars. This paper analyzes 15 major open-source AI agent framework repositories from late 2022 to early 2026, using 808,042 stars, 73,997 pull requests, 86... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/08-adoption-and-ecosystem-health-a-longitudinal-analysis-of-open-source-m.md"
-    },
-    {
-      "title": "Copewell: A Multi-Agent Swarm Architecture for Equitable Mental Wellness Support",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.02245v1",
-      "date": "2026-07-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Mental health disorders affect nearly one billion people globally, yet 75% of individuals in low- and middle-income countries receive no treatment due to workforce shortages, cost barriers, and stigma. Current AI-powered wellness solutions predominantly rely on single-mode conversational interfaces that suffer high abandonment rates and fail to provide me... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-02/09-copewell-a-multi-agent-swarm-architecture-for-equitable-mental-wellnes.md"
     }
   ]
 }

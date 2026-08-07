@@ -1,10 +1,223 @@
 {
-  "last_checked_at": "2026-08-06T07:32:51.959Z",
+  "last_checked_at": "2026-08-07T06:04:54.867Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "bennyoooo/write-like-me",
+      "name": "Bennyoooo/write-like-me",
+      "url": "https://github.com/Bennyoooo/write-like-me",
+      "date": "2026-08-07",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 92,
+      "momentum": 52,
+      "risk": 40,
+      "integration_effort": 36,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Bennyoooo/write-like-me",
+          "date": "2026-08-06",
+          "topic": "AI agents",
+          "similarity": 0.855,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/06-bennyoooo-write-like-me.md"
+        },
+        {
+          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
+          "date": "2026-07-08",
+          "topic": "AI agents",
+          "similarity": 0.364,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
+        },
+        {
+          "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
+          "date": "2026-07-30",
+          "topic": "AI dev tools",
+          "similarity": 0.342,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-07)",
+        "MIT license",
+        "2 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/Bennyoooo/write-like-me.git",
+        "pip install -e '.[dev]'",
+        "pipx install ."
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-06 about AI agents; this candidate overlaps with \"Bennyoooo/write-like-me\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-07/01-bennyoooo-write-like-me.md"
+    },
+    {
+      "id": "dcc-mcp/dcc-mcp-core",
+      "name": "dcc-mcp/dcc-mcp-core",
+      "url": "https://github.com/dcc-mcp/dcc-mcp-core",
+      "date": "2026-08-07",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 80,
+      "momentum": 72,
+      "risk": 40,
+      "integration_effort": 44,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "yearningss/gamemaker-mcp",
+          "date": "2026-07-25",
+          "topic": "AI dev tools",
+          "similarity": 0.364,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/13-yearningss-gamemaker-mcp.md"
+        },
+        {
+          "title": "Llama.cpp now has full MCP support!",
+          "date": "2026-07-25",
+          "topic": "Local LLMs",
+          "similarity": 0.272,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/14-llama-cpp-now-has-full-mcp-support.md"
+        },
+        {
+          "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+          "date": "2026-08-03",
+          "topic": "AI agents",
+          "similarity": 0.267,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-03/06-show-hn-product-analytics-and-evals-for-agent-sessions-on-your-mcp.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-07)",
+        "MIT license",
+        "39 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, authors, readme, license"
+        },
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-25 about AI dev tools; this candidate overlaps with \"yearningss/gamemaker-mcp\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-07/02-dcc-mcp-dcc-mcp-core.md"
+    },
+    {
+      "id": "ggui-ai/ggui",
+      "name": "ggui-ai/ggui",
+      "url": "https://github.com/ggui-ai/ggui",
+      "date": "2026-08-07",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 84,
+      "momentum": 73,
+      "risk": 32,
+      "integration_effort": 60,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Reverse-engineering web apps into agent tools",
+          "date": "2026-07-09",
+          "topic": "AI agents",
+          "similarity": 0.305,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
+        },
+        {
+          "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
+          "date": "2026-07-29",
+          "topic": "AI agents",
+          "similarity": 0.28,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/09-what-does-it-take-to-detect-an-ai-agent-minimal-feature-sets-for-behav.md"
+        },
+        {
+          "title": "superduperlarry/enosone",
+          "date": "2026-07-05",
+          "topic": "AI agents",
+          "similarity": 0.269,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/07-superduperlarry-enosone.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-07)",
+        "Apache-2.0 license",
+        "39 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @changesets/changelog-github, @changesets/cli; scripts build, typecheck, test, lint, changeset, version, release"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/ggui-ai/ggui && cd ggui",
+        "pnpm install",
+        "pnpm dev                     # starts ggui + MCP servers + agent + web, then opens the app",
+        "npm install -g @ggui-ai/cli",
+        "pnpm dev",
+        "pnpm dev --verbose"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-09 about AI agents; this candidate overlaps with \"Show HN: Reverse-engineering web apps into agent tools\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-07/03-ggui-ai-ggui.md"
+    },
     {
       "id": "huangruiteng/loopx",
       "name": "huangruiteng/loopx",
