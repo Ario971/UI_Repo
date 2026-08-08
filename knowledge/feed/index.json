@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T06:04:08.781Z",
+  "updated_at": "2026-08-08T05:34:37.532Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Zaivern Code – a Rust cockpit for parallel AI coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/tacyan/zaivern-code",
+      "date": "2026-08-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Zaivern Code – a Rust cockpit for parallel AI coding agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/06-show-hn-zaivern-code-a-rust-cockpit-for-parallel-ai-coding-agents.md"
+    },
+    {
+      "title": "Show HN: Mirafold – Your Agent with Generative UI (Codex, Claude Code, Gemini)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://mirafold.com/",
+      "date": "2026-08-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I love terminal agents, but I don't love the decades-old-looking basic markdown interface. So I made Mirafold. Mirafold is an open source faithful browser re-skin of the terminal agent you already use (Codex, Claude Code, Gemini CLI). Nothing has changed about what your agent says or does except that now it's rendered more beautifully and with more functi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/07-show-hn-mirafold-your-agent-with-generative-ui-codex-claude-code-gemin.md"
+    },
+    {
+      "title": "Show HN: Akintu – AI agents trained on custom knowledge bases using RAG",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://akintu.ai",
+      "date": "2026-08-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Akintu – AI agents trained on custom knowledge bases using RAG (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/08-show-hn-akintu-ai-agents-trained-on-custom-knowledge-bases-using-rag.md"
+    },
+    {
+      "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.06353v1",
+      "date": "2026-08-06",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism seeks to establish the Safe AI paradigm that compute is an e... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/09-resourced-authority-a-mechanism-design-model-for-participatory-governa.md"
+    },
+    {
+      "title": "Show HN: Wyzer Programming Language",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/Wyzer-Lang/wyzer",
+      "date": "2026-08-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "So i've been working on this project since a few days (or months i should say), it's called wyzer (meaning wiser) it's a statically typed, compiled, resource-oriented programming language with integrated distributed safety via choreographic programming and perceus memory model, The reason why i began this project is out of frustration from Rust, you see i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/10-show-hn-wyzer-programming-language.md"
+    },
+    {
+      "title": "Show HN: Which devtools win when LLMs plan real web apps",
+      "source": "Hacker News Show HN",
+      "url": "https://preseason.ai",
+      "date": "2026-08-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Which devtools win when LLMs plan real web apps (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/11-show-hn-which-devtools-win-when-llms-plan-real-web-apps.md"
+    },
+    {
+      "title": "hujianbest/cool-ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/hujianbest/cool-ai",
+      "date": "2026-08-08",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "agent system for fun (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-08/12-hujianbest-cool-ai.md"
+    },
+    {
+      "title": "luoyh21/orbit-copilot",
+      "source": "GitHub Search API",
+      "url": "https://github.com/luoyh21/orbit-copilot",
+      "date": "2026-08-08",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Offline-first AI copilot for space debris monitoring and STARMAD-COMET (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-08/13-luoyh21-orbit-copilot.md"
+    },
+    {
+      "title": "Got job as Director of AI and Systems development self-taught",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi8jlr/got_job_as_director_of_ai_and_systems_development/",
+      "date": "2026-08-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, I just wanted to share my journey here for some motivation. Three years ago, I saw the sudden spike in AI and realized it was the future of tech. My goal at the time was to be an indie game dev, and seeing that AI could write basic code, I told myself I needed to master it or risk being replaced. I started by learning how to add knowledge to... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-07/14-got-job-as-director-of-ai-and-systems-development-self-taught.md"
+    },
+    {
+      "title": "parakeet.wgsl – Fast, accurate ASR in the browser, via raw WebGPU & SIMD WASM",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi77dr/parakeetwgsl_fast_accurate_asr_in_the_browser_via/",
+      "date": "2026-08-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "High-performance inference of NVIDIA's Parakeet TDT 0.6B V2 English transcription model, in the browser. Check out the live demo: https://parakeet.narcotic.sh/ A fully custom, dependancy-free implementation with raw WebGPU compute shaders and SIMD WebAssembly audio frontend. 1 hour of audio transcribed in 20 seconds (Apple M5, Google Chrome 151.0.7922.72)... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-07/15-parakeet-wgsl-fast-accurate-asr-in-the-browser-via-raw-webgpu-simd-was.md"
+    },
+    {
+      "title": "what will be the future of LocalLLaMA?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhugh3/what_will_be_the_future_of_localllama/",
+      "date": "2026-08-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For a long time now, the most popular posts on LocalLLaMA have been either about using LLM in the cloud or about politics. I suspect that people using local models are about 10% now. You can say that this is very good, because now it is an inclusive sub, without gatekeeping. But then what is its purpose? How is it different than all other \"AI subs\"? What... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-07/16-what-will-be-the-future-of-localllama.md"
+    },
+    {
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative and, with Arcee, Unveils Genesis-Science-1 — Its First Open-Weight Model for Scientific Research",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vijp8y/us_department_of_energy_launches_the_genesis_open/",
+      "date": "2026-08-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/johnnyApplePRNG [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-08/17-u-s-department-of-energy-launches-the-genesis-open-models-initiative-a.md"
+    },
     {
       "title": "Bennyoooo/write-like-me",
       "source": "GitHub Trending",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "hey guys, wanted to show one of my side projects i just made public. the idea is basically another osint tool for pentesters and bug bounty hunters. it watches certificate transparency logs and checks newly-seen domains for exposed stuff like .env files, open .git dirs, config files, db dumps and so on, and puts whatever it finds into a searchable db. you... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/09-show-hn-osint-tool-that-finds-exposed-files-on-domains.md"
-    },
-    {
-      "title": "Show HN: I hated how much my 12-year-old played Roblox, so we built our own FPS",
-      "source": "Hacker News Show HN",
-      "url": "https://cooked.house",
-      "date": "2026-07-05",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I'm a father of two, 7 and 12. They are obsessed with Roblox, especially Rivals. Like a lot of parents, we did not love it. We tried the usual things: block it, limit it, set timers.\" It became a daily battle, a lose-lose situation. So I flipped the problem. Instead of fighting what they loved, I decided to lean into it, but with a twist. Why just play an... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/10-show-hn-i-hated-how-much-my-12-year-old-played-roblox-so-we-built-our-.md"
-    },
-    {
-      "title": "Show HN: KiCad in the Browser",
-      "source": "Hacker News Show HN",
-      "url": "https://demo.pcbjam.com/",
-      "date": "2026-07-05",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "KiCad, a PCB EDA suite is now working in a browser, you can try it at the link, there's a demo project or you can bring your own. Firefox is best, Chrome is good, Safari is \"working\". We’re Emergence Engineering, a dev shop from Hungary, mostly working with rich text editors, CRDTs. PCBJam started as my (Viktor, CTO, ex-electrical engineer) hobby project... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/11-show-hn-kicad-in-the-browser.md"
-    },
-    {
-      "title": "Show HN: An unmetered LLM API–$6/month, no token tracking, no limits",
-      "source": "Hacker News Show HN",
-      "url": "https://yolo-auto.com/",
-      "date": "2026-07-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I was once given the advice: Don't waste expensive frontier model credits (GPT/Claude/etc.) on bulk work. Send the boring, repetitive, high-volume jobs to a smaller model, and save the expensive prompts for when you actually need frontier-level reasoning. I complained and told my manager that I shouldnt have to think about using certain models for... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-06/12-show-hn-an-unmetered-llm-api-6-month-no-token-tracking-no-limits.md"
-    },
-    {
-      "title": "Show HN: Logo Design for Busy Founders",
-      "source": "Hacker News Show HN",
-      "url": "https://iconicity.cc",
-      "date": "2026-07-05",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "General purpose illustration tools like adobe illustrator or affinity have a great amount of flexibility but come at the cost of complexity that isn't needed for a logo design tool. So I trimmed down the fat to a minimal set of 10 tools acting on a logo grid, when combined together makes it easy to build quite a surprising variety of logo marks pretty fas... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-05/13-show-hn-logo-design-for-busy-founders.md"
-    },
-    {
-      "title": "I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/",
-      "date": "2026-07-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads — prefill dominates everything, and KV head count beats parameter count I've been running local LLMs for agentic workflows (tool use, coding agents, RAG) and kept seeing people obsess over tg128 (token generation speed) as the headline performance metric. S... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-05/14-i-benchmarked-13-models-at-65k-128k-context-to-find-out-what-actually-.md"
-    },
-    {
-      "title": "Best Local VLMs - July 2026",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoalfq/best_local_vlms_july_2026/",
-      "date": "2026-07-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Share what your favorite models are right now and why . Given the nature of the beast in evaluating VLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in describing your setup (at least hardware and inference engine) nature of your usage (what applications, how much, personal/professional u... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-05/15-best-local-vlms-july-2026.md"
-    },
-    {
-      "title": "As promised, here is the GitHub link for my 100% local voice-to-voice assistant",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uom9zb/as_promised_here_is_the_github_link_for_my_100/",
-      "date": "2026-07-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've posted up earlier versions of this project before, promising a GitHub link, but never got around to pushing the code from my local system. Sorry all, I have a very busy life :P Anyway, without further ado: GitHub: https://github.com/igorbarshteyn/athena Athena is a fully offline, privacy-first voice assistant that runs entirely on local hardware. Ath... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-06/16-as-promised-here-is-the-github-link-for-my-100-local-voice-to-voice-as.md"
-    },
-    {
-      "title": "I developed a 270 million parameter language model entirely from scratch as an independent research project",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoauvk/i_developed_a_270_million_parameter_language/",
-      "date": "2026-07-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The model is built on a custom Transformer architecture featuring Rotary Positional Embeddings, RMSNorm, SwiGLU feed forward layers, grouped query attention, and an efficient autoregressive decoder optimized for local inference. Here is the Huggingface Spaces Demo link - https://huggingface.co/spaces/pranavupadhyaya52/WikiSmartBot For anyone interested in... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-05/17-i-developed-a-270-million-parameter-language-model-entirely-from-scrat.md"
-    },
-    {
-      "title": "Show HN: Two-tier-memory – queryable long-term memory for AI coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/tadelstein9/two-tier-memory",
-      "date": "2026-07-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Two-tier-memory – queryable long-term memory for AI coding agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/06-show-hn-two-tier-memory-queryable-long-term-memory-for-ai-coding-agent.md"
-    },
-    {
-      "title": "superduperlarry/enosone",
-      "source": "GitHub Trending",
-      "url": "https://github.com/superduperlarry/enosone",
-      "date": "2026-07-05",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A consumer webapp that aggregates AI agents (same job as OpenClaw / Hermes Agent: bring any model, run agents in one workspace) but originates from payments: every agent gets working money under owner-defined control. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/07-superduperlarry-enosone.md"
-    },
-    {
-      "title": "Show HN: I trained a language model that thinks the capital of Japan is Paris",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://hamiltonianresearch.xyz/blog/hr-diffuse-1.html",
-      "date": "2026-07-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: I trained a language model that thinks the capital of Japan is Paris (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/08-show-hn-i-trained-a-language-model-that-thinks-the-capital-of-japan-is.md"
-    },
-    {
-      "title": "Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.local-mcp.com/en",
-      "date": "2026-07-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I kept hitting the same wall: AI assistants are great until they need my context — the email thread, the calendar, the iMessage, the file on my disk. Cloud connectors can only reach things with a public API, so they physically can't touch the stuff that lives only on my machine. So I built Local MCP — a native macOS app that connects Claude Desktop, Claud... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/09-show-hn-local-mcp-claude-chatgpt-read-your-imessage-teams-files-on-dev.md"
     }
   ]
 }
