@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:34:37.532Z",
+  "updated_at": "2026-08-09T05:40:00.611Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Algebruh - Cross-check arithmetic claims with Z3, cvc5, and Lean",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/skorotkiewicz/algebruh",
+      "date": "2026-08-08",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Algebruh - Cross-check arithmetic claims with Z3, cvc5, and Lean (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-08/06-show-hn-algebruh-cross-check-arithmetic-claims-with-z3-cvc5-and-lean.md"
+    },
+    {
+      "title": "Show HN: Aidress – LangChain integration for cross-agent discovery and trust",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://docs.langchain.com/oss/python/integrations/tools",
+      "date": "2026-08-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Aidress – LangChain integration for cross-agent discovery and trust (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-09/07-show-hn-aidress-langchain-integration-for-cross-agent-discovery-and-tr.md"
+    },
+    {
+      "title": "Show HN: Try Benzi – A coding harness/agent beating Claude Code itself on Sonnet",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://benzi.fly.dev/about",
+      "date": "2026-08-08",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi y'all. Been working on something that should've been made a long time ago imo. It compiles codebases into O(1) hashmaps that the agent queries to discover the structure of your code/answer questions/write code. It also does complete static analysis checks on any writes the agent makes. Don't take my word for it though. Here are the benchmarks: https://... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-08/08-show-hn-try-benzi-a-coding-harness-agent-beating-claude-code-itself-on.md"
+    },
+    {
+      "title": "Show HN: Faaah – Filesystem as an AI Handler",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/sebastiancarlos/faaah",
+      "date": "2026-08-08",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Faaah – Filesystem as an AI Handler (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-08/09-show-hn-faaah-filesystem-as-an-ai-handler.md"
+    },
+    {
+      "title": "sbguangha/agentmind",
+      "source": "GitHub Search API",
+      "url": "https://github.com/sbguangha/agentmind",
+      "date": "2026-08-09",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AgentMind - complete AI agent in Python: perception, ReAct reasoning, tool calling, long-term memory, human-in-the-loop approval, subagent delegation, context consolidation (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/10-sbguangha-agentmind.md"
+    },
+    {
+      "title": "tonychang925-dev/Julia_core",
+      "source": "GitHub Search API",
+      "url": "https://github.com/tonychang925-dev/Julia_core",
+      "date": "2026-08-09",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "tonychang925-dev/Julia_core Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/11-tonychang925-dev-julia-core.md"
+    },
+    {
+      "title": "Show HN: CrossPlay - Games, puzzles and tools for your e-reader",
+      "source": "Hacker News Show HN",
+      "url": "https://crossplay.ma-r-s.com",
+      "date": "2026-08-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: CrossPlay - Games, puzzles and tools for your e-reader (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/12-show-hn-crossplay-games-puzzles-and-tools-for-your-e-reader.md"
+    },
+    {
+      "title": "Showoff Saturday: Local 4x 6000 Pro (multi-year progression)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj18h4/showoff_saturday_local_4x_6000_pro_multiyear/",
+      "date": "2026-08-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Not the biggest or shiniest, but it's mine From gaming machine inference on the original llama models, to a 4x RTX 6000 Pro Max Q + 4x 3090s local AI cluster. Pictures are in reverse chronological order! With the pricing apocalypse meaning less builds shared here recently, thought I'd put mine out there with a multi-year picture progression since I always... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-08/13-showoff-saturday-local-4x-6000-pro-multi-year-progression.md"
+    },
+    {
+      "title": "enabling PCI-E p2p for consumer Nvidia cards will yield you more than you think",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj7wey/enabling_pcie_p2p_for_consumer_nvidia_cards_will/",
+      "date": "2026-08-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Disclaimer - no LLM was used to write this post/note As larger post about my setup will come later, want to give heads-up to folks who use VLLM and >= 2 GPUs. So I have pretty meaty server (8 channel AMD EPYC, ~150GB/s RAM bw) and 4x5060Ti 16GB in PCI-E 4.0 8x mode. Considering CPU is meaty, high RAM bw, no bottlenecks, messing with p2p should be minuscul... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-08/14-enabling-pci-e-p2p-for-consumer-nvidia-cards-will-yield-you-more-than-.md"
+    },
+    {
+      "title": "My first run of Kimi K3 locally.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj0hil/my_first_run_of_kimi_k3_locally/",
+      "date": "2026-08-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Running across 2 clusters using llama.cpp over RPC too. Both clusters are not enough to hold everything in memory, so main cluster still partially offloads to run. Goal will be to get all the GPUs in one system and without RPC, I should probably see 2-3x faster speed. Running the IQ1_M, goal is to get to Q2_K_XL. My hope is that Qwen3.8 is as good, faster... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-08/15-my-first-run-of-kimi-k3-locally.md"
+    },
+    {
+      "title": "Building a budget 32GB → 48GB VRAM home AI server: 2-3x RX 9060 XT 16GB vs RTX 5060 Ti 16GB, AM5 vs used EPYC?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj5wel/building_a_budget_32gb_48gb_vram_home_ai_server/",
+      "date": "2026-08-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I’m planning a dedicated home AI server, mainly for local LLM inference, agents/tool use, Docker services, and eventually larger MoE models with CPU offload. My plan is to start with 2x 16GB GPUs = 32GB VRAM , but I want to build the platform from day one knowing that I’ll almost certainly add a third identical GPU later for 48GB total VRAM . I’m in Brazi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-08/16-building-a-budget-32gb-48gb-vram-home-ai-server-2-3x-rx-9060-xt-16gb-v.md"
+    },
     {
       "title": "Show HN: Zaivern Code – a Rust cockpit for parallel AI coding agents",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "An all-in-one AI PDF platform featuring PDF editing tools, AI document analysis, Google OAuth, Stripe payments, and a modern Next.js interface. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-07/10-ayankhanbebea-lgtm-pdfaihub.md"
-    },
-    {
-      "title": "Show HN: Nectar, a Rust-like React that compiles to WebAssembly",
-      "source": "Hacker News Show HN",
-      "url": "https://buildnectar.com",
-      "date": "2026-07-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "After a pretty rough gig experience, I wanted to remind myself that I was a vaguely capable developer. I had recently jumped on the Rust train and wanted a Rust equivalent of React that is more performant and easier to work with. I also wondered if I could effectively eject Javascript. This project came from that... Nectar is a programming language that c... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-06/11-show-hn-nectar-a-rust-like-react-that-compiles-to-webassembly.md"
-    },
-    {
-      "title": "Jul 6, 2026 · company CFOs and the new economics of AI Jordan Topoleski 4m Jordan Topoleski · 4m",
-      "source": "Cursor Blog",
-      "url": "https://cursor.com/blog/cfo-council",
-      "date": "2026-07-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Jul 6, 2026 · company CFOs and the new economics of AI Jordan Topoleski 4m Jordan Topoleski · 4m (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-06/12-jul-6-2026-company-cfos-and-the-new-economics-of-ai-jordan-topoleski-4.md"
-    },
-    {
-      "title": "OpenBox-AI/openbox-langchain-sdk-ts",
-      "source": "GitHub Search API",
-      "url": "https://github.com/OpenBox-AI/openbox-langchain-sdk-ts",
-      "date": "2026-07-07",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "OpenBox-AI/openbox-langchain-sdk-ts Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-07/13-openbox-ai-openbox-langchain-sdk-ts.md"
-    },
-    {
-      "title": "Prefill vs. decoding and local LLM ROI: is prefill underrated?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up9054/prefill_vs_decoding_and_local_llm_roi_is_prefill/",
-      "date": "2026-07-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I'm trying to understand why, when people discuss the ROI of running LLMs locally, they almost always focus on output speed (decoding) and rarely on input speed (prefill), which seems like it could have a significant impact on hardware ROI. Yesterday I saw a post on X where someone was running GLM 5.2 on 4 NVIDIA DGX Spark (4bit, speculative decoding, and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-06/14-prefill-vs-decoding-and-local-llm-roi-is-prefill-underrated.md"
-    },
-    {
-      "title": "HuggingBay",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upmvb3/huggingbay/",
-      "date": "2026-07-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Someone saw the [meme]( https://old.reddit.com/r/LocalLLaMA/comments/1uht2m0/were\\_probably\\_going\\_to\\_need\\_that\\_soon/ ) and built it. submitted by /u/zxyzyxz [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/15-huggingbay.md"
-    },
-    {
-      "title": "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upjgqs/update_i_built_a_tool_to_turn_your_claude_code/",
-      "date": "2026-07-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "A few days ago I shared this resource I created to convert your Claude Code sessions into training data (Thank you so much for all the support :D ): Original Post Today I'm sharing that I just released version 1.5.0, which now supports converting your Claude Code, Codex, and Pi sessions. It also includes a unified API. Here are some examples: Claude Code... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/16-update-i-built-a-tool-to-turn-your-claude-code-sessions-into-fine-tuni.md"
-    },
-    {
-      "title": "Qwen3.6-27B: NVFP4/FP8 agent loops vs flawless BF16. Config or quant issue?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uplzs7/qwen3627b_nvfp4fp8_agent_loops_vs_flawless_bf16/",
-      "date": "2026-07-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, I'm trying to determine if I'm dealing with a misconfiguration in my stack or if this is an inherent limitation of current quantization methods for agentic workflows. I recently set up a dedicated rig with an RTX PRO 6000 Blackwell and have been benchmarking Qwen3.6-27B , but I'm hitting severe reliability issues with quantized models that do... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/17-qwen3-6-27b-nvfp4-fp8-agent-loops-vs-flawless-bf16-config-or-quant-iss.md"
-    },
-    {
-      "title": "Show HN: Make No Mistakes – AI coding agents must prove their work",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/momomuchu/make-no-mistakes",
-      "date": "2026-07-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Make No Mistakes – AI coding agents must prove their work (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/06-show-hn-make-no-mistakes-ai-coding-agents-must-prove-their-work.md"
-    },
-    {
-      "title": "taipei49314/TradingAgents-TW",
-      "source": "GitHub Trending",
-      "url": "https://github.com/taipei49314/TradingAgents-TW",
-      "date": "2026-07-06",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Taiwan TradingAgents paper trading research system (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/07-taipei49314-tradingagents-tw.md"
-    },
-    {
-      "title": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://homegames.io",
-      "date": "2026-07-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I'm making a platform for simple open source games you can play anywhere. Games are all just JavaScript classes and you can read the source of every game on the platform. I started working on initial \"games\" (mostly rendering tests) in 2018 and eventually built all of the platform stuff around it to make it easy to share games. There's also an in-browser... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/08-show-hn-homegames-an-open-source-game-platform-i-ve-been-making-for-8-.md"
-    },
-    {
-      "title": "Show HN: Osint tool that finds exposed files on domains",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://search.cerast-intelligence.com/",
-      "date": "2026-07-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "hey guys, wanted to show one of my side projects i just made public. the idea is basically another osint tool for pentesters and bug bounty hunters. it watches certificate transparency logs and checks newly-seen domains for exposed stuff like .env files, open .git dirs, config files, db dumps and so on, and puts whatever it finds into a searchable db. you... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/09-show-hn-osint-tool-that-finds-exposed-files-on-domains.md"
     }
   ]
 }

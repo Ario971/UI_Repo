@@ -1,0 +1,1151 @@
+---
+id: "slopus/rig"
+name: "slopus/rig"
+url: "https://github.com/slopus/rig"
+date: "2026-08-09"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "agent_framework"
+compatibility: 92
+momentum: 66
+risk: 32
+integration_effort: 52
+expected_gain: 77
+composite: 73
+replacement_target: ""
+related_articles: [{"title":"Show HN: Abralo – Free, easy way to run several Claude Code agents in one window","date":"2026-07-08","topic":"AI agents","similarity":0.443,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"},{"title":"Show HN: Ocean – All your team's agent sessions in one place","date":"2026-08-05","topic":"AI agents","similarity":0.309,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/07-show-hn-ocean-all-your-team-s-agent-sessions-in-one-place.md"},{"title":"Show HN: Policy enforcement for Claude Code, Cursor, and Codex","date":"2026-07-09","topic":"AI dev tools","similarity":0.267,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/10-show-hn-policy-enforcement-for-claude-code-cursor-and-codex.md"}]
+pros: ["Recently updated (2026-08-09)","MIT license","14 GitHub stars","GitHub Actions/CI detected"]
+cons: ["README mentions credentials or API tokens"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 3
+dependency_files: [{"name":"package.json","summary":"deps @types/node, drizzle-orm, oxfmt, oxlint, tsx, typescript; scripts build, build:gym, check, check:root, database:inspect, dev, format, format:check"}]
+install_commands: ["npm install -g @slopus/rig","codex","claude","claude setup-token"]
+risk_flags: ["README mentions credentials or API tokens"]
+status: "new"
+---
+
+# slopus/rig
+
+Pi, Claude Code and Codex in one harness with features from all of them
+
+URL: https://github.com/slopus/rig
+
+## Why it matters
+You saved an article on 2026-07-08 about AI agents; this candidate overlaps with "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-08-09)
++ MIT license
++ 14 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- README mentions credentials or API tokens
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- package.json: deps @types/node, drizzle-orm, oxfmt, oxlint, tsx, typescript; scripts build, build:gym, check, check:root, database:inspect, dev, format, format:check
+
+Install commands found:
+- npm install -g @slopus/rig
+- codex
+- claude
+- claude setup-token
+
+Risk flags:
+- README mentions credentials or API tokens
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+<div align="center">
+
+<p><img src="./logo.png" alt="Rig" width="400" /></p>
+
+<h3>The best of Pi, Codex, Claude Code, Kimi Code, and Grok Build — unified in one coding-agent harness.</h3>
+
+<p>
+  Use model-native prompts and tools with provider access already configured on
+  your machine. Rig adds no account or subscription of its own, never pools or
+  resells provider access, and leaves provider terms and limits in force. 
+  
+  Built by the authors of
+  <a href="https://github.com/slopus/happy">Happy</a> and
+  <a href="https://github.com/slopus/happy2">Happy 2</a>.
+</p>
+
+https://github.com/user-attachments/assets/99a7dee6-36ef-4110-95b2-e236633640a4
+
+<p>
+  <a href="#quick-start">Quick start</a> ·
+  <a href="#why-rig">Why Rig?</a> ·
+  <a href="#how-rig-compares">Compare</a> ·
+  <a href="#configuration">Configuration</a> ·
+  <a href="DEVELOPMENT.md">Development</a>
+</p>
+
+</div>
+
+Rig is an open-source coding-agent harness built on top of
+[Pi](https://github.com/earendil-works/pi)'s foundations. It recreates the best
+parts of [Codex](https://github.com/openai/codex),
+[Claude Code](https://code.claude.com/docs/en/overview),
+[Kimi Code](https://code.kimi.com), and
+[Grok Build](https://github.com/xai-org/grok-build) in one consistent local
+runtime: the right prompts and tools for each model, useful defaults, safe
+execution, durable sessions, subagents, MCP, and a friendly terminal interface.
+
+The result is one harness that works well on its own and exposes a stable layer
+for future client integrations. Apps can integrate once instead of maintaining
+a different adapter for every coding agent.
+
+## Quick start
+
+### Step 1: Install Rig
+
+```sh
+npm install -g @slopus/rig
+```
+
+### Step 2: Sign in to the agents you want to use
+
+Rig does not have another account to create. Run the coding agents you want and
+complete their normal sign-in:
+
+```sh
+codex
+claude
+kimi login
+grok login
+```
+
+Rig then uses the credentials already managed by those installations. The daemon
+checks local credential presence when it starts without contacting provider
+servers. Restart the daemon after a new login so the provider enters the model
+catalog. Once enabled, Kimi and Grok credential rotations are hot-reloaded from
+their local auth stores without copying tokens into Rig.
+
+### Step 3: Start building
+
+```sh
+cd your-project
+rig
+```
+
+Ask for what you want in plain English. Rig can inspect the repository, edit
+files, run commands, delegate work, and verify the result. Use `/model` at any
+time to choose an available model.
+
+### Optional: Connect Happy mobile
+
+Happy is enabled for the normal Rig CLI by default. Disable it machine-wide in
+`~/Happy/Config/happy.toml` on macOS or `~/happy/config/happy.toml` on Linux,
+then restart the daemon:
+
+```toml
+[settings]
+happy_integration = false
+```
+
+Development runs disable Happy synchronization by default so local builds do
+not appear as mobile machines or mirror test sessions. Set
+`RIG_DISABLE_HAPPY_SYNC=0` to opt a development run back in. Any Rig host can
+force the integration off with `RIG_DISABLE_HAPPY_SYNC=1`; this overrides the
+configuration file.
+
+Repository `rig.toml` files (or fallback `happy.toml` files) cannot enable or disable this machine-level
+integration. When enabled, Rig automatically imports newer credentials from
+`~/.happy` when its daemon starts. To authenticate directly from Rig instead,
+run:
+
+```sh
+rig happy auth
+```
+
+Scan the QR code with Happy. Terminals with Kitty or iTerm2 image support show
+a PNG QR code; other terminals get Happy's compact text QR. Every primary Rig
+session you open is then synchronized live with Happy. Mobile messages enter
+the same session and permission boundary as terminal messages; there is no
+separate local/remote control mode.
+Happy can also send encrypted image attachments, stop the active turn, and
+select any provider-qualified Rig model and supported reasoning level.
+
+## Why Rig?
+
+Pi is a wonderfully small, flexible foundation. Codex, Claude Code, Kimi Code,
+and Grok Build each add excellent model-specific behavior, but they expose different
+tools, permissions, session models, and integration protocols. Rig brings those ideas together
+without making you rebuild the setup for every model, machine, or repository.
+
+- **Feels native to the model.** GPT receives Codex-style prompts and tools;
+  Claude receives Claude Code-style prompts and tools; Kimi receives its coding
+  prompt and Chat Completions contract; Grok receives the open-source Grok Build
+  prompt and tool contracts.
+- **One dependable workflow.** Sessions, permissions, MCP, Docker, background
+  commands, reviews, goals, and headless execution work through one interface.
+- **Thoughtful defaults.** A fresh install is useful immediately, while global
+  and project-local configuration remain available when you need them.
+- **Ready for other clients.** A local daemon, persisted sessions, and a durable
+  event stream let terminal, mobile, and web clients build on the same runtime.
+  The [remote terminal API](REMOTE_TERMINALS.md) adds Ghostty-backed PTYs with
+  WebSocket VT replay, semantic-grid recovery, credit-based flow control, and paged scrollback
+  through the [hybrid client/server protocol](packages/ghostty-web/README.md).
+- **Open and local.** Rig is MIT licensed, runs beside your code, and keeps its
+  execution boundaries visible.
+
+And the name? We asked GPT-5.6 Sol for something short and easy to type on a
+keyboard. It suggested **Rig**.
+
+## How it works
+
+Rig separates inference transport from agent behavior. That lets it share one
+runtime without flattening the important differences between models.
+
+| Path              | What Rig uses                                                                                                    | What Rig controls                                                                                                       |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Pi foundation     | Pi's inference adapters and terminal UI library                                                                  | The shared terminal, permissions, sessions, processes, persistence, and client protocol                                 |
+| Codex             | Pi's Codex transport, with [OpenAI's source](https://github.com/openai/codex) as the behavioral reference        | Reimplemented Codex prompts, tool contracts, reasoning controls, collaboration, approvals, review, and transcript rules |
+| Claude Code       | Anthropic's official [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview) for direct inference | Reimplemented Claude-facing prompts, tools, tasks, subagents, permissions, and session behavior                         |
+| Kimi Code         | Moonshot's OpenAI-compatible Chat Completions API and credentials managed by Kimi Code                           | Adapted Kimi prompt, tool schemas, max reasoning, context compaction, token refresh, and request metadata               |
+| Grok Build        | xAI's OpenAI-compatible Responses API and the credentials managed by the Grok CLI                                | Adapted [Grok Build](https://github.com/xai-org/grok-build) prompt, tools, token refresh, and request metadata          |
+| Other model paths | Pi inference adapters and selected generic Pi tool definitions                                                   | A useful fallback experience without pretending those models are Codex or Claude Code                                   |
+| External clients  | Rig's local daemon, durable event stream, and protocol                                                           | One stable API for terminal, headless, mobile, web, or other interfaces                                                 |
+
+The Codex integration is implemented inside Rig rather than wrapping the Codex
+CLI. Rig follows the open-source client closely so prompts, tools, permissions,
+and interaction patterns behave as Codex models expect while still participating
+in Rig's shared runtime.
+
+Claude takes a different route. Rig calls the official Claude Agent SDK directly
+for inference, but disables its built-in tools, skills, slash commands, and
+filesystem settings. Rig then supplies its own implementations of those surfaces.
+This keeps Claude's native inference path while giving Rig one place to control
+tools, permissions, persistence, subagents, and client events.
+
+Kimi K3 uses Moonshot's coding endpoint and the session already managed by Kimi
+Code. Rig sends K3's max-reasoning contract, preserved reasoning content,
+normalized function schemas and tool-call IDs, prompt-cache key, usage metadata,
+and adapted Kimi coding, compaction, subagent, and per-tool contracts. Kimi's
+native names and guidance are mapped onto Rig's shared tool executions and
+permission boundary rather than creating a provider-specific security path.
+Token refresh is serialized with Kimi Code's cross-process lock and rotated
+credentials are written back atomically.
+
+Grok Build uses xAI's Responses API at the same first-party proxy as the
+open-source CLI. Rig reads Grok's scoped auth store on every request, prefers an
+active interactive session over `XAI_API_KEY`, proactively refreshes expiring
+OIDC credentials, persists rotated refresh tokens, and sends Grok's native
+request identity headers. Its curated model catalog is built into Rig, just like
+the catalogs for every other provider, so daemon startup never waits on model
+discovery. `grok-build` keeps its always-on reasoning behavior, while models
+without effort support receive no effort override. A failed inference request
+is not replayed.
+
+That separation is what makes Rig flexible: transports can stay provider-native
+while the surrounding harness remains consistent and independently evolvable.
+Anthropic's [current Claude plan policy](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)
+explicitly includes third-party apps authenticated through the Agent SDK: their
+usage continues to draw from the user's subscription limits. Rig follows that
+local SDK path. It does not host a Claude login, relay credentials through a Rig
+service, pool access, or bypass Anthropic's terms and limits.
+
+## How Rig compares
+
+Rig is a unifying harness, not a replacement for every surface offered by Pi,
+Codex, or Claude Code. This table focuses on the local coding-agent experience.
+
+|                        | Rig                                                                    | [Pi](https://github.com/earendil-works/pi)                   | [Codex](https://github.com/openai/codex)  | [Claude Code](https://code.claude.com/docs/en/overview) |
+| ---------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------- | ------------------------------------------------------- |
+| Primary role           | Opinionated multi-model harness                                        | Minimal, highly extensible agent toolkit                     | OpenAI's native coding agent              | Anthropic's native coding agent                         |
+| Model access           | Codex, Claude Code, Kimi Code, Grok Build, and optional Bedrock models | Broad multi-provider catalog                                 | OpenAI models                             | Claude models, including supported cloud platforms      |
+| Authentication         | Reuses Codex, Claude Code, Kimi Code, and Grok credentials             | Pi logins or provider API keys                               | ChatGPT sign-in or API key                | Claude sign-in, API, or supported cloud provider        |
+| Tool behavior          | Switches between model-native Codex, Claude, Kimi, and Grok toolsets   | Small generic core, replaceable with extensions              | Codex-native                              | Claude Code-native                                      |
+| Subagents              | Built in, with provider-aligned controls and saved transcripts         | Intentionally extension-driven                               | Built-in multi-agent tools                | Built-in subagents and agent teams                      |
+| Permissions            | Unified Auto, Workspace write, Read only, and Full access modes        | Intentionally extension- or container-driven                 | Native approvals and sandboxing           | Native permission modes                                 |
+| MCP                    | Built-in stdio and streamable HTTP                                     | Available through extensions                                 | Built in                                  | Built in                                                |
+| Long-running work      | Managed shells, workflows, persistent goals, and background subagents  | Intentionally uses external tools such as tmux or extensions | Background commands and multi-agent work  | Background commands, tasks, and agents                  |
+| Headless and embedding | Text, JSON, streaming JSON, daemon protocol, and durable events        | Print, JSON, RPC, and a TypeScript SDK                       | Non-interactive mode, SDK, and app server | Print mode and Agent SDK                                |
+| Best fit               | One local harness across model families and client apps                | Building a deeply customized agent                           | The first-party OpenAI experience         | The first-party Anthropic experience                    |
+
+Rig deliberately keeps Pi's strong foundations and extensibility, then chooses a
+cohesive built-in experience where Pi prefers a minimal core. From Codex and
+Claude Code it adopts widely useful workflows, not every product-specific edge
+case.
+
+## Everyday commands
+
+Type `/` in the terminal to see the commands available in the current session.
+
+| Command        | What it does                                           |
+| -------------- | ------------------------------------------------------ |
+| `/model`       | Choose the model and reasoning level                   |
+| `/permissions` | Choose filesystem, shell, and network access           |
+| `/agents`      | See delegated work and open a child transcript         |
+| `/tasks`       | See the current Claude-style task list                 |
+| `/goal`        | Start or manage a persistent long-running goal         |
+| `/review`      | Review staged, unstaged, and untracked changes         |
+| `/mcp`         | Check MCP servers, capabilities, and connection errors |
+| `/workflows`   | Open the live workflow monitor                         |
+| `/ps`          | List managed background terminals                      |
+| `/compact`     | Summarize older messages and free context space        |
+| `/usage`       | Show provider-reported token usage                     |
+| `/configure`   | Change app settings                                    |
+
+Press Escape while the session is idle to rewind to an earlier message. Rig puts
+that prompt back in the composer without changing files in the working directory.
+
+## Sessions and automation
+
+### Headless execution
+
+Use `rig exec` when you want an agent result without opening the terminal UI:
+
+```sh
+rig exec "Review the current changes"
+printf 'Run the tests and fix failures' | rig exec
+```
+
+Use `--json` for one machine-readable result or `--stream-json` for newline-
+delimited session events followed by the final result:
+
+```sh
+rig exec --json "Summarize this repository"
+rig exec --stream-json "Run the test suite"
+```
+
+Add `--debug` to an interactive or headless invocation to capture every request
+as ordered JSON files under `.happy/rig/debug` in the project. Each request gets
+a time-sortable directory containing normalized inference inputs, every
+streamed provider event and final response, agent events and messages, tool
+arguments and results, and run completion or failure details:
+
+```sh
+rig --debug
+rig exec --debug "Diagnose the failing test"
+```
+
+The debug directory contains its own Git ignore rule. Its files use private
+permissions, but can still contain complete prompts, source excerpts, command
+output, and model reasoning; treat them as sensitive when sharing.
+
+Daemon process logs are separate from request debug traces. Run `/debug` to see
+the exact daemon log path. By default, the current log is `server.log` inside
+the temporary `rig-<user id>` daemon directory. It contains timestamped JSONL
+lifecycle and failure records plus raw stderr from dependencies and fatal Node
+errors. When it reaches 10 MiB, the next daemon start moves it to
+`server.previous.log`; Rig keeps only that one previous log. Setting
+`RIG_SERVER_DIRECTORY` moves the daemon log, control files, and session database
+into that directory.
+
+Headless runs are normal persisted sessions. Continue or branch from them later:
+
+```sh
+rig exec --last "Continue with the next issue"
+rig exec --resume SESSION_ID "Try the alternative approach"
+rig exec --last --fork "Explore a separate solution"
+```
+
+### Secrets
+
+Use `/secrets` to register named bundles of environment variables and attach
+them to the current session or project. Session attachments apply only to that
+session. Project attachments apply to current and future sessions opened in the
+same project. When both sources attach a bundle, detaching one source leaves the
+other attachment intact.
+
+Shell commands receive no secret values by default. Set the command's optional
+`secrets` argument to a list of the attached bundle IDs that command needs. One
+or several bundles can be selected; an empty list selects none. Rig rejects IDs
+that are not attached to the current session or project.
+
+Registrations, including their values, are persisted as plaintext JSON in Rig's
+SQLite database. The database file is restricted to mode `0600` and its parent
+directory is created with mode `0700`. This is not encryption or secure
+deletion: SQLite pages and WAL files may retain replaced or removed values.
+
+Rig-generated prompts, list responses, attachment events, command metadata, and
+permission summaries contain bundle IDs and environment-variable names, never
+values. Command output is not redacted: a command that prints a value can send
+it to the model and place it in the transcript, saved session, events, or debug
+records. Commands can also save values to files.
+
+Per-command injection is not a process-isolation boundary. Processes running as
+the same operating-system user or inside the same container must be mutually
+trusted because they may be able to inspect one another's environments.
+
+### Saved sessions
+
+Use the picker to resume or fork work in the current directory. Add `--all` to
+include sessions from other directories.
+
+```sh
+rig resume
+rig resume --last
+rig resume --all
+rig fork --last
+rig fork SESSION_ID
+```
+
+The model and provider can be changed between responses. Automatic compaction
+keeps long conversations useful, and `/compact` is available whenever you want
+to compact immediately.
+
+### Persistent goals and code review
+
+`/goal <objective>` starts work that can continue across multiple agent turns.
+Use `/goal` to check it, `/goal pause`, `/goal resume`, or `/goal clear` to manage
+it. Goals survive daemon restarts and resumed sessions.
+
+`/review` asks the agent to review staged, unstaged, and untracked changes and
+instructs it not to modify files.
+Add a focus when useful, for example `/review focus on concurrency`.
+
+## Permissions
+
+New sessions start in **Workspace write** mode. Change the current session with
+`/permissions`:
+
+| Mode                | Behavior                                                                                                       |
+| ------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Auto**            | Runs routine workspace work immediately and reviews risky actions automatically, asking when needed            |
+| **Workspace write** | Allows edits in the working directory and temporary paths while blocking shell network access and other writes |
+| **Read only**       | Keeps files read only while allowing Codex-style host reads on macOS and Linux                                 |
+| **Full access**     | Allows unrestricted filesystem, shell, and network access                                                      |
+
+Restricted local shell commands use macOS Seatbelt or Linux Bubblewrap. Both
+platforms keep the host readable so tools such as Git, language managers, and
+AWS can load normal user configuration, while writes remain limited by the
+selected mode and shell network access stays blocked. An AWS command can read
+the configured profile in Workspace write, for example, but needs an approved
+Full access execution to contact AWS. Install `bubblewrap` on Linux before
+using a restricted permission mode. Managed network access on Linux also
+requires `socat`.
+
+Auto mode evaluates the current action against the user's request. It does not
+build a permanent command allowlist. Sensitive escalation requests receive a
+one-call review and fail closed when the review is unavailable or malformed.
+When a review allows one command to run outside the sandbox, that command's
+history explicitly says `Approved automatically: temporary Full access.` This
+applies only to that tool call; the session returns to Auto immediately
+afterward. Removing proxy environment variables does not itself escape
+Seatbelt or Bubblewrap, but an approved temporary Full access command has
+unrestricted network access by design.
+
+Set the default globally or for a repository:
+
+```toml
+[defaults]
+permission_mode = "workspace_write"
+```
+
+`RIG_PERMISSION_MODE` can override the default for a new terminal session with
+`auto`, `workspace_write`, `read_only`, or `full_access`.
+
+## Configuration
+
+Rig reads user-wide settings from `~/Happy/Config/happy.toml` on macOS and
+`~/happy/config/happy.toml` on Linux. The user's global `AGENTS.md` lives beside
+it. On startup, Rig creates the platform-specific folder, a comprehensive
+commented `happy.toml` template, and an empty `AGENTS.md` whenever they are
+missing. Existing files are never replaced. Set `RIG_CONFIGURATION_DIRECTORY`
+to an absolute path to choose a different user configuration folder.
+
+Repository settings come from `rig.toml`. If it is absent, Rig reads
+`happy.toml`; when both files exist, `rig.toml` wins. Repository values win
+where both are allowed. MCP servers use these same Rig-owned configuration
+layers; provider configuration files are not imported.
+
+Rig keeps internal durable state in `~/.happy/rig`: runtime settings, MCP trust
+decisions, the saved-session database, Happy credentials, and binary files
+returned by web fetches. Temporary daemon control files remain in the system
+temporary directory. Set `RIG_HOME` to an absolute path to use a different
+state directory. Rig does not search or migrate older config or state
+locations.
+
+Managed workspaces are user-facing folders rather than internal Rig state. New
+workspaces default to `~/Happy/Workspaces` on macOS and
+`~/happy/workspaces` on Linux. Set `RIG_WORKSPACES_DIRECTORY` to an absolute
+path before starting the daemon to choose another location. Every workspace's
+absolute path is saved in SQLite when it is created, so changing the variable
+affects only new workspaces; existing ones stay where they are and do not need
+to be moved.
+
+A small project configuration might look like this:
+
+```toml
+[defaults]
+permission_mode = "workspace_write"
+
+[features]
+workflows = true
+
+[theme]
+brand = "ansi:202"
+accent = "cyan"
+```
+
+### Protected paths
+
+Add existing workspace-relative files or directories to a project's
+`happy.toml` when modifying them should require Full access:
+
+```toml
+[permissions]
+protected_paths = ["master-plans", ".env.production"]
+```
+
+The user-wide `happy.toml` supports the same list, and Rig merges the user and
+project entries. Directory entries cover their descendants. Missing entries
+are ignored when the session starts; recreating the session picks up paths that
+were created later.
+
+### Managed workspace setup
+
+A repository can prepare every managed workspace before Rig starts an agent in
+it. Add ordered shell commands to the repository's protected `rig.toml` (or
+`happy.toml` when `rig.toml` is absent):
+
+```toml
+[workspace]
+setup_commands = [
+  "pnpm install --frozen-lockfile",
+  "pnpm build",
+]
+```
+
+Rig creates the Git worktree, runs each command in order from the workspace
+directory with the system login shell, and marks the workspace ready only after
+all commands succeed. A failed or timed-out command leaves the workspace failed,
+skips the remaining commands, and prevents sessions and inference from starting
+there. These commands are trusted project lifecycle code and run with full
+filesystem and network access. Each command has a 30-minute limit.
+The same setting can provide a user-wide default in the user `happy.toml`; a
+repository list replaces that default for its workspaces.
+
+### Managed network access
+
+Auto and Workspace write shell commands have no general network access. To let
+those commands use a specific external service, add a managed network policy to
+the user `happy.toml` or the repository's root `rig.toml` (falling
+back to `happy.toml`). Read only
+always keeps shell networking disabled, even when a policy exists. Full access
+is unrestricted and ignores the managed policy. The policy is
+configuration-owned: it is not exposed as a shell-tool argument, so an agent
+cannot request additional domains or ports for itself.
+
+For example, allow CodeRabbit globally over HTTPS:
+
+```toml
+[network]
+allowed_domains = [
+  "coderabbit.ai",
+  "*.coderabbit.ai",
+]
+allowed_ports = [443]
+```
+
+`allowed_domains` accepts exact domain names and `*.` subdomain patterns. A
+wildcard does not include the root domain, so the example lists both
+`coderabbit.ai` and `*.coderabbit.ai`. `allowed_ports` applies to every allowed
+domain and defaults to `[443]` when omitted. `denied_domains` uses the same
+matching syntax and takes precedence over the allowlist:
+
+```toml
+[network]
+allowed_domains = ["*.example.com"]
+denied_domains = ["uploads.example.com"]
+allowed_ports = [443, 8443]
+```
+
+Local services are configured separately by port. This example allows a
+sandboxed command to reach a Portless HTTPS listener on the Rig host:
+
+```toml
+[network]
+allowed_loopback_ports = [8443]
+```
+
+Host-loopback forwarding targets `127.0.0.1` specifically. A service listening
+only on IPv6 `::1` is not reachable through `allowed_loopback_ports`; configure
+it to listen on `127.0.0.1` as well. On Linux and in Docker, the relay also
+remains subject to normal OS privileges for ports below 1024.
+
+The settings can be combined:
+
+```toml
+[network]
+allowed_domains = [
+  "coderabbit.ai",
+  "*.coderabbit.ai",
+]
+denied_domains = []
+allowed_ports = [443]
+allowed_loopback_ports = [8443]
+allow_local_binding = true
+```
+
+On macOS, `allow_local_binding = true` lets an Auto or Workspace write command
+bind any local TCP or UDP port and connect to loopback listeners. It is a
+single all-ports switch, matching Codex; there is no per-bind-port list. The
+listener uses the host loopback interface, while external inbound and outbound
+traffic remains blocked. “All ports” removes Rig's policy restriction; it does
+not bypass normal OS privileges or an existing listener occupying the port.
+
+On macOS, local unix sockets are handled separately and need no configuration. An
+Auto or Workspace write command may always create and connect to unix sockets
+inside the working directory and its Git control directory, which is where a
+development server, language server, or test harness puts its socket. That is
+deliberately narrower than writable space: sockets in temporary directories and
+everywhere else on the host stay unreachable, so a sandboxed command cannot
+reach the Docker daemon socket, the SSH agent, or Rig's own control socket. The
+home folder is never granted, because host agents keep their sockets under it, so
+a session in the Home project creates no sockets. Read only creates none either.
+Linux and Docker commands are confined by their mount and network namespaces
+instead, so a socket there follows writable space rather than this rule.
+
+Linux and Docker commands always retain loopback binding inside their isolated
+network namespace, so `allow_local_binding` does not change their sandbox.
+Those listeners are reachable only by processes in the same command namespace;
+they are not published to the Rig host, the container network, or other
+commands. Proxy-aware clients automatically bypass the managed proxy for this
+namespace-local loopback traffic.
+
+Rig rereads the global and project configuration before every Auto or Workspace
+write shell command. Project policy replaces global policy.
+`denied_domains` is the exception: global and project denies are combined, so a
+repository cannot remove a machine-wide global denial. Runtime settings and
+session state cannot define network policy. Changing a network policy therefore
+does not require restarting Rig. Root project `rig.toml` and `happy.toml` files are protected from
+agent writes in Auto, Workspace write, and Read only modes; explicit Full access
+can still modify it. If the file does not yet exist, Rig atomically creates an
+empty temporary placeholder before starting each writable restricted command,
+mounts it read-only inside the command sandbox, and removes it afterward if it
+is still Rig's unchanged placeholder. This closes the create/read race between
+concurrent commands without leaving a configuration file in the repository.
+
+For allowed external domains, Rig starts per-command HTTP CONNECT and SOCKS5
+proxies, points common clients at them with standard proxy environment
+variables, and closes them when the command finishes. The proxy resolves DNS
+outside the sandbox with a two-second limit, treats lookup failures as policy
+denials, rejects private or loopback resolutions, checks the destination domain
+and port, and applies deny rules before allow rules. A blocked HTTP client still
+receives a conventional `403`, but Rig also attributes the blocked destination
+to the owning command, stops it, and reports a clear sandbox-policy error to the
+agent. Removing the managed proxy variables is not a fallback route. A command
+that ignores them still cannot connect directly:
+
+- On macOS, Seatbelt permits outbound connections only to the temporary proxy
+  ports and configured loopback ports.
+- On Linux, Bubblewrap removes the command's network namespace. `socat` bridges
+  only the configured endpoints through temporary Unix sockets.
+- Inside a Docker-backed session, the nested Bubblewrap sandbox uses the same
+  Unix-socket bridge. Rig keeps the sockets under an empty `.rig-network`
+  runtime directory and remounts that directory read-only over the writable
+  workspace in every restricted command. A neighboring command therefore
+  cannot rename or replace a live socket to intercept authentication. Every
+  bridge also requires a random per-command token, so finding and connecting
+  to another command's socket is insufficient. Each restricted command also
+  receives a private `/tmp`, hiding Rig's outer process-control files and other
+  commands' temporary state. Per-command directories are removed on completion;
+  the empty root is harmless and is not tracked by Git. The container needs
+  `bubblewrap` and `socat`, and its working directory must be a host bind mount
+  so Rig can share the temporary sockets without publishing a TCP proxy.
+
+In restricted Docker sessions, `allowed_loopback_ports` refers to loopback on
+the machine running Rig, not an arbitrary container port. Full access remains
+unrestricted and can bypass the managed proxy by design.
+
+### P2P networking
+
+P2P networking is opt-in and machine-wide. Configure each stable Rig identity
+once, then add any combination of Iroh, direct TLS, and SSH address hints:
+
+```toml
+[p2p]
+enable_direct = true
+enable_iroh = true
+enable_ssh = true
+expose_api = true
+
+[p2p.direct]
+listen = "0.0.0.0:7443"
+
+[[p2p.peers]]
+instance_id = "ck1234567890abcdefghijkl"
+public_key = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+
+[p2p.peers.direct]
+address = "other-rig.example.com:7443"
+
+[p2p.peers.iroh]
+endpoint_id = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+
+[p2p.peers.ssh]
+auth = "agent"
+host = "other-rig.example.com"
+host_key_sha256 = "SHA256:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+port = 22
+username = "steve"
+
+[p2p.iroh]
+# relay_url = "https://relay.example.com"
+```
+
+Each Rig installation owns a stable cuid2 instance ID and one protected
+Ed25519 identity key. The same public key is the only key other parties need:
+Rig converts it to X25519 when encrypting, using the standard
+Edwards-to-Montgomery conversion.
+
+Every transport completes the same signed, expiring mutual hello before ping or
+HTTP traffic. The signatures cover both identities, fresh challenges, the
+transport kind, and its authenticated channel binding: Iroh endpoint IDs, TLS
+exporter bytes, or the verified SSH host-key hash. Direct TLS additionally
+requires the self-signed certificate to contain the configured stable Ed25519
+key before Rig reads application data.
+
+Configure the same peer on both daemons for bidirectional Iroh or direct TLS.
+SSH is intentionally initiator-only: it strictly pins the SSH host key,
+authenticates with an SSH agent or an owner-only private-key file, and runs the
+fixed remote command `rig p2p bridge --stdio`. Passwords and private-key
+contents do not belong in the configuration. The serving daemon needs only the
+initiator's `instance_id` and `public_key` entry; it does not need a reverse SSH
+address. All transports for one instance share the same peer route; Rig pins the
+chosen transport for each ordinary or streaming response.
+
+`expose_api` is separate from connectivity and defaults to `false`. When the
+serving machine enables it, its daemon API is available through the consuming
+machine's local authenticated daemon at:
+
+```text
+/p2p/peers/<instance-id>/api
+```
+
+For example, Happy can pass that URL prefix and the local daemon token to
+`rig-connect`; ordinary requests and long-lived event streams use the same
+prefix. Tokens never cross a P2P transport. The remote daemon authenticates the
+stable identity, then injects its own local token when dispatching the request.
+
+API exposure grants substantial authority. A trusted instance can read
+transcripts, send messages that run agents and tools, change project files,
+install plugins, and manage workspaces as this Rig user. Only configure machines
+you trust to act as you. Rig does not forward P2P topology routes, daemon
+shutdown, the debug inspector, or one-time applet context exchanges.
+
+When `relay_url` is absent, Iroh uses its default discovery and relay services.
+The stable Rig identity seed and the Iroh transport identity are stored
+separately beside Rig's durable database with owner-only permissions. Learned
+peer pins are durable there as well. Project configuration cannot enable P2P
+networking. Upstream Iroh does not currently publish a native binding for Intel
+macOS; on that platform Rig reports P2P as unavailable and continues running
+normally.
+
+Provider availability is machine-wide because the local daemon owns the model
+catalog and authentication paths. Configure it in the user `happy.toml`:
+
+```toml
+[providers]
+default_enable = false
+
+[providers.codex]
+enabled = true
+
+[providers.claude]
+enabled = true
+
+[providers.kimi]
+enabled = true
+
+[providers.grok]
+enabled = true
+
+[providers.bedrock]
+enabled = true
+```
+
+`providers.default_enable` controls provider instances that do not set their
+own `enabled` value. It remains `true` when omitted for existing configurations;
+setting it to `false` keeps every provider disabled unless that provider is
+explicitly enabled.
+
+These five built-in instances use the normal Codex, Claude Code, Kimi Code,
+Grok, and Bedrock credential locations, so their `type` is inferred. At daemon
+startup, a provider disabled here or missing local authentication remains a
+disabled catalog entry with no models. Its models are omitted from both the
+model picker and agent system prompts; the prompt includes only the provider's
+disabled reason. This availability check reads local credential state and does
+not ping provider servers.
+
+Add any number of named instances when you need separate accounts. For custom
+instances, the section suffix is the provider ID shown in the model picker and
+accepted by `defaults.provider` and `RIG_PROVIDER`. Custom instances must set
+`type`; all parameters stay flat in the same section. The built-in Claude Code
+provider ID is `claude`:
+
+```toml
+[providers.work_codex]
+type = "codex"
+enabled = true
+auth_file = "/Users/me/.codex-work/auth.json"
+transport = "auto"
+include_models = ["openai/gpt-5.6-sol", "openai/gpt-5.6-terra"]
+
+[providers.personal_claude]
+type = "claude"
+enabled = true
+oauth_token = "token-from-claude-setup-token"
+exclude_models = ["anthropic/haiku-4-5"]
+
+[providers.work_kimi]
+type = "kimi"
+enabled = true
+auth_file = "/Users/me/.kimi-code-work/credentials/kimi-code.json"
+include_models = ["moonshot/kimi-k3"]
+
+[providers.work_grok]
+type = "grok"
+enabled = true
+auth_file = "/Users/me/.grok-work/auth.json"
+include_models = ["xai/grok-build"]
+
+[providers.west_bedrock]
+type = "bedrock"
+enabled = true
+region = "us-west-2"
+bearer_token_env_var = "WEST_BEDROCK_TOKEN"
+
+[providers.west_bedrock.model_overrides]
+"openai/gpt-5.6-sol" = { region = "us-east-1", endpoint = "https://bedrock-mantle.example/openai/v1", transport = "mantle" }
+"anthropic/opus-4-8" = { endpoint = "https://bedrock-runtime.example", transport = "runtime" }
+```
+
+Every provider accepts `enabled`, `include_models`, and `exclude_models`.
+Filters use exact Rig model IDs; exclusions win when a model appears in both
+lists. Codex instances also accept `auth_file`, `base_url`, and `transport`.
+Claude Code instances accept `config_dir`, `executable`, and `oauth_token`.
+Run `claude setup-token` while signed in to the additional Claude account to
+create the long-lived token used by `oauth_token`. The token applies only to
+that provider instance. Grok instances
+accept `auth_file` and `base_url`; `RIG_GROK_BASE_URL` is also available for
+local proxy testing. Kimi instances accept `auth_file` and `base_url`;
+`RIG_KIMI_BASE_URL` is available for local proxy testing. Bedrock instances
+accept `region`, `model_overrides`, and `bearer_token_env_var`. `region` is the
+provider default. Each exact Rig model ID under `model_overrides` may set
+`region`, `endpoint`, `transport`, or any combination. Anthropic models prefer
+Mantle in regions where both the endpoint and model are available in-region,
+then fall back to Bedrock Runtime regional or global inference profiles. A full
+`endpoint` URL overrides the endpoint selected for that model and bypasses
+Rig's regional availability list for the selected transport. The resolved region is still used for regional
+inference-profile IDs and request metadata. Restart the local daemon after
+changing providers. Repository `rig.toml` files cannot change these
+machine-level choices or credential paths.
+
+Use `/configure` for common settings. Environment variables such as `RIG_MODEL`,
+`RIG_PROVIDER`, `RIG_EFFORT`, and `RIG_PERMISSION_MODE` override the corresponding
+default for a newly created session.
+
+Set `GEMINI_API_KEY` in the daemon environment to add the universal
+`gemini_search`, `gemini_generate_image`, `gemini_generate_music`, and
+`gemini_analyze_media` tools to every model. No other Gemini or Google credential
+variable is used. These tools are additional to each provider's native tools,
+including Claude's unchanged `WebSearch` tool. Restart the local daemon after
+adding or changing the key.
+
+<details>
+<summary><strong>Docker-backed sessions</strong></summary>
+
+Connect Rig to a running container:
+
+```sh
+rig --docker-container my-development-container --docker-workdir /workspace
+```
+
+Or create a session container from an image already present in Docker:
+
+```sh
+rig --docker-image my-project-dev:local \
+  --docker-workdir /workspace \
+  --docker-env NODE_ENV=development \
+  --docker-mount .:/workspace
+```
+
+The same options work with `rig exec`. `--docker-socket`, `--docker-name`, and
+repeated `--docker-env` or `--docker-mount` options provide additional control.
+Use `--local` to ignore a configured Docker default for one new session.
+
+Machine-wide Docker defaults belong in the user `happy.toml`:
+
+```toml
+[docker]
+image = "my-project-dev:local"
+workdir = "/workspace"
+env = { NODE_ENV = "development" }
+mounts = [
+  { source = ".", target = "/workspace" },
+  { source = "/Users/me/.cache/my-project", target = "/cache", read_only = true },
+]
+```
+
+Relative mount sources resolve from the host directory where Rig starts. Use
+absolute paths for home-directory mounts; `~` is not expanded. Repository
+`rig.toml` files cannot select Docker images, sockets, environment variables, or
+host mounts.
+
+Image-backed containers are created on the first message and keep a stable,
+session-derived name so their files survive daemon restarts. Rig never pulls an
+image implicitly and leaves managed containers in place for you to remove with
+Docker. Images and connected containers need `/bin/sh`, `readlink`, and common
+POSIX file utilities. Restricted permission modes also need `bubblewrap` and
+`socat` in the container. Rig configures image-backed containers for Bubblewrap
+automatically; start a container that Rig will connect to with
+`--security-opt seccomp=unconfined` so restricted shell commands can create their
+nested filesystem, process, and network boundary. Docker commonly blocks a
+second procfs mount even with nested user namespaces, so Rig gives restricted
+commands an empty private `/proc` instead of exposing the container's parent
+process table. Restricted commands also receive a private `/tmp`; temporary
+files belonging to the parent container or another command are not visible.
+Tools that require the parent `/proc` or shared `/tmp` should run in an
+appropriately isolated Full access container.
+
+</details>
+
+<details>
+<summary><strong>MCP servers</strong></summary>
+
+Rig supports local stdio servers and streamable HTTP:
+
+```toml
+[mcp_servers.docs]
+command = "docs-mcp-server"
+args = ["--stdio"]
+tool_timeout_sec = 30
+
+[mcp_servers.issues]
+url = "https://example.com/mcp"
+bearer_token_env_var = "ISSUES_MCP_TOKEN"
+```
+
+MCP tools, resources, resource templates, prompts, pagination, form elicitation,
+bearer tokens, and OAuth client credentials are supported. Live tool discovery
+lets a session use tools added after startup.
+
+Only configure servers you trust. Stdio servers run as local processes, receive
+the daemon environment, and are not restricted by the session filesystem
+sandbox.
+
+</details>
+
+<details>
+<summary><strong>Kimi Code</strong></summary>
+
+Install Kimi Code, complete its device-code login, then choose Kimi K3:
+
+```sh
+kimi login
+export RIG_PROVIDER="kimi"
+export RIG_MODEL="moonshot/kimi-k3"
+rig
+```
+
+By default Rig reads
+`$KIMI_CODE_HOME/credentials/kimi-code.json`, or
+`~/.kimi-code/credentials/kimi-code.json` when `KIMI_CODE_HOME` is unset. A
+named Kimi provider may instead set `auth_file`. Rig refreshes expired access
+tokens through Kimi Code's OAuth flow, coordinates refreshes with Kimi Code's
+cross-process lock, and atomically writes rotated credentials back to the same
+file.
+
+The built-in endpoint is `https://api.kimi.com/coding/v1`. Rig calls its
+OpenAI-compatible `/chat/completions` API with wire model `k3`, Kimi's
+1,048,576-token context, max reasoning, native reasoning continuation,
+normalized schemas and tool-call IDs, prompt caching, and streamed usage.
+Kimi receives adapted upstream coding, compaction, subagent, and tool guidance;
+all execution still runs through Rig's provider-neutral permissions and
+sandbox. Rig keeps planning in the normal agent workflow and uses its existing
+background work surfaces rather than reproducing Kimi Code's dedicated Plan,
+Cron, or AgentSwarm modes.
+
+</details>
+
+<details>
+<summary><strong>Grok Build</strong></summary>
+
+Install and sign in through the first-party Grok CLI, then choose Grok Build:
+
+```sh
+grok login
+export RIG_PROVIDER="grok"
+export RIG_MODEL="xai/grok-build"
+rig
+```
+
+By default Rig reads `$GROK_HOME/auth.json`, or `~/.grok/auth.json` when
+`GROK_HOME` is unset. It reads Grok's current OIDC scope, refreshes sessions
+five minutes before expiry, and atomically writes refreshed access and refresh
+tokens back to the same file.
+An explicit API key or `XAI_API_KEY` can also authenticate the provider, subject
+to xAI's model availability for that credential.
+
+The built-in endpoint is `https://cli-chat-proxy.grok.com/v1`. Grok Build uses
+the OpenAI-compatible `/responses` API with its upstream 500,000-token context,
+sampling defaults, encrypted reasoning continuation, and `x-grok-*` request
+headers. Rig adapts Grok's open-source prompt and primary tool definitions to
+its shared execution and permission layer; it does not reproduce Grok's TUI,
+schedulers, or dedicated Plan mode.
+
+</details>
+
+<details>
+<summary><strong>Amazon Bedrock</strong></summary>
+
+Bedrock becomes available when the daemon starts with an
+`AWS_BEARER_TOKEN_BEDROCK` value:
+
+```sh
+export AWS_BEARER_TOKEN_BEDROCK="your Bedrock API key"
+export AWS_REGION="us-east-1"
+export RIG_PROVIDER="bedrock"
+rig
+```
+
+To use Bedrock exclusively, disable the native authentication paths in the
+machine-wide config and select a Bedrock default:
+
+```toml
+[defaults]
+provider = "bedrock"
+model = "openai/gpt-5.6-sol"
+
+[providers]
+default_enable = false
+
+[providers.bedrock]
+enabled = true
+```
+
+Rig uses `AWS_REGION`, then `AWS_DEFAULT_REGION`, and otherwise defaults to
+`us-east-1`. Restart an already-running daemon after changing these variables.
+The available model list follows AWS regional availability. GPT-5.6 Sol, Terra,
+and Luna use Amazon Bedrock's Responses API and its 272,000-token context limit.
+Sol is available in `us-east-1` and `us-east-2`; Terra and Luna are also
+available in `us-west-2`. See the current
+[OpenAI Bedrock guide](https://developers.openai.com/api/docs/guides/amazon-bedrock)
+and [AWS launch announcement](https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/).
+Anthropic models use the native Messages API, prefer the Anthropic-compatible
+Mantle endpoint where available, fall back to Bedrock Runtime, and support
+Bedrock's native server-side compaction.
+
+</details>
+
+<details>
+<summary><strong>Theme and display</strong></summary>
+
+Rig follows Codex-style terminal color semantics by default. Override individual
+roles globally or per repository:
+
+```toml
+[theme]
+primary = "default"
+secondary = "dim"
+accent = "cyan"
+brand = "ansi:202"
+success = "green"
+warning = "yellow"
+error = "red"
+```
+
+Roles accept `default`, `dim`, ANSI names such as `bright_cyan`, palette indexes
+such as `ansi:202`, or true-color values such as `#D97706`. `/fast` toggles the
+Codex fast service tier when the selected provider supports it; fast inference
+uses twice the plan usage.
+
+</details>
+
+<details>
+<summary><strong>Daemon crash diagnostics</strong></summary>
+
+On Node.js runtimes that support environment redaction, Rig starts its daemon
+with private diagnostic reports for fatal runtime errors and uncaught
+exceptions. Run `rig daemon status` to see the diagnostics directory. Rig
+also records the original stack in `server.log`. The diagnostics directory is
+private (`0700`), uncaught-exception reports are additionally forced to `0600`,
+and Rig retains at most three crash reports. On older Node.js releases, Rig
+fails closed instead of writing credentials into a report and leaves an
+explanatory `crash-reports-unavailable.txt` file in that directory.
+
+Full heap snapshots near the memory limit are opt-in because they are large and
+can contain prompts, tool results, credentials held in memory, and other
+sensitive process data. Enable them only in the machine-level config and then
+restart the daemon:
+
+```toml
+[settings]
+daemon_heap_snapshots = true
+```
+
+Rig retains at most two heap snapshots. Repository `rig.toml` files cannot
+enable this setting.
+
+</details>
+
+<details>
+<summary><strong>Workflows and app event synchronization</strong></summary>
+
+Workflows are on by default. Disable them globally or per repository:
+
+```toml
+[features]
+workflows = false
+```
+
+For client integrations, the daemon can keep an opt-in durable queue of session
+and subagent lifecycle events:
+
+```toml
+[settings]
+durable_global_event_queue = true
+```
+
+This setting is user-wide only. Authenticated daemon clients can read event
+batches from `GET /events`, follow `GET /events/stream`, and acknowledge entries
+with `POST /events/trim`. See the [event reference](EVENTS.md) for payloads and
+queue behavior.
+
+</details>
+
+## Scope
+
+Rig aims for the best common coding-agent workflows, not exhaustive parity with
+every upstream option. It intentionally keeps planning in the normal agent flow,
+uses standard terminal editing instead of modal editing, follows Codex skill
+semantics, and relies on the existing Codex, Claude Code, Kimi Code, and Grok
+login flows.
+
+Rig also draws a clear boundary around the terminal UI. The terminal is for a
+focused, linear agent workflow. Features that need a richer interaction model—
+such as drag-and-drop, multiple independently scrolling panes, or complex visual
+workspaces—belong in a dedicated UI built on Rig's durable API. Rig provides the
+harness; it does not squeeze desktop-app interactions into a terminal.
+
+It does not add a separate Plan mode, Vim mode, notebook editor, durable command
+allow/deny history, dedicated IDE integration, or a separate Rig account. These
+boundaries keep the harness understandable and the defaults strong.
+
+## Development and contributing
+
+Want to work on Rig itself? See [DEVELOPMENT.md](DEVELOPMENT.md) for repository
+setup, tests, architecture notes, and the release process.
+
+## License
+
+Rig is available under the [MIT License](LICENSE). Adapted Grok Build portions
+remain under Apache-2.0, and adapted Kimi Code portions remain under MIT; see
+the [third-party notices](THIRD-PARTY-NOTICES.md).
+
