@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T05:40:00.611Z",
+  "updated_at": "2026-08-10T06:06:17.095Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.whodunnitai.com/",
+      "date": "2026-08-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! I'm excited to show off this really fun project I put together. I originally built this project 2-3 years ago, AI was already booming at the time, however voice AI agents were still very early. I loved my proof of concept at the time, but wasn't quite happy with it. I recently had the desire to check out the tech again, and know many of you will b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-voice-driven-murder-mystery-interview-ai-suspects-with-your-vo.md"
+    },
+    {
+      "title": "Show HN: Wardline, a Go proxy that auto-blocks compromised AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/kabirnarang39/wardline",
+      "date": "2026-08-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Wardline, a Go proxy that auto-blocks compromised AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-09/07-show-hn-wardline-a-go-proxy-that-auto-blocks-compromised-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Remaking Unreal engine in Rust for coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://machinesatplay.com",
+      "date": "2026-08-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! I'm kevin, cofounder of https://machinesatplay.com , a multiplayer 3d gaming engine for codex/claude code. TLDR: we're rebuilding unreal engine without the editor in rust meant to be used through the CLI. its open source/MIT. You prompt your favorite coding harness to create a game, and it'll give you a <name>.machinesatplay.com link Some multiplay... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-09/08-show-hn-remaking-unreal-engine-in-rust-for-coding-agents.md"
+    },
+    {
+      "title": "Show HN: Open-source playground to red-team AI agents against public prompts",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://playground.fabraix.com/",
+      "date": "2026-08-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Open-source playground to red-team AI agents against public prompts (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-09/09-show-hn-open-source-playground-to-red-team-ai-agents-against-public-pr.md"
+    },
+    {
+      "title": "Show HN: Gotcha- First on-device AI copilot for Android",
+      "source": "Hacker News Show HN",
+      "url": "https://samosa-ai.com/gotcha/",
+      "date": "2026-08-10",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Gotcha- First on-device AI copilot for Android (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-10/10-show-hn-gotcha-first-on-device-ai-copilot-for-android.md"
+    },
+    {
+      "title": "Show HN: Run your GitHub Actions locally or self-hosted in isolated microvms",
+      "source": "Hacker News Show HN",
+      "url": "https://preloop.dev",
+      "date": "2026-08-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN. I've been frustrated with Github Actions' reliability, and inability to run workflows locally. Preloop is a Rust reimplementation of the GitHub Actions, both the runner(tracking the latest version) and the control plane that runs in hardware-isolated microvms on MacOS/Linux/Windows(we use smolvm project that uses the libkrun vmm).The microvms star... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/11-show-hn-run-your-github-actions-locally-or-self-hosted-in-isolated-mic.md"
+    },
+    {
+      "title": "Show HN: TokenSpend, the AI ROI Solution",
+      "source": "Hacker News Show HN",
+      "url": "https://tokenspend.dev/",
+      "date": "2026-08-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I was curious about how most companies and individuals were using AI without any meaningful insights. I built TokenSpend ( https://tokenspend.dev/ ); we find existing ROI on AI code usage by tracking how much output was produced for your agent sessions, identifying inefficiencies with AI usage, and then, based on that data, we route you through th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/12-show-hn-tokenspend-the-ai-roi-solution.md"
+    },
+    {
+      "title": "Show HN: Sufleur - npm-style prompt registry with typed code-generation",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/sufleur/cli",
+      "date": "2026-08-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I've built Sufleur, a prompt registry and companion CLI tool. The motivation was essentially the frustration that prompts are becoming more and more crucial parts of applications, but in the codebases I've seen, they just sit around as random strings, in-house templates with odd rules, and essentially no version control beyond git. I've felt pain i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/13-show-hn-sufleur-npm-style-prompt-registry-with-typed-code-generation.md"
+    },
+    {
+      "title": "omlab/VLX-Seek-1.5-10B · Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkaypz/omlabvlxseek1510b_hugging_face/",
+      "date": "2026-08-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "VLX-Seek-1.5-10B VLX-Seek-1.5-10B is the open-source 10B model in the VLX-Seek 1.5 family, designed for fine-grained perception and visual grounding in embodied scenarios. It targets practical settings such as drones, robots, robotic dogs, surveillance cameras, inspection systems, and other edge-side visual intelligence applications where a model must ide... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-10/14-omlab-vlx-seek-1-5-10b-hugging-face.md"
+    },
+    {
+      "title": "KLQ: Training-free measured rotation quantization. Beats all training-free rotation-based quantization methods on W4A4KV4-bits. Llama 3.2 1B KLQ-quantized beats SpinQuant and gets close to ReSpinQuant without GPTQ/LDLQ rounding.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vk2n2k/klq_trainingfree_measured_rotation_quantization/",
+      "date": "2026-08-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "First of all, I'm not a lab, this was a solo summer research project that finally culminated into the github repo and the writeup. The repo includes a much deeper dive with methods, findings about quantization and geometry, limitations, and proposed experiments. I'll also mention that this is far from production-grade, it's mostly a theoretical framework... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-09/15-klq-training-free-measured-rotation-quantization-beats-all-training-fr.md"
+    },
+    {
+      "title": "Underestimated budget solution: radeon 780m iGPU",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjs3sf/underestimated_budget_solution_radeon_780m_igpu/",
+      "date": "2026-08-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "There are so many posts where people complaining about high prices and asking for solution So, there is one solution to consider: PC/mini PC/laptop on Ryzen 7 260 / Ryzen 9 8945HX /etc CPU with 780m iGPU and 64 Gb of DDR5 RAM. Barebone mini PC costs around 300-400, used 2x 32Gb DDR5 SO-DIMM around 500, used SSD 50-100 in my area. Here are my numbers on Ry... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-09/16-underestimated-budget-solution-radeon-780m-igpu.md"
+    },
+    {
+      "title": "DeepSeek v4 Flash 0731 locally on CPU",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjsysx/deepseek_v4_flash_0731_locally_on_cpu/",
+      "date": "2026-08-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "After seeing the benchmark results for the full release of DS v4 Flash 0731, I replaced my 2 x 16GB DDR4 ram sticks with 2 x 32GB DDR4 ram sticks to get a max supported of 128 GB RAM, in hope to be able to run GLM 5.2 equivalent model locally i.e. DS v4 Flash 0731 I also have RTX 4090 & Tesla P40 so the total combined RAM + VRAM is 176GB on my setup, I wo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-09/17-deepseek-v4-flash-0731-locally-on-cpu.md"
+    },
     {
       "title": "Show HN: Algebruh - Cross-check arithmetic claims with Z3, cvc5, and Lean",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "TL;DR: we built a framework-agnostic agent runtime that uses gVisor for isolation and runs on k8s. It’s open-source under AGPLv3 Recently we’ve been working on a customer support “AI assistant” - essentially an interactive knowledge base/L1 support but with an option to touch resources that belong to a customer it’s talking to. We found existing tools to... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-07/10-show-hn-clrk-an-open-source-agent-runtime-with-gvisor-and-mitm-guardra.md"
-    },
-    {
-      "title": "runakogitss/AplusPrompt",
-      "source": "GitHub Search API",
-      "url": "https://github.com/runakogitss/AplusPrompt",
-      "date": "2026-07-08",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A practice-first platform helping non-technical business owners master AI prompting through interactive coaching, comparison tools, and hands-on agent simulations. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-08/11-runakogitss-aplusprompt.md"
-    },
-    {
-      "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/rowboatlabs/rowboat",
-      "date": "2026-07-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Claude’s desktop app is brilliant, but for our own daily work we kept wanting it to be less like a chat app and more like a full-fledged work app. Rowboat is our attempt at that, including the ability to build your own work surfaces inside Rowboat (more below). Our repo is https://github.com/rowboatlabs/rowboat , and there’s a demo video here: https://www... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-07/12-show-hn-rowboat-open-source-local-first-alternative-to-claude-desktop.md"
-    },
-    {
-      "title": "Show HN: FrankenMarkdown, Render .md Files to PDF/HTML (also in browser)",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Dicklesworthstone/franken_markdown",
-      "date": "2026-07-08",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "If you're like me, you often find yourself wanting to send markdown documents to non-technical users, who take one look at the raw .md file and close it in disgust. The solution I had been using until recently was to open the .md file in Cursor and then use the markdown preview feature, which generates html that you can copy and paste into Gmail and have... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-08/13-show-hn-frankenmarkdown-render-md-files-to-pdf-html-also-in-browser.md"
-    },
-    {
-      "title": "I tested Anthropic’s new Jacobian Lens on open models, then it turned into a local-model hallucination router",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upy31x/i_tested_anthropics_new_jacobian_lens_on_open/",
-      "date": "2026-07-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Anthropic dropped their Global Workspace / Jacobian Lens paper yesterday, and I thought it was too cool not to try on open models. At first I was just curious what models looked like inside. Normal prompts, emotional prompts, ragebait prompts, deletion-threat prompts, base vs abliterated, small vs bigger models. So I fit lenses for: - Gemma 4 E4B - Gemma... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/14-i-tested-anthropic-s-new-jacobian-lens-on-open-models-then-it-turned-i.md"
-    },
-    {
-      "title": "I need an adult: J-Space-Aware Pruning/Merging/Distillation",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqd8i7/i_need_an_adult_jspaceaware/",
-      "date": "2026-07-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Warning: I am an accountant and not an ML engineer of any kind, and I'm potentially missing some important points. I wrote all this by hand, but I'll link my gemini chat where I was trying to understand this at the bottom so y'all can decide if I've got AI psychosis or not. I was reading through Anthropic's latest publication on the \"J space\" and trying t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-08/15-i-need-an-adult-j-space-aware-pruning-merging-distillation.md"
-    },
-    {
-      "title": "local already feels good enough",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq2ouy/local_already_feels_good_enough/",
-      "date": "2026-07-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This is specifically for coding, technical planning, and hardware setup. _____ The only times Qwen 3.6 35B A3B has let me down, it has been something that is resolved with a workflow/discipline improvement. If I go through and take the time to get the proper set up with a sound plan, it hasn't skipped a beat. It doesn't struggle at anything if it has the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/16-local-already-feels-good-enough.md"
-    },
-    {
-      "title": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16 · Hugging Face",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1upsdmi/nvidianvidianemotronlabs3puzzle75ba9bbf16_hugging/",
-      "date": "2026-07-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Nemotron-Labs-3-Puzzle-75B-A9B is a deployment-optimized large language model developed by NVIDIA, derived from Nemotron-3-Super-120B-A12B. The model is produced using Iterative Puzzle, a post-training compression framework, with the goal of significantly improving inference efficiency for interactive, reasoning-heavy, and long-context workloads while pre... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/17-nvidia-nvidia-nemotron-labs-3-puzzle-75b-a9b-bf16-hugging-face.md"
-    },
-    {
-      "title": "Show HN: Scan your AI agents for dangerous capabilities",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/makerchecker/MakerChecker",
-      "date": "2026-07-06",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Scan your AI agents for dangerous capabilities (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/06-show-hn-scan-your-ai-agents-for-dangerous-capabilities.md"
-    },
-    {
-      "title": "Agent Data Injection Attacks are Realistic Threats to AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.05120v1",
-      "date": "2026-07-06",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents act on behalf of user prompts, consuming external data and taking actions based on the agent context. Prior research on AI agent security has primarily focused on indirect prompt injection (IPI). Its most well-studied category is instruction injection, where attacker-controlled untrusted data is interpreted as an instruction. In response, many m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/07-agent-data-injection-attacks-are-realistic-threats-to-ai-agents.md"
-    },
-    {
-      "title": "Using Process Mining to Generate AI Agents from Software Engineering Process Records",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.04948v1",
-      "date": "2026-07-06",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Integrating AI agents into Software Engineering (SE) raises an important challenge: how can we specify and realize AI agents that work effectively alongside humans in hybrid SE teams? Determining the right granularity and separation of concerns for such agents is non-trivial. Coarse-grained agents may introduce unmanageable complexity, whereas micro-agent... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/08-using-process-mining-to-generate-ai-agents-from-software-engineering-p.md"
-    },
-    {
-      "title": "Strategic Buying Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.04708v1",
-      "date": "2026-07-06",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Agentic AI is shifting online shopping from search toward delegated purchasing, where autonomous buying agents monitor markets and decide when to buy on a consumer's behalf. We study the design of such strategic buying agents, which must decide when to purchase within a finite shopping window, translating price observations, the remaining time horizon, an... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/09-strategic-buying-agents.md"
-    },
-    {
-      "title": "ayankhanbebea-lgtm/PDFAIHUB",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ayankhanbebea-lgtm/PDFAIHUB",
-      "date": "2026-07-07",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "An all-in-one AI PDF platform featuring PDF editing tools, AI document analysis, Google OAuth, Stripe payments, and a modern Next.js interface. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-07/10-ayankhanbebea-lgtm-pdfaihub.md"
     }
   ]
 }
