@@ -1,10 +1,182 @@
 {
-  "last_checked_at": "2026-08-10T06:06:54.852Z",
+  "last_checked_at": "2026-08-11T05:46:44.660Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "patriarchal-boothose896/notebooklm-py",
+      "name": "patriarchal-boothose896/notebooklm-py",
+      "url": "https://github.com/patriarchal-boothose896/notebooklm-py",
+      "date": "2026-08-11",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 98,
+      "momentum": 56,
+      "risk": 30,
+      "integration_effort": 56,
+      "expected_gain": 87,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
+          "date": "2026-07-30",
+          "topic": "AI dev tools",
+          "similarity": 0.319,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
+        },
+        {
+          "title": "CarolineSmith2159/gpt56-claude-gateway",
+          "date": "2026-07-12",
+          "topic": "AI dev tools",
+          "similarity": 0.251,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/10-carolinesmith2159-gpt56-claude-gateway.md"
+        },
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.232,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-11)",
+        "MIT license",
+        "3 GitHub stars",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 100,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, dynamic, requires-python, license, authors, keywords"
+        }
+      ],
+      "install_commands": [
+        "pip install -r requirements.txt",
+        "pip install --upgrade pip",
+        "pip install --upgrade -r requirements.txt"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-07-30 about AI dev tools; this candidate overlaps with \"Show HN: Claude-account – switch Claude Code accounts without logging in again\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-11/01-patriarchal-boothose896-notebooklm-py.md"
+    },
+    {
+      "id": "square-lupus579/30x-seo",
+      "name": "square-lupus579/30x-seo",
+      "url": "https://github.com/square-lupus579/30x-seo",
+      "date": "2026-08-11",
+      "source": "awesome-claude-code",
+      "category": "awesome_lists",
+      "kind": "claude_skill",
+      "compatibility": 90,
+      "momentum": 45,
+      "risk": 35,
+      "integration_effort": 28,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
+          "date": "2026-07-30",
+          "topic": "AI dev tools",
+          "similarity": 0.183,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-11)",
+        "MIT license",
+        "Matches 1 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "requirements.txt",
+          "summary": "deps beautifulsoup4>=4.12.0,<5.0.0     # No known CVEs, requests>=2.32.4,<3.0.0           # CVE-2024-47081, CVE-2024-35195 fixes, lxml>=6.0.2,<7.0.0                # CVE-2025-24928 + additional libxml2 security patches, playwright>=1.56.0,<2.0.0         # CVE-2025-59288 fix (macOS), Pillow>=12.1.0,<13.0.0            # CVE-2025-48379 fix, urllib3>=2.6.3,<3.0.0             # CRITICAL: CVE-2026-21441 (CVSS 8.9), CVE-2025-66418, validators>=0.22.0,<1.0.0         # No known CVEs"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-07-30 about AI dev tools; this candidate overlaps with \"Show HN: Claude-account – switch Claude Code accounts without logging in again\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-11/02-square-lupus579-30x-seo.md"
+    },
+    {
+      "id": "akunzai/agent-skills",
+      "name": "akunzai/agent-skills",
+      "url": "https://github.com/akunzai/agent-skills",
+      "date": "2026-08-11",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 79,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 28,
+      "expected_gain": 87,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.364,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        },
+        {
+          "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
+          "date": "2026-07-29",
+          "topic": "AI agents",
+          "similarity": 0.322,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/09-what-does-it-take-to-detect-an-ai-agent-minimal-feature-sets-for-behav.md"
+        },
+        {
+          "title": "qinxiangrui-dev/edge-ai-agent",
+          "date": "2026-08-04",
+          "topic": "AI dev tools",
+          "similarity": 0.303,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/10-qinxiangrui-dev-edge-ai-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-11)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [],
+      "install_commands": [
+        "npx skills add akunzai/agent-skills"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-11/03-akunzai-agent-skills.md"
+    },
     {
       "id": "ai-shifu/ai-shifu",
       "name": "ai-shifu/ai-shifu",

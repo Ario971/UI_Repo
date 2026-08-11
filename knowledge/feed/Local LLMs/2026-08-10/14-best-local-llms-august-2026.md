@@ -1,0 +1,12 @@
+---
+title: "Best Local LLMs - August 2026"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1vkmhyl/best_local_llms_august_2026/"
+date: "2026-08-10"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Wowee!! Just when you thought it couldn't get better for open weight models, we probably have had our best period yet!?!?! Models that rival the closed frontier, Opus level models on non-insane hardware and more. A massive industry alliance coming out in support of open AI in response to the two closed model giants best lobbying efforts. Is this the best... (Local summary fallback used.)"
+---
+
+Wowee!! Just when you thought it couldn't get better for open weight models, we probably have had our best period yet!?!?! Models that rival the closed frontier, Opus level models on non-insane hardware and more. A massive industry alliance coming out in support of open AI in response to the two closed model giants best lobbying efforts. Is this the best timeline? Someone pinch me! Or just tell us what you're favorite model is now The standard spiel: Share what you are running right now and why. Given the nature of the beast in evaluating LLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in describing your setup, nature of your usage (how much, personal/professional use), tools/frameworks/prompts etc. Rules Only open weights models Please thread your responses in the top level comments for each Application below to enable readability: General: Includes practical guidance, how to, encyclopedic QnA, search engine replacement/augmentation Agentic/Agentic Coding/Tool Use/Coding Creative Writing/RP Speciality If a category is missing, please create a top level comment under the Speciality comment Notes Bonus points if you breakdown/classify your recommendation by model memory footprint: (you can and should be using multiple models in each size range for different tasks) Unlimited: >128GB VRAM XL: 64 to 128GB VRAM L: 32 to 64GB VRAM M: 8 to 32GB VRAM S: submitted by /u/rm-rf-rm [link] [comments]
