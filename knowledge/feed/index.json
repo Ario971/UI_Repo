@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T05:46:13.442Z",
+  "updated_at": "2026-08-12T06:06:41.586Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://parley.weldra.dev",
+      "date": "2026-08-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I saw one friction point when working as part of a team that uses coding agents extensively - there is nothing to enable coordination between agent used by people in a team. Many times my agent would ask me to decide upon something with a fellow teammate, for which I have to serve as the network layer. So I built Parley where agents can connect to... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
+    },
+    {
+      "title": "Show HN: Line9 – A Mermaid rendering engine with its own layout",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://line9.ai/diagram",
+      "date": "2026-08-06",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Line9 is a new rendering engine for Mermaid flowchart diagrams that aims to remove the need for manual adjustment of layout. Mermaid is a popular text-based language for describing multiple types of diagrams. Several Mermaid rendering engines already exist. Most, like the original mermaid.js, use Dagre or ELK graph drawing libraries to automatically lay o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/07-show-hn-line9-a-mermaid-rendering-engine-with-its-own-layout.md"
+    },
+    {
+      "title": "Show HN: TermDOM – HTML, CSS and JavaScript (With a Real DOM) for TUIs and CLIs",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/bikeshaving/termdom",
+      "date": "2026-08-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "TermDOM renders a real DOM styled with real CSS to terminal cells. You build a document with createElement or innerHTML, or any frontend web framework, and it automatically produces colored ANSI output, with browser-style layout, text wrapping and flexbox included. The library can also be used to translate HTML to static ANSI. Full disclaimer: This projec... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/08-show-hn-termdom-html-css-and-javascript-with-a-real-dom-for-tuis-and-c.md"
+    },
+    {
+      "title": "Show HN: I wrote the emudev hello world (CHIP-8 emulator in C)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Tackx/c8",
+      "date": "2026-08-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Yep, just another CHIP-8 emulator. But for me, as someone who has never written anything this low level and never touched C before, it was quite the challenge at first. But after writing the first few instructions (drawing especially), it slowly became almost a breeze. Until I had to debug why my font sprites were rendering all messed up. It's still work... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/09-show-hn-i-wrote-the-emudev-hello-world-chip-8-emulator-in-c.md"
+    },
+    {
+      "title": "Show HN: p0rt – see every dev server, port and Docker container in your menu bar",
+      "source": "Hacker News Show HN",
+      "url": "https://p0rt.app",
+      "date": "2026-08-11",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: p0rt – see every dev server, port and Docker container in your menu bar (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/10-show-hn-p0rt-see-every-dev-server-port-and-docker-container-in-your-me.md"
+    },
+    {
+      "title": "Akins20/FREYA",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Akins20/FREYA",
+      "date": "2026-08-11",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "An AI assistant that refuses to say it's finished when it isn't. Written in Go: zero dependencies, one static binary, runs offline on a decade-old laptop. Drives a real browser, makes documents, remembers. State-checked, not vibe-checked. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/11-akins20-freya.md"
+    },
+    {
+      "title": "jswysnemc/sai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/jswysnemc/sai",
+      "date": "2026-08-12",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Command-line AI assistant (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-12/12-jswysnemc-sai.md"
+    },
+    {
+      "title": "Show HN: Tokyo Trains",
+      "source": "Hacker News Show HN",
+      "url": "https://greggman.github.io/tokyo-trains/",
+      "date": "2026-08-11",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Semi inspired by the 3d Shinjuku station that was posted again recently, I noticed it was missing a large portion of the \"complex\" where \"complex\" is defined loosly has how far you can walk without stepping outside. So I asked Claude to make a 3d map of all Tokyo Trains, no libraries, and let you zoom into stations, and the first version with both map and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/13-show-hn-tokyo-trains.md"
+    },
+    {
+      "title": "Introducing Unsloth Desktop app",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlj87v/introducing_unsloth_desktop_app/",
+      "date": "2026-08-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi LocalLlama, we're super excited to release Unsloth Desktop today! 🦥 It's the first desktop app that enables you to run and train models locally. Open-source. Available on Mac, Windows, and Linux Supports MLX, diffusion image/video models, audio models, and GGUF You can run MiniMax-H3, Muse Glimmer, soon Qwen 3.8 etc Connect Claude Code and Codex to lo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-11/14-introducing-unsloth-desktop-app.md"
+    },
+    {
+      "title": "I tested the CMP170HX",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlwjr8/i_tested_the_cmp170hx/",
+      "date": "2026-08-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Lots of rumor and misinfo bouncing around, so I put some of these old mining cards to the test. I used 4 of the 8GB cards, set to 64GB each. Lots of models fit entirely on a single card, and you can also run several small models at the same time on a single card, as long as their combined VRAM usage is 64GB or less. A setup like comfyui taking 10-12GB and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-11/15-i-tested-the-cmp170hx.md"
+    },
+    {
+      "title": "Anthropic, OpenAI, Google, Meta, Microsoft, and Mistral all signed the EU Code of Practice on Transparency of AI-Generated Content",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlyzi6/anthropic_openai_google_meta_microsoft_and/",
+      "date": "2026-08-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Even open source local models from these companies will be watermarking code and text since it's required by law. submitted by /u/Bestlife73 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-12/16-anthropic-openai-google-meta-microsoft-and-mistral-all-signed-the-eu-c.md"
+    },
+    {
+      "title": "I will be parting with my 4x Spark Cluster.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlrqd4/i_will_be_parting_with_my_4x_spark_cluster/",
+      "date": "2026-08-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Laid off then my partner of 10 years said he's leaving, have to move, etc... I will post the r/hardwareswap link when I make it. I'm willing to add some incentive for r/LocalLLaMA folks. I will also add the super node configs and all the cool stuff that may not be apparent that you can do with each. (Especially for the top 1-2% post members.) As for my ho... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-11/17-i-will-be-parting-with-my-4x-spark-cluster.md"
+    },
     {
       "title": "Show HN: Keen Code – an agentic-engineered coding agent",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Show HN: Runtime authorization for Claude Code, Cursor, and Codex Hi HN, Fernando and I built Kastra. Kastra intercepts AI agent tool calls and evaluates them against deterministic policies before they execute. This is aimed at developers using coding agents like Claude Code, Codex, Cursor, and OpenClaw. We built Kastra after one of our Cursor agents almo... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/10-show-hn-policy-enforcement-for-claude-code-cursor-and-codex.md"
-    },
-    {
-      "title": "Show HN: I built a web tool to see and edit what an AI thinks before it answers",
-      "source": "Hacker News Show HN",
-      "url": "https://lucid.earthpilot.ai",
-      "date": "2026-07-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I run a small AI lab and playground and got super excited about Anthropics paper \"Verbalizable Representations Form a Global Workspace in Language Models\" ( https://transformer-circuits.pub/2026/workspace/index.html ) It talks about how they use a tool they call a Jacobian Lens to view inside the middle layers of LLM while it's working before it commits t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/11-show-hn-i-built-a-web-tool-to-see-and-edit-what-an-ai-thinks-before-it.md"
-    },
-    {
-      "title": "Show HN: Devthropology – Better Insights for GitHub Repos",
-      "source": "Hacker News Show HN",
-      "url": "https://devthropology.com/demo",
-      "date": "2026-07-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Devthropology is a passion project built on top of GitHub pull data. The name is a play on developer anthropology. Pull request data can be cut a lot of ways. The functionality has been built out of curiosity as I want to see different insights into codebases that I work on. Some of the data is typical and other parts I haven't seen elsewhere. I think of... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/12-show-hn-devthropology-better-insights-for-github-repos.md"
-    },
-    {
-      "title": "Show HN: Fortress – Give your agents unlimited access to the web",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=48854467",
-      "date": "2026-07-10",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "i personally believe that the internet is the best thing we've ever built, and arguably, nothing we made before comes close. now agents can use it too, but the web treats them as second-class. every agent works for a person, so whatever it keeps from agents it keeps from us. we believe that if we let them in, each of us gets the whole of what we built, a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-10/13-show-hn-fortress-give-your-agents-unlimited-access-to-the-web.md"
-    },
-    {
-      "title": "If You Already Pay for an LLM Service, Running Local Embeddings and Rerankers Feels More Useful Than Running Local LLMs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us3li5/if_you_already_pay_for_an_llm_service_running/",
-      "date": "2026-07-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://preview.redd.it/v0xtn3jdu9ch1.png?width=2047&format=png&auto=webp&s=628a6a541fe5f097d0f771ae0ba3b7f44126198f https://preview.redd.it/vjxiucsdu9ch1.png?width=2047&format=png&auto=webp&s=74f7a18a5a30276e206e2bfb5a0c529826ce86e4 This post was originally written in Korean, then polished and translated into English using ChatGPT. I do run llama.cpp loc... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-09/14-if-you-already-pay-for-an-llm-service-running-local-embeddings-and-rer.md"
-    },
-    {
-      "title": "Locally run assistant on a w-10 board on a local Xiaozhi server",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1us9yjo/locally_run_assistant_on_a_w10_board_on_a_local/",
-      "date": "2026-07-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hello, Locallama! \"long-time\" member here, from the days when the max context window doubled from 2K to a whooping 4K! Now I feel like I am living in a dream world, doing things I could not have imagined back then. This is Belochka, or Bella, running on a Mac and projected to an ESP 32 w-10 board, the \"Rune Board\" because runes :-). In the background is Q... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/15-locally-run-assistant-on-a-w-10-board-on-a-local-xiaozhi-server.md"
-    },
-    {
-      "title": "I built barebrowse: give a local-model agent a browser without Playwright — pruned ARIA snapshots instead of raw HTML (far fewer tokens)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usg4cq/i_built_barebrowse_give_a_localmodel_agent_a/",
-      "date": "2026-07-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Author here, sharing something I built. If you run agents on a local model, feeding a whole page as raw HTML burns your context fast. barebrowse turns a URL into a pruned ARIA snapshot — the semantic tree with nav/ads/boilerplate stripped — so each page is a fraction of the tokens. Useful when the context window is your bottleneck. No Playwright / bundled... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/16-i-built-barebrowse-give-a-local-model-agent-a-browser-without-playwrig.md"
-    },
-    {
-      "title": "Neuralwatt Pricing will Double From 07/16 - Got This Email",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1use2ee/neuralwatt_pricing_will_double_from_0716_got_this/",
-      "date": "2026-07-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Welp, the age of cheap tokens coming to an end. Many here use this service to access GLM 5.2. Looks like only sustainable way moving forward to local LLM. submitted by /u/BoogerheadCult [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/17-neuralwatt-pricing-will-double-from-07-16-got-this-email.md"
-    },
-    {
-      "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://microsoft.github.io/flint-chart/#/",
-      "date": "2026-07-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Data visualizations are the bridge between user and data. But building AI agents that can generate visualizations reliably can be very tricky: - simple chart specs can be reliable, but generated charts are often of low quality due to reliance on system defaults; - complex chart specs with explicit details can produce good-looking charts, but they are verb... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/06-show-hn-microsoft-releases-flint-a-visualization-language-for-ai-agent.md"
-    },
-    {
-      "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://abralo.com/",
-      "date": "2026-07-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi guys, I've been using Claude Code for almost everything lately. Have given one an email account so it can research business leads, draft emails, fact-check them and clear them with me before sending (works really well by the way). I also tend to have a few Claude Code agents running at any one time for coding. I used to create a split terminal to manag... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-    },
-    {
-      "title": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.07695v1",
-      "date": "2026-07-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We introduce institutional red-teaming, an evaluation methodology for testing deployment rules in multi-agent AI: hold the agents, objectives, and task state fixed, vary only one rule, and attribute the resulting change in collective behavior to that rule. We instantiate the methodology in IABench-CA, a consequence-allocation benchmark spanning 228 contex... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/08-institutional-red-teaming-deployment-rules-not-just-models-causally-sh.md"
-    },
-    {
-      "title": "SkillCenter: A Large-Scale Source-Grounded Skill Library for Autonomous AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.07676v1",
-      "date": "2026-07-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Autonomous AI agents can execute complex tasks with limited human review, yet they often lack the grounded operational knowledge to make their outputs not just executable but correct, secure, and maintainable. We introduce SkillCenter, to our knowledge the largest open skill library for agents by total count: 216,938 structured skills across 24 domain bun... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/09-skillcenter-a-large-scale-source-grounded-skill-library-for-autonomous.md"
-    },
-    {
-      "title": "Show HN: Kinetic – an experimental decentralized naming protocol",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/saifmukhtar/kinetic",
-      "date": "2026-07-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I started this while working on another project. I needed peer-to-peer connections and realized I still depended on domains, so I started wondering if there was another way to do naming. This became Kinetic. It's an experimental naming protocol written in Rust. The idea is to use VDFs for name registration while libp2p and Kademlia handle discovery... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/10-show-hn-kinetic-an-experimental-decentralized-naming-protocol.md"
     }
   ]
 }
