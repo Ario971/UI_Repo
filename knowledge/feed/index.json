@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T06:06:41.586Z",
+  "updated_at": "2026-08-13T06:09:27.239Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B LiquidAI • 9 days ago • 87",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "date": "2026-08-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Deploy local agents everywhere with LFM2.5-2.6B LiquidAI • 9 days ago • 87 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/06-deploy-local-agents-everywhere-with-lfm2-5-2-6b-liquidai-9-days-ago-87.md"
+    },
+    {
+      "title": "Show HN: Ballet – Workflow automation that writes integrations against any API",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.ballet.dev/",
+      "date": "2026-08-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Ballet – Workflow automation that writes integrations against any API (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/07-show-hn-ballet-workflow-automation-that-writes-integrations-against-an.md"
+    },
+    {
+      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://woxi.ad-si.com",
+      "date": "2026-08-12",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Woxi is an interpreter for the Wolfram Language written in Rust. It comes with Woxi Studio, a Mathematica-like GUI built with iced, but you can also use Woxi through a CLI, Jupyter kernel, Python package, npm package, or WASM module. Compared with wolframscript / Mathematica, the main differences are: - Free and open source - Very fast startup - Typically... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-12/08-show-hn-woxi-open-source-mathematica-wolfram-language-reimplementation.md"
+    },
+    {
+      "title": "Show HN: Agent Memory Leaderboard – first public results for AI memory systems",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://agentmemoryleaderboard.ai/leaderboard/academic/textual",
+      "date": "2026-08-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We just released the first public results from the Agent Memory Leaderboard (AML). The first evaluation focuses on Text Memory across two tracks: - Open-source Methods - Commercial Products 136 teams registered, and 69 representative memory frameworks completed the first evaluation. Commercial Products — Text Memory: 1. MemoraX — 58.02 2. MemOS — 45.89 3.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/09-show-hn-agent-memory-leaderboard-first-public-results-for-ai-memory-sy.md"
+    },
+    {
+      "title": "Vaizer0/zero-termux",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Vaizer0/zero-termux",
+      "date": "2026-08-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Zero-Termux: modular dev environment (core CLI) + signed APT repository (228 packages) for Termux (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-13/10-vaizer0-zero-termux.md"
+    },
+    {
+      "title": "premhagargi/nexus-ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/premhagargi/nexus-ai",
+      "date": "2026-08-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "premhagargi/nexus-ai Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-13/11-premhagargi-nexus-ai.md"
+    },
+    {
+      "title": "VenghaiYeap/boilerplate-test1-garage",
+      "source": "GitHub Search API",
+      "url": "https://github.com/VenghaiYeap/boilerplate-test1-garage",
+      "date": "2026-08-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "VenghaiYeap/boilerplate-test1-garage Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-13/12-venghaiyeap-boilerplate-test1-garage.md"
+    },
+    {
+      "title": "Show HN: Programmable timer web app (for gym workouts or stretching sessions)",
+      "source": "Hacker News Show HN",
+      "url": "https://timer.jotaen.net",
+      "date": "2026-08-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Over the last couple of months, I’ve been building a timer web app for myself that I use for workout and stretching sessions. My main use-case is gym routines that consist of repeatable sequences, e.g. where you are holding certain positions for a set time (rinse and repeat). The app counts down the program, beeps, and reads the activities out loud. Two t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-12/13-show-hn-programmable-timer-web-app-for-gym-workouts-or-stretching-sess.md"
+    },
+    {
+      "title": "How do you plan to run Qwen3.8-2.4T-A95B locally?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmvpjc/how_do_you_plan_to_run_qwen3824ta95b_locally/",
+      "date": "2026-08-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "To my fellow crazies, the few. Those who dared wrestle with llama-70b, mistral-large, goliath, mistral8x22B, DeepSeekV2/3, wept when llama4 behemoth was announced, picked yourself up and are now wrestling with DeepSeekV4Pro, GLM5.2, MiMoV2.5Pro and sometimes dare dream of KimiK3, well Qwen3.8-2.4T is here. Smaller than KimiK3, but looks like it might be h... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-13/14-how-do-you-plan-to-run-qwen3-8-2-4t-a95b-locally.md"
+    },
+    {
+      "title": "LFM2.5-VL-3B recognizes Steve from Minecraft running locally on an iPhone 17",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmp9gj/lfm25vl3b_recognizes_steve_from_minecraft_running/",
+      "date": "2026-08-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Liquid AI put out LFM2.5-VL-3B today, which is a 3.1B vision model that weighs roughly 2GB and fits well on a phone Benchmarks are benchmarks so I tried something sillier. Took a photo of a little Steve toy I have, gave it to the model and asked it what it was looking at It ended up thinking for around 2 minutes and 31 seconds on an iPhone 17, which is a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-12/15-lfm2-5-vl-3b-recognizes-steve-from-minecraft-running-locally-on-an-iph.md"
+    },
+    {
+      "title": "Qwen3.8-2.4T-A95B Released",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmgozv/qwen3824ta95b_released/",
+      "date": "2026-08-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/de4dee [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-12/16-qwen3-8-2-4t-a95b-released.md"
+    },
+    {
+      "title": "Today is Models Day",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmjqtk/today_is_models_day/",
+      "date": "2026-08-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/Fz1zz [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-12/17-today-is-models-day.md"
+    },
     {
       "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hey there, My name is Clem, I've been a solo indie dev for a couple years now, exploring frontier tech like XR and agentic workflows in the context of creative / interactive work. I've been building creation tools for a while and some common design challenge is to figure out the right level of abstraction for your tool. You can always make it super advanc... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-10/10-show-hn-subjectivezero-an-open-source-agentic-node-editor-for-creative.md"
-    },
-    {
-      "title": "Show HN: SpeechCompass – speaker direction for captioning group conversations",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/google-deepmind/speech-compass/",
-      "date": "2026-07-10",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! We are excited to finally open-source SpeechCompass (from my time at Google, released with google-deepmind). If you've used live captions in group conversations, you've seen how different voices get mixed up into one wall of text. In our survey of 263 captioning power users, the merging of speakers was a top issue (46%). SpeechCompass (Best Paper A... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-10/11-show-hn-speechcompass-speaker-direction-for-captioning-group-conversat.md"
-    },
-    {
-      "title": "GhostXia/AIRP",
-      "source": "GitHub Search API",
-      "url": "https://github.com/GhostXia/AIRP",
-      "date": "2026-07-11",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AIRP — AI Roleplay Platform monorepo: state-protocol + gateway + mcp-server + core + ui (unified Cargo workspace) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-11/12-ghostxia-airp.md"
-    },
-    {
-      "title": "Show HN: Wyrm – Solve algebra by touch, built on an open-source soundness engine",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/dicroce/wyrm_math",
-      "date": "2026-07-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "There is a mobile game called DragonBox. It sort of tricks you into learning algebra by starting with very abstract manipulations of a puzzle that must follow rules... gradually the game teaches you more and more rules and also strips out the more abstract elements until on the last levels you are finally solving real equations. I loved it, it taught my k... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/13-show-hn-wyrm-solve-algebra-by-touch-built-on-an-open-source-soundness-.md"
-    },
-    {
-      "title": "2.5x faster Qwen3.6 NVFP4 Unsloth quants",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usniqh/25x_faster_qwen36_nvfp4_unsloth_quants/",
-      "date": "2026-07-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey r/LocalLLaMA folks! We made NVFP4 quants 2.5x faster for Qwen3.6 27B and also 1.56x to 1.79x faster for 35B-A3B vs NVIDIA's NVFP4 quants without any accuracy degradation! We used W4A4 so actual 4bit tensor cores for matmuls, whilst NVIDIA's ones uses W4A16. FP8 KV Cache calibration is also provided, auto allowing 2x longer contexts . For accuracy we c... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/14-2-5x-faster-qwen3-6-nvfp4-unsloth-quants.md"
-    },
-    {
-      "title": "Nostalgia for Bloom",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut1tno/nostalgia_for_bloom/",
-      "date": "2026-07-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Incredible how far we have come, I remember buying 768gb optane drives to try to run the full bloom with swap and waiting like 20 mins for one token. Anyone else play with these early models? I kind of want to go back to trying them again to remind myself of how much progress has happened locally. submitted by /u/ilarp [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/15-nostalgia-for-bloom.md"
-    },
-    {
-      "title": "Has anyone created a \"Local LLM Survival Kit\"?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uspcg0/has_anyone_created_a_local_llm_survival_kit/",
-      "date": "2026-07-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Here's what I'm thinking about: A USB thumb drive that you can plug into any PC or laptop, and immediately get a usable knowledge base powered by an LLM, without requiring an Internet connection. I believe the technology for this should be ready. Rough architecture: llama.cpp binaries for CPU-only inference, for Windows, macOS, and Linux (each for all maj... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/16-has-anyone-created-a-local-llm-survival-kit.md"
-    },
-    {
-      "title": "MIT LLM Serve Dashboard I am making open source",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut3p89/mit_llm_serve_dashboard_i_am_making_open_source/",
-      "date": "2026-07-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "A single-file, dependency-free live dashboard for your local LLM serving box — GPU utilization, per-model throughput, KV/context fill, and system stats for llama.cpp and vLLM , in one green terminal-styled page. No framework, no build step, no external requests. The frontend is one index.html (opens on file:// ); the backend is one stdlib Python file that... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-10/17-mit-llm-serve-dashboard-i-am-making-open-source.md"
-    },
-    {
-      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/JustVugg/colibri",
-      "date": "2026-07-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I've gotten from models like Claude or GPT, and this really surprised me. But then I thought, \"I wonder how it would work on a normal computer like mine,\" and above all, \"I wonder if it would... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/06-show-hn-getting-glm-5-2-running-on-my-slow-computer.md"
-    },
-    {
-      "title": "Show HN: Reverse-engineering web apps into agent tools",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://news.ycombinator.com/item?id=48847834",
-      "date": "2026-07-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! We built a browser-based agent that runs inside an authenticated web app, watches how the app calls its own APIs, and automatically turns those into agent tools. You can think of it as an auto-generated MCP server that self-updates as the host app changes. The result is a skilled AI assistant that actually integrates deeply with any product (not j... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
-    },
-    {
-      "title": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/ronak-create/FableCut",
-      "date": "2026-07-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/08-show-hn-fablecut-a-browser-video-editor-ai-agents-can-drive-zero-deps.md"
-    },
-    {
-      "title": "Show HN: Pylon Sync, an agent-first full-stack realtime framework",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.pylonsync.com",
-      "date": "2026-07-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I created Pylon to make it easier to move from hobby projects to full production apps. When I work on hobby projects, I usually use React or Next.js because they are quick to set up and easy to deploy on Vercel. For production apps, I separate the frontend and backend, then deploy the backend on AWS. But setting up a full backend on AWS can be complex and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/09-show-hn-pylon-sync-an-agent-first-full-stack-realtime-framework.md"
-    },
-    {
-      "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex",
-      "source": "Hacker News Show HN",
-      "url": "https://kastra.ai/",
-      "date": "2026-07-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Runtime authorization for Claude Code, Cursor, and Codex Hi HN, Fernando and I built Kastra. Kastra intercepts AI agent tool calls and evaluates them against deterministic policies before they execute. This is aimed at developers using coding agents like Claude Code, Codex, Cursor, and OpenClaw. We built Kastra after one of our Cursor agents almo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/10-show-hn-policy-enforcement-for-claude-code-cursor-and-codex.md"
     }
   ]
 }
