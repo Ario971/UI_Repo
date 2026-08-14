@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T06:09:27.239Z",
+  "updated_at": "2026-08-14T06:07:23.896Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,116 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: OJCP – an open protocol for agent-consumable job data",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://ojcp.dev/",
+      "date": "2026-08-12",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Author here! Agents are applying to jobs for people right now, with progressively more volume, and there's nothing built for it. So they scrape career pages and fight ATS forms with Playwright/Browser Use, which breaks constantly (or they get bot blocked). Employers get buried in applications that don't fit, candidates hear nothing back, and the resume is... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-12/06-show-hn-ojcp-an-open-protocol-for-agent-consumable-job-data.md"
+    },
+    {
+      "title": "Show HN: Taurus Agents, my take on multi-agent hierarchies",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://taurusagents.com/",
+      "date": "2026-08-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! Serge here, solo founder. I built my own multi-agent orchestrator and it became so useful that for several months I've never had to touch codex or claude code anymore, just using Taurus now. The website explains what it is, but here I wanted to share how and why. If you think multi-agent orchestration is stupid, I'll try to convince you otherwise.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/07-show-hn-taurus-agents-my-take-on-multi-agent-hierarchies.md"
+    },
+    {
+      "title": "Show HN: Auto-train the harness, not the LLM. cross-model, cross-benchmark gains",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/workofart/harness-training",
+      "date": "2026-08-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Auto-train the harness, not the LLM. cross-model, cross-benchmark gains (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/08-show-hn-auto-train-the-harness-not-the-llm-cross-model-cross-benchmark.md"
+    },
+    {
+      "title": "Show HN: Clixad – Free AI coding agent in the terminal, funded by an offerwall",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://clixad.io/",
+      "date": "2026-08-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Clixad – Free AI coding agent in the terminal, funded by an offerwall (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/09-show-hn-clixad-free-ai-coding-agent-in-the-terminal-funded-by-an-offer.md"
+    },
+    {
+      "title": "Aug 13, 2026 · company Cursor earns AIUC-1 certification for agent security and reliability Kenneth Moras 4m Kenneth Moras · 4m",
+      "source": "Cursor Blog",
+      "url": "https://cursor.com/blog/aiuc-1",
+      "date": "2026-08-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Aug 13, 2026 · company Cursor earns AIUC-1 certification for agent security and reliability Kenneth Moras 4m Kenneth Moras · 4m (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-13/10-aug-13-2026-company-cursor-earns-aiuc-1-certification-for-agent-securi.md"
+    },
+    {
+      "title": "pingfanfan/dsh-learn",
+      "source": "GitHub Search API",
+      "url": "https://github.com/pingfanfan/dsh-learn",
+      "date": "2026-08-14",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Agent-maintained Chinese DeepSeek Harness learning, evidence, labs and ecosystem growth system. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-14/11-pingfanfan-dsh-learn.md"
+    },
+    {
+      "title": "Trained a 1.5B to write shell commands so I'd stop googling tar flags. Runs on a laptop CPU in ~1 sec.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnl0um/trained_a_15b_to_write_shell_commands_so_id_stop/",
+      "date": "2026-08-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been googling \"tar extract gz\" for about ten years. and I finally did something about it. It started out as a research project and I ended up with a Fine-tuned Qwen2.5-Coder-1.5B on 125k natural-language/command pairs, merged and quantized to Q4_K_M. 941MB which runs through llama.cpp. On my laptop (i5-11320H, 4 threads): 31.9 tok/s, 0.59s median per... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-13/12-trained-a-1-5b-to-write-shell-commands-so-i-d-stop-googling-tar-flags-.md"
+    },
+    {
+      "title": "Fixed Jinja chat template for Qwen 3.5, 3.6, and the new 3.8 release",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/",
+      "date": "2026-08-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Qwen just released their first 3.8 model. The main addition in 3.8 is prompt-steered reasoning effort. You can tell the model how deeply to think by setting reasoning_effort to xhigh , medium , or low . However, the official template still has some serious problems: You cannot disable thinking. If you pass enable_thinking=false , it 3.8 crashes with a har... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-13/13-fixed-jinja-chat-template-for-qwen-3-5-3-6-and-the-new-3-8-release.md"
+    },
+    {
+      "title": "Doom running on an LLM -- Hugging Face checkpoint included",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnjtyh/doom_running_on_an_llm_hugging_face_checkpoint/",
+      "date": "2026-08-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "There's no training anywhere in this. I ported Doom's actual rendering algorithm into transformer weights using a compiler I wrote (torchwright) -- every weight computed, none learned. The prompt carries the level geometry, player position, and view direction; generation emits drawing commands; a 43-line host program turns them into pixels. Stock Phi3ForC... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-13/14-doom-running-on-an-llm-hugging-face-checkpoint-included.md"
+    },
+    {
+      "title": "Mistral is now hosting GLM-5.2",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnuymy/mistral_is_now_hosting_glm52/",
+      "date": "2026-08-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Not directly LOCALLlama related but I thought it was interesting since Mistral and Z.ai are competitors, and more surprisingly they are pricing it (GLM-5.2) even cheaper than their current flagship model Mistral Medium 3.5. Does this suggest a pivot in Mistral's strategy? Are they going to abandon frontier model development and instead focus on selling co... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-14/15-mistral-is-now-hosting-glm-5-2.md"
+    },
     {
       "title": "Deploy local agents everywhere with LFM2.5-2.6B LiquidAI • 9 days ago • 87",
       "source": "Hugging Face Blog",
@@ -4304,116 +4414,6 @@
       "read": false,
       "summary": "Modern Thailand coupon, promo code, deals, discounts, affiliate marketing, cashback and shopping platform built with Next.js 15, React 19, TypeScript, Tailwind CSS, Supabase and Vercel. Includes admin dashboard, blog CMS, SEO optimization, AI search optimization, Material Design 3, responsive UI, authentication, analytics, PWA and high-performance (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/12-boynaa1122-ui-thailand-coupon-hub.md"
-    },
-    {
-      "title": "Show HN: Orbit – AR satellite tracker, watch 15k+ objects",
-      "source": "Hacker News Show HN",
-      "url": "https://nagylukas.github.io/orbit.html",
-      "date": "2026-07-11",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! I made Orbit, an iOS app that allows you to see the satellites, planets, and constellations above you in AR, on a 2D map, and on a 3D globe. The app includes more than 15,000 objects tracked by CelesTrack, together with their pass predictions, descriptions, and detailed orbital data. A searchable catalog of all objects is also available, as well a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-11/13-show-hn-orbit-ar-satellite-tracker-watch-15k-objects.md"
-    },
-    {
-      "title": "i would like to share my experience. working with huge LLMs and poor Machine",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu6qvh/i_would_like_to_share_my_experience_working_with/",
-      "date": "2026-07-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "hello people i wanted to share my experience with big and huge models (usually 100B+ models and 200B+ models and more) my laptop specs is very poor I7-8750H 20G Ram GTX 1050 Mobile 4G Vram but what nearly saved me is my NVMe from samsung i have 512G NVMe from samsung and yes as you expected. i run these huge models while throwing most of the parameters in... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/14-i-would-like-to-share-my-experience-working-with-huge-llms-and-poor-ma.md"
-    },
-    {
-      "title": "Performance comparison on full compute performance (Anima) and LLM prompt processing of 5090 (600,475 and 400W) vs 6000 PRO MaxQ shunt modded and water cooled (at 300, 400, 475 and 600W), and 6000 PRO WS/SE (600W).",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utvbey/performance_comparison_on_full_compute/",
-      "date": "2026-07-11",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hello guys, hoping you're doing fine! I'm continuing after this post some time ago, comparing stock MaxQ performance and such on Anima here. This time, I shunt modded the 6000 PRO MaxQ, to use up to 2x amounts of power. These cards seems to be binned for high clocks and it is reflected after this. R002 resistance on top of stock resistance, making the car... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-11/15-performance-comparison-on-full-compute-performance-anima-and-llm-promp.md"
-    },
-    {
-      "title": "I didn't give up - extGemma4-40_5B returned",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu4hxp/i_didnt_give_up_extgemma440_5b_returned/",
-      "date": "2026-07-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Continue from my previous posts: https://www.reddit.com/r/LocalLLaMA/comments/1ul0cx9/i_extended_gemma431b_to_44b_88_layers_since/ https://www.reddit.com/r/LocalLLaMA/comments/1um20ev/why_new_inserted_layers_kill_the_gemma4/ (Warning : AI generated Post - due to my bad English) Hugging Face : https://huggingface.co/TOTORONG/extGemma4-40_5B https://preview... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/16-i-didn-t-give-up-extgemma4-40-5b-returned.md"
-    },
-    {
-      "title": "**Your $80 Tesla P100 has been doing silently noisy math in llama.cpp for years. Three lines fix it, for free.**",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu6p9o/your_80_tesla_p100_has_been_doing_silently_noisy/",
-      "date": "2026-07-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "## TLDR; Shipped — in turboquant v0.3.0, downloadable now. https://github.com/TheTom/llama-cpp-turboquant/releases/tag/tqp-v0.3.0 llama.cpp's CUDA code has a flag that means \"this GPU is fast at fp16, so do the math in fp16.\" The GTX 10-series and P40's (sm_61) were exempted from it long ago. The P100 (sm_60) was not, ironically, because it's the one Pasc... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/17-your-80-tesla-p100-has-been-doing-silently-noisy-math-in-llama-cpp-for.md"
-    },
-    {
-      "title": "SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.08681v1",
-      "date": "2026-07-09",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "As agentic AI systems are increasingly applied to cyber-physical environments, their evaluation requires assessment of both task performance and trustworthiness. In decentralized energy markets, autonomous agents may improve market utility, but may also exploit invalid physical data, create artificial liquidity, and produce unstable governance decisions.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/06-solarchain-eval-a-physics-constrained-benchmark-for-trustworthy-econom.md"
-    },
-    {
-      "title": "The Context Access Divide: Interaction-Level Architecture as a Complementary Dimension of Agentic Inequality",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.08495v1",
-      "date": "2026-07-09",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Sharp et al. (2025) introduce \"agentic inequality\" as a framework for analyzing disparities in access to AI agents across three dimensions: availability, quality, and quantity. These person- and organization-level dimensions characterize who can access agents and at what capability, but do not address a structurally important divide operating at a finer l... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-the-context-access-divide-interaction-level-architecture-as-a-compleme.md"
-    },
-    {
-      "title": "Token-Flow Firewall: Semantic Runtime Auditing for Persistent AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.08395v1",
-      "date": "2026-07-09",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Persistent AI agents extend large language models (LLMs) beyond single-turn interaction into long-lived software systems. Unlike traditional chat assistants, unsafe content in these agents can propagate through persistent state, reusable skills, and tool-mediated interactions, creating a substantially larger semantic attack surface. We observe that most s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/08-token-flow-firewall-semantic-runtime-auditing-for-persistent-ai-agents.md"
-    },
-    {
-      "title": "Jul 9, 2026 Case Study UST is bringing Claude to physical AI",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/ust-claude",
-      "date": "2026-07-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Jul 9, 2026 Case Study UST is bringing Claude to physical AI (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/09-jul-9-2026-case-study-ust-is-bringing-claude-to-physical-ai.md"
-    },
-    {
-      "title": "Show HN: SubjectiveZero, an open-source agentic node editor for creative coding",
-      "source": "Hacker News Show HN",
-      "url": "https://sxp.studio/apps/subz",
-      "date": "2026-07-10",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey there, My name is Clem, I've been a solo indie dev for a couple years now, exploring frontier tech like XR and agentic workflows in the context of creative / interactive work. I've been building creation tools for a while and some common design challenge is to figure out the right level of abstraction for your tool. You can always make it super advanc... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-10/10-show-hn-subjectivezero-an-open-source-agentic-node-editor-for-creative.md"
     }
   ]
 }
