@@ -1,0 +1,258 @@
+---
+id: "n24q02m/claude-plugins"
+name: "n24q02m/claude-plugins"
+url: "https://github.com/n24q02m/claude-plugins"
+date: "2026-08-15"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 89
+momentum: 59
+risk: 37
+integration_effort: 52
+expected_gain: 87
+composite: 73
+replacement_target: ""
+related_articles: [{"title":"Show HN: Claude-account – switch Claude Code accounts without logging in again","date":"2026-07-30","topic":"AI dev tools","similarity":0.413,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"},{"title":"Show HN: Throttle – Local Claude Cockpit for macOS, now with remote control","date":"2026-07-16","topic":"AI dev tools","similarity":0.296,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/11-show-hn-throttle-local-claude-cockpit-for-macos-now-with-remote-contro.md"},{"title":"scian0204/ClaudeCodeWorkspace","date":"2026-08-04","topic":"AI dev tools","similarity":0.273,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/11-scian0204-claudecodeworkspace.md"}]
+pros: ["Recently updated (2026-08-15)","Apache-2.0 license","3 GitHub stars","GitHub Actions/CI detected"]
+cons: ["README mentions credentials or API tokens"]
+readme_quality: 85
+has_ci: true
+has_tests: false
+setup_steps_count: 4
+dependency_files: []
+install_commands: ["npx -y @n24q02m/better-notion-mcp","npx -y @n24q02m/better-email-mcp","npx -y @n24q02m/better-godot-mcp"]
+risk_flags: ["README mentions credentials or API tokens"]
+status: "new"
+---
+
+# n24q02m/claude-plugins
+
+Claude Code plugin marketplace for the n24q02m MCP servers -- install web search, memory, Notion, email, Telegram, Godot, code review, and image/video tools in one command.
+
+URL: https://github.com/n24q02m/claude-plugins
+
+## Why it matters
+You saved an article on 2026-07-30 about AI dev tools; this candidate overlaps with "Show HN: Claude-account – switch Claude Code accounts without logging in again" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-08-15)
++ Apache-2.0 license
++ 3 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- README mentions credentials or API tokens
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: no
+Setup steps estimate: 4
+
+Dependency files:
+- none detected
+
+Install commands found:
+- npx -y @n24q02m/better-notion-mcp
+- npx -y @n24q02m/better-email-mcp
+- npx -y @n24q02m/better-godot-mcp
+
+Risk flags:
+- README mentions credentials or API tokens
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# n24q02m Claude Plugins
+
+<!-- BEGIN: AUTO-GENERATED-CROSS-PROMO -->
+<details>
+  <summary><strong>Sister projects from n24q02m</strong> (click to expand)</summary>
+
+| Project | Tagline | Tag |
+|---|---|---|
+| [agent-chat-plugin](https://github.com/n24q02m/agent-chat-plugin) | Peer AI agents chat in a shared folder — no human relay, no orchestrator, wor... | Tooling |
+| [better-code-review-graph](https://github.com/n24q02m/better-code-review-graph) | Knowledge graph for token-efficient code reviews -- semantic search and call-... | MCP |
+| [better-drive](https://github.com/n24q02m/better-drive) | 2-way Google Drive sync with .driveignore filter — rclone engine, Windows tray | Tooling |
+| [better-email-mcp](https://github.com/n24q02m/better-email-mcp) | IMAP/SMTP email for AI agents -- read, send, organize folders, and manage att... | MCP |
+| [better-godot-mcp](https://github.com/n24q02m/better-godot-mcp) | Composite MCP server for Godot Engine -- 17 composite tools for AI-assisted g... | MCP |
+| [better-notion-mcp](https://github.com/n24q02m/better-notion-mcp) | Markdown-first Notion for AI agents -- pages, databases, blocks, and comments... | MCP |
+| [better-semantic-release](https://github.com/n24q02m/better-semantic-release) | Drop-in python-semantic-release fork with built-in release-safety guards (orp... | Tooling |
+| [better-telegram-mcp](https://github.com/n24q02m/better-telegram-mcp) | Telegram for AI agents -- messages, chats, media, and contacts across both bo... | MCP |
+| [better-workspace-mcp](https://github.com/n24q02m/better-workspace-mcp) | Google Workspace MCP server (Docs/Drive/Calendar/Gmail/Sheets/Slides/Tasks/Ch... | MCP |
+| [claude-plugins](https://github.com/n24q02m/claude-plugins) | Claude Code plugin marketplace for the n24q02m MCP servers -- install web sea... | Marketplace |
+| [imagine-mcp](https://github.com/n24q02m/imagine-mcp) | Image and video understanding + generation for AI agents -- across Gemini, Op... | MCP |
+| [jules-task-archiver](https://github.com/n24q02m/jules-task-archiver) | Chrome Extension for bulk operations on Jules tasks via batchexecute API -- a... | Tooling |
+| [mcp-core](https://github.com/n24q02m/mcp-core) | Shared foundation for building MCP servers -- Streamable HTTP transport, OAut... | MCP |
+| [mnemo-mcp](https://github.com/n24q02m/mnemo-mcp) | Persistent AI memory with hybrid search and embedded sync. Open, free, unlimi... | MCP |
+| [qwen3-embed](https://github.com/n24q02m/qwen3-embed) | Lightweight Qwen3 text embedding and reranking via ONNX Runtime and GGUF | Library |
+| [skret](https://github.com/n24q02m/skret) | Secrets without the server. | CLI |
+| [tacet](https://github.com/n24q02m/tacet) | A self-distilling neuro-symbolic cascade that amortises LLM cost across knowl... | Tooling |
+| [web-core](https://github.com/n24q02m/web-core) | Shared web infrastructure package for search, scraping, HTTP security, and st... | Library |
+| [wet-mcp](https://github.com/n24q02m/wet-mcp) | Open-source MCP server for AI agents: web search, content extraction, and lib... | MCP |
+
+</details>
+<!-- END: AUTO-GENERATED-CROSS-PROMO -->
+
+## Table of contents
+
+- [Install](#install)
+- [Plugins](#plugins)
+- [Configuration](#configuration)
+- [Skills](#skills)
+- [Other MCP Clients](#other-mcp-clients)
+- [License](#license)
+
+
+
+9 MCP servers for Claude Code, Codex, and other AI coding agents.
+
+**Full documentation: [mcp.n24q02m.com](https://mcp.n24q02m.com)** — unified docs for all 9 servers + the `mcp-core` foundation library. Covers setup methods, modes (stdio / local-relay / remote-relay / remote-oauth), multi-user deployment, and per-server tool reference.
+
+## Install
+
+```bash
+/plugin marketplace add n24q02m/claude-plugins
+/plugin install <plugin-name>@n24q02m-plugins
+```
+
+Or browse all plugins: run `/plugin` and go to the **Discover** tab.
+
+## Plugins
+
+| Plugin | Category | Description | Config (env / userConfig) |
+|--------|----------|-------------|----------|
+| **wet-mcp** | Research | Web search, content extraction, library docs, media download | All optional: `JINA_AI_API_KEY`, `GEMINI_API_KEY`, `GOOGLE_VERTEX_EXPRESS_API_KEY`, `OPENAI_API_KEY`, `COHERE_API_KEY`, `GITHUB_TOKEN` |
+| **mnemo-mcp** | Productivity | Persistent AI memory across sessions | All optional: `JINA_AI_API_KEY`, `GEMINI_API_KEY`, `GOOGLE_VERTEX_EXPRESS_API_KEY`, `OPENAI_API_KEY`, `COHERE_API_KEY` |
+| **better-notion-mcp** | Productivity | Notion API — 11 composite tools, ~95% coverage | `NOTION_TOKEN` (required) |
+| **better-email-mcp** | Communication | Email IMAP/SMTP — multi-account | `EMAIL_CREDENTIALS` (required) |
+| **better-telegram-mcp** | Communication | Telegram dual-mode (Bot API + MTProto) — messages, chats, media | `TELEGRAM_BOT_TOKEN` (optional; required for bot mode) |
+| **better-godot-mcp** | Development | Godot Engine — 17 composite tools for game dev | `GODOT_PATH`, `GODOT_PROJECT_PATH` (both optional) |
+| **better-code-review-graph** | Development | Knowledge graph for token-efficient code reviews | All optional: `JINA_AI_API_KEY`, `GEMINI_API_KEY`, `GOOGLE_VERTEX_EXPRESS_API_KEY`, `OPENAI_API_KEY`, `COHERE_API_KEY` |
+| **imagine-mcp** | Multimodal | Image/video understanding + generation across Gemini, OpenAI, Grok | All optional: `XAI_API_KEY` (default provider), `GEMINI_API_KEY`, `GOOGLE_VERTEX_EXPRESS_API_KEY`, `OPENAI_API_KEY` |
+| **better-workspace-mcp** | Productivity | Google Workspace — 11 composite tools (Docs, Drive, Calendar, Gmail, Sheets, Slides, Tasks, Chat, People, Forms) + multi-account | `GOOGLE_OAUTH_CLIENT_ID`, `GOOGLE_OAUTH_CLIENT_SECRET` (both required) |
+
+## Configuration
+
+When you run `/plugin install`, Claude Code prompts for that plugin's credentials (declared in each plugin's `userConfig`) and stores sensitive values in your system keychain. You can also set them via the `env` block in `~/.claude/settings.local.json`, or `export` them in your shell profile.
+
+`better-notion-mcp`, `better-email-mcp`, and `better-workspace-mcp` require credentials to function. `better-telegram-mcp` needs a bot token only for bot mode. `wet-mcp`, `mnemo-mcp`, and `better-code-review-graph` run fully locally with no API keys (local ONNX embedding/reranking) — keys only enable optional cloud providers.
+
+### Cloud providers (wet-mcp, mnemo-mcp, better-code-review-graph)
+
+Each provider is a separate, optional env var. None is required:
+
+```
+JINA_AI_API_KEY=jina_xxx
+GEMINI_API_KEY=AIza...
+GOOGLE_VERTEX_EXPRESS_API_KEY=AQ...
+OPENAI_API_KEY=sk-...
+COHERE_API_KEY=xxx
+```
+
+Provider priority (wet-mcp / CRG): embedding Jina AI > Gemini > OpenAI > Cohere > local ONNX; reranking Jina AI > Cohere > local ONNX.
+
+### imagine-mcp
+
+```
+XAI_API_KEY=xai-...      # default provider
+GEMINI_API_KEY=AIza...   # optional alternative
+GOOGLE_VERTEX_EXPRESS_API_KEY=AQ...  # optional alternative
+OPENAI_API_KEY=sk-...    # optional alternative
+```
+
+### Telegram
+
+```
+TELEGRAM_BOT_TOKEN=123456:ABC-DEF...
+```
+
+Required for bot mode (from [@BotFather](https://t.me/BotFather)); leave empty for user mode.
+
+### Email
+
+```
+EMAIL_CREDENTIALS=user@gmail.com:app-password
+```
+
+Multiple accounts: `user1@gmail.com:pass1,user2@outlook.com:pass2`
+
+### Notion
+
+```
+NOTION_TOKEN=ntn_xxx
+```
+
+Get your token from [notion.so/my-integrations](https://www.notion.so/my-integrations).
+
+### Godot
+
+```
+GODOT_PATH=/path/to/godot           # optional; auto-detects from PATH if empty
+GODOT_PROJECT_PATH=/path/to/project # optional default project root
+```
+
+### Google Workspace
+
+```
+GOOGLE_OAUTH_CLIENT_ID=<your-client-id>.apps.googleusercontent.com
+GOOGLE_OAUTH_CLIENT_SECRET=<your-client-secret>
+```
+
+Create the OAuth client yourself at [console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials) — type **Desktop app** for the default stdio mode, **Web application** for self-hosted HTTP. The first run opens Google's consent screen once, then reuses the stored refresh token.
+
+## Skills
+
+Most plugins ship skills, invoked in Claude Code as `<plugin>:<skill>`:
+
+| Plugin | Skills |
+|--------|--------|
+| wet-mcp | `fact-check`, `compare`, `research-topic`, `lock-project-stack` |
+| mnemo-mcp | `session-handoff`, `knowledge-audit`, `recall-context`, `memory-commit`, `passport-bootstrap` |
+| better-notion-mcp | `organize-database`, `bulk-update` |
+| better-email-mcp | `inbox-review`, `follow-up` |
+| better-telegram-mcp | `setup-bot`, `channel-post` |
+| better-godot-mcp | `build-scene`, `debug-issue`, `add-mechanic` |
+| better-code-review-graph | `review-pr`, `review-delta`, `refactor-check` |
+| imagine-mcp | `image-describe` |
+
+## Other MCP Clients
+
+Each plugin works with any MCP client. Run directly:
+
+**Python plugins** (uvx / pipx / docker):
+
+```bash
+uvx --python 3.13 wet-mcp
+uvx --python 3.13 mnemo-mcp
+uvx --python 3.13 better-telegram-mcp
+uvx --python 3.13 better-code-review-graph
+uvx --python 3.13 imagine-mcp
+```
+
+**TypeScript plugins** (npx / bunx / docker):
+
+```bash
+npx -y @n24q02m/better-notion-mcp
+npx -y @n24q02m/better-email-mcp
+npx -y @n24q02m/better-godot-mcp
+```
+
+Add to any MCP client's `settings.json`:
+
+```json
+{
+  "mcpServers": {
+    "wet": {
+      "command": "uvx",
+      "args": ["--python", "3.13", "wet-mcp"]
+    }
+  }
+}
+```
+
+## License
+
+Apache-2.0

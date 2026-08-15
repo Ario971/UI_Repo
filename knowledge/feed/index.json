@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T06:07:23.896Z",
+  "updated_at": "2026-08-15T05:15:46.978Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Mole – Deep research agent for your terminal",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/lajosdeme/mole",
+      "date": "2026-08-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Doing research with agents is fun until they blow way past budget, jumble the sources, and don't even give you the best possible answer, just sound confident. And if you want to run some research task on local data - you have no idea where your data ends up after the prompt consumes it. So I built this tool: a deep-research agent with an enforced budget,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/06-show-hn-mole-deep-research-agent-for-your-terminal.md"
+    },
+    {
+      "title": "Show HN: Mocktail – Free, open-source mock API server with a built-in dashboard",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://getmocktail.com/",
+      "date": "2026-08-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I built the first version of Mocktail years ago. I recently came back to the project, and after a pretty substantial rebuild, v4 is now out. Mocktail is a free and open-source, self-hosted mock API server with a built-in dashboard and database, packaged as a single ~25 MB binary. You can run it locally or on your own infrastructure — no account or... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/07-show-hn-mocktail-free-open-source-mock-api-server-with-a-built-in-dash.md"
+    },
+    {
+      "title": "Show HN: AletheionAGI – Grounding enforcement for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.aletheionagi.com",
+      "date": "2026-08-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: AletheionAGI – Grounding enforcement for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/08-show-hn-aletheionagi-grounding-enforcement-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Artifex - Graph Based GPU Harness for AI Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://gatewai.studio/artifex",
+      "date": "2026-08-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Artifex is a machine-first, headless CLI runtime built for autonomous coding agents to author, validate, and render media node graphs locally. The agent talks to Artifex through a structured CLI interface. Workflows are DAGs, and each node is a plugin that can implement its own execution logic.. Each node has capability to inject logic into graph processi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/09-show-hn-artifex-graph-based-gpu-harness-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Musical social media site where you can throw tomatoes at each other",
+      "source": "Hacker News Show HN",
+      "url": "https://mazurka.cafe/",
+      "date": "2026-08-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "For those who never had the pleasure of using plug.dj and similar sites, the deal is that you create or join rooms where people queue up to DJ music and listen together. One of my friend groups used to use plug.dj weekly every Friday, then it died, and a few alternatives popped up, some of which are still around, but I really dislike all of them. I've bee... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-14/10-show-hn-musical-social-media-site-where-you-can-throw-tomatoes-at-each.md"
+    },
+    {
+      "title": "ToddGBenson/keel",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ToddGBenson/keel",
+      "date": "2026-08-15",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A governed, agent-driven SDLC you can fork. NIST 800-53 Rev.5 + CIS Supply Chain + AI RMF. Gates with evidence, not assertions. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-15/11-toddgbenson-keel.md"
+    },
+    {
+      "title": "Show HN: Nikon F100 Film Camera Repair Notes",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/enthdegree/f100",
+      "date": "2026-08-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Nikon F100 Film Camera Repair Notes (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-15/12-show-hn-nikon-f100-film-camera-repair-notes.md"
+    },
+    {
+      "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "source": "Hacker News Show HN",
+      "url": "https://isaidumber.today/",
+      "date": "2026-08-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-14/13-show-hn-is-ai-dumber-today-an-index-of-ai-model-experience-from-user-s.md"
+    },
+    {
+      "title": "Qwen 3.8 - 27B is a game changer",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vonuu0/qwen_38_27b_is_a_game_changer/",
+      "date": "2026-08-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So a bit of context, I am a cybersecurity senior analyst I am interested in LLMs for that field especially with MCPs to connect them to the tools or for writing scripts I started this field by doing assembly language reading for hacking games when I was a teenager then that became malware analysis then I started to analyze traffic and logs at work for a l... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-15/14-qwen-3-8-27b-is-a-game-changer.md"
+    },
+    {
+      "title": "Local uncensored Opus 4.6 at home - Qwen3.8 27B heretic",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voix4o/local_uncensored_opus_46_at_home_qwen38_27b/",
+      "date": "2026-08-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Someone made a heretic version of Qwen 3.8 27B, giving us a local Opus 4.6 tier model but without any refusals or safeguards! Fuck Dario submitted by /u/Temporary_Idea8880 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-14/15-local-uncensored-opus-4-6-at-home-qwen3-8-27b-heretic.md"
+    },
+    {
+      "title": "Qwen3.8-27B is now up to ~3× faster on Apple Silicon with mlx-dspark",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/",
+      "date": "2026-08-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "mlx-dspark is an MLX port of DeepSeek's DSpark speculative-decoding drafters (the DeepSpec release), plus z-lab's DFlash, with one lossless verify loop. v0.10.0 adds Qwen3.8-27B via RadixArk's drafter, the first SpecForge/SGLang-packaged head it loads. Numbers (M4 Pro 48 GB, medians of 3 , greedy, output ids identical to plain decoding): 8-bit target: 2.4... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-14/16-qwen3-8-27b-is-now-up-to-3-faster-on-apple-silicon-with-mlx-dspark.md"
+    },
+    {
+      "title": "[Megathread] Qwen 3.8 27B Release Day",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voojjz/megathread_qwen_38_27b_release_day/",
+      "date": "2026-08-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Megathread to help with the influx of duplicate / similar posts around the release of the Qwen 3.8 27B release. Quants Fine-Tunes & Abliterations Chat Templates Inference Server Support & Configuration Experiences, Benchmarks & Model Comparisons Official: https://huggingface.co/Qwen/Qwen3.8-27B https://huggingface.co/Qwen/Qwen3.8-27B-FP8 Popular: https://... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-15/17-megathread-qwen-3-8-27b-release-day.md"
+    },
     {
       "title": "Show HN: OJCP – an open protocol for agent-consumable job data",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "olegsaveliev/aifactory Stars: 0 (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-13/12-olegsaveliev-aifactory.md"
-    },
-    {
-      "title": "Show HN: Self-hosted voice AI agent for Asterisk/FreePBX",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk",
-      "date": "2026-07-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Self-hosted voice AI agent for Asterisk/FreePBX (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-13/13-show-hn-self-hosted-voice-ai-agent-for-asterisk-freepbx.md"
-    },
-    {
-      "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uudxi8/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
-      "date": "2026-07-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "TL:DR: I’m a grad student in AI. I saw that Google released TabFM and TimesFM last week. I built an MCP wrapper to serve both transformer models in a single Docker container so you can connect their new ML transformer models to a local LLM via Open WebUI, Claude Code, or Codex and do ML tasks that would have previously required building, training, and tun... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/14-zer0fit-i-took-google-s-new-tabfm-timesfm-ml-foundation-models-and-mad.md"
-    },
-    {
-      "title": "Local Image to 3D (<2gb RAM, <20s, Apple Silicon, iPhone)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuga40/local_image_to_3d_2gb_ram_20s_apple_silicon_iphone/",
-      "date": "2026-07-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "TLDR checkout the app here: github.com/ZimengXiong/Modelr My swift-mlx/python mlx port of Hunyuan3D-Paint and Hunyuan3D-Shape is finally complete! It's also available as a standalone image to 3D desktop app, the only of its kind for Apple Silicon. Some quick benchmarks in FP16 on my M4 Max: run wall time peak memory hy3d shape (small) 20.9 s ~5.6 gb hy3d... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/15-local-image-to-3d-2gb-ram-20s-apple-silicon-iphone.md"
-    },
-    {
-      "title": "Experiment: autonomous NPCs powered by Gemma 4 E2B in the browser",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv3wnt/experiment_autonomous_npcs_powered_by_gemma_4_e2b/",
-      "date": "2026-07-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This weekend I got to what I consider a shareable state with this experiment to create little characters that can run commands to do funny things. I want something to play around with local AI on my laptop which is a HP Omen from like 6 or 7 years ago and has a 2060. The idea is that since it's a very small model, the NPCs are dumb. So I imagine I can lea... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-13/16-experiment-autonomous-npcs-powered-by-gemma-4-e2b-in-the-browser.md"
-    },
-    {
-      "title": "Anthropic found Claude reasoning in silence (J-space) — we ran the same lens on open Qwen3-8B",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uugulk/anthropic_found_claude_reasoning_in_silence/",
-      "date": "2026-07-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Anthropic’s research on Claude found a silent internal workspace they call J-space — hidden reasoning that never shows up as visible text. Classic example: the model answers 49 , but inside J-space they caught 21 → 42 → 49 . Important distinction: Chain-of-thought = text you can read J-space = silent concepts in activations (“what’s on its mind”) We fitte... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-12/17-anthropic-found-claude-reasoning-in-silence-j-space-we-ran-the-same-le.md"
-    },
-    {
-      "title": "Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/shehryarsaroya/agenttransfer",
-      "date": "2026-07-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/06-show-hn-agenttransfer-open-source-file-transfer-for-ai-agents-one-go-b.md"
-    },
-    {
-      "title": "Show HN: BoundFlow – an open-source control plane for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/boundflow/boundflow",
-      "date": "2026-07-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: BoundFlow – an open-source control plane for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/07-show-hn-boundflow-an-open-source-control-plane-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: OpenBenchmarks – Helping agents discover and pick the right SaaS APIs",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://openbenchmarks.com",
-      "date": "2026-07-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I'm Fenil, co-founder/CEO of OpenFunnel (YC F24), building this with my co-founder/CTO Aditya. We're launching OpenBenchmarks ( https://openbenchmarks.com ), open-source, reproducible benchmarks for SaaS APIs, starting with the category we know best: GTM APIs. ## Why we built this More and more B2B software evaluation will/already runs through reasoning m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/08-show-hn-openbenchmarks-helping-agents-discover-and-pick-the-right-saas.md"
-    },
-    {
-      "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://antjs.org",
-      "date": "2026-07-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN! I'm the author of Ant, a JavaScript ecosystem built around a runtime with its own JavaScript engine. Ant also includes a package manager, the ants.land package registry, a platform for deploying and hosting applications, and Ant Desktop for building native desktop apps with web technologies, similar to Electron. The goal is for these pieces to w... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-11/09-show-hn-ant-a-javascript-runtime-and-ecosystem.md"
-    },
-    {
-      "title": "CarolineSmith2159/gpt56-claude-gateway",
-      "source": "GitHub Search API",
-      "url": "https://github.com/CarolineSmith2159/gpt56-claude-gateway",
-      "date": "2026-07-12",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Access notes for GPT-5.6, Claude Opus 4.8, Gemini 3.5, DeepSeek V4, Qwen3.7 and Grok 4.5 through lightweight AI API relay and gateway routes. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/10-carolinesmith2159-gpt56-claude-gateway.md"
-    },
-    {
-      "title": "BoB-Compright/e-Prowler-mvp",
-      "source": "GitHub Search API",
-      "url": "https://github.com/BoB-Compright/e-Prowler-mvp",
-      "date": "2026-07-12",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI-Powered Infrastructure Security Scanning Tool - MVP (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/11-bob-compright-e-prowler-mvp.md"
-    },
-    {
-      "title": "boynaa1122-ui/thailand-coupon-hub",
-      "source": "GitHub Search API",
-      "url": "https://github.com/boynaa1122-ui/thailand-coupon-hub",
-      "date": "2026-07-12",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Modern Thailand coupon, promo code, deals, discounts, affiliate marketing, cashback and shopping platform built with Next.js 15, React 19, TypeScript, Tailwind CSS, Supabase and Vercel. Includes admin dashboard, blog CMS, SEO optimization, AI search optimization, Material Design 3, responsive UI, authentication, analytics, PWA and high-performance (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/12-boynaa1122-ui-thailand-coupon-hub.md"
     }
   ]
 }
