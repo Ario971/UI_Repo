@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T05:15:46.978Z",
+  "updated_at": "2026-08-16T05:18:10.724Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.13558v1",
+      "date": "2026-08-13",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, lab... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/06-omniscientist-an-omni-modal-omni-discipline-ai-scientist.md"
+    },
+    {
+      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.13522v1",
+      "date": "2026-08-13",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and a machine-checked proof of its specification, offers a stronger path toward trustworthy AI-generated software. Existing benchmarks in this direction either f... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/07-vero-can-ai-agents-build-formally-verified-software-repositories.md"
+    },
+    {
+      "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.13476v1",
+      "date": "2026-08-13",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. MARC coordinates role-specialized agents for extraction, reasoning, answer generation, and evaluation, with explicit context passing and traceable intermediate output... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/08-marc-v1-an-open-source-multi-agent-framework-for-clinical-ai-reasoning.md"
+    },
+    {
+      "title": "Show HN: I built a native app for coding agents with Rust and GPUI",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://waku.sh",
+      "date": "2026-08-16",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I built a native app for coding agents with Rust and GPUI (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-16/09-show-hn-i-built-a-native-app-for-coding-agents-with-rust-and-gpui.md"
+    },
+    {
+      "title": "Show HN: Silent Shark – tactical map-based WWII submarine sim",
+      "source": "Hacker News Show HN",
+      "url": "https://silentshark.app/",
+      "date": "2026-08-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I posted an early beta of this game a few months ago: https://news.ycombinator.com/item?id=48180924 - May 2026 (45 comments) and today released the full version. You all gave extremely valuable and helpful feedback back then - thank you so much for that. It led to a lot of improvements: * I reworked the onboarding tutorials multiple times for clarity, add... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-12/10-show-hn-silent-shark-tactical-map-based-wwii-submarine-sim.md"
+    },
+    {
+      "title": "getecosphere/eco",
+      "source": "GitHub Search API",
+      "url": "https://github.com/getecosphere/eco",
+      "date": "2026-08-16",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Eco — compose reusable Linux Services into self-sustaining estates. Open CLI: build on your machine, ship artifacts, run on toolchain-free CTs. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-16/11-getecosphere-eco.md"
+    },
+    {
+      "title": "ferazfhansurie/monke",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ferazfhansurie/monke",
+      "date": "2026-08-16",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "MONKe — local-first AI video editor. Under ADletic. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-16/12-ferazfhansurie-monke.md"
+    },
+    {
+      "title": "lu6-ux/MediGuard-AI",
+      "source": "GitHub Search API",
+      "url": "https://github.com/lu6-ux/MediGuard-AI",
+      "date": "2026-08-16",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Intelligent Medical Document Analysis & Prescription Cross-Checker (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-16/13-lu6-ux-mediguard-ai.md"
+    },
+    {
+      "title": "How many people have 24gb over gpu here?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpm70f/how_many_people_have_24gb_over_gpu_here/",
+      "date": "2026-08-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I was surprised by the fact that the qwen 3.8 27b download count is about 1 million (globally). This means that even on this subreddit, very few people have used 27b. At most 50k–100k active users, and once you break down the hardware distribution, 8GB, 16GB, 24GB, 32GB cards, Macs, whatever, it's probably under a thousand people who've actually run one o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-16/14-how-many-people-have-24gb-over-gpu-here.md"
+    },
+    {
+      "title": "Show-off Saturday: Intel Arc B140 build.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpkomt/showoff_saturday_intel_arc_b140_build/",
+      "date": "2026-08-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "My local inference build, with: ASUS WS C422 PRO/SE 10-core Xeon W-2255 64GB ECC RAM 64GB VRAM Pimped case with TurboLEDz indicating the frequencies of the 10 xeon cores. Running llama.cpp with SYCL back-end. Khronos-stack and MESA stack all built from git sources, running on Ubuntu 26.04 submitted by /u/mazarax [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-16/15-show-off-saturday-intel-arc-b140-build.md"
+    },
+    {
+      "title": "If you would have told me half a year ago that a local model running in my office would be able to one-shot a Super Mario clone, I would have called you nuts. Qwen3.8-27B is a different beast.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp438p/if_you_would_have_told_me_half_a_year_ago_that_a/",
+      "date": "2026-08-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Running the Q8 GGUF on my Framework Desktop is not fast, but it's extremely smart for overnight batches and background jobs. Can't wait to play around with MTP and other quants. Have any of you found ways to improve speed while keeping accuracy? https://mikeveerman.github.io/qwen38-27b-mario submitted by /u/MikeNonect [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-15/16-if-you-would-have-told-me-half-a-year-ago-that-a-local-model-running-i.md"
+    },
+    {
+      "title": "SOTA Apple Silicon Inference (August 15, 2026)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vphr8u/sota_apple_silicon_inference_august_15_2026/",
+      "date": "2026-08-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This is a HANDWRITTEN post. I spent way too much time trying to get fast inference on Apple Silicon. This post is for people who want to know what's the latest on running local models on their mac, and why they may not be seeing the performance others in the community claim. TL;DR I've spent the last 2 weeks full-time looking into the state of inference o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-15/17-sota-apple-silicon-inference-august-15-2026.md"
+    },
     {
       "title": "Show HN: Mole – Deep research agent for your terminal",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I created an app that compares real-time prices and wait times across Uber, Lyft, Waymo, Tesla Robotaxi, Curb, and Empower. It shows you all ride options in one list, then once you’re ready to book, it deeplinks you to the provider’s app with the route pre-filled. Edit: Here's a demo video: https://www.youtube.com/watch?v=VV8PEAjxwQI I reverse-engineered... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-13/12-show-hn-hackney-compare-uber-lyft-waymo-and-robotaxi-prices.md"
-    },
-    {
-      "title": "Show HN: Sx 2.0 – Share AI skills with your team through a Dropbox folder",
-      "source": "Hacker News Show HN",
-      "url": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
-      "date": "2026-07-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi all, author here. SX started as a CLI to let developers share skills across AI clients without having to rely on git for storage. This allowed sharing at the Repo/Team/Org and Personal level. However, the more we spoke to users the more we realized that non-technical users were actually using skills more and more but they had no way to share. And there... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-13/13-show-hn-sx-2-0-share-ai-skills-with-your-team-through-a-dropbox-folder.md"
-    },
-    {
-      "title": "Hermes Agent with local LLMs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvypn9/hermes_agent_with_local_llms/",
-      "date": "2026-07-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey all, I have a 4090 + 5060ti setup with 64gb ram. I have been using opencode with MiMoV2 pro and its great but I don't think spending $20 daily is financially sound decision. I heard that using qwen3.6-27b with hermes goes into loops, have any of you successfully used any open source LLM (something that could run on my setup) at decent tps and meaningf... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-14/14-hermes-agent-with-local-llms.md"
-    },
-    {
-      "title": "This is why we need local models and opensource harnesses",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvlwz0/this_is_why_we_need_local_models_and_opensource/",
-      "date": "2026-07-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/Comfortable-Rock-498 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-13/15-this-is-why-we-need-local-models-and-opensource-harnesses.md"
-    },
-    {
-      "title": "I benchmarked 15 \"E-Waste\" GPUs with Modern Workloads",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvcjd0/i_benchmarked_15_ewaste_gpus_with_modern_workloads/",
-      "date": "2026-07-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've spent the last year building GPU coolers and a custom benchmarking tool to figure out if decommissioned NVIDIA enterprise GPUs have any use with modern workloads. Cards like the P100 (16GB) are going for around $75 and the V100 (16GB) for under $200. Combined with dirt-cheap X99 Xeon motherboards, they are a massive source of idle VRAM that's hard to... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-13/16-i-benchmarked-15-e-waste-gpus-with-modern-workloads.md"
-    },
-    {
-      "title": "My Frankenbox: I mounted 3 GPUs in and on-top of my case only fits only one GPU. 9070xt + 1080 ti + 5700xt",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvws08/my_frankenbox_i_mounted_3_gpus_in_and_ontop_of_my/",
-      "date": "2026-07-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "...I have no explanation why I did this, I don't even use my Local AI 🤷🏽‍♂️. But I did a lot of 3d printing to get it set up. Yes it runs off one 1400W PSU. The external card is using Oculink via m.2. The CPU is a 9850x3d, RAM is 64 GB 6000 at CAS36 (🥲) I honestly wish I could afford better cards, but I'm in Canada and it's usually over a grand for any... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-14/17-my-frankenbox-i-mounted-3-gpus-in-and-on-top-of-my-case-only-fits-only.md"
-    },
-    {
-      "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.09653v1",
-      "date": "2026-07-10",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testing approaches. While recent adoptions of Large Language Model (LLM) agents have demonstrated promise in penetration testing and Capture-the-Flag (CTF) enviro... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-10/06-vexaiot-autonomous-iot-vulnerability-exploitation-using-ai-agents.md"
-    },
-    {
-      "title": "Writing Bug Reports for Software Repair Agents: What Information Matters Most?",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.09553v1",
-      "date": "2026-07-10",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Software development is increasingly moving toward agentic-first workflows. This includes AI agents responsible for generating initial fixes for submitted issue reports. In this setting, issue reports are no longer merely documentation for human maintainers; they become the primary task specification for the agent. However, little is known about how such... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-10/07-writing-bug-reports-for-software-repair-agents-what-information-matter.md"
-    },
-    {
-      "title": "Show HN: Codebase Posters – turn any Git repo into generative poster art",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/unable12/codebase-posters",
-      "date": "2026-07-12",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "npx codebase-posters inside any git repo opens a local exhibition: 18 pieces painted live from your commit history. everything renders from git log, nothing leaves your machine. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-12/08-show-hn-codebase-posters-turn-any-git-repo-into-generative-poster-art.md"
-    },
-    {
-      "title": "Show HN: Kurvengefahr – browser CAD/CAM for pen plotters",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://kurvengefahr.org/",
-      "date": "2026-07-12",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "A few years ago I made a pen plotter attachment for Prusa MK4 ( https://www.printables.com/model/827264-pen-plotter-attachme... ) and at the time I didn't have a good way to turn artwork into G-code for it, and I put the project on ice for a while. I recently wanted to dabble in line art again and made a small browser app to make it easier. As agentic AI... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-12/09-show-hn-kurvengefahr-browser-cad-cam-for-pen-plotters.md"
-    },
-    {
-      "title": "Show HN: Skillscript – A declarative, sandboxed language for tool orchestration",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/sshwarts/skillscript",
-      "date": "2026-07-12",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN — I'm Scott. Skillscript is a small language I built to write what I want my local agent to actually do, in a form I can read and version, instead of hoping the model gets it right each time. The itch started with something small. I wanted my NanoClaw agent to run my morning brief the same way every day. Check overnight tickets, summarize the deploy... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/10-show-hn-skillscript-a-declarative-sandboxed-language-for-tool-orchestr.md"
-    },
-    {
-      "title": "Atypical-Consulting/Koine",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Atypical-Consulting/Koine",
-      "date": "2026-07-13",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A DSL for Domain-Driven Design: write your ubiquitous language once in .koi files and compile it to idiomatic, self-contained code — 7 languages (C#, TypeScript, Python, PHP, Rust, Java, Kotlin) plus living docs, AsyncAPI & OpenAPI. Value objects, entities, aggregates, invariants, events, state machines, CQRS, context maps. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-13/11-atypical-consulting-koine.md"
-    },
-    {
-      "title": "olegsaveliev/aifactory",
-      "source": "GitHub Search API",
-      "url": "https://github.com/olegsaveliev/aifactory",
-      "date": "2026-07-13",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "olegsaveliev/aifactory Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-13/12-olegsaveliev-aifactory.md"
     }
   ]
 }
