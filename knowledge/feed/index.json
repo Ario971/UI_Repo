@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T05:25:34.054Z",
+  "updated_at": "2026-08-18T05:18:57.265Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: HarnessRouter: Unified interface for agent harnesses",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/harnessrouter/harnessrouter",
+      "date": "2026-08-17",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! We are building HarnessRouter, a canonical API for running Codex, Claude Code, Hermes, and other managed agent harnesses as your product backend. Before building HarnessRouter, I used to build our own agent harness for our products. I tried LangGraph, agent SDKs from different vendors, pydantic, LLM tool use / function call, and so on. It's a very... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-17/06-show-hn-harnessrouter-unified-interface-for-agent-harnesses.md"
+    },
+    {
+      "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.16801v1",
+      "date": "2026-08-17",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We study how teams of AI coding agents coordinate while solving programming tasks. Current evaluations usually report whether the agents complete the task and how much the run costs, leaving the coordination inside the team largely unmeasured. We introduce an instrument to measure this coordination. Each run is represented as a temporal network in which a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-17/07-when-agents-coordinate-measuring-coordination-in-multi-agent-ai-coding.md"
+    },
+    {
+      "title": "Topological Attribution Distance (TAD): Revealing Segment-Level RAG Influence on LLM Output Geometry for Incident Log Analysis",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.16775v1",
+      "date": "2026-08-17",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large Language Models (LLMs) are increasingly being deployed in cybersecurity operations to assist cybersecurity analysts with rapid decision-making against emerging threats. However, there is a main criteria that must be met when using LLMs in cybersecurity, that is, trust in the generated outputs. As Agentic AI is integrated into operational systems, a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-17/08-topological-attribution-distance-tad-revealing-segment-level-rag-influ.md"
+    },
+    {
+      "title": "Show HN: Sokoban AI Solver",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://mkornreich.me/projects/sokoban/",
+      "date": "2026-08-17",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Sokoban AI Solver (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-17/09-show-hn-sokoban-ai-solver.md"
+    },
+    {
+      "title": "Show HN: Schemagic – visual JSON Schema editor",
+      "source": "Hacker News Show HN",
+      "url": "https://schemagic.app",
+      "date": "2026-08-17",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Working with business operations, I’ve found that maintaining data contracts between developers and business teams is hard. As developers, we have a lot of tools: OpenAPI, JSON Schema, validation libraries for our programming languages, and git to keep everything in. I think JSON Schema is the most universal option, but it’s still hard for non-technical p... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-17/10-show-hn-schemagic-visual-json-schema-editor.md"
+    },
+    {
+      "title": "Show HN: Tesana – An AI game engine that builds quality games end-to-end",
+      "source": "Hacker News Show HN",
+      "url": "https://tesana.ai/en",
+      "date": "2026-08-17",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! I built https://tesana.ai/en , a game generation platform that allows anyone to create full games with graphics, game logic, and animations from a simple text prompt - without coding. Tesana has three key features 1. describe your game idea and have Tesana write a game plan for you 2. Build the game iteratively with AI, or let AI self-build the ga... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-17/11-show-hn-tesana-an-ai-game-engine-that-builds-quality-games-end-to-end.md"
+    },
+    {
+      "title": "SwamiCosta/ai-wrapper",
+      "source": "GitHub Search API",
+      "url": "https://github.com/SwamiCosta/ai-wrapper",
+      "date": "2026-08-17",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Generic three-tier AI-agent governance template — autonomy levels, protected actions, and process skills, extracted and genericized from a production multi-project workspace. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-17/12-swamicosta-ai-wrapper.md"
+    },
+    {
+      "title": "LamsonRetail/lsr-agent-platform",
+      "source": "GitHub Search API",
+      "url": "https://github.com/LamsonRetail/lsr-agent-platform",
+      "date": "2026-08-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "LSR Agent Platform — nền tảng agent nội bộ LamsonRetail (Lark, BigQuery, Test & Learn, Minh Anh meeting agent) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+    },
+    {
+      "title": "Qwen 3.8 27B Overthinking, It has to be done, it has to be overthinking to punch Opus 4.6",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqvrh0/qwen_38_27b_overthinking_it_has_to_be_done_it_has/",
+      "date": "2026-08-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Yes, it sucks to waste time waiting on 16K+ reasoning tokens alone. But here's the thing, this is only a 27B model trying to perform on par with 1T+ parameter models. Something has to be sacrificed, and that sacrifice is the amount of reasoning or trajectory tokens. This isn't new to LLMs whatsoever. Andrej Karpathy himself has said that LLMs need tokens... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-17/14-qwen-3-8-27b-overthinking-it-has-to-be-done-it-has-to-be-overthinking-.md"
+    },
+    {
+      "title": "Long Review: Qwen 3.8 27B is VERY good at tapping into it's real-world knowledge. It's \"overthinking\" brings it to Sonnet level performance with the potential for Opus level results.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqm51f/long_review_qwen_38_27b_is_very_good_at_tapping/",
+      "date": "2026-08-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi all! I finally just got around to testing out Qwen 3.8 27b. I'm using Unsloth's UD-Q8_K_XL quant as a sit-in replacement to Qwen 3.6 27b, same quant size. Wow -- this thing isn't messing around. I have many baseline test prompts to gauge the 'intelligence' and usability of the model, but a go-to one is asking it to do a 1:1 recreation of classic arcade... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-17/15-long-review-qwen-3-8-27b-is-very-good-at-tapping-into-it-s-real-world-.md"
+    },
+    {
+      "title": "Qwen 3.8 35b and 122b - We hope/wait/beg for models incessantly. But how do we actually give the lab more incentive to make it?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vr6qzp/qwen_38_35b_and_122b_we_hopewaitbeg_for_models/",
+      "date": "2026-08-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So many comments begging for these models, and I get it. People from the labs frequent r/LocalLLaMA , so maybe the begging comments aren't useless. They make demand known at least. Same with polls, etc. But what could this community do to actually help the lab, or somehow give them real incentive to release a model that the community really wants, but the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-17/16-qwen-3-8-35b-and-122b-we-hope-wait-beg-for-models-incessantly-but-how-.md"
+    },
+    {
+      "title": "Local agentic coding Benchmark : Qwen 3.8 27B (in many weights quants / cache quants / engine / reasoning effort) vs others.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vr4bs4/local_agentic_coding_benchmark_qwen_38_27b_in/",
+      "date": "2026-08-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "In medium reasoning mode, it both scores higher than the 3.6 version, AND is very much more efficient (almost half requests needed, and a third less tokens generated) - at DeepSeek v4 Flash 3107 MXFP4 level The xhigh mode is advertised to be the best one for hard tasks. In this benchmark, however the gain is clearly not visible. The score are comparable w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-17/17-local-agentic-coding-benchmark-qwen-3-8-27b-in-many-weights-quants-cac.md"
+    },
     {
       "title": "Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "ai agent simulator (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/12-f3nd1-gd4-simulator.md"
-    },
-    {
-      "title": "julesvbertolino/raycast-redmine-tickets",
-      "source": "GitHub Search API",
-      "url": "https://github.com/julesvbertolino/raycast-redmine-tickets",
-      "date": "2026-07-16",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Raycast extension: browse, edit and ask AI about your Redmine tickets. Fork of jwickers/redmine. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/13-julesvbertolino-raycast-redmine-tickets.md"
-    },
-    {
-      "title": "The best model is the one you can actually run",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux9xze/the_best_model_is_the_one_you_can_actually_run/",
-      "date": "2026-07-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Don't get me wrong, all the big models are amazing, and every contribution to open source models is great. But I'm GPU poor and I can't use them locally. I'm currently running gemma-4-12b-it-qat-GGUF:UD-Q4_K_XL as my personal chat assistant, and I am so so happy with it! I still can't believe I can talk to my computer. submitted by /u/OneFanFare [link] [c... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-15/14-the-best-model-is-the-one-you-can-actually-run.md"
-    },
-    {
-      "title": "Has anyone using antirez ds4 compared to the unsloth GGUF?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxil7b/has_anyone_using_antirez_ds4_compared_to_the/",
-      "date": "2026-07-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been using DS4 flash as a local \"big brain\" for when my qwen 3.6 35b a3b gets stuck on something, and for planning. I'm blown away by how capable it is at a 2 bit quant Has anyone used the GGUF at a similar 2bit quant and compared performance? I've got a Nimo Strix Halo box, 128GB, kyuz0 stack with rocm submitted by /u/dbinnunE3 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-15/15-has-anyone-using-antirez-ds4-compared-to-the-unsloth-gguf.md"
-    },
-    {
-      "title": "Linus Torvalds tells people to stop attacking others for using AI",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxbrw4/linus_torvalds_tells_people_to_stop_attacking/",
-      "date": "2026-07-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The full quote: I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just walk away. AI is a tool, just like other tools we use. And i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-15/16-linus-torvalds-tells-people-to-stop-attacking-others-for-using-ai.md"
-    },
-    {
-      "title": "Thinking Machines releases first open-weight model “Inkling”",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxdv34/thinking_machines_releases_first_openweight_model/",
-      "date": "2026-07-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://thinkingmachines.ai/news/introducing-inkling/ submitted by /u/WhyLifeIs4 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-15/17-thinking-machines-releases-first-open-weight-model-inkling.md"
-    },
-    {
-      "title": "Show HN: Vehir – a platform built for AI agents: compiler, microkernel, CAS",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/grigoriitropin/vehir-platform",
-      "date": "2026-07-15",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Vehir – a platform built for AI agents: compiler, microkernel, CAS (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-15/06-show-hn-vehir-a-platform-built-for-ai-agents-compiler-microkernel-cas.md"
-    },
-    {
-      "title": "Show HN: Oodle.ai – $10 per million agent traces",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.oodle.ai/product/agent-observability",
-      "date": "2026-07-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, we're Kiran and Vijay! Over the past two years, we have built a columnar storage engine for observability: logs, metrics, and traces. Today, it's exciting for us to show what we've built on top of that foundation: LLM Agent Observability. Given how non-deterministic agents are, storing all traces without sampling was critical for us. But these trac... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-14/07-show-hn-oodle-ai-10-per-million-agent-traces.md"
-    },
-    {
-      "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.13034v1",
-      "date": "2026-07-14",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large language model (LLM) agents increasingly automate multi-step engineering and informatics workflows, yet they rarely ask how much effort a task actually requires. They often follow a maximum-context-first strategy--re-reading files and dependencies they have already seen--turning a one-line edit into a small code-base audit. We argue the missing capa... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-14/08-do-ai-agents-know-when-a-task-is-simple-toward-complexity-aware-reason.md"
-    },
-    {
-      "title": "Human-AI Agent Interaction as a Neuroplastic Training Environment",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.12823v1",
-      "date": "2026-07-14",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Interaction with AI agents has become one of the most frequent activities of everyday digital life. Whether conversing with an assistant, working with a coding copilot, or generating images, the interaction follows a common iterative loop: a request is issued, a result returned, appraised, and the request revised. We observe that this loop is a high-frequ... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-14/09-human-ai-agent-interaction-as-a-neuroplastic-training-environment.md"
-    },
-    {
-      "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/juggler-ai/juggler",
-      "date": "2026-07-12",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN, I don't post on here much, but wanted to get some eyes on a new project I'm just launching. I think we definitely need one more AI code agent.. I'm a long-term C++ dev, and over 30+ years I've created some successful audio dev tools (JUCE, the Tracktion DAW, the Cmajor DSP language). All of these came from me getting annoyed with something I had... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-12/10-show-hn-juggler-an-open-source-gui-coding-agent-by-the-creator-of-juce.md"
-    },
-    {
-      "title": "Show HN: GWZ – Git Workspace Zone (multi-repo that feels like plain Git)",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=48915923",
-      "date": "2026-07-15",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Coming from the land of the mono-repo (ex-googler), I decided to embrace the multi-repo, plain-git style. Methought, “hey, submodules, what could possibly go wrong”. Well, how about everything: detached HEADs, impossibly tedious commit management, and just about everything else. \"OKAY\" I said, a simple Python script should be fine, right? Well, NO. It tur... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-15/11-show-hn-gwz-git-workspace-zone-multi-repo-that-feels-like-plain-git.md"
-    },
-    {
-      "title": "tomtomo/tomai200",
-      "source": "GitHub Search API",
-      "url": "https://github.com/tomtomo/tomai200",
-      "date": "2026-07-15",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "tomtomo/tomai200 Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-15/12-tomtomo-tomai200.md"
     }
   ]
 }
