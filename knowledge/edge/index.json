@@ -1,10 +1,202 @@
 {
-  "last_checked_at": "2026-08-18T05:19:19.613Z",
+  "last_checked_at": "2026-08-19T05:20:23.063Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "cgosu/pi-agent-browser",
+      "name": "CGOSU/pi-agent-browser",
+      "url": "https://github.com/CGOSU/pi-agent-browser",
+      "date": "2026-08-19",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 78,
+      "momentum": 45,
+      "risk": 30,
+      "integration_effort": 52,
+      "expected_gain": 87,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Browser Tools SDK – an optimal browser harness for agents",
+          "date": "2026-07-21",
+          "topic": "AI agents",
+          "similarity": 0.497,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/09-show-hn-browser-tools-sdk-an-optimal-browser-harness-for-agents.md"
+        },
+        {
+          "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
+          "date": "2026-07-29",
+          "topic": "AI agents",
+          "similarity": 0.324,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/09-what-does-it-take-to-detect-an-ai-agent-minimal-feature-sets-for-behav.md"
+        },
+        {
+          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
+          "date": "2026-08-11",
+          "topic": "AI agents",
+          "similarity": 0.323,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-19)",
+        "MIT license",
+        "README mentions tests or validation",
+        "README includes install commands"
+      ],
+      "cons": [
+        "Repository description is sparse"
+      ],
+      "readme_quality": 85,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts test"
+        }
+      ],
+      "install_commands": [
+        "npm test",
+        "npm pack --dry-run"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-07-21 about AI agents; this candidate overlaps with \"Show HN: Browser Tools SDK – an optimal browser harness for agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-19/01-cgosu-pi-agent-browser.md"
+    },
+    {
+      "id": "construct-worlds/construct",
+      "name": "construct-worlds/construct",
+      "url": "https://github.com/construct-worlds/construct",
+      "date": "2026-08-19",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 67,
+      "momentum": 68,
+      "risk": 32,
+      "integration_effort": 48,
+      "expected_gain": 77,
+      "composite": 68,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Distributing Security Controls Through Harness Engineering",
+          "date": "2026-07-28",
+          "topic": "AI agents",
+          "similarity": 0.297,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/09-distributing-security-controls-through-harness-engineering.md"
+        },
+        {
+          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
+          "date": "2026-08-11",
+          "topic": "AI agents",
+          "similarity": 0.287,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
+        },
+        {
+          "title": "Show HN: Clixad – Free AI coding agent in the terminal, funded by an offerwall",
+          "date": "2026-08-13",
+          "topic": "AI agents",
+          "similarity": 0.255,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/09-show-hn-clixad-free-ai-coding-agent-in-the-terminal-funded-by-an-offer.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-19)",
+        "MIT license",
+        "15 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/construct-worlds/construct.git",
+        "cargo build --workspace",
+        "cargo build --workspace --release"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-28 about AI agents; this candidate overlaps with \"Distributing Security Controls Through Harness Engineering\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-19/02-construct-worlds-construct.md"
+    },
+    {
+      "id": "danielpdmestone9638/boring-orchestrator-agent-hub",
+      "name": "danielpdmestone9638/boring-orchestrator-agent-hub",
+      "url": "https://github.com/danielpdmestone9638/boring-orchestrator-agent-hub",
+      "date": "2026-08-19",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 75,
+      "momentum": 52,
+      "risk": 35,
+      "integration_effort": 36,
+      "expected_gain": 77,
+      "composite": 68,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Bennyoooo/write-like-me",
+          "date": "2026-08-06",
+          "topic": "AI agents",
+          "similarity": 0.341,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/06-bennyoooo-write-like-me.md"
+        },
+        {
+          "title": "Show HN: Ocean – All your team's agent sessions in one place",
+          "date": "2026-08-05",
+          "topic": "AI agents",
+          "similarity": 0.292,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/07-show-hn-ocean-all-your-team-s-agent-sessions-in-one-place.md"
+        },
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.286,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-19)",
+        "GPL-3.0 license",
+        "2 GitHub stars",
+        "README includes install commands"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 1,
+      "dependency_files": [],
+      "install_commands": [
+        "git clone https://github.com/danielpdmestone9638/boring-orchestrator-agent-hub.git"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-06 about AI agents; this candidate overlaps with \"Bennyoooo/write-like-me\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-19/03-danielpdmestone9638-boring-orchestrator-agent-hub.md"
+    },
     {
       "id": "lmcache/lmcache",
       "name": "LMCache/LMCache",

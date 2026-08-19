@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T05:18:57.265Z",
+  "updated_at": "2026-08-19T05:19:54.932Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: macOS data protection keychain for Electron apps",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/biw/keychain-store",
+      "date": "2026-08-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I've been working on Hansel [1] (an encrypted personal data store you can query with agents), and there wasn't a good way to use the modern macOS Data Protection Keychain. Electron's safeStorage [2] uses the legacy file-based keychain, which allows other apps/agents to query it with the `security` CLI. Not great when you have a dozen agents runnin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-18/06-show-hn-macos-data-protection-keychain-for-electron-apps.md"
+    },
+    {
+      "title": "Show HN: ResumeSkip – automatically tailor your resume to jobs",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://resumeskip.com/",
+      "date": "2026-08-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "just gonna make it simple: all job portals scan resumes with AI now, if you aren't tailoring your resume to each posting you're already behind.. Some companies even use AI to interview (). You can do this yourself for free * (token cost) if you want, but you'll have to craft a good prompt, use a good agent you have access to, and validate the outcomes ove... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-18/07-show-hn-resumeskip-automatically-tailor-your-resume-to-jobs.md"
+    },
+    {
+      "title": "Show HN: Maritime, a platform for running AI agents for $1 a month",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://maritime.sh",
+      "date": "2026-08-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, my name is Maria, and I’m a co-founder of Maritime. We started Maritime at MIT to build infrastructure for companies that need to run thousands of isolated AI agents for their customers. Imagine you set up an agent like OpenClaw, or a personal assistant agent with a custom framework, and want to give a separate version of it to every customer/frien... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-18/08-show-hn-maritime-a-platform-for-running-ai-agents-for-1-a-month.md"
+    },
+    {
+      "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.18050v1",
+      "date": "2026-08-18",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product. We formulat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-18/09-stagedworkspace-a-versioned-workspace-for-knowledge-work-agents.md"
+    },
+    {
+      "title": "Show HN: Particle – Extract and save articles in a clean, self-hosted reader",
+      "source": "Hacker News Show HN",
+      "url": "https://particle.crnst8.com/try/",
+      "date": "2026-08-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I've seen a few of those \"Every fucking website in 202*\" examples on here the last few days, and I feel it deep in my bones. As a result of the constant auto-play videos, CTAs, cookie warnings etc. etc., this is probably the most used self-developed app I run. It's super simple - just drop in the URL of the article and it'll extract (maintaining structure... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/10-show-hn-particle-extract-and-save-articles-in-a-clean-self-hosted-read.md"
+    },
+    {
+      "title": "KeithHanson/AIHarnessDesktopBuddy",
+      "source": "GitHub Search API",
+      "url": "https://github.com/KeithHanson/AIHarnessDesktopBuddy",
+      "date": "2026-08-19",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ESP32 MicroPython desktop buddy with OLED faces, LED control, and MCP support (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-19/11-keithhanson-aiharnessdesktopbuddy.md"
+    },
+    {
+      "title": "alexdiem/aicoach",
+      "source": "GitHub Search API",
+      "url": "https://github.com/alexdiem/aicoach",
+      "date": "2026-08-19",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "My AI cycling coach (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-19/12-alexdiem-aicoach.md"
+    },
+    {
+      "title": "fireviewer/models",
+      "source": "GitHub Search API",
+      "url": "https://github.com/fireviewer/models",
+      "date": "2026-08-19",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "large and small lm trained for fire detection, geospacial localization and 3D interraction (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-19/13-fireviewer-models.md"
+    },
+    {
+      "title": "Qwen3.8 2.4T open weights made a Call of Duty clone",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrwn1f/qwen38_24t_open_weights_made_a_call_of_duty_clone/",
+      "date": "2026-08-18",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Qwen released the 2.4T Max weights and I was curious how well it can re-create COD in one prompt I ran the model on a rented B200 cluster and used roughly 1.1M output tokens over a 5 hour time span Realistically barely anyone can run this model locally, but the fact that it's open weights unlocks a lot of opportunities for the local AI community even rega... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-18/14-qwen3-8-2-4t-open-weights-made-a-call-of-duty-clone.md"
+    },
+    {
+      "title": "local models fear my tests",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vryd3q/local_models_fear_my_tests/",
+      "date": "2026-08-18",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "am I the only one who does this lol submitted by /u/close_Meal6005 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-18/15-local-models-fear-my-tests.md"
+    },
+    {
+      "title": "Ling-3.0 (BailingMoE3) lands in llama.cpp mainline - Quick benchmarks on Intel Arc B580",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrxoxy/ling30_bailingmoe3_lands_in_llamacpp_mainline/",
+      "date": "2026-08-18",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Finally llama.cpp now officially supports Ling-3.0! (Starting from build b10472 +) If you want to run them locally, bartowski has already released the GGUF imatrix quantizations for both models: - Ling-3.0-tiny (8B) - Ling-3.0-flash (127B) After quite a while, PR #26608 has officially been merged into master! There are still a few minor details left to ir... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-18/16-ling-3-0-bailingmoe3-lands-in-llama-cpp-mainline-quick-benchmarks-on-i.md"
+    },
+    {
+      "title": "New midsize Qwen 3.8 model coming next week (hopefully) according to community manager!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vs9zym/new_midsize_qwen_38_model_coming_next_week/",
+      "date": "2026-08-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Community manager mentioned this in the Qwen Ambassador Discord, put an X reaction on someone asking for 35B... and said We'll have a new midsize open weight model coming next week (hopfully), This midsize model won't provide early access due to the schedule Thinking it's going to be over 100B. Exciting!! submitted by /u/sleepy_roger [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-19/17-new-midsize-qwen-3-8-model-coming-next-week-hopefully-according-to-com.md"
+    },
     {
       "title": "Show HN: HarnessRouter: Unified interface for agent harnesses",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hi HN, I am co-founder of Kickstage, a software company specializing in solutions for the electrical industry and lately grid operators. We are hiring engineers from different backgrounds, a lot of them software developers with limited experience in the sectors. Deep domain knowledge is key in our industry however, so we are constantly teaching the basics... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/12-show-hn-bamboogrid-open-source-web-ui-for-power-grid-modeling-and-powe.md"
-    },
-    {
-      "title": "Show HN: QBasic Gorillas (Repeeled)",
-      "source": "Hacker News Show HN",
-      "url": "https://gameswithtony.com/gorillas/",
-      "date": "2026-07-16",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I've found the most engaging way to practice techniques for AI-assisted development and test models is to build fun side projects in vanilla JS. I spent many hours playing (and studying and editing) QBasic Gorillas, and this is a vanilla JS implementation using Fable and Opus. Play 1-on-1 hotseat or against the computer. A bit of extra camera snazz as well. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/13-show-hn-qbasic-gorillas-repeeled.md"
-    },
-    {
-      "title": "I’m taking a break",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyita5/im_taking_a_break/",
-      "date": "2026-07-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I’ve just formatted my MacBook Pro with an M2 Max and 32GB of RAM. I’m taking a break from local LLMs. I’ve spent the last few months tinkering with local models, MTP, quants, harnesses, Gemma, Qwen… It’s time to take a break. I noticed this was becoming less of a hobby and more like an addiction. I’m pretty sure there are more of you like me out there. T... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-16/14-i-m-taking-a-break.md"
-    },
-    {
-      "title": "Anyone else completely tuning out these massive \"open weight\" drops?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive/",
-      "date": "2026-07-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Tbh the benchmarks on stuff like GLM-5.2 look insane. 753B params, 1M context, MIT license... everyone is throwing a party on the front page right now. But like... what is actually \"local\" about this anymore? A 700B+ MoE isn't fitting on anyone's home rig. Even if you absolutely crush it down to a q1 or q2 GGUF, you're still not running it. I've got a dua... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-17/15-anyone-else-completely-tuning-out-these-massive-open-weight-drops.md"
-    },
-    {
-      "title": "DFlash makes Qwen3.6 27B 2.2x faster with no quality loss",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyay0w/dflash_makes_qwen36_27b_22x_faster_with_no/",
-      "date": "2026-07-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "We ran the same Qwen3.6-27B locally three ways on one RTX 6000: baseline, MTP, DFlash. The tasks were: quicksort, write a Steam library in JSON, solve a logic puzzle and write a sci-fi story. Outputs: Baseline: 44 tok/s · 1.00x MTP: 65 tok/s · 1.45x · 71% accepted DFlash: 98 tok/s · 2.20x · 30% accepted DFlash drafts 15 tokens in a row, so it flies throug... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-16/16-dflash-makes-qwen3-6-27b-2-2x-faster-with-no-quality-loss.md"
-    },
-    {
-      "title": "Kimi K3 Release Video [Made with Kimi K3]",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyaiw2/kimi_k3_release_video_made_with_kimi_k3/",
-      "date": "2026-07-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Everyone's probably seen the remotion thing that went viral a couple months back with CC. Its basically that with Kimi K3 as the model provider. Prev. example with GLM 5.2: https://www.reddit.com/r/LocalLLaMA/comments/1u8kyqf/glm_52_release_video_made_with_glm_52/ Feels much better than 5.2 in general for creative tasks. Will be adding more examples in my... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-16/17-kimi-k3-release-video-made-with-kimi-k3.md"
-    },
-    {
-      "title": "Show HN: Forall – An AI coding agent that generates machine-checkable proofs",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/astrio-labs/forall",
-      "date": "2026-07-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We've been working on an open-source coding agent that generates code alongside machine-checkable proofs. We'd love feedback from the HN community, especially from people interested in formal verification, Lean, Dafny, or AI coding agents. Currently, only 3 langauges can be verified. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/06-show-hn-forall-an-ai-coding-agent-that-generates-machine-checkable-pro.md"
-    },
-    {
-      "title": "Building Shor's Algorithm in Lean: An Agentic Formalization of Quantum Attacks on RSA-2048 and P-256",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.14082v1",
-      "date": "2026-07-15",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large language models are increasingly assisting with demanding formal theorem-proving tasks, particularly when grounded in machine-checked libraries such as Lean. Agentic systems further amplify this process by searching, reusing, and extending existing formal developments to uncover new discoveries. In quantum computing, Shor's algorithm and its variant... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-15/07-building-shor-s-algorithm-in-lean-an-agentic-formalization-of-quantum-.md"
-    },
-    {
-      "title": "The Dynamic Verifiable Multi-Agent Human Agentic Loyalty Loop (DVM-HALL) Model and the Net Human-Agent Score (NHAS) in Autonomous Commerce",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.13998v1",
-      "date": "2026-07-15",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The rapid proliferation of Agentic Artificial Intelligence fundamentally disrupts traditional customer loyalty paradigms. As AI evolves from passive recommendation algorithms to autonomous, goal-directed agents capable of executing purchasing decisions, the conventional understanding of consumer-brand relationships requires a structural reevaluation. By s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-15/08-the-dynamic-verifiable-multi-agent-human-agentic-loyalty-loop-dvm-hall.md"
-    },
-    {
-      "title": "A Self-Evolving Agent for Longitudinal Personal Health Management",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.13940v1",
-      "date": "2026-07-15",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Personal health management unfolds over repeated encounters, yet most health AI systems treat each request in isolation. We developed HealthClaw, an open-source agent architecture that updates support as a person's routines, preferences, measurements and risks change. It separates shared safety rules and medical knowledge from private longitudinal memory... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-15/09-a-self-evolving-agent-for-longitudinal-personal-health-management.md"
-    },
-    {
-      "title": "Show HN: Make senders work to get into your inbox",
-      "source": "Hacker News Show HN",
-      "url": "https://www.captchainbox.com",
-      "date": "2026-07-15",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN :) really excited to share this with you. The one thing AI reliably does is generate noise. Half the tools I see launch are just machines for producing more noise across more channels. And people are starting to see this in the form of emails in their inboxes as spam filters are struggling. There used to be a useful signal in email: the effort a sen... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-15/10-show-hn-make-senders-work-to-get-into-your-inbox.md"
-    },
-    {
-      "title": "Show HN: Throttle – Local Claude Cockpit for macOS, now with remote control",
-      "source": "Hacker News Show HN",
-      "url": "https://lorislab.fr/throttle/",
-      "date": "2026-07-16",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Kevin here, indie dev (lorisLabs.) Thorttle started as a menu bar meter for Claude code usage, and grow into a cockpit ! you have the full claude meter as expected with no telemetry, no network. and that in the free version. Pro is where it got interesting : Cockpit have every claude code project on your Mac in one window. Each embedded terminal using Swi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/11-show-hn-throttle-local-claude-cockpit-for-macos-now-with-remote-contro.md"
-    },
-    {
-      "title": "f3nd1/gd4_simulator",
-      "source": "GitHub Search API",
-      "url": "https://github.com/f3nd1/gd4_simulator",
-      "date": "2026-07-16",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ai agent simulator (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/12-f3nd1-gd4-simulator.md"
     }
   ]
 }
