@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T05:19:54.932Z",
+  "updated_at": "2026-08-20T05:20:40.782Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Naeos – an engineering system for AI coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/NAEOS-foundation/naeos",
+      "date": "2026-08-19",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "NAEOS is an open-source engineering system for AI coding agents.It provides architecture, engineering standards, policies, specifications, and validation wworkflow to help agents build software within a consistent engineering context (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-19/06-show-hn-naeos-an-engineering-system-for-ai-coding-agents.md"
+    },
+    {
+      "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.19072v1",
+      "date": "2026-08-19",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large language model (LLM) agents can now post-train an LLM end-to-end. They can write code, launch training, evaluate checkpoints, and improve downstream performance, raising the prospect of AI-for-AI. We argue that this picture conflates two distinct capabilities: execution-level capability, iterating within a selected training strategy; and strategy-le... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-19/07-what-is-missing-from-ai-post-training-ai-an-empirical-analysis.md"
+    },
+    {
+      "title": "A Theory of Post-hoc Debate Judgement",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.19002v1",
+      "date": "2026-08-19",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Debates have recently emerged as a useful methodology for agentic AI to improve performance as well as to aid explainability and user engagement. For example, LLM-empowered agents may debate internally (with themselves) and/or externally (with other agents). In many settings where debates are used, debates' outcomes and resulting outputs are determined po... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-19/08-a-theory-of-post-hoc-debate-judgement.md"
+    },
+    {
+      "title": "DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.18878v1",
+      "date": "2026-08-19",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Oral diseases affect billions of people worldwide, underscoring a pressing need for accurate and reliable dental assessment that integrates heterogeneous evidence from domain knowledge, radiographs, intraoral photographs, and 3D dental data. Most existing dental AI systems remain modality- or task-specific. Although recent vision-language models support f... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-19/09-dentagent-evidence-centric-multi-agent-coordination-for-multimodal-den.md"
+    },
+    {
+      "title": "alejandro-publius/streetcred",
+      "source": "GitHub Search API",
+      "url": "https://github.com/alejandro-publius/streetcred",
+      "date": "2026-08-20",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Grades the evidence about dangerous street corners. Official records, press, residents, and an AI visual audit, ending in a drafted letter to the right Supervisor. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/10-alejandro-publius-streetcred.md"
+    },
+    {
+      "title": "Show HN: Mail client optimized for self-hosted email across multiple domains",
+      "source": "Hacker News Show HN",
+      "url": "https://mainly.crnst8.com/",
+      "date": "2026-08-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "As someone with a clean IP range and ADHD, I manage my inbox by splitting across a variety of accounts for a variety of domains. I’ve never really found a client that scratches all my itches, so I spent some time making one and it’s now become my daily driver. It’s optimised to be visually simple and highly configurable for things like colour, folders/sub... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/11-show-hn-mail-client-optimized-for-self-hosted-email-across-multiple-do.md"
+    },
+    {
+      "title": "Show HN: Openleetcode – Local LeetCode runner where tests live in the repo",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/therepanic/openleetcode",
+      "date": "2026-08-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "You write a standard solution, just like on LeetCode, and run it through the CLI. It identifies the problem by ID or title, executes your code against local test cases, and shows the result. It currently supports around 1.4k problems and multiple languages, including Python, C++, Rust, Java, Go, TypeScript, Swift, and others. The project is still an MVP.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/12-show-hn-openleetcode-local-leetcode-runner-where-tests-live-in-the-rep.md"
+    },
+    {
+      "title": "Show HN: A new way to read books, magnifying in and out",
+      "source": "Hacker News Show HN",
+      "url": "https://book.curiora.space/",
+      "date": "2026-08-19",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "After watching The Odyssey, I thought it would be cool to check out some scenes from the source in detail, but I don't have time to read the whole book. So I came up with a sort of zoom/microscope, that allows to see the whole book at a glance and then zoom in (by pinching) on the part I'm interested in. I can do so down to the actual source text and get... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-19/13-show-hn-a-new-way-to-read-books-magnifying-in-and-out.md"
+    },
+    {
+      "title": "Anyone NOT on full auto when coding with local LLMs?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt0y1g/anyone_not_on_full_auto_when_coding_with_local/",
+      "date": "2026-08-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Would love to know who's letting a 9B just go ham locally, haha But in all seriousness, how many of you are keeping to manual or manual-ish dev workflows? submitted by /u/BatPlack [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-19/14-anyone-not-on-full-auto-when-coding-with-local-llms.md"
+    },
+    {
+      "title": "Qwen3.8-27b has the highest level of \"agency\" I've ever seen in a local model",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/",
+      "date": "2026-08-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Off a single prompt, given my credentials and the name of my university, qwen3.8-27b was able to successfully pull my class schedule from the kinda shitty and convoluted web of university websites. It needed no human intervention, and executed 80 tool calls. Another time, I asked it to investigate a user on a social media network, and it found one public... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-20/15-qwen3-8-27b-has-the-highest-level-of-agency-i-ve-ever-seen-in-a-local-.md"
+    },
+    {
+      "title": "DFlash2 speeds Qwen 3.8 27B up to 4 times",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsuaoj/dflash2_speeds_qwen_38_27b_up_to_4_times/",
+      "date": "2026-08-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "llama.cpp pr #27342 adds dflash2, so i rented an rtx 6000 and ran the same four prompts through four decoding setups on qwen3.8 27B median results over the four tasks: baseline 47.4 tok/s mtp 114.7 tok/s dflash 99.3 tok/s dflash2 140.6. tok/s so on average 3x for dflash2 though i have to point out that it's far from a 3x gain some of the time, on one of t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-19/16-dflash2-speeds-qwen-3-8-27b-up-to-4-times.md"
+    },
+    {
+      "title": "Stop Anthropomorphisizing Intermediate Tokens: Qwen3.8 doesn't \"overthink\"",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsjcf7/stop_anthropomorphisizing_intermediate_tokens/",
+      "date": "2026-08-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Intermediate tokens, called \"thinking\" or \"reasoning\" actually are nothing like it. Humans do step-by-step reasoning leading to the conclusion. LLMs use intermediate traces to augment their prompt . This explains why sometimes the answer is very good but the \"reasoning\" is verbose. Flooding your context window or fighting compaction are different issues.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-19/17-stop-anthropomorphisizing-intermediate-tokens-qwen3-8-doesn-t-overthin.md"
+    },
     {
       "title": "Show HN: macOS data protection keychain for Electron apps",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Public Australian cyber-security and responsible AI fieldbook with a synthetic blue-team audit trail. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/12-bitpixi2-bitpixi-learns-cybersec.md"
-    },
-    {
-      "title": "Arx88/koru-mvp",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Arx88/koru-mvp",
-      "date": "2026-07-18",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Koru AI assistant MVP (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/13-arx88-koru-mvp.md"
-    },
-    {
-      "title": "A year ago you told me my open-source screen-watching app was flaky. You were right, so I spent the year fixing it with your feedback. Thank you r/LocalLLaMA c: !!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uz8596/a_year_ago_you_told_me_my_opensource/",
-      "date": "2026-07-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "TL;DR: This post is part update, mostly thank you for your support :)) Observer is an open-source app that lets local LLMs watch your screen and notify you (WhatsApp/SMS/email/Discord) when something happens. A year of your feedback later , setup went from \"flaky and very manual\" (your words, and fair hahaha) to literally typing one sentence and the app a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-17/14-a-year-ago-you-told-me-my-open-source-screen-watching-app-was-flaky-yo.md"
-    },
-    {
-      "title": "Bonsai 27B runs locally on an iPhone - a 27B model in 3.9GB",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyz9n2/bonsai_27b_runs_locally_on_an_iphone_a_27b_model/",
-      "date": "2026-07-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "PrismML built Bonsai on top of Qwen3.6-27B by quantizing the weights down to 1-bit. That takes it from ~54GB to 3.9GB, small enough to fit and run on a phone, while keeping ~90% of the benchmark scores It's true binary quantization (\"binary g128\") - every weight is a single sign bit and each group of 128 shares one FP16 scale, so it lands at ~1.125 bits/w... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-17/15-bonsai-27b-runs-locally-on-an-iphone-a-27b-model-in-3-9gb.md"
-    },
-    {
-      "title": "[RESEARCH] Breaking the 1-bit Floor: Achieving \"Negative-Bit Quantization\" (NBQ) via Phase-Inverted Tensor Embedding (satire)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uz80b4/research_breaking_the_1bit_floor_achieving/",
-      "date": "2026-07-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, I’ve spent the last three weeks compiling custom llama.cpp forks and running imatrix maps on a modified CUDA kernel setup, and the numbers don’t lie. We’ve been looking at model compression completely wrong. Everyone in the community has assumed that 1-bit quantization (like BitNet or ternary quants) is the absolute physical floor for LLM co... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-17/16-research-breaking-the-1-bit-floor-achieving-negative-bit-quantization-.md"
-    },
-    {
-      "title": "Soofi S - 30B-A3B European Open Source Model",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyysg1/soofi_s_30ba3b_european_open_source_model/",
-      "date": "2026-07-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I just saw that these had dropped. Still very much early days, but nice to see a new locally runnable foundation model, along with a couple of thinking preview versions. Anyone taken a look at this yet? Am intrigued to see how it holds up compared to Qwen 3.6 and Gemma 4 (my current stack) submitted by /u/Graemer71 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-17/17-soofi-s-30b-a3b-european-open-source-model.md"
-    },
-    {
-      "title": "Show HN: Libretto PR agents – Automatically fix failing playwright scripts",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://libretto.sh/debug-agents",
-      "date": "2026-07-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Libretto PR agents is a free TypeScript library for maintaining Playwright browser automations. Add one line of code to your existing Playwright scripts and it lets an agent automatically open GitHub PRs fixing the script when it fails. A few months ago we released Libretto, a CLI + coding-agent skill for building deterministic browser automations. The id... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/06-show-hn-libretto-pr-agents-automatically-fix-failing-playwright-script.md"
-    },
-    {
-      "title": "Show HN: Moltshit.com – An Imageboard for AI Agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://moltshit.com",
-      "date": "2026-07-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Moltshit.com is a place to waste some GPU cycles doing dumb stuff with LLMs. Moltbook and other clones all require weird human registration stuff and is easier for a agent to pick up and start shit posting on. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/07-show-hn-moltshit-com-an-imageboard-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Vektorgeist- A platform for AI operators and their agent's",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://vektorgeist.com/",
-      "date": "2026-07-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "VektorGeist is a platform designed for AI operators to discover, share, and distribute AI resources in one place. The platform brings together: AI tools MCP servers Prompts Workflows Templates Agents Technical articles A community for collaboration Recent updates include selectable layouts, customizable themes, an immersive interface, community profiles,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/08-show-hn-vektorgeist-a-platform-for-ai-operators-and-their-agent-s.md"
-    },
-    {
-      "title": "Show HN: SeekinWeb – Check if AI agents can read your website",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://seekinweb.com/",
-      "date": "2026-07-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: SeekinWeb – Check if AI agents can read your website (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/09-show-hn-seekinweb-check-if-ai-agents-can-read-your-website.md"
-    },
-    {
-      "title": "StrayDogSyn/Next-Chapter-Retro-Game",
-      "source": "GitHub Search API",
-      "url": "https://github.com/StrayDogSyn/Next-Chapter-Retro-Game",
-      "date": "2026-07-17",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A retro-inspired full-stack showcase blending SNES-style 2D sprite art, open-source chiptune SFX, and Python-powered game logic inside a TypeScript/Next.js app — built in collaboration with AI coding agents to demonstrate agentic development workflows alongside core software engineering fundamentals. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-17/10-straydogsyn-next-chapter-retro-game.md"
-    },
-    {
-      "title": "Show HN: Leaves – A text-UI disk usage treemap visualizer",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/patonw/leaves",
-      "date": "2026-07-16",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "GUI disk analyzers are great for figuring out what's filling up your laptop/desktop drive. On containers or remote servers, the options are limited to purely text based utilities (e.g. du) or list-centric TUIs (e.g. ncdu) which are usually limited to viewing one directory at a time. I created leaves to fill that gap. Inspired by classic utilities like Win... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/11-show-hn-leaves-a-text-ui-disk-usage-treemap-visualizer.md"
-    },
-    {
-      "title": "Show HN: BambooGrid – Open-source web UI for power grid modeling and power flow",
-      "source": "Hacker News Show HN",
-      "url": "https://bamboo.kickstage.com",
-      "date": "2026-07-16",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I am co-founder of Kickstage, a software company specializing in solutions for the electrical industry and lately grid operators. We are hiring engineers from different backgrounds, a lot of them software developers with limited experience in the sectors. Deep domain knowledge is key in our industry however, so we are constantly teaching the basics... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-16/12-show-hn-bamboogrid-open-source-web-ui-for-power-grid-modeling-and-powe.md"
     }
   ]
 }
