@@ -1,0 +1,12 @@
+---
+title: "SenseNova U1.5-Lite full release: expert training, OPD distillation, one model at inference"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training/"
+date: "2026-08-21"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Benchmarks: Benchmark U1 Preview Full Qwen-Image-Bench 47.14 55.20 (PE) 60.18 (PE) ImgEdit 3.9 4.37 4.59 GEdit-Bench-EN 7.47 8.14 8.26 Instead of just scaling up, they train task-specialized expert models for text rendering and infographics, aesthetic quality, and image editing. Then OPD consolidates those experts back into U1.5-Lite. At inference you get... (Local summary fallback used.)"
+---
+
+Benchmarks: Benchmark U1 Preview Full Qwen-Image-Bench 47.14 55.20 (PE) 60.18 (PE) ImgEdit 3.9 4.37 4.59 GEdit-Bench-EN 7.47 8.14 8.26 Instead of just scaling up, they train task-specialized expert models for text rendering and infographics, aesthetic quality, and image editing. Then OPD consolidates those experts back into U1.5-Lite. At inference you get one model. No router, no expert switching, no manual selection. The slogan they use: specialized in training, unified in delivery. Post-training now includes task-oriented RL with three user-visible objectives: instruction adherence, visual quality and preference alignment, and edit fidelity with preservation of untouched regions. What improved: Complex instruction following. Multiple constraints in one request (subjects, counts, spatial relationships, text, layout, style, preservation requirements) handled more consistently. Text rendering and dense layouts. Chinese and English in posters and infographics. Native 4K generation with stable global structure. Native editing with better preservation of subject identity, geometry, and unedited regions. Multi-reference editing and precise local edits included. Visual understanding strengthens generation. Representations learned from understanding tasks (object relations, spatial structure, layout, info hierarchy) transfer to generation and editing. JSON-structured supervision is used as a training mechanism for controllability, not a mandatory user-facing format. Natural language stays the default interface. Links: GitHub: https://github.com/OpenSenseNova/SenseNova-U1 HuggingFace: https://huggingface.co/sensenova/SenseNova-U1.5-8B-MoT submitted by /u/SandyL925 [link] [comments]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T05:20:40.782Z",
+  "updated_at": "2026-08-21T05:22:29.432Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "date": "2026-08-20",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello everyone. I've been working on this experimental editor called Huzzah. I've been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They're great, but I'm finding it more and more tedious to write full sentences for every change I want. Not only that, but... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-20/06-show-hn-huzzah-a-novel-approach-to-coding-with-ai.md"
+    },
+    {
+      "title": "Show HN: Praxos – team messaging with built-in memory",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.praxos.ai/",
+      "date": "2026-08-20",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! What does a regular workflow at a startup look like? Probably like this: > One founder talks to customers > Another founder builds > A customer asks for something. The first founder explains it to the second. The second founder explains it to Claude > Two weeks any one of the founders asks one of the following questions: \\* Why are we building it... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-20/07-show-hn-praxos-team-messaging-with-built-in-memory.md"
+    },
+    {
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.20318v1",
+      "date": "2026-08-20",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agen... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-20/08-ai4ai-bench-benchmarking-llm-agents-in-algorithmic-design-for-recursiv.md"
+    },
+    {
+      "title": "Growth Without Us: Machine Consumers, Corporate Circularity, and the Decoupling of GDP from Humanity after AGI",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.20231v1",
+      "date": "2026-08-20",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The standard objection to full automation is demand-side: if humans earn nothing, who buys the output? This confuses an accounting role with a biological species. We model a post-AGI economy in which corporations own populations of AI and robotic agents that are both producers and consumers of energy, compute, maintenance, and upgrades, traded among firms... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-20/09-growth-without-us-machine-consumers-corporate-circularity-and-the-deco.md"
+    },
+    {
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "source": "Hacker News Show HN",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "date": "2026-08-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes/sec on an iPhone 15). The idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues what you played, entirely on-device. The app is free if anyone wan... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/10-show-hn-i-trained-a-125m-model-to-autocomplete-piano-on-device.md"
+    },
+    {
+      "title": "Show HN: We chased a weather balloon across Montana and never found it",
+      "source": "Hacker News Show HN",
+      "url": "https://radi8.dev/blog/uplink/",
+      "date": "2026-08-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Since April, I have been working with Sam Flynn ( https://drook.dev ) to make this balloon payload, UpLink. We did a similar launch last year with Hack Club but this was our first independent launch. UpLink was a 491 gram payload testing the insulation properties of 3D printing filaments, while also transmitting 320x240 images over a radio link -- up from... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/11-show-hn-we-chased-a-weather-balloon-across-montana-and-never-found-it.md"
+    },
+    {
+      "title": "Show HN: Molecule.dev is an AI-first composable package ecosystem",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/molecule-dev/molecule",
+      "date": "2026-08-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Molecule.dev is an AI-first composable package ecosystem (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/12-show-hn-molecule-dev-is-an-ai-first-composable-package-ecosystem.md"
+    },
+    {
+      "title": "Show HN: PingChange – monitor web pages and OpenAPI specs for meaningful changes",
+      "source": "Hacker News Show HN",
+      "url": "https://pingchange.com",
+      "date": "2026-08-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I built PingChange after watching the same thing happen over and over: a competitor prices change, a company policy is updated or important web content changes but there is often no reliable way to track it and know when it happens. The tool monitors web pages and API on a schedule and alerts your team when something meaningful changes. The keyword here i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/13-show-hn-pingchange-monitor-web-pages-and-openapi-specs-for-meaningful-.md"
+    },
+    {
+      "title": "Getting better at coding doesn't make a model better at everything else",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtoqr9/getting_better_at_coding_doesnt_make_a_model/",
+      "date": "2026-08-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "A majority of users in this sub use LLMs for coding/agentic tasks and I see why a lot of value is put into them but many try to say \"Well coding has improved therefore it can just use tool calling and/or just look up what the user needs if there's a degradation for general knowledge/reasoning\" and that's just not the case. Many LLM usecases can't just be... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-20/14-getting-better-at-coding-doesn-t-make-a-model-better-at-everything-els.md"
+    },
+    {
+      "title": "I did it! I'm free! It's been 7 hours since I used claudecode",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu1e3u/i_did_it_im_free_its_been_7_hours_since_i_used/",
+      "date": "2026-08-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "My Pro subscription expired today, they killed my access at 1pm local time. I'm now using Qwen3.8-27b w/ 5090m 24gb vram and pi to do everything i was doing in claudecode. The only downside is claudecode let me code without using my gpu, meaning I have to plan things now. Last night I had ChatGPT write up a prompt for a fancy aurora predictor for Canadian... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-21/15-i-did-it-i-m-free-it-s-been-7-hours-since-i-used-claudecode.md"
+    },
+    {
+      "title": "Qwen 3.8 27b - PI AGENT vs OPENCODE",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu0u2v/qwen_38_27b_pi_agent_vs_opencode/",
+      "date": "2026-08-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://www.reddit.com/r/LocalLLaMA/comments/1j7r47l/i_just_made_an_animation_of_a_ball_bouncing/ This post inspired me to make that test after a year ;) That is one of my many tests I make comparing output quality. What is more interesting using a PI Agent results are much better than an Opencode using a Qwen 3.8 27b ?! Seems PI Agent is much better in t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-21/16-qwen-3-8-27b-pi-agent-vs-opencode.md"
+    },
+    {
+      "title": "SenseNova U1.5-Lite full release: expert training, OPD distillation, one model at inference",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training/",
+      "date": "2026-08-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Benchmarks: Benchmark U1 Preview Full Qwen-Image-Bench 47.14 55.20 (PE) 60.18 (PE) ImgEdit 3.9 4.37 4.59 GEdit-Bench-EN 7.47 8.14 8.26 Instead of just scaling up, they train task-specialized expert models for text rendering and infographics, aesthetic quality, and image editing. Then OPD consolidates those experts back into U1.5-Lite. At inference you get... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-21/17-sensenova-u1-5-lite-full-release-expert-training-opd-distillation-one-.md"
+    },
     {
       "title": "Show HN: Naeos – an engineering system for AI coding agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I've been building a level editor for Quake 3 that runs entirely in the browser: Radiant-style layout, brush and patch editing, CSG, terrain sculpting, and entity editing. It opens and saves .map file and you can play the maps you build directly in the browser using a webassembly build of ioquake3. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/12-show-hn-q3edit-edit-and-play-quake-3-maps-in-the-browser.md"
-    },
-    {
-      "title": "Show HN: Ilya Sutskever's AI reading list into a learning RPG – using kimi k3",
-      "source": "Hacker News Show HN",
-      "url": "https://ilya-papers-quest.naigap.com/#/",
-      "date": "2026-07-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I wanted to take kimi k3 for a spin. It turned my simple one sentence prompt to this. Repo here. https://github.com/praveer13/ilya-papers-quest Well, I'm mindblown. Very humbling for me as a software engineer. Took couple hours for it to build this completely autonomously. And it was all from its mobile app. It couldn't render this though from within the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/13-show-hn-ilya-sutskever-s-ai-reading-list-into-a-learning-rpg-using-kim.md"
-    },
-    {
-      "title": "If you're building a harness, here is a simple tool to catch cache invalidation in your calls to LLMs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uztipo/if_youre_building_a_harness_here_is_a_simple_tool/",
-      "date": "2026-07-18",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://preview.redd.it/o6c5enqx3zdh1.png?width=1371&format=png&auto=webp&s=20f75d4cefa5f51f40c000db8f9bd7114758b354 Hello, I know we're a lot of harness builders out there, because it's fun and because it makes us learn a lot. I've been focusing on a local-first harness and prefill costs become obvious when you run local LLMs. Those often come from cache... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-18/14-if-you-re-building-a-harness-here-is-a-simple-tool-to-catch-cache-inva.md"
-    },
-    {
-      "title": "Qwen vs Gemma",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0dksm/qwen_vs_gemma/",
-      "date": "2026-07-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi! Been doing some local LLM stuff, and I can't help but notice: despite vastly-superior benchmark scores, Qwen 3.6 35a3B feels... substantially less intelligent than Gemma 4 26a4B (QAT). In terms of prompt adherence, output coherence, and just general \"sanity\", Gemma seems head-and-shoulders ahead. Arena.ai rankings generally agree: Gemma 4 26a4 ranks l... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-19/15-qwen-vs-gemma.md"
-    },
-    {
-      "title": "[Model] catmind-1.2b",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzxov4/model_catmind12b/",
-      "date": "2026-07-18",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Everyone loves cats, even LLMs. If you are like me and can't resist the urge of petting a cat that approaches you, you will LOVE catmind. catmind-1.2b is a cat-thinking model: instead of thinking about your query, it uses it's thinking block to tell you a story about cats. Yes, one completely unrelated to your query. This model is a fine-tune of LFM2.5-1.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-18/16-model-catmind-1-2b.md"
-    },
-    {
-      "title": "i couldnt find anyone making full movies locally on a mac, so heres what that looks like right now",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0ibu2/i_couldnt_find_anyone_making_full_movies_locally/",
-      "date": "2026-07-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "i searched around for people making actual finished films on their own hardware. not clips, whole movies with story, narration, music and credits, all local. couldnt really find anyone talking about it, so im posting mine in case someone searches this later and wants to see whats possible. last month i made a 4 minute animated cartoon overnight on an m5 m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-19/17-i-couldnt-find-anyone-making-full-movies-locally-on-a-mac-so-heres-wha.md"
-    },
-    {
-      "title": "Show HN: Lific: Issue trackers should be simple, right?",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://lific.dev",
-      "date": "2026-07-17",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I built Lific because I direct AI coding agents on largish projects and needed somewhere for project state to live that isn't markdown files in the repo. When I was begging to work on long horizon ideas, I started on Linear, but my agent files issues faster than a human does, and I hit their limits and pricing wall almost immediately. Then I self-hosted a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-17/06-show-hn-lific-issue-trackers-should-be-simple-right.md"
-    },
-    {
-      "title": "Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.15143v1",
-      "date": "2026-07-16",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI coding agents set up projects by reading documentation and installing the dependencies it lists, without verifying their names, sources, or known vulnerabilities. By editing only a README, requirements file, or Makefile, an attacker can redirect the agent to an untrusted registry, a known-vulnerable version, or a wrong-but-plausible name: documentation... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/07-setup-complete-now-you-are-compromised-weaponizing-setup-instructions-.md"
-    },
-    {
-      "title": "BrainPilot: Automating Brain Discovery with Agentic Research",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.15079v1",
-      "date": "2026-07-16",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Understanding the brain increasingly depends on integrating evidence across scales, modalities, and disciplines. Addressing a single research question therefore requires a coordinated sequence of operations, from surveying prior work to executing analyses and interpreting results in light of domain knowledge. AI agents promise to accelerate this process,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/08-brainpilot-automating-brain-discovery-with-agentic-research.md"
-    },
-    {
-      "title": "ANet Patu-1: The Value of Connection in the Agent Network",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.15053v1",
-      "date": "2026-07-16",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The Internet taught us that the value of a network depends on \\emph{how} its nodes connect: broadcast stars scale as $V\\!\\propto\\!N$ (Sarnoff), fully-connected meshes as $N^2$ (Metcalfe), and group-forming networks as $2^{N}$ (Reed). We ask the analogous question for networks of AI agents. We model the net value of connection as a function of coordination... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/09-anet-patu-1-the-value-of-connection-in-the-agent-network.md"
-    },
-    {
-      "title": "scharissis/coh3-tempo",
-      "source": "GitHub Search API",
-      "url": "https://github.com/scharissis/coh3-tempo",
-      "date": "2026-07-18",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Tempo — a Company of Heroes 3 opening timing lab: simulate a build order, optimize for a goal, and measure a replay against both. Runs entirely in the browser. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/10-scharissis-coh3-tempo.md"
-    },
-    {
-      "title": "attestral-labs/attestral",
-      "source": "GitHub Search API",
-      "url": "https://github.com/attestral-labs/attestral",
-      "date": "2026-07-18",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Open-source security scanner for MCP servers and AI agents: finds prompt injection, tool poisoning, and excessive agency, and models the cloud your agents can reach. pip install attestral. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/11-attestral-labs-attestral.md"
-    },
-    {
-      "title": "bitpixi2/bitpixi-learns-cybersec",
-      "source": "GitHub Search API",
-      "url": "https://github.com/bitpixi2/bitpixi-learns-cybersec",
-      "date": "2026-07-18",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Public Australian cyber-security and responsible AI fieldbook with a synthetic blue-team audit trail. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/12-bitpixi2-bitpixi-learns-cybersec.md"
     }
   ]
 }
