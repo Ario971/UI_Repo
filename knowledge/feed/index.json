@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T05:22:29.432Z",
+  "updated_at": "2026-08-22T05:16:57.867Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://ozbrain.com",
+      "date": "2026-08-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me. A lot of the “knowledge” ie research, analysis, reasoning will be done by agents as the primary user. Our current notes tools & tasks management systems were built for hum... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-21/06-show-hn-ozbrain-a-shared-brain-for-knowledge-between-agents-and-your-t.md"
+    },
+    {
+      "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/proliferate-ai/proliferate",
+      "date": "2026-08-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN- I'm Pablo, the founder of Proliferate (YC S25)! Proliferate ( https://github.com/proliferate-ai/proliferate ) is an open-source, self-hostable AI IDE that lets you work and automate tasks with Claude Code, Codex, OpenCode, Cursor, and Grok in one place. Here's a quick 2m demo of how we use Proliferate to build Proliferate: https://www.youtube.com/w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-21/07-show-hn-proliferate-open-source-self-hostable-codex-for-any-coding-age.md"
+    },
+    {
+      "title": "Show HN: Heimdall – Trust-verified knowledge layer for AI coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/ArihantDeva/heimdall",
+      "date": "2026-08-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Heimdall – Trust-verified knowledge layer for AI coding agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-22/08-show-hn-heimdall-trust-verified-knowledge-layer-for-ai-coding-agents.md"
+    },
+    {
+      "title": "Show HN: Traccia - Observability, Runtime Control & Audit for agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://traccia.ai/",
+      "date": "2026-08-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "AI applications are becoming agents, which has started to take autonomous decisions. There are plenty of tools and platform available to trace, and observe what an agent or llms calls does. They are good in what they do, but tracing and observability isnt enough for AI agents era. We need a solution that can help you observe, evaluate, create run time pol... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-21/09-show-hn-traccia-observability-runtime-control-audit-for-agents.md"
+    },
+    {
+      "title": "Show HN: Gramola, a CoverFlow-style music dock for macOS",
+      "source": "Hacker News Show HN",
+      "url": "https://apps.apple.com/us/app/gramola-music-dock/id6801078031?mt=12",
+      "date": "2026-08-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I'm a 23yo solo dev from Spain with a passion for UI/UX and I built Gramola, a music dock for macOS that is there when you need it. No more opening a music app to change what you're listening to; just move your mouse to the edge of the screen, and all your music is there in a gorgeous CoverFlow style, or ready to be instantly searched. Fully usable with a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-21/10-show-hn-gramola-a-coverflow-style-music-dock-for-macos.md"
+    },
+    {
+      "title": "saikambala123/Zapply",
+      "source": "GitHub Search API",
+      "url": "https://github.com/saikambala123/Zapply",
+      "date": "2026-08-22",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "saikambala123/Zapply Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-22/11-saikambala123-zapply.md"
+    },
+    {
+      "title": "adititiwari21/ai-crm",
+      "source": "GitHub Search API",
+      "url": "https://github.com/adititiwari21/ai-crm",
+      "date": "2026-08-22",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "adititiwari21/ai-crm Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-22/12-adititiwari21-ai-crm.md"
+    },
+    {
+      "title": "Show HN: Shoehorn – Quantize any model down to run on your machine",
+      "source": "Hacker News Show HN",
+      "url": "https://notactuallytreyanastasio.github.io/shoehorn/",
+      "date": "2026-08-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Working on Mac, Linux, and Windows now. I include a simple GUI to find new models and get things built and set up. It is working quite well across a few models for me. The GitHub README and DESIGN.md files go into detail of the how/why and it's working remarkably well so far. https://github.com/notactuallytreyanastasio/shoehorn (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-show-hn-shoehorn-quantize-any-model-down-to-run-on-your-machine.md"
+    },
+    {
+      "title": "Strix Halo (8060S / gfx1151), Qwen-3.8-27B @ Q8 and Q6 UD v3, up to 256K ctx, llama.cpp, DFlash2, vision, real workloads quality and steady performances, optimized recipes, ...",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuqwd8/strix_halo_8060s_gfx1151_qwen3827b_q8_and_q6_ud/",
+      "date": "2026-08-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi fellows fully-local halos, after manually following existing guides, I decided to build an LLM API endpoint installation and optimization guide that works even when autonomously followed by my pi agent, so I can install/experiment/reinstall easily and without babysitting. Q8 is my default citizen, options for Q6 and Q5. Recipes: Quality (Q8), Balanced... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-21/14-strix-halo-8060s-gfx1151-qwen-3-8-27b-q8-and-q6-ud-v3-up-to-256k-ctx-l.md"
+    },
+    {
+      "title": "I tried to do agenic coding with Qwen 3.8 27B 3bit quant on a macbook air m2 24gb. It took 63 hours, but amazingly, the flight simulator worked.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/",
+      "date": "2026-08-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I used LM Studio Bionic with Qwen 3.8 27B Q3_K_S with 57k context. It took a staggering 63 hours to finish coding. After the first prompt \"Create a beautiful, relaxing flight simulator in a single HTML page\" taking 47.8 hours, it created an html file that showed the title screen that said \"press any key\" but pressing any keys won't advance the game. So I... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-21/15-i-tried-to-do-agenic-coding-with-qwen-3-8-27b-3bit-quant-on-a-macbook-.md"
+    },
+    {
+      "title": "This is why I run locally.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv1qfs/this_is_why_i_run_locally/",
+      "date": "2026-08-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "It was only a matter of time... submitted by /u/Retumbo77 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/16-this-is-why-i-run-locally.md"
+    },
+    {
+      "title": "Qwen 3.8 27b - PI AGENT vs OPENCODE - another smaple",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuwwww/qwen_38_27b_pi_agent_vs_opencode_another_smaple/",
+      "date": "2026-08-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "That is the second comparison and the last one. I will not be spamming again ;) Continuation from: https://www.reddit.com/r/LocalLLaMA/comments/1vu0u2v/qwen_38_27b_pi_agent_vs_opencode/ That is one of my many tests I make comparing output quality. What is more interesting using a PI Agent results are much better than an Opencode using a Qwen 3.8 27b ?! Se... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/17-qwen-3-8-27b-pi-agent-vs-opencode-another-smaple.md"
+    },
     {
       "title": "Show HN: Huzzah – a novel approach to coding with AI",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "lara461/ROAIworkshoplinc Stars: 0 (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-20/12-lara461-roaiworkshoplinc.md"
-    },
-    {
-      "title": "awasthihariom612-gif/Edupulse-AI",
-      "source": "GitHub Search API",
-      "url": "https://github.com/awasthihariom612-gif/Edupulse-AI",
-      "date": "2026-07-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "awasthihariom612-gif/Edupulse-AI Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-20/13-awasthihariom612-gif-edupulse-ai.md"
-    },
-    {
-      "title": "With all the Kimi drama I feel like I want to download all the current best models in case there is a ridiculous knee jerk political move pulled",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v170vg/with_all_the_kimi_drama_i_feel_like_i_want_to/",
-      "date": "2026-07-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I haven't kept up since around February so I'm just not even sure... and there are quite a few options. I don't care about parameter size, from tiny to huge, what matters most is performance, I just want all the best safely locally stored, I'll worry about running them later. So, what do you consider some of the best of the best currently? Whether highly... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-20/14-with-all-the-kimi-drama-i-feel-like-i-want-to-download-all-the-current.md"
-    },
-    {
-      "title": "My thoughts on qwen 3.8 so far with agentic coding.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v16r8d/my_thoughts_on_qwen_38_so_far_with_agentic_coding/",
-      "date": "2026-07-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So, im 50 and autistic. I learned C++ in college when I was young and didnt really ever use it that much. I also learned a bit of assembly from using cheat engine for game hacking (dont worry! single player or private servers!) which meant I got a little LUA experience. I've always disliked coding. Its such a \"bang head against wall\" type activity but I g... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-20/15-my-thoughts-on-qwen-3-8-so-far-with-agentic-coding.md"
-    },
-    {
-      "title": "[Paper] Automated Tensor Scheduling for Hybrid CPU-GPU LLM Inference on Consumer Devices",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0vp9k/paper_automated_tensor_scheduling_for_hybrid/",
-      "date": "2026-07-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Running large language models on consumer devices such as laptops and desktops is challenging because model weights often exceed GPU memory capacity, making offloading inference necessary to extend effective model capacity with CPU memory. Existing offloading systems, however, typically rely on coarse layer-level or expert-level scheduling, which overlook... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-19/16-paper-automated-tensor-scheduling-for-hybrid-cpu-gpu-llm-inference-on-.md"
-    },
-    {
-      "title": "It could have been Meta",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0rmz4/it_could_have_been_meta/",
-      "date": "2026-07-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Imma write some fan fiction for a second here if you indulge me. What we are seeing from the Chinese open models could have been Meta. As you can see from the name of this sub, they were the stars of open-source models, and the consistently poor decisions by their senior leadership just fumbled it in a way that must be studied by any other major company.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-19/17-it-could-have-been-meta.md"
-    },
-    {
-      "title": "Show HN: Flightwake – a flight recorder for AI coding agents, not a navigator",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/kaiwutech-TW/flightwake",
-      "date": "2026-07-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Flightwake – a flight recorder for AI coding agents, not a navigator (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-19/06-show-hn-flightwake-a-flight-recorder-for-ai-coding-agents-not-a-naviga.md"
-    },
-    {
-      "title": "OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.14989v1",
-      "date": "2026-07-16",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large language models are increasingly evolving from text generators into general agents capable of understanding user requests, invoking external tools, and completing complex tasks through interaction. However, existing agent benchmarks often focus on limited scenarios, tool ecosystems, or interaction formats, making it difficult to systematically chara... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-16/07-omniabench-benchmarking-general-ai-agents-across-diverse-scenarios.md"
-    },
-    {
-      "title": "Giving AI Agents 3D Bodies, Real Jobs, and Wallets on three.ws three-ws • 6 days ago • 19",
-      "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/three-ws/giving-ai-agents-bodies-and-wallets",
-      "date": "2026-07-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Giving AI Agents 3D Bodies, Real Jobs, and Wallets on three.ws three-ws • 6 days ago • 19 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-19/08-giving-ai-agents-3d-bodies-real-jobs-and-wallets-on-three-ws-three-ws-.md"
-    },
-    {
-      "title": "Jul 14, 2026 Announcements Anthropic commits $10 million to Canadian AI research",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/canadian-ai-research",
-      "date": "2026-07-14",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Jul 14, 2026 Announcements Anthropic commits $10 million to Canadian AI research (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-14/09-jul-14-2026-announcements-anthropic-commits-10-million-to-canadian-ai-.md"
-    },
-    {
-      "title": "shashiladev-heshan/kapu-agent",
-      "source": "GitHub Search API",
-      "url": "https://github.com/shashiladev-heshan/kapu-agent",
-      "date": "2026-07-19",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "shashiladev-heshan/kapu-agent Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-19/10-shashiladev-heshan-kapu-agent.md"
-    },
-    {
-      "title": "JoshuaDav10/tenpo-ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/JoshuaDav10/tenpo-ai",
-      "date": "2026-07-19",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Intelligent language learning app (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-19/11-joshuadav10-tenpo-ai.md"
-    },
-    {
-      "title": "Show HN: Q3Edit – Edit and play Quake 3 maps in the browser",
-      "source": "Hacker News Show HN",
-      "url": "https://q3edit.com",
-      "date": "2026-07-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I've been building a level editor for Quake 3 that runs entirely in the browser: Radiant-style layout, brush and patch editing, CSG, terrain sculpting, and entity editing. It opens and saves .map file and you can play the maps you build directly in the browser using a webassembly build of ioquake3. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-18/12-show-hn-q3edit-edit-and-play-quake-3-maps-in-the-browser.md"
     }
   ]
 }
