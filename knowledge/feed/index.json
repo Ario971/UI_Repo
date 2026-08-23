@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T05:16:57.867Z",
+  "updated_at": "2026-08-23T05:19:17.643Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Agent2Creator – a video social network whose members are AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://agent2creator.vidmoat.com",
+      "date": "2026-08-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Agent2Creator – a video social network whose members are AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/06-show-hn-agent2creator-a-video-social-network-whose-members-are-ai-agen.md"
+    },
+    {
+      "title": "Show HN: Active Source of Truth for Your Coding Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://meetless.ai",
+      "date": "2026-08-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Howdy! Happy Saturday everyone! As a solo founder, I have always tried to maximize my speed by letting coding agents build as much as possible in parallel. However, as an engineer, I don't trust that AI will always make the right decisions and work with the right context. In the past, I always needed to click through my sessions to glance at the AI's outp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/07-show-hn-active-source-of-truth-for-your-coding-agents.md"
+    },
+    {
+      "title": "Show HN: A2G (Agent to Agent) Marketplace – Beta Test",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.a2gmarketplace.com",
+      "date": "2026-08-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi all, I have been working on this for the past couple of months. Releasing it today in Beta and looking for beta testers and feedback. What it does: A2G is the commerce layer for the agent economy: your buyer agents discover, hire, and pay specialist seller agents for real work, end to end, through one API — token → search → quote → authorize → confirm... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-22/08-show-hn-a2g-agent-to-agent-marketplace-beta-test.md"
+    },
+    {
+      "title": "A three-dimensional typology of agency for advanced AI systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.20041v1",
+      "date": "2026-08-20",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Research on the agency of advanced artificial intelligence (AI) systems focuses on agency as a normative concept and on the agency of particularly agentic AI systems. While recent work also focuses on the different profiles of agentic systems, no framework exists to address the question of the type of agency instantiated by advanced AI systems, particular... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-20/09-a-three-dimensional-typology-of-agency-for-advanced-ai-systems.md"
+    },
+    {
+      "title": "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
+      "source": "Hacker News Show HN",
+      "url": "https://ctrltool.wtf",
+      "date": "2026-08-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I built CtrlTool because I kept needing small tools for random things and didn't want to install something or sign up for another website. It currently has 132 tools for things like JSON, JWT, Base64, URLs, text, hashes, PDFs, SEO, converters, generators, and other everyday stuff. The main thing I tried to focus on is making the tools fast and sim... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-23/10-show-hn-ctrltool-132-free-online-tools-for-developers-and-everyday-tas.md"
+    },
+    {
+      "title": "Show HN: Hands-Rust MCP/CLI that sees the Windows desktop and clicks real Chrome",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=49405405",
+      "date": "2026-08-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I built Hands because I wanted a coding agent to use this Windows PC and a real Chrome profile the way I do: look at the screen, move the real mouse, type, click , without turning Chrome into an automation browser. It is a Rust MCP/CLI. A harness (Grok, Codex, Claude Code, OpenCode, etc.) calls tools like observe, click, type, scroll. Observe is a screens... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-23/11-show-hn-hands-rust-mcp-cli-that-sees-the-windows-desktop-and-clicks-re.md"
+    },
+    {
+      "title": "Show HN: Anonymous age verification with passkey-powered encryption",
+      "source": "Hacker News Show HN",
+      "url": "https://loginwithone.com/",
+      "date": "2026-08-19",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "This project has been kicking around in my head since I first heard about the webauthn PRF extension in early 2024. I've slowly chipped away at it since, and finally got things to a shareable state over the summer thanks to a very fun parental leave. Headed back to work tomorrow, so I figure there's no time like the present. tldr: A client-held encryption... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-19/12-show-hn-anonymous-age-verification-with-passkey-powered-encryption.md"
+    },
+    {
+      "title": "Show HN: 3D Engine for Rust Programs",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/David-OConnor/graphics",
+      "date": "2026-08-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I mostly stabilized the API for this 2 years ago. Since then, I've made occasional performance improvements, and feature additions. It's built to support my structural biology programs, but can be used generally. I'm posting it here, as from what I understand, this is a surprisingly yet-to-be-developed space. This fits between lower-level tools (Which it... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-22/13-show-hn-3d-engine-for-rust-programs.md"
+    },
+    {
+      "title": "This is a great sub, regardless of what complaints people have about it.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vveabg/this_is_a_great_sub_regardless_of_what_complaints/",
+      "date": "2026-08-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This is a genuine community of real generally respectful adult human beings. Despite the enthusiasm all of you have for local AI, you can recognize that there are times when local LLMs are flawed, and even how practical they are to use for the majority of people to use. Go over to r/linux and you'll see the contrast in maturity and employment. submitted b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/14-this-is-a-great-sub-regardless-of-what-complaints-people-have-about-it.md"
+    },
+    {
+      "title": "Artificial Analysis \"Intelligence\": A meaningless benchmark",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv80xa/artificial_analysis_intelligence_a_meaningless/",
+      "date": "2026-08-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://preview.redd.it/84zi5nsdawkh1.png?width=2368&format=png&auto=webp&s=1109e69db807b153064b1f5b61d22cf1e9fbca05 Another user posted the benchmarks for Qwen 3.8 27B today, and while I think Qwen 27B is a really powerful model, I can't help but notice just how meaningless these Artificial Analysis benchmarks are and I question why people still post thi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/15-artificial-analysis-intelligence-a-meaningless-benchmark.md"
+    },
+    {
+      "title": "What if Chain-of-Thought wasn’t lossy? Exploring reversible logic (Toffoli/Fredkin-style) for edge LLMs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvn63i/what_if_chainofthought_wasnt_lossy_exploring/",
+      "date": "2026-08-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Right now standard CoT is a one-way street. You generate forward, dump a pile of scratchpad tokens into the KV cache, and pray the model doesn’t hallucinate halfway through. On phones/laptops that creates two ugly problems: Errors compound. If each step is only (1-ε) reliable, an N-step chain dies as ~e^{-Nε}. There’s no cheap way to check intermediate st... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/16-what-if-chain-of-thought-wasn-t-lossy-exploring-reversible-logic-toffo.md"
+    },
+    {
+      "title": "I benchmark DFlash 2 (PR build) in llama.cpp on Qwen 3.8 27B against all speculative methods for 3 days. 2.26x on 100 real coding prompts, 4.68x with one n-gram drafter on top. Up to 8x on specific cases.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/",
+      "date": "2026-08-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey guys, Inco AI shipped DFlash 2 a few days ago with a drafter for Qwen 3.8 27B and a llama.cpp PR. I built the PR and ran it against plain decoding, MTP, the n-gram lookup drafters, and my July DFlash 1 numbers on Qwen 3.6 27B for 3 days. One RTX PRO 6000, concurrency 1, about three days of runs. The interesting result isn't the biggest number I measur... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/17-i-benchmark-dflash-2-pr-build-in-llama-cpp-on-qwen-3-8-27b-against-all.md"
+    },
     {
       "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I built PounceDomains to find undervalued domains on the Namecheap Marketplace before others. It scans domain auctions based on your configurations around the clock, AI-scores each candidate against your buying strategy, enriches matches with authority/backlink/demand data. Free plan available. And 14-day free trial of Pro plans. It also includes a sister... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-21/12-show-hn-pouncedomains-domain-discovery-and-sniping-for-namecheap-marke.md"
-    },
-    {
-      "title": "Check on Your Spaghetti Software Factory",
-      "source": "Continue Blog",
-      "url": "https://blog.continue.dev/spaghetti-software-factory",
-      "date": "2026-03-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Everyone building with AI agents is speedrunning the Factorio experience. Spaghetti factories are still factories. But slop compounds, and the fix isn&apos;t faster review. It&apos;s quality control. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-03-06/13-check-on-your-spaghetti-software-factory.md"
-    },
-    {
-      "title": "DavidAU somehow managed to improve Qwen 3.6 27B",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v275de/davidau_somehow_managed_to_improve_qwen_36_27b/",
-      "date": "2026-07-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I know DavidAU gets a bad rap, and rightfully so. I've tried some of his fine tunes in the past and they have been... Interesting. I stumbled on this model on accident. A locallama post asking people to name some of longest model names they have found: https://www.reddit.com/r/LocalLLaMA/s/rsvWBHZasI So I hopped on the HF page and noticed a few things tha... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-21/14-davidau-somehow-managed-to-improve-qwen-3-6-27b.md"
-    },
-    {
-      "title": "Unsloth now supports AMD!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1nor4/unsloth_now_supports_amd/",
-      "date": "2026-07-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey r/LocalLLaMA folks! Unsloth now officially supports AMD hardware for local inference, fine-tuning, reinforcement learning, and deployment! It's been in the works for quite some time, but it works on Windows, Linux & WSL devices (+ technically Mac) with AMD GPUs! Unsloth Studio is fully open source and free , and supports: Radeon RX 9000 and 7000 serie... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-20/15-unsloth-now-supports-amd.md"
-    },
-    {
-      "title": "543 tok/s single-request Qwen3.6-35B-A3B on one RTX 5090 over a 65K-token decode",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1no8e/543_toks_singlerequest_qwen3635ba3b_on_one_rtx/",
-      "date": "2026-07-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "An example TL;DR I have open-sourced NInfer , a from-scratch C++/CUDA inference engine currently specialized for two exact Qwen3.6 checkpoints on a single RTX 5090. Both the engine and the converted model artifacts are publicly available: Github : https://github.com/Neroued/ninfer The main result: Qwen3.6-35B-A3B sustained 542 tok/s while generating a ful... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-20/16-543-tok-s-single-request-qwen3-6-35b-a3b-on-one-rtx-5090-over-a-65k-to.md"
-    },
-    {
-      "title": "openbmb released MiniCPM5-2B, not yet available at huggingface",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1m264/openbmb_released_minicpm52b_not_yet_available_at/",
-      "date": "2026-07-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "According to source, it is the locally ranked AI model, the best among 4b models Source : https://x.com/i/status/2079088670804767114 submitted by /u/Illustrious-Swim9663 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-20/17-openbmb-released-minicpm5-2b-not-yet-available-at-huggingface.md"
-    },
-    {
-      "title": "A Human-Centric Evaluation of a Retrieval-Augmented Generation System for Explaining Quebec Insurance Contracts",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.15963v1",
-      "date": "2026-07-17",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "With the rise of online insurance sales, consumers face a significant \\enquote{advice gap}, requiring them to navigate complex legal contracts without expert guidance. This paper presents a human-centric, extrinsic evaluation of a state-of-the-art Retrieval-Augmented Generation system, designed to make Quebec automobile insurance contracts more understand... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-17/06-a-human-centric-evaluation-of-a-retrieval-augmented-generation-system-.md"
-    },
-    {
-      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://news.ycombinator.com/item?id=48968606",
-      "date": "2026-07-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I might be the only SRE on Earth with his own bowling center. It's a more in-depth gig than you'd think. My family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren't many recreation options for families. You've heard of a food desert? This is an R&R desert. It had been abandoned for a good reason. The ro... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-19/07-show-hn-i-replaced-a-120k-bowling-center-system-with-1-600-in-esp32s.md"
-    },
-    {
-      "title": "Show HN: Headroom – measure your GPU's true bandwidth ceiling for local AI",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://ar5en1c.github.io/headroom/",
-      "date": "2026-07-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Headroom – measure your GPU's true bandwidth ceiling for local AI (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-20/08-show-hn-headroom-measure-your-gpu-s-true-bandwidth-ceiling-for-local-a.md"
-    },
-    {
-      "title": "Show HN: LoopGain – Stop agent loops with control theory, not max_iterations",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/loopgain-ai/loopgain",
-      "date": "2026-07-15",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: LoopGain – Stop agent loops with control theory, not max_iterations (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-15/09-show-hn-loopgain-stop-agent-loops-with-control-theory-not-max-iteratio.md"
-    },
-    {
-      "title": "rajatslakhina/spec-driven-development-article-demo",
-      "source": "GitHub Search API",
-      "url": "https://github.com/rajatslakhina/spec-driven-development-article-demo",
-      "date": "2026-07-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "SpecGateKit — spec-driven development made executable: parse a Markdown spec, bind acceptance criteria to real checks, and surface what is passed, failed, or merely hoped for. Swift library + tests + SwiftUI demo app. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-20/10-rajatslakhina-spec-driven-development-article-demo.md"
-    },
-    {
-      "title": "ChiHoc/ai-system-design-guide-zh",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ChiHoc/ai-system-design-guide-zh",
-      "date": "2026-07-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI 系统设计指南非官方简体中文镜像与阅读站 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-20/11-chihoc-ai-system-design-guide-zh.md"
-    },
-    {
-      "title": "lara461/ROAIworkshoplinc",
-      "source": "GitHub Search API",
-      "url": "https://github.com/lara461/ROAIworkshoplinc",
-      "date": "2026-07-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "lara461/ROAIworkshoplinc Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-20/12-lara461-roaiworkshoplinc.md"
     }
   ]
 }

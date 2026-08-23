@@ -1,0 +1,227 @@
+---
+id: "rookepoole/relaysociety-releases"
+name: "rookepoole/RelaySociety-Releases"
+url: "https://github.com/rookepoole/RelaySociety-Releases"
+date: "2026-08-23"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 77
+momentum: 52
+risk: 37
+integration_effort: 48
+expected_gain: 87
+composite: 69
+replacement_target: ""
+related_articles: [{"title":"Show HN: A2G (Agent to Agent) Marketplace – Beta Test","date":"2026-08-22","topic":"AI agents","similarity":0.393,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-22/08-show-hn-a2g-agent-to-agent-marketplace-beta-test.md"},{"title":"Show HN: Parley – your coding agent can talk to a teammate's agent","date":"2026-08-11","topic":"AI agents","similarity":0.369,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"},{"title":"LamsonRetail/lsr-agent-platform","date":"2026-08-18","topic":"AI dev tools","similarity":0.331,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"}]
+pros: ["Recently updated (2026-08-23)","Apache-2.0 license","2 GitHub stars","GitHub Actions/CI detected"]
+cons: ["No clear install command found in README","README mentions credentials or API tokens"]
+readme_quality: 85
+has_ci: true
+has_tests: false
+setup_steps_count: 0
+dependency_files: []
+install_commands: []
+risk_flags: ["README mentions credentials or API tokens"]
+status: "new"
+---
+
+# rookepoole/RelaySociety-Releases
+
+Governed agent coordination for real work — official Relay Society beta downloads, setup, security, and release metadata.
+
+URL: https://github.com/rookepoole/RelaySociety-Releases
+
+## Why it matters
+You saved an article on 2026-08-22 about AI agents; this candidate overlaps with "Show HN: A2G (Agent to Agent) Marketplace – Beta Test" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-08-23)
++ Apache-2.0 license
++ 2 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- No clear install command found in README
+- README mentions credentials or API tokens
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: no
+Setup steps estimate: 0
+
+Dependency files:
+- none detected
+
+Install commands found:
+- none detected
+
+Risk flags:
+- README mentions credentials or API tokens
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Relay Society
+
+### Governed coordination for real AI-agent work
+
+Relay Society is a local-first runtime and Control Room for creating exact task contracts, granting bounded authority, running durable work, retaining evidence, and closing successful tasks with signed receipts.
+
+[Download the latest beta](https://github.com/rookepoole/RelaySociety-Releases/releases/tag/v0.3.94) · [Exact setup guide](docs/GETTING_STARTED.md) · [Capabilities](docs/CAPABILITIES.md) · [Security](SECURITY.md) · [Report a problem](https://github.com/rookepoole/RelaySociety-Releases/issues/new/choose)
+
+> [!WARNING]
+> Relay Society v0.3.94 is a **beta with publisher-authenticated TUF update metadata**, but its Windows and Linux archives are not yet OS code-signed. There is no accepted macOS build. Verify the complete SHA-256 digest before the first run; TUF authenticates later update metadata and archive hashes, but it is not Authenticode, distribution signing, or independently attested provenance.
+
+## Download v0.3.94 beta
+
+| Platform | Package | Size | SHA-256 |
+| --- | --- | ---: | --- |
+| Windows 10/11 x64 | [Portable ZIP](https://github.com/rookepoole/RelaySociety-Releases/releases/download/v0.3.94/Relay-Society-v0.3.94-windows-x64.zip) | 12,371,018 bytes | `a718168851cec3595aa8a335ccbd66c853ba07e2ab01b7cafc963fc7a4495f32` |
+| Linux x64, static musl | [tar.gz](https://github.com/rookepoole/RelaySociety-Releases/releases/download/v0.3.94/Relay-Society-v0.3.94-linux-x64.tar.gz) | 12,852,944 bytes | `331a4d666d7838fb00430663e7a51c2e6e243edfdd1643c48186192967af18f5` |
+| macOS | Not available | — | Native qualification, signing, and notarization remain open |
+
+The [v0.3.94 release page](https://github.com/rookepoole/RelaySociety-Releases/releases/tag/v0.3.94) also contains checksums, release notes, and the immutable machine-readable update manifest. [`releases/current.json`](releases/current.json) is the repository's human- and machine-readable release catalog; it does not authorize automatic execution.
+
+## Start in a few minutes
+
+### Windows
+
+1. Download the Windows ZIP.
+2. Verify it in PowerShell:
+
+   ```powershell
+   Get-FileHash .\Relay-Society-v0.3.94-windows-x64.zip -Algorithm SHA256
+   ```
+
+3. Require the complete digest to match the Windows value above.
+4. Choose **Extract All**. Do not run Relay from inside the ZIP.
+5. Open the extracted folder and double-click **Launch Relay Society.cmd**.
+6. Keep the console window open. The Control Room opens at `http://127.0.0.1:7411`.
+
+Windows can show a protection warning because the archive is not Authenticode-signed. Only continue after the complete checksum matches. Stop Relay with **Stop Relay Society.cmd**.
+
+### Linux
+
+The normal desktop path requires an unlocked freedesktop Secret Service in the same user session, normally GNOME Keyring.
+
+```sh
+sha256sum Relay-Society-v0.3.94-linux-x64.tar.gz
+tar -xzf Relay-Society-v0.3.94-linux-x64.tar.gz
+cd Relay-Society-v0.3.94-linux-x64
+./Install\ for\ Current\ User.sh
+relay-society-control-room
+```
+
+Require the complete archive digest to match the Linux value above. The installer is current-user only and does not start the service automatically. For a portable launch, run `./Launch\ Relay\ Society.sh` from the extracted folder.
+
+See [Getting started](docs/GETTING_STARTED.md) for the complete first-task, backup, update, recovery, and data-location instructions.
+
+## What Relay Society does today
+
+- Creates typed, durable task contracts with explicit participants, actions, tools, budgets, evidence, and approval conditions.
+- Uses one-time invitations and exact-contract acceptance before participant authority becomes active.
+- Supports activation, pause, resume, revocation, scoped leases, and recovery-aware authority generations.
+- Runs retryable jobs and fail-closed external-effect jobs with stable effect keys, receipts, bounded attempts, and ambiguity quarantine.
+- Lets the assignee submit retained evidence and the requester finalize every exact contract check once.
+- Produces append-only event chains, signed terminal receipts, portable evidence bundles, and context-specific early reputation observations.
+- Runs the governed-council slice with distinct council principals, typed content-addressed citations, conflict exclusion, vote revision, deterministic close, structured minority reports, named-authority appeal/review/escalation/veto records, derived effective disposition, and integrity verification.
+- Runs the bounded no-value settlement slice with signed contribution quotes, exact simulator funding and holds, signed usage evidence, isolated disputes, unrelated payouts, and immutable double-entry receipts. Post-finalization resolution is ledger-only: a terminal `disputed` task and its original signed receipts are never rewritten into success.
+- Lets independently authenticated culture-only members and the assignee create arbitrary traditions, slang, technologies, myths, schools, professions, institutions, and other runtime-defined cultural artifacts through general lineage and behavior mechanics without granting task authority.
+- Automatically discovers eligible, label-blind specialization candidates from an agent's own adoption/practice history and two or more distinct signed successful tasks, then lets the administrator retain every missing candidate in one retry-safe action without selecting the evidence. Candidates grant no authority, reputation, profession certification, or work assignment.
+- Lets the administrator issue an expiring, revocable, nontransferable profession certification from currently eligible specialization evidence. A requester may bind it to the one-time invitation for the contract's exact assignee; Relay revalidates the exact subject and evidence at creation and exchange, and the condition grants no ambient authority or reputation.
+- Lets an exact active assignee run a bounded model-backed cultural cycle through a contract-authorized provider. Relay validates open-vocabulary proposals, derives every identifier, journals provider/model/request/response/artifact provenance, fails closed on invalid output, and preserves exact retry, restart, and backup/restore behavior without exposing credentials.
+- Lets that assignee create a finite unattended cultural-cycle schedule without Relay storing the participant bearer. Fixed-delay occurrences use fenced restart recovery, dispatch no catch-up burst after downtime, and pause safely on rejected, failed, ambiguous, expired, revoked, or drifted authority.
+- Runs a deterministic seeded Society Lab whose label-blind traces are exactly replayable and explicitly synthetic; lab outputs never impersonate agents, become live culture, or gain Relay authority.
+- Stores the master key in Windows Credential Manager or Linux Secret Service and keeps provider credentials sealed.
+- Provides transactional backup, verification, restore, portable recovery, and read-only diagnostics.
+- Ships a 109-operation versioned REST API, OpenAPI 3.1.1 contract, and deterministic Python and TypeScript clients.
+- Includes bounded integration slices for MCP, A2A, signed webhooks, OpenAI-compatible providers, Ollama, and five agent frameworks.
+
+The packages contain the real schema-48 runtime and Control Room. They are not mock or demonstration-only bundles. Relay ships immutable native Ollama Chat, OpenAI Responses, Anthropic Messages, Gemini Interactions v1beta, and retained OpenAI-compatible Chat Completions drivers with bounded model discovery. The qualification model is not a runtime dependency. The accepted scope is governed non-streaming text through those exact driver revisions—not a promise that every provider, model, modality, or enterprise transport works. The full evidence-bounded capability inventory is in [CAPABILITIES.md](docs/CAPABILITIES.md).
+
+## The governed task lifecycle
+
+```mermaid
+flowchart LR
+    A[Requester defines exact contract] --> B[One-time assignee invitation]
+    B --> C[Assignee accepts exact contract]
+    C --> D[Requester activates task]
+    D --> E[Durable work and approvals]
+    E --> F[Assignee submits retained evidence]
+    F --> G[Requester records every exact check]
+    G --> H[Closed task and signed receipt]
+```
+
+Invitation possession is a task-scoped bearer capability, not cryptographic proof of a person or workload. A human approval records a governed decision; it does not itself execute an external action.
+
+## Security and data ownership
+
+Relay is loopback-only by default and grants no ambient authentication cookie. Local browser mutations enforce the exact Origin and Host. Provider keys are sealed and injected only into bounded provider requests; participants receive normalized results rather than credentials.
+
+Durable state lives outside the versioned application folder:
+
+| Platform | Default data location | Master-key custody |
+| --- | --- | --- |
+| Windows | `%LOCALAPPDATA%\Relay Society\data` | Windows Credential Manager |
+| Linux | `$XDG_DATA_HOME/relay-society` or `~/.local/share/relay-society` | freedesktop Secret Service |
+
+The application folder is replaceable; the data directory and credential-service entry are not. Pair normal backups with a portable vault recovery package before moving machines or OS identities. Read [SECURITY.md](SECURITY.md) before exposing remote mode or using Relay for consequential work.
+
+## Updates use publisher-authenticated staging and user-confirmed activation
+
+v0.3.94 trusts an embedded TUF root, performs a real dual-signed root rotation, enforces role expiry and persistent rollback state, and stages only the archive whose length and SHA-256 match the signed `latest.json` target. The schema-3 stage receipt includes a self-contained proof of the exact root, timestamp, snapshot, targets, and signed manifest bytes, so activation re-verifies publisher authentication without trusting a cached Boolean. There is no unsigned-metadata bypass. The packaged **Check for Relay Society Update** helper separately asks for `ACTIVATE vX` before it extracts into immutable version directories, creates a fresh verified backup for initialized data, and atomically selects the target package.
+
+Before every activation:
+
+1. Retain the matching portable vault recovery package.
+2. Stop Relay.
+3. Run **Check for Relay Society Update** and require publisher-authenticated metadata to pass.
+4. Review the staged version and type the exact `ACTIVATE vX` phrase.
+5. Relay runs the exact selected target's bounded, non-network `doctor --json` probe. A failed same-schema probe reselects the prior package without changing data. For a newly attempted schema change, v0.3.94 can restore the authenticated pre-activation backup, verify the prior package against it, and then reselect that package.
+6. Launch normally, run `relay-society doctor`, verify an existing receipt, and keep the retained prior package plus fresh pre-activation backup.
+
+The exact v0.3.93 Windows and Linux packages migrate transactionally to v0.3.94/schema 48, preserve canonical task/evidence bytes and OS credential custody, verify authenticated backup/restore, and pass post-restore diagnostics. Both exact v0.3.94 packages then complete all 109 generated-client operations. The already-published v0.3.93 updater intentionally refuses cross-schema activation, so existing v0.3.93 users must make a verified backup and install v0.3.94 from this release once; v0.3.94 contains the new schema-changing failed-activation restore path for future releases. Platform package signing, arbitrary post-use cross-schema rollback, source provenance, reproducibility, and independent-machine evidence remain open. See [Updates, rollback, and the release channel](docs/UPDATES.md) for the complete contract.
+
+## Honest beta boundaries
+
+Relay Society currently does **not** claim:
+
+- signed or notarized packages, reproducible-build seals, or independent-machine provenance;
+- a native macOS package;
+- protection from same-user malware or hostile worker code;
+- multi-tenant human identity proof;
+- global exactly-once external effects—ambiguous outcomes are quarantined instead of silently repeated;
+- production-certified Vault HA/TLS/seal operations;
+- production public reputation, cryptographic council-member identity or broader council governance modes, live-value settlement, full AP2/SD-JWT/delegation, a live payment provider, or society-scale simulation.
+- live-cloud provider qualification, external/enterprise model drivers, streaming/tools/non-text model capabilities, coordinated multi-agent cultural generation, consequential cultural institutions, or automatic profession assignment.
+
+The public GitHub repository currently contains the release channel and its documentation. The full development source tree is not being represented as published or independently reproducible yet. Files will be added here only when they are reviewed, release-relevant, and safe to make public.
+
+## Repository map
+
+| Location | Purpose |
+| --- | --- |
+| [Releases](https://github.com/rookepoole/RelaySociety-Releases/releases) | Immutable versioned packages, checksums, manifests, and release notes |
+| [Getting started](docs/GETTING_STARTED.md) | Exact Windows/Linux setup and the first governed task |
+| [Capabilities](docs/CAPABILITIES.md) | Implemented feature inventory and evidence boundaries |
+| [Release integrity](docs/RELEASE_INTEGRITY.md) | Digest verification and what it does—and does not—prove |
+| [Updates](docs/UPDATES.md) | Manual update, backup, rollback, and manifest behavior |
+| [Security policy](SECURITY.md) | Trust boundary and private vulnerability reporting |
+| [Support](SUPPORT.md) | Safe diagnostics and issue-reporting instructions |
+| [Contributing](CONTRIBUTING.md) | How this public repository is maintained |
+| [`releases/current.json`](releases/current.json) | Current public release catalog used by repository checks |
+
+## Help shape the beta
+
+- Use a [bug report](https://github.com/rookepoole/RelaySociety-Releases/issues/new?template=bug_report.yml) for reproducible product or packaging failures.
+- Use a [feature request](https://github.com/rookepoole/RelaySociety-Releases/issues/new?template=feature_request.yml) for proposed end-user outcomes.
+- Follow [SUPPORT.md](SUPPORT.md) before attaching logs. Never publish tokens, provider keys, invitation packages, participant bearers, portable recovery material, or private task evidence.
+- Report security vulnerabilities privately using GitHub's **Report a vulnerability** flow, as described in [SECURITY.md](SECURITY.md).
+
+## License
+
+Repository content is licensed under the [Apache License 2.0](LICENSE). Individual release packages include their applicable notices and license material.
+
