@@ -1,10 +1,209 @@
 {
-  "last_checked_at": "2026-08-23T05:19:43.506Z",
+  "last_checked_at": "2026-08-24T05:29:42.335Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "crayon-v587/win-agent-preflight",
+      "name": "CrAyoN-V587/win-agent-preflight",
+      "url": "https://github.com/CrAyoN-V587/win-agent-preflight",
+      "date": "2026-08-24",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 100,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 40,
+      "expected_gain": 71,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.34,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        },
+        {
+          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
+          "date": "2026-08-11",
+          "topic": "AI agents",
+          "similarity": 0.279,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
+        },
+        {
+          "title": "LamsonRetail/lsr-agent-platform",
+          "date": "2026-08-18",
+          "topic": "AI dev tools",
+          "similarity": 0.269,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-24)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 70,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-24/01-crayon-v587-win-agent-preflight.md"
+    },
+    {
+      "id": "nowledge-co/community",
+      "name": "nowledge-co/community",
+      "url": "https://github.com/nowledge-co/community",
+      "date": "2026-08-24",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 71,
+      "momentum": 91,
+      "risk": 71,
+      "integration_effort": 45,
+      "expected_gain": 87,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Bennyoooo/write-like-me",
+          "date": "2026-08-06",
+          "topic": "AI agents",
+          "similarity": 0.306,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/06-bennyoooo-write-like-me.md"
+        },
+        {
+          "title": "Show HN: Agent Memory Leaderboard – first public results for AI memory systems",
+          "date": "2026-08-13",
+          "topic": "AI agents",
+          "similarity": 0.3,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/09-show-hn-agent-memory-leaderboard-first-public-results-for-ai-memory-sy.md"
+        },
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.251,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-24)",
+        "157 GitHub stars",
+        "GitHub Actions/CI detected",
+        "README includes install commands"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "Risk score is elevated; inspect install scripts carefully",
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 77,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 3,
+      "dependency_files": [],
+      "install_commands": [
+        "npx skills add nowledge-co/community/nowledge-mem-npx-skills",
+        "claude plugin marketplace add https://github.com/nowledge-co/community",
+        "claude plugin install nowledge-mem@nowledge-community",
+        "git clone https://github.com/jijiamoer/windsurf-trajectory-extractor.git",
+        "codex plugin marketplace add nowledge-co/community --sparse .agents --sparse nowledge-mem-codex-plugin",
+        "codex plugin add nowledge-mem@nowledge-community"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-06 about AI agents; this candidate overlaps with \"Bennyoooo/write-like-me\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-24/02-nowledge-co-community.md"
+    },
+    {
+      "id": "zerone-agents/agent-sdk",
+      "name": "zerone-agents/agent-sdk",
+      "url": "https://github.com/zerone-agents/agent-sdk",
+      "date": "2026-08-24",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "agent_framework",
+      "compatibility": 80,
+      "momentum": 49,
+      "risk": 32,
+      "integration_effort": 36,
+      "expected_gain": 77,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "LamsonRetail/lsr-agent-platform",
+          "date": "2026-08-18",
+          "topic": "AI dev tools",
+          "similarity": 0.454,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+        },
+        {
+          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
+          "date": "2026-08-11",
+          "topic": "AI agents",
+          "similarity": 0.441,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
+        },
+        {
+          "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
+          "date": "2026-07-29",
+          "topic": "AI agents",
+          "similarity": 0.377,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/09-what-does-it-take-to-detect-an-ai-agent-minimal-feature-sets-for-behav.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-24)",
+        "MIT license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @anthropic-ai/sdk, @modelcontextprotocol/sdk, @mozilla/readability, cross-spawn, diff, linkedom, pdfjs-dist, sharp; scripts build, dev, typecheck, test, test:watch, test:examples, test:examples:all, web"
+        }
+      ],
+      "install_commands": [
+        "npm install @zerone-agent/agent-sdk",
+        "npx tsx examples/basic/01-simple-query.ts"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-18 about AI dev tools; this candidate overlaps with \"LamsonRetail/lsr-agent-platform\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-24/03-zerone-agents-agent-sdk.md"
+    },
     {
       "id": "askalf/dario",
       "name": "askalf/dario",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T05:19:17.643Z",
+  "updated_at": "2026-08-24T05:29:17.430Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Mnemosyne Local hierarchical memory engine for AI agents (MCP Native)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/M4F-S/mnemosyne",
+      "date": "2026-08-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Mnemosyne Local hierarchical memory engine for AI agents (MCP Native) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/06-show-hn-mnemosyne-local-hierarchical-memory-engine-for-ai-agents-mcp-n.md"
+    },
+    {
+      "title": "Show HN: USB – A universal skill bridge for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/PeepSick/usb",
+      "date": "2026-08-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: USB – A universal skill bridge for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/07-show-hn-usb-a-universal-skill-bridge-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Doop – open-source live canvas for AI agents to design",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/kgoedecke/doop",
+      "date": "2026-08-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Doop is an open source alternative to Paper.design or Pen.dev. AI agents can collaborate and design on the same canvas and Doop will build up context and memory on design decisions. It's fully open source. We're working on an AI agent that reviews PRs and checks design consistency and other design related checks. Curious to hear if you can think of other... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/08-show-hn-doop-open-source-live-canvas-for-ai-agents-to-design.md"
+    },
+    {
+      "title": "AI with Authority, from Application to Silicon",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.21356v1",
+      "date": "2026-08-21",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verification is not only economical but essential to productivity --- it is the incorruptible referee that lets one person safely direct autonomous machine work a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-21/09-ai-with-authority-from-application-to-silicon.md"
+    },
+    {
+      "title": "Show HN: Vidmoat – My Super Fantastic AI Native Video Editor (MCP, Web)",
+      "source": "Hacker News Show HN",
+      "url": "https://www.vidmoat.com",
+      "date": "2026-08-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi there, I'm working on Vidmoat. A couple of months ago I wanted to venture into making videos. The only issue was that I suck at editing them. No amount of YouTube could hide the fact. But here's what I don't suck at. Building new stuff. I've also marveled at so much product demo videos and never quite figured out how to make my own (or pay for a profes... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-23/10-show-hn-vidmoat-my-super-fantastic-ai-native-video-editor-mcp-web.md"
+    },
+    {
+      "title": "Check on Your Spaghetti Software Factory",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/spaghetti-software-factory",
+      "date": "2026-03-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Everyone building with AI agents is speedrunning the Factorio experience. Spaghetti factories are still factories. But slop compounds, and the fix isn&apos;t faster review. It&apos;s quality control. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-03-06/11-check-on-your-spaghetti-software-factory.md"
+    },
+    {
+      "title": "gayathri78789/CareerConnect-AI",
+      "source": "GitHub Search API",
+      "url": "https://github.com/gayathri78789/CareerConnect-AI",
+      "date": "2026-08-24",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI-powered career preparation platform for resumes, coding practice, aptitude, mock interviews, job analysis, career roadmaps, and personalized AI career guidance. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-24/12-gayathri78789-careerconnect-ai.md"
+    },
+    {
+      "title": "eworker-inc/Windvale",
+      "source": "GitHub Search API",
+      "url": "https://github.com/eworker-inc/Windvale",
+      "date": "2026-08-24",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "An AI-authored experiment in building a small, coherent, verifiable computing stack. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-24/13-eworker-inc-windvale.md"
+    },
+    {
+      "title": "Qwen 3.8 27b helped me with something unique that Opus 4 couldn't - Firmware + Software preservation and emulation on an early 2000's ARM based POS system",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwhcuf/qwen_38_27b_helped_me_with_something_unique_that/",
+      "date": "2026-08-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi all, I made a post regarding how much Qwen 3.8 has improved over 3.6: https://www.reddit.com/r/LocalLLaMA/comments/1vqm51f/long_review_qwen_38_27b_is_very_good_at_tapping/ I made a very thorough write-up of how Qwen 3.8 compared not only to 3.6, but frontier models when it came to creating a HTML version of Galaga, and to what degree it got the details... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-23/14-qwen-3-8-27b-helped-me-with-something-unique-that-opus-4-couldn-t-firm.md"
+    },
+    {
+      "title": "New qwen3.8:27b on a 39k line C to single-file HTML / three.js port",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwde84/new_qwen3827b_on_a_39k_line_c_to_singlefile_html/",
+      "date": "2026-08-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I was just curious how the new qwen3.8:27b does on a hard C to HTML porting job against Opus 5 in a default Claude Code. The job: my fun side project is a procedural shooter in a single C file. Port it to a single-file html / three.js with one bot. One prompt, no follow-ups, no help from me. game.c is 2.1 MB, roughly 600k tokens of C, so it doesn't fit in... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-23/15-new-qwen3-8-27b-on-a-39k-line-c-to-single-file-html-three-js-port.md"
+    },
+    {
+      "title": "Qwen 3.8 27B, just wanted to say thanks to you guys",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwowbu/qwen_38_27b_just_wanted_to_say_thanks_to_you_guys/",
+      "date": "2026-08-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I commented on another Qwen 3.8 27B post that I was frustrated getting anything to work. You all gave some great comments. I nuked openwebui and straightened out my llama.cpp docker config. 1 hour of work and I have a model I can chat with, connected to my HomeAssistant server, which I have already updated dashboards with a short prompt and a screenshot (... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/16-qwen-3-8-27b-just-wanted-to-say-thanks-to-you-guys.md"
+    },
+    {
+      "title": "deepseek-v4-flash-0731 - surprisingly usable",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwsjut/deepseekv4flash0731_surprisingly_usable/",
+      "date": "2026-08-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I just finished building my (relatively) low rent local inference machine: * Epyc 7663 * 256GB ECC DDR4-3200 * 1x RTX 5090 32GB Yeah I realize it's weird to throw a 5090 and 256GB of anything together and call it low end, but relative to ~151GB of weights it is. I'm running UD-Q8_K_XL and getting 23.8-24.6 tokens/sec, with pp ranging from 60 on the first... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/17-deepseek-v4-flash-0731-surprisingly-usable.md"
+    },
     {
       "title": "Show HN: Agent2Creator – a video social network whose members are AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "CI/CD shifted blame from people to process. AI code quality needs the same shift: systematic checks, not individual vigilance. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-02-27/12-ai-slop-is-a-process-problem-not-a-people-problem.md"
-    },
-    {
-      "title": "soumyasax3010/InterviewIQ-AI",
-      "source": "GitHub Search API",
-      "url": "https://github.com/soumyasax3010/InterviewIQ-AI",
-      "date": "2026-07-22",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI-powered interview preparation platform with resume analysis, mock interviews, AI feedback, speech recognition, and analytics dashboard. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-22/13-soumyasax3010-interviewiq-ai.md"
-    },
-    {
-      "title": "arXiv publication: \"Skip a Layer or Loop It? Learning Program-of-Layers in LLMs\"",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2udpa/arxiv_publication_skip_a_layer_or_loop_it/",
-      "date": "2026-07-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "In this paper, Li, Li, and Zhou review formal theory describing how inference-time compute can be traded off for higher or lower inference competence, and apply that theory to a handful of familiar open-weight LLMs (Llama-3.2, Qwen1.5, Qwen2.5, and Qwen3): https://arxiv.org/abs/2606.06574v1 > Large language models (LLMs) perform inference by following a f... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-21/14-arxiv-publication-skip-a-layer-or-loop-it-learning-program-of-layers-i.md"
-    },
-    {
-      "title": "Felix Rieseberg (Anthropic, ElectronJS) has released a free Mac app designed to help people build their own LLMs from scratch.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v32ob7/felix_rieseberg_anthropic_electronjs_has_released/",
-      "date": "2026-07-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Announcement tweet here. Direct link: Language Model Builder From the site: \"Using the default settings, you’ll get a model that writes coherent, grammatical multi-paragraph text in as little as a day. On a MacBook Pro M5 Max you could train a GPT-2-small-class model (~100–150M parameters on a few billion tokens) in about a week. It might be obvious, but... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-22/15-felix-rieseberg-anthropic-electronjs-has-released-a-free-mac-app-desig.md"
-    },
-    {
-      "title": "Anthropic claims local models are stealing from it, meanwhile it pays $1.5B for theft",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ky1e/anthropic_claims_local_models_are_stealing_from/",
-      "date": "2026-07-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "$1.5 billion settlement largest known payout in U.S. copyright case Case part of a wave of lawsuits from copyright holders against AI companies Some authors and publishers opted out and continue separate ​cases against Anthropic submitted by /u/Terminator857 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-21/16-anthropic-claims-local-models-are-stealing-from-it-meanwhile-it-pays-1.md"
-    },
-    {
-      "title": "I ran Laguna-S-2.1 through my private agentic eval vs Qwen3.5-122B on an RTX Pro 6000 (96GB). Fastest 100B+ I've tested and the best tool calling, but it invents facts under pressure.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ua8g/i_ran_lagunas21_through_my_private_agentic_eval/",
-      "date": "2026-07-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Laguna-S-2.1 dropped few hours ago and as I am in the market for an upgrade to trusty qwen3.6 dense and the current daily 122B, I ran it through the same eval harness I use to pick the model that runs my local agent stack. Posting because the results don't fit the usual \"benchmaxed or king\" binary, it's genuinely both impressive and flawed, in specific wa... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-21/17-i-ran-laguna-s-2-1-through-my-private-agentic-eval-vs-qwen3-5-122b-on-.md"
-    },
-    {
-      "title": "Show HN: The0 – self-hosted runtime for trading bots, bring your own language",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/alexanderwanyoike/the0",
-      "date": "2026-07-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "So Im a solo developer who has always had an itch for algorithmic trading. Initially I started off learning how to trade algorithmically with Yves Hilpisch book \"Python for Algorithmic Trading\" after reading that book I was hooked and started building algorithmic trading bots. Initially these were separate python scripts that I ran on my local machine. Th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-20/06-show-hn-the0-self-hosted-runtime-for-trading-bots-bring-your-own-langu.md"
-    },
-    {
-      "title": "Show HN: Shackle – Deterministic runtime governance for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Fame510/SHACKLE",
-      "date": "2026-07-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Shackle – Deterministic runtime governance for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/07-show-hn-shackle-deterministic-runtime-governance-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Agent Search Engine – an independent index of 247 AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://agentsearchengine.app",
-      "date": "2026-07-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Agent Search Engine – an independent index of 247 AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/08-show-hn-agent-search-engine-an-independent-index-of-247-ai-agents.md"
-    },
-    {
-      "title": "TRIM: Reducing AI-Generated CodeSlop via Agent Trajectory Minimization",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.18161v1",
-      "date": "2026-07-20",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Coding agents are increasingly used to accelerate code generation in many downstream tasks, such as fixing bugs, building applications, and prototyping. However, despite their value as coding assistants, agent-generated code tends to be larger and more verbose than the corresponding human-written implementation. In this work, we show that the cause lies i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-20/09-trim-reducing-ai-generated-codeslop-via-agent-trajectory-minimization.md"
-    },
-    {
-      "title": "AI is Glue",
-      "source": "Continue Blog",
-      "url": "https://blog.continue.dev/ai-is-glue",
-      "date": "2025-12-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "LLMs are the new glue code for engineering workflows. See how AI connects deterministic tools like the GitHub CLI and Snyk API, filling the gaps to automate complex tasks that were previously impractical. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2025-12-03/10-ai-is-glue.md"
-    },
-    {
-      "title": "Show HN: Ekko – post-quantum E2EE layer for Instagram, WhatsApp, Telegram Web",
-      "source": "Hacker News Show HN",
-      "url": "https://useekko.app/",
-      "date": "2026-07-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, I am a big privacy activist and the amount of privacy concerns in the internet with the discussions around European Chat Control, Meta removing e2ee in Instagram and corporations harvesting personal data for AI training is on the rise. The closed source social media companies keep managing and storing our private keys, allowing them to effect... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-21/11-show-hn-ekko-post-quantum-e2ee-layer-for-instagram-whatsapp-telegram-w.md"
-    },
-    {
-      "title": "Show HN: PounceDomains – Domain discovery and sniping for Namecheap Marketplace",
-      "source": "Hacker News Show HN",
-      "url": "https://pouncedomains.com",
-      "date": "2026-07-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built PounceDomains to find undervalued domains on the Namecheap Marketplace before others. It scans domain auctions based on your configurations around the clock, AI-scores each candidate against your buying strategy, enriches matches with authority/backlink/demand data. Free plan available. And 14-day free trial of Pro plans. It also includes a sister... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-21/12-show-hn-pouncedomains-domain-discovery-and-sniping-for-namecheap-marke.md"
     }
   ]
 }
