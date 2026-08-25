@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T05:29:17.430Z",
+  "updated_at": "2026-08-25T05:22:29.222Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Screen memory without screenshots, just text to Markdown",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/dragthelake/ambient-context",
+      "date": "2026-08-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "It's a macOS menu bar app that reads the text of your focused window every few seconds through the Accessibility API. No screenshots, no video, or OCR. It writes plain markdown, one file per day, into a folder you choose. Point Claude Code (or anything with file access) at the folder and ask \"what did I work on Tuesday?\" or have it build memory about your... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-25/06-show-hn-screen-memory-without-screenshots-just-text-to-markdown.md"
+    },
+    {
+      "title": "Show HN: Kern – container and resource runtime in a 1.5 MB binary, no daemon",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/getkern/kern",
+      "date": "2026-08-24",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I built kern because I needed a fast, zero-daemon tool to set CPU/RAM limits and run isolated tasks without the overhead of Docker. It's a single 1.5MB Rust binary using OCI images, cgroup v2, and namespaces. Boxes start in ~3.5ms. It's not a Kubernetes CRI or a microVM, just a standalone container and resource runtime for CLI and agents. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-24/07-show-hn-kern-container-and-resource-runtime-in-a-1-5-mb-binary-no-daem.md"
+    },
+    {
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.23552v1",
+      "date": "2026-08-24",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-24/08-prime-agent-a-self-improving-rlm-harness.md"
+    },
+    {
+      "title": "Can Coding Agents Build Robust Baselines? A Skill-Based Approach for Automating the Medical Imaging Model-Development Pipeline",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.23336v1",
+      "date": "2026-08-24",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Developing competitive deep learning baselines for medical imaging remains a highly iterative process requiring literature review, implementation, experimentation, and expert refinement. Existing automation approaches typically optimize isolated components, such as architecture search or hyperparameter tuning, rather than the complete baseline development... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-24/09-can-coding-agents-build-robust-baselines-a-skill-based-approach-for-au.md"
+    },
+    {
+      "title": "AI is Glue",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/ai-is-glue",
+      "date": "2025-12-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "LLMs are the new glue code for engineering workflows. See how AI connects deterministic tools like the GitHub CLI and Snyk API, filling the gaps to automate complex tasks that were previously impractical. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2025-12-03/10-ai-is-glue.md"
+    },
+    {
+      "title": "apexingai/dsh-desktop-development",
+      "source": "GitHub Search API",
+      "url": "https://github.com/apexingai/dsh-desktop-development",
+      "date": "2026-08-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Private release-validation repository for DSH Desktop. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-25/11-apexingai-dsh-desktop-development.md"
+    },
+    {
+      "title": "Show HN: A puzzle I couldn't solve for a year – cubers cracked it in an hour",
+      "source": "Hacker News Show HN",
+      "url": "https://skimmiq.com/pt/",
+      "date": "2026-08-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Dev here. I created a puzzle that looks like Rubik's cube but works differently. Instead of turning faces, closed bands of 12 stickers slide around the cube. Every scramble is solvable. I built on-device AI solvers that solve it in about 60 moves (sometimes substantially less than that) I'm not even a cuber so since I created it I've been thinking that no... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-21/12-show-hn-a-puzzle-i-couldn-t-solve-for-a-year-cubers-cracked-it-in-an-h.md"
+    },
+    {
+      "title": "Show HN: Dev tools in one static site, no framework, no server",
+      "source": "Hacker News Show HN",
+      "url": "https://devtools.fit",
+      "date": "2026-08-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Dev tools in one static site, no framework, no server (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-24/13-show-hn-dev-tools-in-one-static-site-no-framework-no-server.md"
+    },
+    {
+      "title": "Please join r/LowEndLocalAI, a community for running local LLMs on low spec hardware",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxd6yb/please_join_rlowendlocalai_a_community_for/",
+      "date": "2026-08-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "If you’re trying to run local LLMs on a normal laptop, an older desktop, integrated graphics, limited VRAM, or simply the hardware you already own, r/LowEndLocalAI is meant for you. The idea is simple: What useful things can we do with the hardware we already have? I’ve been dealing with that question myself. My main systems are an M1 MacBook Air with 16... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/14-please-join-r-lowendlocalai-a-community-for-running-local-llms-on-low-.md"
+    },
+    {
+      "title": "Best Local Vision Language Models - August 2026",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx7ei1/best_local_vision_language_models_august_2026/",
+      "date": "2026-08-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Share what your favorite models are right now and why . Given the nature of the beast in evaluating VLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in describing your setup, nature of your usage ( what applications , how much, personal/professional use), tools/frameworks/prompts etc. Rul... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/15-best-local-vision-language-models-august-2026.md"
+    },
+    {
+      "title": "I irradiated LLMs and found that they die really quickly",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx2fhz/i_irradiated_llms_and_found_that_they_die_really/",
+      "date": "2026-08-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I randomly bit flipped a llm to simulate what would happen if you ran your spark in low earth orbit i hope it's ok to share this here, I was told this community might enjoy it. submitted by /u/BenniJesus [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/16-i-irradiated-llms-and-found-that-they-die-really-quickly.md"
+    },
+    {
+      "title": "JetBrains local AI (using Qwen3.6 27B)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxdvmv/jetbrains_local_ai_using_qwen36_27b/",
+      "date": "2026-08-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Sounds quite interesting, a big IDE provider optimizing for local AI with their coding harness. Especially that they picked Qwen3.6 over Qwen3.8 because of the thinking needs. Haven't read the full article yet, but sounds really cool. submitted by /u/Danmoreng [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/17-jetbrains-local-ai-using-qwen3-6-27b.md"
+    },
     {
       "title": "Show HN: Mnemosyne Local hierarchical memory engine for AI agents (MCP Native)",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I built this tool from working as a security engineer and pentester for a number of years and felt that the task of searching SMB shares for secrets was far too difficult. I ended up either barely doing it at all or spending far too much time on it. However, I know there is a tone of sensitive info in SMB shares and I could almost always find passwords in... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-23/12-show-hn-sambaudit-a-secrets-scanner-for-smb-shares-with-a-web-ui.md"
-    },
-    {
-      "title": "Show HN: LitigationBench. A Litigation Task-Based AI Benchmark",
-      "source": "Hacker News Show HN",
-      "url": "https://litco.ai/litigationbench",
-      "date": "2026-07-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Adding to the sea of AI benchmarks, but with a focus on legal and litigation-based tasks and tests. E.g., hallucinating cases, misreading precedent, drafting, AI writing tics, etc. Developed as part of a litigation platform I've started, but not sharing this benchmark to promote that. Just thought the findings were interesting--namely, Anthropic's models... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-23/13-show-hn-litigationbench-a-litigation-task-based-ai-benchmark.md"
-    },
-    {
-      "title": "Instead of panicking about the Hugging Face attack, people need to start questioning OpenAI's insecure sandboxes.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3lo6k/instead_of_panicking_about_the_hugging_face/",
-      "date": "2026-07-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "One thing I noticed in American politics, whenever the government wants to push unpopular actions or laws, they often introduce fear to convince the public to support them. This is actually how i view the recent news about OpenAI’s model breaking out of its sandbox. The whole news i see it as two corporate goals. 1. Scare the public into supporting laws t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-22/14-instead-of-panicking-about-the-hugging-face-attack-people-need-to-star.md"
-    },
-    {
-      "title": "+1 if you are friend of open weight models and would rather pay $20 for Kimi rather than closed cloud providers",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3uoo1/1_if_you_are_friend_of_open_weight_models_and/",
-      "date": "2026-07-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "If you are a fan of local A.I. boycott the big cloud providers. I have several cloud accounts but I'm planning on letting them expire. What do you think? submitted by /u/Terminator857 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-22/15-1-if-you-are-friend-of-open-weight-models-and-would-rather-pay-20-for-.md"
-    },
-    {
-      "title": "MindControl - llama.cpp fork to guide the reasoning process via injection during sampling",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3ms3c/mindcontrol_llamacpp_fork_to_guide_the_reasoning/",
-      "date": "2026-07-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The primary driver of this project is that I'd become frustrated with the reasoning behavior of smaller local models such as Qwen3.6-27B (i believe particularly at lower temperatures, and where system prompts are highly specific), their reasoning process is highly unreliable and often tends to spiral into neverending \"But, wait\" loops or, occasionally, co... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-22/16-mindcontrol-llama-cpp-fork-to-guide-the-reasoning-process-via-injectio.md"
-    },
-    {
-      "title": "FYI You dont need expensive networking for multi-node gpu. 30t/s laguna Q2_K_XL (39.7GB) on 2x4060+1x4060 using a $20 usb->ethernet.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3xosh/fyi_you_dont_need_expensive_networking_for/",
-      "date": "2026-07-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "ethernet.\" title=\"FYI You dont need expensive networking for multi-node gpu. 30t/s laguna Q2_K_XL (39.7GB) on 2x4060+1x4060 using a $20 usb->ethernet.\" /> Turns out a regular ethernet cable between 2 nodes can run laguna UD-Q2_K_XL (39.7GB) using a direct point to point network. Interestingly on `nvidia-smi dmon -s pucvmet -d 2`, the inter/intra gpu traff... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-23/17-fyi-you-dont-need-expensive-networking-for-multi-node-gpu-30t-s-laguna.md"
-    },
-    {
-      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Kalcode/spaceprojectsim",
-      "date": "2026-07-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes. A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a shipyard, or dock so the crew can rest before morale tanks. M... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/06-show-hn-a-self-running-space-economy-sim-in-rust-and-bevy.md"
-    },
-    {
-      "title": "Show HN: CodeAlmanac – Karpathy-style codebase wiki from your conversations",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/AlmanacCode/codealmanac/",
-      "date": "2026-07-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! This is Divit from Almanac (YC S26). We built CodeAlmanac, a wiki for your coding agents that updates as you talk to them. It is open-source, local, and free. Here’s a demo: https://www.youtube.com/watch?v=XNQWV3TFBWM Your CC/Codex conversations contain a LOT of knowledge that is forgotten because it was never documented. People have their own met... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/07-show-hn-codealmanac-karpathy-style-codebase-wiki-from-your-conversatio.md"
-    },
-    {
-      "title": "Show HN: Word in Web – Near MS Word Parity Docx Editor in Web",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://word-in-web.com/",
-      "date": "2026-07-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Word in web is a pure JS docx editor/renderer benched against MS Word directly. This was largely inspired by Eigenpal going closed source, and some personal frustrations I had with working on complex Word templates, pleading papers, etc... and not having a clean way to view/edit them without owning MS Word (which I did just eventually buy but it sucked).... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/08-show-hn-word-in-web-near-ms-word-parity-docx-editor-in-web.md"
-    },
-    {
-      "title": "Show HN: Browser Tools SDK – an optimal browser harness for agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://libretto.sh/browser-tools",
-      "date": "2026-07-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We’re open-sourcing Browser Tools SDK: a small TypeScript package to give any AI agent a reliable way to control a real browser. With just a few lines of code, you can give any agent a production-ready browser harness import { createAiSdkBrowserTools } from \"libretto-browser-tools/ai-sdk\"; import { LocalBrowserProvider } from \"libretto-browser-tools\"; con... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/09-show-hn-browser-tools-sdk-an-optimal-browser-harness-for-agents.md"
-    },
-    {
-      "title": "Show HN: An MCP server that turns async-work practices into tools",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/open-and-async/mcp",
-      "date": "2026-07-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "More than a decade ago, I adopted the self-imposed rule, if I answer a question more than once, the third time I need to be able to answer with a URL. Today, I published one very large URL - a book distilling what I learned from helping people work remotely at GitHub, and I wanted to rethink my rule for the age of AI. What if, instead of a URL, I could cr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-21/10-show-hn-an-mcp-server-that-turns-async-work-practices-into-tools.md"
-    },
-    {
-      "title": "Show HN: Orate – On-device neural text-to-speech queue for Mac",
-      "source": "Hacker News Show HN",
-      "url": "https://orate.to/",
-      "date": "2026-07-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey friends! Brad here - long time HN user, founder, engineer (Coinbase, Soothe, Jeevz, Release, Hired, GrowthX, etc)... I have been struggling recently with too many tabs, emails, articles, etc sitting unread while I swap between Claude code sessions all day. So I decided to build Orate to help me work through the backlog by listening to it all like I wo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-21/11-show-hn-orate-on-device-neural-text-to-speech-queue-for-mac.md"
-    },
-    {
-      "title": "AI Slop Is a Process Problem, Not a People Problem",
-      "source": "Continue Blog",
-      "url": "https://blog.continue.dev/ai-slop-team-sport",
-      "date": "2026-02-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "CI/CD shifted blame from people to process. AI code quality needs the same shift: systematic checks, not individual vigilance. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-02-27/12-ai-slop-is-a-process-problem-not-a-people-problem.md"
     }
   ]
 }
