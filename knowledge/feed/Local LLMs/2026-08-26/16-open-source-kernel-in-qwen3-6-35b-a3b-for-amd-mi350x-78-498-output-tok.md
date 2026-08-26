@@ -1,0 +1,12 @@
+---
+title: "Open Source Kernel in Qwen3.6-35B-A3B for AMD MI350X: 78,498 output tok/s on 8 GPUs"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1vymha8/open_source_kernel_in_qwen3635ba3b_for_amd_mi350x/"
+date: "2026-08-26"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "So here's the thing, almost everyone use NVIDIA to run their LLMs, we also do the same, a lot of people we've met use like RTX PRO 6000 or even H100, B300 It seems like everyone eyes is looking at NVIDIA. However we do the math that the raw power alone on AMD GPU MI350X is higher than NVIDIA B200. So what give? Apparently its the software, ROCM is not as... (Local summary fallback used.)"
+---
+
+So here's the thing, almost everyone use NVIDIA to run their LLMs, we also do the same, a lot of people we've met use like RTX PRO 6000 or even H100, B300 It seems like everyone eyes is looking at NVIDIA. However we do the math that the raw power alone on AMD GPU MI350X is higher than NVIDIA B200. So what give? Apparently its the software, ROCM is not as mature as CUDA, their software stack is still lacking behind as well. However, few weeks ago we've got a handful of MI350X to experiment and develop, and what we did is optimizing AMD tech stack until kernel level for Qwen 3.6 35B A3B and the results we got is much comparable to NVIDIA counterpart Based on our benchmark, we got: 1x MI350X: 11,161 output tok/s 8x MI350X: 81,331 output tok/s peak with 78,498.66 output tok/s mean This is 2.16x vLLM throughput on the 8-GPU benchmark We've decided to open source our kernel and stuff at our github https://github.com/NetraRuntime/netra-kernel And also write the blog behind the things we do https://netraruntime.com/blog/qwen36-amd-mi350x-sglang-vllm-benchmark However, we're not done yet. One thing we learned: once the kernels got fast enough, the bottlenecks moved into scheduling, graph coverage, recurrent state, routing, and even HTTP serialization. submitted by /u/SmilingGen [link] [comments]

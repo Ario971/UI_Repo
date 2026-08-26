@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T05:22:29.222Z",
+  "updated_at": "2026-08-26T05:23:09.560Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/swimmingbrain/texbrain",
+      "date": "2026-08-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'm a master's engineering student and a big fan of LaTeX, which I used for my thesis and research articles. I have used Overleaf and that was fine until I wanted to git sync, which unfortunately sits behind a paywall. Since I didn't want to pay subscriptions for things that should simply just work, I built the editor I wanted in my free time, where you o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-25/06-show-hn-texbrain-a-latex-editor-that-runs-pdftex-in-the-browser-via-wa.md"
+    },
+    {
+      "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/ThinkOffApp/CarWatch",
+      "date": "2026-08-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Found that you can actually run a 35B Qwen model on a Pi with very impressive intelligence and stability. Built connectors for car ODB to read all about car internals, and manufacturer's cloud service for stuff like changing AC or opening/ locking doors. Gave it info such as the full car manual. And then hooked it up with my other agents in our discussion... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-25/07-show-hn-i-made-a-raspberry-with-qwen-my-local-car-ai.md"
+    },
+    {
+      "title": "Discovering Adaptive Transmission Programs for Collective Innovation",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.24545v1",
+      "date": "2026-08-25",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Human collective intelligence depends on transmission processes: who shares what with whom, how, and when. While these processes emerge from individual cognition, they can also be directed by deliberate top-down protocols. Prior work has studied how transmission shapes collective outcomes primarily through the lens of network structure, varying who shares... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-25/08-discovering-adaptive-transmission-programs-for-collective-innovation.md"
+    },
+    {
+      "title": "Who is the Agent to Blame? Localizing Faithfulness and Citation Mistakes in Agentic Deep Research",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.24306v1",
+      "date": "2026-08-25",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Deep research (DR) systems produce long-form cited reports by orchestrating multiple agents that search and synthesize information from the web. Citations are the primary mechanism for evaluating the faithfulness of these reports, yet current DR systems exhibit poor citation recall. Moreover, improving citation recall is challenging because DR systems are... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-25/09-who-is-the-agent-to-blame-localizing-faithfulness-and-citation-mistake.md"
+    },
+    {
+      "title": "Show HN: Ecdeos – P2P Web/Native Distributed OS on Entity Core Protocol",
+      "source": "Hacker News Show HN",
+      "url": "https://ecdeos.org",
+      "date": "2026-08-25",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello, I wanted to share an update of the current progress of the Entity System. https://ecdeos.org is one domain in a constellation of peers/sites that is the main project of the Entity System, a Tauri Rust/WASM browser engine and Rust backend built on the Entity Core Protocol. It's primarily a research prototype of a P2P distributed cross-platform users... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-25/10-show-hn-ecdeos-p2p-web-native-distributed-os-on-entity-core-protocol.md"
+    },
+    {
+      "title": "AI Slop Is a Process Problem, Not a People Problem",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/ai-slop-team-sport",
+      "date": "2026-02-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "CI/CD shifted blame from people to process. AI code quality needs the same shift: systematic checks, not individual vigilance. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-02-27/11-ai-slop-is-a-process-problem-not-a-people-problem.md"
+    },
+    {
+      "title": "tomting-Auhona/VisionAid",
+      "source": "GitHub Search API",
+      "url": "https://github.com/tomting-Auhona/VisionAid",
+      "date": "2026-08-26",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "tomting-Auhona/VisionAid Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-26/12-tomting-auhona-visionaid.md"
+    },
+    {
+      "title": "alphaess-developer/antelope-i18n",
+      "source": "GitHub Search API",
+      "url": "https://github.com/alphaess-developer/antelope-i18n",
+      "date": "2026-08-26",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "alphaess-developer/antelope-i18n Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-26/13-alphaess-developer-antelope-i18n.md"
+    },
+    {
+      "title": "How to run LLMs as regular guy with low resources?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyajjd/how_to_run_llms_as_regular_guy_with_low_resources/",
+      "date": "2026-08-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hello everyone. I hope is all well with you all. I been around this sub for a few months and been quietly reading and I have seen how many of you are spending $10k on the Mac M5 and I am assuming you are using it for work or just for fun but have the resources to spend like that. I am a regular guy with a 9-5 job and I would like to experiment with local... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-25/14-how-to-run-llms-as-regular-guy-with-low-resources.md"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next. This architecture could be surprisingly local-friendly once the weights drop. 👀",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy6smx/qwen38flashnext_this_architecture_could_be/",
+      "date": "2026-08-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Qwen3.8-Flash-Next (~125B-A6B + 51B n-gram) memory estimate: Ideal 4-bit quant ≈ 82 GB (58 GB main weights + 24 GB n-gram tables) Real-world quants likely land in the 80–90 GB range. The big n-gram table is sparsely accessed → excellent candidate for system RAM offload. This architecture could be surprisingly local-friendly once the weights drop. submitte... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-25/15-qwen3-8-flash-next-this-architecture-could-be-surprisingly-local-frien.md"
+    },
+    {
+      "title": "Open Source Kernel in Qwen3.6-35B-A3B for AMD MI350X: 78,498 output tok/s on 8 GPUs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vymha8/open_source_kernel_in_qwen3635ba3b_for_amd_mi350x/",
+      "date": "2026-08-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So here's the thing, almost everyone use NVIDIA to run their LLMs, we also do the same, a lot of people we've met use like RTX PRO 6000 or even H100, B300 It seems like everyone eyes is looking at NVIDIA. However we do the math that the raw power alone on AMD GPU MI350X is higher than NVIDIA B200. So what give? Apparently its the software, ROCM is not as... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-26/16-open-source-kernel-in-qwen3-6-35b-a3b-for-amd-mi350x-78-498-output-tok.md"
+    },
+    {
+      "title": "M5 Ultra 96GB vs M5 Max 128GB — is 2x bandwidth worth losing 32GB of RAM, with Qwen3.8-Flash-Next dropping tomorrow?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyfved/m5_ultra_96gb_vs_m5_max_128gb_is_2x_bandwidth/",
+      "date": "2026-08-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I’ve been going back and forth on this for a week and I can’t settle it, so I’m hoping someone here has hands-on numbers. The two configs (German prices, dealer quote, incl. VAT): Config Price Mac Studio M5 Max, 128GB / 512GB SSD €5,859 Mac Studio M5 Max, 128GB / 1TB SSD €6,189 Mac Studio M5 Ultra, 96GB / 1TB SSD €6,599 Ultra is 36-core CPU / 80-core GPU... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-25/17-m5-ultra-96gb-vs-m5-max-128gb-is-2x-bandwidth-worth-losing-32gb-of-ram.md"
+    },
     {
       "title": "Show HN: Screen memory without screenshots, just text to Markdown",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "aviralmathur-infogain/loopworks Stars: 0 (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/12-aviralmathur-infogain-loopworks.md"
-    },
-    {
-      "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=49026810",
-      "date": "2026-07-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I’ve been building Echo ( https://echo.tracerml.ai/ ), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task. It started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-23/13-show-hn-echo-fable-level-results-at-1-3-the-cost-using-open-weight-mod.md"
-    },
-    {
-      "title": "UPDATE - HuggingHack Is Now On Github",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4yljf/update_hugginghack_is_now_on_github/",
-      "date": "2026-07-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Due to encouragement to move my local huggingface project, it is now available on Github! Let me know your thoughts! Repo: https://github.com/tyedalwaves/HuggingHack/ submitted by /u/TyedalWaves [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-24/14-update-hugginghack-is-now-on-github.md"
-    },
-    {
-      "title": "Never forget the promises of June!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v52im7/never_forget_the_promises_of_june/",
-      "date": "2026-07-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Good morning to everyone that didn't fall for the trap of waiting since March of 2025 for a good local machine to your favorite localllm. For all the others, just \"morning\"! submitted by /u/Turbulent_Pin7635 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-24/15-never-forget-the-promises-of-june.md"
-    },
-    {
-      "title": "I compared local models and different quants / config on a subset of swe-verified bench",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4qq4x/i_compared_local_models_and_different_quants/",
-      "date": "2026-07-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "And gathered a lot of data. you can see them for yourself And For the most curious, there are additional details here In this graph, I regrouped the finetunes under their base models. but you can see the details in the page. The python code to generate those pages is obviously vibecoded. I find the output kinda pretty and somewhat useful for me. maybe it'... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-23/16-i-compared-local-models-and-different-quants-config-on-a-subset-of-swe.md"
-    },
-    {
-      "title": "Running Qwen 3.6 35B MoE (Q4_K_M) on a Zeus (Xiaomi 12 Pro, 12GB RAM)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4q5gm/running_qwen_36_35b_moe_q4_k_m_on_a_zeus_xiaomi/",
-      "date": "2026-07-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Shoutout to this awesome guy - https://www.reddit.com/r/LLM/s/IDUyU3v9ap Thanks to his project, BigMoeOnEdge https://github.com/Helldez/BigMoeOnEdge , I managed to successfully run a 35B MoE model on just 12GB of RAM! My setup is a modified Xiaomi 12 Pro (12GB RAM) that I call \"Zeus\". https://www.reddit.com/r/LocalLLaMA/s/5zBUl15jd6 There is a bottleneck,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-23/17-running-qwen-3-6-35b-moe-q4-k-m-on-a-zeus-xiaomi-12-pro-12gb-ram.md"
-    },
-    {
-      "title": "Show HN: AgentNest, self-hosted sandboxes for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/mihirahuja1/agentnestOSS",
-      "date": "2026-07-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: AgentNest, self-hosted sandboxes for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/06-show-hn-agentnest-self-hosted-sandboxes-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Millwright – Rust-based, self-hosted LLM router",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Northwood-Systems/millwright",
-      "date": "2026-07-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, With the news of OpenRouter possibly being acquired and proliferation of hosted LLM routers (i.e. Ramp Router, Vercel’s AI Gateway), I saw the need for a self hosted solution focused on cost savings, transparency, and performance. So, I built an open sourced router with a simple CLI interface that can easily sit between coding agents and GenAI wor... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-22/07-show-hn-millwright-rust-based-self-hosted-llm-router.md"
-    },
-    {
-      "title": "Show HN: Grimoire – Best Practices for Everyone Installed for Your AI Agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/jeffreytse/grimoire",
-      "date": "2026-07-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Grimoire – Best Practices for Everyone Installed for Your AI Agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/08-show-hn-grimoire-best-practices-for-everyone-installed-for-your-ai-age.md"
-    },
-    {
-      "title": "Show HN: Agent in 9 Lines Python",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://gist.github.com/tosh/6e91a9dbf08dd630c535e7345ac7f0b5",
-      "date": "2026-07-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I asked myself: what would a minimal implementation of an agent look like? Something that works out of the box, is a real agent with tool calling, but without 1000s of lines of code, without dozens or hundreds of npm or pypi dependencies. Something with just a few 'essential' features (not a whole kitchen sink that most agent harnesses come with nowadays)... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-22/09-show-hn-agent-in-9-lines-python.md"
-    },
-    {
-      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/cactus-compute/cactus-hybrid",
-      "date": "2026-07-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, Henry & Roman here from Cactus. A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-22/10-show-hn-cactus-hybrid-we-taught-gemma-4-to-know-when-it-s-wrong.md"
-    },
-    {
-      "title": "Show HN: ValuePair – a friendship app that cares about values first",
-      "source": "Hacker News Show HN",
-      "url": "https://valuepair.app",
-      "date": "2026-07-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey, I would like to show you my project, but it's difficult because it only works with a registration, so I explain the concept to you. The Idea: Everyone who registers has to do an onboarding and answer meaningful questions that help you to find a right match. The matching happens by the system. Once you're done with the onboarding, you enter the pool.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-22/11-show-hn-valuepair-a-friendship-app-that-cares-about-values-first.md"
-    },
-    {
-      "title": "Show HN: Sambaudit, a secrets scanner for SMB shares with a web UI",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/d-woosley/SambAudit",
-      "date": "2026-07-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built this tool from working as a security engineer and pentester for a number of years and felt that the task of searching SMB shares for secrets was far too difficult. I ended up either barely doing it at all or spending far too much time on it. However, I know there is a tone of sensitive info in SMB shares and I could almost always find passwords in... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-23/12-show-hn-sambaudit-a-secrets-scanner-for-smb-shares-with-a-web-ui.md"
     }
   ]
 }
