@@ -1,0 +1,12 @@
+---
+title: "Show HN: Vertex, your personal archiver and annotator"
+source: "Hacker News Show HN"
+url: "https://vertexapp.io/onboarding"
+date: "2026-08-27"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "Hey Hacker News! I'd like to showcase Vertex. Vertex is a browser extension [1] (currently only Chrome) and a web app [2] for saving bookmarks (vertices) along with the source documents. You can save optional notes along with (almost) everything you can save on Vertex. You can organise your vertices into sets [3] or connect them together as you see fit. Y... (Local summary fallback used.)"
+---
+
+Hey Hacker News! I'd like to showcase Vertex. Vertex is a browser extension [1] (currently only Chrome) and a web app [2] for saving bookmarks (vertices) along with the source documents. You can save optional notes along with (almost) everything you can save on Vertex. You can organise your vertices into sets [3] or connect them together as you see fit. Your vertices can hold snapshot(s) of the source. These are self-contained, parseable MHTML documents which stay immutable independently of the source. Additionally, the Vertex extension will highlight your saved links (along with notes) as you browse. I built Vertex because of problems I faced — links I cared about silently changed or disappeared, and once my collection got large enough, I lost track of which identical-looking URL I wanted. Vertex sits between existing archiving systems like ArchiveBox [4] and note-taking applications like Obsidian [5] — snapshots on one side, annotations and a graph on the other. And unlike Wayback Machine's "Save Page Now" [6], the browser extension enables you to capture even login-gated pages. I've used Haskell for the backend and TypeScript for the frontend. I've run production Haskell for 10+ years, so that's what came most naturally to me. Future improvements: - Firefox extension - Better mobile support The free tier [7] retains archives for 30 days. I'd love any feedback, so please give it a spin! [1]: https://chromewebstore.google.com/detail/vertex/dhhilgfkipba... — Chrome Web Store [2]: https://vertexapp.io — Onboarding [3]: https://vertexapp.io/vertex/set/56qE75Nh7RDuL5UUiloZK — Example shared set [4]: https://archivebox.io/ — ArchiveBox [5]: https://obsidian.md/ — Obsidian [6]: https://web.archive.org/ — Wayback Machine [7]: https://vertexapp.io/pricing — Pricing

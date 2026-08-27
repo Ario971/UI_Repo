@@ -1,10 +1,203 @@
 {
-  "last_checked_at": "2026-08-26T05:23:40.417Z",
+  "last_checked_at": "2026-08-27T15:59:15.583Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "debpalash/voicestudio",
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "date": "2026-08-27",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 90,
+      "momentum": 100,
+      "risk": 30,
+      "integration_effort": 56,
+      "expected_gain": 77,
+      "composite": 80,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Bennyoooo/write-like-me",
+          "date": "2026-08-06",
+          "topic": "AI agents",
+          "similarity": 0.266,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/06-bennyoooo-write-like-me.md"
+        },
+        {
+          "title": "[audio.cpp] Release 0.5: DramaBox expressive TTS, Confucius4 cross-lingual voice transfer, plus 7 more models and ROCm/HIP",
+          "date": "2026-08-01",
+          "topic": "Local LLMs",
+          "similarity": 0.211,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-01/16-audio-cpp-release-0-5-dramabox-expressive-tts-confucius4-cross-lingual.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-27)",
+        "AGPL-3.0 license",
+        "11833 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps concurrently, playwright, taze, turbo, typescript, wait-on; scripts setup:api, dev:api, dev:frontend, dev:desktop, wait:api, wait:frontend, predev, dev"
+        },
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, license, requires-python"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/debpalash/VoiceStudio.git",
+        "npx skills add debpalash/omnivoice-studio",
+        "uv run python backend/main.py --diagnose --deep"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-06 about AI agents; this candidate overlaps with \"Bennyoooo/write-like-me\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-27/01-debpalash-voicestudio.md"
+    },
+    {
+      "id": "marmbiz/humanizer-de",
+      "name": "marmbiz/humanizer-de",
+      "url": "https://github.com/marmbiz/humanizer-de",
+      "date": "2026-08-27",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 79,
+      "momentum": 85,
+      "risk": 58,
+      "integration_effort": 48,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
+          "date": "2026-07-30",
+          "topic": "AI dev tools",
+          "similarity": 0.298,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
+        },
+        {
+          "title": "Bennyoooo/write-like-me",
+          "date": "2026-08-06",
+          "topic": "AI agents",
+          "similarity": 0.293,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/06-bennyoooo-write-like-me.md"
+        },
+        {
+          "title": "Show HN: Ocean – All your team's agent sessions in one place",
+          "date": "2026-08-05",
+          "topic": "AI agents",
+          "similarity": 0.237,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/07-show-hn-ocean-all-your-team-s-agent-sessions-in-one-place.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-27)",
+        "122 GitHub stars",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 6,
+      "dependency_files": [],
+      "install_commands": [
+        "codex plugin marketplace add marmbiz/humanizer-de",
+        "git clone --depth 1 https://github.com/marmbiz/humanizer-de.git && cd humanizer-de",
+        "git clone https://github.com/marmbiz/humanizer-de.git",
+        "git clone --branch vX.Y.Z --depth 1 https://github.com/marmbiz/humanizer-de.git",
+        "git diff --check"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-30 about AI dev tools; this candidate overlaps with \"Show HN: Claude-account – switch Claude Code accounts without logging in again\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-27/02-marmbiz-humanizer-de.md"
+    },
+    {
+      "id": "agigante80/vibe-coding-prompts",
+      "name": "agigante80/vibe-coding-prompts",
+      "url": "https://github.com/agigante80/vibe-coding-prompts",
+      "date": "2026-08-27",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 79,
+      "momentum": 63,
+      "risk": 24,
+      "integration_effort": 50,
+      "expected_gain": 63,
+      "composite": 68,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Sufleur - npm-style prompt registry with typed code-generation",
+          "date": "2026-08-09",
+          "topic": "AI dev tools",
+          "similarity": 0.23,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/13-show-hn-sufleur-npm-style-prompt-registry-with-typed-code-generation.md"
+        },
+        {
+          "title": "Show HN: Zaivern Code – a Rust cockpit for parallel AI coding agents",
+          "date": "2026-08-07",
+          "topic": "AI agents",
+          "similarity": 0.219,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/06-show-hn-zaivern-code-a-rust-cockpit-for-parallel-ai-coding-agents.md"
+        },
+        {
+          "title": "Show HN: Rules that stop AI coding agents from breaking working code",
+          "date": "2026-07-26",
+          "topic": "AI agents",
+          "similarity": 0.219,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-26/07-show-hn-rules-that-stop-ai-coding-agents-from-breaking-working-code.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-27)",
+        "MIT license",
+        "8 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 55,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-09 about AI dev tools; this candidate overlaps with \"Show HN: Sufleur - npm-style prompt registry with typed code-generation\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-27/03-agigante80-vibe-coding-prompts.md"
+    },
     {
       "id": "wanshuiyin/auto-claude-code-research-in-sleep",
       "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -19432,53 +19625,6 @@
       "risk_flags": [],
       "why_it_matters": "You saved an article on 2026-05-17 about AI dev tools; this candidate overlaps with \"Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep\" and may turn that reading into a practical workflow improvement.",
       "file": "C:\\Projects\\UI_Desk\\knowledge\\edge\\candidates\\2026-05-20\\02-hyperb1iss-sibyl.md"
-    },
-    {
-      "id": "thiagoopro/ai-agent-framework",
-      "name": "Thiagoopro/AI-Agent-Framework",
-      "url": "https://github.com/Thiagoopro/AI-Agent-Framework",
-      "date": "2026-05-20",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 86,
-      "momentum": 45,
-      "risk": 35,
-      "integration_effort": 38,
-      "expected_gain": 77,
-      "composite": 69,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Id-agent – Token efficient UUID alternative for AI agents",
-          "date": "2026-05-19",
-          "topic": "AI agents",
-          "similarity": 0.277,
-          "file": "C:\\Projects\\UI_Desk\\knowledge\\feed\\AI agents\\2026-05-19\\04-show-hn-id-agent-token-efficient-uuid-alternative-for-ai-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-20)",
-        "MIT license",
-        "Matches 1 saved Feed article(s)"
-      ],
-      "cons": [
-        "No clear install command found in README"
-      ],
-      "readme_quality": 78,
-      "has_ci": false,
-      "has_tests": false,
-      "setup_steps_count": 0,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps name, version, description, authors, license, readme, include, exclude"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-05-19 about AI agents; this candidate overlaps with \"Show HN: Id-agent – Token efficient UUID alternative for AI agents\" and may turn that reading into a practical workflow improvement.",
-      "file": "C:\\Projects\\UI_Desk\\knowledge\\edge\\candidates\\2026-05-20\\03-thiagoopro-ai-agent-framework.md"
     }
   ]
 }

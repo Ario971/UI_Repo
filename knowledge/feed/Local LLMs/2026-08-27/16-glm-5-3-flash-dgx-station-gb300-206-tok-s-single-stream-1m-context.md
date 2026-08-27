@@ -1,0 +1,12 @@
+---
+title: "GLM-5.3-Flash @ DGX Station GB300: ~206 tok/s (single stream), 1M context"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1vzvcrb/glm53flash_dgx_station_gb300_206_toks_single/"
+date: "2026-08-27"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Hey all! I'm finally doing some cool stuff with my \"thinking heater\" (h/t u/-TV-Stand- ). I'm still experimenting with GLM-5.2 (in anticipation of 5.3 coming tomorrow, I hope!) and things are very cool so far. With the release of GLM-5.3-flash, I decided to play with it on the 'tation. I decided to go with NVFP4 because Blackwell and that it would fit ama... (Local summary fallback used.)"
+---
+
+Hey all! I'm finally doing some cool stuff with my "thinking heater" (h/t u/-TV-Stand- ). I'm still experimenting with GLM-5.2 (in anticipation of 5.3 coming tomorrow, I hope!) and things are very cool so far. With the release of GLM-5.3-flash, I decided to play with it on the 'tation. I decided to go with NVFP4 because Blackwell and that it would fit amazingly inside the HBM3e. And it most definitely flies.... 206 tok/s single stream (I didn't bother to check several streams yet). If you ever want to run it inside your 'tation, this is how I got it done: docker run -d --name vllm-glm-5.3-flash \ --gpus all \ -p 8001:8001 \ -v /models:/models \ -e VLLM_KV_CACHE_LAYOUT=HND \ -e VLLM_WEIGHT_OFFLOADING_DISABLE_PIN_MEMORY=1 \ -e PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \ vllm/vllm-openai:glm53-flash-arm64-cu130 \ serve \ --model /models/huggingface-cache/hub/models--LibertAIDAI--GLM-5.3-Flash-NVFP4 \ --tensor-parallel-size 1 \ --gpu-memory-utilization 0.92 \ --max-model-len 1048576 \ --dtype auto \ --compilation-config '{"mode":3}' \ --enable-prefix-caching \ --max-num-seqs 4 \ --max-num-batched-tokens 16384 \ --trust-remote-code \ --tool-call-parser glm47 \ --enable-auto-tool-choice \ --reasoning-parser glm45 \ --moe-backend marlin \ --speculative-config '{"method":"mtp","num_speculative_tokens":3}' \ --override-generation-config '{"temperature":1.0,"top_p":0.95}' \ --attention-config '{"use_fp4_indexer_cache": true}' \ --safetensors-load-strategy prefetch \ --served-model-name glm-5.3-flash \ --host 0.0.0.0 \ --port 8001 Gotcha: this image has a bug and won't download the model on its own. Auto-download fails, so you have to point --model at a pre-downloaded local folder (as above) rather than a bare HF repo id. You need the weights on disk first. Soon: more benchmarks! submitted by /u/funding__secured [link] [comments]

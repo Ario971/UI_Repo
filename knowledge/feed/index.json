@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T05:23:09.560Z",
+  "updated_at": "2026-08-27T15:58:41.076Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Turn ad-hoc subagents into durable, accountable AI teams",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/ringlochid/oh-my-subagents",
+      "date": "2026-08-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Turn ad-hoc subagents into durable, accountable AI teams (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/06-show-hn-turn-ad-hoc-subagents-into-durable-accountable-ai-teams.md"
+    },
+    {
+      "title": "Show HN: Concord – let Claude Code, Codex and Cursor talk to each other",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Get-Concord-AI/concord-mcp",
+      "date": "2026-08-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Recently I've been running more and more agents in parallel however I noticed that they have no task context of what the other agents are doing even when a lot of work is interconnected It's like taking Slack away from a team. Agents duplicate work, make conflicting changes, and step on each others' toes simply because they can't talk to each other. Conco... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-show-hn-concord-let-claude-code-codex-and-cursor-talk-to-each-other.md"
+    },
+    {
+      "title": "Show HN: BAIhAIs – an autonomous art school for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://baihais.com/",
+      "date": "2026-08-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "How to give AI taste? Send it to art school. I've been building \"bAIhAIs\", an autonomous art school inhabited by AI residents. Each day for us is a \"week\" for them: over a given cycle, the residents decide some combination of actions to take, including making art, viewing each other's work, publishing critiques of other works, exchanging messages (public... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/08-show-hn-baihais-an-autonomous-art-school-for-ai-agents.md"
+    },
+    {
+      "title": "Large Language Model Few-Shot Prompting with Dilemma Training Outperforms Human Surrogates in Predicting Patient Preferences",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.25771v1",
+      "date": "2026-08-26",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "In serious illness, human surrogates often struggle to accurately predict patient preferences (68% accuracy), causing decision conflict. Personalized Patient Preference Predictor (P4) agents offer a potential solution, but prior prototypes treat values as static ratings, ignoring the contextual, situation-dependent nature of medical choices. Grounded in t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-26/09-large-language-model-few-shot-prompting-with-dilemma-training-outperfo.md"
+    },
+    {
+      "title": "Show HN: Nanointerpret – LLM Interpretability Playground",
+      "source": "Hacker News Show HN",
+      "url": "https://nanointerpret.pages.dev/",
+      "date": "2026-08-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I find LLM interpretability extremely interesting and wanted to create a minimal repo for: - SAE training - Automatic feature interpretation - Visualizing features and running interventions through a GUI You can try it here: https://nanointerpret.pages.dev/ Or check the repo: https://github.com/Belluxx/nanointerpret (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-27/10-show-hn-nanointerpret-llm-interpretability-playground.md"
+    },
+    {
+      "title": "Show HN: bAIseball.org – Google for historical baseball stats",
+      "source": "Hacker News Show HN",
+      "url": "https://baiseball.org/",
+      "date": "2026-08-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I launched a new website, bAIseball.org. Think of it as Google for baseball stats: it answers just about any freeform question you might have about baseball statistical history from pre-1900 through the current season, using free data sources like the Sean Lahman database, Retrosheet.org, and MLB.com. Questions it can answer include (but are certainly not... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-27/11-show-hn-baiseball-org-google-for-historical-baseball-stats.md"
+    },
+    {
+      "title": "Show HN: All my mail accounts in one read-only MCP server, usable from my phone",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/wildsurfer/your-mail-mcp",
+      "date": "2026-08-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: All my mail accounts in one read-only MCP server, usable from my phone (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-27/12-show-hn-all-my-mail-accounts-in-one-read-only-mcp-server-usable-from-m.md"
+    },
+    {
+      "title": "Show HN: Vertex, your personal archiver and annotator",
+      "source": "Hacker News Show HN",
+      "url": "https://vertexapp.io/onboarding",
+      "date": "2026-08-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey Hacker News! I'd like to showcase Vertex. Vertex is a browser extension [1] (currently only Chrome) and a web app [2] for saving bookmarks (vertices) along with the source documents. You can save optional notes along with (almost) everything you can save on Vertex. You can organise your vertices into sets [3] or connect them together as you see fit. Y... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-27/13-show-hn-vertex-your-personal-archiver-and-annotator.md"
+    },
+    {
+      "title": "We’re the Team Behind Apodex 1.1 — Ask Us Anything!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzxdui/were_the_team_behind_apodex_11_ask_us_anything/",
+      "date": "2026-08-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi r/LocalLLaMA ! We’re Apodex , the team behind Apodex 1.1 , our new model family built to scale agentic intelligence for complex work. We’re excited to be here and answer your questions directly. Apodex 1.1 is designed around sustained, verifiable progress toward real-world objectives—from reasoning and search to working with files, executing code, reco... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-27/14-we-re-the-team-behind-apodex-1-1-ask-us-anything.md"
+    },
+    {
+      "title": "N-gram vs Experts explained",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzgtqf/ngram_vs_experts_explained/",
+      "date": "2026-08-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Since Qwen's dropped the Qwen4Exp architecture bomb that focus on offloading parameters to n-gram instead of pure mixture of experts, I dug into this and learned quite a lot. Here's the summary. Expect mistakes from human's writing lol. TLDR: MoEs do reasoning, N-grams do recalling. At the current tech frontier, N-gram can offload upto ~25% weight before... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-27/15-n-gram-vs-experts-explained.md"
+    },
+    {
+      "title": "GLM-5.3-Flash @ DGX Station GB300: ~206 tok/s (single stream), 1M context",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzvcrb/glm53flash_dgx_station_gb300_206_toks_single/",
+      "date": "2026-08-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey all! I'm finally doing some cool stuff with my \"thinking heater\" (h/t u/-TV-Stand- ). I'm still experimenting with GLM-5.2 (in anticipation of 5.3 coming tomorrow, I hope!) and things are very cool so far. With the release of GLM-5.3-flash, I decided to play with it on the 'tation. I decided to go with NVFP4 because Blackwell and that it would fit ama... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-27/16-glm-5-3-flash-dgx-station-gb300-206-tok-s-single-stream-1m-context.md"
+    },
+    {
+      "title": "Looks like we are close to local llama robotics",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vztty7/looks_like_we_are_close_to_local_llama_robotics/",
+      "date": "2026-08-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "HuggingFace releases microduck a 10 inch open-source biped with 15 actuators and sensors (camera, speaker, LiDAR, NFC, bluetooth, wifi, ...) that you train yourself with reinforcement learning, $400. https://pollen-robotics.com/microduck/ Previous discussion: https://www.reddit.com/r/LocalLLaMA/comments/1vazt2h/how_close_are_we_to_local_llama_robotics_for... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-27/17-looks-like-we-are-close-to-local-llama-robotics.md"
+    },
     {
       "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I recently bought a new 1440p monitor and connected it to my mac, but at native resolution the UI felt so tiny and unfamiliar. I'm fairly new to mac in general so I checked my options for scaling, but quickly learnt (afaik) that this wasn't a thing for external monitors. I found some options in BetterDisplay and Lunar, but it felt stupid to pay for a feat... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/12-show-hn-crisp-open-source-display-manager-for-macos-ddc-hidpi-presets.md"
-    },
-    {
-      "title": "yearningss/gamemaker-mcp",
-      "source": "GitHub Search API",
-      "url": "https://github.com/yearningss/gamemaker-mcp",
-      "date": "2026-07-25",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A powerful, project-aware Model Context Protocol (MCP) server for GameMaker Studio with 190 tools, GML static analysis, refactoring, and automated builds. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/13-yearningss-gamemaker-mcp.md"
-    },
-    {
-      "title": "Can LLMs solve mazes?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5rvuq/can_llms_solve_mazes/",
-      "date": "2026-07-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://reddit.com/link/1v5rvuq/video/bgmwc754i9fh1/player My goal was to create a benchmark to measure the spatial awareness and memory of models. Eventually, I came up with the simple idea of a maze where the model must find a key and use it to open the escape door. Here’s the difference to a normal maze, however! The model CANNOT see the whole map. At... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-24/14-can-llms-solve-mazes.md"
-    },
-    {
-      "title": "I released Inflect v2: two ultra-tiny complete TTS models under 4M and 10M parameters",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5ve6v/i_released_inflect_v2_two_ultratiny_complete_tts/",
-      "date": "2026-07-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I’ve spent the past month trying to find the point where an extremely small TTS model stops feeling like a size experiment and starts feeling genuinely useful. Today I’m releasing Inflect v2 , with two complete local text-to-speech models: Inflect-Nano-v2: 3.96M parameters, 15.97 MB FP32 Inflect-Micro-v2: 9.36M parameters, 37.53 MB FP32 These are total in... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/15-i-released-inflect-v2-two-ultra-tiny-complete-tts-models-under-4m-and-.md"
-    },
-    {
-      "title": "PSA: DO NOT use Intel consumer platforms for multi-GPU setups",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5x1h0/psa_do_not_use_intel_consumer_platforms_for/",
-      "date": "2026-07-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Since a lot more people are trying to build their own multi-GPU machines, I thought I should help to prevent a common mistake people make with building multi-GPU machines. Which is using an Intel consumer platform like Z890 for multi-GPU setups. Although the CPU provides 24 PCIe 5.0 lanes with 16x available to bifurcate to 8x8x on two PCIe x16 slots on th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/16-psa-do-not-use-intel-consumer-platforms-for-multi-gpu-setups.md"
-    },
-    {
-      "title": "[Paper] Statistically-Lossless Quantization of Large Language Models",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5j35f/paper_statisticallylossless_quantization_of_large/",
-      "date": "2026-07-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Model quantization has become essential for efficient large language model deployment, yet existing approaches involve clear trade-offs: methods such as GPTQ and AWQ achieve practical compression but are lossy, while lossless techniques preserve fidelity but typically do not accelerate inference. This paper explores the middle ground of statistically-loss... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-24/17-paper-statistically-lossless-quantization-of-large-language-models.md"
-    },
-    {
-      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/palmier-io/palmier-pro",
-      "date": "2026-07-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, we are Marcos and Harrison, cofounders of Palmier ( https://palmier.io ). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos: - Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4 - Multicam editing with Codex: https... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/06-show-hn-palmier-pro-open-source-macos-video-editor-built-for-ai.md"
-    },
-    {
-      "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/onecli/onecli",
-      "date": "2026-07-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "hey HN, Jonathan and Guy here, creators of OneCLI ( https://onecli.sh/ ). OneCLI is an open source vault for AI Agents. Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/07-show-hn-onecli-oss-credential-gateway-that-keeps-secrets-out-of-ai-age.md"
-    },
-    {
-      "title": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/kdeps/turo",
-      "date": "2026-07-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Turo – An Aggressive Token-Saving Proxy for CLI AI Agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-24/08-show-hn-turo-an-aggressive-token-saving-proxy-for-cli-ai-agents.md"
-    },
-    {
-      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.21557v1",
-      "date": "2026-07-23",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make agents hard to train end-to-end with open infrastructure, whose SFT/RL stacks cannot natively express stateful, multi-process harness infe... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/09-openforgerl-train-harness-native-agents-in-any-environment.md"
-    },
-    {
-      "title": "Show HN: Trifle – Open-source analytics that stores answers, not events",
-      "source": "Hacker News Show HN",
-      "url": "https://trifle.io/",
-      "date": "2026-07-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Trifle is an open-source time-series analytics library that aggregates nested counters instead of storing raw events. All in the database you already have. After rebuilding it twice over 10 years, it now tracks ~1B events a day at my day job. It started in 2015 as my own Rails APM. I plugged into ActiveSupport::Notifications, got a few small users, and on... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-22/10-show-hn-trifle-open-source-analytics-that-stores-answers-not-events.md"
-    },
-    {
-      "title": "Show HN: Life Tile – Passive time tracker that shows your day as a Mondrian grid",
-      "source": "Hacker News Show HN",
-      "url": "https://apps.apple.com/us/app/life-tile-auto-tracker/id6767332648",
-      "date": "2026-07-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi, I developed Life Tile for iPhone. It tracks your time passively and visualizes it as a Mondrian-style grid. It's a one-time purchase app with a 7-day trial. I was a user of a similar app named Life Cycle. Since the app hasn't been updated in a while, I tried to make a better app with my ideas and experiences. I used a big square timeline instead of a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/11-show-hn-life-tile-passive-time-tracker-that-shows-your-day-as-a-mondri.md"
-    },
-    {
-      "title": "aviralmathur-infogain/loopworks",
-      "source": "GitHub Search API",
-      "url": "https://github.com/aviralmathur-infogain/loopworks",
-      "date": "2026-07-24",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "aviralmathur-infogain/loopworks Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/12-aviralmathur-infogain-loopworks.md"
     }
   ]
 }
