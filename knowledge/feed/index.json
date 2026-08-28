@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T15:58:41.076Z",
+  "updated_at": "2026-08-28T16:59:05.569Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Open tool for testing your AI Agents (No LLM)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/IdoGol24/weir",
+      "date": "2026-08-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Open tool for testing your AI Agents (No LLM) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-28/06-show-hn-open-tool-for-testing-your-ai-agents-no-llm.md"
+    },
+    {
+      "title": "Show HN: URML – safety-eval harness for AI agents on lab and factory hardware",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/URML-MARS/URML/tree/main/examples/physical-ai-safety-eval",
+      "date": "2026-08-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: URML – safety-eval harness for AI agents on lab and factory hardware (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-28/07-show-hn-urml-safety-eval-harness-for-ai-agents-on-lab-and-factory-hard.md"
+    },
+    {
+      "title": "Show HN: Watches user sessions, finds bugs that matter, and fixes them",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/opslane/opslane",
+      "date": "2026-08-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I’m Abhishek. I'm building Opslane, an open-source agent that identifies user-facing issues and investigates them. It only creates a PR if it can verify the fix. Demo: https://youtu.be/ccuOTYQMeYg Docs: https://docs.opslane.com At my last job at Robinhood, we used to do a quarterly bug bash. We would go through our Sentry backlog and try to fix as... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/08-show-hn-watches-user-sessions-finds-bugs-that-matter-and-fixes-them.md"
+    },
+    {
+      "title": "Show HN: I built a tool showing how AI providers (should) throttle their models",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://throttle.staffinganalytics.io/?src=hn",
+      "date": "2026-08-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "OP here: this project was born out of the frustration/paranoia that AI providers are throttling their models when their server load is too high. So, I set out to model and study the problem mathematically to understand what was happening, what I found was quite surprising. The idea seems natural: as the data center demand increases momentarily through the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-28/09-show-hn-i-built-a-tool-showing-how-ai-providers-should-throttle-their-.md"
+    },
+    {
+      "title": "ricauts/servo",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ricauts/servo",
+      "date": "2026-08-28",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Open-source, self-hostable AI service desk - email becomes tickets, AI drafts replies and works them with real tools, humans approve anything risky. BYOK, SSO, MCP. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-28/10-ricauts-servo.md"
+    },
+    {
+      "title": "Show HN: SubSmith – Turn your own videos into language-learning material",
+      "source": "Hacker News Show HN",
+      "url": "https://subsmith.app",
+      "date": "2026-08-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I've been learning Japanese for a few years and kept running into a similar problem. I'd find a video I wanted to learn from, hear a useful sentence, and then realise that turning that sentence into something I could study later was both time consuming and draining at times. I would end up jumping between a video player, subtitles/transcription, a diction... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-28/11-show-hn-subsmith-turn-your-own-videos-into-language-learning-material.md"
+    },
+    {
+      "title": "Show HN: It Was Never You",
+      "source": "Hacker News Show HN",
+      "url": "https://itwasneveryou.app",
+      "date": "2026-08-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! I made my first iOS app - users can swap out an ex or friend for someone else in their photo library. I did this as a bit of a lark. I hope you find it entertaining, at least. At its most serious, it’s a Black Mirror-esque note on the future we’re enabling in the AI age. It’s not an app I’d ever use or recommend people use. I suppose that’s the que... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-28/12-show-hn-it-was-never-you.md"
+    },
+    {
+      "title": "Show HN: I read 648 banks' exchange boards daily to show what they charge",
+      "source": "Hacker News Show HN",
+      "url": "https://myratefx.com/",
+      "date": "2026-08-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I read 648 banks' exchange boards daily to show what they charge (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-28/13-show-hn-i-read-648-banks-exchange-boards-daily-to-show-what-they-charg.md"
+    },
+    {
+      "title": "No, Engrams won't let you run 1T models locally. It does something even better.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0198r/no_engrams_wont_let_you_run_1t_models_locally_it/",
+      "date": "2026-08-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Ever since Qwen 3.8 Flash Next dropped, there's a misconception going around that N-gram tables will let people run 1T+ parameter models on a single server with 980B parameters offloaded to SSD. I'm here to disappoint you: it won't. But what it will actually do for local models is even better. At its core, Engram is just an embedding table with a longer k... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-27/14-no-engrams-won-t-let-you-run-1t-models-locally-it-does-something-even-.md"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next (UD-IQ4_XS) on 2x RTX 3060 + 7800X3D, from initial 36 tps prefill to 400 tps and other benchmarks (-sm tensor trap) + VRAM/RAM usage",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0na2z/qwen38flashnext_udiq4_xs_on_2x_rtx_3060_7800x3d/",
+      "date": "2026-08-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "TL;DR: llama.cpp with --load-mode mmap used 21-32 GB of RAM, with ik_llama.cpp using 106-108 GB. -sm tensor killed my prefill, changing to -sm layer went from 36 tps to 135 tps. After that, -ubatch 2048 pushed it up to 400 tps at -c 131072 . I can't fit -ubatch 2048 at -c 262144 , which is why it caps out for me at ~180-200 tps prefill and 12 tps decode a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/15-qwen3-8-flash-next-ud-iq4-xs-on-2x-rtx-3060-7800x3d-from-initial-36-tp.md"
+    },
+    {
+      "title": "how to setup llama.cpp and blender to make lovely 3d stuff together",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0r66e/how_to_setup_llamacpp_and_blender_to_make_lovely/",
+      "date": "2026-08-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "see here or read the following: ### I've found this workaround/complete setup: - git clone https://projects.blender.org/lab/blender_mcp.git - cd blender_mcp - uv --directory ./mcp/ run blender-mcp --transport http --port 9191 (this last command raise the error relative to this issue because mcp v2 is installed) - uv --directory ./mcp/ pip uninstall mcp -... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/16-how-to-setup-llama-cpp-and-blender-to-make-lovely-3d-stuff-together.md"
+    },
+    {
+      "title": "The Unsloth appreciation post. BIG thanks to Daniel and Michael! Thanks from the community to you guys for so much!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w05clp/the_unsloth_appreciation_post_big_thanks_to/",
+      "date": "2026-08-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "With HF being bought out and its future feeling a little iffy, I got to thinking about the teams that have constantly looked out for the little guys and stayed true to their open-source roots. There are great developers who share their work freely, and the local AI scene is incredible for it—one user once described it as \"having Xmas every day,\" and that... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-27/17-the-unsloth-appreciation-post-big-thanks-to-daniel-and-michael-thanks-.md"
+    },
     {
       "title": "Show HN: Turn ad-hoc subagents into durable, accountable AI teams",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "SaswataGA/FairRent-AI-assisted-rental-platform Stars: 0 (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/12-saswataga-fairrent-ai-assisted-rental-platform.md"
-    },
-    {
-      "title": "LagPixelLOL/shadertoy-local",
-      "source": "GitHub Search API",
-      "url": "https://github.com/LagPixelLOL/shadertoy-local",
-      "date": "2026-07-26",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Local simulation of Shadertoy for agentic development. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/13-lagpixellol-shadertoy-local.md"
-    },
-    {
-      "title": "Llama.cpp now has full MCP support!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6n33i/llamacpp_now_has_full_mcp_support/",
-      "date": "2026-07-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "After a long and grueling effort spearheaded by ngxson, llama.cpp now fully supports MCP for all protocols. Over-the-web HTTP servers were already supported in the client (since they don't require any sort of plumbing), but stdio servers required real integration. After we modified the `llama-cli` terminal client to use the server instead of a separate mo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/14-llama-cpp-now-has-full-mcp-support.md"
-    },
-    {
-      "title": "Is it worth getting 128GB MacBook Pro? Will it ever be comparable to today’s frontier models for coding?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6jpvn/is_it_worth_getting_128gb_macbook_pro_will_it/",
-      "date": "2026-07-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I am a long time iOS app developer. In the last year I have been using Cursor+Claude/others to assist with app development. I am concerned that the current low pricing will disappear eventually. I am pricing out a new laptop with the intention of using local models instead. New MacBook Pros can be configured with 128GB of ram, but obviously the price is h... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/15-is-it-worth-getting-128gb-macbook-pro-will-it-ever-be-comparable-to-to.md"
-    },
-    {
-      "title": "Will small model intelligence be limited by parameter count?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6q22t/will_small_model_intelligence_be_limited_by/",
-      "date": "2026-07-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Qwen3.6-27b is fantastic! It makes me wonder if there's a hard ceiling to smaller sized models. Do you guys think the ceiling of intelligence for smaller models will be constrained by factors like parameter count, or VRAM size? Or will we continue to see improvements for small models and see jumps of intelligence like Qwen3 coder 30b to Qwen3.6 27b for th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-26/16-will-small-model-intelligence-be-limited-by-parameter-count.md"
-    },
-    {
-      "title": "Who ONLY use local models?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v62z48/who_only_use_local_models/",
-      "date": "2026-07-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Please be honest. I would love to hear about guys really dedicated to local AI and who really reject subscriptions (especially to openai and anthropic). What do you use your model for? submitted by /u/takoulseum [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-25/17-who-only-use-local-models.md"
-    },
-    {
-      "title": "Show HN: A gate for AI agents that ships a board of its own worst flaws",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/githubscum/lotor",
-      "date": "2026-07-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: A gate for AI agents that ships a board of its own worst flaws (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-24/06-show-hn-a-gate-for-ai-agents-that-ships-a-board-of-its-own-worst-flaws.md"
-    },
-    {
-      "title": "Benchmarking Agents for Proving Theorems in Quantum Algorithms and Quantum Information",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.21533v1",
-      "date": "2026-07-23",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Formal verification is becoming increasingly practical for quantum computing, yet the ability of AI agents to construct machine-checkable proofs in this domain remains unmeasured. We introduce Lean-QuantumAlg-Bench and Lean-QIT-Bench, two Lean 4 benchmarks containing 36 and 40 theorem-completion tasks for quantum algorithms and quantum information theory,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/07-benchmarking-agents-for-proving-theorems-in-quantum-algorithms-and-qua.md"
-    },
-    {
-      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.21522v1",
-      "date": "2026-07-23",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motions, and visual fidelity. Recent advances in generative foundation models have sparked interest in learning t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/08-gs-agent-creating-4d-physical-worlds-with-generative-simulation.md"
-    },
-    {
-      "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.21503v1",
-      "date": "2026-07-23",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Production AI agents' failures are less often due to an inability to reason well and more often because they cannot manage what is in their reasoning context: conversation histories, large prompts, large tool definitions, and ballooning tool outputs. Agents drown in their own accumulating history while paying a token cost that grows every turn, producing... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/09-agentic-context-management-solving-agent-memory-and-cost-by-treating-t.md"
-    },
-    {
-      "title": "Show HN: How well do you use Claude Code?",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=49042653",
-      "date": "2026-07-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "A bunch of companies that I spoke to had their own claude & codex OTel dashboards that showed spend + seats per month. However, none of the dashboards actually analyzed how the engineers worked with the tools and if there were any areas for improvement! That's why I created https://www.promptster.ai . Managers get aggregate level view of code quality and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/10-show-hn-how-well-do-you-use-claude-code.md"
-    },
-    {
-      "title": "Show HN: Mboxreader – easily view your Gmail Takeouts",
-      "source": "Hacker News Show HN",
-      "url": "https://mboxreader.com",
-      "date": "2026-07-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, Did you know you can download all your emails (and attachments) from GMail into a .mbox format using Google Takeout ( https://takeout.google.com )? I did this and for the longest time my .mbox backup just sat around. I built a web app that can take an .mbox file and load it into a UI that looks like GMail: threaded conversations, original labels a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/11-show-hn-mboxreader-easily-view-your-gmail-takeouts.md"
-    },
-    {
-      "title": "Show HN: Crisp – Open-source display manager for macOS (DDC, HiDPI, presets)",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/didriksg/Crisp",
-      "date": "2026-07-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I recently bought a new 1440p monitor and connected it to my mac, but at native resolution the UI felt so tiny and unfamiliar. I'm fairly new to mac in general so I checked my options for scaling, but quickly learnt (afaik) that this wasn't a thing for external monitors. I found some options in BetterDisplay and Lunar, but it felt stupid to pay for a feat... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-24/12-show-hn-crisp-open-source-display-manager-for-macos-ddc-hidpi-presets.md"
     }
   ]
 }

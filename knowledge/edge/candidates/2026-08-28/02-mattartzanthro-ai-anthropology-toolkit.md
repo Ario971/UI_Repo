@@ -1,0 +1,369 @@
+---
+id: "mattartzanthro/ai-anthropology-toolkit"
+name: "MattArtzAnthro/AI-Anthropology-Toolkit"
+url: "https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit"
+date: "2026-08-28"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 92
+momentum: 73
+risk: 50
+integration_effort: 48
+expected_gain: 87
+composite: 75
+replacement_target: ""
+related_articles: [{"title":"Show HN: Sift – MCP aggregator that exposes 2 tools instead of hundreds","date":"2026-08-06","topic":"AI dev tools","similarity":0.227,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/13-show-hn-sift-mcp-aggregator-that-exposes-2-tools-instead-of-hundreds.md"},{"title":"Show HN: CtrlTool – 132 free online tools for developers and everyday tasks","date":"2026-08-23","topic":"AI dev tools","similarity":0.211,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-23/10-show-hn-ctrltool-132-free-online-tools-for-developers-and-everyday-tas.md"},{"title":"Show HN: CrossPlay - Games, puzzles and tools for your e-reader","date":"2026-08-07","topic":"AI dev tools","similarity":0.186,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/12-show-hn-crossplay-games-puzzles-and-tools-for-your-e-reader.md"}]
+pros: ["Recently updated (2026-08-28)","23 GitHub stars","GitHub Actions/CI detected","README mentions tests or validation"]
+cons: ["License was not clearly detected by GitHub","README mentions credentials or API tokens"]
+readme_quality: 85
+has_ci: true
+has_tests: true
+setup_steps_count: 3
+dependency_files: [{"name":"pyproject.toml","summary":"python project; deps requires, build-backend, name, version, description, readme, requires-python, license"}]
+install_commands: ["git clone https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit.git","claude mcp add ai-anthropology -- uvx --from \"ai-anthropology-toolkit[data]==3.8.0\" ai-anthro-mcp","codex mcp add ai-anthropology -- uvx --from \"ai-anthropology-toolkit[data]==3.8.0\" ai-anthro-mcp","pip install \"ai-anthropology-toolkit[data]\"","pip install scholarly","pip install jupyter scholarly"]
+risk_flags: ["README mentions credentials or API tokens"]
+status: "new"
+---
+
+# MattArtzAnthro/AI-Anthropology-Toolkit
+
+The AI Anthropology Toolkit is a suite of computational anthropology tools designed to enhance qualitative research methods.
+
+URL: https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit
+
+## Why it matters
+You saved an article on 2026-08-06 about AI dev tools; this candidate overlaps with "Show HN: Sift – MCP aggregator that exposes 2 tools instead of hundreds" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-08-28)
++ 23 GitHub stars
++ GitHub Actions/CI detected
++ README mentions tests or validation
+
+## Cons
+- License was not clearly detected by GitHub
+- README mentions credentials or API tokens
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- pyproject.toml: python project; deps requires, build-backend, name, version, description, readme, requires-python, license
+
+Install commands found:
+- git clone https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit.git
+- claude mcp add ai-anthropology -- uvx --from "ai-anthropology-toolkit[data]==3.8.0" ai-anthro-mcp
+- codex mcp add ai-anthropology -- uvx --from "ai-anthropology-toolkit[data]==3.8.0" ai-anthro-mcp
+- pip install "ai-anthropology-toolkit[data]"
+- pip install scholarly
+- pip install jupyter scholarly
+
+Risk flags:
+- README mentions credentials or API tokens
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# AI Anthropology Toolkit
+
+A suite of AI anthropology tools for qualitative research
+
+[Matt Artz](https://www.mattartz.me/) | [GitHub](https://github.com/MattArtzAnthro) | [ORCID](https://orcid.org/0000-0002-3822-1429)
+
+---
+
+## Overview
+
+The **AI Anthropology Toolkit** provides computational tools for anthropological and qualitative research. Every component is grounded in the conventions, debates, and craft knowledge of anthropology and cognate qualitative social sciences. Epistemic stance (interpretivist, critical, STS, feminist, applied, etc.) is treated as a first-class design parameter that shapes methods, writing, and analysis.
+
+The toolkit is a Claude Code plugin with research lifecycle skills and agents, an MCP server that lets Claude, Codex, or Gemini run the full pipeline — from data collection through coding, thematic analysis, and networks of codes — directly, and, for researchers who want to work closer to the code, standalone notebooks for data collection and qualitative analysis.
+
+## What is AI Anthropology?
+
+AI Anthropology is the integrated practice of studying, using, and shaping AI ([Artz 2026](https://doi.org/10.1111/gena.70007)) — an iterative lifecycle of anthropology **of**, **by**, and **for** AI ([Artz 2026](https://doi.org/10.4324/9781032672663-29)):
+
+- **Anthropology of AI** — studying AI systems as cultural phenomena: how they reflect, reshape, and redistribute human culture and power
+- **Anthropology by AI** — using AI and computational methods to extend ethnographic research while preserving interpretive judgment
+- **Anthropology for AI** — bringing anthropological insight to the design, building, and governance of AI systems
+
+This toolkit primarily operationalizes anthropology **by** AI — scaling qualitative research while keeping the researcher's interpretive authority at the center — and is itself an act of anthropology **for** AI: purpose-built research infrastructure designed with anthropological sensibilities. Its governing design philosophy is **friction by design**: divergence between machine readings is sustained as data rather than resolved as noise, and the interaction itself withholds production wherever a judgment is not the machine's to make (see `skills/DESIGN.md`). The toolkit is presented as a demonstration of multi-agent ethnography in [A Call for an AI Anthropology](https://doi.org/10.1111/gena.70007) (*General Anthropology*) and [Multi-Agent Ethnography: Post-Conventional Anthropological Practice Through Human-AI Collaboration](https://doi.org/10.1080/00664677.2026.2614501) (*Anthropological Forum*).
+
+## Skills
+
+Research skills in the portable [SKILL.md format](https://agentskills.io) that activate automatically based on context. In Claude Code, the [AI Anthropology Toolkit plugin](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit) installs all of them at once; other coding agents can install any skill by copying its folder (see [Using the Skills in Other Agents](#using-the-skills-in-other-agents) below).
+
+| Skill | Description |
+|:------|:------------|
+| research-question | Helps you turn a research interest into a clear, answerable research question. Walks through the five parts a good question needs and checks it against a rubric. |
+| literature-review | Helps you plan and write a literature review, whether narrative, scoping, or systematic. Guides your search strategy, logs what you screened and why, and helps you build the bibliography or framework you need. |
+| methodology-selection | Helps you choose and justify research methods that fit your question and your stance. Checks that your methods actually match what you are trying to find out, including when you need more than one. |
+| research-plan | Helps you write a standalone research plan. Covers every section, from the problem statement through feasibility. |
+| irb-protocol | Helps you write your IRB protocol. Covers risk assessment and the specific ethics of digital ethnography, section by section. |
+| informed-consent | Helps you design your informed consent process. Covers different consent modes, like written, verbal, layered, or community-based, and how to adapt them to your cultural context. |
+| grant-proposal | Helps you write a grant proposal for a specific funder. Covers NSF CA-DDRIG, Wenner-Gren, Fulbright, ERC, SSHRC, and Wellcome, each with its own guidance. |
+| dissertation-prospectus | Helps you write your dissertation prospectus, section by section. Works whether your prospectus is short or long. |
+| fieldwork-methods | Helps you design your fieldwork instruments. Covers interview guides, observation protocols, sampling strategy, and how you will manage your data. |
+| qualitative-analysis | Helps you analyze your qualitative data. Covers building a codebook, coding it, and pulling out themes, including comparing across more than one analytical lens. |
+| ethnographic-generalization | Helps you figure out what your confirmed findings actually generalize to. Walks through the kind of claim you can make, builds its warrant, and states its scope and how confident you can be. |
+| digital-computational-methods | Helps you design digital or computational research methods. Covers digital ethnography, platform ethics, large-scale text analysis, and working alongside AI tools. |
+| paper-planning | Helps you work out what your paper actually argues before you draft it. Extracts your claim, positions it against existing work, and sequences your argument through questions rather than writing. |
+| research-writing | Helps you write your article or dissertation chapter. Covers its structure, ethnographic craft, and the conventions of your subfield or journal. |
+| abstract-writing | Helps you write the abstract, title, and keywords for a journal or thesis submission. Builds the abstract from your manuscript's own claim, cuts it to the word limit and tells you what the cut cost, checks that it does not promise more than the manuscript delivers or name a site your anonymization protects, and picks keywords that index what the title leaves out. |
+| academic-review | Helps you write peer reviews and respond to them. Covers writing the review itself, rebuttal letters, and your revision strategy. |
+| rival-interpretations | Helps you test a claim against rival readings before a reviewer does. Argues your material from three other analytical positions, separates what they agree on from what stays genuinely open, and leaves you a record for your methods section. |
+| manuscript-markup | Helps you work through a manuscript that came back marked up with comments. Reads each comment in place, sorts them, works through them, and drafts your reply letter. |
+| proof-review | Helps you check a publisher's typeset proof against the manuscript you submitted. Compares them word by word, checks that your pseudonyms, quoted speech, and citations survived production, and writes the correction list you send back. |
+| conference-materials | Helps you prepare for a conference. Covers abstracts, slide decks, posters, speaker notes, and how you will deliver the talk. |
+| public-engagement | Helps you write for a general audience. Covers op-eds, blog posts, policy briefs, and community reports. |
+| job-materials | Helps you prepare your job market materials. Covers your CV, cover letter, job talk, and overall application strategy. |
+| career-statements | Helps you write your career statements. Covers research, teaching, and diversity statements, and tenure narratives. |
+| teaching-materials | Helps you build your course materials. Covers syllabi, lesson plans, assignments, rubrics, and discussion guides. |
+| applied-practice | Helps you write client-facing deliverables. Covers statements of work, stakeholder readouts, insight synthesis, and workshop materials. |
+| repeated-work | Helps you decide whether work you keep repeating is actually worth turning into a tool. Only if it is, helps you figure out what kind of tool it should be. |
+| tool-building | Helps you build your own research tool, like a scraper, MCP server, skill, or agent. Works out a specification with you before writing any code. |
+
+### Using the Skills in Other Agents
+
+Each skill is a self-contained folder (`SKILL.md` plus a `references/` directory) in the portable format that most 2026 coding agents read. To install one outside Claude Code, clone the repository and copy the skill folder — plus `skills/DESIGN.md`, the shared analytical-lens reference the skills consult — into your agent's skills directory:
+
+```bash
+git clone https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit.git
+cp -r AI-Anthropology-Toolkit/skills/qualitative-analysis AI-Anthropology-Toolkit/skills/DESIGN.md ~/.codex/skills/
+```
+
+| Agent | Skills directory |
+|:------|:-----------------|
+| Claude Code | `~/.claude/skills/` (or install the plugin — all 27 at once) |
+| OpenAI Codex CLI | `~/.codex/skills/` |
+| Cursor | `~/.cursor/skills/` |
+| GitHub Copilot / VS Code | `~/.copilot/skills/` |
+| Shared project-level | `.agents/skills/` in your repository |
+
+The skills pair naturally with the MCP server (below): descriptions route the request, the server runs the pipeline.
+
+## Agents
+
+Autonomous Claude Code subagents that orchestrate across multiple skills for complex, multi-step tasks.
+
+| Agent | Description |
+|:------|:------------|
+| research-design | Orchestrates question, methodology, and plan skills for end-to-end research design |
+| ethics-reviewer | Reviews research designs for ethics issues, drafts protocols and consent documents |
+| proposal-advisor | Translates research designs into persuasive funder-specific narratives |
+| fieldwork-advisor | Designs instruments tailored to specific research questions and fieldwork contexts |
+| analysis-advisor | Guides qualitative coding, codebook development, and thematic analysis |
+| writing-advisor | Guides argument planning, article/chapter writing, and R&R management |
+| dissemination-advisor | Handles register translation between academic and public audiences |
+| career-advisor | Coordinates application packages and course design |
+| network-analyst | Builds and reads networks of coded material (codes that co-occur, speakers to codes, lens agreement) with the MCP network tools; no Gephi required |
+| tool-builder | Builds a research instrument, or a skill, agent, or MCP tool for this toolkit. The only agent here that writes files |
+
+## Commands
+
+| Command | Description |
+|:------|:------------|
+| `/ai-anthropology:new-project` | Scaffold a new research project through guided phases |
+| `/ai-anthropology:build-tool` | Build a research instrument, specification first |
+| `/ai-anthropology:test-claim` | Test one interpretive claim against rival readings, and record what stays open |
+| `/ai-anthropology:skills` | List the toolkit's skills, agents, and commands |
+
+## MCP Server
+
+The toolkit also ships as a Python package ([`ai-anthropology-toolkit` on PyPI](https://pypi.org/project/ai-anthropology-toolkit/)) with an MCP server, so Claude (and other MCP clients) can drive the full research pipeline conversationally: data collection (OpenAlex, CrossRef, PubMed, Google Scholar, Google Trends, Google News, Google Patents, Books Ngram, YouTube search and transcripts, podcast RSS), citation formatting (a bare DOI rendered in any CSL style, including the anthropology journal styles), and analysis (transcript chunking, lens-configured codebook generation, qualitative coding with per-code validation, thematic analysis, and cross-lens comparison).
+
+Installing the Claude Code plugin (above) bundles the server automatically. It also registers in any other MCP-capable agent — the command is the same everywhere:
+
+**Claude Code**
+
+```
+claude mcp add ai-anthropology -- uvx --from "ai-anthropology-toolkit[data]==3.8.0" ai-anthro-mcp
+```
+
+**OpenAI Codex CLI**
+
+```
+codex mcp add ai-anthropology -- uvx --from "ai-anthropology-toolkit[data]==3.8.0" ai-anthro-mcp
+```
+
+**Google Gemini CLI**
+
+```
+gemini mcp add -s user ai-anthropology uvx -- --from "ai-anthropology-toolkit[data]==3.8.0" ai-anthro-mcp
+```
+
+The server also builds and reads networks of coded material with no Gephi installed: `build_network` (codes that co-occur, speakers to codes, lenses by agreement), `analyze_network` (layout, communities, centralities, a visual-QA reading), `view_network` (an interactive map in chat where the host renders MCP Apps), and `export_network` (GEXF for Gephi, where [Gephi AI](https://github.com/MattArtzAnthro/gephi-ai) takes over).
+
+The server is model-agnostic. With `ANTHROPIC_API_KEY` set, analysis runs autonomously (`api` mode). Without it, whichever model is orchestrating — Claude, GPT, or Gemini — performs each interpretive step itself through validated work packets (`delegated` mode): the analysis runs on your model, the methodology and validation run on the server, and every coding decision stays visible to the researcher.
+
+### Coding Agents & Sandboxes
+
+AI coding agents — Claude Code and Claude Desktop's Cowork, OpenAI Codex CLI, Gemini CLI — often run in sandboxed environments where MCP connectors are unavailable but `pip` and Python still work. The toolkit degrades gracefully across three tiers:
+
+1. **MCP tools available** → use them; the full pipeline runs natively.
+2. **Code execution only** → install the package and call the Python API directly:
+
+   ```bash
+   pip install "ai-anthropology-toolkit[data]"
+   python -m ai_anthro_toolkit.doctor
+   ```
+
+   The doctor (`python -m ai_anthro_toolkit.doctor`, also installed as `ai-anthro-doctor`) probes every data source from the current network and reports which are reachable. Sandbox network policies typically allow the scholarly APIs (OpenAlex, CrossRef, PubMed) and block the Google/YouTube scraping endpoints — collect what is reachable and route each blocked source to local execution or its Colab notebook (the doctor prints the link). The collector functions live in `ai_anthro_toolkit.datasources`; transcript chunking (`ai_anthro_toolkit.chunking`, fully local) and the 42-lens registry (`ai_anthro_toolkit.lenses`) work in any environment. Agent-facing instructions for this fallback chain ship in this repository as [AGENTS.md](AGENTS.md) and [GEMINI.md](GEMINI.md).
+3. **No code execution either** → every capability runs in the browser through the Colab notebooks below.
+
+### Checking an artifact
+
+```bash
+ai-anthro-check path/to/codebook.json      # or: python -m ai_anthro_toolkit.checks <path>
+```
+
+Runs the standing checks over a codebook or a coded dataset and reports what they found. Most of these run on their own, without being asked, whenever the toolkit produces one of those artifacts; the command exists so you can re-run them later, on an artifact you were handed, without the pipeline that made it.
+
+A check that fires is a question rather than a verdict. It names a commitment the artifact implies — that codes were meant to be mutually exclusive, that every code in the book was meant to earn its place, that the codebook did not move mid-pass — and only you can say whether that commitment is yours. A check that could not run is reported as unrun, never as passed, and a run in which nothing capable of surprising you executed says so.
+
+When you build an instrument through `tool-building`, it writes `instrument-checks.json` beside your data from the commitments you settled while specifying it — what an empty result means, whether a repeated identifier is an error, whether a field is required. `ai-anthro-check` picks that file up automatically, so the checks are about your artifact rather than only the toolkit's.
+
+The file says what it cannot do. A commitment that cannot be checked from the data alone — whether source order was preserved, for instance, which only the source can settle — is listed as unenforceable with the reason. If you settled five commitments and three became checks, it tells you which two did not and why.
+
+One flag matters: `--distinct-codes` if you hold codes to be mutually exclusive, `--overlapping-codes` if you keep overlapping codes deliberately, as grounded theory and several interpretive traditions do. Left unsaid, the check that depends on it does not run, because that is a methodological commitment and not the toolkit's to assume.
+
+## Notebooks
+
+Standalone notebooks for computational qualitative research. Most run directly in Google Colab; notebooks marked **Local** should be run on your own machine (see [Running Locally](#running-locally) below).
+
+### Data Collection
+
+Gather scholarly, public, and media data through official APIs and structured collectors.
+
+| Notebook | Run | Description |
+|:---------|:---:|:------------|
+| [Academic Literature Explorer](notebooks/Academic_Literature_Explorer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Academic_Literature_Explorer.ipynb) | Search 250M+ scholarly works across all disciplines via OpenAlex with citation counts and open access detection |
+| [CrossRef Reference Verifier](notebooks/CrossRef_Reference_Verifier.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/CrossRef_Reference_Verifier.ipynb) | Verify reference lists against canonical CrossRef metadata — DOI resolution, text-vs-record comparison, retraction flags — plus journal and author queries |
+| [PubMed Literature Harvester](notebooks/PubMed_Literature_Harvester.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/PubMed_Literature_Harvester.ipynb) | Search PubMed and enrich results with metadata from CrossRef, OpenAlex, and Semantic Scholar |
+| [World Bank Data Explorer](notebooks/World_Bank_Data_Explorer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/World_Bank_Data_Explorer.ipynb) | Retrieve development indicators from the World Bank API — 16,000+ series across 200+ economies, no API key required |
+| [UN Data Explorer](notebooks/UN_Data_Explorer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/UN_Data_Explorer.ipynb) | Retrieve UN development data — SDG indicators (no key) and UNDP Human Development indices (free API key) |
+| [BLS Labor Statistics Explorer](notebooks/BLS_Labor_Statistics_Explorer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/BLS_Labor_Statistics_Explorer.ipynb) | Retrieve US labor and economic series from the Bureau of Labor Statistics — unemployment, prices, wages — keyless |
+| [Google Books Ngram Explorer](notebooks/Google_Books_Ngram_Explorer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Google_Books_Ngram_Explorer.ipynb) | Analyze historical word frequency patterns across Google Books corpora (1800-2022) with visualization and export |
+| [Google Trends Explorer](notebooks/Google_Trends_Explorer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Google_Trends_Explorer.ipynb) | Retrieve and visualize Google Trends data with multi-term comparison, regional breakdowns, and related queries |
+| [Google News Explorer](notebooks/Google_News_Explorer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Google_News_Explorer.ipynb) | Search Google News by keyword, time period, and country with quick or extended date-range modes |
+| [Google Scholar Explorer](notebooks/Google_Scholar_Explorer.ipynb) | Local | Search Google Scholar for publications with year filtering, citation counts, and structured export |
+| [Google Patents Explorer](notebooks/Google_Patents_Explorer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Google_Patents_Explorer.ipynb) | Search Google Patents for patent metadata including titles, inventors, assignees, and filing dates |
+| [YouTube Video Search](notebooks/YouTube_Video_Search.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/YouTube_Video_Search.ipynb) | Search YouTube and export video metadata including titles, channels, views, and durations |
+| [YouTube Transcript Fetcher](notebooks/YouTube_Transcript_Fetcher.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/YouTube_Transcript_Fetcher.ipynb) | Fetch YouTube video transcripts with language selection, segment chunking, and multiple export formats |
+| [Podcast RSS Explorer](notebooks/Podcast_RSS_Explorer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Podcast_RSS_Explorer.ipynb) | Pull episode metadata from any podcast RSS feed with titles, dates, durations, and structured export |
+
+### Qualitative Analysis Pipeline
+
+Four notebooks cover the path from recording to themes — transcribe, segment, build a codebook from your source literature, then code and construct themes. The transcript chunker and the codebook builder both feed coding and thematic analysis. Each also works standalone.
+
+| Notebook | Run | Description |
+|:---------|:---:|:------------|
+| [Audio Transcription with Whisper](notebooks/Audio_Transcription_Whisper.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Audio_Transcription_Whisper.ipynb) | Transcribe audio and video recordings locally with Whisper — timestamped transcripts, optional speaker diarization, and Chunker-ready export |
+| [Interview Transcript Semantic Chunker](notebooks/Interview_Transcript_Semantic_Chunker.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Interview_Transcript_Semantic_Chunker.ipynb) | Segment interview transcripts into semantically coherent chunks with speaker-aware processing and coherence scoring — fully local, no API key required |
+| [Qualitative Codebook Builder](notebooks/Qualitative_Codebook_Builder.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Qualitative_Codebook_Builder.ipynb) | Build qualitative codebooks from source literature with AI-assisted code generation, validation, and structured export |
+| [Coding and Thematic Analysis](notebooks/Coding_and_Thematic_Analysis.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Coding_and_Thematic_Analysis.ipynb) | Apply codes to qualitative data and build themes using deductive, inductive, or hybrid approaches, with multi-lens parallel analysis and cross-lens comparison |
+
+### Multimodal & Visual Analysis
+
+Work with images, audio, video, and mixed-media collections through Gemini's multimodal models (free API key from Google AI Studio).
+
+| Notebook | Run | Description |
+|:---------|:---:|:------------|
+| [Multimodal Embedding Explorer](notebooks/Multimodal_Embedding_Explorer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Multimodal_Embedding_Explorer.ipynb) | Embed text, images, audio, video, and PDFs into one vector space — similarity, clustering, UMAP maps, and cross-modal search |
+| [Visual Analysis & Image Annotation](notebooks/Visual_Analysis_Image_Annotation.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Visual_Analysis_Image_Annotation.ipynb) | Annotate field photos with Gemini vision — ethnographic descriptions, structured tags, and categorization |
+
+### Computational Text Analysis
+
+Standalone notebooks for analyzing text corpora at scale.
+
+| Notebook | Run | Description |
+|:---------|:---:|:------------|
+| [Text Network Analysis](notebooks/Text_Network_Analysis.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Text_Network_Analysis.ipynb) | Build co-occurrence networks from text with community detection, centrality metrics, and interactive visualization |
+| [Topic Modeling (BERTopic)](notebooks/Topic_Modeling_BERTopic.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Topic_Modeling_BERTopic.ipynb) | Discover topics in text collections using transformer-based clustering with interactive visualizations and zero-shot mode |
+| [Named Entity Recognition (GLiNER2)](notebooks/Named_Entity_Recognition_GLiNER2.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MattArtzAnthro/AI-Anthropology-Toolkit/blob/main/notebooks/Named_Entity_Recognition_GLiNER2.ipynb) | Extract people, places, organizations, concepts, and custom entity types from text using zero-shot NER |
+
+## Releasing
+
+Maintainer checklist for cutting a release, covering the two version tracks, the upload-before-push ordering, and how to verify a release actually resolves: [RELEASING.md](RELEASING.md).
+
+## Companion Plugins
+
+Where a specialized tool already owns a capability, the toolkit hands off to it instead of duplicating it here.
+
+| Plugin | Capability | Install |
+|:-------|:-----------|:--------|
+| [gephi-network-analysis](https://github.com/MattArtzAnthro/gephi-ai) | Network analysis in live Gephi Desktop — text-network construction, layouts, centrality and community metrics, structural claim verification | `claude plugin marketplace add MattArtzAnthro/gephi-ai`, then `claude plugin install gephi-network-analysis@gephi-ai` |
+
+With the companion installed, the digital-computational-methods skill hands network-analysis execution to it. Without it, the skill falls back to the [Text Network Analysis notebook](notebooks/Text_Network_Analysis.ipynb) and a GEXF export for manual work in Gephi.
+
+## Getting Started
+
+### Claude Code Plugin
+
+Install the plugin in Claude Code:
+
+```
+/plugin marketplace add MattArtzAnthro/AI-Anthropology-Toolkit
+/plugin install ai-anthropology@ai-anthropology
+```
+
+Skills activate automatically when Claude detects relevant context. Agents handle multi-step tasks across skills. Commands are invoked with slash syntax.
+
+### Notebooks (Colab)
+
+Click any **Open in Colab** badge in the Notebooks section to run a notebook directly in your browser. Each notebook handles its own dependencies — no local installation needed.
+
+### Running Locally
+
+Some notebooks (marked **Local** in the table) need to be run on your own machine. This requires Python and Jupyter.
+
+**If you already have Anaconda/Miniconda installed:**
+
+```bash
+pip install scholarly
+jupyter notebook
+```
+
+Then open the notebook file from the Jupyter file browser.
+
+**If you need to install Jupyter from scratch:**
+
+```bash
+pip install jupyter scholarly
+jupyter notebook
+```
+
+Notebooks that run locally will install any other dependencies they need automatically when you run the first cell.
+
+## License
+
+This repository — notebooks, Python package, MCP server, plugin content, and documentation — is licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE): free for noncommercial use, including research, education, and work by nonprofit and government research organizations, with attribution to Matt Artz appreciated. For commercial licensing, contact [Matt Artz](https://www.mattartz.me/).
+
+## Citation
+
+If you use this toolkit in your academic research, please cite:
+
+> Artz, Matt. 2025. AI Anthropology Toolkit. Software. Zenodo. https://doi.org/10.5281/zenodo.16728812
+
+## Research Behind the Toolkit
+
+The toolkit operationalizes a published research program on AI Anthropology:
+
+Artz, Matt. 2026. "A Call for an AI Anthropology." General Anthropology 33(1): 23–28. https://doi.org/10.1111/gena.70007.
+
+Artz, Matt. 2026. "Multi-Agent Ethnography: Post-Conventional Anthropological Practice Through Human-AI Collaboration." Anthropological Forum. https://doi.org/10.1080/00664677.2026.2614501.
+
+Artz, Matt. 2026. "Artificial Intelligence: The AI Anthropology Lifecycle (of, by, for AI)." In Practicing Digital Ethnography, edited by Devin Proctor. Routledge. https://doi.org/10.4324/9781032672663-29.
+
+Koycheva, Lora, Angela K. VandenBroek, and Matt Artz, eds. 2026. Anthropology and AI. New York: Routledge. https://doi.org/10.4324/9781003532750.
+
+Artz, Matt. 2023. From Machine Learning to Machine Knowing: A Digital Anthropology Approach for the Machine Interpretation of Cultures. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000384902.
+
+Artz, Matt. 2023. "Ten Predictions for AI and the Future of Anthropology." Anthropology News, May 8. https://doi.org/10.1111/AN.1605.
+
+Artz, Matt. Forthcoming. "AI Anthropology: The Future of Applied Anthropological Practice." In Routledge Handbook of Applied Anthropology, edited by Christina Wasson, Edward B. Liebow, Karine L. Narahara, Ndukuyakhe Ndlovu, and Alaka Wali. New York: Routledge.
+

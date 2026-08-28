@@ -1,0 +1,12 @@
+---
+title: "how to setup llama.cpp and blender to make lovely 3d stuff together"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1w0r66e/how_to_setup_llamacpp_and_blender_to_make_lovely/"
+date: "2026-08-28"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "see here or read the following: ### I've found this workaround/complete setup: - git clone https://projects.blender.org/lab/blender_mcp.git - cd blender_mcp - uv --directory ./mcp/ run blender-mcp --transport http --port 9191 (this last command raise the error relative to this issue because mcp v2 is installed) - uv --directory ./mcp/ pip uninstall mcp -... (Local summary fallback used.)"
+---
+
+see here or read the following: ### I've found this workaround/complete setup: - git clone https://projects.blender.org/lab/blender_mcp.git - cd blender_mcp - uv --directory ./mcp/ run blender-mcp --transport http --port 9191 (this last command raise the error relative to this issue because mcp v2 is installed) - uv --directory ./mcp/ pip uninstall mcp - uv --directory ./mcp/ add mcp==1.29.1 - uv --directory ./mcp/ run blender-mcp --transport http --port 9191 (now the mcp server works again) ### Into llama-server webui, i.e. usually browser url http://localhost:8080 or http://localhost:9931 (latest llama.cpp default webui port): - start llama-server as usual loading your preferred model and settings adding the option --ui-mcp-proxy - big + (under chat edit box) > mcp servers > enter server url http://127.0.0.1:9191 then check "Use llama-server proxy" ### Also, to install the counterpart addon that will communicate with the enabled mcp server above: - cd addon - zip -r blender_mcp_addon.zip blender_mcp_addon/ ### Into blender: - edit > preferences > system > allow online access - edit > preferences > addons > V > install from disk - navigate to the path where the just created zip is and select it - start the addon (don't change its port from default 9876) - create a new empty scene if not already set ### Go back into llama-server webui - write into the chat edit box something like: "_in blender create a simple house over a grass field with a tree beside the house and a car in front of it, adjust the camera to nicely fit all the objects into the scene_" (authorize subsequent exec_blender_stuff requests or go into settings > tools > blender mcp, check all the auth boxes) ## ENJOY submitted by /u/DevelopmentBorn3978 [link] [comments]
