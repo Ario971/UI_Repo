@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T11:24:33.026Z",
+  "updated_at": "2026-08-30T10:10:42.641Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Assessing Company Contributions to Societal Resilience: Extending the Societal Capacity Assessment Framework to Agentic AI",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.27238v1",
+      "date": "2026-08-27",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Companies that deploy AI agents and make them available to others are creating the sociotechnical circumstances under which this technology integrates into existing social and economic structures. AI-deploying companies are institutional actors that actively shape society's capacity to withstand and govern the consequences of agentic AI. In view of these... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/06-assessing-company-contributions-to-societal-resilience-extending-the-s.md"
+    },
+    {
+      "title": "Inside three.ws: The Open-Source Stack That Gives AI Agents a Body, a Brain, a Wallet, and a Job three-ws • about 19 hours ago • 40",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/three-ws/building-3d-ai-agents-end-to-end",
+      "date": "2026-08-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Inside three.ws: The Open-Source Stack That Gives AI Agents a Body, a Brain, a Wallet, and a Job three-ws • about 19 hours ago • 40 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-30/07-inside-three-ws-the-open-source-stack-that-gives-ai-agents-a-body-a-br.md"
+    },
+    {
+      "title": "manuel-alvarez-alvarez/ariadne",
+      "source": "GitHub Trending",
+      "url": "https://github.com/manuel-alvarez-alvarez/ariadne",
+      "date": "2026-08-30",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Docker-style orchestrator for AI coding agents, plans goals into tasks, runs engineers and reviewers in tmux + git worktrees. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-30/08-manuel-alvarez-alvarez-ariadne.md"
+    },
+    {
+      "title": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "date": "2026-08-25",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-25/09-aug-25-2026-announcements-funding-better-evaluations-of-ai-s-impact-on.md"
+    },
+    {
+      "title": "Show HN: DataZen – a local-first client for cross-database workflows",
+      "source": "Hacker News Show HN",
+      "url": "https://flyxl.github.io/datazen/",
+      "date": "2026-08-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "My company stopped allowing Navicat because of compliance policy. DBeaver worked, but I don't like it. I kept running into two recurring issues. First, production investigations often require several queries across different databases. I would query one table, copy an ID into another query, wait for the result, and repeat the process several times. I star... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-29/10-show-hn-datazen-a-local-first-client-for-cross-database-workflows.md"
+    },
+    {
+      "title": "tailolicon/hachimi-tl-vi",
+      "source": "GitHub Search API",
+      "url": "https://github.com/tailolicon/hachimi-tl-vi",
+      "date": "2026-08-30",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "tailolicon/hachimi-tl-vi Stars: 1 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/11-tailolicon-hachimi-tl-vi.md"
+    },
+    {
+      "title": "tanmaykumar7106-collab/CityPulse-AI",
+      "source": "GitHub Search API",
+      "url": "https://github.com/tanmaykumar7106-collab/CityPulse-AI",
+      "date": "2026-08-30",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "tanmaykumar7106-collab/CityPulse-AI Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/12-tanmaykumar7106-collab-citypulse-ai.md"
+    },
+    {
+      "title": "karthikkumarjks-lab/Marketing-AI-Agent",
+      "source": "GitHub Search API",
+      "url": "https://github.com/karthikkumarjks-lab/Marketing-AI-Agent",
+      "date": "2026-08-30",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "karthikkumarjks-lab/Marketing-AI-Agent Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/13-karthikkumarjks-lab-marketing-ai-agent.md"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next at 170K context on a single 96 GB card. ~110 tok/s.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2b2j0/qwen38flashnext_at_170k_context_on_a_single_96_gb/",
+      "date": "2026-08-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I used the quantized n-gram to INT4, it's 32 GB, memory-mapped from disk. I confirmed that it works great on 150-160k context, and i was watching all the time my VRAM usage while doing single thread long horizon things - the available VRAM should be enough to push it to over 170k and above) The quality is there guys... It really is. It made a few complex... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-30/14-qwen3-8-flash-next-at-170k-context-on-a-single-96-gb-card-110-tok-s.md"
+    },
+    {
+      "title": "How important is it for Chinese LLMs to reach the Opus 4.8 level?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1l3a2/how_important_is_it_for_chinese_llms_to_reach_the/",
+      "date": "2026-08-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "In mid-August, Ramp published spending data collected from 70,000 U.S. companies: Fable 5 ,the most powerful and expensive model in Anthropic’s lineup, accounts for just 11% of what those businesses spend on the company’s tools. The remaining 79% is worth its weight in gold. With the new releases from Qwen and GLM, we are likely close to Opus 4.8, and cer... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/15-how-important-is-it-for-chinese-llms-to-reach-the-opus-4-8-level.md"
+    },
+    {
+      "title": "Exo labs claiming 4.8 tb/s memory bandwidth through m5u Mac Studio clustering",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1nc1c/exo_labs_claiming_48_tbs_memory_bandwidth_through/",
+      "date": "2026-08-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Exo labs making some very exciting and interesting claims. The headline is bandwidth scales linearly on Mac Studio clusters with their solution. There is a thread over at localllm subreddit ( https://www.reddit.com/r/LocalLLM/s/qEYLOFaYwc ) where one of their employees speaks about how its latency, not bandwidth that matters in their RDMA clustering solut... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/16-exo-labs-claiming-4-8-tb-s-memory-bandwidth-through-m5u-mac-studio-clu.md"
+    },
+    {
+      "title": "Humaneval benchmark for Deepseek V4 Flash 0731 vs GLM5.3 Flash on 2x DGX Spark setup",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w215qm/humaneval_benchmark_for_deepseek_v4_flash_0731_vs/",
+      "date": "2026-08-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I have a 2 DGX Spark setup recently and I have been happily running Deepseek V4 Flash 0731. Since the release of GLM5.3 Flash and Qwen 3.8 Flash Next this week, a lot of folks are still waiting to see what model to run given their own hardware situations. I am very interested in running a GLM model locally and looks like nvfp4 would be a good option for m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/17-humaneval-benchmark-for-deepseek-v4-flash-0731-vs-glm5-3-flash-on-2x-d.md"
+    },
     {
       "title": "Show HN: Itsuki – open-source memory engine for AI agents (API and MCP)",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Fast local-first AI assistant with bounded reasoning, verified retrieval, privacy-aware memory, and defensive cybersecurity. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/12-muhrafi-fsdev-nusamind-swift.md"
-    },
-    {
-      "title": "Show HN: Let's Seal – Let's Encrypt for document signing, free and self-hosted",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/letsseal/letsseal",
-      "date": "2026-07-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "TLDR, Let's Seal gives the finger to Adobe and every doc signing tool (docusign, google, etc) who pay to play with the Adobe Approved Trust List and then charge you for something that should be free. Currently even the person checking if a document/contract is sealed or code is authentic has to also be inside the same Adobe walled garden too. Verification... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-27/13-show-hn-let-s-seal-let-s-encrypt-for-document-signing-free-and-self-ho.md"
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang defends Open Source AI by saying distillation is fundamental to learning",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v81nqt/nvidia_ceo_jensen_huang_defends_open_source_ai_by/",
-      "date": "2026-07-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Nvidia CEO Jensen Huang “Distillation - learning from AI, learning from other people, and learning from other sources of knowledge, is fundamental to intelligence. We are constantly learning from one another. AI also has to learn from something.” Since using AI Desktop 98 , I have become a staunch advocate of local AI. In his Axios interview, Jensen expla... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/14-nvidia-ceo-jensen-huang-defends-open-source-ai-by-saying-distillation-.md"
-    },
-    {
-      "title": "Kimi K3 is like an F1 machine inside a show window.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8gum2/kimi_k3_is_like_an_f1_machine_inside_a_show_window/",
-      "date": "2026-07-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Moonshot dropped Kimi K3, and as expected, it’s a absolute monster. Even with 2~4x RTX 6000 Blackwell local workstations, running a model natively is virtually impossible. It feels like an F1 machine inside a show window. Does anyone trying to hack this monster? or Is anyone with datacenter/cluster capacity or sponsor? I either carve this monster down mys... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/15-kimi-k3-is-like-an-f1-machine-inside-a-show-window.md"
-    },
-    {
-      "title": "Viable ways to run K3 locally",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v866sg/viable_ways_to_run_k3_locally/",
-      "date": "2026-07-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "just curious how would people run it cheap if they really want kimi k3. dgx spark / strix halo clusters optane persistent memory platform + some gpus mac studio clusters orange pi 6 clusters ssd streaming + gpus multiple ddr3 + connectx 5 rdma clients two dgx stations power 10 systems? other submitted by /u/ylchao [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/16-viable-ways-to-run-k3-locally.md"
-    },
-    {
-      "title": "Anthropic is calling for a ban on open-weights models by proposing mandatory requirements they will probably never be able to meet",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8hk6b/anthropic_is_calling_for_a_ban_on_openweights/",
-      "date": "2026-07-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/realmvp77 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-27/17-anthropic-is-calling-for-a-ban-on-open-weights-models-by-proposing-man.md"
-    },
-    {
-      "title": "Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://con-dog.github.io/MINIMIO-PUBLIC-FRONTEND/",
-      "date": "2026-07-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HackerNews, I built this project over the last few weeks as a palette cleanser from a failed game launch. I wanted to learn a bit about AI/Neural-Networks and naively thought I could build a tiny maze-solving AI in a weekend with a 100% solve rate. Well - I couldn't, but I got pretty close. 14 Bytes total model size, and a 96.5% solve rate on unseen m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-27/06-show-hn-watch-14-byte-ai-brains-attempt-to-solve-a-2d-maze-its-hard.md"
-    },
-    {
-      "title": "Show HN: ASL V6 – Open-source AST red-teaming engine for Python AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/sivaadityacoder/asl-v6",
-      "date": "2026-07-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: ASL V6 – Open-source AST red-teaming engine for Python AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-27/07-show-hn-asl-v6-open-source-ast-red-teaming-engine-for-python-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Wmux – A workspace multiplexer for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/openwong2kim/wmux",
-      "date": "2026-07-26",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Wmux – A workspace multiplexer for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-26/08-show-hn-wmux-a-workspace-multiplexer-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Physically accurate black hole you can put in your room",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://blackhole.plav.in",
-      "date": "2026-07-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We have a black hole at home — with actual relativistic physics, live in your browser. I'm Sasha (Alexander) Plavin, an astrophysicist at Harvard's Black Hole Initiative studying quasars and black hole environments. I work with raytracing/radiative transfer simulations professionally, and wanted to make one anyone can play with — so I built this app. Put... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/09-show-hn-physically-accurate-black-hole-you-can-put-in-your-room.md"
-    },
-    {
-      "title": "Show HN: GG Translator – Turn gaming shit talk into friendly phrases",
-      "source": "Hacker News Show HN",
-      "url": "https://ggtranslator.com",
-      "date": "2026-07-26",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Flaming teammates usually results in them cooperating even less. But sometimes you just need to let the devil out of you. Instead of venting on your teammates and pissing them off, vent into GG Translator and it will convert your toxic message into a friendly and constructive one to share with your team. https://ggtranslator.com My background is in buildi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/10-show-hn-gg-translator-turn-gaming-shit-talk-into-friendly-phrases.md"
-    },
-    {
-      "title": "DheerajPranav/mnemo-ir",
-      "source": "GitHub Search API",
-      "url": "https://github.com/DheerajPranav/mnemo-ir",
-      "date": "2026-07-26",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "MnemoIR — Causal Memory Incident Response for AI agents. Trace the blast radius of a bad/poisoned memory, repair the affected state, and prove the agent recovered. Composes Mnemo + NeuroTrace + RIFT. Built with Genesis. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/11-dheerajpranav-mnemo-ir.md"
-    },
-    {
-      "title": "Saishivram/skylark",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Saishivram/skylark",
-      "date": "2026-07-27",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Saishivram/skylark Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-27/12-saishivram-skylark.md"
     }
   ]
 }

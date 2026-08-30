@@ -1,10 +1,200 @@
 {
-  "last_checked_at": "2026-08-29T11:25:00.075Z",
+  "last_checked_at": "2026-08-30T10:11:02.624Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "cookys/autopilot",
+      "name": "cookys/autopilot",
+      "url": "https://github.com/cookys/autopilot",
+      "date": "2026-08-30",
+      "source": "awesome-mcp",
+      "category": "awesome_lists",
+      "kind": "claude_skill",
+      "compatibility": 79,
+      "momentum": 63,
+      "risk": 40,
+      "integration_effort": 28,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
+          "date": "2026-07-30",
+          "topic": "AI dev tools",
+          "similarity": 0.225,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-30)",
+        "MIT license",
+        "11 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [],
+      "install_commands": [
+        "codex plugin add autopilot@autopilot-local"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-07-30 about AI dev tools; this candidate overlaps with \"Show HN: Claude-account – switch Claude Code accounts without logging in again\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-30/01-cookys-autopilot.md"
+    },
+    {
+      "id": "src114514/arona-agent",
+      "name": "SRC114514/arona-agent",
+      "url": "https://github.com/SRC114514/arona-agent",
+      "date": "2026-08-30",
+      "source": "awesome-mcp",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 76,
+      "momentum": 64,
+      "risk": 43,
+      "integration_effort": 60,
+      "expected_gain": 87,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "LamsonRetail/lsr-agent-platform",
+          "date": "2026-08-18",
+          "topic": "AI dev tools",
+          "similarity": 0.313,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+        },
+        {
+          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
+          "date": "2026-08-11",
+          "topic": "AI agents",
+          "similarity": 0.294,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
+        },
+        {
+          "title": "Show HN: Clixad – Free AI coding agent in the terminal, funded by an offerwall",
+          "date": "2026-08-13",
+          "topic": "AI agents",
+          "similarity": 0.243,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/09-show-hn-clixad-free-ai-coding-agent-in-the-terminal-funded-by-an-offer.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-30)",
+        "MIT license",
+        "13 GitHub stars",
+        "README includes install commands"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @earendil-works/pi-ai, @earendil-works/pi-coding-agent, @modelcontextprotocol/sdk, @types/figlet, ba-click-fx, chalk, electron, figlet; scripts start, dev, package"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps cua>=0.1.1,<0.2.0, websockets>=12.0, pyaudio>=0.2.14, numpy>=1.26.0, pynput>=1.8.0, dashscope>=1.20.0"
+        }
+      ],
+      "install_commands": [
+        "npm i -g arona-agent",
+        "npx arona-agent",
+        "npm u -g arona-agent"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-18 about AI dev tools; this candidate overlaps with \"LamsonRetail/lsr-agent-platform\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-30/02-src114514-arona-agent.md"
+    },
+    {
+      "id": "mivialabs/mivia-agent",
+      "name": "MiviaLabs/mivia-agent",
+      "url": "https://github.com/MiviaLabs/mivia-agent",
+      "date": "2026-08-30",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 79,
+      "momentum": 49,
+      "risk": 32,
+      "integration_effort": 56,
+      "expected_gain": 87,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.485,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        },
+        {
+          "title": "Show HN: Clixad – Free AI coding agent in the terminal, funded by an offerwall",
+          "date": "2026-08-13",
+          "topic": "AI agents",
+          "similarity": 0.445,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/09-show-hn-clixad-free-ai-coding-agent-in-the-terminal-funded-by-an-offer.md"
+        },
+        {
+          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
+          "date": "2026-08-11",
+          "topic": "AI agents",
+          "similarity": 0.421,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-08-30)",
+        "AGPL-3.0 license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "go.mod",
+          "summary": "module github.com/MiviaLabs/mivia-agent"
+        }
+      ],
+      "install_commands": [
+        "go install github.com/MiviaLabs/mivia-agent/cmd/mivia@latest",
+        "git clone https://github.com/MiviaLabs/mivia-agent.git"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-30/03-mivialabs-mivia-agent.md"
+    },
     {
       "id": "fastrepl/anarlog",
       "name": "fastrepl/anarlog",
@@ -19555,183 +19745,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-05-20 about AI agents; this candidate overlaps with \"Show HN: Dari-docs – Optimize your docs using parallel coding agents\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-22/02-bdaskbot-maker-bdask-super-ai-complete.md"
-    },
-    {
-      "id": "hesnotsoharry/ouroboros",
-      "name": "hesnotsoharry/Ouroboros",
-      "url": "https://github.com/hesnotsoharry/Ouroboros",
-      "date": "2026-05-22",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 94,
-      "momentum": 45,
-      "risk": 40,
-      "integration_effort": 56,
-      "expected_gain": 77,
-      "composite": 68,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
-          "date": "2026-05-20",
-          "topic": "AI agents",
-          "similarity": 0.195,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-22)",
-        "MIT license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "package metadata could not be parsed"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/colesam/agent-ide.git",
-        "npm install        # also runs electron-rebuild for node-pty and better-sqlite3",
-        "npm run dev        # starts dev server + Electron with hot-reload",
-        "npm run build          # Production build (electron-vite, 3 targets)",
-        "npm run dist           # Build + package (NSIS on Windows, DMG on Mac, AppImage on Linux)",
-        "npm run build:web      # Web deployment — renderer + WebSocket preload shim to out/web/"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-20 about AI agents; this candidate overlaps with \"Show HN: Dari-docs – Optimize your docs using parallel coding agents\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-22/03-hesnotsoharry-ouroboros.md"
-    },
-    {
-      "id": "notnull92/hera-agent",
-      "name": "NotNull92/hera-agent",
-      "url": "https://github.com/NotNull92/hera-agent",
-      "date": "2026-05-21",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 97,
-      "momentum": 61,
-      "risk": 40,
-      "integration_effort": 48,
-      "expected_gain": 77,
-      "composite": 73,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
-          "date": "2026-05-20",
-          "topic": "AI agents",
-          "similarity": 0.209,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
-        },
-        {
-          "title": "Show HN: Agent Chat Bridge – give AI IDE agents an async callback",
-          "date": "2026-05-21",
-          "topic": "AI agents",
-          "similarity": 0.184,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/27-show-hn-agent-chat-bridge-give-ai-ide-agents-an-async-callback.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-21)",
-        "MIT license",
-        "12 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "go.mod",
-          "summary": "module github.com/NotNull92/hera-agent"
-        }
-      ],
-      "install_commands": [
-        "go install github.com/NotNull92/hera-agent@latest",
-        "go install"
-      ],
-      "risk_flags": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-20 about AI agents; this candidate overlaps with \"Show HN: Dari-docs – Optimize your docs using parallel coding agents\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-21/01-notnull92-hera-agent.md"
-    },
-    {
-      "id": "viettua3978/iosm-cli",
-      "name": "viettua3978/iosm-cli",
-      "url": "https://github.com/viettua3978/iosm-cli",
-      "date": "2026-05-21",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 86,
-      "momentum": 49,
-      "risk": 30,
-      "integration_effort": 36,
-      "expected_gain": 79,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
-          "date": "2026-05-20",
-          "topic": "AI agents",
-          "similarity": 0.224,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
-        },
-        {
-          "title": "Show HN: Agent Chat Bridge – give AI IDE agents an async callback",
-          "date": "2026-05-21",
-          "topic": "AI agents",
-          "similarity": 0.193,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/27-show-hn-agent-chat-bridge-give-ai-ide-agents-an-async-callback.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-21)",
-        "MIT license",
-        "1 GitHub stars",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "No clear install command found in README"
-      ],
-      "readme_quality": 85,
-      "has_ci": false,
-      "has_tests": true,
-      "setup_steps_count": 0,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @mariozechner/jiti, @mariozechner/pi-agent-core, @mariozechner/pi-ai, @mariozechner/pi-tui, @modelcontextprotocol/sdk, @silvia-odwyer/photon-node, @sinclair/typebox, ajv; scripts clean, dev, build, deploy-local, build:binary, check, copy-assets, copy-binary-assets"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-05-20 about AI agents; this candidate overlaps with \"Show HN: Dari-docs – Optimize your docs using parallel coding agents\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-21/02-viettua3978-iosm-cli.md"
     }
   ]
 }
