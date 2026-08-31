@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T10:10:42.641Z",
+  "updated_at": "2026-08-31T11:13:37.374Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Cogram Studio – CAD and BIM workspace for humans and agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://studio.cogram.com/",
+      "date": "2026-08-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, Rick and Alex here, co-founders of Cogram. We’ve been making project-management software for architects and engineers since 2023, and are now experimenting with a second product. Cogram Studio (studio.cogram.com) is a CAD and BIM workspace for AI agents to create three-dimensional models and dimensioned drawings. Studio runs FreeCAD ( https://githu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-30/06-show-hn-cogram-studio-cad-and-bim-workspace-for-humans-and-agents.md"
+    },
+    {
+      "title": "Show HN: Murmell – Collaborative cloud canvas for coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://murmell.com/",
+      "date": "2026-08-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! I'm Moss'Ab. Murmell ( https://murmell.com ) is an infinite canvas where coding agents run together in the cloud instead of on your laptop. It's like Google Docs, except the other editors are you, your teammates, and a set of agents all working in the same canvas. Short demo: https://app.murmell.com/demo The idea came out of a YC hackathon. We wer... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-30/07-show-hn-murmell-collaborative-cloud-canvas-for-coding-agents.md"
+    },
+    {
+      "title": "Show HN: Floe – an open-source plugin for sample libraries – CLAP/VST3/AU",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://floe.audio/",
+      "date": "2026-08-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'm Sam, I make sample libraries (as FrozenPlain). These sample libraries run inside Floe, my audio plugin for Linux, macOS and Windows. It's designed for musicians, composers and producers - typically people involved with film/TV/game scoring or ambient music. I open-sourced it primarily because I'm very fond of this philosophy and I want to open the doo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/08-show-hn-floe-an-open-source-plugin-for-sample-libraries-clap-vst3-au.md"
+    },
+    {
+      "title": "Show HN: Typebase – A single-folder back end you write in TypeScript",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://typebase.io",
+      "date": "2026-08-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! I built Typebase, a library that gives you Convex's DX with Supabase's openness. After trying Supabase I liked how fast it is to spin up a DB and auth, but really didn't like using RLS and SQL for authorization. With Convex I loved how your server \"lives\" in your code, but disliked the DB model and the realtime-first defaults. With Typebase you ju... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-26/09-show-hn-typebase-a-single-folder-back-end-you-write-in-typescript.md"
+    },
+    {
+      "title": "Show HN: BentoPDF, Hyper Compress and Kura",
+      "source": "Hacker News Show HN",
+      "url": "https://www.bentopdf.com",
+      "date": "2026-08-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello. I developed an open source tool called BentoPDF. Its an open source PDF toolkit that runs in your browser. With the latest update, you can actually edit existing pdf text, images and objects right in your browser. Live Website: https://www.bentopdf.com Repository: https://github.com/alam00000/bentopdf Along with the latest update I would like to sh... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/10-show-hn-bentopdf-hyper-compress-and-kura.md"
+    },
+    {
+      "title": "div197/BOB-Gemini-Free",
+      "source": "GitHub Search API",
+      "url": "https://github.com/div197/BOB-Gemini-Free",
+      "date": "2026-08-31",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "High-performance local 3-in-1 gateway unlocking Google Gemini as standard OpenAI, Anthropic (Claude Code), and Gemini API endpoints for coding agents, IDEs, and tools. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-31/11-div197-bob-gemini-free.md"
+    },
+    {
+      "title": "Show HN: I asked LLMs to choose between popular developer tools",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/betocmn/preseason",
+      "date": "2026-08-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I asked LLMs to choose between popular developer tools (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-31/12-show-hn-i-asked-llms-to-choose-between-popular-developer-tools.md"
+    },
+    {
+      "title": "Show HN: What Apple's OS updates silently change in the on-device AI model",
+      "source": "Hacker News Show HN",
+      "url": "https://umer9538.github.io/underfoot/",
+      "date": "2026-08-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: What Apple's OS updates silently change in the on-device AI model (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/13-show-hn-what-apple-s-os-updates-silently-change-in-the-on-device-ai-mo.md"
+    },
+    {
+      "title": "Are there any interesting architectural innovations that we seem to be on the verge of for LLM models or AI models that might be a big deal? (Excluding maybe N-gram, since everyone is already well aware of that one)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2r37q/are_there_any_interesting_architectural/",
+      "date": "2026-08-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So, ideally for this thread we exclude the ones that everyone on here is already well aware of and discussing on here a lot, like N-gram, quantization improvements, MTP, D-flash, and D-spark, since those are improvement areas that most people on here are already pretty familiar with. I'm more curious about any interesting fundamental architectural changes... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-30/14-are-there-any-interesting-architectural-innovations-that-we-seem-to-be.md"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next-NVFP4 vs Qwen3.8-27B-FP Test Results",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2z2zo/qwen38flashnextnvfp4_vs_qwen3827bfp_test_results/",
+      "date": "2026-08-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "## Qwen3.8-Flash-Next-NVFP4 (inferact) vs Qwen3.8-27B-FP8 (qwen) Slammed with work and no time to pretty this up. Qwen wrote most of this but I checked the data. All tests done on the same rig, same prompts, and most tests are my real workloads. Single-GPU local eval: one RTX PRO 6000 Blackwell Max-Q (96 GB, SM120) + 256 GB DDR5, vLLM nightly, both models... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/15-qwen3-8-flash-next-nvfp4-vs-qwen3-8-27b-fp-test-results.md"
+    },
+    {
+      "title": "Help for PC build",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w39b76/help_for_pc_build/",
+      "date": "2026-08-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I am in the process of buying a new PC, the excuse is that mine is really old now, even though in the years I changed so many bits and pieces that maybe just the psu is the same. Anyway. I use llama.cpp (open to vLLM in time) and comfyUI. What it needs to do: run comfyUI (but with distorch finally working again for me I don't envision size problems there)... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/16-help-for-pc-build.md"
+    },
+    {
+      "title": "Which LLM is actually best at pentesting? benchmark to find out",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2wdeq/which_llm_is_actually_best_at_pentesting/",
+      "date": "2026-08-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey all, You’ve probably noticed that using LLMs and AI agents for pentesting has become pretty common lately. The problem is there isn’t really a good way to figure out which model is actually best suited for this kind of work. There’s CyberGym, which is a solid base, but I’m not really a fan of the direction they’ve taken lately. It feels more focused o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-30/17-which-llm-is-actually-best-at-pentesting-benchmark-to-find-out.md"
+    },
     {
       "title": "Assessing Company Contributions to Societal Resilience: Extending the Societal Capacity Assessment Framework to Agentic AI",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Open-source, headless, plugin-based, AI-native iGaming framework - domain modules, plugin engine, Zod-first contracts, typed React SDK (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/12-blurifycom-openora.md"
-    },
-    {
-      "title": "Vaibhav-Gupta-001/wellness-coach-bot-final",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Vaibhav-Gupta-001/wellness-coach-bot-final",
-      "date": "2026-07-29",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Vaibhav-Gupta-001/wellness-coach-bot-final Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/13-vaibhav-gupta-001-wellness-coach-bot-final.md"
-    },
-    {
-      "title": "DeepSeek V4 Flash, up to 32 tok/s on AMD Ryzen AI MAX+ 395",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9100b/deepseek_v4_flash_up_to_32_toks_on_amd_ryzen_ai/",
-      "date": "2026-07-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey fellow llamas. we have something new for Strix Halo owners we thought would be useful to share. i'll keep it short: We were able to fit DeepSeek V4 Flash plus its speculative draft on a single Ryzen AI MAX+ 395 with 128 GB of unified memory, and got it to a usable decode rate. Blog post with all details here: https://www.lucebox.com/blog/deepseek-v4-s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-28/14-deepseek-v4-flash-up-to-32-tok-s-on-amd-ryzen-ai-max-395.md"
-    },
-    {
-      "title": "Built and released BetterGPT-150M – A compact 150M parameter completion model (+ live HF Space demo)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9oa1u/built_and_released_bettergpt150m_a_compact_150m/",
-      "date": "2026-07-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, ​I recently finished pre-training BetterGPT-150M, a small, lightweight causal language model with ~152 million parameters.Trained on 15B tokens. Dataset & Training: Trained across stable and annealing phases using curated datasets (including FineWeb-Edu, fine maths, cosmopedia, starcode-python), ensuring strong capability retention while max... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-29/15-built-and-released-bettergpt-150m-a-compact-150m-parameter-completion-.md"
-    },
-    {
-      "title": "microsoft/Mage-VL · Hugging Face - An Efficient Codec-Native Streaming Multimodal Foundation Model",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v97f8d/microsoftmagevl_hugging_face_an_efficient/",
-      "date": "2026-07-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Mage-VL is a codec-native, proactive-streaming multimodal foundation model for image and video understanding, whose visual encoder is trained entirely from scratch at a compact 4B scale. It targets a modern Moravec's paradox of VLMs — strong at complex offline reasoning, yet slow and compute-heavy on simple real-time streaming perception. Instead of decod... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-28/16-microsoft-mage-vl-hugging-face-an-efficient-codec-native-streaming-mul.md"
-    },
-    {
-      "title": "Appreciation for Gemma 4 26b A4b",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v95tka/appreciation_for_gemma_4_26b_a4b/",
-      "date": "2026-07-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I really love this model, I have been using the q4_k_l by Bartowski (I have heard QAT is quite the downgrade in some aspects) and it handles every task I throw at it easily. Agentic and coding performance is not as good as Qwen of course but good enough and I have found myself to be constantly surprised by it considering the size and speed. I really like... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-28/17-appreciation-for-gemma-4-26b-a4b.md"
-    },
-    {
-      "title": "Show HN: Orchard – Let AI agents set up your app's back end with one prompt",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://orchard-dashboard.pages.dev/landing",
-      "date": "2026-07-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Orchard – Let AI agents set up your app's back end with one prompt (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/06-show-hn-orchard-let-ai-agents-set-up-your-app-s-back-end-with-one-prom.md"
-    },
-    {
-      "title": "Show HN: Call Me, your AI agents ring you with no extra carrier costs",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/radres/call-me",
-      "date": "2026-07-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Just a fun app I've been working on. Not necessarily AI only and works with any AI harness or just as an API. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-27/07-show-hn-call-me-your-ai-agents-ring-you-with-no-extra-carrier-costs.md"
-    },
-    {
-      "title": "Show HN: Aidress – Coordination layer for autonomous AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Aidress-ai/Aidress",
-      "date": "2026-07-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Aidress – Coordination layer for autonomous AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-27/08-show-hn-aidress-coordination-layer-for-autonomous-ai-agents.md"
-    },
-    {
-      "title": "Decentralised Consensus Learning Networks: SME Rotation Without Centralised Reward",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.24416v1",
-      "date": "2026-07-27",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Centralised reward signals dominate modern AI learning systems, but they impose a single external definition of correct or valuable knowledge. We present a decentralised, consensus-based multi-agent learning framework in which expertise emerges through peer validation rather than prescribed reward. Agents update beliefs via weighted social consensus, whil... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-27/09-decentralised-consensus-learning-networks-sme-rotation-without-central.md"
-    },
-    {
-      "title": "Show HN: Yap – OSS on-device voice dictation for macOS with no model to download",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/FrigadeHQ/yap",
-      "date": "2026-07-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! I wanted to share this OSS project I've been working on. It's called Yap and its a small menu-bar app for macOS that does voice to text for any input. You'll set a hotkey, press it, talk, press it again, and the text gets pasted into whatever field you were in. Everything runs locally and never leaves your computer. Fully OSS and MIT licensed. Wit... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-27/10-show-hn-yap-oss-on-device-voice-dictation-for-macos-with-no-model-to-d.md"
-    },
-    {
-      "title": "arunnatarajan01-dev/ai-requirement-test-gen-main",
-      "source": "GitHub Search API",
-      "url": "https://github.com/arunnatarajan01-dev/ai-requirement-test-gen-main",
-      "date": "2026-07-28",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "arunnatarajan01-dev/ai-requirement-test-gen-main Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-28/11-arunnatarajan01-dev-ai-requirement-test-gen-main.md"
-    },
-    {
-      "title": "muhrafi-fsdev/NUSAMIND-SWIFT",
-      "source": "GitHub Search API",
-      "url": "https://github.com/muhrafi-fsdev/NUSAMIND-SWIFT",
-      "date": "2026-07-26",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Fast local-first AI assistant with bounded reasoning, verified retrieval, privacy-aware memory, and defensive cybersecurity. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/12-muhrafi-fsdev-nusamind-swift.md"
     }
   ]
 }
