@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T11:13:37.374Z",
+  "updated_at": "2026-09-01T09:39:23.232Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Saccade – Live semantic browser truth for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/nanlogic/saccade",
+      "date": "2026-08-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I build one this application is to resolve the most of the agent cannot handle the brother they extremely slow. So I come up with this idea, we install one of the extntion on chrome or edge to give continuously compile the tabs authorized by the user into semantically meaningful objects with stable identities, and push page changes as deltas to the local... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/06-show-hn-saccade-live-semantic-browser-truth-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: What Happens When You Give Your AI Agents a Voice and an Attitude",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://fellowgeek.github.io/mcp-speak/",
+      "date": "2026-08-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: What Happens When You Give Your AI Agents a Voice and an Attitude (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/07-show-hn-what-happens-when-you-give-your-ai-agents-a-voice-and-an-attit.md"
+    },
+    {
+      "title": "Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.31082v1",
+      "date": "2026-08-31",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Valuable data remains embedded in unstructured sources: web pages, reports, contracts, filings, earnings calls, and PDFs. The big bet in enterprise AI is deploying LLM agents that reason over this data to answer complex questions for every knowledge worker. Agents can do this today, but at prohibitive cost. Each question repeatedly opens large documents t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/08-token-efficient-data-reasoning-agents-via-adaptive-structuring-of-unst.md"
+    },
+    {
+      "title": "MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2608.31022v1",
+      "date": "2026-08-31",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents in partially observable environments need to coordinate active sensing with working memory to maintain an evolving perceptual state. However, existing benchmarks struggle to isolate this perceptual-state construction and interpretation capability because they introduce physical and control complexities. We address this with MNIST-PRO, a benchmar... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/09-mnist-pro-mnist-is-back-as-a-partially-observable-world-for-ai-agents.md"
+    },
+    {
+      "title": "jaspernot4ai/coplan",
+      "source": "GitHub Search API",
+      "url": "https://github.com/jaspernot4ai/coplan",
+      "date": "2026-09-01",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Multiplayer itinerary planning where every traveler's AI agent can edit the same trip in real time — but checkout always needs a human on a different device to approve. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/10-jaspernot4ai-coplan.md"
+    },
+    {
+      "title": "Show HN: Seatlr – We rebuilt our traveler chat into an AI-powered travel network",
+      "source": "Hacker News Show HN",
+      "url": "https://www.seatlr.com/",
+      "date": "2026-09-01",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I previously shared the initial version of Seatlr here. The idea was to provide a chat room for each destination, connecting travelers heading to the same city regardless of airline. Over the past few weeks, we have expanded Seatlr from destination-based chat rooms into a more comprehensive travel companion, adding an AI assistant and an alert ser... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/11-show-hn-seatlr-we-rebuilt-our-traveler-chat-into-an-ai-powered-travel-.md"
+    },
+    {
+      "title": "legalize-dev/mcp",
+      "source": "GitHub Search API",
+      "url": "https://github.com/legalize-dev/mcp",
+      "date": "2026-09-01",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Official MCP connector for Legalize: read and search its whole open corpus, at any point in time. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/12-legalize-dev-mcp.md"
+    },
+    {
+      "title": "doudouli103-dot/tenx-ai-gateway",
+      "source": "GitHub Search API",
+      "url": "https://github.com/doudouli103-dot/tenx-ai-gateway",
+      "date": "2026-08-30",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI Gateway (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/13-doudouli103-dot-tenx-ai-gateway.md"
+    },
+    {
+      "title": "GLM 5.3 and GLM 5.3 Flash ran locally on RTX PRO 6000 WS and built a penthouse using BlenderMCP",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3kppp/glm_53_and_glm_53_flash_ran_locally_on_rtx_pro/",
+      "date": "2026-08-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I keep seeing demos of AI agents building scenes in Blender through BlenderMCP, so I tried it myself. I ran both models locally for this and picked the GLM 5.3 family(Q4 quant) because videos of it doing 3D work kept showing up in my twitter feed (out of curiosity, I ran the same prompt through the full GLM 5.3, also locally with a Q4 quant) these aren't... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/14-glm-5-3-and-glm-5-3-flash-ran-locally-on-rtx-pro-6000-ws-and-built-a-p.md"
+    },
+    {
+      "title": "Don't sleep on Vision support for coding!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3vcvh/dont_sleep_on_vision_support_for_coding/",
+      "date": "2026-08-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Normally, whenever a new model dropped, I always chose the non-vision version just to save VRAM; I though that only use case was when you were the one sending the picture. However, with the release of QWEN 3.8 27B I decided to give it a shot, and it has been one of the best decisions I have made, as this makes the model way more capable for autonomous cod... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/15-don-t-sleep-on-vision-support-for-coding.md"
+    },
+    {
+      "title": "SlopTV: an infinite livestream of AI slop generated from youtube chat comments, Minimax H3 on 2x5090",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3i7ze/sloptv_an_infinite_livestream_of_ai_slop/",
+      "date": "2026-08-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "SlopTV: a YouTube live stream where the chat writes the programming. You type \"capybara dj underwater rave\", an LLM inflates it into a 400-word structured video prompt, one of my 5090s renders 15 seconds of it with MiniMax H3, and it airs on the same stream you typed into. Then people comment on that clip, and the ouroboros keeps eating. Inspired by infin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/16-sloptv-an-infinite-livestream-of-ai-slop-generated-from-youtube-chat-c.md"
+    },
+    {
+      "title": "First time running local models",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3h7rg/first_time_running_local_models/",
+      "date": "2026-08-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Sad that I only have 12gb of vram but this ik_llama is so fast submitted by /u/Needausernameplzz [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/17-first-time-running-local-models.md"
+    },
     {
       "title": "Show HN: Cogram Studio – CAD and BIM workspace for humans and agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I have tried journaling many times but nothing stuck. So I decided to make my own app for myself with these features: * Voice first * Private first * AI chat * Automatic tagging, meaning extraction, and semantic retrieval using embeddings stored locally * Export to LLM the AI angle is especially interesting for me. It allows me to ask questions like: * \"r... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/12-show-hn-echologue-the-private-ai-voice-journal-i-built-for-myself.md"
-    },
-    {
-      "title": "Show HN: Replicant Space – an HTTP API-based game based on the Bobiverse books",
-      "source": "Hacker News Show HN",
-      "url": "https://replicant.space/",
-      "date": "2026-07-29",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "During Christmas 2025, I found myself burnt out from work. The last few years had been hard, and multiple redundancies saw the company I loved reduce down to just a handful of remaining staff. As a coping mechanism, I kinda disassociated for a while - throwing myself into my personal projects. AI was destroying the passion I had for coding. I tried to fin... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/13-show-hn-replicant-space-an-http-api-based-game-based-on-the-bobiverse-.md"
-    },
-    {
-      "title": "\"Uncensored\" LLMs are measurably more optimistic than their base models",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9vwev/uncensored_llms_are_measurably_more_optimistic/",
-      "date": "2026-07-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi. Many people think uncensored models are basically the same model that just doesn't refuse, but... I was recently checking whether uncensored models would give me better answers for stock market predictions (my idea was: the uncensored one will tell you the truth and won't be polite where it shouldn't be). And I noticed that abliteration didn't only re... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-29/14-uncensored-llms-are-measurably-more-optimistic-than-their-base-models.md"
-    },
-    {
-      "title": "Kimi K3 for local use (1.56TB → 594GB) compressed and released by Unsloth",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va6ot2/kimi_k3_for_local_use_156tb_594gb_compressed_and/",
-      "date": "2026-07-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The model was quantized to 8, 4, 2, and 1 bit. Characteristics: Q8 : 8-bit 1.56 TB, lossless Q4 : 4-bit, 1.51 TB Q2 : 2-bit: 861 GB Q1 : 1-bit, 594 GB The smallest Q1 model keeps 78.9% accuracy, while being almost 3 times smaller than the original one. Instruction for running the model is in the model's card submitted by /u/BankApprehensive7612 [link] [co... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-29/15-kimi-k3-for-local-use-1-56tb-594gb-compressed-and-released-by-unsloth.md"
-    },
-    {
-      "title": "Are you guys not scared of where we're heading? A year ago, GPT-5 was considered one of the best models in the world. Today, we have open-weight models like Qwen3.6-27B that are competitive enough to run locally on high-end consumer hardware. The pace of progress is absolutely brutal.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1va7nm7/are_you_guys_not_scared_of_where_were_heading_a/",
-      "date": "2026-07-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I think the claims about having Mythos level-model in our laptops in 1-2 years might not be so crazy of a theory submitted by /u/SilverRegion9394 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-29/16-are-you-guys-not-scared-of-where-we-re-heading-a-year-ago-gpt-5-was-co.md"
-    },
-    {
-      "title": "A slide deck you can edit with a local model or in Chrome — the whole deck is a JSON block in one HTML file (~640KB with editor and viewer included)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9vewv/a_slide_deck_you_can_edit_with_a_local_model_or/",
-      "date": "2026-07-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool inclu... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-29/17-a-slide-deck-you-can-edit-with-a-local-model-or-in-chrome-the-whole-de.md"
-    },
-    {
-      "title": "Show HN: Flashpaper – Self-destructing secret sharing with no database",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://flashpaper.app/",
-      "date": "2026-07-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone! This is my first HN and I’m very new to the scene. My name is Min from Bangkok. At first, I just want to create a dead man's switch for personal use and for fun. then, I think about information that self destruct like a spy movie. after that, I try to come up with the better version of Privnote or Bitwarden with self-destruct and some kind of... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/06-show-hn-flashpaper-self-destructing-secret-sharing-with-no-database.md"
-    },
-    {
-      "title": "Toward Standardized Cross-Vendor Agent Tool Trust Management in Autonomous Networks",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.25914v1",
-      "date": "2026-07-28",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Autonomous Network Levels 4-5 require AI agents to invoke tools across vendor boundaries without human oversight, yet existing management standards lack a standardized mechanism for cross-vendor trust visibility. When a tool from Vendor B is compromised, agents from Vendor A continue invoking it -- unaware of the trust degradation -- causing cascading ser... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/07-toward-standardized-cross-vendor-agent-tool-trust-management-in-autono.md"
-    },
-    {
-      "title": "Messier: A High-Resolution Corpus for Cross-Benchmark Agent Evaluation",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.25891v1",
-      "date": "2026-07-28",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Evaluating AI agents in interactive environments is hindered by fragmented tasks, scaffolds, verifiers, and scoring rules. Existing efforts focus on narrow settings, remain limited in scale, or require costly reruns, leaving much of the empirical record incomparable. We introduce Messier, a unified corpus of 957,253 records that span 30 benchmarks, 714 ag... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/08-messier-a-high-resolution-corpus-for-cross-benchmark-agent-evaluation.md"
-    },
-    {
-      "title": "Distributing Security Controls Through Harness Engineering",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.25890v1",
-      "date": "2026-07-28",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI coding agents are being adopted at historic speed, yet security and risk concerns remain the primary barrier to scaling agentic AI across organizations. Existing security controls for coding agents are not systematically distributed to engineering teams, and vendor-native solutions introduce ecosystem dependencies that may not suit every deployment con... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/09-distributing-security-controls-through-harness-engineering.md"
-    },
-    {
-      "title": "Show HN: tale.fyi, we deserve a home for fiction",
-      "source": "Hacker News Show HN",
-      "url": "https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link",
-      "date": "2026-07-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "for decades, i have been concerned that the internet was being built around non-fiction, so i built something to show how we could celebrate great fiction on the web. i started with an amazing library from the public domain, and i also added tools to add your own stories super interested to hear any feedback, and if you read anything good! (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-28/10-show-hn-tale-fyi-we-deserve-a-home-for-fiction.md"
-    },
-    {
-      "title": "Show HN: Local meeting notes transcriber, but linuxy",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/tomelliot/all-ears",
-      "date": "2026-07-29",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Granola started clamping down on downloading your notes without paying for a subscription, and I got sick of all the barely maintained GUIs on top of various local models (MacWhisper ). All-Ears is a set of composable tools to transcribe and summarise meetings. - A daemon that records audio sources - `transcribe` to transcribe the audio (with diarisation)... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/11-show-hn-local-meeting-notes-transcriber-but-linuxy.md"
-    },
-    {
-      "title": "blurifycom/openora",
-      "source": "GitHub Search API",
-      "url": "https://github.com/blurifycom/openora",
-      "date": "2026-07-29",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Open-source, headless, plugin-based, AI-native iGaming framework - domain modules, plugin engine, Zod-first contracts, typed React SDK (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/12-blurifycom-openora.md"
     }
   ]
 }
