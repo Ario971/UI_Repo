@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T09:10:24.036Z",
+  "updated_at": "2026-09-03T09:17:46.397Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Aura – a Rust agent that investigates and fixes production incidents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/mezmo/aura",
+      "date": "2026-09-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We run a SaaS that handles petabytes of data. Our SRE team experimented with using claude, openclaw, langchain, etc. within our incident response workflows. We struggled with overflowing context, lethal trifecta vectors, hallucinations, and burned a lot of frontier tokens mostly on easy work. Approval fatigue was a challenge, and we drew a hard line at re... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-02/06-show-hn-aura-a-rust-agent-that-investigates-and-fixes-production-incid.md"
+    },
+    {
+      "title": "Collective creativity in hybrid societies",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.02620v1",
+      "date": "2026-09-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Generative AI is changing how cultural artifacts are created and circulated, and with it our understanding of creativity itself. Researchers disagree about whether these tools enrich or impoverish culture, and we argue that much of that disagreement comes from conflating two distinct components of creativity: novelty, a property of single artifacts, and d... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-02/07-collective-creativity-in-hybrid-societies.md"
+    },
+    {
+      "title": "Agentic UE-CoMIMO for 6G Terminals: From Virtual Antenna Augmentation to AI-Native Virtualization",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.02290v1",
+      "date": "2026-09-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "End-user-centric collaborative MIMO (UE-CoMIMO) lets nearby devices form a virtual multi-antenna terminal to overcome the antenna limitations of individual user equipment. Extending such cooperation to communication, sensing, computing, and task-relevant information exchange requires a control layer that can interpret user intent, select cooperation mecha... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-02/08-agentic-ue-comimo-for-6g-terminals-from-virtual-antenna-augmentation-t.md"
+    },
+    {
+      "title": "OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.02158v1",
+      "date": "2026-09-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Legal Judgment Prediction (LJP) models are typically trained on documents that describe facts from a prosecutorial perspective. Existing datasets further exhibit severe label imbalance toward guilty outcomes. Consequently, these models suffer from \"Guilty Bias\", blindly accepting the prosecution's narrative as objective truth. Previous studies employing t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-02/09-objection-lawyer-agents-mitigate-guilty-bias-in-legal-judgment-predict.md"
+    },
+    {
+      "title": "Show HN: OwnTime – a chess clock for your day's priorities",
+      "source": "Hacker News Show HN",
+      "url": "https://owntime.app/",
+      "date": "2026-09-01",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I made OwnTime to balance between competing priorities in my life. The idea is based on two main influences: the concept of \"roles\" from \"The 5 Choices\" (2015), and my repeated failure to effectively implement time blocking due to the necessary flexibility in my role. The app allows you to define time budgets, which are not much more than a few mutually e... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/10-show-hn-owntime-a-chess-clock-for-your-day-s-priorities.md"
+    },
+    {
+      "title": "ujjwalvermaaa/Sentinel-AI_Merchant_Account_Health_and_Compliance_Intelligence",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ujjwalvermaaa/Sentinel-AI_Merchant_Account_Health_and_Compliance_Intelligence",
+      "date": "2026-09-03",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ujjwalvermaaa/Sentinel-AI_Merchant_Account_Health_and_Compliance_Intelligence Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/11-ujjwalvermaaa-sentinel-ai-merchant-account-health-and-compliance-intel.md"
+    },
+    {
+      "title": "minderhq/plugins",
+      "source": "GitHub Search API",
+      "url": "https://github.com/minderhq/plugins",
+      "date": "2026-09-03",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "The Minder plugin catalog — first-party & community plugins, validated against the plugin-sdk. Vendored into core via submodule. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/12-minderhq-plugins.md"
+    },
+    {
+      "title": "Show HN: Open source ML programming language playground",
+      "source": "Hacker News Show HN",
+      "url": "https://sw-ml-study.github.io/sw-mlpl/",
+      "date": "2026-09-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "After joining a ML Study group and trying Google Colab I decided to create my own array programming language to help me learn and visualize machine learning. There are many demo repos using this language which has become more general purpose. Under active development. See github link in footer. Built in Tour, Demos, Tutorials, Glossary, etc. Can use this... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-02/13-show-hn-open-source-ml-programming-language-playground.md"
+    },
+    {
+      "title": "Chrome browser add-on that uses local LLMs to move thousands of unsorted bookmarks into a smart list of automatically calculated categories",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5svj4/chrome_browser_addon_that_uses_local_llms_to_move/",
+      "date": "2026-09-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Is anyone interested in my Chrome browser add-on that uses local LLMs to move thousands of unsorted bookmarks into a smart list of automatically calculated categories? submitted by /u/paranoidray [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/14-chrome-browser-add-on-that-uses-local-llms-to-move-thousands-of-unsort.md"
+    },
+    {
+      "title": "GLM 5.3 Flash makes a black hole Minecraft mod running locally on 4x RTX PRO 6000 WS",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5gk2b/glm_53_flash_makes_a_black_hole_minecraft_mod/",
+      "date": "2026-09-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "saw the post the other day where people said Minecraft clones aren't impressive anymore, because at this point the whole thing might as well be in the training data. so i tried something slightly different, which is asking a local model to write a mod for the real game, using the Fabric API the model is GLM 5.3 Flash (Q4 quant, running on a rented 4x RTX... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-02/15-glm-5-3-flash-makes-a-black-hole-minecraft-mod-running-locally-on-4x-r.md"
+    },
+    {
+      "title": "model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support by YanissAmz · Pull Request #25444 · ggml-org/llama.cpp",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w60jr5/model_add_nvidia_nemotron3puzzle75ba9b/",
+      "date": "2026-09-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "75B MoE is an interesting size to check, you can run it today (no MTP support yet) The model employs a hybrid MoE architecture with interleaved Mamba, MoE, and Attention layers. Like Nemotron-3-Super, it supports Multi-Token Prediction (MTP) for faster text generation. Compared to its parent, Puzzle-75B-A9B reduces the model from 120.7B total / 12.8B acti... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/16-model-add-nvidia-nemotron-3-puzzle-75b-a9b-nemotronhpuzzle-support-by-.md"
+    },
+    {
+      "title": "Can a 4B local model actually feel like an AI assistant?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w609r6/can_a_4b_local_model_actually_feel_like_an_ai/",
+      "date": "2026-09-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been building Arcon around Qwen3-4B + LoRA. Instead of just making it a chatbot, I'm experimenting with persistent memory, personality/mood, internal state, tools, and eventually having it process things before replying. I'm curious what people who've built local agents think - how far can you realistically push a small model with good architecture a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/17-can-a-4b-local-model-actually-feel-like-an-ai-assistant.md"
+    },
     {
       "title": "Show HN: Markdown Gatekeeper – one current source per topic for AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hello Hacker News! I’m Tomasz, creator of Privacy Thing, a browser extension for Firefox and Chromium-based browsers. I’ve just released its Preview version. Privacy Thing aims to reduce browser fingerprinting—the tracking of users without cookies. It began as an internal project: a simple location simulator. Over time, I expanded it to cover more fingerp... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-31/12-show-hn-i-built-a-cross-browser-extension-that-controls-fingerprinting.md"
-    },
-    {
-      "title": "IanOliverU/Project-Akiha",
-      "source": "GitHub Search API",
-      "url": "https://github.com/IanOliverU/Project-Akiha",
-      "date": "2026-08-01",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI desktop companion combining a desktop pet, AI assistant, and virtual companion into one modular application. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-01/13-ianoliveru-project-akiha.md"
-    },
-    {
-      "title": "What is the point of the funny tag in this sub if you can't even post a damn meme????",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcdprx/what_is_the_point_of_the_funny_tag_in_this_sub_if/",
-      "date": "2026-08-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I'm constantly bombarded by non-local LLMs in this sub but god forbid I post a local model meme. submitted by /u/fragment_me [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-01/14-what-is-the-point-of-the-funny-tag-in-this-sub-if-you-can-t-even-post-.md"
-    },
-    {
-      "title": "Rule Suggestion: \"Open\" models without weight releases should be tagged [no weights]",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbpi44/rule_suggestion_open_models_without_weight/",
-      "date": "2026-07-31",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "A lot of recent models are being announced with promised open weights, but the weights are either weeks away, or in some cases (looking at you Meta) not being released at all. This sub is about local LLMs - not \"maybe local in the future\" llms. These models are still useful to post, but I'm kind of sick of having to click through posts like this to find o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-31/15-rule-suggestion-open-models-without-weight-releases-should-be-tagged-n.md"
-    },
-    {
-      "title": "[audio.cpp] Release 0.5: DramaBox expressive TTS, Confucius4 cross-lingual voice transfer, plus 7 more models and ROCm/HIP",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vc8lpl/audiocpp_release_05_dramabox_expressive_tts/",
-      "date": "2026-08-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "audio.cpp 0.5 is out :) The most fun new model in 0.5 is DramaBox . It is closer to prompt-directed voice acting. DramaBox is built on the LTX-2.3 audio architecture, and prompts can control emotion, delivery, laughs, sighs, pauses, transitions, and speaker behavior. Example input (check the audio in the post): A nervous young man whispers, \"I do not thin... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-01/16-audio-cpp-release-0-5-dramabox-expressive-tts-confucius4-cross-lingual.md"
-    },
-    {
-      "title": "With release of Deepseek V4 I wanted see how the model sizes are trending over time. The trend is that by this time next year, we probably will have Opus 4.5 level models on consumer grade laptops!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbzicu/with_release_of_deepseek_v4_i_wanted_see_how_the/",
-      "date": "2026-07-31",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I was surprised to see that Deepseek V4 Flash is extremely smart and small enough to fit in setup that can be built with I am not an expert in LLMs and I am sure there are physical limitations to small models. But I also don't know how far we are from reaching the limits - maybe the small models have a long way to go before being saturated. I am hoping th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-31/17-with-release-of-deepseek-v4-i-wanted-see-how-the-model-sizes-are-trend.md"
-    },
-    {
-      "title": "Show HN: What should the GUI for AI agents look like?",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://marbleos.com/demo",
-      "date": "2026-07-31",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal commands: C:\\> DIR C:\\> COPY FILE.TXT A: You had to remember the command, synt... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/06-show-hn-what-should-the-gui-for-ai-agents-look-like.md"
-    },
-    {
-      "title": "Show HN: Noisegate – a differential-privacy gateway for untrusted AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/yashmahajan10/llm-differential-privacy-gateway",
-      "date": "2026-07-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Noisegate – a differential-privacy gateway for untrusted AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-30/07-show-hn-noisegate-a-differential-privacy-gateway-for-untrusted-ai-agen.md"
-    },
-    {
-      "title": "Show HN: Supapool – a Supabase per coding agent in ~400 ms",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://supapool.io/",
-      "date": "2026-07-29",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "hi HN, I built supapool.io, an ephemeral full copy of supabase's services that you can spin up in ~400 ms (Auth, postgres, storage, realtime). so if you run multiple coding agents in parallel in different worktrees, they can now have their own copy of supabase without making changes that conflict with eachother. > why not use supabase docker locally? when... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/08-show-hn-supapool-a-supabase-per-coding-agent-in-400-ms.md"
-    },
-    {
-      "title": "Show HN: ResiliReplay - Chaos testing for AI agents and MCP servers",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/aliengineering-byte/resilireplay",
-      "date": "2026-07-31",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: ResiliReplay - Chaos testing for AI agents and MCP servers (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/09-show-hn-resilireplay-chaos-testing-for-ai-agents-and-mcp-servers.md"
-    },
-    {
-      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
-      "source": "Hacker News Show HN",
-      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
-      "date": "2026-07-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. With V4 as the teacher though, we realized it would be time... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/10-show-hn-distilling-deepseek-into-gpt-oss-doesn-t-transfer-censorship-t.md"
-    },
-    {
-      "title": "Show HN: Optimize and serve models with Fable quality at half the cost",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/experientiallabs/world-model-optimizer",
-      "date": "2026-07-26",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, we built world-model-optimizer, an open source tool to continually improve a specialized model for an agent. It does this by simulating production tool responses through text world modeling (similar to QwenAgentWorld, summary here https://x.com/silennai/status/2073887455884058814 ). We can then use this to train a router for frontier, OS, and local... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-26/11-show-hn-optimize-and-serve-models-with-fable-quality-at-half-the-cost.md"
-    },
-    {
-      "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/hamzarehmandeveloper/claude-account",
-      "date": "2026-07-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I use separate Claude Code accounts for work and personal projects. Having to log out and go through the login flow every time I switched accounts became annoying, so I built a small CLI to solve it. The commands are intentionally simple: claude account add myworkaccount claude account add mypersonalaccount claude account use myworkaccount claude account... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
     }
   ]
 }

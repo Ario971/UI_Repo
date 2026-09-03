@@ -1,10 +1,214 @@
 {
-  "last_checked_at": "2026-09-02T09:10:49.670Z",
+  "last_checked_at": "2026-09-03T09:18:11.926Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "satan9394/agent-risk-guard",
+      "name": "satan9394/agent-risk-guard",
+      "url": "https://github.com/satan9394/agent-risk-guard",
+      "date": "2026-09-03",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 40,
+      "expected_gain": 77,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.387,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        },
+        {
+          "title": "LamsonRetail/lsr-agent-platform",
+          "date": "2026-08-18",
+          "topic": "AI dev tools",
+          "similarity": 0.353,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+        },
+        {
+          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
+          "date": "2026-08-11",
+          "topic": "AI agents",
+          "similarity": 0.331,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-03)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "Repository description is sparse"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts test"
+        }
+      ],
+      "install_commands": [
+        "git reset --hard",
+        "git clean -f",
+        "git checkout -- / restore",
+        "git push --force",
+        "git branch -D",
+        "git stash drop/clear"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-03/01-satan9394-agent-risk-guard.md"
+    },
+    {
+      "id": "mroops0111/openapi-mcp-gateway",
+      "name": "mroops0111/openapi-mcp-gateway",
+      "url": "https://github.com/mroops0111/openapi-mcp-gateway",
+      "date": "2026-09-03",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 53,
+      "risk": 32,
+      "integration_effort": 68,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "how to setup llama.cpp and blender to make lovely 3d stuff together",
+          "date": "2026-08-28",
+          "topic": "Local LLMs",
+          "similarity": 0.411,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/16-how-to-setup-llama-cpp-and-blender-to-make-lovely-3d-stuff-together.md"
+        },
+        {
+          "title": "qgeng1465/bio-mcp",
+          "date": "2026-08-11",
+          "topic": "AI dev tools",
+          "similarity": 0.355,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/13-qgeng1465-bio-mcp.md"
+        },
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.285,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-03)",
+        "MIT license",
+        "3 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, authors, readme, license, requires-python, keywords"
+        }
+      ],
+      "install_commands": [
+        "uv add openapi-mcp-gateway",
+        "uv add \"openapi-mcp-gateway[redis]\"   # optional, Redis token store for multi-replica OAuth",
+        "uv run openapi-mcp-gateway --spec https://petstore3.swagger.io/api/v3/openapi.json --name petstore",
+        "uv run openapi-mcp-gateway \\",
+        "uv run",
+        "uv run openapi-mcp-gateway --config servers.yml"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-28 about Local LLMs; this candidate overlaps with \"how to setup llama.cpp and blender to make lovely 3d stuff together\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-03/02-mroops0111-openapi-mcp-gateway.md"
+    },
+    {
+      "id": "nickyeung575/lark-diagram-design",
+      "name": "nickyeung575/lark-diagram-design",
+      "url": "https://github.com/nickyeung575/lark-diagram-design",
+      "date": "2026-09-03",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 87,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 32,
+      "expected_gain": 69,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.214,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        },
+        {
+          "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+          "date": "2026-08-27",
+          "topic": "AI agents",
+          "similarity": 0.184,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-wikiskill-compiling-agent-experience-into-persistent-knowledge-for-ski.md"
+        },
+        {
+          "title": "LamsonRetail/lsr-agent-platform",
+          "date": "2026-08-18",
+          "topic": "AI dev tools",
+          "similarity": 0.181,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-03)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [],
+      "install_commands": [
+        "npm install -g @larksuite/cli",
+        "git clone https://github.com/nickyeung575/lark-diagram-design.git"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-03/03-nickyeung575-lark-diagram-design.md"
+    },
     {
       "id": "abordage/awesome-ai",
       "name": "abordage/awesome-ai",
@@ -19606,194 +19810,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-05-24 about AI dev tools; this candidate overlaps with \"vladimir120307-droid/mneme\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-26/02-sxueck-llm-gateway.md"
-    },
-    {
-      "id": "abinethacker/muster_mcp",
-      "name": "ABINETHACKER/MUSTer_MCP",
-      "url": "https://github.com/ABINETHACKER/MUSTer_MCP",
-      "date": "2026-05-26",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 86,
-      "momentum": 50,
-      "risk": 35,
-      "integration_effort": 48,
-      "expected_gain": 87,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "gHashTag/trios-mcp-rag",
-          "date": "2026-05-23",
-          "topic": "AI agents",
-          "similarity": 0.288,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-26)",
-        "MIT license",
-        "Matches 1 saved Feed article(s)"
-      ],
-      "cons": [
-        "No clear install command found in README"
-      ],
-      "readme_quality": 78,
-      "has_ci": false,
-      "has_tests": false,
-      "setup_steps_count": 0,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps name, version, description, readme, requires-python, dependencies, openpyxl, pandas"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-26/03-abinethacker-muster-mcp.md"
-    },
-    {
-      "id": "luohy15/y-agent",
-      "name": "luohy15/y-agent",
-      "url": "https://github.com/luohy15/y-agent",
-      "date": "2026-05-25",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 92,
-      "momentum": 92,
-      "risk": 29,
-      "integration_effort": 40,
-      "expected_gain": 71,
-      "composite": 79,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
-          "date": "2026-05-21",
-          "topic": "AI agents",
-          "similarity": 0.318,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
-        },
-        {
-          "title": "yajinyee/muti-agent-game-develop",
-          "date": "2026-05-24",
-          "topic": "AI dev tools",
-          "similarity": 0.271,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/68-yajinyee-muti-agent-game-develop.md"
-        },
-        {
-          "title": "TadeasUjvary/back-office-agent-web",
-          "date": "2026-05-20",
-          "topic": "AI dev tools",
-          "similarity": 0.27,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-20/20-tadeasujvary-back-office-agent-web.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-25)",
-        "MIT license",
-        "214 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No clear install command found in README"
-      ],
-      "readme_quality": 70,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 0,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps members, dev-dependencies"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-05-21 about AI agents; this candidate overlaps with \"Show HN: Agent-estimate, how long a coding task takes, at agent speed\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-25/01-luohy15-y-agent.md"
-    },
-    {
-      "id": "netresearch/jira-skill",
-      "name": "netresearch/jira-skill",
-      "url": "https://github.com/netresearch/jira-skill",
-      "date": "2026-05-25",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 92,
-      "momentum": 82,
-      "risk": 58,
-      "integration_effort": 56,
-      "expected_gain": 87,
-      "composite": 74,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: CoreMem – Portable context for AI agents",
-          "date": "2026-05-22",
-          "topic": "AI agents",
-          "similarity": 0.247,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/50-show-hn-coremem-portable-context-for-ai-agents.md"
-        },
-        {
-          "title": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
-          "date": "2026-05-21",
-          "topic": "AI dev tools",
-          "similarity": 0.223,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/43-show-hn-i-made-a-claude-skill-for-spec-driven-development-sdd.md"
-        },
-        {
-          "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
-          "date": "2026-05-21",
-          "topic": "AI agents",
-          "similarity": 0.221,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-25)",
-        "54 GitHub stars",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "License was not clearly detected by GitHub",
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 5,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps none; scripts prepare"
-        },
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps line-length, target-version, select, ignore, exclude_dirs, skips"
-        }
-      ],
-      "install_commands": [
-        "npx skills add https://github.com/netresearch/jira-skill --skill jira-communication",
-        "npx skills add https://github.com/netresearch/jira-skill --skill jira-syntax",
-        "git clone https://github.com/netresearch/jira-skill.git",
-        "npm install --save-dev \\",
-        "uv run scripts/core/jira-search.py query \"project = PROJ AND status = 'In Progress'\"",
-        "uv run scripts/core/jira-issue.py get PROJ-123"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-22 about AI agents; this candidate overlaps with \"Show HN: CoreMem – Portable context for AI agents\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-25/02-netresearch-jira-skill.md"
     }
   ]
 }
