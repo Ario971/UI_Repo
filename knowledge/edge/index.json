@@ -1,10 +1,203 @@
 {
-  "last_checked_at": "2026-09-03T09:18:11.926Z",
+  "last_checked_at": "2026-09-04T09:11:13.482Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "streamlit/streamlit",
+      "name": "streamlit/streamlit",
+      "url": "https://github.com/streamlit/streamlit",
+      "date": "2026-09-04",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 80,
+      "momentum": 100,
+      "risk": 27,
+      "integration_effort": 44,
+      "expected_gain": 77,
+      "composite": 79,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
+          "date": "2026-08-31",
+          "topic": "AI agents",
+          "similarity": 0.308,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/08-token-efficient-data-reasoning-agents-via-adaptive-structuring-of-unst.md"
+        },
+        {
+          "title": "Show HN: macOS data protection keychain for Electron apps",
+          "date": "2026-08-18",
+          "topic": "AI agents",
+          "similarity": 0.252,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-18/06-show-hn-macos-data-protection-keychain-for-electron-apps.md"
+        },
+        {
+          "title": "Show HN: Mole – Deep research agent for your terminal",
+          "date": "2026-08-14",
+          "topic": "AI agents",
+          "similarity": 0.245,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/06-show-hn-mole-deep-research-agent-for-your-terminal.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-04)",
+        "Apache-2.0 license",
+        "45685 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, requires-python, dependencies, default-groups, required-version, environments"
+        }
+      ],
+      "install_commands": [
+        "pip install streamlit"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-31 about AI agents; this candidate overlaps with \"Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-04/01-streamlit-streamlit.md"
+    },
+    {
+      "id": "virtuslab/sandcat",
+      "name": "VirtusLab/sandcat",
+      "url": "https://github.com/VirtusLab/sandcat",
+      "date": "2026-09-04",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 79,
+      "momentum": 89,
+      "risk": 48,
+      "integration_effort": 56,
+      "expected_gain": 77,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Open tool for testing your AI Agents (No LLM)",
+          "date": "2026-08-28",
+          "topic": "AI agents",
+          "similarity": 0.224,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-28/06-show-hn-open-tool-for-testing-your-ai-agents-no-llm.md"
+        },
+        {
+          "title": "Show HN: p0rt – see every dev server, port and Docker container in your menu bar",
+          "date": "2026-08-11",
+          "topic": "AI dev tools",
+          "similarity": 0.218,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/10-show-hn-p0rt-see-every-dev-server-port-and-docker-container-in-your-me.md"
+        },
+        {
+          "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+          "date": "2026-09-03",
+          "topic": "AI agents",
+          "similarity": 0.201,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/08-a-case-study-on-emergent-cheating-and-whistleblowing-in-autonomous-res.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-04)",
+        "Apache-2.0 license",
+        "190 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [],
+      "install_commands": [
+        "git clone https://github.com/VirtusLab/sandcat.git",
+        "docker compose -f .devcontainer/compose-all.yml build agent",
+        "codex \"explain this codebase\"",
+        "claude-yolo",
+        "claude[\"~/.claude/<br/>CLAUDE.md, agents/, commands/\"]",
+        "claude -. \"bind-mount\" .-> agent"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-28 about AI agents; this candidate overlaps with \"Show HN: Open tool for testing your AI Agents (No LLM)\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-04/02-virtuslab-sandcat.md"
+    },
+    {
+      "id": "galen-chu/ai-agent-skill",
+      "name": "Galen-Chu/AI-Agent-Skill",
+      "url": "https://github.com/Galen-Chu/AI-Agent-Skill",
+      "date": "2026-09-04",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 75,
+      "momentum": 49,
+      "risk": 30,
+      "integration_effort": 28,
+      "expected_gain": 81,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.403,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        },
+        {
+          "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+          "date": "2026-08-27",
+          "topic": "AI agents",
+          "similarity": 0.34,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-wikiskill-compiling-agent-experience-into-persistent-knowledge-for-ski.md"
+        },
+        {
+          "title": "LamsonRetail/lsr-agent-platform",
+          "date": "2026-08-18",
+          "topic": "AI dev tools",
+          "similarity": 0.33,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-04)",
+        "MIT license",
+        "1 GitHub stars",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "Repository description is sparse"
+      ],
+      "readme_quality": 55,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-04/03-galen-chu-ai-agent-skill.md"
+    },
     {
       "id": "satan9394/agent-risk-guard",
       "name": "satan9394/agent-risk-guard",
@@ -19624,192 +19817,6 @@
       "risk_flags": [],
       "why_it_matters": "You saved an article on 2026-05-21 about AI agents; this candidate overlaps with \"Show HN: Agent-estimate, how long a coding task takes, at agent speed\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-27/02-joanium-joanium.md"
-    },
-    {
-      "id": "liutod/scream-code",
-      "name": "LIUTod/scream-code",
-      "url": "https://github.com/LIUTod/scream-code",
-      "date": "2026-05-27",
-      "source": "awesome-mcp",
-      "category": "awesome_lists",
-      "kind": "agent_framework",
-      "compatibility": 90,
-      "momentum": 57,
-      "risk": 45,
-      "integration_effort": 36,
-      "expected_gain": 77,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
-          "date": "2026-05-21",
-          "topic": "AI agents",
-          "similarity": 0.258,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
-        },
-        {
-          "title": "anzy-renlab-ai/pronounce",
-          "date": "2026-05-24",
-          "topic": "AI dev tools",
-          "similarity": 0.217,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/66-anzy-renlab-ai-pronounce.md"
-        },
-        {
-          "title": "Show HN: CoreMem – Portable context for AI agents",
-          "date": "2026-05-22",
-          "topic": "AI agents",
-          "similarity": 0.214,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/50-show-hn-coremem-portable-context-for-ai-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-27)",
-        "Apache-2.0 license",
-        "6 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps name, version, description, requires-python, dependencies, agent-client-protocol, aiofiles, aiohttp"
-        }
-      ],
-      "install_commands": [
-        "uv tool install --upgrade --force git+https://github.com/LIUTod/scream-code.git",
-        "uv sync              # 同步依赖（自动创建 .venv）",
-        "uv tool install -e . # 将 scream 注册为全局命令"
-      ],
-      "risk_flags": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-21 about AI agents; this candidate overlaps with \"Show HN: Agent-estimate, how long a coding task takes, at agent speed\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-27/03-liutod-scream-code.md"
-    },
-    {
-      "id": "matthiasn/lotti",
-      "name": "matthiasn/lotti",
-      "url": "https://github.com/matthiasn/lotti",
-      "date": "2026-05-26",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 77,
-      "momentum": 100,
-      "risk": 38,
-      "integration_effort": 40,
-      "expected_gain": 79,
-      "composite": 77,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: OpenBrief – Local-first video downloader/summarizer",
-          "date": "2026-05-25",
-          "topic": "AI agents",
-          "similarity": 0.191,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/87-show-hn-openbrief-local-first-video-downloader-summarizer.md"
-        },
-        {
-          "title": "WorkstreamBench: Evaluating LLM Agents on End-to-End Spreadsheet Tasks in Finance",
-          "date": "2026-05-21",
-          "topic": "AI agents",
-          "similarity": 0.191,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/52-workstreambench-evaluating-llm-agents-on-end-to-end-spreadsheet-tasks-.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-26)",
-        "GPL-3.0 license",
-        "1115 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics",
-        "May require elevated privileges"
-      ],
-      "readme_quality": 70,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 0,
-      "dependency_files": [],
-      "install_commands": [],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics",
-        "May require elevated privileges"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-25 about AI agents; this candidate overlaps with \"Show HN: OpenBrief – Local-first video downloader/summarizer\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-26/01-matthiasn-lotti.md"
-    },
-    {
-      "id": "sxueck/llm-gateway",
-      "name": "sxueck/llm-gateway",
-      "url": "https://github.com/sxueck/llm-gateway",
-      "date": "2026-05-26",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "ai_dev_tool",
-      "compatibility": 92,
-      "momentum": 77,
-      "risk": 37,
-      "integration_effort": 36,
-      "expected_gain": 69,
-      "composite": 75,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "vladimir120307-droid/mneme",
-          "date": "2026-05-24",
-          "topic": "AI dev tools",
-          "similarity": 0.26,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/67-vladimir120307-droid-mneme.md"
-        },
-        {
-          "title": "bastion-soft/bastion-prompt-protection",
-          "date": "2026-05-21",
-          "topic": "AI agents",
-          "similarity": 0.227,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/28-bastion-soft-bastion-prompt-protection.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-26)",
-        "MIT license",
-        "38 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 1,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps tsx, typescript; scripts dev, dev:backend, dev:web, dev:all, build, build:backend, build:web, typecheck"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/sxueck/llm-gateway.git"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-24 about AI dev tools; this candidate overlaps with \"vladimir120307-droid/mneme\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-26/02-sxueck-llm-gateway.md"
     }
   ]
 }

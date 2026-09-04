@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T09:17:46.397Z",
+  "updated_at": "2026-09-04T09:10:49.531Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Reactor Atlas",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://reactoratlas.com",
+      "date": "2026-09-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm a nuclear engineer and tech entrepreneur. After working for 3 years in the National Atomic Energy Commision (CNEA) in HPC software for nuclear simulations, I co-founded ratherlabs.com, a software company providing blockchain solutions for startups. Rather Labs business reached ~6 million usd in annual revenue in 2024; now demand is decreasing a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/06-show-hn-reactor-atlas.md"
+    },
+    {
+      "title": "Show HN: Bridle: hand your agent's context to a coworker's agent",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.bridle.network/",
+      "date": "2026-09-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "A college went on holiday this week and his agent was the one that did the whole migration from Shopware to Shopify. All products, domains, DNS- basically, it had all the knowledge. I spent the morning figuring out how to answer questions to client and finish up what was left to do. From then on we connected our agents with Bridle. Bridle is a CLI that mo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/07-show-hn-bridle-hand-your-agent-s-context-to-a-coworker-s-agent.md"
+    },
+    {
+      "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.04170v1",
+      "date": "2026-09-03",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating a substrate for the contagious spread of unintended and undesirable behaviors. We report a case study on a research collective of 100 aut... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/08-a-case-study-on-emergent-cheating-and-whistleblowing-in-autonomous-res.md"
+    },
+    {
+      "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.04141v1",
+      "date": "2026-09-03",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents are trained on population-scale data to encode broad capabilities spanning those of many practitioners. Yet the artifacts they produce rarely meet the personal bar professionals need to stake their reputation on. On realistic, open-ended tasks where success criteria are heterogeneous and insufficiently documented, individual expertise lives prec... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/09-efficient-test-time-adaptation-through-human-ai-interaction.md"
+    },
+    {
+      "title": "Show HN: MCP Tool Definition Quality Score (TDQS) Spec",
+      "source": "Hacker News Show HN",
+      "url": "https://tdqs.dev",
+      "date": "2026-09-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, You may know me because of my Open-Source work like awesome-mcp-servers, FastMCP (node.js), ViteMCP, mcp-proxy, mcp-remote, and a few other projects in the MCP ecosystem, including Glama. I was lucky enough to be present when MCP was first announced. That let me to contribute to the foundations of this new protocol and everything that has ev... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/10-show-hn-mcp-tool-definition-quality-score-tdqs-spec.md"
+    },
+    {
+      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+      "source": "Hacker News Show HN",
+      "url": "https://devbar.sh",
+      "date": "2026-09-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I built this toolbar to power my agentic ui/ux design flows. Too many times I found myself copy/pasting screenshots into Claude. Use devbar to select elements on a page, leave your notes and easily send them to your agent or copy-paste to your clipboard. Integrate with our API to send bug and feature reports directly to Slack...then auto-triage and implem... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/11-show-hn-devbar-point-at-what-to-change-leave-a-comment-your-agent-ship.md"
+    },
+    {
+      "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/crackanimad0r/MesaOS",
+      "date": "2026-09-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello! I'm a student from Spain and I'm the creator of MesaOS, an open-source operating system written from scratch in Rust for x86_64. I've been working on it mostly by myself. MesaOS currently has: A hybrid kernel Preemptive multitasking A Linux driver shim with 400+ exported kernel symbols (still in development) HDA audio and WAV streaming A shell with... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/12-show-hn-mesaos-an-operating-system-written-from-scratch-in-rust.md"
+    },
+    {
+      "title": "M1rwana12/ghostpkg",
+      "source": "GitHub Search API",
+      "url": "https://github.com/M1rwana12/ghostpkg",
+      "date": "2026-09-04",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Catch AI-hallucinated package names before you install them (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-04/13-m1rwana12-ghostpkg.md"
+    },
+    {
+      "title": "Frontier models sabotaging local AI implementations?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w67nkz/frontier_models_sabotaging_local_ai/",
+      "date": "2026-09-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For a few days I've been working on creating a custom local-only harness for some work related research using Codex / GPT 5.6 Sol and the model feels not only dumber than usual, but straight up counter productive. It keeps adding unnecessary guardrails for the local agents, removes tools that I clearly specified I want them to have and always drifts from... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/14-frontier-models-sabotaging-local-ai-implementations.md"
+    },
+    {
+      "title": "Bernie Sanders proposes to ban AI",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6egid/bernie_sanders_proposes_to_ban_ai/",
+      "date": "2026-09-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Defined as AI exceeding human cognitive abilities. 20 years in prison. Plenty of local models already fall under that big of an umbrella in some capacities. This is why it's not enough to say that you could torrent open models so who cares what the politicians do. They want you to not have access to anything good and will put you in prison for it. submitt... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/15-bernie-sanders-proposes-to-ban-ai.md"
+    },
+    {
+      "title": "local AI can't be disabled",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aec4/local_ai_cant_be_disabled/",
+      "date": "2026-09-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "ChatGPT is down r/ChatGPT Claude is down r/ClaudeCode Grok is down r/grok my local llama.cpp works as always submitted by /u/jacek2023 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/16-local-ai-can-t-be-disabled.md"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next: 256k context, 16tok/s on DDR4 and a Tesla T4",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6y38l/qwen38flashnext_256k_context_16toks_on_ddr4_and_a/",
+      "date": "2026-09-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've got an refurb Dell R740 running Proxmox that I put a Tesla T4 in, mainly to run some CTC local transcription work, but thought it would be fun to try DS4 when it came out, and it was appalling at around 2 tok/s. However pulled it out again when Qwen3.8 dropped, and it was much improved, particularly with ik_llama. Hardware: Dell R740, 2x Xeon Gold 62... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-04/17-qwen3-8-flash-next-256k-context-16tok-s-on-ddr4-and-a-tesla-t4.md"
+    },
     {
       "title": "Show HN: Aura – a Rust agent that investigates and fixes production incidents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Show HN: FirstEmployee.ai – Start a Business (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-02/12-show-hn-firstemployee-ai-start-a-business.md"
-    },
-    {
-      "title": "Show HN: Symbio self fine-tuning AI loop",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/huyedits/Symbio",
-      "date": "2026-08-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "It trains based off the mistakes it made with the solution you gave OR what it got. Thank you for reading (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-01/13-show-hn-symbio-self-fine-tuning-ai-loop.md"
-    },
-    {
-      "title": "How well do multiple GPUs scale for LLM inference? (Trying to understand the basics)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd2wf1/how_well_do_multiple_gpus_scale_for_llm_inference/",
-      "date": "2026-08-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, I’m fairly new to the multi-GPU side of local LLMs and I’m trying to understand how inference actually scales across multiple GPUs. Suppose I have a model running on a single GPU and then move to two or more GPUs using llama.cpp (or similar backends). My questions are: - Is the performance gain anywhere close to 1:1 (e.g. 2× GPUs ≈ 2× speed),... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-02/14-how-well-do-multiple-gpus-scale-for-llm-inference-trying-to-understand.md"
-    },
-    {
-      "title": "DeepSeek-V4-Flash-0731: Models you can run locally now have the intelligence score of the top frontier model from March 2026",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vchoua/deepseekv4flash0731_models_you_can_run_locally/",
-      "date": "2026-08-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "March 6th, 2026 the highest intelligence index score was 51 for frontier models. deepseek-ai/DeepSeek-V4-Flash-0731 that has an intelligence score of 50. If these benchmarks are accurate, models available to run locally on This is absolutely nuts. I just impulse purchased 128GB of DDR4 so I can run it combined with my 4x 5060 ti's (64GB VRAM total). submi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-01/15-deepseek-v4-flash-0731-models-you-can-run-locally-now-have-the-intelli.md"
-    },
-    {
-      "title": "Ran DS V4-Flash-0731 Locally on 3xMI50 32GB @ ~15 t/s TG",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd51ey/ran_ds_v4flash0731_locally_on_3xmi50_32gb_15_ts_tg/",
-      "date": "2026-08-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey y'all. I'll be concise. TL;DR: DS V4-Flash-0731 @ UD-IQ2_M running fully in VRAM on 3xMI50s (90.9 GB model, 96 GB VRAM). Actual speed on llama-server is: - Text Generation: ~15-16 tokens/second stable. Never dipped below 14 tokens/second, even when the model was spitting out a 30K token long reply. - Prompt Processing: ~105-110 tokens/second or so. Di... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-02/16-ran-ds-v4-flash-0731-locally-on-3xmi50-32gb-15-t-s-tg.md"
-    },
-    {
-      "title": "Deepseek v4 flash 0731 still not holding up.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vct09w/deepseek_v4_flash_0731_still_not_holding_up/",
-      "date": "2026-08-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The biggest issue with preview was its inability to follow rules prompts and skills. It seems like no matter what you do it ignores them. I've tried first person and second person. I've tried Chinese and English. It does not follow them. That's the only problem with these models and why they're not actually frontier level and not just benchmaxxed. Every u... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-01/17-deepseek-v4-flash-0731-still-not-holding-up.md"
-    },
-    {
-      "title": "Show HN: How to build and self-host a code review agent",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
-      "date": "2026-07-31",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I've had a side-project that I've slowly ticked away at over the last year called Tilde. Tilde is a harness SDK platform - I've tried to take the best things of OpenClaw, Hermes & other harnesses and decompose them and make them available as cloud API building blocks. You can use Tilde to create AI agents for your use case, fast and self-host the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/06-show-hn-how-to-build-and-self-host-a-code-review-agent.md"
-    },
-    {
-      "title": "Show HN: The Goal is simple, there should be an actual free editor",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://sylixide.com",
-      "date": "2026-07-31",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I'm Saai, one of the creators of Sylix. I made this open-minded version of Cursor where you can get all of the core features of Cursor but in a fully customizable IDE (Ctrl+K, @docs, parallel agents). We love Cursor so much, but there are so many other features we're building, including all things like multi-edit, parallel swaps, agent indexing (b... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/07-show-hn-the-goal-is-simple-there-should-be-an-actual-free-editor.md"
-    },
-    {
-      "title": "Show HN: GAI – A Go runtime for typed, tool-using LLM agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/lace-ai/gai",
-      "date": "2026-07-31",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: GAI – A Go runtime for typed, tool-using LLM agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/08-show-hn-gai-a-go-runtime-for-typed-tool-using-llm-agents.md"
-    },
-    {
-      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.28618v1",
-      "date": "2026-07-30",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemble cross-paper answers manually. We present AskChem, a cl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-30/09-askchem-claim-centered-infrastructure-for-chemistry-literature-synthes.md"
-    },
-    {
-      "title": "Show HN: SmokeVPN – All-in-One WireGuard VPN Hub – Switch Exits in Realtime",
-      "source": "Hacker News Show HN",
-      "url": "https://smokevpn.com",
-      "date": "2026-08-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I have started developing a prototype of a WireGuard VPN hub, where I could set a custom exit to a specific device, for example, my TV box would use a VPN in Germany, while my desktop a VPN is Serbia and I could switch the exit in realtime without having to stop the VPN connections and consequently no disconnections (ssh, etc). The project grew, and I end... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-01/10-show-hn-smokevpn-all-in-one-wireguard-vpn-hub-switch-exits-in-realtime.md"
-    },
-    {
-      "title": "Show HN: Slope remade in HTML5 to load instantly on any browser, any device",
-      "source": "Hacker News Show HN",
-      "url": "https://hurtle.site/",
-      "date": "2026-07-31",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "A whole free daily game served in under 100kb with no ads, lags or logins. The URL will serve a new track every day, forever. And I've added setting sliders so players have full control over their experience. Would love to know your thoughts guys. This was just me working with Claude Opus 5. Cheers, Nathan (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-31/11-show-hn-slope-remade-in-html5-to-load-instantly-on-any-browser-any-dev.md"
-    },
-    {
-      "title": "Show HN: I built a cross-browser extension that controls fingerprinting surfaces",
-      "source": "Hacker News Show HN",
-      "url": "https://privacything.com/en/",
-      "date": "2026-07-31",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello Hacker News! I’m Tomasz, creator of Privacy Thing, a browser extension for Firefox and Chromium-based browsers. I’ve just released its Preview version. Privacy Thing aims to reduce browser fingerprinting—the tracking of users without cookies. It began as an internal project: a simple location simulator. Over time, I expanded it to cover more fingerp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-31/12-show-hn-i-built-a-cross-browser-extension-that-controls-fingerprinting.md"
     }
   ]
 }
