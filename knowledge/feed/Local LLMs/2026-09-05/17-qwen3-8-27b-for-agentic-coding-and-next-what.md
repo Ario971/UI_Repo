@@ -1,0 +1,12 @@
+---
+title: "Qwen3.8 27b for agentic coding and next .... what?"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1w7tndw/qwen38_27b_for_agentic_coding_and_next_what/"
+date: "2026-09-05"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "First, I'd like to thank the Qwen and Unsloth teams for the Qwen3.8 27b UD Q4_K_XL. Fits the poor 24GB of 3090 VRAM with 100k context at Q8 and works phenomenally well! Imho if theres anything that can threaten Anthropic/OpenAI profits is not another frontier model but actually these small ones you can run fast locally that can do 80..90% of mundane work... (Local summary fallback used.)"
+---
+
+First, I'd like to thank the Qwen and Unsloth teams for the Qwen3.8 27b UD Q4_K_XL. Fits the poor 24GB of 3090 VRAM with 100k context at Q8 and works phenomenally well! Imho if theres anything that can threaten Anthropic/OpenAI profits is not another frontier model but actually these small ones you can run fast locally that can do 80..90% of mundane work for hours without paying a single dollar to any external company. But next, if you want to jump up to a bigger smarter model I feel there is a gap now. Kimi-K3 is out of reach for many businesses let alone prosumers. So what frontier-like models do you use on what setups? Is a DGX cluster (2..4 machines) or a GPU server with dual or quad GPU (~96 ... 192 GB of VRAM + >256GB DDR4) a suitable setup to run something like MiniMax-M3 at reasonable speeds for agentic coding (>30tps)? And privacy aside, is hardware cost worth it? I have a dual rtx3090 + 128GB ddr4 machine, running Qwen3.8-Flash-Next Q4 quite fast but despite being larger doesn't feel much smarter than the Qwen2.8 27b and while I _can_ run larger quantized models, Minimax-M2.7 being my workhorse, it way too slow for coding. submitted by /u/ChopSticksPlease [link] [comments]

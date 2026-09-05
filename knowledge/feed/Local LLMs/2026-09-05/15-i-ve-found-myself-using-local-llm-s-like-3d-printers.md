@@ -1,0 +1,12 @@
+---
+title: "I've found myself using Local LLM's like 3D printers."
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1w7thwv/ive_found_myself_using_local_llms_like_3d_printers/"
+date: "2026-09-05"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Anyone who has a 3D printer and get use of it finds it incredibly useful for those odd jobs around the house, a missing bracket, a cable router, steam deck holder and so on. In the past if I was missing an app or useful software, a game I'd do the lazy thing, even though I can and have coded in the past, its \"effort\" I'll just go and buy or download the l... (Local summary fallback used.)"
+---
+
+Anyone who has a 3D printer and get use of it finds it incredibly useful for those odd jobs around the house, a missing bracket, a cable router, steam deck holder and so on. In the past if I was missing an app or useful software, a game I'd do the lazy thing, even though I can and have coded in the past, its "effort" I'll just go and buy or download the latest and greatest. Earlier in the year I was lucky to snag a Minisforum MS-S1 395+ Max with 128GB Unified memory (currently setup 32gb system and 96gb Vram) before the price hike. Was paired with a Qwen 3.6 27B or 3.6 35B moe but now a 3.8 27B uncensored. it can easily handle a Q8 with full 256k context. Its now become my first instinct when I'm missing software to build it in a couple of hours local using the custom agent framework I setup. Nothing I've created is for external use but every single day I find myself adding to it, while writing this post for example my framework finished an idea I had 2 hours ago when, I woke up this morning thinking I've got a lot of japanese visual novels and why don't I just design a combination hook into Exe or ocr the text app that translates via a local llm, and its done, ready for me to test. I've written 12 adult games (don't code horny) a house AI, a coding framework, a game app to keep a track of all the games I play and download any faq or wiki to do with said game, 17 mods for my Skyrim install, 12 for my Fallout New vegas install, A temperature tracking system for the house that pulls rss local feeds and makes suggestions for my central heating system temps settings, A mapping software for my mobility scooter that checks my normal routes for issues and street work or maintenance that could make pavements impassable. Plus hundreds of tweaks and test programs. Anyone else out there using it like this ? submitted by /u/Quebber [link] [comments]

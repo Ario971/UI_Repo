@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T09:10:49.531Z",
+  "updated_at": "2026-09-05T08:42:25.141Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Moadim.io – A scheduler for agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://moadim.io/",
+      "date": "2026-09-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Why can't we get an agent scheduler that supports all of the following: - git compatible - agent agnostic - 100% open source - os and system-agnostic - multi-runner support - support mcp/ui/http - unlimited routines/crons So I built one, moadim.io is a local Rust daemon you install in the target machine, give it a name and manage its routines via a Git re... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/06-show-hn-moadim-io-a-scheduler-for-agents.md"
+    },
+    {
+      "title": "Show HN: Rubato – Retro-Mac desk device mirrors AI coding state-ESP8266",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/lovaxi/Rubato_Device",
+      "date": "2026-09-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone! I have built an AI health device (ESP8266 + 240*240 screen). It can show AI Agents' status in real time with breathing bubble. And remind user dringking water, toilet, streth, etc. support: DeepSeek Harness, opencode, OpenClaw, Claude Code, Cursor. Hardware design, firmware and plugins are all opensource. urls are here: https://github.com/lov... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-05/07-show-hn-rubato-retro-mac-desk-device-mirrors-ai-coding-state-esp8266.md"
+    },
+    {
+      "title": "Show HN: Audioreality.ai – email to private daily podcast summary show",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.audioreality.ai",
+      "date": "2026-09-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey all, TLDR: When you sign up you get an email alias @audioreality.ai that you can use to sign up for newsletters, have agents send output to, etc. Once a day you get a private podcast with a multi-host format/conversation, so it’s not a basic summary and it’s not a verbatim readout. You can configure multiple shows too, so I personally have some based... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/08-show-hn-audioreality-ai-email-to-private-daily-podcast-summary-show.md"
+    },
+    {
+      "title": "The Natural Language Interaction Protocol and Standard for AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.04135v1",
+      "date": "2026-09-03",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents are increasingly being developed and deployed across organizations using heterogeneous agent-development frameworks, AI models, tool interfaces, protocols, and execution environments. To realize their potential social and business impact, these agents must be able to interoperate through a common communication protocol. The Natural Language Inte... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/09-the-natural-language-interaction-protocol-and-standard-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+      "date": "2026-09-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I love research and development, you may have heard of me because of PJON (Padded Jittering Operative Network). It is a network protocol I started developing in 2010, which was recently implemented in silicon by the ETH Zurich university thanks to the research of Pius Sieber. I am excited to share with you TERMy, a terminal assistant built on top of the N... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-04/10-show-hn-termy-a-fast-terminal-assistant-that-does-not-use-llms.md"
+    },
+    {
+      "title": "Show HN: Sageling - a local AI agent for Mac, Qwen 3.5 9B in-process via MLX",
+      "source": "Hacker News Show HN",
+      "url": "https://sageling.ai/",
+      "date": "2026-09-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "A lot of my non-developer friends still think that AI is basically just Google or something you ask to write something and then copy paste it around... if they use it at all. When I ask them why they don't use the good stuff like Claude Cowork or its competitors, they tell me a few things: 1. Well, I don't wanna pay a bunch of money for it, and the $20 pl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-04/11-show-hn-sageling-a-local-ai-agent-for-mac-qwen-3-5-9b-in-process-via-m.md"
+    },
+    {
+      "title": "Show HN: OpenStint – lap timing using RTL-SDR and near-field transponders",
+      "source": "Hacker News Show HN",
+      "url": "https://openstint.org/",
+      "date": "2026-09-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I race 1/10 scale on-road radio-controlled cars. About a year ago, I started working on an open-source lap timing decoder, that reads the proprietary decoders commonly used in this hobby. Overview: https://openstint.org/decoder/docs/introduction.html Radio signal chain: https://openstint.org/decoder/docs/dev-rx-architecture.html (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-04/12-show-hn-openstint-lap-timing-using-rtl-sdr-and-near-field-transponders.md"
+    },
+    {
+      "title": "Vetronik/StudyGraph",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Vetronik/StudyGraph",
+      "date": "2026-09-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI-powered learning platform that transforms study materials into structured knowledge (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-05/13-vetronik-studygraph.md"
+    },
+    {
+      "title": "You can now run a 90M conversational LLM on the Sony PSP (hardware from 2004). Doesn't get more local than this.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w78ztg/you_can_now_run_a_90m_conversational_llm_on_the/",
+      "date": "2026-09-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Github link: https://github.com/thatblend/LLMPSP I wanted to see what the PSP can theoretically handle and I got my answer - a 90M model is about the max it can do without atrocious inference speeds. It's running around 0.5 - 0.6 tokens per second, which is very slow, but it's useable. Maybe 1-3 minutes for a reply. The model is actually fairly impressive... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-04/14-you-can-now-run-a-90m-conversational-llm-on-the-sony-psp-hardware-from.md"
+    },
+    {
+      "title": "I've found myself using Local LLM's like 3D printers.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7thwv/ive_found_myself_using_local_llms_like_3d_printers/",
+      "date": "2026-09-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Anyone who has a 3D printer and get use of it finds it incredibly useful for those odd jobs around the house, a missing bracket, a cable router, steam deck holder and so on. In the past if I was missing an app or useful software, a game I'd do the lazy thing, even though I can and have coded in the past, its \"effort\" I'll just go and buy or download the l... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-05/15-i-ve-found-myself-using-local-llm-s-like-3d-printers.md"
+    },
+    {
+      "title": "Qwen3.8-27b is the first Local model im able to blindly trust",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w78dmn/qwen3827b_is_the_first_local_model_im_able_to/",
+      "date": "2026-09-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "You know that thing where you just throw a task at a frontier model and not have to supervise it worrying of it going off course? Qwen3.8-27b has officially gotten me to that point for local work. He has been doing non-stop continuous agentic work for 8+ hours and hasnt screwed up not one bit IT AMAZING!! EDIT: for all asking about my quant & harness and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-04/16-qwen3-8-27b-is-the-first-local-model-im-able-to-blindly-trust.md"
+    },
+    {
+      "title": "Qwen3.8 27b for agentic coding and next .... what?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7tndw/qwen38_27b_for_agentic_coding_and_next_what/",
+      "date": "2026-09-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "First, I'd like to thank the Qwen and Unsloth teams for the Qwen3.8 27b UD Q4_K_XL. Fits the poor 24GB of 3090 VRAM with 100k context at Q8 and works phenomenally well! Imho if theres anything that can threaten Anthropic/OpenAI profits is not another frontier model but actually these small ones you can run fast locally that can do 80..90% of mundane work... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-05/17-qwen3-8-27b-for-agentic-coding-and-next-what.md"
+    },
     {
       "title": "Show HN: Reactor Atlas",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Provider-independent coding agent for your terminal — fast Rust TUI + headless mode, OS-sandboxed, multi-provider (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-02/12-strozynskiw-bonsai.md"
-    },
-    {
-      "title": "Show HN: A Handwritten Blogging Platform",
-      "source": "Hacker News Show HN",
-      "url": "https://handwritten.blog/",
-      "date": "2026-07-31",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "The idea is a place for beautiful notes like https://insidevoices.handwritten.blog . (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-31/13-show-hn-a-handwritten-blogging-platform.md"
-    },
-    {
-      "title": "b10233",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10233",
-      "date": "2026-08-02",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "opencl: limit local workgroup size for GLU operation (#26383) **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10233/llama-b10233-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](ht... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-02/14-b10233.md"
-    },
-    {
-      "title": "b10237",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10237",
-      "date": "2026-08-03",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "llama : MTP support for DeepSeek V3.2 (#26457) * llama : MTP support for DeepSeek V3.2 * model : no need to include MTP layers during DeepSeek V3.2 model type discovery --------- Co-authored-by: Stanisław Szymczyk **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10237/llama-b10237-bin-m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-03/15-b10237.md"
-    },
-    {
-      "title": "b10236",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10236",
-      "date": "2026-08-03",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "metal: implement DSv4 Lightning Indexer (#25893) * metal: implement F16 Lightning Indexer - Implement GGML_OP_LIGHTNING_INDEXER for 128-dimensional, 64-head inputs with F32 queries and weights plus F16 keys and masks. - Add tiled and tail kernels and test KV lengths around 8- and 64-element boundaries. llama-bench (--mmap 1, -fa 1, -p 512, -n 128; d=0/10k... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-03/16-b10236.md"
-    },
-    {
-      "title": "b10235",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10235",
-      "date": "2026-08-02",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "metal : add SILU_BACK (#25982) * feat(silu_back): implemented silu_back op for f32 * fix(silu_back): removed redundant asserts in ggml-metal-ops.cpp function ggml_metal_op_silu_back. **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10235/llama-b10235-bin-macos-arm64.tar.gz) - macOS Appl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-02/17-b10235.md"
-    },
-    {
-      "title": "Show HN: I get 25 deep researched ideas with one single prompt",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/ringlochid/banksia",
-      "date": "2026-08-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Make a three-layer workflow with 19 agents work together in parallel with one single prompt, then use that to research anything I want. If I don't specify any topic, it can prompt me some topics and wait for my response. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-02/06-show-hn-i-get-25-deep-researched-ideas-with-one-single-prompt.md"
-    },
-    {
-      "title": "Show HN: Pronto – real‑time wire for AI agents (70k+ feeds connected)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://pronto.stream/",
-      "date": "2026-08-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Pronto – real‑time wire for AI agents (70k+ feeds connected) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-01/07-show-hn-pronto-real-time-wire-for-ai-agents-70k-feeds-connected.md"
-    },
-    {
-      "title": "Show HN: Wienerdog – memory and self-improving skills for Claude Code/Codex",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/wienerdog-ai/wienerdog/",
-      "date": "2026-08-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "The idea of Wienerdog was born out of my experience setting up my own simple but effective system of memory, self-improving skills and hooks for Claude Code and Codex. As I was teaching my friends and colleagues how to set up their own I found myself automating more and more of my system setup and finally I decided to publish it on GitHub to help others g... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-01/08-show-hn-wienerdog-memory-and-self-improving-skills-for-claude-code-cod.md"
-    },
-    {
-      "title": "Agentic Metaverse Services: A New As-a-Service Paradigm",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.28242v1",
-      "date": "2026-07-30",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Generative Artificial Intelligence (GenAI) is reconstructing the digital virtual world, upgrading agents through enhancing their abilities in autonomous learning, multi-modal interaction, content generation, and collaborative decision-making. In particular, the shift from conversational chatbots to agentic AI, the most recent significant technical breakth... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-30/09-agentic-metaverse-services-a-new-as-a-service-paradigm.md"
-    },
-    {
-      "title": "Show HN: Use iPhone's camera as a lux meter",
-      "source": "Hacker News Show HN",
-      "url": "https://www.impulsearc.com/wavelength/",
-      "date": "2026-08-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "After suffering one too many times from bad jet lag, I read a bunch of circadian rhythm papers and developed a simple app to help fight jet lag. I knew that avoiding devices at night was helpful, but it turns out that getting the right light at specific times of day can help not just with jet lag but overall sleep and well being. How it works: you give th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-01/10-show-hn-use-iphone-s-camera-as-a-lux-meter.md"
-    },
-    {
-      "title": "Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
-      "source": "Hacker News Show HN",
-      "url": "https://costperprompt.com/",
-      "date": "2026-08-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-02/11-show-hn-costperprompt-live-ai-api-pricing-and-real-workload-cost-calcu.md"
-    },
-    {
-      "title": "Show HN: FirstEmployee.ai – Start a Business",
-      "source": "Hacker News Show HN",
-      "url": "https://firstemployee.ai/",
-      "date": "2026-08-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: FirstEmployee.ai – Start a Business (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-02/12-show-hn-firstemployee-ai-start-a-business.md"
     }
   ]
 }
