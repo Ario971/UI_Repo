@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T08:42:25.141Z",
+  "updated_at": "2026-09-06T09:01:46.992Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Fast Cut Video tool for cutting video for Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/modecir/fast-cutvid",
+      "date": "2026-09-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, Build this tool in a couple of hours with OpenAI Codex to scratch an itch. As part of my videos workflows I needed to cut the videos myself since the agent is pretty bad cutting and timing using only the transcription. But using a big app like Premiere or DaVinci Resolve was overkill so I used Astra to build an app tailored to that very task. It wi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-05/06-show-hn-fast-cut-video-tool-for-cutting-video-for-agents.md"
+    },
+    {
+      "title": "PatchBench: Evaluating AI Agents for Vulnerability Patching",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.04075v1",
+      "date": "2026-09-03",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents have recently demonstrated strong performance in automated vulnerability patching. However, existing evaluations often validate a patch only by testing whether the provided Proof-of-Concept (PoC) input still triggers a crash. This leaves two key threats to validity: agents may reproduce memorized historical developer patches, or they may generat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/07-patchbench-evaluating-ai-agents-for-vulnerability-patching.md"
+    },
+    {
+      "title": "Show HN: Open-Source eInk Bike Computer",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://opentrailpaper.com",
+      "date": "2026-09-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey all, i just launched my Eink Bike computer project and think it is cool. Another tidbit, in the crazy things that AI has done... It has helped create a ANT (common sensor wireless protocol used in workout/biking) implementation for ESP32 by messing around with undocumented registers: https://github.com/RaemondBW/esp32-ant (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/08-show-hn-open-source-eink-bike-computer.md"
+    },
+    {
+      "title": "Show HN: HyperCard to HTML Converter",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/stachon/hc2html",
+      "date": "2026-09-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I created a converter that turns HyperCard 2.x stacks into standalone HTML so they can run in a modern browser. I built it to share my own stacks from the early '90s, which have been sitting on old floppy images for 30 years. It's MIT-licensed and I'd welcome contributions - especially stacks that break the converter, since I've only tested it against my... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-05/09-show-hn-hypercard-to-html-converter.md"
+    },
+    {
+      "title": "Show HN: Minilith – A zero-dependency CMS stored inside a PNG file",
+      "source": "Hacker News Show HN",
+      "url": "https://blog.minilith.site/#posts/minilith-architecture",
+      "date": "2026-09-05",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I enjoy the constraints of retro development. While building games in PICO-8, I took a interest in the way it packs data into the virtual cartridge. I dug into steganography and started thinking: could I apply the same logic to a content management system? Do we really need all the bloat just to host a micro blog? Minilith is a database free CMS where the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-05/10-show-hn-minilith-a-zero-dependency-cms-stored-inside-a-png-file.md"
+    },
+    {
+      "title": "HQBase/hqbot",
+      "source": "GitHub Search API",
+      "url": "https://github.com/HQBase/hqbot",
+      "date": "2026-09-06",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Self-hosted AI teammates on customer-owned Cloudflare infrastructure (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-06/11-hqbase-hqbot.md"
+    },
+    {
+      "title": "caiovicentino/opencode-remote",
+      "source": "GitHub Search API",
+      "url": "https://github.com/caiovicentino/opencode-remote",
+      "date": "2026-09-06",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Control your local opencode agent from your phone — PWA ⇄ blind relay ⇄ daemon. Passkey+QR pairing, E2E-encrypted, voice, rewind, AutoMode, push notifications. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-06/12-caiovicentino-opencode-remote.md"
+    },
+    {
+      "title": "Qwen3.8-27B \"Unhacked\" my PC",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8jahs/qwen3827b_unhacked_my_pc/",
+      "date": "2026-09-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Right, so this is going to be embarrassing but it's presumably something we've all been through at one point or another, and I guess this is my first time resolving something like this in the way that I did so figured I'd share if only to share that it's now a thing and that it's pretty cool.. A friend of mine sent a message asking what's up and if I want... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-06/13-qwen3-8-27b-unhacked-my-pc.md"
+    },
+    {
+      "title": "The gap has closed, open source will win",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w825pc/the_gap_has_closed_open_source_will_win/",
+      "date": "2026-09-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been trying the latest models from the frontier labs and honestly, after extensive testing I can not tell the difference between the best open source options. I think the differences are now marginal but the labs are doing heavy marketing to convince the public into paying more for tokens as they prepare to go public. Can't help but see the similarit... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-05/14-the-gap-has-closed-open-source-will-win.md"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next-oQ4e-mtp: 45 tok/s on M4 Max, 25 tok/s on M2 Ultra for local inference — llm-bench.io",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8qo79/qwen38flashnextoq4emtp_45_toks_on_m4_max_25_toks/",
+      "date": "2026-09-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Qwen 3.8 Flash Next gives similar speed than Qwen3.8 27B on Apple Silicon. submitted by /u/DerTomsn [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-06/15-qwen3-8-flash-next-oq4e-mtp-45-tok-s-on-m4-max-25-tok-s-on-m2-ultra-fo.md"
+    },
+    {
+      "title": "My only real use case for a local AI use is document management, how much VRAM do I realistically need for a good experience?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8ga5y/my_only_real_use_case_for_a_local_ai_use_is/",
+      "date": "2026-09-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I just want to use paperless-ai and be able to ask questions relative to it. Bonus points if I could use it with home assistant but that's not the focus. I just can't see needing a 32 GB VRAM GPU for just that, but I don't want to buy a GPU only to find out that \"yeah, it's technically feasible but not a good user experience\" The GPU's I tend to find at g... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-05/16-my-only-real-use-case-for-a-local-ai-use-is-document-management-how-mu.md"
+    },
     {
       "title": "Show HN: Moadim.io – A scheduler for agents",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "Production-ready AI-powered Food Donation & Distribution Platform Backend built with Node.js, Express.js, TypeScript, MongoDB, Redis, BullMQ, and Docker. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/13-vrajdiyora06-foodbridge-ai-backend.md"
-    },
-    {
-      "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1veg9uq/data_center_in_a_box_on_wheels_256gb_vram512gb/",
-      "date": "2026-08-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been out of these forums for awhile but I figured I would provide a formal update on how this has been going now that it has some operation time under its belt, just to put the information out there and share knowledge if there is any interest. I also wasn't satisfied with the quality of my original post so I will probably remove it and let this one... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-03/14-data-center-in-a-box-on-wheels-256gb-vram-512gb-ram-ai-server-6-8-mont.md"
-    },
-    {
-      "title": "Is LM Studio abandoning their core product?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vf2hhp/is_lm_studio_abandoning_their_core_product/",
-      "date": "2026-08-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Some of you may be aware that a few weeks ago, LM Studio announced a new agent, Bionic. This is pretty much an agentic harness for both local models and paid cloud models. But most aren't aware that LM Studio replaced almost every link to the original app that built their brand and reputation with the new Bionic agent. If you go to the LM Studio website r... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-04/15-is-lm-studio-abandoning-their-core-product.md"
-    },
-    {
-      "title": "KAT Coder 2.5 dev: Do yourself a favor and try it!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve9r2q/kat_coder_25_dev_do_yourself_a_favor_and_try_it/",
-      "date": "2026-08-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "It is so good! I don't know why there aren't more people talking about it. Fewer tokens, faster and more accurate than Qwen 3.6 35b a3b. On my setup it's nearly as good as 27b, but 5x faster. And it completely trashes the Gemma 4 models. At least for my use case, it feels amazing. I'd love to hear other people's experience with it. If you want an actual m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-03/16-kat-coder-2-5-dev-do-yourself-a-favor-and-try-it.md"
-    },
-    {
-      "title": "More Qwen 3.8 sizes coming",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vevsv9/more_qwen_38_sizes_coming/",
-      "date": "2026-08-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/appakaradi [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-04/17-more-qwen-3-8-sizes-coming.md"
-    },
-    {
-      "title": "From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.29516v1",
-      "date": "2026-07-31",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI coding agents are generating code at volumes that exceed the capacity of traditional peer review. At the same time, existing AI code review tools over-index on low-value suggestions such as style and best practices while under-indexing on the concerns human reviewers prioritize most: correctness, security, and performance. We present ARCTIC, an AI-powe... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/06-from-code-review-to-code-critique-intent-drift-and-spotlight-for-ai-ge.md"
-    },
-    {
-      "title": "AgenticRepair: Multi-Faceted Program Context Engineering for Agentic Vulnerability Repair",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.29422v1",
-      "date": "2026-07-31",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Automated vulnerability repair aims to reduce the time and effort required to patch security flaws from a vulnerability triage report. Recent agentic AI approaches have shown promising results in automated program repair. However, vulnerability repair demands richer program context than general bug repair - context that security engineers routinely assemb... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/07-agenticrepair-multi-faceted-program-context-engineering-for-agentic-vu.md"
-    },
-    {
-      "title": "Tool Specifications Matter: Uncovering and Mitigating Safety Risks in AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2607.29254v1",
-      "date": "2026-07-31",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents extend large language models (LLMs) with external tools, enabling them to perform complex tasks and translate model outputs into consequential real-world actions. Yet LLMs often become substantially less safe when deployed as agents, and the source of this degradation remains poorly understood. In this paper, we identify schema-formatted tool sp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/08-tool-specifications-matter-uncovering-and-mitigating-safety-risks-in-a.md"
-    },
-    {
-      "title": "Skip to main content",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news#main-content",
-      "date": "2026-08-03",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Skip to main content (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-03/09-skip-to-main-content.md"
-    },
-    {
-      "title": "Show HN: MPEdb - Drop in replacement for SQLite3 with concurrency support",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/punnerud/mpedb",
-      "date": "2026-08-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi, the last weeks I have used 3x my 20x Anthropic tokens budget during the holiday to build a server less database like Sqlite3 with concurrency support like PostgreSQL. Faster on most benchmarks and 100% on internal unit tests for SQLite3, CPython, Django and SQLAlchemy. Testet on multiple Django projects with 0 errors. The concurrency support faster th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-03/10-show-hn-mpedb-drop-in-replacement-for-sqlite3-with-concurrency-support.md"
-    },
-    {
-      "title": "Show HN: Fuse – statically typed functional programming language",
-      "source": "Hacker News Show HN",
-      "url": "https://fuselang.org",
-      "date": "2026-08-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! I've been working on the fuse programming language, it's a statically typed purely functional language with higher-kinder types and ad-hoc polymorphism. It compiles to the GRIN whole-program optimizer, producing LLVM-generated native code. Fuse supports ADTs, Generics, Type Methods, Traits, Pattern matching etc. all in a functional style with no mu... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-02/11-show-hn-fuse-statically-typed-functional-programming-language.md"
-    },
-    {
-      "title": "strozynskiw/bonsai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/strozynskiw/bonsai",
-      "date": "2026-08-02",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Provider-independent coding agent for your terminal — fast Rust TUI + headless mode, OS-sandboxed, multi-provider (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-02/12-strozynskiw-bonsai.md"
     }
   ]
 }
