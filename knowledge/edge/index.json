@@ -1,10 +1,220 @@
 {
-  "last_checked_at": "2026-09-06T09:02:14.648Z",
+  "last_checked_at": "2026-09-07T09:49:58.772Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "generative-computing/mellea-skills-compiler",
+      "name": "generative-computing/mellea-skills-compiler",
+      "url": "https://github.com/generative-computing/mellea-skills-compiler",
+      "date": "2026-09-07",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 79,
+      "risk": 32,
+      "integration_effort": 56,
+      "expected_gain": 87,
+      "composite": 78,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+          "date": "2026-08-27",
+          "topic": "AI agents",
+          "similarity": 0.305,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-wikiskill-compiling-agent-experience-into-persistent-knowledge-for-ski.md"
+        },
+        {
+          "title": "LamsonRetail/lsr-agent-platform",
+          "date": "2026-08-18",
+          "topic": "AI dev tools",
+          "similarity": 0.288,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+        },
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.244,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-07)",
+        "Apache-2.0 license",
+        "48 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @anthropic-ai/sdk, boxen, chalk, commander, inquirer, mellea-skills-cli, ora; scripts interactive"
+        },
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, description, dynamic, readme, requires-python, license"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/generative-computing/mellea-skills-compiler",
+        "pip install -e .",
+        "pip install vllm",
+        "ollama pull granite4.1:3b",
+        "ollama pull ibm/granite3.3-guardian:8b"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-27 about AI agents; this candidate overlaps with \"WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-07/01-generative-computing-mellea-skills-compiler.md"
+    },
+    {
+      "id": "punkpeye/awesome-mcp-servers",
+      "name": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "date": "2026-09-07",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 67,
+      "momentum": 100,
+      "risk": 46,
+      "integration_effort": 60,
+      "expected_gain": 95,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "how to setup llama.cpp and blender to make lovely 3d stuff together",
+          "date": "2026-08-28",
+          "topic": "Local LLMs",
+          "similarity": 0.5,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/16-how-to-setup-llama-cpp-and-blender-to-make-lovely-3d-stuff-together.md"
+        },
+        {
+          "title": "qgeng1465/bio-mcp",
+          "date": "2026-08-11",
+          "topic": "AI dev tools",
+          "similarity": 0.472,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/13-qgeng1465-bio-mcp.md"
+        },
+        {
+          "title": "Show HN: MCP Tool Definition Quality Score (TDQS) Spec",
+          "date": "2026-09-03",
+          "topic": "AI dev tools",
+          "similarity": 0.463,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/10-show-hn-mcp-tool-definition-quality-score-tdqs-spec.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-07)",
+        "MIT license",
+        "94536 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [],
+      "install_commands": [
+        "npx -y correctover-mcp-server",
+        "pip install ddg-agent-services-mcp",
+        "npx -y @forgemeshlabs/anomaly-mcp",
+        "npx -y @2sio/mcp",
+        "npx mcp-pulsenetwork",
+        "npx -y a2asearch-mcp"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-28 about Local LLMs; this candidate overlaps with \"how to setup llama.cpp and blender to make lovely 3d stuff together\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-07/02-punkpeye-awesome-mcp-servers.md"
+    },
+    {
+      "id": "vibeic/vibe-ic",
+      "name": "vibeic/vibe-ic",
+      "url": "https://github.com/vibeic/vibe-ic",
+      "date": "2026-09-07",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 75,
+      "momentum": 73,
+      "risk": 30,
+      "integration_effort": 52,
+      "expected_gain": 87,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Mnemosyne Local hierarchical memory engine for AI agents (MCP Native)",
+          "date": "2026-08-23",
+          "topic": "AI agents",
+          "similarity": 0.299,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/06-show-hn-mnemosyne-local-hierarchical-memory-engine-for-ai-agents-mcp-n.md"
+        },
+        {
+          "title": "Show HN: Doop – open-source live canvas for AI agents to design",
+          "date": "2026-08-23",
+          "topic": "AI agents",
+          "similarity": 0.274,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/08-show-hn-doop-open-source-live-canvas-for-ai-agents-to-design.md"
+        },
+        {
+          "title": "The Natural Language Interaction Protocol and Standard for AI Agents",
+          "date": "2026-09-03",
+          "topic": "AI agents",
+          "similarity": 0.271,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/09-the-natural-language-interaction-protocol-and-standard-for-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-07)",
+        "Apache-2.0 license",
+        "23 GitHub stars",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [],
+      "install_commands": [
+        "docker pull ghcr.io/vibeic/vibeic-eda:latest   # canonical image; to build from source: git clone https://github.com/vibeic/vibeic-eda",
+        "docker rm -f vibeic-eda 2>/dev/null || true    # \"name already in use\"? drop the old container first",
+        "docker run -d --name vibeic-eda --memory 48g --memory-swap 48g \\",
+        "docker exec vibeic-eda yosys --version         # sanity check — should print a version",
+        "claude plugin marketplace add vibeic/vibe-ic",
+        "claude plugin install vibe-ic"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-23 about AI agents; this candidate overlaps with \"Show HN: Mnemosyne Local hierarchical memory engine for AI agents (MCP Native)\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-07/03-vibeic-vibe-ic.md"
+    },
     {
       "id": "cameronfreer/lean4-skills",
       "name": "cameronfreer/lean4-skills",
@@ -19609,205 +19819,6 @@
       "risk_flags": [],
       "why_it_matters": "You saved an article on 2026-05-22 about AI agents; this candidate overlaps with \"Show HN: CoreMem – Portable context for AI agents\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-30/02-manthanpatelll-claude-code-starter.md"
-    },
-    {
-      "id": "open-covenant/covenant",
-      "name": "open-covenant/covenant",
-      "url": "https://github.com/open-covenant/covenant",
-      "date": "2026-05-30",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 80,
-      "momentum": 57,
-      "risk": 32,
-      "integration_effort": 70,
-      "expected_gain": 87,
-      "composite": 69,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
-          "date": "2026-05-21",
-          "topic": "AI agents",
-          "similarity": 0.233,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/38-show-hn-agent-email-sign-up-via-curl-claim-with-a-human-otp.md"
-        },
-        {
-          "title": "tyanko-lab/agents-mission-control",
-          "date": "2026-05-28",
-          "topic": "AI agents",
-          "similarity": 0.227,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/12-tyanko-lab-agents-mission-control.md"
-        },
-        {
-          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
-          "date": "2026-05-20",
-          "topic": "AI agents",
-          "similarity": 0.225,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-30)",
-        "Apache-2.0 license",
-        "6 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @eslint/eslintrc, @types/node, eslint, eslint-config-next, prettier, ts-node, tsx, turbo; scripts agent-os:validate, agent-os:provenance, build, dev, lint, typecheck, clean, test"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/open-covenant/covenant && cd covenant",
-        "pnpm install --ignore-workspace",
-        "pnpm dev   # http://localhost:3000",
-        "pnpm --dir landing install --frozen-lockfile --ignore-workspace",
-        "pnpm --dir landing build",
-        "cargo test --workspace --exclude covenant-settlement-program -- --ignored live_"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-21 about AI agents; this candidate overlaps with \"Show HN: Agent.email – sign up via curl, claim with a human OTP\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-30/03-open-covenant-covenant.md"
-    },
-    {
-      "id": "ai-zerolab/mcp-email-server",
-      "name": "ai-zerolab/mcp-email-server",
-      "url": "https://github.com/ai-zerolab/mcp-email-server",
-      "date": "2026-05-29",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 80,
-      "momentum": 98,
-      "risk": 32,
-      "integration_effort": 68,
-      "expected_gain": 87,
-      "composite": 77,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "gHashTag/trios-mcp-rag",
-          "date": "2026-05-23",
-          "topic": "AI agents",
-          "similarity": 0.369,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
-        },
-        {
-          "title": "anzy-renlab-ai/pronounce",
-          "date": "2026-05-24",
-          "topic": "AI dev tools",
-          "similarity": 0.264,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/66-anzy-renlab-ai-pronounce.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-29)",
-        "BSD-3-Clause license",
-        "241 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 5,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps name, version, description, authors, readme, keywords, requires-python, classifiers"
-        }
-      ],
-      "install_commands": [
-        "npx -y @smithery/cli install @ai-zerolab/mcp-email-server --client claude",
-        "pip install mcp-email-server",
-        "uv run mcp-email-server"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-29/01-ai-zerolab-mcp-email-server.md"
-    },
-    {
-      "id": "debpalash/omnivoice-studio",
-      "name": "debpalash/OmniVoice-Studio",
-      "url": "https://github.com/debpalash/OmniVoice-Studio",
-      "date": "2026-05-29",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "ai_dev_tool",
-      "compatibility": 80,
-      "momentum": 100,
-      "risk": 53,
-      "integration_effort": 48,
-      "expected_gain": 77,
-      "composite": 74,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: OpenBrief – Local-first video downloader/summarizer",
-          "date": "2026-05-25",
-          "topic": "AI agents",
-          "similarity": 0.251,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/87-show-hn-openbrief-local-first-video-downloader-summarizer.md"
-        },
-        {
-          "title": "Show HN: I open-sourced two AI agents with real memory (chat and voice, MIT)",
-          "date": "2026-05-26",
-          "topic": "AI agents",
-          "similarity": 0.227,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-26/99-show-hn-i-open-sourced-two-ai-agents-with-real-memory-chat-and-voice-m.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-05-29)",
-        "5203 GitHub stars",
-        "GitHub Actions/CI detected",
-        "Matches 2 saved Feed article(s)"
-      ],
-      "cons": [
-        "License was not clearly detected by GitHub",
-        "No clear install command found in README",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps concurrently, kill-port-process, playwright, turbo, typescript, wait-on; scripts setup:api, dev:api, dev:frontend, dev:desktop, wait:api, wait:frontend, predev, dev"
-        },
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps requires, build-backend, name, version, description, readme, license, requires-python"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-25 about AI agents; this candidate overlaps with \"Show HN: OpenBrief – Local-first video downloader/summarizer\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-05-29/02-debpalash-omnivoice-studio.md"
     }
   ]
 }
