@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T09:49:34.912Z",
+  "updated_at": "2026-09-08T09:14:09.949Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Archprint, infer architecture lint rules from your repo's import graph",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Tommkruix/archprint",
+      "date": "2026-09-08",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "This tool started as a research for me trying to answer the question \"Does AI agents drift from your architecture conventions or if you need enforcement instead?\". So I started out building a benchmark to test that premise and on the scope I tested, the agents did not drift and I had to stop that research line. So to reuse what I have learnt from that res... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/06-show-hn-archprint-infer-architecture-lint-rules-from-your-repo-s-impor.md"
+    },
+    {
+      "title": "How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.05037v1",
+      "date": "2026-09-04",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "As LLMs take on roles requiring moral advice, understanding how they attribute moral agency becomes critical. Humans possess moral agency, the capacity to make ethically guided decisions and bear responsibility for their consequences, a well-established construct in moral psychology. Yet as artificial agents (AAs) such as robots, drones, and disembodied A... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/07-how-do-llms-evaluate-perceived-moral-agency-investigating-moral-decisi.md"
+    },
+    {
+      "title": "Skip to main content",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news#main-content",
+      "date": "2026-09-08",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Skip to main content (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/08-skip-to-main-content.md"
+    },
+    {
+      "title": "Show HN: Jigsaw Haiku",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://jigsawhaiku.com/",
+      "date": "2026-09-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! Jigsaw Haiku was originally designed with my puzzles site The Daily Baffle ( https://dailybaffle.com ) in mind. But once I had built it, I realized it just didn't quite fit with the aesthetic of the Baffle's other puzzles, so I decided to put it up separately. While most of the puzzles on the Daily Baffle were intended to be rather challenging, for... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/09-show-hn-jigsaw-haiku.md"
+    },
+    {
+      "title": "tarunchaudhry/agentive-ui",
+      "source": "GitHub Search API",
+      "url": "https://github.com/tarunchaudhry/agentive-ui",
+      "date": "2026-08-21",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A shadcn-based UI development kit for building AI agent interfaces — chat, streaming, tool calls, research agents, and browser-use agents. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-21/10-tarunchaudhry-agentive-ui.md"
+    },
+    {
+      "title": "Show HN: Interactive Tree of Life",
+      "source": "Hacker News Show HN",
+      "url": "https://ptree.org/",
+      "date": "2026-09-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Ptree consolidates of 11 taxonomic trees, both categorical like we used in school (plant, animalia) and phylogenetic (evolutionary descent), with instant crosswalk between them. Across those trees it overlays 41 visual properties (categorical and numerical) assembled from hundreds of biological traits and sources. Color the tree by habitat, nutrition, siz... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-04/11-show-hn-interactive-tree-of-life.md"
+    },
+    {
+      "title": "Show HN: HomeCat – Design your backyard office",
+      "source": "Hacker News Show HN",
+      "url": "https://myhomecat.com",
+      "date": "2026-09-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! Ilya and Nikita here. We’re building HomeCat, a tool that lets you design a backyard office space - https://myhomecat.com We started out by helping people design sheds, and quickly realized that many people actually want to build a backyard office. There wasn't really an easy way to do this, so we thought we'd take on the challenge. Right now, you... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-07/12-show-hn-homecat-design-your-backyard-office.md"
+    },
+    {
+      "title": "Show HN: Browser only CSV editor, data never leaves your machine",
+      "source": "Hacker News Show HN",
+      "url": "https://csvpreview.com",
+      "date": "2026-09-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "The current software I am working upon as part of my full time job, I have to deal with very long JSONs and lot of CSVs. For editing or viewing JSONs my first and obivous choice was jsonher.io, it’s the most wonderful JSON viewer I have ever seen. But I wish I could the same for CSVs too, when I googled it, I couldn’t find anything good. Most of the tools... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-08/13-show-hn-browser-only-csv-editor-data-never-leaves-your-machine.md"
+    },
+    {
+      "title": "After over a year of my nights and weekends, the Jenny app is done!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9wvkb/after_over_a_year_of_my_nights_and_weekends_the/",
+      "date": "2026-09-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi all! I just wanna say that I am tired lol. Yes, it's another harness, but I spent a lot of time and effort and have forsaken my hobbies to build the Jenny (like XJ-9) app. Jenny is a free, MIT licensed electron desktop app for running local LLMs with tool calling, rollback, and an IDE. A lot of you probably had the same thought I did a year or year and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-07/14-after-over-a-year-of-my-nights-and-weekends-the-jenny-app-is-done.md"
+    },
+    {
+      "title": "I REALLY hope the new gemma 5 family sticks to the \"chat model first\" philsophy and doesn't fall into the Qwen trap",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9ylhh/i_really_hope_the_new_gemma_5_family_sticks_to/",
+      "date": "2026-09-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "It just seems every local 30b class model is just trying so hard to be the next Qwen that they all just kinda blend into a mass of code focused models. I really like how gemma 4 31b turned out with it feeling a lot less robotic and more creative than other models even knowing obscure lore from random media. I just hope they don't cave into the benchmarks... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-07/15-i-really-hope-the-new-gemma-5-family-sticks-to-the-chat-model-first-ph.md"
+    },
+    {
+      "title": "I made Warrior Quest, a local LLM-powered dark-fantasy RPG where the model only plays NPCs and the actual game state stays deterministic",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa84sa/i_made_warrior_quest_a_local_llmpowered/",
+      "date": "2026-09-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The LLM is limited to NPC emulation. Game state, world logic, quests, and the authored story are handled by deterministic game systems rather than the LLM. I built it this way because I wanted the freedom of talking to NPCs like you would at a tabletop game, without handing the actual game state or canon over to an LLM. This started as a personal project.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-07/16-i-made-warrior-quest-a-local-llm-powered-dark-fantasy-rpg-where-the-mo.md"
+    },
+    {
+      "title": "DeepSeek-V4-Flash-Vision-Exp is amazing at creating game worlds!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa06k3/deepseekv4flashvisionexp_is_amazing_at_creating/",
+      "date": "2026-09-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Model: DeepSeek-V4-Flash-Vision-Exp (local and API when impatient) Time: about one weekend (2 days) of QA and small improvements Full game is here After Qwen3.8-Flash-Next one-shotted a really cool Cat-Hunt game demo, I decided to see what the new DeepSeek vision model can do. Now that it has vision, DeepSeek-V4-Flash is able to take game screenshots, all... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-07/17-deepseek-v4-flash-vision-exp-is-amazing-at-creating-game-worlds.md"
+    },
     {
       "title": "Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Show HN: Sift – MCP aggregator that exposes 2 tools instead of hundreds (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/13-show-hn-sift-mcp-aggregator-that-exposes-2-tools-instead-of-hundreds.md"
-    },
-    {
-      "title": "you can now buy llm's at your local supermarket",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgj0h8/you_can_now_buy_llms_at_your_local_supermarket/",
-      "date": "2026-08-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/ECrispy [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-05/14-you-can-now-buy-llm-s-at-your-local-supermarket.md"
-    },
-    {
-      "title": "Qwen Developers' responses from their recent Twitter/X AMA",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg569y/qwen_developers_responses_from_their_recent/",
-      "date": "2026-08-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Questions & Responses(in BOLD ) below. Favorite question(s) moved to end of the thread with combined responses(removed duplicates). Be optimistic folks. I'm sure we're getting other models too apart from 27B. And 27B gonna make massive noise on release. (Based on their responses) Tweet thread : https://xcancel.com/QwenDevs/status/2084102417885585597#m you... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-05/15-qwen-developers-responses-from-their-recent-twitter-x-ama.md"
-    },
-    {
-      "title": "Get AI max+ 395 laptop or wait for rtx spark?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgqwyf/get_ai_max_395_laptop_or_wait_for_rtx_spark/",
-      "date": "2026-08-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So I can either pull the trigger on a 128gb AI max+ 395 laptop or wait for RTX Spark for LLMs. Maybe I get it now and the price of the spark is super high so it's a good purchase or maybe the Spark shocks everyone with a low price and I forever regret my purchasing decision. What do yall think? submitted by /u/Dance-Till-Night1 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/16-get-ai-max-395-laptop-or-wait-for-rtx-spark.md"
-    },
-    {
-      "title": "GLM/Qwen Appreciation Post",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgtkgc/glmqwen_appreciation_post/",
-      "date": "2026-08-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://preview.redd.it/o6ik6qboeohh1.png?width=1134&format=png&auto=webp&s=4016f26c50c1d93bd3d0c7e880e9b55a2d75310f I have been running Qwen3.6 27b for a little while (mostly coding tasks) and recently trying out V4 flash 0731 in it's place. It was very apparent the new v4 flash will make more stuff up, and confidently. Despite closeish overall benchmark... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/17-glm-qwen-appreciation-post.md"
-    },
-    {
-      "title": "Show HN: Mint MCP – Generate 3D assets from coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://mcp.mint.gg",
-      "date": "2026-08-04",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I and my co founder built Mint MCP, a remote server that lets Codex, Claude Code, and Cursor create 3D models, worlds, materials, images, and audio. The server handles long-running jobs, preview revisions, partial failures, and file delivery. When generation finishes, Mint gives the agent stable links to the files and tells it what each file is for... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/06-show-hn-mint-mcp-generate-3d-assets-from-coding-agents.md"
-    },
-    {
-      "title": "Show HN: Collab Word in Web – Collaborative Near MS Word Parity Docx Editor",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://collab.word-in-web.com/",
-      "date": "2026-08-04",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "TLDR: Collab WIW is a DOCX editor with MS Word parity that supports real-time collaborative editing between humans and BYO Agents. The collab layer is end to end encrypted and uses ephemeral rooms with stable share URLs. Ever collab room lives in only memory. Collaborator saved copies can bring the room back online at the same URL and reconcile offline ed... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/07-show-hn-collab-word-in-web-collaborative-near-ms-word-parity-docx-edit.md"
-    },
-    {
-      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.04003v1",
-      "date": "2026-08-04",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task histories, tool routines, and learned skills across sessions. Yet whether retained experience actually improves them over time has not been sys... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/08-past-bench-benchmarking-the-foundations-of-recursive-self-improvement-.md"
-    },
-    {
-      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.03979v1",
-      "date": "2026-08-04",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams, a setting that demands dense spatiotemporal grounding coupled with open-web exploration. Preliminary evaluations reveal two critical bottlenecks in current models: (1) modality bias, where agents bypass visual tools in favor of textual s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/09-video-deepresearch-towards-the-next-generation-multimodal-deepresearch.md"
-    },
-    {
-      "title": "Show HN: Sign language translation with smart glasses",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/aadisang/hand-wave",
-      "date": "2026-08-04",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi! I have relatives that speak sign language, and always found it odd that despite unbelievable advances in AI in recent years, the problem still felt somewhat neglected. Especially with the advent of wearable tech; to my knowledge, this is the first project that integrates the meta glasses w/ fingerspelling translation software. As for the technical asp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/10-show-hn-sign-language-translation-with-smart-glasses.md"
-    },
-    {
-      "title": "PrashamJain1318/Rishabh-Provision-Store",
-      "source": "GitHub Search API",
-      "url": "https://github.com/PrashamJain1318/Rishabh-Provision-Store",
-      "date": "2026-08-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "PrashamJain1318/Rishabh-Provision-Store Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-05/11-prashamjain1318-rishabh-provision-store.md"
-    },
-    {
-      "title": "MohamadKoteich/repo-studio",
-      "source": "GitHub Search API",
-      "url": "https://github.com/MohamadKoteich/repo-studio",
-      "date": "2026-08-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Repo Studio — a GitHub-Desktop-style web UI to manage Gitea repositories (builds, releases, AI assist) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-05/12-mohamadkoteich-repo-studio.md"
-    },
-    {
-      "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
-      "source": "Hacker News Show HN",
-      "url": "https://toneyalexander.github.io/inclusive-color-space/",
-      "date": "2026-08-04",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN! I found that picking out plausible but diverse skin tones for my digital art and game development projects was kind of difficult, and I got curious about if there was a way to define a color space that made it easy. I've built a color picker and procedural generation algorithm based on the space as well as a bunch of other fun js features and de... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/13-show-hn-simple-algorithm-and-color-space-to-generate-diverse-skin-tone.md"
     }
   ]
 }
