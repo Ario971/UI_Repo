@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T09:14:09.949Z",
+  "updated_at": "2026-09-09T09:17:23.456Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Booley – open-source IDE for agentic chip design",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/boldaxolotl/booley",
+      "date": "2026-09-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I am a digital design engineer, and my day job is designing chips (mostly IP blocks, not full chips) in SystemVerilog. At the start of 2026 I started experimenting with LLM agents like Claude and Codex, and realized that they are very capable not just at software and scripts, but at hardware design as well! But after the initial excitement, I started runn... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-booley-open-source-ide-for-agentic-chip-design.md"
+    },
+    {
+      "title": "Copying explains the collective behavior of AI agents in the wild",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.09150v1",
+      "date": "2026-09-08",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "In June 2026, thousands of AI agents found that a small public wiki would accept edits from inside their sandboxes, and started using it to help one another pass a timed test. Each agent lived for about an hour and remembered nothing afterwards. Nobody asked them to cooperate, and the wiki had not been built for them. The complete record of what they wrot... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/07-copying-explains-the-collective-behavior-of-ai-agents-in-the-wild.md"
+    },
+    {
+      "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.09113v1",
+      "date": "2026-09-08",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essential to bridge this gap, among which Sparse Autoencoders (... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/08-saescientist-bench-can-ai-agents-conduct-autonomous-sae-interpretabili.md"
+    },
+    {
+      "title": "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.08832v1",
+      "date": "2026-09-08",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large language model (LLM)-powered agents can be accurate on average yet unreliable in production, a discrepancy that has been observed but remains largely unaddressed. When given the same task five times, a ReAct agent on the AppWorld benchmark using GPT-4.1 succeeds in all five runs only 53% of the time, even though its per-run pass rate averages 77%. W... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/09-closing-the-consistency-gap-self-evolving-agents-that-learn-to-stay-on.md"
+    },
+    {
+      "title": "Show HN: VolAnti – Open-source acoustic detector for fibre-optic FPV drones",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/agamrossen/VolAnti",
+      "date": "2026-09-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "This project has been a month in the making, and 9 fully functional units will be sent tomorrow to an undisclosed civilian site across the Israel - Lebanon border. All of my findings are shared online to anyone on the globe who could benefit from them, or make their own units. I'm an engineering student at the University of York, originally from Israel, s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-09/10-show-hn-volanti-open-source-acoustic-detector-for-fibre-optic-fpv-dron.md"
+    },
+    {
+      "title": "Show HN: Raven – Encrypted messages hidden inside ordinary text",
+      "source": "Hacker News Show HN",
+      "url": "https://sendraven.ink",
+      "date": "2026-09-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Solo dev. built in my spare time. Raven uses a combination of steganography and cryptography to create a metadata resistant messenger. It encrypts any piece of text on your device and stores the ciphertext on Solana. It works pairwise with keys, users decrypt locally on their device- no accounts. I do run the relayer and a retention sweeper (not claiming... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-09/11-show-hn-raven-encrypted-messages-hidden-inside-ordinary-text.md"
+    },
+    {
+      "title": "Show HN: A browser IDE for m68000, Z80 assembly (and more), with graphics",
+      "source": "Hacker News Show HN",
+      "url": "https://asm-editor.specy.app/",
+      "date": "2026-09-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Asm Editor is an open-source browser IDE for writing, running, and debugging assembly. It currently supports M68K, Z80, MIPS, RISC-V (32- and 64-bit), and x86-64. The debugger includes breakpoints, backward stepping, execution history, register and memory inspection, and other tools intended to make assembly easier to understand. I recently added graphics... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-08/12-show-hn-a-browser-ide-for-m68000-z80-assembly-and-more-with-graphics.md"
+    },
+    {
+      "title": "tinnt-truman/filmcraft-ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/tinnt-truman/filmcraft-ai",
+      "date": "2026-09-09",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "tinnt-truman/filmcraft-ai Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-09/13-tinnt-truman-filmcraft-ai.md"
+    },
+    {
+      "title": "OpenAI alleged of stealing mathematicians work",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/",
+      "date": "2026-09-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Privacy have been concern of many of us to have their own hardware to run llms, and here's another reason why: two mathematicians spent a year cracking one of the hardest problems in math and fed every draft of their works into Codex. A few days before they could publish, OpenAI suddenly showed up with the same solutions. When asked if their model (Sol an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-08/14-openai-alleged-of-stealing-mathematicians-work.md"
+    },
+    {
+      "title": "Qwen 3.8 27b with PI agent - pushed to its 3D graphic game limits",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waz5a0/qwen_38_27b_with_pi_agent_pushed_to_its_3d/",
+      "date": "2026-09-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I was inspired by Bijan Bowen video - Subway FPS https://youtu.be/6kjXzTVmT58?t=1035 Wondered how far I can push Qwen 3.8 27b so I used a plan made by Fable 5.1 DESIGN.md which has 267 KB! ( 26K of design line for a game ... LOL ) https://drive.google.com/file/d/1gI0h8Arc73Ln8b3uj5rEpuAvJ3-611mh/view?usp=drive_link So I gave that design.md to my qwen 3.8... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-08/15-qwen-3-8-27b-with-pi-agent-pushed-to-its-3d-graphic-game-limits.md"
+    },
+    {
+      "title": "MiMo-X-Pro-Preview and MiMo-X-Flash-Preview - New Mimo Model found in Mimo Desktop preview announcement",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbejtp/mimoxpropreview_and_mimoxflashpreview_new_mimo/",
+      "date": "2026-09-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "From the email \"Early access to new models During the program, approved users can try two next-generation Xiaomi MiMo models for a limited time: MiMo-X-Pro-Preview and MiMo-X-Flash-Preview. The MiMo-X series is optimized for real professional workflows, with a focus on complex reasoning, multi-agent collaboration, large-scale coding projects, Office, web... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-09/16-mimo-x-pro-preview-and-mimo-x-flash-preview-new-mimo-model-found-in-mi.md"
+    },
+    {
+      "title": "GPU guide (GB per dollar, bandwidth)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waq7hu/gpu_guide_gb_per_dollar_bandwidth/",
+      "date": "2026-09-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "First plot: GB / $ Second plot: bandwidth (spec on paper, not t/s) Third plot (bandwidth / price) in the comment. Hope that helps, my script uses the GPUs most discussed on the LocalLLaMA, LowEndLocalAI, and LocalLLM subs. At first, I tried to include more, but it became unreadable. Prices were collected by ChatGPT (so may contain inaccuracies). New price... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-08/17-gpu-guide-gb-per-dollar-bandwidth.md"
+    },
     {
       "title": "Show HN: Archprint, infer architecture lint rules from your repo's import graph",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Cellfie AI Library (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/13-thatbrowncraft-cellfie.md"
-    },
-    {
-      "title": "b10298",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10298",
-      "date": "2026-08-06",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "mtmd: add chunk save/load function (#26645) * mtmd: add chunk save/load function * nits * add tests * rn _MAX --> _COUNT **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10298/llama-b10298-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/14-b10298.md"
-    },
-    {
-      "title": "b10297",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10297",
-      "date": "2026-08-06",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "server: fix empty response for /cors-proxy (#26656) **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10297/llama-b10297-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https://gith... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/15-b10297.md"
-    },
-    {
-      "title": "b10295",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10295",
-      "date": "2026-08-06",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "model-loader : fix quantized reshaped tensor strides (#26672) **Website:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b10295/llama-b10295-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](ht... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/16-b10295.md"
-    },
-    {
-      "title": "b10293",
-      "source": "llama.cpp releases",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10293",
-      "date": "2026-08-06",
-      "topic": "Local LLMs",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ci : onboard AMD ROCm CI with gfx1151 fixes (#26544) * ci: prepare for amd rocm ci Signed-off-by: Aaron Teo * ci: fix editorconfig-checker Signed-off-by: Aaron Teo * ci: fix device not recognised Signed-off-by: Aaron Teo * ci: rename gpu-amd to gpu-hip Signed-off-by: Aaron Teo * ci: gpu-hip to gpu-rocm haha Signed-off-by: Aaron Teo * CUDA: allow integrate... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-06/17-b10293.md"
-    },
-    {
-      "title": "Show HN: Capy – A Git-style platform for managing your team's secrets",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/capysc/capy-cli",
-      "date": "2026-08-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN! We're all spending more and more time making stuff with agents, but I've noticed that one of the things that is the most disconnected from my daily engineering workflow is dealing with secrets and credentials. It often involves a lot of click-ops, copying/pasting, and collaboration, and none of the secrets management products out there have trul... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/06-show-hn-capy-a-git-style-platform-for-managing-your-team-s-secrets.md"
-    },
-    {
-      "title": "Show HN: Ocean – All your team's agent sessions in one place",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://ocean.mosaic.inc/",
-      "date": "2026-08-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I spend a lot of time in Claude Code and Codex with my friend. We kept losing the context behind changes because every agent session lived on one person's laptop, and by the time code made it into a PR, all the reasoning was gone. We tried commits, PRs, and docs, but they only really capture the end result, so we built a tool to keep all of our agent sess... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/07-show-hn-ocean-all-your-team-s-agent-sessions-in-one-place.md"
-    },
-    {
-      "title": "Characterizing Visual Accessibility Issues in AI Developer Tools: An Empirical Study",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.05116v1",
-      "date": "2026-08-05",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI-assisted developer tools increasingly mediate programming through chat panels, terminal agents, generated diffs, and streaming status output. These interaction surfaces may create visual accessibility barriers for blind, low-vision, and color-vision-deficient developers, yet little is known about how such barriers are reported in public tool ecosystems... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/08-characterizing-visual-accessibility-issues-in-ai-developer-tools-an-em.md"
-    },
-    {
-      "title": "CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.05107v1",
-      "date": "2026-08-05",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI-supported care planning can help clinicians, patients, caregivers, and care teams coordinate complex decisions across clinical, functional, psychosocial, and environmental needs. However, many AI systems present recommendations as fixed outputs, limiting stakeholders' ability to inspect, challenge, and revise plans when they conflict with clinical judg... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/09-coplan-a-trustworthy-co-intelligence-interface-for-care-planning-throu.md"
-    },
-    {
-      "title": "junleynes/aitools",
-      "source": "GitHub Search API",
-      "url": "https://github.com/junleynes/aitools",
-      "date": "2026-08-04",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "junleynes/aitools Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-04/10-junleynes-aitools.md"
-    },
-    {
-      "title": "GunaTeja777/SpotiGlory",
-      "source": "GitHub Search API",
-      "url": "https://github.com/GunaTeja777/SpotiGlory",
-      "date": "2026-08-06",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "SpotiGlory is a Spotify analytics web app that turns your listening history into personal insights. It analyzes genres, artists, listening time, and behavior patterns to build a music profile and AI-generated narrative. Built with TypeScript and Next.js, it features a modern Liquid Glass UI and responsive design. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/11-gunateja777-spotiglory.md"
-    },
-    {
-      "title": "winwinrina/PoseForge",
-      "source": "GitHub Search API",
-      "url": "https://github.com/winwinrina/PoseForge",
-      "date": "2026-08-06",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI 私人健身教练 — 体态评估 + AI 训练/饮食计划 + 对话式教练 Agent（LangGraph + RAG + React） (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/12-winwinrina-poseforge.md"
-    },
-    {
-      "title": "Show HN: Sift – MCP aggregator that exposes 2 tools instead of hundreds",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Narasimha1997/sift",
-      "date": "2026-08-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Sift – MCP aggregator that exposes 2 tools instead of hundreds (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/13-show-hn-sift-mcp-aggregator-that-exposes-2-tools-instead-of-hundreds.md"
     }
   ]
 }
