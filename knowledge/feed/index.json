@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T09:17:23.456Z",
+  "updated_at": "2026-09-10T09:16:03.282Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/OtoDock/oto-dock",
+      "date": "2026-09-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I am Dimitris. This is a company OS that I built and use to run my business and anyone can install it and self host it for free. Think of it as Claude Code, Cowork and the cloud sessions in one self hosted application. It is a Multi-tenant application by design where many people can collaborate on the company agents with 4 different modes of collab... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+    },
+    {
+      "title": "Show HN: A guestbook for humans and AI agents, built on 144 pixels",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://a90.com/blog/a-guestbook-for-humans-and-ai-agents/",
+      "date": "2026-09-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: A guestbook for humans and AI agents, built on 144 pixels (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/07-show-hn-a-guestbook-for-humans-and-ai-agents-built-on-144-pixels.md"
+    },
+    {
+      "title": "Can AI Agents Deliver Verifiable Network-Wide Outcomes Across Authority Boundaries?",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.10181v1",
+      "date": "2026-09-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents are increasingly involved in network automation, where they can initiate configuration changes through mediated operational interfaces and assess the resulting state. Nonetheless, operational networks usually span many devices and administrative domains. Realizing an operator's intent requires coordinating agents with distinct authority scopes t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/08-can-ai-agents-deliver-verifiable-network-wide-outcomes-across-authorit.md"
+    },
+    {
+      "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.10144v1",
+      "date": "2026-09-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI systems become more useful when they can adapt to the people using them, but in multi-agent systems, useful context learned by one agent often remains unavailable to others. We present kernel-managed shared memory, a system-level abstraction in which specialized agents write structured, tagged memories while the agent-system kernel, not individual agen... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/09-kernel-managed-shared-memory-for-system-wide-personalization.md"
+    },
+    {
+      "title": "hierrr/madison",
+      "source": "GitHub Search API",
+      "url": "https://github.com/hierrr/madison",
+      "date": "2026-09-10",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Supervise Claude Code & Codex sessions across all your machines — self-hosted hub: live fleet status, cross-device handoffs, daily work reports, token & rate-limit history (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-10/10-hierrr-madison.md"
+    },
+    {
+      "title": "mthajulharris-ai/SIH20162",
+      "source": "GitHub Search API",
+      "url": "https://github.com/mthajulharris-ai/SIH20162",
+      "date": "2026-09-10",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "mthajulharris-ai/SIH20162 Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-10/11-mthajulharris-ai-sih20162.md"
+    },
+    {
+      "title": "Show HN: Botbin.io – pastebin for AI agent artifacts",
+      "source": "Hacker News Show HN",
+      "url": "https://botbin.io/?v=next",
+      "date": "2026-09-10",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Botbin.io – pastebin for AI agent artifacts (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-10/12-show-hn-botbin-io-pastebin-for-ai-agent-artifacts.md"
+    },
+    {
+      "title": "Show HN: Geiger – See every AI agent on your machine and what it can touch",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/Atomburstofficial/geiger",
+      "date": "2026-09-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Geiger – See every AI agent on your machine and what it can touch (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-09/13-show-hn-geiger-see-every-ai-agent-on-your-machine-and-what-it-can-touc.md"
+    },
+    {
+      "title": "Don't let FOMO win if you're interested in local llm from a hobby/learning aspect",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbufx5/dont_let_fomo_win_if_youre_interested_in_local/",
+      "date": "2026-09-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Just a reminder for those out there itching to get into local llms - don't let FOMO or \"gear acquisition syndrom\" take over. No matter the hobby, it's so easy to get stuck in a trap where we buy more trying to do more only to realize we've lost the fun in it all or even the notion of learning. Obviously, if you're into writing llama or vllm or hardware dr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-09/14-don-t-let-fomo-win-if-you-re-interested-in-local-llm-from-a-hobby-lear.md"
+    },
+    {
+      "title": "Surveillance plagiarism by OpenAI",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wby2cm/surveillance_plagiarism_by_openai/",
+      "date": "2026-09-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Surveillance plagiarism - Hosted AI company pumps their stock price by training upon researchers' AI sessions, so that their internal model can solve problems with seemingly less human guidance, but really the model exploits past guidance given by (multiple) humans focused upon problems considered important. As background, Tristan Buckmaster released a st... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-09/15-surveillance-plagiarism-by-openai.md"
+    },
+    {
+      "title": "Hosting Local Models",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcbtba/hosting_local_models/",
+      "date": "2026-09-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi builders, What would be the the best small local models for coding? Are Gemma 4 and Qwen3.8 27B Gemma 4 26B / 31B enough for local development? And what would be the size of the rig that i will need to get? GPUs, and whatever else I need to host these models. Thanks,, submitted by /u/forevergeeks [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/16-hosting-local-models.md"
+    },
+    {
+      "title": "Local LLM / Qwen 3.8 win",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wc5t3s/local_llm_qwen_38_win/",
+      "date": "2026-09-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I’ve been working on perfecting my setup ever since 3.8 hit, but no longer pay for subscriptions. I had a coding interview today and setup openrouter ahead of time as another option. I figured I could use the latest GLM flash for cheap and it would be fast. Nope. Over thought the whole thing and I had to steer it, so I fired off Qwen at the same time. It... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/17-local-llm-qwen-3-8-win.md"
+    },
     {
       "title": "Show HN: Booley – open-source IDE for agentic chip design",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Offline-first AI copilot for space debris monitoring and STARMAD-COMET (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-08/13-luoyh21-orbit-copilot.md"
-    },
-    {
-      "title": "Got job as Director of AI and Systems development self-taught",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi8jlr/got_job_as_director_of_ai_and_systems_development/",
-      "date": "2026-08-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, I just wanted to share my journey here for some motivation. Three years ago, I saw the sudden spike in AI and realized it was the future of tech. My goal at the time was to be an indie game dev, and seeing that AI could write basic code, I told myself I needed to master it or risk being replaced. I started by learning how to add knowledge to... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-07/14-got-job-as-director-of-ai-and-systems-development-self-taught.md"
-    },
-    {
-      "title": "parakeet.wgsl – Fast, accurate ASR in the browser, via raw WebGPU & SIMD WASM",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi77dr/parakeetwgsl_fast_accurate_asr_in_the_browser_via/",
-      "date": "2026-08-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "High-performance inference of NVIDIA's Parakeet TDT 0.6B V2 English transcription model, in the browser. Check out the live demo: https://parakeet.narcotic.sh/ A fully custom, dependancy-free implementation with raw WebGPU compute shaders and SIMD WebAssembly audio frontend. 1 hour of audio transcribed in 20 seconds (Apple M5, Google Chrome 151.0.7922.72)... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-07/15-parakeet-wgsl-fast-accurate-asr-in-the-browser-via-raw-webgpu-simd-was.md"
-    },
-    {
-      "title": "what will be the future of LocalLLaMA?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhugh3/what_will_be_the_future_of_localllama/",
-      "date": "2026-08-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "For a long time now, the most popular posts on LocalLLaMA have been either about using LLM in the cloud or about politics. I suspect that people using local models are about 10% now. You can say that this is very good, because now it is an inclusive sub, without gatekeeping. But then what is its purpose? How is it different than all other \"AI subs\"? What... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-07/16-what-will-be-the-future-of-localllama.md"
-    },
-    {
-      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative and, with Arcee, Unveils Genesis-Science-1 — Its First Open-Weight Model for Scientific Research",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vijp8y/us_department_of_energy_launches_the_genesis_open/",
-      "date": "2026-08-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/johnnyApplePRNG [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-08/17-u-s-department-of-energy-launches-the-genesis-open-models-initiative-a.md"
-    },
-    {
-      "title": "Bennyoooo/write-like-me",
-      "source": "GitHub Trending",
-      "url": "https://github.com/Bennyoooo/write-like-me",
-      "date": "2026-08-06",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Local-first writing voice memory for Codex, Claude Code, OpenCode, Gemini CLI, Cursor, and other AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/06-bennyoooo-write-like-me.md"
-    },
-    {
-      "title": "Aug 4, 2026 Announcements Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/tino-cuellar",
-      "date": "2026-08-04",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Aug 4, 2026 Announcements Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/07-aug-4-2026-announcements-mariano-florentino-tino-cu-llar-to-join-anthr.md"
-    },
-    {
-      "title": "Show HN: Open-source pixel art editor with animation and auto-tiling tilesets",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://simplepixelart.com/editor",
-      "date": "2026-08-07",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! I built a free pixel art editor that runs entirely in the browser — no install, no signup, no watermark. The frontend is open source (MIT): https://github.com/comficker/simplepixelart What it does: - Sprite editor with layers, selections, mirror drawing, and an infinite-canvas workspace (multiple boards on one desk) - Frame-by-frame animation with... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/08-show-hn-open-source-pixel-art-editor-with-animation-and-auto-tiling-ti.md"
-    },
-    {
-      "title": "Show HN: AI Tutoring with Visual Grounding",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://useknowable.ai/",
-      "date": "2026-08-07",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I've always felt that AI tutoring as we see it now is going in the wrong direction. I made Knowable as a way to see if it's possible to have a real AI tutor. Because of hardware limitations it can only be used on Macbooks 2023+. Let me know your thoughts! (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/09-show-hn-ai-tutoring-with-visual-grounding.md"
-    },
-    {
-      "title": "Show HN: demake – one source project compiles to any retro game console ROM",
-      "source": "Hacker News Show HN",
-      "url": "https://geosona.com/demake/",
-      "date": "2026-08-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "This started life as a graphics tool for a specific problem: gen AI can make retro-styled sprites but can't follow exact hardware constraints of pixels and colors. While building this I liked the idea that I can fan-out to any retro videogame console or handheld's specifications. I then devised my own declarative language - Demotic - to express the game y... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/10-show-hn-demake-one-source-project-compiles-to-any-retro-game-console-r.md"
-    },
-    {
-      "title": "kwakuoseikwakye/alacran",
-      "source": "GitHub Search API",
-      "url": "https://github.com/kwakuoseikwakye/alacran",
-      "date": "2026-08-06",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Give your AI a memory of your business — a local-first control panel for running an AI-native company on your own machine. MIT. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-06/11-kwakuoseikwakye-alacran.md"
-    },
-    {
-      "title": "adityasaxena-ai/OpsPilot-AI",
-      "source": "GitHub Search API",
-      "url": "https://github.com/adityasaxena-ai/OpsPilot-AI",
-      "date": "2026-08-07",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Autonomous IT Operations Control Tower powered by AI, OpenTelemetry and intelligent incident management. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/12-adityasaxena-ai-opspilot-ai.md"
-    },
-    {
-      "title": "thatbrowncraft/cellfie",
-      "source": "GitHub Search API",
-      "url": "https://github.com/thatbrowncraft/cellfie",
-      "date": "2026-08-07",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Cellfie AI Library (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/13-thatbrowncraft-cellfie.md"
     }
   ]
 }

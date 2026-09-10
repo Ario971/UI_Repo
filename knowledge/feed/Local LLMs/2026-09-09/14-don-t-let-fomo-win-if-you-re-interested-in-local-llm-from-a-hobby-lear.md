@@ -1,0 +1,12 @@
+---
+title: "Don't let FOMO win if you're interested in local llm from a hobby/learning aspect"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1wbufx5/dont_let_fomo_win_if_youre_interested_in_local/"
+date: "2026-09-09"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Just a reminder for those out there itching to get into local llms - don't let FOMO or \"gear acquisition syndrom\" take over. No matter the hobby, it's so easy to get stuck in a trap where we buy more trying to do more only to realize we've lost the fun in it all or even the notion of learning. Obviously, if you're into writing llama or vllm or hardware dr... (Local summary fallback used.)"
+---
+
+Just a reminder for those out there itching to get into local llms - don't let FOMO or "gear acquisition syndrom" take over. No matter the hobby, it's so easy to get stuck in a trap where we buy more trying to do more only to realize we've lost the fun in it all or even the notion of learning. Obviously, if you're into writing llama or vllm or hardware drivers or whatever - you got to do what you got to do. BUT, you can learn a lot on an API, you can learn a lot with a tiny model that fits your vram or cpu you already have and things change so darn fast that much of the code written and much of everything discussed from days passed is already old hat. Py torch and training a small model coud be done on a Pi and learning CUDA is only really imporant if you're writing custom kernels which i honestly don't see most people in here bothering with (or they have frontier models write them). Weirdly enough, for AI to succeed its going to homogenize everything. Everyone will have the same advantage and I think that's lost in a lot of discussions where we don't talk about "Watching from the sidelines" may be the most cognitive friendly and economical friendly way to learn llms whether we brand them local or not. The technology is still nascent and weirdly enough most people's answers here is to use AI to set it up so i'm not entirely convinced people are actually learning - feels like a mad rush to seek rent or avoid rent seeking which just makes everything more expensive in the end. This isn't a post to say, don't do it. But no reason to go into debt or to be fearful you're missing out when you can learn more by doing less - buy a book and build a tiny model - you will learn infinitely more than buying a 5090 and trying to just find the perfect compression to have the best prefil submitted by /u/sn2006gy [link] [comments]
