@@ -1,0 +1,652 @@
+---
+id: "blitzsicht/falzmarke"
+name: "blitzsicht/falzmarke"
+url: "https://github.com/blitzsicht/falzmarke"
+date: "2026-09-11"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 92
+momentum: 49
+risk: 24
+integration_effort: 48
+expected_gain: 79
+composite: 72
+replacement_target: ""
+related_articles: [{"title":"Show HN: BentoPDF, Hyper Compress and Kura","date":"2026-08-30","topic":"AI dev tools","similarity":0.21,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/10-show-hn-bentopdf-hyper-compress-and-kura.md"},{"title":"WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution","date":"2026-08-27","topic":"AI agents","similarity":0.202,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-wikiskill-compiling-agent-experience-into-persistent-knowledge-for-ski.md"},{"title":"how to setup llama.cpp and blender to make lovely 3d stuff together","date":"2026-08-28","topic":"Local LLMs","similarity":0.199,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/16-how-to-setup-llama-cpp-and-blender-to-make-lovely-3d-stuff-together.md"}]
+pros: ["Recently updated (2026-09-11)","MIT license","1 GitHub stars","GitHub Actions/CI detected"]
+cons: ["No obvious v1 warning, still review upstream code before use"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 3
+dependency_files: [{"name":"pyproject.toml","summary":"python project; deps name, version, description, readme, requires-python, license, authors, keywords"}]
+install_commands: ["pipx install falzmarke","pipx install git+https://github.com/blitzsicht/falzmarke","pip install 'mcp>=2,<3'          # das SDK ist nicht in der Grundausstattung","git clone https://github.com/blitzsicht/falzmarke.git && cd falzmarke","docker build -t falzmarke-mcp .","docker run --rm -i falzmarke-mcp   # `-i` ist nötig: der Server liest von stdin"]
+risk_flags: []
+status: "new"
+---
+
+# blitzsicht/falzmarke
+
+Auf den Millimeter geprüft, nicht nur behauptet: DIN-5008-Briefe aus Markdown, als PDF/A gesetzt. Skill für KI-Agenten und CLI.
+
+URL: https://github.com/blitzsicht/falzmarke
+
+## Why it matters
+You saved an article on 2026-08-30 about AI dev tools; this candidate overlaps with "Show HN: BentoPDF, Hyper Compress and Kura" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-09-11)
++ MIT license
++ 1 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- No obvious v1 warning, still review upstream code before use
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- pyproject.toml: python project; deps name, version, description, readme, requires-python, license, authors, keywords
+
+Install commands found:
+- pipx install falzmarke
+- pipx install git+https://github.com/blitzsicht/falzmarke
+- pip install 'mcp>=2,<3'          # das SDK ist nicht in der Grundausstattung
+- git clone https://github.com/blitzsicht/falzmarke.git && cd falzmarke
+- docker build -t falzmarke-mcp .
+- docker run --rm -i falzmarke-mcp   # `-i` ist nötig: der Server liest von stdin
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+<div align="center">
+
+<img src="https://github.com/blitzsicht/falzmarke/raw/main/docs/assets/brand/banner.png" alt="falzmarke — Briefe schreiben mit KI, nach Norm, nicht nach Gefühl. DIN-5008-Briefe aus Markdown, als PDF/A gesetzt und auf den Millimeter geprüft." width="100%">
+
+[![CI](https://github.com/blitzsicht/falzmarke/actions/workflows/ci.yml/badge.svg)](https://github.com/blitzsicht/falzmarke/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/blitzsicht/falzmarke)](https://github.com/blitzsicht/falzmarke/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/blitzsicht/falzmarke/blob/main/LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB)](https://github.com/blitzsicht/falzmarke/blob/main/pyproject.toml)
+[![DIN 5008](https://img.shields.io/badge/DIN_5008-2020-245A73)](https://github.com/blitzsicht/falzmarke/blob/main/skill/references/din5008.md)
+
+</div>
+
+---
+
+**Andere Werkzeuge erzeugen ein PDF. falzmarke prüft das Ergebnis.**
+
+Du schreibst den Inhalt als Markdown. falzmarke setzt daraus einen Geschäftsbrief nach
+DIN 5008:2020 als PDF/A — und misst anschließend das fertige PDF nach. Sitzt die Falzmarke nicht
+auf 105,0 mm, endet der Lauf mit einem Fehler statt mit einem Brief, der nur ungefähr stimmt.
+
+<div align="center">
+
+**[falzmarke.com — Anleitung ohne Terminal](https://falzmarke.com)** ·
+**[⬇ Als Claude-Skill laden](https://github.com/blitzsicht/falzmarke/releases/latest/download/falzmarke.skill)** ·
+**[In 60 Sekunden ausprobieren](#in-60-sekunden)** ·
+**[Beispielbrief ansehen](https://github.com/blitzsicht/falzmarke/raw/main/docs/renders/brief-form-b.png)**
+
+`Linux · macOS · Windows`  ·  `34 Maße je Seite`  ·  `PDF/A-2b`  ·  `MIT`
+
+</div>
+
+---
+
+## In Bewegung
+
+![Ein Terminal zeigt den Musterbrief als Markdown, danach den Lauf von falzmarke render: PDF und Vorschau werden geschrieben, anschließend läuft der Messbericht durch und endet mit der Zeile, die die eingehaltenen Maße zählt.](https://github.com/blitzsicht/falzmarke/raw/main/docs/renders/demo.gif)
+
+Aufgezeichnet aus der echten CLI mit [vhs](https://github.com/charmbracelet/vhs);
+das Drehbuch steht in [`docs/marke/video/readme.tape`](https://github.com/blitzsicht/falzmarke/blob/main/docs/marke/video/readme.tape).
+Ein Test hält den Mitschnitt gegen einen frischen Lauf, damit hier kein Terminal
+steht, das es so nie gab ([`tests/test_tape.py`](https://github.com/blitzsicht/falzmarke/blob/main/tests/test_tape.py)).
+
+---
+
+## Was dabei herauskommt
+
+![Briefkopf, Anschriftfeld, Informationsblock und Betreff](https://github.com/blitzsicht/falzmarke/raw/main/docs/assets/demo/hero.png)
+
+Und was danach geprüft wird — Auszug aus dem Bericht, den jeder Lauf ausgibt:
+
+```
+OK    Falzmarke 1, y: soll 105.00 ist 105.00 (tol ±0.3)
+OK    Infoblock, x-links: soll 125.00 ist 125.00 (tol ±0.5)
+OK    Betreff, y-Oberkante: soll 98.47 ist 97.91 (tol -1.75/+0.6)
+OK    Abstand Betreff → Anrede (2 Leerzeilen): soll 12.70 ist 12.70 (tol ±0.2)
+```
+
+Das sind vier von 33 Zeilen des Geometrieberichts. Der Film zeigt, wie die übrigen
+entstehen: Eine Linie fährt das Blatt ab und hält an jedem gemessenen Höhenmaß. Sie hält
+dort, wo die Messung es sagt — bei diesen Prüfungen ist der gemessene Wert zugleich die
+Stelle.
+
+![Ein Beispielbrief, daneben ein Textfeld. Eine grüne waagerechte Linie wandert von oben nach unten über das Blatt und hält nacheinander an acht Stellen: Rücksendeangabe bei 46,26 Millimetern, Infoblock bei 50,34, Anschrift erste Zeile bei 62,69 und letzte Zeile bei 77,86, Betreff bei 98,45, Falzmarke 1 bei 105,00, Lochmarke bei 148,50 und Falzmarke 2 bei 210,00. Bei jedem Halt stehen daneben der Name der Prüfung, Sollwert, gemessener Wert, Toleranz und das Wort eingehalten. Am Ende liegen alle acht Linien gleichzeitig auf dem Blatt und daneben steht: 33 von 33 Prüfungen eingehalten.](https://github.com/blitzsicht/falzmarke/raw/main/docs/assets/demo/messfilm.gif)
+
+Acht der 33 Geometrieprüfungen tragen eine Höhe auf dem Blatt; die übrigen messen Breiten,
+Abstände und Eigenschaften ohne Ort auf der Seite. Die Zahl 34 weiter oben zählt eine
+mehr: Nach einem `render` sieht die CLI zusätzlich die PDF/A-Konformität nach, und die
+liegt auf keinem Millimeter. Beide Zahlen stimmen, sie zählen Verschiedenes.
+
+Keine Zahl im Film ist abgetippt — sie kommen alle aus `verify --json`, und
+`tests/test_messfilm.py` hält den Film gegen einen frischen Messlauf. Verschiebt jemand
+die Falzmarke um 2 mm, muss der betroffene Halt rot werden; tut er es nicht, schlägt der
+Test fehl.
+
+Die erste Zeile des Berichts oben spricht von einem Strich, den man auf einem
+Vorschaubild kaum sieht — er ist 0,25 pt stark. Vergrößert sieht die Stelle so aus:
+
+![Ausschnitt vom linken Rand eines Briefes, sechs mal vier Millimeter groß: Eine gestrichelte grüne Hilfslinie markiert die Sollposition bei 105,00 Millimetern und geht auf gleicher Höhe in die kurze schwarze Falzmarke über, die knapp die halbe Bildbreite einnimmt. Daneben das ganze Blatt verkleinert, mit einem Rahmen um die vergrößerte Stelle. Darunter steht die gemessene Position 105,00 Millimeter.](https://github.com/blitzsicht/falzmarke/raw/main/docs/assets/demo/falzmarke-detail.png)
+
+Dort wird der Bogen gefaltet, damit die Anschrift im Fensterumschlag steht. Sitzt die
+Marke falsch, faltet der Stapel falsch — und das fällt erst nach dem Druck auf.
+
+## Das Problem
+
+Eine Briefvorlage kann nicht prüfen, ob das Ergebnis stimmt. Sie wird kopiert, jemand verschiebt
+eine Zeile, und der Fehler fällt erst am fertigen Stapel auf: Die Anschrift steht nicht mehr im
+Fensterausschnitt, alles muss neu gedruckt und kuvertiert werden — und wer mit Automationsrabatt
+einliefert, verliert ihn für diese Sendung.
+
+Sprachmodelle verschärfen das. Sie formulieren gut, aber sie können keinen Text auf 45,0 mm
+setzen. Wer einen Brief von einer KI schreiben lässt, bekommt zuverlässig guten Inhalt in
+unzuverlässigem Layout.
+
+Und ein Renderer kann ebenfalls Fehler haben — auch dieser hier.
+
+Deshalb trennt falzmarke drei Dinge: **Inhalt** kommt als Markdown, lesbar und versionierbar.
+Das **Layout** setzt ein Renderer, der es immer gleich macht. Und die **Prüfung** misst das
+fertige PDF, statt dem Renderer zu glauben.
+
+## Warum nicht einfach Word oder ein Prompt?
+
+Verglichen wird der typische Arbeitsablauf, nicht das Werkzeug an sich — mit einer sorgfältig
+gepflegten Vorlage lässt sich vieles davon erreichen.
+
+| | Vorlage in Word / LibreOffice | Brief direkt von einer KI | falzmarke |
+|---|---|---|---|
+| Quelle diffbar und versionierbar | teilweise | selten | ja — Markdown und YAML |
+| Layout reproduzierbar | hängt an Vorlage und Umgebung | nicht zugesichert | ja — derselbe Renderer, dieselbe Ausgabe |
+| Fertiges PDF wird nachgemessen | nein | nein | ja — 34 Maße, jede Seite, Abweichung ist ein Fehler |
+| Absenderprofile | von Hand gepflegt | uneinheitlich | ja — einmal anlegen, überall nutzen |
+| Prüfbericht maschinenlesbar | nein | nein | ja — `--json` und Exit-Codes |
+| PDF/A als Voreinstellung | nicht automatisch | nicht zugesichert | ja — ohne zusätzliches Flag |
+
+## Was du davon hast
+
+- **Der Brief sitzt im Fensterumschlag** — Anschriftfeld, Falz- und Lochmarken werden am
+  fertigen PDF vermessen, nicht beim Setzen angenommen.
+- **Änderungen bleiben nachvollziehbar** — Markdown und YAML sind Textdateien. Ein Diff zeigt,
+  was sich geändert hat; das PDF ist Ergebnis, nicht Quelle.
+- **Ein Auftritt, viele Briefe** — Profile bündeln Briefkopf, Fußzeile, Logo, Farben und
+  Voreinstellungen. Auch die Unterschrift, je Brief überschreibbar.
+- **Fehler sind maschinenlesbar** — eigene Exit-Codes für Eingabe-, Geometrie- und
+  Umgebungsfehler, dazu `--json`. Damit läuft es in CI und in Automatisierungen.
+- **Für Langzeitarchivierung ausgelegt** — PDF/A-2b ohne zusätzliches Flag. Dass die Datei die
+  Konformität wirklich einhält, sagt nicht dieses Werkzeug, sondern
+  [veraPDF](https://verapdf.org/) — die Referenzimplementierung der PDF Association, in CI bei
+  jedem Push. Optional PDF/UA-1 mit `--pdfua`, ebenfalls dort geprüft.
+- **Im Gespräch oder im Terminal** — als Claude-Skill oder als CLI, ohne Systeminstallation.
+
+## Woran man sieht, dass es stimmt
+
+Das ist der Teil, an dem sich das Versprechen entscheidet — deshalb steht er vor der Installation.
+
+- **Gemessen wird das fertige PDF**, nicht die Eingabe. `verify` liest das erzeugte Dokument mit
+  pdfplumber und vergleicht Zonen, Marken und Abstände gegen die Sollwerte.
+- **Jede tragende Prüfung hat eine [Gegenprobe](https://github.com/blitzsicht/falzmarke/blob/main/tests/test_gegenbeweis.py).** Sie läuft gegen ein
+  absichtlich verschobenes Layout und muss dort anschlagen — ein Prüfmittel, das nie rot werden
+  kann, wäre kein Nachweis. Das gilt auch für das Bild oben: Es entsteht zweimal, einmal aus dem
+  ausgelieferten Layout und einmal aus einem, in dem die Marke 2 mm zu tief sitzt.
+
+  ![Ein wechselndes Bild desselben Ausschnitts. Im ersten Zustand liegt die Falzmarke auf der
+  gestrichelten Sollinie bei 105,00 Millimetern, darunter steht 105,00 Millimeter und der Hinweis,
+  dass so ausgeliefert wird. Im zweiten springt die Marke deutlich nach unten, die Sollinie bleibt
+  wo sie war, darunter steht 107,00 Millimeter und der Hinweis, dass verify hier anschlägt.](https://github.com/blitzsicht/falzmarke/raw/main/docs/assets/demo/falzmarke-gegenprobe.gif)
+
+  Unterscheiden sich die beiden Ausschnitte nicht, zeigt der Ausschnitt die Marke gar nicht — dann
+  ist das Bild oben wertlos, und `tests/test_detailbild.py` schlägt fehl.
+- **CI auf Linux, macOS und Windows**, bei jedem Push.
+- **Ein Frischinstallations-Test** führt die Befehle aus dieser README wirklich aus. Hier steht
+  kein Befehl, den niemand ausprobiert hat.
+- **Alle Beispielbriefe werden in CI gerendert** und vermessen.
+- **Die PDF-Konformität bestätigt ein fremdes Werkzeug.** Alles andere auf dieser Liste misst mit
+  demselben Code, der das PDF erzeugt hat — das belegt Selbsttreue, nicht Konformität.
+  [veraPDF](https://verapdf.org/) hat den Brief nicht geschrieben und teilt keine Zeile mit dem
+  Renderer. Geprüft wird, was die Datei selbst deklariert, auf der ausgelieferten Datei, mit
+  Prüfsummen-Abgleich — und mit einer Gegenprobe, die ein absichtlich nicht-konformes PDF
+  durchfallen lässt ([`scripts/pdf_konformitaet.py`](https://github.com/blitzsicht/falzmarke/blob/main/scripts/pdf_konformitaet.py)).
+- **Die Layoutbasis ist vendort und prüfsummengesichert** —
+  [`vendor/README.md`](https://github.com/blitzsicht/falzmarke/blob/main/skill/falzmarke/typst/vendor/README.md).
+
+Zwei Aussagen, die gern verwechselt werden, hält das Projekt auseinander:
+
+> **Der Sollwert ist fachlich belegt** und **der Verifier erkennt eine Abweichung davon** sind
+> verschiedene Dinge. Das Zweite ist bewiesen. Das Erste hat Grenzen.
+
+**Woher die Sollwerte stammen:** Maße und Schreibregeln folgen öffentlich dokumentierten Quellen
+(Liste in [`skill/references/din5008.md`](https://github.com/blitzsicht/falzmarke/blob/main/skill/references/din5008.md)); der Abgleich mit dem
+Originaltext der DIN 5008:2020-03 einschließlich Berichtigung 1:2020-07 steht aus. Regeln aus
+einzelnen Quellen wirken nur als Warnung. Welche Regel worauf beruht, steht in der
+[Quellenlage je Regel](https://github.com/blitzsicht/falzmarke/blob/main/skill/references/din5008.md#quellenlage-je-regel); was daraus rechtlich
+folgt, in [`docs/recht.md`](https://github.com/blitzsicht/falzmarke/blob/main/docs/recht.md).
+
+```bash
+python3 -m pytest -q
+```
+
+## Sicherheit
+
+Genannt wird nur, was im Code steht und geprüft ist. falzmarke ist **nicht** unabhängig
+auditiert — Sicherheitsrelevantes bitte nach [SECURITY.md](https://github.com/blitzsicht/falzmarke/blob/main/SECURITY.md), nicht als Issue.
+
+- **Verarbeitung bleibt lokal.** Der Renderpfad importiert keine Netzwerkbibliothek.
+- **YAML wird ausschließlich mit `safe_load` gelesen** — an jeder Stelle, auch beim
+  eingebetteten Profil.
+- **Markdown läuft gegen eine Positivliste** von Knotentypen. Was nicht daraufsteht, ist ein
+  Fehler mit Zeilenangabe — nie ein stilles Durchreichen.
+- **Brieftext wird nie zu Typst-Code.** Der Emitter übergibt ihn als maskierte Zeichenkette;
+  Sonderzeichen können die Struktur nicht verlassen.
+- **Profil- und Briefdateien bleiben in ihrem Ordner.** Logo, Unterschrift und eigener Briefkopf
+  dürfen nicht darüber hinauszeigen, Symlinks werden aufgelöst
+  ([Gegenproben](https://github.com/blitzsicht/falzmarke/blob/main/tests/test_profilgrenze.py)).
+- **Typst läuft auf ein eigenes Wurzelverzeichnis begrenzt**, Systemschriften sind abgeschaltet.
+- **Alle Abhängigkeiten des Programms sind permissiv lizenziert** —
+  [THIRD_PARTY_LICENSES.md](https://github.com/blitzsicht/falzmarke/blob/main/THIRD_PARTY_LICENSES.md).
+- **Die CI-Aktionen hängen an vollständigen Commit-SHAs**, nicht an verschiebbaren Tags.
+
+Das Release-Asset lässt sich auf seine Herkunft prüfen:
+
+```bash
+gh attestation verify falzmarke.skill --repo blitzsicht/falzmarke
+```
+
+Das belegt, aus welchem Lauf und welchem Commit die Datei stammt — **nicht, dass sie fehlerfrei
+ist**. Die SHA-256-Summe steht in der Release-Notiz und als `falzmarke.skill.sha256` daneben.
+
+## In 60 Sekunden
+
+Vier Wege, und sie können nicht dasselbe:
+
+| Weg | rendert ohne Netz | Größe | wofür |
+|---|---|---|---|
+| `falzmarke.skill` hochladen | nein, der erste Lauf lädt nach | ~0,8 MB | claude.ai — der Upload-Dialog nimmt **höchstens 30 MB** |
+| `falzmarke-offline.skill` | **ja** — der Typst-Compiler reist mit | ~34 MB | Sandboxen ohne PyPI-Zugriff; **zu groß für den Upload-Dialog** |
+| `pipx` / `uvx` | nein, der erste Lauf lädt nach | ~1 MB | Terminal |
+| Repository klonen | nein, der erste Lauf lädt nach | ~1 MB | Mitarbeit am Werkzeug |
+
+Die beiden Skill-Pakete unterscheiden sich in genau einer Datei: Das Offline-Paket trägt das
+`typst`-Wheel in `vendor/`, das schlanke nicht. Warum es zwei sind und nicht eines, steht in
+[`skill/vendor/README.md`](https://github.com/blitzsicht/falzmarke/blob/main/skill/vendor/README.md).
+
+### Mit Claude
+
+1. **[`falzmarke.skill` herunterladen](https://github.com/blitzsicht/falzmarke/releases/latest/download/falzmarke.skill)**
+2. In Claude unter Einstellungen › Capabilities hochladen (Tarif mit Code-Ausführung nötig).
+   Für Claude Code genügt ein Symlink:
+   ```bash
+   ln -s "$PWD/skill" ~/.claude/skills/falzmarke
+   ```
+3. „Schreib einen Brief an die Muster GmbH, Angebot über …"
+
+### Im Terminal
+
+```bash
+uvx falzmarke init brief.md --profil example --betreff "Angebot Nr. 2026-0815"
+```
+
+oder dauerhaft installiert, danach genügt `falzmarke render brief.md --png`:
+
+```bash
+pipx install falzmarke
+```
+
+Das Paket liegt auf [PyPI](https://pypi.org/project/falzmarke/). Wer den unveröffentlichten
+Stand von `main` will, nimmt weiterhin die Adresse:
+
+```bash
+pipx install git+https://github.com/blitzsicht/falzmarke
+```
+
+Der Typst-Compiler kommt als Python-Wheel mit: **keine Systeminstallation**, kein LaTeX, kein
+wkhtmltopdf, keine Schriftinstallation.
+
+### In einem Repository voller Briefe
+
+Wer seine Briefe versioniert, lässt sie bei jedem Push setzen und nachmessen:
+
+```yaml
+- uses: blitzsicht/falzmarke@main
+  with:
+    briefe: "briefe/*.md"
+    profile: "profile"
+```
+
+Die PDFs hängen danach als Artefakt am Lauf. Hält ein Brief die Maße nicht ein, wird der Lauf
+rot und nennt Datei und Maß — ein Serienbrief-Archiv merkt einen verrutschten Betreff damit
+beim Push und nicht beim Empfänger. Die Eingaben stehen in
+[`action.yml`](https://github.com/blitzsicht/falzmarke/blob/main/action.yml); die Aktion
+installiert falzmarke von PyPI und baut keine zweite Installationsstrecke auf. Wer den Lauf
+nachfahrbar halten will, nennt eine feste Fassung: `paket: "falzmarke==0.7.3"`.
+
+### In einem anderen KI-Client
+
+falzmarke spricht MCP — damit setzen auch Clients Briefe, die keinen Claude-Skill kennen.
+
+```bash
+pip install 'mcp>=2,<3'          # das SDK ist nicht in der Grundausstattung
+falzmarke mcp                    # Server über stdio
+```
+
+Vier Werkzeuge: `brief_rendern`, `email_setzen`, `brief_pruefen`, `profile_auflisten`.
+Der **Messbericht kommt bei jedem Rendern mit** — ein Dienst, der ein PDF zurückgibt und
+offenlässt, ob die Maße stimmen, wäre ein PDF-Generator wie jeder andere.
+
+Im Container — so bauen ihn auch die MCP-Verzeichnisse, das
+[`Dockerfile`](https://github.com/blitzsicht/falzmarke/blob/main/Dockerfile) liegt im
+Wurzelverzeichnis:
+
+```bash
+git clone https://github.com/blitzsicht/falzmarke.git && cd falzmarke
+docker build -t falzmarke-mcp .
+docker run --rm -i falzmarke-mcp   # `-i` ist nötig: der Server liest von stdin
+```
+
+Das Absenderprofil darf als Objekt im Aufruf stehen. Ein Client ohne Zugriff auf das
+Dateisystem des Servers kann so seinen eigenen Absender mitgeben, statt mit den Profilen zu
+leben, die dort zufällig liegen.
+
+Was der Dienst **nicht** tut: versenden, ablegen, zustellen. Er setzt und prüft
+([ADR 0029](https://github.com/blitzsicht/falzmarke/blob/main/docs/entscheidungen/0029-falzmarke-ist-werkzeug-kein-kanal.md)).
+
+<details>
+<summary>Aus einem Clone, ohne Installation</summary>
+
+```bash
+git clone https://github.com/blitzsicht/falzmarke.git
+cd falzmarke
+python3 skill/scripts/bootstrap.py
+python3 skill/scripts/falzmarke.py render examples/brief-form-b.md --png
+```
+
+</details>
+
+## Einen Brief schreiben
+
+```markdown
+---
+profil: example
+empfaenger:
+  - Muster GmbH
+  - Frau Erika Muster
+  - Musterstraße 1
+  - 12345 Musterstadt
+datum: 2026-08-25
+betreff: Angebot Nr. 2026-0815 über die Neugestaltung Ihrer Website
+anrede: Sehr geehrte Frau Muster,
+anlagen:
+  - Angebot 2026-0815
+---
+vielen Dank für Ihre Anfrage vom 20. August 2026. Anbei erhalten Sie unser Angebot.
+
+Die Umsetzung dauert ab Ihrer Freigabe **sieben Werktage**.
+```
+
+```bash
+python3 skill/scripts/falzmarke.py render brief.md --png
+```
+
+Alle Felder stehen im [Datenvertrag](https://github.com/blitzsicht/falzmarke/blob/main/skill/references/frontmatter.md). Ein Feld, das dort nicht
+steht, bricht mit Zeilennummer und Vorschlag ab — es wird nie stillschweigend verworfen.
+
+### Was im Brieftext erlaubt ist
+
+Der Text unter dem Frontmatter ist **falzmarke-Markdown**, eine dokumentierte Teilmenge von
+[CommonMark](https://commonmark.org/):
+
+| Das geht | Das erledigt falzmarke selbst |
+|---|---|
+| Absätze, `**fett**`, `*kursiv*` | `z. B.`, `10 %`, `§ 5` bekommen geschützte Leerzeichen |
+| Aufzählungen und nummerierte Listen | `--` wird zum Halbgeviertstrich – so |
+| Harter Umbruch mit `\` am Zeilenende | `"Wort"` wird zu „Wort“ |
+| Pipe-Tabellen mit Ausrichtung | Tag und Monat bleiben zusammen: `25. August` |
+
+Links, Bilder und HTML sind **Fehler** — mit Zeile, Grund und Korrektur, nie
+stillschweigend. Auf Papier gibt es keinen Link, und ein Bild im Fließtext verschöbe die
+Geometrie, die danach gemessen wird.
+
+**Zwischenüberschriften** (`#` bis `####`), tiefere Aufzählungen, **Blockzitate** und
+**wortgetreue Auszüge** gibt es für lange Schreiben: `dialekt: "1.1"` im Frontmatter schaltet
+sie frei. Ein Auszug bleibt Zeichen für Zeichen stehen — keine typografischen Ersetzungen,
+kein Umbruch, keine Einfärbung, und nichts darin wird ausgeführt. Ohne das Feld gilt Fassung 1.0, und ein
+bestehender Brief rendert unverändert.
+
+Die vollständige Liste: [falzmarke-Markdown](https://github.com/blitzsicht/falzmarke/blob/main/skill/references/markdown.md).
+
+## Dieselbe Datei als E-Mail
+
+Ein Schreiben mit `typ: email` im Frontmatter wird keine PDF-Seite, sondern eine `.eml` —
+dieselbe Quelle, dasselbe Profil, dieselbe Signatur.
+
+```bash
+falzmarke email nachricht.md --html
+```
+
+```
+OK  geschrieben: nachricht.eml
+OK  geschrieben: nachricht.html
+OK  verify: 22/22 Prüfungen bestanden
+```
+
+Die `.eml` öffnet das Mailprogramm, die `.html` der Browser. Mit `--oeffnen` legt falzmarke auf
+macOS gleich einen **Entwurf** an — Empfänger, Betreff, Rumpf und Anhänge, mit Senden-Knopf, und
+erst nach bestandener Prüfung. Wo dieser Weg nicht gemessen ist (Windows, Linux, Apple Mail),
+wird die Datei übergeben; sie erscheint dort als Lesefenster, nicht als Entwurf, und das ist eine
+Eigenschaft des Formats. Geprüft wird die **fertige Datei**:
+MIME-Aufbau, `format=flowed`, Space-Stuffing, die Signaturtrennzeile, und ob im HTML nichts
+steht, was dort nicht hingehört — kein Skript, kein externes Stylesheet, kein Zählpixel, keine
+Tabelle als Layout. `falzmarke verify --email` misst auch Dateien, die von woanders kommen.
+
+**falzmarke versendet nichts.** Es gibt keinen Versandbefehl und keine Option, die sendet: Wer
+eine Datei erzeugt, haftet für ihren Inhalt; wer sie befördert, für Zustellung und Nachweis. Das
+sind zwei Versprechen, und falzmarke gibt nur das erste
+([ADR 0034](https://github.com/blitzsicht/falzmarke/blob/main/docs/entscheidungen/0034-email-ist-ausgabe.md)). Der Entwurf ist davon nicht berührt und geht keinen
+Schritt weiter: **Entwurf ja, Senden nie** — im Steuerskript steht kein Versandbefehl, und ein
+Test misst das am ganzen Paket
+([ADR 0038](https://github.com/blitzsicht/falzmarke/blob/main/docs/entscheidungen/0038-oeffnen-ist-kein-versand.md)).
+
+Wie die Datei aufgebaut ist, was bewusst fehlt und wo die Grenzen liegen:
+[Die E-Mail-Fassung](https://github.com/blitzsicht/falzmarke/blob/main/docs/email.md). Vier
+Beispiele liegen unter
+[`examples/email/`](https://github.com/blitzsicht/falzmarke/tree/main/examples/email/).
+
+## Beispiele
+
+| Standardbrief | Einschreiben | Mehrseitig |
+|---|---|---|
+| ![Form B](https://github.com/blitzsicht/falzmarke/raw/main/docs/assets/demo/gallery-standard.png) | ![Vermerkzone](https://github.com/blitzsicht/falzmarke/raw/main/docs/assets/demo/gallery-einschreiben.png) | ![Folgeseiten](https://github.com/blitzsicht/falzmarke/raw/main/docs/assets/demo/gallery-mehrseitig.png) |
+| Form B mit Informationsblock | Zusatz- und Vermerkzone | Kopfzeile und Seitenzählung |
+
+Dazu Form A, Auslandsanschrift, Tabelle, ein Brief mit langem Informationsblock und einer
+mit englischer Beschriftung (`sprache: en` — deutsche Maße, englische Wörter) —
+[alle Beispiele](https://github.com/blitzsicht/falzmarke/tree/main/examples/) und ihre [vollständigen Renderings](https://github.com/blitzsicht/falzmarke/tree/main/docs/renders/).
+
+## Grenzen
+
+- **[falzmarke-Markdown](https://github.com/blitzsicht/falzmarke/blob/main/skill/references/markdown.md) (CommonMark-Teilmenge)**: Absätze,
+  fett, kursiv, Aufzählungen, nummerierte Listen, harter Umbruch, Pipe-Tabellen. Alles andere
+  bricht mit Zeilenangabe ab, statt still etwas anderes zu setzen.
+- **Zonengrößen der Norm**: Anschrift höchstens 6 Zeilen, Vermerke höchstens 3, Werte im
+  Informationsblock höchstens 21 Zeichen.
+- **Keine Bilder im Fließtext** — ein Logo gehört ins Profil.
+- **Nur DIN 5008.** Schweiz (SN 010130) und Österreich (ÖNORM A 1080) sind vorgemerkt
+  ([#10](https://github.com/blitzsicht/falzmarke/issues/10)); das Frontmatter-Feld `norm:` ist
+  dafür reserviert.
+- **Keine Signatur.** Das Unterschriftsbild ist Erscheinungsbild, kein Nachweis. Eine
+  kryptografische Signatur ist Gegenstand von
+  [#14](https://github.com/blitzsicht/falzmarke/issues/14).
+
+## Weiterlesen
+
+| | |
+|---|---|
+| [Befehle](https://github.com/blitzsicht/falzmarke/blob/main/docs/cli.md) | alle Unterbefehle, Exit-Codes, was geprüft wird |
+| [Absenderprofile](https://github.com/blitzsicht/falzmarke/blob/main/docs/profiles.md) | Profil anlegen, Suchreihenfolge, eigener Briefkopf |
+| [Die E-Mail-Fassung](https://github.com/blitzsicht/falzmarke/blob/main/docs/email.md) | Aufbau der `.eml`, ihre Teile und Grenzen |
+| [Datenvertrag](https://github.com/blitzsicht/falzmarke/blob/main/skill/references/frontmatter.md) | jedes Frontmatter-Feld mit Beispiel |
+| [falzmarke-Markdown](https://github.com/blitzsicht/falzmarke/blob/main/skill/references/markdown.md) | was im Brieftext möglich ist |
+| [Normmaße und Quellenlage](https://github.com/blitzsicht/falzmarke/blob/main/skill/references/din5008.md) | Sollwerte und ihre Herkunft |
+| [Was falzmarke behauptet — und was nicht](https://github.com/blitzsicht/falzmarke/blob/main/docs/recht.md) | Grenzen der Normaussage |
+| [Aufbau des Repositorys](https://github.com/blitzsicht/falzmarke/blob/main/docs/architecture.md) | Schichten, Vendoring, warum das Paket unter `skill/` liegt |
+| [Roadmap](https://github.com/blitzsicht/falzmarke/blob/main/docs/ROADMAP.md) | in welcher Reihenfolge gearbeitet wird, und was noch offen ist |
+| [Changelog](https://github.com/blitzsicht/falzmarke/blob/main/CHANGELOG.md) · [Releases](https://github.com/blitzsicht/falzmarke/releases) | was sich geändert hat |
+
+## Mitmachen
+
+Fehlerberichte und Vorschläge sind willkommen — siehe [CONTRIBUTING.md](https://github.com/blitzsicht/falzmarke/blob/main/CONTRIBUTING.md).
+Bei einem Geometriefehler bitte die Ausgabe von `verify` mitschicken; ohne sie lässt sich nicht
+unterscheiden, ob das Layout oder die Messung danebenliegt.
+
+Sicherheitsrelevantes bitte nicht als Issue, sondern nach [SECURITY.md](https://github.com/blitzsicht/falzmarke/blob/main/SECURITY.md).
+
+## Herkunft und Dank
+
+**Markdown** wurde 2004 von [John Gruber](https://daringfireball.net/projects/markdown/) gemeinsam
+mit Aaron Swartz entworfen. Die Spezifikation dazu ist [CommonMark](https://commonmark.org/)
+(John MacFarlane und Mitwirkende). falzmarke setzt eine dokumentierte Teilmenge davon um
+— **[falzmarke-Markdown](https://github.com/blitzsicht/falzmarke/blob/main/skill/references/markdown.md)** — und weicht an drei Stellen bewusst
+ab: HTML wird nie durchgereicht, Links werden nie gesetzt, und eine einzelne `2. Text`-Zeile
+ohne weitere Listenpunkte wird gemeldet — gesetzt mit erhaltenem Startwert, damit nichts still
+umnummeriert wird.
+
+Das **Seitenlayout** stammt von [typst-letter-pro](https://github.com/Sematre/typst-letter-pro)
+(MIT) von Sematre und ist unverändert vendort — Prüfsumme in
+[`vendor/README.md`](https://github.com/blitzsicht/falzmarke/blob/main/skill/falzmarke/typst/vendor/README.md). falzmarke ergänzt die Schicht
+darüber: Datenvertrag, Profile, Markdown-Eingabe, Messung und den Skill.
+
+Gesetzt wird mit [Typst](https://typst.app) (Apache-2.0), geparst mit
+[markdown-it-py](https://github.com/executablebooks/markdown-it-py) (MIT), gemessen mit
+[pdfplumber](https://github.com/jsvine/pdfplumber) (MIT) und
+[pypdf](https://github.com/py-pdf/pypdf) (BSD-3). Schriften: Libertinus und Source Sans 3
+(beide OFL 1.1). Die vollständige Aufstellung samt der Begründung, warum PyMuPDF (AGPL-3.0)
+ersetzt wurde, steht in [THIRD_PARTY_LICENSES.md](https://github.com/blitzsicht/falzmarke/blob/main/THIRD_PARTY_LICENSES.md).
+
+**Alle Abhängigkeiten des Programms sind permissiv lizenziert** — falzmarke lässt sich damit
+auch in geschlossene Systeme einbauen. Nicht permissiv ist allein
+[Remotion](https://www.remotion.dev), womit der Erklärfilm gerendert wird: am Programm ist es
+nicht beteiligt und wird nicht mitgeliefert.
+
+**DIN 5008** ist eine Norm des DIN Deutsches Institut für Normung e. V. falzmarke ist kein
+Produkt des DIN, steht in keiner Verbindung zum DIN und behauptet keine Zertifizierung. Wie die
+Maße gemessen wurden, steht in [`docs/normmasse.md`](https://github.com/blitzsicht/falzmarke/blob/main/docs/normmasse.md).
+
+<!-- changelog:anfang -->
+
+## Was sich zuletzt getan hat
+
+Die letzten zwei Versionen im Wortlaut. **Erzeugt aus [`CHANGELOG.md`](https://github.com/blitzsicht/falzmarke/blob/main/CHANGELOG.md) — dort ändern, dann `python3 scripts/changelog.py`.**
+
+### v0.9.8 — 10.09.2026
+
+#### Neu
+
+- **Eine fertige Signatur mitbringen, statt eine zweite zu pflegen.** `email.signatur_html` im
+  Profil zeigt auf eine HTML-Datei neben dem Profil, `email.signatur_text` auf ihre Textfassung.
+  Ist das Feld gesetzt, **ersetzt** diese Signatur die aus dem Profil gebaute — sie tritt nicht
+  daneben, denn zwei Signaturen unter einer Nachricht sind der Fehler, den dieser Weg abstellt.
+  Aus demselben Grund bleibt `email.logo` dabei unbeachtet: Das Logo steckt schon darin.
+
+  Der Anlass ist praktisch: Für Blitzsicht, Siluri und die Kunden erzeugt ein anderes Werkzeug
+  längst eine gestaltete Signatur, und die steht in den Mailprogrammen. Wer eine hat, soll sie
+  nicht ein zweites Mal beschreiben.
+
+  Übernommen wird der **Rumpf**, nicht das Dokument: `<head>` und `<style>` fallen weg, der Stil
+  wandert getrennt heraus und steht **hinter** dem eigenen Dunkelblock im Kopf der Nachricht.
+  Ein zweiter `<style>` mitten im Rumpf wäre in mehreren Programmen wirkungslos — Gmail entfernt
+  ihn — und in der eigenen Prüfung ein Verstoß.
+
+  **Der Kanal gibt dabei nicht nach.** Die Regeln von ADR 0034 gelten für eine fremde Signatur
+  wie für eigenen Satz: kein Skript, kein externes Stylesheet, kein Zählpixel, keine
+  Layouttabelle ohne `role="presentation"`, kein Verweis nach außen im Stil. Was durchfällt,
+  wird abgelehnt — mit Fundstelle und dem Namen der Datei, nicht stillschweigend eingesetzt.
+
+  Damit ändert sich eine Zusage, und der ADR-Nachtrag sagt genau, um welches Maß: Der Stilblock
+  war eine Konstante und sonst nichts. Er hat jetzt zwei Teile — der eigene steht vorn und wird
+  weiter Zeichen für Zeichen verglichen, der mitgebrachte dahinter wird **geprüft**. Die
+  Reihenfolge ist Teil der Zusage; etwas vor der Konstante bleibt ein Verstoß. (#275)
+
+#### Behoben
+
+- **Eine Signatur darf ihre eigene Breite haben.** Die Prüfung aus #264 lehnte **jede**
+  Layouttabelle mit `max-width` ab; gemeint war eine einzige — der Umschlag, den falzmarke selbst
+  um die Nachricht legt. Er umfasst alles und quetscht deshalb alles, wenn er einen Deckel trägt.
+  Eine mitgebrachte Signatur (#275) ist etwas anderes: ein kurzer Block am Ende, dessen eigene
+  Breite niemanden quetscht. Die von `cw-core` erzeugten tragen 580 px, und eine Mail damit endete
+  mit Exit-Code 2, obwohl inhaltlich nichts falsch war.
+
+  Gemessen wird jetzt die **äußerste** Layouttabelle. Die Gegenprobe hält: Ein `max-width` am
+  Umschlag selbst wird weiterhin rot — das ist der Fall aus #264, und er darf nicht mit
+  durchrutschen. Die Prüfung heißt entsprechend „Umschlag ohne Breitendeckel". (#279)
+
+#### Infrastruktur
+
+- **Die beiden Ausnahme-Labels der Prüfer gibt es jetzt wirklich.** `changelog_pflicht.py` und
+  `closing_keyword.py` bieten je einen ausdrücklichen Fluchtweg an, und `CONTRIBUTING.md`
+  beschreibt den ersten — nur existierte `ohne-changelog` im Repository überhaupt nicht (37
+  Labels, keins mit dem Namen), und `ohne-autoschluss` war von Hand angelegt. Ein dokumentierter
+  Fluchtweg ohne Label ist keiner. Beide stehen jetzt im `LABELS`-Block von
+  `repo-einstellungen.sh`, und ein Test liest die Namen aus den **Prüfern** statt aus einer
+  zweiten Liste: Wird eines umgetauft, fällt der Test, statt dass still eine Ausnahme zumacht.
+
+- **`changelog_pflicht.py` bleibt unter Windows lesbar.** Dieselbe Falle, die den Windows-Lauf
+  zu #268 rot gemacht hat: Der Prüfer druckt typografische Anführungszeichen, dort schreibt
+  Python in cp1252, und beim Aufrufer kommt statt des Befundes gar nichts an. Aufgefallen wäre
+  es hier nie von selbst — der Job läuft ausschließlich auf ubuntu. Der Regressionstest
+  erzwingt cp1252 über `PYTHONIOENCODING` und läuft damit auf jedem System. (#276)
+
+### v0.9.7 — 08.09.2026
+
+#### Neu
+
+- **Ein ständiges Bcc aus dem Absender-Profil — und der Entwurf trägt es mit.** Wer jede
+  ausgehende Nachricht im eigenen Archiv haben will, schreibt die Adresse einmal ins Profil
+  statt in jede Datei:
+
+  ```yaml
+  email:
+    absender: post@example.de
+    bcc: archiv@example.de        # oder eine Liste
+  ```
+
+  Sie tritt **neben** ein `bcc:` im Frontmatter, nicht an dessen Stelle — die fachliche
+  Blindkopie einer einzelnen Mail und die ständige ins Archiv haben nichts miteinander zu tun.
+  Dieselbe Adresse in beiden steht einmal im Kopf, verglichen wird die Adresse und nicht die
+  Schreibweise. Ohne das Feld ändert sich nichts.
+
+  **Still passiert das nicht.** Der Hinweis auf eine gesetzte Blindkopie wird aus der fertigen
+  Datei gelesen und nennt deshalb auch die Adresse aus dem Profil. Eine stille Kopie an einen
+  Dritten wäre genau das, was er verhindern soll.
+
+  Dabei fiel ein Mangel auf, der mit #263 entstanden war: **Der Entwurfsweg trug die Blindkopie
+  nicht mit.** `--oeffnen` las `To` und `Cc`; das Bcc stand in der `.eml`, `verify --email` hatte
+  es gemessen — und im Outlook-Entwurf fehlte es. Eine Zeile, die nie da war, vermisst niemand.
+  Das Steuerskript setzt jetzt `bcc recipient`, und der Nachweis zählt vier Zahlen statt drei:
+  Empfänger, Kopien, Blindkopien, Anhänge. Am echten Programm nachgezählt. (#272)
+
+Davor liegen 26 weitere Versionen — der vollständige Verlauf steht in [`CHANGELOG.md`](https://github.com/blitzsicht/falzmarke/blob/main/CHANGELOG.md).
+
+<!-- changelog:ende -->
+
+## Lizenz
+
+[MIT](https://github.com/blitzsicht/falzmarke/blob/main/LICENSE)
+

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T09:16:03.282Z",
+  "updated_at": "2026-09-11T09:15:03.358Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: I pointed 11 cold AI agents at my own product. 3 finished",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://pact0.com/notes/agents-vs-our-own-product",
+      "date": "2026-09-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I pointed 11 cold AI agents at my own product. 3 finished (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-11/06-show-hn-i-pointed-11-cold-ai-agents-at-my-own-product-3-finished.md"
+    },
+    {
+      "title": "Show HN: Open-source simulation testing infra for voice agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/egma-ai/egma",
+      "date": "2026-09-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, we’re Nischal & Naman. We’re brothers, and together we’re building an open-source platform for simulation based testing of voice agents (try it out in 5 mins - https://docs.egma.ai/docs/get-started/quickstart , 2 min demo video - https://youtu.be/wgDWEe5UAUY ) Platforms that help you do simulation testing already exist. But they all charge a heavy... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-10/07-show-hn-open-source-simulation-testing-infra-for-voice-agents.md"
+    },
+    {
+      "title": "Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.11728v1",
+      "date": "2026-09-10",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Reproducible research practices are context engineering for AI coding agents. I argue that agents lower the cost of maintaining tests, commit histories, repository structure, instructions, and decision records while making their benefits immediate. Researchers remain responsible for verifying these artifacts and the scientific judgments they encode. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-10/08-reproducibility-in-the-age-of-agentic-ai-context-engineering-at-the-ti.md"
+    },
+    {
+      "title": "Autonomy, Social Norms, and Alignment: Towards a Developmental Framework for Autonomous Artificial Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.11660v1",
+      "date": "2026-09-10",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "In recent years, artificial intelligence has made extraordinary progress thanks to large-scale models capable of generalization and the generation of complex outputs. However, transferring this potential into embodied agents reveals a significant limitation: the most advanced systems rely on pre-existing datasets and human feedback strategies that are pow... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-10/09-autonomy-social-norms-and-alignment-towards-a-developmental-framework-.md"
+    },
+    {
+      "title": "Show HN: Dbmask – Discover, mask, and verify sensitive data in SQL databases",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/sealandseacat/dbmask",
+      "date": "2026-09-10",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN I developed *dbmask*, an open-source Python tool designed to discover sensitive columns in SQL databases, masking them with deterministic fake values, and validate the masking results. The motivation behind this tool stems from a common issue I encountered when handling test data: existing masking tools often assume the user already knows exactly wh... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-10/10-show-hn-dbmask-discover-mask-and-verify-sensitive-data-in-sql-database.md"
+    },
+    {
+      "title": "Show HN: Filament – Fast data movement engine in Go",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/galaxy-io/filament",
+      "date": "2026-09-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi, I'm Leon one of the cofounders of Galaxy. We just open sourced Filament, our data movement engine. Its written in Go and Apache 2.0 licensed. We currently support a handful of API connectors, Postgres, MySQL, ClickHouse, Iceberg, and S3. We benchmarked Filament against a bunch of other open source data movement tools and results + the harness is avail... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-08/11-show-hn-filament-fast-data-movement-engine-in-go.md"
+    },
+    {
+      "title": "ra-wan648/ai-directory-v5",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ra-wan648/ai-directory-v5",
+      "date": "2026-09-11",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ra-wan648/ai-directory-v5 Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-11/12-ra-wan648-ai-directory-v5.md"
+    },
+    {
+      "title": "ddgiovinazzo/beacon-ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ddgiovinazzo/beacon-ai",
+      "date": "2026-09-11",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Lightweight, modular, and deterministic CLI job intelligence engine in Python (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-11/13-ddgiovinazzo-beacon-ai.md"
+    },
+    {
+      "title": "Pi Agent Users - Nvidia Released Sol-Pi - A Pi-Extension based on AutoResearch loops to make the Harness more efficient",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcujgg/pi_agent_users_nvidia_released_solpi_a/",
+      "date": "2026-09-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Github Repo. Blog post. 💡 TL;DR (from the Github Readme) Spend less without making the agent do less useful work. SoL-Pi is a standalone extension for Pi that packages four reusable efficiency mechanisms discovered through scaled auto-research loops. It reduces repeated model turns, context replay, oversized observations, and unnecessary long-log reading... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/14-pi-agent-users-nvidia-released-sol-pi-a-pi-extension-based-on-autorese.md"
+    },
+    {
+      "title": "OUI-1: a model that generates bespoke UI elements",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcqa03/oui1_a_model_that_generates_bespoke_ui_elements/",
+      "date": "2026-09-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "so i saw that openui.com released OUI-1, a model fine-tuned on DiffusionGemma. the training dataset uses OpenUI-Lang, a custom DSL (domain-specific language), instead of plain HTML, Markdown, or React code. what makes it interesting is that you can already get a regular LLM to use OpenUI-Lang through a system prompt, but that eats up a lot of the context... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/15-oui-1-a-model-that-generates-bespoke-ui-elements.md"
+    },
+    {
+      "title": "Muse-glimmer-30b really punches above its weight(s) for creative writing",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcwa7i/museglimmer30b_really_punches_above_its_weights/",
+      "date": "2026-09-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "After noticing that it is ranked among MUCH larger frontier models in the EQ-Bench Creative Writing benchmark and the Hemingway-bench , I decided to give it a try and was very impressed. I didn't do very formal testing, but I did ask it to emulate the style of several different writers, including Henry Miller, David Sedaris, and Stephen King, and it produ... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/16-muse-glimmer-30b-really-punches-above-its-weight-s-for-creative-writin.md"
+    },
+    {
+      "title": "Notes on a hobby sub going mainstream",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wctos6/notes_on_a_hobby_sub_going_mainstream/",
+      "date": "2026-09-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Both good and bad things have come from a subreddit that was lot more niche than for example r/flashlight rapidly transforming into the largest online forum about an increasingly core part of the infrastructure of the economy. This sub has experienced growing pains recently, and probably those are mostly felt by people who’ve been around for a while. I th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/17-notes-on-a-hobby-sub-going-mainstream.md"
+    },
     {
       "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Show HN: CrossPlay - Games, puzzles and tools for your e-reader (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/12-show-hn-crossplay-games-puzzles-and-tools-for-your-e-reader.md"
-    },
-    {
-      "title": "Showoff Saturday: Local 4x 6000 Pro (multi-year progression)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj18h4/showoff_saturday_local_4x_6000_pro_multiyear/",
-      "date": "2026-08-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Not the biggest or shiniest, but it's mine From gaming machine inference on the original llama models, to a 4x RTX 6000 Pro Max Q + 4x 3090s local AI cluster. Pictures are in reverse chronological order! With the pricing apocalypse meaning less builds shared here recently, thought I'd put mine out there with a multi-year picture progression since I always... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-08/13-showoff-saturday-local-4x-6000-pro-multi-year-progression.md"
-    },
-    {
-      "title": "enabling PCI-E p2p for consumer Nvidia cards will yield you more than you think",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj7wey/enabling_pcie_p2p_for_consumer_nvidia_cards_will/",
-      "date": "2026-08-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Disclaimer - no LLM was used to write this post/note As larger post about my setup will come later, want to give heads-up to folks who use VLLM and >= 2 GPUs. So I have pretty meaty server (8 channel AMD EPYC, ~150GB/s RAM bw) and 4x5060Ti 16GB in PCI-E 4.0 8x mode. Considering CPU is meaty, high RAM bw, no bottlenecks, messing with p2p should be minuscul... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-08/14-enabling-pci-e-p2p-for-consumer-nvidia-cards-will-yield-you-more-than-.md"
-    },
-    {
-      "title": "My first run of Kimi K3 locally.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj0hil/my_first_run_of_kimi_k3_locally/",
-      "date": "2026-08-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Running across 2 clusters using llama.cpp over RPC too. Both clusters are not enough to hold everything in memory, so main cluster still partially offloads to run. Goal will be to get all the GPUs in one system and without RPC, I should probably see 2-3x faster speed. Running the IQ1_M, goal is to get to Q2_K_XL. My hope is that Qwen3.8 is as good, faster... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-08/15-my-first-run-of-kimi-k3-locally.md"
-    },
-    {
-      "title": "Building a budget 32GB → 48GB VRAM home AI server: 2-3x RX 9060 XT 16GB vs RTX 5060 Ti 16GB, AM5 vs used EPYC?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj5wel/building_a_budget_32gb_48gb_vram_home_ai_server/",
-      "date": "2026-08-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I’m planning a dedicated home AI server, mainly for local LLM inference, agents/tool use, Docker services, and eventually larger MoE models with CPU offload. My plan is to start with 2x 16GB GPUs = 32GB VRAM , but I want to build the platform from day one knowing that I’ll almost certainly add a third identical GPU later for 48GB total VRAM . I’m in Brazi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-08/16-building-a-budget-32gb-48gb-vram-home-ai-server-2-3x-rx-9060-xt-16gb-v.md"
-    },
-    {
-      "title": "Show HN: Zaivern Code – a Rust cockpit for parallel AI coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/tacyan/zaivern-code",
-      "date": "2026-08-07",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Zaivern Code – a Rust cockpit for parallel AI coding agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/06-show-hn-zaivern-code-a-rust-cockpit-for-parallel-ai-coding-agents.md"
-    },
-    {
-      "title": "Show HN: Mirafold – Your Agent with Generative UI (Codex, Claude Code, Gemini)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://mirafold.com/",
-      "date": "2026-08-07",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I love terminal agents, but I don't love the decades-old-looking basic markdown interface. So I made Mirafold. Mirafold is an open source faithful browser re-skin of the terminal agent you already use (Codex, Claude Code, Gemini CLI). Nothing has changed about what your agent says or does except that now it's rendered more beautifully and with more functi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/07-show-hn-mirafold-your-agent-with-generative-ui-codex-claude-code-gemin.md"
-    },
-    {
-      "title": "Show HN: Akintu – AI agents trained on custom knowledge bases using RAG",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://akintu.ai",
-      "date": "2026-08-07",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Akintu – AI agents trained on custom knowledge bases using RAG (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/08-show-hn-akintu-ai-agents-trained-on-custom-knowledge-bases-using-rag.md"
-    },
-    {
-      "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.06353v1",
-      "date": "2026-08-06",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism seeks to establish the Safe AI paradigm that compute is an e... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/09-resourced-authority-a-mechanism-design-model-for-participatory-governa.md"
-    },
-    {
-      "title": "Show HN: Wyzer Programming Language",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Wyzer-Lang/wyzer",
-      "date": "2026-08-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "So i've been working on this project since a few days (or months i should say), it's called wyzer (meaning wiser) it's a statically typed, compiled, resource-oriented programming language with integrated distributed safety via choreographic programming and perceus memory model, The reason why i began this project is out of frustration from Rust, you see i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/10-show-hn-wyzer-programming-language.md"
-    },
-    {
-      "title": "Show HN: Which devtools win when LLMs plan real web apps",
-      "source": "Hacker News Show HN",
-      "url": "https://preseason.ai",
-      "date": "2026-08-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Which devtools win when LLMs plan real web apps (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/11-show-hn-which-devtools-win-when-llms-plan-real-web-apps.md"
-    },
-    {
-      "title": "hujianbest/cool-ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/hujianbest/cool-ai",
-      "date": "2026-08-08",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "agent system for fun (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-08/12-hujianbest-cool-ai.md"
-    },
-    {
-      "title": "luoyh21/orbit-copilot",
-      "source": "GitHub Search API",
-      "url": "https://github.com/luoyh21/orbit-copilot",
-      "date": "2026-08-08",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Offline-first AI copilot for space debris monitoring and STARMAD-COMET (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-08/13-luoyh21-orbit-copilot.md"
     }
   ]
 }
