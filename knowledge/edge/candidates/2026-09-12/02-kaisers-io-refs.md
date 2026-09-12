@@ -1,0 +1,192 @@
+---
+id: "kaisers-io/refs"
+name: "kaisers-io/refs"
+url: "https://github.com/kaisers-io/refs"
+date: "2026-09-12"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "claude_skill"
+compatibility: 92
+momentum: 58
+risk: 24
+integration_effort: 48
+expected_gain: 87
+composite: 76
+replacement_target: ""
+related_articles: [{"title":"Show HN: Keen Code – an agentic-engineered coding agent","date":"2026-08-10","topic":"AI agents","similarity":0.341,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"},{"title":"Show HN: Parley – your coding agent can talk to a teammate's agent","date":"2026-08-11","topic":"AI agents","similarity":0.338,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"},{"title":"Show HN: Self-hosted company OS, Claude Code and Codex agents in departments","date":"2026-09-09","topic":"AI agents","similarity":0.31,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"}]
+pros: ["Recently updated (2026-09-12)","MIT license","7 GitHub stars","GitHub Actions/CI detected"]
+cons: ["No obvious v1 warning, still review upstream code before use"]
+readme_quality: 85
+has_ci: true
+has_tests: true
+setup_steps_count: 2
+dependency_files: [{"name":"package.json","summary":"deps @tsconfig/node24, @tsconfig/strictest, @types/node, @vitest/coverage-v8, oxfmt, oxlint, tsdown, typescript; scripts lint, fmt, fmt:check, typecheck, test, test:coverage, build, check"}]
+install_commands: ["npm i -g @kaisers-io/refs","npx skills add kaisers-io/refs"]
+risk_flags: []
+status: "new"
+---
+
+# kaisers-io/refs
+
+Gives coding agents the real source of your dependencies, not a guess.
+
+URL: https://github.com/kaisers-io/refs
+
+## Why it matters
+You saved an article on 2026-08-10 about AI agents; this candidate overlaps with "Show HN: Keen Code – an agentic-engineered coding agent" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-09-12)
++ MIT license
++ 7 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- No obvious v1 warning, still review upstream code before use
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 2
+
+Dependency files:
+- package.json: deps @tsconfig/node24, @tsconfig/strictest, @types/node, @vitest/coverage-v8, oxfmt, oxlint, tsdown, typescript; scripts lint, fmt, fmt:check, typecheck, test, test:coverage, build, check
+
+Install commands found:
+- npm i -g @kaisers-io/refs
+- npx skills add kaisers-io/refs
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+<p align="center">
+  <img src="assets/logo-wordmark-horizontal.svg" alt="refs logo" width="400">
+</p>
+
+<p align="center"><strong>Real source code for coding agents.</strong></p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@kaisers-io/refs"><img src="https://img.shields.io/npm/v/@kaisers-io/refs?label=npm&color=blue" alt="npm version"></a>
+  <a href="https://github.com/kaisers-io/refs/actions/workflows/ci.yml"><img src="https://github.com/kaisers-io/refs/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI status"></a>
+</p>
+
+Ask a coding agent how a library works and it answers from training data that is months
+old. Tell it to go look, and the best it finds is a minified bundle in `node_modules`.
+Private repositories are worse still. The model has never seen that code at all.
+
+`refs` hands it the source. It keeps read-only git checkouts of the repositories you care
+about, so your agent reads the code that actually ships.
+
+## How it works
+
+You say "add zod as a ref". `refs` resolves the npm package to its git repository, clones
+it, and works out how the project tags its releases.
+
+After that the agent has zod's own files on disk. "How does zod implement codecs" is
+answered by reading them. For "what changed between v4.0.1 and v4.1.0", the agent resolves
+both versions to their tags and diffs them in the same clone.
+
+`https` and `ssh` URLs both work, including the `git@host:path` form, so a private repo or
+a self-hosted forge is no different from a public one. Private ones use the credentials
+your git already has, since refs refuses to take any in the URL. npm is just a convenient
+way to name a repository you would otherwise paste a URL for.
+
+## The CLI and the skill
+
+`refs` is two pieces: a command-line tool, and a skill for your agent. It is written for
+Claude Code and Codex, and `skills add` installs it into other agents' directories too.
+
+The CLI does the deterministic work of cloning, syncing, and resolving a question to the
+right path or tag. The skill teaches your agent when to reach for the CLI and how to use
+what comes back.
+
+The skill runs only when you ask for it, in both agents. In Claude Code that also keeps
+its description out of the context window until then, so the questions that need no source
+code cost you nothing.
+
+## Using it
+
+Invoke the skill explicitly. It will not activate by itself.
+
+```
+/refs add zod as a ref
+/refs how does zod implement codecs
+```
+
+Use `/refs` in Claude Code and `$refs` in Codex. Adding a ref pauses for your approval
+before it enters your configuration. The clone happens first, so what the agent shows you
+is filled in from the real repository rather than guessed. From then on it finds the right
+checkout, reads the source, and runs `refs sync` when one has gone stale.
+
+Its answers name the file and line they came from, so you can check a claim instead of
+trusting it. Where your terminal or app opens file links, they are clickable; where it
+restricts access to the working directory, they stay plain text.
+
+The agent route comes first because the agent can search the source, follow what it finds,
+and talk with you about it. Driving the CLI by hand is still worth knowing, for scripting
+or for checking what the agent did. [`docs/commands.md`](docs/commands.md) has every
+command.
+
+## Install
+
+### 1. The CLI
+
+You need Node.js 24.2 or newer, and git. On Windows use
+[Git for Windows](https://gitforwindows.org/), because the read-only guards are `sh` scripts
+and need the shell it ships with. The CLI behaves the same on all three platforms, and its
+full test suite runs on each of them.
+
+```bash
+npm i -g @kaisers-io/refs
+refs init       # seeds the refs home directory and the git hooks guard
+```
+
+### 2. The agent skill
+
+```bash
+npx skills add kaisers-io/refs
+```
+
+This installs into the current project. Pass `-g` to install once for every project, which
+also prints a failure line for the few agents that have no global location. The install
+itself still succeeds.
+
+To install without `skills add`, copy the directory yourself:
+
+```bash
+mkdir -p ~/.claude/skills                                     # or ~/.codex/skills
+cp -r <path-to-this-repo>/skills/refs ~/.claude/skills/refs
+```
+
+Now check the whole setup:
+
+```bash
+refs doctor
+```
+
+## Read-only is a promise, not a sandbox
+
+Every checkout under `sources/` is reference material. Agents are instructed never to edit,
+commit or push inside one, and `refs` installs git hooks that reject both. When a checkout
+gets dirty anyway, `refs sync` restores it.
+
+The hooks are a backstop against mistakes, not a security boundary. A determined local
+process can still write into a checkout.
+
+## Documentation
+
+- [`docs/commands.md`](docs/commands.md) covers every command, its flags, its `--json`
+  output and its exit codes.
+- [`docs/configuration.md`](docs/configuration.md) explains `config.toml`, `state.json`,
+  the per-ref settings and `REFS_HOME`.
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) has the toolchain, the local development loop and
+  what a pull request has to pass.
+- [`SECURITY.md`](SECURITY.md) is what to read before reporting a vulnerability.
+
+MIT licensed. See [`LICENSE`](LICENSE).
+

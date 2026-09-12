@@ -1,0 +1,12 @@
+---
+title: "CodeFinetuner: Fine-tune a local code autocomplete model on your own codebase"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1wdp9qc/codefinetuner_finetune_a_local_code_autocomplete/"
+date: "2026-09-11"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Hi everyone, I was interested in learning LoRA fine-tuning, and ended up building CodeFinetuner over the past few months, a full pipeline that fine-tunes a small code autocomplete model (e.g. Qwen2.5-Coder-3B) specific to a codebase. You can then use the resulting GGUF model via llama.vim/llama.vscode and run it fully locally. Supports fine-tuning on Mac... (Local summary fallback used.)"
+---
+
+Hi everyone, I was interested in learning LoRA fine-tuning, and ended up building CodeFinetuner over the past few months, a full pipeline that fine-tunes a small code autocomplete model (e.g. Qwen2.5-Coder-3B) specific to a codebase. You can then use the resulting GGUF model via llama.vim/llama.vscode and run it fully locally. Supports fine-tuning on Mac (MPS) and NVIDIA GPUs (CUDA), with optional Unsloth support for faster training and lower VRAM usage. Pipeline: raw code -> tree-sitter parsing into Structure-Aware FIM examples -> LoRA fine-tuning -> evaluation (CodeBLEU, edit similarity, exact match, perplexity, ...) -> GGUF conversion for local inference. To try it: uv tool install codefinetuner Create a data folder and place your repo (or code files) inside. For auto-split just drop the files in directly, for manual split create data/train/ , data/eval/ , data/test/ subfolders and set split_mode: "manual" . Get the default config with: curl -L -O https://raw.githubusercontent.com/cuolm/codefinetuner/master/config/codefinetuner_config.yaml Adjust it to your needs and hardware availability, then run: codefinetuner --config="codefinetuner_config.yaml" The example runs in the repo show clear improvements over the base model on these evaluation metrics, but using the model for autocomplete on code you're actively writing is a different thing from scoring well on a test set, and the autocomplete tools themselves (llama.vim/llama.vscode) sample differently from the greedy decoding used in the evaluation. So the real usefulness still has to be verified in the editor itself. Might also be useful just as a reference, since it's a complete working LoRA fine-tuning pipeline end to end. Hope someone finds this project interesting or helpful. https://github.com/cuolm/codefinetuner submitted by /u/MountainTop321 [link] [comments]

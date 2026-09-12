@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T09:15:03.358Z",
+  "updated_at": "2026-09-12T08:56:05.062Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/godot-pty/gpty",
+      "date": "2026-09-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs and then let the user grid/tile them how they see fit. But since we have the Godot game engine at our disposal, we can do some more inter... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-11/06-show-hn-godot-and-rust-based-multiplexer-terminal-panes-and-more.md"
+    },
+    {
+      "title": "Show HN: Clawfight.ai MCP-driven agentic game play",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://clawfight.ai/agents.md",
+      "date": "2026-09-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "How should agents interact with other agents? What happens when they rap or fight against each other with the pressure of human spectators? Clawfight.ai is an experiment to explore this space. This is my first post about it. The journey began on a beefed up machine I purchased with a decent GPU (5090). I installed claude code and set to dangerously skip p... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-11/07-show-hn-clawfight-ai-mcp-driven-agentic-game-play.md"
+    },
+    {
+      "title": "Learnware and AI Model Management System",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.11656v1",
+      "date": "2026-09-10",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The transition from file storage to database management systems transformed stored data into managed resources. AI now faces an analogous transition from AI model storage to AI model management. Existing model pools essentially serve as \\textit{AI model storage systems}. What is needed instead are \\textit{AI model management systems} that enable models tr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-10/08-learnware-and-ai-model-management-system.md"
+    },
+    {
+      "title": "From Intent to Execution Grant: An Execution-Boundary Conformance Profile for High-Risk AI Actions",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.11596v1",
+      "date": "2026-09-10",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents increasingly propose actions with external consequences, including financial transfers, infrastructure changes, software deployments, disclosures, and physical actuation. Authorization engines, policy languages, runtime monitors, provenance mechanisms, and agent guardrails provide important foundations, but do not necessarily define a common sem... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-10/09-from-intent-to-execution-grant-an-execution-boundary-conformance-profi.md"
+    },
+    {
+      "title": "shopee-openai-hack/starter-repo",
+      "source": "GitHub Search API",
+      "url": "https://github.com/shopee-openai-hack/starter-repo",
+      "date": "2026-09-12",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "shopee-openai-hack/starter-repo Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-12/10-shopee-openai-hack-starter-repo.md"
+    },
+    {
+      "title": "Show HN: Hacker News, without AI",
+      "source": "Hacker News Show HN",
+      "url": "https://hcker.news/?ai=exclude",
+      "date": "2026-09-11",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Hacker News, without AI (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-11/11-show-hn-hacker-news-without-ai.md"
+    },
+    {
+      "title": "Show HN: Don't Hit Send – the model answers while you type",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/scalattice/dont-hit-send",
+      "date": "2026-09-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Type. The model is already answering. There is no send button. Left pane is one long draft. Right pane is a stack of replies. Pause for ~350ms and it fires a normal streaming chat completion with the whole draft. Type again and it aborts the last request if that reply never produced text; if it did, that bubble stays and a new one stacks. Bubbles never re... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-12/12-show-hn-don-t-hit-send-the-model-answers-while-you-type.md"
+    },
+    {
+      "title": "Show HN: Hacker News, Without AI",
+      "source": "Hacker News Show HN",
+      "url": "https://www.unslop.news/",
+      "date": "2026-09-11",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Hacker News, Without AI (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-11/13-show-hn-hacker-news-without-ai.md"
+    },
+    {
+      "title": "Qwen3.8-27B-Humanlike-Chat: A model I tuned to imitate realistic human-to-human conversation",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdl2qa/qwen3827bhumanlikechat_a_model_i_tuned_to_imitate/",
+      "date": "2026-09-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I made this because I was getting genuinely annoyed at trying to have a normal conversation with LLMs. Even with prompting and various tricks, most models I've tried still have this \"AI assistant\" vibe to them that is so familiar: too helpful, polished, verbose, using words we never use in conversation, etc. I wanted a model that could just talk to me lik... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-11/14-qwen3-8-27b-humanlike-chat-a-model-i-tuned-to-imitate-realistic-human-.md"
+    },
+    {
+      "title": "Is a ZIMA Board 2 + RTX 2000 ADA the cheapest path to a decent Qwen-3.8 27b self-contained endpoint?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdqnpq/is_a_zima_board_2_rtx_2000_ada_the_cheapest_path/",
+      "date": "2026-09-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I just watched a YouTube from Luke’s Dev Lab where he literally just plugged a RTX 2000 ADA Into the side of the Zima Board 2’s PCIE socket and it just friggin worked and had great token speed despite running on shitty Ollama. Ran off the Zima’s power supply and everything. https://youtu.be/Lb3sRFTA-hk?si=8S8vv4GD1zVPeTrc The Zima Board 2 is only like $41... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-11/15-is-a-zima-board-2-rtx-2000-ada-the-cheapest-path-to-a-decent-qwen-3-8-.md"
+    },
+    {
+      "title": "I fine-tuned a 2B LLM on our WhatsApp group chat, and shared how to do it on GitHub as a cookbook.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdxz12/i_finetuned_a_2b_llm_on_our_whatsapp_group_chat/",
+      "date": "2026-09-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://github.com/Sayitobar/chat_llm_cookbook This is my personal project that took several months. I wanted to see whether a 2B small local model could simulate a six-person group chat trained & ran on an M1 Pro. How good is it?: - It's fun, but not great. It doesn't achieve coherent & consistent group simulation, but it learned enough of our slang, rea... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-12/16-i-fine-tuned-a-2b-llm-on-our-whatsapp-group-chat-and-shared-how-to-do-.md"
+    },
+    {
+      "title": "CodeFinetuner: Fine-tune a local code autocomplete model on your own codebase",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdp9qc/codefinetuner_finetune_a_local_code_autocomplete/",
+      "date": "2026-09-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I was interested in learning LoRA fine-tuning, and ended up building CodeFinetuner over the past few months, a full pipeline that fine-tunes a small code autocomplete model (e.g. Qwen2.5-Coder-3B) specific to a codebase. You can then use the resulting GGUF model via llama.vim/llama.vscode and run it fully locally. Supports fine-tuning on Mac... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-11/17-codefinetuner-fine-tune-a-local-code-autocomplete-model-on-your-own-co.md"
+    },
     {
       "title": "Show HN: I pointed 11 cold AI agents at my own product. 3 finished",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hey HN, I was curious about how most companies and individuals were using AI without any meaningful insights. I built TokenSpend ( https://tokenspend.dev/ ); we find existing ROI on AI code usage by tracking how much output was produced for your agent sessions, identifying inefficiencies with AI usage, and then, based on that data, we route you through th... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/12-show-hn-tokenspend-the-ai-roi-solution.md"
-    },
-    {
-      "title": "Show HN: Sufleur - npm-style prompt registry with typed code-generation",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/sufleur/cli",
-      "date": "2026-08-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I've built Sufleur, a prompt registry and companion CLI tool. The motivation was essentially the frustration that prompts are becoming more and more crucial parts of applications, but in the codebases I've seen, they just sit around as random strings, in-house templates with odd rules, and essentially no version control beyond git. I've felt pain i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/13-show-hn-sufleur-npm-style-prompt-registry-with-typed-code-generation.md"
-    },
-    {
-      "title": "omlab/VLX-Seek-1.5-10B · Hugging Face",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkaypz/omlabvlxseek1510b_hugging_face/",
-      "date": "2026-08-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "VLX-Seek-1.5-10B VLX-Seek-1.5-10B is the open-source 10B model in the VLX-Seek 1.5 family, designed for fine-grained perception and visual grounding in embodied scenarios. It targets practical settings such as drones, robots, robotic dogs, surveillance cameras, inspection systems, and other edge-side visual intelligence applications where a model must ide... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-10/14-omlab-vlx-seek-1-5-10b-hugging-face.md"
-    },
-    {
-      "title": "KLQ: Training-free measured rotation quantization. Beats all training-free rotation-based quantization methods on W4A4KV4-bits. Llama 3.2 1B KLQ-quantized beats SpinQuant and gets close to ReSpinQuant without GPTQ/LDLQ rounding.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vk2n2k/klq_trainingfree_measured_rotation_quantization/",
-      "date": "2026-08-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "First of all, I'm not a lab, this was a solo summer research project that finally culminated into the github repo and the writeup. The repo includes a much deeper dive with methods, findings about quantization and geometry, limitations, and proposed experiments. I'll also mention that this is far from production-grade, it's mostly a theoretical framework... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-09/15-klq-training-free-measured-rotation-quantization-beats-all-training-fr.md"
-    },
-    {
-      "title": "Underestimated budget solution: radeon 780m iGPU",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjs3sf/underestimated_budget_solution_radeon_780m_igpu/",
-      "date": "2026-08-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "There are so many posts where people complaining about high prices and asking for solution So, there is one solution to consider: PC/mini PC/laptop on Ryzen 7 260 / Ryzen 9 8945HX /etc CPU with 780m iGPU and 64 Gb of DDR5 RAM. Barebone mini PC costs around 300-400, used 2x 32Gb DDR5 SO-DIMM around 500, used SSD 50-100 in my area. Here are my numbers on Ry... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-09/16-underestimated-budget-solution-radeon-780m-igpu.md"
-    },
-    {
-      "title": "DeepSeek v4 Flash 0731 locally on CPU",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjsysx/deepseek_v4_flash_0731_locally_on_cpu/",
-      "date": "2026-08-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "After seeing the benchmark results for the full release of DS v4 Flash 0731, I replaced my 2 x 16GB DDR4 ram sticks with 2 x 32GB DDR4 ram sticks to get a max supported of 128 GB RAM, in hope to be able to run GLM 5.2 equivalent model locally i.e. DS v4 Flash 0731 I also have RTX 4090 & Tesla P40 so the total combined RAM + VRAM is 176GB on my setup, I wo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-09/17-deepseek-v4-flash-0731-locally-on-cpu.md"
-    },
-    {
-      "title": "Show HN: Algebruh - Cross-check arithmetic claims with Z3, cvc5, and Lean",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/skorotkiewicz/algebruh",
-      "date": "2026-08-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Algebruh - Cross-check arithmetic claims with Z3, cvc5, and Lean (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-08/06-show-hn-algebruh-cross-check-arithmetic-claims-with-z3-cvc5-and-lean.md"
-    },
-    {
-      "title": "Show HN: Aidress – LangChain integration for cross-agent discovery and trust",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://docs.langchain.com/oss/python/integrations/tools",
-      "date": "2026-08-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Aidress – LangChain integration for cross-agent discovery and trust (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-09/07-show-hn-aidress-langchain-integration-for-cross-agent-discovery-and-tr.md"
-    },
-    {
-      "title": "Show HN: Try Benzi – A coding harness/agent beating Claude Code itself on Sonnet",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://benzi.fly.dev/about",
-      "date": "2026-08-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi y'all. Been working on something that should've been made a long time ago imo. It compiles codebases into O(1) hashmaps that the agent queries to discover the structure of your code/answer questions/write code. It also does complete static analysis checks on any writes the agent makes. Don't take my word for it though. Here are the benchmarks: https://... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-08/08-show-hn-try-benzi-a-coding-harness-agent-beating-claude-code-itself-on.md"
-    },
-    {
-      "title": "Show HN: Faaah – Filesystem as an AI Handler",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/sebastiancarlos/faaah",
-      "date": "2026-08-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Faaah – Filesystem as an AI Handler (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-08/09-show-hn-faaah-filesystem-as-an-ai-handler.md"
-    },
-    {
-      "title": "sbguangha/agentmind",
-      "source": "GitHub Search API",
-      "url": "https://github.com/sbguangha/agentmind",
-      "date": "2026-08-09",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AgentMind - complete AI agent in Python: perception, ReAct reasoning, tool calling, long-term memory, human-in-the-loop approval, subagent delegation, context consolidation (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/10-sbguangha-agentmind.md"
-    },
-    {
-      "title": "tonychang925-dev/Julia_core",
-      "source": "GitHub Search API",
-      "url": "https://github.com/tonychang925-dev/Julia_core",
-      "date": "2026-08-09",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "tonychang925-dev/Julia_core Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/11-tonychang925-dev-julia-core.md"
-    },
-    {
-      "title": "Show HN: CrossPlay - Games, puzzles and tools for your e-reader",
-      "source": "Hacker News Show HN",
-      "url": "https://crossplay.ma-r-s.com",
-      "date": "2026-08-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: CrossPlay - Games, puzzles and tools for your e-reader (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-07/12-show-hn-crossplay-games-puzzles-and-tools-for-your-e-reader.md"
     }
   ]
 }
