@@ -1,10 +1,216 @@
 {
-  "last_checked_at": "2026-09-12T08:56:32.719Z",
+  "last_checked_at": "2026-09-13T09:52:57.874Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "usk6666/yorishiro-proxy",
+      "name": "usk6666/yorishiro-proxy",
+      "url": "https://github.com/usk6666/yorishiro-proxy",
+      "date": "2026-09-13",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 79,
+      "momentum": 67,
+      "risk": 32,
+      "integration_effort": 60,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "how to setup llama.cpp and blender to make lovely 3d stuff together",
+          "date": "2026-08-28",
+          "topic": "Local LLMs",
+          "similarity": 0.286,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/16-how-to-setup-llama-cpp-and-blender-to-make-lovely-3d-stuff-together.md"
+        },
+        {
+          "title": "Show HN: MCP Tool Definition Quality Score (TDQS) Spec",
+          "date": "2026-09-03",
+          "topic": "AI dev tools",
+          "similarity": 0.244,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/10-show-hn-mcp-tool-definition-quality-score-tdqs-spec.md"
+        },
+        {
+          "title": "qgeng1465/bio-mcp",
+          "date": "2026-08-11",
+          "topic": "AI dev tools",
+          "similarity": 0.185,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/13-qgeng1465-bio-mcp.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-13)",
+        "Apache-2.0 license",
+        "16 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "go.mod",
+          "summary": "module github.com/usk6666/yorishiro-proxy"
+        }
+      ],
+      "install_commands": [
+        "npm i -g @usk6666/yorishiro-proxy",
+        "npx @usk6666/yorishiro-proxy install",
+        "git clone https://github.com/usk6666/yorishiro-proxy.git"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-28 about Local LLMs; this candidate overlaps with \"how to setup llama.cpp and blender to make lovely 3d stuff together\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-13/01-usk6666-yorishiro-proxy.md"
+    },
+    {
+      "id": "sisyphean-faucialtonsil233/awesome-ios-ai",
+      "name": "sisyphean-faucialtonsil233/awesome-ios-ai",
+      "url": "https://github.com/sisyphean-faucialtonsil233/awesome-ios-ai",
+      "date": "2026-09-13",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 85,
+      "momentum": 45,
+      "risk": 35,
+      "integration_effort": 40,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.253,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        },
+        {
+          "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+          "date": "2026-08-27",
+          "topic": "AI agents",
+          "similarity": 0.207,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-wikiskill-compiling-agent-experience-into-persistent-knowledge-for-ski.md"
+        },
+        {
+          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
+          "date": "2026-08-11",
+          "topic": "AI agents",
+          "similarity": 0.183,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-13)",
+        "CC0-1.0 license",
+        "Matches 3 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-13/02-sisyphean-faucialtonsil233-awesome-ios-ai.md"
+    },
+    {
+      "id": "khanuzeb/kite",
+      "name": "KhanUzeb/kite",
+      "url": "https://github.com/KhanUzeb/kite",
+      "date": "2026-09-13",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 58,
+      "risk": 48,
+      "integration_effort": 56,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
+          "date": "2026-08-10",
+          "topic": "AI agents",
+          "similarity": 0.47,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
+        },
+        {
+          "title": "LamsonRetail/lsr-agent-platform",
+          "date": "2026-08-18",
+          "topic": "AI dev tools",
+          "similarity": 0.446,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+        },
+        {
+          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
+          "date": "2026-08-11",
+          "topic": "AI agents",
+          "similarity": 0.429,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-13)",
+        "MIT license",
+        "3 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, readme, requires-python, dependencies, litellm, openai-codex"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps litellm>=1.60.0, tenacity>=8.0, pydantic>=2.0, python-dotenv>=1.0, jinja2>=3.1, rich>=13.7.0, textual>=1.0.0, prompt_toolkit>=3.0.47"
+        }
+      ],
+      "install_commands": [
+        "uv tool install --python 3.12 --force \"git+https://github.com/KhanUzeb/kite.git\"",
+        "uv tool update-shell",
+        "git clone https://github.com/KhanUzeb/kite.git && cd kite",
+        "uv tool install \"git+https://github.com/KhanUzeb/kite.git\"",
+        "uv tool upgrade kite",
+        "uv tool uninstall kite"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-13/03-khanuzeb-kite.md"
+    },
     {
       "id": "thkt/dotclaude",
       "name": "thkt/dotclaude",
@@ -19716,191 +19922,6 @@
       "risk_flags": [],
       "why_it_matters": "You saved an article on 2026-06-02 about AI dev tools; this candidate overlaps with \"linny006/agent-eval-harness\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-05/02-multica-ai-multica.md"
-    },
-    {
-      "id": "mann1988/awesome-claude-skills",
-      "name": "Mann1988/awesome-claude-skills",
-      "url": "https://github.com/Mann1988/awesome-claude-skills",
-      "date": "2026-06-05",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 85,
-      "momentum": 82,
-      "risk": 35,
-      "integration_effort": 28,
-      "expected_gain": 73,
-      "composite": 76,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "linny006/awesome-agent-skills",
-          "date": "2026-06-02",
-          "topic": "AI dev tools",
-          "similarity": 0.432,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/75-linny006-awesome-agent-skills.md"
-        },
-        {
-          "title": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
-          "date": "2026-05-21",
-          "topic": "AI dev tools",
-          "similarity": 0.34,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/43-show-hn-i-made-a-claude-skill-for-spec-driven-development-sdd.md"
-        },
-        {
-          "title": "Show HN: Lessons learned from running Claude Code swarms at scale",
-          "date": "2026-06-05",
-          "topic": "AI agents",
-          "similarity": 0.305,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-05/07-show-hn-lessons-learned-from-running-claude-code-swarms-at-scale.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-05)",
-        "MIT license",
-        "60 GitHub stars",
-        "Matches 3 saved Feed article(s)"
-      ],
-      "cons": [
-        "No clear install command found in README"
-      ],
-      "readme_quality": 63,
-      "has_ci": false,
-      "has_tests": false,
-      "setup_steps_count": 0,
-      "dependency_files": [],
-      "install_commands": [],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-02 about AI dev tools; this candidate overlaps with \"linny006/awesome-agent-skills\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-05/03-mann1988-awesome-claude-skills.md"
-    },
-    {
-      "id": "neomjs/neo",
-      "name": "neomjs/neo",
-      "url": "https://github.com/neomjs/neo",
-      "date": "2026-06-04",
-      "source": "awesome-claude-code",
-      "category": "awesome_lists",
-      "kind": "mcp_server",
-      "compatibility": 72,
-      "momentum": 100,
-      "risk": 22,
-      "integration_effort": 48,
-      "expected_gain": 87,
-      "composite": 80,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "vladimir120307-droid/mneme",
-          "date": "2026-05-24",
-          "topic": "AI dev tools",
-          "similarity": 0.216,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/67-vladimir120307-droid-mneme.md"
-        },
-        {
-          "title": "gHashTag/trios-mcp-rag",
-          "date": "2026-05-23",
-          "topic": "AI agents",
-          "similarity": 0.206,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
-        },
-        {
-          "title": "dui14/vibe-coding-workflow",
-          "date": "2026-05-30",
-          "topic": "AI dev tools",
-          "similarity": 0.197,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-04)",
-        "MIT license",
-        "3195 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "package metadata could not be parsed"
-        }
-      ],
-      "install_commands": [
-        "npx neo-app@latest"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-05-24 about AI dev tools; this candidate overlaps with \"vladimir120307-droid/mneme\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-04/01-neomjs-neo.md"
-    },
-    {
-      "id": "ai-driven-dev/aidd-framework",
-      "name": "ai-driven-dev/aidd-framework",
-      "url": "https://github.com/ai-driven-dev/aidd-framework",
-      "date": "2026-06-04",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 84,
-      "momentum": 55,
-      "risk": 24,
-      "integration_effort": 34,
-      "expected_gain": 87,
-      "composite": 75,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "linny006/awesome-agent-skills",
-          "date": "2026-06-02",
-          "topic": "AI dev tools",
-          "similarity": 0.234,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/75-linny006-awesome-agent-skills.md"
-        },
-        {
-          "title": "dui14/vibe-coding-workflow",
-          "date": "2026-05-30",
-          "topic": "AI dev tools",
-          "similarity": 0.216,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"
-        },
-        {
-          "title": "linny006/skills-tracker",
-          "date": "2026-06-02",
-          "topic": "AI dev tools",
-          "similarity": 0.213,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/77-linny006-skills-tracker.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-04)",
-        "MIT license",
-        "4 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 1,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @commitlint/cli, @commitlint/config-conventional, lefthook; scripts prepare"
-        }
-      ],
-      "install_commands": [
-        "git commit -s"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-02 about AI dev tools; this candidate overlaps with \"linny006/awesome-agent-skills\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-04/02-ai-driven-dev-aidd-framework.md"
     }
   ]
 }

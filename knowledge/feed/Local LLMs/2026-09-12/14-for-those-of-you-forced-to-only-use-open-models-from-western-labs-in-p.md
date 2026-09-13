@@ -1,0 +1,12 @@
+---
+title: "For those of you forced to only use open models from Western labs in production, what are you deploying?"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1wegs2w/for_those_of_you_forced_to_only_use_open_models/"
+date: "2026-09-12"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "First off, I know that GLM, Qwen, and DeepSeek absolutely dominate in terms of SOTA Open Source models, and that’s what I use in my personal projects and for school, however, I’m also responsible for deploying local AI on my organization’s H100s, and we are forbidden by management from running any Chinese models. This is obviously not an ideal situation,... (Local summary fallback used.)"
+---
+
+First off, I know that GLM, Qwen, and DeepSeek absolutely dominate in terms of SOTA Open Source models, and that’s what I use in my personal projects and for school, however, I’m also responsible for deploying local AI on my organization’s H100s, and we are forbidden by management from running any Chinese models. This is obviously not an ideal situation, but it is what it is, and there is nothing I can do to change this unfortunately. Again, if it were up to me I would deploy GLM 5.3 Flash in a heartbeat. All that being said, there is quite a HUGE performance/ / intelligence gap right now in Chinese models vs. Western model around the 120b+ size, especially those with vision. There just aren’t a lot of good Western lab options that can even come close to GLM or Qwen, but again, I don’t have a choice so I gotta use the best I can find from the available Western options. For those who have production-class hardware such as 4 H100s and are under similar restrictions, what non-Chinese models are you deploying? The two front runners I’ve seen that checking most of the boxes (120b or better, vision capability, decent context) - Thinking Machines Inkling Small ( https://thinkingmachines.ai/news/inkling-small/ ). This model seems like the front runner right now, still has a 16 point gap in AA score vs. GLM 5.3 Flash though. - Cohere Commamd A+ ( https://cohere.com/blog/command-a-plus ). Checks every box except it has a low context window of 128k. Other contenders (but missing vision capabilities): - Poolside Laguna S 2.1 ( https://poolside.ai/models#laguna-s ) - Nvidia Nemotron 3 Super ( https://research.nvidia.com/labs/nemotron/Nemotron-3-Super/ ) Am I missing any other strong contenders in the 120b size category? Whet are you using and why? submitted by /u/Porespellar [link] [comments]

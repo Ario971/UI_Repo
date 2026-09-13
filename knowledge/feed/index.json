@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T08:56:05.062Z",
+  "updated_at": "2026-09-13T09:52:36.210Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Open-sourced solution to AI manage Playwright automations",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/rakutentech/sorify",
+      "date": "2026-09-12",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We built a comprehensive system that connects directly to the AI agents through MCP for writing, managing most type of browser automations. Purpose is for automated testing or automating browser based workflows. It provides notifications, scheduling, pre/post hooks, IAM management, cookies support, json payloads. Has a hybrid Chrome extension too, that ca... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-12/06-show-hn-open-sourced-solution-to-ai-manage-playwright-automations.md"
+    },
+    {
+      "title": "Show HN: Aqqai – Every answer, checked before you see it",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://demo.aqqai.in",
+      "date": "2026-09-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Aqqai – Every answer, checked before you see it (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-13/07-show-hn-aqqai-every-answer-checked-before-you-see-it.md"
+    },
+    {
+      "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/takaakit/astah-pro-mcp",
+      "date": "2026-09-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "This MCP plugin implements a \"Programmatic Tool Calling\" mode, inspired by the idea described in this Anthropic article ( https://www.anthropic.com/engineering/advanced-tool-use ). (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-13/08-show-hn-astah-pro-mcp-enabling-ai-powered-uml-modeling.md"
+    },
+    {
+      "title": "Show HN: Fleecevest – The Product Counterpart to Ponytail",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Websites-On-Computers/fleecevest",
+      "date": "2026-09-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Fleecevest – The Product Counterpart to Ponytail (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-13/09-show-hn-fleecevest-the-product-counterpart-to-ponytail.md"
+    },
+    {
+      "title": "ali-sachal/Agentic_ai_Health",
+      "source": "GitHub Search API",
+      "url": "https://github.com/ali-sachal/Agentic_ai_Health",
+      "date": "2026-09-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ali-sachal/Agentic_ai_Health Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/10-ali-sachal-agentic-ai-health.md"
+    },
+    {
+      "title": "Show HN: DiskTriage – A simple CLI tool to reclaim space on your Win C drive",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/ricardoborges/DiskTriage",
+      "date": "2026-09-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: DiskTriage – A simple CLI tool to reclaim space on your Win C drive (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-12/11-show-hn-disktriage-a-simple-cli-tool-to-reclaim-space-on-your-win-c-dr.md"
+    },
+    {
+      "title": "Show HN: A Technical Book for the Age of AI",
+      "source": "Hacker News Show HN",
+      "url": "https://codeberg.org/juurej/p4cu",
+      "date": "2026-09-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "As AI increasingly answers \"how,\" this book focuses on \"why.\" Rather than focusing on how to build software, it asks why programming matters. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-12/12-show-hn-a-technical-book-for-the-age-of-ai.md"
+    },
+    {
+      "title": "Is there still strong interest in a dense 9b model?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wezm58/is_there_still_strong_interest_in_a_dense_9b_model/",
+      "date": "2026-09-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I have a full model, it's ready to train. It's ~9b parameters. 9.4b to be more exact. That includes a 1/2/3 Engram table, Moonshot's AttnRes modeling, and RoPE / NoPE layering at 3:1 as more or less validated by most major labs. It uses the Llama 3 series tokenizer and LM Head as an initial start. The data fed in is logit level extraction from a Llama 3 t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-13/13-is-there-still-strong-interest-in-a-dense-9b-model.md"
+    },
+    {
+      "title": "For those of you forced to only use open models from Western labs in production, what are you deploying?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wegs2w/for_those_of_you_forced_to_only_use_open_models/",
+      "date": "2026-09-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "First off, I know that GLM, Qwen, and DeepSeek absolutely dominate in terms of SOTA Open Source models, and that’s what I use in my personal projects and for school, however, I’m also responsible for deploying local AI on my organization’s H100s, and we are forbidden by management from running any Chinese models. This is obviously not an ideal situation,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-12/14-for-those-of-you-forced-to-only-use-open-models-from-western-labs-in-p.md"
+    },
+    {
+      "title": "I built a serverless hosting platform for LoRA adapters with vLLM",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1weum85/i_built_a_serverless_hosting_platform_for_lora/",
+      "date": "2026-09-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "It’s always bothered me that after fine-tuning a model for a project, there isn’t a particularly easy way to host it without either running it locally and keeping a GPU on 24/7 or paying for an entire GPU server. There are managed options for LoRA serving on top of vLLM (AWS), but you generally still end up paying for an entire instance. I started wonderi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-13/15-i-built-a-serverless-hosting-platform-for-lora-adapters-with-vllm.md"
+    },
+    {
+      "title": "What pi.dev plugin do you suggest for context, compaction and memory management of local models?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1weolwq/what_pidev_plugin_do_you_suggest_for_context/",
+      "date": "2026-09-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I have been battling with my Qwen3.8:27b setup on my rtx 5080 16gb. I am using llama.cpp to run a nvfp4 version of qwen3.8:27b llama-b10699-bin-win-cuda-13.3-x64\\llama-server.exe -hf williamliao/Qwen3.8-27B-NVFP4-GGUF:NVFP4 --jinja --chat-template-file d:\\qwen\\chat_template.jinja --reasoning-format deepseek --host 127.0.0.1 --offline -np 1 --threads 16 --... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-12/16-what-pi-dev-plugin-do-you-suggest-for-context-compaction-and-memory-ma.md"
+    },
     {
       "title": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "🧬 BioMCP — 生物信息学 MCP 服务器：PubMed/NCBI/BLAST/PDB/UniProt/富集分析，让任意 AI 助手直连生物数据库。Open-source bioinformatics MCP server. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/13-qgeng1465-bio-mcp.md"
-    },
-    {
-      "title": "Best Local LLMs - August 2026",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkmhyl/best_local_llms_august_2026/",
-      "date": "2026-08-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Wowee!! Just when you thought it couldn't get better for open weight models, we probably have had our best period yet!?!?! Models that rival the closed frontier, Opus level models on non-insane hardware and more. A massive industry alliance coming out in support of open AI in response to the two closed model giants best lobbying efforts. Is this the best... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-10/14-best-local-llms-august-2026.md"
-    },
-    {
-      "title": "Needle 2: 14MB agentic LLM for phones, wearables, smart home and robots.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkqy66/needle_2_14mb_agentic_llm_for_phones_wearables/",
-      "date": "2026-08-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey LocalLlaMa, Henry from Cactus here! We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2. The whole model is a single 14MB binar... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-10/15-needle-2-14mb-agentic-llm-for-phones-wearables-smart-home-and-robots.md"
-    },
-    {
-      "title": "I trained a 1B-parameter LLM from scratch on 20B tokens for about $200",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkydi5/i_trained_a_1bparameter_llm_from_scratch_on_20b/",
-      "date": "2026-08-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "A few months ago, I had the idea of making a LLM from scratch as a personal project (for learning and partly for improving my resume). Since I learned a lot from other posts on here over the past year, I wanted to share the results. TLDR: I trained a 1.1B param model on 20B tokens from fineweb-edu, then finetuned it on openhermes with LoRA to get a chat m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-10/16-i-trained-a-1b-parameter-llm-from-scratch-on-20b-tokens-for-about-200.md"
-    },
-    {
-      "title": "Introducing Muse Glimmer: an open-weight model optimized for always-on local agent workflows",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkgsum/introducing_muse_glimmer_an_openweight_model/",
-      "date": "2026-08-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi r/LocalLLaMA 👋 Today we’re excited to release Muse Glimmer, a 30B open-weight model built specifically for local agent workflows. We’re releasing the weights to the community under a permissive Apache 2.0 license. A few specs 30B params, dense Multimodal: interleaved text + images via a dedicated perception encoder Trained on 100+ languages Controllab... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-10/17-introducing-muse-glimmer-an-open-weight-model-optimized-for-always-on-.md"
-    },
-    {
-      "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.whodunnitai.com/",
-      "date": "2026-08-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! I'm excited to show off this really fun project I put together. I originally built this project 2-3 years ago, AI was already booming at the time, however voice AI agents were still very early. I loved my proof of concept at the time, but wasn't quite happy with it. I recently had the desire to check out the tech again, and know many of you will b... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-voice-driven-murder-mystery-interview-ai-suspects-with-your-vo.md"
-    },
-    {
-      "title": "Show HN: Wardline, a Go proxy that auto-blocks compromised AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/kabirnarang39/wardline",
-      "date": "2026-08-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Wardline, a Go proxy that auto-blocks compromised AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-09/07-show-hn-wardline-a-go-proxy-that-auto-blocks-compromised-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Remaking Unreal engine in Rust for coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://machinesatplay.com",
-      "date": "2026-08-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! I'm kevin, cofounder of https://machinesatplay.com , a multiplayer 3d gaming engine for codex/claude code. TLDR: we're rebuilding unreal engine without the editor in rust meant to be used through the CLI. its open source/MIT. You prompt your favorite coding harness to create a game, and it'll give you a <name>.machinesatplay.com link Some multiplay... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-09/08-show-hn-remaking-unreal-engine-in-rust-for-coding-agents.md"
-    },
-    {
-      "title": "Show HN: Open-source playground to red-team AI agents against public prompts",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://playground.fabraix.com/",
-      "date": "2026-08-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Open-source playground to red-team AI agents against public prompts (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-09/09-show-hn-open-source-playground-to-red-team-ai-agents-against-public-pr.md"
-    },
-    {
-      "title": "Show HN: Gotcha- First on-device AI copilot for Android",
-      "source": "Hacker News Show HN",
-      "url": "https://samosa-ai.com/gotcha/",
-      "date": "2026-08-10",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Gotcha- First on-device AI copilot for Android (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-10/10-show-hn-gotcha-first-on-device-ai-copilot-for-android.md"
-    },
-    {
-      "title": "Show HN: Run your GitHub Actions locally or self-hosted in isolated microvms",
-      "source": "Hacker News Show HN",
-      "url": "https://preloop.dev",
-      "date": "2026-08-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN. I've been frustrated with Github Actions' reliability, and inability to run workflows locally. Preloop is a Rust reimplementation of the GitHub Actions, both the runner(tracking the latest version) and the control plane that runs in hardware-isolated microvms on MacOS/Linux/Windows(we use smolvm project that uses the libkrun vmm).The microvms star... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/11-show-hn-run-your-github-actions-locally-or-self-hosted-in-isolated-mic.md"
-    },
-    {
-      "title": "Show HN: TokenSpend, the AI ROI Solution",
-      "source": "Hacker News Show HN",
-      "url": "https://tokenspend.dev/",
-      "date": "2026-08-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I was curious about how most companies and individuals were using AI without any meaningful insights. I built TokenSpend ( https://tokenspend.dev/ ); we find existing ROI on AI code usage by tracking how much output was produced for your agent sessions, identifying inefficiencies with AI usage, and then, based on that data, we route you through th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-09/12-show-hn-tokenspend-the-ai-roi-solution.md"
     }
   ]
 }
