@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T09:52:36.210Z",
+  "updated_at": "2026-09-14T10:11:57.821Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Crypto portfolio risk and scenario analysis with AI agents on top",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://sentralis.io/",
+      "date": "2026-09-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Sentralis.io is a risk and scenario analysis platform focused on cryptocurrency portfolio HODLers It combines hardcore risk analytics capabilities with smart agents for deep insights, suitable for beginners and pros alike. Free accounts have full access to all scenarios and risk quantification. API and MCP access available as well (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/06-show-hn-crypto-portfolio-risk-and-scenario-analysis-with-ai-agents-on-.md"
+    },
+    {
+      "title": "Show HN: I made a tiny MoE/Engram viz tool",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://sw-ml-study.github.io/moe-microscope/",
+      "date": "2026-09-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "As part of a ML study group I've been building tools to experiment with ML concepts. I use AI Coding agents to develop software, mostly cloud-based but I keep trying local LLMs on 12G, 16G, and 24G VRAM GPUs. Freetoken has made it possible to run larger MoE models on smaller GPUs. This inspired me to use my ML tools to build a tiny MoE model from scratch... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/07-show-hn-i-made-a-tiny-moe-engram-viz-tool.md"
+    },
+    {
+      "title": "Show HN: EterDB, a Postgres fork that makes it easy to recover from incidents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://eterdb.com/",
+      "date": "2026-09-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, a few months ago, after recovering from a Clade-generated bug, I was thinking to myself “wouldn’t it be nice if prod DB writes were easy to roll back”. I’ve put something together: it’s a two-container deploy plus a CLI tool. It’s far from being production ready, so please be gentle. All feedback welcome! The nitty gritty: https://eterdb.com... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-10/08-show-hn-eterdb-a-postgres-fork-that-makes-it-easy-to-recover-from-inci.md"
+    },
+    {
+      "title": "Show HN: I made a flight simulator, except you're just a passenger",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://inflightsimulator.com",
+      "date": "2026-09-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Buckle your seatbelt, secure your tray table, and open your window shade. Now you can simulate flying anywhere in the world as a commercial passenger, from takeoff to touchdown. Terrain, weather, and realtime sun position included. Don't worry, the latest release now features legs, so you can get up and go to the bathroom on longer flights. Enjoy! (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/09-show-hn-i-made-a-flight-simulator-except-you-re-just-a-passenger.md"
+    },
+    {
+      "title": "Show HN: <15MB Local-first Interactive LaTeX Scratchpad in the Browser",
+      "source": "Hacker News Show HN",
+      "url": "https://telox.dev/app/scratchpad/",
+      "date": "2026-09-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I am working on a very modular typesetting engine called TeLoX, intended as a superset of the capabilities (of at least) XeTeX and pdfLaTeX, written in Rust. The main goals are modularity and speed (which we know sometimes fight each other unless we try to be principled about it). Today I wanted to demonstrate these diegetic interactive sliders that contr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/10-show-hn-15mb-local-first-interactive-latex-scratchpad-in-the-browser.md"
+    },
+    {
+      "title": "Show HN: VibeWorld – a shared terminal world for developers and scientists",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/SorBalda/vibeworld",
+      "date": "2026-09-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Vibeworld is a persistent cyberpunk shared world that runs in your terminal, where you can meet other developers and scientists to have company at 2 AM while screaming at your LLM :) you can connect with other scientist, chat, and includes also use vocal chat if you want to use it. There is a world and a moon, and they are completely 3D rendered and anima... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/11-show-hn-vibeworld-a-shared-terminal-world-for-developers-and-scientist.md"
+    },
+    {
+      "title": "pradverma94/ai-support-agent",
+      "source": "GitHub Search API",
+      "url": "https://github.com/pradverma94/ai-support-agent",
+      "date": "2026-09-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "demo for ai-support-agent (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/12-pradverma94-ai-support-agent.md"
+    },
+    {
+      "title": "Show HN: What Just Pinged Me?",
+      "source": "Hacker News Show HN",
+      "url": "https://whatjustpingedme.com",
+      "date": "2026-09-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "My wife kept getting some random-seeming notification sounds on her macbook that we couldn't identify - a little quarter second \"bloop\" that would play and then go away without any trace we could find. So I made (prompted) this app that will listen to the audio on the system and identify the sound. It will identify system sounds and use system logs to try... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/13-show-hn-what-just-pinged-me.md"
+    },
+    {
+      "title": "Right to Intelligence. Protect your right to run local AI.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfqwfh/right_to_intelligence_protect_your_right_to_run/",
+      "date": "2026-09-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "With all the recent drama surrounding AI safety. It’s obvious that open source could be caught in the crossfire. submitted by /u/Euphoric_Ad9500 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-14/14-right-to-intelligence-protect-your-right-to-run-local-ai.md"
+    },
+    {
+      "title": "Another Qwen3.8-27b Appreciation Post",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfsvgy/another_qwen3827b_appreciation_post/",
+      "date": "2026-09-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I know I know, it's great, we know. I've been working on tweaking inference engines for a week now and it's been one shotting most of my vague prompts without any issues. It will even write tests and validate the changes without me asking. It's actually nuts. Last time I did something with advanced math I was making a game using Sonnet. It took many itera... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-14/15-another-qwen3-8-27b-appreciation-post.md"
+    },
+    {
+      "title": "The Local LLM community feels like the golden era of the internet all over again",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era/",
+      "date": "2026-09-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Lately because of the current hardware shortage, unfortunately or fortunately, we can’t just throw infinite cloud compute at our problems, but we’re forced to actually care about what’s happening under the hood. We’re tweaking inference engines, learning quantization math, and optimizing architecture just to squeeze as much performance as possible for the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-13/16-the-local-llm-community-feels-like-the-golden-era-of-the-internet-all-.md"
+    },
+    {
+      "title": "Decided to build a game, and test the ceiling of Qwen3.8 27b",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfpyvv/decided_to_build_a_game_and_test_the_ceiling_of/",
+      "date": "2026-09-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This took roughly 5 hours to create, using 2 different configured harnesses, same model. RTX 3090, overclocked +12% gain (MSI Afterburner), Q4KM - built this for fun, will be throwing it on GitHub, opensource for people to get an idea of a project created to the near ceiling of performance & capability for q3.8 27b. & also maybe ya’ll can contribute to th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-14/17-decided-to-build-a-game-and-test-the-ceiling-of-qwen3-8-27b.md"
+    },
     {
       "title": "Show HN: Open-sourced solution to AI manage Playwright automations",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Semi inspired by the 3d Shinjuku station that was posted again recently, I noticed it was missing a large portion of the \"complex\" where \"complex\" is defined loosly has how far you can walk without stepping outside. So I asked Claude to make a 3d map of all Tokyo Trains, no libraries, and let you zoom into stations, and the first version with both map and... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/13-show-hn-tokyo-trains.md"
-    },
-    {
-      "title": "Introducing Unsloth Desktop app",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlj87v/introducing_unsloth_desktop_app/",
-      "date": "2026-08-11",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi LocalLlama, we're super excited to release Unsloth Desktop today! 🦥 It's the first desktop app that enables you to run and train models locally. Open-source. Available on Mac, Windows, and Linux Supports MLX, diffusion image/video models, audio models, and GGUF You can run MiniMax-H3, Muse Glimmer, soon Qwen 3.8 etc Connect Claude Code and Codex to lo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-11/14-introducing-unsloth-desktop-app.md"
-    },
-    {
-      "title": "I tested the CMP170HX",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlwjr8/i_tested_the_cmp170hx/",
-      "date": "2026-08-11",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Lots of rumor and misinfo bouncing around, so I put some of these old mining cards to the test. I used 4 of the 8GB cards, set to 64GB each. Lots of models fit entirely on a single card, and you can also run several small models at the same time on a single card, as long as their combined VRAM usage is 64GB or less. A setup like comfyui taking 10-12GB and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-11/15-i-tested-the-cmp170hx.md"
-    },
-    {
-      "title": "Anthropic, OpenAI, Google, Meta, Microsoft, and Mistral all signed the EU Code of Practice on Transparency of AI-Generated Content",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlyzi6/anthropic_openai_google_meta_microsoft_and/",
-      "date": "2026-08-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Even open source local models from these companies will be watermarking code and text since it's required by law. submitted by /u/Bestlife73 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-12/16-anthropic-openai-google-meta-microsoft-and-mistral-all-signed-the-eu-c.md"
-    },
-    {
-      "title": "I will be parting with my 4x Spark Cluster.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlrqd4/i_will_be_parting_with_my_4x_spark_cluster/",
-      "date": "2026-08-11",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Laid off then my partner of 10 years said he's leaving, have to move, etc... I will post the r/hardwareswap link when I make it. I'm willing to add some incentive for r/LocalLLaMA folks. I will also add the super node configs and all the cool stuff that may not be apparent that you can do with each. (Especially for the top 1-2% post members.) As for my ho... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-11/17-i-will-be-parting-with-my-4x-spark-cluster.md"
-    },
-    {
-      "title": "Show HN: Keen Code – an agentic-engineered coding agent",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/mochow13/keen-code",
-      "date": "2026-08-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello community! I am here to share a coding agent I have built solo from scratch using agentic engineering. Written in Go, it's a proper coding agent, has features you expect from a useful agent for your daily work, with a minimal and simple UI. I have named it Keen Code. The repo is here: https://github.com/mochow13/keen-code Even though it started as a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
-    },
-    {
-      "title": "Show HN: Graph2agent; Mermaid diagrams, explained for agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://graph2agent.github.io/",
-      "date": "2026-08-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "During the implementation of a huge high performance service. In order to keep context small (mainly for humans) I kept the specs into mermaid diagrams. When communicating with humans; diagrams were easy to follow and to remember. But when I asked the agent to implement what's in the diagram, most of the times it failed. So I came into conclusion that age... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/07-show-hn-graph2agent-mermaid-diagrams-explained-for-agents.md"
-    },
-    {
-      "title": "Multi-Agent AI Safety as an Institutional Design Problem",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.09828v1",
-      "date": "2026-08-10",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents increasingly work inside systems that govern how they delegate tasks, move information, execute actions, and use shared resources. Recent work already shows that deployment rules can change collective behavior. Here we ask which parts of an AI institution produce safety and how they do it. This is the first paper from POLIS, an ongoing research... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/08-multi-agent-ai-safety-as-an-institutional-design-problem.md"
-    },
-    {
-      "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.09802v1",
-      "date": "2026-08-10",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their evaluation quality has come under serious scrutiny: a recent audit found that nearly 60% of unsolved SWE-bench Verified instances contain flawed tests -- either overly narrow tests that reject correct solutions or... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/09-swe-bench-promax-benchmarking-agents-on-large-scale-multilingual-code-.md"
-    },
-    {
-      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "source": "Hacker News Show HN",
-      "url": "https://cactuscompute.com/needle",
-      "date": "2026-08-10",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, Henry from Cactus here! We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2. The whole model is a single 14MB binary that r... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-10/10-show-hn-needle2-14mb-agentic-llm-for-phones-wearables-smart-home-and-r.md"
-    },
-    {
-      "title": "Show HN: Pyrig – A tool that automates project setup and maintenance",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Winipedia/pyrig",
-      "date": "2026-08-10",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "# What is pyrig? pyrig is a package and tool that *rigs up* your project. It scaffolds and initializes a complete, fully configured, installed and working Python project with one command and makes the process of developing and maintaining it more seamless and efficient by automating things like configuration management, CLI generation, testing infrastruct... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-10/11-show-hn-pyrig-a-tool-that-automates-project-setup-and-maintenance.md"
-    },
-    {
-      "title": "yazelin/line-chat-maker",
-      "source": "GitHub Search API",
-      "url": "https://github.com/yazelin/line-chat-maker",
-      "date": "2026-08-11",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "免費離線的 LINE 風格對話截圖產生器(僅供創作示意)— WYSIWYG、PNG 匯出、PWA、AI skill (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/12-yazelin-line-chat-maker.md"
-    },
-    {
-      "title": "qgeng1465/bio-mcp",
-      "source": "GitHub Search API",
-      "url": "https://github.com/qgeng1465/bio-mcp",
-      "date": "2026-08-11",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "🧬 BioMCP — 生物信息学 MCP 服务器：PubMed/NCBI/BLAST/PDB/UniProt/富集分析，让任意 AI 助手直连生物数据库。Open-source bioinformatics MCP server. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/13-qgeng1465-bio-mcp.md"
     }
   ]
 }

@@ -1,0 +1,12 @@
+---
+title: "The Local LLM community feels like the golden era of the internet all over again"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era/"
+date: "2026-09-13"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Lately because of the current hardware shortage, unfortunately or fortunately, we can’t just throw infinite cloud compute at our problems, but we’re forced to actually care about what’s happening under the hood. We’re tweaking inference engines, learning quantization math, and optimizing architecture just to squeeze as much performance as possible for the... (Local summary fallback used.)"
+---
+
+Lately because of the current hardware shortage, unfortunately or fortunately, we can’t just throw infinite cloud compute at our problems, but we’re forced to actually care about what’s happening under the hood. We’re tweaking inference engines, learning quantization math, and optimizing architecture just to squeeze as much performance as possible for the lowest possible setups. Fact: Just recently, the forked llama.cpp(s) and halogen-flash-server of Strix Halo pushed the performance through the roof, achieving double performance in decode (52tok/s), 5-6x performance in prefill (1300tok/s) for Qwen 3.8 Flash Next (Q38FN), and Q38FN itself is another massive architecture improvement with Engram, making it not only small but also smart. I still remember before the hardware shortage, as someone who loves tweaking and optimizing, people just told me to stop, tweaking is stupid, just buy more RAM, buy more GPU.. It reminds me of the early web.. Back when setting up a box or hosting a server meant digging through forum threads, troubleshooting on IRC, and freely sharing custom scripts just to make things work. That era didn’t just produce programmers; it built hyper-versatile, end-to-end thinkers who understood the stack from bare metal up. Contrast that with where mainstream web culture ended up. Most platforms today like Tiktok, Facebook, Youtube... are engineered for zero-friction doomscrolling.. Endless feeds of short-form videos designed to keep us distracted and waste our time. We’ve been overpampered by convenience. My point: When we have too little, we try to learn more. When we have too much, we get distracted and learn too little. This is the golden time of our Local LLM community, let's learn and improve! submitted by /u/feelspeaceman [link] [comments]
