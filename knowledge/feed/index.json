@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T10:11:57.821Z",
+  "updated_at": "2026-09-15T09:41:16.009Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: An open-source control plane for your company's AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/vstorm-co/agenticos",
+      "date": "2026-09-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: An open-source control plane for your company's AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/06-show-hn-an-open-source-control-plane-for-your-company-s-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Rebuno - An open-source runtime for production agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/rebuno/rebuno",
+      "date": "2026-09-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I have been building Rebuno, an open-source execution runtime for operating AI agents in production. It manages execution state and guardrails across agents built with different frameworks. Agents run as HTTP services. Rebuno dispatches work through signed webhooks and keeps execution state in Postgres. Agents submit tool and model calls to Rebuno as step... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/07-show-hn-rebuno-an-open-source-runtime-for-production-agents.md"
+    },
+    {
+      "title": "Show HN: Nari Qwen3-TTS and Qwen3-ASR – High accuracy, low latency and cost",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/",
+      "date": "2026-09-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, Toby from Nari Labs here. We've been working on making OSS speech models super-fast. Last year, we built Dia, the first OSS text-to-speech model capable of doing natural dialogue. Since then, so many more great speech models have been released to the public. But the market is still dominated by closed source models. We think that's an inference pr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/08-show-hn-nari-qwen3-tts-and-qwen3-asr-high-accuracy-low-latency-and-cos.md"
+    },
+    {
+      "title": "Show HN: Pelican-bicycle alternatives",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://gally.net/temp/20260914pelican-alternatives/index.html",
+      "date": "2026-09-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "In November and December 2025, inspired by Simon Willison’s pelican-riding-a-bicycle benchmark, I had some then-current LLMs create SVGs from thirty similar prompts, such as “Generate an SVG of an octopus operating a pipe organ.” Simon mentioned that experiment on his blog [1]. Nine months have passed and much stronger models have been released, so I trie... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/09-show-hn-pelican-bicycle-alternatives.md"
+    },
+    {
+      "title": "Show HN: Pushie – Get notified with a simple webhook",
+      "source": "Hacker News Show HN",
+      "url": "https://pushie.net",
+      "date": "2026-09-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Pushie lets you send notifications to yourself from anywhere. Create an account, claim a username, and start pushing to every device you are signed in on with a single HTTP request. No app or SDK to install. No complex authentication. Just a HTTP POST request with your message. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-14/10-show-hn-pushie-get-notified-with-a-simple-webhook.md"
+    },
+    {
+      "title": "Show HN: Threshyr – An offline automatic time tracker with on-device AI",
+      "source": "Hacker News Show HN",
+      "url": "https://threshyr.com",
+      "date": "2026-09-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I've built and continuously improved Threshyr based on the problem I faced myself. I was working on more than 3 projects at one time. At the end of any day/week/month if I had to calculate how many hours I have worked on each one, I would always not be able to calculate an accurate time. Because I had to just reconstruct it from memory instead of any real... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-14/11-show-hn-threshyr-an-offline-automatic-time-tracker-with-on-device-ai.md"
+    },
+    {
+      "title": "Ranjith-7416/sales-ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Ranjith-7416/sales-ai",
+      "date": "2026-09-15",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Ranjith-7416/sales-ai Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-15/12-ranjith-7416-sales-ai.md"
+    },
+    {
+      "title": "Show HN: Jinfer – AI inference engine for the JVM. AI in a jar",
+      "source": "Hacker News Show HN",
+      "url": "https://qxotic.ai/",
+      "date": "2026-09-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, Some would call AI on the JVM quixotic. And so, Quixotic AI was born. jinfer is an inference engine for the JVM: chat, vision, audio, embeddings, reranking, and TTS. No Python runtime, no ONNX, no Docker containers, no sidecar process, no IPC. Finally, AI in a jar. The stack underneath is built for the JVM rather than bolted onto it: toknroll: pure... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-15/13-show-hn-jinfer-ai-inference-engine-for-the-jvm-ai-in-a-jar.md"
+    },
+    {
+      "title": "If you have a 3090, or other 30xx for local LLMs, I have something for you",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgmhon/if_you_have_a_3090_or_other_30xx_for_local_llms_i/",
+      "date": "2026-09-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I have a custom fork of llama.cpp designed around the ampere architecture specifically (though many of the upgrades also translate to faster performance of blackwell + lovelace). The recommended config supports 90+ TPS (for agentic/coding, at temp 1; greedy will of course be faster) through 100K tokens, with context of up to 240K. If you want the repo, it... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-15/14-if-you-have-a-3090-or-other-30xx-for-local-llms-i-have-something-for-y.md"
+    },
+    {
+      "title": "[Bi-Weekly Megathread] Project Showcase",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgcpww/biweekly_megathread_project_showcase/",
+      "date": "2026-09-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Do you have something you'd like to share with the r/LocalLLaMA community. This is the place for it! Recommendation on presentation: Please share plain english description of what your project does and why people should care about it How does it compare to existing options and why should people switch to your option? How have you tested and validated it?... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-14/15-bi-weekly-megathread-project-showcase.md"
+    },
+    {
+      "title": "Voodoo Dynamic Quant - Now MIT Licensed",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgszma/voodoo_dynamic_quant_now_mit_licensed/",
+      "date": "2026-09-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Two months ago I announced I had found a new dynamic quant method called Voodoo Quant which was SOTA for the most aggressive quant levels on some smaller Qwen3.5 GGUF models. I kept the methodology private at the time, but I've seen too many requests for dyn quants for various models lately, so I decided to give my method to the community since I don't ha... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-15/16-voodoo-dynamic-quant-now-mit-licensed.md"
+    },
+    {
+      "title": "UkisAI Swift-Qwen3.8-27B / -58.3% thinking, x1.95 speed while keeping the accuracy of xhigh",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wg7dd5/ukisai_swiftqwen3827b_583_thinking_x195_speed/",
+      "date": "2026-09-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everybody, we post-trained Qwen 3.8 27B to be more efficient by figuring out which tokens were linked to overthinking and penalizing them without \"attacking\" the reasoning length directly then fixed the accuracy with a bit of secret sauce (hint On-Policy Distillation) and achieved great results ( -58% thinking tokens, 1.95x speed up, ) so we wanted to... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-14/17-ukisai-swift-qwen3-8-27b-58-3-thinking-x1-95-speed-while-keeping-the-a.md"
+    },
     {
       "title": "Show HN: Crypto portfolio risk and scenario analysis with AI agents on top",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Over the last couple of months, I’ve been building a timer web app for myself that I use for workout and stretching sessions. My main use-case is gym routines that consist of repeatable sequences, e.g. where you are holding certain positions for a set time (rinse and repeat). The app counts down the program, beeps, and reads the activities out loud. Two t... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-12/13-show-hn-programmable-timer-web-app-for-gym-workouts-or-stretching-sess.md"
-    },
-    {
-      "title": "How do you plan to run Qwen3.8-2.4T-A95B locally?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmvpjc/how_do_you_plan_to_run_qwen3824ta95b_locally/",
-      "date": "2026-08-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "To my fellow crazies, the few. Those who dared wrestle with llama-70b, mistral-large, goliath, mistral8x22B, DeepSeekV2/3, wept when llama4 behemoth was announced, picked yourself up and are now wrestling with DeepSeekV4Pro, GLM5.2, MiMoV2.5Pro and sometimes dare dream of KimiK3, well Qwen3.8-2.4T is here. Smaller than KimiK3, but looks like it might be h... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-13/14-how-do-you-plan-to-run-qwen3-8-2-4t-a95b-locally.md"
-    },
-    {
-      "title": "LFM2.5-VL-3B recognizes Steve from Minecraft running locally on an iPhone 17",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmp9gj/lfm25vl3b_recognizes_steve_from_minecraft_running/",
-      "date": "2026-08-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Liquid AI put out LFM2.5-VL-3B today, which is a 3.1B vision model that weighs roughly 2GB and fits well on a phone Benchmarks are benchmarks so I tried something sillier. Took a photo of a little Steve toy I have, gave it to the model and asked it what it was looking at It ended up thinking for around 2 minutes and 31 seconds on an iPhone 17, which is a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-12/15-lfm2-5-vl-3b-recognizes-steve-from-minecraft-running-locally-on-an-iph.md"
-    },
-    {
-      "title": "Qwen3.8-2.4T-A95B Released",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmgozv/qwen3824ta95b_released/",
-      "date": "2026-08-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/de4dee [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-12/16-qwen3-8-2-4t-a95b-released.md"
-    },
-    {
-      "title": "Today is Models Day",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmjqtk/today_is_models_day/",
-      "date": "2026-08-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/Fz1zz [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-12/17-today-is-models-day.md"
-    },
-    {
-      "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://parley.weldra.dev",
-      "date": "2026-08-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I saw one friction point when working as part of a team that uses coding agents extensively - there is nothing to enable coordination between agent used by people in a team. Many times my agent would ask me to decide upon something with a fellow teammate, for which I have to serve as the network layer. So I built Parley where agents can connect to... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
-    },
-    {
-      "title": "Show HN: Line9 – A Mermaid rendering engine with its own layout",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://line9.ai/diagram",
-      "date": "2026-08-06",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Line9 is a new rendering engine for Mermaid flowchart diagrams that aims to remove the need for manual adjustment of layout. Mermaid is a popular text-based language for describing multiple types of diagrams. Several Mermaid rendering engines already exist. Most, like the original mermaid.js, use Dagre or ELK graph drawing libraries to automatically lay o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/07-show-hn-line9-a-mermaid-rendering-engine-with-its-own-layout.md"
-    },
-    {
-      "title": "Show HN: TermDOM – HTML, CSS and JavaScript (With a Real DOM) for TUIs and CLIs",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/bikeshaving/termdom",
-      "date": "2026-08-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "TermDOM renders a real DOM styled with real CSS to terminal cells. You build a document with createElement or innerHTML, or any frontend web framework, and it automatically produces colored ANSI output, with browser-style layout, text wrapping and flexbox included. The library can also be used to translate HTML to static ANSI. Full disclaimer: This projec... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/08-show-hn-termdom-html-css-and-javascript-with-a-real-dom-for-tuis-and-c.md"
-    },
-    {
-      "title": "Show HN: I wrote the emudev hello world (CHIP-8 emulator in C)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Tackx/c8",
-      "date": "2026-08-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Yep, just another CHIP-8 emulator. But for me, as someone who has never written anything this low level and never touched C before, it was quite the challenge at first. But after writing the first few instructions (drawing especially), it slowly became almost a breeze. Until I had to debug why my font sprites were rendering all messed up. It's still work... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/09-show-hn-i-wrote-the-emudev-hello-world-chip-8-emulator-in-c.md"
-    },
-    {
-      "title": "Show HN: p0rt – see every dev server, port and Docker container in your menu bar",
-      "source": "Hacker News Show HN",
-      "url": "https://p0rt.app",
-      "date": "2026-08-11",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: p0rt – see every dev server, port and Docker container in your menu bar (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/10-show-hn-p0rt-see-every-dev-server-port-and-docker-container-in-your-me.md"
-    },
-    {
-      "title": "Akins20/FREYA",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Akins20/FREYA",
-      "date": "2026-08-11",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "An AI assistant that refuses to say it's finished when it isn't. Written in Go: zero dependencies, one static binary, runs offline on a decade-old laptop. Drives a real browser, makes documents, remembers. State-checked, not vibe-checked. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/11-akins20-freya.md"
-    },
-    {
-      "title": "jswysnemc/sai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/jswysnemc/sai",
-      "date": "2026-08-12",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Command-line AI assistant (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-12/12-jswysnemc-sai.md"
-    },
-    {
-      "title": "Show HN: Tokyo Trains",
-      "source": "Hacker News Show HN",
-      "url": "https://greggman.github.io/tokyo-trains/",
-      "date": "2026-08-11",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Semi inspired by the 3d Shinjuku station that was posted again recently, I noticed it was missing a large portion of the \"complex\" where \"complex\" is defined loosly has how far you can walk without stepping outside. So I asked Claude to make a 3d map of all Tokyo Trains, no libraries, and let you zoom into stations, and the first version with both map and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/13-show-hn-tokyo-trains.md"
     }
   ]
 }
