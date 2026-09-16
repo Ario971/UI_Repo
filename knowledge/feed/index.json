@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T09:41:16.009Z",
+  "updated_at": "2026-09-16T09:35:05.762Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/pizza-bot-app/pizza-bot",
+      "date": "2026-09-15",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished work shows up in Unread, and anything waiting on your approval shows up in Action. It's Apache 2.0-licensed, there's no signup and no telemet... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-15/06-show-hn-pizza-bot-an-inbox-for-ai-agents-that-work-in-the-background.md"
+    },
+    {
+      "title": "Show HN: Loss. a tiny satire about AI progress",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://workatloss.com/",
+      "date": "2026-09-15",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I wanted to parody where AI seems to be heading. You start as a manual inference unit pressing a button for the next token, then systems take over; agents, sub-agents, approvals, swarms. It’s Universal Paperclips for the agentic AI era, and a small exploration of where predicting the next token might eventually take us. What’s the worst that could happen? (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-15/07-show-hn-loss-a-tiny-satire-about-ai-progress.md"
+    },
+    {
+      "title": "Show HN: Agenttik – work on multiple projects in parallel with AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/pausan/agenttik",
+      "date": "2026-09-15",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi! I've been reading HN daily for almost 16 years. Really glad this community exist. This is my first Show HN, so I hope you find this tool useful/interesting. During my summer holidays I started playing with latest AI models on personal projects. At one point I started working in parallel with the same project and tried different approaches. The one tha... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-15/08-show-hn-agenttik-work-on-multiple-projects-in-parallel-with-ai-agents.md"
+    },
+    {
+      "title": "Agentic Societies Need a Social Harness",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.17527v1",
+      "date": "2026-09-15",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes with existing harnesses and messaging primitives, and tha... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-15/09-agentic-societies-need-a-social-harness.md"
+    },
+    {
+      "title": "HasbiyallahuJafaru/ClipperAi",
+      "source": "GitHub Search API",
+      "url": "https://github.com/HasbiyallahuJafaru/ClipperAi",
+      "date": "2026-09-16",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Turn one long video into weeks of short-form content: AI-selected moments rendered as captioned, speaker-framed 9:16 clips with platform-ready copy. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-16/10-hasbiyallahujafaru-clipperai.md"
+    },
+    {
+      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+      "source": "Hacker News Show HN",
+      "url": "https://withcapsule.app/",
+      "date": "2026-09-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I always had the problem that building HTML pages is really simple now, but trying to save data required hosting it somewhere, and sharing it afterwards was not easy. Over the last few months, I've been building an app called Capsule (it’s also the file extension name) written in Rust with Tauri 2.0 that allows packing an HTML app and its data int... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-15/11-show-hn-capsule-single-file-web-apps-that-save-their-data-into-sqlite.md"
+    },
+    {
+      "title": "Show HN: Hacking a $20 4G wireless hotspot into a texting device",
+      "source": "Hacker News Show HN",
+      "url": "https://bkovac.github.io/modem-thing/",
+      "date": "2026-09-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Hacking a $20 4G wireless hotspot into a texting device (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-15/12-show-hn-hacking-a-20-4g-wireless-hotspot-into-a-texting-device.md"
+    },
+    {
+      "title": "Show HN: Pull every comment out of a Google Sheet, in the browser",
+      "source": "Hacker News Show HN",
+      "url": "https://bensunter.com/commentpulse.html",
+      "date": "2026-09-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I spend a lot of time working in Google sheets. Often, I will collaborate with up to 50 other people in the same workbook. One specific org I worked at had a strong preference for using comment threads in Sheets extensively to ask questions, give feedback, and raise risks. Sheets would regularly get 70+ comment threads across multiple tabs with dozens of... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-14/13-show-hn-pull-every-comment-out-of-a-google-sheet-in-the-browser.md"
+    },
+    {
+      "title": "Don’t buy a $9K RTX 5090.... instead.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1whf7ov/dont_buy_a_9k_rtx_5090_instead/",
+      "date": "2026-09-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Fly to Taipei. Round-trip from Orlando: $1,081. Go to the largest retailer in Taiwan to Spend NT$129,990 ≈ US$4,093. Hang out in Taiwan for two weeks. Eat good food. Touch international grass. Fly home and flex on r/LocalLLaMA **.** https://preview.redd.it/vtve8s6wgrph1.png?width=287&format=png&auto=webp&s=fcc391187f458d2ca023a929e554b880bf425560 https://... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-15/14-don-t-buy-a-9k-rtx-5090-instead.md"
+    },
+    {
+      "title": "What's the next local model you are excited about?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1whiz3y/whats_the_next_local_model_you_are_excited_about/",
+      "date": "2026-09-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "And why? submitted by /u/MrMrsPotts [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-16/15-what-s-the-next-local-model-you-are-excited-about.md"
+    },
+    {
+      "title": "CrofAI \"cheapest inference provider in the world\" gets exposed as an OpenRouter wrapper, routing requests to smaller, cheaper models at up to 20x markup. CrofAI responds to Wire Fraud allegations by denying everything, then backtracking, then 3 hours later wiping their entire online presence",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/",
+      "date": "2026-09-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Disclaimer: no AI was used whatsoever to write this post Cautionary tale about chasing cheap tokens. exposé: https://kendell.dev/blog/crofaifalse/ reaction by nahcrof, announcing the shutdown of the service: https://x.com/nahcrof/status/2099552389434900643 - now deleted, archive picture: https://i.imgur.com/teOQngH.png NahCrofAI (crof.ai, nahcrof.com) was... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-15/16-crofai-cheapest-inference-provider-in-the-world-gets-exposed-as-an-ope.md"
+    },
+    {
+      "title": "Apple Foundation Models: local AI natively on MacOS 27",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wh5fpa/apple_foundation_models_local_ai_natively_on/",
+      "date": "2026-09-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Maybe some of you know but I didn’t see any post about this. Apple just made available their AFM model on MacOS 27 natively. Just run fm chat in a terminal. Disclaimer: I’m an open weight person. I prefer open models and ecosystem, but I’ll still open the discussion. Did you test them? Build using them? Are these models good? I feel like this is still a h... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-15/17-apple-foundation-models-local-ai-natively-on-macos-27.md"
+    },
     {
       "title": "Show HN: An open-source control plane for your company's AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Agent-maintained Chinese DeepSeek Harness learning, evidence, labs and ecosystem growth system. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-14/11-pingfanfan-dsh-learn.md"
-    },
-    {
-      "title": "Trained a 1.5B to write shell commands so I'd stop googling tar flags. Runs on a laptop CPU in ~1 sec.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnl0um/trained_a_15b_to_write_shell_commands_so_id_stop/",
-      "date": "2026-08-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been googling \"tar extract gz\" for about ten years. and I finally did something about it. It started out as a research project and I ended up with a Fine-tuned Qwen2.5-Coder-1.5B on 125k natural-language/command pairs, merged and quantized to Q4_K_M. 941MB which runs through llama.cpp. On my laptop (i5-11320H, 4 threads): 31.9 tok/s, 0.59s median per... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-13/12-trained-a-1-5b-to-write-shell-commands-so-i-d-stop-googling-tar-flags-.md"
-    },
-    {
-      "title": "Fixed Jinja chat template for Qwen 3.5, 3.6, and the new 3.8 release",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/",
-      "date": "2026-08-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Qwen just released their first 3.8 model. The main addition in 3.8 is prompt-steered reasoning effort. You can tell the model how deeply to think by setting reasoning_effort to xhigh , medium , or low . However, the official template still has some serious problems: You cannot disable thinking. If you pass enable_thinking=false , it 3.8 crashes with a har... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-13/13-fixed-jinja-chat-template-for-qwen-3-5-3-6-and-the-new-3-8-release.md"
-    },
-    {
-      "title": "Doom running on an LLM -- Hugging Face checkpoint included",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnjtyh/doom_running_on_an_llm_hugging_face_checkpoint/",
-      "date": "2026-08-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "There's no training anywhere in this. I ported Doom's actual rendering algorithm into transformer weights using a compiler I wrote (torchwright) -- every weight computed, none learned. The prompt carries the level geometry, player position, and view direction; generation emits drawing commands; a 43-line host program turns them into pixels. Stock Phi3ForC... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-13/14-doom-running-on-an-llm-hugging-face-checkpoint-included.md"
-    },
-    {
-      "title": "Mistral is now hosting GLM-5.2",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnuymy/mistral_is_now_hosting_glm52/",
-      "date": "2026-08-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Not directly LOCALLlama related but I thought it was interesting since Mistral and Z.ai are competitors, and more surprisingly they are pricing it (GLM-5.2) even cheaper than their current flagship model Mistral Medium 3.5. Does this suggest a pivot in Mistral's strategy? Are they going to abandon frontier model development and instead focus on selling co... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-14/15-mistral-is-now-hosting-glm-5-2.md"
-    },
-    {
-      "title": "Deploy local agents everywhere with LFM2.5-2.6B LiquidAI • 9 days ago • 87",
-      "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "date": "2026-08-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Deploy local agents everywhere with LFM2.5-2.6B LiquidAI • 9 days ago • 87 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/06-deploy-local-agents-everywhere-with-lfm2-5-2-6b-liquidai-9-days-ago-87.md"
-    },
-    {
-      "title": "Show HN: Ballet – Workflow automation that writes integrations against any API",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.ballet.dev/",
-      "date": "2026-08-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Ballet – Workflow automation that writes integrations against any API (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/07-show-hn-ballet-workflow-automation-that-writes-integrations-against-an.md"
-    },
-    {
-      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://woxi.ad-si.com",
-      "date": "2026-08-12",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Woxi is an interpreter for the Wolfram Language written in Rust. It comes with Woxi Studio, a Mathematica-like GUI built with iced, but you can also use Woxi through a CLI, Jupyter kernel, Python package, npm package, or WASM module. Compared with wolframscript / Mathematica, the main differences are: - Free and open source - Very fast startup - Typically... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-12/08-show-hn-woxi-open-source-mathematica-wolfram-language-reimplementation.md"
-    },
-    {
-      "title": "Show HN: Agent Memory Leaderboard – first public results for AI memory systems",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://agentmemoryleaderboard.ai/leaderboard/academic/textual",
-      "date": "2026-08-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We just released the first public results from the Agent Memory Leaderboard (AML). The first evaluation focuses on Text Memory across two tracks: - Open-source Methods - Commercial Products 136 teams registered, and 69 representative memory frameworks completed the first evaluation. Commercial Products — Text Memory: 1. MemoraX — 58.02 2. MemOS — 45.89 3.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/09-show-hn-agent-memory-leaderboard-first-public-results-for-ai-memory-sy.md"
-    },
-    {
-      "title": "Vaizer0/zero-termux",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Vaizer0/zero-termux",
-      "date": "2026-08-13",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Zero-Termux: modular dev environment (core CLI) + signed APT repository (228 packages) for Termux (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-13/10-vaizer0-zero-termux.md"
-    },
-    {
-      "title": "premhagargi/nexus-ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/premhagargi/nexus-ai",
-      "date": "2026-08-13",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "premhagargi/nexus-ai Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-13/11-premhagargi-nexus-ai.md"
-    },
-    {
-      "title": "VenghaiYeap/boilerplate-test1-garage",
-      "source": "GitHub Search API",
-      "url": "https://github.com/VenghaiYeap/boilerplate-test1-garage",
-      "date": "2026-08-13",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "VenghaiYeap/boilerplate-test1-garage Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-13/12-venghaiyeap-boilerplate-test1-garage.md"
-    },
-    {
-      "title": "Show HN: Programmable timer web app (for gym workouts or stretching sessions)",
-      "source": "Hacker News Show HN",
-      "url": "https://timer.jotaen.net",
-      "date": "2026-08-12",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Over the last couple of months, I’ve been building a timer web app for myself that I use for workout and stretching sessions. My main use-case is gym routines that consist of repeatable sequences, e.g. where you are holding certain positions for a set time (rinse and repeat). The app counts down the program, beeps, and reads the activities out loud. Two t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-12/13-show-hn-programmable-timer-web-app-for-gym-workouts-or-stretching-sess.md"
     }
   ]
 }
