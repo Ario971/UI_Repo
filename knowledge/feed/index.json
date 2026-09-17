@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T09:35:05.762Z",
+  "updated_at": "2026-09-17T09:43:32.754Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: AttaLambda: a language where types and data are made of untyped lambdas",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://attalambda.com",
+      "date": "2026-09-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I made a programming language! I call it AttaLambda. The idea is this: a usable Lisp-shaped language where all the meaningful computation is done in untyped lambda calculus. Logic, arithmetic, data structures, control flow, even the types — all untyped lambdas. A small, explicit Racket layer sits at the boundary to handle the outside world, plus some macr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/06-show-hn-attalambda-a-language-where-types-and-data-are-made-of-untyped.md"
+    },
+    {
+      "title": "Show HN: SeasonMap – when to travel where? visualized with climate data",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://seasonmap.app",
+      "date": "2026-09-16",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Author here. I'm trying to visit every country and I've been to 158 so far. Before I decide where to travel, I'd ask a local friend which season to avoid, or open up dozens of browser tabs on climate data to figure out what the place is like in a given month. Climate data still miss things. Cancun in September looks great on paper, with 31°C and 10 hours... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-16/07-show-hn-seasonmap-when-to-travel-where-visualized-with-climate-data.md"
+    },
+    {
+      "title": "Show HN: Put an AI agent on a FaceTime audio/video call (open source, WebRTC)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/cherthq/chert-facetime-opensource",
+      "date": "2026-09-16",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, Gary here from Chert (YC P26). We just open-sourced a framework for putting AI agents on FaceTime audio/video calls: https://github.com/cherthq/chert-facetime-opensource . There's also a managed inbound/outbound API if you don't want to run it yourself: https://www.trychert.com/facetime . Demo you can try right now: https://www.trychert.com/... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-16/08-show-hn-put-an-ai-agent-on-a-facetime-audio-video-call-open-source-web.md"
+    },
+    {
+      "title": "AgentLSD: Evaluating AI Security Agents Under Adversarial Task Contamination",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.19140v1",
+      "date": "2026-09-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents for security inspect web pages, source code, logs, configuration files, and command outputs. These environments may contain deceptive artifacts that influence the agent's behavior. We call this adversarial task contamination. Whereas prompt injection relies on attacker-supplied instructions, task contamination also includes non-instructional evi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-16/09-agentlsd-evaluating-ai-security-agents-under-adversarial-task-contamin.md"
+    },
+    {
+      "title": "Show HN: Halo 3's Guardian, playable in the browser, as my personal website",
+      "source": "Hacker News Show HN",
+      "url": "https://runboli.com",
+      "date": "2026-09-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I've never had a personal website, and I didn't want to make a resume/portfolio site, so I rebuilt Guardian and hid a treasure hunt through my life inside it. You start in the Halo 3 main menu, go through the lobby, spawn in the map, and explore. There are photos, stories, quests, mini-games, and Easter eggs scattered around. Movement is via WASD and mous... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-16/10-show-hn-halo-3-s-guardian-playable-in-the-browser-as-my-personal-websi.md"
+    },
+    {
+      "title": "Abhishekkuntare/abhishek-os",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Abhishekkuntare/abhishek-os",
+      "date": "2026-09-17",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Abhishek OS is an interactive, Windows/macOS-inspired web operating system built to transform a traditional developer portfolio into a complete desktop experience. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-17/11-abhishekkuntare-abhishek-os.md"
+    },
+    {
+      "title": "roshanjha201099-netizen/voyageai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/roshanjha201099-netizen/voyageai",
+      "date": "2026-09-17",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "a smart ai tool for tour and guide (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-17/12-roshanjha201099-netizen-voyageai.md"
+    },
+    {
+      "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
+      "source": "Hacker News Show HN",
+      "url": "https://stale.jock.pl/",
+      "date": "2026-09-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-16/13-show-hn-how-stale-is-your-ai-release-age-and-training-cutoff-for-20-mo.md"
+    },
+    {
+      "title": "Upgraded my local setup with 2 rtx pros and it's amazing.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1widoob/upgraded_my_local_setup_with_2_rtx_pros_and_its/",
+      "date": "2026-09-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Follow up post of https://www.reddit.com/r/LocalLLaMA/s/nGMyKswrch . Thanks everyone who replied. I didn't change the specs. Might be loosing some of the memory bandwidth but will scale in future if I need to. It took me 2.5 days to build it because one of the GPU connected to PSU was loosing power whenever I load anything on the GPU, so I had to rewire e... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-16/14-upgraded-my-local-setup-with-2-rtx-pros-and-it-s-amazing.md"
+    },
+    {
+      "title": "I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/",
+      "date": "2026-09-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Everyone now talks about the architecture that's not auto regressive and does lightning fast probability prediction with a json schema. I worked on this literally one year back in March 2025, published an arxiv paper, pushed the model to huggingface along with the pypi package and training dataset. And then one year later, a frontier lab came, proposing t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-17/15-i-literally-built-the-jev-architecture-one-year-back-and-completely-op.md"
+    },
+    {
+      "title": "I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wihgum/i_literally_built_the_jev_architecture_one_year/",
+      "date": "2026-09-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Everyone now talks about the architecture that's not auto regressive and does lightning fast probability prediction with a json schema. I worked on this literally one year back in March 2025, published an arxiv paper, pushed the model to huggingface along with the pypi package and training dataset. And then one year later, a frontier lab came, proposing t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-17/16-i-literally-built-the-jev-architecture-one-year-back-and-completely-op.md"
+    },
+    {
+      "title": "Qwen 3.8 27b is a amazing model, for the first time I see a local model found its own away to open a browser and test",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wii0qe/qwen_38_27b_is_a_amazing_model_for_the_first_time/",
+      "date": "2026-09-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I was testing this quantization IQ3_XXS from GSQ-RCO with PI. It is a heavy quantization case, the model is in IQ3_XXS and KV cache in (Q4_0, Q4_0). I asked it to make the flight simulator, using that popular prompt. For my surprise, when I went verify the session I saw some screenshots, but I don't have mcp or tools in the PI, it's an almost clean instal... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-17/17-qwen-3-8-27b-is-a-amazing-model-for-the-first-time-i-see-a-local-model.md"
+    },
     {
       "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "A governed, agent-driven SDLC you can fork. NIST 800-53 Rev.5 + CIS Supply Chain + AI RMF. Gates with evidence, not assertions. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-15/11-toddgbenson-keel.md"
-    },
-    {
-      "title": "Show HN: Nikon F100 Film Camera Repair Notes",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/enthdegree/f100",
-      "date": "2026-08-15",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Nikon F100 Film Camera Repair Notes (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-15/12-show-hn-nikon-f100-film-camera-repair-notes.md"
-    },
-    {
-      "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "source": "Hacker News Show HN",
-      "url": "https://isaidumber.today/",
-      "date": "2026-08-14",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-14/13-show-hn-is-ai-dumber-today-an-index-of-ai-model-experience-from-user-s.md"
-    },
-    {
-      "title": "Qwen 3.8 - 27B is a game changer",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vonuu0/qwen_38_27b_is_a_game_changer/",
-      "date": "2026-08-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So a bit of context, I am a cybersecurity senior analyst I am interested in LLMs for that field especially with MCPs to connect them to the tools or for writing scripts I started this field by doing assembly language reading for hacking games when I was a teenager then that became malware analysis then I started to analyze traffic and logs at work for a l... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-15/14-qwen-3-8-27b-is-a-game-changer.md"
-    },
-    {
-      "title": "Local uncensored Opus 4.6 at home - Qwen3.8 27B heretic",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voix4o/local_uncensored_opus_46_at_home_qwen38_27b/",
-      "date": "2026-08-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Someone made a heretic version of Qwen 3.8 27B, giving us a local Opus 4.6 tier model but without any refusals or safeguards! Fuck Dario submitted by /u/Temporary_Idea8880 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-14/15-local-uncensored-opus-4-6-at-home-qwen3-8-27b-heretic.md"
-    },
-    {
-      "title": "Qwen3.8-27B is now up to ~3× faster on Apple Silicon with mlx-dspark",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vokrcy/qwen3827b_is_now_up_to_3_faster_on_apple_silicon/",
-      "date": "2026-08-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "mlx-dspark is an MLX port of DeepSeek's DSpark speculative-decoding drafters (the DeepSpec release), plus z-lab's DFlash, with one lossless verify loop. v0.10.0 adds Qwen3.8-27B via RadixArk's drafter, the first SpecForge/SGLang-packaged head it loads. Numbers (M4 Pro 48 GB, medians of 3 , greedy, output ids identical to plain decoding): 8-bit target: 2.4... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-14/16-qwen3-8-27b-is-now-up-to-3-faster-on-apple-silicon-with-mlx-dspark.md"
-    },
-    {
-      "title": "[Megathread] Qwen 3.8 27B Release Day",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1voojjz/megathread_qwen_38_27b_release_day/",
-      "date": "2026-08-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Megathread to help with the influx of duplicate / similar posts around the release of the Qwen 3.8 27B release. Quants Fine-Tunes & Abliterations Chat Templates Inference Server Support & Configuration Experiences, Benchmarks & Model Comparisons Official: https://huggingface.co/Qwen/Qwen3.8-27B https://huggingface.co/Qwen/Qwen3.8-27B-FP8 Popular: https://... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-15/17-megathread-qwen-3-8-27b-release-day.md"
-    },
-    {
-      "title": "Show HN: OJCP – an open protocol for agent-consumable job data",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://ojcp.dev/",
-      "date": "2026-08-12",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Author here! Agents are applying to jobs for people right now, with progressively more volume, and there's nothing built for it. So they scrape career pages and fight ATS forms with Playwright/Browser Use, which breaks constantly (or they get bot blocked). Employers get buried in applications that don't fit, candidates hear nothing back, and the resume is... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-12/06-show-hn-ojcp-an-open-protocol-for-agent-consumable-job-data.md"
-    },
-    {
-      "title": "Show HN: Taurus Agents, my take on multi-agent hierarchies",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://taurusagents.com/",
-      "date": "2026-08-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! Serge here, solo founder. I built my own multi-agent orchestrator and it became so useful that for several months I've never had to touch codex or claude code anymore, just using Taurus now. The website explains what it is, but here I wanted to share how and why. If you think multi-agent orchestration is stupid, I'll try to convince you otherwise.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/07-show-hn-taurus-agents-my-take-on-multi-agent-hierarchies.md"
-    },
-    {
-      "title": "Show HN: Auto-train the harness, not the LLM. cross-model, cross-benchmark gains",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/workofart/harness-training",
-      "date": "2026-08-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Auto-train the harness, not the LLM. cross-model, cross-benchmark gains (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/08-show-hn-auto-train-the-harness-not-the-llm-cross-model-cross-benchmark.md"
-    },
-    {
-      "title": "Show HN: Clixad – Free AI coding agent in the terminal, funded by an offerwall",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://clixad.io/",
-      "date": "2026-08-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Clixad – Free AI coding agent in the terminal, funded by an offerwall (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/09-show-hn-clixad-free-ai-coding-agent-in-the-terminal-funded-by-an-offer.md"
-    },
-    {
-      "title": "Aug 13, 2026 · company Cursor earns AIUC-1 certification for agent security and reliability Kenneth Moras 4m Kenneth Moras · 4m",
-      "source": "Cursor Blog",
-      "url": "https://cursor.com/blog/aiuc-1",
-      "date": "2026-08-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Aug 13, 2026 · company Cursor earns AIUC-1 certification for agent security and reliability Kenneth Moras 4m Kenneth Moras · 4m (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-13/10-aug-13-2026-company-cursor-earns-aiuc-1-certification-for-agent-securi.md"
-    },
-    {
-      "title": "pingfanfan/dsh-learn",
-      "source": "GitHub Search API",
-      "url": "https://github.com/pingfanfan/dsh-learn",
-      "date": "2026-08-14",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Agent-maintained Chinese DeepSeek Harness learning, evidence, labs and ecosystem growth system. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-14/11-pingfanfan-dsh-learn.md"
     }
   ]
 }
