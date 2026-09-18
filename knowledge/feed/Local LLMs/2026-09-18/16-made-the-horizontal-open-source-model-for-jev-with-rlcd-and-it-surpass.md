@@ -1,0 +1,12 @@
+---
+title: "Made the horizontal open-source model for Jev with RLCD, and it surpasses all the Jev benchmarks. HF space, benchmark, model, repo"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1wjieap/made_the_horizontal_opensource_model_for_jev_with/"
+date: "2026-09-18"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Thanks for the exceptional support ( https://www.reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/ ) and for the dozens of requests to make a generic model, run benchmarks, and create an HF space so anyone can test it. So here you go, guys. I trained an improved model on a large data corpus, its now called Laya. It... (Local summary fallback used.)"
+---
+
+Thanks for the exceptional support ( https://www.reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/ ) and for the dozens of requests to make a generic model, run benchmarks, and create an HF space so anyone can test it. So here you go, guys. I trained an improved model on a large data corpus, its now called Laya. It is trained on a single RTX 6000 Pro (96 GB VRAM); the model architecture is a 421M-parameter non-autoregressive decision model pairing a bidirectional ModernBERT-large encoder with a scratch Transformer head that scores [MASK] option markers to resolve typed schemas in a single ~35 ms forward pass. The dataset is a 100% human-annotated corpus of over 25,000 real-world examples across intent routing, fact-checking, moderation consensus, prompt guardrails, rubric scoring, and multi-turn conversation trajectories, without synthetic data shortcuts. The RLCD(unofficial, btw) I did is a policy-gradient reinforcement learning approach that kinda optimizes decision models against strictly proper scoring rules, ensuring maximum reward is achieved only when outputting true, mathematically calibrated probabilities. NB: It can be run on low end PC as its a small 421M model, cheers HF space to try: https://huggingface.co/spaces/convaiinnovations/laya-demo GitHub Repo: https://github.com/NandhaKishorM/laya HF Repo: https://huggingface.co/convaiinnovations/laya Thank you to everyone who supported me, shared the story, gave personal DM. It will need more refinement, of course. If anyone wishes to buy me a coffee, here is the link: https://github.com/NandhaKishorM submitted by /u/Nandakishor_ml [link] [comments]

@@ -1,10 +1,216 @@
 {
-  "last_checked_at": "2026-09-17T09:44:04.302Z",
+  "last_checked_at": "2026-09-18T09:17:32.890Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "opok-ops/mindforge",
+      "name": "opok-ops/MindForge",
+      "url": "https://github.com/opok-ops/MindForge",
+      "date": "2026-09-18",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 55,
+      "risk": 24,
+      "integration_effort": 56,
+      "expected_gain": 87,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "LamsonRetail/lsr-agent-platform",
+          "date": "2026-08-18",
+          "topic": "AI dev tools",
+          "similarity": 0.275,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+        },
+        {
+          "title": "Show HN: Itsuki – open-source memory engine for AI agents (API and MCP)",
+          "date": "2026-08-29",
+          "topic": "AI agents",
+          "similarity": 0.266,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-29/06-show-hn-itsuki-open-source-memory-engine-for-ai-agents-api-and-mcp.md"
+        },
+        {
+          "title": "Show HN: Mnemosyne Local hierarchical memory engine for AI agents (MCP Native)",
+          "date": "2026-08-23",
+          "topic": "AI agents",
+          "similarity": 0.258,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/06-show-hn-mnemosyne-local-hierarchical-memory-engine-for-ai-agents-mcp-n.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-18)",
+        "MIT license",
+        "2 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, license, requires-python"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps cryptography==50.0.1"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/opok-ops/MindForge.git",
+        "pip install -e ."
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-18 about AI dev tools; this candidate overlaps with \"LamsonRetail/lsr-agent-platform\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-18/01-opok-ops-mindforge.md"
+    },
+    {
+      "id": "realchendahuang/flaremo",
+      "name": "realchendahuang/FlareMo",
+      "url": "https://github.com/realchendahuang/FlareMo",
+      "date": "2026-09-18",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 72,
+      "momentum": 96,
+      "risk": 37,
+      "integration_effort": 60,
+      "expected_gain": 79,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "HQBase/hqbot",
+          "date": "2026-09-06",
+          "topic": "AI dev tools",
+          "similarity": 0.288,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-06/11-hqbase-hqbot.md"
+        },
+        {
+          "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+          "date": "2026-08-21",
+          "topic": "AI agents",
+          "similarity": 0.192,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-21/06-show-hn-ozbrain-a-shared-brain-for-knowledge-between-agents-and-your-t.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-18)",
+        "AGPL-3.0 license",
+        "235 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "pnpm exec wrangler whoami",
+        "pnpm exec wrangler d1 create flaremo",
+        "pnpm exec wrangler r2 bucket create flaremo-attachments",
+        "pnpm exec wrangler secret put BETTER_AUTH_SECRET --config ./wrangler.jsonc",
+        "pnpm exec wrangler secret put FLAREMO_BOOTSTRAP_SECRET --config ./wrangler.jsonc",
+        "pnpm deploy:dry-run"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-06 about AI dev tools; this candidate overlaps with \"HQBase/hqbot\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-18/02-realchendahuang-flaremo.md"
+    },
+    {
+      "id": "zhinjs/zhin",
+      "name": "zhinjs/zhin",
+      "url": "https://github.com/zhinjs/zhin",
+      "date": "2026-09-18",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 80,
+      "momentum": 88,
+      "risk": 32,
+      "integration_effort": 74,
+      "expected_gain": 79,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Dev tools in one static site, no framework, no server",
+          "date": "2026-08-24",
+          "topic": "AI dev tools",
+          "similarity": 0.272,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-24/13-show-hn-dev-tools-in-one-static-site-no-framework-no-server.md"
+        },
+        {
+          "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
+          "date": "2026-08-13",
+          "topic": "AI agents",
+          "similarity": 0.269,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/08-marc-v1-an-open-source-multi-agent-framework-for-clinical-ai-reasoning.md"
+        },
+        {
+          "title": "LamsonRetail/lsr-agent-platform",
+          "date": "2026-08-18",
+          "topic": "AI dev tools",
+          "similarity": 0.247,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-18)",
+        "MIT license",
+        "135 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "npm create zhin-app my-bot -y",
+        "pnpm dev",
+        "pnpm add @zhin.js/agent zod ai",
+        "pnpm add @ai-sdk/openai   # swap as needed",
+        "pnpm dev                 # this repo defaults to minimal-bot; maintainers: pnpm dev:test",
+        "npx zhin new my-plugin   # plugin template"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-24 about AI dev tools; this candidate overlaps with \"Show HN: Dev tools in one static site, no framework, no server\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-18/03-zhinjs-zhin.md"
+    },
     {
       "id": "kdlbs/kandev",
       "name": "kdlbs/kandev",
@@ -19704,205 +19910,6 @@
       "risk_flags": [],
       "why_it_matters": "You saved an article on 2026-05-28 about AI agents; this candidate overlaps with \"jhwreal/wechat-article-pipeline-skill\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-10/02-ryangerardwilson-looptab.md"
-    },
-    {
-      "id": "nimosocute/ctf-codex-toolkit",
-      "name": "nimosocute/ctf-codex-toolkit",
-      "url": "https://github.com/nimosocute/ctf-codex-toolkit",
-      "date": "2026-06-10",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "ai_dev_tool",
-      "compatibility": 100,
-      "momentum": 49,
-      "risk": 32,
-      "integration_effort": 48,
-      "expected_gain": 59,
-      "composite": 68,
-      "replacement_target": null,
-      "related_articles": [],
-      "pros": [
-        "Recently updated (2026-06-10)",
-        "MIT license",
-        "1 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "May require elevated privileges"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 5,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps none; scripts smoke, pack:dry"
-        }
-      ],
-      "install_commands": [
-        "codex --version",
-        "npm exec --yes --package ctf-codex-toolkit@latest -- ctf-codex-toolkit setup",
-        "npm exec --yes --package ctf-codex-toolkit@0.1.12 -- ctf-codex-toolkit setup",
-        "npm install -g ctf-codex-toolkit",
-        "npm exec --yes --package github:nimosocute/ctf-codex-toolkit -- ctf-codex-toolkit setup",
-        "git clone --depth 1 https://github.com/ljagiello/ctf-skills.git \"$tmp/ctf-skills\""
-      ],
-      "risk_flags": [
-        "May require elevated privileges"
-      ],
-      "why_it_matters": "nimosocute/ctf-codex-toolkit matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-10/03-nimosocute-ctf-codex-toolkit.md"
-    },
-    {
-      "id": "mingye-lu/agenticcrawler",
-      "name": "Mingye-Lu/AgenticCrawler",
-      "url": "https://github.com/Mingye-Lu/AgenticCrawler",
-      "date": "2026-06-09",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 92,
-      "momentum": 56,
-      "risk": 40,
-      "integration_effort": 68,
-      "expected_gain": 87,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "gHashTag/trios-mcp-rag",
-          "date": "2026-05-23",
-          "topic": "AI agents",
-          "similarity": 0.361,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
-        },
-        {
-          "title": "Show HN: Web Speed – A shared web-map registry for AI agents (MCP, open source)",
-          "date": "2026-06-08",
-          "topic": "AI agents",
-          "similarity": 0.303,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-08/43-show-hn-web-speed-a-shared-web-map-registry-for-ai-agents-mcp-open-sou.md"
-        },
-        {
-          "title": "dui14/vibe-coding-workflow",
-          "date": "2026-05-30",
-          "topic": "AI dev tools",
-          "similarity": 0.228,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-09)",
-        "MIT license",
-        "5 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 8,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps cloakbrowser, playwright-core; scripts none"
-        },
-        {
-          "name": "Cargo.toml",
-          "summary": "Rust project metadata detected"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/Mingye-Lu/AgenticCrawler.git",
-        "cargo build --release",
-        "npm install",
-        "claude mcp add acrawl -- acrawl mcp",
-        "cargo build --release                                     # build",
-        "cargo test --workspace                                    # run all tests"
-      ],
-      "risk_flags": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-09/01-mingye-lu-agenticcrawler.md"
-    },
-    {
-      "id": "truongnat/ai-engineering-harness",
-      "name": "truongnat/ai-engineering-harness",
-      "url": "https://github.com/truongnat/ai-engineering-harness",
-      "date": "2026-06-09",
-      "source": "awesome-claude-code",
-      "category": "awesome_lists",
-      "kind": "agent_framework",
-      "compatibility": 92,
-      "momentum": 49,
-      "risk": 32,
-      "integration_effort": 56,
-      "expected_gain": 77,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: AI-Powered PDF to Markdown Converter",
-          "date": "2026-06-03",
-          "topic": "AI dev tools",
-          "similarity": 0.215,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-03/89-show-hn-ai-powered-pdf-to-markdown-converter.md"
-        },
-        {
-          "title": "linny006/agent-eval-harness",
-          "date": "2026-06-02",
-          "topic": "AI dev tools",
-          "similarity": 0.2,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-02/76-linny006-agent-eval-harness.md"
-        },
-        {
-          "title": "rutulraval/ai-coding-agents-autogen",
-          "date": "2026-06-01",
-          "topic": "AI agents",
-          "similarity": 0.185,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/59-rutulraval-ai-coding-agents-autogen.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-09)",
-        "MIT license",
-        "1 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @clack/prompts, @changesets/cli, @eslint/eslintrc, @eslint/js, @types/node, c8, eslint, husky; scripts install:harness, build, build:watch, build:codex-plugin, publish:codex-plugin, prepack, test, test:evals"
-        }
-      ],
-      "install_commands": [
-        "npx ai-engineering-harness install",
-        "npx ai-engineering-harness status",
-        "npx ai-engineering-harness doctor",
-        "npx ai-engineering-harness install --provider claude --yes",
-        "npx ai-engineering-harness eval list",
-        "npx ai-engineering-harness eval run sample-bugfix --provider codex --yes"
-      ],
-      "risk_flags": [
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-03 about AI dev tools; this candidate overlaps with \"Show HN: AI-Powered PDF to Markdown Converter\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-09/02-truongnat-ai-engineering-harness.md"
     }
   ]
 }

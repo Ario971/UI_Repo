@@ -1,0 +1,12 @@
+---
+title: "Thank you :) Swift Qwen 3.8 27B now has 100k+ downloads, is #1 finetune and #9 model on HuggingFace Trending"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1wj3s31/thank_you_swift_qwen_38_27b_now_has_100k/"
+date: "2026-09-17"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Hey everyone, Jovan from UkisAI here, a small lab building the tech to make tiny frontier LLMs possible (and doing it open-source!) The purpose of this post is simply to thank the community for all the amazing finetunes, quantizations and overall improvements over our original release which made our model get attention and the support for us to continue b... (Local summary fallback used.)"
+---
+
+Hey everyone, Jovan from UkisAI here, a small lab building the tech to make tiny frontier LLMs possible (and doing it open-source!) The purpose of this post is simply to thank the community for all the amazing finetunes, quantizations and overall improvements over our original release which made our model get attention and the support for us to continue building in this direction! If it weren't for you guys going out of the way to contribute we wouldn't have half the results of this. For context: Swift Qwen 3.8 27B is our first open-source model release. It is proof of how penalizing pathological overthinking patterns inside of small LLMs can bring their token usage down -58.3% and speed x1.95 without losing accuracy by not training them to think shorter directly but rather to think more efficiently. We are continuing to build and are about to drop: - Swift1.5 Qwen3.8 27B (an improved checkpoint of the model with some training bugs fixed and more RL) - Swift Qwen3.8 Flash Next in the upcoming week week, we are now running the benchmark suite to not give out premature or incomplete results. This time we ran even more benchmarks as you guys suggested, including more coding and long horizon! It would be amazing if those of you who tried Swift would let us know what quants, features, changes you want to see in our upcoming model releases so we can do it better this time as we didn't even think about half of the stuff you guys were requesting last time :) Let the era of non-slop finetunes begin! EDIT: Links - https://huggingface.co/ukisai/Swift-Qwen3.8-27b https://huggingface.co/ukisai/Swift-Qwen3.8-27B-GGUF https://huggingface.co/bartowski/ukisai_Swift-Qwen3.8-27b-GGUF submitted by /u/Secure_Recording_472 [link] [comments]

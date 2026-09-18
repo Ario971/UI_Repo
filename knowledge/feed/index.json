@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T09:43:32.754Z",
+  "updated_at": "2026-09-18T09:17:01.521Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Share your AI Setup, Learn from others",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://mysetup.ai/",
+      "date": "2026-09-17",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck or been thrown out the window? How did they manage longer-running tasks? So I built this with the hope we could have a dedicated space to share and be open about our setups. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/06-show-hn-share-your-ai-setup-learn-from-others.md"
+    },
+    {
+      "title": "Show HN: Scry, programmable internet search w/ congestion pricing",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://scry.io/",
+      "date": "2026-09-17",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Meet Scry, a 500 TB NVMe internet index in ClickHouse that you can run ~arbitrary readonly SQL and some of Datalog over, and I handle the problem of resource-contention with congestion-based micro-auction pricing. When there's capacity, the service is free for non-commercial use. --- Hello. It's 2026, we're training simulated fruit fly brains to play Beat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/07-show-hn-scry-programmable-internet-search-w-congestion-pricing.md"
+    },
+    {
+      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.20758v1",
+      "date": "2026-09-17",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. Exhaustive testing is expensive, so evaluation rests on a sample of labeled units. We treat the evaluation set as a finite population and seek accurate point and interval estimates of each d... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/08-prediction-powered-smoothing-and-validation-for-disaggregated-ai-evalu.md"
+    },
+    {
+      "title": "Xeno-Interpretability: Investigating the Alien Minds of LLMs",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.20408v1",
+      "date": "2026-09-17",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large language models are usually interpreted through concepts that humans already possess: truthfulness, refusal, deception, personality, harmfulness, and related categories. This paper asks whether models may also represent and use distinctions for which no adequate human concept exists. We call such internal structures xeno-representations, and their s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/09-xeno-interpretability-investigating-the-alien-minds-of-llms.md"
+    },
+    {
+      "title": "abacusai/abacusai-bot",
+      "source": "GitHub Search API",
+      "url": "https://github.com/abacusai/abacusai-bot",
+      "date": "2026-09-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "100% free, open-source personal agents for your messaging apps, tools, and services (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-18/10-abacusai-abacusai-bot.md"
+    },
+    {
+      "title": "Show HN: Attar – Compile React apps to native machine code",
+      "source": "Hacker News Show HN",
+      "url": "https://attar.dev/",
+      "date": "2026-09-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, my cofounder and I are building Attar. It compiles React and TypeScript into native desktop apps, with Blink for HTML and CSS. I like building things with web tools. We wanted to take that experience all the way to a compiled desktop app: familiar components, familiar styles, native machine code. Attar builds on Static Hermes and Chromium. React’s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-18/11-show-hn-attar-compile-react-apps-to-native-machine-code.md"
+    },
+    {
+      "title": "Show HN: Free GitHub Action that scans PR diffs for malicious code, not quality",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/marketplace/actions/vigil-pr-scanner",
+      "date": "2026-09-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I watched a video recently on malicious code injection into OSS repo PRs and how they can go undetected because of how well they're hidden and decided to do a project for this. This tool is essentially used in unison with ai code review bots like greptile. While tools like greptile reason because they run with LLMs, this is a deterministic step before gre... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-18/12-show-hn-free-github-action-that-scans-pr-diffs-for-malicious-code-not-.md"
+    },
+    {
+      "title": "Show HN: Concat: the open-source CapCut replacement.",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/jub0t/Concat",
+      "date": "2026-09-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I started this project about ~3 weeks ago. Since CapCut is putting everything behind a paywall after gaining millions of installs and users, I decided to create a free and open-source version with most if not all the features. Concat runs all the AI-features locally, has MCP support, has a decentralized system for assets like Filters, Effects, and Templat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-18/13-show-hn-concat-the-open-source-capcut-replacement.md"
+    },
+    {
+      "title": "I just realized Courage used local LLMs to solve his problems before any of us ever did.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjeuy7/i_just_realized_courage_used_local_llms_to_solve/",
+      "date": "2026-09-18",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/swagonflyyyy [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-18/14-i-just-realized-courage-used-local-llms-to-solve-his-problems-before-a.md"
+    },
+    {
+      "title": "Ternary Bonsai 2 (27B) just released on Hugging Face. At <6GB in size, it can even run locally in-browser on WebGPU.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj6c4l/ternary_bonsai_2_27b_just_released_on_hugging/",
+      "date": "2026-09-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The model is derived from Qwen3.8-27B, a 27B hybrid-attention causal language model (architecture unchanged), but uses ternary weights to shrink model size down to - Collection: https://huggingface.co/collections/prism-ml/bonsai-2 - Demo: https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels submitted by /u/xenovatech [link] [comme... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-17/15-ternary-bonsai-2-27b-just-released-on-hugging-face-at-6gb-in-size-it-c.md"
+    },
+    {
+      "title": "Made the horizontal open-source model for Jev with RLCD, and it surpasses all the Jev benchmarks. HF space, benchmark, model, repo",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjieap/made_the_horizontal_opensource_model_for_jev_with/",
+      "date": "2026-09-18",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Thanks for the exceptional support ( https://www.reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/ ) and for the dozens of requests to make a generic model, run benchmarks, and create an HF space so anyone can test it. So here you go, guys. I trained an improved model on a large data corpus, its now called Laya. It... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-18/16-made-the-horizontal-open-source-model-for-jev-with-rlcd-and-it-surpass.md"
+    },
+    {
+      "title": "Thank you :) Swift Qwen 3.8 27B now has 100k+ downloads, is #1 finetune and #9 model on HuggingFace Trending",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj3s31/thank_you_swift_qwen_38_27b_now_has_100k/",
+      "date": "2026-09-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, Jovan from UkisAI here, a small lab building the tech to make tiny frontier LLMs possible (and doing it open-source!) The purpose of this post is simply to thank the community for all the amazing finetunes, quantizations and overall improvements over our original release which made our model get attention and the support for us to continue b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-17/17-thank-you-swift-qwen-3-8-27b-now-has-100k-downloads-is-1-finetune-and-.md"
+    },
     {
       "title": "Show HN: AttaLambda: a language where types and data are made of untyped lambdas",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Eco — compose reusable Linux Services into self-sustaining estates. Open CLI: build on your machine, ship artifacts, run on toolchain-free CTs. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-16/11-getecosphere-eco.md"
-    },
-    {
-      "title": "ferazfhansurie/monke",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ferazfhansurie/monke",
-      "date": "2026-08-16",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "MONKe — local-first AI video editor. Under ADletic. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-16/12-ferazfhansurie-monke.md"
-    },
-    {
-      "title": "lu6-ux/MediGuard-AI",
-      "source": "GitHub Search API",
-      "url": "https://github.com/lu6-ux/MediGuard-AI",
-      "date": "2026-08-16",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Intelligent Medical Document Analysis & Prescription Cross-Checker (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-16/13-lu6-ux-mediguard-ai.md"
-    },
-    {
-      "title": "How many people have 24gb over gpu here?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpm70f/how_many_people_have_24gb_over_gpu_here/",
-      "date": "2026-08-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I was surprised by the fact that the qwen 3.8 27b download count is about 1 million (globally). This means that even on this subreddit, very few people have used 27b. At most 50k–100k active users, and once you break down the hardware distribution, 8GB, 16GB, 24GB, 32GB cards, Macs, whatever, it's probably under a thousand people who've actually run one o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-16/14-how-many-people-have-24gb-over-gpu-here.md"
-    },
-    {
-      "title": "Show-off Saturday: Intel Arc B140 build.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpkomt/showoff_saturday_intel_arc_b140_build/",
-      "date": "2026-08-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "My local inference build, with: ASUS WS C422 PRO/SE 10-core Xeon W-2255 64GB ECC RAM 64GB VRAM Pimped case with TurboLEDz indicating the frequencies of the 10 xeon cores. Running llama.cpp with SYCL back-end. Khronos-stack and MESA stack all built from git sources, running on Ubuntu 26.04 submitted by /u/mazarax [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-16/15-show-off-saturday-intel-arc-b140-build.md"
-    },
-    {
-      "title": "If you would have told me half a year ago that a local model running in my office would be able to one-shot a Super Mario clone, I would have called you nuts. Qwen3.8-27B is a different beast.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp438p/if_you_would_have_told_me_half_a_year_ago_that_a/",
-      "date": "2026-08-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Running the Q8 GGUF on my Framework Desktop is not fast, but it's extremely smart for overnight batches and background jobs. Can't wait to play around with MTP and other quants. Have any of you found ways to improve speed while keeping accuracy? https://mikeveerman.github.io/qwen38-27b-mario submitted by /u/MikeNonect [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-15/16-if-you-would-have-told-me-half-a-year-ago-that-a-local-model-running-i.md"
-    },
-    {
-      "title": "SOTA Apple Silicon Inference (August 15, 2026)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vphr8u/sota_apple_silicon_inference_august_15_2026/",
-      "date": "2026-08-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This is a HANDWRITTEN post. I spent way too much time trying to get fast inference on Apple Silicon. This post is for people who want to know what's the latest on running local models on their mac, and why they may not be seeing the performance others in the community claim. TL;DR I've spent the last 2 weeks full-time looking into the state of inference o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-15/17-sota-apple-silicon-inference-august-15-2026.md"
-    },
-    {
-      "title": "Show HN: Mole – Deep research agent for your terminal",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/lajosdeme/mole",
-      "date": "2026-08-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Doing research with agents is fun until they blow way past budget, jumble the sources, and don't even give you the best possible answer, just sound confident. And if you want to run some research task on local data - you have no idea where your data ends up after the prompt consumes it. So I built this tool: a deep-research agent with an enforced budget,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/06-show-hn-mole-deep-research-agent-for-your-terminal.md"
-    },
-    {
-      "title": "Show HN: Mocktail – Free, open-source mock API server with a built-in dashboard",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://getmocktail.com/",
-      "date": "2026-08-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I built the first version of Mocktail years ago. I recently came back to the project, and after a pretty substantial rebuild, v4 is now out. Mocktail is a free and open-source, self-hosted mock API server with a built-in dashboard and database, packaged as a single ~25 MB binary. You can run it locally or on your own infrastructure — no account or... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/07-show-hn-mocktail-free-open-source-mock-api-server-with-a-built-in-dash.md"
-    },
-    {
-      "title": "Show HN: AletheionAGI – Grounding enforcement for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.aletheionagi.com",
-      "date": "2026-08-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: AletheionAGI – Grounding enforcement for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/08-show-hn-aletheionagi-grounding-enforcement-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Artifex - Graph Based GPU Harness for AI Agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://gatewai.studio/artifex",
-      "date": "2026-08-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Artifex is a machine-first, headless CLI runtime built for autonomous coding agents to author, validate, and render media node graphs locally. The agent talks to Artifex through a structured CLI interface. Workflows are DAGs, and each node is a plugin that can implement its own execution logic.. Each node has capability to inject logic into graph processi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-14/09-show-hn-artifex-graph-based-gpu-harness-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Musical social media site where you can throw tomatoes at each other",
-      "source": "Hacker News Show HN",
-      "url": "https://mazurka.cafe/",
-      "date": "2026-08-14",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "For those who never had the pleasure of using plug.dj and similar sites, the deal is that you create or join rooms where people queue up to DJ music and listen together. One of my friend groups used to use plug.dj weekly every Friday, then it died, and a few alternatives popped up, some of which are still around, but I really dislike all of them. I've bee... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-14/10-show-hn-musical-social-media-site-where-you-can-throw-tomatoes-at-each.md"
-    },
-    {
-      "title": "ToddGBenson/keel",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ToddGBenson/keel",
-      "date": "2026-08-15",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A governed, agent-driven SDLC you can fork. NIST 800-53 Rev.5 + CIS Supply Chain + AI RMF. Gates with evidence, not assertions. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-15/11-toddgbenson-keel.md"
     }
   ]
 }
