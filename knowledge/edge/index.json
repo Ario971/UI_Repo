@@ -1,10 +1,209 @@
 {
-  "last_checked_at": "2026-09-18T09:17:32.890Z",
+  "last_checked_at": "2026-09-19T09:04:11.473Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "vertiiii/blender-mcp",
+      "name": "Vertiiii/blender-mcp",
+      "url": "https://github.com/Vertiiii/blender-mcp",
+      "date": "2026-09-19",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 88,
+      "momentum": 61,
+      "risk": 35,
+      "integration_effort": 48,
+      "expected_gain": 81,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "how to setup llama.cpp and blender to make lovely 3d stuff together",
+          "date": "2026-08-28",
+          "topic": "Local LLMs",
+          "similarity": 0.581,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/16-how-to-setup-llama-cpp-and-blender-to-make-lovely-3d-stuff-together.md"
+        },
+        {
+          "title": "Show HN: MCP Tool Definition Quality Score (TDQS) Spec",
+          "date": "2026-09-03",
+          "topic": "AI dev tools",
+          "similarity": 0.282,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/10-show-hn-mcp-tool-definition-quality-score-tdqs-spec.md"
+        },
+        {
+          "title": "Show HN: Itsuki – open-source memory engine for AI agents (API and MCP)",
+          "date": "2026-08-29",
+          "topic": "AI agents",
+          "similarity": 0.21,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-29/06-show-hn-itsuki-open-source-memory-engine-for-ai-agents-api-and-mcp.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-19)",
+        "MIT license",
+        "5 GitHub stars",
+        "Matches 3 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 63,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, readme, requires-python, authors, license, classifiers"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-28 about Local LLMs; this candidate overlaps with \"how to setup llama.cpp and blender to make lovely 3d stuff together\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-19/01-vertiiii-blender-mcp.md"
+    },
+    {
+      "id": "uqeu/estelle-cli",
+      "name": "uqeu/estelle-cli",
+      "url": "https://github.com/uqeu/estelle-cli",
+      "date": "2026-09-19",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 89,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 44,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+          "date": "2026-09-09",
+          "topic": "AI agents",
+          "similarity": 0.247,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+        },
+        {
+          "title": "Show HN: Hands-Rust MCP/CLI that sees the Windows desktop and clicks real Chrome",
+          "date": "2026-08-23",
+          "topic": "AI dev tools",
+          "similarity": 0.219,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-23/11-show-hn-hands-rust-mcp-cli-that-sees-the-windows-desktop-and-clicks-re.md"
+        },
+        {
+          "title": "Prime Agent: A Self-Improving RLM Harness",
+          "date": "2026-08-24",
+          "topic": "AI agents",
+          "similarity": 0.214,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-24/08-prime-agent-a-self-improving-rlm-harness.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-19)",
+        "Apache-2.0 license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [
+        "npm install -g @fatelabs/estelle",
+        "claude mcp add --transport http estelle https://api.fatelabs.ca/mcp"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-09 about AI agents; this candidate overlaps with \"Show HN: Self-hosted company OS, Claude Code and Codex agents in departments\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-19/02-uqeu-estelle-cli.md"
+    },
+    {
+      "id": "joaoh82/yardsort",
+      "name": "joaoh82/yardsort",
+      "url": "https://github.com/joaoh82/yardsort",
+      "date": "2026-09-19",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 94,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 44,
+      "expected_gain": 77,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+          "date": "2026-09-09",
+          "topic": "AI agents",
+          "similarity": 0.259,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+        },
+        {
+          "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+          "date": "2026-09-15",
+          "topic": "AI agents",
+          "similarity": 0.242,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-15/06-show-hn-pizza-bot-an-inbox-for-ai-agents-that-work-in-the-background.md"
+        },
+        {
+          "title": "Show HN: Concord – let Claude Code, Codex and Cursor talk to each other",
+          "date": "2026-08-27",
+          "topic": "AI agents",
+          "similarity": 0.238,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-show-hn-concord-let-claude-code-codex-and-cursor-talk-to-each-other.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-19)",
+        "GPL-3.0 license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @codemirror/language, @codemirror/language-data, @codemirror/merge, @codemirror/state, @codemirror/theme-one-dark, @codemirror/view, @tauri-apps/api, @tauri-apps/plugin-clipboard-manager; scripts dev, build, preview, tauri, typecheck, lint, format, format:check"
+        },
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/joaoh82/yardsort && cd yardsort"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-09 about AI agents; this candidate overlaps with \"Show HN: Self-hosted company OS, Claude Code and Codex agents in departments\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-19/03-joaoh82-yardsort.md"
+    },
     {
       "id": "opok-ops/mindforge",
       "name": "opok-ops/MindForge",
@@ -19722,194 +19921,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-05-21 about AI agents; this candidate overlaps with \"Show HN: Agent-estimate, how long a coding task takes, at agent speed\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-11/02-ihorponom-agentpack.md"
-    },
-    {
-      "id": "grimaldost/craft-collection",
-      "name": "grimaldost/craft-collection",
-      "url": "https://github.com/grimaldost/craft-collection",
-      "date": "2026-06-11",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 87,
-      "momentum": 45,
-      "risk": 24,
-      "integration_effort": 40,
-      "expected_gain": 87,
-      "composite": 73,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
-          "date": "2026-05-21",
-          "topic": "AI agents",
-          "similarity": 0.214,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
-        },
-        {
-          "title": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
-          "date": "2026-05-21",
-          "topic": "AI dev tools",
-          "similarity": 0.202,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/43-show-hn-i-made-a-claude-skill-for-spec-driven-development-sdd.md"
-        },
-        {
-          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.202,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-11)",
-        "MIT license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [],
-      "install_commands": [
-        "claude --plugin-dir ./plugins/engineering-discipline --plugin-dir ./plugins/session-workflow",
-        "uv tool run pre-commit install         # enable commit gates: ruff, validator, hygiene",
-        "uv tool run pre-commit run --all-files # run every gate now"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-05-21 about AI agents; this candidate overlaps with \"Show HN: Agent-estimate, how long a coding task takes, at agent speed\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-11/03-grimaldost-craft-collection.md"
-    },
-    {
-      "id": "kbigdata/omniharness",
-      "name": "kbigdata/omniharness",
-      "url": "https://github.com/kbigdata/omniharness",
-      "date": "2026-06-10",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "ai_dev_tool",
-      "compatibility": 87,
-      "momentum": 45,
-      "risk": 32,
-      "integration_effort": 42,
-      "expected_gain": 77,
-      "composite": 69,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "gHashTag/trios-mcp-rag",
-          "date": "2026-05-23",
-          "topic": "AI agents",
-          "similarity": 0.331,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
-        },
-        {
-          "title": "rutulraval/ai-coding-agents-autogen",
-          "date": "2026-06-01",
-          "topic": "AI agents",
-          "similarity": 0.286,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/59-rutulraval-ai-coding-agents-autogen.md"
-        },
-        {
-          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
-          "date": "2026-05-20",
-          "topic": "AI agents",
-          "similarity": 0.244,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-10)",
-        "MIT license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "May require elevated privileges"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 1,
-      "dependency_files": [],
-      "install_commands": [
-        "claude --plugin-dir /path/to/omniharness",
-        "claude --plugin-dir ."
-      ],
-      "risk_flags": [
-        "May require elevated privileges"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-10/01-kbigdata-omniharness.md"
-    },
-    {
-      "id": "ryangerardwilson/looptab",
-      "name": "ryangerardwilson/looptab",
-      "url": "https://github.com/ryangerardwilson/looptab",
-      "date": "2026-06-10",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "ai_dev_tool",
-      "compatibility": 79,
-      "momentum": 45,
-      "risk": 24,
-      "integration_effort": 48,
-      "expected_gain": 77,
-      "composite": 68,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "jhwreal/wechat-article-pipeline-skill",
-          "date": "2026-05-28",
-          "topic": "AI agents",
-          "similarity": 0.243,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/13-jhwreal-wechat-article-pipeline-skill.md"
-        },
-        {
-          "title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.23,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/10-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-clo.md"
-        },
-        {
-          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.196,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-10)",
-        "MIT license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "go.mod",
-          "summary": "module github.com/ryangerardwilson/looptab"
-        }
-      ],
-      "install_commands": [
-        "go install github.com/ryangerardwilson/looptab/cmd/looptab@latest",
-        "codex exec --color never --cd <cwd> <prompt>"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-05-28 about AI agents; this candidate overlaps with \"jhwreal/wechat-article-pipeline-skill\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-10/02-ryangerardwilson-looptab.md"
     }
   ]
 }

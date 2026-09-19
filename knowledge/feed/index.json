@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T09:17:01.521Z",
+  "updated_at": "2026-09-19T09:03:44.531Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "A Qualitative Model for Reasoning about Path and Support",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.20349v1",
+      "date": "2026-09-17",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Spatial reasoning abilities correlate strongly with performance in STEM fields. Games offer a compelling medium for training these critical skills in developing children who have a natural proclivity for play. However, to facilitate human-like tutoring and player guidance, these games require an AI agent capable of making commonsense inferences from spati... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/06-a-qualitative-model-for-reasoning-about-path-and-support.md"
+    },
+    {
+      "title": "xionglingsong/usage-evidence",
+      "source": "GitHub Trending",
+      "url": "https://github.com/xionglingsong/usage-evidence",
+      "date": "2026-09-19",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Evidence-based English usage verification skill for AI agents: query Oxford/Cambridge/Linguee/Ngram instead of guessing from model intuition (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-19/07-xionglingsong-usage-evidence.md"
+    },
+    {
+      "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://cactuscompute.com/needle",
+      "date": "2026-09-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, Henry from Cactus here. We submitted Needle 2 here a few weeks ago, and the feedback in the discussion thread was incredibly valuable, thanks! Thanks to all that feedback, we’ve been able to move quickly to release Needle 3 and I'd love to hear what you think again. The key features: 1) Automation (tool calls & structured JSON output): Needle stil... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-18/08-show-hn-cactus-needle-3-8-29mb-automation-models-can-match-deepseek-v4.md"
+    },
+    {
+      "title": "Show HN: Ax-check.com – Can agents use your product?",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.ax-check.com/",
+      "date": "2026-09-17",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'm the co-founder of Gauge, and I built ax-check.com to quickly test how well coding agents can onboard to your product. You'll get a scorecard, specific suggested fixes, and three full coding sessions that show how agents read your site and use your product. I built this because similar checks were too noisy. Most suggested obscure technical changes tha... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/09-show-hn-ax-check-com-can-agents-use-your-product.md"
+    },
+    {
+      "title": "Show HN: Timeline, a team project planner with a fast canvas Gantt view",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/vakahnke/Timeline",
+      "date": "2026-09-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I manage a few projects at work. I really am unsatisfied with modern tools available to me for that purpose. I had always envisioned a tool that I could interact with visually for this purpose. I started building one many years ago but the graphics programming was beyond my capabilities and nothing I made hit the mark. Along came modern AI to help get me... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-18/10-show-hn-timeline-a-team-project-planner-with-a-fast-canvas-gantt-view.md"
+    },
+    {
+      "title": "resp-200/steve",
+      "source": "GitHub Search API",
+      "url": "https://github.com/resp-200/steve",
+      "date": "2026-09-19",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Your Personal AI Assistant (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/11-resp-200-steve.md"
+    },
+    {
+      "title": "kit2824bam007-lab/TalentDNA-AI-Powered-Talent-Discovery-Internal-Mobility-Platform",
+      "source": "GitHub Search API",
+      "url": "https://github.com/kit2824bam007-lab/TalentDNA-AI-Powered-Talent-Discovery-Internal-Mobility-Platform",
+      "date": "2026-09-19",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "kit2824bam007-lab/TalentDNA-AI-Powered-Talent-Discovery-Internal-Mobility-Platform Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/12-kit2824bam007-lab-talentdna-ai-powered-talent-discovery-internal-mobil.md"
+    },
+    {
+      "title": "Mahesh-Loya/ba-support-agent",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Mahesh-Loya/ba-support-agent",
+      "date": "2026-09-19",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI support agent for British Airways - Hiver SDE Intern take-home assignment (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/13-mahesh-loya-ba-support-agent.md"
+    },
+    {
+      "title": "Steer LLMs and Agents at the Token Level: An interactive tool for token visualization & control, model inspection and data annotation.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkc4c9/steer_llms_and_agents_at_the_token_level_an/",
+      "date": "2026-09-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "onPanda is designed for geeks, power users, curious minds, and engineers. Its UI is built for deep exploration and efficient data annotation. - The core loop is simple: hover over a token → click an alternative or edit freely → continue generation. You can edit every part of model output exposed by onPanda, including reasoning and tool calls. - Edit promp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-19/14-steer-llms-and-agents-at-the-token-level-an-interactive-tool-for-token.md"
+    },
+    {
+      "title": "I enjoyed the daily HF papers today",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkdzdk/i_enjoyed_the_daily_hf_papers_today/",
+      "date": "2026-09-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Top 3 papers on HF Daily Paper are all unusually delightful and interesting reads for anyone on the leading edge of local LLMs, agent harness optimization, etc, felt like sharing. DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression https://huggingface.co/papers/2609.19969 Cross-layer KV reuse plus FP4 KV caching brings the global KV cache to 8... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-19/15-i-enjoyed-the-daily-hf-papers-today.md"
+    },
+    {
+      "title": "Qwen3.8-27B at 144 tok/s on an M5 Max MacBook Pro",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wk9hze/qwen3827b_at_144_toks_on_an_m5_max_macbook_pro/",
+      "date": "2026-09-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Meet Inco Splash, open-source inference engine, built around the model and around Apple silicon. Up to 3× the decode speed of Ollama, 2× oMLX, and almost 4× when an agent fans out into sub-agents. Requirements: M3 or newer, macOS 26.4+, 36 GB Get started with a single command: brew install incoai/tap/splash splash serve --model incoai/Qwen3.8-27B-Splash T... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-19/16-qwen3-8-27b-at-144-tok-s-on-an-m5-max-macbook-pro.md"
+    },
+    {
+      "title": "Training a Neural Network on AMD MI50s Using Vulkan: Proof of ConceptOr: Why I Stopped Listening and Just Did It",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wk9qjn/training_a_neural_network_on_amd_mi50s_using/",
+      "date": "2026-09-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Note: This writeup was put together with the help of AI. So I've got dual AMD MI50 32GB cards. If you know these cards, you know the story - AMD dropped official ROCm support for gfx906 after ROCm 5.7. Every AI I talked to, every forum post, every \"expert\" said the same thing: if you want to do anything serious on AMD hardware you need ROCm, and if you ne... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-19/17-training-a-neural-network-on-amd-mi50s-using-vulkan-proof-of-conceptor.md"
+    },
     {
       "title": "Show HN: Share your AI Setup, Learn from others",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I built a specialized package of DeepSeek V4 Flash 0731 (originally 284B total parameters, 13B active), preserving reasoning, tool calling and coding capabilities: https://huggingface.co/steadfastgaze/DeepSeek-V4-Flash-0731-... I let it write a minimal C compiler targeting ARM64, then test the result with Fibonacci and FizzBuzz programs, and it succeeded... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-16/11-show-hn-i-shrank-deepseek-v4-flash-to-57gb-and-it-wrote-a-compiler-on-.md"
-    },
-    {
-      "title": "Show HN: A punch clock to help with hourly household workers",
-      "source": "Hacker News Show HN",
-      "url": "https://www.punchy.live/",
-      "date": "2026-08-16",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "My wife & I have a housekeeper who works flexible days and hours during the week. She has other commitments, so she comes to our house when it works best for her, within “agreed reasonable hours” (she doesn’t come on the weekends, or before 8am). Both of us are usually working in our home offices when she shows up, so I needed a way to track her hours so... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-16/12-show-hn-a-punch-clock-to-help-with-hourly-household-workers.md"
-    },
-    {
-      "title": "tarnatphon/LukeAi",
-      "source": "GitHub Search API",
-      "url": "https://github.com/tarnatphon/LukeAi",
-      "date": "2026-08-17",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Luke Ai Studio (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-17/13-tarnatphon-lukeai.md"
-    },
-    {
-      "title": "Based on an accelerating frontier -> local trajectory, expect a ~30b param 'Mythos at home' by as soon as Jan 2027 (rationalisation below)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq279o/based_on_an_accelerating_frontier_local/",
-      "date": "2026-08-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "local trajectory, expect a ~30b param 'Mythos at home' by as soon as Jan 2027 (rationalisation below)\" title=\"Based on an accelerating frontier -> local trajectory, expect a ~30b param 'Mythos at home' by as soon as Jan 2027 (rationalisation below)\" /> Including the rationalisation for the data below - this is a more robust version of an earlier post I di... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-16/14-based-on-an-accelerating-frontier-local-trajectory-expect-a-30b-param-.md"
-    },
-    {
-      "title": "Newer commits removed the Qwen 35B",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpxbm8/newer_commits_removed_the_qwen_35b/",
-      "date": "2026-08-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "In this commits, the 35B model was removed. Looks like it's confirming the 35B model won't get released. I think they need to be made aware how big the 35 moe is widely used. Think need to make noise on theyre X, huggingface and online places. If they dont know there's no need to release for people group who dont speak up. submitted by /u/Local-Cardiologi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-16/15-newer-commits-removed-the-qwen-35b.md"
-    },
-    {
-      "title": "Simon Willison: Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqaqgn/simon_willison_qwen_38_27b_is_excellent_but_it/",
-      "date": "2026-08-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I look to Simon for a broad survey of current LLM tech. Here's his review of playing with Qwen 3.8 27B . His comment on Mastodon was \"I can't remember the last time I've had this much fun playing with a local model that runs on my own computers\". BTW, the \"wildly overthinking\" comes from a bad default that's easy to change. submitted by /u/NelsonMinar [li... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-16/16-simon-willison-qwen-3-8-27b-is-excellent-but-it-defaults-to-wildly-ove.md"
-    },
-    {
-      "title": "I just ran Qwen 3.8 27 in Q4 against GPT 5.6 Sol high - and it easily won against SOL - complex animated SVG tasks",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqfyr6/i_just_ran_qwen_38_27_in_q4_against_gpt_56_sol/",
-      "date": "2026-08-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I created 3 SVG prompts, each one rather hard. Perspective : A animated drone view perspective on a park. Beauty : A beach scene with an evil cat Composition : An AGI breaking out of a virtual sandbox prison in a lab I deliberately ran Qwen 3.8 27B in just 4 bit quantization, and used a 8 bit KV cache (given the hard long context reasoning required I didn... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-17/17-i-just-ran-qwen-3-8-27-in-q4-against-gpt-5-6-sol-high-and-it-easily-wo.md"
-    },
-    {
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.13558v1",
-      "date": "2026-08-13",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, lab... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/06-omniscientist-an-omni-modal-omni-discipline-ai-scientist.md"
-    },
-    {
-      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.13522v1",
-      "date": "2026-08-13",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and a machine-checked proof of its specification, offers a stronger path toward trustworthy AI-generated software. Existing benchmarks in this direction either f... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/07-vero-can-ai-agents-build-formally-verified-software-repositories.md"
-    },
-    {
-      "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.13476v1",
-      "date": "2026-08-13",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. MARC coordinates role-specialized agents for extraction, reasoning, answer generation, and evaluation, with explicit context passing and traceable intermediate output... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/08-marc-v1-an-open-source-multi-agent-framework-for-clinical-ai-reasoning.md"
-    },
-    {
-      "title": "Show HN: I built a native app for coding agents with Rust and GPUI",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://waku.sh",
-      "date": "2026-08-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: I built a native app for coding agents with Rust and GPUI (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-16/09-show-hn-i-built-a-native-app-for-coding-agents-with-rust-and-gpui.md"
-    },
-    {
-      "title": "Show HN: Silent Shark – tactical map-based WWII submarine sim",
-      "source": "Hacker News Show HN",
-      "url": "https://silentshark.app/",
-      "date": "2026-08-12",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I posted an early beta of this game a few months ago: https://news.ycombinator.com/item?id=48180924 - May 2026 (45 comments) and today released the full version. You all gave extremely valuable and helpful feedback back then - thank you so much for that. It led to a lot of improvements: * I reworked the onboarding tutorials multiple times for clarity, add... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-12/10-show-hn-silent-shark-tactical-map-based-wwii-submarine-sim.md"
-    },
-    {
-      "title": "getecosphere/eco",
-      "source": "GitHub Search API",
-      "url": "https://github.com/getecosphere/eco",
-      "date": "2026-08-16",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Eco — compose reusable Linux Services into self-sustaining estates. Open CLI: build on your machine, ship artifacts, run on toolchain-free CTs. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-16/11-getecosphere-eco.md"
     }
   ]
 }
