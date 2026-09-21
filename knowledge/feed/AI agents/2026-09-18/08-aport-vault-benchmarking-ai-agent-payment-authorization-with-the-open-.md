@@ -1,0 +1,12 @@
+---
+title: "APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport"
+source: "arXiv cs.AI/cs.CL/cs.LG"
+url: "https://arxiv.org/abs/2609.22076v1"
+date: "2026-09-18"
+topic: "AI agents"
+type: "paper"
+read: false
+summary: "APort Vault is a benchmark for payment authorization in tool-using AI agents. It replays 4,371 attacks written by humans against a live payment agent during a public capture-the-flag event, across 14 models from 8 labs, five policy configurations and two replay tracks, with and without a deterministic pre-action check implementing the Open Agent Passport... (Local summary fallback used.)"
+---
+
+APort Vault is a benchmark for payment authorization in tool-using AI agents. It replays 4,371 attacks written by humans against a live payment agent during a public capture-the-flag event, across 14 models from 8 labs, five policy configurations and two replay tracks, with and without a deterministic pre-action check implementing the Open Agent Passport (OAP) specification. 225,964 evaluations completed. We report five distinct events per evaluation, because collapsing them is how an agent benchmark produces a number that does not survive review. Requests are common and their rate differs far more across configurations than across models, though each attack exists at exactly one configuration so policy and attack cohort vary together: 10.9% of model-alone evaluations at Level 1, 3.0% at Level 2, 0.1% at Level 3, 79.4% at Level 4. On the 1,293 Level 4 prompts, each evaluated on every model, request rates run from 71.2% to 84.3%, and 809 prompts (62.6%) elicited a request from all fourteen models, each ending in a successful payment to the level's allowlisted recipient. The authorization boundary is where the conditions diverge. At Levels 2 to 4, transfers to recipients the passport did not permit number 140 of 76,842 with the model alone and 0 of 69,297 behind the layer, and 105 against 0 on 68,970 matched model, prompt and track triples. The zero spans 790 source sessions, giving a per-session upper bound of 0.38%. It was not obtained by refusing payments: 25,370 payments executed behind the layer, while the policy denied 187 of the 25,640 transfer calls it evaluated, 148 of them for a forbidden recipient. We release the 225,964 evaluations, the level passports, the scoring code and the analysis script at huggingface.co/datasets/aporthq/vault-benchmark-v1 .
