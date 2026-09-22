@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T10:17:49.236Z",
+  "updated_at": "2026-09-22T09:32:40.627Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/naw103/foremerge",
+      "date": "2026-09-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "At, GPTree, we run several coding agents across our team on one repo using parallel worktrees. Apart from wasted time reviewing and fixing conflicts at PR time, the failures that hurt the most are when multiple plans or tickets cause architecture changes that cannot both be true. Ex. one agent replaces a class while another one is in the process of extend... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/06-show-hn-foremerge-catch-intent-conflicts-between-parallel-coding-agent.md"
+    },
+    {
+      "title": "Show HN: We built a network for AI agents and humans to exchange services",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://gingerpal.com/",
+      "date": "2026-09-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: We built a network for AI agents and humans to exchange services (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/07-show-hn-we-built-a-network-for-ai-agents-and-humans-to-exchange-servic.md"
+    },
+    {
+      "title": "Who Does What in AI Auditing? Designing Human-AI Collaboration for Auditing Generative AI",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.24986v1",
+      "date": "2026-09-21",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI auditing increasingly incorporates AI agents to expand the scale and breadth of audit coverage, yet little is known about how auditing work should be divided without displacing human judgment. We introduce Human-Agent Audit Collaboration (HAAC), a workflow and system for structuring human-AI collaboration in AI auditing. Drawing on prior work and forma... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/08-who-does-what-in-ai-auditing-designing-human-ai-collaboration-for-audi.md"
+    },
+    {
+      "title": "Et Tu, Brute? Economic Misalignment in Personal AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.24927v1",
+      "date": "2026-09-21",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Personal AI agents make recommendations and take actions on people's behalf in high-stakes economic contexts, e.g., buying a flight, choosing health insurance, or selecting a graduate program. The agent is given access to the user's personal context, e.g., their email inbox and a structured profile of personal attributes, with the intention of making an o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/09-et-tu-brute-economic-misalignment-in-personal-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/agent-chaperone/agent-chaperone",
+      "date": "2026-09-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone. TypeSafe released Jev last week, and it pushed me to build agent-chaperone. It is a screening layer for AI agent tool calls and tool results. It screens risky, off-task, or secret-leaking actions before they run, and prompt injections or other suspicious instructions before the agent reads them. Repo: https://github.com/agent-chaperone/agent-... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"
+    },
+    {
+      "title": "Ratandeep-purohit/OmniSense-AI",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Ratandeep-purohit/OmniSense-AI",
+      "date": "2026-09-22",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "OmniSense AI is an advanced desktop intelligence platform that augments (not replaces) existing operating systems by providing a continuous perception layer for the user's desktop environment. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-22/11-ratandeep-purohit-omnisense-ai.md"
+    },
+    {
+      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/volotat/mini-AGI/",
+      "date": "2026-09-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Sorry for the pretentious name, I know, I know.. It just contains all the pieces I would like to see a AGI model to have, and I can't stand the temptation. Before throwing rocks at me, please take a glance at the Readme, and I hope it will cover your mood a little bit. So, first of all it does work and you can see the sample from the whole training run he... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/12-show-hn-mini-agi-dynamic-continual-learning-model-trained-on-8gb-vram.md"
+    },
+    {
+      "title": "Show HN: Lossless-memory – a personal AI memory that never summarizes",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/aru-labs/lossless-memory",
+      "date": "2026-09-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Lossless-memory – a personal AI memory that never summarizes (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/13-show-hn-lossless-memory-a-personal-ai-memory-that-never-summarizes.md"
+    },
+    {
+      "title": "Ngram and world knowledge - why are we just building a coding model?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn2ybk/ngram_and_world_knowledge_why_are_we_just/",
+      "date": "2026-09-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This post is written by a human and I'd appreciate it if you treated it as such. Thanks. So, I've been noticing a pretty clear interest in developing as good a coding and agentic tool-calling model as possible, especially at smaller sizes, sub-50 gigs. However, I'm finding that at least for my use of AI, if I really want to move away from big providers, I... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-22/14-ngram-and-world-knowledge-why-are-we-just-building-a-coding-model.md"
+    },
+    {
+      "title": "[MASSIVE RELEASE] Supra2-IMG - a tiny 100M text-to-image model - SOTA quality and open release!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage/",
+      "date": "2026-09-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone! It has been quite a while since the last SupraLabs model - but today we've something special for y'all: Supra2-IMG It's a 100M parameter DiT text-to-image model trained entirely from scratch in under 10 hours on a single H100 on Runpod. It can generate state-of-the-art quality images in 256x256 pixels resolution. Samples: https://preview.red... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-21/15-massive-release-supra2-img-a-tiny-100m-text-to-image-model-sota-qualit.md"
+    },
+    {
+      "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents - MacStories",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmec1y/m5_ultra_mac_studio_review_the_dream_mac_for/",
+      "date": "2026-09-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/themixtergames [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-21/16-m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents-macstorie.md"
+    },
+    {
+      "title": "A better coder for the small-GPU/small-RAM crowd!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmgokc/a_better_coder_for_the_smallgpusmallram_crowd/",
+      "date": "2026-09-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I’ve been working on making small models more capable at agentic coding and work, because most people in the world don’t have the sort of hardware needed to run 3.8-27B, or even 35B-A3B or 9B dense, and I want to extend local agentic coding capability to less privileged users. This quant can be run on a smart phone or older gaming laptop, and can solve re... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-21/17-a-better-coder-for-the-small-gpu-small-ram-crowd.md"
+    },
     {
       "title": "Show HN: Gdocs-me-up: a high-fidelity Google Docs exporter",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "As someone with a clean IP range and ADHD, I manage my inbox by splitting across a variety of accounts for a variety of domains. I’ve never really found a client that scratches all my itches, so I spent some time making one and it’s now become my daily driver. It’s optimised to be visually simple and highly configurable for things like colour, folders/sub... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/11-show-hn-mail-client-optimized-for-self-hosted-email-across-multiple-do.md"
-    },
-    {
-      "title": "Show HN: Openleetcode – Local LeetCode runner where tests live in the repo",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/therepanic/openleetcode",
-      "date": "2026-08-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "You write a standard solution, just like on LeetCode, and run it through the CLI. It identifies the problem by ID or title, executes your code against local test cases, and shows the result. It currently supports around 1.4k problems and multiple languages, including Python, C++, Rust, Java, Go, TypeScript, Swift, and others. The project is still an MVP.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/12-show-hn-openleetcode-local-leetcode-runner-where-tests-live-in-the-rep.md"
-    },
-    {
-      "title": "Show HN: A new way to read books, magnifying in and out",
-      "source": "Hacker News Show HN",
-      "url": "https://book.curiora.space/",
-      "date": "2026-08-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "After watching The Odyssey, I thought it would be cool to check out some scenes from the source in detail, but I don't have time to read the whole book. So I came up with a sort of zoom/microscope, that allows to see the whole book at a glance and then zoom in (by pinching) on the part I'm interested in. I can do so down to the actual source text and get... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-19/13-show-hn-a-new-way-to-read-books-magnifying-in-and-out.md"
-    },
-    {
-      "title": "Anyone NOT on full auto when coding with local LLMs?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt0y1g/anyone_not_on_full_auto_when_coding_with_local/",
-      "date": "2026-08-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Would love to know who's letting a 9B just go ham locally, haha But in all seriousness, how many of you are keeping to manual or manual-ish dev workflows? submitted by /u/BatPlack [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-19/14-anyone-not-on-full-auto-when-coding-with-local-llms.md"
-    },
-    {
-      "title": "Qwen3.8-27b has the highest level of \"agency\" I've ever seen in a local model",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/",
-      "date": "2026-08-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Off a single prompt, given my credentials and the name of my university, qwen3.8-27b was able to successfully pull my class schedule from the kinda shitty and convoluted web of university websites. It needed no human intervention, and executed 80 tool calls. Another time, I asked it to investigate a user on a social media network, and it found one public... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-20/15-qwen3-8-27b-has-the-highest-level-of-agency-i-ve-ever-seen-in-a-local-.md"
-    },
-    {
-      "title": "DFlash2 speeds Qwen 3.8 27B up to 4 times",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsuaoj/dflash2_speeds_qwen_38_27b_up_to_4_times/",
-      "date": "2026-08-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "llama.cpp pr #27342 adds dflash2, so i rented an rtx 6000 and ran the same four prompts through four decoding setups on qwen3.8 27B median results over the four tasks: baseline 47.4 tok/s mtp 114.7 tok/s dflash 99.3 tok/s dflash2 140.6. tok/s so on average 3x for dflash2 though i have to point out that it's far from a 3x gain some of the time, on one of t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-19/16-dflash2-speeds-qwen-3-8-27b-up-to-4-times.md"
-    },
-    {
-      "title": "Stop Anthropomorphisizing Intermediate Tokens: Qwen3.8 doesn't \"overthink\"",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsjcf7/stop_anthropomorphisizing_intermediate_tokens/",
-      "date": "2026-08-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Intermediate tokens, called \"thinking\" or \"reasoning\" actually are nothing like it. Humans do step-by-step reasoning leading to the conclusion. LLMs use intermediate traces to augment their prompt . This explains why sometimes the answer is very good but the \"reasoning\" is verbose. Flooding your context window or fighting compaction are different issues.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-19/17-stop-anthropomorphisizing-intermediate-tokens-qwen3-8-doesn-t-overthin.md"
-    },
-    {
-      "title": "Show HN: macOS data protection keychain for Electron apps",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/biw/keychain-store",
-      "date": "2026-08-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I've been working on Hansel [1] (an encrypted personal data store you can query with agents), and there wasn't a good way to use the modern macOS Data Protection Keychain. Electron's safeStorage [2] uses the legacy file-based keychain, which allows other apps/agents to query it with the `security` CLI. Not great when you have a dozen agents runnin... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-18/06-show-hn-macos-data-protection-keychain-for-electron-apps.md"
-    },
-    {
-      "title": "Show HN: ResumeSkip – automatically tailor your resume to jobs",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://resumeskip.com/",
-      "date": "2026-08-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "just gonna make it simple: all job portals scan resumes with AI now, if you aren't tailoring your resume to each posting you're already behind.. Some companies even use AI to interview (). You can do this yourself for free * (token cost) if you want, but you'll have to craft a good prompt, use a good agent you have access to, and validate the outcomes ove... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-18/07-show-hn-resumeskip-automatically-tailor-your-resume-to-jobs.md"
-    },
-    {
-      "title": "Show HN: Maritime, a platform for running AI agents for $1 a month",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://maritime.sh",
-      "date": "2026-08-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, my name is Maria, and I’m a co-founder of Maritime. We started Maritime at MIT to build infrastructure for companies that need to run thousands of isolated AI agents for their customers. Imagine you set up an agent like OpenClaw, or a personal assistant agent with a custom framework, and want to give a separate version of it to every customer/frien... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-18/08-show-hn-maritime-a-platform-for-running-ai-agents-for-1-a-month.md"
-    },
-    {
-      "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.18050v1",
-      "date": "2026-08-18",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product. We formulat... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-18/09-stagedworkspace-a-versioned-workspace-for-knowledge-work-agents.md"
-    },
-    {
-      "title": "Show HN: Particle – Extract and save articles in a clean, self-hosted reader",
-      "source": "Hacker News Show HN",
-      "url": "https://particle.crnst8.com/try/",
-      "date": "2026-08-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I've seen a few of those \"Every fucking website in 202*\" examples on here the last few days, and I feel it deep in my bones. As a result of the constant auto-play videos, CTAs, cookie warnings etc. etc., this is probably the most used self-developed app I run. It's super simple - just drop in the URL of the article and it'll extract (maintaining structure... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/10-show-hn-particle-extract-and-save-articles-in-a-clean-self-hosted-read.md"
-    },
-    {
-      "title": "KeithHanson/AIHarnessDesktopBuddy",
-      "source": "GitHub Search API",
-      "url": "https://github.com/KeithHanson/AIHarnessDesktopBuddy",
-      "date": "2026-08-19",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ESP32 MicroPython desktop buddy with OLED faces, LED control, and MCP support (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-19/11-keithhanson-aiharnessdesktopbuddy.md"
     }
   ]
 }

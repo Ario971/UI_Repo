@@ -1,10 +1,190 @@
 {
-  "last_checked_at": "2026-09-21T10:18:11.121Z",
+  "last_checked_at": "2026-09-22T09:33:06.466Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "defeat-beta/defeatbeta-api",
+      "name": "defeat-beta/defeatbeta-api",
+      "url": "https://github.com/defeat-beta/defeatbeta-api",
+      "date": "2026-09-22",
+      "source": "awesome-claude-code",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 80,
+      "momentum": 98,
+      "risk": 19,
+      "integration_effort": 60,
+      "expected_gain": 87,
+      "composite": 81,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
+          "date": "2026-08-31",
+          "topic": "AI agents",
+          "similarity": 0.19,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/08-token-efficient-data-reasoning-agents-via-adaptive-structuring-of-unst.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-22)",
+        "Apache-2.0 license",
+        "750 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, dynamic, description, readme, requires-python, license"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps duckdb == 1.5.3, pandas >= 3.0.1, requests >= 2.33.0, psutil >= 7.0.0, pyfiglet >= 1.0.2, urllib3 >= 2.6.3, tabulate >= 0.9.0, numpy >= 2.2.5"
+        }
+      ],
+      "install_commands": [
+        "pip install defeatbeta-api"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-31 about AI agents; this candidate overlaps with \"Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-22/01-defeat-beta-defeatbeta-api.md"
+    },
+    {
+      "id": "openai/codex",
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "date": "2026-09-22",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 94,
+      "momentum": 100,
+      "risk": 43,
+      "integration_effort": 52,
+      "expected_gain": 85,
+      "composite": 81,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Ax-check.com – Can agents use your product?",
+          "date": "2026-09-17",
+          "topic": "AI agents",
+          "similarity": 0.262,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/09-show-hn-ax-check-com-can-agents-use-your-product.md"
+        },
+        {
+          "title": "Show HN: Open tool for testing your AI Agents (No LLM)",
+          "date": "2026-08-28",
+          "topic": "AI agents",
+          "similarity": 0.262,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-28/06-show-hn-open-tool-for-testing-your-ai-agents-no-llm.md"
+        },
+        {
+          "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+          "date": "2026-09-21",
+          "topic": "AI agents",
+          "similarity": 0.261,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/06-show-hn-foremerge-catch-intent-conflicts-between-parallel-coding-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-22)",
+        "Apache-2.0 license",
+        "125866 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps prettier; scripts format, format:fix, write-hooks-schema"
+        }
+      ],
+      "install_commands": [
+        "npm install -g @openai/codex"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-17 about AI agents; this candidate overlaps with \"Show HN: Ax-check.com – Can agents use your product?\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-22/02-openai-codex.md"
+    },
+    {
+      "id": "agentevals-dev/agentevals",
+      "name": "agentevals-dev/agentevals",
+      "url": "https://github.com/agentevals-dev/agentevals",
+      "date": "2026-09-22",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 80,
+      "momentum": 90,
+      "risk": 32,
+      "integration_effort": 66,
+      "expected_gain": 77,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Dev tools in one static site, no framework, no server",
+          "date": "2026-08-24",
+          "topic": "AI dev tools",
+          "similarity": 0.198,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-24/13-show-hn-dev-tools-in-one-static-site-no-framework-no-server.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-22)",
+        "Apache-2.0 license",
+        "162 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, dynamic, description, readme, requires-python, dependencies"
+        }
+      ],
+      "install_commands": [
+        "pip install agentevals-cli",
+        "pip install \"agentevals-cli[live]\"        # MCP server support",
+        "pip install \"agentevals-cli[openai]\"      # OpenAI Evals API graders",
+        "uv sync",
+        "docker build -t agentevals .",
+        "docker run -p 8001:8001 -p 4317:4317 -p 4318:4318 agentevals"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-24 about AI dev tools; this candidate overlaps with \"Show HN: Dev tools in one static site, no framework, no server\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-22/03-agentevals-dev-agentevals.md"
+    },
     {
       "id": "nicglazkov/commutescout",
       "name": "nicglazkov/commutescout",
@@ -19664,215 +19844,6 @@
       "risk_flags": [],
       "why_it_matters": "You saved an article on 2026-06-09 about AI agents; this candidate overlaps with \"Show HN: Deep Memory – Vocabulary-driven graph memory for AI agents\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-14/02-jscott3201-aionforge-memory.md"
-    },
-    {
-      "id": "hellblazer/qwen-coprocessor-stack",
-      "name": "Hellblazer/qwen-coprocessor-stack",
-      "url": "https://github.com/Hellblazer/qwen-coprocessor-stack",
-      "date": "2026-06-14",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 87,
-      "momentum": 49,
-      "risk": 40,
-      "integration_effort": 68,
-      "expected_gain": 87,
-      "composite": 68,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "AlexNthLab/nth-dao",
-          "date": "2026-06-12",
-          "topic": "AI dev tools",
-          "similarity": 0.261,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
-        },
-        {
-          "title": "anzy-renlab-ai/pronounce",
-          "date": "2026-05-24",
-          "topic": "AI dev tools",
-          "similarity": 0.232,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-24/66-anzy-renlab-ai-pronounce.md"
-        },
-        {
-          "title": "Qwen 3.6 27B on DeepSWE",
-          "date": "2026-06-07",
-          "topic": "Local LLMs",
-          "similarity": 0.232,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-07/53-qwen-3-6-27b-on-deepswe.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-14)",
-        "MIT license",
-        "1 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 5,
-      "dependency_files": [],
-      "install_commands": [
-        "claude",
-        "claude plugin marketplace add /path/to/this/repo",
-        "claude plugin install qwen-stack@qwen-stack",
-        "Claude Code (unmodified, subscription auth)",
-        "npm test                    # unit tests (no backend required)",
-        "npm run test:integration    # integration tests (requires llama-server on :8080)"
-      ],
-      "risk_flags": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-12 about AI dev tools; this candidate overlaps with \"AlexNthLab/nth-dao\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-14/03-hellblazer-qwen-coprocessor-stack.md"
-    },
-    {
-      "id": "openclaw/peekaboo",
-      "name": "openclaw/Peekaboo",
-      "url": "https://github.com/openclaw/Peekaboo",
-      "date": "2026-06-13",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 80,
-      "momentum": 100,
-      "risk": 22,
-      "integration_effort": 64,
-      "expected_gain": 87,
-      "composite": 80,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "gHashTag/trios-mcp-rag",
-          "date": "2026-05-23",
-          "topic": "AI agents",
-          "similarity": 0.324,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
-        },
-        {
-          "title": "rutulraval/ai-coding-agents-autogen",
-          "date": "2026-06-01",
-          "topic": "AI agents",
-          "similarity": 0.221,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/59-rutulraval-ai-coding-agents-autogen.md"
-        },
-        {
-          "title": "Show HN: Using Tailscale with an OrbStack VM on macOS",
-          "date": "2026-05-25",
-          "topic": "AI agents",
-          "similarity": 0.217,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/89-show-hn-using-tailscale-with-an-orbstack-vm-on-macos.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-13)",
-        "MIT license",
-        "4697 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps chrome-devtools-mcp; scripts build:cli, build:cli:release, build:swift, build:swift:all, build:polter, app:restart, build, test:safe"
-        }
-      ],
-      "install_commands": [
-        "npx -y @steipete/peekaboo",
-        "pnpm install",
-        "pnpm run build:cli",
-        "pnpm run test:safe",
-        "pnpm run lint && pnpm run format"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-13/01-openclaw-peekaboo.md"
-    },
-    {
-      "id": "jeremysnr/project-foundry",
-      "name": "JeremySNR/Project-foundry",
-      "url": "https://github.com/JeremySNR/Project-foundry",
-      "date": "2026-06-13",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 92,
-      "momentum": 45,
-      "risk": 32,
-      "integration_effort": 48,
-      "expected_gain": 77,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "rutulraval/ai-coding-agents-autogen",
-          "date": "2026-06-01",
-          "topic": "AI agents",
-          "similarity": 0.317,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-01/59-rutulraval-ai-coding-agents-autogen.md"
-        },
-        {
-          "title": "Show HN: CoreMem – Portable context for AI agents",
-          "date": "2026-05-22",
-          "topic": "AI agents",
-          "similarity": 0.249,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-22/50-show-hn-coremem-portable-context-for-ai-agents.md"
-        },
-        {
-          "title": "Show HN: Dari-docs – Optimize your docs using parallel coding agents",
-          "date": "2026-05-20",
-          "topic": "AI agents",
-          "similarity": 0.237,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-20/14-show-hn-dari-docs-optimize-your-docs-using-parallel-coding-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-13)",
-        "Apache-2.0 license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/JeremySNR/Project-foundry && cd Project-foundry",
-        "pip install -e \".[test]\"",
-        "pip install -e \".[server,http]\"",
-        "docker compose up"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-01 about AI agents; this candidate overlaps with \"rutulraval/ai-coding-agents-autogen\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-13/02-jeremysnr-project-foundry.md"
     }
   ]
 }
