@@ -1,0 +1,12 @@
+---
+title: "Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why"
+source: "Hacker News Top + Show HN"
+url: "https://ai-rete-rag.com/"
+date: "2026-09-22"
+topic: "AI agents"
+type: "article"
+read: false
+summary: "Hi HN, I built ai·rete·rag because I kept seeing teams put an LLM in charge of decisions that need to be auditable (lending, fraud, clinical triage), then bolt on \"guardrails\" after the fact. It runs the two in series instead: 1. A pure-Python Rete engine evaluates YAML rules against your facts. The verdict comes only from here. Same facts, same verdict,... (Local summary fallback used.)"
+---
+
+Hi HN, I built ai·rete·rag because I kept seeing teams put an LLM in charge of decisions that need to be auditable (lending, fraud, clinical triage), then bolt on "guardrails" after the fact. It runs the two in series instead: 1. A pure-Python Rete engine evaluates YAML rules against your facts. The verdict comes only from here. Same facts, same verdict, every time, with salience-based conflict resolution. 2. RAG retrieves passages from your own policy documents, and an LLM writes a plain-English explanation of the decision that was already made, citing those passages. It can't change the verdict. A few things that went further than I expected: - Rules are a graph, not flat lists: nested all/any/not, and rules can assert facts that other rules consume (forward chaining). The decision trace shows the causal chain. - Audit mode records every rule evaluated, including the ones that didn't fire, condition by condition, with a snapshot of the rule set for replay. - Rules can steer retrieval (a fired rule narrows which documents get searched), and retrieved text can be turned into facts for the engine. - Non-technical authors can build rules in a visual editor, or paste a policy document and get LLM-drafted rules with citations. Drafts are never saved without review. YAML is still there for engineers. The landing page has a live demo with no signup (8 demo domains: loan, fraud, clinical, insurance, legal, ops, e-commerce, blockchain). There's also an MCP server, so Claude and other agents can call /decide as a tool: `uvx ai-rete-rag-mcp`. To be upfront: it's a hosted product with a free tier. The MCP client is open source (MIT, github.com/zaharajabeen13-create/ai-rete-rag-mcp); the engine and platform are not open source right now. I'd especially like to hear from anyone who has had to explain an automated decision to a regulator or an auditor: what did they actually ask for?

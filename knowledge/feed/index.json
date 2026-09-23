@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T09:32:40.627Z",
+  "updated_at": "2026-09-23T09:37:53.807Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Training a model to identify AI web content from structure alone",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://arxiv.org/abs/2609.15369",
+      "date": "2026-09-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! We’re Vincent and Jochen from Sitefire ( https://sitefire.ai ). We have been working together for years, with backgrounds in RL/optimization at Stanford and software engineering from Technical University Munich (TUM). With Sitefire (YC W26), we help marketing teams get recommended by AI Search (ChatGPT, Google AI Overviews, AI Mode, Claude, etc.).... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-22/06-show-hn-training-a-model-to-identify-ai-web-content-from-structure-alo.md"
+    },
+    {
+      "title": "Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://ai-rete-rag.com/",
+      "date": "2026-09-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I built ai·rete·rag because I kept seeing teams put an LLM in charge of decisions that need to be auditable (lending, fraud, clinical triage), then bolt on \"guardrails\" after the fact. It runs the two in series instead: 1. A pure-Python Rete engine evaluates YAML rules against your facts. The verdict comes only from here. Same facts, same verdict,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-22/07-show-hn-ai-rete-rag-a-rete-rule-engine-decides-rag-explains-why.md"
+    },
+    {
+      "title": "Show HN: Visually orchestrate Claude Code AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/rondoflow/rondoflow",
+      "date": "2026-09-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Visually orchestrate Claude Code AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+    },
+    {
+      "title": "Show HN: A fast, offline Markdown viewer for macOS built in Swift",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/temir-dev/tims-markdown-reader",
+      "date": "2026-09-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! I made Tim’s Markdown Reader because I wanted a free, open-source app just for reading Markdown. I spend a lot of time working with AI coding agents, and sometimes I just want to open the files they produce and read them without opening an editor. It’s written in Swift and works entirely offline, including Mermaid diagrams. It has no accounts, tele... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-22/09-show-hn-a-fast-offline-markdown-viewer-for-macos-built-in-swift.md"
+    },
+    {
+      "title": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
+      "source": "Hacker News Show HN",
+      "url": "https://droprun.sh/",
+      "date": "2026-09-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I created Drop because I always felt uneasy installing and running third-party programs using my main user account. A single compromised dependency means a full compromise of the system. What is even worse, because I ship software from my computer, a single compromised dependency can lead to compromise of all the users of my software. Containers and VMs a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-22/10-show-hn-drop-a-rootless-linux-sandbox-with-gvisor-support.md"
+    },
+    {
+      "title": "Show HN: Napkin – a scratchpad that holds texts and images for copy",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/sudomonas/napkin",
+      "date": "2026-09-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Napkin is a simple scratchpad to hold text and images to copy later or until you don't need them anymore, or when you don't want to organize temporary files. Clipboard does a similar kind of job, but it is essentially meant for copy and paste, it is volatile. Normally, you can't access the image or text you copied 10 days ago on clipboard. And that's fine... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-23/11-show-hn-napkin-a-scratchpad-that-holds-texts-and-images-for-copy.md"
+    },
+    {
+      "title": "Show HN: NetM8 OS",
+      "source": "Hacker News Show HN",
+      "url": "https://netm8.com/",
+      "date": "2026-09-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "First post on HN. I wanted to make my marketing/digital consultancy site a bit fun and different with an OS-inspired landing page. Click around, have fun and break things (although go easy on the 'concierge' which is on a free Workers AI plan pls)! I'm a solo marketing and communications person and have self taught web dev-ish over the past three years an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-22/12-show-hn-netm8-os.md"
+    },
+    {
+      "title": "Show HN: Hack – my Hacker News mobile client now lets you block AI posts",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=49802005",
+      "date": "2026-09-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN! I am the developer for HACK, a hacker news client that I have been building and maintaining for over 8 years now on iOS, iPadOS, MacOS and Android. Wanted to share this news as there's been a ton of interest in these features recently. Now, you can block AI related posts in the app. You can also disable infinite scrolling to prevent you from doo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-22/13-show-hn-hack-my-hacker-news-mobile-client-now-lets-you-block-ai-posts.md"
+    },
+    {
+      "title": "Pirate Face - pirate bay for LLMs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnxhji/pirate_face_pirate_bay_for_llms/",
+      "date": "2026-09-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The title says for itself In case someone desides to censor huggingface, we'll have an alternative submitted by /u/Atagor [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/14-pirate-face-pirate-bay-for-llms.md"
+    },
+    {
+      "title": "GGUFs in transformers natively!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnxm0r/ggufs_in_transformers_natively/",
+      "date": "2026-09-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey there folks! Aritra here from Hugging Face. I wanted to update you all about the latest changes in `transformers`. We now natively support GGUFs (llama cpp quants). You can use it like so: from transformers import AutoModelForCausalLM, AutoTokenizer model_id = \"unsloth/Qwen3.5-4B-GGUF\" filename = \"Qwen3.5-4B-Q4_K_M.gguf\" model = AutoModelForCausalLM.f... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/15-ggufs-in-transformers-natively.md"
+    },
+    {
+      "title": "Engram gone wild! 2b model update...",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnzu2f/engram_gone_wild_2b_model_update/",
+      "date": "2026-09-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Update from : https://old.reddit.com/r/LocalLLaMA/comments/1wis23s/update_small_model_engram/ It's been about a week so I'm back. People were asking me about the model. People wanted code, or models, etc. Most of that is useless to you right now because you're not going to use an under trained model. So let's get to the details. The spec locked to the fol... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/16-engram-gone-wild-2b-model-update.md"
+    },
+    {
+      "title": "stuntd: a local Jev-compatible server on Laya that learns from your own traffic (no API key needed)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnt7kv/stuntd_a_local_jevcompatible_server_on_laya_that/",
+      "date": "2026-09-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "What it is. stuntd is a local proxy for typed LLM decisions: choice, yes/no, score. Your app keeps calling its provider through it. stuntd records the decisions, trains a small head on top of Laya (the open-weights System One model; the encoder stays frozen), serves it in shadow mode, and switches to live only once it agrees with the provider at your targ... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/17-stuntd-a-local-jev-compatible-server-on-laya-that-learns-from-your-own.md"
+    },
     {
       "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Since April, I have been working with Sam Flynn ( https://drook.dev ) to make this balloon payload, UpLink. We did a similar launch last year with Hack Club but this was our first independent launch. UpLink was a 491 gram payload testing the insulation properties of 3D printing filaments, while also transmitting 320x240 images over a radio link -- up from... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/11-show-hn-we-chased-a-weather-balloon-across-montana-and-never-found-it.md"
-    },
-    {
-      "title": "Show HN: Molecule.dev is an AI-first composable package ecosystem",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/molecule-dev/molecule",
-      "date": "2026-08-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Molecule.dev is an AI-first composable package ecosystem (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/12-show-hn-molecule-dev-is-an-ai-first-composable-package-ecosystem.md"
-    },
-    {
-      "title": "Show HN: PingChange – monitor web pages and OpenAPI specs for meaningful changes",
-      "source": "Hacker News Show HN",
-      "url": "https://pingchange.com",
-      "date": "2026-08-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built PingChange after watching the same thing happen over and over: a competitor prices change, a company policy is updated or important web content changes but there is often no reliable way to track it and know when it happens. The tool monitors web pages and API on a schedule and alerts your team when something meaningful changes. The keyword here i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/13-show-hn-pingchange-monitor-web-pages-and-openapi-specs-for-meaningful-.md"
-    },
-    {
-      "title": "Getting better at coding doesn't make a model better at everything else",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtoqr9/getting_better_at_coding_doesnt_make_a_model/",
-      "date": "2026-08-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "A majority of users in this sub use LLMs for coding/agentic tasks and I see why a lot of value is put into them but many try to say \"Well coding has improved therefore it can just use tool calling and/or just look up what the user needs if there's a degradation for general knowledge/reasoning\" and that's just not the case. Many LLM usecases can't just be... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-20/14-getting-better-at-coding-doesn-t-make-a-model-better-at-everything-els.md"
-    },
-    {
-      "title": "I did it! I'm free! It's been 7 hours since I used claudecode",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu1e3u/i_did_it_im_free_its_been_7_hours_since_i_used/",
-      "date": "2026-08-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "My Pro subscription expired today, they killed my access at 1pm local time. I'm now using Qwen3.8-27b w/ 5090m 24gb vram and pi to do everything i was doing in claudecode. The only downside is claudecode let me code without using my gpu, meaning I have to plan things now. Last night I had ChatGPT write up a prompt for a fancy aurora predictor for Canadian... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-21/15-i-did-it-i-m-free-it-s-been-7-hours-since-i-used-claudecode.md"
-    },
-    {
-      "title": "Qwen 3.8 27b - PI AGENT vs OPENCODE",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu0u2v/qwen_38_27b_pi_agent_vs_opencode/",
-      "date": "2026-08-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://www.reddit.com/r/LocalLLaMA/comments/1j7r47l/i_just_made_an_animation_of_a_ball_bouncing/ This post inspired me to make that test after a year ;) That is one of my many tests I make comparing output quality. What is more interesting using a PI Agent results are much better than an Opencode using a Qwen 3.8 27b ?! Seems PI Agent is much better in t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-21/16-qwen-3-8-27b-pi-agent-vs-opencode.md"
-    },
-    {
-      "title": "SenseNova U1.5-Lite full release: expert training, OPD distillation, one model at inference",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training/",
-      "date": "2026-08-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Benchmarks: Benchmark U1 Preview Full Qwen-Image-Bench 47.14 55.20 (PE) 60.18 (PE) ImgEdit 3.9 4.37 4.59 GEdit-Bench-EN 7.47 8.14 8.26 Instead of just scaling up, they train task-specialized expert models for text rendering and infographics, aesthetic quality, and image editing. Then OPD consolidates those experts back into U1.5-Lite. At inference you get... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-21/17-sensenova-u1-5-lite-full-release-expert-training-opd-distillation-one-.md"
-    },
-    {
-      "title": "Show HN: Naeos – an engineering system for AI coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/NAEOS-foundation/naeos",
-      "date": "2026-08-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "NAEOS is an open-source engineering system for AI coding agents.It provides architecture, engineering standards, policies, specifications, and validation wworkflow to help agents build software within a consistent engineering context (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-19/06-show-hn-naeos-an-engineering-system-for-ai-coding-agents.md"
-    },
-    {
-      "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.19072v1",
-      "date": "2026-08-19",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large language model (LLM) agents can now post-train an LLM end-to-end. They can write code, launch training, evaluate checkpoints, and improve downstream performance, raising the prospect of AI-for-AI. We argue that this picture conflates two distinct capabilities: execution-level capability, iterating within a selected training strategy; and strategy-le... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-19/07-what-is-missing-from-ai-post-training-ai-an-empirical-analysis.md"
-    },
-    {
-      "title": "A Theory of Post-hoc Debate Judgement",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.19002v1",
-      "date": "2026-08-19",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Debates have recently emerged as a useful methodology for agentic AI to improve performance as well as to aid explainability and user engagement. For example, LLM-empowered agents may debate internally (with themselves) and/or externally (with other agents). In many settings where debates are used, debates' outcomes and resulting outputs are determined po... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-19/08-a-theory-of-post-hoc-debate-judgement.md"
-    },
-    {
-      "title": "DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.18878v1",
-      "date": "2026-08-19",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Oral diseases affect billions of people worldwide, underscoring a pressing need for accurate and reliable dental assessment that integrates heterogeneous evidence from domain knowledge, radiographs, intraoral photographs, and 3D dental data. Most existing dental AI systems remain modality- or task-specific. Although recent vision-language models support f... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-19/09-dentagent-evidence-centric-multi-agent-coordination-for-multimodal-den.md"
-    },
-    {
-      "title": "alejandro-publius/streetcred",
-      "source": "GitHub Search API",
-      "url": "https://github.com/alejandro-publius/streetcred",
-      "date": "2026-08-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Grades the evidence about dangerous street corners. Official records, press, residents, and an AI visual audit, ending in a drafted letter to the right Supervisor. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/10-alejandro-publius-streetcred.md"
-    },
-    {
-      "title": "Show HN: Mail client optimized for self-hosted email across multiple domains",
-      "source": "Hacker News Show HN",
-      "url": "https://mainly.crnst8.com/",
-      "date": "2026-08-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "As someone with a clean IP range and ADHD, I manage my inbox by splitting across a variety of accounts for a variety of domains. I’ve never really found a client that scratches all my itches, so I spent some time making one and it’s now become my daily driver. It’s optimised to be visually simple and highly configurable for things like colour, folders/sub... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/11-show-hn-mail-client-optimized-for-self-hosted-email-across-multiple-do.md"
     }
   ]
 }
