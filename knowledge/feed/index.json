@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T09:37:53.807Z",
+  "updated_at": "2026-09-24T09:37:10.267Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: AgentRun: DSL to turn agents into Workflows",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Parcha-ai/agentrun",
+      "date": "2026-09-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I just open sourced the DSL that our harness in grep.ai uses to turn repeatable parts of agent work into workflows. You can combine tool calls, code, Jev-powered system one decisions for things like routing and screening evidence, and agents when a step needs more investigation. Our harness uses the traces and retro notes agents leave behind when d... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/06-show-hn-agentrun-dsl-to-turn-agents-into-workflows.md"
+    },
+    {
+      "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.28372v1",
+      "date": "2026-09-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. Using \"Tool-Lab,\" an adaptation of information-board process tracing that places product attributes behind costly tool calls, we examine how marketing pricing cues (i.e., just-below pricing and promotional framing) influence AI shopping agen... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/07-shopping-by-algorithm-how-agentic-ai-deploys-human-heuristics-as-a-sur.md"
+    },
+    {
+      "title": "Shutdown Sabotage Propensities in Multi-Agent Systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.28274v1",
+      "date": "2026-09-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human shutdown even when no goal is provided. We find that mult... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-shutdown-sabotage-propensities-in-multi-agent-systems.md"
+    },
+    {
+      "title": "Controlling Collectives of AI Agents in Reasoning Space with Spatial Transformers",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.28247v1",
+      "date": "2026-09-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large Language Models (LLMs) introduce an exciting new paradigm for planning and navigation in robotics, but fail on even simple multi-robot tasks as team sizes grow. We propose COMPASS, a scalable, decentralized multi-robot architecture for controlling large collectives of agentic robots with reasoning space feedback control. Feedback is generated locall... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/09-controlling-collectives-of-ai-agents-in-reasoning-space-with-spatial-t.md"
+    },
+    {
+      "title": "Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
+      "source": "Hacker News Show HN",
+      "url": "https://www.forensicdbg.com",
+      "date": "2026-09-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN! I've spent years debugging Windows crashes with tools that were either friendly but limited (e.g. Visual Studio) or powerful but archaic (e.g. WinDbg). I developed patterns and methods for understanding what was going on, and decided to build it into a much more effective debugging tool called ForensicDbg. I built a modern interface to minimize... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-23/10-show-hn-i-built-a-post-mortem-debugger-for-native-windows-x64-x86-cras.md"
+    },
+    {
+      "title": "uditakankananonononono/sugarcode-ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/uditakankananonononono/sugarcode-ai",
+      "date": "2026-09-24",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Sugarcode AI (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-24/11-uditakankananonononono-sugarcode-ai.md"
+    },
+    {
+      "title": "Show HN: Trader News – Hacker News for Finance",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=49828019",
+      "date": "2026-09-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hacker News helps me stay in touch with the world of technology without putting in extensive web browsing work, and I love it for that reason. I am interested in financial markets and wanted a “Hacker News for finance”, but Googling produced surprisingly poor results. So I forked the great HN clone, shark [1], and added some market focused twists. The res... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-24/12-show-hn-trader-news-hacker-news-for-finance.md"
+    },
+    {
+      "title": "Show HN: Air-gapped file encryption as self-decrypting HTML page",
+      "source": "Hacker News Show HN",
+      "url": "https://cms-sfx-demo.apeleg.com/",
+      "date": "2026-09-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Air-gapped file encryption packed into a single, self-decrypting HTML page. AI-free. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-24/13-show-hn-air-gapped-file-encryption-as-self-decrypting-html-page.md"
+    },
+    {
+      "title": "Jev isn't new tech. Its marketing targets people who think AI started with LLMs.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people/",
+      "date": "2026-09-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I keep seeing Jev presented as some new class of decision model, but most of what’s being advertised is just normal classifier behavior with modern zero-shot capabilities. It outputs probabilities over constrained choices, doesn’t generate autoregressively, can’t output an invalid class, and can use labels defined at inference time. None of that is new. Z... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/14-jev-isn-t-new-tech-its-marketing-targets-people-who-think-ai-started-w.md"
+    },
+    {
+      "title": "JEV almost dead: CLM vs JEV",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wouby6/jev_almost_dead_clm_vs_jev/",
+      "date": "2026-09-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Original post: https://www.reddit.com/r/LocalLLaMA/comments/1woscea/contrastive_language_models/ (sorry I felt it wasn't giving CLM the highlight it deserves) What it is: a new projection head for Qwen3-8B. github: https://github.com/Contrastive-LM/CLM hf: https://huggingface.co/Contrastive-LM At the API and functional interface level, CLM supports everyt... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/15-jev-almost-dead-clm-vs-jev.md"
+    },
+    {
+      "title": "Introducing Support for Local AI Models in the Antigravity SDK",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wof9kk/introducing_support_for_local_ai_models_in_the/",
+      "date": "2026-09-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/dryadofelysium [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/16-introducing-support-for-local-ai-models-in-the-antigravity-sdk.md"
+    },
+    {
+      "title": "My foray into local ai. Two BC-250 ex mining apus running Qwen3.6-35B-A3B Q4_K_M at 60 tok/s with 64k context",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wou3gr/my_foray_into_local_ai_two_bc250_ex_mining_apus/",
+      "date": "2026-09-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "These boards cost me $115 each and I have them connected using llama.cpp with Vulkan and RPC on Bazzite. The boards have roughly 27GB of combined GPU memory and communicate over 1gb Ethernet. For around $300 including psu I’m loving the performance. I have a few more and want to see what 6 looks like trying to run qwen 3.8 flash. submitted by /u/Ok-Breadf... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/17-my-foray-into-local-ai-two-bc-250-ex-mining-apus-running-qwen3-6-35b-a.md"
+    },
     {
       "title": "Show HN: Training a model to identify AI web content from structure alone",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "saikambala123/Zapply Stars: 0 (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-22/11-saikambala123-zapply.md"
-    },
-    {
-      "title": "adititiwari21/ai-crm",
-      "source": "GitHub Search API",
-      "url": "https://github.com/adititiwari21/ai-crm",
-      "date": "2026-08-22",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "adititiwari21/ai-crm Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-22/12-adititiwari21-ai-crm.md"
-    },
-    {
-      "title": "Show HN: Shoehorn – Quantize any model down to run on your machine",
-      "source": "Hacker News Show HN",
-      "url": "https://notactuallytreyanastasio.github.io/shoehorn/",
-      "date": "2026-08-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Working on Mac, Linux, and Windows now. I include a simple GUI to find new models and get things built and set up. It is working quite well across a few models for me. The GitHub README and DESIGN.md files go into detail of the how/why and it's working remarkably well so far. https://github.com/notactuallytreyanastasio/shoehorn (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-show-hn-shoehorn-quantize-any-model-down-to-run-on-your-machine.md"
-    },
-    {
-      "title": "Strix Halo (8060S / gfx1151), Qwen-3.8-27B @ Q8 and Q6 UD v3, up to 256K ctx, llama.cpp, DFlash2, vision, real workloads quality and steady performances, optimized recipes, ...",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuqwd8/strix_halo_8060s_gfx1151_qwen3827b_q8_and_q6_ud/",
-      "date": "2026-08-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi fellows fully-local halos, after manually following existing guides, I decided to build an LLM API endpoint installation and optimization guide that works even when autonomously followed by my pi agent, so I can install/experiment/reinstall easily and without babysitting. Q8 is my default citizen, options for Q6 and Q5. Recipes: Quality (Q8), Balanced... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-21/14-strix-halo-8060s-gfx1151-qwen-3-8-27b-q8-and-q6-ud-v3-up-to-256k-ctx-l.md"
-    },
-    {
-      "title": "I tried to do agenic coding with Qwen 3.8 27B 3bit quant on a macbook air m2 24gb. It took 63 hours, but amazingly, the flight simulator worked.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/",
-      "date": "2026-08-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I used LM Studio Bionic with Qwen 3.8 27B Q3_K_S with 57k context. It took a staggering 63 hours to finish coding. After the first prompt \"Create a beautiful, relaxing flight simulator in a single HTML page\" taking 47.8 hours, it created an html file that showed the title screen that said \"press any key\" but pressing any keys won't advance the game. So I... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-21/15-i-tried-to-do-agenic-coding-with-qwen-3-8-27b-3bit-quant-on-a-macbook-.md"
-    },
-    {
-      "title": "This is why I run locally.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv1qfs/this_is_why_i_run_locally/",
-      "date": "2026-08-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "It was only a matter of time... submitted by /u/Retumbo77 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/16-this-is-why-i-run-locally.md"
-    },
-    {
-      "title": "Qwen 3.8 27b - PI AGENT vs OPENCODE - another smaple",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuwwww/qwen_38_27b_pi_agent_vs_opencode_another_smaple/",
-      "date": "2026-08-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "That is the second comparison and the last one. I will not be spamming again ;) Continuation from: https://www.reddit.com/r/LocalLLaMA/comments/1vu0u2v/qwen_38_27b_pi_agent_vs_opencode/ That is one of my many tests I make comparing output quality. What is more interesting using a PI Agent results are much better than an Opencode using a Qwen 3.8 27b ?! Se... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/17-qwen-3-8-27b-pi-agent-vs-opencode-another-smaple.md"
-    },
-    {
-      "title": "Show HN: Huzzah – a novel approach to coding with AI",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.danielvaughn.dev/posts/huzzah/",
-      "date": "2026-08-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello everyone. I've been working on this experimental editor called Huzzah. I've been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They're great, but I'm finding it more and more tedious to write full sentences for every change I want. Not only that, but... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-20/06-show-hn-huzzah-a-novel-approach-to-coding-with-ai.md"
-    },
-    {
-      "title": "Show HN: Praxos – team messaging with built-in memory",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.praxos.ai/",
-      "date": "2026-08-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! What does a regular workflow at a startup look like? Probably like this: > One founder talks to customers > Another founder builds > A customer asks for something. The first founder explains it to the second. The second founder explains it to Claude > Two weeks any one of the founders asks one of the following questions: \\* Why are we building it... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-20/07-show-hn-praxos-team-messaging-with-built-in-memory.md"
-    },
-    {
-      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.20318v1",
-      "date": "2026-08-20",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agen... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-20/08-ai4ai-bench-benchmarking-llm-agents-in-algorithmic-design-for-recursiv.md"
-    },
-    {
-      "title": "Growth Without Us: Machine Consumers, Corporate Circularity, and the Decoupling of GDP from Humanity after AGI",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.20231v1",
-      "date": "2026-08-20",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The standard objection to full automation is demand-side: if humans earn nothing, who buys the output? This confuses an accounting role with a biological species. We model a post-AGI economy in which corporations own populations of AI and robotic agents that are both producers and consumers of energy, compute, maintenance, and upgrades, traded among firms... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-20/09-growth-without-us-machine-consumers-corporate-circularity-and-the-deco.md"
-    },
-    {
-      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-      "source": "Hacker News Show HN",
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-      "date": "2026-08-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes/sec on an iPhone 15). The idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues what you played, entirely on-device. The app is free if anyone wan... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/10-show-hn-i-trained-a-125m-model-to-autocomplete-piano-on-device.md"
-    },
-    {
-      "title": "Show HN: We chased a weather balloon across Montana and never found it",
-      "source": "Hacker News Show HN",
-      "url": "https://radi8.dev/blog/uplink/",
-      "date": "2026-08-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Since April, I have been working with Sam Flynn ( https://drook.dev ) to make this balloon payload, UpLink. We did a similar launch last year with Hack Club but this was our first independent launch. UpLink was a 491 gram payload testing the insulation properties of 3D printing filaments, while also transmitting 320x240 images over a radio link -- up from... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-20/11-show-hn-we-chased-a-weather-balloon-across-montana-and-never-found-it.md"
     }
   ]
 }

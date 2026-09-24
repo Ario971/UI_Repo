@@ -1,0 +1,512 @@
+---
+id: "konglong87/superpm"
+name: "konglong87/superPM"
+url: "https://github.com/konglong87/superPM"
+date: "2026-09-24"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "claude_skill"
+compatibility: 84
+momentum: 80
+risk: 24
+integration_effort: 40
+expected_gain: 87
+composite: 80
+replacement_target: ""
+related_articles: [{"title":"WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution","date":"2026-08-27","topic":"AI agents","similarity":0.455,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-wikiskill-compiling-agent-experience-into-persistent-knowledge-for-ski.md"},{"title":"Show HN: USB – A universal skill bridge for AI agents","date":"2026-08-23","topic":"AI agents","similarity":0.239,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/07-show-hn-usb-a-universal-skill-bridge-for-ai-agents.md"}]
+pros: ["Recently updated (2026-09-24)","MIT license","69 GitHub stars","GitHub Actions/CI detected"]
+cons: ["No obvious v1 warning, still review upstream code before use"]
+readme_quality: 85
+has_ci: true
+has_tests: true
+setup_steps_count: 3
+dependency_files: [{"name":"package.json","summary":"deps none; scripts test, sync:workflow-deps, sync:skill-index, eval:report"}]
+install_commands: ["npx skills add https://github.com/konglong87/superPM","git clone https://github.com/konglong87/superPM.git ~/.config/opencode/super-pm","git clone https://github.com/konglong87/superPM.git ~/.codex/super-pm","git clone https://github.com/konglong87/superPM.git ~/.cursor/super-pm","git clone https://github.com/konglong87/superPM.git \"$env:USERPROFILE\\.config\\opencode\\super-pm\"","git clone https://github.com/konglong87/superPM.git \"$env:USERPROFILE\\.codex\\super-pm\""]
+risk_flags: []
+status: "new"
+---
+
+# konglong87/superPM
+
+专为产品经理设计的 AI工具 Skills技能，一键实现全生命周期的产品管理工作流。skills frame for superPM！
+
+URL: https://github.com/konglong87/superPM
+
+## Why it matters
+You saved an article on 2026-08-27 about AI agents; this candidate overlaps with "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-09-24)
++ MIT license
++ 69 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- No obvious v1 warning, still review upstream code before use
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- package.json: deps none; scripts test, sync:workflow-deps, sync:skill-index, eval:report
+
+Install commands found:
+- npx skills add https://github.com/konglong87/superPM
+- git clone https://github.com/konglong87/superPM.git ~/.config/opencode/super-pm
+- git clone https://github.com/konglong87/superPM.git ~/.codex/super-pm
+- git clone https://github.com/konglong87/superPM.git ~/.cursor/super-pm
+- git clone https://github.com/konglong87/superPM.git "$env:USERPROFILE\.config\opencode\super-pm"
+- git clone https://github.com/konglong87/superPM.git "$env:USERPROFILE\.codex\super-pm"
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+<div align="center">
+
+# super-pm 产品经理技能包
+
+**让每个产品经理都能轻轻松松的高效工作** ☕️ 📺 🚀
+
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-≥2.0.0-orange.svg)](https://claude.ai/code)
+
+**[English](./README.en.md)** | 中文
+
+</div>
+
+---
+
+## 📖 项目简介
+
+<img align="right" src="./assets/slogan.png" alt="PM 的 AI 超能力" width="280">
+
+**super-pm** 是专为产品经理设计的 Claude Code Skill Pack，提供全生命周期的产品管理工作流支持。
+
+### 核心特性
+
+- ✅ **56个可发现入口** - 覆盖需求、方案、增长、风控、战略、职业发展、专家视角全流程（44 核心 + 6 工具 + 6 工作流）
+- ✅ **灵感火花激发** - AI主动生成创意灵感，解决"不知道做什么"困境 ⭐ NEW
+- ✅ **轻量级设计** - 纯 Markdown 指令，无代码依赖
+- ✅ **智能交互** - 一次一问，逐步引导
+- ✅ **数据流转** - Markdown 文档自动传递，人类可读
+- ✅ **只讨论不落盘** - 启动检查不创建目录；仅在用户确认目标路径与覆盖方式后写入产物
+- ✅ **风险前置** - 早期验证需求真伪，避免无效工作
+- ✅ **兜底完善** - 异常处理、跨会话恢复、灵活跳过
+
+---
+
+## 先选任务，而不是先选 56 个入口
+
+| 我现在要做什么 | 建议入口 | 需要准备 | 可验证产出 |
+|---|---|---|---|
+| 验证新想法 | `/validate-idea` | 想法和目标用户（不完整也可开始） | 痛点证据、优先级、MVP 边界 |
+| 将需求写成 PRD | `/write-prd` | 已有调研或待澄清的需求 | 可追溯需求、范围与验收标准 |
+| 为上线做准备 | `/plan-launch` | 方案、当前交付状态 | 风险、责任人、回滚与上线检查 |
+| 优化已上线产品 | `/analyze-growth` | 实际指标与时间范围 | 漏斗诊断、增长实验和迭代建议 |
+
+新产品链会先检查是否需要 `/pm-brainstorm`；已有相关产物可复用，用户明确跳过时不强迫走完整流程。每个环节应区分**事实（来源与日期）/假设/决策**，文档是否生成以实际结果为准，而非预先承诺。完整步骤见 [`skills/_shared/workflow-contract.md`](./skills/_shared/workflow-contract.md)。
+
+## 🚀 快速开始
+
+### ⚡ 一行命令安装（最简单）
+
+```bash
+npx skills add https://github.com/konglong87/superPM
+```
+
+| 命令 | 说明 |
+|------|------|
+| `npx skills add https://github.com/konglong87/superPM` | 安装全部技能 |
+| `npx skills add https://github.com/konglong87/superPM --skill "pm-demand"` | 安装单个技能 |
+| `npx skills add https://github.com/konglong87/superPM --list` | 查看可用技能 |
+| `npx skills add https://github.com/konglong87/superPM -g` | 全局安装 |
+| `npx skills add https://github.com/konglong87/superPM --skill "pm-demand" --agent claude-code cursor` | 指定平台安装 |
+
+> 💡 支持 Claude Code、Cursor、Codex、OpenCode 等主流 AI 编程工具，通过 `--agent` 指定目标平台。
+
+> ⚠️ **单装工作流入口不等于装齐依赖。** 例如 `/validate-idea` 会调用需求、市场、优先级、MVP 等技能。完整安装见上方「全部技能」命令；只想安装这条链时使用：
+>
+> ```bash
+> npx skills add https://github.com/konglong87/superPM --skill validate-idea pm-demand pm-market pm-priority pm-mvp pm-brainstorm
+> ```
+>
+> 执行前，入口会检查所需技能；缺失时停止并提示安装，不会伪造已完成的环节。新产品默认需要头脑风暴；相关产物已存在或用户明确跳过时不调用。
+
+
+
+---
+
+### 🔧 手动安装（各平台）
+
+所有平台统一模式：**git clone → 创建链接 → 重启**
+
+| 平台 | clone 目标路径 | skills 链接路径 | 验证命令 |
+|------|---------------|----------------|---------|
+| Claude Code ⭐ | — | Marketplace 一键安装 | `/super-pm` |
+| OpenCode | `~/.config/opencode/super-pm` | `~/.config/opencode/skills/super-pm` | `use skill tool to list all skills` |
+| Codex | `~/.codex/super-pm` | `~/.agents/skills/super-pm` | `list available skills` |
+| Cursor | `~/.cursor/super-pm` | `~/.cursor/skills/super-pm` | `list skills` |
+
+> 💡 Claude Code 最推荐：Marketplace 一键安装，自动注册 plugin + SessionStart hook，无需手动 clone。
+
+### macOS / Linux
+
+```bash
+# Claude Code（最推荐 ⭐ — Marketplace 一键安装）
+/plugin marketplace add konglong87/super-pm
+/plugin install super-pm@super-pm-marketplace
+
+# OpenCode
+git clone https://github.com/konglong87/superPM.git ~/.config/opencode/super-pm
+mkdir -p ~/.config/opencode/skills && ln -s ~/.config/opencode/super-pm/skills ~/.config/opencode/skills/super-pm
+
+# Codex
+git clone https://github.com/konglong87/superPM.git ~/.codex/super-pm
+mkdir -p ~/.agents/skills && ln -s ~/.codex/super-pm/skills ~/.agents/skills/super-pm
+
+# Cursor
+git clone https://github.com/konglong87/superPM.git ~/.cursor/super-pm
+mkdir -p ~/.cursor/skills && ln -s ~/.cursor/super-pm/skills ~/.cursor/skills/super-pm
+```
+
+### Windows (PowerShell)
+
+```powershell
+# Claude Code（最推荐 ⭐ — Marketplace 一键安装）
+/plugin marketplace add konglong87/super-pm
+/plugin install super-pm@super-pm-marketplace
+
+# OpenCode
+git clone https://github.com/konglong87/superPM.git "$env:USERPROFILE\.config\opencode\super-pm"
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.config\opencode\skills"
+New-Item -ItemType Junction -Path "$env:USERPROFILE\.config\opencode\skills\super-pm" -Target "$env:USERPROFILE\.config\opencode\super-pm\skills"
+
+# Codex
+git clone https://github.com/konglong87/superPM.git "$env:USERPROFILE\.codex\super-pm"
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.agents\skills"
+cmd /c mklink /J "$env:USERPROFILE\.agents\skills\super-pm" "$env:USERPROFILE\.codex\super-pm\skills"
+
+# Cursor
+git clone https://github.com/konglong87/superPM.git "$env:USERPROFILE\.cursor\super-pm"
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.cursor\skills"
+New-Item -ItemType Junction -Path "$env:USERPROFILE\.cursor\skills\super-pm" -Target "$env:USERPROFILE\.cursor\super-pm\skills"
+```
+
+> 💡 **Cursor Hook 支持**：克隆完整仓库后，`.cursor-plugin/plugin.json` + `hooks/hooks-cursor.json` 可被 Cursor 插件系统发现，实现会话启动时自动注入 PM 技能上下文。
+
+### 验证安装
+
+重启后执行对应平台的验证命令（见上方表格）。看到 super-pm 欢迎信息即安装成功。
+
+### 创建配置文件
+
+在项目根目录创建 `PM-CLAUDE.md`:
+
+```markdown
+# 产品基础信息
+产品名称: 我的电商小程序
+产品定位: 生鲜配送平台
+目标用户: 25-35岁一二线城市女性
+业务目标: 提升复购率至40%
+
+# 模式配置
+product_mode: ToB
+user_mode: beginner
+auto_trigger: true
+
+# 技能激活
+skills: pm-skills
+web_search: true
+```
+
+### 第一个需求调研
+
+```bash
+/pm-brainstorm    # 先发散再收敛
+/pm-demand        # 方向明确后直接调研
+```
+
+---
+
+## 🛤️ 黄金路径 — 从零到一的主线流程
+
+56 个入口看起来很多，但大多数项目只需要走一条主线。以下是三条最常用的路径：
+
+### 路径 A：新产品从零到一（最常用 ⭐）
+
+```
+/pm-brainstorm → /pm-demand → /pm-market → /pm-priority → /pm-mvp → /pm-docs → /pm-preview → /pm-tech → /pm-release
+```
+
+| 步骤 | 技能 | 产出 | 你要回答的问题 |
+|------|------|------|---------------|
+| 1 | `/pm-brainstorm` | 头脑风暴方案 | 产品方向有哪些可能性？目标用户是谁？ |
+| 2 | `/pm-demand` | 需求调研报告 | 这个方向真值得做吗？用户痛点真实吗？ |
+| 3 | `/pm-market` | 市场调研报告 | 市场有多大？竞品是谁？ |
+| 4 | `/pm-priority` | 优先级排序报告 | 哪些需求先做？ |
+| 5 | `/pm-mvp` | MVP方案 | 最小可行产品包含什么？ |
+| 6 | `/pm-docs` | PRD文档 | 产品需求怎么写？ |
+| 7 | `/pm-preview` | 浏览器实时预览 | 文档渲染效果对吗？内容确认无误？ |
+| 8 | `/pm-tech` | 技术对接方案 | 技术上怎么做？ |
+| 9 | `/pm-release` | 上线执行方案 | 怎么安全上线？ |
+
+> 💡 **方向已明确？** 显式输入 `/pm-demand` 可直达，但需通过前置门禁。自然语言请求仍需先走 `/pm-brainstorm`。
+
+### 路径 B：已有产品，优化增长
+
+```
+/pm-aarrr → /pm-growth → /pm-report → /pm-iteration
+```
+
+| 步骤 | 技能 | 产出 | 你要回答的问题 |
+|------|------|------|---------------|
+| 1 | `/pm-aarrr` | AARRR增长分析 | 增长漏斗哪里断了？ |
+| 2 | `/pm-growth` | 增长执行方案 | 怎么修复？ |
+| 3 | `/pm-report` | 数据报告 | 效果如何？ |
+| 4 | `/pm-iteration` | 迭代计划 | 下一步做什么？ |
+
+### 路径 C：战略决策（独立使用）
+
+```
+/pm-business-model → /pm-decision → /pm-portfolio → /pm-resource
+```
+
+| 步骤 | 技能 | 产出 | 你要回答的问题 |
+|------|------|------|---------------|
+| 1 | `/pm-business-model` | 商业模式画布 | 怎么赚钱？ |
+| 2 | `/pm-decision` | 战略决策建议 | 选哪条路？ |
+| 3 | `/pm-portfolio` | 产品组合战略 | 多产品线怎么管？ |
+| 4 | `/pm-resource` | 资源分配方案 | 人和钱怎么分？ |
+
+> 🎯 **记住：** 从具体任务入口开始即可；其他技能按需调用，详见 [INDEX.md](./skills/INDEX.md)。
+
+---
+
+## 💡 灵感火花激发模式 ⭐ NEW
+
+**v2.1.0 起支持** - 当你不知道做什么产品时，让AI主动为你激发灵感！
+
+### 使用场景
+
+- ❓ "我不知道做什么产品，需要灵感"
+- 🔍 "想探索新的产品方向"
+- 💡 "寻找创新机会点"
+
+### 快速体验
+
+```bash
+/pm-brainstorm
+```
+
+选择 **E) 灵感火花激发**，AI将自动：
+
+1. **多维搜索** - 从行业痛点、技术趋势、生活场景、跨界灵感4个维度搜索
+2. **生成灵感火花表** - 自动生成10个产品创意，包含：
+   - 产品概念（一句话描述）
+   - 用户痛点
+   - 技术可行性（高/中/低）
+   - 市场潜力（高/中/低）
+3. **智能推荐** - 从10个灵感中选择感兴趣的深入探索
+
+### 示例输出
+
+```
+💡 已生成10个灵感火花：
+
+| # | 产品概念               | 用户痛点              | 技术可行性 | 市场潜力 |
+|---|------------------------|-----------------------|------------|----------|
+| 1 | AI会议纪要自动生成器   | 会议效率低，纪要耗时  | 高         | 高       |
+| 2 | 智能代码审查助手       | 代码质量难以把控      | 高         | 高       |
+| 3 | 个人知识图谱构建工具   | 信息碎片化，难以体系化| 中         | 中       |
+| 4 | 跨境电商合规助手       | 政策复杂，容易违规    | 高         | 高       |
+| 5 | 智能健身计划生成器     | 缺乏专业指导          | 中         | 中       |
+...
+
+请选择您感兴趣的灵感进行深入探索！
+```
+
+### 搜索优先原则
+
+灵感火花激发按优先级使用搜索工具，确保高质量搜索结果：
+
+1. **AnySearch**（首选）— 中文搜索精准、垂直领域、批量搜索
+2. **Exa MCP**（备选）— 神经语义搜索，适合英文/代码/公司搜索
+3. **WebSearch**（兜底）— 仅当前两者不可用时使用
+
+- **权威数据源**: 艾瑞咨询、易观分析、36氪、虎嗅
+- **行业媒体**: MIT Technology Review、Product Hunt
+
+输出: `docs/01-需求调研/创意方案库.md`
+
+---
+
+## 📊 核心技能与工具（50个，另有6条工作流）
+
+### 需求洞察模块 (11个)
+- **pm-brainstorm** - 头脑风暴 ⭐ 先发散再收敛，支持灵感火花激发模式
+- **pm-demand** - 需求调研入口
+- **pm-clarify** - 需求细化与验证
+- **pm-market** - 市场分析与竞品研究
+- **pm-search** - 联网调研整合（市场/竞品/数据/舆情/合规）
+- **pm-priority** - 优先级排序（RICE/KANO/MoSCoW）
+- **pm-mvp** - MVP最小可行产品拆解
+- **pm-pool** - 需求池管理
+- **pm-journey** - 用户旅程地图
+- **pm-competitor** - 竞品监控 - 持续追踪竞品动态与异动预警
+- **pm-interview** - 用户访谈 - 一手定性研究设计与执行
+
+### 方案设计模块 (9个)
+- **pm-docs** - 文档生成（BRD/MRD/PRD）
+- **pm-proto** - 原型设计
+- **pm-brand-motion** - 品牌动效方案
+- **pm-tech** - 技术对接方案
+- **pm-feature** - 功能细节拆解
+- **pm-data** - 数据指标体系
+- **pm-position** - 产品定位与商业模式
+- **pm-user-story** - 用户故事
+- **pm-prd-review** - PRD/BRD/MRD 评审 - 完整性/可行性/风险把关
+
+### 增长迭代模块 (10个)
+- **pm-aarrr** - 增长分析
+- **pm-growth** - 增长方案
+- **pm-report** - 数据报告（周报/月报/季报）
+- **pm-feedback** - 用户反馈分析
+- **pm-abtest** - A/B测试方案
+- **pm-iteration** - 迭代计划
+- **pm-retro** - 迭代复盘
+- **pm-roadmap** - 产品路线图
+- **pm-geo** - GEO / AI 搜索优化 - 提升生成式引擎可见性
+- **pm-okr** - OKR 目标管理 - 目标拆解与对齐
+
+### 风控管理模块 (5个)
+- **pm-agile** - 敏捷管理
+- **pm-cross** - 跨部门协作
+- **pm-risk** - 风险管控
+- **pm-release** - 上线方案
+- **pm-change** - 需求变更管理
+
+### 产品策略模块 (5个)
+- **pm-business-model** - 商业模式画布
+- **pm-decision** - 战略决策支持
+- **pm-funnel** - 漏斗分析优化
+- **pm-portfolio** - 产品组合管理
+- **pm-resource** - 资源分配与ROI
+
+### 职业发展模块 (3个)
+- **pm-career-coach** - PM 职业规划教练 — 覆盖 junior→senior→director 全阶段
+- **pm-interview-prep** - PM 面试准备 — 产品sense/执行/行为/策略全题型
+- **pm-resume** - PM 简历优化 — STAR+指标+ATS 兼容
+
+### 专家视角模块 (1个)
+- **steve-jobs-perspective** - 乔布斯思维与表达DNA · 可对话的思维顾问：用乔布斯视角分析产品/决策，碰撞灵感、内化思考
+
+### 辅助工具 (6个)
+- **start-super-pm** - 启动引导入口 - 自动检测任务类型并智能路由
+- **super-pm-upgrade** - 版本升级工具 - 检测 / 升级 / 回退，升级前自动备份
+- **pm-preview** - 文档实时预览 ⭐ — WebSocket 服务器 + 浏览器 MD 渲染 + 自动刷新
+- **pm-selfcheck** - 技能包健康自检 — 完整安装 / 元数据 / 超长技能检查（显式运行，不自动联网）
+- **pm-evidence-audit** - 证据审计 — 核对来源、日期、推断、冲突与决策影响（默认只读）
+- **/super-pm** - 根技能入口 - 关键词语义路由 + 流程推荐引擎
+
+---
+
+## 🧪 验证与行为评测
+
+```bash
+npm test                                # 安装结构、依赖闭包、预览和脚本回归
+npm run eval:report                     # 20 个 Agent 场景；未运行时如实显示 NOT RUN
+```
+
+自动化通过不等于真实 Agent 对话通过。场景、审阅格式和截图/产物验收方式见 [`evals/README.md`](./evals/README.md)。六场景真实隔离对照及修复后定向回归已留原始记录；当前是自评（5 SELF-REVIEW、1 FAIL、14 NOT RUN），不是独立 PASS。评测时请保存独立会话及产物，再由另一名审阅者逐项判定。
+
+## ❓ 常见问题（FAQ）
+
+### super-pm 和 superpowers 有什么区别？
+
+**super-pm** 专为产品经理设计，聚焦产品管理全生命周期（需求洞察、方案设计、增长迭代、风控管理、产品策略、职业发展），共 56 个可发现入口（44 核心 + 6 工具 + 6 工作流）。**superpowers** 面向软件工程工作流。两者定位不同，互不冲突，可以同时安装使用。
+
+### 需要安装什么依赖？
+
+核心产品管理 skill 是 Markdown 指令，不需要额外运行时。`npx skills add` 安装方式需要 Node.js/npm；可选的 `/pm-preview` 本地预览也需要 Node.js（内置 Markdown 渲染与 HTML 清理库，无需联网或 `npm install`）。搜索增强工具 AnySearch、Exa 为可选项。
+
+### 支持哪些 AI 编程工具？
+
+支持四大主流平台：Claude Code（最推荐，支持 Marketplace 一键安装）、Cursor、Codex CLI、OpenCode。通过 `--agent` 参数指定目标平台。
+
+### 如何从零开始做一个产品需求？
+
+遵循黄金路径：`/pm-brainstorm` → `/pm-demand` → `/pm-market` → `/pm-priority` → `/pm-mvp` → `/pm-docs` → `/pm-preview` → `/pm-tech` → `/pm-release`。每个步骤都有清晰的输入输出和引导。
+
+### 56 个入口太多，从哪里开始？
+
+**路径 A** 适用于需要完整从零到一规划的新产品。如果只需验证一个具体需求，可以直接执行 `/pm-demand`；没有明确方向时，从 `/pm-brainstorm` 开始。只讨论时无需生成文档。
+
+### 如何更新到最新版本？
+
+```bash
+# 一行命令更新
+npx skills update
+
+# 或各平台手动更新
+/plugin update super-pm       # Claude Code
+cd ~/.config/opencode/super-pm && git pull  # OpenCode
+```
+
+### 生成的文档保存在哪里？
+
+全部保存在当前项目的 `docs/` 目录下，按模块分类（`01-需求调研/`、`02-方案设计/`、`03-增长迭代/`、`04-风控管理/`）。Markdown 格式，人类可读、可编辑。
+
+### 可以在团队中使用吗？
+
+可以。所有文档以 Markdown 文件形式保存，天然支持 Git 版本管理和团队协作。每个团队成员安装后共享同一套项目文档即可。
+
+---
+
+## 💡 平台运维
+
+### 更新
+
+| 方式 | 命令 |
+|------|------|
+| ⚡ 一行更新 | `npx skills update` |
+| Claude Code | `/plugin update super-pm` |
+| OpenCode | `cd ~/.config/opencode/super-pm && git pull` |
+| Codex | `cd ~/.codex/super-pm && git pull` |
+| Cursor | `cd ~/.cursor/super-pm && git pull` |
+
+---
+
+## 📚 文档
+
+- [技能索引](./skills/INDEX.md) - 全部 56 个入口及依赖关系
+- [Skill 模板](./skills/templates/subagent-skill-template.md) - Subagent 架构模板与最佳实践
+
+---
+
+## 🤝 贡献
+
+欢迎贡献代码、报告Bug、提出建议！
+
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 提交 Pull Request
+
+---
+
+## 📄 许可证
+
+本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
+
+---
+
+**PM-Skills Team** © 2026
+
