@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T09:37:10.267Z",
+  "updated_at": "2026-09-25T09:54:29.070Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/devdotfast/whiteboard",
+      "date": "2026-09-24",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https://whiteboard.dev.fast/ ), an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo: https://github.com/devdotfast/whiteboard . We were missing the feeling of a “whiteboard session” with another dev where you leave wi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/06-show-hn-whiteboard-yc-w26-an-open-source-ide-for-thoughtful-software-d.md"
+    },
+    {
+      "title": "Show HN: Critic – Review code with the agent that wrote it",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.critic.run/",
+      "date": "2026-09-24",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I'm Shreyash from Feyn. We help companies build custom models from their data. Today we're releasing Critic, a change review platform that lets you engage directly with the AI that wrote the code. Agents write most of our code. While that has made us more productive, understanding a change and its consequences has become incredibly difficult. As o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/07-show-hn-critic-review-code-with-the-agent-that-wrote-it.md"
+    },
+    {
+      "title": "Show HN: Canary (YC) – Independent verification for AI code",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.runcanary.ai/",
+      "date": "2026-09-24",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, we are Aakash and Viswesh and we are building Canary ( https://www.runcanary.ai/ ) - independent verification for AI code. Claude/Codex calls Canary with the changesets, intended behaviour and team knowledge. Canary then deploys agent swarms to investigate potential failures and test suspected runtime bugs in remote sandboxes. To try it on your re... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/08-show-hn-canary-yc-independent-verification-for-ai-code.md"
+    },
+    {
+      "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.30217v1",
+      "date": "2026-09-24",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring as a means of completing ordinary tasks. We introduce EvasionBench, a benchmark of 50 diverse task-policy pairs in which completing the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/09-instrumental-monitor-evasion-emerges-under-ordinary-task-pressure.md"
+    },
+    {
+      "title": "Show HN: Koi.rest – watch some fish and regain your balance",
+      "source": "Hacker News Show HN",
+      "url": "https://koi.rest",
+      "date": "2026-09-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi there. My name is Paul. I’m a developer, an explorer and I’ve got ADHD. As of the beginning of August, I’m also unemployed. This last part, along with everything else this past year, has caused me a great deal of stress. While our balcony zen garden project is yet to be completed, I had an idea to create a virtual one that everyone can use. It's an ide... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-24/10-show-hn-koi-rest-watch-some-fish-and-regain-your-balance.md"
+    },
+    {
+      "title": "Show HN: I built a seriously detailed free financial planner",
+      "source": "Hacker News Show HN",
+      "url": "https://app.finzot.com/plan/6VXFMte2tRMp81sRKhYgXM/results/net-worth",
+      "date": "2026-09-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi, I spent the last 2.5 years building a super detailed financial planning tool called FinZot (US focused). It helps with questions like deciding when to retire, how much to spend in retirement, how to optimize taxes. I believe it is much more detailed than other free tools or free tiers. It even contains an embedded Excel-inspired domain specific langua... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-24/11-show-hn-i-built-a-seriously-detailed-free-financial-planner.md"
+    },
+    {
+      "title": "sloxphrite73/sakura-llmgateway",
+      "source": "GitHub Search API",
+      "url": "https://github.com/sloxphrite73/sakura-llmgateway",
+      "date": "2026-09-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "高性能本地 LLM API 网关（Rust）—— 同时提供 OpenAI 兼容与 Anthropic Messages 端点，按提供商维护智能负载均衡的 API-Key 池，支持流式输出，内置 Web 控制台。 | High-performance local LLM API gateway in Rust — OpenAI-compatible and Anthropic-Messages endpoints with smart load-balanced per-provider API-key pools, streaming, and a built-in web console. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-25/12-sloxphrite73-sakura-llmgateway.md"
+    },
+    {
+      "title": "UkisAI Swift Series / 27B, Flash Next and Bonsai 2 + GSQ-RCO / -63.4% thinking, x1.95 speed with xhigh accuracy",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp6gal/ukisai_swift_series_27b_flash_next_and_bonsai_2/",
+      "date": "2026-09-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, Jovan from UkisAI here! Today, we are introducing Swift, a family of efficient reasoning LLMs based on Qwen, trained by penalizing tokens related to pathological overthinking patterns and restoring accuracy via RL (GSPO) and OPD . After amazing feedback and 350k+ downloads in 13 days on our Swift Qwen 3.8 27B we are releasing the entire mode... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/13-ukisai-swift-series-27b-flash-next-and-bonsai-2-gsq-rco-63-4-thinking-.md"
+    },
+    {
+      "title": "Qwen3.8 27b practical modeling for 3d printing",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpet4j/qwen38_27b_practical_modeling_for_3d_printing/",
+      "date": "2026-09-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I spent the past day and a half trying to get qwen27b to complete some practical work for me. I have a Bambu h2c I have been wanting to get more use out of so thought this would be a fun experiment. I have 27b running on my 5090 and qwen image 2.1 running on a 3080 10gb with comfyui. I had pi build me some skills to use cadquery and comfy. prompt: “Make m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/14-qwen3-8-27b-practical-modeling-for-3d-printing.md"
+    },
+    {
+      "title": "LLM on a budget part 2, from P102-100 to CMP 50HX.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpqgh9/llm_on_a_budget_part_2_from_p102100_to_cmp_50hx/",
+      "date": "2026-09-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I finally got around to upgrade the GPU's. First a word of warning, when upgrading GPU's on P520 you have to be extra careful not to slot the card on any angle other than straight when installing or when pulling the card out, the reason for that is that about a 1/4 an inch from where to card slots into the metal case in the back there are these tiny compo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-25/15-llm-on-a-budget-part-2-from-p102-100-to-cmp-50hx.md"
+    },
+    {
+      "title": "I'm trying to post-train AliceAI-Foundation-80B-A3B-Base myself",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpg4a8/im_trying_to_posttrain/",
+      "date": "2026-09-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Just wanted to share with someone - don't have much to report yet. I am interested in this new AliceAI model and have been wanting to make a community impact for a while - and releasing an initial agentic version of this model sounds cool. I am training on 3 32gb v100s (which has been fun to get to work, to say the least). What I'm really doing is creatin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/16-i-m-trying-to-post-train-aliceai-foundation-80b-a3b-base-myself.md"
+    },
     {
       "title": "Show HN: AgentRun: DSL to turn agents into Workflows",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "This project has been kicking around in my head since I first heard about the webauthn PRF extension in early 2024. I've slowly chipped away at it since, and finally got things to a shareable state over the summer thanks to a very fun parental leave. Headed back to work tomorrow, so I figure there's no time like the present. tldr: A client-held encryption... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-19/12-show-hn-anonymous-age-verification-with-passkey-powered-encryption.md"
-    },
-    {
-      "title": "Show HN: 3D Engine for Rust Programs",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/David-OConnor/graphics",
-      "date": "2026-08-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I mostly stabilized the API for this 2 years ago. Since then, I've made occasional performance improvements, and feature additions. It's built to support my structural biology programs, but can be used generally. I'm posting it here, as from what I understand, this is a surprisingly yet-to-be-developed space. This fits between lower-level tools (Which it... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-22/13-show-hn-3d-engine-for-rust-programs.md"
-    },
-    {
-      "title": "This is a great sub, regardless of what complaints people have about it.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vveabg/this_is_a_great_sub_regardless_of_what_complaints/",
-      "date": "2026-08-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This is a genuine community of real generally respectful adult human beings. Despite the enthusiasm all of you have for local AI, you can recognize that there are times when local LLMs are flawed, and even how practical they are to use for the majority of people to use. Go over to r/linux and you'll see the contrast in maturity and employment. submitted b... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/14-this-is-a-great-sub-regardless-of-what-complaints-people-have-about-it.md"
-    },
-    {
-      "title": "Artificial Analysis \"Intelligence\": A meaningless benchmark",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv80xa/artificial_analysis_intelligence_a_meaningless/",
-      "date": "2026-08-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://preview.redd.it/84zi5nsdawkh1.png?width=2368&format=png&auto=webp&s=1109e69db807b153064b1f5b61d22cf1e9fbca05 Another user posted the benchmarks for Qwen 3.8 27B today, and while I think Qwen 27B is a really powerful model, I can't help but notice just how meaningless these Artificial Analysis benchmarks are and I question why people still post thi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/15-artificial-analysis-intelligence-a-meaningless-benchmark.md"
-    },
-    {
-      "title": "What if Chain-of-Thought wasn’t lossy? Exploring reversible logic (Toffoli/Fredkin-style) for edge LLMs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvn63i/what_if_chainofthought_wasnt_lossy_exploring/",
-      "date": "2026-08-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Right now standard CoT is a one-way street. You generate forward, dump a pile of scratchpad tokens into the KV cache, and pray the model doesn’t hallucinate halfway through. On phones/laptops that creates two ugly problems: Errors compound. If each step is only (1-ε) reliable, an N-step chain dies as ~e^{-Nε}. There’s no cheap way to check intermediate st... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/16-what-if-chain-of-thought-wasn-t-lossy-exploring-reversible-logic-toffo.md"
-    },
-    {
-      "title": "I benchmark DFlash 2 (PR build) in llama.cpp on Qwen 3.8 27B against all speculative methods for 3 days. 2.26x on 100 real coding prompts, 4.68x with one n-gram drafter on top. Up to 8x on specific cases.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/",
-      "date": "2026-08-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey guys, Inco AI shipped DFlash 2 a few days ago with a drafter for Qwen 3.8 27B and a llama.cpp PR. I built the PR and ran it against plain decoding, MTP, the n-gram lookup drafters, and my July DFlash 1 numbers on Qwen 3.6 27B for 3 days. One RTX PRO 6000, concurrency 1, about three days of runs. The interesting result isn't the biggest number I measur... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-22/17-i-benchmark-dflash-2-pr-build-in-llama-cpp-on-qwen-3-8-27b-against-all.md"
-    },
-    {
-      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://ozbrain.com",
-      "date": "2026-08-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me. A lot of the “knowledge” ie research, analysis, reasoning will be done by agents as the primary user. Our current notes tools & tasks management systems were built for hum... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-21/06-show-hn-ozbrain-a-shared-brain-for-knowledge-between-agents-and-your-t.md"
-    },
-    {
-      "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/proliferate-ai/proliferate",
-      "date": "2026-08-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN- I'm Pablo, the founder of Proliferate (YC S25)! Proliferate ( https://github.com/proliferate-ai/proliferate ) is an open-source, self-hostable AI IDE that lets you work and automate tasks with Claude Code, Codex, OpenCode, Cursor, and Grok in one place. Here's a quick 2m demo of how we use Proliferate to build Proliferate: https://www.youtube.com/w... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-21/07-show-hn-proliferate-open-source-self-hostable-codex-for-any-coding-age.md"
-    },
-    {
-      "title": "Show HN: Heimdall – Trust-verified knowledge layer for AI coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/ArihantDeva/heimdall",
-      "date": "2026-08-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Heimdall – Trust-verified knowledge layer for AI coding agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-22/08-show-hn-heimdall-trust-verified-knowledge-layer-for-ai-coding-agents.md"
-    },
-    {
-      "title": "Show HN: Traccia - Observability, Runtime Control & Audit for agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://traccia.ai/",
-      "date": "2026-08-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "AI applications are becoming agents, which has started to take autonomous decisions. There are plenty of tools and platform available to trace, and observe what an agent or llms calls does. They are good in what they do, but tracing and observability isnt enough for AI agents era. We need a solution that can help you observe, evaluate, create run time pol... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-21/09-show-hn-traccia-observability-runtime-control-audit-for-agents.md"
-    },
-    {
-      "title": "Show HN: Gramola, a CoverFlow-style music dock for macOS",
-      "source": "Hacker News Show HN",
-      "url": "https://apps.apple.com/us/app/gramola-music-dock/id6801078031?mt=12",
-      "date": "2026-08-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I'm a 23yo solo dev from Spain with a passion for UI/UX and I built Gramola, a music dock for macOS that is there when you need it. No more opening a music app to change what you're listening to; just move your mouse to the edge of the screen, and all your music is there in a gorgeous CoverFlow style, or ready to be instantly searched. Fully usable with a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-21/10-show-hn-gramola-a-coverflow-style-music-dock-for-macos.md"
-    },
-    {
-      "title": "saikambala123/Zapply",
-      "source": "GitHub Search API",
-      "url": "https://github.com/saikambala123/Zapply",
-      "date": "2026-08-22",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "saikambala123/Zapply Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-22/11-saikambala123-zapply.md"
     }
   ]
 }

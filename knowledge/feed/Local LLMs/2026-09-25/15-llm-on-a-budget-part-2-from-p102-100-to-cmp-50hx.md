@@ -1,0 +1,12 @@
+---
+title: "LLM on a budget part 2, from P102-100 to CMP 50HX."
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1wpqgh9/llm_on_a_budget_part_2_from_p102100_to_cmp_50hx/"
+date: "2026-09-25"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "I finally got around to upgrade the GPU's. First a word of warning, when upgrading GPU's on P520 you have to be extra careful not to slot the card on any angle other than straight when installing or when pulling the card out, the reason for that is that about a 1/4 an inch from where to card slots into the metal case in the back there are these tiny compo... (Local summary fallback used.)"
+---
+
+I finally got around to upgrade the GPU's. First a word of warning, when upgrading GPU's on P520 you have to be extra careful not to slot the card on any angle other than straight when installing or when pulling the card out, the reason for that is that about a 1/4 an inch from where to card slots into the metal case in the back there are these tiny components and the space in between is tight and any wrong move and you can scrape of these components and end up needing to buy a new one. Don't ask me how I know that LOL. Lucky for me it was only 50 bucks to replace motherboard. I bought 4 cmp 50HX to replace my 4 P102-100. The P102-100 was 35 each so 140 bucks for 40GB vram and the CMP I bought them for 80 each so 360 for all 4. As of this writing the CMP 50HX are at 200 per card. Here are the benchmark results for two of the cards as I am waiting for parts to build the 4 card setup. https://preview.redd.it/0opibjv3emrh1.png?width=1225&format=png&auto=webp&s=34bbcecd2aac14b3482b0757fecc56cf873e9695 Was it worth it for me, absolutely. I get all be local models at good speeds for 360 bucks. These cards idle at 8W which was one of the main reasons why I got them. I am a firm believer that you don't need to spend stupid money to get good results. If you decide to get them, you will need this to unlock them. https://github.com/xrip/cmp50hx-unlock My other server with the P102-100's now serves all my fine tuned and optimized models for my agents and workflows. It cost me like 3 to 5 bucks per model to do it online using runpod other providers. I just do 10 models a year if that so it costs me 50 bucks a year to fine tune and optimize. I Just cannot justify to spend thousands when I don't need to. Any questions let me know. submitted by /u/Boricua-vet [link] [comments]
