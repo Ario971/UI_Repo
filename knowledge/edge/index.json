@@ -1,10 +1,200 @@
 {
-  "last_checked_at": "2026-09-25T09:55:05.236Z",
+  "last_checked_at": "2026-09-26T09:37:26.519Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "radixark/miles",
+      "name": "radixark/miles",
+      "url": "https://github.com/radixark/miles",
+      "date": "2026-09-26",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 80,
+      "momentum": 100,
+      "risk": 35,
+      "integration_effort": 54,
+      "expected_gain": 71,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Open tool for testing your AI Agents (No LLM)",
+          "date": "2026-08-28",
+          "topic": "AI agents",
+          "similarity": 0.259,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-28/06-show-hn-open-tool-for-testing-your-ai-agents-no-llm.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-26)",
+        "Apache-2.0 license",
+        "2998 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 70,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, setuptools, build-backend, profile, line_length, ignore_whitespace, py_version, sections"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps accelerate, backports.strenum; python_version < \"3.11\", blake3==1.0.9  # disk-delta weight sync (checksum), blobfile, datasets, httpx[http2], hypothesis>=5.40, kubernetes_asyncio"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-28 about AI agents; this candidate overlaps with \"Show HN: Open tool for testing your AI Agents (No LLM)\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-26/01-radixark-miles.md"
+    },
+    {
+      "id": "coolbress/plinth",
+      "name": "coolbress/plinth",
+      "url": "https://github.com/coolbress/plinth",
+      "date": "2026-09-26",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 97,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 40,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.228,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+          "date": "2026-09-09",
+          "topic": "AI agents",
+          "similarity": 0.218,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+        },
+        {
+          "title": "how to setup llama.cpp and blender to make lovely 3d stuff together",
+          "date": "2026-08-28",
+          "topic": "Local LLMs",
+          "similarity": 0.186,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/16-how-to-setup-llama-cpp-and-blender-to-make-lovely-3d-stuff-together.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-26)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [],
+      "install_commands": [
+        "claude plugin marketplace add anthropics/claude-plugins-official",
+        "claude plugin marketplace add coolbress/plinth",
+        "claude plugin install plinth@plinth",
+        "claude plugin update plinth"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-26/02-coolbress-plinth.md"
+    },
+    {
+      "id": "denameidina/hanoman",
+      "name": "denameidina/hanoman",
+      "url": "https://github.com/denameidina/hanoman",
+      "date": "2026-09-26",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 80,
+      "momentum": 70,
+      "risk": 32,
+      "integration_effort": 52,
+      "expected_gain": 77,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: An open-source control plane for your company's AI agents",
+          "date": "2026-09-14",
+          "topic": "AI agents",
+          "similarity": 0.228,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/06-show-hn-an-open-source-control-plane-for-your-company-s-ai-agents.md"
+        },
+        {
+          "title": "Show HN: Recurse – Develop and deploy specialist agents faster",
+          "date": "2026-09-25",
+          "topic": "AI agents",
+          "similarity": 0.221,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-25/06-show-hn-recurse-develop-and-deploy-specialist-agents-faster.md"
+        },
+        {
+          "title": "Show HN: Itsuki – open-source memory engine for AI agents (API and MCP)",
+          "date": "2026-08-29",
+          "topic": "AI agents",
+          "similarity": 0.204,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-29/06-show-hn-itsuki-open-source-memory-engine-for-ai-agents-api-and-mcp.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-26)",
+        "MIT license",
+        "13 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps tsx, typescript, vitest; scripts dev, dev:api, dev:web, db:generate, db:migrate, prod:setup, prod:api, prod"
+        }
+      ],
+      "install_commands": [
+        "npm i -g hanoman",
+        "pnpm install    # postinstall men-generate Prisma Client dari server/prisma/schema.prisma",
+        "pnpm dev        # API (:8787) + dashboard (:5173)",
+        "npx hanoman",
+        "pnpm add -g hanoman",
+        "yarn global add hanoman"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-14 about AI agents; this candidate overlaps with \"Show HN: An open-source control plane for your company's AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-26/03-denameidina-hanoman.md"
+    },
     {
       "id": "beyondtheprotocol/polaris",
       "name": "BeyondTheProtocol/polaris",
@@ -19616,216 +19806,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-05-30 about AI dev tools; this candidate overlaps with \"dui14/vibe-coding-workflow\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-18/02-ryantsai-kkterm.md"
-    },
-    {
-      "id": "coder/coder",
-      "name": "coder/coder",
-      "url": "https://github.com/coder/coder",
-      "date": "2026-06-18",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 72,
-      "momentum": 100,
-      "risk": 43,
-      "integration_effort": 52,
-      "expected_gain": 79,
-      "composite": 74,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "gHashTag/trios-mcp-rag",
-          "date": "2026-05-23",
-          "topic": "AI agents",
-          "similarity": 0.282,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
-        },
-        {
-          "title": "xfzhu01/child-ai-tools",
-          "date": "2026-05-27",
-          "topic": "AI dev tools",
-          "similarity": 0.251,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-27/04-xfzhu01-child-ai-tools.md"
-        },
-        {
-          "title": "tyanko-lab/agents-mission-control",
-          "date": "2026-05-28",
-          "topic": "AI agents",
-          "similarity": 0.231,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/12-tyanko-lab-agents-mission-control.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-18)",
-        "AGPL-3.0 license",
-        "13538 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "README includes remote script execution pattern",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 70,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @biomejs/biome, markdown-table-formatter, markdownlint-cli2, quicktype; scripts format-docs, lint-docs, check-docs, storybook"
-        },
-        {
-          "name": "go.mod",
-          "summary": "module github.com/coder/coder/v2"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [
-        "README includes remote script execution pattern",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-18/03-coder-coder.md"
-    },
-    {
-      "id": "dodopayments/dualmark",
-      "name": "dodopayments/dualmark",
-      "url": "https://github.com/dodopayments/dualmark",
-      "date": "2026-06-17",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 92,
-      "momentum": 87,
-      "risk": 40,
-      "integration_effort": 56,
-      "expected_gain": 69,
-      "composite": 74,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "jhwreal/wechat-article-pipeline-skill",
-          "date": "2026-05-28",
-          "topic": "AI agents",
-          "similarity": 0.182,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/13-jhwreal-wechat-article-pipeline-skill.md"
-        },
-        {
-          "title": "greetingromansoldier/agora-perp-agent",
-          "date": "2026-06-13",
-          "topic": "AI agents",
-          "similarity": 0.18,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-13/06-greetingromansoldier-agora-perp-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-17)",
-        "Apache-2.0 license",
-        "88 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @changesets/cli, @types/node, @vitest/coverage-v8, prettier, tsup, turbo, typescript, vitest; scripts build, test, typecheck, lint, format, format:check, changeset, version-packages"
-        }
-      ],
-      "install_commands": [
-        "npm i @dualmark/core",
-        "npm i @dualmark/converters",
-        "npm i @dualmark/astro",
-        "npm i @dualmark/nextjs",
-        "npm i @dualmark/sveltekit",
-        "npm i @dualmark/cloudflare"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-28 about AI agents; this candidate overlaps with \"jhwreal/wechat-article-pipeline-skill\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-17/01-dodopayments-dualmark.md"
-    },
-    {
-      "id": "jackcongmac/claude-codex-bridge",
-      "name": "jackcongmac/claude-codex-bridge",
-      "url": "https://github.com/jackcongmac/claude-codex-bridge",
-      "date": "2026-06-17",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 98,
-      "momentum": 49,
-      "risk": 38,
-      "integration_effort": 78,
-      "expected_gain": 87,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "gHashTag/trios-mcp-rag",
-          "date": "2026-05-23",
-          "topic": "AI agents",
-          "similarity": 0.352,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
-        },
-        {
-          "title": "AlexNthLab/nth-dao",
-          "date": "2026-06-12",
-          "topic": "AI dev tools",
-          "similarity": 0.342,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
-        },
-        {
-          "title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.336,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/10-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-clo.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-17)",
-        "MIT license",
-        "1 GitHub stars",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": false,
-      "has_tests": true,
-      "setup_steps_count": 6,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps none; scripts test"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/jackcongmac/claude-codex-bridge.git",
-        "npm install -g @jackcongus/claude-codex-bridge   # (after the package is published)",
-        "claude-codex-bridge install                      # wires up both MCP directions + the skill",
-        "npm update -g @jackcongus/claude-codex-bridge    # update (npm owns updates here)",
-        "codex mcp-server",
-        "claude -p"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-23 about AI agents; this candidate overlaps with \"gHashTag/trios-mcp-rag\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-17/02-jackcongmac-claude-codex-bridge.md"
     }
   ]
 }

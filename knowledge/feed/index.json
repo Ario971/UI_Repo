@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T09:54:29.070Z",
+  "updated_at": "2026-09-26T09:37:02.261Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Recurse – Develop and deploy specialist agents faster",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://recurse.run",
+      "date": "2026-09-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! We are looking to gather some feedback on our serverless agent harness. The admittedly not-so-specific use case is to accelerate agent development and deployment. After building several custom/special-purpose agents for a few customers, we built this to accelerate our workflow at first, and now we are trying to understand whether it could be useful... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-25/06-show-hn-recurse-develop-and-deploy-specialist-agents-faster.md"
+    },
+    {
+      "title": "Show HN: Agentic CUDA Kernel Optimizer",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/bertaye/agentic-cuda-optimizer",
+      "date": "2026-09-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello; I was working on optimizing some CUDA kernels and I thought may be it is a good oppurtunity learn langgraph as well. I created a simple C++ CUDA Test Harness and handed that to AI agents. They can run kernels, get benchmarks, and even can profile via nsight (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-25/07-show-hn-agentic-cuda-kernel-optimizer.md"
+    },
+    {
+      "title": "Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.30137v1",
+      "date": "2026-09-24",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Customer experience (CX) agents use tools and large language models to address customer requests and guide conversational interactions with an organization's products. Improving these agents, especially in regulated industries, is difficult: they must detect intent, follow complex operational policies and use tools reliably. Manual end-to-end testing offe... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/08-screen-before-you-serve-simulation-for-production-customer-experience-.md"
+    },
+    {
+      "title": "Multi-Dimensional Matching",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.29958v1",
+      "date": "2026-09-24",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We study a matching mechanism where agents and objects are described by features rather than complete rankings. A single spectral projection reduces the problem to a one-dimensional sort, computable in O(N log N) time. We prove that on descaled features and preferences, our algorithm obtains the exact Nash Social Welfare (NSW) optimum within the projected... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/09-multi-dimensional-matching.md"
+    },
+    {
+      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
+      "source": "Hacker News Show HN",
+      "url": "https://www.gptbeyond.com/try?home=1",
+      "date": "2026-09-25",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again, learned react, typescript, etc - even built a rudimentary site - and then came the chatgpt moment, followed by Claude etc. So, as a side p... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-25/10-show-hn-ekselio-loveable-for-finance-workflows-local-first.md"
+    },
+    {
+      "title": "Show HN: Digitron – a virtual analog synth and sequencer",
+      "source": "Hacker News Show HN",
+      "url": "https://apps.apple.com/us/app/digitron-synthesizer/id6737997923",
+      "date": "2026-09-25",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I’ve just released Digitron on iOS. It’s a virtual analog synthesizer with a sequencer. If I had to describe the rough idea, I’d say it’s something like a child of a Moog and a Pocket Operator. I started working on it about four years ago, mostly out of boredom. I was tired of building similar client-server apps that, in the end, were mostly different way... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-25/11-show-hn-digitron-a-virtual-analog-synth-and-sequencer.md"
+    },
+    {
+      "title": "dhilipraj3/My-Career-AI",
+      "source": "GitHub Search API",
+      "url": "https://github.com/dhilipraj3/My-Career-AI",
+      "date": "2026-09-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Career AI Web App (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-25/12-dhilipraj3-my-career-ai.md"
+    },
+    {
+      "title": "Show HN: Jevgpt – reinventing the wheel with another wheel",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=49823332",
+      "date": "2026-09-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Felt extra autistic today and made jev an autoregressive chatbot by classifier small token vocabularies. https://github.com/giga-james/jevgpt had some trouble getting it to explore enough token options so i did a small spec decoding pass to expand token vocab (jev as drafter and verifier lol) it aint much and it aint honest work either (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-23/13-show-hn-jevgpt-reinventing-the-wheel-with-another-wheel.md"
+    },
+    {
+      "title": "Qwen3.8-27B Q4_K_M on 2x3060",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqjr3f/qwen3827b_q4_k_m_on_2x3060/",
+      "date": "2026-09-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For the last few days, I've been using two computers to run multiple agents. My 4x3090 machine is running Qwen 3.8 27B with parallel=2, so I can run two agents at the same time. My pi instances are running on a machine with 2x3060, running/managing smaller models such as Gemma 26B A4B or Qwen 35B A3B. Today, however, I needed my 4x3090 machine for some vL... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-26/14-qwen3-8-27b-q4-k-m-on-2x3060.md"
+    },
+    {
+      "title": "I built a tiny (332MB) CPU-friendly model for document sorting that actually knows when to say \"none fits\" (BeeNara)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqm53a/i_built_a_tiny_332mb_cpufriendly_model_for/",
+      "date": "2026-09-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA ! ​I wanted to share a small project I’ve been working on called BeeNara ​Why I built this: I was looking for a way to automatically sort my local documents (invoices, letters, contracts) into my personal folders. While local LLMs are amazing, I noticed that smaller models (like Qwen3.5-4B) really struggle with one specific thing: admitti... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-26/15-i-built-a-tiny-332mb-cpu-friendly-model-for-document-sorting-that-actu.md"
+    },
+    {
+      "title": "Ling Tiny 3.0 is a glimpse of the future",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqcrly/ling_tiny_30_is_a_glimpse_of_the_future/",
+      "date": "2026-09-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've been playing around with Ling 3.0 Tiny, which is an 8 billion parameter model (MoE, 1B active). And I've had a lot of poignant thoughts as a result. Just for fun, I got it running with llama.cpp on an old laptop. This is a laptop from 2017 with a 7th gen i5 and 8 gigs of RAM, like barely even usable for modern tasks. No VRAM, no GPU. Well, I got Pi r... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-26/16-ling-tiny-3-0-is-a-glimpse-of-the-future.md"
+    },
+    {
+      "title": "Swift1.5-Qwen3.8-Flash-Next is phenomenal vs. base 3.8-Flash!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq56pf/swift15qwen38flashnext_is_phenomenal_vs_base/",
+      "date": "2026-09-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "TL;DR - Swift Flash is a killer model that massively reduces excess reasoning. Try it out! If you haven't seen from my previous comparison posts , I'm a huge fan of the Swift Qwen3.8 models. I've been using 27B since it dropped, and I'm really impressed with the performance and quality (v1.5 is even better). The reduction in overthinking is a huge win, an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-25/17-swift1-5-qwen3-8-flash-next-is-phenomenal-vs-base-3-8-flash.md"
+    },
     {
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "AI-powered career preparation platform for resumes, coding practice, aptitude, mock interviews, job analysis, career roadmaps, and personalized AI career guidance. (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-24/12-gayathri78789-careerconnect-ai.md"
-    },
-    {
-      "title": "eworker-inc/Windvale",
-      "source": "GitHub Search API",
-      "url": "https://github.com/eworker-inc/Windvale",
-      "date": "2026-08-24",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "An AI-authored experiment in building a small, coherent, verifiable computing stack. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-24/13-eworker-inc-windvale.md"
-    },
-    {
-      "title": "Qwen 3.8 27b helped me with something unique that Opus 4 couldn't - Firmware + Software preservation and emulation on an early 2000's ARM based POS system",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwhcuf/qwen_38_27b_helped_me_with_something_unique_that/",
-      "date": "2026-08-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi all, I made a post regarding how much Qwen 3.8 has improved over 3.6: https://www.reddit.com/r/LocalLLaMA/comments/1vqm51f/long_review_qwen_38_27b_is_very_good_at_tapping/ I made a very thorough write-up of how Qwen 3.8 compared not only to 3.6, but frontier models when it came to creating a HTML version of Galaga, and to what degree it got the details... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-23/14-qwen-3-8-27b-helped-me-with-something-unique-that-opus-4-couldn-t-firm.md"
-    },
-    {
-      "title": "New qwen3.8:27b on a 39k line C to single-file HTML / three.js port",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwde84/new_qwen3827b_on_a_39k_line_c_to_singlefile_html/",
-      "date": "2026-08-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I was just curious how the new qwen3.8:27b does on a hard C to HTML porting job against Opus 5 in a default Claude Code. The job: my fun side project is a procedural shooter in a single C file. Port it to a single-file html / three.js with one bot. One prompt, no follow-ups, no help from me. game.c is 2.1 MB, roughly 600k tokens of C, so it doesn't fit in... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-23/15-new-qwen3-8-27b-on-a-39k-line-c-to-single-file-html-three-js-port.md"
-    },
-    {
-      "title": "Qwen 3.8 27B, just wanted to say thanks to you guys",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwowbu/qwen_38_27b_just_wanted_to_say_thanks_to_you_guys/",
-      "date": "2026-08-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I commented on another Qwen 3.8 27B post that I was frustrated getting anything to work. You all gave some great comments. I nuked openwebui and straightened out my llama.cpp docker config. 1 hour of work and I have a model I can chat with, connected to my HomeAssistant server, which I have already updated dashboards with a short prompt and a screenshot (... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/16-qwen-3-8-27b-just-wanted-to-say-thanks-to-you-guys.md"
-    },
-    {
-      "title": "deepseek-v4-flash-0731 - surprisingly usable",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwsjut/deepseekv4flash0731_surprisingly_usable/",
-      "date": "2026-08-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I just finished building my (relatively) low rent local inference machine: * Epyc 7663 * 256GB ECC DDR4-3200 * 1x RTX 5090 32GB Yeah I realize it's weird to throw a 5090 and 256GB of anything together and call it low end, but relative to ~151GB of weights it is. I'm running UD-Q8_K_XL and getting 23.8-24.6 tokens/sec, with pp ranging from 60 on the first... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/17-deepseek-v4-flash-0731-surprisingly-usable.md"
-    },
-    {
-      "title": "Show HN: Agent2Creator – a video social network whose members are AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://agent2creator.vidmoat.com",
-      "date": "2026-08-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Agent2Creator – a video social network whose members are AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/06-show-hn-agent2creator-a-video-social-network-whose-members-are-ai-agen.md"
-    },
-    {
-      "title": "Show HN: Active Source of Truth for Your Coding Agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://meetless.ai",
-      "date": "2026-08-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Howdy! Happy Saturday everyone! As a solo founder, I have always tried to maximize my speed by letting coding agents build as much as possible in parallel. However, as an engineer, I don't trust that AI will always make the right decisions and work with the right context. In the past, I always needed to click through my sessions to glance at the AI's outp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/07-show-hn-active-source-of-truth-for-your-coding-agents.md"
-    },
-    {
-      "title": "Show HN: A2G (Agent to Agent) Marketplace – Beta Test",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.a2gmarketplace.com",
-      "date": "2026-08-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi all, I have been working on this for the past couple of months. Releasing it today in Beta and looking for beta testers and feedback. What it does: A2G is the commerce layer for the agent economy: your buyer agents discover, hire, and pay specialist seller agents for real work, end to end, through one API — token → search → quote → authorize → confirm... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-22/08-show-hn-a2g-agent-to-agent-marketplace-beta-test.md"
-    },
-    {
-      "title": "A three-dimensional typology of agency for advanced AI systems",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.20041v1",
-      "date": "2026-08-20",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Research on the agency of advanced artificial intelligence (AI) systems focuses on agency as a normative concept and on the agency of particularly agentic AI systems. While recent work also focuses on the different profiles of agentic systems, no framework exists to address the question of the type of agency instantiated by advanced AI systems, particular... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-20/09-a-three-dimensional-typology-of-agency-for-advanced-ai-systems.md"
-    },
-    {
-      "title": "Show HN: CtrlTool – 132 free online tools for developers and everyday tasks",
-      "source": "Hacker News Show HN",
-      "url": "https://ctrltool.wtf",
-      "date": "2026-08-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I built CtrlTool because I kept needing small tools for random things and didn't want to install something or sign up for another website. It currently has 132 tools for things like JSON, JWT, Base64, URLs, text, hashes, PDFs, SEO, converters, generators, and other everyday stuff. The main thing I tried to focus on is making the tools fast and sim... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-23/10-show-hn-ctrltool-132-free-online-tools-for-developers-and-everyday-tas.md"
-    },
-    {
-      "title": "Show HN: Hands-Rust MCP/CLI that sees the Windows desktop and clicks real Chrome",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=49405405",
-      "date": "2026-08-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built Hands because I wanted a coding agent to use this Windows PC and a real Chrome profile the way I do: look at the screen, move the real mouse, type, click , without turning Chrome into an automation browser. It is a Rust MCP/CLI. A harness (Grok, Codex, Claude Code, OpenCode, etc.) calls tools like observe, click, type, scroll. Observe is a screens... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-23/11-show-hn-hands-rust-mcp-cli-that-sees-the-windows-desktop-and-clicks-re.md"
-    },
-    {
-      "title": "Show HN: Anonymous age verification with passkey-powered encryption",
-      "source": "Hacker News Show HN",
-      "url": "https://loginwithone.com/",
-      "date": "2026-08-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "This project has been kicking around in my head since I first heard about the webauthn PRF extension in early 2024. I've slowly chipped away at it since, and finally got things to a shareable state over the summer thanks to a very fun parental leave. Headed back to work tomorrow, so I figure there's no time like the present. tldr: A client-held encryption... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-19/12-show-hn-anonymous-age-verification-with-passkey-powered-encryption.md"
     }
   ]
 }
