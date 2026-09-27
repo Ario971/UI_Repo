@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T09:37:02.261Z",
+  "updated_at": "2026-09-27T10:16:41.060Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,105 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/reladraw/reladraw",
+      "date": "2026-09-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulate). I wanted to have the benefits of both, where you can... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-26/06-show-hn-reladraw-a-diagram-language-where-you-decide-where-to-place-th.md"
+    },
+    {
+      "title": "Show HN: Ppgrid – Rasterising points in minutes, not hours",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://mrzk.io/posts/ppgrid-fast-continentscale-raster-interpolation/",
+      "date": "2026-09-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi all, I wanted to share a recent library I made for myself since I continually have to work with large-scale point data spanning millions of rows. I generally found existing IDW tools are insanely slow and unreliable with the datasets I commonly work with. ppgrid is an open source GIS tool and it is intended to create beautiful visualisations that don't... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-27/07-show-hn-ppgrid-rasterising-points-in-minutes-not-hours.md"
+    },
+    {
+      "title": "Show HN: Trail – new kind of logic game",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://trail.franzai.com/",
+      "date": "2026-09-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Trail – new kind of logic game (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-27/08-show-hn-trail-new-kind-of-logic-game.md"
+    },
+    {
+      "title": "Show HN: CaughtShipping – curfew app for developers, enforced by a public wall",
+      "source": "Hacker News Show HN",
+      "url": "https://caughtshipping.com/",
+      "date": "2026-09-26",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I am always working well past the normal work hours. Sometimes even past midnight. Then one day I thought, what if I could have something to keep me accountable for doing this? So I built a small app that will call me out when I break my downtime. You set a Curfew in the app (Curfew must start between 8:00 PM and 10:00 PM). If a dev app (editor, terminal,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-26/09-show-hn-caughtshipping-curfew-app-for-developers-enforced-by-a-public-.md"
+    },
+    {
+      "title": "MikkyInnovate/SpaciaOS",
+      "source": "GitHub Search API",
+      "url": "https://github.com/MikkyInnovate/SpaciaOS",
+      "date": "2026-09-27",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "The AI Sales System for Real Estate (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-27/10-mikkyinnovate-spaciaos.md"
+    },
+    {
+      "title": "How accessible is local AI actually, and what happens if affordable access to frontier models doesn’t last?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqtrfi/how_accessible_is_local_ai_actually_and_what/",
+      "date": "2026-09-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Sometimes it’s easy to forget that this sub and others like it are probably the extreme minority when it comes to this hobby. Most people, I would think, don’t use or can’t afford one good GPU, let alone multiple GPUs, Mac Studios, Sparks, Strix Halos, etc. Is the average tech enthusiast or maybe we’ll even say prosumer, actually using local AI? If they a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-26/11-how-accessible-is-local-ai-actually-and-what-happens-if-affordable-acc.md"
+    },
+    {
+      "title": "SupersonicLabs/Julia-1 · Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr8d4d/supersoniclabsjulia1_hugging_face/",
+      "date": "2026-09-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "New open source Jev like model for running on local devices from a group called Supersonic Labs. It's a 144M param local non-generative local classifier. From their site : Julia 1 opens our research into compact decision models. It builds on mmBERT-small , a multilingual encoder, and chooses among answers supplied with a question. It has 144.3 million par... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-27/12-supersoniclabs-julia-1-hugging-face.md"
+    },
+    {
+      "title": "New to playing around with local ai. why are they free?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqwzk3/new_to_playing_around_with_local_ai_why_are_they/",
+      "date": "2026-09-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I am new to playing around with local ai and have a ton to learn about it but I was curious, why are they (who is they?) releasing them for free, don't they want you to pay them to use them, why release free models? submitted by /u/poofph [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-26/13-new-to-playing-around-with-local-ai-why-are-they-free.md"
+    },
+    {
+      "title": "Another \"Harness matters\" post (codex cli > pi and opencode)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrfp50/another_harness_matters_post_codex_cli_pi_and/",
+      "date": "2026-09-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I run my own LLM while also having a Openai subscription. Also tried DeepSeek (latest flash now). I run Qwen 3.8 flash Next at an amazing speed on my 2x3090 + Ram! But local LLM never did worked for me outside some demos like build me a \"3D Mario Game, multistage\" which I've been using to test LLM's for a long time. At serios work, they never even compare... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-27/14-another-harness-matters-post-codex-cli-pi-and-opencode.md"
+    },
     {
       "title": "Show HN: Recurse – Develop and deploy specialist agents faster",
       "source": "Hacker News Top + Show HN",
@@ -4315,105 +4414,6 @@
       "read": false,
       "summary": "Share what your favorite models are right now and why . Given the nature of the beast in evaluating VLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in describing your setup, nature of your usage ( what applications , how much, personal/professional use), tools/frameworks/prompts etc. Rul... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/15-best-local-vision-language-models-august-2026.md"
-    },
-    {
-      "title": "I irradiated LLMs and found that they die really quickly",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx2fhz/i_irradiated_llms_and_found_that_they_die_really/",
-      "date": "2026-08-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I randomly bit flipped a llm to simulate what would happen if you ran your spark in low earth orbit i hope it's ok to share this here, I was told this community might enjoy it. submitted by /u/BenniJesus [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/16-i-irradiated-llms-and-found-that-they-die-really-quickly.md"
-    },
-    {
-      "title": "JetBrains local AI (using Qwen3.6 27B)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxdvmv/jetbrains_local_ai_using_qwen36_27b/",
-      "date": "2026-08-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Sounds quite interesting, a big IDE provider optimizing for local AI with their coding harness. Especially that they picked Qwen3.6 over Qwen3.8 because of the thinking needs. Haven't read the full article yet, but sounds really cool. submitted by /u/Danmoreng [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/17-jetbrains-local-ai-using-qwen3-6-27b.md"
-    },
-    {
-      "title": "Show HN: Mnemosyne Local hierarchical memory engine for AI agents (MCP Native)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/M4F-S/mnemosyne",
-      "date": "2026-08-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Mnemosyne Local hierarchical memory engine for AI agents (MCP Native) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/06-show-hn-mnemosyne-local-hierarchical-memory-engine-for-ai-agents-mcp-n.md"
-    },
-    {
-      "title": "Show HN: USB – A universal skill bridge for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/PeepSick/usb",
-      "date": "2026-08-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: USB – A universal skill bridge for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/07-show-hn-usb-a-universal-skill-bridge-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Doop – open-source live canvas for AI agents to design",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/kgoedecke/doop",
-      "date": "2026-08-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Doop is an open source alternative to Paper.design or Pen.dev. AI agents can collaborate and design on the same canvas and Doop will build up context and memory on design decisions. It's fully open source. We're working on an AI agent that reviews PRs and checks design consistency and other design related checks. Curious to hear if you can think of other... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-23/08-show-hn-doop-open-source-live-canvas-for-ai-agents-to-design.md"
-    },
-    {
-      "title": "AI with Authority, from Application to Silicon",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.21356v1",
-      "date": "2026-08-21",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verification is not only economical but essential to productivity --- it is the incorruptible referee that lets one person safely direct autonomous machine work a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-21/09-ai-with-authority-from-application-to-silicon.md"
-    },
-    {
-      "title": "Show HN: Vidmoat – My Super Fantastic AI Native Video Editor (MCP, Web)",
-      "source": "Hacker News Show HN",
-      "url": "https://www.vidmoat.com",
-      "date": "2026-08-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi there, I'm working on Vidmoat. A couple of months ago I wanted to venture into making videos. The only issue was that I suck at editing them. No amount of YouTube could hide the fact. But here's what I don't suck at. Building new stuff. I've also marveled at so much product demo videos and never quite figured out how to make my own (or pay for a profes... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-23/10-show-hn-vidmoat-my-super-fantastic-ai-native-video-editor-mcp-web.md"
-    },
-    {
-      "title": "Check on Your Spaghetti Software Factory",
-      "source": "Continue Blog",
-      "url": "https://blog.continue.dev/spaghetti-software-factory",
-      "date": "2026-03-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Everyone building with AI agents is speedrunning the Factorio experience. Spaghetti factories are still factories. But slop compounds, and the fix isn&apos;t faster review. It&apos;s quality control. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-03-06/11-check-on-your-spaghetti-software-factory.md"
-    },
-    {
-      "title": "gayathri78789/CareerConnect-AI",
-      "source": "GitHub Search API",
-      "url": "https://github.com/gayathri78789/CareerConnect-AI",
-      "date": "2026-08-24",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI-powered career preparation platform for resumes, coding practice, aptitude, mock interviews, job analysis, career roadmaps, and personalized AI career guidance. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-24/12-gayathri78789-careerconnect-ai.md"
     }
   ]
 }

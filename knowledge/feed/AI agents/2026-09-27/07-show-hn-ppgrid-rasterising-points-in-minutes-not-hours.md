@@ -1,0 +1,12 @@
+---
+title: "Show HN: Ppgrid – Rasterising points in minutes, not hours"
+source: "Hacker News Top + Show HN"
+url: "https://mrzk.io/posts/ppgrid-fast-continentscale-raster-interpolation/"
+date: "2026-09-27"
+topic: "AI agents"
+type: "article"
+read: false
+summary: "Hi all, I wanted to share a recent library I made for myself since I continually have to work with large-scale point data spanning millions of rows. I generally found existing IDW tools are insanely slow and unreliable with the datasets I commonly work with. ppgrid is an open source GIS tool and it is intended to create beautiful visualisations that don't... (Local summary fallback used.)"
+---
+
+Hi all, I wanted to share a recent library I made for myself since I continually have to work with large-scale point data spanning millions of rows. I generally found existing IDW tools are insanely slow and unreliable with the datasets I commonly work with. ppgrid is an open source GIS tool and it is intended to create beautiful visualisations that don't take an absurd amount of time to process. It uses a modified Inverse Distance Weighting (IDW) approach: instead of having to traverse every single point for every single grid O(N*M), it precalculates which points intersect which grids. This means that we essentially avoid the multiplicative scaling costs associated with traditional IDW. For perspective, ppgrid is significantly faster than IDW from the likes of gdal_grid or GRASS, in the order of 17x faster. I say in the order of as I couldn't really effectively test IDW on the crappy laptop I use beyond 1M points, where as ppgrid happily chewed through 16mil points. My goals/intention for this post is twofold: - looking to share it as a tool for anyone who may find it relevant or useful - looking to stress-test it with different types of point data and try to surface any quirks, bugs or random edge case failures Important note which I discuss more in my write-up: ppgrid is not yet stress-tested or validated in terms of statistical correctness, as my current use case prioritises visualisation. AI Disclosure & Creds: I've been pair-coding this with my local Qwen3.8 27B agent, I discuss this in my write-up further. I have ~9YoE in GIS work and ~10YoE as a fullstack. GitHub Repo: https://github.com/marzukia/ppgrid/ Any other feedback/comments are welcome, please let me know if this has helped as I'd love to see it in action.
