@@ -1,0 +1,12 @@
+---
+title: "Agentic Economies for Autonomous Scientific Discovery"
+source: "arXiv cs.AI/cs.CL/cs.LG"
+url: "https://arxiv.org/abs/2609.31562v1"
+date: "2026-09-25"
+topic: "AI agents"
+type: "paper"
+read: false
+summary: "Recent advances in agentic Artificial Intelligence (AI) systems have marked a shift in AI for Science: moving away from the use of individual AI systems for narrow task execution, toward multi-agent systems capable of orchestrating complex, end-to-end research workflows and performing (semi-)autonomous scientific discovery. The development of multi-agent... (Local summary fallback used.)"
+---
+
+Recent advances in agentic Artificial Intelligence (AI) systems have marked a shift in AI for Science: moving away from the use of individual AI systems for narrow task execution, toward multi-agent systems capable of orchestrating complex, end-to-end research workflows and performing (semi-)autonomous scientific discovery. The development of multi-agent AI-for-science systems has primarily focused on improving the cognitive capabilities of AI systems, specifically by making advanced reasoning and hypothesis generation more reliable. However, focusing only on cognitive capability improvement could ignore appropriate management of resources, a key bottleneck in scientific discovery. Testing and validating scientific hypotheses and experiments is, physically and economically, resource-intensive and resources are limited. This means that to make significant advancements in autonomous scientific discovery, such as improving human-AI co-scientist complementarity or reaching a truly closed-loop automated process, we must pair ongoing improvements in reasoning capabilities with robust resource management. In this paper, we outline an infrastructure for AI resource management by developing the necessary foundations of scientific agent economies, markets, and institutions. The aim of this infrastructure is to empower AI agents and human scientists to effectively (i) collaborate and establish research priorities, (ii) assign credit, (iii) track accountability and liability, and (iv) safeguard against malicious use and information security risks. Finally, we engage with the macro-level societal implications. of (semi-)autonomous scientific discovery to inform the development of governance policies ensuring an equitable distribution of AI-driven discoveries and derivative future technologies.

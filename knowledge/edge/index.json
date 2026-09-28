@@ -1,10 +1,201 @@
 {
-  "last_checked_at": "2026-09-27T10:17:10.362Z",
+  "last_checked_at": "2026-09-28T11:19:29.375Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "ilyautov/inn-check-ru",
+      "name": "ilyautov/inn-check-ru",
+      "url": "https://github.com/ilyautov/inn-check-ru",
+      "date": "2026-09-28",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 55,
+      "risk": 29,
+      "integration_effort": 40,
+      "expected_gain": 87,
+      "composite": 76,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "how to setup llama.cpp and blender to make lovely 3d stuff together",
+          "date": "2026-08-28",
+          "topic": "Local LLMs",
+          "similarity": 0.299,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/16-how-to-setup-llama-cpp-and-blender-to-make-lovely-3d-stuff-together.md"
+        },
+        {
+          "title": "Show HN: MCP Tool Definition Quality Score (TDQS) Spec",
+          "date": "2026-09-03",
+          "topic": "AI dev tools",
+          "similarity": 0.286,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/10-show-hn-mcp-tool-definition-quality-score-tdqs-spec.md"
+        },
+        {
+          "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+          "date": "2026-08-27",
+          "topic": "AI agents",
+          "similarity": 0.286,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-wikiskill-compiling-agent-experience-into-persistent-knowledge-for-ski.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-28)",
+        "Apache-2.0 license",
+        "4 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, license, license-files"
+        }
+      ],
+      "install_commands": [
+        "npx skills add ilyautov/inn-check-ru",
+        "claude plugin marketplace update inn-check-ru && claude plugin update inn-check-ru@inn-check-ru"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-28 about Local LLMs; this candidate overlaps with \"how to setup llama.cpp and blender to make lovely 3d stuff together\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-28/01-ilyautov-inn-check-ru.md"
+    },
+    {
+      "id": "h1088880/qwen-image-local",
+      "name": "H1088880/qwen-image-local",
+      "url": "https://github.com/H1088880/qwen-image-local",
+      "date": "2026-09-28",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 93,
+      "momentum": 45,
+      "risk": 35,
+      "integration_effort": 32,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Open tool for testing your AI Agents (No LLM)",
+          "date": "2026-08-28",
+          "topic": "AI agents",
+          "similarity": 0.256,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-28/06-show-hn-open-tool-for-testing-your-ai-agents-no-llm.md"
+        },
+        {
+          "title": "Local LLM / Qwen 3.8 win",
+          "date": "2026-09-10",
+          "topic": "Local LLMs",
+          "similarity": 0.242,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/17-local-llm-qwen-3-8-win.md"
+        },
+        {
+          "title": "Qwen3.8 27b practical modeling for 3d printing",
+          "date": "2026-09-24",
+          "topic": "Local LLMs",
+          "similarity": 0.238,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/14-qwen3-8-27b-practical-modeling-for-3d-printing.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-28)",
+        "MIT license",
+        "README includes install commands",
+        "Matches 3 saved Feed article(s)"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 1,
+      "dependency_files": [],
+      "install_commands": [
+        "pip install -r requirements.txt",
+        "pip install pywebview pyinstaller"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-08-28 about AI agents; this candidate overlaps with \"Show HN: Open tool for testing your AI Agents (No LLM)\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-28/02-h1088880-qwen-image-local.md"
+    },
+    {
+      "id": "obeone/claude-skills",
+      "name": "obeone/claude-skills",
+      "url": "https://github.com/obeone/claude-skills",
+      "date": "2026-09-28",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 79,
+      "momentum": 58,
+      "risk": 32,
+      "integration_effort": 40,
+      "expected_gain": 87,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+          "date": "2026-08-27",
+          "topic": "AI agents",
+          "similarity": 0.294,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-wikiskill-compiling-agent-experience-into-persistent-knowledge-for-ski.md"
+        },
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.292,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+          "date": "2026-09-09",
+          "topic": "AI agents",
+          "similarity": 0.231,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-09-28)",
+        "MIT license",
+        "4 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [],
+      "install_commands": [
+        "uv run skills/dockerfile-best-practices/scripts/analyze_dockerfile.py ./Dockerfile",
+        "uv run skills/dockerfile-best-practices/scripts/analyze_compose.py ./compose.yaml",
+        "uv run skills/helm-bjw-s-chart/scripts/validate_chart.py ./my-chart/",
+        "uv run skills/automode-config/scripts/inspect_automode.py",
+        "uv run skills/automode-config/scripts/scan_project.py",
+        "npx skills add obeone/claude-skills"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-08-27 about AI agents; this candidate overlaps with \"WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-09-28/03-obeone-claude-skills.md"
+    },
     {
       "id": "pipelex/pipelex",
       "name": "Pipelex/pipelex",
@@ -19586,212 +19777,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-06-12 about AI dev tools; this candidate overlaps with \"AlexNthLab/nth-dao\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-20/02-fallow-rs-fallow.md"
-    },
-    {
-      "id": "akashgit/remote-factory",
-      "name": "akashgit/remote-factory",
-      "url": "https://github.com/akashgit/remote-factory",
-      "date": "2026-06-20",
-      "source": "awesome-llm-agents",
-      "category": "awesome_lists",
-      "kind": "agent_framework",
-      "compatibility": 92,
-      "momentum": 78,
-      "risk": 40,
-      "integration_effort": 56,
-      "expected_gain": 77,
-      "composite": 74,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "greetingromansoldier/agora-perp-agent",
-          "date": "2026-06-13",
-          "topic": "AI agents",
-          "similarity": 0.326,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-13/06-greetingromansoldier-agora-perp-agent.md"
-        },
-        {
-          "title": "Show HN: Agent-estimate, how long a coding task takes, at agent speed",
-          "date": "2026-05-21",
-          "topic": "AI agents",
-          "similarity": 0.321,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-21/40-show-hn-agent-estimate-how-long-a-coding-task-takes-at-agent-speed.md"
-        },
-        {
-          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.317,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-20)",
-        "MIT license",
-        "38 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps name, version, description, requires-python, dependencies, pydantic, structlog, fastapi"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/akashgit/remote-factory.git",
-        "uv sync",
-        "uv run factory",
-        "uv run factory ceo \"Build a personal homepage with a blog\" --mode design",
-        "uv run factory ceo \"distributed task runner\" --mode design",
-        "uv run factory ceo ~/ideas/my-app-spec.md --mode design"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-13 about AI agents; this candidate overlaps with \"greetingromansoldier/agora-perp-agent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-20/03-akashgit-remote-factory.md"
-    },
-    {
-      "id": "kilo-org/kilocode",
-      "name": "Kilo-Org/kilocode",
-      "url": "https://github.com/Kilo-Org/kilocode",
-      "date": "2026-06-19",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 84,
-      "momentum": 100,
-      "risk": 30,
-      "integration_effort": 48,
-      "expected_gain": 85,
-      "composite": 81,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.269,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
-        },
-        {
-          "title": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
-          "date": "2026-05-21",
-          "topic": "AI dev tools",
-          "similarity": 0.232,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-21/43-show-hn-i-made-a-claude-skill-for-spec-driven-development-sdd.md"
-        },
-        {
-          "title": "Which Coding Agent Features Are Useful For Local LLMs",
-          "date": "2026-05-29",
-          "topic": "Local LLMs",
-          "similarity": 0.227,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-05-29/31-which-coding-agent-features-are-useful-for-local-llms.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-19)",
-        "MIT license",
-        "22498 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README includes remote script execution pattern"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @kilocode/plugin, @opencode-ai/script, @kilocode/sdk, typescript, @tsconfig/bun, @types/mime-types, @typescript/native-preview, glob; scripts dev, dev:storybook, lint, typecheck, upgrade-opentui, postinstall, prepare, random"
-        }
-      ],
-      "install_commands": [
-        "npm install -g @kilocode/cli",
-        "pnpm add -g @kilocode/cli"
-      ],
-      "risk_flags": [
-        "README includes remote script execution pattern"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-04 about AI agents; this candidate overlaps with \"Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-19/01-kilo-org-kilocode.md"
-    },
-    {
-      "id": "langchain-ai/fleet-deepagents-export",
-      "name": "langchain-ai/fleet-deepagents-export",
-      "url": "https://github.com/langchain-ai/fleet-deepagents-export",
-      "date": "2026-06-19",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 92,
-      "momentum": 59,
-      "risk": 37,
-      "integration_effort": 44,
-      "expected_gain": 87,
-      "composite": 75,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Nerve – self hosted runtime for AI agents",
-          "date": "2026-05-25",
-          "topic": "AI agents",
-          "similarity": 0.291,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-25/86-show-hn-nerve-self-hosted-runtime-for-ai-agents.md"
-        },
-        {
-          "title": "gHashTag/trios-mcp-rag",
-          "date": "2026-05-23",
-          "topic": "AI agents",
-          "similarity": 0.283,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-23/53-ghashtag-trios-mcp-rag.md"
-        },
-        {
-          "title": "tyanko-lab/agents-mission-control",
-          "date": "2026-05-28",
-          "topic": "AI agents",
-          "similarity": 0.27,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-05-28/12-tyanko-lab-agents-mission-control.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-19)",
-        "MIT license",
-        "5 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps name, version, description, readme, license, authors, urls, requires-python"
-        }
-      ],
-      "install_commands": [
-        "pip install fleet-deepagents-export",
-        "git clone --depth 1 https://github.com/langchain-ai/fleet-deepagents-export.git"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-05-25 about AI agents; this candidate overlaps with \"Show HN: Nerve – self hosted runtime for AI agents\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-19/02-langchain-ai-fleet-deepagents-export.md"
     }
   ]
 }

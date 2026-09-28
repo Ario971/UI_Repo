@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:16:41.060Z",
+  "updated_at": "2026-09-28T11:18:59.637Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://tinyaiarena.com/",
+      "date": "2026-09-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win! Click on any of the matches to spectate them. Code: https://github.com/hp6/ai-arena (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-27/06-show-hn-tinyaiarena-watch-ai-agents-battle-it-out.md"
+    },
+    {
+      "title": "Show HN: Stepgate – AI agents that can't skip steps, in one portable file",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Chaarangan/stepgate",
+      "date": "2026-09-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Stepgate – AI agents that can't skip steps, in one portable file (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-28/07-show-hn-stepgate-ai-agents-that-can-t-skip-steps-in-one-portable-file.md"
+    },
+    {
+      "title": "Show HN: Vanish moves heavy computation off your laptop",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://vanishcompute.com/",
+      "date": "2026-09-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN I was tired of agents draining my battery and my laptop being unusable so I made vanish, a CLI tool to run your commands in the cloud. Vanish is designed to be process transparent so just prefixing any command with vanish should work, like doing `vanish cargo test` (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-27/08-show-hn-vanish-moves-heavy-computation-off-your-laptop.md"
+    },
+    {
+      "title": "Agentic Economies for Autonomous Scientific Discovery",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.31562v1",
+      "date": "2026-09-25",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Recent advances in agentic Artificial Intelligence (AI) systems have marked a shift in AI for Science: moving away from the use of individual AI systems for narrow task execution, toward multi-agent systems capable of orchestrating complex, end-to-end research workflows and performing (semi-)autonomous scientific discovery. The development of multi-agent... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-25/09-agentic-economies-for-autonomous-scientific-discovery.md"
+    },
+    {
+      "title": "Show HN: ParkourNote – A research workspace, built solo in a month with Claude",
+      "source": "Hacker News Show HN",
+      "url": "https://note.parkourlabs.io/",
+      "date": "2026-09-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm sushi. I built ParkourNote, a personal knowledge management app that currently focuses on research: finding papers, reading PDFs, asking AI about them, and writing. A few things it does: Describe a topic, and an agent creates a project, searches arXiv, and imports relevant papers The PDF reader previews citations on hover, overlays translations... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-28/10-show-hn-parkournote-a-research-workspace-built-solo-in-a-month-with-cl.md"
+    },
+    {
+      "title": "Check on Your Spaghetti Software Factory",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/spaghetti-software-factory",
+      "date": "2026-03-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Everyone building with AI agents is speedrunning the Factorio experience. Spaghetti factories are still factories. But slop compounds, and the fix isn&apos;t faster review. It&apos;s quality control. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-03-06/11-check-on-your-spaghetti-software-factory.md"
+    },
+    {
+      "title": "junwang0301/guangli-campus-photography",
+      "source": "GitHub Search API",
+      "url": "https://github.com/junwang0301/guangli-campus-photography",
+      "date": "2026-09-28",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "??????? AI ???? GitHub Pages (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-28/12-junwang0301-guangli-campus-photography.md"
+    },
+    {
+      "title": "SuhasKanwar/NarrativeX",
+      "source": "GitHub Search API",
+      "url": "https://github.com/SuhasKanwar/NarrativeX",
+      "date": "2026-09-28",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "NarrativeX is a web-based system that collects social-media and news content, extracts and compares claims using NLP and semantic analysis, and tracks their evolution and spread. It categorizes claims based on available evidence and visualizes narrative and propagation patterns through an interactive dashboard. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-28/13-suhaskanwar-narrativex.md"
+    },
+    {
+      "title": "Qwen plays World of Warcraft",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wry136/qwen_plays_world_of_warcraft/",
+      "date": "2026-09-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Been doing a bunch of vibe coding lately. Had my agents host a private WoW server for me, then built out a web browser client so you can play without installing the game and it has mobile controls. Afterwards, created a custom mcp to drive the client and have finer game control than a generic browser agent. The agent harness can plug into your local or cl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-27/14-qwen-plays-world-of-warcraft.md"
+    },
+    {
+      "title": "GPT-3 is discontinued today",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws67x4/gpt3_is_discontinued_today/",
+      "date": "2026-09-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "It had such a long run. It was my first introduction to modern language models. I remember getting slightly excited over it. And now it lives purely in our memories. Arguably what's more infuriating is that they suggest using GPT-5.6 Terra as a replacement. Keep in mind that Babbage is a model that's literally 3/4 of the size than MiniCPM5 2B. Even Luna m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-28/15-gpt-3-is-discontinued-today.md"
+    },
+    {
+      "title": "NVIDIA shipped OpenShell, an open source sandbox that gives local and open agents real runtime limits instead of prompt rules. Over 100 firms joined the safety stack. OpenAI did not.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/",
+      "date": "2026-09-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://x.com/JensenHuang/status/2104499465055023424 submitted by /u/InternationalGap3698 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-28/16-nvidia-shipped-openshell-an-open-source-sandbox-that-gives-local-and-o.md"
+    },
+    {
+      "title": "Qwen company already rushed out a Jev competitor. No open weights yet.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrz9py/qwen_company_already_rushed_out_a_jev_competitor/",
+      "date": "2026-09-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "EDIT: About that, I tried it out, and it's garbage so far. I did some basic tests through AIHubMix (do not use that platform btw, it's trash), and my agent did some comparison. I guess it figures, it was a model they released just days after the Jev hype started. The agent's analysis is below: AI Agent's output: ``` I thoroughly tested https://aihubmix.co... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-27/17-qwen-company-already-rushed-out-a-jev-competitor-no-open-weights-yet.md"
+    },
     {
       "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Qwen3.8-Flash-Next (~125B-A6B + 51B n-gram) memory estimate: Ideal 4-bit quant ≈ 82 GB (58 GB main weights + 24 GB n-gram tables) Real-world quants likely land in the 80–90 GB range. The big n-gram table is sparsely accessed → excellent candidate for system RAM offload. This architecture could be surprisingly local-friendly once the weights drop. submitte... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-25/15-qwen3-8-flash-next-this-architecture-could-be-surprisingly-local-frien.md"
-    },
-    {
-      "title": "Open Source Kernel in Qwen3.6-35B-A3B for AMD MI350X: 78,498 output tok/s on 8 GPUs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vymha8/open_source_kernel_in_qwen3635ba3b_for_amd_mi350x/",
-      "date": "2026-08-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So here's the thing, almost everyone use NVIDIA to run their LLMs, we also do the same, a lot of people we've met use like RTX PRO 6000 or even H100, B300 It seems like everyone eyes is looking at NVIDIA. However we do the math that the raw power alone on AMD GPU MI350X is higher than NVIDIA B200. So what give? Apparently its the software, ROCM is not as... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-26/16-open-source-kernel-in-qwen3-6-35b-a3b-for-amd-mi350x-78-498-output-tok.md"
-    },
-    {
-      "title": "M5 Ultra 96GB vs M5 Max 128GB — is 2x bandwidth worth losing 32GB of RAM, with Qwen3.8-Flash-Next dropping tomorrow?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyfved/m5_ultra_96gb_vs_m5_max_128gb_is_2x_bandwidth/",
-      "date": "2026-08-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I’ve been going back and forth on this for a week and I can’t settle it, so I’m hoping someone here has hands-on numbers. The two configs (German prices, dealer quote, incl. VAT): Config Price Mac Studio M5 Max, 128GB / 512GB SSD €5,859 Mac Studio M5 Max, 128GB / 1TB SSD €6,189 Mac Studio M5 Ultra, 96GB / 1TB SSD €6,599 Ultra is 36-core CPU / 80-core GPU... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-25/17-m5-ultra-96gb-vs-m5-max-128gb-is-2x-bandwidth-worth-losing-32gb-of-ram.md"
-    },
-    {
-      "title": "Show HN: Screen memory without screenshots, just text to Markdown",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/dragthelake/ambient-context",
-      "date": "2026-08-25",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "It's a macOS menu bar app that reads the text of your focused window every few seconds through the Accessibility API. No screenshots, no video, or OCR. It writes plain markdown, one file per day, into a folder you choose. Point Claude Code (or anything with file access) at the folder and ask \"what did I work on Tuesday?\" or have it build memory about your... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-25/06-show-hn-screen-memory-without-screenshots-just-text-to-markdown.md"
-    },
-    {
-      "title": "Show HN: Kern – container and resource runtime in a 1.5 MB binary, no daemon",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/getkern/kern",
-      "date": "2026-08-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I built kern because I needed a fast, zero-daemon tool to set CPU/RAM limits and run isolated tasks without the overhead of Docker. It's a single 1.5MB Rust binary using OCI images, cgroup v2, and namespaces. Boxes start in ~3.5ms. It's not a Kubernetes CRI or a microVM, just a standalone container and resource runtime for CLI and agents. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-24/07-show-hn-kern-container-and-resource-runtime-in-a-1-5-mb-binary-no-daem.md"
-    },
-    {
-      "title": "Prime Agent: A Self-Improving RLM Harness",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.23552v1",
-      "date": "2026-08-24",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processin... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-24/08-prime-agent-a-self-improving-rlm-harness.md"
-    },
-    {
-      "title": "Can Coding Agents Build Robust Baselines? A Skill-Based Approach for Automating the Medical Imaging Model-Development Pipeline",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.23336v1",
-      "date": "2026-08-24",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Developing competitive deep learning baselines for medical imaging remains a highly iterative process requiring literature review, implementation, experimentation, and expert refinement. Existing automation approaches typically optimize isolated components, such as architecture search or hyperparameter tuning, rather than the complete baseline development... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-24/09-can-coding-agents-build-robust-baselines-a-skill-based-approach-for-au.md"
-    },
-    {
-      "title": "AI is Glue",
-      "source": "Continue Blog",
-      "url": "https://blog.continue.dev/ai-is-glue",
-      "date": "2025-12-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "LLMs are the new glue code for engineering workflows. See how AI connects deterministic tools like the GitHub CLI and Snyk API, filling the gaps to automate complex tasks that were previously impractical. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2025-12-03/10-ai-is-glue.md"
-    },
-    {
-      "title": "apexingai/dsh-desktop-development",
-      "source": "GitHub Search API",
-      "url": "https://github.com/apexingai/dsh-desktop-development",
-      "date": "2026-08-25",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Private release-validation repository for DSH Desktop. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-25/11-apexingai-dsh-desktop-development.md"
-    },
-    {
-      "title": "Show HN: A puzzle I couldn't solve for a year – cubers cracked it in an hour",
-      "source": "Hacker News Show HN",
-      "url": "https://skimmiq.com/pt/",
-      "date": "2026-08-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Dev here. I created a puzzle that looks like Rubik's cube but works differently. Instead of turning faces, closed bands of 12 stickers slide around the cube. Every scramble is solvable. I built on-device AI solvers that solve it in about 60 moves (sometimes substantially less than that) I'm not even a cuber so since I created it I've been thinking that no... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-21/12-show-hn-a-puzzle-i-couldn-t-solve-for-a-year-cubers-cracked-it-in-an-h.md"
-    },
-    {
-      "title": "Show HN: Dev tools in one static site, no framework, no server",
-      "source": "Hacker News Show HN",
-      "url": "https://devtools.fit",
-      "date": "2026-08-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Dev tools in one static site, no framework, no server (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-24/13-show-hn-dev-tools-in-one-static-site-no-framework-no-server.md"
-    },
-    {
-      "title": "Please join r/LowEndLocalAI, a community for running local LLMs on low spec hardware",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxd6yb/please_join_rlowendlocalai_a_community_for/",
-      "date": "2026-08-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "If you’re trying to run local LLMs on a normal laptop, an older desktop, integrated graphics, limited VRAM, or simply the hardware you already own, r/LowEndLocalAI is meant for you. The idea is simple: What useful things can we do with the hardware we already have? I’ve been dealing with that question myself. My main systems are an M1 MacBook Air with 16... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/14-please-join-r-lowendlocalai-a-community-for-running-local-llms-on-low-.md"
-    },
-    {
-      "title": "Best Local Vision Language Models - August 2026",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx7ei1/best_local_vision_language_models_august_2026/",
-      "date": "2026-08-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Share what your favorite models are right now and why . Given the nature of the beast in evaluating VLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in describing your setup, nature of your usage ( what applications , how much, personal/professional use), tools/frameworks/prompts etc. Rul... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-24/15-best-local-vision-language-models-august-2026.md"
     }
   ]
 }
