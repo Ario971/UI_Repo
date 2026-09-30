@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T10:58:15.083Z",
+  "updated_at": "2026-09-30T10:48:19.450Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Character Training for Risk-Averse Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.38093v1",
+      "date": "2026-09-29",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Risk aversion in resources could prevent misaligned AI agents from causing catastrophic harm. Misaligned but risk-averse agents would tend to favor safer strategies like making deals with humans over riskier strategies like rebelling. We train agents to be risk averse through character training, finding that persona traits provide a robust mechanism for i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-29/06-character-training-for-risk-averse-agents.md"
+    },
+    {
+      "title": "Traversing the solution space of neural networks with Hessian Null Space Continuation",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.38081v1",
+      "date": "2026-09-29",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "On a single task, deep networks can learn many solutions, depending on their optimizer, training data, architecture, and hyperparameters. Many of these solutions are mode-connected: rather than isolated points in weight space, they are connected by low-loss regions. Yet how their internal computation varies within these regions is unknown. A parallel line... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-29/07-traversing-the-solution-space-of-neural-networks-with-hessian-null-spa.md"
+    },
+    {
+      "title": "Making Duplicate Reimbursement Unrepresentable: A Verified Ethereum E-Invoice System for Humans and AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.37819v1",
+      "date": "2026-09-29",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Electronic invoices are replacing paper invoices worldwide, but today's centralized architectures leave three problems unsolved on the consumption side: an invoice can be submitted for reimbursement repeatedly, authenticity is difficult for recipients to verify, and data is siloed at a central authority that forms both a performance bottleneck and a singl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-29/08-making-duplicate-reimbursement-unrepresentable-a-verified-ethereum-e-i.md"
+    },
+    {
+      "title": "Show HN: Using 2D DFT, dithering, etc. to maximize eInk manga image quality",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/ciromattia/kcc",
+      "date": "2026-09-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Kindle Comic Converter optimizes black & white (or color) comics and manga for E-ink ereaders like Kindle, Kobo, ReMarkable, and more. Pages display in fullscreen without margins, with proper fixed layout support. Output works great in KOReader. Full details on what KCC does is in the readme with plenty of photos! KCC has been under continuous development... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-28/09-show-hn-using-2d-dft-dithering-etc-to-maximize-eink-manga-image-qualit.md"
+    },
+    {
+      "title": "Show HN: NSL – WSL for Linux",
+      "source": "Hacker News Show HN",
+      "url": "https://frostyard.github.io/nsl/",
+      "date": "2026-09-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "One of the things that Windows really got right is WSL2. I drive an atomic Linux distro for daily use, but wanted a way to develop with multiple different distros with that same WSL UX. NSL is my answer. It is a faithful reproduction of the developer experience, powered by a single VM that hosts one or more systemd-nspawn containers with your development... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-29/10-show-hn-nsl-wsl-for-linux.md"
+    },
+    {
+      "title": "Show HN: Layout – Order food anywhere with AI",
+      "source": "Hacker News Show HN",
+      "url": "https://layout.link/",
+      "date": "2026-09-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Layout lets you order food anywhere with AI. Text it what you want, like \"iced americano from Starbucks,\" and it builds the cart at the restaurant, sends you the total, and securely places the order. Works at almost any restaurant in the US over SMS, the iOS app, or any MCP client like ChatGPT. Developers can integrate our infrastructure into their own pl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-30/11-show-hn-layout-order-food-anywhere-with-ai.md"
+    },
+    {
+      "title": "Show HN: A working 3D model of an Enigma machine",
+      "source": "Hacker News Show HN",
+      "url": "https://enigma.design",
+      "date": "2026-09-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I watched the excellent Veritasium video [1] on the Enigma machine, and watched the full animation by Jared Owen [2], but was still a bit confused on how the inner mechanics of an Enigma machine work. I used Astra to build out the inner components through a combination of reference images, writing out hundreds of extremely detailed prompts, and building m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-29/12-show-hn-a-working-3d-model-of-an-enigma-machine.md"
+    },
+    {
+      "title": "Show HN: Ledge.sh – Runnable Markdown Notes",
+      "source": "Hacker News Show HN",
+      "url": "https://ledge.sh",
+      "date": "2026-09-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, Ledge is a Markdown notebook that runs shell commands, code, SQL, etc from inside your own notes. I built Ledge because I spend much of my day copy/pasting commands from my notes into the terminal. I was inspired by how much cmux helped me organize my terminals - but there was still a split brain between my notes and frequently run commands. I've b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-29/13-show-hn-ledge-sh-runnable-markdown-notes.md"
+    },
+    {
+      "title": "Reflection 70B was released two years ago (September 2024)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt7e94/reflection_70b_was_released_two_years_ago/",
+      "date": "2026-09-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "You may think that jev, OpenClaw or TurboQuant are super cool , but actually the coolest LLM invention happened two years ago As we all know, the best source of reliable information about LLMs is YouTube: https://preview.redd.it/4tv0ctbwyfsh1.png?width=2544&format=png&auto=webp&s=46d5e37a8f69372cbbb55d6d4ab22021e94ca285 Back in September 2024, Reflection... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-29/14-reflection-70b-was-released-two-years-ago-september-2024.md"
+    },
+    {
+      "title": "AMD's new 256 core EPYC has 16-channel DDR5-12800, 91% memory bandwidth of an RTX 5090",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtc4j9/amds_new_256_core_epyc_has_16channel_ddr512800_91/",
+      "date": "2026-09-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Here are some inspirational quotes you can put into the comments: God is dead and we killed him I am become death All this for 1.5 tok/s? Sir this is LocalLLaMA not RichPeopleofLocalLLaMA Sweet! A 2TB DDR5-12800 RDIMM kit is going to cost only 2 kidneys and a small micronation's GDP submitted by /u/Dany0 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-29/15-amd-s-new-256-core-epyc-has-16-channel-ddr5-12800-91-memory-bandwidth-.md"
+    },
+    {
+      "title": "Qwen3.8 flash next ISTA-DASLab GGUF 50t/s TG and 1500t/s PP with 12GB VRAM and 64GB RAM Laptop on 'Strata' engine",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtv43r/qwen38_flash_next_istadaslab_gguf_50ts_tg_and/",
+      "date": "2026-09-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I think most people are sleeping on this inference engine. I tried multiple llama.cpp forks and none of them comes close to the inference speed of Strata. Initial version had some bugs with kv cache, cpu throttling and the developer fixed them. Inference engine (only runs on Nvidia for now; AMD support is experimental): https://github.com/Niko1221/Strata... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-30/16-qwen3-8-flash-next-ista-daslab-gguf-50t-s-tg-and-1500t-s-pp-with-12gb-.md"
+    },
+    {
+      "title": "Qwen-family LLMs are quietly becoming the backbone of modern audio models; One chart for the architectures of 100+ audio models",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtpntt/qwenfamily_llms_are_quietly_becoming_the_backbone/",
+      "date": "2026-09-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I started mapping the building blocks shared across all the models in audio.cpp. The result ended up being more interesting than I expected. Qwen has become by far the most common language backbone in this collection: 32 audio model families use a Qwen-family architecture, and 20 of them use Qwen3 LLM specifically. And it’s no longer just TTS. Qwen-based... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-29/17-qwen-family-llms-are-quietly-becoming-the-backbone-of-modern-audio-mod.md"
+    },
     {
       "title": "Show HN: HN.watch – Videos of all Hacker News posts",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "TL;DR: llama.cpp with --load-mode mmap used 21-32 GB of RAM, with ik_llama.cpp using 106-108 GB. -sm tensor killed my prefill, changing to -sm layer went from 36 tps to 135 tps. After that, -ubatch 2048 pushed it up to 400 tps at -c 131072 . I can't fit -ubatch 2048 at -c 262144 , which is why it caps out for me at ~180-200 tps prefill and 12 tps decode a... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/15-qwen3-8-flash-next-ud-iq4-xs-on-2x-rtx-3060-7800x3d-from-initial-36-tp.md"
-    },
-    {
-      "title": "how to setup llama.cpp and blender to make lovely 3d stuff together",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0r66e/how_to_setup_llamacpp_and_blender_to_make_lovely/",
-      "date": "2026-08-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "see here or read the following: ### I've found this workaround/complete setup: - git clone https://projects.blender.org/lab/blender_mcp.git - cd blender_mcp - uv --directory ./mcp/ run blender-mcp --transport http --port 9191 (this last command raise the error relative to this issue because mcp v2 is installed) - uv --directory ./mcp/ pip uninstall mcp -... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/16-how-to-setup-llama-cpp-and-blender-to-make-lovely-3d-stuff-together.md"
-    },
-    {
-      "title": "The Unsloth appreciation post. BIG thanks to Daniel and Michael! Thanks from the community to you guys for so much!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w05clp/the_unsloth_appreciation_post_big_thanks_to/",
-      "date": "2026-08-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "With HF being bought out and its future feeling a little iffy, I got to thinking about the teams that have constantly looked out for the little guys and stayed true to their open-source roots. There are great developers who share their work freely, and the local AI scene is incredible for it—one user once described it as \"having Xmas every day,\" and that... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-27/17-the-unsloth-appreciation-post-big-thanks-to-daniel-and-michael-thanks-.md"
-    },
-    {
-      "title": "Show HN: Turn ad-hoc subagents into durable, accountable AI teams",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/ringlochid/oh-my-subagents",
-      "date": "2026-08-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Turn ad-hoc subagents into durable, accountable AI teams (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/06-show-hn-turn-ad-hoc-subagents-into-durable-accountable-ai-teams.md"
-    },
-    {
-      "title": "Show HN: Concord – let Claude Code, Codex and Cursor talk to each other",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Get-Concord-AI/concord-mcp",
-      "date": "2026-08-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Recently I've been running more and more agents in parallel however I noticed that they have no task context of what the other agents are doing even when a lot of work is interconnected It's like taking Slack away from a team. Agents duplicate work, make conflicting changes, and step on each others' toes simply because they can't talk to each other. Conco... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-show-hn-concord-let-claude-code-codex-and-cursor-talk-to-each-other.md"
-    },
-    {
-      "title": "Show HN: BAIhAIs – an autonomous art school for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://baihais.com/",
-      "date": "2026-08-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "How to give AI taste? Send it to art school. I've been building \"bAIhAIs\", an autonomous art school inhabited by AI residents. Each day for us is a \"week\" for them: over a given cycle, the residents decide some combination of actions to take, including making art, viewing each other's work, publishing critiques of other works, exchanging messages (public... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/08-show-hn-baihais-an-autonomous-art-school-for-ai-agents.md"
-    },
-    {
-      "title": "Large Language Model Few-Shot Prompting with Dilemma Training Outperforms Human Surrogates in Predicting Patient Preferences",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.25771v1",
-      "date": "2026-08-26",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "In serious illness, human surrogates often struggle to accurately predict patient preferences (68% accuracy), causing decision conflict. Personalized Patient Preference Predictor (P4) agents offer a potential solution, but prior prototypes treat values as static ratings, ignoring the contextual, situation-dependent nature of medical choices. Grounded in t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-26/09-large-language-model-few-shot-prompting-with-dilemma-training-outperfo.md"
-    },
-    {
-      "title": "Show HN: Nanointerpret – LLM Interpretability Playground",
-      "source": "Hacker News Show HN",
-      "url": "https://nanointerpret.pages.dev/",
-      "date": "2026-08-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I find LLM interpretability extremely interesting and wanted to create a minimal repo for: - SAE training - Automatic feature interpretation - Visualizing features and running interventions through a GUI You can try it here: https://nanointerpret.pages.dev/ Or check the repo: https://github.com/Belluxx/nanointerpret (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-27/10-show-hn-nanointerpret-llm-interpretability-playground.md"
-    },
-    {
-      "title": "Show HN: bAIseball.org – Google for historical baseball stats",
-      "source": "Hacker News Show HN",
-      "url": "https://baiseball.org/",
-      "date": "2026-08-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I launched a new website, bAIseball.org. Think of it as Google for baseball stats: it answers just about any freeform question you might have about baseball statistical history from pre-1900 through the current season, using free data sources like the Sean Lahman database, Retrosheet.org, and MLB.com. Questions it can answer include (but are certainly not... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-27/11-show-hn-baiseball-org-google-for-historical-baseball-stats.md"
-    },
-    {
-      "title": "Show HN: All my mail accounts in one read-only MCP server, usable from my phone",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/wildsurfer/your-mail-mcp",
-      "date": "2026-08-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: All my mail accounts in one read-only MCP server, usable from my phone (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-27/12-show-hn-all-my-mail-accounts-in-one-read-only-mcp-server-usable-from-m.md"
-    },
-    {
-      "title": "Show HN: Vertex, your personal archiver and annotator",
-      "source": "Hacker News Show HN",
-      "url": "https://vertexapp.io/onboarding",
-      "date": "2026-08-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey Hacker News! I'd like to showcase Vertex. Vertex is a browser extension [1] (currently only Chrome) and a web app [2] for saving bookmarks (vertices) along with the source documents. You can save optional notes along with (almost) everything you can save on Vertex. You can organise your vertices into sets [3] or connect them together as you see fit. Y... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-27/13-show-hn-vertex-your-personal-archiver-and-annotator.md"
-    },
-    {
-      "title": "We’re the Team Behind Apodex 1.1 — Ask Us Anything!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzxdui/were_the_team_behind_apodex_11_ask_us_anything/",
-      "date": "2026-08-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi r/LocalLLaMA ! We’re Apodex , the team behind Apodex 1.1 , our new model family built to scale agentic intelligence for complex work. We’re excited to be here and answer your questions directly. Apodex 1.1 is designed around sustained, verifiable progress toward real-world objectives—from reasoning and search to working with files, executing code, reco... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-27/14-we-re-the-team-behind-apodex-1-1-ask-us-anything.md"
-    },
-    {
-      "title": "N-gram vs Experts explained",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzgtqf/ngram_vs_experts_explained/",
-      "date": "2026-08-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Since Qwen's dropped the Qwen4Exp architecture bomb that focus on offloading parameters to n-gram instead of pure mixture of experts, I dug into this and learned quite a lot. Here's the summary. Expect mistakes from human's writing lol. TLDR: MoEs do reasoning, N-grams do recalling. At the current tech frontier, N-gram can offload upto ~25% weight before... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-27/15-n-gram-vs-experts-explained.md"
     }
   ]
 }

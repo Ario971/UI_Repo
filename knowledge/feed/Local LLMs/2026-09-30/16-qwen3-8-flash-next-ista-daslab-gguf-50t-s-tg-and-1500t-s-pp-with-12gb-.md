@@ -1,0 +1,12 @@
+---
+title: "Qwen3.8 flash next ISTA-DASLab GGUF 50t/s TG and 1500t/s PP with 12GB VRAM and 64GB RAM Laptop on 'Strata' engine"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1wtv43r/qwen38_flash_next_istadaslab_gguf_50ts_tg_and/"
+date: "2026-09-30"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "I think most people are sleeping on this inference engine. I tried multiple llama.cpp forks and none of them comes close to the inference speed of Strata. Initial version had some bugs with kv cache, cpu throttling and the developer fixed them. Inference engine (only runs on Nvidia for now; AMD support is experimental): https://github.com/Niko1221/Strata... (Local summary fallback used.)"
+---
+
+I think most people are sleeping on this inference engine. I tried multiple llama.cpp forks and none of them comes close to the inference speed of Strata. Initial version had some bugs with kv cache, cpu throttling and the developer fixed them. Inference engine (only runs on Nvidia for now; AMD support is experimental): https://github.com/Niko1221/Strata Here are some metrics with screenshots. My laptop has 5070ti 12GB VRAM, 64GB ddr5 RAM, Intel 275HX CPU, gen4 SSD. Aquarium test (unsloth studio connected via local API) The model I used was https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF/tree/main/IQ3_XXS which has a good quality for its size. Above, the model generated the aquarium test. At 43k context depth, it was running at 51 t/s. Stock llama.cpp reached only 23t/s with the same quant. 32k context read at 1500t/s (unsloth studio via local API) This quant could only reach 100t/s PP with stock llama.cpp using the same quant. Strata was reading 32k context text at 1500t/s. This is way above my expectation. This quant can load with up to 200k context at 8bit. However, I was only using 131k context. Memory utilization As you can see it is utilizing 11GB VRAM and 56GB RAM (includes system/OS programs). This engine is specifically built for one model only and only select ggufs (ISTA-DASLab) work with it. You can use IQ3_S from ISTA-DASLab which they claim recovers full model's performance on coding benchmarks. I tested IQ3_XXS for some time and I would say it is an excellent model. I never thought 12GB VRAM would be enough to run frontier models from 6 months ago locally on a laptop. What a time to be alive! submitted by /u/MLDataScientist [link] [comments]
