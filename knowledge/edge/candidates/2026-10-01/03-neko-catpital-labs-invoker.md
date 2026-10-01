@@ -1,0 +1,233 @@
+---
+id: "neko-catpital-labs/invoker"
+name: "Neko-Catpital-Labs/Invoker"
+url: "https://github.com/Neko-Catpital-Labs/Invoker"
+date: "2026-10-01"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "agent_framework"
+compatibility: 84
+momentum: 71
+risk: 47
+integration_effort: 52
+expected_gain: 77
+composite: 70
+replacement_target: ""
+related_articles: [{"title":"Show HN: Foremerge – Catch intent conflicts between parallel coding agents","date":"2026-09-21","topic":"AI agents","similarity":0.25,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/06-show-hn-foremerge-catch-intent-conflicts-between-parallel-coding-agent.md"},{"title":"Show HN: Shed – Git Repo Management for Terminal Agents","date":"2026-09-01","topic":"AI agents","similarity":0.226,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-01/08-show-hn-shed-git-repo-management-for-terminal-agents.md"},{"title":"Show HN: Moadim.io – A scheduler for agents","date":"2026-09-04","topic":"AI agents","similarity":0.216,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/06-show-hn-moadim-io-a-scheduler-for-agents.md"}]
+pros: ["Recently updated (2026-10-01)","18 GitHub stars","GitHub Actions/CI detected","README includes install commands"]
+cons: ["License was not clearly detected by GitHub"]
+readme_quality: 85
+has_ci: true
+has_tests: false
+setup_steps_count: 3
+dependency_files: [{"name":"package.json","summary":"package metadata could not be parsed"}]
+install_commands: ["npx @neko-catpital-labs/invoker-cli@latest install","npm install -g @neko-catpital-labs/invoker-ui","npm install -g @neko-catpital-labs/invoker-cli"]
+risk_flags: []
+status: "new"
+---
+
+# Neko-Catpital-Labs/Invoker
+
+Persisted multi-agent workflow orchestration — DAG tasks, git worktrees, merge gates, desktop + CLI + Slack
+
+URL: https://github.com/Neko-Catpital-Labs/Invoker
+
+## Why it matters
+You saved an article on 2026-09-21 about AI agents; this candidate overlaps with "Show HN: Foremerge – Catch intent conflicts between parallel coding agents" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-01)
++ 18 GitHub stars
++ GitHub Actions/CI detected
++ README includes install commands
+
+## Cons
+- License was not clearly detected by GitHub
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: no
+Setup steps estimate: 3
+
+Dependency files:
+- package.json: package metadata could not be parsed
+
+Install commands found:
+- npx @neko-catpital-labs/invoker-cli@latest install
+- npm install -g @neko-catpital-labs/invoker-ui
+- npm install -g @neko-catpital-labs/invoker-cli
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+<div align="center">
+
+# Invoker
+
+**Persisted multi-agent workflow orchestration**
+
+[![License: FSL-1.1-ALv2](https://img.shields.io/badge/license-FSL--1.1--ALv2-blue?style=flat-square)](LICENSE)
+[![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Linux-lightgrey?style=flat-square)](https://github.com/Neko-Catpital-Labs/Invoker/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/Neko-Catpital-Labs/Invoker?style=flat-square)](https://github.com/Neko-Catpital-Labs/Invoker/releases/latest)
+[![npm invoker-cli](https://img.shields.io/npm/v/@neko-catpital-labs/invoker-cli?label=invoker-cli&style=flat-square)](https://www.npmjs.com/package/@neko-catpital-labs/invoker-cli)
+[![npm invoker-ui](https://img.shields.io/npm/v/@neko-catpital-labs/invoker-ui?label=invoker-ui&style=flat-square)](https://www.npmjs.com/package/@neko-catpital-labs/invoker-ui)
+[![npm invoker-slack](https://img.shields.io/npm/v/@neko-catpital-labs/invoker-slack?label=invoker-slack&style=flat-square)](https://www.npmjs.com/package/@neko-catpital-labs/invoker-slack)
+[![Slack](https://img.shields.io/badge/slack-join-4A154B?style=flat-square&logo=slack&logoColor=white)](https://join.slack.com/t/invoker-ai/shared_invite/zt-476imo738-VqNp_SDfI6DFZp80EGgscQ)
+
+A DAG of tasks in isolated git worktrees, composed through merge gates and review — desktop, CLI, and Slack on one control plane.
+
+**[Download](https://github.com/Neko-Catpital-Labs/Invoker/releases/latest)** · **[Website](https://invoker-control.dev)** · **[Join Slack](https://join.slack.com/t/invoker-ai/shared_invite/zt-476imo738-VqNp_SDfI6DFZp80EGgscQ)**
+
+<video src="docs/assets/invoker-preview.mp4" controls muted playsinline width="100%"></video>
+
+[Watch the Invoker demo video](docs/assets/invoker-preview.mp4)
+
+</div>
+
+## Features
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Monitor execution
+
+See parallel runs, dependencies, PRs, and replay paths in one stacked workflow graph — persistence is the source of truth, not process memory.
+
+</td>
+<td width="50%">
+
+<img src="docs/assets/readme/monitor-execution.png" alt="Monitor execution" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Drive with AI
+
+Plan and run Codex, Claude, and other agents as first-class DAG nodes with explicit lineage and session audit trails.
+
+</td>
+<td width="50%">
+
+<img src="docs/assets/readme/drive-with-ai.png" alt="Drive with AI" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Intervene and approve
+
+Human gates are first-class states — approve, retry, or redirect without leaving the control plane.
+
+</td>
+<td width="50%">
+
+<img src="docs/assets/readme/intervene.png" alt="Intervene and approve" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Review work
+
+Branches, merges, conflicts, and pull requests are part of the execution model — review stacked changes in context.
+
+</td>
+<td width="50%">
+
+<img src="docs/assets/readme/review-work.png" alt="Review work" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Control cloud and remote agents
+
+Spread work across SSH targets and remote machines you already manage — same actions from desktop, CLI, or Slack.
+
+</td>
+<td width="50%">
+
+<img src="docs/assets/readme/control-cloud-agents.png" alt="Control cloud and remote agents" />
+
+</td>
+</tr>
+</table>
+
+## Workers
+
+Invoker background work is owned by the built-in worker registry. `autofix` is the default failed-task recovery worker; it reconciles persisted state and submits normal `fix-with-agent` intents instead of running recovery from task-state producers.
+
+Run workers on the Invoker owner host. Operators can start and stop them from the desktop Workers tab, inspect them with `invoker-ui --headless worker status --output text|json|jsonl`, or trigger one explicit scan with `invoker-ui --headless worker <kind>`. Each kind takes its own single-instance lock, so a second scan of the same worker is refused without blocking other worker kinds.
+
+PR maintenance uses the same owner-host worker path. Enable `prMaintenance` to launch `pr-admin-bypass-land`, keep `pr-orphan-repair` available from the same built-in registry, and do not install separate cron jobs or external worker launchers for the supported setup.
+
+## Install
+
+Requires Node.js 26.x. One command installs CLI + UI, runs doctor, wires skills/MCP, and turns on `pr-status` / `autofix` / `auto-approve` (skips Slack and remote machines):
+
+```bash
+npx @neko-catpital-labs/invoker-cli@latest install
+```
+
+Sample output: [docs/install-transcript.txt](docs/install-transcript.txt) (`invoker-cli install --demo`).
+
+Default Invoker owner is **local**. In chat, name a host or IP to use a remote Invoker (the agent probes SSH and retargets MCP). Slack and remote machines stay optional (`invoker-cli setup slack` / `setup machines`).
+
+Manual equivalent:
+
+```bash
+npm install -g @neko-catpital-labs/invoker-ui
+npm install -g @neko-catpital-labs/invoker-cli
+invoker-cli install
+```
+
+If you need Node installed first, optional wrapper: `curl -fsSL https://raw.githubusercontent.com/Neko-Catpital-Labs/Invoker/master/scripts/bootstrap.sh | bash` (ensures Node 26, then runs the same `npx @neko-catpital-labs/invoker-cli@latest install`). Desktop packages only: `curl -fsSL https://raw.githubusercontent.com/Neko-Catpital-Labs/Invoker/master/scripts/install.sh | bash`. Full install, config, and source checkout steps: [Getting started](docs/getting-started.md).
+
+`invoker-cli install` (and interactive `invoker-cli setup`) installs the first-party Invoker AI helper skills and registers the Invoker MCP server with Codex, Claude, Cursor, and OMP. Interactive `setup` still walks Slack and machines when you want them.
+
+Then, in Codex, Claude, Cursor, or OMP, ask in normal chat to plan and run durable work through Invoker. Setup already installs the `invoker-chat-submit` skill and MCP tools, so the agent can prepare a review, wait for one approval, submit, and watch status without a slash command.
+
+Explicit fallback remains available:
+
+```text
+/invoker-plan-to-invoker "help me plan <change>"
+```
+
+Either path writes `plans/invoker-handoff.md`, converts it to `plans/invoker-handoff.yaml`, validates, and reviews via MCP (`invoker_prepare_plan_review` → one approval → `invoker_submit_plan` with `reviewToken`), then reports status with `invoker_get_workflow` / `invoker_list_tasks` / bounded `invoker_wait_for_workflow`. The explicit fallback command can also submit with `invoker-cli run --live` instead of the Invoker MCP tool.
+## Docs
+
+- [Getting started](docs/getting-started.md) — prerequisites, install, config, quick start, troubleshooting
+- [Architecture](ARCHITECTURE.md) — package layering, mutation boundaries, error contracts
+- [invoker-ops skill](skills/invoker-ops/SKILL.md) — operate existing workflows: retry, restart, cancel, or inspect blocked tasks
+- [Slack native workflows](docs/slack-native-workflows.md) — lobby mentions, harness presets, per-workflow channels
+- [First agent workflow tutorial](docs/tutorial-first-agent-workflow.md) — guided first run
+- [Changelog](CHANGELOG.md)
+- [Contributing](CONTRIBUTING.md)
+- [License](LICENSE)
+
+More: [local macOS release build](docs/local-macos-release-build.md), [remote SSH targets](docs/remote-ssh-targets.md), [Docker executor](docs/docker-executor.md), [web surface](docs/web-surface.md), [UI/backend drift tracing](docs/ui-backend-drift-tracing.md), [product story](docs/invoker-medium-article.md).
+
+If you need to turn a product or implementation plan into an Invoker workflow, run `invoker-cli setup` (or System Setup in the desktop app) to install helpers. In normal chat, ask to plan/submit durable work through Invoker; the installed `invoker-chat-submit` skill and MCP tools handle review, one approval, submit, and status. `/invoker-plan-to-invoker "help me plan <change>"` remains the explicit slash-command fallback.
+## License
+
+[Functional Source License, Version 1.1, ALv2 Future License](LICENSE) (SPDX: **FSL-1.1-ALv2**). Permitted use, competing use, and the future Apache License 2.0 grant are defined in the license file.
+
+Invoker also includes the **Neko Catpital Ventures, LLC Addendum** in [LICENSE](LICENSE). In plain terms, that addendum says:
+
+- if you modify or redistribute the Software for commercial use, those modifications or redistributions must remain open source under the FSL and the NCV Addendum, and cannot be relicensed more restrictively
+- you may build and exploit software or developments using Invoker, so long as Invoker itself is not incorporated into that software or those developments
+- except for evaluation or testing, you may not use the Software to replace employees or reduce headcount for substantially similar roles for six months after first production use
+
+The `LICENSE` file is the controlling text, including the full NCV Addendum.
+

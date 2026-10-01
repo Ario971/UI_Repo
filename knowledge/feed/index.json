@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T10:48:19.450Z",
+  "updated_at": "2026-10-01T11:14:46.821Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.40325v1",
+      "date": "2026-09-30",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and visi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/06-worldauditbench-interactive-3d-world-auditing-with-multimodal-agents.md"
+    },
+    {
+      "title": "Skill-Based AI Agents for Power-System Studies",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.40272v1",
+      "date": "2026-09-30",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "This paper describes a skill-based agentic framework for power-system studies using Model Context Protocol (MCP)-connected engineering tools. A custom MCP server was developed to expose Siemens PTI PSSE functions for power-flow analysis, dynamic simulation, result extraction, and model-validation workflows. Two implementation pathways built on a programma... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/07-skill-based-ai-agents-for-power-system-studies.md"
+    },
+    {
+      "title": "Herschel: Continuous Optimization of Production LLM Inference through On-Demand Profiling",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.40247v1",
+      "date": "2026-09-30",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Model-as-a-service platforms call for continuous optimization as complex serving conditions expose inefficiencies missed before deployment. Detailed always-on profiling can incur substantial overhead, while lightweight collection omits information needed for diagnosis. We present Herschel, a continuous optimization system for production large language mod... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/08-herschel-continuous-optimization-of-production-llm-inference-through-o.md"
+    },
+    {
+      "title": "Who Asked for This? Inline Annotations as Authoring Transactions for Provenance in Agentic Authoring",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2609.40126v1",
+      "date": "2026-09-30",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Writing with AI agents turns a paragraph into the outcome of many requests, yet the finished document rarely explains which request produced which change. We introduce Reactant, an interaction paradigm in which authors place typed inline annotations in their original documents. A verified transaction protocol records each request, skill identity, and the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/09-who-asked-for-this-inline-annotations-as-authoring-transactions-for-pr.md"
+    },
+    {
+      "title": "Show HN: Strata – an expressive semantic layer that can say no to your LLM",
+      "source": "Hacker News Show HN",
+      "url": "https://strata.do/",
+      "date": "2026-09-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN, I'm Ajo and I built Strata. I spent 4 years at Netflix solving self service for non-technical business users. I think I cracked it with my unique approach to semantic layer design. The key challenge is balancing expressiveness with ease of use for our non technical colleagues. It just so happens that focus made it work pretty well with LLMs too.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-30/10-show-hn-strata-an-expressive-semantic-layer-that-can-say-no-to-your-ll.md"
+    },
+    {
+      "title": "AI Slop Is a Process Problem, Not a People Problem",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/ai-slop-team-sport",
+      "date": "2026-02-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "CI/CD shifted blame from people to process. AI code quality needs the same shift: systematic checks, not individual vigilance. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-02-27/11-ai-slop-is-a-process-problem-not-a-people-problem.md"
+    },
+    {
+      "title": "likho-ai/likho-infra",
+      "source": "GitHub Search API",
+      "url": "https://github.com/likho-ai/likho-infra",
+      "date": "2026-10-01",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Local stack (databases, NATS JetStream, S3 store, search, gateway) and shared CI for Likho (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-01/12-likho-ai-likho-infra.md"
+    },
+    {
+      "title": "Laurent150/Who-Is-JSON",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Laurent150/Who-Is-JSON",
+      "date": "2026-10-01",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "An AI-assisted code reading tool for vibe coders, with interactive explanations and a personal knowledge library. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-01/13-laurent150-who-is-json.md"
+    },
+    {
+      "title": "szmcp: a ZIM HTML to Markdown converter and yet another ZIM MCP server",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuktlf/szmcp_a_zim_html_to_markdown_converter_and_yet/",
+      "date": "2026-10-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hello all, I wanted to share a little project I vibe-coded for myself that you may find useful. As many people here like to suggest, I wanted to give my small local LLMs access to information to improve their world knowledge. I didn't want to give my LLM free reign searching and browsing the web to keep my queries private and functional offline, so I want... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-01/14-szmcp-a-zim-html-to-markdown-converter-and-yet-another-zim-mcp-server.md"
+    },
+    {
+      "title": "DeepSeek harness 0.2 - Optional Bundle Architecture, Windows Sandbox improvements, Async Question Mode, Desktop release, Web Search without key",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wutkgt/deepseek_harness_02_optional_bundle_architecture/",
+      "date": "2026-10-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Optional Bundle architecture : Schedule (session-local delayed / timed / interval reminders) was removed from the default set and made an explicit Optional Bundle. This cleanly separates “installed” from “enabled” and is the first systematic use of the Profile + Bundle model for official features. • Windows Sandbox improvements : A new permission-diagnosi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-01/15-deepseek-harness-0-2-optional-bundle-architecture-windows-sandbox-impr.md"
+    },
+    {
+      "title": "We just open-sourced the world's fastest WebGPU kernels for local AI on Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu8tpg/we_just_opensourced_the_worlds_fastest_webgpu/",
+      "date": "2026-09-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The collection includes kernels for more than 200 common ML operations, all of which can run entirely locally in your browser on WebGPU. We're also working to upstream these optimizations to Transformers.js, ONNX Runtime Web, LiteRT.js, and more! Kernels: https://huggingface.co/kernels?platform=webgpu Blog: https://huggingface.co/blog/webgpu-kernels submi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-30/16-we-just-open-sourced-the-world-s-fastest-webgpu-kernels-for-local-ai-o.md"
+    },
+    {
+      "title": "Astrabox - Open source Arcade Game Generator",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wumex2/astrabox_open_source_arcade_game_generator/",
+      "date": "2026-10-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone! I’ve been working on ASTRABOX : an arcade interface where you describe a game, the AI builds it, and you can ask for changes by voice while playing. Each game gets its own visuals and gameplay, while a shared runtime handles controllers, scores, player joining, etc. I built it around Codex, but the code is open source. I’d love to see someon... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-01/17-astrabox-open-source-arcade-game-generator.md"
+    },
     {
       "title": "Character Training for Risk-Averse Agents",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "this model is really something incredible, saved us like 600 dollars. my fiance is always breaking her electronics and then getting me to fix them. The other day she brought me her phone and it was stuck in a boot loop that wouldn't post. tried normal stuff, managed to get it to fastboot but the recovery mode wouldn't load and I couldn't find any firmware... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/15-saved-my-fiances-phone-with-qwen-3-8-27b.md"
-    },
-    {
-      "title": "Breeze-TTS-2 initial impressions: genuinely 'frontier' TTS",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1002h/breezetts2_initial_impressions_genuinely_frontier/",
-      "date": "2026-08-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "You can test it out on breezblue's playground or use it locally, its only ~7GB. submitted by /u/Gohab2001 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/16-breeze-tts-2-initial-impressions-genuinely-frontier-tts.md"
-    },
-    {
-      "title": "dgx sparks and new models my tests and results",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1jhh4/dgx_sparks_and_new_models_my_tests_and_results/",
-      "date": "2026-08-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "We have four Sparks, arranged as two ConnectX-7 pairs. Over the last week we tried DeepSeek V4 Flash, Qwen3.8 Flash Next, Qwen3.8-27B and Qwen3.6-35B-A3B. The following tables are our preserved local results—not estimates copied from model cards. Recipe and context summary Model / recipe Hardware Runtime / acceleration Served context Longest demonstrated... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/17-dgx-sparks-and-new-models-my-tests-and-results.md"
-    },
-    {
-      "title": "Show HN: Open tool for testing your AI Agents (No LLM)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/IdoGol24/weir",
-      "date": "2026-08-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Open tool for testing your AI Agents (No LLM) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-28/06-show-hn-open-tool-for-testing-your-ai-agents-no-llm.md"
-    },
-    {
-      "title": "Show HN: URML – safety-eval harness for AI agents on lab and factory hardware",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/URML-MARS/URML/tree/main/examples/physical-ai-safety-eval",
-      "date": "2026-08-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: URML – safety-eval harness for AI agents on lab and factory hardware (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-28/07-show-hn-urml-safety-eval-harness-for-ai-agents-on-lab-and-factory-hard.md"
-    },
-    {
-      "title": "Show HN: Watches user sessions, finds bugs that matter, and fixes them",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/opslane/opslane",
-      "date": "2026-08-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I’m Abhishek. I'm building Opslane, an open-source agent that identifies user-facing issues and investigates them. It only creates a PR if it can verify the fix. Demo: https://youtu.be/ccuOTYQMeYg Docs: https://docs.opslane.com At my last job at Robinhood, we used to do a quarterly bug bash. We would go through our Sentry backlog and try to fix as... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/08-show-hn-watches-user-sessions-finds-bugs-that-matter-and-fixes-them.md"
-    },
-    {
-      "title": "Show HN: I built a tool showing how AI providers (should) throttle their models",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://throttle.staffinganalytics.io/?src=hn",
-      "date": "2026-08-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "OP here: this project was born out of the frustration/paranoia that AI providers are throttling their models when their server load is too high. So, I set out to model and study the problem mathematically to understand what was happening, what I found was quite surprising. The idea seems natural: as the data center demand increases momentarily through the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-28/09-show-hn-i-built-a-tool-showing-how-ai-providers-should-throttle-their-.md"
-    },
-    {
-      "title": "ricauts/servo",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ricauts/servo",
-      "date": "2026-08-28",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Open-source, self-hostable AI service desk - email becomes tickets, AI drafts replies and works them with real tools, humans approve anything risky. BYOK, SSO, MCP. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-28/10-ricauts-servo.md"
-    },
-    {
-      "title": "Show HN: SubSmith – Turn your own videos into language-learning material",
-      "source": "Hacker News Show HN",
-      "url": "https://subsmith.app",
-      "date": "2026-08-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I've been learning Japanese for a few years and kept running into a similar problem. I'd find a video I wanted to learn from, hear a useful sentence, and then realise that turning that sentence into something I could study later was both time consuming and draining at times. I would end up jumping between a video player, subtitles/transcription, a diction... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-28/11-show-hn-subsmith-turn-your-own-videos-into-language-learning-material.md"
-    },
-    {
-      "title": "Show HN: It Was Never You",
-      "source": "Hacker News Show HN",
-      "url": "https://itwasneveryou.app",
-      "date": "2026-08-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! I made my first iOS app - users can swap out an ex or friend for someone else in their photo library. I did this as a bit of a lark. I hope you find it entertaining, at least. At its most serious, it’s a Black Mirror-esque note on the future we’re enabling in the AI age. It’s not an app I’d ever use or recommend people use. I suppose that’s the que... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-28/12-show-hn-it-was-never-you.md"
-    },
-    {
-      "title": "Show HN: I read 648 banks' exchange boards daily to show what they charge",
-      "source": "Hacker News Show HN",
-      "url": "https://myratefx.com/",
-      "date": "2026-08-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: I read 648 banks' exchange boards daily to show what they charge (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-28/13-show-hn-i-read-648-banks-exchange-boards-daily-to-show-what-they-charg.md"
-    },
-    {
-      "title": "No, Engrams won't let you run 1T models locally. It does something even better.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0198r/no_engrams_wont_let_you_run_1t_models_locally_it/",
-      "date": "2026-08-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Ever since Qwen 3.8 Flash Next dropped, there's a misconception going around that N-gram tables will let people run 1T+ parameter models on a single server with 980B parameters offloaded to SSD. I'm here to disappoint you: it won't. But what it will actually do for local models is even better. At its core, Engram is just an embedding table with a longer k... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-27/14-no-engrams-won-t-let-you-run-1t-models-locally-it-does-something-even-.md"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next (UD-IQ4_XS) on 2x RTX 3060 + 7800X3D, from initial 36 tps prefill to 400 tps and other benchmarks (-sm tensor trap) + VRAM/RAM usage",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0na2z/qwen38flashnext_udiq4_xs_on_2x_rtx_3060_7800x3d/",
-      "date": "2026-08-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "TL;DR: llama.cpp with --load-mode mmap used 21-32 GB of RAM, with ik_llama.cpp using 106-108 GB. -sm tensor killed my prefill, changing to -sm layer went from 36 tps to 135 tps. After that, -ubatch 2048 pushed it up to 400 tps at -c 131072 . I can't fit -ubatch 2048 at -c 262144 , which is why it caps out for me at ~180-200 tps prefill and 12 tps decode a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-28/15-qwen3-8-flash-next-ud-iq4-xs-on-2x-rtx-3060-7800x3d-from-initial-36-tp.md"
     }
   ]
 }
