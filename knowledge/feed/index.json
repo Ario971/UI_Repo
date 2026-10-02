@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T11:14:46.821Z",
+  "updated_at": "2026-10-02T10:47:20.089Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://news.ycombinator.com/item?id=49911500",
+      "date": "2026-09-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "A few months ago we started building a model router for coding agents because we thought we could outperform any single model with an ensemble approach. Recently we’ve achieved that milestone and I want to talk about how we did it. First of all, a quick explanation: the Weave Router ( https://github.com/weave-os/router ) plugs into any coding agent (e.g.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/06-show-hn-open-source-model-routing-for-coding-agents-at-astra-level-per.md"
+    },
+    {
+      "title": "Show HN: PhreshOS – OS for Web Apps",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/PhreshOS/system",
+      "date": "2026-10-01",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'd like to share my experience building this system with you. It's an operating system for web applications, and it took me about six months to develop this model. The idea is that every time I build a web tool, I need to design the infrastructure, including authentication and communication. If it's a WebSocket, it's even more complicated; I need another... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/07-show-hn-phreshos-os-for-web-apps.md"
+    },
+    {
+      "title": "Show HN: Breadcrumb, record everything on your mac + context manager for AI",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://innerloop.works/breadcrumb",
+      "date": "2026-10-01",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm Justin. Breadcrumb records everything you do on your Mac (screen + meetings + AI transcripts + what you and your AI decided) and turns it into memory your AI can search. It's local and encrypted. You can also teach it rules by talking to it and it makes sure the right rules turn up in the right context. Works with Claude Code / Codex / Cursor /... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/08-show-hn-breadcrumb-record-everything-on-your-mac-context-manager-for-a.md"
+    },
+    {
+      "title": "Show HN: Premortem – AI agents that red-team your startup idea",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://premortem.site",
+      "date": "2026-10-01",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Premortem – AI agents that red-team your startup idea (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/09-show-hn-premortem-ai-agents-that-red-team-your-startup-idea.md"
+    },
+    {
+      "title": "Show HN: Bun-install – Global CLI installer for Bun with local monorepo support",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/joeycumines/bun-install",
+      "date": "2026-10-01",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, This is a CLI tool I initially built as a convenient and reliable way to install executable(s) from a local monorepo workspace into Bun's global package store. I had a local monorepo with workspace dependencies that needed to be installed as a whole. The commands aren't bundled, and I didn't want to manually manage dependencies. (If you want to tr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-01/10-show-hn-bun-install-global-cli-installer-for-bun-with-local-monorepo-s.md"
+    },
+    {
+      "title": "Show HN: Graphene – Data analysis toolkit for your coding agent",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/graphene-data/graphene",
+      "date": "2026-10-01",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "My friend and I have worked at a number of BI companies and thought: Can’t a coding agent do most of this now? Almost. They just need a context/semantic layer to ensure query correctness and some kind of artifact for publishing findings and visualizations. We built an open source project called Graphene that provides these tools: - Semantic layer that’s m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-01/11-show-hn-graphene-data-analysis-toolkit-for-your-coding-agent.md"
+    },
+    {
+      "title": "instl999/exam-scribe",
+      "source": "GitHub Search API",
+      "url": "https://github.com/instl999/exam-scribe",
+      "date": "2026-10-02",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ExamScribe：把教科书变成可信赖备考材料的 Agent Skill，每条陈述引用原文并逐条核实，支持扫描版 PDF 与多语言，中英双语文档。An Agent Skill that turns a textbook into exam-prep material you can trust: every claim cited and checked; scans and many languages supported. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/12-instl999-exam-scribe.md"
+    },
+    {
+      "title": "I \"built\" a local LLM radio like the Pharaohs built the pyramids",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvg5hn/i_built_a_local_llm_radio_like_the_pharaohs_built/",
+      "date": "2026-10-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "My local stack is a couple DGX Sparks, a 5090, and a 4070 TI. This radio site took three local LLMs, and we generate music, voices, and wacky sound effects. I give you https://pilgrim.farm It's a lot more farm than pilgrim. submitted by /u/jwhh91 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/13-i-built-a-local-llm-radio-like-the-pharaohs-built-the-pyramids.md"
+    },
+    {
+      "title": "Update #2: Post training yandex/AliceAI-80B-A3B [instruct!] from scratch",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wv5h8x/update_2_post_training_yandexaliceai80ba3b/",
+      "date": "2026-10-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Last update: https://www.reddit.com/r/LocalLLaMA/comments/1wu9ksu/update_yandexaliceai_80ba3b_fine_tune_progress/ - basically, an instruct fine tune on the base model using a synthetic distilled data set. I've been posting regular updates so I imagine at least a few people have seen this. Live stream: https://figure-bios-expect-cio.trycloudflare.com/ UPDA... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-01/14-update-2-post-training-yandex-aliceai-80b-a3b-instruct-from-scratch.md"
+    },
+    {
+      "title": "Update on the “Monstrosity”. 6 BC-250 board cluster",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wviphh/update_on_the_monstrosity_6_bc250_board_cluster/",
+      "date": "2026-10-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This is 6 bc-250 ex mining boards with 5 in the asrock 4u12g case they came in. After a lot of testing my current preferred setup is 4 boards running Qwen Next Flash IQ2_XS at 100k context with around 28 tok/s for short generation and 24 tok/s at 50k with around 115 ppt. The other two boards run 3.6 35b q4 at 60 tok/s with 100k context and 450 ppt. This i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/15-update-on-the-monstrosity-6-bc-250-board-cluster.md"
+    },
+    {
+      "title": "Detecting hallucinations in local models without eating VRAM: What we learned testing 1.5B to 120B models",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvm15e/detecting_hallucinations_in_local_models_without/",
+      "date": "2026-10-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, If you run local models via Ollama in production or personal projects, you've probably run into the hallucination problem: how do you know when a model is hallucinating without burning extra VRAM or waiting 5 seconds for a heavy judge model? The standard academic approach for this is Semantic Entropy (from an Oxford team's Nature paper last... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/16-detecting-hallucinations-in-local-models-without-eating-vram-what-we-l.md"
+    },
     {
       "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "Exo labs making some very exciting and interesting claims. The headline is bandwidth scales linearly on Mac Studio clusters with their solution. There is a thread over at localllm subreddit ( https://www.reddit.com/r/LocalLLM/s/qEYLOFaYwc ) where one of their employees speaks about how its latency, not bandwidth that matters in their RDMA clustering solut... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/16-exo-labs-claiming-4-8-tb-s-memory-bandwidth-through-m5u-mac-studio-clu.md"
-    },
-    {
-      "title": "Humaneval benchmark for Deepseek V4 Flash 0731 vs GLM5.3 Flash on 2x DGX Spark setup",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w215qm/humaneval_benchmark_for_deepseek_v4_flash_0731_vs/",
-      "date": "2026-08-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I have a 2 DGX Spark setup recently and I have been happily running Deepseek V4 Flash 0731. Since the release of GLM5.3 Flash and Qwen 3.8 Flash Next this week, a lot of folks are still waiting to see what model to run given their own hardware situations. I am very interested in running a GLM model locally and looks like nvfp4 would be a good option for m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/17-humaneval-benchmark-for-deepseek-v4-flash-0731-vs-glm5-3-flash-on-2x-d.md"
-    },
-    {
-      "title": "Show HN: Itsuki – open-source memory engine for AI agents (API and MCP)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://itsuki.app/",
-      "date": "2026-08-29",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Itsuki – open-source memory engine for AI agents (API and MCP) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-29/06-show-hn-itsuki-open-source-memory-engine-for-ai-agents-api-and-mcp.md"
-    },
-    {
-      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.27454v1",
-      "date": "2026-08-27",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histori... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/07-wikiskill-compiling-agent-experience-into-persistent-knowledge-for-ski.md"
-    },
-    {
-      "title": "Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.27443v1",
-      "date": "2026-08-27",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents are poised to become a primary interface to digital products, acting across email, files, payments, and personal data. People without professional software backgrounds need understandable, reusable ways to control actions across services. We examine a mechanism in which a language model maps actions to plain-language consequence categories with... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/08-do-user-authored-permission-policies-improve-protection-against-ai-age.md"
-    },
-    {
-      "title": "Naive Prompt Optimization: Rethinking the Need for Complex Prompt Search",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.27266v1",
-      "date": "2026-08-27",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Efficiently improving autonomous agents across diverse tasks is central to accelerating recursive self-improvement (RSI) in agentic AI, with prompt optimization emerging as a promising approach capable of delivering performance gains comparable to those achieved by fine-tuning model weights, while reducing computational costs in both optimization and serv... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/09-naive-prompt-optimization-rethinking-the-need-for-complex-prompt-searc.md"
-    },
-    {
-      "title": "antoniocan2022-dev/agent007-ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/antoniocan2022-dev/agent007-ai",
-      "date": "2026-08-29",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Agent007 AI — autonomous super-agent for Antonio. 18 pod leaders, ~672 tools, 0K/mo mission. Next.js 16 + Prisma + Vercel. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-29/10-antoniocan2022-dev-agent007-ai.md"
-    },
-    {
-      "title": "Show HN: Boop – tiny, self-hosted push notifications for your apps built in Go",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/chrisgreg/boop",
-      "date": "2026-08-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I built Boop because I wanted application events sent directly to my phone without paying for another service or routing everything through Slack or Telegram. Boop is a small, open-source server paired with an open-source iOS app. The server currently uses around 8 MB of memory on my machine. It’s deliberately not an observability platform or a rep... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-28/11-show-hn-boop-tiny-self-hosted-push-notifications-for-your-apps-built-i.md"
-    },
-    {
-      "title": "iamaanahmad/handshake",
-      "source": "GitHub Search API",
-      "url": "https://github.com/iamaanahmad/handshake",
-      "date": "2026-08-29",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "The live network of people you meet. Meet someone, scan their profile, and confirm one transaction. The shared event graph grows from real on-chain connections. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-29/12-iamaanahmad-handshake.md"
-    },
-    {
-      "title": "Show HN: Sesame - a local-first, open-source password manager",
-      "source": "Hacker News Show HN",
-      "url": "https://usesesame.app/",
-      "date": "2026-08-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I have been working on Sesame, an open-source password manager that keeps your vault local by default. You don't need an account to create or use a vault, and the hosted service never receives the vault itself. It's still early software and the independent security review isn't finished yet, so I am mainly interested in feedback, testing, and people looki... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-28/13-show-hn-sesame-a-local-first-open-source-password-manager.md"
-    },
-    {
-      "title": "use llms to auto annotation your dataset locally",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w18v86/use_llms_to_auto_annotation_your_dataset_locally/",
-      "date": "2026-08-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "hi i make tool for this called llmog it's purpose to make llms free to - auto annotation datasets - reclassification existing yolo datasets running totally local using llama cpp or vllm or use external api you'd rather click than code. 🔗 GitHub: mohamed-em2m/llmog: framework for using llms on object grounding You can try it directly online 🔵 Google Cola... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/14-use-llms-to-auto-annotation-your-dataset-locally.md"
-    },
-    {
-      "title": "Saved my fiances phone with qwen 3.8 27b",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1cbb0/saved_my_fiances_phone_with_qwen_38_27b/",
-      "date": "2026-08-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "this model is really something incredible, saved us like 600 dollars. my fiance is always breaking her electronics and then getting me to fix them. The other day she brought me her phone and it was stuck in a boot loop that wouldn't post. tried normal stuff, managed to get it to fastboot but the recovery mode wouldn't load and I couldn't find any firmware... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/15-saved-my-fiances-phone-with-qwen-3-8-27b.md"
     }
   ]
 }
