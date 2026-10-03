@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T10:47:20.089Z",
+  "updated_at": "2026-10-03T10:07:18.627Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "date": "2026-10-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi there :-) New on HN, first time posting. Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language. This LDraw is literally an \"assembly\" language, a low-level programming language that describes how to assemble LEGO pieces together into models, one placement instruction at a time. When ex... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/06-show-hn-made-an-open-source-lego-ai-generator.md"
+    },
+    {
+      "title": "Show HN: 80s Choplifter game ported to Vision Pro as an agent eval (WIP)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.bounds.dev/posts/rescue82-making-a-choplifter-style-game-for-apple-vision-pro/",
+      "date": "2026-10-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I’m bringing an old game into VR and writing down what I learn, including how coding agents work with each other and with me in a domain I’m less familiar with. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-03/07-show-hn-80s-choplifter-game-ported-to-vision-pro-as-an-agent-eval-wip.md"
+    },
+    {
+      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.02202v1",
+      "date": "2026-10-01",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/08-scholarcatalyst-a-benchmark-for-retrieving-papers-that-inspire-new-res.md"
+    },
+    {
+      "title": "Global Coherence: When Every Agent Is Right and the Team Is Still Wrong - A Local-to-Global Semantic Foundation for Multi-Agent Collaboration",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.02036v1",
+      "date": "2026-10-01",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents can each make locally valid decisions yet jointly produce an invalid result. We call this the global coherence problem: a failure of shared state, not merely of model intelligence. Our Observation-Aliasing Impossibility Theorem gives the exact boundary. A policy can guarantee a valid action exactly when all worlds producing the same observation... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/09-global-coherence-when-every-agent-is-right-and-the-team-is-still-wrong.md"
+    },
+    {
+      "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
+      "source": "Hacker News Show HN",
+      "url": "https://againstallodds.games/",
+      "date": "2026-10-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "We're a tiny indie studio, all with a background in the demoscene and for about 3 years now we're developing a space planet terraforming game called SEEDS - Echoes Beneath the Sands. Our protagonist Naxiah is stranded on a small, desolated planet. You're working for an intergalactic distributor of seeds and terraforming equipment, to kickstart new planets... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/10-show-hn-our-space-game-has-a-built-in-risc-v-emulator-that-runs-linux.md"
+    },
+    {
+      "title": "Show HN: Teacher Planner – A digital planbook with AI tools for teachers",
+      "source": "Hacker News Show HN",
+      "url": "https://teacherplanner.ai",
+      "date": "2026-10-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I built Teacher Planner to help teachers organize lessons and prepare classroom materials in one place. The digital planbook brings together lesson plans, units, schedules, and curriculum standards, with day, week, and month views, read-only sharing, and configurable print layouts. It supports English and Chinese, and you can try the planner as a g... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/11-show-hn-teacher-planner-a-digital-planbook-with-ai-tools-for-teachers.md"
+    },
+    {
+      "title": "haiik-q/dujiao-next-ji8",
+      "source": "GitHub Search API",
+      "url": "https://github.com/haiik-q/dujiao-next-ji8",
+      "date": "2026-10-03",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "haiik-q/dujiao-next-ji8 Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-03/12-haiik-q-dujiao-next-ji8.md"
+    },
+    {
+      "title": "Has anyone noticed this trend toward writing/speaking style among newer models (both open and closed models). They are trending toward information density and expanded vocabulary. It's not quite 'caveman speak' but trending that way.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwdsce/has_anyone_noticed_this_trend_toward/",
+      "date": "2026-10-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've noticed a trend with most new models with regards to their writing style. They are creating a new style, and this seems common among them. It's very information-dense. Here is an example from GLM 5.3 Flash. I'm gonna be honest here and say that my prompt was kinda silly; my prompt was 'Why wouldn't you just name your Chinese restaurant 'Chinese Food'... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/13-has-anyone-noticed-this-trend-toward-writing-speaking-style-among-newe.md"
+    },
+    {
+      "title": "New Architecture from Percepta: Spotlight — separating intelligence from memory, allowing knowledge and skills to grow without changing the model's weights.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww09ab/new_architecture_from_percepta_spotlight/",
+      "date": "2026-10-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://www.percepta.ai/blog/can-llms-grow-their-own-capabilities https://www.percepta.ai/blog/spotlight-memory \"Our new architecture, Spotlight, replaces attention with a memory that escapes this trade-off: it is the first architecture to achieve infinitely growing memory without increasing the access cost. Every token reads from and writes to an unbound... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/14-new-architecture-from-percepta-spotlight-separating-intelligence-from-.md"
+    },
+    {
+      "title": "mlsubgen — subtitles in 45 languages for your videos, entirely on your own machine",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwds6i/mlsubgen_subtitles_in_45_languages_for_your/",
+      "date": "2026-10-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Full disclaimer: I've leaned heavily on Fable to develop this, but I've tested it thoroughly on my own library for a couple of months before putting it on GitHub. I live in Thailand, and it started as a way to get Thai subtitles for Shin-chan for Thai friends and for expat friends with Thai partners. It's grown into a general tool: subtitles in 45 languag... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/15-mlsubgen-subtitles-in-45-languages-for-your-videos-entirely-on-your-ow.md"
+    },
+    {
+      "title": "FermionResearch/Phonon-2 Automatic Speech Recognition • Updated 1 day ago • 2.36k • 155",
+      "source": "Hugging Face Trending Models",
+      "url": "https://huggingface.co/FermionResearch/Phonon-2",
+      "date": "2026-10-03",
+      "topic": "Local LLMs",
+      "type": "paper",
+      "read": false,
+      "summary": "FermionResearch/Phonon-2 Automatic Speech Recognition • Updated 1 day ago • 2.36k • 155 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/16-fermionresearch-phonon-2-automatic-speech-recognition-updated-1-day-ag.md"
+    },
     {
       "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "Hey all, You’ve probably noticed that using LLMs and AI agents for pentesting has become pretty common lately. The problem is there isn’t really a good way to figure out which model is actually best suited for this kind of work. There’s CyberGym, which is a solid base, but I’m not really a fan of the direction they’ve taken lately. It feels more focused o... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-30/17-which-llm-is-actually-best-at-pentesting-benchmark-to-find-out.md"
-    },
-    {
-      "title": "Assessing Company Contributions to Societal Resilience: Extending the Societal Capacity Assessment Framework to Agentic AI",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.27238v1",
-      "date": "2026-08-27",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Companies that deploy AI agents and make them available to others are creating the sociotechnical circumstances under which this technology integrates into existing social and economic structures. AI-deploying companies are institutional actors that actively shape society's capacity to withstand and govern the consequences of agentic AI. In view of these... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-27/06-assessing-company-contributions-to-societal-resilience-extending-the-s.md"
-    },
-    {
-      "title": "Inside three.ws: The Open-Source Stack That Gives AI Agents a Body, a Brain, a Wallet, and a Job three-ws • about 19 hours ago • 40",
-      "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/three-ws/building-3d-ai-agents-end-to-end",
-      "date": "2026-08-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Inside three.ws: The Open-Source Stack That Gives AI Agents a Body, a Brain, a Wallet, and a Job three-ws • about 19 hours ago • 40 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-30/07-inside-three-ws-the-open-source-stack-that-gives-ai-agents-a-body-a-br.md"
-    },
-    {
-      "title": "manuel-alvarez-alvarez/ariadne",
-      "source": "GitHub Trending",
-      "url": "https://github.com/manuel-alvarez-alvarez/ariadne",
-      "date": "2026-08-30",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Docker-style orchestrator for AI coding agents, plans goals into tasks, runs engineers and reviewers in tmux + git worktrees. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-30/08-manuel-alvarez-alvarez-ariadne.md"
-    },
-    {
-      "title": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
-      "date": "2026-08-25",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-25/09-aug-25-2026-announcements-funding-better-evaluations-of-ai-s-impact-on.md"
-    },
-    {
-      "title": "Show HN: DataZen – a local-first client for cross-database workflows",
-      "source": "Hacker News Show HN",
-      "url": "https://flyxl.github.io/datazen/",
-      "date": "2026-08-29",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "My company stopped allowing Navicat because of compliance policy. DBeaver worked, but I don't like it. I kept running into two recurring issues. First, production investigations often require several queries across different databases. I would query one table, copy an ID into another query, wait for the result, and repeat the process several times. I star... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-29/10-show-hn-datazen-a-local-first-client-for-cross-database-workflows.md"
-    },
-    {
-      "title": "tailolicon/hachimi-tl-vi",
-      "source": "GitHub Search API",
-      "url": "https://github.com/tailolicon/hachimi-tl-vi",
-      "date": "2026-08-30",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "tailolicon/hachimi-tl-vi Stars: 1 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/11-tailolicon-hachimi-tl-vi.md"
-    },
-    {
-      "title": "tanmaykumar7106-collab/CityPulse-AI",
-      "source": "GitHub Search API",
-      "url": "https://github.com/tanmaykumar7106-collab/CityPulse-AI",
-      "date": "2026-08-30",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "tanmaykumar7106-collab/CityPulse-AI Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/12-tanmaykumar7106-collab-citypulse-ai.md"
-    },
-    {
-      "title": "karthikkumarjks-lab/Marketing-AI-Agent",
-      "source": "GitHub Search API",
-      "url": "https://github.com/karthikkumarjks-lab/Marketing-AI-Agent",
-      "date": "2026-08-30",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "karthikkumarjks-lab/Marketing-AI-Agent Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/13-karthikkumarjks-lab-marketing-ai-agent.md"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next at 170K context on a single 96 GB card. ~110 tok/s.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2b2j0/qwen38flashnext_at_170k_context_on_a_single_96_gb/",
-      "date": "2026-08-30",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I used the quantized n-gram to INT4, it's 32 GB, memory-mapped from disk. I confirmed that it works great on 150-160k context, and i was watching all the time my VRAM usage while doing single thread long horizon things - the available VRAM should be enough to push it to over 170k and above) The quality is there guys... It really is. It made a few complex... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-30/14-qwen3-8-flash-next-at-170k-context-on-a-single-96-gb-card-110-tok-s.md"
-    },
-    {
-      "title": "How important is it for Chinese LLMs to reach the Opus 4.8 level?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1l3a2/how_important_is_it_for_chinese_llms_to_reach_the/",
-      "date": "2026-08-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "In mid-August, Ramp published spending data collected from 70,000 U.S. companies: Fable 5 ,the most powerful and expensive model in Anthropic’s lineup, accounts for just 11% of what those businesses spend on the company’s tools. The remaining 79% is worth its weight in gold. With the new releases from Qwen and GLM, we are likely close to Opus 4.8, and cer... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/15-how-important-is-it-for-chinese-llms-to-reach-the-opus-4-8-level.md"
-    },
-    {
-      "title": "Exo labs claiming 4.8 tb/s memory bandwidth through m5u Mac Studio clustering",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1nc1c/exo_labs_claiming_48_tbs_memory_bandwidth_through/",
-      "date": "2026-08-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Exo labs making some very exciting and interesting claims. The headline is bandwidth scales linearly on Mac Studio clusters with their solution. There is a thread over at localllm subreddit ( https://www.reddit.com/r/LocalLLM/s/qEYLOFaYwc ) where one of their employees speaks about how its latency, not bandwidth that matters in their RDMA clustering solut... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-29/16-exo-labs-claiming-4-8-tb-s-memory-bandwidth-through-m5u-mac-studio-clu.md"
     }
   ]
 }

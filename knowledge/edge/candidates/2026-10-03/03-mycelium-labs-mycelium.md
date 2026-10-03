@@ -1,0 +1,243 @@
+---
+id: "mycelium-labs/mycelium"
+name: "mycelium-labs/mycelium"
+url: "https://github.com/mycelium-labs/mycelium"
+date: "2026-10-03"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "agent_framework"
+compatibility: 75
+momentum: 78
+risk: 37
+integration_effort: 52
+expected_gain: 77
+composite: 71
+replacement_target: ""
+related_articles: [{"title":"Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev","date":"2026-09-21","topic":"AI dev tools","similarity":0.212,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"}]
+pros: ["Recently updated (2026-10-03)","MIT license","30 GitHub stars","GitHub Actions/CI detected"]
+cons: ["README mentions credentials or API tokens"]
+readme_quality: 85
+has_ci: true
+has_tests: false
+setup_steps_count: 3
+dependency_files: []
+install_commands: ["npm install @mycelium-labs/sidecar-client@experimental","go get github.com/mycelium-labs/mycelium/clients/go@v0.1.1","pip install mycelium-runtime"]
+risk_flags: ["README mentions credentials or API tokens"]
+status: "new"
+---
+
+# mycelium-labs/mycelium
+
+Runtime failure prevention for AI agents. Prevents predictable failures before they reach the execution layer
+
+URL: https://github.com/mycelium-labs/mycelium
+
+## Why it matters
+You saved an article on 2026-09-21 about AI dev tools; this candidate overlaps with "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-03)
++ MIT license
++ 30 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- README mentions credentials or API tokens
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: no
+Setup steps estimate: 3
+
+Dependency files:
+- none detected
+
+Install commands found:
+- npm install @mycelium-labs/sidecar-client@experimental
+- go get github.com/mycelium-labs/mycelium/clients/go@v0.1.1
+- pip install mycelium-runtime
+
+Risk flags:
+- README mentions credentials or API tokens
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Mycelium
+
+[![PyPI version](https://img.shields.io/pypi/v/mycelium-runtime.svg)](https://pypi.org/project/mycelium-runtime/)
+[![Python](https://img.shields.io/pypi/pyversions/mycelium-runtime.svg)](https://pypi.org/project/mycelium-runtime/)
+[![Downloads](https://static.pepy.tech/badge/mycelium-runtime)](https://pepy.tech/project/mycelium-runtime)
+
+**The reliability layer for AI agents.**
+
+![Mycelium sits between an AI agent and its tools, checking tool permissions, arguments, destinations, sensitive information, current authority, destructive-action confirmation, duplicate actions, and run budgets. If a required check fails, Mycelium stops the action.](assets/mycelium-tool-checks.png)
+
+Your agent decides what to do. Mycelium makes tool actions reliable across
+their full lifecycle:
+
+- **Before execution:** validate inputs, scope, destinations, secrets,
+  authorization, and current facts.
+- **During the run:** control retries, concurrency, crashes, loops, budgets,
+  context, and completion.
+- **After an attempt:** establish what happened, return stored outcomes,
+  reconcile uncertainty, and record evidence.
+
+Wrong answers are recoverable. Wrong actions are expensive. Mycelium sits
+between your agent and its tools to block invalid actions, control execution,
+and preserve trustworthy outcomes.
+
+It is not a tracer or dashboard. It controls the action path itself.
+
+The engine is written in Python, but the doorway into it is language-neutral.
+Python applications use the runtime directly. TypeScript, Go, and any runtime
+that can send HTTP/JSON can use the same engine through a small local sidecar.
+
+The Python API follows semantic versioning. The `v1alpha1` sidecar protocol is
+for development and is not yet a stable production contract.
+
+Early design-partner use: **live outbound-email lane** (Week 1: 25 ledgered sends, 0 duplicates). This is evidence for one execution-control lane, not the limit of the product. Not a public logo; the interactive sandbox is separate.
+
+## What it protects
+
+| Risk | What Mycelium does |
+|------|--------------------|
+| Invalid or unsafe tool calls | Validates arguments, paths, destinations, and tool allowlists before execution |
+| Expired or missing authority | Re-checks scope, destructive grants, current facts, and time-bound permissions |
+| Duplicate or uncertain effects | Coordinates retries and concurrent workers, returns stored outcomes, and reconciles ambiguous attempts |
+| Runaway agents | Stops repeated action loops and enforces time, step, token, and cost budgets |
+| Stale context | Validates message, history, and state before the next action |
+| False completion | Refuses “done” while required work remains open |
+| Missing evidence | Records durable outcomes and optional signed receipts |
+
+## Who it's for
+
+Developers running **agents with side-effect tools** on **LangGraph, CrewAI,
+plain Python, TypeScript, Go, or another runtime that can speak HTTP/JSON**.
+
+The authoritative engine requires Python 3.10+. Python applications can use
+YAML, `mycelium run`, or decorators. Other languages connect through the
+development sidecar protocol.
+
+## Works with your stack
+
+Python applications can use YAML, decorators, or a manual API. For other
+languages, the sidecar runs Mycelium as a small local server beside your
+application:
+
+```text
+TypeScript · Go · Java · Rust · any HTTP client
+                         ↓ HTTP/JSON
+                local Mycelium sidecar
+                         ↓
+             authoritative Python engine
+```
+
+The application asks the sidecar whether an action may run, reports when the
+provider call may have started, and records its result. The sidecar owns action
+identity, claims, leases, fencing, state transitions, and recovery decisions.
+Clients do not reimplement those safety rules.
+
+Published experimental clients:
+
+```bash
+npm install @mycelium-labs/sidecar-client@experimental
+go get github.com/mycelium-labs/mycelium/clients/go@v0.1.1
+```
+
+Every other language can use the same authenticated OpenAPI contract directly.
+The sidecar supports a trusted loopback development profile and an explicitly
+selected shared PostgreSQL profile for multiple sidecars. See the
+[protocol overview](sdk/docs/spec/README.md), [TypeScript
+client](clients/typescript/README.md), [Go client](clients/go/README.md), and
+[local cross-language conformance suite](conformance/README.md).
+
+## How it works
+
+1. The model proposes a tool call.
+2. Mycelium applies the checks configured for that tool and run.
+3. It either runs the tool, returns a stored result, waits, reconciles an
+   uncertain outcome, or stops safely.
+4. It records the decision and outcome for recovery and audit.
+
+Mycelium complements tracers and approval systems; it does not replace them.
+See the [SDK reference](sdk/README.md) for configuration details and the
+[failure and threat model](sdk/docs/FAILURE_AND_THREAT_MODEL.md) for exact
+guarantees and limits.
+
+## Quickstart
+
+```bash
+pip install mycelium-runtime
+mycelium demo
+mycelium init
+mycelium run --config mycelium.yaml -- python -m my_app
+```
+
+`mycelium init` creates a starter configuration for one tool. Point it at your
+callable, describe whether the tool reads or changes external state, and enable
+the controls your workflow needs. Use SQLite for a durable single-process setup,
+or Redis/Postgres for multiple workers.
+
+Prefer agent-assisted setup:
+
+```bash
+mycelium skills install
+```
+
+Then ask your coding agent: **“Set up Mycelium in this project.”** The bundled
+[`mycelium-setup`](.agents/skills/mycelium-setup/SKILL.md) skill inventories
+tools, updates the configuration, wires the runtime boundary, and runs Doctor
+and Verify.
+
+For an unchanged sequential function whose consequential calls are already
+ledgered, ask the same skill to make it recoverable with Mycelium. It can add
+one outer composite decorator after verifying the actual callable boundaries,
+durable storage, and a stable host-owned operation ID. See the
+[composite recovery guide](sdk/docs/COMPOSITE_RECOVERY.md) for the supported
+syntax and the fail-closed behavior for opaque calls, definition drift,
+ambiguous child outcomes, and lost parent authority. The decorator does not
+discover hidden direct provider calls or make arbitrary Python control flow
+recoverable. It is a Python-runtime feature backed by file, SQLite, Redis, or
+PostgreSQL composite-control storage, not an endpoint in the language-neutral
+sidecar.
+
+For non-Python applications, run the local sidecar and use the TypeScript, Go,
+or OpenAPI client:
+
+```bash
+mycelium sidecar serve --config /absolute/path/sidecar.yaml
+```
+
+See the [non-Python setup](sdk/README.md#typescript-go-and-other-languages) for
+the protocol reference, or follow the
+[self-hosting guide](sdk/docs/SELF_HOSTING.md) for complete local and shared
+PostgreSQL setup. Only calls routed through Mycelium are protected. See the
+[full SDK reference](sdk/README.md) for framework integrations, storage,
+configuration, and manual APIs.
+
+## Docs
+
+- **Handbook:** https://mycelium-labs.github.io/ ([website repo](https://github.com/mycelium-labs/mycelium-labs.github.io))
+- **Try in 5 minutes:** https://mycelium-labs.github.io/try.html
+- **Sandbox demo:** [mycelium-labs/mycelium-labs.github.io/sandbox](https://github.com/mycelium-labs/mycelium-labs.github.io/tree/main/sandbox)
+- **Full API reference:** [sdk/README.md](sdk/README.md)
+- **Durable composite recovery:** [supported API and limits](sdk/docs/COMPOSITE_RECOVERY.md)
+- **Language-neutral protocol:** [sdk/docs/spec/README.md](sdk/docs/spec/README.md)
+- **Self-host the sidecar:** [local and shared PostgreSQL setup](sdk/docs/SELF_HOSTING.md)
+- **Experimental clients:** [TypeScript](clients/typescript/README.md) · [Go](clients/go/README.md)
+- **Doctor vs Verify:** `mycelium doctor` inspects configuration; `mycelium verify` runs synthetic failure scenarios. Neither proves a real provider is correct.
+- **Release policy & checklist:** [sdk/docs/RELEASE.md](sdk/docs/RELEASE.md) (batch; calm over velocity)
+- **Security policy & private reporting:** [SECURITY.md](SECURITY.md)
+- **PyPI:** https://pypi.org/project/mycelium-runtime/
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+## Maintainer
+
+Mycelium is maintained by [Nandana Dileep](https://github.com/nandanadileep).
+
