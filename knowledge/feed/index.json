@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T10:07:18.627Z",
+  "updated_at": "2026-10-04T10:48:05.281Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: SuperLocalMemory 4.0 \"Governed Memory Operating System for AI Agents\"",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://arxiv.org/abs/2608.08253",
+      "date": "2026-10-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: SuperLocalMemory 4.0 \"Governed Memory Operating System for AI Agents\" (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-04/06-show-hn-superlocalmemory-4-0-governed-memory-operating-system-for-ai-a.md"
+    },
+    {
+      "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.01863v1",
+      "date": "2026-10-01",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers evidence using specialised tools and iteratively edits a Python script, Room... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/07-litereality-agent-an-agentic-system-for-interactable-3d-indoor-scene-r.md"
+    },
+    {
+      "title": "Temporal-Difference Learning for Dragonchess",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.01845v1",
+      "date": "2026-10-01",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Our research investigates how two adaptive AI methods, evolutionary transfer learning and TD(lambda), perform in the three-dimensional chess environment Dragonchess. The game challenges players with its unique board structure and computational load, making it an ideal setting to study how adaptive methods can update evaluation heuristics in novel environm... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/08-temporal-difference-learning-for-dragonchess.md"
+    },
+    {
+      "title": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "date": "2026-10-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/09-oct-2-2026-announcements-anthropic-invests-100-million-to-train-10-000.md"
+    },
+    {
+      "title": "Show HN: Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
+      "source": "Hacker News Show HN",
+      "url": "https://thoreaubasic.com/",
+      "date": "2026-10-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Thoreau BASIC started as a joke. I wanted a BASIC where I could type something ridiculous like: DIM A%(12000000000) …and have it actually work. Then I kept adding things. The result is Thoreau BASIC, a free x64 BASIC interpreter inspired by GW-BASIC, running both as a normal Windows program and directly on bare-metal UEFI without an operating system. Vers... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-03/10-show-hn-thoreau-basic-what-if-basic-hadn-t-gone-out-of-fashion.md"
+    },
+    {
+      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "source": "Hacker News Show HN",
+      "url": "https://pipod.dev/",
+      "date": "2026-10-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "pi pod runs sessions of the pi coding agent in isolated sandboxes (\"pods\") on a server you run, in composable environments. ---- Since moving my company towards AI-native work, I have been really frustrated by the state of \"agentic engineering\" environments. Products by the labs (claude code, codex) lock you into a single provider for your tokens. Agnosti... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/11-show-hn-pi-pod-run-your-pi-coding-agent-in-sandboxes-on-your-own-serve.md"
+    },
+    {
+      "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
+      "source": "Hacker News Show HN",
+      "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
+      "date": "2026-10-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "(Edit: original URL was https://againstallodds.games/ , but we've switched it to https://againstallodds.games/blog/2026/10/03/our-risc-v-emul... in response to user requests for explanation.) We're a tiny indie studio, all with a background in the demoscene and for about 3 years now we're developing a space planet terraforming game called SEEDS - Echoes B... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/12-show-hn-our-space-game-has-a-built-in-risc-v-emulator-that-runs-linux.md"
+    },
+    {
+      "title": "Show HN: Revline – an AI web app that researches TikTok and Instagram for you",
+      "source": "Hacker News Show HN",
+      "url": "https://tryrevline.com/",
+      "date": "2026-10-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I build revline because i was trying to figure out how viral content works across tiktok and instagram, since i am mainly developer, i was confused about how to create content that gets me users. Actually going viral requires single founder ( me ) to upload 3-4 videos a day, brainstorming all the formats was not effective to do alone, so i build the agent... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-03/13-show-hn-revline-an-ai-web-app-that-researches-tiktok-and-instagram-for.md"
+    },
+    {
+      "title": "Come let your LLMs play World of Warcraft",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwqclz/come_let_your_llms_play_world_of_warcraft/",
+      "date": "2026-10-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I hosted my own world of warcraft private server then built a client that you can play in the browser on PC or mobile at https://jankcraft.xyz/ for free. Afterwards, I created a custom MCP and agent harness to control the browser client and play the game by sending signals over a websocket. The agent harness is live on https://jankcraft.xyz/agent , still... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/14-come-let-your-llms-play-world-of-warcraft.md"
+    },
+    {
+      "title": "The curse of 64GB system RAM",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx72ni/the_curse_of_64gb_system_ram/",
+      "date": "2026-10-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Not a bot. Not a Strata shill. Just sharing my experience. So, I have an R9700 in my machine, plus an RTX 5060 Ti, and 64GB DDR5 system RAM. Overall, not a bad setup. Anyway, I mainly run a daily driver local LLM on the R9700 while running image/video inference on ComfyUI on the 5060 Ti. Mostly shit like Minimax H3 which also takes a fuck-tonne of system... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-04/15-the-curse-of-64gb-system-ram.md"
+    },
+    {
+      "title": "Running Qwen3.8 Flash Next 176B on a 16GB RTX 3080 Laptop + 32GB RAM + SSD",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwwmy1/running_qwen38_flash_next_176b_on_a_16gb_rtx_3080/",
+      "date": "2026-10-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I wanted to see how far I could push a fairly ordinary laptop with a huge MoE model. Turns out, Qwen3.8 Flash Next 176B can run on: RTX 3080 Laptop — 16GB VRAM 32GB system RAM SSD No 128GB/256GB RAM workstation and no multi-GPU setup. I’m running it with TensorSharp , my open-source local LLM inference engine: TensorSharp on GitHub The interesting part fo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/16-running-qwen3-8-flash-next-176b-on-a-16gb-rtx-3080-laptop-32gb-ram-ssd.md"
+    },
+    {
+      "title": "[Discussion] A 5KB pure x86-64 assembly engine for Gemma-2B (FP16, 4.6 tok/s on CPU)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx5x1p/discussion_a_5kb_pure_x8664_assembly_engine_for/",
+      "date": "2026-10-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, Sharing a personal project exploring the minimal bare-metal footprint required to run an autoregressive LLM. Instead of relying on large runtimes or compiler abstractions, I wrote an inference engine for Gemma-2B entirely in flat x86-64 assembly (FASM): - **Binary footprint**: Total 5.2 KB flat machine code (`gemma_engine.bin` 3.7 KB + `mat_s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-04/17-discussion-a-5kb-pure-x86-64-assembly-engine-for-gemma-2b-fp16-4-6-tok.md"
+    },
     {
       "title": "Show HN: Made an open-source Lego AI generator",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Sad that I only have 12gb of vram but this ik_llama is so fast submitted by /u/Needausernameplzz [link] [comments] (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/17-first-time-running-local-models.md"
-    },
-    {
-      "title": "Show HN: Cogram Studio – CAD and BIM workspace for humans and agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://studio.cogram.com/",
-      "date": "2026-08-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, Rick and Alex here, co-founders of Cogram. We’ve been making project-management software for architects and engineers since 2023, and are now experimenting with a second product. Cogram Studio (studio.cogram.com) is a CAD and BIM workspace for AI agents to create three-dimensional models and dimensioned drawings. Studio runs FreeCAD ( https://githu... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-30/06-show-hn-cogram-studio-cad-and-bim-workspace-for-humans-and-agents.md"
-    },
-    {
-      "title": "Show HN: Murmell – Collaborative cloud canvas for coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://murmell.com/",
-      "date": "2026-08-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! I'm Moss'Ab. Murmell ( https://murmell.com ) is an infinite canvas where coding agents run together in the cloud instead of on your laptop. It's like Google Docs, except the other editors are you, your teammates, and a set of agents all working in the same canvas. Short demo: https://app.murmell.com/demo The idea came out of a YC hackathon. We wer... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-30/07-show-hn-murmell-collaborative-cloud-canvas-for-coding-agents.md"
-    },
-    {
-      "title": "Show HN: Floe – an open-source plugin for sample libraries – CLAP/VST3/AU",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://floe.audio/",
-      "date": "2026-08-31",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I'm Sam, I make sample libraries (as FrozenPlain). These sample libraries run inside Floe, my audio plugin for Linux, macOS and Windows. It's designed for musicians, composers and producers - typically people involved with film/TV/game scoring or ambient music. I open-sourced it primarily because I'm very fond of this philosophy and I want to open the doo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/08-show-hn-floe-an-open-source-plugin-for-sample-libraries-clap-vst3-au.md"
-    },
-    {
-      "title": "Show HN: Typebase – A single-folder back end you write in TypeScript",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://typebase.io",
-      "date": "2026-08-26",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! I built Typebase, a library that gives you Convex's DX with Supabase's openness. After trying Supabase I liked how fast it is to spin up a DB and auth, but really didn't like using RLS and SQL for authorization. With Convex I loved how your server \"lives\" in your code, but disliked the DB model and the realtime-first defaults. With Typebase you ju... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-26/09-show-hn-typebase-a-single-folder-back-end-you-write-in-typescript.md"
-    },
-    {
-      "title": "Show HN: BentoPDF, Hyper Compress and Kura",
-      "source": "Hacker News Show HN",
-      "url": "https://www.bentopdf.com",
-      "date": "2026-08-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello. I developed an open source tool called BentoPDF. Its an open source PDF toolkit that runs in your browser. With the latest update, you can actually edit existing pdf text, images and objects right in your browser. Live Website: https://www.bentopdf.com Repository: https://github.com/alam00000/bentopdf Along with the latest update I would like to sh... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/10-show-hn-bentopdf-hyper-compress-and-kura.md"
-    },
-    {
-      "title": "div197/BOB-Gemini-Free",
-      "source": "GitHub Search API",
-      "url": "https://github.com/div197/BOB-Gemini-Free",
-      "date": "2026-08-31",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "High-performance local 3-in-1 gateway unlocking Google Gemini as standard OpenAI, Anthropic (Claude Code), and Gemini API endpoints for coding agents, IDEs, and tools. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-31/11-div197-bob-gemini-free.md"
-    },
-    {
-      "title": "Show HN: I asked LLMs to choose between popular developer tools",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/betocmn/preseason",
-      "date": "2026-08-31",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: I asked LLMs to choose between popular developer tools (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-31/12-show-hn-i-asked-llms-to-choose-between-popular-developer-tools.md"
-    },
-    {
-      "title": "Show HN: What Apple's OS updates silently change in the on-device AI model",
-      "source": "Hacker News Show HN",
-      "url": "https://umer9538.github.io/underfoot/",
-      "date": "2026-08-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: What Apple's OS updates silently change in the on-device AI model (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/13-show-hn-what-apple-s-os-updates-silently-change-in-the-on-device-ai-mo.md"
-    },
-    {
-      "title": "Are there any interesting architectural innovations that we seem to be on the verge of for LLM models or AI models that might be a big deal? (Excluding maybe N-gram, since everyone is already well aware of that one)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2r37q/are_there_any_interesting_architectural/",
-      "date": "2026-08-30",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So, ideally for this thread we exclude the ones that everyone on here is already well aware of and discussing on here a lot, like N-gram, quantization improvements, MTP, D-flash, and D-spark, since those are improvement areas that most people on here are already pretty familiar with. I'm more curious about any interesting fundamental architectural changes... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-30/14-are-there-any-interesting-architectural-innovations-that-we-seem-to-be.md"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next-NVFP4 vs Qwen3.8-27B-FP Test Results",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2z2zo/qwen38flashnextnvfp4_vs_qwen3827bfp_test_results/",
-      "date": "2026-08-31",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "## Qwen3.8-Flash-Next-NVFP4 (inferact) vs Qwen3.8-27B-FP8 (qwen) Slammed with work and no time to pretty this up. Qwen wrote most of this but I checked the data. All tests done on the same rig, same prompts, and most tests are my real workloads. Single-GPU local eval: one RTX PRO 6000 Blackwell Max-Q (96 GB, SM120) + 256 GB DDR5, vLLM nightly, both models... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/15-qwen3-8-flash-next-nvfp4-vs-qwen3-8-27b-fp-test-results.md"
-    },
-    {
-      "title": "Help for PC build",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w39b76/help_for_pc_build/",
-      "date": "2026-08-31",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I am in the process of buying a new PC, the excuse is that mine is really old now, even though in the years I changed so many bits and pieces that maybe just the psu is the same. Anyway. I use llama.cpp (open to vLLM in time) and comfyUI. What it needs to do: run comfyUI (but with distorch finally working again for me I don't envision size problems there)... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/16-help-for-pc-build.md"
-    },
-    {
-      "title": "Which LLM is actually best at pentesting? benchmark to find out",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2wdeq/which_llm_is_actually_best_at_pentesting/",
-      "date": "2026-08-30",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey all, You’ve probably noticed that using LLMs and AI agents for pentesting has become pretty common lately. The problem is there isn’t really a good way to figure out which model is actually best suited for this kind of work. There’s CyberGym, which is a solid base, but I’m not really a fan of the direction they’ve taken lately. It feels more focused o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-30/17-which-llm-is-actually-best-at-pentesting-benchmark-to-find-out.md"
     }
   ]
 }

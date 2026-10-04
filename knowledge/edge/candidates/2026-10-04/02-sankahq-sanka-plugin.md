@@ -1,0 +1,187 @@
+---
+id: "sankahq/sanka-plugin"
+name: "sankaHQ/sanka-plugin"
+url: "https://github.com/sankaHQ/sanka-plugin"
+date: "2026-10-04"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 75
+momentum: 48
+risk: 30
+integration_effort: 48
+expected_gain: 87
+composite: 69
+replacement_target: ""
+related_articles: [{"title":"Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server","date":"2026-10-02","topic":"AI dev tools","similarity":0.186,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/11-show-hn-pi-pod-run-your-pi-coding-agent-in-sandboxes-on-your-own-serve.md"}]
+pros: ["Recently updated (2026-10-04)","MIT license","README mentions tests or validation","README includes install commands"]
+cons: ["No obvious v1 warning, still review upstream code before use"]
+readme_quality: 100
+has_ci: false
+has_tests: true
+setup_steps_count: 3
+dependency_files: []
+install_commands: ["claude plugin marketplace update sanka","claude plugin update sanka@sanka","codex plugin remove sakura@sanka"]
+risk_flags: []
+status: "new"
+---
+
+# sankaHQ/sanka-plugin
+
+Sanka Plugins for AI - Claude, Codex, Cursor and more
+
+URL: https://github.com/sankaHQ/sanka-plugin
+
+## Why it matters
+You saved an article on 2026-10-02 about AI dev tools; this candidate overlaps with "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-04)
++ MIT license
++ README mentions tests or validation
++ README includes install commands
+
+## Cons
+- No obvious v1 warning, still review upstream code before use
+
+## Repository Inspection
+README quality: 100/100
+CI detected: no
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- none detected
+
+Install commands found:
+- claude plugin marketplace update sanka
+- claude plugin update sanka@sanka
+- codex plugin remove sakura@sanka
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# sanka-plugin
+
+Sanka connects local AI clients to Sanka's hosted MCP server through the packaged local proxy. Use it for live Sanka CRM, estimates, approvals, billing, private inbox, expenses, and workflow intents. Start with the general Sanka router when you do not want to choose a specific skill.
+
+## Install
+
+Codex uses a repo-local marketplace, while Claude Code supports a GitHub marketplace command. The install paths differ, but both run the same local proxy against the hosted Sanka MCP server and expose the same `$sanka:...` skills.
+
+### Codex
+
+```text
+Clone sankaHQ/sanka-plugin
+Open the cloned repo in Codex
+Restart Codex
+Install Sanka from the Sanka marketplace
+Start with the Sanka chip or a plain $sanka:... mention
+```
+
+### Claude Code
+
+```text
+/plugin marketplace add sankaHQ/sanka-plugin
+/plugin install sanka@sanka
+/reload-plugins
+Start with /sanka:sanka for natural-language routing, or a specific /sanka:... skill
+```
+
+Enable auto-update from `/plugin` if you want Claude Code to pull future updates from GitHub. To update by hand, run `claude plugin marketplace update sanka` and `claude plugin update sanka@sanka`, then start a new Claude Code session.
+
+### Cursor And Other Local MCP Clients
+
+Use `mcp.json` from this repository as the local MCP server config. It runs:
+
+```text
+node ./vendor/mcp-remote/bundled-proxy.min.cjs https://mcp.sanka.com/mcp
+```
+
+Keep the repository files available on disk so the local proxy can run and read exact user-provided receipt paths for expense attachment upload.
+
+For clients that cannot run local commands, use `mcp.remote.json` or connect directly to `https://mcp.sanka.com/mcp`. That mode supports normal Sanka MCP tools but cannot read `local_file_path`; file uploads must provide `content_base64`.
+
+## Use
+
+Examples:
+
+```text
+$sanka:sanka Create an estimate from this HubSpot deal URL.
+$sanka:deal-to-estimate https://app.hubspot.com/contacts/.../record/0-3/... Preview the estimate and do not create it yet.
+$sanka:deal-to-estimate https://app.hubspot.com/contacts/.../record/0-3/... Create the estimate from this HubSpot deal.
+$sanka:list-deals Show recent deals.
+$sanka:create-expense Create an expense from this receipt.
+$sanka:refresh
+```
+
+For Claude Code, use `/sanka:sanka` as the general Sanka entrypoint when the user wants to say the request naturally. Use narrower skills like `/sanka:deal-to-estimate` when the workflow is already obvious.
+
+For HubSpot deal URLs, use the Sanka router or workflow skills when the outcome is a Sanka estimate, approval request, workflow run, or audit trail. HubSpot is only the source record; Sanka owns the business action.
+
+## Refresh
+
+If Sanka says the plugin is outdated, the user should only need to answer "yes".
+
+User-facing prompt:
+
+```text
+Sanka may be outdated.
+This action needs a newer Sanka workflow skill.
+
+Update Sanka?
+Reply "yes" and Codex will refresh Sanka and make the new Sanka skills available.
+```
+
+Codex can then run:
+
+```bash
+./scripts/refresh-codex-plugin.sh
+```
+
+After refresh, reload or reinstall Sanka in Codex and start a fresh thread from the Sanka chip or `$sanka:...`. Existing threads may keep an old MCP tool list.
+
+## Packaging
+
+Codex loads this repository through `.agents/plugins/marketplace.json`, which points at `plugins/sanka` so the plugin source path is a real subdirectory. Claude Code continues to use the root `.claude-plugin` files with `source: "./"` and reads `claude.mcp.json`. Claude Code starts plugin MCP servers in the session's working directory and ignores `cwd`, so that manifest reaches the proxy launcher through `${CLAUDE_PLUGIN_ROOT}`. `mcp.json` stays repository-relative for Cursor and other local MCP clients.
+
+When changing root Codex files such as `.codex-plugin/`, `skills/`, `assets/`, `.mcp.json`, or `codex.mcp.json`, run:
+
+```bash
+node scripts/sync-codex-package.mjs
+node scripts/sync-codex-package.mjs --check
+```
+
+## Notes
+
+- Hosted MCP endpoint: `https://mcp.sanka.com/mcp`
+- Local MCP proxy: `node ./vendor/mcp-remote/bundled-proxy.min.cjs https://mcp.sanka.com/mcp`
+- Codex MCP server name: `sanka`
+- Local plugin clients should use the packaged proxy so expense attachment tools can accept exact `local_file_path` values. Remote-only MCP clients can use `mcp.remote.json` or connect to the hosted endpoint directly, but they cannot read local file paths.
+- Live Sanka work must use attached Sanka MCP tools. Do not substitute local Django shell, Postgres, repo files, or HubSpot MCP for Sanka actions.
+- If only `search_docs` / `execute` appear, refresh the plugin attachment or start a fresh plugin-attached thread.
+
+## Translations
+
+- [English](./README.md)
+- [Japanese / 日本語](./i18n/README.jp.md)
+
+## Branding compatibility
+
+The displayed plugin name is Sanka. The `sanka` install ID, `plugins/sanka`
+package path, MCP attachment key, reconnect header, and `$sanka:…` / `/sanka:…`
+skill routes remain stable for existing installations. These are compatibility
+identifiers, not a separate product. Existing installed copies need an update to
+show the new display name. No release or publishing is part of this source change.
+
+If a client still has the pre-rename `sakura` plugin installed next to `sanka`,
+remove it: both entries attach the same hosted MCP server, which doubles every
+tool catalog and can push Codex code mode past its IPC frame limit. Run
+`codex plugin remove sakura@sanka` in Codex or `/plugin uninstall sakura@sanka`
+in Claude Code. `scripts/test-codex-mcp-manifests.mjs` keeps the marketplaces
+down to the single `sanka` entry.
+

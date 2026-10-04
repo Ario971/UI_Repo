@@ -1,0 +1,12 @@
+---
+title: "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server"
+source: "Hacker News Show HN"
+url: "https://pipod.dev/"
+date: "2026-10-02"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "pi pod runs sessions of the pi coding agent in isolated sandboxes (\"pods\") on a server you run, in composable environments. ---- Since moving my company towards AI-native work, I have been really frustrated by the state of \"agentic engineering\" environments. Products by the labs (claude code, codex) lock you into a single provider for your tokens. Agnosti... (Local summary fallback used.)"
+---
+
+pi pod runs sessions of the pi coding agent in isolated sandboxes ("pods") on a server you run, in composable environments. ---- Since moving my company towards AI-native work, I have been really frustrated by the state of "agentic engineering" environments. Products by the labs (claude code, codex) lock you into a single provider for your tokens. Agnostic solutions (factory, devin, arguably cursor) make you pay per-token costs. None of these products allow you to fully customize the harness, and of course they all run on someone else's infrastructure. I've been an early and fervent user of pi, which I think is fantastically simple and beautiful software. I have felt it needs an environment for it to work across platforms with fully functional composability for teams. This is very much a work in progress, but for my team this has been a much needed solution and has helped us tremendously. I hope you will give it a try and let me know how you would like it to improve.
