@@ -1,10 +1,227 @@
 {
-  "last_checked_at": "2026-10-04T10:48:25.212Z",
+  "last_checked_at": "2026-10-05T11:55:51.064Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "drseedon/orchestra",
+      "name": "DrSeedon/orchestra",
+      "url": "https://github.com/DrSeedon/orchestra",
+      "date": "2026-10-05",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 66,
+      "risk": 40,
+      "integration_effort": 60,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+          "date": "2026-09-21",
+          "topic": "AI agents",
+          "similarity": 0.359,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/06-show-hn-foremerge-catch-intent-conflicts-between-parallel-coding-agent.md"
+        },
+        {
+          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+          "date": "2026-09-09",
+          "topic": "AI agents",
+          "similarity": 0.343,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+        },
+        {
+          "title": "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev",
+          "date": "2026-09-21",
+          "topic": "AI dev tools",
+          "similarity": 0.331,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-05)",
+        "AGPL-3.0 license",
+        "17 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, requires-python, dependencies, claude-agent-sdk, fastapi, jinja2, mcp"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/DrSeedon/orchestra.git",
+        "uv sync",
+        "uv run uvicorn app.main:app --host 127.0.0.1 --port 8888",
+        "Git Worktrees ── one per worker, squash merge to main",
+        "pip install --no-index --find-links wheels --require-hashes",
+        "git clone"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-21 about AI agents; this candidate overlaps with \"Show HN: Foremerge – Catch intent conflicts between parallel coding agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-05/01-drseedon-orchestra.md"
+    },
+    {
+      "id": "callstackincubator/codex-mobile-dev-plugin",
+      "name": "callstackincubator/codex-mobile-dev-plugin",
+      "url": "https://github.com/callstackincubator/codex-mobile-dev-plugin",
+      "date": "2026-10-05",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 84,
+      "momentum": 82,
+      "risk": 55,
+      "integration_effort": 53,
+      "expected_gain": 87,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "waniyaro/agent-reels-viewer",
+          "date": "2026-10-05",
+          "topic": "AI dev tools",
+          "similarity": 0.209,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-waniyaro-agent-reels-viewer.md"
+        },
+        {
+          "title": "Show HN: Architectural Guardrails for AI native development",
+          "date": "2026-09-20",
+          "topic": "AI dev tools",
+          "similarity": 0.204,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-20/11-show-hn-architectural-guardrails-for-ai-native-development.md"
+        },
+        {
+          "title": "pradverma94/ai-support-agent",
+          "date": "2026-09-13",
+          "topic": "AI dev tools",
+          "similarity": 0.196,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/12-pradverma94-ai-support-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-05)",
+        "112 GitHub stars",
+        "GitHub Actions/CI detected",
+        "README includes install commands"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 92,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @base-ui/react, @fontsource-variable/inter, @legendapp/list, @modelcontextprotocol/ext-apps, @modelcontextprotocol/sdk, @openai/mcp-extensions, @sentry/node, @sentry/react; scripts build, build:release, public-release, vendor:baguette, vendor:agent-device, rebuild:baguette, rebuild:ios-fps, rebuild:android-fps"
+        }
+      ],
+      "install_commands": [
+        "codex plugin marketplace add https://github.com/callstackincubator/codex-mobile-dev-plugin.git --ref release/latest",
+        "codex plugin add mobile-dev@mobile-dev",
+        "codex plugin marketplace upgrade mobile-dev",
+        "npm install"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-05 about AI dev tools; this candidate overlaps with \"waniyaro/agent-reels-viewer\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-05/02-callstackincubator-codex-mobile-dev-plugin.md"
+    },
+    {
+      "id": "opencharm-labs/opencharm",
+      "name": "opencharm-labs/opencharm",
+      "url": "https://github.com/opencharm-labs/opencharm",
+      "date": "2026-10-05",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 92,
+      "momentum": 55,
+      "risk": 24,
+      "integration_effort": 56,
+      "expected_gain": 71,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.273,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+          "date": "2026-09-09",
+          "topic": "AI agents",
+          "similarity": 0.244,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+        },
+        {
+          "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+          "date": "2026-09-21",
+          "topic": "AI agents",
+          "similarity": 0.202,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/06-show-hn-foremerge-catch-intent-conflicts-between-parallel-coding-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-05)",
+        "MIT license",
+        "4 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 70,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @types/node, eslint, lv_font_conv, playwright, prettier, prettier-plugin-tailwindcss, tsx, typescript; scripts prepare, check, format, format:check, lint, typecheck, test, build"
+        },
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps line-length, target-version, include"
+        }
+      ],
+      "install_commands": [
+        "npx opencharm            # the face in your terminal",
+        "npx opencharm faces      # all 22 moods",
+        "npx opencharm hardware   # what to buy and print",
+        "npm i -g opencharm",
+        "npm ci",
+        "npm run firmware:sim         # build the emulator"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-05/03-opencharm-labs-opencharm.md"
+    },
     {
       "id": "alberduris/skills",
       "name": "alberduris/skills",
@@ -19502,170 +19719,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-06-11 about AI dev tools; this candidate overlaps with \"dingmanjiang/ai-resource-config\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-27/02-comma-compliance-arc-relay.md"
-    },
-    {
-      "id": "nurl-lang/nurl",
-      "name": "nurl-lang/nurl",
-      "url": "https://github.com/nurl-lang/nurl",
-      "date": "2026-06-27",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 67,
-      "momentum": 64,
-      "risk": 32,
-      "integration_effort": 44,
-      "expected_gain": 87,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "sciencebanda09/nexus-multiagent",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.22,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
-        },
-        {
-          "title": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
-          "date": "2026-06-22",
-          "topic": "AI agents",
-          "similarity": 0.199,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/09-show-hn-i-applied-lyapunov-stability-theory-to-detect-when-llm-agents-.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-27)",
-        "Apache-2.0 license",
-        "7 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 1,
-      "dependency_files": [],
-      "install_commands": [
-        "git clone https://github.com/nurl-lang/nurl.git"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"sciencebanda09/nexus-multiagent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-27/03-nurl-lang-nurl.md"
-    },
-    {
-      "id": "ax-llm/ax",
-      "name": "ax-llm/ax",
-      "url": "https://github.com/ax-llm/ax",
-      "date": "2026-06-26",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "local_model_tool",
-      "compatibility": 92,
-      "momentum": 100,
-      "risk": 30,
-      "integration_effort": 66,
-      "expected_gain": 85,
-      "composite": 81,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "sciencebanda09/nexus-multiagent",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.207,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-26)",
-        "Apache-2.0 license",
-        "2794 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "package metadata could not be parsed"
-        }
-      ],
-      "install_commands": [
-        "npm run example -- list",
-        "npm run example -- python src/examples/python/generation/axgen-openai.py",
-        "npm run example -- java src/examples/java/generation/BasicGenerationExample.java",
-        "npm run example -- cpp src/examples/cpp/generation/basic_generation.cpp",
-        "npm run example -- go src/examples/go/generation/basic_generation.go",
-        "npm run example -- rust src/examples/rust/generation/basic_generation.rs"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"sciencebanda09/nexus-multiagent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-26/01-ax-llm-ax.md"
-    },
-    {
-      "id": "dorylab/dory",
-      "name": "dorylab/dory",
-      "url": "https://github.com/dorylab/dory",
-      "date": "2026-06-26",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 94,
-      "momentum": 91,
-      "risk": 37,
-      "integration_effort": 64,
-      "expected_gain": 69,
-      "composite": 75,
-      "replacement_target": null,
-      "related_articles": [],
-      "pros": [
-        "Recently updated (2026-06-26)",
-        "Apache-2.0 license",
-        "237 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @playwright/test; scripts dev, prebuild, build, build:bootstrap, deploy, start, studio, pglite:studio"
-        }
-      ],
-      "install_commands": [
-        "docker run -d --name dory \\",
-        "docker compose up -d",
-        "codex mcp add dory --url http://127.0.0.1:3318/api/mcp",
-        "codex mcp list",
-        "claude mcp add --transport http dory http://127.0.0.1:3318/api/mcp",
-        "claude mcp list"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "dorylab/dory matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-26/02-dorylab-dory.md"
     }
   ]
 }

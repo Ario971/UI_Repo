@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T10:48:05.281Z",
+  "updated_at": "2026-10-05T11:55:17.352Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "HazardWeaver: Scientific Route Selection for Hazard Analysis Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.03591v1",
+      "date": "2026-10-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Understanding and assessing natural hazards is essential for disaster preparedness and risk reduction. Recent advances in large language models have spurred growing interest in AI agents for hazard analysis, particularly their ability to integrate scientific data, models, and tools into automated workflows. However, effective automation requires agents to... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/06-hazardweaver-scientific-route-selection-for-hazard-analysis-agents.md"
+    },
+    {
+      "title": "Knowledge or Calculator? Decomposing the Skill Premium in Verifiable Financial Agent Workflows",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.03564v1",
+      "date": "2026-10-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Financial AI agents must do more than retrieve facts: investment workflows require correct quantitative execution, reliable use of procedural resources, and auditable structured outputs. We introduce FinSkillBench, an evaluation suite of 2,603 point in time episodes across 12 subtasks in portfolio construction, risk management, and fundamental analysis, w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/07-knowledge-or-calculator-decomposing-the-skill-premium-in-verifiable-fi.md"
+    },
+    {
+      "title": "Persona Guardrail: A Production-Grade Defense Framework for Agentic Systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.03434v1",
+      "date": "2026-10-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large language model-based agents are increasingly deployed to perform domain-specific tasks by interacting with enterprise knowledge, tools, and external services. Existing runtime guardrails primarily target prompt injection and other attack-specific behaviors under a black-box threat model, but provide limited guarantees that agents operate within thei... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/08-persona-guardrail-a-production-grade-defense-framework-for-agentic-sys.md"
+    },
+    {
+      "title": "Lightweight, Rubric-Guided Trajectory Evaluation for Production AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.03315v1",
+      "date": "2026-10-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Trajectory evaluation is essential for improving the reliability of LLM-based agents, but production use makes it expensive to run repeatedly. Modern agents generate long traces containing tool calls, observations, retries, and external outputs, while not all raw tokens are equally useful for diagnosis. We present \\textit{LiteTrajEval}, a lightweight arch... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/09-lightweight-rubric-guided-trajectory-evaluation-for-production-ai-agen.md"
+    },
+    {
+      "title": "AngmarX-dev/LionOS",
+      "source": "GitHub Search API",
+      "url": "https://github.com/AngmarX-dev/LionOS",
+      "date": "2026-10-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "LionOS is an experimental operating system built from scratch with AI-assisted development, focused on learning low-level programming, kernel development, memory management, interrupts, paging, and system calls. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/10-angmarx-dev-lionos.md"
+    },
+    {
+      "title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "source": "Hacker News Show HN",
+      "url": "https://astrohelm.app/",
+      "date": "2026-10-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN! As an amateur astronomer living in New York City, finding objects in the night sky has always been a huge challenge. I thought about using the smartphone's gyroscope and magnetometer, but the accuracy left a lot to be desired. Then I learned about plate solving: given a picture of the sky, we can determine exactly where in the sky the camera was... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-04/11-show-hn-astrohelm-use-your-phone-camera-to-aim-a-telescope-or-telephot.md"
+    },
+    {
+      "title": "mainbusiness/cs-team-screen",
+      "source": "GitHub Search API",
+      "url": "https://github.com/mainbusiness/cs-team-screen",
+      "date": "2026-10-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Customer-service team screen (Flask on Render) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/12-mainbusiness-cs-team-screen.md"
+    },
+    {
+      "title": "waniyaro/agent-reels-viewer",
+      "source": "GitHub Search API",
+      "url": "https://github.com/waniyaro/agent-reels-viewer",
+      "date": "2026-10-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Local-first multimodal video intelligence skill for AI agents (Claude Code, Antigravity, OpenClaw, Codex). Inspects, transcribes, zooms, and understands Instagram Reels, TikTok, YouTube Shorts, and local video. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-waniyaro-agent-reels-viewer.md"
+    },
+    {
+      "title": "From 1x3090 to 20 DGX Sparks: my house fuses were the first bottleneck",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxgm0h/from_1x3090_to_20_dgx_sparks_my_house_fuses_were/",
+      "date": "2026-10-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "​ From the first LLaMA 33B I knew I wanted that magic-like intelligence locally, mine, so nobody could take it away when I needed it. I bought a 3090 for my home PC. Then LLaMA 65B appeared and I was dazzled, it looked like it had all the knowledge in the world. I made two copies, one local and one on my Synology NAS RAID, so I'd never lose it, and bought... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-04/14-from-1x3090-to-20-dgx-sparks-my-house-fuses-were-the-first-bottleneck.md"
+    },
+    {
+      "title": "Which model, which harness? I have data for you.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy5bmy/which_model_which_harness_i_have_data_for_you/",
+      "date": "2026-10-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I keep testing harness & model setups on real tasks: basic math, vision, computer use (reading emails, navigating stores) and coding. I created a benchmark and a leaderboard. You can see it here: https://airbench.ai/leaderboard?k=poL It measure capabilities (a % of sucess on the various tasks) and speed . For reference, Claude Code Opus 5.5 have a 100% (1... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/15-which-model-which-harness-i-have-data-for-you.md"
+    },
+    {
+      "title": "Lessons learned while building Apex-2",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy33az/lessons_learned_while_building_apex2/",
+      "date": "2026-10-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, thank you so much for all the interest in my model. It's more than I expected. Here is a short summary of the trial and error I went through while building Apex-2. 1. GPUs were always the bottleneck I planned to train on about 1T tokens, but in the end I could only train on about 80B. FineWeb-Edu alone is about 1.3T tokens, and I clearly unde... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/16-lessons-learned-while-building-apex-2.md"
+    },
+    {
+      "title": "DecisionTune 1.0: a 395M encoder that picks from your options offline, about 10 ms per short decision on MLX (Apache-2.0)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy3c0u/decisiontune_10_a_395m_encoder_that_picks_from/",
+      "date": "2026-10-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Disclosure: I made this. Sharing it here because it is fully local and small, and I want feedback from people who run models on their own machines. What it is: a 395M decision model (ModernBERT-large plus a 4 KB scoring head). You give it a state, a question and a list of options. It does one encoder pass and returns a probability for each option, or P(ye... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/17-decisiontune-1-0-a-395m-encoder-that-picks-from-your-options-offline-a.md"
+    },
     {
       "title": "Show HN: SuperLocalMemory 4.0 \"Governed Memory Operating System for AI Agents\"",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Based on https://huggingface.co/hardware , the RTX 3090 is the second most used GPU by LLM enthusiasts. Because RTX 3090 has native INT8 tensors cores, it can provide better performance with INT8 W8A8. However people seems to default to FP8 or smaller quants anyway. I suppose I am missing information that explains why ? submitted by /u/TheOnlyBen2 [link]... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-01/17-given-how-common-rtx-3090-use-is-for-llms-why-don-t-we-see-more-int8-w.md"
-    },
-    {
-      "title": "Show HN: Saccade – Live semantic browser truth for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/nanlogic/saccade",
-      "date": "2026-08-31",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I build one this application is to resolve the most of the agent cannot handle the brother they extremely slow. So I come up with this idea, we install one of the extntion on chrome or edge to give continuously compile the tabs authorized by the user into semantically meaningful objects with stable identities, and push page changes as deltas to the local... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/06-show-hn-saccade-live-semantic-browser-truth-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: What Happens When You Give Your AI Agents a Voice and an Attitude",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://fellowgeek.github.io/mcp-speak/",
-      "date": "2026-08-31",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: What Happens When You Give Your AI Agents a Voice and an Attitude (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/07-show-hn-what-happens-when-you-give-your-ai-agents-a-voice-and-an-attit.md"
-    },
-    {
-      "title": "Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.31082v1",
-      "date": "2026-08-31",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Valuable data remains embedded in unstructured sources: web pages, reports, contracts, filings, earnings calls, and PDFs. The big bet in enterprise AI is deploying LLM agents that reason over this data to answer complex questions for every knowledge worker. Agents can do this today, but at prohibitive cost. Each question repeatedly opens large documents t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/08-token-efficient-data-reasoning-agents-via-adaptive-structuring-of-unst.md"
-    },
-    {
-      "title": "MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2608.31022v1",
-      "date": "2026-08-31",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents in partially observable environments need to coordinate active sensing with working memory to maintain an evolving perceptual state. However, existing benchmarks struggle to isolate this perceptual-state construction and interpretation capability because they introduce physical and control complexities. We address this with MNIST-PRO, a benchmar... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-31/09-mnist-pro-mnist-is-back-as-a-partially-observable-world-for-ai-agents.md"
-    },
-    {
-      "title": "jaspernot4ai/coplan",
-      "source": "GitHub Search API",
-      "url": "https://github.com/jaspernot4ai/coplan",
-      "date": "2026-09-01",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Multiplayer itinerary planning where every traveler's AI agent can edit the same trip in real time — but checkout always needs a human on a different device to approve. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/10-jaspernot4ai-coplan.md"
-    },
-    {
-      "title": "Show HN: Seatlr – We rebuilt our traveler chat into an AI-powered travel network",
-      "source": "Hacker News Show HN",
-      "url": "https://www.seatlr.com/",
-      "date": "2026-09-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I previously shared the initial version of Seatlr here. The idea was to provide a chat room for each destination, connecting travelers heading to the same city regardless of airline. Over the past few weeks, we have expanded Seatlr from destination-based chat rooms into a more comprehensive travel companion, adding an AI assistant and an alert ser... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/11-show-hn-seatlr-we-rebuilt-our-traveler-chat-into-an-ai-powered-travel-.md"
-    },
-    {
-      "title": "legalize-dev/mcp",
-      "source": "GitHub Search API",
-      "url": "https://github.com/legalize-dev/mcp",
-      "date": "2026-09-01",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Official MCP connector for Legalize: read and search its whole open corpus, at any point in time. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/12-legalize-dev-mcp.md"
-    },
-    {
-      "title": "doudouli103-dot/tenx-ai-gateway",
-      "source": "GitHub Search API",
-      "url": "https://github.com/doudouli103-dot/tenx-ai-gateway",
-      "date": "2026-08-30",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI Gateway (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-30/13-doudouli103-dot-tenx-ai-gateway.md"
-    },
-    {
-      "title": "GLM 5.3 and GLM 5.3 Flash ran locally on RTX PRO 6000 WS and built a penthouse using BlenderMCP",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3kppp/glm_53_and_glm_53_flash_ran_locally_on_rtx_pro/",
-      "date": "2026-08-31",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I keep seeing demos of AI agents building scenes in Blender through BlenderMCP, so I tried it myself. I ran both models locally for this and picked the GLM 5.3 family(Q4 quant) because videos of it doing 3D work kept showing up in my twitter feed (out of curiosity, I ran the same prompt through the full GLM 5.3, also locally with a Q4 quant) these aren't... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/14-glm-5-3-and-glm-5-3-flash-ran-locally-on-rtx-pro-6000-ws-and-built-a-p.md"
-    },
-    {
-      "title": "Don't sleep on Vision support for coding!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3vcvh/dont_sleep_on_vision_support_for_coding/",
-      "date": "2026-08-31",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Normally, whenever a new model dropped, I always chose the non-vision version just to save VRAM; I though that only use case was when you were the one sending the picture. However, with the release of QWEN 3.8 27B I decided to give it a shot, and it has been one of the best decisions I have made, as this makes the model way more capable for autonomous cod... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/15-don-t-sleep-on-vision-support-for-coding.md"
-    },
-    {
-      "title": "SlopTV: an infinite livestream of AI slop generated from youtube chat comments, Minimax H3 on 2x5090",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3i7ze/sloptv_an_infinite_livestream_of_ai_slop/",
-      "date": "2026-08-31",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "SlopTV: a YouTube live stream where the chat writes the programming. You type \"capybara dj underwater rave\", an LLM inflates it into a 400-word structured video prompt, one of my 5090s renders 15 seconds of it with MiniMax H3, and it airs on the same stream you typed into. Then people comment on that clip, and the ouroboros keeps eating. Inspired by infin... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/16-sloptv-an-infinite-livestream-of-ai-slop-generated-from-youtube-chat-c.md"
-    },
-    {
-      "title": "First time running local models",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3h7rg/first_time_running_local_models/",
-      "date": "2026-08-31",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Sad that I only have 12gb of vram but this ik_llama is so fast submitted by /u/Needausernameplzz [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-08-31/17-first-time-running-local-models.md"
     }
   ]
 }
