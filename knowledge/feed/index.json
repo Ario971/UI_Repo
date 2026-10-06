@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T11:55:17.352Z",
+  "updated_at": "2026-10-06T11:35:31.803Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Headline Arena – public forecasting records for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://headlinearena.com",
+      "date": "2026-10-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Headline Arena – public forecasting records for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/06-show-hn-headline-arena-public-forecasting-records-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: Flash-Agents – DSH as MCP for Claude",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/tomw1808/flash-agents",
+      "date": "2026-10-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I do a lot of work using claude and codex. I use plenty of sub-agents. But nothing balances bang for the buck as good as deepseek v4.1 flash for me. So I thought, why not use the deepseek harness as MCP and drive it from claude as an orchestrator. I am probably not alone with this idea, but I haven't found something comparable. I wanted to fan out sub-age... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/07-show-hn-flash-agents-dsh-as-mcp-for-claude.md"
+    },
+    {
+      "title": "FREA: A Multi-Source Expert Benchmark for Reaction Feasibility Verification",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.06614v1",
+      "date": "2026-10-05",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "As generative models and AI agents propose chemical reactions at a scale beyond expert review, feasibility verifiers decide which proposals enter synthesis planning. But do their decisions agree with chemists across different kinds of candidates? We introduce FREA, a benchmark of 751 reactions labeled by expert chemists under an explicit feasibility crite... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/08-frea-a-multi-source-expert-benchmark-for-reaction-feasibility-verifica.md"
+    },
+    {
+      "title": "Does AI Help Cyber Attackers or Defenders? Evidence from Nonpublic Vulnerabilities and Subsequent Attacks",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.06584v1",
+      "date": "2026-10-05",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The release decision for frontier AI systems increasingly relies on cyber capability benchmarks, yet public vulnerability benchmarks can expose agents to previously published advisories, exploits, and fixes, making it difficult to distinguish prior exposure from capability on unseen vulnerabilities. We evaluate open-weight and proprietary AI models on exp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/09-does-ai-help-cyber-attackers-or-defenders-evidence-from-nonpublic-vuln.md"
+    },
+    {
+      "title": "Show HN: Nightwatch – a Mac menu-bar app that tells you when tonight is clear",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/rsutcliffe/nightwatch",
+      "date": "2026-10-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Here in the north of England clear nights are at a premium, and it's never guaranteed that you'll be able to see anything but cloud. That's why I developed Nightwatch, so that I could be notified when one of those precious few nights where I could see into the heavens was available. Finding out whether tonight was worth setting up meant reading forecast c... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-04/10-show-hn-nightwatch-a-mac-menu-bar-app-that-tells-you-when-tonight-is-c.md"
+    },
+    {
+      "title": "Show HN: PolyRoll – A 3D Marble Game for Mobile/Desktop",
+      "source": "Hacker News Show HN",
+      "url": "https://polyroll.neocities.org",
+      "date": "2026-10-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Inspired by games like \"super monkey ball\" and good 'ol \"marble blast\".. PolyRoll is basically their evil clone.. Uses a combo of \"three.js\" and \"cannon-es\" --------- Backstory: --------- 3 months ago I stopped at my buddy's house.. he showed me his Claude-code setup.. I had never tried agentic coding so I figured, why not try to make a game? After some b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-06/11-show-hn-polyroll-a-3d-marble-game-for-mobile-desktop.md"
+    },
+    {
+      "title": "Show HN: CoIsland – A local Mac app that monitors your dev tools and alerts you",
+      "source": "Hacker News Show HN",
+      "url": "https://coisland.app/",
+      "date": "2026-10-05",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: CoIsland – A local Mac app that monitors your dev tools and alerts you (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/12-show-hn-coisland-a-local-mac-app-that-monitors-your-dev-tools-and-aler.md"
+    },
+    {
+      "title": "Show HN: SoldStack – sold prices API for secondhand clothes",
+      "source": "Hacker News Show HN",
+      "url": "https://soldstack.fly.dev/",
+      "date": "2026-10-05",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Soldstack is a site for developers to get the buy or sell value of a product mainly on Poshmark right now. The reason I built this is because eBay sold data got locked behind a login, and Poshmark data is messy and often over a year old. So I wanted to create something that makes it easier to access this data. When I was making this, I had to be careful w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-show-hn-soldstack-sold-prices-api-for-secondhand-clothes.md"
+    },
+    {
+      "title": "A benchmark for LLMs playing Civilization V. GLM-5.3 is ahead of Opus-5.5, and Qwen-3.8-27B holds up surprisingly well.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wynbvq/a_benchmark_for_llms_playing_civilization_v_glm53/",
+      "date": "2026-10-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "A while ago, I posted here getting OSS-120B and GLM-4.6 playing full games of Civilization V . Since then, models have moved pretty far, and we wanted a better understanding about models' capabilities playing the game. Introducing the controlled version of CivBench on newer models: The controlled version of CivBench (Chen et al., 2026, extending our COLM... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/14-a-benchmark-for-llms-playing-civilization-v-glm-5-3-is-ahead-of-opus-5.md"
+    },
+    {
+      "title": "Qwen 3.8 27b just feels… ok?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyp4n2/qwen_38_27b_just_feels_ok/",
+      "date": "2026-10-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I’ve seen posts here raving about how good Qwen 3.8 27b is. The benchmarks look incredible, and all the online discourse seems to deem it the best local model. I have 32GB VRAM and run Unsloth’s Q6 version with OpenCode. For small tasks, it feels fine. I range 30-40 t/s decode and smaller sized tasks do finish, usually, without much issue or time. The iss... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-06/15-qwen-3-8-27b-just-feels-ok.md"
+    },
+    {
+      "title": "PewDiePie getting banned twice by OpenAI while making a local model is top-tier comedy 💀",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/",
+      "date": "2026-10-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So PewDiePie decides to fine-tune a local AI model called Ajax on his own computer. Pretty normal stuff for local model fans. To make his dataset, he uses OpenAI's API. OpenAI catches him using their outputs to train another model, flags his account for breaking their terms, and bans him. He files an appeal, gets unbanned, goes right back to pulling data... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/16-pewdiepie-getting-banned-twice-by-openai-while-making-a-local-model-is.md"
+    },
+    {
+      "title": "When Redditors come in here and ask why we run LLMs, this is why: Big AI is watching.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyjuh0/when_redditors_come_in_here_and_ask_why_we_run/",
+      "date": "2026-10-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Anthropic Reports Florida Woman's Claude 'Diary' Threat to Law Enforcement And this time it wasn't the AI model that made the LEO referral. It was the \"human review team\". The frontier AI companies are watching your input. And people say \"Well I'm not interesting or important enough for them to care\". Well.....not necessarily. If you're using hosted front... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/17-when-redditors-come-in-here-and-ask-why-we-run-llms-this-is-why-big-ai.md"
+    },
     {
       "title": "HazardWeaver: Scientific Route Selection for Hazard Analysis Agents",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I've been building Arcon around Qwen3-4B + LoRA. Instead of just making it a chatbot, I'm experimenting with persistent memory, personality/mood, internal state, tools, and eventually having it process things before replying. I'm curious what people who've built local agents think - how far can you realistically push a small model with good architecture a... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/17-can-a-4b-local-model-actually-feel-like-an-ai-assistant.md"
-    },
-    {
-      "title": "Show HN: Markdown Gatekeeper – one current source per topic for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/nanlogic/markdown-gatekeeper",
-      "date": "2026-09-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Markdown Gatekeeper – one current source per topic for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-02/06-show-hn-markdown-gatekeeper-one-current-source-per-topic-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Rails Baseline – a Rails SaaS starter with agent-readable architecture",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://railsbaseline.com/",
-      "date": "2026-09-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I have built a lot of SaaS Rails apps over the last decade+...and agents are making their way into my workflow more then ever. So I decided I wanted a starter that picks a LOT of vanilla Rails flavors, a little bit of battle tested additions and a lot of agent discoverable context so new features and changes tend to stay inside the guard rails. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-01/07-show-hn-rails-baseline-a-rails-saas-starter-with-agent-readable-archit.md"
-    },
-    {
-      "title": "Show HN: Shed – Git Repo Management for Terminal Agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/AndrewHannigan/shed",
-      "date": "2026-09-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, Shed is a git repo management system for terminal agents. I built it because I wanted a complete git repo and workspace management system that was agent-first by design and portable across agent harnesses. Tools like ghq, worktrunk, and vanilla git worktrees fill some of the gaps, but personally I feel they all come up short in one way or another a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-01/08-show-hn-shed-git-repo-management-for-terminal-agents.md"
-    },
-    {
-      "title": "Mechanism Design for Alignment and Control",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.01595v1",
-      "date": "2026-09-01",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must incentivize both honesty and obedience. A one-sided imitation structure---capabilities can be concealed but not counterfeited---yields a revela... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-01/09-mechanism-design-for-alignment-and-control.md"
-    },
-    {
-      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
-      "source": "Hacker News Show HN",
-      "url": "https://masteranza.github.io/weedout/",
-      "date": "2026-09-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I'm the developer. I built this because AI-generated conspiracy videos were getting out of control in my own YouTube feed. Weedout is a $1.99 Safari extension for macOS that removes videos YouTube labels “Made with AI” from feed, search, related videos, playlists and Shorts. It uses YouTube's label rather than AI detection, runs locally, and does not catc... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/10-show-hn-weedout-safari-extension-that-hides-youtube-ai-labeled-videos.md"
-    },
-    {
-      "title": "Show HN: TinyJS – small apps on Win/Mac/Linux",
-      "source": "Hacker News Show HN",
-      "url": "https://tinyjs.app",
-      "date": "2026-09-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi all. I'm Tarwin. I've been working on TinyJS for about 6 weeks now. I was sick of installing 500mb Electron apps for every little utility. The last straw was Harvest updating from 5mb to 500mb in latest release. Tauri exists (and it's great) but I wanted something that was JS first. So I built this on top of txikijs, a tools that includes QuickJS and S... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/11-show-hn-tinyjs-small-apps-on-win-mac-linux.md"
-    },
-    {
-      "title": "Abhirajverma12/RevivePay",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Abhirajverma12/RevivePay",
-      "date": "2026-09-02",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Autonomous AI Revenue Recovery Engine for Razorpay merchants. Features deterministic 5-factor scoring, merchant policy guardrails, Zod-bounded AI agent interventions, and BullMQ worker execution to transform failed transactions into recovered revenue. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-02/12-abhirajverma12-revivepay.md"
-    },
-    {
-      "title": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
-      "source": "Hacker News Show HN",
-      "url": "https://hnmatchmaker.com/",
-      "date": "2026-09-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi! Every month the \"Who Wants to Be Hired?\" and \"Who's Hiring?\" Threads come through I would think to myself, \"there should be a match maker for these two threads\". So I had abacus.ai whip one up. The methodology is pretty simple, data is extracted from posts using an LLM, score matches based on salary, domain experience, remote/onsite, etc., and then el... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/13-show-hn-hn-match-maker-matching-who-wants-to-be-hired-with-who-s-hirin.md"
-    },
-    {
-      "title": "LocalLLaMA is unironically one of the best places to go to get up to date AI news.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w50ur8/localllama_is_unironically_one_of_the_best_places/",
-      "date": "2026-09-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "One of the other posts today by user u/Howard_banister confirmed what I've been seeing from the other AI subreddits as well. Most of these other subs are 90% trend hopping crypto-bros equivalent people who are seemingly irrelevant most of the time when it comes to advancing AI as the vast majority is not just AI slop, but also human slop whether that be f... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-02/14-localllama-is-unironically-one-of-the-best-places-to-go-to-get-up-to-d.md"
-    },
-    {
-      "title": "New Model: Spark-X2.5-4B, Spark-X2.5-1.7B",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4dsrw/new_model_sparkx254b_sparkx2517b/",
-      "date": "2026-09-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I was browsing HF for small LLMs and run into this model. It does not seem to be a fine tune - the model has its own architecture. https://huggingface.co/XHToken/Spark-X2.5-1.7B https://huggingface.co/XHToken/Spark-X2.5-4B There are 4B/1.7B versions - the benchmark is quite interesting (4B is neck and neck with Qwen 3.5 9B). The HF page claims both models... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-01/15-new-model-spark-x2-5-4b-spark-x2-5-1-7b.md"
-    },
-    {
-      "title": "Which one will you choose and why, between R9700 32GB vs W7800 48GB?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w53qvh/which_one_will_you_choose_and_why_between_r9700/",
-      "date": "2026-09-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I'm planning to upgrade my workstation (linux with 5700X/64GB DDR4) for local inference and pytorch training. I'm trying to decide between: 2× AMD Radeon AI PRO R9700 32GB 2× AMD Radeon PRO W7800 48GB I already have an RTX 3090 24GB , so the final system would have 3 GPUs . My motherboard has two PCIe 4.0 x8/x8 slots available for the two AMD GPUs. The RT... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-02/16-which-one-will-you-choose-and-why-between-r9700-32gb-vs-w7800-48gb.md"
-    },
-    {
-      "title": "Given how common RTX 3090 use is for LLMs, why don't we see more INT8 W8A8 models ?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4rzbd/given_how_common_rtx_3090_use_is_for_llms_why/",
-      "date": "2026-09-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Based on https://huggingface.co/hardware , the RTX 3090 is the second most used GPU by LLM enthusiasts. Because RTX 3090 has native INT8 tensors cores, it can provide better performance with INT8 W8A8. However people seems to default to FP8 or smaller quants anyway. I suppose I am missing information that explains why ? submitted by /u/TheOnlyBen2 [link]... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-01/17-given-how-common-rtx-3090-use-is-for-llms-why-don-t-we-see-more-int8-w.md"
     }
   ]
 }

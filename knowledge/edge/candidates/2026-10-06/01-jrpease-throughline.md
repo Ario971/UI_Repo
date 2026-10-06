@@ -1,0 +1,292 @@
+---
+id: "jrpease/throughline"
+name: "jrpease/throughline"
+url: "https://github.com/jrpease/throughline"
+date: "2026-10-06"
+source: "awesome-llm-agents"
+category: "awesome_lists"
+kind: "claude_skill"
+compatibility: 92
+momentum: 82
+risk: 32
+integration_effort: 40
+expected_gain: 87
+composite: 81
+replacement_target: ""
+related_articles: [{"title":"Show HN: Self-hosted company OS, Claude Code and Codex agents in departments","date":"2026-09-09","topic":"AI agents","similarity":0.19,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"}]
+pros: ["Recently updated (2026-10-06)","MIT license","78 GitHub stars","GitHub Actions/CI detected"]
+cons: ["README mentions credentials or API tokens"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 3
+dependency_files: [{"name":"package.json","summary":"deps none; scripts none"}]
+install_commands: ["npx @radicool/throughline@0.21.3 init --target=cursor    # → .cursor/rules + .cursor/mcp.json","npx @radicool/throughline@0.21.3 init --target=codex      # → prompts/ + AGENTS.md index + codex-mcp.toml","npx @radicool/throughline@0.21.3 init --target=generic    # → skills/ + AGENTS.md index","npx @radicool/throughline@0.21.3 init"]
+risk_flags: ["README mentions credentials or API tokens"]
+status: "new"
+---
+
+# jrpease/throughline
+
+Throughline — one unbroken line from design to code. A Claude Code plugin that guides you from a blank Figma file to a synced, story-tested component library.
+
+URL: https://github.com/jrpease/throughline
+
+## Why it matters
+You saved an article on 2026-09-09 about AI agents; this candidate overlaps with "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-06)
++ MIT license
++ 78 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- README mentions credentials or API tokens
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- package.json: deps none; scripts none
+
+Install commands found:
+- npx @radicool/throughline@0.21.3 init --target=cursor    # → .cursor/rules + .cursor/mcp.json
+- npx @radicool/throughline@0.21.3 init --target=codex      # → prompts/ + AGENTS.md index + codex-mcp.toml
+- npx @radicool/throughline@0.21.3 init --target=generic    # → skills/ + AGENTS.md index
+- npx @radicool/throughline@0.21.3 init
+
+Risk flags:
+- README mentions credentials or API tokens
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+<div align="center">
+
+<img src="docs/assets/hero.png" alt="ThroughLine" width="100%" />
+
+# ThroughLine
+
+### Your agentic design team
+
+**Every skill you need to launch and manage a production-grade design system in hours — not months. Built for Claude Code, and installable into Cursor, Codex, or any AGENTS.md agent.**
+
+[![npm](https://img.shields.io/npm/v/%40radicool%2Fthroughline?color=6366f1&label=npm)](https://www.npmjs.com/package/@radicool/throughline)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-d97757)](https://docs.claude.com/en/docs/claude-code)
+[![Also on Cursor · Codex · AGENTS.md](https://img.shields.io/badge/also%20on-Cursor%20·%20Codex%20·%20AGENTS.md-22c55e)](#install)
+[![See it live — Storybook](https://img.shields.io/badge/See%20it%20live-Storybook-FF4785?logo=storybook&logoColor=white)](https://main--6a1ee089ae3a37b70a6e4559.chromatic.com)
+[![Public Figma file](https://img.shields.io/badge/Public-Figma%20file-F24E1E?logo=figma&logoColor=white)](https://www.figma.com/design/OCiZiGpsJ4ncPD8r205BjC/Throughline-Plugin-Test?node-id=0-1&t=5ERihD6fMqMuTEXD-1)
+
+</div>
+
+Whether you're starting from scratch or retrofitting an existing design system, ThroughLine puts you in the driver's seat — you make the high-level decisions while your agentic team powers through the production work. You stay in control of the *what*; it handles the *how*.
+
+**No code experience required.**
+
+---
+
+## What ThroughLine builds
+
+### In Figma
+
+1. **A robust primitive + semantic token system** — color ramps, spacing, type scale, radius, and elevation, with light/dark and multi-brand modes.
+2. **Automatic generation of all text and effect styles** — every type and shadow style, derived from your tokens.
+3. **A visual style sheet** of every token and style for full team transparency — synced to your tokens on demand.
+4. **A full icon component system** — Lucide, Material, or your own SVGs, imported as clean, scalable components.
+5. **A foundational component library** — buttons, inputs, badges, cards, and more, built as proper variant matrices bound to your tokens.
+
+### In code
+
+1. **A pnpm + Turborepo monorepo** on GitHub, scaffolded for you.
+2. **A sync adapter** that syncs your Figma tokens and components to the code framework of your choice.
+3. **Storybook** configured to house all synced components and their documentation.
+4. **CI via Chromatic** for visual regression testing on every push.
+
+### Daily workflow
+
+1. **`/sync-figma-tokens`** — resync changes from Figma to code, landed as a reviewable PR.
+2. **`/new-component`** — ship a new component in Figma, then sync and publish it to code.
+
+## Already have a design system? Retrofit it.
+
+Most teams aren't starting from a blank file — they have a mature codebase with hundreds of hard-coded colors and a Figma file that's drifted from it over the years. ThroughLine treats that as a first-class path, not an afterthought, and it moves *carefully*: it never asserts what's in your files without reading them first, and it never deletes an old token until it's proven nothing still uses it.
+
+1. **Audit before anything changes.** `design-system-audit` sizes both sides of your system — it greps your codebase to measure the real color surface and inventories your Figma file with verified, per-class reads — then tells you how big the migration actually is and how semantic your system already is.
+2. **A crosswalk that guarantees nothing shifts.** `token-crosswalk-builder` maps every new token to its old Figma variable and old code value, then installs a `tokens:validate` gate that fails unless every resolved new value matches the old one (N/N). A zero-reference guard blocks removing an old token while any code still references it.
+3. **A gated, reversible migration.** `retrofit-planner` walks the safe seven-phase sequence — audit → refine variables in place → rebind → sync → capture a visual baseline → retrofit the code → adopt existing docs → remove the old tokens — pausing for your confirmation between every phase, with an optional decision journal recording each call.
+
+The payoff: your live product looks identical at every step, and you can prove it with a Chromatic baseline captured before the first change.
+
+## See a real end-to-end system built with it
+
+<img src="docs/assets/case-study.png" alt="A complete ThroughLine design system — Foundations, Button variants, Icons, and Figma variables" width="100%" />
+
+| | |
+|---|---|
+| 🧩 **[Sample repo](https://github.com/jrpease/throughline-sample)** | The full monorepo — tokens, 14 components, Storybook, CI |
+| 📚 **[Live Storybook](https://main--6a1ee089ae3a37b70a6e4559.chromatic.com)** | Every component, all props, auto-generated docs |
+| 🎨 **[Public Figma file](https://www.figma.com/design/OCiZiGpsJ4ncPD8r205BjC/Throughline-Plugin-Test?node-id=0-1&t=5ERihD6fMqMuTEXD-1)** | The design source of truth it was generated from |
+
+Everything above was created during a single working session and synced directly from Figma to a production-ready codebase.
+
+## Getting started
+
+### Requirements
+
+| | |
+|---|---|
+| **A supported agent** | Required — [Claude Code](https://docs.claude.com/en/docs/claude-code) (native plugin), or **Cursor**, **Codex**, or any **AGENTS.md**-aware agent via `npx @radicool/throughline@0.21.3 init`. |
+| **Figma** | Required, **desktop app** (the browser version causes connection errors). **Professional plan or higher recommended** — multi-mode variables (Light/Dark, brand themes) need it. |
+| **Figma access token** | Required — read/write your file. The setup skill walks you through it; your token stays yours and is never shared in chat. |
+| **GitHub** (or similar) | Optional — only when you're ready to graduate to a real remote repo with PRs and CI. |
+
+### What it runs on your machine
+
+ThroughLine runs one local server, and it doesn't upload anything itself.
+
+- **One local MCP server.** Installing the plugin registers [`figma-console-mcp`](https://www.npmjs.com/package/figma-console-mcp), pinned to version 1.40.8, which your agent starts on your computer with `npx`. It reaches the Figma desktop app through the Desktop Bridge plugin you run in Figma. That's how ThroughLine reads and writes your file. For the Figma calls the bridge can't make, it uses a Figma access token if you give it one. Claude Code asks for the token as a plugin setting and keeps it in your system's secure credential store. It's optional. The Cursor, Codex and generic installs read it from `FIGMA_ACCESS_TOKEN` instead.
+- **Files in your repo.** The skills write design-system files where you point them: token sources, the Style Dictionary build, components, stories, `design-system.json`, and the proof records in `design-system/proof/`. The helper scripts they install read and write local files and make no network calls.
+- **Chromatic, if you choose it.** Setting up Chromatic adds a CI workflow that uploads your Storybook to your Chromatic project, using a `CHROMATIC_PROJECT_TOKEN` you place yourself. Skip that step and nothing goes to Chromatic.
+
+### Install
+
+ThroughLine is authored as a Claude Code plugin and generated into adapters for other agents. Pick your tool:
+
+#### Claude Code
+
+Install from this repo's plugin marketplace:
+
+```
+/plugin marketplace add jrpease/throughline
+/plugin install throughline@throughline-marketplace
+```
+
+Then start with:
+
+```
+/throughline:start
+```
+
+This is the reliable entry point — it runs environment setup first, ahead of anything else. (You can also just say *"let's set up my design system"*, but if you have other plugins installed that grab "let's build…" style phrases, the slash command guarantees ThroughLine takes the wheel.)
+
+Update anytime with `/plugin marketplace update throughline-marketplace`.
+
+#### Cursor, Codex, or a generic AGENTS.md agent
+
+Run the installer in your project — it stamps in the skills, the reference docs, the scripts, and the Figma MCP config for your tool:
+
+```
+npx @radicool/throughline@0.21.3 init --target=cursor    # → .cursor/rules + .cursor/mcp.json
+npx @radicool/throughline@0.21.3 init --target=codex      # → prompts/ + AGENTS.md index + codex-mcp.toml
+npx @radicool/throughline@0.21.3 init --target=generic    # → skills/ + AGENTS.md index
+```
+
+It's safe to re-run (it merges `AGENTS.md` and `.cursor/mcp.json` non-destructively) and stages everything the skills read into `.throughline/`. Then open the `figma-environment-setup` skill/rule/prompt for your tool to begin. For Codex, add the printed `codex-mcp.toml` block to your Codex config to enable Figma access.
+
+## Architecture
+
+ThroughLine is more than a pile of skills — it's a small system designed to stay consistent across dozens of generation steps. Four layers work together:
+
+**🛠 Twelve skills — the steps.** Each owns one stage of the journey, from connecting Figma to retrofitting an existing system to standing up CI. They're sequenced, and each knows its prerequisites.
+
+**📐 Ten reference docs — the constitution.** Shared standards every skill obeys: Figma component rules (auto-layout-on-everything, slot contracts, naming-as-contract, a required post-build audit), the brainstorm-before-build protocol, the sync-adapter specs, the manifest schema, coding-level adaptivity, the publishing flow, and the brownfield-retrofit discipline (read-before-assert, the safe migration sequence, the crosswalk contract). This is *why* two different runs produce the same structure — the rules live in one place, not scattered per skill.
+
+**🧭 An orchestration layer — the memory.** A `design-system.json` manifest in your project records exactly what's set up, with a versioned schema and immutability rules. Every skill reads it, tells you what it's about to do, and offers to run anything missing first. Run **`/design-system-status`** anytime for a plain-language picture of where you stand.
+
+**🔌 An adapter layer — the bridge.** A Style Dictionary pipeline that translates your Figma variables into whatever code framework you target — and re-translates on every change, so design and code never drift.
+
+### The skills
+
+| Skill | What it does |
+|---|---|
+| **figma-environment-setup** | Create your working folder, connect Claude to Figma, scan what already exists. **Start here.** |
+| **design-system-audit** | Measure an existing system *before* retrofitting — size the code-side color surface and inventory the Figma file with verified reads. The brownfield front door. |
+| **token-builder** | A two-tier (primitive + semantic) token system as Figma variables, plus text/effect styles. Generative, descriptive, or import-your-own. |
+| **token-sheet-builder** | A beautiful, on-brand **Foundations** page visualizing every token, live-bound to the variables. |
+| **icon-system-builder** | An **Icons** page with your chosen library (Lucide, Material, or custom) as clean components — the cheap, fast way. |
+| **component-builder** | Your foundational components (button, input, card, modal…) with full variant matrices, slots, and token bindings. |
+| **repository-builder** | Graduate your folder into a pnpm + Turborepo monorepo — folder → local git → GitHub, one gentle step at a time. |
+| **token-sync-layer** | Sync Figma variables to framework-specific code via Style Dictionary, landed as a reviewable PR. Installs `/sync-figma-tokens`. |
+| **token-crosswalk-builder** | Map new tokens to their old Figma variables and old code values, and install the `tokens:validate` gate that proves no value changed during a retrofit. |
+| **storybook-chromatic-builder** | Storybook, component stories, Chromatic visual testing, and Code Connect (where your Figma plan supports it). |
+| **component-pipeline** | Add one new component end to end: Figma → tokens → code + stories. Installs `/new-component`. |
+| **retrofit-planner** | Orchestrate a full retrofit through the safe, gated seven-phase sequence — with a human checkpoint at every phase. |
+
+## The nitty gritty
+
+For the technically curious — how the machine actually runs.
+
+**The sync layer.** Figma variables are extracted to **DTCG-format** JSON (the W3C design-tokens standard), run through **Style Dictionary**, and shaped by a framework **adapter** into the exact output your stack expects — shadcn CSS variables, a Tailwind theme, MUI theme objects, Swift/Kotlin constants, or plain CSS. Because the code is *generated* from the extract, design and code can't drift: you never hand-edit outputs, you change Figma and re-run. The sync lands as a **pull request**, so every design change is reviewable, diffable, and CI-checked before it merges.
+
+**The monorepo.** A **pnpm + Turborepo** workspace: `packages/` holds the generated tokens and the component library; `apps/` is where you build the actual product against your own design system. ThroughLine grows it in stages — plain folder → local git → GitHub remote with PRs and CI — introducing each concept only when its payoff is concrete, so you're never dropped into the deep end.
+
+**The manifest.** `design-system.json` is the single source of truth for *state*: a versioned schema, canonical per-skill flags, an immutable record of how your project began (greenfield vs. existing repo), and a snapshot of tooling detected at setup. Skills read it to know what's done and what's safe to do next — which is how the system stays coherent across many sessions.
+
+**Modes, within Figma's limits.** Light/Dark lives on the semantic collections; brand variants live on the primitive palette. Splitting the two axes across two collections keeps each one under Figma's 4-modes-per-collection cap on the Professional plan while still resolving correctly (`bg/default` → `{gray/50}` → the active brand's gray).
+
+**Model routing.** ThroughLine routes work by *cognition, not guesswork* — the expensive thinking on the best model, the mechanical doing on a cheap one. Setup runs on **Haiku** automatically to keep first-run costs low. Inside a skill, the deciding — a token architecture, a variant matrix, a slot contract — is planned once on the strongest tier, while the long mechanical part — placing Figma nodes, transcribing component code, running SVGR — runs on a cheap tier and self-verifies. You get the best model where it matters and a cheap one where it doesn't, without micromanaging it. The recommended mapping is **Haiku → Sonnet → Opus** for the `fast < balanced < deep` tiers, but nothing is hardcoded — the ladder resolves against whatever models your install actually has, and on hosts without subagents skills degrade cleanly to a single model. You can still steer the session yourself (`/model opus` for the heaviest authoring, back to `/model sonnet` after); nothing forces an expensive model on you.
+
+## Who it's for
+
+1. **Solo designers** who spend a lot of time building and managing design systems.
+2. **Agencies** consistently spinning up new design systems for clients.
+3. **Design teams** constantly fighting to keep their Figma and code systems in sync.
+4. **Non-designer vibe coders** who want a stronger design-system backbone on their projects.
+5. **Engineers** looking to bridge their code and design ecosystems.
+
+## Why I built it
+
+I'm a designer who got tired of the handoff. Design systems live in two places that never quite agree — the Figma file and the codebase — and keeping them in sync is a full-time job nobody wants. ThroughLine is the tool I wished existed: it lets a designer drive the whole pipeline, learn the engineering one concept at a time, and end up with a real, shippable system instead of a pile of redlines. If you're a designer who's becoming a developer, this was built for you.
+
+## Works well with
+
+**[Superpowers](https://github.com/obra/superpowers)** — a great planning and engineering partner for the moments that grow bigger than a single skill. ThroughLine owns the design-system line; Superpowers owns the heavier, open-ended engineering work — and the two hand off cleanly.
+
+- **Big, ambiguous changes mid-build.** When a step turns into a real project, ThroughLine lays out the risks and major pieces and switches into brainstorm-and-plan mode before building — handing off to Superpowers when it's installed, or planning natively when it isn't (the recognition is ThroughLine's; Superpowers is an upgrade, not a requirement). Real example: on [radicool.studio](https://radicool.studio), an existing vanilla-React app with a full custom motion layer — custom cursors, magnetic buttons — was retrofitted onto shadcn to make it formal and ready to scale.
+- **Building the app itself.** Once your system is synced to code and you're building in `apps/`, Superpowers' subagent-driven development methodology is a natural next step.
+
+It's never required to use ThroughLine.
+
+## Show it off
+
+Built your own system with ThroughLine? Add the badge so others can find it:
+
+```markdown
+[![Built with ThroughLine](https://img.shields.io/badge/Built%20with-ThroughLine-6366f1)](https://github.com/jrpease/throughline)
+```
+
+[![Built with ThroughLine](https://img.shields.io/badge/Built%20with-ThroughLine-6366f1)](https://github.com/jrpease/throughline)
+
+## Contributing
+
+ThroughLine is open source and contributions are welcome. Found a bug or have an idea? **[Open an issue](https://github.com/jrpease/throughline/issues)**. Want to improve a skill or reference doc? PRs are encouraged — the skills are Markdown, so they're approachable to edit.
+
+A couple of ground rules:
+- **Figma is the source of truth.** Generated code files are build artifacts — never hand-edited; change things in Figma and re-sync.
+- **Secrets stay yours.** Tokens and keys are never sent through chat or committed to code.
+- **The plugin validates itself.** Every PR runs CI (`.github/workflows/ci.yml`) — the full test suite plus zero-dependency structural validators that check `plugin.json`, the marketplace manifest, and every skill/command's frontmatter. Run them locally with `node --test` and `node ci/validate-plugin.mjs` / `node ci/validate-skills.mjs`.
+
+## Roadmap
+
+Future improvements and planned capabilities. Have a request? **[Open an issue](https://github.com/jrpease/throughline/issues)** — the roadmap is shaped by what people actually build.
+
+- **More framework adapters** — broaden the Style Dictionary output targets beyond the current set.
+- **Deeper Code Connect coverage** — richer Figma-to-code mappings as more plans support it.
+- **Expanded component starters** — a larger foundational kit out of the box.
+- **Richer status & auditing** — more from `/design-system-status`, including drift detection between Figma and code.
+- **Built-in accessibility checks** — the color half is shipped. Eight semantic text-on-surface pairs are checked against WCAG AA's 4.5:1 when tokens are created in Figma, and derived again from the token source when they sync to code — in every mode, so a system that clears in light and fails in dark fails. A failing pair stops the build rather than warning. Components are checked too: on web frameworks, a Figma build stops when a focus state has no visible ring, and in JSX code the adherence gate fails an icon-only button with no accessible name and a status badge that relies on color alone. Still ahead: focus-ring contrast (WCAG's 3:1 for non-text).
+- **Token fan-out to more platforms** — the DTCG token source is platform-neutral, and web targets are in daily use. Every target is **validated per build, not assumed**: `tokens:validate-output` checks generated output against its source, native Swift and Kotlin as well as web CSS, because the stock transforms have been measured emitting wrong-but-compiling values. iOS/Swift is a curated adapter whose Style Dictionary configuration ships as tested code, and Android/Kotlin uses the same configuration through the Tier 2 protocol. JavaScript theme output (MUI, a Tailwind v3 config) isn't checked yet.
+- **Native component code generation** — producing a SwiftUI view or a Compose composable the way Storybook components are produced for React. This does not exist yet; it is a separate, larger effort than token fan-out, and the two were previously described as one roadmap item.
+
+Versioning follows [Semantic Versioning](https://semver.org). The current version lives in [`.claude-plugin/plugin.json`](.claude-plugin/plugin.json); every release is recorded in [`CHANGELOG.md`](CHANGELOG.md).
+
+## License
+
+[MIT](LICENSE) © Jordan Pease
+
