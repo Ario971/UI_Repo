@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T11:35:31.803Z",
+  "updated_at": "2026-10-07T11:25:05.428Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Vim-like, hyper-efficient, LLM power tool – 20-80k tokens not 350k+",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://easiest.ai/",
+      "date": "2026-10-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I built a focused TUI tool for efficient parallelized tasks, early independent testers expressed 90%+ API savings and more direct results. This is accomplished by user smaller context windows, hybrid client-side compaction, tool compaction, and system nudges (to avoid polluting the base prompts). My Shell features: - Vim-inspired keybindings, your keys ne... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-07/06-show-hn-vim-like-hyper-efficient-llm-power-tool-20-80k-tokens-not-350k.md"
+    },
+    {
+      "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.08720v1",
+      "date": "2026-10-06",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "LLM-based agents are increasingly advancing scientific and engineering problem solving, with physics simulation emerging as a challenging yet practical testbed for reproducing complex physical phenomena with application in embodied AI, games and films. As the workhorse of such simulation, a solver computes how the state of a dynamic system evolves over ti... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-06/07-worldsolver-can-llm-agents-simulate-the-physical-dynamics-via-solver-g.md"
+    },
+    {
+      "title": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.08691v1",
+      "date": "2026-10-06",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process across sequential tasks in both the natural and social sciences. We formalize ScienceClaw as fixed-parameter program self-evolution that unifies task solving,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-06/08-scienceclaw-benchmarking-continual-self-evolution-of-ai-for-science-ag.md"
+    },
+    {
+      "title": "Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.08364v1",
+      "date": "2026-10-06",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Frontier AI evaluations increasingly use open-ended, agentic, long-horizon tasks whose transcripts can span hundreds of pages of outputs and actions from complex multi-agent networks. The observability envelop-the range of what evaluators can reliably infer about an agent's behaviours-is therefore narrowing. Language model assistants can help classify and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-06/09-transect-retaining-observability-for-long-horizon-llm-agent-evaluation.md"
+    },
+    {
+      "title": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
+      "source": "Hacker News Show HN",
+      "url": "https://peterszentkiralyi.eu/darkplug/",
+      "date": "2026-10-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I am a film photographer and do some darkroom printing and always wanted one of the proper, advanced f-stop timers, but never really wanted to spend a couple hundred dollars on one. Eventually I figured my phone was already perfectly capable of doing the timing, it just needed a way to switch the enlarger. So I built Darkplug around a cheap smart plug. Th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-06/10-show-hn-i-turned-my-iphone-and-a-20-smart-plug-into-an-f-stop-timer.md"
+    },
+    {
+      "title": "Show HN: TerrainSR – fast, realistic heightmap upscaling model",
+      "source": "Hacker News Show HN",
+      "url": "https://huggingface.co/joe-gibbs/terrainsr",
+      "date": "2026-10-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "This is a model that I made for a historical game. I wanted to have a 1:1 scale model of Europe, but my problem was that 100m data was too low-res while 10m LIDAR data was patchy, took hundreds of GBs to store and was full of manmade objects like mines, buildings and so on. I trained this model on undeveloped landscape so that it can quickly add plausible... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/11-show-hn-terrainsr-fast-realistic-heightmap-upscaling-model.md"
+    },
+    {
+      "title": "misha4323223/WebNestdev",
+      "source": "GitHub Search API",
+      "url": "https://github.com/misha4323223/WebNestdev",
+      "date": "2026-10-07",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "misha4323223/WebNestdev Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/12-misha4323223-webnestdev.md"
+    },
+    {
+      "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/nano-muse/nanoMuse",
+      "date": "2026-10-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: NanoMuse – An open-source AI agent for your phone and computer (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/13-show-hn-nanomuse-an-open-source-ai-agent-for-your-phone-and-computer.md"
+    },
+    {
+      "title": "Local AI World Model Part 2 - Deep NN to turn Images into Playable Characters, with prompt switching mid rollout",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzdm08/local_ai_world_model_part_2_deep_nn_to_turn/",
+      "date": "2026-10-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Last time when I posted on this subReddit to share my work, the response almost made me cry because a tiny demo got so many people talking about this In the past 2 months Ive been training a new model, but this time with actual text guidance. So a little about the older model. Normal video models are too large and not meant to run on consumer hardware in... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-06/14-local-ai-world-model-part-2-deep-nn-to-turn-images-into-playable-chara.md"
+    },
+    {
+      "title": "I re-trained the DFlash 2 drafter for Ternary Bonsai 2 27B: 2.2x on an L4 (3.2x on code edits with ngram lookup), 1.5x on a Mac, 1.2x in Chrome",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzqyfl/i_retrained_the_dflash_2_drafter_for_ternary/",
+      "date": "2026-10-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "PrismML's Ternary Bonsai 2 27B fits a 24 GB card or Mac, but decodes at ~30 tok/s on an L4 and ~21 on an M4 Pro. z-lab's DFlash 2 drafter was trained on bf16 Qwen3.8-27B, so it guesses worse on the ternary model. I fine-tuned it on 1.5M tokens of Bonsai 2's own greedy output. Drafter (safetensors + Q4_K_M GGUF): https://huggingface.co/naklitechie/Qwen3.8-... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-07/15-i-re-trained-the-dflash-2-drafter-for-ternary-bonsai-2-27b-2-2x-on-an-.md"
+    },
+    {
+      "title": "cmpunlocker v0.5 just dropped, ECC support along with 4 extra SM unlocked for FREE, who needs a 64GB DGX Spark when you've got a CMP170hx right? 1.5TB/s memory BW vs 273 GB/s, all for less than 1/2 the price of a 64GB DGX Spark",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzth65/cmpunlocker_v05_just_dropped_ecc_support_along/",
+      "date": "2026-10-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "If you're like me and saw the price increase for the 128gb DGX Spark go from 4.7k -> 7k while a new version with 64GB launch for 5k, you'll have been very disappointed and every right to be so, it's just plain sad for localAI. Well, here's some good news, cmpunlocker v0.5 just dropped with ecc support and +4 SM for free. I hear gen3 unlock is also on the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-07/16-cmpunlocker-v0-5-just-dropped-ecc-support-along-with-4-extra-sm-unlock.md"
+    },
+    {
+      "title": "Ruach Studio: a whole song studio around YuE2 on your own GPU. Score first, LoRA training, stems,remaster, DAW export.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wziir6/ruach_studio_a_whole_song_studio_around_yue2_on/",
+      "date": "2026-10-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "We spent the last weeks building a studio around YuE2 , the open song model by m-a-p, and today it reaches its first release candidate. Write the style and the lyrics, and it composes, sings and renders the song on your own card. Nothing leaves your machine unless you point the Writer at a cloud chat model. What it does Whole songs, up to 8 minutes. On on... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-07/17-ruach-studio-a-whole-song-studio-around-yue2-on-your-own-gpu-score-fir.md"
+    },
     {
       "title": "Show HN: Headline Arena – public forecasting records for AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I've got an refurb Dell R740 running Proxmox that I put a Tesla T4 in, mainly to run some CTC local transcription work, but thought it would be fun to try DS4 when it came out, and it was appalling at around 2 tok/s. However pulled it out again when Qwen3.8 dropped, and it was much improved, particularly with ik_llama. Hardware: Dell R740, 2x Xeon Gold 62... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-04/17-qwen3-8-flash-next-256k-context-16tok-s-on-ddr4-and-a-tesla-t4.md"
-    },
-    {
-      "title": "Show HN: Aura – a Rust agent that investigates and fixes production incidents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/mezmo/aura",
-      "date": "2026-09-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We run a SaaS that handles petabytes of data. Our SRE team experimented with using claude, openclaw, langchain, etc. within our incident response workflows. We struggled with overflowing context, lethal trifecta vectors, hallucinations, and burned a lot of frontier tokens mostly on easy work. Approval fatigue was a challenge, and we drew a hard line at re... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-02/06-show-hn-aura-a-rust-agent-that-investigates-and-fixes-production-incid.md"
-    },
-    {
-      "title": "Collective creativity in hybrid societies",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.02620v1",
-      "date": "2026-09-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Generative AI is changing how cultural artifacts are created and circulated, and with it our understanding of creativity itself. Researchers disagree about whether these tools enrich or impoverish culture, and we argue that much of that disagreement comes from conflating two distinct components of creativity: novelty, a property of single artifacts, and d... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-02/07-collective-creativity-in-hybrid-societies.md"
-    },
-    {
-      "title": "Agentic UE-CoMIMO for 6G Terminals: From Virtual Antenna Augmentation to AI-Native Virtualization",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.02290v1",
-      "date": "2026-09-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "End-user-centric collaborative MIMO (UE-CoMIMO) lets nearby devices form a virtual multi-antenna terminal to overcome the antenna limitations of individual user equipment. Extending such cooperation to communication, sensing, computing, and task-relevant information exchange requires a control layer that can interpret user intent, select cooperation mecha... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-02/08-agentic-ue-comimo-for-6g-terminals-from-virtual-antenna-augmentation-t.md"
-    },
-    {
-      "title": "OBJECTION! Lawyer Agents Mitigate Guilty Bias in Legal Judgment Prediction",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.02158v1",
-      "date": "2026-09-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Legal Judgment Prediction (LJP) models are typically trained on documents that describe facts from a prosecutorial perspective. Existing datasets further exhibit severe label imbalance toward guilty outcomes. Consequently, these models suffer from \"Guilty Bias\", blindly accepting the prosecution's narrative as objective truth. Previous studies employing t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-02/09-objection-lawyer-agents-mitigate-guilty-bias-in-legal-judgment-predict.md"
-    },
-    {
-      "title": "Show HN: OwnTime – a chess clock for your day's priorities",
-      "source": "Hacker News Show HN",
-      "url": "https://owntime.app/",
-      "date": "2026-09-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I made OwnTime to balance between competing priorities in my life. The idea is based on two main influences: the concept of \"roles\" from \"The 5 Choices\" (2015), and my repeated failure to effectively implement time blocking due to the necessary flexibility in my role. The app allows you to define time budgets, which are not much more than a few mutually e... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-01/10-show-hn-owntime-a-chess-clock-for-your-day-s-priorities.md"
-    },
-    {
-      "title": "ujjwalvermaaa/Sentinel-AI_Merchant_Account_Health_and_Compliance_Intelligence",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ujjwalvermaaa/Sentinel-AI_Merchant_Account_Health_and_Compliance_Intelligence",
-      "date": "2026-09-03",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ujjwalvermaaa/Sentinel-AI_Merchant_Account_Health_and_Compliance_Intelligence Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/11-ujjwalvermaaa-sentinel-ai-merchant-account-health-and-compliance-intel.md"
-    },
-    {
-      "title": "minderhq/plugins",
-      "source": "GitHub Search API",
-      "url": "https://github.com/minderhq/plugins",
-      "date": "2026-09-03",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "The Minder plugin catalog — first-party & community plugins, validated against the plugin-sdk. Vendored into core via submodule. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/12-minderhq-plugins.md"
-    },
-    {
-      "title": "Show HN: Open source ML programming language playground",
-      "source": "Hacker News Show HN",
-      "url": "https://sw-ml-study.github.io/sw-mlpl/",
-      "date": "2026-09-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "After joining a ML Study group and trying Google Colab I decided to create my own array programming language to help me learn and visualize machine learning. There are many demo repos using this language which has become more general purpose. Under active development. See github link in footer. Built in Tour, Demos, Tutorials, Glossary, etc. Can use this... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-02/13-show-hn-open-source-ml-programming-language-playground.md"
-    },
-    {
-      "title": "Chrome browser add-on that uses local LLMs to move thousands of unsorted bookmarks into a smart list of automatically calculated categories",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5svj4/chrome_browser_addon_that_uses_local_llms_to_move/",
-      "date": "2026-09-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Is anyone interested in my Chrome browser add-on that uses local LLMs to move thousands of unsorted bookmarks into a smart list of automatically calculated categories? submitted by /u/paranoidray [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/14-chrome-browser-add-on-that-uses-local-llms-to-move-thousands-of-unsort.md"
-    },
-    {
-      "title": "GLM 5.3 Flash makes a black hole Minecraft mod running locally on 4x RTX PRO 6000 WS",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5gk2b/glm_53_flash_makes_a_black_hole_minecraft_mod/",
-      "date": "2026-09-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "saw the post the other day where people said Minecraft clones aren't impressive anymore, because at this point the whole thing might as well be in the training data. so i tried something slightly different, which is asking a local model to write a mod for the real game, using the Fabric API the model is GLM 5.3 Flash (Q4 quant, running on a rented 4x RTX... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-02/15-glm-5-3-flash-makes-a-black-hole-minecraft-mod-running-locally-on-4x-r.md"
-    },
-    {
-      "title": "model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support by YanissAmz · Pull Request #25444 · ggml-org/llama.cpp",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w60jr5/model_add_nvidia_nemotron3puzzle75ba9b/",
-      "date": "2026-09-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "75B MoE is an interesting size to check, you can run it today (no MTP support yet) The model employs a hybrid MoE architecture with interleaved Mamba, MoE, and Attention layers. Like Nemotron-3-Super, it supports Multi-Token Prediction (MTP) for faster text generation. Compared to its parent, Puzzle-75B-A9B reduces the model from 120.7B total / 12.8B acti... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/16-model-add-nvidia-nemotron-3-puzzle-75b-a9b-nemotronhpuzzle-support-by-.md"
-    },
-    {
-      "title": "Can a 4B local model actually feel like an AI assistant?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w609r6/can_a_4b_local_model_actually_feel_like_an_ai/",
-      "date": "2026-09-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been building Arcon around Qwen3-4B + LoRA. Instead of just making it a chatbot, I'm experimenting with persistent memory, personality/mood, internal state, tools, and eventually having it process things before replying. I'm curious what people who've built local agents think - how far can you realistically push a small model with good architecture a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/17-can-a-4b-local-model-actually-feel-like-an-ai-assistant.md"
     }
   ]
 }

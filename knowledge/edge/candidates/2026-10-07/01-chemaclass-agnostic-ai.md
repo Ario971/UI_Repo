@@ -1,0 +1,145 @@
+---
+id: "chemaclass/agnostic-ai"
+name: "Chemaclass/agnostic-ai"
+url: "https://github.com/Chemaclass/agnostic-ai"
+date: "2026-10-07"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 79
+momentum: 72
+risk: 24
+integration_effort: 36
+expected_gain: 87
+composite: 77
+replacement_target: ""
+related_articles: [{"title":"Show HN: Visually orchestrate Claude Code AI agents","date":"2026-09-23","topic":"AI agents","similarity":0.375,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"},{"title":"Show HN: Self-hosted company OS, Claude Code and Codex agents in departments","date":"2026-09-09","topic":"AI agents","similarity":0.317,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"},{"title":"Show HN: Clawfight.ai MCP-driven agentic game play","date":"2026-09-11","topic":"AI agents","similarity":0.294,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-11/07-show-hn-clawfight-ai-mcp-driven-agentic-game-play.md"}]
+pros: ["Recently updated (2026-10-07)","MIT license","22 GitHub stars","GitHub Actions/CI detected"]
+cons: ["No obvious v1 warning, still review upstream code before use"]
+readme_quality: 85
+has_ci: true
+has_tests: true
+setup_steps_count: 2
+dependency_files: [{"name":"go.mod","summary":"module github.com/chemaclass/agnostic-ai"}]
+install_commands: ["npm install -g agnostic-ai"]
+risk_flags: []
+status: "new"
+---
+
+# Chemaclass/agnostic-ai
+
+One source to rule them all: write agents, skills, rules, and hooks once, then sync them to your AI tools.
+
+URL: https://github.com/Chemaclass/agnostic-ai
+
+## Why it matters
+You saved an article on 2026-09-23 about AI agents; this candidate overlaps with "Show HN: Visually orchestrate Claude Code AI agents" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-07)
++ MIT license
++ 22 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- No obvious v1 warning, still review upstream code before use
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 2
+
+Dependency files:
+- go.mod: module github.com/chemaclass/agnostic-ai
+
+Install commands found:
+- npm install -g agnostic-ai
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# agnostic-ai
+
+agnostic-ai is for developers and teams using more than one AI coding tool, or preparing to change tools. Write agents, skills, rules, hooks, and MCP configuration once; `agnostic-ai sync` turns those specs into each tool's native files. See [Why agnostic-ai](https://agnostic-ai.org/docs/why-agnostic-ai/).
+
+[![CI](https://github.com/Chemaclass/agnostic-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Chemaclass/agnostic-ai/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/agnostic-ai?logo=npm&label=npm)](https://www.npmjs.com/package/agnostic-ai)
+[![Homebrew](https://img.shields.io/badge/Homebrew-Chemaclass%2Ftap-FBB040?logo=homebrew&logoColor=111)](https://github.com/Chemaclass/homebrew-tap/blob/master/Casks/agnostic-ai.rb)
+[![Downloads](https://img.shields.io/github/downloads/Chemaclass/agnostic-ai/total)](https://github.com/Chemaclass/agnostic-ai/releases)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Chemaclass/agnostic-ai/badge)](https://scorecard.dev/viewer/?uri=github.com/Chemaclass/agnostic-ai)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/15088/badge)](https://www.bestpractices.dev/projects/15088)
+
+Each AI tool reads its instructions from different files. Kept by hand, those files drift apart. agnostic-ai keeps one editable source in plain Markdown and YAML inside your repository. No account, no service.
+
+## Set up with a coding agent
+
+Paste this into Claude Code, Codex, Cursor, or another coding agent:
+
+```text
+Set up agnostic-ai in this repository. Follow https://agnostic-ai.org/agent-setup.txt exactly. Preserve existing AI tool behavior. Before any sync, check for existing CLAUDE.md, AGENTS.md, and similar files, and ask me what to do with their content. Finish with agnostic-ai sync --check. Summarize the targets selected and every file changed.
+```
+
+It takes about two minutes. The [agent setup guide](https://agnostic-ai.org/docs/agent-setup/) is the checklist the agent follows.
+
+<a id="set-up-manually"></a>
+
+## Quickstart
+
+From your project root, with Node 18 or newer:
+
+```bash
+npm install -g agnostic-ai
+agnostic-ai init --from all
+agnostic-ai sync --plan
+agnostic-ai sync
+```
+
+`init --from all` creates the project config and imports the tool files it finds. Pick your tools when prompted. `sync --plan` previews the changes. `sync` writes the native files.
+
+From then on, edit sources under `.agnostic-ai/`, then sync again. `AGNOSTIC_AI.md` holds the shared project instructions. Files such as `CLAUDE.md`, `AGENTS.md`, and `.cursor/rules/` are generated outputs.
+
+After installing a newer release, run `agnostic-ai upgrade --requires` from the project root. It pins the project to that release and syncs again.
+
+Next: [Getting started](https://agnostic-ai.org/docs/getting-started/) to add your first rule, [Installation](https://agnostic-ai.org/docs/installation/) for other installers, and [Migration](https://agnostic-ai.org/docs/migration/) to review an existing setup.
+
+## Daily commands
+
+```bash
+agnostic-ai import claude codex --dry-run --diff  # preview existing tool config
+agnostic-ai import claude --overwrite           # replace conflicting specs
+agnostic-ai compare claude cursor                # compare agent and skill fields and rule activation
+agnostic-ai why AGENTS.md                        # trace an output to its source
+agnostic-ai sync --check                         # find local drift
+agnostic-ai doctor --fix                         # repair drift, choose kept orphan removal
+agnostic-ai migrate --dry-run                    # preview rewrites of old spec forms
+agnostic-ai memory lint                          # check the shared memory index and facts
+```
+
+## What you can share
+
+Support spans [Claude Code, Codex, Cursor, Gemini CLI, Copilot, Kiro, and more](https://agnostic-ai.org/docs/targets/#capability-matrix). Each tool supports a different set of spec kinds; the [target reference](https://agnostic-ai.org/docs/targets/) shows the exact paths.
+
+- **Rules, agents, skills, and commands** in one [spec format](https://agnostic-ai.org/docs/spec-format/). Kiro commands land in `.kiro/prompts/` for CLI V3.
+- **Capabilities** such as `read(src/**)`, `shell(git diff *)`, and `mcp:github` map to each tool's own names. `lint` warns when one covers a whole tool. See [Capabilities](https://agnostic-ai.org/docs/spec-format/agents/#capabilities).
+- **Model tiers** name roles once for every tool. See [Models and aliases](https://agnostic-ai.org/docs/configuration/#models).
+- **MCP servers** keep secrets as references, never literal values. See [MCP references](https://agnostic-ai.org/docs/spec-format/mcps/#environment-references).
+- **Session handoffs** carry a task from one tool to another on the same machine. `builtins: [handoff]` adds the skill; `handoff-hook` adds Git snapshots and resume notices. See [Session handoffs](https://agnostic-ai.org/docs/handoff/).
+- **Shared memory** keeps one project memory that every tool reads and writes. `builtins: [memory]` adds it. Personal memory can share one store across worktrees with `memory.personal: repo` in the local config. See [Shared memory](https://agnostic-ai.org/docs/memory/).
+
+## Develop agnostic-ai
+
+```bash
+make tools      # install pinned development tools once
+make build
+make preflight  # format, lint, and Go tests
+```
+
+This repository keeps its own agent setup in `.agnostic-ai/`. Edit those source specs, then run `./agnostic-ai sync`. Most native output is ignored by Git; `.openhands/setup.sh` is tracked for bootstrap. See [CONTRIBUTING.md](CONTRIBUTING.md) for checks by change type and the [architecture guide](docs/internal/architecture.md) for the Go packages.
+
+[Getting started](https://agnostic-ai.org/docs/getting-started/) · [Playground](https://agnostic-ai.org/playground/) · [Editor extensions](editors/) · [Claude Code plugin](plugins/agnostic-ai/) · [CLI reference](https://agnostic-ai.org/docs/cli-reference/) · [Changelog](CHANGELOG.md)
+
