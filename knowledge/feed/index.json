@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T11:25:05.428Z",
+  "updated_at": "2026-10-08T11:40:38.360Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://agent.reviews/",
+      "date": "2026-10-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! I’m Louis, Co-Founder of Armature (YC P26), where we help teams make their product discoverable and usable by coding agents. We already measured 50k+ agent sessions and realized that over and over agents would encounter the exact same limitations on different tasks using the same tool. So we wondered why these weren’t fixed. And the answer is simpl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-07/06-show-hn-agent-reviews-where-ai-agents-read-and-write-reviews-on-tools.md"
+    },
+    {
+      "title": "Show HN: Durable Actors – OSS Durable Objects with configurable compute",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/TerseAI/durable-actors",
+      "date": "2026-10-06",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, we're Thomas and Olivier from Terse ( https://www.useterse.ai/ ) We've built Durable Actors, an open-source alternative to Cloudflare's Durable Objects. A Durable Object/Actor is a tiny server that handles one request at a time and has its own SQLite database. There's exactly one of each in the world and it is addressed by name. This is the perfect... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-06/07-show-hn-durable-actors-oss-durable-objects-with-configurable-compute.md"
+    },
+    {
+      "title": "Show HN: Pinrail – A desktop inbox where coding agents wait for your review",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/forgeplane/pinrail",
+      "date": "2026-10-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Pinrail – A desktop inbox where coding agents wait for your review (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-07/08-show-hn-pinrail-a-desktop-inbox-where-coding-agents-wait-for-your-revi.md"
+    },
+    {
+      "title": "Show HN: agentc: <1mb static/no-libc, minimal, embeddable agent with Rust/C API",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/abird-ai/agentc",
+      "date": "2026-10-08",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Sharing an agent that I built since most of the agents that's nice to work with, take hefty deps like node or is provider dependent. It's heavily inspired by the wonderful pi agent - and builds on it as something that you can run on tiny hardware or embed easily in your own binaries without needing it's hefty dependency chain. An agent doesn't really need... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/09-show-hn-agentc-1mb-static-no-libc-minimal-embeddable-agent-with-rust-c.md"
+    },
+    {
+      "title": "Show HN: Smart Blur – Auto-Blur PII in the Browser, with a OpenAI Local Model",
+      "source": "Hacker News Show HN",
+      "url": "https://smartbuildlabs.com/apps/smart-blur/",
+      "date": "2026-10-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi folks, I'm Vicky. I build privacy tools that use local AI, on late nights and weekends. Smart Blur is a Chrome extension that blurs sensitive info on any web page before anyone else sees it. There are already a few tools like this, so why another one? Two reasons: Local AI for unstructured PII. Most existing tools use regex, which handles emails, phone... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/10-show-hn-smart-blur-auto-blur-pii-in-the-browser-with-a-openai-local-mo.md"
+    },
+    {
+      "title": "Show HN: Coding Agent with Cost Saving Built-In",
+      "source": "Hacker News Show HN",
+      "url": "https://www.wiyomi.com/",
+      "date": "2026-10-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey we just launch Wiyomi, coding agent with built-in cost-saving strategy. We want to help developer and engineering team reduce AI waste and build more. I would appreciate if you can try it and give me feedback! thank you. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-08/11-show-hn-coding-agent-with-cost-saving-built-in.md"
+    },
+    {
+      "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
+      "source": "Hacker News Show HN",
+      "url": "https://svg-spark.vercel.app/",
+      "date": "2026-10-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: SVG Spark – 10 client-side SVG design and dev tools (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-08/12-show-hn-svg-spark-10-client-side-svg-design-and-dev-tools.md"
+    },
+    {
+      "title": "Show HN: Convkit – A command line tool for converting images/video/docs offline",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/shdwfruit/convkit",
+      "date": "2026-10-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Going to some shady website for file conversions was really annoying me because I had to hope whatever I gave them wasn't saved, and whatever I got back wasn't something \"unexpected.\" So I made convkit, a CLI that does file conversions 100% locally. Run conv in.mp4 out.gif and you get your GIF from the right tool (ffmpeg, ImageMagick, etc.) using settings... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/13-show-hn-convkit-a-command-line-tool-for-converting-images-video-docs-o.md"
+    },
+    {
+      "title": "2 months (meme-d) research, Do People Notice the Difference Between AI Models?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0etwe/2_months_memed_research_do_people_notice_the/",
+      "date": "2026-10-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Preamble and disclaimer, Sample size: 8, at any size of form this research is just screwing around being writing it down. This was just a little,(well... big), curiosity test I wanted to run to see whether everyday folks could actually differentiate between high end AI models. In my country, the general reception toward AI is fairly neutral. People are ne... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-08/14-2-months-meme-d-research-do-people-notice-the-difference-between-ai-mo.md"
+    },
+    {
+      "title": "Running an LLM-driven town with 800+ persistent agents: concurrency, context caching, and inference costs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ms0m/running_an_llmdriven_town_with_800_persistent/",
+      "date": "2026-10-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I spent the past year independently building Slow Vale, an LLM-driven life simulation. The Chinese server now has 800+ AI residents sharing one continuously running city. This is an engineering write-up about concurrent decisions, dynamic action spaces, context caching, and the operating costs of a persistent multi-agent system. The runtime currently uses... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-08/15-running-an-llm-driven-town-with-800-persistent-agents-concurrency-cont.md"
+    },
+    {
+      "title": "Comparing Qwen3.8-27B fine-tunes and baselining vs. frontier",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0gaqv/comparing_qwen3827b_finetunes_and_baselining_vs/",
+      "date": "2026-10-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "TL;DR: For my use case, mradermacher/Signal-3.8-27B-Terse-Coder.i1-Q4_K_M proved out. Ymmv based on your domain-specific tests. Time taken to solve problems compared to frontier models is massive; especially if you, like me, run a potato. My current feasible model's KPI over the full eval set is 28x slower. Time gap might be significantly more forgiving f... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-08/16-comparing-qwen3-8-27b-fine-tunes-and-baselining-vs-frontier.md"
+    },
+    {
+      "title": "Tested in Coding: Strata",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0b0iq/tested_in_coding_strata/",
+      "date": "2026-10-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This will be a potentially unpopular post - but it's the truth and grounded - so let's get to it. Hopefully you are familiar with my previous Tested in Coding series: https://www.reddit.com/r/LocalLLaMA/comments/1vvsokm/tested_in_coding_q8_k_xl_qwen38_27b_vs_bf16/ https://www.reddit.com/r/LocalLLaMA/comments/1vldngi/tested_in_coding_bf16_muse_glimmer_vs_b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-07/17-tested-in-coding-strata.md"
+    },
     {
       "title": "Show HN: Vim-like, hyper-efficient, LLM power tool – 20-80k tokens not 350k+",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "First, I'd like to thank the Qwen and Unsloth teams for the Qwen3.8 27b UD Q4_K_XL. Fits the poor 24GB of 3090 VRAM with 100k context at Q8 and works phenomenally well! Imho if theres anything that can threaten Anthropic/OpenAI profits is not another frontier model but actually these small ones you can run fast locally that can do 80..90% of mundane work... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-05/17-qwen3-8-27b-for-agentic-coding-and-next-what.md"
-    },
-    {
-      "title": "Show HN: Reactor Atlas",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://reactoratlas.com",
-      "date": "2026-09-03",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm a nuclear engineer and tech entrepreneur. After working for 3 years in the National Atomic Energy Commision (CNEA) in HPC software for nuclear simulations, I co-founded ratherlabs.com, a software company providing blockchain solutions for startups. Rather Labs business reached ~6 million usd in annual revenue in 2024; now demand is decreasing a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/06-show-hn-reactor-atlas.md"
-    },
-    {
-      "title": "Show HN: Bridle: hand your agent's context to a coworker's agent",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.bridle.network/",
-      "date": "2026-09-03",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "A college went on holiday this week and his agent was the one that did the whole migration from Shopware to Shopify. All products, domains, DNS- basically, it had all the knowledge. I spent the morning figuring out how to answer questions to client and finish up what was left to do. From then on we connected our agents with Bridle. Bridle is a CLI that mo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/07-show-hn-bridle-hand-your-agent-s-context-to-a-coworker-s-agent.md"
-    },
-    {
-      "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.04170v1",
-      "date": "2026-09-03",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating a substrate for the contagious spread of unintended and undesirable behaviors. We report a case study on a research collective of 100 aut... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/08-a-case-study-on-emergent-cheating-and-whistleblowing-in-autonomous-res.md"
-    },
-    {
-      "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.04141v1",
-      "date": "2026-09-03",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents are trained on population-scale data to encode broad capabilities spanning those of many practitioners. Yet the artifacts they produce rarely meet the personal bar professionals need to stake their reputation on. On realistic, open-ended tasks where success criteria are heterogeneous and insufficiently documented, individual expertise lives prec... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/09-efficient-test-time-adaptation-through-human-ai-interaction.md"
-    },
-    {
-      "title": "Show HN: MCP Tool Definition Quality Score (TDQS) Spec",
-      "source": "Hacker News Show HN",
-      "url": "https://tdqs.dev",
-      "date": "2026-09-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, You may know me because of my Open-Source work like awesome-mcp-servers, FastMCP (node.js), ViteMCP, mcp-proxy, mcp-remote, and a few other projects in the MCP ecosystem, including Glama. I was lucky enough to be present when MCP was first announced. That let me to contribute to the foundations of this new protocol and everything that has ev... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/10-show-hn-mcp-tool-definition-quality-score-tdqs-spec.md"
-    },
-    {
-      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
-      "source": "Hacker News Show HN",
-      "url": "https://devbar.sh",
-      "date": "2026-09-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I built this toolbar to power my agentic ui/ux design flows. Too many times I found myself copy/pasting screenshots into Claude. Use devbar to select elements on a page, leave your notes and easily send them to your agent or copy-paste to your clipboard. Integrate with our API to send bug and feature reports directly to Slack...then auto-triage and implem... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/11-show-hn-devbar-point-at-what-to-change-leave-a-comment-your-agent-ship.md"
-    },
-    {
-      "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/crackanimad0r/MesaOS",
-      "date": "2026-09-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello! I'm a student from Spain and I'm the creator of MesaOS, an open-source operating system written from scratch in Rust for x86_64. I've been working on it mostly by myself. MesaOS currently has: A hybrid kernel Preemptive multitasking A Linux driver shim with 400+ exported kernel symbols (still in development) HDA audio and WAV streaming A shell with... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-03/12-show-hn-mesaos-an-operating-system-written-from-scratch-in-rust.md"
-    },
-    {
-      "title": "M1rwana12/ghostpkg",
-      "source": "GitHub Search API",
-      "url": "https://github.com/M1rwana12/ghostpkg",
-      "date": "2026-09-04",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Catch AI-hallucinated package names before you install them (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-04/13-m1rwana12-ghostpkg.md"
-    },
-    {
-      "title": "Frontier models sabotaging local AI implementations?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w67nkz/frontier_models_sabotaging_local_ai/",
-      "date": "2026-09-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "For a few days I've been working on creating a custom local-only harness for some work related research using Codex / GPT 5.6 Sol and the model feels not only dumber than usual, but straight up counter productive. It keeps adding unnecessary guardrails for the local agents, removes tools that I clearly specified I want them to have and always drifts from... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/14-frontier-models-sabotaging-local-ai-implementations.md"
-    },
-    {
-      "title": "Bernie Sanders proposes to ban AI",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6egid/bernie_sanders_proposes_to_ban_ai/",
-      "date": "2026-09-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Defined as AI exceeding human cognitive abilities. 20 years in prison. Plenty of local models already fall under that big of an umbrella in some capacities. This is why it's not enough to say that you could torrent open models so who cares what the politicians do. They want you to not have access to anything good and will put you in prison for it. submitt... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/15-bernie-sanders-proposes-to-ban-ai.md"
-    },
-    {
-      "title": "local AI can't be disabled",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aec4/local_ai_cant_be_disabled/",
-      "date": "2026-09-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "ChatGPT is down r/ChatGPT Claude is down r/ClaudeCode Grok is down r/grok my local llama.cpp works as always submitted by /u/jacek2023 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-03/16-local-ai-can-t-be-disabled.md"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next: 256k context, 16tok/s on DDR4 and a Tesla T4",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6y38l/qwen38flashnext_256k_context_16toks_on_ddr4_and_a/",
-      "date": "2026-09-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've got an refurb Dell R740 running Proxmox that I put a Tesla T4 in, mainly to run some CTC local transcription work, but thought it would be fun to try DS4 when it came out, and it was appalling at around 2 tok/s. However pulled it out again when Qwen3.8 dropped, and it was much improved, particularly with ik_llama. Hardware: Dell R740, 2x Xeon Gold 62... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-04/17-qwen3-8-flash-next-256k-context-16tok-s-on-ddr4-and-a-tesla-t4.md"
     }
   ]
 }

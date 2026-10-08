@@ -1,10 +1,217 @@
 {
-  "last_checked_at": "2026-10-07T11:25:39.156Z",
+  "last_checked_at": "2026-10-08T11:41:14.175Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "personaljarvis/personaljarvis",
+      "name": "PersonalJarvis/PersonalJarvis",
+      "url": "https://github.com/PersonalJarvis/PersonalJarvis",
+      "date": "2026-10-08",
+      "source": "awesome-claude-code",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 100,
+      "momentum": 93,
+      "risk": 40,
+      "integration_effort": 52,
+      "expected_gain": 87,
+      "composite": 82,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+          "date": "2026-10-01",
+          "topic": "AI agents",
+          "similarity": 0.257,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/07-litereality-agent-an-agentic-system-for-interactable-3d-indoor-scene-r.md"
+        },
+        {
+          "title": "Show HN: Recurse – Develop and deploy specialist agents faster",
+          "date": "2026-09-25",
+          "topic": "AI agents",
+          "similarity": 0.25,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-25/06-show-hn-recurse-develop-and-deploy-specialist-agents-faster.md"
+        },
+        {
+          "title": "Show HN: Graphene – Data analysis toolkit for your coding agent",
+          "date": "2026-10-01",
+          "topic": "AI dev tools",
+          "similarity": 0.242,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-01/11-show-hn-graphene-data-analysis-toolkit-for-your-coding-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-08)",
+        "Apache-2.0 license",
+        "144 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, requires-python, readme, license"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps --find-links https://personaljarvis.github.io/PersonalJarvis/native-crypto/50.0.2-1/simple/cryptography/, aiofiles==25.1.0 \\, --hash=sha256:a8d728f0a29de45dc521f18f07297428d56992a742f0cd2701ba86e44d23d5b2 \\, --hash=sha256:abe311e527c862958650f9438e859c1fa7568a141b22abcd015e120e86a85695, aioice==0.10.2 ; platform_machine != 'ARM64' or sys_platform != 'win32' \\, --hash=sha256:14911c15ab12d096dd14d372ebb4aecbb7420b52c9b76fdfcf54375dec17fcbf \\, --hash=sha256:bf236c6829ee33c8e540535d31cd5a066b531cb56de2be94c46be76d68b1a806, aiolimiter==1.2.1 \\"
+        }
+      ],
+      "install_commands": [
+        "pip install personal-jarvis"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-01 about AI agents; this candidate overlaps with \"LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-08/01-personaljarvis-personaljarvis.md"
+    },
+    {
+      "id": "louis-cfm/coucou",
+      "name": "Louis-CFM/coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "date": "2026-10-08",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 89,
+      "momentum": 100,
+      "risk": 46,
+      "integration_effort": 56,
+      "expected_gain": 85,
+      "composite": 79,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.319,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+          "date": "2026-09-09",
+          "topic": "AI agents",
+          "similarity": 0.263,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+        },
+        {
+          "title": "waniyaro/agent-reels-viewer",
+          "date": "2026-10-05",
+          "topic": "AI dev tools",
+          "similarity": 0.252,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-waniyaro-agent-reels-viewer.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-08)",
+        "MIT license",
+        "4137 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [],
+      "install_commands": [
+        "git clone https://github.com/Louis-CFM/coucou.git",
+        "npm install",
+        "npm run pack                # installer lands in windows/release/",
+        "npm run pack                # AppImage, .deb and .rpm land in windows/release/"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-08/02-louis-cfm-coucou.md"
+    },
+    {
+      "id": "hoangthequyen/think-better",
+      "name": "HoangTheQuyen/think-better",
+      "url": "https://github.com/HoangTheQuyen/think-better",
+      "date": "2026-10-08",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 79,
+      "momentum": 87,
+      "risk": 32,
+      "integration_effort": 46,
+      "expected_gain": 87,
+      "composite": 78,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.255,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "waniyaro/agent-reels-viewer",
+          "date": "2026-10-05",
+          "topic": "AI dev tools",
+          "similarity": 0.247,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-waniyaro-agent-reels-viewer.md"
+        },
+        {
+          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+          "date": "2026-09-09",
+          "topic": "AI agents",
+          "similarity": 0.231,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-08)",
+        "MIT license",
+        "123 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README includes remote script execution pattern"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "go.mod",
+          "summary": "module github.com/HoangTheQuyen/think-better"
+        }
+      ],
+      "install_commands": [
+        "go install github.com/HoangTheQuyen/think-better/cmd/think-better@latest",
+        "git clone https://github.com/HoangTheQuyen/think-better && cd think-better && make build",
+        "go install"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-08/03-hoangthequyen-think-better.md"
+    },
     {
       "id": "chemaclass/agnostic-ai",
       "name": "Chemaclass/agnostic-ai",
@@ -19466,215 +19673,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"LuD1161/agentjail\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-30/02-abhinav503-flutter-agentic.md"
-    },
-    {
-      "id": "jyt6640/persona-harness",
-      "name": "jyt6640/persona-harness",
-      "url": "https://github.com/jyt6640/persona-harness",
-      "date": "2026-06-30",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 80,
-      "momentum": 60,
-      "risk": 32,
-      "integration_effort": 40,
-      "expected_gain": 77,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.277,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
-        },
-        {
-          "title": "Show HN: TBD, a Mac-native CLI-forward coding agent multiplexer",
-          "date": "2026-06-26",
-          "topic": "AI agents",
-          "similarity": 0.249,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/07-show-hn-tbd-a-mac-native-cli-forward-coding-agent-multiplexer.md"
-        },
-        {
-          "title": "Show HN: AMA2, messenger built for AI agent",
-          "date": "2026-06-30",
-          "topic": "AI agents",
-          "similarity": 0.214,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-30)",
-        "Apache-2.0 license",
-        "11 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README includes remote script execution pattern"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @opencode-ai/plugin, @types/node, typescript, vitest; scripts clean, build, prepack, check:docs, check:injection-value, experiment:phase0, experiment:phase0:prepare, experiment:phase0:step2-3"
-        }
-      ],
-      "install_commands": [
-        "npm install -g opencode-ai",
-        "npm init -y",
-        "npm install -D persona-harness@next",
-        "npx ph --help",
-        "npx ph init",
-        "npx ph doctor"
-      ],
-      "risk_flags": [
-        "README includes remote script execution pattern"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-04 about AI agents; this candidate overlaps with \"Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-30/03-jyt6640-persona-harness.md"
-    },
-    {
-      "id": "nexu-io/open-design",
-      "name": "nexu-io/open-design",
-      "url": "https://github.com/nexu-io/open-design",
-      "date": "2026-06-29",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 92,
-      "momentum": 100,
-      "risk": 46,
-      "integration_effort": 40,
-      "expected_gain": 95,
-      "composite": 84,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.316,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/10-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-clo.md"
-        },
-        {
-          "title": "isla4ever/design-lens",
-          "date": "2026-06-29",
-          "topic": "AI dev tools",
-          "similarity": 0.311,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-29/11-isla4ever-design-lens.md"
-        },
-        {
-          "title": "AlexNthLab/nth-dao",
-          "date": "2026-06-12",
-          "topic": "AI dev tools",
-          "similarity": 0.292,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-29)",
-        "Apache-2.0 license",
-        "72646 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics",
-        "Docker privileged mode mentioned"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @open-design/components, @open-design/daemon, @open-design/tools-dev, @open-design/tools-pack, @open-design/tools-release, @open-design/tools-serve, @types/node, tsx; scripts postinstall, tools-dev, tools-pack, tools-release, tools-serve, nix:update-hash, guard, lint:craft"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/nexu-io/open-design.git",
-        "docker compose up -d",
-        "pnpm tools-dev run web",
-        "pnpm guard && pnpm --filter @open-design/plugin-runtime typecheck",
-        "pnpm guard && pnpm typecheck",
-        "pnpm --filter @open-design/<package> test"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics",
-        "Docker privileged mode mentioned"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-04 about AI agents; this candidate overlaps with \"Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-29/01-nexu-io-open-design.md"
-    },
-    {
-      "id": "ivankuznetsov/hive",
-      "name": "ivankuznetsov/hive",
-      "url": "https://github.com/ivankuznetsov/hive",
-      "date": "2026-06-29",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 79,
-      "momentum": 65,
-      "risk": 40,
-      "integration_effort": 44,
-      "expected_gain": 77,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "llm011/ethan-agent",
-          "date": "2026-06-20",
-          "topic": "AI dev tools",
-          "similarity": 0.34,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
-        },
-        {
-          "title": "dui14/vibe-coding-workflow",
-          "date": "2026-05-30",
-          "topic": "AI dev tools",
-          "similarity": 0.317,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-05-30/39-dui14-vibe-coding-workflow.md"
-        },
-        {
-          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.31,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-06-29)",
-        "MIT license",
-        "26 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [],
-      "install_commands": [
-        "git clone https://github.com/ivankuznetsov/hive ~/Dev/hive"
-      ],
-      "risk_flags": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-20 about AI dev tools; this candidate overlaps with \"llm011/ethan-agent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-06-29/02-ivankuznetsov-hive.md"
     }
   ]
 }
