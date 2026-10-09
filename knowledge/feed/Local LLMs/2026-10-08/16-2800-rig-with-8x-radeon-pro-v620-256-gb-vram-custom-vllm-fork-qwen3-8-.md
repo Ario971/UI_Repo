@@ -1,0 +1,12 @@
+---
+title: "$2800 rig with 8x Radeon Pro V620 (256 GB VRAM) + custom vLLM fork = Qwen3.8-Flash-Next at 60 to 100 t/s decode and 3000+ t/s prefill"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1x0wnz1/2800_rig_with_8x_radeon_pro_v620_256_gb_vram/"
+date: "2026-10-08"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Post title is slightly misleading, I don't think you can get these for $350 each anymore but they're still pretty cheap all things considered. They're Radeon Pro V620's which are older RDNA2 enterprise cloud gaming cards with 32 GB VRAM. (Ignore the RTX 4090 on the side, it's just used for stuff like image/video gen models, no LLMs) But I bought these car... (Local summary fallback used.)"
+---
+
+Post title is slightly misleading, I don't think you can get these for $350 each anymore but they're still pretty cheap all things considered. They're Radeon Pro V620's which are older RDNA2 enterprise cloud gaming cards with 32 GB VRAM. (Ignore the RTX 4090 on the side, it's just used for stuff like image/video gen models, no LLMs) But I bought these cards a couple months ago as a gamble to see if I could build a big VRAM rig with usable speed for relative peanuts. I was struggling with llama.cpp for a long time, but the prefill was pretty bad (around 350-450 t/s average with this same model) and vLLM just didn't work on the cards. Plus llama.cpp just sucks at concurrency. I'd been planning to sell the cards lately because this wasn't going to work for my use case, but then decided to see if I (Claude) could make a vLLM fork that both works with the cards and actually gets good speeds out of them. I had it build/test/iterate on custom RDNA2 kernels. Problem solved! It worked out way better than I expected. I thought maybe I'd hit 1000 t/s prefill with QFN at best, but this is something like 800% faster than llama.cpp was managing. Couldn't be happier with the results! GPU sale plan canceled lol. I'm going to have it continue optimizing and see how it goes, and make sure DeepSeek and GLM-5.3-Flash work as well. llama-benchy results below with concurrency = 1 and vLLM running with PP=4 (no tensor parallel here) with orcarouter's uncensored QFN which I quantized. Routed experts are W4A16 and everything else remains at BF16. MTP enabled with 3 token drafting. It gets 40 to 50 t/s decode with MTP disabled. https://preview.redd.it/4223w82yz9uh1.png?width=666&format=png&auto=webp&s=a15e5d1f5664fcb894a746a54a501eb8f6637a57 submitted by /u/_TheWolfOfWalmart_ [link] [comments]
