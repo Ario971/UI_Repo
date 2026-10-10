@@ -1,0 +1,12 @@
+---
+title: "SlopSoup TV. A live, never-ending 24/7 pixel-art TV network inspired by old-school late night Adult Swim. No human makes any of it."
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1x20tgs/slopsoup_tv_a_live_neverending_247_pixelart_tv/"
+date: "2026-10-09"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "SlopSoup TV is a live, never-ending pixel-art TV network. Every script, character, voice, camera cut and schedule decision is made by models. It's made to be very absurd, dark and strange. Hardware: one Hugging Face Space, 16 vCPU, no GPU. Everything below runs on CPU next to a live x264 encoder. LLMs (via HF API), routed by tier with provider fallbacks a... (Local summary fallback used.)"
+---
+
+SlopSoup TV is a live, never-ending pixel-art TV network. Every script, character, voice, camera cut and schedule decision is made by models. It's made to be very absurd, dark and strange. Hardware: one Hugging Face Space, 16 vCPU, no GPU. Everything below runs on CPU next to a live x264 encoder. LLMs (via HF API), routed by tier with provider fallbacks and per-provider cooldowns: Showrunner (premises, outlines): GLM-5.3, with Kimi-K3 and Qwen3.8 as fallbacks. Can also substitute MLX/GGUF for any models locally. Writer (scripts): GLM-5.3-Flash Judge: gpt-oss-120b with a written policy Vision: Gemma 4 narrates live wildlife cams Budget: a daily dollar cap with a degrade ladder (cheaper tiers, then low-LLM content, then procedural). Real spend is about $2/day deployed and running. TTS: Qwen3-TTS 1.7B (GGUF, Q8_0) VoiceDesign invents a voice for each new character from a text description; the Base model clones it for every line. Emotion bank: per-character mood takes (angry, sad, whisper…) Keeping 24/7 output from getting samey: Novelty ledger: BGE-small ONNX embeddings with cosine gates, exact keys for topics and names, etc. Nothing airs twice. Writers’ room pass: a cheap model scores each draft (funny, fresh, weird) and rewrites the weakest lines, and those rewrites go back through the same guards. Honesty guards: every number and real name in a “fact” line must appear in the sourced facts. Rendering is done via a custom canvas renderer (virtual camera, lip-synced close-ups, rig animation) in headless Chromium Check it out so you can decide if you hate it or not: https://severian-slopsoup.hf.space or https://youtube.com/live/Bikb9JGy6vg?feature=share submitted by /u/vesudeva [link] [comments]

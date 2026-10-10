@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T11:34:01.745Z",
+  "updated_at": "2026-10-10T10:51:58.426Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Open Components – UI Components standard for people, devs and AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://opencomponents.dev/",
+      "date": "2026-10-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello awesome people, I've been thinking a lot lately about how I can make my knowledge and craft more valuable in the times we live in. I've been building UI libraries for the past 10 years, and I've been on a quest to perfect the components that I build. I want to share my knowledge with you. Like most of you, probably, I've been using a lot of AI in my... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-10/06-show-hn-open-components-ui-components-standard-for-people-devs-and-ai-.md"
+    },
+    {
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "date": "2026-10-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-09/07-show-hn-let-your-ai-agents-paint-big-arrows-boxes-and-text-on-your-scr.md"
+    },
+    {
+      "title": "Show HN: tgv: Genome viewer for you and your agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/zeqianli/tgv",
+      "date": "2026-10-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I’m sharing tgv, a new kind of genome viewer built for humans-agent collaboration in genomics. I work in a cancer diagnostics lab and we check cancer patients’ sequencing data in genome viewers every day. Frustrated by the standard tools, last year I built tgv, a Vim-style, keyboard-driven genome viewer. In 2026, while agents are scarily good at bi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-10/08-show-hn-tgv-genome-viewer-for-you-and-your-agents.md"
+    },
+    {
+      "title": "Language Models as AI Research World Models",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.12235v1",
+      "date": "2026-10-08",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI research agents automate the cycle of proposing, implementing, and evaluating experiments, opening a path toward recursive self-improvement. Yet their ability to propose experiments outpaces their capacity to execute them in real environments, making outcome prediction a key capability for sustained self-improvement under limited experimental budgets.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/09-language-models-as-ai-research-world-models.md"
+    },
+    {
+      "title": "Show HN: Proton Drive for Linux",
+      "source": "Hacker News Show HN",
+      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+      "date": "2026-10-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello everyone, I wanted to share this small project that I have. It's born out of a necessity that I had, because Proton doesn't ship a Linux version of the drive yet (it's apparently coming out later this year but who knows?) and all the current solutions are hacky and wonky at best. But for the time being I really needed to mount my Proton drive on my... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-08/10-show-hn-proton-drive-for-linux.md"
+    },
+    {
+      "title": "Show HN: Rutter – shared decision memory across AI tools",
+      "source": "Hacker News Show HN",
+      "url": "https://ruttermemory.com/",
+      "date": "2026-10-10",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Rutter – shared decision memory across AI tools (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-10/11-show-hn-rutter-shared-decision-memory-across-ai-tools.md"
+    },
+    {
+      "title": "bunlongheng/flows",
+      "source": "GitHub Search API",
+      "url": "https://github.com/bunlongheng/flows",
+      "date": "2026-10-10",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Interactive AWS/GCP architecture diagram tool (React Flow) with a secure, AI-callable render-only artifact API. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-10/12-bunlongheng-flows.md"
+    },
+    {
+      "title": "Khairul-2000/decaflex",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Khairul-2000/decaflex",
+      "date": "2026-10-10",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Khairul-2000/decaflex Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-10/13-khairul-2000-decaflex.md"
+    },
+    {
+      "title": "My \"Anthropic/ChatGPT in a box\" is... now open source and publicly hosted on Github.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/",
+      "date": "2026-10-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "It's been a long time coming, and I should have done this in the first place. But LumaBrowser is now open source. Since I first released it a year ago, it's had several thousand installs and an absolutely tremendous amount of feedback. And it's come a long way. I don't call this \"Anthropic/ChatGPT in a box\" lightly, it's essentially the entire ecosystem w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-09/14-my-anthropic-chatgpt-in-a-box-is-now-open-source-and-publicly-hosted-o.md"
+    },
+    {
+      "title": "SlopSoup TV. A live, never-ending 24/7 pixel-art TV network inspired by old-school late night Adult Swim. No human makes any of it.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x20tgs/slopsoup_tv_a_live_neverending_247_pixelart_tv/",
+      "date": "2026-10-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "SlopSoup TV is a live, never-ending pixel-art TV network. Every script, character, voice, camera cut and schedule decision is made by models. It's made to be very absurd, dark and strange. Hardware: one Hugging Face Space, 16 vCPU, no GPU. Everything below runs on CPU next to a live x264 encoder. LLMs (via HF API), routed by tier with provider fallbacks a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-09/15-slopsoup-tv-a-live-never-ending-24-7-pixel-art-tv-network-inspired-by-.md"
+    },
+    {
+      "title": "want me to get you some?🤣",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2aqtp/want_me_to_get_you_some/",
+      "date": "2026-10-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Local flea market...and it's about to rain... submitted by /u/OttoRenner [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-10/16-want-me-to-get-you-some.md"
+    },
+    {
+      "title": "Created laya : Now Introducing a new 800 Million Param physics-based typed decision model with 73k context and image support",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x28zr9/created_laya_now_introducing_a_new_800_million/",
+      "date": "2026-10-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Around 3 weeks ago, I posted on this subreddit about how Jev used my one-year-old architecture, og post: https://www.reddit.com/r/LocalLLaMA/s/VpuMJt577S Then, just after that, I introduced Laya, the first open-source version of JEV, and it has reached a very large scale, thanks to the local Llama community believing in me and supporting me on the journey... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-10/17-created-laya-now-introducing-a-new-800-million-param-physics-based-typ.md"
+    },
     {
       "title": "Show HN: Crashlytics for AI Coding Agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hi everybody, I am in a tricky situation. My grandfather + grandmother live in a remote village in asia, and were visiting us in the city. My grandfather has absolutely fallen in love with AI, and it is completely new for him. He loves how he can talk to it, and get information from it. The caveat is that I showed him chat gpt, not a localllm. He wants so... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-06/16-best-model-setup-for-remote-deployment.md"
-    },
-    {
-      "title": "Benchmarking calories evaluation with LLMs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9jmo8/benchmarking_calories_evaluation_with_llms/",
-      "date": "2026-09-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I wanted a quick calories counter for myself, using LLMs to evaluate the calories from pictures of meals + descriptions. I needed to pick a model so I made a quick benchmark. The setup was: - Nutrition5k photos for photo + calories: https://github.com/google-research-datasets/Nutrition5k - A tool with access to calories information from USDA FoodData Cent... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-07/17-benchmarking-calories-evaluation-with-llms.md"
-    },
-    {
-      "title": "Show HN: Fast Cut Video tool for cutting video for Agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/modecir/fast-cutvid",
-      "date": "2026-09-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, Build this tool in a couple of hours with OpenAI Codex to scratch an itch. As part of my videos workflows I needed to cut the videos myself since the agent is pretty bad cutting and timing using only the transcription. But using a big app like Premiere or DaVinci Resolve was overkill so I used Astra to build an app tailored to that very task. It wi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-05/06-show-hn-fast-cut-video-tool-for-cutting-video-for-agents.md"
-    },
-    {
-      "title": "PatchBench: Evaluating AI Agents for Vulnerability Patching",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.04075v1",
-      "date": "2026-09-03",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents have recently demonstrated strong performance in automated vulnerability patching. However, existing evaluations often validate a patch only by testing whether the provided Proof-of-Concept (PoC) input still triggers a crash. This leaves two key threats to validity: agents may reproduce memorized historical developer patches, or they may generat... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-03/07-patchbench-evaluating-ai-agents-for-vulnerability-patching.md"
-    },
-    {
-      "title": "Show HN: Open-Source eInk Bike Computer",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://opentrailpaper.com",
-      "date": "2026-09-04",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey all, i just launched my Eink Bike computer project and think it is cool. Another tidbit, in the crazy things that AI has done... It has helped create a ANT (common sensor wireless protocol used in workout/biking) implementation for ESP32 by messing around with undocumented registers: https://github.com/RaemondBW/esp32-ant (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/08-show-hn-open-source-eink-bike-computer.md"
-    },
-    {
-      "title": "Show HN: HyperCard to HTML Converter",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/stachon/hc2html",
-      "date": "2026-09-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I created a converter that turns HyperCard 2.x stacks into standalone HTML so they can run in a modern browser. I built it to share my own stacks from the early '90s, which have been sitting on old floppy images for 30 years. It's MIT-licensed and I'd welcome contributions - especially stacks that break the converter, since I've only tested it against my... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-05/09-show-hn-hypercard-to-html-converter.md"
-    },
-    {
-      "title": "Show HN: Minilith – A zero-dependency CMS stored inside a PNG file",
-      "source": "Hacker News Show HN",
-      "url": "https://blog.minilith.site/#posts/minilith-architecture",
-      "date": "2026-09-05",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I enjoy the constraints of retro development. While building games in PICO-8, I took a interest in the way it packs data into the virtual cartridge. I dug into steganography and started thinking: could I apply the same logic to a content management system? Do we really need all the bloat just to host a micro blog? Minilith is a database free CMS where the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-05/10-show-hn-minilith-a-zero-dependency-cms-stored-inside-a-png-file.md"
-    },
-    {
-      "title": "HQBase/hqbot",
-      "source": "GitHub Search API",
-      "url": "https://github.com/HQBase/hqbot",
-      "date": "2026-09-06",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Self-hosted AI teammates on customer-owned Cloudflare infrastructure (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-06/11-hqbase-hqbot.md"
-    },
-    {
-      "title": "caiovicentino/opencode-remote",
-      "source": "GitHub Search API",
-      "url": "https://github.com/caiovicentino/opencode-remote",
-      "date": "2026-09-06",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Control your local opencode agent from your phone — PWA ⇄ blind relay ⇄ daemon. Passkey+QR pairing, E2E-encrypted, voice, rewind, AutoMode, push notifications. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-06/12-caiovicentino-opencode-remote.md"
-    },
-    {
-      "title": "Qwen3.8-27B \"Unhacked\" my PC",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8jahs/qwen3827b_unhacked_my_pc/",
-      "date": "2026-09-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Right, so this is going to be embarrassing but it's presumably something we've all been through at one point or another, and I guess this is my first time resolving something like this in the way that I did so figured I'd share if only to share that it's now a thing and that it's pretty cool.. A friend of mine sent a message asking what's up and if I want... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-06/13-qwen3-8-27b-unhacked-my-pc.md"
-    },
-    {
-      "title": "The gap has closed, open source will win",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w825pc/the_gap_has_closed_open_source_will_win/",
-      "date": "2026-09-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been trying the latest models from the frontier labs and honestly, after extensive testing I can not tell the difference between the best open source options. I think the differences are now marginal but the labs are doing heavy marketing to convince the public into paying more for tokens as they prepare to go public. Can't help but see the similarit... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-05/14-the-gap-has-closed-open-source-will-win.md"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next-oQ4e-mtp: 45 tok/s on M4 Max, 25 tok/s on M2 Ultra for local inference — llm-bench.io",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8qo79/qwen38flashnextoq4emtp_45_toks_on_m4_max_25_toks/",
-      "date": "2026-09-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Qwen 3.8 Flash Next gives similar speed than Qwen3.8 27B on Apple Silicon. submitted by /u/DerTomsn [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-06/15-qwen3-8-flash-next-oq4e-mtp-45-tok-s-on-m4-max-25-tok-s-on-m2-ultra-fo.md"
-    },
-    {
-      "title": "My only real use case for a local AI use is document management, how much VRAM do I realistically need for a good experience?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8ga5y/my_only_real_use_case_for_a_local_ai_use_is/",
-      "date": "2026-09-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I just want to use paperless-ai and be able to ask questions relative to it. Bonus points if I could use it with home assistant but that's not the focus. I just can't see needing a 32 GB VRAM GPU for just that, but I don't want to buy a GPU only to find out that \"yeah, it's technically feasible but not a good user experience\" The GPU's I tend to find at g... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-05/16-my-only-real-use-case-for-a-local-ai-use-is-document-management-how-mu.md"
     }
   ]
 }
