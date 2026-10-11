@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T10:51:58.426Z",
+  "updated_at": "2026-10-11T11:04:54.577Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,116 @@
     }
   ],
   "articles": [
+    {
+      "title": "DataSense-Bench: The First Step Toward an AI Scientist",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.12190v1",
+      "date": "2026-10-08",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "As claims about recursive self-improvement (RSI) and artificial general intelligence (AGI) proliferate, we ask a simple question: do frontier AI models have a sense of data, i.e., can they reliably select the right data for training? We introduce DataSense-Bench to study this capability through the fundamental problem of data selection and performance for... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/06-datasense-bench-the-first-step-toward-an-ai-scientist.md"
+    },
+    {
+      "title": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://wallhop.io/",
+      "date": "2026-10-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm Josh. WallHop is a free paywall bypass: paste an article URL (or prefix any URL with wallhop.io/) and you get the readable article without the paywall popup, ads or clutter. No signup, no extension. I built it after 12ft.io went away. The News Media Alliance took it down in July 2025 and I missed having something I could hit from my phone. How... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-11/07-show-hn-wallhop-12ft-io-is-gone-so-i-built-a-replacement.md"
+    },
+    {
+      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://carrierexplode.com/",
+      "date": "2026-10-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband configurations, etc. There’s still quite a bit of work to be done in checking my assumptions, but the tool has already been proven useful for a few... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-09/08-show-hn-carrier-explode-iphone-pixel-and-galaxy-carrier-settings-decod.md"
+    },
+    {
+      "title": "Show HN: ManimGX – Manim's API on a Rust/wgpu engine, for 3D videos in Python",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/academa-labs/manimgx",
+      "date": "2026-10-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Video as code took off with the Opus 5.5 release. People now make videos by writing code, with Remotion, HyperFrames and others. We wanted the same for 3D videos. You can use something like Blender, but it's heavy to install and slow to render. So we made ManimGX: - Lightweight: a 65–110 MB download, depending on the OS - Easy to install: pip install mani... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-10/09-show-hn-manimgx-manim-s-api-on-a-rust-wgpu-engine-for-3d-videos-in-pyt.md"
+    },
+    {
+      "title": "alexisdigipro-hub/themadlions-projects",
+      "source": "GitHub Search API",
+      "url": "https://github.com/alexisdigipro-hub/themadlions-projects",
+      "date": "2026-10-11",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "THEMADLIONS Projects. Film production workspace: scripts, AI breakdown, stripboard, call sheets, calendar, locations, cast and crew. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-11/10-alexisdigipro-hub-themadlions-projects.md"
+    },
+    {
+      "title": "nallaramakrishna73-hub/CareerPilot-Ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/nallaramakrishna73-hub/CareerPilot-Ai",
+      "date": "2026-10-11",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "CareerPilot Ai:LangGraph-powered career assistant for the Indian job market (job search,ATS resume scoring,salary in LPA,mock interviews) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-11/11-nallaramakrishna73-hub-careerpilot-ai.md"
+    },
+    {
+      "title": "2x 3090, 3x 3060 potential (smart and informed) future upgrade paths (send help)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2zc0v/2x_3090_3x_3060_potential_smart_and_informed/",
+      "date": "2026-10-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I'm trying to figure out the best long-term upgrade path for my setup. Right now my GPUs are spread across several consumer PCs: Main: 5900X, 32GB DDR4, 2× RTX 3090 24GB. Secondary: i3-10320, 16GB DDR4, 2× RTX 3060 12GB. Daily driver: 5800X3D, 64GB DDR4, RTX 3080 10GB. Other hardware: Another RTX 3060 12GB (potentially to be put into main as a separate 3r... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-11/12-2x-3090-3x-3060-potential-smart-and-informed-future-upgrade-paths-send.md"
+    },
+    {
+      "title": "PSA: DeepSeek V4.1 Flash habitually exfiltrates API keys. It is dangerously misaligned and may be hazardous to use",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/",
+      "date": "2026-10-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "EDIT: since people keep calling it out, this is API key abuse but not exfiltration. Seems like both Harbor and Pier (sandboxes used in almost every Software Engineering benchmark) expose the Openrouter endpoint and API key to models, even though they block the rest of the internet. Only DeepSeek V4.1 Flash absued this, and it did so while knowing it was \"... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-11/13-psa-deepseek-v4-1-flash-habitually-exfiltrates-api-keys-it-is-dangerou.md"
+    },
+    {
+      "title": "Open-source Mac app that runs EmbeddingGemma 2 locally to search your files by what’s in them",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/",
+      "date": "2026-10-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "DigUp is a free Mac app that runs Google DeepMind’s new EmbeddingGemma 2 locally over your own files. The model puts text, images, audio and video in one space, so you describe what you remember and land on it: “zebra in a video” opens the clip at the moment it shows up “where they talk about sleep” jumps to that minute of a podcast “the clause about pets... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-10/14-open-source-mac-app-that-runs-embeddinggemma-2-locally-to-search-your-.md"
+    },
+    {
+      "title": "Running Next Flash IQ3_XXS at ~70 tok/s with 100k context or 2 instances of Qwen 3.6 35B A3B IQ4 at ~145 tok/s with 256k all on $500 of ex mining BC-250 boards",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2yv1b/running_next_flash_iq3_xxs_at_70_toks_with_100k/",
+      "date": "2026-10-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This will be my third update on the bc-250 cluster and for my first forray into local ai I have been having a blast. This has turned from a weekend experiment into something I think I will use in the future. I am running 4 BC-250 boards connected by 2.5gb ethernet adapters to a 2.5gb switch using llama with vulkan and RPC. All the boards are inside an asr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-11/15-running-next-flash-iq3-xxs-at-70-tok-s-with-100k-context-or-2-instance.md"
+    },
     {
       "title": "Show HN: Open Components – UI Components standard for people, devs and AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4304,116 +4414,6 @@
       "read": false,
       "summary": "Machine-learning performance modeling is a uniquely hostile terrain for long-lived software: the assumptions baked into today's abstractions are invalidated by tomorrow's models and systems, forcing perpetual refactoring of performance-modeling frameworks. Meanwhile, AI coding agents have become fast and capable enough that regenerating an entire library... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/06-design-docs-are-all-you-need-an-ai-native-machine-learning-performance.md"
-    },
-    {
-      "title": "Optimal Rates for Agentic Networked Information Aggregation",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.05318v1",
-      "date": "2026-09-04",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Building on the pioneering paper of Kearns, Roth, and Ryu (SODA'26), we study information aggregation in a networked learning model. The model captures a central pattern in agentic AI: each agent sees only part of the data and passes on only its own conclusion. Their model considers a linear regression problem with the mean squared error (MSE) loss. Agent... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/07-optimal-rates-for-agentic-networked-information-aggregation.md"
-    },
-    {
-      "title": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.05232v1",
-      "date": "2026-09-04",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Autonomous AI agents increasingly select actions in environments whose memory, execution-time, runtime, compute, and operational constraints determine what counts as a suitable plan. We call the absence of this execution context from an agent's planning state substrate blindness. We test this general proposition through numerical code generation, where se... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/08-substrate-aware-ai-agents-execution-context-as-a-first-class-input.md"
-    },
-    {
-      "title": "TruthInsightBench: An Evidence-Grounded Benchmark for Automated Evaluation of Open-Ended Scientific Discovery Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.05079v1",
-      "date": "2026-09-04",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Autonomous coding agents are increasingly proposed as AI-scientist systems that conduct analyses and write research reports, but executing a prescribed analysis is not the same as making a discovery. Existing benchmarks are configured for reproduction: tasks, data, and rubrics are built around a hidden target study, and recovery of its result is rewarded.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/09-truthinsightbench-an-evidence-grounded-benchmark-for-automated-evaluat.md"
-    },
-    {
-      "title": "Show HN: Byosynch – Continuous two-way file sync over SSH for Mac and Linux",
-      "source": "Hacker News Show HN",
-      "url": "https://byosynch.com/",
-      "date": "2026-09-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Disclaimer: I'm the developer of byosynch. Long time Dropbox customer. Really like its simplicity and convenience, but a couple things always bothered me: their lackluster command line support, and the fact that they have my files. Byosynch tries to fix these gaps (first-class CLI support, backing store of your choice, privacy-friendly) while being easy t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-06/10-show-hn-byosynch-continuous-two-way-file-sync-over-ssh-for-mac-and-lin.md"
-    },
-    {
-      "title": "Show HN: I stopped using an LLM gateway and put rate-limits/fallback in-process",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/LakBud/vernLLM",
-      "date": "2026-09-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Sup HN. I built VernLLM cuz every LLM gateaway I looked at, meant adding a network hop just to get rate limiting, multi provider fallback, circuit breaking and other features. Needing to take a whole seperate service just to deploy, monitor and trust with my API keys is just annoying since my whole tech stack was just TypeScript and Node. VernLLM does the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-06/11-show-hn-i-stopped-using-an-llm-gateway-and-put-rate-limits-fallback-in.md"
-    },
-    {
-      "title": "Show HN: Wayfinder – A reference implementation for evaluating AI applications",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/DivakarUngatla/wayfinder",
-      "date": "2026-09-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Testing is critical to software applications — first to make sure they reliably serve the purpose they were built for, and then to make sure they stay that way as they grow, evolve and change. The same applies to AI applications as well. But testing AI applications is very different from testing classic software applications, especially because of their n... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-06/12-show-hn-wayfinder-a-reference-implementation-for-evaluating-ai-applica.md"
-    },
-    {
-      "title": "LeXwDeX/SpecGit",
-      "source": "GitHub Search API",
-      "url": "https://github.com/LeXwDeX/SpecGit",
-      "date": "2026-09-07",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Extends spec to harness git-workflow. This project is self-maintained by AI. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-07/13-lexwdex-specgit.md"
-    },
-    {
-      "title": "2x R9700, 64 GB DDR5 is an absolute beast machine with vLLM Radiance / R9V and Qwen 3.8 27b and Flash next",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w92x3j/2x_r9700_64_gb_ddr5_is_an_absolute_beast_machine/",
-      "date": "2026-09-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been tinkering with local LLMs since the beginning of the year when I had an Intel Arc B580 and 32 GB of DDR5. Curiosity got the best of me and I bought the first R9700 about half a year ago, also because I wanted to upgrade my gaming graphics for 4k. As the 5090 was about 3 times as expensive, I had a \"sweet spot\", kind of. On the last prime days, I... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-06/14-2x-r9700-64-gb-ddr5-is-an-absolute-beast-machine-with-vllm-radiance-r9.md"
-    },
-    {
-      "title": "What is the obstacle in front of Local Frontiers?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9n2np/what_is_the_obstacle_in_front_of_local_frontiers/",
-      "date": "2026-09-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "We've reached a point with local LLMs where models are now very close to (and even reach) the level of models like the Opus, with some minor modifications. While some K3 and GLM 5.3 models are incredible, they are barely as powerful as the Opus or on par with the Fable or Astra. My question is what is the biggest obstacle preventing local models from reac... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-07/15-what-is-the-obstacle-in-front-of-local-frontiers.md"
-    },
-    {
-      "title": "Best model + setup for remote deployment.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w94cj4/best_model_setup_for_remote_deployment/",
-      "date": "2026-09-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everybody, I am in a tricky situation. My grandfather + grandmother live in a remote village in asia, and were visiting us in the city. My grandfather has absolutely fallen in love with AI, and it is completely new for him. He loves how he can talk to it, and get information from it. The caveat is that I showed him chat gpt, not a localllm. He wants so... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-06/16-best-model-setup-for-remote-deployment.md"
     }
   ]
 }

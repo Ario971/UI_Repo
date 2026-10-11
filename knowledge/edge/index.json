@@ -1,10 +1,190 @@
 {
-  "last_checked_at": "2026-10-10T10:52:31.549Z",
+  "last_checked_at": "2026-10-11T11:05:16.777Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "rolovibes/halo-harness",
+      "name": "roloVibes/Halo-Harness",
+      "url": "https://github.com/roloVibes/Halo-Harness",
+      "date": "2026-10-11",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 100,
+      "momentum": 52,
+      "risk": 32,
+      "integration_effort": 44,
+      "expected_gain": 87,
+      "composite": 76,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.434,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+          "date": "2026-09-09",
+          "topic": "AI agents",
+          "similarity": 0.302,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+        },
+        {
+          "title": "Show HN: Flash-Agents – DSH as MCP for Claude",
+          "date": "2026-10-05",
+          "topic": "AI agents",
+          "similarity": 0.244,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/07-show-hn-flash-agents-dsh-as-mcp-for-claude.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-11)",
+        "MIT license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, dynamic, description, readme, requires-python, license"
+        }
+      ],
+      "install_commands": [
+        "uv tool install git+https://github.com/roloVibes/Halo-Harness",
+        "pipx install git+https://github.com/roloVibes/Halo-Harness"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-11/01-rolovibes-halo-harness.md"
+    },
+    {
+      "id": "denggui-ai/classic-coshoot",
+      "name": "denggui-ai/classic-coshoot",
+      "url": "https://github.com/denggui-ai/classic-coshoot",
+      "date": "2026-10-11",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 87,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 24,
+      "expected_gain": 87,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "instl999/exam-scribe",
+          "date": "2026-10-02",
+          "topic": "AI dev tools",
+          "similarity": 0.18,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/12-instl999-exam-scribe.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-11)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [],
+      "install_commands": [
+        "codex exec"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-02 about AI dev tools; this candidate overlaps with \"instl999/exam-scribe\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-11/02-denggui-ai-classic-coshoot.md"
+    },
+    {
+      "id": "uw-syfi/vibesys",
+      "name": "uw-syfi/vibesys",
+      "url": "https://github.com/uw-syfi/vibesys",
+      "date": "2026-10-11",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 80,
+      "momentum": 89,
+      "risk": 45,
+      "integration_effort": 58,
+      "expected_gain": 77,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+          "date": "2026-10-07",
+          "topic": "AI agents",
+          "similarity": 0.273,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-07/06-show-hn-agent-reviews-where-ai-agents-read-and-write-reviews-on-tools.md"
+        },
+        {
+          "title": "Show HN: Crashlytics for AI Coding Agents",
+          "date": "2026-10-08",
+          "topic": "AI agents",
+          "similarity": 0.261,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/06-show-hn-crashlytics-for-ai-coding-agents.md"
+        },
+        {
+          "title": "Show HN: Rebuno - An open-source runtime for production agents",
+          "date": "2026-09-14",
+          "topic": "AI agents",
+          "similarity": 0.256,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/07-show-hn-rebuno-an-open-source-runtime-for-production-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-11)",
+        "MIT license",
+        "108 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
+        }
+      ],
+      "install_commands": [
+        "uv tool install vibesys",
+        "codex login"
+      ],
+      "risk_flags": [
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-07 about AI agents; this candidate overlaps with \"Show HN: Agent.reviews – Where AI agents read and write reviews on tools\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-11/03-uw-syfi-vibesys.md"
+    },
     {
       "id": "bennaco7539/skill-optimizer",
       "name": "Bennaco7539/skill-optimizer",
@@ -19458,184 +19638,6 @@
       "risk_flags": [],
       "why_it_matters": "You saved an article on 2026-06-20 about AI dev tools; this candidate overlaps with \"llm011/ethan-agent\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-03/02-theweihu-devbrain.md"
-    },
-    {
-      "id": "alisongm03/eva01",
-      "name": "AlisonGM03/Eva01",
-      "url": "https://github.com/AlisonGM03/Eva01",
-      "date": "2026-07-03",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 98,
-      "momentum": 49,
-      "risk": 35,
-      "integration_effort": 44,
-      "expected_gain": 69,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
-          "date": "2026-06-26",
-          "topic": "AI agents",
-          "similarity": 0.181,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-03)",
-        "MIT license",
-        "1 GitHub stars",
-        "Matches 1 saved Feed article(s)"
-      ],
-      "cons": [
-        "No clear install command found in README"
-      ],
-      "readme_quality": 78,
-      "has_ci": false,
-      "has_tests": false,
-      "setup_steps_count": 1,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps name, version, description, requires-python, readme, license, dependencies, embed-openai"
-        },
-        {
-          "name": "requirements.txt",
-          "summary": "deps -e ., absl-py==2.4.0, aiofiles==25.1.0, aiohappyeyeballs==2.6.1, aiohttp==3.13.3, aiosignal==1.4.0, aiosqlite==0.22.1, alembic==1.18.4"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-26 about AI agents; this candidate overlaps with \"Agent-Native Immune System: Architecture, Taxonomy, and Engineering\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-03/03-alisongm03-eva01.md"
-    },
-    {
-      "id": "semantica-agi/semantica",
-      "name": "semantica-agi/semantica",
-      "url": "https://github.com/semantica-agi/semantica",
-      "date": "2026-07-02",
-      "source": "awesome-llm-agents",
-      "category": "awesome_lists",
-      "kind": "agent_framework",
-      "compatibility": 80,
-      "momentum": 100,
-      "risk": 30,
-      "integration_effort": 56,
-      "expected_gain": 77,
-      "composite": 77,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: HelixDB – A graph database built on object storage",
-          "date": "2026-06-10",
-          "topic": "AI agents",
-          "similarity": 0.187,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-10/80-show-hn-helixdb-a-graph-database-built-on-object-storage.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-02)",
-        "MIT license",
-        "1354 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps requires, build-backend, name, version, description, readme, license, authors"
-        }
-      ],
-      "install_commands": [
-        "pip install semantica",
-        "pip install \"semantica[explorer]\"",
-        "pip install semantica           # core",
-        "pip install semantica[all]      # everything",
-        "pip install semantica[agno]                 # Agno multi-agent integration",
-        "pip install semantica[llm-litellm]          # OpenAI, Anthropic, Gemini, Mistral, Llama, Groq, Cohere, Bedrock, Ollama, DeepSeek, and more"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-10 about AI agents; this candidate overlaps with \"Show HN: HelixDB – A graph database built on object storage\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-02/01-semantica-agi-semantica.md"
-    },
-    {
-      "id": "eve-ai-dev/steroids-openai-image-gen",
-      "name": "eve-ai-dev/steroids-openai-image-gen",
-      "url": "https://github.com/eve-ai-dev/steroids-openai-image-gen",
-      "date": "2026-07-02",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 88,
-      "momentum": 55,
-      "risk": 43,
-      "integration_effort": 28,
-      "expected_gain": 77,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "eve-ai-dev/steroids-openai-image-gen",
-          "date": "2026-06-24",
-          "topic": "AI dev tools",
-          "similarity": 0.802,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-24/10-eve-ai-dev-steroids-openai-image-gen.md"
-        },
-        {
-          "title": "AlexNthLab/nth-dao",
-          "date": "2026-06-12",
-          "topic": "AI dev tools",
-          "similarity": 0.299,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
-        },
-        {
-          "title": "llm011/ethan-agent",
-          "date": "2026-06-20",
-          "topic": "AI dev tools",
-          "similarity": 0.233,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-02)",
-        "MIT license",
-        "4 GitHub stars",
-        "README includes install commands"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 78,
-      "has_ci": false,
-      "has_tests": false,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps name, version, description, readme, requires-python, license, dependencies, pythonpath"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/eve-ai-dev/steroids-openai-image-gen.git"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-24 about AI dev tools; this candidate overlaps with \"eve-ai-dev/steroids-openai-image-gen\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-02/02-eve-ai-dev-steroids-openai-image-gen.md"
     }
   ]
 }

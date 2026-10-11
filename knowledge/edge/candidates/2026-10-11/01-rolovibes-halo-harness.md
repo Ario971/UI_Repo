@@ -1,0 +1,205 @@
+---
+id: "rolovibes/halo-harness"
+name: "roloVibes/Halo-Harness"
+url: "https://github.com/roloVibes/Halo-Harness"
+date: "2026-10-11"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 100
+momentum: 52
+risk: 32
+integration_effort: 44
+expected_gain: 87
+composite: 76
+replacement_target: ""
+related_articles: [{"title":"Show HN: Visually orchestrate Claude Code AI agents","date":"2026-09-23","topic":"AI agents","similarity":0.434,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"},{"title":"Show HN: Self-hosted company OS, Claude Code and Codex agents in departments","date":"2026-09-09","topic":"AI agents","similarity":0.302,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"},{"title":"Show HN: Flash-Agents – DSH as MCP for Claude","date":"2026-10-05","topic":"AI agents","similarity":0.244,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/07-show-hn-flash-agents-dsh-as-mcp-for-claude.md"}]
+pros: ["Recently updated (2026-10-11)","MIT license","1 GitHub stars","GitHub Actions/CI detected"]
+cons: ["README mentions telemetry/analytics"]
+readme_quality: 85
+has_ci: true
+has_tests: true
+setup_steps_count: 2
+dependency_files: [{"name":"pyproject.toml","summary":"python project; deps requires, build-backend, name, dynamic, description, readme, requires-python, license"}]
+install_commands: ["uv tool install git+https://github.com/roloVibes/Halo-Harness","pipx install git+https://github.com/roloVibes/Halo-Harness"]
+risk_flags: ["README mentions telemetry/analytics"]
+status: "new"
+---
+
+# roloVibes/Halo-Harness
+
+Halo Harness: an intuitive, Claude Code-compatible agent harness that drives DeepSeek, GLM, Kimi, Qwen and Claude over Databricks, OpenRouter, the Anthropic API and your Claude Code subscription, reusing your existing Claude Code configuration.
+
+URL: https://github.com/roloVibes/Halo-Harness
+
+## Why it matters
+You saved an article on 2026-09-23 about AI agents; this candidate overlaps with "Show HN: Visually orchestrate Claude Code AI agents" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-11)
++ MIT license
++ 1 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- README mentions telemetry/analytics
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 2
+
+Dependency files:
+- pyproject.toml: python project; deps requires, build-backend, name, dynamic, description, readme, requires-python, license
+
+Install commands found:
+- uv tool install git+https://github.com/roloVibes/Halo-Harness
+- pipx install git+https://github.com/roloVibes/Halo-Harness
+
+Risk flags:
+- README mentions telemetry/analytics
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Halo Harness
+
+```
+ _   _      _      _        ___
+| | | |    / \    | |      / _ \
+| |_| |   / _ \   | |     | | | |
+|  _  |  / ___ \  | |___  | |_| |
+|_| |_| /_/   \_\ |_____|  \___/
+```
+
+**The Claude Code-compatible harness for people who'd rather not be
+locked into one AI coding ecosystem.**
+
+Halo gives DeepSeek, GLM, Kimi, Qwen and Claude the same tools, the same
+configuration and the same working habits as Claude Code -- over OpenRouter,
+Databricks, the Anthropic API, the OpenAI API, your Claude Code or Codex
+subscription, Ollama, Hugging Face, or any OpenAI-compatible server you
+host -- and it reads your existing Claude Code setup in place
+(`~/.claude` settings, CLAUDE.md, skills, commands, agents, MCP servers,
+memory), so nothing is configured twice. Switch models mid-conversation
+with `/model`; the session context comes with you. The same banner prints
+on `halo --version`, and the launch intro types it out.
+
+<p align="center">
+  <img alt="version 2.0.9" src="https://img.shields.io/badge/version-2.0.9-5b4bd6">
+  <img alt="python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-3776ab">
+  <img alt="Linux first" src="https://img.shields.io/badge/platform-Linux%20first%20%7C%20macOS%20%7C%20Windows-2b2b2b">
+  <img alt="tests" src="https://img.shields.io/badge/tests-4100%2B%20hermetic-2e8b57">
+</p>
+
+> **Using your Claude Code or Codex subscription through Halo.** The
+> `cc:`/`cx:` routes drive the official `claude`/`codex` binaries under
+> your own personal subscription, through a third-party harness that is
+> not the provider's own product -- the provider's own terms govern your
+> account, and there have been public reports of account restrictions for
+> tools that use subscription tokens this way. Halo never reads either
+> tool's stored credentials, and these two routes are **off until you
+> accept** a one-time notice (`halo subscriptions accept`, or
+> `/subscriptions` in the TUI) -- see
+> [docs/MODELS.md](docs/MODELS.md#subscription-routes-consent-halo-207-round-7b).
+
+## What it looks like
+
+Real renders of the TUI, produced by `scripts/screenshots.py` -- Textual
+pilots over fixture data with a fixed clock, so a rerun is byte-identical
+(`python scripts/screenshots.py && git diff` shows nothing).
+
+| Scene | What it shows |
+|---|---|
+| ![First launch](docs/screenshots/launch.svg) | First paint: the banner intro line, the prompt, the status bar. |
+| ![A turn](docs/screenshots/turn.svg) | A reply mid-turn: the phase line, a running tool card, live counters. |
+| ![The model picker](docs/screenshots/picker.svg) | The model picker: price, context and speed columns for every route. |
+| ![The Team step](docs/screenshots/team-step.svg) | The wizard's Team step: custom roles on, the lineups pane (one pane at a time, roles explained as you go). |
+| ![MCP status](docs/screenshots/mcp.svg) | The `/mcp` dialog: one failing server, its reason, the deep-dive action. |
+| ![A permission ask](docs/screenshots/permission.svg) | A permission card docked above the prompt with its suggested rule. |
+| ![Balances](docs/screenshots/balances.svg) | The balances chip in the status bar and the `/balances` table. |
+| ![The remote dialog](docs/screenshots/remote-dialog.svg) | The `/remote` dialog: the Signal bridge's state, contact requests, paired phones, a pairing code just issued. |
+
+## Features
+
+| | |
+|---|---|
+| **Switch models mid-conversation** | `/model` swaps the lane without losing session context -- prompt, tools and history come with you. |
+| **A provider per role** | YAML agent bios and lineups assign a model to each job: GLM can orchestrate while a local Qwen implements and a cheap flash model reviews. `halo teams use <lineup>` applies one. |
+| **Steering** | Type while a turn runs and the steer reaches the work: a running command moves to the background instead of dying, sub-agents get your words forwarded into them, nothing is lost. |
+| **Per-model tool-call repairs** | Fourteen model families' quirks are repaired on the fly -- Kimi's `functions.{name}:{idx}` ids, GLM's always-on thinking, Qwen's system-message rules, DeepSeek's reasoning echoes. Gateway quirks are learned once per model and remembered (`halo rules`). |
+| **Measured, not guessed** | `/stats` per model and per tool, price/context/speed columns in the picker, per-role cost attribution, and `halo preflight` canaries each lane before a long run (a tool call the model must actually emit, an image a "vision" model must actually accept). |
+| **Filter-aware routing** | A provider content filter is not an answer: a filtered reply never persists as one, and the request reroutes to a fallback lane you choose. |
+| **Permissions without a nanny** | Auto mode allows everything except *your own* deny/ask rules -- no built-in safety classifier, no protected-path heuristics, no refusal layer. Rules use Claude Code's own grammar, in the same files. |
+| **Routes** | `dbx:` `or:` `ant:` `cc:` `cx:` `oai:` `ol:` `hf:` `local:` -- one session, any of them. |
+| **The wizard** | `halo init`: provider, model, permission mode, theme, roles, orgs -- every step explains itself and `halo doctor` ends each warning with its fix. |
+| **MCP deep dive** | stdio/HTTP/SSE servers from every Claude Code scope, `D` diagnoses a failing server end to end, claude.ai connectors bridge through as tools. |
+| **Balances and picker columns** | Per-provider balances in the status bar (remaining first); free variants sit beside their paid rows in the picker. |
+| **Remote control from Signal** | Message a number, drive a session from your phone: prompts, streamed replies, permission cards answered by number. Contact-request pairing, HMAC-signed commands, a kill switch, a `/remote` dialog and a status chip -- see [docs/REMOTE.md](docs/REMOTE.md). |
+| **Code review** | `/review` and `halo review`: parallel read-only reviewers per dimension (correctness, security, performance, tests, docs), a judge that confirms or dismisses every finding, ranked cards or `--json`, and an optional `--fix` pass -- see [docs/REVIEW.md](docs/REVIEW.md). |
+| **Privacy audit** | `halo audit privacy` scans the tree for real paths, hosts and key-shaped strings; the release refuses to ship one red line. |
+| **CI and release script** | Every push runs the three suites on Linux and Windows; `scripts/release.py` versions, tags, pushes and refreshes both installs. |
+
+## Install
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/roloVibes/Halo-Harness/master/scripts/install-halo.sh | bash
+halo init        # the wizard: provider, model, permission mode, theme, roles
+halo             # the full-screen TUI, from any directory
+```
+
+Windows: `powershell -ExecutionPolicy ByPass -c "irm https://raw.githubusercontent.com/roloVibes/Halo-Harness/master/scripts/install-halo.ps1 | iex"`.
+No installer at all: `uv tool install git+https://github.com/roloVibes/Halo-Harness`
+(or `pipx install git+https://github.com/roloVibes/Halo-Harness`). Updates:
+`halo update`, or `/update` inside the TUI.
+The full walkthrough -- offline work boxes, PEP 668, reproducible installs --
+is [docs/INSTALL.md](docs/INSTALL.md).
+
+## Themes
+
+The gallery above is the default theme. The 2.0.8 theme pack adds three game
+themes, each with its own toggle (`/doom`, `/metroid`, `/mario`: run it again
+and your previous theme comes back) and a one-line entry in the wizard's
+Theme step; `/theme <name>` is the explicit form.
+
+| Theme | Render |
+|---|---|
+| `doom` (`/doom`) -- a three-row bottom-HUD status bar: ammo, health, arms, a face that follows the phase, armor, keys | ![DOOM](docs/screenshots/theme-doom.svg) |
+| `metroid` (`/metroid [area]`) -- a suit-HUD status bar: ten energy tanks for the context left, reserve, missile and super counters, a visor face, the area panel; five area palettes (Crateria, Brinstar, Norfair, Maridia, Tourian), dashed map-grid cards and a visor-framed input line | ![Metroid](docs/screenshots/theme-metroid.svg) |
+| `mario` (`/mario [variant]`) -- a top-bar status bar: coins for the cost, a turn timer, the world and level for the cwd and branch, a score for the tokens left, lives counters, a cap-and-moustache face; two palettes (`bros`, `world`), brick-pattern cards, a pipe-framed input line and a 1-UP flash when a sub-agent finishes | ![Mario](docs/screenshots/theme-mario.svg) |
+
+## Documentation
+
+| Document | What it covers |
+|---|---|
+| [docs/INSTALL.md](docs/INSTALL.md) | One-page install, upgrade and update guide |
+| [docs/HANDBOOK.md](docs/HANDBOOK.md) | The long-form guide: configuration, providers, permissions, steering, hooks, skills, MCP, sessions, telemetry |
+| [docs/COMMANDS.md](docs/COMMANDS.md) | Every CLI command and flag |
+| [docs/SLASH-COMMANDS.md](docs/SLASH-COMMANDS.md) | Every slash command in the TUI |
+| [docs/CONFIG.md](docs/CONFIG.md) | Config keys, paths and environment variables |
+| [docs/MODELS.md](docs/MODELS.md) | Model families, effort levels and per-route rules |
+| [docs/LOCAL-MODELS.md](docs/LOCAL-MODELS.md) | Ollama, Hugging Face, the OpenAI API and Codex -- end to end |
+| [docs/DATABRICKS.md](docs/DATABRICKS.md) | Databricks endpoints, API types and the work matrix |
+| [docs/ROLES.md](docs/ROLES.md) | Roles, agent bios and lineups |
+| [docs/GOVERNOR.md](docs/GOVERNOR.md) | The Governor: shared per-host rate limiting, failover and lanes |
+| [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | "Is it frozen?", GLM pauses, copy and paste, connect timeouts |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | How the pieces fit together |
+| [docs/harness/README.md](docs/harness/README.md) | Design briefs, review findings, acceptance records |
+| [CHANGELOG.md](CHANGELOG.md) | Every release, with what changed and why |
+
+## Tests
+
+Three hermetic, exit-code-gated suites run on Windows, WSL and a Kali VM
+before every commit, and in CI on every push: `python test_bridge.py` (the
+proxy), `python tests/run_all.py` (the harness) and `python test_tui.py`
+(the TUI, through Textual's headless pilot). Mock servers stand in for every
+provider, a fake `claude` stands in for the subscription route, and guards
+fail the run if a test touches the real `~/.halo` or `~/.claude`. See
+[docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
+
+## Licence
+
+See [LICENSE](LICENSE).
+
