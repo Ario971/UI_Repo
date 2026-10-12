@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T11:04:54.577Z",
+  "updated_at": "2026-10-12T12:33:28.608Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Seodata.dev (1.1) Free search data for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.seodata.dev/",
+      "date": "2026-10-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Updated API with faster responses and added MCP 2.0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-11/06-show-hn-seodata-dev-1-1-free-search-data-for-ai-agents.md"
+    },
+    {
+      "title": "Show HN: I Cut my Agent Tokens By 50%",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://news.ycombinator.com/item?id=50047627",
+      "date": "2026-10-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "This started by watching the built-in tool calls in Claude code. We noticed that a LOT of the time was being spent searching for lines of code with regex. This approach makes sense when you are working in an unknown environment, but we all work inside of some codebase structure and tracking. This took us down the rabbit hole of codebase indexing and led t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-11/07-show-hn-i-cut-my-agent-tokens-by-50.md"
+    },
+    {
+      "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.13889v1",
+      "date": "2026-10-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this gap, we propose RATED (Reliability-Aware Tool Retrieval via Execution Dynamics), a retrieval framework that combines robust semantic mat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-09/08-rated-reliability-aware-ai-agent-tool-retrieval-via-execution-dynamics.md"
+    },
+    {
+      "title": "A Baseline Assessment for the Agentic Web Technology Stack",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.13703v1",
+      "date": "2026-10-09",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The fast pace in which protocols, frameworks, and technologies are being proposed for LLM-based agents results in a complex scenario for anyone aiming to create state-of-the-art AI solutions. Without an assessment on how different protocols, frameworks, and libraries work together to compose an Agentic Web solution, developers and organizations face diffe... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-09/09-a-baseline-assessment-for-the-agentic-web-technology-stack.md"
+    },
+    {
+      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "date": "2026-10-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is an incredibly fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that simple tasks, like opening apps, playing a Spotify playlis... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-12/10-show-hn-atticus-hold-to-talk-voice-assistant-for-macos-that-runs-on-cl.md"
+    },
+    {
+      "title": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/swimmingbrain/brainotes",
+      "date": "2026-10-11",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "In August, I posted here about TeXbrain, a LaTeX editor that runs completely in the browser, with no need for an account or server. (I didn't excpect it to get that much feedback, bug reports and help from here!) This is the same idea for the other half of my studies, the handwritten notes. I take them on a convertible laptop, and I've had a hard time wit... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-11/11-show-hn-brainotes-handwritten-notes-on-your-lecture-pdfs-in-a-browser-.md"
+    },
+    {
+      "title": "travel-albums-ai/geoson-nodes",
+      "source": "GitHub Search API",
+      "url": "https://github.com/travel-albums-ai/geoson-nodes",
+      "date": "2026-10-12",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "travel-albums-ai/geoson-nodes Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-12/12-travel-albums-ai-geoson-nodes.md"
+    },
+    {
+      "title": "Show HN: Preloop – GitHub Actions locally in microvms and SSH/pause failures",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/preloopdev/preloop",
+      "date": "2026-10-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Preloop – GitHub Actions locally in microvms and SSH/pause failures (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-12/13-show-hn-preloop-github-actions-locally-in-microvms-and-ssh-pause-failu.md"
+    },
+    {
+      "title": "[META] What's with the RP bot accounts?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3iu7f/meta_whats_with_the_rp_bot_accounts/",
+      "date": "2026-10-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "You know, the bot accounts that are always like a month old with like Here's some examples I've found in a few minutes: https://www.reddit.com/r/LocalLLaMA/comments/1x2rgfv/comment/pf7599j/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button https://www.reddit.com/r/LocalLLaMA/comments/1x38cvw/comment/pf917lv/?utm_sourc... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-11/14-meta-what-s-with-the-rp-bot-accounts.md"
+    },
+    {
+      "title": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
+      "date": "2026-10-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "It's been 4 years since c.ai first hallucination model, and yet, we're nowhere good enough at LLMs in terms of spontaneity/interesting hallucination features. Fortunately, last year brought new architecture that allow those within 10-16GB VRAM range to run something usable up to 64k Context Windows via Kobold or LLAMA. Requirements: 10-16GB VRAM - 26-32GB... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-11/15-every-model-that-can-be-run-on-10-16gb-vram-ranked.md"
+    },
+    {
+      "title": "Any takers for local llm? NVIDIA’s CUDA Moat Is Accelerating RTX Spark Laptop Sales, Higher 128GB Unified Memory Options Belonging To Surface Laptop Ultra Already Out Of Stock",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ykyb/any_takers_for_local_llm_nvidias_cuda_moat_is/",
+      "date": "2026-10-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Cheapest one I see at MC is the asus pro-art version for 6499. https://www.microcenter.com/product/715662/asus-proart-p14-14-wqxga-120hz-oled-laptop submitted by /u/chemist_slime [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-12/16-any-takers-for-local-llm-nvidia-s-cuda-moat-is-accelerating-rtx-spark-.md"
+    },
+    {
+      "title": "I made an open-source AI leaderboard that shows the best models your machine can run",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3wp8c/i_made_an_opensource_ai_leaderboard_that_shows/",
+      "date": "2026-10-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, I made whatmodel.sh To use it, Enter your RAM and GPU See what models you can run locally with its rank and the command to run it Compare them with API models on the same score Building it made me realise a 32GB Mac can now run a model that scores on-par with GPT-5, completely locally and for free (e.g. Qwen3.8 27B at 4-bit). Each model gets... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-12/17-i-made-an-open-source-ai-leaderboard-that-shows-the-best-models-your-m.md"
+    },
     {
       "title": "DataSense-Bench: The First Step Toward an AI Scientist",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "This tool started as a research for me trying to answer the question \"Does AI agents drift from your architecture conventions or if you need enforcement instead?\". So I started out building a benchmark to test that premise and on the scope I tested, the agents did not drift and I had to stop that research line. So to reuse what I have learnt from that res... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/06-show-hn-archprint-infer-architecture-lint-rules-from-your-repo-s-impor.md"
-    },
-    {
-      "title": "How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.05037v1",
-      "date": "2026-09-04",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "As LLMs take on roles requiring moral advice, understanding how they attribute moral agency becomes critical. Humans possess moral agency, the capacity to make ethically guided decisions and bear responsibility for their consequences, a well-established construct in moral psychology. Yet as artificial agents (AAs) such as robots, drones, and disembodied A... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/07-how-do-llms-evaluate-perceived-moral-agency-investigating-moral-decisi.md"
-    },
-    {
-      "title": "Skip to main content",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news#main-content",
-      "date": "2026-09-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Skip to main content (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/08-skip-to-main-content.md"
-    },
-    {
-      "title": "Show HN: Jigsaw Haiku",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://jigsawhaiku.com/",
-      "date": "2026-09-04",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! Jigsaw Haiku was originally designed with my puzzles site The Daily Baffle ( https://dailybaffle.com ) in mind. But once I had built it, I realized it just didn't quite fit with the aesthetic of the Baffle's other puzzles, so I decided to put it up separately. While most of the puzzles on the Daily Baffle were intended to be rather challenging, for... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/09-show-hn-jigsaw-haiku.md"
-    },
-    {
-      "title": "tarunchaudhry/agentive-ui",
-      "source": "GitHub Search API",
-      "url": "https://github.com/tarunchaudhry/agentive-ui",
-      "date": "2026-08-21",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "A shadcn-based UI development kit for building AI agent interfaces — chat, streaming, tool calls, research agents, and browser-use agents. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-21/10-tarunchaudhry-agentive-ui.md"
-    },
-    {
-      "title": "Show HN: Interactive Tree of Life",
-      "source": "Hacker News Show HN",
-      "url": "https://ptree.org/",
-      "date": "2026-09-04",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Ptree consolidates of 11 taxonomic trees, both categorical like we used in school (plant, animalia) and phylogenetic (evolutionary descent), with instant crosswalk between them. Across those trees it overlays 41 visual properties (categorical and numerical) assembled from hundreds of biological traits and sources. Color the tree by habitat, nutrition, siz... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-04/11-show-hn-interactive-tree-of-life.md"
-    },
-    {
-      "title": "Show HN: HomeCat – Design your backyard office",
-      "source": "Hacker News Show HN",
-      "url": "https://myhomecat.com",
-      "date": "2026-09-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! Ilya and Nikita here. We’re building HomeCat, a tool that lets you design a backyard office space - https://myhomecat.com We started out by helping people design sheds, and quickly realized that many people actually want to build a backyard office. There wasn't really an easy way to do this, so we thought we'd take on the challenge. Right now, you... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-07/12-show-hn-homecat-design-your-backyard-office.md"
-    },
-    {
-      "title": "Show HN: Browser only CSV editor, data never leaves your machine",
-      "source": "Hacker News Show HN",
-      "url": "https://csvpreview.com",
-      "date": "2026-09-08",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "The current software I am working upon as part of my full time job, I have to deal with very long JSONs and lot of CSVs. For editing or viewing JSONs my first and obivous choice was jsonher.io, it’s the most wonderful JSON viewer I have ever seen. But I wish I could the same for CSVs too, when I googled it, I couldn’t find anything good. Most of the tools... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-08/13-show-hn-browser-only-csv-editor-data-never-leaves-your-machine.md"
-    },
-    {
-      "title": "After over a year of my nights and weekends, the Jenny app is done!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9wvkb/after_over_a_year_of_my_nights_and_weekends_the/",
-      "date": "2026-09-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi all! I just wanna say that I am tired lol. Yes, it's another harness, but I spent a lot of time and effort and have forsaken my hobbies to build the Jenny (like XJ-9) app. Jenny is a free, MIT licensed electron desktop app for running local LLMs with tool calling, rollback, and an IDE. A lot of you probably had the same thought I did a year or year and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-07/14-after-over-a-year-of-my-nights-and-weekends-the-jenny-app-is-done.md"
-    },
-    {
-      "title": "I REALLY hope the new gemma 5 family sticks to the \"chat model first\" philsophy and doesn't fall into the Qwen trap",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9ylhh/i_really_hope_the_new_gemma_5_family_sticks_to/",
-      "date": "2026-09-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "It just seems every local 30b class model is just trying so hard to be the next Qwen that they all just kinda blend into a mass of code focused models. I really like how gemma 4 31b turned out with it feeling a lot less robotic and more creative than other models even knowing obscure lore from random media. I just hope they don't cave into the benchmarks... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-07/15-i-really-hope-the-new-gemma-5-family-sticks-to-the-chat-model-first-ph.md"
-    },
-    {
-      "title": "I made Warrior Quest, a local LLM-powered dark-fantasy RPG where the model only plays NPCs and the actual game state stays deterministic",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa84sa/i_made_warrior_quest_a_local_llmpowered/",
-      "date": "2026-09-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The LLM is limited to NPC emulation. Game state, world logic, quests, and the authored story are handled by deterministic game systems rather than the LLM. I built it this way because I wanted the freedom of talking to NPCs like you would at a tabletop game, without handing the actual game state or canon over to an LLM. This started as a personal project.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-07/16-i-made-warrior-quest-a-local-llm-powered-dark-fantasy-rpg-where-the-mo.md"
-    },
-    {
-      "title": "DeepSeek-V4-Flash-Vision-Exp is amazing at creating game worlds!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa06k3/deepseekv4flashvisionexp_is_amazing_at_creating/",
-      "date": "2026-09-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Model: DeepSeek-V4-Flash-Vision-Exp (local and API when impatient) Time: about one weekend (2 days) of QA and small improvements Full game is here After Qwen3.8-Flash-Next one-shotted a really cool Cat-Hunt game demo, I decided to see what the new DeepSeek vision model can do. Now that it has vision, DeepSeek-V4-Flash is able to take game screenshots, all... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-07/17-deepseek-v4-flash-vision-exp-is-amazing-at-creating-game-worlds.md"
-    },
-    {
-      "title": "Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.05364v1",
-      "date": "2026-09-04",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Machine-learning performance modeling is a uniquely hostile terrain for long-lived software: the assumptions baked into today's abstractions are invalidated by tomorrow's models and systems, forcing perpetual refactoring of performance-modeling frameworks. Meanwhile, AI coding agents have become fast and capable enough that regenerating an entire library... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-04/06-design-docs-are-all-you-need-an-ai-native-machine-learning-performance.md"
     }
   ]
 }

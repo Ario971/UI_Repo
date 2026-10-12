@@ -1,0 +1,12 @@
+---
+title: "Show HN: I Cut my Agent Tokens By 50%"
+source: "Hacker News Top + Show HN"
+url: "https://news.ycombinator.com/item?id=50047627"
+date: "2026-10-11"
+topic: "AI agents"
+type: "article"
+read: false
+summary: "This started by watching the built-in tool calls in Claude code. We noticed that a LOT of the time was being spent searching for lines of code with regex. This approach makes sense when you are working in an unknown environment, but we all work inside of some codebase structure and tracking. This took us down the rabbit hole of codebase indexing and led t... (Local summary fallback used.)"
+---
+
+This started by watching the built-in tool calls in Claude code. We noticed that a LOT of the time was being spent searching for lines of code with regex. This approach makes sense when you are working in an unknown environment, but we all work inside of some codebase structure and tracking. This took us down the rabbit hole of codebase indexing and led to us building Indexio. Indexio was built to eliminate the time and tokens agents waste rediscovering a codebase. Regex calls return lots of data each time to the context window which causes bloat over time with items that don't really matter. Since codebase work container mostly static files indexing them and quickly getting to data for discovery is what we were trying to solve. Indexio index's the codebase to its internal DB and then returns what is needed via MCP when asked. We ran into some fun issues when trying to force the session to use a tool call for lookups so there is some aggressive tool call logic which attempts to override built-in lookup tools. If something isn't in the index it will just fallback to regex lookups. The whole system is a single binary written in Rust for performance. In our real world testing we are seeing about 50%-60% reduction in token usage compared to the built-in tools, and near instant lookup times compared to multiple seconds for each regex lookup. One place that indexio does come up shorter than then regex is when looking up symbols. We found that most of the agent's work was done looking at strings of words rather than symbols, but if you have a workflow that is heavy in this specific situation just know it may not fit. We opened sourced everything and would love to hear feedback. Huge Shout out to CocoIndex who gave us the inspiration for this idea. https://github.com/IOServicesLabs/indexio

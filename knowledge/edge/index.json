@@ -1,10 +1,192 @@
 {
-  "last_checked_at": "2026-10-11T11:05:16.777Z",
+  "last_checked_at": "2026-10-12T12:33:56.193Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "malkreide/dealkit",
+      "name": "malkreide/dealkit",
+      "url": "https://github.com/malkreide/dealkit",
+      "date": "2026-10-12",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 24,
+      "expected_gain": 79,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "xionglingsong/usage-evidence",
+          "date": "2026-09-19",
+          "topic": "AI agents",
+          "similarity": 0.223,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-19/07-xionglingsong-usage-evidence.md"
+        },
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.213,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "Skill-Based AI Agents for Power-System Studies",
+          "date": "2026-09-30",
+          "topic": "AI agents",
+          "similarity": 0.185,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/07-skill-based-ai-agents-for-power-system-studies.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-12)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, license, requires-python"
+        }
+      ],
+      "install_commands": [
+        "pip install -e \".[dev]\""
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-09-19 about AI agents; this candidate overlaps with \"xionglingsong/usage-evidence\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-12/01-malkreide-dealkit.md"
+    },
+    {
+      "id": "complyeaze/bridge",
+      "name": "ComplyEaze/bridge",
+      "url": "https://github.com/ComplyEaze/bridge",
+      "date": "2026-10-12",
+      "source": "awesome-mcp",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 84,
+      "momentum": 71,
+      "risk": 40,
+      "integration_effort": 48,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+          "date": "2026-10-07",
+          "topic": "AI dev tools",
+          "similarity": 0.185,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/13-show-hn-nanomuse-an-open-source-ai-agent-for-your-phone-and-computer.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-12)",
+        "Apache-2.0 license",
+        "25 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @tauri-apps/api, lucide-react, react, react-dom, @playwright/test, @tauri-apps/cli, @types/react, @types/react-dom; scripts dev, test, build, check, tauri, tauri:dev, tauri:build, cargo:check"
+        }
+      ],
+      "install_commands": [
+        "pnpm test"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-07 about AI dev tools; this candidate overlaps with \"Show HN: NanoMuse – An open-source AI agent for your phone and computer\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-12/02-complyeaze-bridge.md"
+    },
+    {
+      "id": "officialspicrawl/agent-plugins",
+      "name": "OfficialSpicrawl/agent-plugins",
+      "url": "https://github.com/OfficialSpicrawl/agent-plugins",
+      "date": "2026-10-12",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 87,
+      "momentum": 49,
+      "risk": 32,
+      "integration_effort": 52,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.267,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+          "date": "2026-09-09",
+          "topic": "AI agents",
+          "similarity": 0.248,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
+        },
+        {
+          "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+          "date": "2026-10-07",
+          "topic": "AI agents",
+          "similarity": 0.243,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-07/06-show-hn-agent-reviews-where-ai-agents-read-and-write-reviews-on-tools.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-12)",
+        "Apache-2.0 license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [],
+      "install_commands": [
+        "claude plugin marketplace add OfficialSpicrawl/agent-plugins",
+        "claude plugin install spicrawl@spicrawl-plugins",
+        "codex plugin marketplace add OfficialSpicrawl/agent-plugins",
+        "npx skills add OfficialSpicrawl/agent-plugins",
+        "npx skills add",
+        "npm install n8n-nodes-spicrawl"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-12/03-officialspicrawl-agent-plugins.md"
+    },
     {
       "id": "rolovibes/halo-harness",
       "name": "roloVibes/Halo-Harness",
@@ -19478,166 +19660,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-04/02-alarming-japanesefloweringcherry987-claude-coach-kit.md"
-    },
-    {
-      "id": "ryannel/groundwork",
-      "name": "ryannel/GroundWork",
-      "url": "https://github.com/ryannel/GroundWork",
-      "date": "2026-07-04",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 92,
-      "momentum": 45,
-      "risk": 24,
-      "integration_effort": 46,
-      "expected_gain": 69,
-      "composite": 69,
-      "replacement_target": null,
-      "related_articles": [],
-      "pros": [
-        "Recently updated (2026-07-04)",
-        "MIT license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps web-tree-sitter, yaml, @nx/devkit, @tree-sitter-grammars/tree-sitter-kotlin, @tree-sitter-grammars/tree-sitter-lua, @types/node, esbuild, nx; scripts test, build, build:dev-cli, gen:workflow-index, build:grammars, prepublishOnly"
-        }
-      ],
-      "install_commands": [
-        "npx groundwork-method init",
-        "npx groundwork-method check",
-        "npx groundwork-method help",
-        "npx groundwork-method repo-map"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "ryannel/GroundWork matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-04/03-ryannel-groundwork.md"
-    },
-    {
-      "id": "aterdev/perigon.cli",
-      "name": "AterDev/Perigon.CLI",
-      "url": "https://github.com/AterDev/Perigon.CLI",
-      "date": "2026-07-03",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 71,
-      "momentum": 78,
-      "risk": 35,
-      "integration_effort": 48,
-      "expected_gain": 81,
-      "composite": 72,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: AwsmAudio – a WebAudio editor with native MCP",
-          "date": "2026-06-15",
-          "topic": "AI agents",
-          "similarity": 0.184,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-15/28-show-hn-awsmaudio-a-webaudio-editor-with-native-mcp.md"
-        },
-        {
-          "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.183,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-03)",
-        "Apache-2.0 license",
-        "53 GitHub stars",
-        "Matches 2 saved Feed article(s)"
-      ],
-      "cons": [
-        "No clear install command found in README"
-      ],
-      "readme_quality": 63,
-      "has_ci": false,
-      "has_tests": false,
-      "setup_steps_count": 0,
-      "dependency_files": [],
-      "install_commands": [],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-15 about AI agents; this candidate overlaps with \"Show HN: AwsmAudio – a WebAudio editor with native MCP\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-03/01-aterdev-perigon-cli.md"
-    },
-    {
-      "id": "theweihu/devbrain",
-      "name": "TheWeiHu/devbrain",
-      "url": "https://github.com/TheWeiHu/devbrain",
-      "date": "2026-07-03",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 79,
-      "momentum": 53,
-      "risk": 24,
-      "integration_effort": 48,
-      "expected_gain": 77,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "llm011/ethan-agent",
-          "date": "2026-06-20",
-          "topic": "AI dev tools",
-          "similarity": 0.294,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
-        },
-        {
-          "title": "AlexNthLab/nth-dao",
-          "date": "2026-06-12",
-          "topic": "AI dev tools",
-          "similarity": 0.283,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
-        },
-        {
-          "title": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
-          "date": "2026-06-13",
-          "topic": "AI dev tools",
-          "similarity": 0.237,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-13/11-show-hn-skill-for-your-agent-to-visualize-your-gbrain-and-obsidian.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-03)",
-        "MIT license",
-        "3 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "go.mod",
-          "summary": "module github.com/TheWeiHu/devbrain"
-        }
-      ],
-      "install_commands": [
-        "go install github.com/TheWeiHu/devbrain/cmd/devbrain@latest",
-        "git diff main...nightshift"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-20 about AI dev tools; this candidate overlaps with \"llm011/ethan-agent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-03/02-theweihu-devbrain.md"
     }
   ]
 }
