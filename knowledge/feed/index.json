@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T12:33:28.608Z",
+  "updated_at": "2026-10-13T12:18:09.122Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/theonly1me/shadowclone",
+      "date": "2026-10-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "shadowclone reads the coding-agent sessions already on your disk, finds where you corrected the agent and turns those corrections into skills your agents load next time. It supports Claude Code, Codex, Cursor, Pi, and Antigravity. Every capture source is off by default and has its own consent setting. Why I'm building it? I use multiple harnesses and agen... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+    },
+    {
+      "title": "Show HN: Search for AI agents with usefulness score built in",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Ayobamiu/usefulness-search",
+      "date": "2026-10-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN. I partnered with Simon Kley to build this project at innovation intelligence hackathon (Berkeley). Simply, we’re building a usefulness score on top of search for ai-agents. Instead of agents reading 10 ranked relevant pages, we run a usefulness score first and give it only those that pass. We’re able to save token and cost with this and slightly be... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/07-show-hn-search-for-ai-agents-with-usefulness-score-built-in.md"
+    },
+    {
+      "title": "Skip to main content",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news#main-content",
+      "date": "2026-10-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Skip to main content (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/08-skip-to-main-content.md"
+    },
+    {
+      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "date": "2026-10-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Use your OpenAI subscription to create audiobooks (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/09-show-hn-use-your-openai-subscription-to-create-audiobooks.md"
+    },
+    {
+      "title": "H3M4N1H/ranq",
+      "source": "GitHub Search API",
+      "url": "https://github.com/H3M4N1H/ranq",
+      "date": "2026-10-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Free, open-source CLI that audits and fixes websites for SEO, AEO and GEO (AI search). Built by NodeKraft. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/10-h3m4n1h-ranq.md"
+    },
+    {
+      "title": "Show HN: Teilifís Seán – A Jellyfin Plugin for Channel Surfing",
+      "source": "Hacker News Show HN",
+      "url": "https://xn--teilifssen-04a4l.ie/",
+      "date": "2026-10-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "No Setup, Works immediately once installed with sensible defaults. Extremely lightweight. A demo on the site with no installation required to see how it works. I'm a Developer in Ireland. This is for Jellyfin admins who don't want the overhead of another app in their docker/server setup but also want that nostalgia feeling of channel surfing your own cont... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/11-show-hn-teilif-s-se-n-a-jellyfin-plugin-for-channel-surfing.md"
+    },
+    {
+      "title": "Show HN: RL agent trained only in synthetic markets got better on real 2020crash",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/giack-hack/synthetic-markets-transfer",
+      "date": "2026-10-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: RL agent trained only in synthetic markets got better on real 2020crash (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/12-show-hn-rl-agent-trained-only-in-synthetic-markets-got-better-on-real-.md"
+    },
+    {
+      "title": "openbmb/MiniCPM-V-4.7-35B-A3B",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x47taj/openbmbminicpmv4735ba3b/",
+      "date": "2026-10-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "gguf's: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf \" MiniCPM-V 4.7 is the latest model in the MiniCPM-V series, available in a 35B-A3B variant, with 35B-A3B being the first MoE model in the MiniCPM-V series . It builds on the family's single-image, multi-image, and video understanding capabilities, combining stronger foundation capabilities... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-12/13-openbmb-minicpm-v-4-7-35b-a3b.md"
+    },
+    {
+      "title": "Based on advice from LocalLLama implemented a n+2 lookahead prediction for ssd streaming Qwen Flash Next - and it worked!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4sit6/based_on_advice_from_localllama_implemented_a_n2/",
+      "date": "2026-10-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "My project is optimising qwen flash next on Mac Mini m5 64gb through SSD streaming. I recently asked LocalLLama for guidance on how to optimise token output. Today a popular method to do this is a lookahead guesser which fetches experts one layer ahead of the current layer. One popular suggestion was building a prediction model to start loading experts tw... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/14-based-on-advice-from-localllama-implemented-a-n-2-lookahead-prediction.md"
+    },
+    {
+      "title": "Horsey challenge | Strata Fork | Qwen 3.8 FN NVFP4",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uipn/horsey_challenge_strata_fork_qwen_38_fn_nvfp4/",
+      "date": "2026-10-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "So I wanted to try the horsey challenge myself on the latest engine i been testing which is a strata fork by sergqwer. https://github.com/sergqwer/strata-nvfp4 . I seen a post earlier and seen i believe it was a iq3 i think and it was pretty dope so i thought i try out the NVFP4. I wasn't expecting to share but i actually that it did pretty darn good with... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/15-horsey-challenge-strata-fork-qwen-3-8-fn-nvfp4.md"
+    },
+    {
+      "title": "Update: Converting dense models into Mixture-of-Experts",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uint/update_converting_dense_models_into/",
+      "date": "2026-10-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This is an update to my previous post which can be found here: https://www.reddit.com/r/LocalLLaMA/s/n7sgRZZc4z Since my last post I have continued working on the conversion process and also converting new models. My latest model is the Qwen2.5-1.5B-MoE-A0.9B . I have also released GGUF versions for both the 0.5B and the 1.5B models which can be found her... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/16-update-converting-dense-models-into-mixture-of-experts.md"
+    },
     {
       "title": "Show HN: Seodata.dev (1.1) Free search data for AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "In June 2026, thousands of AI agents found that a small public wiki would accept edits from inside their sandboxes, and started using it to help one another pass a timed test. Each agent lived for about an hour and remembered nothing afterwards. Nobody asked them to cooperate, and the wiki had not been built for them. The complete record of what they wrot... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/07-copying-explains-the-collective-behavior-of-ai-agents-in-the-wild.md"
-    },
-    {
-      "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.09113v1",
-      "date": "2026-09-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essential to bridge this gap, among which Sparse Autoencoders (... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/08-saescientist-bench-can-ai-agents-conduct-autonomous-sae-interpretabili.md"
-    },
-    {
-      "title": "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.08832v1",
-      "date": "2026-09-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large language model (LLM)-powered agents can be accurate on average yet unreliable in production, a discrepancy that has been observed but remains largely unaddressed. When given the same task five times, a ReAct agent on the AppWorld benchmark using GPT-4.1 succeeds in all five runs only 53% of the time, even though its per-run pass rate averages 77%. W... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/09-closing-the-consistency-gap-self-evolving-agents-that-learn-to-stay-on.md"
-    },
-    {
-      "title": "Show HN: VolAnti – Open-source acoustic detector for fibre-optic FPV drones",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/agamrossen/VolAnti",
-      "date": "2026-09-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "This project has been a month in the making, and 9 fully functional units will be sent tomorrow to an undisclosed civilian site across the Israel - Lebanon border. All of my findings are shared online to anyone on the globe who could benefit from them, or make their own units. I'm an engineering student at the University of York, originally from Israel, s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-09/10-show-hn-volanti-open-source-acoustic-detector-for-fibre-optic-fpv-dron.md"
-    },
-    {
-      "title": "Show HN: Raven – Encrypted messages hidden inside ordinary text",
-      "source": "Hacker News Show HN",
-      "url": "https://sendraven.ink",
-      "date": "2026-09-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Solo dev. built in my spare time. Raven uses a combination of steganography and cryptography to create a metadata resistant messenger. It encrypts any piece of text on your device and stores the ciphertext on Solana. It works pairwise with keys, users decrypt locally on their device- no accounts. I do run the relayer and a retention sweeper (not claiming... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-09/11-show-hn-raven-encrypted-messages-hidden-inside-ordinary-text.md"
-    },
-    {
-      "title": "Show HN: A browser IDE for m68000, Z80 assembly (and more), with graphics",
-      "source": "Hacker News Show HN",
-      "url": "https://asm-editor.specy.app/",
-      "date": "2026-09-08",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Asm Editor is an open-source browser IDE for writing, running, and debugging assembly. It currently supports M68K, Z80, MIPS, RISC-V (32- and 64-bit), and x86-64. The debugger includes breakpoints, backward stepping, execution history, register and memory inspection, and other tools intended to make assembly easier to understand. I recently added graphics... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-08/12-show-hn-a-browser-ide-for-m68000-z80-assembly-and-more-with-graphics.md"
-    },
-    {
-      "title": "tinnt-truman/filmcraft-ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/tinnt-truman/filmcraft-ai",
-      "date": "2026-09-09",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "tinnt-truman/filmcraft-ai Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-09/13-tinnt-truman-filmcraft-ai.md"
-    },
-    {
-      "title": "OpenAI alleged of stealing mathematicians work",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/",
-      "date": "2026-09-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Privacy have been concern of many of us to have their own hardware to run llms, and here's another reason why: two mathematicians spent a year cracking one of the hardest problems in math and fed every draft of their works into Codex. A few days before they could publish, OpenAI suddenly showed up with the same solutions. When asked if their model (Sol an... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-08/14-openai-alleged-of-stealing-mathematicians-work.md"
-    },
-    {
-      "title": "Qwen 3.8 27b with PI agent - pushed to its 3D graphic game limits",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waz5a0/qwen_38_27b_with_pi_agent_pushed_to_its_3d/",
-      "date": "2026-09-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I was inspired by Bijan Bowen video - Subway FPS https://youtu.be/6kjXzTVmT58?t=1035 Wondered how far I can push Qwen 3.8 27b so I used a plan made by Fable 5.1 DESIGN.md which has 267 KB! ( 26K of design line for a game ... LOL ) https://drive.google.com/file/d/1gI0h8Arc73Ln8b3uj5rEpuAvJ3-611mh/view?usp=drive_link So I gave that design.md to my qwen 3.8... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-08/15-qwen-3-8-27b-with-pi-agent-pushed-to-its-3d-graphic-game-limits.md"
-    },
-    {
-      "title": "MiMo-X-Pro-Preview and MiMo-X-Flash-Preview - New Mimo Model found in Mimo Desktop preview announcement",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbejtp/mimoxpropreview_and_mimoxflashpreview_new_mimo/",
-      "date": "2026-09-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "From the email \"Early access to new models During the program, approved users can try two next-generation Xiaomi MiMo models for a limited time: MiMo-X-Pro-Preview and MiMo-X-Flash-Preview. The MiMo-X series is optimized for real professional workflows, with a focus on complex reasoning, multi-agent collaboration, large-scale coding projects, Office, web... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-09/16-mimo-x-pro-preview-and-mimo-x-flash-preview-new-mimo-model-found-in-mi.md"
-    },
-    {
-      "title": "GPU guide (GB per dollar, bandwidth)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1waq7hu/gpu_guide_gb_per_dollar_bandwidth/",
-      "date": "2026-09-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "First plot: GB / $ Second plot: bandwidth (spec on paper, not t/s) Third plot (bandwidth / price) in the comment. Hope that helps, my script uses the GPUs most discussed on the LocalLLaMA, LowEndLocalAI, and LocalLLM subs. At first, I tried to include more, but it became unreadable. Prices were collected by ChatGPT (so may contain inaccuracies). New price... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-08/17-gpu-guide-gb-per-dollar-bandwidth.md"
-    },
-    {
-      "title": "Show HN: Archprint, infer architecture lint rules from your repo's import graph",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Tommkruix/archprint",
-      "date": "2026-09-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "This tool started as a research for me trying to answer the question \"Does AI agents drift from your architecture conventions or if you need enforcement instead?\". So I started out building a benchmark to test that premise and on the scope I tested, the agents did not drift and I had to stop that research line. So to reuse what I have learnt from that res... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/06-show-hn-archprint-infer-architecture-lint-rules-from-your-repo-s-impor.md"
     }
   ]
 }
