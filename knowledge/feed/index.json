@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T12:18:09.122Z",
+  "updated_at": "2026-10-14T09:49:49.786Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Jevcrawl – A web crawler for AI agents with no LLM in the crawl loop",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/RayenMlayeh/jevcrawl",
+      "date": "2026-10-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Jevcrawl – A web crawler for AI agents with no LLM in the crawl loop (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-jevcrawl-a-web-crawler-for-ai-agents-with-no-llm-in-the-crawl-.md"
+    },
+    {
+      "title": "PlanPath: Exploration-Guided Orchestration for Patient-Level Pathology Reasoning",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.18664v1",
+      "date": "2026-10-13",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "A patient's pathology case spans tens of slides from distinct specimens and anatomical sites, each carrying non-redundant, site-specific evidence. Forming a patient-level conclusion therefore requires locating the slides relevant to a given question and integrating complementary findings across them. However, existing pathology agents analyze one slide at... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/07-planpath-exploration-guided-orchestration-for-patient-level-pathology-.md"
+    },
+    {
+      "title": "AgentStripes: An Evidence-Graded Maturity Model for AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.18603v1",
+      "date": "2026-10-13",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Benchmarks report what an Artificial Intelligence (AI) agent can do on a task suite, but not whether one released version has been engineered with the controls that make it reliable, safe and observable, or how strongly that is shown. This paper proposes AgentStripes, an evidence-graded maturity model for AI agents. It defines levels (0 to 7 stripes), pro... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/08-agentstripes-an-evidence-graded-maturity-model-for-ai-agents.md"
+    },
+    {
+      "title": "Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.18449v1",
+      "date": "2026-10-13",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents for autonomous scientific discovery must decide which experiments to run under a limited budget. Most benchmarks for science agents provide fixed datasets, while others that support active experimentation largely rely on simulation. We introduce Autonomous Science Bench, an initial release comprising six budgeted design-build-test-learn campaign... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/09-autonomous-science-bench-evaluating-ai-agents-for-autonomous-scientifi.md"
+    },
+    {
+      "title": "Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/LargeModGames/spotatui",
+      "date": "2026-10-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "About 11 months ago i revived the amazing but unfortunately unmaintained spotify-tui. Since then I have been working on it almost non stop, finding a lot of problems on the way. One of the main issues I ran into were the Spotify web API rate limits. Third party clients like spotatui are dependent on a developer app made in the Spotify developer dashboard,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/10-show-hn-spotatui-a-spotify-tui-gui-without-web-api-rate-limits.md"
+    },
+    {
+      "title": "Show HN: Wonderhop – A daily game: guess what most people say, or what none do",
+      "source": "Hacker News Show HN",
+      "url": "https://wonderhop.io/en/",
+      "date": "2026-10-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN! Wonderhop is a small browser game with no account needed to play, everyday there are 4 rounds of 7 quesitons like \"Name a food that a lot of people hate\" The goal depends on the mode: Either gives the answer most people would give, the one no one would give, the oldest answer or the most recent one and there's a leaderboard for the day. The most... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/11-show-hn-wonderhop-a-daily-game-guess-what-most-people-say-or-what-none.md"
+    },
+    {
+      "title": "Show HN: Stream live open data in two commands",
+      "source": "Hacker News Show HN",
+      "url": "https://docs.hypermass.io/docs/cli/",
+      "date": "2026-10-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "A service and open source tool to get open data streams in two commands. No sign up needed for subscribing. Streams to try: - https://hypermass.io/stream/_J0fm450s - extreme UV images of the sun from SOHO - visual data - https://hypermass.io/stream/_ATtCoEK - GDACS live disaster data (filtered to just the ongoing items) The CLI (Apache 2.0, https://github... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/12-show-hn-stream-live-open-data-in-two-commands.md"
+    },
+    {
+      "title": "Show HN: AgentGate – Fast authorization gateway for AI agent tools",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/mohitdebian/AgentGate",
+      "date": "2026-10-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: AgentGate – Fast authorization gateway for AI agent tools (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-14/13-show-hn-agentgate-fast-authorization-gateway-for-ai-agent-tools.md"
+    },
+    {
+      "title": "Claude CoWork for Local LLMs that runs on your Phone",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5bawd/claude_cowork_for_local_llms_that_runs_on_your/",
+      "date": "2026-10-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi Friends, I am a solo developer. Ever since I had Qwen 3.8 running on my RTX4090, I had an itch to use it on my phone for everything. That gave me the idea to build SteerClaw Mobile - a complete agentic experience on the Phone where the entire agent loop runs on it. We just connect our model, MCP servers and Search providers. Fully private, all data is... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/14-claude-cowork-for-local-llms-that-runs-on-your-phone.md"
+    },
+    {
+      "title": "Tencent open-sourced Agent Memory and it runs 100% locally on SQLite",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x50rgo/tencent_opensourced_agent_memory_and_it_runs_100/",
+      "date": "2026-10-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/AdamDhahabi [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/15-tencent-open-sourced-agent-memory-and-it-runs-100-locally-on-sqlite.md"
+    },
+    {
+      "title": "4x 6000 Pro for the company",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4yoqm/4x_6000_pro_for_the_company/",
+      "date": "2026-10-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Here is how i serve 40 people (10 of them developers) with local AI services. n8n for automatisation whisper and Vexa AI, a bot joins Teams and makes transcripts, n8n later extracts decisions and todos OpenWebUI, ChatGPT-like webinterface for everyone, most agentic features are disabled, websearches via Tavily are possible Every developer has an API key t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/16-4x-6000-pro-for-the-company.md"
+    },
+    {
+      "title": "My local Qwen3.8FN agent is significantly cheaper than cloud",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5blg4/my_local_qwen38fn_agent_is_significantly_cheaper/",
+      "date": "2026-10-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "tl;dr: running Qwen3.8FN Q4 locally is cheaper for me than every cloud model except Luna and the newer Haiku at mid-peak and peak electricity pricing where I live, and becomes the absolute cheapest model at off peak pricing. An agentic run that spans these different pricing points or at least chooses to avoid peak times can come out overall cheaper. Hardw... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/17-my-local-qwen3-8fn-agent-is-significantly-cheaper-than-cloud.md"
+    },
     {
       "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Show HN: A guestbook for humans and AI agents, built on 144 pixels (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/07-show-hn-a-guestbook-for-humans-and-ai-agents-built-on-144-pixels.md"
-    },
-    {
-      "title": "Can AI Agents Deliver Verifiable Network-Wide Outcomes Across Authority Boundaries?",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.10181v1",
-      "date": "2026-09-09",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents are increasingly involved in network automation, where they can initiate configuration changes through mediated operational interfaces and assess the resulting state. Nonetheless, operational networks usually span many devices and administrative domains. Realizing an operator's intent requires coordinating agents with distinct authority scopes t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/08-can-ai-agents-deliver-verifiable-network-wide-outcomes-across-authorit.md"
-    },
-    {
-      "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.10144v1",
-      "date": "2026-09-09",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI systems become more useful when they can adapt to the people using them, but in multi-agent systems, useful context learned by one agent often remains unavailable to others. We present kernel-managed shared memory, a system-level abstraction in which specialized agents write structured, tagged memories while the agent-system kernel, not individual agen... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/09-kernel-managed-shared-memory-for-system-wide-personalization.md"
-    },
-    {
-      "title": "hierrr/madison",
-      "source": "GitHub Search API",
-      "url": "https://github.com/hierrr/madison",
-      "date": "2026-09-10",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Supervise Claude Code & Codex sessions across all your machines — self-hosted hub: live fleet status, cross-device handoffs, daily work reports, token & rate-limit history (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-10/10-hierrr-madison.md"
-    },
-    {
-      "title": "mthajulharris-ai/SIH20162",
-      "source": "GitHub Search API",
-      "url": "https://github.com/mthajulharris-ai/SIH20162",
-      "date": "2026-09-10",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "mthajulharris-ai/SIH20162 Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-10/11-mthajulharris-ai-sih20162.md"
-    },
-    {
-      "title": "Show HN: Botbin.io – pastebin for AI agent artifacts",
-      "source": "Hacker News Show HN",
-      "url": "https://botbin.io/?v=next",
-      "date": "2026-09-10",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Botbin.io – pastebin for AI agent artifacts (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-10/12-show-hn-botbin-io-pastebin-for-ai-agent-artifacts.md"
-    },
-    {
-      "title": "Show HN: Geiger – See every AI agent on your machine and what it can touch",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/Atomburstofficial/geiger",
-      "date": "2026-09-09",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Geiger – See every AI agent on your machine and what it can touch (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-09/13-show-hn-geiger-see-every-ai-agent-on-your-machine-and-what-it-can-touc.md"
-    },
-    {
-      "title": "Don't let FOMO win if you're interested in local llm from a hobby/learning aspect",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbufx5/dont_let_fomo_win_if_youre_interested_in_local/",
-      "date": "2026-09-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Just a reminder for those out there itching to get into local llms - don't let FOMO or \"gear acquisition syndrom\" take over. No matter the hobby, it's so easy to get stuck in a trap where we buy more trying to do more only to realize we've lost the fun in it all or even the notion of learning. Obviously, if you're into writing llama or vllm or hardware dr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-09/14-don-t-let-fomo-win-if-you-re-interested-in-local-llm-from-a-hobby-lear.md"
-    },
-    {
-      "title": "Surveillance plagiarism by OpenAI",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wby2cm/surveillance_plagiarism_by_openai/",
-      "date": "2026-09-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Surveillance plagiarism - Hosted AI company pumps their stock price by training upon researchers' AI sessions, so that their internal model can solve problems with seemingly less human guidance, but really the model exploits past guidance given by (multiple) humans focused upon problems considered important. As background, Tristan Buckmaster released a st... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-09/15-surveillance-plagiarism-by-openai.md"
-    },
-    {
-      "title": "Hosting Local Models",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcbtba/hosting_local_models/",
-      "date": "2026-09-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi builders, What would be the the best small local models for coding? Are Gemma 4 and Qwen3.8 27B Gemma 4 26B / 31B enough for local development? And what would be the size of the rig that i will need to get? GPUs, and whatever else I need to host these models. Thanks,, submitted by /u/forevergeeks [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/16-hosting-local-models.md"
-    },
-    {
-      "title": "Local LLM / Qwen 3.8 win",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wc5t3s/local_llm_qwen_38_win/",
-      "date": "2026-09-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I’ve been working on perfecting my setup ever since 3.8 hit, but no longer pay for subscriptions. I had a coding interview today and setup openrouter ahead of time as another option. I figured I could use the latest GLM flash for cheap and it would be fast. Nope. Over thought the whole thing and I had to steer it, so I fired off Qwen at the same time. It... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/17-local-llm-qwen-3-8-win.md"
-    },
-    {
-      "title": "Show HN: Booley – open-source IDE for agentic chip design",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/boldaxolotl/booley",
-      "date": "2026-09-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I am a digital design engineer, and my day job is designing chips (mostly IP blocks, not full chips) in SystemVerilog. At the start of 2026 I started experimenting with LLM agents like Claude and Codex, and realized that they are very capable not just at software and scripts, but at hardware design as well! But after the initial excitement, I started runn... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-booley-open-source-ide-for-agentic-chip-design.md"
-    },
-    {
-      "title": "Copying explains the collective behavior of AI agents in the wild",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.09150v1",
-      "date": "2026-09-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "In June 2026, thousands of AI agents found that a small public wiki would accept edits from inside their sandboxes, and started using it to help one another pass a timed test. Each agent lived for about an hour and remembered nothing afterwards. Nobody asked them to cooperate, and the wiki had not been built for them. The complete record of what they wrot... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-08/07-copying-explains-the-collective-behavior-of-ai-agents-in-the-wild.md"
     }
   ]
 }

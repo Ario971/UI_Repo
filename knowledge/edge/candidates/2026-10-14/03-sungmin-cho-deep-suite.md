@@ -1,0 +1,550 @@
+---
+id: "sungmin-cho/deep-suite"
+name: "Sungmin-Cho/deep-suite"
+url: "https://github.com/Sungmin-Cho/deep-suite"
+date: "2026-10-14"
+source: "GitHub Trending"
+category: "github_discovery"
+kind: "claude_skill"
+compatibility: 84
+momentum: 68
+risk: 40
+integration_effort: 44
+expected_gain: 87
+composite: 74
+replacement_target: ""
+related_articles: [{"title":"Show HN: Visually orchestrate Claude Code AI agents","date":"2026-09-23","topic":"AI agents","similarity":0.317,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"},{"title":"Show HN: shadowclone, skills learned from your coding agent corrections","date":"2026-10-13","topic":"AI agents","similarity":0.277,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"},{"title":"Show HN: DH Tools – 40 client-side developer and productivity tools","date":"2026-09-19","topic":"AI dev tools","similarity":0.268,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/13-show-hn-dh-tools-40-client-side-developer-and-productivity-tools.md"}]
+pros: ["Recently updated (2026-10-14)","MIT license","9 GitHub stars","GitHub Actions/CI detected"]
+cons: ["README mentions credentials or API tokens","README mentions telemetry/analytics"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 4
+dependency_files: [{"name":"package.json","summary":"deps ajv, ajv-formats; scripts test, validate, validate-artifact, validate-artifact-fixtures, docs:check, docs:write, docs:sync, preflight"}]
+install_commands: ["codex plugin marketplace add Sungmin-Cho/deep-suite","npm install                       # ajv + ajv-formats (devDeps only)","npm test                          # unit + spawnSync CLI tests","npm run validate                  # validates the real .claude-plugin/suite-extensions.json","claude plugin validate"]
+risk_flags: ["README mentions credentials or API tokens","README mentions telemetry/analytics"]
+status: "new"
+---
+
+# Sungmin-Cho/deep-suite
+
+Harness layer for Claude Code & Codex: plan-first development, independent review, durable long-running orchestration, and knowledge capture — ten composable plugins.
+
+URL: https://github.com/Sungmin-Cho/deep-suite
+
+## Why it matters
+You saved an article on 2026-09-23 about AI agents; this candidate overlaps with "Show HN: Visually orchestrate Claude Code AI agents" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-14)
++ MIT license
++ 9 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- README mentions credentials or API tokens
+- README mentions telemetry/analytics
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 4
+
+Dependency files:
+- package.json: deps ajv, ajv-formats; scripts test, validate, validate-artifact, validate-artifact-fixtures, docs:check, docs:write, docs:sync, preflight
+
+Install commands found:
+- codex plugin marketplace add Sungmin-Cho/deep-suite
+- npm install                       # ajv + ajv-formats (devDeps only)
+- npm test                          # unit + spawnSync CLI tests
+- npm run validate                  # validates the real .claude-plugin/suite-extensions.json
+- claude plugin validate
+
+Risk flags:
+- README mentions credentials or API tokens
+- README mentions telemetry/analytics
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+**English** | [한국어](./README.ko.md)
+
+# Deep Suite
+
+[![License: MIT](https://img.shields.io/github/license/Sungmin-Cho/deep-suite)](LICENSE) ![Plugins](https://img.shields.io/badge/plugins-10-5b8def) ![Scope](https://img.shields.io/badge/scope-AI%20agent%20tools-blue)
+
+**AI coding agents are powerful, but they fail in predictable ways** — they skip research, over-edit, drift from the architecture, approve their own work, and lose context between sessions.
+
+Deep Suite is a **harness layer for AI coding agents** that makes agentic coding structured, verifiable, and durable: the agent plans before it codes, an independent evaluator reviews what it wrote, knowledge is captured instead of lost, and long-running work carries across sessions. Claude Code and Codex have native marketplace surfaces; the underlying skill and artifact contracts are designed for compatible AI agent tools in general.
+
+### Start here — install one plugin, not ten
+
+| Plugin | What it fixes |
+|---|---|
+| **[deep-work](https://github.com/Sungmin-Cho/deep-work)** | Coding before thinking. Enforces a spec-first, TDD-driven flow: Brainstorm → Research → Spec → Plan → Implement → Test. |
+| **[deep-review](https://github.com/Sungmin-Cho/deep-review)** | Self-approval bias. A separate evaluator agent reviews AI-written code, so the author never signs off on its own diff. |
+| **[deep-loop](https://github.com/Sungmin-Cho/deep-loop)** | Losing the thread on long tasks. Durable, proposal-only orchestration that keeps multi-session work moving safely. |
+
+Need a different capability? Use the full [problem → plugin decision table](#integrated-workflow).
+
+```text
+Before:  Agent edits straight away   →  skips tests  →  approves its own diff
+After:   deep-work runs research → spec → plan → TDD → receipt,
+         then deep-review signs off independently
+```
+
+The remaining seven plugins — **wiki, memory, docs, dashboard, evolve, goal, model router** — extend the suite with knowledge capture, cross-project memory, doc gardening, harness telemetry, autonomous experimentation, goal compilation, and risk-aware model routing once you need them.
+
+Built on the [Harness Engineering](https://martinfowler.com/articles/harness-engineering.html) framework (Böckeler/Fowler, 2026) — `Agent = Model + Harness` — mapping Guides (feedforward) × Sensors (feedback) across Computational and Inferential control.
+
+## Plugins
+
+<!-- deep-suite:auto-generated:plugin-table-en:start -->
+
+| Plugin | Version | Description |
+|---|---|---|
+| [deep-work](https://github.com/Sungmin-Cho/deep-work) | 7.4.2 | Evidence-Driven Development Protocol |
+| [deep-wiki](https://github.com/Sungmin-Cho/deep-wiki) | 1.12.0 | Blocked terminal-prune diagnostics with a preserve-first quarantine plan and journaled wiki mutation |
+| [deep-evolve](https://github.com/Sungmin-Cho/deep-evolve) | 3.6.3 | Autonomous Experimentation Protocol |
+| [deep-review](https://github.com/Sungmin-Cho/deep-review) | 2.11.1 | Independent Evaluator for AI coding agents |
+| [deep-docs](https://github.com/Sungmin-Cho/deep-docs) | 1.7.0 | Document gardening + authoring |
+| [deep-dashboard](https://github.com/Sungmin-Cho/deep-dashboard) | 1.5.1 | Cross-plugin harness diagnostics + suite telemetry |
+| [deep-memory](https://github.com/Sungmin-Cho/deep-memory) | 1.0.6 | Cross-project semantic memory |
+| [deep-goal](https://github.com/Sungmin-Cho/deep-goal) | 1.2.1 | Goal condition compiler |
+| [deep-loop](https://github.com/Sungmin-Cho/deep-loop) | 1.28.0 | Loop Engineering control plane over the deep-suite |
+| [deep-model-router](https://github.com/Sungmin-Cho/deep-model-router) | 1.21.0 | Deterministic model/effort/review router for Claude Code, Codex, and Grok |
+
+<!-- deep-suite:auto-generated:plugin-table-en:end -->
+
+> The table is auto-generated by `scripts/generate-reference-sections.js` from the marketplace manifest + pinned `plugin.json.version`. Narrative content (including this paragraph) is hand-curated.
+
+Each plugin lives in its own Git repository: `github.com/Sungmin-Cho/deep-{name}`. The marketplace **name** remains `claude-deep-suite` so existing installs keep their plugin keys; that historical key does not limit the protocols to one host.
+
+## Runtime surfaces
+
+Deep Suite is host-neutral at the protocol and artifact layers, while installation, hooks, tool permissions, and invocation syntax remain host adapters:
+
+| Surface | Status | How it is exposed |
+|---|---|---|
+| Claude Code | Native marketplace | `.claude-plugin/marketplace.json` plus slash-command-compatible skills |
+| Codex | Native marketplace | `.agents/plugins/marketplace.json` plus each plugin's `.codex-plugin/plugin.json` |
+| Grok | Plugin-specific adapter | Supported where the plugin documents a Grok runtime contract; for example, deep-loop provides attended macOS slash-command operation |
+| Copilot CLI, Gemini CLI, Agent SDK, and similar tools | Portable skill surface | Invoke the installed `skills/<skill>/SKILL.md` entry through the host's skill/tool adapter |
+
+Native marketplace support means installation and discovery are integrated with that host. Portable skill support means the same workflow contract can be consumed by another capable AI agent; it does not claim identical hook or sandbox enforcement on every host.
+
+## Installation
+
+### Claude Code
+
+```bash
+# 1. Add the marketplace
+/plugin marketplace add Sungmin-Cho/deep-suite
+
+# 2. Install one plugin to start — they work independently
+/plugin install deep-work@claude-deep-suite
+
+# 3. Try it
+/deep-work "fix the flaky auth test"
+```
+
+> The marketplace is added by its GitHub `owner/repo` slug, but plugins install by the
+> marketplace **name** (`claude-deep-suite`) — hence `deep-work@claude-deep-suite`.
+
+<details>
+<summary>Install the whole suite (all ten)</summary>
+
+```bash
+/plugin install deep-work@claude-deep-suite
+/plugin install deep-review@claude-deep-suite
+/plugin install deep-loop@claude-deep-suite
+/plugin install deep-wiki@claude-deep-suite
+/plugin install deep-memory@claude-deep-suite
+/plugin install deep-docs@claude-deep-suite
+/plugin install deep-dashboard@claude-deep-suite
+/plugin install deep-evolve@claude-deep-suite
+/plugin install deep-goal@claude-deep-suite
+/plugin install deep-model-router@claude-deep-suite
+```
+</details>
+
+### Codex
+
+```bash
+codex plugin marketplace add Sungmin-Cho/deep-suite
+```
+
+Codex reads the native marketplace mirror at `.agents/plugins/marketplace.json`; each pinned plugin then exposes its Codex skills through `.codex-plugin/plugin.json` and `skills/<skill>/SKILL.md`.
+
+Examples often use the compact Claude Code slash form. Codex uses the corresponding skill alias; Grok and other compatible agents use the invocation surface documented by the installed plugin or host adapter:
+
+| Plugin | Claude Code | Codex | Portable skill entry |
+|---|---|---|---|
+| deep-work | `/deep-work "task"` | `$deep-work:deep-work "task"` | `skills/deep-work/SKILL.md` |
+| deep-evolve | `/deep-evolve` | `$deep-evolve:deep-evolve` | `skills/deep-evolve/SKILL.md` |
+| deep-review | `/deep-review-loop` | `$deep-review:deep-review-loop` | `skills/deep-review-loop/SKILL.md` |
+| deep-docs | `/deep-docs scan` | `$deep-docs:deep-docs scan` | `skills/deep-docs/SKILL.md` |
+| deep-wiki | `/wiki-ingest <source>` | `$deep-wiki:wiki-ingest <source>` | `skills/wiki-ingest/SKILL.md` |
+| deep-dashboard | `/deep-harness-dashboard` | `$deep-dashboard:deep-harness-dashboard` | `skills/deep-harness-dashboard/SKILL.md` |
+
+---
+
+## Harness Engineering Architecture
+
+Deep Suite implements the Harness Engineering framework: each plugin occupies a specific role in the 2×2 matrix of Guides × Sensors, across Computational and Inferential control.
+
+### 2x2 Matrix: where each plugin lives
+
+```
+                +---------------------------+---------------------------+
+                |  Computational            |  Inferential              |
++---------------+---------------------------+---------------------------+
+|               |                           |                           |
+|  Guides       |  deep-work                |  deep-work                |
+|  (Feedforward |  +- Phase Guard hook      |  +- research/plan/brain   |
+|   Control)    |  +- TDD state machine     |  +- Sprint Contract       |
+|               |  +- Topology templates    |                           |
+|               |                           |  deep-wiki                |
+|               |                           |  +- Persistent knowledge  |
+|               |                           |                           |
+|               |                           |  deep-docs                |
+|               |                           |  +- Document freshness    |
++---------------+---------------------------+---------------------------+
+|               |                           |                           |
+|  Sensors      |  deep-work                |  deep-review              |
+|  (Feedback    |  +- Linters + typecheck   |  +- Opus code review      |
+|   Control)    |  +- Coverage + mutation   |  +- 3-way cross-model     |
+|               |  +- 4 drift sensors       |  +- SOLID + entropy       |
+|               |  +- Fitness rules         |                           |
+|               |  +- review-check sensor   |  deep-work                |
+|               |                           |  +- Drift check           |
+|               |  deep-docs                |                           |
+|               |  +- Doc freshness scan    |                           |
+|               |                           |                           |
+|               |  deep-dashboard           |                           |
+|               |  +- Harnessability        |                           |
+|               |  +- Effectiveness         |                           |
++---------------+---------------------------+---------------------------+
+```
+
+### Plugin data flow
+
+```
+ deep-work ------- receipts -------> deep-dashboard (collector)
+    |                                    |
+    +-- health_report ----------------> deep-review (fitness-aware review)
+    |                                    |
+    +-- fitness.json <----------------> deep-review (rule consumption)
+    |                                    |
+ deep-docs ---- last-scan.json ---> deep-dashboard (collector)
+    |                                    |
+ deep-evolve -- evolve-receipt ----> deep-dashboard (collector)
+    |                                    |
+ deep-dashboard                          v
+    +-- harnessability ---------------> deep-work Phase 1 (research context)
+    +-- effectiveness ----------------> user (CLI report + optional markdown)
+
+ deep-review -- recurring-findings -> deep-evolve (experiment steering)
+ deep-evolve -- evolve-insights ---> deep-work (research context)
+ deep-evolve -- review trigger ----> deep-review (pre-merge verification)
+```
+
+### Integrated workflow
+
+Each plugin works independently. Route by the problem first; runtime-specific invocation comes afterwards.
+
+<!-- deep-suite:auto-generated:problem-plugin-table-readme-en:start -->
+
+| Plugin | Core question | When to use |
+|---|---|---|
+| **deep-work** | "How do I design and implement this?" | Features, bugs, and refactors that need an evidence-driven development flow |
+| **deep-wiki** | "How do I preserve what this agent learned?" | Durable project knowledge that should survive sessions and contributors |
+| **deep-evolve** | "Can an agent measurably improve this?" | Bounded autonomous experiments against one fixed fitness metric |
+| **deep-review** | "Is this work actually good?" | Independent review of code, designs, plans, and evidence before acceptance |
+| **deep-docs** | "Do the instructions and docs match reality?" | Scanning, gardening, and authoring agent-facing project documentation |
+| **deep-dashboard** | "Is the agent harness working well?" | Harnessability diagnosis, suite telemetry, and effectiveness trends |
+| **deep-memory** | "What should agents reuse across projects?" | Redacted reusable memory cards and task-specific recall |
+| **deep-goal** | "How do I turn this into a durable goal?" | Compiling a long-running request into a native goal condition |
+| **deep-loop** | "How do I keep long work moving across sessions?" | Durable multi-session orchestration with proof-gated boundaries |
+| **deep-model-router** | "Which model and review depth should do this?" | Risk-aware model, effort, and review routing before delegation |
+
+<!-- deep-suite:auto-generated:problem-plugin-table-readme-en:end -->
+
+**Examples by complexity:**
+
+```bash
+# Quick fix (30 min) — deep-work alone, skip Phase 6
+/deep-work --skip-integrate "fix login 500 error"
+
+# Medium feature (2-4 hours) — Phase 6 orchestrates review/docs/wiki
+/deep-work "add Stripe payment integration"
+# → Phase 6 recommends /deep-review, /deep-docs scan, /wiki-ingest (top-3 loop)
+
+# Large optimization (half-day+) — full plugin stack
+/deep-harness-dashboard                                  # diagnose project health
+/deep-evolve "achieve 90% test coverage"                 # autonomous experiments
+/wiki-ingest .deep-evolve/<session-id>/                  # preserve learnings
+```
+
+For detailed scenarios see the [Integrated Workflow Guide](guides/integrated-workflow-guide.md).
+
+---
+
+## deep-work
+
+**Evidence-Driven Development Protocol** — a single-command auto-flow orchestration that enforces structured, evidence-based software development.
+
+`/deep-work "task"` in Claude Code, or `$deep-work:deep-work "task"` in Codex, runs the entire **Brainstorm → Research → Spec → Plan → Implement → Test → Integrate** pipeline automatically. Claude Code uses hooks for physical phase enforcement; Codex uses the same skill protocol and verification gates through the Codex skill surface.
+
+### Key commands
+
+| Command | Description |
+|---------|-------------|
+| `/deep-work <task>` | Auto-flow orchestration — runs the full pipeline. Plan approval is the only required interaction. |
+| `/deep-work --skip-integrate <task>` | Same, but skip Phase 6 and go straight to `/deep-finish` |
+| `/deep-integrate` | Manual Phase 6 — top-3 next actions from installed plugin artifacts |
+| `/deep-status` | Unified view — progress, report, receipts, history, assumptions |
+| `/deep-debug` | Systematic debugging with root cause investigation |
+| `/deep-research` | Manual Phase 1 — deep codebase analysis |
+| `/deep-spec` | Manual Phase 2 — executable requirements, failure modes, and evidence gates |
+| `/deep-plan` | Manual Phase 3 — slice-based implementation planning |
+| `/deep-implement` | Manual Phase 4 — TDD-enforced slice execution |
+| `/deep-test` | Phase 5 — verification with quality gates |
+| `/deep-sensor-scan` | Computational sensor scan — linter, type checker, coverage |
+| `/deep-mutation-test` | Mutation testing — AI-generated test quality verification |
+
+### Workflow phases
+
+```
+Phase 0  Brainstorm    Design exploration — "why before how" (skippable)
+Phase 1  Research      Deep codebase analysis and documentation
+Phase 2  Spec          Executable requirements, invariants, and evidence gates
+Phase 3  Plan          Slice-based implementation plan (requires user approval)
+Phase 4  Implement     TDD-enforced execution — failing test → code → receipt
+Phase 5  Test          Receipt check, spec compliance, quality gates
+Phase 6  Integrate     Reads installed plugin artifacts → LLM ranks next actions
+                       → user picks from top-3 (≤5 rounds, skippable)
+```
+
+### Key features
+
+- **Phase-locked file editing** — code changes blocked outside Phase 4
+- **TDD enforcement** — failing test first, then implementation
+- **Receipt-based evidence** — every slice collects proof of completion (M3 cross-plugin envelope)
+- **Quality gates** — drift check, SOLID review, insight analysis, Sensor Clean, Mutation Score
+- **Computational sensors** — auto-run linter / type checker / coverage with self-correction loop (SENSOR_RUN → SENSOR_FIX → SENSOR_CLEAN)
+- **Mutation testing** — auto-verify AI-generated test quality; survived mutants trigger automatic test regeneration (up to 3 rounds)
+- **Slice review** — per-slice two-stage independent review (spec compliance + code quality) immediately after the sensor pipeline
+- **Phase 6 integrate** — AI-recommended top-3 next actions (review / docs / wiki / dashboard / evolve) after Test, with an interactive loop
+- **Team/solo delegation** — Research and Implement always delegate to subagents; team mode runs 3-way parallel Research
+- **Profile schema v4** — methodology policy is the single authority for routing, review strength, and verification gates, with atomic migration from v3
+
+[Full documentation →](https://github.com/Sungmin-Cho/deep-work)
+
+---
+
+## deep-wiki
+
+**LLM-managed markdown wiki** for persistent knowledge accumulation — an implementation of [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) philosophy.
+
+Instead of re-discovering knowledge each time (RAG), the active agent incrementally builds and maintains a persistent wiki. When you add a new source, the LLM reads it, extracts key information, and integrates it into the existing wiki. The knowledge compounds over time.
+
+### Key commands
+
+| Command | Description |
+|---------|-------------|
+| `/wiki-setup <path>` | Initialize wiki directory structure |
+| `/wiki-ingest <source>` | Read a source (URL, file, text) and create/update wiki pages |
+| `/wiki-query <question>` | Search the wiki and generate grounded answers with citations |
+| `/wiki-lint` | Health check — schema violations, orphan pages, broken links |
+| `/wiki-rebuild` | Regenerate index from page frontmatter |
+
+### Architecture
+
+```
+Raw Sources  →  Wiki (markdown pages)  →  Schema (management rules)
+```
+
+### Key features
+
+- **Content metadata and nested prune safety (v1.9.7)** — regular AppleDouble and exact OS metadata no longer block content catalogs, while nested terminal/quarantine cleanup remains bounded by owner and full directory-identity proofs; suspicious types stay fail-closed
+- **Flat pages** — tags replace categories; no broken links from moves
+- **Auto-lint** — runs after every ingest and rebuild
+- **Auto-filing** — query results that synthesize 2+ pages are filed back into the wiki
+- **Obsidian-compatible** — works as an Obsidian vault
+- **Main-caller ingest (v1.11.0)** — `/wiki-ingest` analyzes sources and writes page bodies in the host's main session on both Claude Code and Codex, so every body is written with the full source and the current page in view; the plugin ships no subagents, and the Node runtime stays the sole writer under a single global lock
+- **Auto-ingest hook** — in Claude Code, the `SessionStart` hook detects modified `.md` files in the vault and triggers `/wiki-ingest` automatically; opt-in via `auto_ingest:` config block. Codex uses the explicit `$deep-wiki:wiki-ingest` skill entry.
+- **M3 envelope adoption** — `index.json` is wrapped in the cross-plugin envelope for traceability; legacy payload preserved verbatim for forward-compat
+- **Native Windows lock reliability (v1.8.2)** — the atomic-write ownership seal tolerates the libuv ≥1.49 fstat/lstat `st_dev` asymmetry on Windows 11 24H2 / Server 2025 via a directional device-compatibility predicate, fixing permanent wiki-lock-acquisition failure
+- **Commit deadline scaling (v1.9.0)** — unchanged catalog files are sealed by hash instead of full bytes, dropping per-commit journal/staging cost from O(catalog) to O(diff) so large vaults (~1,400 pages) commit within the deadline budget instead of splitting into repeated `transaction recover`; drift is handled by a crash-safe cancel (journal-first atomic activation, bounded debris sweep, platform-aware resume hints)
+- **Completed scan-window reclamation (v1.9.4)** — `wiki-lint --fix` safely retires completed ensure journals when sealed marker and reservation evidence proves recovery is no longer needed, while ambiguous or malformed transaction state remains fail closed
+- **Lock contention observability (v1.9.5)** — `lock acquire --json` emits one stable exit-3 JSON envelope with a token-free canonical holder, degrades ambiguous owner evidence to `holder: null`, and normalizes active release-transition contention without changing recovery or lock ownership semantics
+- **Oversized transaction isolation (v1.10.0)** — an oversized leftover transaction directory is classified `TRANSACTION_OVERSIZED` and stepped over by lock-free readers and lock-held writers instead of wedging every route on a permanent `DEADLINE_EXCEEDED`; isolatable trees are relocated into sealed `.wiki-meta/.quarantine/` bundles that are never auto-deleted, and `transaction recover … --json` self-locks when no lock token is supplied so the rollback-quarantine `follow_up` is directly executable
+- **Blocked prune diagnostics (v1.12.0)** — when a terminal-prune quarantine is refused by a safety check, `wiki-lint --fix` reports each blocked store entry with its stage, reason and exact count instead of a generic `TRANSACTION_RECOVERY_REQUIRED`, and the CLI prints a reviewable, preserve-first `transaction quarantine` plan (canonical directory first, allowlisted names only, never executed); safety checks and deletion authority are unchanged
+
+[Full documentation →](https://github.com/Sungmin-Cho/deep-wiki)
+
+---
+
+## deep-evolve
+
+**Autonomous Experimentation Protocol** — specify a goal, and deep-evolve systematically improves your project through measured experiment loops.
+
+Cross-plugin feedback is baked in: recurring findings from deep-review steer experiment direction, evolve-insights feed into deep-work research context, and deep-evolve triggers deep-review for pre-merge verification. AAR-inspired layers add entropy tracking, a legibility gate, a shortcut detector, and diagnose-retry. Virtual parallel exploration runs N=1..9 independent seed worktrees coordinated by an adaptive scheduler over a shared forum, with session-end synthesis merging per-seed results into a single best branch.
+
+### Key commands
+
+| Command | Description |
+|---------|-------------|
+| `/deep-evolve init` | Initialize a new evolve session for a goal |
+| `/deep-evolve` | Resume the active session |
+| `/deep-evolve --review` | Trigger deep-review for pre-merge verification |
+
+### Key features
+
+- **Goal-driven experiment loops** — each iteration measures fitness deltas
+- **Cross-plugin feedback** — consumes deep-review findings, emits insights to deep-work
+- **Virtual parallel N-seed exploration** — N=1..9 worktrees coordinated by an adaptive scheduler
+- **AAR layers** — entropy tracking, legibility gate, shortcut detector, diagnose-retry
+- **M3 envelope adoption** — evolve-receipt + evolve-insights as cross-plugin envelopes
+
+[Full documentation →](https://github.com/Sungmin-Cho/deep-evolve)
+
+---
+
+## deep-review
+
+**Independent Evaluator** — reviews AI coding agent output with a separate Claude reviewer. Claude Code uses the Agent tool path; Codex uses the Claude CLI reviewer bridge. Runs 3-way cross-model verification when the Codex plugin is installed.
+
+Inspired by Anthropic's [Harness Design](https://www.anthropic.com/engineering/harness-design-long-running-apps) — structurally eliminates self-approval bias through Generator-Evaluator separation.
+
+### Review pipeline
+
+```
+Collect → Contract Check → Deep Review → Verdict
+                            ├─ Claude reviewer (always)
+                            ├─ codex:review (if available)
+                            └─ codex:adversarial-review (if available)
+```
+
+### Key commands
+
+| Command | Description |
+|---------|-------------|
+| `/deep-review` | Review current changes with an independent Opus evaluator |
+| `/deep-review --contract` | Sprint Contract-based verification |
+| `/deep-review --entropy` | Entropy scan (code drift, pattern mismatch) |
+| `/deep-review --respond` | Evidence-based response to review findings (Phase 6 delegated to a Sonnet subagent) |
+| `/deep-review init` | Initialize project review rules |
+
+### Key features
+
+- **Independent evaluator** — separate Claude reviewer with no Generator context
+- **Codex Claude bridge** — Codex runs the Claude reviewer through the plugin's CLI bridge instead of substituting a Codex subagent
+- **Cross-model verification** — 3-way parallel review when Codex is installed
+- **Phase 6 subagent delegation** — `/deep-review --respond` IMPLEMENT phase runs in a dedicated `phase6-implementer` subagent per severity group; main session keeps Phase 1~5 judgment and verifies with fail-closed content-aware delta + pathspec-limited commit
+- **Sprint Contract** — structured success criteria verification
+- **Environment adaptation** — works in git / non-git, with / without Codex
+
+[Full documentation →](https://github.com/Sungmin-Cho/deep-review)
+
+---
+
+## deep-docs
+
+**Document Gardening + Authoring Agent** — validates freshness and auto-repairs agent instruction documents like `CLAUDE.md` and `AGENTS.md`, and (v1.4.0) generates or restructures missing/thin docs such as `ARCHITECTURE.md`.
+
+Inspired by OpenAI's [Harness Engineering](https://openai.com/index/harness-engineering/) — "a doc-gardening agent runs repeatedly, finds stale docs, and opens fix PRs."
+
+### Key commands
+
+| Command | Description |
+|---------|-------------|
+| `/deep-docs scan` | Detect stale references, moved paths, outdated examples, and missing/thin doc gaps |
+| `/deep-docs garden` | Auto-fix with user confirmation; generate·restructure docs for detected authoring gaps |
+| `/deep-docs audit` | Quantitative document health report |
+
+### Key features
+
+- **Path-scoped freshness** — checks if referenced code paths changed after the doc was last updated
+- **Auto-fix / audit-only separation** — mechanical fixes only; subjective checks are audit-only
+- **Document authoring (v1.4.0)** — detects missing/thin docs (`missing-doc` / `thin-doc` gaps) and generates or restructures `CLAUDE.md` / `AGENTS.md` / `ARCHITECTURE.md`
+- **AGENTS-first single source (v1.6.0)** — `AGENTS.md` is the primary managed document; `CLAUDE.md` is kept as a thin `@AGENTS.md` wrapper holding Claude Code-specific notes only
+- **Durable scan artifact** — `.deep-docs/last-scan.json` with provenance (HEAD SHA, branch)
+- **Scoring** — size, freshness, reference accuracy, duplication
+
+[Full documentation →](https://github.com/Sungmin-Cho/deep-docs)
+
+---
+
+## deep-dashboard
+
+**Cross-plugin Harness Diagnostics** — assesses codebase harnessability and aggregates sensor results from deep-work, deep-review, and deep-docs into a unified view.
+
+Built on the Harness Engineering framework — the dashboard closes the feedback loop by measuring harness effectiveness across the entire deep-suite ecosystem.
+
+### Key commands
+
+| Command | Description |
+|---------|-------------|
+| `/deep-harnessability` | Assess codebase harnessability — 6 dimensions, 0-10 score with recommendations |
+| `/deep-harness-dashboard` | Unified view — health, fitness, sessions, effectiveness, suggested actions |
+
+### Harnessability dimensions
+
+| Dimension | Weight | What it measures |
+|-----------|--------|-----------------|
+| Type Safety | 25% | tsconfig strict, mypy strict, type hints |
+| Module Boundaries | 20% | dep-cruiser config, organized src, entry points |
+| Test Infrastructure | 20% | test framework, test files, coverage config |
+| Sensor Readiness | 15% | linter, type checker, lock file |
+| Linter & Formatter | 10% | eslint/ruff config, prettier/biome |
+| CI/CD | 10% | CI config, CI runs tests |
+
+### Key features
+
+- **Health status** — drift sensor results (dead-export, stale-config, dep-vuln, coverage-trend)
+- **Fitness rules** — architecture fitness function pass/fail
+- **Session quality** — recent 3 sessions average
+- **Effectiveness score** — weighted aggregate (0-10) with `not_applicable` redistribution
+- **Action routing** — suggested next action per finding
+- **Markdown export** — optional report file generation with user approval
+
+[Full documentation →](https://github.com/Sungmin-Cho/deep-dashboard)
+
+---
+
+## Suite Extensions (Sidecar Manifest)
+
+Cross-plugin metadata that does not fit the official marketplace schemas lives in a sidecar at `.claude-plugin/suite-extensions.json`, validated by [`schemas/suite-extensions.schema.json`](./schemas/suite-extensions.schema.json) (JSON Schema Draft 2020-12). Claude Code reads `.claude-plugin/marketplace.json`; Codex reads the mirrored `.agents/plugins/marketplace.json`.
+
+**Why a sidecar?** `marketplace.json` is closed (`additionalProperties: false`) — adding suite-only fields like `runtime`, `capabilities`, `artifacts` would either be ignored or rejected by `claude plugin validate`. The sidecar pattern keeps the official manifest clean while suite tooling consumes the extra metadata.
+
+**What's in it:**
+
+- `suite.name` (must equal `marketplace.json.name`), `harness_taxonomy`, `telemetry_namespace`
+- `plugins.<name>` — per-plugin `runtime`, `capabilities`, `artifacts.{writes,reads}`, `hooks_active`, optional `hooks_intentionally_empty_reason`, optional `consumer_only`
+- `data_flow[]` — producer → consumer edges with display-only `via` labels (machine-readable cross-plugin trace lives in the M3 artifact envelope)
+
+**Schema versioning is locked at `1.0`.** Forward-compat additions go through `x-*` patternProperties at root, suite, and plugin entry levels. Breaking changes require a new schema file (`suite-extensions-v2.schema.json`). See [`schemas/README.md`](./schemas/README.md) §Schema versioning.
+
+A second schema, [`artifact-envelope.schema.json`](./schemas/artifact-envelope.schema.json), defines the common envelope plugins adopt for cross-plugin traceability and deep-dashboard aggregation.
+
+**Validation:**
+
+```bash
+npm install                       # ajv + ajv-formats (devDeps only)
+npm test                          # unit + spawnSync CLI tests
+npm run validate                  # validates the real .claude-plugin/suite-extensions.json
+```
+
+The validator runs in two phases — JSON Schema (Phase 1) and post-schema referential integrity for `data_flow.from`/`to` (Phase 2). Phase is reported via stderr prefix; exit code is `0`/`1`/`2` (valid / validation fail / IO-usage-compile error).
+
+---
+
+## License
+
+MIT
+

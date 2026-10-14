@@ -1,10 +1,225 @@
 {
-  "last_checked_at": "2026-10-13T12:18:45.121Z",
+  "last_checked_at": "2026-10-14T09:50:27.003Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "agentscope-ai/reme",
+      "name": "agentscope-ai/ReMe",
+      "url": "https://github.com/agentscope-ai/ReMe",
+      "date": "2026-10-14",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 80,
+      "momentum": 100,
+      "risk": 22,
+      "integration_effort": 56,
+      "expected_gain": 85,
+      "composite": 81,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+          "date": "2026-10-07",
+          "topic": "AI agents",
+          "similarity": 0.227,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-07/06-show-hn-agent-reviews-where-ai-agents-read-and-write-reviews-on-tools.md"
+        },
+        {
+          "title": "Show HN: SuperLocalMemory 4.0 \"Governed Memory Operating System for AI Agents\"",
+          "date": "2026-10-04",
+          "topic": "AI agents",
+          "similarity": 0.22,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-04/06-show-hn-superlocalmemory-4-0-governed-memory-operating-system-for-ai-a.md"
+        },
+        {
+          "title": "Show HN: Clawfight.ai MCP-driven agentic game play",
+          "date": "2026-09-11",
+          "topic": "AI agents",
+          "similarity": 0.215,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-11/07-show-hn-clawfight-ai-mcp-driven-agentic-game-play.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-14)",
+        "Apache-2.0 license",
+        "3593 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, dynamic, description, readme, authors, license, requires-python, keywords"
+        }
+      ],
+      "install_commands": [
+        "pip install \"reme-ai[core]\"",
+        "git clone https://github.com/agentscope-ai/ReMe.git",
+        "pip install -e reme_studio -e \".[core]\"",
+        "npm ci",
+        "npm run build:static",
+        "docker compose up --build -d"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-07 about AI agents; this candidate overlaps with \"Show HN: Agent.reviews – Where AI agents read and write reviews on tools\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-14/01-agentscope-ai-reme.md"
+    },
+    {
+      "id": "1jehuang/jcode",
+      "name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "date": "2026-10-14",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 79,
+      "momentum": 100,
+      "risk": 38,
+      "integration_effort": 60,
+      "expected_gain": 95,
+      "composite": 79,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev",
+          "date": "2026-09-21",
+          "topic": "AI dev tools",
+          "similarity": 0.397,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"
+        },
+        {
+          "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+          "date": "2026-10-01",
+          "topic": "AI agents",
+          "similarity": 0.397,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/07-litereality-agent-an-agentic-system-for-interactable-3d-indoor-scene-r.md"
+        },
+        {
+          "title": "Show HN: agentc: <1mb static/no-libc, minimal, embeddable agent with Rust/C API",
+          "date": "2026-10-08",
+          "topic": "AI agents",
+          "similarity": 0.366,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/09-show-hn-agentc-1mb-static-no-libc-minimal-embeddable-agent-with-rust-c.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-14)",
+        "MIT license",
+        "20700 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [
+        "claude -p --input-format stream-json",
+        "Claude Code 2.1.267",
+        "Claude Code 2.1.86 (Claude Code)"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-21 about AI dev tools; this candidate overlaps with \"Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-14/02-1jehuang-jcode.md"
+    },
+    {
+      "id": "sungmin-cho/deep-suite",
+      "name": "Sungmin-Cho/deep-suite",
+      "url": "https://github.com/Sungmin-Cho/deep-suite",
+      "date": "2026-10-14",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 84,
+      "momentum": 68,
+      "risk": 40,
+      "integration_effort": 44,
+      "expected_gain": 87,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.317,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.277,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "Show HN: DH Tools – 40 client-side developer and productivity tools",
+          "date": "2026-09-19",
+          "topic": "AI dev tools",
+          "similarity": 0.268,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/13-show-hn-dh-tools-40-client-side-developer-and-productivity-tools.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-14)",
+        "MIT license",
+        "9 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps ajv, ajv-formats; scripts test, validate, validate-artifact, validate-artifact-fixtures, docs:check, docs:write, docs:sync, preflight"
+        }
+      ],
+      "install_commands": [
+        "codex plugin marketplace add Sungmin-Cho/deep-suite",
+        "npm install                       # ajv + ajv-formats (devDeps only)",
+        "npm test                          # unit + spawnSync CLI tests",
+        "npm run validate                  # validates the real .claude-plugin/suite-extensions.json",
+        "claude plugin validate"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-14/03-sungmin-cho-deep-suite.md"
+    },
     {
       "id": "tale-project/tale",
       "name": "tale-project/tale",
@@ -19445,221 +19660,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-07-05 about AI agents; this candidate overlaps with \"Show HN: Two-tier-memory – queryable long-term memory for AI coding agents\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-06/02-jolliai-jolliai.md"
-    },
-    {
-      "id": "dollardill/beads-superpowers",
-      "name": "DollarDill/beads-superpowers",
-      "url": "https://github.com/DollarDill/beads-superpowers",
-      "date": "2026-07-06",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 84,
-      "momentum": 62,
-      "risk": 40,
-      "integration_effort": 48,
-      "expected_gain": 87,
-      "composite": 72,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.426,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
-        },
-        {
-          "title": "Kuberwastaken/VPSmaxxing",
-          "date": "2026-06-30",
-          "topic": "AI dev tools",
-          "similarity": 0.331,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
-        },
-        {
-          "title": "LuD1161/agentjail",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.331,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-06)",
-        "MIT license",
-        "16 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README includes remote script execution pattern",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 5,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps none; scripts none"
-        }
-      ],
-      "install_commands": [
-        "claude plugin marketplace add DollarDill/beads-superpowers",
-        "claude plugin install beads-superpowers@beads-superpowers-marketplace",
-        "codex plugin marketplace add DollarDill/beads-superpowers",
-        "codex plugin install beads-superpowers@beads-superpowers-marketplace",
-        "npx skills add DollarDill/beads-superpowers -g --copy -y",
-        "npm install -g @beads/bd"
-      ],
-      "risk_flags": [
-        "README includes remote script execution pattern",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-04 about AI agents; this candidate overlaps with \"Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-06/03-dollardill-beads-superpowers.md"
-    },
-    {
-      "id": "getty104/claude-task-worker",
-      "name": "getty104/claude-task-worker",
-      "url": "https://github.com/getty104/claude-task-worker",
-      "date": "2026-07-05",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "ai_dev_tool",
-      "compatibility": 92,
-      "momentum": 55,
-      "risk": 24,
-      "integration_effort": 48,
-      "expected_gain": 77,
-      "composite": 73,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Kuberwastaken/VPSmaxxing",
-          "date": "2026-06-30",
-          "topic": "AI dev tools",
-          "similarity": 0.37,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
-        },
-        {
-          "title": "AlexNthLab/nth-dao",
-          "date": "2026-06-12",
-          "topic": "AI dev tools",
-          "similarity": 0.309,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
-        },
-        {
-          "title": "llm011/ethan-agent",
-          "date": "2026-06-20",
-          "topic": "AI dev tools",
-          "similarity": 0.289,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-05)",
-        "MIT license",
-        "2 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Repository description is sparse"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 5,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @eslint/js, @types/node, esbuild, eslint, eslint-config-prettier, prettier, typescript, typescript-eslint; scripts build, dev, lint, lint:fix, format, format:check, prepublishOnly"
-        }
-      ],
-      "install_commands": [
-        "npx claude-task-worker install",
-        "npm install -g claude-task-worker",
-        "npm install",
-        "npm run build",
-        "npm link",
-        "claude plugin marketplace add getty104/claude-task-worker"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-05/01-getty104-claude-task-worker.md"
-    },
-    {
-      "id": "buihongduc132/pi-acp-agents",
-      "name": "buihongduc132/pi-acp-agents",
-      "url": "https://github.com/buihongduc132/pi-acp-agents",
-      "date": "2026-07-05",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 92,
-      "momentum": 58,
-      "risk": 40,
-      "integration_effort": 48,
-      "expected_gain": 77,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.307,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/09-show-hn-cost-dev-yc-w21-making-agents-cost-aware-and-cheaper-to-call.md"
-        },
-        {
-          "title": "Show HN: AMA2, messenger built for AI agent",
-          "date": "2026-06-30",
-          "topic": "AI agents",
-          "similarity": 0.294,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"
-        },
-        {
-          "title": "greetingromansoldier/agora-perp-agent",
-          "date": "2026-06-13",
-          "topic": "AI agents",
-          "similarity": 0.287,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-13/06-greetingromansoldier-agora-perp-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-05)",
-        "MIT license",
-        "4 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 5,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @agentclientprotocol/sdk, pi-acp-types, @mariozechner/pi-coding-agent, @mariozechner/pi-tui, @types/node, @vitest/coverage-v8, typebox, typescript; scripts test, test:ci, test:watch, typecheck, prepublishOnly, prepack, postpack, version"
-        }
-      ],
-      "install_commands": [
-        "npm install @buihongduc132/pi-acp-agents",
-        "npm install",
-        "npm test              # all tests",
-        "npm run test:ci       # with coverage",
-        "npm run typecheck     # TypeScript validation",
-        "npm run publish:dry   # verify package contents before publish"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-04 about AI agents; this candidate overlaps with \"Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-05/02-buihongduc132-pi-acp-agents.md"
     }
   ]
 }
