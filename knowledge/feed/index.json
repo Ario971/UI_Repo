@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T09:49:49.786Z",
+  "updated_at": "2026-10-15T09:30:14.674Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Price of Anarchy of First-Price Auctions in Agentic Markets",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.20587v1",
+      "date": "2026-10-14",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its response minus its inference costs. First-price auctions (FPAs), in which the highest bidder pays its bid and receives the prompt, are a natural... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-14/06-price-of-anarchy-of-first-price-auctions-in-agentic-markets.md"
+    },
+    {
+      "title": "The Wealth of Agents: Scaling Agentic AI Across Developers",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.20518v1",
+      "date": "2026-10-14",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Today's agentic systems are typically designed, built, and deployed by single developers with full control over all participating agents. While this simplifies development, it limits the potential scale of agentic systems. We study multi-developer agentic systems (MDAs) which enable developers to collaboratively build agentic systems to push frontier capa... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-14/07-the-wealth-of-agents-scaling-agentic-ai-across-developers.md"
+    },
+    {
+      "title": "Bayesian Learning to Select Fair Classifiers",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.20514v1",
+      "date": "2026-10-14",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Evaluations of classifiers (AI or human or agents) often assume a batch setting in which every agent produces labels on every example in a test set, which can be expensive or impractical in many contexts. This motivates online policies that adaptively select agents to query as examples arrive and update policies as outcomes are observed. We study the prob... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-14/08-bayesian-learning-to-select-fair-classifiers.md"
+    },
+    {
+      "title": "From Training to Escalation: Forensic Analysis and Local Recreation of RL/RLHF-Induced Privilege Escalation in AI Agents (CVE-2026-65616)",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.20437v1",
+      "date": "2026-10-14",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Mid-2026 reporting on autonomous AI evaluation incidents claimed that frontier large language model (LLM) agents escaped server containment through emergent coordination and cloud infrastructure attacks. This paper contextualizes those claims through forensic analysis and containerized recreation of both the Highly Persistent Internal Model (HPIM) trainin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-14/09-from-training-to-escalation-forensic-analysis-and-local-recreation-of-.md"
+    },
+    {
+      "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "source": "Hacker News Show HN",
+      "url": "https://petal.live/",
+      "date": "2026-10-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! I’m Jason Thomas, one of the founders of CoScreen. As some of you may know, Datadog sunset the CoScreen service on July 31st. Four of us from the original CoScreen team have spent the last couple months building a free and open source pair programming tool inspired by those that came before us: It’s called Petal ( https://github.com/kiruna-labs/pet... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-14/10-show-hn-petal-open-source-coscreen-screenhero-finally-free.md"
+    },
+    {
+      "title": "Show HN: My Terminal Themes Web App",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=50098454",
+      "date": "2026-10-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Well, after 15 years of saying \"Someday I'll turn this into a web app,\" I finally did it! I've been maintaining a popular repo of terminal themes at https://github.com/mbadolato/iTerm2-Color-Schemes , and it was finally time to build the app with all the features I wanted! So, the next-gen version is live at https://terminalthemes.com ! It currently has o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-15/11-show-hn-my-terminal-themes-web-app.md"
+    },
+    {
+      "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
+      "source": "Hacker News Show HN",
+      "url": "https://towerpanic.com/",
+      "date": "2026-10-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I want to show you the game I created recently and tell you whole the story/experience - including backend/latency/scalability. You can try it quickly without an account - I created game demo rooms (EU/US/JP) - links below - just be aware that anyone with a link can access join the game. Let's start with short description of the game itself: This is the T... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-15/12-show-hn-towerpanic-a-family-party-game-on-a-small-fastapi-realtime-eng.md"
+    },
+    {
+      "title": "Show HN: I'll Call You Later, an interactive 3D browser short film",
+      "source": "Hacker News Show HN",
+      "url": "https://film.jashtechno.com",
+      "date": "2026-10-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I'm Jas (Jashwanth Palleti), and this is a solo project: a short night-time story in a car on a city street, with a red light, traffic, and a phone call. It runs in the browser with no install, built with React and Three.js via React Three Fiber. For the character's movement, I filmed myself on my phone, used AI pose estimation to turn the footage into SM... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-15/13-show-hn-i-ll-call-you-later-an-interactive-3d-browser-short-film.md"
+    },
+    {
+      "title": "New TTS king in town: Fish's Drama 3 35B3A!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6f9p2/new_tts_king_in_town_fishs_drama_3_35b3a/",
+      "date": "2026-10-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Yesterday Fish released this incredible text-to-speech model, so naturally I spent the rest of the day building a great demo for them :D The model is a chunky MoE (35B3A), but it runs well on a DGX Spark. The 4bit quants get very close to the original. You can try it here: https://huggingface.co/spaces/fishaudio/Drama-3 or download the model and run it lo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-15/14-new-tts-king-in-town-fish-s-drama-3-35b3a.md"
+    },
+    {
+      "title": "4x R9700 builds with $127 used EPYCs: $10.7k all-in per machine. I built three (384GB VRAM)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x67qeu/4x_r9700_builds_with_127_used_epycs_107k_allin/",
+      "date": "2026-10-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I saw the 4x R9700 build for a 10-person startup here a few days ago and wanted to share my results, since I opted to spend most of the money on the cards. I went with a super cheap used EPYC instead of a Threadripper. In the end it came to about $10.7k per box all-in, and I built three of them for a total of 384 GB of VRAM. As a long time lurker on my ot... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-15/15-4x-r9700-builds-with-127-used-epycs-10-7k-all-in-per-machine-i-built-t.md"
+    },
+    {
+      "title": "Chicken-coop shed AI PC",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6c5px/chickencoop_shed_ai_pc/",
+      "date": "2026-10-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Saw soneone post their bathroom AI PC a few weeks ago. Figured I’d contribute with my chicken-coop adjacent shed AI PC. Started with a single CMP 170HX (unlocked to 64GB) and ended up with three more for a total of 256gb VRAM. Found a deal on a used Threadripper with a TRX40 motherboard and 256gb DDR4 RAM to host the 4x 170HX. Added a 3050 plugged into ri... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-15/16-chicken-coop-shed-ai-pc.md"
+    },
+    {
+      "title": "A 35B multimodal model running on a phone with ~3GB memory? MiniCPM-V 4.7 demo is pretty wild",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/",
+      "date": "2026-10-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Just saw this demo from OpenBMB for MiniCPM-V 4.7 , and the on-device capability is pretty impressive. A 35B-A3B MoE vision-language model running locally on mobile devices is already interesting, but the use cases are what caught my attention: 📷 Reading real-world signs 📄 Understanding complex documents 🧠 Reasoning over visual information 🗺️ Planning... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-14/17-a-35b-multimodal-model-running-on-a-phone-with-3gb-memory-minicpm-v-4-.md"
+    },
     {
       "title": "Show HN: Jevcrawl – A web crawler for AI agents with no LLM in the crawl loop",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hey HN, we’re Nischal & Naman. We’re brothers, and together we’re building an open-source platform for simulation based testing of voice agents (try it out in 5 mins - https://docs.egma.ai/docs/get-started/quickstart , 2 min demo video - https://youtu.be/wgDWEe5UAUY ) Platforms that help you do simulation testing already exist. But they all charge a heavy... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-10/07-show-hn-open-source-simulation-testing-infra-for-voice-agents.md"
-    },
-    {
-      "title": "Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.11728v1",
-      "date": "2026-09-10",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Reproducible research practices are context engineering for AI coding agents. I argue that agents lower the cost of maintaining tests, commit histories, repository structure, instructions, and decision records while making their benefits immediate. Researchers remain responsible for verifying these artifacts and the scientific judgments they encode. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-10/08-reproducibility-in-the-age-of-agentic-ai-context-engineering-at-the-ti.md"
-    },
-    {
-      "title": "Autonomy, Social Norms, and Alignment: Towards a Developmental Framework for Autonomous Artificial Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.11660v1",
-      "date": "2026-09-10",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "In recent years, artificial intelligence has made extraordinary progress thanks to large-scale models capable of generalization and the generation of complex outputs. However, transferring this potential into embodied agents reveals a significant limitation: the most advanced systems rely on pre-existing datasets and human feedback strategies that are pow... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-10/09-autonomy-social-norms-and-alignment-towards-a-developmental-framework-.md"
-    },
-    {
-      "title": "Show HN: Dbmask – Discover, mask, and verify sensitive data in SQL databases",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/sealandseacat/dbmask",
-      "date": "2026-09-10",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN I developed *dbmask*, an open-source Python tool designed to discover sensitive columns in SQL databases, masking them with deterministic fake values, and validate the masking results. The motivation behind this tool stems from a common issue I encountered when handling test data: existing masking tools often assume the user already knows exactly wh... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-10/10-show-hn-dbmask-discover-mask-and-verify-sensitive-data-in-sql-database.md"
-    },
-    {
-      "title": "Show HN: Filament – Fast data movement engine in Go",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/galaxy-io/filament",
-      "date": "2026-09-08",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi, I'm Leon one of the cofounders of Galaxy. We just open sourced Filament, our data movement engine. Its written in Go and Apache 2.0 licensed. We currently support a handful of API connectors, Postgres, MySQL, ClickHouse, Iceberg, and S3. We benchmarked Filament against a bunch of other open source data movement tools and results + the harness is avail... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-08/11-show-hn-filament-fast-data-movement-engine-in-go.md"
-    },
-    {
-      "title": "ra-wan648/ai-directory-v5",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ra-wan648/ai-directory-v5",
-      "date": "2026-09-11",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ra-wan648/ai-directory-v5 Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-11/12-ra-wan648-ai-directory-v5.md"
-    },
-    {
-      "title": "ddgiovinazzo/beacon-ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ddgiovinazzo/beacon-ai",
-      "date": "2026-09-11",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Lightweight, modular, and deterministic CLI job intelligence engine in Python (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-11/13-ddgiovinazzo-beacon-ai.md"
-    },
-    {
-      "title": "Pi Agent Users - Nvidia Released Sol-Pi - A Pi-Extension based on AutoResearch loops to make the Harness more efficient",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcujgg/pi_agent_users_nvidia_released_solpi_a/",
-      "date": "2026-09-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Github Repo. Blog post. 💡 TL;DR (from the Github Readme) Spend less without making the agent do less useful work. SoL-Pi is a standalone extension for Pi that packages four reusable efficiency mechanisms discovered through scaled auto-research loops. It reduces repeated model turns, context replay, oversized observations, and unnecessary long-log reading... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/14-pi-agent-users-nvidia-released-sol-pi-a-pi-extension-based-on-autorese.md"
-    },
-    {
-      "title": "OUI-1: a model that generates bespoke UI elements",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcqa03/oui1_a_model_that_generates_bespoke_ui_elements/",
-      "date": "2026-09-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "so i saw that openui.com released OUI-1, a model fine-tuned on DiffusionGemma. the training dataset uses OpenUI-Lang, a custom DSL (domain-specific language), instead of plain HTML, Markdown, or React code. what makes it interesting is that you can already get a regular LLM to use OpenUI-Lang through a system prompt, but that eats up a lot of the context... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/15-oui-1-a-model-that-generates-bespoke-ui-elements.md"
-    },
-    {
-      "title": "Muse-glimmer-30b really punches above its weight(s) for creative writing",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcwa7i/museglimmer30b_really_punches_above_its_weights/",
-      "date": "2026-09-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "After noticing that it is ranked among MUCH larger frontier models in the EQ-Bench Creative Writing benchmark and the Hemingway-bench , I decided to give it a try and was very impressed. I didn't do very formal testing, but I did ask it to emulate the style of several different writers, including Henry Miller, David Sedaris, and Stephen King, and it produ... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/16-muse-glimmer-30b-really-punches-above-its-weight-s-for-creative-writin.md"
-    },
-    {
-      "title": "Notes on a hobby sub going mainstream",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wctos6/notes_on_a_hobby_sub_going_mainstream/",
-      "date": "2026-09-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Both good and bad things have come from a subreddit that was lot more niche than for example r/flashlight rapidly transforming into the largest online forum about an increasingly core part of the infrastructure of the economy. This sub has experienced growing pains recently, and probably those are mostly felt by people who’ve been around for a while. I th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-10/17-notes-on-a-hobby-sub-going-mainstream.md"
-    },
-    {
-      "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/OtoDock/oto-dock",
-      "date": "2026-09-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I am Dimitris. This is a company OS that I built and use to run my business and anyone can install it and self host it for free. Think of it as Claude Code, Cowork and the cloud sessions in one self hosted application. It is a Multi-tenant application by design where many people can collaborate on the company agents with 4 different modes of collab... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/06-show-hn-self-hosted-company-os-claude-code-and-codex-agents-in-departm.md"
-    },
-    {
-      "title": "Show HN: A guestbook for humans and AI agents, built on 144 pixels",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://a90.com/blog/a-guestbook-for-humans-and-ai-agents/",
-      "date": "2026-09-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: A guestbook for humans and AI agents, built on 144 pixels (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-09/07-show-hn-a-guestbook-for-humans-and-ai-agents-built-on-144-pixels.md"
     }
   ]
 }

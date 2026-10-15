@@ -1,10 +1,211 @@
 {
-  "last_checked_at": "2026-10-14T09:50:27.003Z",
+  "last_checked_at": "2026-10-15T09:30:52.999Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "morluto/rea",
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "date": "2026-10-15",
+      "source": "awesome-mcp",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 84,
+      "momentum": 100,
+      "risk": 22,
+      "integration_effort": 60,
+      "expected_gain": 95,
+      "composite": 84,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.246,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.218,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "Skill-Based AI Agents for Power-System Studies",
+          "date": "2026-09-30",
+          "topic": "AI agents",
+          "similarity": 0.21,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/07-skill-based-ai-agents-for-power-system-studies.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-15)",
+        "MIT license",
+        "255217 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "npx rea-agents setup",
+        "npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --json",
+        "npm install --global rea-agents",
+        "npx rea-agents@latest setup",
+        "npm install --global",
+        "npx rea-agents@latest"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-15/01-morluto-rea.md"
+    },
+    {
+      "id": "jaxton07/percho",
+      "name": "Jaxton07/percho",
+      "url": "https://github.com/Jaxton07/percho",
+      "date": "2026-10-15",
+      "source": "awesome-claude-code",
+      "category": "awesome_lists",
+      "kind": "agent_framework",
+      "compatibility": 72,
+      "momentum": 95,
+      "risk": 24,
+      "integration_effort": 36,
+      "expected_gain": 77,
+      "composite": 78,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev",
+          "date": "2026-09-21",
+          "topic": "AI dev tools",
+          "similarity": 0.412,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"
+        },
+        {
+          "title": "pradverma94/ai-support-agent",
+          "date": "2026-09-13",
+          "topic": "AI dev tools",
+          "similarity": 0.349,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/12-pradverma94-ai-support-agent.md"
+        },
+        {
+          "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+          "date": "2026-10-01",
+          "topic": "AI agents",
+          "similarity": 0.346,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/07-litereality-agent-an-agentic-system-for-interactable-3d-indoor-scene-r.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-15)",
+        "MIT license",
+        "416 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @biomejs/biome, patch-package; scripts dev, postinstall, build, typecheck, test, dist, lint"
+        }
+      ],
+      "install_commands": [
+        "npm install",
+        "npm run dev",
+        "npm run typecheck"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-09-21 about AI dev tools; this candidate overlaps with \"Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-15/02-jaxton07-percho.md"
+    },
+    {
+      "id": "linny006/trending-claude-skills",
+      "name": "linny006/trending-claude-skills",
+      "url": "https://github.com/linny006/trending-claude-skills",
+      "date": "2026-10-15",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 76,
+      "momentum": 85,
+      "risk": 50,
+      "integration_effort": 41,
+      "expected_gain": 81,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.361,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.268,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "waniyaro/agent-reels-viewer",
+          "date": "2026-10-05",
+          "topic": "AI dev tools",
+          "similarity": 0.241,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-waniyaro-agent-reels-viewer.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-15)",
+        "127 GitHub stars",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "No clear install command found in README",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 70,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "requirements.txt",
+          "summary": "deps httpx>=0.27"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-13 about AI agents; this candidate overlaps with \"Show HN: shadowclone, skills learned from your coding agent corrections\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-15/03-linny006-trending-claude-skills.md"
+    },
     {
       "id": "agentscope-ai/reme",
       "name": "agentscope-ai/ReMe",
@@ -19465,201 +19666,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"sciencebanda09/nexus-multiagent\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-07/02-langwatch-langwatch.md"
-    },
-    {
-      "id": "getnao/nao",
-      "name": "getnao/nao",
-      "url": "https://github.com/getnao/nao",
-      "date": "2026-07-07",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 72,
-      "momentum": 100,
-      "risk": 48,
-      "integration_effort": 66,
-      "expected_gain": 95,
-      "composite": 75,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
-          "date": "2026-06-23",
-          "topic": "AI agents",
-          "similarity": 0.234,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/09-openthoughts-agent-data-recipes-for-agentic-models.md"
-        },
-        {
-          "title": "Agent Data Injection Attacks are Realistic Threats to AI Agents",
-          "date": "2026-07-06",
-          "topic": "AI agents",
-          "similarity": 0.23,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/07-agent-data-injection-attacks-are-realistic-threats-to-ai-agents.md"
-        },
-        {
-          "title": "Show HN: Artie – Real-time data replication to your warehouse, now self-serve",
-          "date": "2026-06-10",
-          "topic": "AI agents",
-          "similarity": 0.184,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-10/81-show-hn-artie-real-time-data-replication-to-your-warehouse-now-self-se.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-07)",
-        "1383 GitHub stars",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "License was not clearly detected by GitHub",
-        "Integration may take more than a quick install",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @boxlite-ai/boxlite, @emnapi/core, @emnapi/runtime, @pydantic/monty, depd, @eslint/js, eslint, eslint-plugin-simple-import-sort; scripts dev, dev:backend, dev:fastapi, dev:frontend, lint, lint:backend, lint:frontend, lint:shared"
-        }
-      ],
-      "install_commands": [
-        "pip install nao-core",
-        "docker pull getnao/nao:latest",
-        "docker run -d \\",
-        "npx skills add getnao/nao"
-      ],
-      "risk_flags": [
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-23 about AI agents; this candidate overlaps with \"OpenThoughts-Agent: Data Recipes for Agentic Models\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-07/03-getnao-nao.md"
-    },
-    {
-      "id": "kvcache-ai/mooncake",
-      "name": "kvcache-ai/Mooncake",
-      "url": "https://github.com/kvcache-ai/Mooncake",
-      "date": "2026-07-06",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "ai_dev_tool",
-      "compatibility": 72,
-      "momentum": 100,
-      "risk": 30,
-      "integration_effort": 44,
-      "expected_gain": 77,
-      "composite": 77,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Local LLM Inference Optimization: The Complete Guide",
-          "date": "2026-06-21",
-          "topic": "Local LLMs",
-          "similarity": 0.202,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-21/15-local-llm-inference-optimization-the-complete-guide.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-06)",
-        "Apache-2.0 license",
-        "5755 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 1,
-      "dependency_files": [
-        {
-          "name": "requirements.txt",
-          "summary": "deps pre-commit==3.7.1, ruff==0.6.9, codespell==2.2.6, cmake-format==0.6.13"
-        }
-      ],
-      "install_commands": [
-        "pip install mooncake-transfer-engine",
-        "pip install mooncake-transfer-engine-cuda13"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-21 about Local LLMs; this candidate overlaps with \"Local LLM Inference Optimization: The Complete Guide\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-06/01-kvcache-ai-mooncake.md"
-    },
-    {
-      "id": "jolliai/jolliai",
-      "name": "jolliai/jolliai",
-      "url": "https://github.com/jolliai/jolliai",
-      "date": "2026-07-06",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 84,
-      "momentum": 83,
-      "risk": 32,
-      "integration_effort": 40,
-      "expected_gain": 77,
-      "composite": 76,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Two-tier-memory – queryable long-term memory for AI coding agents",
-          "date": "2026-07-05",
-          "topic": "AI agents",
-          "similarity": 0.243,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/06-show-hn-two-tier-memory-queryable-long-term-memory-for-ai-coding-agent.md"
-        },
-        {
-          "title": "sciencebanda09/nexus-multiagent",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.224,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
-        },
-        {
-          "title": "Show HN: Deep Memory – Vocabulary-driven graph memory for AI agents",
-          "date": "2026-06-09",
-          "topic": "AI agents",
-          "similarity": 0.203,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/57-show-hn-deep-memory-vocabulary-driven-graph-memory-for-ai-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-06)",
-        "Apache-2.0 license",
-        "104 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps none; scripts build, build:cli, build:vscode, typecheck, typecheck:cli, typecheck:vscode, lint, lint:cli"
-        }
-      ],
-      "install_commands": [
-        "npm install -g @jolli.ai/site-cli",
-        "npm install",
-        "npm run build        # builds both CLI and VS Code",
-        "npm run typecheck",
-        "npm run lint",
-        "npm run test"
-      ],
-      "risk_flags": [
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-05 about AI agents; this candidate overlaps with \"Show HN: Two-tier-memory – queryable long-term memory for AI coding agents\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-06/02-jolliai-jolliai.md"
     }
   ]
 }
