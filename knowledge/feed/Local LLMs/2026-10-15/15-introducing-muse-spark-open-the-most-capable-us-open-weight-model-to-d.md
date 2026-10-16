@@ -1,0 +1,12 @@
+---
+title: "Introducing Muse Spark Open: the most capable US open-weight model to date"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/"
+date: "2026-10-15"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Hey r/LocalLlama - Today we’re excited to release Muse Spark Open, the most capable US open-weight model to date. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. Key Model Specs Parameters: 816B total / 42B active Context Window: 1M tokens Modalities: Text, image, video, audio Saf... (Local summary fallback used.)"
+---
+
+Hey r/LocalLlama - Today we’re excited to release Muse Spark Open, the most capable US open-weight model to date. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. Key Model Specs Parameters: 816B total / 42B active Context Window: 1M tokens Modalities: Text, image, video, audio Safety Post-Training: Additional safety post-training, with evaluations conducted under Meta's Superintelligence Scaling Framework. Inference, fine-tuning & deployment Helion GPU kernels: Ships with custom, auto-tunable Helion kernels in SGLang, providing 1.03–3.95× kernel speedups across NVIDIA and AMD GPUs and a 3% E2E improvement on AMD MI350. Engines: Runs on leading inference engines including SGLang, vLLM, TensorRT-LLM, Hugging Face Transformers, Apple MLX, llama.cpp and Unsloth, with optimizations for AMD, Apple, Intel and NVIDIA silicon. Optimized for Apple Silicon: To help make advanced models more accessible, Muse Spark Open is optimized to run on two Apple M5 Ultra Mac Studios with the latest MLX framework. Fine-tuning: Developers can further customize the model with PyTorch, including TorchTitan for fine-tuning. API platforms: Available today through Baseten, Fireworks AI, Groq, Modal, Nebius, OpenRouter, Together AI. Where to download: Model weights are available for download on Amazon SageMaker AI, Google Cloud Model Garden, Hugging Face, and Microsoft Foundry Models. We’re releasing the weights under the Muse Model License, with limited commercial terms that let many developers use it for free. We look forward to your feedback! Learn more on our research blog: https://go.meta.me/museopen Download the weights: https://huggingface.co/collections/meta-models/muse-spark-open submitted by /u/AIatMeta [link] [comments]
