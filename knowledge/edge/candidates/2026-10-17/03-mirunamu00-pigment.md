@@ -1,0 +1,248 @@
+---
+id: "mirunamu00/pigment"
+name: "mirunamu00/pigment"
+url: "https://github.com/mirunamu00/pigment"
+date: "2026-10-17"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 92
+momentum: 45
+risk: 24
+integration_effort: 60
+expected_gain: 87
+composite: 72
+replacement_target: ""
+related_articles: [{"title":"Show HN: Visually orchestrate Claude Code AI agents","date":"2026-09-23","topic":"AI agents","similarity":0.323,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"},{"title":"Show HN: shadowclone, skills learned from your coding agent corrections","date":"2026-10-13","topic":"AI agents","similarity":0.302,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"},{"title":"Skill-Based AI Agents for Power-System Studies","date":"2026-09-30","topic":"AI agents","similarity":0.276,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/07-skill-based-ai-agents-for-power-system-studies.md"}]
+pros: ["Recently updated (2026-10-17)","MIT license","GitHub Actions/CI detected","README mentions tests or validation"]
+cons: ["Integration may take more than a quick install"]
+readme_quality: 85
+has_ci: true
+has_tests: true
+setup_steps_count: 3
+dependency_files: [{"name":"package.json","summary":"deps @types/node, tsx, turbo, typescript; scripts build, dev, typecheck, test, harness, check:content, mcp"}]
+install_commands: ["claude mcp add --transport http pigment https://pigmentui.com/mcp","pnpm install","npx playwright install chromium   # once: capture, screenshots, e2e tests","pnpm dev                          # http://localhost:3000","pnpm typecheck","pnpm test             # harness, content, MCP server, site e2e"]
+risk_flags: []
+status: "new"
+---
+
+# mirunamu00/pigment
+
+Agent-ready design systems. Pick one, ask Claude Code, Codex or any MCP client to apply it, and every screen stays on-system.
+
+URL: https://github.com/mirunamu00/pigment
+
+## Why it matters
+You saved an article on 2026-09-23 about AI agents; this candidate overlaps with "Show HN: Visually orchestrate Claude Code AI agents" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-17)
++ MIT license
++ GitHub Actions/CI detected
++ README mentions tests or validation
+
+## Cons
+- Integration may take more than a quick install
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- package.json: deps @types/node, tsx, turbo, typescript; scripts build, dev, typecheck, test, harness, check:content, mcp
+
+Install commands found:
+- claude mcp add --transport http pigment https://pigmentui.com/mcp
+- pnpm install
+- npx playwright install chromium   # once: capture, screenshots, e2e tests
+- pnpm dev                          # http://localhost:3000
+- pnpm typecheck
+- pnpm test             # harness, content, MCP server, site e2e
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+<div align="center">
+
+<a href="https://pigmentui.com"><img src="docs/assets/banner.png" alt="Pigment — give your agent a palette, not a prompt." width="100%" /></a>
+
+<h3>Design systems your coding agent can actually follow.</h3>
+
+<p>
+  <a href="https://pigmentui.com"><img alt="Website" src="https://img.shields.io/badge/website-pigmentui.com-0e0e0c?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/pigment-mcp"><img alt="npm" src="https://img.shields.io/npm/v/pigment-mcp?style=flat-square&label=pigment-mcp&color=0e0e0c" /></a>
+  <a href="https://github.com/mirunamu00/pigment/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/mirunamu00/pigment/ci.yml?branch=main&style=flat-square&label=CI" /></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-0e0e0c?style=flat-square" /></a>
+  <img alt="MCP" src="https://img.shields.io/badge/MCP-ready-0e0e0c?style=flat-square" />
+</p>
+
+<p>
+  <a href="https://pigmentui.com"><b>Browse systems</b></a> ·
+  <a href="https://pigmentui.com/connect">Connect an agent</a> ·
+  <a href="https://pigmentui.com/docs">Docs</a> ·
+  <a href="https://www.npmjs.com/package/pigment-mcp">npm</a>
+</p>
+
+</div>
+
+<br />
+
+Coding agents ship working screens that drift apart: every request fills the gaps with the model's own
+defaults. **Pigment** gives your agent a complete design system — exact tokens, component
+states and decision rules — so every screen it builds, today or next month, looks like it belongs.
+
+## Quick start
+
+**1 · Connect once**
+
+```bash
+claude mcp add --transport http pigment https://pigmentui.com/mcp
+```
+
+**2 · Just ask**
+
+> Apply the Pigment design system margin-notes to this project.
+
+That's it. Your agent copies the system into your project's `design-system/` folder and builds every new screen
+from that copy — updates to the system never restyle your project unless you ask for them.
+
+<details>
+<summary><b>Codex, Cursor and other MCP clients</b></summary>
+
+<br />
+
+Remote (nothing to install) — point your client at `https://pigmentui.com/mcp`.
+
+Local, with the specs bundled in the package:
+
+```json
+{
+  "mcpServers": {
+    "pigment": { "command": "npx", "args": ["-y", "pigment-mcp"] }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>No MCP?</b></summary>
+
+<br />
+
+Every system page on [pigmentui.com](https://pigmentui.com) has a ready-made prompt to copy into any
+agent and a plain spec URL (`/s/<id>/agent.md`) — the whole spec in one file, which you can also download
+for offline setups.
+
+</details>
+
+## The gallery
+
+Every screenshot is a real coding agent restyling the same four neutral apps with one system —
+unedited output, cropped to the first screen.
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/assets/margin-notes-dashboard-light.png" alt="Dashboard restyled with Margin Notes" /></td>
+    <td width="50%"><img src="docs/assets/margin-notes-commerce-light.png" alt="Store restyled with Margin Notes" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/assets/margin-notes-blog-dark.png" alt="Blog restyled with Margin Notes, dark mode" /></td>
+    <td width="50%"><img src="docs/assets/margin-notes-settings-dark.png" alt="Settings restyled with Margin Notes, dark mode" /></td>
+  </tr>
+</table>
+
+<p align="center"><b><a href="https://pigmentui.com/s/margin-notes">Margin Notes 1.0.0</a></b> — warm paper, near-black ink, hairlines; the only color is a watercolor wash kept to the margins.</p>
+
+## Why it works
+
+| Principle | What it means |
+| --- | --- |
+| **Measured, not adjectival** | Every rule carries a value: color, type, spacing, radius, elevation and motion — light and dark. |
+| **Rules, not page templates** | Decision rules that fit a dashboard, a store, a blog and a settings page alike. |
+| **Proven before publishing** | Every system — and every update — is applied by an agent to four reference apps, gated on builds, tests, accessibility and design adherence. |
+| **Yours to keep** | Your project keeps its own copy. Updates come with a dated changelog and land only when you ask. |
+
+## What your agent gets
+
+| You get | What it is |
+| --- | --- |
+| `agent.md` | One document: character, defining rules, tokens, components, how to apply |
+| `tokens.css` · `tokens.json` | Exact values, light and dark — copied, never retyped |
+| MCP tools | `list_design_systems` · `get_design_system` · `get_tokens` · `get_component_spec` · `get_installation_guide` · `get_changelog` · `get_references` |
+| HTTP API | [`/api/v1/design-systems`](https://pigmentui.com/api/v1/design-systems) — the same specs as JSON |
+
+## How systems are made
+
+Templates aren't drawn by hand. A reference site goes through a reproducible pipeline, with a person
+approving the analysis and the final result:
+
+```
+reference ─▶ capture & measure ─▶ analysis ─▶ design prompt ─▶ validate
+          ─▶ agent applies it to 4 apps ─▶ evaluate ─▶ critic review ─▶ iterate ─▶ publish
+```
+
+Systems are **derived design languages, never clones** — no logos, names, copy, imagery or proprietary
+fonts carry over. Details in [`docs/harness/`](docs/harness/README.md).
+
+<details>
+<summary><b>Development</b></summary>
+
+<br />
+
+Requires Node 22+ and pnpm.
+
+```bash
+pnpm install
+npx playwright install chromium   # once: capture, screenshots, e2e tests
+pnpm dev                          # http://localhost:3000
+```
+
+```bash
+pnpm typecheck
+pnpm test             # harness, content, MCP server, site e2e
+pnpm check:content    # systems valid, published versions untouched
+```
+
+Adding a system: `pnpm harness --help`, or the `template-intake` skill in Claude Code, which runs the
+whole pipeline and stops for approval after the analysis and before publishing.
+
+| Path | What |
+| --- | --- |
+| `apps/web` | The site: gallery, docs, `/api/v1`, `/mcp`, downloads |
+| `packages/mcp` | MCP server — the site's `/mcp` route and the `pigment-mcp` npm package |
+| `packages/harness` | `pnpm harness` — capture → prompt → demo runs → evaluation → publish |
+| `packages/content` · `packages/schema` | Read-only content access and the data contracts |
+| `content/templates` | The systems themselves |
+| `showcase/base-apps` | The four neutral apps every system is tested on |
+
+| Variable | Default | |
+| --- | --- | --- |
+| `NEXT_PUBLIC_SITE_URL` | `https://pigmentui.com` | prompts, spec links |
+| `NEXT_PUBLIC_MCP_URL` | `<site>/mcp` | connect snippets |
+| `PIGMENT_CONTENT_DIR` | `<repo>/content` | site, API and MCP server |
+| `PIGMENT_WORKDIR` | `<os tmp>/pigment-runs` | where agents restyle base-app copies |
+
+Changes reach `main` only through pull requests with a green CI — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Merging deploys the site (Vercel) and publishes a new `pigment-mcp` version when
+`packages/mcp/package.json` changes, via npm trusted publishing. See [`docs/deploy.md`](docs/deploy.md).
+
+</details>
+
+## Contributing
+
+Bug reports, feedback on how agents apply a system, and suggestions for new systems are welcome as
+[issues](https://github.com/mirunamu00/pigment/issues/new/choose). Code changes go through pull requests —
+see [`CONTRIBUTING.md`](CONTRIBUTING.md), the [code of conduct](CODE_OF_CONDUCT.md) and the
+[security policy](SECURITY.md).
+
+## License
+
+[MIT](LICENSE) © 2026 [mirunamu00](https://github.com/mirunamu00)
+

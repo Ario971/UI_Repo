@@ -1,0 +1,159 @@
+---
+id: "sirdarcanos/agentskills"
+name: "SirDarcanos/agentskills"
+url: "https://github.com/SirDarcanos/agentskills"
+date: "2026-10-17"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "claude_skill"
+compatibility: 83
+momentum: 45
+risk: 30
+integration_effort: 24
+expected_gain: 87
+composite: 73
+replacement_target: ""
+related_articles: [{"title":"Show HN: shadowclone, skills learned from your coding agent corrections","date":"2026-10-13","topic":"AI agents","similarity":0.332,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"},{"title":"Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev","date":"2026-09-21","topic":"AI dev tools","similarity":0.284,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"},{"title":"pradverma94/ai-support-agent","date":"2026-09-13","topic":"AI dev tools","similarity":0.261,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/12-pradverma94-ai-support-agent.md"}]
+pros: ["Recently updated (2026-10-17)","MIT license","README mentions tests or validation","README includes install commands"]
+cons: ["No obvious v1 warning, still review upstream code before use"]
+readme_quality: 100
+has_ci: false
+has_tests: true
+setup_steps_count: 1
+dependency_files: []
+install_commands: ["npx skills add SirDarcanos/agentskills"]
+risk_flags: []
+status: "new"
+---
+
+# SirDarcanos/agentskills
+
+A collection of reusable agent skills I created, use, and share publicly.
+
+URL: https://github.com/SirDarcanos/agentskills
+
+## Why it matters
+You saved an article on 2026-10-13 about AI agents; this candidate overlaps with "Show HN: shadowclone, skills learned from your coding agent corrections" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-17)
++ MIT license
++ README mentions tests or validation
++ README includes install commands
+
+## Cons
+- No obvious v1 warning, still review upstream code before use
+
+## Repository Inspection
+README quality: 100/100
+CI detected: no
+Tests mentioned: yes
+Setup steps estimate: 1
+
+Dependency files:
+- none detected
+
+Install commands found:
+- npx skills add SirDarcanos/agentskills
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Agent skills for turning ideas into software
+
+[![skills.sh](https://skills.sh/b/SirDarcanos/agentskills)](https://skills.sh/SirDarcanos/agentskills)
+
+The skills I use to take an idea through planning, coding, checks, and review. Describe what you want to your coding agent; these instructions help it work through the steps and bring important decisions back to you.
+
+You don't need to know how to design a database or write a test. You decide what the software should do, answer questions, and try the result.
+
+## Get started
+
+**1. Choose your installation route:**
+
+Native plugins install the complete **Agent Skills** collection (`agentskills`) and are the intended recommended route for Claude Code and Codex CLI once released. **They are not available yet:** the catalogs target unpublished `v2.0.0`. Isolated Claude/Codex installation and update simulations passed, but public delivery and interactive reload/selection checks remain pending. See the [installation guide and support matrix](docs/installation.md) for native commands, Copilot/VS Code plugins, Gemini direct skills, updates and safe migration.
+
+For now, or for selective/editable copies, use a skills-capable agent plus Node.js/`npx` and install from your terminal:
+
+```bash
+npx skills add SirDarcanos/agentskills
+```
+
+Choose your agent, installation destination, and the workflow skills, including `setup-project`. Check before replacing same-named skills. Writing and model skills are optional; additional models aren't needed for the delivery workflow.
+
+**2. Set up your project in your agent:**
+
+```text
+/setup-project
+```
+
+It checks the project, asks how you want to work, and proposes changes for your approval. For GitHub projects, it also coordinates repository, security, and issue-tracker setup. Run it when establishing or updating project conventions, not before every feature.
+
+**3. Describe your idea:**
+
+```text
+/shape-work I want people to book places in my classes.
+```
+
+Answer the questions and agree on what to build. Then ask the agent to deliver it:
+
+```text
+/work-on the booking tool we agreed on
+```
+
+`work-on` handles the technical steps, relevant checks, independent review, and a plain-language change report. Read what was checked, note any gaps, and try the result yourself.
+
+Examples here use standalone skill names. With the Claude Code plugin, use `/agentskills:setup-project`, `/agentskills:shape-work` and `/agentskills:work-on` instead. Codex's native resolver exposes `agentskills:work-on`, used as `$agentskills:work-on`; interactive selection remains untested. Follow the [client-specific invocation guidance](docs/installation.md), not a universal slash-command assumption. Skill requests go in your agent, not your terminal; support varies by runtime. Skills may require companions and tools: see the [setup requirements](workflow/setup-project/README.md#install-and-requirements) and [delivery requirements](workflow/work-on/README.md#install-and-dependencies). Installation supplies instructions, not missing tools or permissions.
+
+## Pick the work you need
+
+Follow the [session workflow guide](docs/workflow-guide.md) for planning, selected artifacts, later delivery, feedback before PR publication, and explicit session transfer. Separate sessions keep context focused; they are not an enforced pipeline.
+
+You can name a skill directly or describe the job in ordinary language. You don't need to run every skill for every change.
+
+| Your situation | Start with |
+| --- | --- |
+| You need to work out what to build | [`shape-work`](workflow/shape-work/) |
+| You have one clear change or an existing issue | [`work-on`](workflow/work-on/) — give it the request, issue number, or URL. |
+| Larger work needs a lasting agreement and tasks | [`write-spec`](workflow/write-spec/), then [`write-tickets`](workflow/write-tickets/) when a breakdown is useful. Configured artifact commands select publication; draft/local overrides and consequential scope/relationship approval still apply. |
+| You want to deliver a specification across its tasks | [`work-on-spec`](workflow/work-on-spec/) — give it the spec reference. It needs tracker access, separate coding-agent capability, and permission to use it. |
+| You want a review of existing changes | [`review-delivery`](workflow/review-delivery/) |
+
+For a small change, go straight to `work-on`. It brings in specialists when needed; you don't have to manage each handoff.
+
+### Bugs
+
+Describe what you expected, what happened, and how to reproduce it if you know. The agent can load [`investigate-bug`](workflow/investigate-bug/) when it recognizes a bug needs diagnosis, or you can ask directly:
+
+```text
+/investigate-bug Cancelling a booking doesn't free up a place in the class.
+```
+
+It returns the diagnosis and evidence for a fix in conversation; no ticket or tracker access is required. It can recommend direct work or ticket creation, but an investigation-only request stops before repair. Ask `work-on` to deliver a bounded ready fix from the current evidence, or explicitly request investigation-and-ticket or investigation-and-fix work. Those selected stages retain their own authority and capability gates.
+
+### Moving to another session
+
+```text
+/handoff Continue investigating the booking cancellation bug.
+```
+
+[`handoff`](workflow/handoff/) runs only when requested. Give the next agent the returned file path. For later resumption, supply an approved durable destination: temporary files can disappear. It writes context, not permission to start the next task.
+
+## What to expect
+
+The agent should report missing tools, permissions, checks, or required independent review—not treat them as completed. Building does not grant permission to merge, deploy, or release. Skills and reviews can still miss problems; use qualified technical review for software handling sensitive data, money, or other high-stakes operations.
+
+## More
+
+[All skills and their requirements](docs/skills.md) · [MIT license](LICENSE)
+
+Copy complete skill directories when installing manually, including their references and license notices. Repository updates don't refresh separate installed copies; native plugins have client-specific update operations. Before changing routes, [preserve local edits and resolve duplicates deliberately](docs/installation.md#migrate-existing-copies-safely).
+
+---
+
+These skills were largely inspired by [Matt Pocock's skills](https://github.com/mattpocock/skills). Thanks, Matt, for sharing your work.
+

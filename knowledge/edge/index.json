@@ -1,10 +1,212 @@
 {
-  "last_checked_at": "2026-10-16T09:23:40.472Z",
+  "last_checked_at": "2026-10-17T08:55:19.156Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "oolab-labs/patchwork-os",
+      "name": "Oolab-labs/patchwork-os",
+      "url": "https://github.com/Oolab-labs/patchwork-os",
+      "date": "2026-10-17",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 74,
+      "risk": 40,
+      "integration_effort": 64,
+      "expected_gain": 87,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.322,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "waniyaro/agent-reels-viewer",
+          "date": "2026-10-05",
+          "topic": "AI dev tools",
+          "similarity": 0.271,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-waniyaro-agent-reels-viewer.md"
+        },
+        {
+          "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+          "date": "2026-10-15",
+          "topic": "AI agents",
+          "similarity": 0.248,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-17)",
+        "MIT license",
+        "31 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "npm install -g patchwork-os@beta",
+        "git clone https://github.com/Oolab-labs/patchwork-os && cd patchwork-os/dashboard",
+        "npm install && npm run build && npm start   # http://localhost:3200",
+        "npm install -g patchwork-os",
+        "claude-ide-bridge install-extension     # VS Code / Cursor / Windsurf / Antigravity",
+        "claude-ide-bridge --workspace ."
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-17/01-oolab-labs-patchwork-os.md"
+    },
+    {
+      "id": "sirdarcanos/agentskills",
+      "name": "SirDarcanos/agentskills",
+      "url": "https://github.com/SirDarcanos/agentskills",
+      "date": "2026-10-17",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 83,
+      "momentum": 45,
+      "risk": 30,
+      "integration_effort": 24,
+      "expected_gain": 87,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.332,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev",
+          "date": "2026-09-21",
+          "topic": "AI dev tools",
+          "similarity": 0.284,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"
+        },
+        {
+          "title": "pradverma94/ai-support-agent",
+          "date": "2026-09-13",
+          "topic": "AI dev tools",
+          "similarity": 0.261,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/12-pradverma94-ai-support-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-17)",
+        "MIT license",
+        "README mentions tests or validation",
+        "README includes install commands"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [],
+      "install_commands": [
+        "npx skills add SirDarcanos/agentskills"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-13 about AI agents; this candidate overlaps with \"Show HN: shadowclone, skills learned from your coding agent corrections\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-17/02-sirdarcanos-agentskills.md"
+    },
+    {
+      "id": "mirunamu00/pigment",
+      "name": "mirunamu00/pigment",
+      "url": "https://github.com/mirunamu00/pigment",
+      "date": "2026-10-17",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 60,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.323,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        },
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.302,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "Skill-Based AI Agents for Power-System Studies",
+          "date": "2026-09-30",
+          "topic": "AI agents",
+          "similarity": 0.276,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/07-skill-based-ai-agents-for-power-system-studies.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-17)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @types/node, tsx, turbo, typescript; scripts build, dev, typecheck, test, harness, check:content, mcp"
+        }
+      ],
+      "install_commands": [
+        "claude mcp add --transport http pigment https://pigmentui.com/mcp",
+        "pnpm install",
+        "npx playwright install chromium   # once: capture, screenshots, e2e tests",
+        "pnpm dev                          # http://localhost:3000",
+        "pnpm typecheck",
+        "pnpm test             # harness, content, MCP server, site e2e"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-17/03-mirunamu00-pigment.md"
+    },
     {
       "id": "scriptedalchemy/tracedecay",
       "name": "ScriptedAlchemy/tracedecay",
@@ -19480,211 +19682,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-06-12 about AI dev tools; this candidate overlaps with \"AlexNthLab/nth-dao\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-09/02-hoanganhduc-coding-system-rebuild.md"
-    },
-    {
-      "id": "origintrail/dkg",
-      "name": "OriginTrail/dkg",
-      "url": "https://github.com/OriginTrail/dkg",
-      "date": "2026-07-09",
-      "source": "awesome-llm-agents",
-      "category": "awesome_lists",
-      "kind": "agent_framework",
-      "compatibility": 80,
-      "momentum": 86,
-      "risk": 48,
-      "integration_effort": 56,
-      "expected_gain": 77,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: HelixDB – A graph database built on object storage",
-          "date": "2026-06-10",
-          "topic": "AI agents",
-          "similarity": 0.305,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-10/80-show-hn-helixdb-a-graph-database-built-on-object-storage.md"
-        },
-        {
-          "title": "Show HN: Deep Memory – Vocabulary-driven graph memory for AI agents",
-          "date": "2026-06-09",
-          "topic": "AI agents",
-          "similarity": 0.301,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-09/57-show-hn-deep-memory-vocabulary-driven-graph-memory-for-ai-agents.md"
-        },
-        {
-          "title": "Show HN: Kage, verification and freshness for Google's OKF agent memory",
-          "date": "2026-06-30",
-          "topic": "AI agents",
-          "similarity": 0.187,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/07-show-hn-kage-verification-and-freshness-for-google-s-okf-agent-memory.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-09)",
-        "Apache-2.0 license",
-        "168 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "package metadata could not be parsed"
-        }
-      ],
-      "install_commands": [
-        "npm install -g @origintrail-official/dkg",
-        "npm install -g @origintrail-official/dkg     # installs CLI + bundled adapter",
-        "git clone https://github.com/OriginTrail/dkg.git",
-        "pnpm install",
-        "pnpm dkg start             # or `pnpm dkg <any subcommand>`",
-        "pnpm bench"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-10 about AI agents; this candidate overlaps with \"Show HN: HelixDB – A graph database built on object storage\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-09/03-origintrail-dkg.md"
-    },
-    {
-      "id": "markusleben/ha-nova",
-      "name": "markusleben/ha-nova",
-      "url": "https://github.com/markusleben/ha-nova",
-      "date": "2026-07-08",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 94,
-      "momentum": 66,
-      "risk": 40,
-      "integration_effort": 28,
-      "expected_gain": 81,
-      "composite": 76,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Kuberwastaken/VPSmaxxing",
-          "date": "2026-06-30",
-          "topic": "AI dev tools",
-          "similarity": 0.261,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
-        },
-        {
-          "title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
-          "date": "2026-06-04",
-          "topic": "AI agents",
-          "similarity": 0.235,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-04/10-show-hn-boxes-dev-ditch-localhost-run-claude-code-and-codex-in-the-clo.md"
-        },
-        {
-          "title": "LuD1161/agentjail",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.226,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-08)",
-        "MIT license",
-        "17 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 70,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 0,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "package metadata could not be parsed"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-08/01-markusleben-ha-nova.md"
-    },
-    {
-      "id": "vincentkoc/dotskills",
-      "name": "vincentkoc/dotskills",
-      "url": "https://github.com/vincentkoc/dotskills",
-      "date": "2026-07-08",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 87,
-      "momentum": 83,
-      "risk": 24,
-      "integration_effort": 44,
-      "expected_gain": 69,
-      "composite": 76,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Kuberwastaken/VPSmaxxing",
-          "date": "2026-06-30",
-          "topic": "AI dev tools",
-          "similarity": 0.31,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
-        },
-        {
-          "title": "AlexNthLab/nth-dao",
-          "date": "2026-06-12",
-          "topic": "AI dev tools",
-          "similarity": 0.278,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
-        },
-        {
-          "title": "llm011/ethan-agent",
-          "date": "2026-06-20",
-          "topic": "AI dev tools",
-          "similarity": 0.268,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-08)",
-        "MIT license",
-        "96 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [],
-      "install_commands": [
-        "npx skills add vincentkoc/dotskills --skill ghcrawl-cluster-operator -y",
-        "npx skills add vincentkoc/dotskills --skill technical-deslop -y",
-        "npx skills add vincentkoc/dotskills --skill technical-documentation -y",
-        "npx skills add vincentkoc/dotskills --skill technical-integrations -y",
-        "npx skills add vincentkoc/dotskills --skill technical-skill-finder -y",
-        "npx skills add vincentkoc/dotskills --skill openclaw-github-dedupe -y"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-08/02-vincentkoc-dotskills.md"
     }
   ]
 }

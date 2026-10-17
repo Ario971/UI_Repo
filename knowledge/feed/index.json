@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T09:23:19.843Z",
+  "updated_at": "2026-10-17T08:54:57.582Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: rStation – A shared research lab for your AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://rstation.ai/",
+      "date": "2026-10-16",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: rStation – A shared research lab for your AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/06-show-hn-rstation-a-shared-research-lab-for-your-ai-agents.md"
+    },
+    {
+      "title": "A team of Gemini 4 Argon agents beats Minecraft",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.22319v1",
+      "date": "2026-10-15",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We placed four Gemini 4 Argon agents in a sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon. Each agent controlled a player via an open-source library called Mineflayer and coordinated with its teammates through in-game chat and shared memory. No one assigned roles or wrote game logic. The agents planned, wrote, and debugg... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/07-a-team-of-gemini-4-argon-agents-beats-minecraft.md"
+    },
+    {
+      "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.22301v1",
+      "date": "2026-10-15",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The Model Context Protocol (MCP) standardizes how AI agents invoke external tools. MCP servers expose tools through a declared contract consisting of a name, description, and argument schema. In typical local deployments, client-side approval of a tool call grants the underlying server process broad host filesystem permissions rather than restricting it t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"
+    },
+    {
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "date": "2026-10-16",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/09-show-hn-gemini-4-argon-plays-starcraft.md"
+    },
+    {
+      "title": "Aj-Niplex/adarsh-portfolio",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Aj-Niplex/adarsh-portfolio",
+      "date": "2026-10-15",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Portfolio of Adarsh Jaiswal (NiPlex): AI systems, developer tools, and open-source projects. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-15/10-aj-niplex-adarsh-portfolio.md"
+    },
+    {
+      "title": "Show HN: Donut Browser, the most private anti-detect browser",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/donutbrowser/donutbrowser",
+      "date": "2026-10-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone! About 2 years ago, I began to work on Donut Browser as a tool to manage browser profiles, which over time has evolved into a proper anti-detect browser. Anti-detect browsers let you create browser profiles that look like as if you have a completely different computer. I believe Donut is the most private anti-detect browser because: - It has n... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-16/11-show-hn-donut-browser-the-most-private-anti-detect-browser.md"
+    },
+    {
+      "title": "Show HN: Sill for Android – control your Mac's windows from an Android phone",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/rahimnathwani/sill-android",
+      "date": "2026-10-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Sill (discussed here: https://news.ycombinator.com/item?id=50112739 ) streams one Mac window, or the whole Desktop, to an iPhone or iPad and lets you control it by touch. It's open source, so I made an Android client for it. It's unofficial and not affiliated with Sill's author: it speaks Sill's existing protocol, so the Mac side is the stock Sill app, un... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-16/12-show-hn-sill-for-android-control-your-mac-s-windows-from-an-android-ph.md"
+    },
+    {
+      "title": "atharvanavgire10/AI_career_coach",
+      "source": "GitHub Search API",
+      "url": "https://github.com/atharvanavgire10/AI_career_coach",
+      "date": "2026-10-17",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "atharvanavgire10/AI_career_coach Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-17/13-atharvanavgire10-ai-career-coach.md"
+    },
+    {
+      "title": "llama.cpp has come a long way",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7xbf0/llamacpp_has_come_a_long_way/",
+      "date": "2026-10-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, English is not my native language (Dutch), but I write in my own words without assistance. So please let me know if any sentence flows weird, etc. A mate of mine told me how amazing local AI was in January 2025, but I was a skeptic who took pride in writing my own code for 10 years. Knowing I can be quite stubborn and wanting to at least exp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-17/14-llama-cpp-has-come-a-long-way.md"
+    },
+    {
+      "title": "[Research] 2,788 tokens/s on a single RTX 5090 with a diffusion LLM — Introducing ORL (fully open source)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
+      "date": "2026-10-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA ! We're excited to share ORL (On-Policy Residual Learning) , our new research on making diffusion language models (dLLMs) significantly faster without sacrificing generation quality. With ORL and our custom inference engine dlmrt , we've achieved: 2,788 tokens/s on a single RTX 5090 — LLaDA-2.1-mini + ORL, NVFP4 7,708 tokens/s on 8× B200... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-16/15-research-2-788-tokens-s-on-a-single-rtx-5090-with-a-diffusion-llm-intr.md"
+    },
+    {
+      "title": "I built a tiny site that let's you feel the tokens/s before you buy the GPU",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x83321/i_built_a_tiny_site_that_lets_you_feel_the/",
+      "date": "2026-10-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I made a tiny site that let's you feel how fast a local LLM runs before buying the hardware. I made it for myself and a friend but thought it could be useful for others. Note that it works as an estimate and not perfectly as it will vary per user setup. repo: https://github.com/nicorobinreal/llmspeed submitted by /u/nypaavsalt [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-17/16-i-built-a-tiny-site-that-let-s-you-feel-the-tokens-s-before-you-buy-th.md"
+    },
+    {
+      "title": "10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/",
+      "date": "2026-10-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I know everyone's excited about 3.8, but honestly I'm still refining 3.6. And I hate the way 3.8 talks, so... I keep seeing all these posts about what's the use of open source, so I figured I'd submit my own answer with this post. Qwen 3.5 27B was my first agent, starting my journey around May 31st, and I've learned a lot in these 4+ months, so I wanted t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-16/17-10-things-you-maybe-didn-t-know-you-can-do-with-qwen-3-6-27b-right-now.md"
+    },
     {
       "title": "Show HN: Beeline Multiplayer Agent Harness",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "We built a comprehensive system that connects directly to the AI agents through MCP for writing, managing most type of browser automations. Purpose is for automated testing or automating browser based workflows. It provides notifications, scheduling, pre/post hooks, IAM management, cookies support, json payloads. Has a hybrid Chrome extension too, that ca... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-12/06-show-hn-open-sourced-solution-to-ai-manage-playwright-automations.md"
-    },
-    {
-      "title": "Show HN: Aqqai – Every answer, checked before you see it",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://demo.aqqai.in",
-      "date": "2026-09-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Aqqai – Every answer, checked before you see it (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-13/07-show-hn-aqqai-every-answer-checked-before-you-see-it.md"
-    },
-    {
-      "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/takaakit/astah-pro-mcp",
-      "date": "2026-09-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "This MCP plugin implements a \"Programmatic Tool Calling\" mode, inspired by the idea described in this Anthropic article ( https://www.anthropic.com/engineering/advanced-tool-use ). (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-13/08-show-hn-astah-pro-mcp-enabling-ai-powered-uml-modeling.md"
-    },
-    {
-      "title": "Show HN: Fleecevest – The Product Counterpart to Ponytail",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Websites-On-Computers/fleecevest",
-      "date": "2026-09-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Fleecevest – The Product Counterpart to Ponytail (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-13/09-show-hn-fleecevest-the-product-counterpart-to-ponytail.md"
-    },
-    {
-      "title": "ali-sachal/Agentic_ai_Health",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ali-sachal/Agentic_ai_Health",
-      "date": "2026-09-13",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ali-sachal/Agentic_ai_Health Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/10-ali-sachal-agentic-ai-health.md"
-    },
-    {
-      "title": "Show HN: DiskTriage – A simple CLI tool to reclaim space on your Win C drive",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/ricardoborges/DiskTriage",
-      "date": "2026-09-12",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: DiskTriage – A simple CLI tool to reclaim space on your Win C drive (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-12/11-show-hn-disktriage-a-simple-cli-tool-to-reclaim-space-on-your-win-c-dr.md"
-    },
-    {
-      "title": "Show HN: A Technical Book for the Age of AI",
-      "source": "Hacker News Show HN",
-      "url": "https://codeberg.org/juurej/p4cu",
-      "date": "2026-09-12",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "As AI increasingly answers \"how,\" this book focuses on \"why.\" Rather than focusing on how to build software, it asks why programming matters. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-12/12-show-hn-a-technical-book-for-the-age-of-ai.md"
-    },
-    {
-      "title": "Is there still strong interest in a dense 9b model?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wezm58/is_there_still_strong_interest_in_a_dense_9b_model/",
-      "date": "2026-09-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I have a full model, it's ready to train. It's ~9b parameters. 9.4b to be more exact. That includes a 1/2/3 Engram table, Moonshot's AttnRes modeling, and RoPE / NoPE layering at 3:1 as more or less validated by most major labs. It uses the Llama 3 series tokenizer and LM Head as an initial start. The data fed in is logit level extraction from a Llama 3 t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-13/13-is-there-still-strong-interest-in-a-dense-9b-model.md"
-    },
-    {
-      "title": "For those of you forced to only use open models from Western labs in production, what are you deploying?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wegs2w/for_those_of_you_forced_to_only_use_open_models/",
-      "date": "2026-09-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "First off, I know that GLM, Qwen, and DeepSeek absolutely dominate in terms of SOTA Open Source models, and that’s what I use in my personal projects and for school, however, I’m also responsible for deploying local AI on my organization’s H100s, and we are forbidden by management from running any Chinese models. This is obviously not an ideal situation,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-12/14-for-those-of-you-forced-to-only-use-open-models-from-western-labs-in-p.md"
-    },
-    {
-      "title": "I built a serverless hosting platform for LoRA adapters with vLLM",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1weum85/i_built_a_serverless_hosting_platform_for_lora/",
-      "date": "2026-09-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "It’s always bothered me that after fine-tuning a model for a project, there isn’t a particularly easy way to host it without either running it locally and keeping a GPU on 24/7 or paying for an entire GPU server. There are managed options for LoRA serving on top of vLLM (AWS), but you generally still end up paying for an entire instance. I started wonderi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-13/15-i-built-a-serverless-hosting-platform-for-lora-adapters-with-vllm.md"
-    },
-    {
-      "title": "What pi.dev plugin do you suggest for context, compaction and memory management of local models?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1weolwq/what_pidev_plugin_do_you_suggest_for_context/",
-      "date": "2026-09-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I have been battling with my Qwen3.8:27b setup on my rtx 5080 16gb. I am using llama.cpp to run a nvfp4 version of qwen3.8:27b llama-b10699-bin-win-cuda-13.3-x64\\llama-server.exe -hf williamliao/Qwen3.8-27B-NVFP4-GGUF:NVFP4 --jinja --chat-template-file d:\\qwen\\chat_template.jinja --reasoning-format deepseek --host 127.0.0.1 --offline -np 1 --threads 16 --... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-12/16-what-pi-dev-plugin-do-you-suggest-for-context-compaction-and-memory-ma.md"
-    },
-    {
-      "title": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/godot-pty/gpty",
-      "date": "2026-09-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs and then let the user grid/tile them how they see fit. But since we have the Godot game engine at our disposal, we can do some more inter... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-11/06-show-hn-godot-and-rust-based-multiplexer-terminal-panes-and-more.md"
-    },
-    {
-      "title": "Show HN: Clawfight.ai MCP-driven agentic game play",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://clawfight.ai/agents.md",
-      "date": "2026-09-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "How should agents interact with other agents? What happens when they rap or fight against each other with the pressure of human spectators? Clawfight.ai is an experiment to explore this space. This is my first post about it. The journey began on a beefed up machine I purchased with a decent GPU (5090). I installed claude code and set to dangerously skip p... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-11/07-show-hn-clawfight-ai-mcp-driven-agentic-game-play.md"
     }
   ]
 }
