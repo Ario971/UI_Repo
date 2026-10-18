@@ -1,10 +1,167 @@
 {
-  "last_checked_at": "2026-10-17T08:55:19.156Z",
+  "last_checked_at": "2026-10-18T09:13:49.656Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "devcodex-labs/devcodex",
+      "name": "devcodex-labs/devcodex",
+      "url": "https://github.com/devcodex-labs/devcodex",
+      "date": "2026-10-18",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 92,
+      "momentum": 97,
+      "risk": 24,
+      "integration_effort": 40,
+      "expected_gain": 87,
+      "composite": 85,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Crashlytics for AI Coding Agents",
+          "date": "2026-10-08",
+          "topic": "AI agents",
+          "similarity": 0.32,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/06-show-hn-crashlytics-for-ai-coding-agents.md"
+        },
+        {
+          "title": "Show HN: BlastLoop, a structure-first coding method for AI agents",
+          "date": "2026-10-15",
+          "topic": "AI agents",
+          "similarity": 0.3,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-show-hn-blastloop-a-structure-first-coding-method-for-ai-agents.md"
+        },
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.264,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-18)",
+        "AGPL-3.0 license",
+        "439 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "npm install -g devcodex",
+        "Codex · Claude Code · GitHub Copilot · Gemini CLI · Grok · Cursor",
+        "npm -v",
+        "npm update -g devcodex",
+        "npm uninstall -g devcodex"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-08 about AI agents; this candidate overlaps with \"Show HN: Crashlytics for AI Coding Agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-18/01-devcodex-labs-devcodex.md"
+    },
+    {
+      "id": "joreilly/peopleinspace",
+      "name": "joreilly/PeopleInSpace",
+      "url": "https://github.com/joreilly/PeopleInSpace",
+      "date": "2026-10-18",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 77,
+      "momentum": 100,
+      "risk": 14,
+      "integration_effort": 48,
+      "expected_gain": 77,
+      "composite": 80,
+      "replacement_target": null,
+      "related_articles": [],
+      "pros": [
+        "Recently updated (2026-10-18)",
+        "Apache-2.0 license",
+        "3436 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "joreilly/PeopleInSpace matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-18/02-joreilly-peopleinspace.md"
+    },
+    {
+      "id": "zhurong2020/pyobfus",
+      "name": "zhurong2020/pyobfus",
+      "url": "https://github.com/zhurong2020/pyobfus",
+      "date": "2026-10-18",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 67,
+      "risk": 40,
+      "integration_effort": 48,
+      "expected_gain": 79,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.191,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-18)",
+        "Apache-2.0 license",
+        "11 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
+        }
+      ],
+      "install_commands": [
+        "pip install pyobfus"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-23 about AI agents; this candidate overlaps with \"Show HN: Visually orchestrate Claude Code AI agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-18/03-zhurong2020-pyobfus.md"
+    },
     {
       "id": "oolab-labs/patchwork-os",
       "name": "Oolab-labs/patchwork-os",
@@ -19506,182 +19663,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-10/02-jamie-bitflight-claude-skills.md"
-    },
-    {
-      "id": "rrsaldanha/burp-mcp-agents",
-      "name": "rrsaldanha/burp-mcp-agents",
-      "url": "https://github.com/rrsaldanha/burp-mcp-agents",
-      "date": "2026-07-10",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 98,
-      "momentum": 61,
-      "risk": 43,
-      "integration_effort": 48,
-      "expected_gain": 81,
-      "composite": 73,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.242,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
-        },
-        {
-          "title": "dingmanjiang/ai-resource-config",
-          "date": "2026-06-11",
-          "topic": "AI dev tools",
-          "similarity": 0.222,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-11/85-dingmanjiang-ai-resource-config.md"
-        },
-        {
-          "title": "Show HN: AwsmAudio – a WebAudio editor with native MCP",
-          "date": "2026-06-15",
-          "topic": "AI agents",
-          "similarity": 0.2,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-15/28-show-hn-awsmaudio-a-webaudio-editor-with-native-mcp.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-10)",
-        "MIT license",
-        "5 GitHub stars",
-        "Matches 3 saved Feed article(s)"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "May require elevated privileges"
-      ],
-      "readme_quality": 63,
-      "has_ci": false,
-      "has_tests": false,
-      "setup_steps_count": 0,
-      "dependency_files": [
-        {
-          "name": "requirements.txt",
-          "summary": "deps mcp, ollama, openai, rich"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [
-        "May require elevated privileges"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"Show HN: AnswerJournal – An MCP server to save and share AI answers\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-10/03-rrsaldanha-burp-mcp-agents.md"
-    },
-    {
-      "id": "bigbio/sdrf-skills",
-      "name": "bigbio/sdrf-skills",
-      "url": "https://github.com/bigbio/sdrf-skills",
-      "date": "2026-07-09",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 84,
-      "momentum": 67,
-      "risk": 24,
-      "integration_effort": 48,
-      "expected_gain": 69,
-      "composite": 72,
-      "replacement_target": null,
-      "related_articles": [],
-      "pros": [
-        "Recently updated (2026-07-09)",
-        "MIT license",
-        "8 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 5,
-      "dependency_files": [
-        {
-          "name": "requirements.txt",
-          "summary": "deps sdrf-pipelines[ontology], requests>=2.28, defusedxml>=0.7"
-        }
-      ],
-      "install_commands": [
-        "git clone --recurse-submodules https://github.com/bigbio/sdrf-skills",
-        "git submodule update --init --recursive",
-        "git submodule update --remote --recursive",
-        "pip install -r requirements.txt",
-        "Claude: For your experiment, I recommend:",
-        "Claude:"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "bigbio/sdrf-skills matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-09/01-bigbio-sdrf-skills.md"
-    },
-    {
-      "id": "hoanganhduc/coding-system-rebuild",
-      "name": "hoanganhduc/coding-system-rebuild",
-      "url": "https://github.com/hoanganhduc/coding-system-rebuild",
-      "date": "2026-07-09",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 87,
-      "momentum": 49,
-      "risk": 40,
-      "integration_effort": 36,
-      "expected_gain": 87,
-      "composite": 72,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "AlexNthLab/nth-dao",
-          "date": "2026-06-12",
-          "topic": "AI dev tools",
-          "similarity": 0.313,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
-        },
-        {
-          "title": "Kuberwastaken/VPSmaxxing",
-          "date": "2026-06-30",
-          "topic": "AI dev tools",
-          "similarity": 0.289,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
-        },
-        {
-          "title": "LuD1161/agentjail",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.265,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-09)",
-        "MIT license",
-        "1 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens",
-        "May require elevated privileges"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [],
-      "install_commands": [
-        "git clone https://github.com/hoanganhduc/coding-system-rebuild",
-        "git show       # review what changed"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "May require elevated privileges"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-12 about AI dev tools; this candidate overlaps with \"AlexNthLab/nth-dao\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-09/02-hoanganhduc-coding-system-rebuild.md"
     }
   ]
 }

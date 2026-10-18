@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T08:54:57.582Z",
+  "updated_at": "2026-10-18T09:13:17.194Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Cosplay as a tech lead, using gVisor to sandbox agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/SoftwareRenderer/MIKE",
+      "date": "2026-10-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, This started as an exploration into harnesses and locally hostable LLMs (the kind that uses less power than a small electric heater), and I used it as an opportunity to retool. I've tried popular ones like Cline, Claude Code, and Pi, but wanted a different UX and integrated sandboxes. The solution that I've landed on is a responsive web inter... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-18/06-show-hn-cosplay-as-a-tech-lead-using-gvisor-to-sandbox-agents.md"
+    },
+    {
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "date": "2026-10-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-18/07-show-hn-sphinx-a-hook-that-quizzes-you-on-your-ai-s-code-before-shippi.md"
+    },
+    {
+      "title": "Show HN: Things to Do API",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://thingstodoapi.com/",
+      "date": "2026-10-16",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I built an api/mcp for local events: pop-ups, one-off events, concerts, etc. currently covering the SF bay area. I've been building a bunch of consumer apps lately around personalization and recommendation and have had a hard time finding this data in one spot. agents can find useful stuff through tool calls / web search, but slow. you can scrape on deman... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/08-show-hn-things-to-do-api.md"
+    },
+    {
+      "title": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://tkgally.github.io/500-clocks/",
+      "date": "2026-10-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Lately I've been testing frontier models by having them create self-contained web pages that display clocks--sort of my personal version of Simon Willison’s pelican-on-a-bicycle metric. I have been particularly impressed by the variety, interest, and quality of the clocks created by Claude Opus 5.5. Over the course of several sessions in the Claude chat i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-18/09-show-hn-500-clocks-in-one-6-3-mb-html-file-by-opus-5-5.md"
+    },
+    {
+      "title": "KPKrol85/DS-beauty-pr01-StudioNoir",
+      "source": "GitHub Search API",
+      "url": "https://github.com/KPKrol85/DS-beauty-pr01-StudioNoir",
+      "date": "2026-10-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Premium hair and beauty studio website featuring editorial design, responsive layouts, interactive galleries, and Vanilla JavaScript powered by Vite. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-18/10-kpkrol85-ds-beauty-pr01-studionoir.md"
+    },
+    {
+      "title": "abla86/KodeMester-AI---Kodebygger-Integrator-Dokumentasjon",
+      "source": "GitHub Search API",
+      "url": "https://github.com/abla86/KodeMester-AI---Kodebygger-Integrator-Dokumentasjon",
+      "date": "2026-10-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "kodebygger (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-18/11-abla86-kodemester-ai-kodebygger-integrator-dokumentasjon.md"
+    },
+    {
+      "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/mikroverk/esp32sim",
+      "date": "2026-10-17",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser. The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator. The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected. Source: https://github.com... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-17/12-show-hn-esp32sim-run-esp32-firmware-in-the-browser.md"
+    },
+    {
+      "title": "You don’t need that expensive of a build for local llms.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8s73i/you_dont_need_that_expensive_of_a_build_for_local/",
+      "date": "2026-10-18",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Been seeing a lot of people with their 64gb of ddr5 4x3090 or whatever strata builds and it’s been sorta depressing knowing i cant afford that but i finally finished my setup today so here we go, Qwen 3.8 27b at 262k context, unsloth iq4XS ascii condensed with kv cache streaming My only gpu is a 9060 xt 16gb and i have 24gb ddr5 for my whole homelab only... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-18/13-you-don-t-need-that-expensive-of-a-build-for-local-llms.md"
+    },
+    {
+      "title": "My 5070 ti/3070 Chimera build.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8u6eg/my_5070_ti3070_chimera_build/",
+      "date": "2026-10-18",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Got lucky with a 5070 Ti for $750 AFTER TAX (might be the best decision I've ever made tbh) back in November 2025. If only I had known I'd be getting into local llms at the time...anyways. I recently decided to start messing with local AI. I began getting comfortable in Powershell and having local models help me write random automation scripts. Naturally,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-18/14-my-5070-ti-3070-chimera-build.md"
+    },
+    {
+      "title": "Why not run Qwen 3.8 Flash Next with the full n-gram-table?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8am0i/why_not_run_qwen_38_flash_next_with_the_full/",
+      "date": "2026-10-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Already posted here https://www.reddit.com/r/LocalLLaMA/comments/1x85hfj/strata_qwen_38_flash_next_fast_but_whats_it/phavui9/ , but I believe this topic deserves it's own post. The PLE, aka the n-gram table that sits on the SSD, is quantized heavily in the common GGUFs and has a measurable impact on performance, demonstrated here by /u/MarkoMarjamaa : htt... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-17/15-why-not-run-qwen-3-8-flash-next-with-the-full-n-gram-table.md"
+    },
+    {
+      "title": "Nine models, five coding tasks, one 16GB GPU",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8qlvw/nine_models_five_coding_tasks_one_16gb_gpu/",
+      "date": "2026-10-18",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I ran five coding tasks against nine models on one RX 9060 XT (16 GB). Each run gets a single spec file in an empty directory and has to produce solution.py and test_solution.py , run its own tests, and stop. Grading happens with a checker the model never sees: fixed cases from the spec, randomized cases against a brute-force oracle, and a performance gat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-18/16-nine-models-five-coding-tasks-one-16gb-gpu.md"
+    },
     {
       "title": "Show HN: rStation – A shared research lab for your AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "As part of a ML study group I've been building tools to experiment with ML concepts. I use AI Coding agents to develop software, mostly cloud-based but I keep trying local LLMs on 12G, 16G, and 24G VRAM GPUs. Freetoken has made it possible to run larger MoE models on smaller GPUs. This inspired me to use my ML tools to build a tiny MoE model from scratch... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/07-show-hn-i-made-a-tiny-moe-engram-viz-tool.md"
-    },
-    {
-      "title": "Show HN: EterDB, a Postgres fork that makes it easy to recover from incidents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://eterdb.com/",
-      "date": "2026-09-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, a few months ago, after recovering from a Clade-generated bug, I was thinking to myself “wouldn’t it be nice if prod DB writes were easy to roll back”. I’ve put something together: it’s a two-container deploy plus a CLI tool. It’s far from being production ready, so please be gentle. All feedback welcome! The nitty gritty: https://eterdb.com... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-10/08-show-hn-eterdb-a-postgres-fork-that-makes-it-easy-to-recover-from-inci.md"
-    },
-    {
-      "title": "Show HN: I made a flight simulator, except you're just a passenger",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://inflightsimulator.com",
-      "date": "2026-09-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Buckle your seatbelt, secure your tray table, and open your window shade. Now you can simulate flying anywhere in the world as a commercial passenger, from takeoff to touchdown. Terrain, weather, and realtime sun position included. Don't worry, the latest release now features legs, so you can get up and go to the bathroom on longer flights. Enjoy! (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/09-show-hn-i-made-a-flight-simulator-except-you-re-just-a-passenger.md"
-    },
-    {
-      "title": "Show HN: <15MB Local-first Interactive LaTeX Scratchpad in the Browser",
-      "source": "Hacker News Show HN",
-      "url": "https://telox.dev/app/scratchpad/",
-      "date": "2026-09-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I am working on a very modular typesetting engine called TeLoX, intended as a superset of the capabilities (of at least) XeTeX and pdfLaTeX, written in Rust. The main goals are modularity and speed (which we know sometimes fight each other unless we try to be principled about it). Today I wanted to demonstrate these diegetic interactive sliders that contr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/10-show-hn-15mb-local-first-interactive-latex-scratchpad-in-the-browser.md"
-    },
-    {
-      "title": "Show HN: VibeWorld – a shared terminal world for developers and scientists",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/SorBalda/vibeworld",
-      "date": "2026-09-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Vibeworld is a persistent cyberpunk shared world that runs in your terminal, where you can meet other developers and scientists to have company at 2 AM while screaming at your LLM :) you can connect with other scientist, chat, and includes also use vocal chat if you want to use it. There is a world and a moon, and they are completely 3D rendered and anima... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/11-show-hn-vibeworld-a-shared-terminal-world-for-developers-and-scientist.md"
-    },
-    {
-      "title": "pradverma94/ai-support-agent",
-      "source": "GitHub Search API",
-      "url": "https://github.com/pradverma94/ai-support-agent",
-      "date": "2026-09-13",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "demo for ai-support-agent (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/12-pradverma94-ai-support-agent.md"
-    },
-    {
-      "title": "Show HN: What Just Pinged Me?",
-      "source": "Hacker News Show HN",
-      "url": "https://whatjustpingedme.com",
-      "date": "2026-09-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "My wife kept getting some random-seeming notification sounds on her macbook that we couldn't identify - a little quarter second \"bloop\" that would play and then go away without any trace we could find. So I made (prompted) this app that will listen to the audio on the system and identify the sound. It will identify system sounds and use system logs to try... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-13/13-show-hn-what-just-pinged-me.md"
-    },
-    {
-      "title": "Right to Intelligence. Protect your right to run local AI.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfqwfh/right_to_intelligence_protect_your_right_to_run/",
-      "date": "2026-09-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "With all the recent drama surrounding AI safety. It’s obvious that open source could be caught in the crossfire. submitted by /u/Euphoric_Ad9500 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-14/14-right-to-intelligence-protect-your-right-to-run-local-ai.md"
-    },
-    {
-      "title": "Another Qwen3.8-27b Appreciation Post",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfsvgy/another_qwen3827b_appreciation_post/",
-      "date": "2026-09-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I know I know, it's great, we know. I've been working on tweaking inference engines for a week now and it's been one shotting most of my vague prompts without any issues. It will even write tests and validate the changes without me asking. It's actually nuts. Last time I did something with advanced math I was making a game using Sonnet. It took many itera... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-14/15-another-qwen3-8-27b-appreciation-post.md"
-    },
-    {
-      "title": "The Local LLM community feels like the golden era of the internet all over again",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era/",
-      "date": "2026-09-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Lately because of the current hardware shortage, unfortunately or fortunately, we can’t just throw infinite cloud compute at our problems, but we’re forced to actually care about what’s happening under the hood. We’re tweaking inference engines, learning quantization math, and optimizing architecture just to squeeze as much performance as possible for the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-13/16-the-local-llm-community-feels-like-the-golden-era-of-the-internet-all-.md"
-    },
-    {
-      "title": "Decided to build a game, and test the ceiling of Qwen3.8 27b",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfpyvv/decided_to_build_a_game_and_test_the_ceiling_of/",
-      "date": "2026-09-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This took roughly 5 hours to create, using 2 different configured harnesses, same model. RTX 3090, overclocked +12% gain (MSI Afterburner), Q4KM - built this for fun, will be throwing it on GitHub, opensource for people to get an idea of a project created to the near ceiling of performance & capability for q3.8 27b. & also maybe ya’ll can contribute to th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-14/17-decided-to-build-a-game-and-test-the-ceiling-of-qwen3-8-27b.md"
-    },
-    {
-      "title": "Show HN: Open-sourced solution to AI manage Playwright automations",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/rakutentech/sorify",
-      "date": "2026-09-12",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "We built a comprehensive system that connects directly to the AI agents through MCP for writing, managing most type of browser automations. Purpose is for automated testing or automating browser based workflows. It provides notifications, scheduling, pre/post hooks, IAM management, cookies support, json payloads. Has a hybrid Chrome extension too, that ca... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-12/06-show-hn-open-sourced-solution-to-ai-manage-playwright-automations.md"
     }
   ]
 }
