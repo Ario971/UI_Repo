@@ -1,0 +1,222 @@
+---
+id: "huayudong/note-curator"
+name: "Huayudong/note-curator"
+url: "https://github.com/Huayudong/note-curator"
+date: "2026-10-19"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "claude_skill"
+compatibility: 83
+momentum: 49
+risk: 35
+integration_effort: 44
+expected_gain: 87
+composite: 71
+replacement_target: ""
+related_articles: [{"title":"Show HN: shadowclone, skills learned from your coding agent corrections","date":"2026-10-13","topic":"AI agents","similarity":0.261,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"},{"title":"Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev","date":"2026-09-21","topic":"AI dev tools","similarity":0.26,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"},{"title":"LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction","date":"2026-10-01","topic":"AI agents","similarity":0.235,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/07-litereality-agent-an-agentic-system-for-interactable-3d-indoor-scene-r.md"}]
+pros: ["Recently updated (2026-10-19)","MIT license","1 GitHub stars","README includes install commands"]
+cons: ["No obvious v1 warning, still review upstream code before use"]
+readme_quality: 93
+has_ci: false
+has_tests: false
+setup_steps_count: 4
+dependency_files: []
+install_commands: ["codex plugin marketplace add Huayudong/note-curator","codex plugin add note-curator@note-curator-market","npx skills add Huayudong/note-curator/plugins/note-curator/skills/note-curator","git clone https://github.com/Huayudong/note-curator.git"]
+risk_flags: []
+status: "new"
+---
+
+# Huayudong/note-curator
+
+note-curator（笔记管家）：把网页链接和本地草稿整理成「给人看的」结构化中文笔记，与Obsidian配合使用最佳。它只依赖 SKILL.md 和 Python 标准库脚本，任何支持 Agent Skills 的客户端都可以直接使用。
+
+URL: https://github.com/Huayudong/note-curator
+
+## Why it matters
+You saved an article on 2026-10-13 about AI agents; this candidate overlaps with "Show HN: shadowclone, skills learned from your coding agent corrections" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-19)
++ MIT license
++ 1 GitHub stars
++ README includes install commands
+
+## Cons
+- No obvious v1 warning, still review upstream code before use
+
+## Repository Inspection
+README quality: 93/100
+CI detected: no
+Tests mentioned: no
+Setup steps estimate: 4
+
+Dependency files:
+- none detected
+
+Install commands found:
+- codex plugin marketplace add Huayudong/note-curator
+- codex plugin add note-curator@note-curator-market
+- npx skills add Huayudong/note-curator/plugins/note-curator/skills/note-curator
+- git clone https://github.com/Huayudong/note-curator.git
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+**English** | [简体中文](README.zh-CN.md)
+
+# note-curator
+
+Turn links and rough drafts into structured Chinese notes that fit your Obsidian vault and match the style of your existing notes.
+
+note-curator is an open-source Agent Skill for Chinese note curation. It fetches an article or reads a draft, checks the vault for duplicates, merges into an existing note or creates a new one, adds Obsidian backlinks, and follows the formatting and voice of the target folder. It uses only Python's standard library and ships as a standalone skill plus thin plugins for ZCode, Claude Code, and Codex / ChatGPT.
+
+## Features
+
+- **Link or draft → note**: fetch a URL or read a local draft, then produce a structured Chinese note.
+- **Two note types**: knowledge notes for concepts and explanations, experiment notes for setup, method, data, and conclusions.
+- **Vault-wide deduplication**: keyword pre-filter plus semantic judgment before writing.
+- **Merge instead of duplicate**: append new knowledge, correct only clear errors, preview the diff, then write.
+- **Obsidian backlinks**: link concepts to existing notes with title-first matching and a confidence threshold.
+- **Style-aware formatting**: mirror the target folder's frontmatter, heading levels, list markers, emphasis, and structural density.
+- **Local voice profile**: measure sentence length, punctuation, pronouns, particles, connectors, sentence openers, and rhetorical habits; the agent reads sample notes and completes a qualitative `voice.md`.
+- **Pre-write style check**: compare a draft with the profile and flag clear deviations.
+- **Small frontmatter contract**: `author`, `created`, and `tags` only; tags are capped at three and must describe the note.
+- **No third-party Python dependencies**: Python 3.8+ and the standard library.
+
+## Install
+
+The plugin root is `plugins/note-curator/`; the skill itself is `plugins/note-curator/skills/note-curator/`. The same skill is used by every target.
+
+### ZCode
+
+1. Open **Plugin Marketplace → Add → Add Plugin Marketplace**.
+2. Paste `https://github.com/Huayudong/note-curator`.
+3. Install **Note Curator (笔记管家)** from `note-curator-market`.
+
+This is a custom marketplace source, not an official ZCode marketplace listing.
+
+### Claude Code
+
+```bash
+/plugin marketplace add Huayudong/note-curator
+/plugin install note-curator@note-curator-market
+```
+
+### Codex / ChatGPT
+
+Codex CLI:
+
+```bash
+codex plugin marketplace add Huayudong/note-curator
+codex plugin add note-curator@note-curator-market
+```
+
+In the ChatGPT desktop app, open the Plugins directory, add or import the repository as a marketplace, then install `note-curator`. Workspace admins can use **Admin → Plugins → Add → Import marketplace** with an empty `Path`.
+
+ChatGPT Skills/Plugins availability depends on the plan, workspace settings, and client version. Importing this repository creates a custom marketplace; it does not automatically list the plugin in OpenAI's public directory.
+
+### Standalone skill
+
+```bash
+npx skills add Huayudong/note-curator/plugins/note-curator/skills/note-curator
+```
+
+Or clone and copy the skill directory:
+
+```bash
+git clone https://github.com/Huayudong/note-curator.git
+cp -r note-curator/plugins/note-curator/skills/note-curator ~/.agents/skills/note-curator
+# ZCode:       ~/.zcode/skills/note-curator
+# Claude Code: ~/.claude/skills/note-curator
+```
+
+Remove any manually installed copy before installing the plugin; a user-level skill can shadow the plugin version.
+
+## Quick start
+
+The first call runs a setup check. If the vault path or author is missing, the skill stops and asks for configuration instead of dumping a full note into the conversation.
+
+```bash
+python plugins/note-curator/skills/note-curator/scripts/check_setup.py --json
+python plugins/note-curator/skills/note-curator/scripts/init_setup.py \
+  --vault "D:/Obsidian/MyVault" --author "Your Name"
+```
+
+Configuration is written to `~/.note-curator/config.yaml`. If a legacy `config.yaml` exists in the skill directory, it is used instead. Plugin upgrades do not overwrite the user-level config.
+
+Then ask:
+
+```text
+Organize this article into my notes: <URL>
+```
+
+```text
+Archive this draft: ...
+```
+
+The skill shows a diff preview before writing.
+
+## How it works
+
+```text
+input → fetch/read → deduplicate → merge or create → style check → preview → write
+```
+
+The merge path appends new knowledge and edits only clear errors. The create path learns the target folder's formatting and, when enabled, the local voice profile before drafting.
+
+## Style learning
+
+Build a profile from recent notes in a folder:
+
+```bash
+python plugins/note-curator/skills/note-curator/scripts/style_profile.py \
+  --vault "D:/Obsidian/MyVault" --dir "04 AI" --sample 20
+```
+
+This writes `profile.json`, `profile.md`, and a `voice.md` template to `~/.note-curator/style-profiles/<name>/`. The agent reads the samples and fills `voice.md` with observations about tone, sentence rhythm, vocabulary, paragraph flow, and punctuation.
+
+Check a draft:
+
+```bash
+python plugins/note-curator/skills/note-curator/scripts/style_check.py \
+  _note.md --profile "~/.note-curator/style-profiles/04-AI/profile.json"
+```
+
+The result is consistent / minor deviation / major deviation (`基本一致` / `轻微偏差` / `明显偏差`). This is a statistical check, not a guarantee of identical voice. It works best with 10+ notes or 5,000+ characters from the same folder.
+
+## Configuration
+
+See [`config.example.yaml`](plugins/note-curator/skills/note-curator/config.example.yaml). The main options are `vault_path`, `taxonomy.rules`, `dedup`, `backlinks`, and `style`.
+
+## Compatibility
+
+- The skill uses only Python's standard library and works in any client that supports Agent Skills.
+- Plugin manifests target ZCode (`.zcode-plugin`), Claude Code (`.claude-plugin`), and Codex/ChatGPT (`.codex-plugin`); marketplaces live at `.claude-plugin/marketplace.json` and `.agents/plugins/marketplace.json`.
+- Local file access and command execution are required to scan the vault, run the scripts, and write notes.
+- Official marketplace listing is separate from adding a custom marketplace; this repository does not automatically appear in any vendor's official directory.
+
+## Limitations
+
+- Style learning is statistical plus a qualitative profile; it is not fine-tuning and does not clone an author.
+- Profiles are per folder and depend on the samples; topic differences can cause false positives.
+- The skill does not verify facts; it preserves the source's terms, data, and attribution.
+- The first call is intentionally blocked until `vault_path` and `author` are configured.
+
+## Releasing
+
+Update the version in the three plugin manifests and `.claude-plugin/marketplace.json`, refresh the marketplace in each client, and publish the new tag or commit.
+
+## Credits
+
+- [write-like-me](https://github.com/Hiro-Inagawa/write-like-me) (MIT) — voice profile and deterministic checker structure; this implementation rewrites the features and rules for Chinese notes.
+- [OpenAI Model guidance](https://developers.openai.com/api/docs/guides/latest-model) and [lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) — writing-style guidance.
+- [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing).
+
+## License
+
+[MIT](LICENSE)
+

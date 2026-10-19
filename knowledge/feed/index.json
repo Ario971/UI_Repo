@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T09:13:17.194Z",
+  "updated_at": "2026-10-19T10:23:03.795Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Hybro – an open interoperability engine for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/hybroai/hybro",
+      "date": "2026-10-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I built an open interoperability engine for AI agents. Connect your favorite agents and harnesses. Work together. Appreciate for any feedback. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-18/06-show-hn-hybro-an-open-interoperability-engine-for-ai-agents.md"
+    },
+    {
+      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.23845v1",
+      "date": "2026-10-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) databas... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/07-ai-driven-reproducibility-and-analytical-robustness-in-scientific-disc.md"
+    },
+    {
+      "title": "Leveraging verifiable structure in quantum circuits to find more efficient compilations with agentic AI",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.23832v1",
+      "date": "2026-10-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We discuss an effective paradigm of utilizing AI agents to better compile quantum circuits when one can constrain bottleneck subroutines to have some form of classically verifiable structure. For example, when critical subroutines are composed exclusively of reversible classical logic, phasing operations, and measurement based uncomputation, one can effic... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/08-leveraging-verifiable-structure-in-quantum-circuits-to-find-more-effic.md"
+    },
+    {
+      "title": "Self-Building Labs",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.23826v1",
+      "date": "2026-10-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bot... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/09-self-building-labs.md"
+    },
+    {
+      "title": "Show HN: DocuMemory – Persistent memory and context for AI coding tools",
+      "source": "Hacker News Show HN",
+      "url": "https://www.documemory.dev/",
+      "date": "2026-10-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: DocuMemory – Persistent memory and context for AI coding tools (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-18/10-show-hn-documemory-persistent-memory-and-context-for-ai-coding-tools.md"
+    },
+    {
+      "title": "samia-djafi/connect_sign",
+      "source": "GitHub Search API",
+      "url": "https://github.com/samia-djafi/connect_sign",
+      "date": "2026-10-19",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ConnectSign is an AI-powered progressive web app (PWA) that bridges sign language and spoken communication through bidirectional translation: sign language → text/speech, and text/speech → sign language, making communication more inclusive and accessible. ConnectSign - Every Hand Has a Voice. ConnectSign - Because Everyone Deserves to Be Heard. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-19/11-samia-djafi-connect-sign.md"
+    },
+    {
+      "title": "mogenga/Embedded-Ai-Master",
+      "source": "GitHub Search API",
+      "url": "https://github.com/mogenga/Embedded-Ai-Master",
+      "date": "2026-10-19",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "嵌入式AI大师 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-19/12-mogenga-embedded-ai-master.md"
+    },
+    {
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "date": "2026-10-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I could find either required WhatsApp Business or an actual server to run Baileys on. I wanted to run it for free on ClaudeFlare and with my personal WhatsApp account, so I built this. Important feature - it connects to your Google account as well as WhatsApp to grab t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-18/13-show-hn-whatsapp-mcp-running-free-on-cloudflare.md"
+    },
+    {
+      "title": "72 hours, four big open weights drops. The only one that fits in 24GB came from NVIDIA, of all companies.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/",
+      "date": "2026-10-18",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "What a week. Quick recap, all numbers from the official repos and model cards: Thursday: Meta drops Muse Spark Open. 816B total, 42B active, 1M context. The launch post says it brings agentic AI \"to your desktop\". The desktop is two M5 Ultra Mac Studios with 512GB each, a config Apple says ships \"late October\" and still hasn't put a price on. The alternat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-18/14-72-hours-four-big-open-weights-drops-the-only-one-that-fits-in-24gb-ca.md"
+    },
+    {
+      "title": "Kapitsa: open-source Apple Silicon optimized Metal engine built for Qwen and Nemotron. See benchmarks of Qwen 27B, Nemotron + 8 other models on an M1 Pro (16GB), M4 Pro (48GB) and M5 Max (128GB)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9pzt0/kapitsa_opensource_apple_silicon_optimized_metal/",
+      "date": "2026-10-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "hey, my name is Ye, I vibecode at Nace.ai and we do a lot of work with enterprises, and a lot of the time we're inside their networks with no internet access and outdated cloud hosted models. considering we work on macbooks, we have built Kapitsa, an open-source (Apache 2.0) inference engine for Apple Silicon, to run coding agents on local models that wou... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-19/15-kapitsa-open-source-apple-silicon-optimized-metal-engine-built-for-qwe.md"
+    },
+    {
+      "title": "Little Sweet Room Challenge | Strata Fork | Qwen 3.8 FN NVFP4 | DeepSeek Harness",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9hpb3/little_sweet_room_challenge_strata_fork_qwen_38/",
+      "date": "2026-10-18",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Another little challenge I seen on a DeepSeek Thread. I thought I'd try out it out on Qwen FN NvFp4. It was a pretty straight forward prompt with 4 images attached in the doc. The thread was testing different harness and models and showing their results. Op of that thread has two other threads on the same Challenge just one with DeepSeek Harness so I used... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-18/16-little-sweet-room-challenge-strata-fork-qwen-3-8-fn-nvfp4-deepseek-har.md"
+    },
+    {
+      "title": "LTX 2.5 running locally on a 48GB M5 Pro MacBook Pro in TensorSharp’s Video Studio",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9p6cp/ltx_25_running_locally_on_a_48gb_m5_pro_macbook/",
+      "date": "2026-10-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I maintain TensorSharp , an open-source local inference engine and agent runtime. I’ve added Video Studio to bring local video generation, an editable timeline, and an optional local LLM assistant into the same project. The attached demo runs in TensorAgent on macOS . The actual run Machine: MacBook Pro with an Apple M5 Pro chip and 48GB of memory. Model:... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-19/17-ltx-2-5-running-locally-on-a-48gb-m5-pro-macbook-pro-in-tensorsharp-s-.md"
+    },
     {
       "title": "Show HN: Cosplay as a tech lead, using gVisor to sandbox agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I have been building Rebuno, an open-source execution runtime for operating AI agents in production. It manages execution state and guardrails across agents built with different frameworks. Agents run as HTTP services. Rebuno dispatches work through signed webhooks and keeps execution state in Postgres. Agents submit tool and model calls to Rebuno as step... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/07-show-hn-rebuno-an-open-source-runtime-for-production-agents.md"
-    },
-    {
-      "title": "Show HN: Nari Qwen3-TTS and Qwen3-ASR – High accuracy, low latency and cost",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/",
-      "date": "2026-09-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, Toby from Nari Labs here. We've been working on making OSS speech models super-fast. Last year, we built Dia, the first OSS text-to-speech model capable of doing natural dialogue. Since then, so many more great speech models have been released to the public. But the market is still dominated by closed source models. We think that's an inference pr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/08-show-hn-nari-qwen3-tts-and-qwen3-asr-high-accuracy-low-latency-and-cos.md"
-    },
-    {
-      "title": "Show HN: Pelican-bicycle alternatives",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://gally.net/temp/20260914pelican-alternatives/index.html",
-      "date": "2026-09-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "In November and December 2025, inspired by Simon Willison’s pelican-riding-a-bicycle benchmark, I had some then-current LLMs create SVGs from thirty similar prompts, such as “Generate an SVG of an octopus operating a pipe organ.” Simon mentioned that experiment on his blog [1]. Nine months have passed and much stronger models have been released, so I trie... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/09-show-hn-pelican-bicycle-alternatives.md"
-    },
-    {
-      "title": "Show HN: Pushie – Get notified with a simple webhook",
-      "source": "Hacker News Show HN",
-      "url": "https://pushie.net",
-      "date": "2026-09-14",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Pushie lets you send notifications to yourself from anywhere. Create an account, claim a username, and start pushing to every device you are signed in on with a single HTTP request. No app or SDK to install. No complex authentication. Just a HTTP POST request with your message. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-14/10-show-hn-pushie-get-notified-with-a-simple-webhook.md"
-    },
-    {
-      "title": "Show HN: Threshyr – An offline automatic time tracker with on-device AI",
-      "source": "Hacker News Show HN",
-      "url": "https://threshyr.com",
-      "date": "2026-09-14",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I've built and continuously improved Threshyr based on the problem I faced myself. I was working on more than 3 projects at one time. At the end of any day/week/month if I had to calculate how many hours I have worked on each one, I would always not be able to calculate an accurate time. Because I had to just reconstruct it from memory instead of any real... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-14/11-show-hn-threshyr-an-offline-automatic-time-tracker-with-on-device-ai.md"
-    },
-    {
-      "title": "Ranjith-7416/sales-ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Ranjith-7416/sales-ai",
-      "date": "2026-09-15",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Ranjith-7416/sales-ai Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-15/12-ranjith-7416-sales-ai.md"
-    },
-    {
-      "title": "Show HN: Jinfer – AI inference engine for the JVM. AI in a jar",
-      "source": "Hacker News Show HN",
-      "url": "https://qxotic.ai/",
-      "date": "2026-09-15",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, Some would call AI on the JVM quixotic. And so, Quixotic AI was born. jinfer is an inference engine for the JVM: chat, vision, audio, embeddings, reranking, and TTS. No Python runtime, no ONNX, no Docker containers, no sidecar process, no IPC. Finally, AI in a jar. The stack underneath is built for the JVM rather than bolted onto it: toknroll: pure... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-15/13-show-hn-jinfer-ai-inference-engine-for-the-jvm-ai-in-a-jar.md"
-    },
-    {
-      "title": "If you have a 3090, or other 30xx for local LLMs, I have something for you",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgmhon/if_you_have_a_3090_or_other_30xx_for_local_llms_i/",
-      "date": "2026-09-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I have a custom fork of llama.cpp designed around the ampere architecture specifically (though many of the upgrades also translate to faster performance of blackwell + lovelace). The recommended config supports 90+ TPS (for agentic/coding, at temp 1; greedy will of course be faster) through 100K tokens, with context of up to 240K. If you want the repo, it... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-15/14-if-you-have-a-3090-or-other-30xx-for-local-llms-i-have-something-for-y.md"
-    },
-    {
-      "title": "[Bi-Weekly Megathread] Project Showcase",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgcpww/biweekly_megathread_project_showcase/",
-      "date": "2026-09-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Do you have something you'd like to share with the r/LocalLLaMA community. This is the place for it! Recommendation on presentation: Please share plain english description of what your project does and why people should care about it How does it compare to existing options and why should people switch to your option? How have you tested and validated it?... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-14/15-bi-weekly-megathread-project-showcase.md"
-    },
-    {
-      "title": "Voodoo Dynamic Quant - Now MIT Licensed",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgszma/voodoo_dynamic_quant_now_mit_licensed/",
-      "date": "2026-09-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Two months ago I announced I had found a new dynamic quant method called Voodoo Quant which was SOTA for the most aggressive quant levels on some smaller Qwen3.5 GGUF models. I kept the methodology private at the time, but I've seen too many requests for dyn quants for various models lately, so I decided to give my method to the community since I don't ha... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-15/16-voodoo-dynamic-quant-now-mit-licensed.md"
-    },
-    {
-      "title": "UkisAI Swift-Qwen3.8-27B / -58.3% thinking, x1.95 speed while keeping the accuracy of xhigh",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wg7dd5/ukisai_swiftqwen3827b_583_thinking_x195_speed/",
-      "date": "2026-09-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everybody, we post-trained Qwen 3.8 27B to be more efficient by figuring out which tokens were linked to overthinking and penalizing them without \"attacking\" the reasoning length directly then fixed the accuracy with a bit of secret sauce (hint On-Policy Distillation) and achieved great results ( -58% thinking tokens, 1.95x speed up, ) so we wanted to... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-14/17-ukisai-swift-qwen3-8-27b-58-3-thinking-x1-95-speed-while-keeping-the-a.md"
-    },
-    {
-      "title": "Show HN: Crypto portfolio risk and scenario analysis with AI agents on top",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://sentralis.io/",
-      "date": "2026-09-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Sentralis.io is a risk and scenario analysis platform focused on cryptocurrency portfolio HODLers It combines hardcore risk analytics capabilities with smart agents for deep insights, suitable for beginners and pros alike. Free accounts have full access to all scenarios and risk quantification. API and MCP access available as well (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/06-show-hn-crypto-portfolio-risk-and-scenario-analysis-with-ai-agents-on-.md"
-    },
-    {
-      "title": "Show HN: I made a tiny MoE/Engram viz tool",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://sw-ml-study.github.io/moe-microscope/",
-      "date": "2026-09-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "As part of a ML study group I've been building tools to experiment with ML concepts. I use AI Coding agents to develop software, mostly cloud-based but I keep trying local LLMs on 12G, 16G, and 24G VRAM GPUs. Freetoken has made it possible to run larger MoE models on smaller GPUs. This inspired me to use my ML tools to build a tiny MoE model from scratch... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/07-show-hn-i-made-a-tiny-moe-engram-viz-tool.md"
     }
   ]
 }
