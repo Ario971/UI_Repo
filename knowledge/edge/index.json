@@ -1,10 +1,207 @@
 {
-  "last_checked_at": "2026-10-19T10:23:44.434Z",
+  "last_checked_at": "2026-10-20T09:43:27.074Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "microsoft/agent-governance-toolkit",
+      "name": "microsoft/agent-governance-toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "date": "2026-10-20",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "agent_framework",
+      "compatibility": 75,
+      "momentum": 100,
+      "risk": 38,
+      "integration_effort": 56,
+      "expected_gain": 85,
+      "composite": 76,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev",
+          "date": "2026-09-21",
+          "topic": "AI dev tools",
+          "similarity": 0.296,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"
+        },
+        {
+          "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+          "date": "2026-10-01",
+          "topic": "AI agents",
+          "similarity": 0.277,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/07-litereality-agent-an-agentic-system-for-interactable-3d-indoor-scene-r.md"
+        },
+        {
+          "title": "Show HN: agentc: <1mb static/no-libc, minimal, embeddable agent with Rust/C API",
+          "date": "2026-10-08",
+          "topic": "AI agents",
+          "similarity": 0.241,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/09-show-hn-agentc-1mb-static-no-libc-minimal-embeddable-agent-with-rust-c.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-20)",
+        "MIT license",
+        "6448 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [],
+      "install_commands": [
+        "pip install \"agent-governance-toolkit[full]\"",
+        "go",
+        "pip install",
+        "go\nimport agentmesh \"github.com/microsoft/agent-governance-toolkit/agent-governance-golang\"\n\nclient, _ := agentmesh.NewClient(\"my-agent\",\n    agentmesh.WithPolicyRules([]agentmesh.PolicyRule{\n        {Action: \"data.read\", Effect: agentmesh.Allow},\n        {Action: \"*\", Effect: agentmesh.Deny},\n    }),\n)\nresult := client.ExecuteWithGovernance(\"data.read\", nil)",
+        "npm install @microsoft/agent-governance-sdk",
+        "npx @microsoft/agent-governance-copilot-cli install"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-21 about AI dev tools; this candidate overlaps with \"Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-20/01-microsoft-agent-governance-toolkit.md"
+    },
+    {
+      "id": "avgvstvs96/hex",
+      "name": "AVGVSTVS96/hex",
+      "url": "https://github.com/AVGVSTVS96/hex",
+      "date": "2026-10-20",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 75,
+      "momentum": 49,
+      "risk": 30,
+      "integration_effort": 28,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.283,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev",
+          "date": "2026-09-21",
+          "topic": "AI dev tools",
+          "similarity": 0.253,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"
+        },
+        {
+          "title": "Show HN: Visually orchestrate Claude Code AI agents",
+          "date": "2026-09-23",
+          "topic": "AI agents",
+          "similarity": 0.246,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-20)",
+        "MIT license",
+        "1 GitHub stars",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 85,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [],
+      "install_commands": [
+        "git pull https://github.com/AVGVSTVS96/hex main"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-13 about AI agents; this candidate overlaps with \"Show HN: shadowclone, skills learned from your coding agent corrections\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-20/02-avgvstvs96-hex.md"
+    },
+    {
+      "id": "immamdouhaboammar/get-fable",
+      "name": "imMamdouhaboammar/get-fable",
+      "url": "https://github.com/imMamdouhaboammar/get-fable",
+      "date": "2026-10-20",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 84,
+      "momentum": 52,
+      "risk": 40,
+      "integration_effort": 32,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.261,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+          "date": "2026-09-21",
+          "topic": "AI agents",
+          "similarity": 0.219,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/06-show-hn-foremerge-catch-intent-conflicts-between-parallel-coding-agent.md"
+        },
+        {
+          "title": "Show HN: Canary (YC) – Independent verification for AI code",
+          "date": "2026-09-24",
+          "topic": "AI agents",
+          "similarity": 0.215,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/08-show-hn-canary-yc-independent-verification-for-ai-code.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-20)",
+        "AGPL-3.0 license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts none"
+        }
+      ],
+      "install_commands": [
+        "npm install -g get-fable",
+        "npm install get-fable"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-13 about AI agents; this candidate overlaps with \"Show HN: shadowclone, skills learned from your coding agent corrections\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-20/03-immamdouhaboammar-get-fable.md"
+    },
     {
       "id": "mirsella/browser-mcp",
       "name": "mirsella/browser-mcp",
@@ -19460,188 +19657,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"LuD1161/agentjail\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-12/02-uttam-gelot-payo.md"
-    },
-    {
-      "id": "xjanova/brainx",
-      "name": "xjanova/BrainX",
-      "url": "https://github.com/xjanova/BrainX",
-      "date": "2026-07-12",
-      "source": "awesome-mcp",
-      "category": "awesome_lists",
-      "kind": "mcp_server",
-      "compatibility": 87,
-      "momentum": 45,
-      "risk": 24,
-      "integration_effort": 56,
-      "expected_gain": 87,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.26,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
-        },
-        {
-          "title": "dingmanjiang/ai-resource-config",
-          "date": "2026-06-11",
-          "topic": "AI dev tools",
-          "similarity": 0.221,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-11/85-dingmanjiang-ai-resource-config.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-12)",
-        "MIT license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "Integration may take more than a quick install"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [],
-      "install_commands": [
-        "Claude Desktop ──spawns──► brainx-mcp ──spawns──► BrainX.Client ──spawns──► BrainX.Server",
-        "git clone https://github.com/xjanova/BrainX.git",
-        "git checkout -b feature/my-feature"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"Show HN: AnswerJournal – An MCP server to save and share AI answers\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-12/03-xjanova-brainx.md"
-    },
-    {
-      "id": "openclaw/openclaw",
-      "name": "openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "date": "2026-07-11",
-      "source": "awesome-mcp",
-      "category": "awesome_lists",
-      "kind": "ai_dev_tool",
-      "compatibility": 67,
-      "momentum": 100,
-      "risk": 40,
-      "integration_effort": 60,
-      "expected_gain": 77,
-      "composite": 72,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.227,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
-        },
-        {
-          "title": "AlexNthLab/nth-dao",
-          "date": "2026-06-12",
-          "topic": "AI dev tools",
-          "similarity": 0.207,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-12/97-alexnthlab-nth-dao.md"
-        },
-        {
-          "title": "Show HN: Local personal data redaction for any AI tools",
-          "date": "2026-06-18",
-          "topic": "AI dev tools",
-          "similarity": 0.198,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-18/68-show-hn-local-personal-data-redaction-for-any-ai-tools.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-11)",
-        "382541 GitHub stars",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "License was not clearly detected by GitHub",
-        "Integration may take more than a quick install"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 5,
-      "dependency_files": [],
-      "install_commands": [
-        "npm install -g openclaw@latest",
-        "git clone https://github.com/openclaw/openclaw.git",
-        "pnpm install",
-        "pnpm openclaw setup",
-        "pnpm ui:build",
-        "pnpm gateway:watch"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"Show HN: AnswerJournal – An MCP server to save and share AI answers\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-11/01-openclaw-openclaw.md"
-    },
-    {
-      "id": "handlecoding/openhuskyagent",
-      "name": "HandleCoding/OpenHuskyAgent",
-      "url": "https://github.com/HandleCoding/OpenHuskyAgent",
-      "date": "2026-07-11",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 79,
-      "momentum": 57,
-      "risk": 40,
-      "integration_effort": 36,
-      "expected_gain": 87,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Reverse-engineering web apps into agent tools",
-          "date": "2026-07-09",
-          "topic": "AI agents",
-          "similarity": 0.25,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
-        },
-        {
-          "title": "acoyfellow/my-ax",
-          "date": "2026-06-19",
-          "topic": "AI dev tools",
-          "similarity": 0.247,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-19/83-acoyfellow-my-ax.md"
-        },
-        {
-          "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
-          "date": "2026-06-26",
-          "topic": "AI agents",
-          "similarity": 0.238,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-11)",
-        "MIT license",
-        "6 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens",
-        "May require elevated privileges"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [],
-      "install_commands": [
-        "git clone https://github.com/HandleCoding/OpenHuskyAgent.git"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "May require elevated privileges"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-09 about AI agents; this candidate overlaps with \"Show HN: Reverse-engineering web apps into agent tools\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-11/02-handlecoding-openhuskyagent.md"
     }
   ]
 }

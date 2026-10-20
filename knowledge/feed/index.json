@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T10:23:03.795Z",
+  "updated_at": "2026-10-20T09:42:45.388Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "RefCraft: Benchmarking Visual-Reference-Conditioned Agentic Generation through Web Development",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.26826v1",
+      "date": "2026-10-19",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Beyond basic tool use and coding skills, effectively incorporating visual references into agentic generation is equally essential for applying AI agents to real-world productivity tasks. We study this crucial capability through webpage development, a practical and readily evaluable setting in which existing benchmarks remain largely idealized: they typica... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-19/06-refcraft-benchmarking-visual-reference-conditioned-agentic-generation-.md"
+    },
+    {
+      "title": "Accountable partial understanding: securing the epistemic attack surface of agentic systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.26799v1",
+      "date": "2026-10-19",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Attackers profit from what defenders do not understand. Software security has treated the gap between system behavior and human comprehension as a condition to narrow through analysis and assurance, booking the remainder as accepted risk. Agentic AI systems change that gap: when software reads, writes, explains, and authorizes security-relevant behavior,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-19/07-accountable-partial-understanding-securing-the-epistemic-attack-surfac.md"
+    },
+    {
+      "title": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.26770v1",
+      "date": "2026-10-19",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Harness development plays a crucial role in building capable AI agents. Recent approaches improve harnesses through recursive self-improvement (RSI), but their performance gains often come with higher execution costs. We introduce HarnessPro, a label-free method for evolving harnesses to improve task performance while reducing execution cost. In this sett... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-19/08-harnesspro-recursive-harness-self-improvement-with-pareto-optimization.md"
+    },
+    {
+      "title": "StebBench: Diagnosing Real-World Procedural Understanding in AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.26679v1",
+      "date": "2026-10-19",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Evaluating an agent's planning ability remains challenging for open-domain tasks, where verifying procedures through execution is often impractical. Existing evaluations typically assess only the final plan and do not distinguish procedural errors such as missing, incorrect, or misordered actions. We introduce STEPBENCH, a benchmark of 6,885 verified proc... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-19/09-stebbench-diagnosing-real-world-procedural-understanding-in-ai-agents.md"
+    },
+    {
+      "title": "Show HN: KiviDB, a faster Redis-compatible memory database and vector cache",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/kividbio/kividb",
+      "date": "2026-10-19",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi all, So I have been working on this project KiviDB from February 2026. It started as a project for me to understand rust, having a product with no GC pauses, memory blow up after snapshots and getting OOM on running pods, and that was actually an issue I faced with Dragonfly. I wanted to have something picking the best of Rust, but also picking the bes... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-19/10-show-hn-kividb-a-faster-redis-compatible-memory-database-and-vector-ca.md"
+    },
+    {
+      "title": "AIBeginnerX/oh-our-pi-desktop",
+      "source": "GitHub Search API",
+      "url": "https://github.com/AIBeginnerX/oh-our-pi-desktop",
+      "date": "2026-10-20",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "OoP: a fork of T3 Code that controls your coding agents (Codex, Claude Code, Cursor, OpenCode and more) from one desktop app, with an optional multi-model Crew. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"
+    },
+    {
+      "title": "araMacbick2026/anaia",
+      "source": "GitHub Search API",
+      "url": "https://github.com/araMacbick2026/anaia",
+      "date": "2026-10-20",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "araMacbick2026/anaia Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/12-aramacbick2026-anaia.md"
+    },
+    {
+      "title": "Show HN: I built an AI tool that turns two photos into a dance video",
+      "source": "Hacker News Show HN",
+      "url": "https://a2oliteai.com/",
+      "date": "2026-10-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I built an AI tool that turns two photos into a dance video (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/13-show-hn-i-built-an-ai-tool-that-turns-two-photos-into-a-dance-video.md"
+    },
+    {
+      "title": "Jev Based Adaptive Thinking for LLMs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa9ffa/jev_based_adaptive_thinking_for_llms/",
+      "date": "2026-10-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi, I experimented with the following idea, using JEV logic to make the thinking process of LLMs adaptive. For every single word we measure the entropy and when the model is unsure we use a JEV like gate where we ask the model if it should trigger a thinking process. We have the opening thought that happens anyway, but then we may have additional thinking... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-19/14-jev-based-adaptive-thinking-for-llms.md"
+    },
+    {
+      "title": "I got tired of Apple's configurator, so I built one for local AI",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xagmpd/i_got_tired_of_apples_configurator_so_i_built_one/",
+      "date": "2026-10-20",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I was buying a Mac mini and kept going back and forth between configs, trying to guess which one would actually run the models I want. So I built a configurator for people buying a Mac to run local LLMs: https://modelfit.io/ You can clearly see all the best llms it can read and at what efficiency all updating in real time according to the configuration yo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-20/15-i-got-tired-of-apple-s-configurator-so-i-built-one-for-local-ai.md"
+    },
+    {
+      "title": "[Bi-Weekly Megathread] Project Showcase",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yg86/biweekly_megathread_project_showcase/",
+      "date": "2026-10-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Do you have something you'd like to share with the r/LocalLLaMA community. This is the place for it! Recommendation on presentation: Please share plain english description of what your project does and why people should care about it How does it compare to existing options and why should people switch to your option? How have you tested and validated it?... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-19/16-bi-weekly-megathread-project-showcase.md"
+    },
+    {
+      "title": "Let's delve into the tapestry of AI slop on r/LocalLLaMA",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7hi8/lets_delve_into_the_tapestry_of_ai_slop_on/",
+      "date": "2026-10-19",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, I got annoyed a bit with all the AI slop post I have seen here on this subreddit (and reddit in general). It has gotten better in the last few months, but that hasn't stopped me from doing an in depth analysis of AI slop in different subreddits over the years. If you're into that, you can read it here: https://thil.ooo/blog/measuring-slop/ I... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-19/17-let-s-delve-into-the-tapestry-of-ai-slop-on-r-localllama.md"
+    },
     {
       "title": "Show HN: Hybro – an open interoperability engine for AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I wanted to parody where AI seems to be heading. You start as a manual inference unit pressing a button for the next token, then systems take over; agents, sub-agents, approvals, swarms. It’s Universal Paperclips for the agentic AI era, and a small exploration of where predicting the next token might eventually take us. What’s the worst that could happen? (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-15/07-show-hn-loss-a-tiny-satire-about-ai-progress.md"
-    },
-    {
-      "title": "Show HN: Agenttik – work on multiple projects in parallel with AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/pausan/agenttik",
-      "date": "2026-09-15",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi! I've been reading HN daily for almost 16 years. Really glad this community exist. This is my first Show HN, so I hope you find this tool useful/interesting. During my summer holidays I started playing with latest AI models on personal projects. At one point I started working in parallel with the same project and tried different approaches. The one tha... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-15/08-show-hn-agenttik-work-on-multiple-projects-in-parallel-with-ai-agents.md"
-    },
-    {
-      "title": "Agentic Societies Need a Social Harness",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.17527v1",
-      "date": "2026-09-15",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes with existing harnesses and messaging primitives, and tha... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-15/09-agentic-societies-need-a-social-harness.md"
-    },
-    {
-      "title": "HasbiyallahuJafaru/ClipperAi",
-      "source": "GitHub Search API",
-      "url": "https://github.com/HasbiyallahuJafaru/ClipperAi",
-      "date": "2026-09-16",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Turn one long video into weeks of short-form content: AI-selected moments rendered as captioned, speaker-framed 9:16 clips with platform-ready copy. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-16/10-hasbiyallahujafaru-clipperai.md"
-    },
-    {
-      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
-      "source": "Hacker News Show HN",
-      "url": "https://withcapsule.app/",
-      "date": "2026-09-15",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I always had the problem that building HTML pages is really simple now, but trying to save data required hosting it somewhere, and sharing it afterwards was not easy. Over the last few months, I've been building an app called Capsule (it’s also the file extension name) written in Rust with Tauri 2.0 that allows packing an HTML app and its data int... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-15/11-show-hn-capsule-single-file-web-apps-that-save-their-data-into-sqlite.md"
-    },
-    {
-      "title": "Show HN: Hacking a $20 4G wireless hotspot into a texting device",
-      "source": "Hacker News Show HN",
-      "url": "https://bkovac.github.io/modem-thing/",
-      "date": "2026-09-15",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Hacking a $20 4G wireless hotspot into a texting device (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-15/12-show-hn-hacking-a-20-4g-wireless-hotspot-into-a-texting-device.md"
-    },
-    {
-      "title": "Show HN: Pull every comment out of a Google Sheet, in the browser",
-      "source": "Hacker News Show HN",
-      "url": "https://bensunter.com/commentpulse.html",
-      "date": "2026-09-14",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I spend a lot of time working in Google sheets. Often, I will collaborate with up to 50 other people in the same workbook. One specific org I worked at had a strong preference for using comment threads in Sheets extensively to ask questions, give feedback, and raise risks. Sheets would regularly get 70+ comment threads across multiple tabs with dozens of... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-14/13-show-hn-pull-every-comment-out-of-a-google-sheet-in-the-browser.md"
-    },
-    {
-      "title": "Don’t buy a $9K RTX 5090.... instead.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1whf7ov/dont_buy_a_9k_rtx_5090_instead/",
-      "date": "2026-09-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Fly to Taipei. Round-trip from Orlando: $1,081. Go to the largest retailer in Taiwan to Spend NT$129,990 ≈ US$4,093. Hang out in Taiwan for two weeks. Eat good food. Touch international grass. Fly home and flex on r/LocalLLaMA **.** https://preview.redd.it/vtve8s6wgrph1.png?width=287&format=png&auto=webp&s=fcc391187f458d2ca023a929e554b880bf425560 https://... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-15/14-don-t-buy-a-9k-rtx-5090-instead.md"
-    },
-    {
-      "title": "What's the next local model you are excited about?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1whiz3y/whats_the_next_local_model_you_are_excited_about/",
-      "date": "2026-09-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "And why? submitted by /u/MrMrsPotts [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-16/15-what-s-the-next-local-model-you-are-excited-about.md"
-    },
-    {
-      "title": "CrofAI \"cheapest inference provider in the world\" gets exposed as an OpenRouter wrapper, routing requests to smaller, cheaper models at up to 20x markup. CrofAI responds to Wire Fraud allegations by denying everything, then backtracking, then 3 hours later wiping their entire online presence",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/",
-      "date": "2026-09-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Disclaimer: no AI was used whatsoever to write this post Cautionary tale about chasing cheap tokens. exposé: https://kendell.dev/blog/crofaifalse/ reaction by nahcrof, announcing the shutdown of the service: https://x.com/nahcrof/status/2099552389434900643 - now deleted, archive picture: https://i.imgur.com/teOQngH.png NahCrofAI (crof.ai, nahcrof.com) was... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-15/16-crofai-cheapest-inference-provider-in-the-world-gets-exposed-as-an-ope.md"
-    },
-    {
-      "title": "Apple Foundation Models: local AI natively on MacOS 27",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wh5fpa/apple_foundation_models_local_ai_natively_on/",
-      "date": "2026-09-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Maybe some of you know but I didn’t see any post about this. Apple just made available their AFM model on MacOS 27 natively. Just run fm chat in a terminal. Disclaimer: I’m an open weight person. I prefer open models and ecosystem, but I’ll still open the discussion. Did you test them? Build using them? Are these models good? I feel like this is still a h... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-15/17-apple-foundation-models-local-ai-natively-on-macos-27.md"
-    },
-    {
-      "title": "Show HN: An open-source control plane for your company's AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/vstorm-co/agenticos",
-      "date": "2026-09-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: An open-source control plane for your company's AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/06-show-hn-an-open-source-control-plane-for-your-company-s-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Rebuno - An open-source runtime for production agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/rebuno/rebuno",
-      "date": "2026-09-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I have been building Rebuno, an open-source execution runtime for operating AI agents in production. It manages execution state and guardrails across agents built with different frameworks. Agents run as HTTP services. Rebuno dispatches work through signed webhooks and keeps execution state in Postgres. Agents submit tool and model calls to Rebuno as step... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/07-show-hn-rebuno-an-open-source-runtime-for-production-agents.md"
     }
   ]
 }
