@@ -1,0 +1,12 @@
+---
+title: "Show HN: ULDA – Client-side encryption with a simple JavaScript API"
+source: "Hacker News Show HN"
+url: "https://demo.ulda.io/"
+date: "2026-10-19"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "Hi there! We have designed client side encrypted storage that sync on multiple devices and allows to hold that data on your server. We have started as chat application in late 2022 that has completly open-readable database. The idea was simple - server holds zero secrets, like non at all. But we ran into the problem of authentication - there were no auth... (Local summary fallback used.)"
+---
+
+Hi there! We have designed client side encrypted storage that sync on multiple devices and allows to hold that data on your server. We have started as chat application in late 2022 that has completly open-readable database. The idea was simple - server holds zero secrets, like non at all. But we ran into the problem of authentication - there were no auth method what could make quick, synced authorization with completely zero secrets. So in early 2023 we came to an idea of authentication via proof of ownership by providing proof that next step is made by the same user. Now you can see our job as ulda core https://github.com/ulda-io/ulda-core . Ulda was called as universal liniar data authentication. But a year later we faced that “None need another extremely secure chat application” and we decided to export our ideas and share ulda as a method in order to gather some feedback from some smarter people. In 2025 we tried to publish our white papers at REKS, CMIS and in the end in Journal of Cryptology. Ulda was never published and then we decided that it would probable a good idea to go and publish at least something somewhere to bring some attraction and hopefully some feedback. So, we assembled an sdk, that worked via ulda core and gave developers an ability to work in with encrypted and synced storage directly by editing json. We tried to make is simple as possible. We hope to bring some attention not to a sdk itself, but rather to authentication method itself. You can read our white paper here: https://github.com/ulda-io/ulda-core/blob/main/MANIFEST.md Also, if you would like to see our sdk, you can also try it here: https://docs.ulda.io , https://ulda.io . Thank you very much for your time and we hope for your feedback about authentication method. Best regards, Mark Shaposhnik Vitalii Radko

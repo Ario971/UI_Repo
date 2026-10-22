@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T09:44:08.581Z",
+  "updated_at": "2026-10-22T09:43:33.860Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/omnara-ai/omnara",
+      "date": "2026-10-21",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey all, Kartik from Omnara ( https://omnara.com ) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the agent loop, gives the agent sandboxes to run commands in, and handles secrets, permissions, and RBAC. Each agent's state is stored in Postgres, so agents survive restarts and cost... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+    },
+    {
+      "title": "Show HN: Aw-1 – Deterministic AST circuit breaker and kernel jail for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/MvikManners/aw1-circuit-breaker",
+      "date": "2026-10-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Aw-1 – Deterministic AST circuit breaker and kernel jail for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-22/07-show-hn-aw-1-deterministic-ast-circuit-breaker-and-kernel-jail-for-ai-.md"
+    },
+    {
+      "title": "The End of Consensus Research?",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.30114v1",
+      "date": "2026-10-21",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to the problem is still open, as it requires combining protocol knowledge, correctness reasoning, implementation, and experimental evaluation. We report on how... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/08-the-end-of-consensus-research.md"
+    },
+    {
+      "title": "Parallel AI Agent Collaboration as Graph-Structured Distributed Block Optimization",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.30074v1",
+      "date": "2026-10-21",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Parallel AI agents can produce useful local edits yet degrade a shared solution when their edits are combined. We model this coordination problem as discrete block optimization with an exactly evaluable objective and a known dependency graph. Independent sets certify compatible edits whose verified gains, measured against the same current solution, add ex... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/09-parallel-ai-agent-collaboration-as-graph-structured-distributed-block-.md"
+    },
+    {
+      "title": "Show HN: AI-built browser games, collected in one place",
+      "source": "Hacker News Show HN",
+      "url": "https://playgroundarcade.com/",
+      "date": "2026-10-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello, HN friends. I spent many happy IT lessons messing around on Newgrounds when I was a kid. And, to further age me - Rotten and Maddox! From that, I built my first site at about 12/13 with a friend - essentially, a cheat code site-turned emulator and ROMs mirror link directory. It ended up, for a late 90s/early 2000s Geocities site, becoming quite pop... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/10-show-hn-ai-built-browser-games-collected-in-one-place.md"
+    },
+    {
+      "title": "Show HN: ULDA – Client-side encryption with a simple JavaScript API",
+      "source": "Hacker News Show HN",
+      "url": "https://demo.ulda.io/",
+      "date": "2026-10-19",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi there! We have designed client side encrypted storage that sync on multiple devices and allows to hold that data on your server. We have started as chat application in late 2022 that has completly open-readable database. The idea was simple - server holds zero secrets, like non at all. But we ran into the problem of authentication - there were no auth... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-19/11-show-hn-ulda-client-side-encryption-with-a-simple-javascript-api.md"
+    },
+    {
+      "title": "Show HN: Embodsi – Embodied Super Intelligence",
+      "source": "Hacker News Show HN",
+      "url": "https://embodsi.com/",
+      "date": "2026-10-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "embodsi is a generative AI MMO experience that runs in the browser. It allows people to communicate (text, audio, video, avatar emotes and movement) and collaboratively build 3D spaces and games via LLMs connected to harnesses and sandboxes for object modeling, space layout, game logic, and driving persistent avatars with shared context and memory. It’s d... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-21/12-show-hn-embodsi-embodied-super-intelligence.md"
+    },
+    {
+      "title": "Studio-Hyve/n8n-nodes-vera",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Studio-Hyve/n8n-nodes-vera",
+      "date": "2026-10-22",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "n8n community node for Vera by Waggle: web scraping, search, Google results and AI visibility (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-22/13-studio-hyve-n8n-nodes-vera.md"
+    },
+    {
+      "title": "Kitten-TTS 2: New Open-source SOTA 1.58 bit TTS (CPU-only with voice cloning, multilingual, emotion control)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/",
+      "date": "2026-10-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "KittenML has just released code and weights of Kitten-TTS 2, which is a super-efficient frontier TTS model, and the world's first 1.58-bit TTS model . It runs in real time on just a CPU, with zero-shot voice cloning, multilingual support, and expressive / emphasis control. Code and weights are open-source. Ternary(1.58-bit) Weights means it can run locall... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-22/14-kitten-tts-2-new-open-source-sota-1-58-bit-tts-cpu-only-with-voice-clo.md"
+    },
+    {
+      "title": "Now that 3090 frenzy warning post makes sense.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbr3u1/now_that_3090_frenzy_warning_post_makes_sense/",
+      "date": "2026-10-21",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I don't have a 3090 to confirm, but curious if the anyone in this community can back this up. Good win for 3090 and curious if that translates to other GPUs. I have a long vague memory of some hacks done to prevent mining demand that could be fixed and help LLMs. I wonder if this was one that lived on? Disclaimer: I am not related nor do i know the origin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-21/15-now-that-3090-frenzy-warning-post-makes-sense.md"
+    },
+    {
+      "title": "Huawei Atlas AI Accelerator Latest Comparison Overview",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc9oje/huawei_atlas_ai_accelerator_latest_comparison/",
+      "date": "2026-10-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://preview.redd.it/hwwhtgar5ywh1.png?width=1688&format=png&auto=webp&s=1aabdbd2bead7b89baece7308d4daf2463885712 Hey, your friendly neighborhood Atlas advocate here, here with an update--just got off the call with our Silver rated Huawei partner who has given us new information on the latest Atlas card lineup. Some of you were asking about the 950 ser... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-22/16-huawei-atlas-ai-accelerator-latest-comparison-overview.md"
+    },
+    {
+      "title": "[New Model] Sage-A1.5 released based on Qwen3.6-35B MoE with marketed benchmarks: \"highly competitive performance against frontier-scale systems such as Kimi-K3, GLM-5.3, and GPT-5.6-sol\"",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcac1u/new_model_sagea15_released_based_on_qwen3635b_moe/",
+      "date": "2026-10-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "In the process of setting up the model and running local benchmarks on it on the official q4_k_m quant; it might work in Strata too. Reports soon. Anyone played around with this one yet? submitted by /u/yehyakar [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-22/17-new-model-sage-a1-5-released-based-on-qwen3-6-35b-moe-with-marketed-be.md"
+    },
     {
       "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Meet Scry, a 500 TB NVMe internet index in ClickHouse that you can run ~arbitrary readonly SQL and some of Datalog over, and I handle the problem of resource-contention with congestion-based micro-auction pricing. When there's capacity, the service is free for non-commercial use. --- Hello. It's 2026, we're training simulated fruit fly brains to play Beat... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/07-show-hn-scry-programmable-internet-search-w-congestion-pricing.md"
-    },
-    {
-      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.20758v1",
-      "date": "2026-09-17",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. Exhaustive testing is expensive, so evaluation rests on a sample of labeled units. We treat the evaluation set as a finite population and seek accurate point and interval estimates of each d... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/08-prediction-powered-smoothing-and-validation-for-disaggregated-ai-evalu.md"
-    },
-    {
-      "title": "Xeno-Interpretability: Investigating the Alien Minds of LLMs",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.20408v1",
-      "date": "2026-09-17",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large language models are usually interpreted through concepts that humans already possess: truthfulness, refusal, deception, personality, harmfulness, and related categories. This paper asks whether models may also represent and use distinctions for which no adequate human concept exists. We call such internal structures xeno-representations, and their s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/09-xeno-interpretability-investigating-the-alien-minds-of-llms.md"
-    },
-    {
-      "title": "abacusai/abacusai-bot",
-      "source": "GitHub Search API",
-      "url": "https://github.com/abacusai/abacusai-bot",
-      "date": "2026-09-18",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "100% free, open-source personal agents for your messaging apps, tools, and services (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-18/10-abacusai-abacusai-bot.md"
-    },
-    {
-      "title": "Show HN: Attar – Compile React apps to native machine code",
-      "source": "Hacker News Show HN",
-      "url": "https://attar.dev/",
-      "date": "2026-09-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, my cofounder and I are building Attar. It compiles React and TypeScript into native desktop apps, with Blink for HTML and CSS. I like building things with web tools. We wanted to take that experience all the way to a compiled desktop app: familiar components, familiar styles, native machine code. Attar builds on Static Hermes and Chromium. React’s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-18/11-show-hn-attar-compile-react-apps-to-native-machine-code.md"
-    },
-    {
-      "title": "Show HN: Free GitHub Action that scans PR diffs for malicious code, not quality",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/marketplace/actions/vigil-pr-scanner",
-      "date": "2026-09-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I watched a video recently on malicious code injection into OSS repo PRs and how they can go undetected because of how well they're hidden and decided to do a project for this. This tool is essentially used in unison with ai code review bots like greptile. While tools like greptile reason because they run with LLMs, this is a deterministic step before gre... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-18/12-show-hn-free-github-action-that-scans-pr-diffs-for-malicious-code-not-.md"
-    },
-    {
-      "title": "Show HN: Concat: the open-source CapCut replacement.",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/jub0t/Concat",
-      "date": "2026-09-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I started this project about ~3 weeks ago. Since CapCut is putting everything behind a paywall after gaining millions of installs and users, I decided to create a free and open-source version with most if not all the features. Concat runs all the AI-features locally, has MCP support, has a decentralized system for assets like Filters, Effects, and Templat... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-18/13-show-hn-concat-the-open-source-capcut-replacement.md"
-    },
-    {
-      "title": "I just realized Courage used local LLMs to solve his problems before any of us ever did.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjeuy7/i_just_realized_courage_used_local_llms_to_solve/",
-      "date": "2026-09-18",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/swagonflyyyy [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-18/14-i-just-realized-courage-used-local-llms-to-solve-his-problems-before-a.md"
-    },
-    {
-      "title": "Ternary Bonsai 2 (27B) just released on Hugging Face. At <6GB in size, it can even run locally in-browser on WebGPU.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj6c4l/ternary_bonsai_2_27b_just_released_on_hugging/",
-      "date": "2026-09-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The model is derived from Qwen3.8-27B, a 27B hybrid-attention causal language model (architecture unchanged), but uses ternary weights to shrink model size down to - Collection: https://huggingface.co/collections/prism-ml/bonsai-2 - Demo: https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels submitted by /u/xenovatech [link] [comme... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-17/15-ternary-bonsai-2-27b-just-released-on-hugging-face-at-6gb-in-size-it-c.md"
-    },
-    {
-      "title": "Made the horizontal open-source model for Jev with RLCD, and it surpasses all the Jev benchmarks. HF space, benchmark, model, repo",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjieap/made_the_horizontal_opensource_model_for_jev_with/",
-      "date": "2026-09-18",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Thanks for the exceptional support ( https://www.reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/ ) and for the dozens of requests to make a generic model, run benchmarks, and create an HF space so anyone can test it. So here you go, guys. I trained an improved model on a large data corpus, its now called Laya. It... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-18/16-made-the-horizontal-open-source-model-for-jev-with-rlcd-and-it-surpass.md"
-    },
-    {
-      "title": "Thank you :) Swift Qwen 3.8 27B now has 100k+ downloads, is #1 finetune and #9 model on HuggingFace Trending",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj3s31/thank_you_swift_qwen_38_27b_now_has_100k/",
-      "date": "2026-09-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, Jovan from UkisAI here, a small lab building the tech to make tiny frontier LLMs possible (and doing it open-source!) The purpose of this post is simply to thank the community for all the amazing finetunes, quantizations and overall improvements over our original release which made our model get attention and the support for us to continue b... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-17/17-thank-you-swift-qwen-3-8-27b-now-has-100k-downloads-is-1-finetune-and-.md"
-    },
-    {
-      "title": "Show HN: AttaLambda: a language where types and data are made of untyped lambdas",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://attalambda.com",
-      "date": "2026-09-14",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I made a programming language! I call it AttaLambda. The idea is this: a usable Lisp-shaped language where all the meaningful computation is done in untyped lambda calculus. Logic, arithmetic, data structures, control flow, even the types — all untyped lambdas. A small, explicit Racket layer sits at the boundary to handle the outside world, plus some macr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-14/06-show-hn-attalambda-a-language-where-types-and-data-are-made-of-untyped.md"
-    },
-    {
-      "title": "Show HN: SeasonMap – when to travel where? visualized with climate data",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://seasonmap.app",
-      "date": "2026-09-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Author here. I'm trying to visit every country and I've been to 158 so far. Before I decide where to travel, I'd ask a local friend which season to avoid, or open up dozens of browser tabs on climate data to figure out what the place is like in a given month. Climate data still miss things. Cancun in September looks great on paper, with 31°C and 10 hours... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-16/07-show-hn-seasonmap-when-to-travel-where-visualized-with-climate-data.md"
     }
   ]
 }
