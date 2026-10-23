@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T09:43:33.860Z",
+  "updated_at": "2026-10-23T09:39:41.745Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Coverage-Cat/consumer-agent-testing-tool",
+      "date": "2026-10-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, we recently open sourced our Consumer Agent Testing Tool to help teams iterate against proprietary assistants like Muse and Instinct. We built this to reduce our own frustrations with building an MCP/API for these agents to consume. The problem: testing against these tools is hard! Agent memory + account statefulness make reproducibility, in the w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-22/06-show-hn-catt-0-2-1-test-agents-services-against-a-muse-instinct-alike-.md"
+    },
+    {
+      "title": "Contestable Agents for Data Governance: Recording Human Stewardship of AI-Generated Metadata Across Structured and Unstructured Systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.31553v1",
+      "date": "2026-10-22",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Industrial organizations hold operational knowledge in structured records, such as telemetry, point lists, and transactions, and in unstructured sources, such as manuals, service notes, communications, and inspection reports. Governance programs often manage these sources separately. Classifying, linking, and documenting them depends on a small group of e... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-22/07-contestable-agents-for-data-governance-recording-human-stewardship-of-.md"
+    },
+    {
+      "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.31466v1",
+      "date": "2026-10-22",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI coding agents can now build small playable games in minutes, but the results usually look like programmer art: gray blockouts, colored geometric primitives, and flat semantic blobs. We present AnyGameRenderer, a video-to-video generative renderer that turns such footage into high-quality visuals with characters, motion detail, and effects. Throughout,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-22/08-anygamerenderer-entity-consistent-generative-rendering-across-games-an.md"
+    },
+    {
+      "title": "Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.31376v1",
+      "date": "2026-10-22",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "This paper studies the problem of safe tool execution for large language model (LLM) agents under prompt injection. Using Petri nets, we formalize the execution harness between the LLM and its tools as a supervisory control problem, in which marks represent capabilities, approvals and budgets. Since a transition fires only if the marks it needs are presen... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-22/09-certified-execution-harness-for-agentic-ai-safe-and-least-intrusive-pe.md"
+    },
+    {
+      "title": "Show HN: Uberblok – an interactive museum of ZFS internals",
+      "source": "Hacker News Show HN",
+      "url": "https://uberblok.storagebits.workers.dev/",
+      "date": "2026-10-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I've worked for a long time in the storage field during my career and ZFS is the piece of engineering I admire most in that space. I wanted a way to pay homage to it and to explore and better understand its internals. So I built Uberblok: a museum of ZFS. A deep dive into copy-on-write, txgs, vdevs, RAID-Z, snapshots, the ARC, metaslabs, the ZIL, send/rec... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-21/10-show-hn-uberblok-an-interactive-museum-of-zfs-internals.md"
+    },
+    {
+      "title": "Stigern/VibeBasic",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Stigern/VibeBasic",
+      "date": "2026-10-23",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A Visual Basic 6 clone for macOS: Windows 98 look, WYSIWYG form designer, VB6 language with file I/O and databases, 40+ classic controls, code folding, and a local-AI assistant that writes code and lays out forms. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-23/11-stigern-vibebasic.md"
+    },
+    {
+      "title": "Heavenlystorm/airglow",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Heavenlystorm/airglow",
+      "date": "2026-10-23",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "One Windows app for RGB lighting, fan curves and sensor readings. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-23/12-heavenlystorm-airglow.md"
+    },
+    {
+      "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/dsmurrell/onkey",
+      "date": "2026-10-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi all I was pretty terrible at singing, now I’d say I’m bad but not terrible. This is because I’ve been using a singing app (won’t name it here) that scores me on my pitch and timing throughout the song so that I can improve. Lately however, the app I’ve been using has flooded their song list with songs that aren’t originals. I didn’t like this at all as... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-22/13-show-hn-onkey-i-m-a-bad-singer-so-i-built-an-app-to-show-where-i-m-off.md"
+    },
+    {
+      "title": "Meta's 816B Muse Spark Open scores 39 on Artificial Analysis, the 180B Qwen3.8-Flash-Next scores 40. Score vs size for 11 open-weight models",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcthj8/metas_816b_muse_spark_open_scores_39_on/",
+      "date": "2026-10-22",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Made this from the Artificial Analysis model pages after Muse Spark Open and Beam got their scores last week. X axis is total parameters as AA lists them, log scale. Orange = released in October 2026. - Muse Spark Open (816B, 42B active) scores 39. Qwen3.8-Flash-Next (180B, 6B active) scores 40. - The Unsloth UD-Q4_K_XL GGUFs are about 506 GB for Muse Spa... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-22/14-meta-s-816b-muse-spark-open-scores-39-on-artificial-analysis-the-180b-.md"
+    },
+    {
+      "title": "[Paper] Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd5s0n/paper_meta_expert_crosslayer_expert_sharing_for/",
+      "date": "2026-10-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in different layers, although topologically independent, exhibit substantial similarity and redundancy in their stored content. Compared to the hi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-23/15-paper-meta-expert-cross-layer-expert-sharing-for-storage-and-retrieval.md"
+    },
+    {
+      "title": "[Paper] PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd6dfr/paper_pnmix_pairnorm_guided_mixedprecision_key/",
+      "date": "2026-10-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Long-output inference in large language models suffers from severe KV cache memory and bandwidth bottlenecks. While KV cache quantization alleviates this issue, low-bit quantization (e.g., 2-bit) severely degrades model accuracy. Recent mixed-precision key-cache quantization methods mitigate this degradation by allocating higher precision to important key... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-23/16-paper-pn-mix-pair-norm-guided-mixed-precision-key-cache-quantization-f.md"
+    },
+    {
+      "title": "tencent/WeVisOne-VL-4B · Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd85ki/tencentwevisonevl4b_hugging_face/",
+      "date": "2026-10-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://huggingface.co/tencent/WeVisOne-VL-2B WeVisOne-VL: Unified Visual Perception from Objects to Pixels WeVisOne-VL ( We Chat Vis ion All-in- One ) is a unified vision-language model developed by WeChat Vision, Tencent Inc. Built upon Qwen3-VL, it unifies object-level perception (open-vocabulary object detection, referring localization, object countin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-23/17-tencent-wevisone-vl-4b-hugging-face.md"
+    },
     {
       "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Evidence-based English usage verification skill for AI agents: query Oxford/Cambridge/Linguee/Ngram instead of guessing from model intuition (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-19/07-xionglingsong-usage-evidence.md"
-    },
-    {
-      "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://cactuscompute.com/needle",
-      "date": "2026-09-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, Henry from Cactus here. We submitted Needle 2 here a few weeks ago, and the feedback in the discussion thread was incredibly valuable, thanks! Thanks to all that feedback, we’ve been able to move quickly to release Needle 3 and I'd love to hear what you think again. The key features: 1) Automation (tool calls & structured JSON output): Needle stil... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-18/08-show-hn-cactus-needle-3-8-29mb-automation-models-can-match-deepseek-v4.md"
-    },
-    {
-      "title": "Show HN: Ax-check.com – Can agents use your product?",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.ax-check.com/",
-      "date": "2026-09-17",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I'm the co-founder of Gauge, and I built ax-check.com to quickly test how well coding agents can onboard to your product. You'll get a scorecard, specific suggested fixes, and three full coding sessions that show how agents read your site and use your product. I built this because similar checks were too noisy. Most suggested obscure technical changes tha... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/09-show-hn-ax-check-com-can-agents-use-your-product.md"
-    },
-    {
-      "title": "Show HN: Timeline, a team project planner with a fast canvas Gantt view",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/vakahnke/Timeline",
-      "date": "2026-09-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I manage a few projects at work. I really am unsatisfied with modern tools available to me for that purpose. I had always envisioned a tool that I could interact with visually for this purpose. I started building one many years ago but the graphics programming was beyond my capabilities and nothing I made hit the mark. Along came modern AI to help get me... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-18/10-show-hn-timeline-a-team-project-planner-with-a-fast-canvas-gantt-view.md"
-    },
-    {
-      "title": "resp-200/steve",
-      "source": "GitHub Search API",
-      "url": "https://github.com/resp-200/steve",
-      "date": "2026-09-19",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Your Personal AI Assistant (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/11-resp-200-steve.md"
-    },
-    {
-      "title": "kit2824bam007-lab/TalentDNA-AI-Powered-Talent-Discovery-Internal-Mobility-Platform",
-      "source": "GitHub Search API",
-      "url": "https://github.com/kit2824bam007-lab/TalentDNA-AI-Powered-Talent-Discovery-Internal-Mobility-Platform",
-      "date": "2026-09-19",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "kit2824bam007-lab/TalentDNA-AI-Powered-Talent-Discovery-Internal-Mobility-Platform Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/12-kit2824bam007-lab-talentdna-ai-powered-talent-discovery-internal-mobil.md"
-    },
-    {
-      "title": "Mahesh-Loya/ba-support-agent",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Mahesh-Loya/ba-support-agent",
-      "date": "2026-09-19",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AI support agent for British Airways - Hiver SDE Intern take-home assignment (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/13-mahesh-loya-ba-support-agent.md"
-    },
-    {
-      "title": "Steer LLMs and Agents at the Token Level: An interactive tool for token visualization & control, model inspection and data annotation.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkc4c9/steer_llms_and_agents_at_the_token_level_an/",
-      "date": "2026-09-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "onPanda is designed for geeks, power users, curious minds, and engineers. Its UI is built for deep exploration and efficient data annotation. - The core loop is simple: hover over a token → click an alternative or edit freely → continue generation. You can edit every part of model output exposed by onPanda, including reasoning and tool calls. - Edit promp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-19/14-steer-llms-and-agents-at-the-token-level-an-interactive-tool-for-token.md"
-    },
-    {
-      "title": "I enjoyed the daily HF papers today",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkdzdk/i_enjoyed_the_daily_hf_papers_today/",
-      "date": "2026-09-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Top 3 papers on HF Daily Paper are all unusually delightful and interesting reads for anyone on the leading edge of local LLMs, agent harness optimization, etc, felt like sharing. DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression https://huggingface.co/papers/2609.19969 Cross-layer KV reuse plus FP4 KV caching brings the global KV cache to 8... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-19/15-i-enjoyed-the-daily-hf-papers-today.md"
-    },
-    {
-      "title": "Qwen3.8-27B at 144 tok/s on an M5 Max MacBook Pro",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wk9hze/qwen3827b_at_144_toks_on_an_m5_max_macbook_pro/",
-      "date": "2026-09-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Meet Inco Splash, open-source inference engine, built around the model and around Apple silicon. Up to 3× the decode speed of Ollama, 2× oMLX, and almost 4× when an agent fans out into sub-agents. Requirements: M3 or newer, macOS 26.4+, 36 GB Get started with a single command: brew install incoai/tap/splash splash serve --model incoai/Qwen3.8-27B-Splash T... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-19/16-qwen3-8-27b-at-144-tok-s-on-an-m5-max-macbook-pro.md"
-    },
-    {
-      "title": "Training a Neural Network on AMD MI50s Using Vulkan: Proof of ConceptOr: Why I Stopped Listening and Just Did It",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wk9qjn/training_a_neural_network_on_amd_mi50s_using/",
-      "date": "2026-09-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Note: This writeup was put together with the help of AI. So I've got dual AMD MI50 32GB cards. If you know these cards, you know the story - AMD dropped official ROCm support for gfx906 after ROCm 5.7. Every AI I talked to, every forum post, every \"expert\" said the same thing: if you want to do anything serious on AMD hardware you need ROCm, and if you ne... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-19/17-training-a-neural-network-on-amd-mi50s-using-vulkan-proof-of-conceptor.md"
-    },
-    {
-      "title": "Show HN: Share your AI Setup, Learn from others",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://mysetup.ai/",
-      "date": "2026-09-17",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck or been thrown out the window? How did they manage longer-running tasks? So I built this with the hope we could have a dedicated space to share and be open about our setups. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/06-show-hn-share-your-ai-setup-learn-from-others.md"
-    },
-    {
-      "title": "Show HN: Scry, programmable internet search w/ congestion pricing",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://scry.io/",
-      "date": "2026-09-17",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Meet Scry, a 500 TB NVMe internet index in ClickHouse that you can run ~arbitrary readonly SQL and some of Datalog over, and I handle the problem of resource-contention with congestion-based micro-auction pricing. When there's capacity, the service is free for non-commercial use. --- Hello. It's 2026, we're training simulated fruit fly brains to play Beat... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/07-show-hn-scry-programmable-internet-search-w-congestion-pricing.md"
     }
   ]
 }

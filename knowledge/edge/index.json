@@ -1,10 +1,184 @@
 {
-  "last_checked_at": "2026-10-22T09:43:59.208Z",
+  "last_checked_at": "2026-10-23T09:40:12.525Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "chrono-meta/forge-harness",
+      "name": "chrono-meta/forge-harness",
+      "url": "https://github.com/chrono-meta/forge-harness",
+      "date": "2026-10-23",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 84,
+      "momentum": 69,
+      "risk": 32,
+      "integration_effort": 40,
+      "expected_gain": 87,
+      "composite": 76,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.344,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "date": "2026-10-21",
+          "topic": "AI agents",
+          "similarity": 0.293,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+        },
+        {
+          "title": "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev",
+          "date": "2026-09-21",
+          "topic": "AI dev tools",
+          "similarity": 0.253,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-23)",
+        "MIT license",
+        "30 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "claude plugin marketplace add https://github.com/chrono-meta/forge-harness.git",
+        "claude plugin install -s user fh-meta@forge-harness",
+        "git clone https://github.com/chrono-meta/forge-harness.git ~/projects/forge-harness",
+        "git diff",
+        "claude --version"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-13 about AI agents; this candidate overlaps with \"Show HN: shadowclone, skills learned from your coding agent corrections\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-23/01-chrono-meta-forge-harness.md"
+    },
+    {
+      "id": "andy8647/pi-tidy",
+      "name": "Andy8647/pi-tidy",
+      "url": "https://github.com/Andy8647/pi-tidy",
+      "date": "2026-10-23",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 58,
+      "risk": 32,
+      "integration_effort": 44,
+      "expected_gain": 81,
+      "composite": 74,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev",
+          "date": "2026-09-21",
+          "topic": "AI dev tools",
+          "similarity": 0.362,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"
+        },
+        {
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "date": "2026-10-21",
+          "topic": "AI agents",
+          "similarity": 0.326,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+        },
+        {
+          "title": "Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI",
+          "date": "2026-10-22",
+          "topic": "AI agents",
+          "similarity": 0.314,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-22/06-show-hn-catt-0-2-1-test-agents-services-against-a-muse-instinct-alike-.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-23)",
+        "MIT license",
+        "4 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 70,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @earendil-works/pi-coding-agent, @earendil-works/pi-tui, @types/node, typescript; scripts test, typecheck"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-21 about AI dev tools; this candidate overlaps with \"Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-23/02-andy8647-pi-tidy.md"
+    },
+    {
+      "id": "sit-in/awesome-grokbot-playbooks",
+      "name": "sit-in/awesome-grokbot-playbooks",
+      "url": "https://github.com/sit-in/awesome-grokbot-playbooks",
+      "date": "2026-10-23",
+      "source": "awesome-claude-code",
+      "category": "awesome_lists",
+      "kind": "agent_framework",
+      "compatibility": 79,
+      "momentum": 96,
+      "risk": 32,
+      "integration_effort": 36,
+      "expected_gain": 51,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [],
+      "pros": [
+        "Recently updated (2026-10-23)",
+        "MIT license",
+        "360 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [],
+      "install_commands": [
+        "npx wingman-mcp"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "sit-in/awesome-grokbot-playbooks matches your AI development source filters and scored strongly enough to review before it disappears into the daily noise.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-23/03-sit-in-awesome-grokbot-playbooks.md"
+    },
     {
       "id": "openjiuwen-ai/jiuwenswarm",
       "name": "openJiuwen-ai/jiuwenswarm",
@@ -19474,216 +19648,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-15/02-please-insert-name-cc-harness.md"
-    },
-    {
-      "id": "taxideftis/bathos",
-      "name": "taxideftis/bathos",
-      "url": "https://github.com/taxideftis/bathos",
-      "date": "2026-07-15",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 79,
-      "momentum": 70,
-      "risk": 50,
-      "integration_effort": 56,
-      "expected_gain": 77,
-      "composite": 67,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: TinyAgents – a Rust based recursive LLM harness",
-          "date": "2026-06-30",
-          "topic": "AI agents",
-          "similarity": 0.199,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/07-show-hn-tinyagents-a-rust-based-recursive-llm-harness.md"
-        },
-        {
-          "title": "greetingromansoldier/agora-perp-agent",
-          "date": "2026-06-13",
-          "topic": "AI agents",
-          "similarity": 0.196,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-13/06-greetingromansoldier-agora-perp-agent.md"
-        },
-        {
-          "title": "sciencebanda09/nexus-multiagent",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.194,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-15)",
-        "14 GitHub stars",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "License was not clearly detected by GitHub",
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [],
-      "install_commands": [
-        "git clone <your-fork-url> bathos && cd bathos",
-        "cargo build --release          # → core/target/release/bathos",
-        "cargo test                     # 510 tests, all green (optional sanity check)",
-        "git clone <your-fork-url> bathos; cd bathos",
-        "git push --force",
-        "cargo clippy -D warnings"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-30 about AI agents; this candidate overlaps with \"Show HN: TinyAgents – a Rust based recursive LLM harness\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-15/03-taxideftis-bathos.md"
-    },
-    {
-      "id": "millionco/react-doctor",
-      "name": "millionco/react-doctor",
-      "url": "https://github.com/millionco/react-doctor",
-      "date": "2026-07-14",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 80,
-      "momentum": 100,
-      "risk": 48,
-      "integration_effort": 62,
-      "expected_gain": 85,
-      "composite": 75,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
-          "date": "2026-06-13",
-          "topic": "AI dev tools",
-          "similarity": 0.283,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-13/11-show-hn-skill-for-your-agent-to-visualize-your-gbrain-and-obsidian.md"
-        },
-        {
-          "title": "llm011/ethan-agent",
-          "date": "2026-06-20",
-          "topic": "AI dev tools",
-          "similarity": 0.263,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
-        },
-        {
-          "title": "Show HN: Reverse-engineering web apps into agent tools",
-          "date": "2026-07-09",
-          "topic": "AI agents",
-          "similarity": 0.254,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-14)",
-        "13714 GitHub stars",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "License was not clearly detected by GitHub",
-        "Integration may take more than a quick install",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @changesets/changelog-github, @changesets/cli, @rayhanadev/truffler, @sentry/cli, @types/node, @voidzero-dev/vite-plus-core, commander, cross-env; scripts prepare, dev, build, performance, performance:stress, performance:profile, performance:memory, test"
-        }
-      ],
-      "install_commands": [
-        "npx react-doctor@latest",
-        "npx react-doctor@latest install",
-        "npx react-doctor@latest ci install",
-        "npx react-doctor@latest --no-telemetry"
-      ],
-      "risk_flags": [
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-13 about AI dev tools; this candidate overlaps with \"Show HN: Skill for your agent to visualize your gbrain and Obsidian\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-14/01-millionco-react-doctor.md"
-    },
-    {
-      "id": "toshtag/code-pact",
-      "name": "toshtag/code-pact",
-      "url": "https://github.com/toshtag/code-pact",
-      "date": "2026-07-14",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 92,
-      "momentum": 52,
-      "risk": 32,
-      "integration_effort": 44,
-      "expected_gain": 87,
-      "composite": 74,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Kuberwastaken/VPSmaxxing",
-          "date": "2026-06-30",
-          "topic": "AI dev tools",
-          "similarity": 0.36,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
-        },
-        {
-          "title": "LuD1161/agentjail",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.337,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
-        },
-        {
-          "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex",
-          "date": "2026-07-09",
-          "topic": "AI dev tools",
-          "similarity": 0.325,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/10-show-hn-policy-enforcement-for-claude-code-cursor-and-codex.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-14)",
-        "MIT license",
-        "1 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps yaml, zod, @types/node, esbuild, github-slugger, tsup, tsx, typescript; scripts build, test, test:unit, test:integration:smoke, test:integration:full, test:integration, verify:base, verify:smoke"
-        }
-      ],
-      "install_commands": [
-        "npx code-pact tutorial",
-        "npx code-pact init --non-interactive --agent claude-code --locale en-US --sample-phase",
-        "npx code-pact --version",
-        "npm install -g code-pact",
-        "pnpm install",
-        "pnpm typecheck"
-      ],
-      "risk_flags": [
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-14/02-toshtag-code-pact.md"
     }
   ]
 }
