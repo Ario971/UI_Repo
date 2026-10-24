@@ -1,0 +1,530 @@
+---
+id: "drevendev/hungrycrab"
+name: "drevendev/HungryCrab"
+url: "https://github.com/drevendev/HungryCrab"
+date: "2026-10-24"
+source: "awesome-llm-agents"
+category: "awesome_lists"
+kind: "claude_skill"
+compatibility: 92
+momentum: 65
+risk: 40
+integration_effort: 60
+expected_gain: 87
+composite: 73
+replacement_target: ""
+related_articles: [{"title":"Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev","date":"2026-09-21","topic":"AI dev tools","similarity":0.249,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"},{"title":"Show HN: shadowclone, skills learned from your coding agent corrections","date":"2026-10-13","topic":"AI agents","similarity":0.248,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"},{"title":"Show HN: agentc: <1mb static/no-libc, minimal, embeddable agent with Rust/C API","date":"2026-10-08","topic":"AI agents","similarity":0.241,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/09-show-hn-agentc-1mb-static-no-libc-minimal-embeddable-agent-with-rust-c.md"}]
+pros: ["Recently updated (2026-10-24)","MIT license","4 GitHub stars","GitHub Actions/CI detected"]
+cons: ["Integration may take more than a quick install","README mentions credentials or API tokens"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 5
+dependency_files: [{"name":"pyproject.toml","summary":"python project; deps name, version, description, readme, requires-python, license, license-files, authors"}]
+install_commands: ["uv tool install hungry-crab","uv tool install \"hungry-crab @ git+https://github.com/drevendev/HungryCrab\"","claude plugin marketplace add drevendev/HungryCrab","claude plugin install crab@hungry-crab","codex plugin marketplace add drevendev/HungryCrab","codex plugin add crab@hungry-crab"]
+risk_flags: ["README mentions credentials or API tokens"]
+status: "new"
+---
+
+# drevendev/HungryCrab
+
+Eat a foreign repository, digest it, and extract everything useful for your own repo without violating licenses.
+
+URL: https://github.com/drevendev/HungryCrab
+
+## Why it matters
+You saved an article on 2026-09-21 about AI dev tools; this candidate overlaps with "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-10-24)
++ MIT license
++ 4 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- Integration may take more than a quick install
+- README mentions credentials or API tokens
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 5
+
+Dependency files:
+- pyproject.toml: python project; deps name, version, description, readme, requires-python, license, license-files, authors
+
+Install commands found:
+- uv tool install hungry-crab
+- uv tool install "hungry-crab @ git+https://github.com/drevendev/HungryCrab"
+- claude plugin marketplace add drevendev/HungryCrab
+- claude plugin install crab@hungry-crab
+- codex plugin marketplace add drevendev/HungryCrab
+- codex plugin add crab@hungry-crab
+
+Risk flags:
+- README mentions credentials or API tokens
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Hungry Crab
+
+```text
+                              o    .
+                           .   o   .   O
+     /\                                                     /\
+    /  \       _____________________________________       /  \
+   |    |     /                                     \     |    |
+   | /\ |     |     \\\\\\\             ///////     |     | /\ |
+   | \/ |     |      (@@@)               (@@@)      |     | \/ |
+    \  /      |                                     |      \  /
+     \ \      |      /\/\/\/\/\/\/\/\/\/\/\/\/      |      / /
+      \ \_____|                                     |_____/ /
+       \______\_____________________________________/______/
+                  /     /      |   |      \     \
+                 /     /       |   |       \     \
+```
+
+> **Eat a foreign repository. Digest it. Serve what is worth keeping, legally.**
+
+[![CI](https://github.com/drevendev/HungryCrab/actions/workflows/ci.yml/badge.svg)](https://github.com/drevendev/HungryCrab/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/drevendev/HungryCrab?color=blue)](https://github.com/drevendev/HungryCrab/releases/latest)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](pyproject.toml)
+[![Conventional Commits](https://img.shields.io/badge/commits-conventional-fe5196.svg)](https://www.conventionalcommits.org)
+
+Somewhere out there is a repository that fixed your flaky CI two years ago, wrote the `AGENTS.md`
+you keep meaning to write, and learned the hard way which file breaks every single time anyone
+touches it. Reading it properly costs you an afternoon. Reading fifty of them costs you a month.
+
+The crab reads them for you. It drags the prey into a local cache, dissects it with fifteen
+deterministic miners, and boils a whole repository down to a digest small enough for an agent to
+actually read. Then it holds that digest against *your* repository and serves a ranked menu:
+what they have, what you lack, what it would cost you, and exactly what their license lets you
+take. Approve a few and they land as issues in your tracker, each with evidence links and a
+trace footer. Say no to one and the crab remembers, so it never offers it again.
+
+The prey is never executed. Not one line of its text reaches your issues unless the license says
+it may.
+
+**Status: [0.6.3](https://github.com/drevendev/HungryCrab/releases/tag/v0.6.3) is the latest
+release, a security update on
+[0.6.0 Everywhere](https://github.com/drevendev/HungryCrab/releases/tag/v0.6.0), a limited
+stable analysis release.** The CLI is available on [PyPI](https://pypi.org/project/hungry-crab/).
+Update the CLI and plugins for bounded artifact/provider reads, strict copy policy and stronger
+publication/release checks (see the [changelog](CHANGELOG.md)). The supported scope is
+deterministic, human-supervised analysis: the CLI, scoped local MCP, portable skills and
+offline HTML reports. PR publication, Scheduled Crab work autonomy and measured learning/usefulness remain
+experimental; their live acceptance criteria are deferred to post-release work, not declared
+complete. Start with the [Everywhere guide](docs/everywhere.md) and the
+[release record](docs/releases/0.6.0-readiness.md).
+
+## The metaphor, in five words
+
+| Term | Meaning |
+|---|---|
+| **prey** | the foreign repository being eaten |
+| **maw** | your repository: what the prey is eaten *for*, and where the nutrients go |
+| **nutrient** | one transferable thing, with a license mode and trace |
+| **menu** | the ranked list of nutrients after prey and maw are compared |
+| **hunger** | what this maw will and will not swallow, per category, in `.crab.yml` |
+| **ledger** | what was eaten, what you accepted, what you turned down |
+
+## Install
+
+Prerequisites: Python 3.11+, `git`, and `gh` authenticated for the GitHub API.
+
+**The CLI**, which every agent then calls, is the `hungry-crab` package on
+[PyPI](https://pypi.org/project/hungry-crab/):
+
+```bash
+uv tool install hungry-crab
+```
+
+`pipx install hungry-crab` works as well. Either installs the latest release, and
+`uv tool upgrade hungry-crab` (or `pipx upgrade hungry-crab`) takes the next one.
+
+The installation keeps PyYAML as its only runtime dependency. GitLab.com public reads do
+not require `gh`; private reads use `GITLAB_TOKEN`. GitHub Discussions and JUnit artifact reads
+need the corresponding authenticated API permissions.
+
+To track `master` instead, which is always green and carries fixes before they are released,
+install from this repository:
+
+```bash
+uv tool install "hungry-crab @ git+https://github.com/drevendev/HungryCrab"
+```
+
+**Claude Code**, which adds the eat/license/serve/cleanroom/loop skills, sniff/menu commands,
+three subagents and two `PreToolUse` hooks:
+
+```bash
+claude plugin marketplace add drevendev/HungryCrab
+```
+
+```bash
+claude plugin install crab@hungry-crab
+```
+
+Claude Code offers a plugin update when the plugin's version changes, which happens at each
+release rather than at every commit to `master`. It does not refresh third-party marketplaces on
+its own: turn that on once in `/plugin` → **Marketplaces** → `hungry-crab` → **Enable
+auto-update**, or refresh by hand with `claude plugin marketplace update hungry-crab` followed by
+`claude plugin update crab@hungry-crab`.
+
+**Codex**, same plugin, same marketplace:
+
+```bash
+codex plugin marketplace add drevendev/HungryCrab
+```
+
+```bash
+codex plugin add crab@hungry-crab
+```
+
+Restart the agent session afterwards so it picks the plugin up. Cursor and anything else that
+reads the open `SKILL.md` format can use the `skills/` folder of this repository directly; the
+only hard requirement is `crab` on `PATH`. The two safety hooks need no install of their own:
+each runs `hooks/guard.py` from the plugin with the first Python 3.11+ the shell finds
+(`python`, `python3`, or one `uv python find` knows), and the launcher imports the guard from
+the plugin's own `src/`, so a plugin-only install is guarded too.
+
+To see what is out of date across the CLI and every agent you have, ask the crab:
+
+```bash
+crab update
+```
+
+It reports the installed and available versions (the latest release on PyPI for a PyPI
+install, `master` for one from git), notices which agents are on this machine and whether the
+plugin is installed in each, and prints exactly what to run. `crab update --run` does the
+plugin work for you.
+
+### Verify the CLI installation
+
+After installing the CLI, verify that the `crab` command is available without GitHub authentication or accessing a remote repository:
+
+```bash
+crab --version
+crab --help
+```
+
+Both commands should exit with status `0`. `crab --version` prints `crab` followed by the installed version, while `crab --help` displays usage information, available commands, and options.
+
+These read-only smoke checks verify CLI availability and argument parsing only. They do not validate repository fetching, digest generation, comparisons, or GitHub issue/PR publishing.
+
+For the complete workflow, see [Feed the crab](#feed-the-crab) below. The first `crab sniff` example accesses GitHub and requires network connectivity. Authentication requirements depend on the operation; use only the permissions necessary for the intended workflow.
+
+## Feed the crab
+
+For repeated improvement, [Scheduled Crab](docs/scheduled-crab.md) persists one phase per
+scheduler wake-up: `crab loop init`, `next`, `record`, pause/resume and measured cost history.
+The `/crab:loop` skill supplies judgement; the CLI bounds publication and waits for human merges.
+Work needs explicit maw-owner consent. Live rollout evidence is tracked separately from tests.
+
+With an agent, one line does the whole protocol: judge the menu, ask you, create the issues.
+
+```text
+/crab:eat pallets/click
+```
+
+By hand, the same protocol is six commands:
+
+```bash
+crab sniff pallets/click --maw .                  # license, size, activity: is it worth eating?
+```
+
+```bash
+crab init                                          # .crab.yml: hunger, serve policy, ledger mode
+```
+
+```bash
+crab compare pallets/click --maw . --issues 300   # digest both sides, diff, score -> gap.md, menu.md
+```
+
+```bash
+crab menu pallets/click --top 15 --category ci     # the ranked menu of nutrients
+```
+
+```bash
+crab serve pallets/click --maw . --ids crab:ci:ci.cache --as dry-run   # preview the issue
+```
+
+```bash
+crab ledger mark crab:tooling:tooling.renovate rejected --reason "dependabot is enough"
+```
+
+`crab compare` catches and digests the prey the first time; digests are addressed by commit SHA,
+so eating the same commit twice is free. Giants take `--since 2y` (history newer than two years)
+or `--shallow` (default branch, tree only).
+
+## Feeder: a menu in CI
+
+Run `crab eat pypa/pipx --deterministic --maw .` to export a complete meal without a model,
+issue creation or ledger writes. The [Feeder guide](docs/feeder.md) shows the composite action,
+reusable workflow, weekly schedule, artifact outputs and strict mode.
+
+[GitHub Marketplace launch roadmap](docs/marketplace/README.md) is a **proposal**, with
+real cross-repository tests and evidence-first case studies still to come. This link is
+not an announcement that the Feeder is listed or that its examples were already run.
+
+## Local MCP and HTML reports
+
+Install with the optional `[mcp]` extra and run `crab mcp --root /absolute/workspace` to expose
+`crab_digest` and `crab_menu`. Local roots are explicit, network reads are opt-in and neither
+tool publishes or writes the ledger. `crab mcp --check` checks the optional install and exits.
+
+`crab report /path/to/digest-or-meal --out report.html` creates a self-contained browser report
+from existing artifacts, with no network, JavaScript or model calls. See the
+[Everywhere guide](docs/everywhere.md) for the development-candidate install command,
+Codex/Cursor/Claude configurations, portable skills and the clean-install verification.
+
+## Configuration
+
+`crab init` writes `.crab.yml` in the maw. Every key is optional; omitted keys use the defaults
+below. Unknown top-level, `hunger`, `budget`, `serve`, and `trust` keys are usage errors (exit 2),
+with a suggested spelling where available; `scoring` retains its own flexible nested schema.
+`serve.max_prs_per_run` must be a non-negative integer. `trust.same_owner` and
+`trust.bypass_license` accept YAML booleans only: write `false`, not the string `"false"`.
+
+- `license`: SPDX id for the maw, or auto-detect from `LICENSE` when omitted.
+- `mode`: `normal` or `strict`; strict downgrades COPY and COPY_FILE code to clean-room REIMPLEMENT while recognized configurations and templates stay copyable.
+- `profile`: reviewed hunger defaults for balanced, library, CLI, service or frontend projects.
+- `memory`: bounded learning from confirmed owner decisions, with an explicit off switch.
+- `hunt`: bounded GitHub discovery queries, size/stars/license filters and revisiting policy.
+- `hunger`: enable, disable, or cap each nutrient category with `issues-only` / `ideas-only`.
+- `ignore`: maw-side git-style paths excluded from its own digest, in `crab compare` and in
+  `crab digest <maw> --maw <maw>`; a prey's own `.crab.yml` is data and is never read.
+- `budget`: whole-digest Markdown budget policy: `warn` (default), `enforce`, or `off`.
+- `serve`: issue/PR serving policy, labels, assignees and token source; `serve.prs` gates `crab serve --as pr-branch`, which publishes REIMPLEMENT nutrients from clean-room receipts and COPY nutrients from materialization receipts, with their attribution.
+- `trust`: same-owner and explicit-owner relationships plus the visible license-bypass escape hatch.
+- `attribution_file`: the notice file for copied sources, rendered by `crab attribution` from the receipts in `.crab/attributions.json` that `crab serve --as pr-branch` writes when it carries prey files in; `crab attribution --check` is the CI gate. The file is headings and paragraphs, plus the source's licence and NOTICE texts in fenced blocks, so that a Markdown formatter's defaults leave it alone; if yours rewrites it anyway, exclude the file from the formatter, not from the check.
+- `ledger`: store meal history in the repository, cache, or nowhere.
+- `scoring`: per-section overrides for `data/scoring.yml`; `crab tune` can suggest them.
+- `loop`: scheduled phase policy, owner work consent, fixed prey, budgets and recovery limits;
+  see [Scheduled Crab](docs/scheduled-crab.md).
+
+This is the current commented template written by `crab init`:
+
+```yaml
+# Hungry Crab maw configuration. Every key is optional; these are the defaults.
+license: null              # SPDX id of this repository; detected from LICENSE when null
+mode: normal               # normal | strict. Strict downgrades COPY code to clean-room
+                           # REIMPLEMENT; configs and templates remain copyable.
+profile: balanced          # balanced | library | cli | service | frontend; explicit hunger wins
+memory:
+  enabled: true            # confirmed decisions influence ranking; explicit weights still win
+  min_decisions: 3
+  strength: 0.3            # bounded multiplier; never changes license or hunger ceilings
+hunt:
+  queries: []              # derive up to four GitHub searches from enabled maw gaps
+  exclude: []
+  licenses: []
+  min_stars: 20
+  max_repo_kb: 307200
+  max_candidates: 50
+  limit: 10
+  include_seen: false
+  allow_unknown_size: false
+hunger:                    # per nutrient category: true | false | issues-only | ideas-only
+  security: true
+  ci: true
+  tests: true
+  tooling: true
+  ai-config: true
+  hygiene: true
+  docs: true
+  deps: true
+  history-lesson: true
+  issue-lesson: true
+  architecture: issues-only
+  code: ideas-only         # produced by nothing until 0.4's postponed syntax index: inert
+ignore: []                 # globs excluded from this repository's own digest, so that test
+                           # fixtures and vendored trees are not mistaken for your code, e.g.
+                           # [tests/fixtures/**, examples/**]. Patterns are case-sensitive on
+                           # every platform, like the git paths they match.
+budget:
+  policy: warn             # warn | enforce | off for the whole digest Markdown budget
+serve:
+  issues: ask              # auto | ask | off
+  prs: ask                 # auto | ask | off; gates --as pr-branch (REIMPLEMENT and COPY)
+  max_prs_per_run: 3
+  labels: [hungry-crab]
+  assignees: []
+  token_env: ""            # environment variable holding the token to file issues as, e.g.
+                           # CRAB_BOT_TOKEN with a GitHub App installation token. Empty means
+                           # gh's own login: your issues carry your name, not the crab's.
+trust:                     # a license is a promise to strangers; these are not strangers
+  same_owner: true         # prey owned by the account that owns this repository is your own code
+  owners: []               # other accounts whose repositories count as your own, e.g. [acme-inc]
+  bypass_license: false    # last resort: treat every prey as COPY. Every card says so, and the
+                           # verdict is flagged for human review, because this is not a finding
+                           # about the license but a decision to stop asking.
+attribution_file: THIRD_PARTY_NOTICES.md
+                           # where COPY records its sources: rendered by `crab attribution`
+                           # from the receipts in .crab/attributions.json, which
+                           # `crab serve --as pr-branch` writes when it carries prey files in.
+ledger: repo               # repo (.crab/ledger.json, committed) | cache | none
+scoring: {}                # overrides for data/scoring.yml sections; `crab tune` suggests them
+loop:
+  cadence: daily           # cadence belongs to your scheduler; the CLI never starts one
+  autonomy: serve          # read | serve | work; merging always belongs to a human
+  work_authorized: false   # the maw owner must explicitly authorize work, including tags
+  discovery: false         # opt in to a lease-bound HUNT shortlist
+  prey: []                 # fixed allowlist; empty requires discovery
+  budget:
+    phases_per_day: 4
+    prey_per_round: 2
+    open_issues_max: 10
+    open_prs_max: 2
+```
+
+## What the miners extract
+
+`crab digest owner/repo` writes a token-budgeted `digest/` folder that an agent reads
+progressively:
+
+| Miner | What it extracts | Output |
+|---|---|---|
+| `inventory` | tree, languages, LOC, manifests, lock files, entry points, vendored and generated content | `inventory.{json,md}` |
+| `license` | SPDX from license files, manifests, headers and the API; per-file exceptions; the verdict against the maw license | `license.json` |
+| `deps` | normalized dependencies per ecosystem (npm, Python, .NET, Rust, Go), lock-file and pinning policy | `deps.json` |
+| `ci` | GitHub Actions workflows: triggers, jobs, matrix, cache, permissions, concurrency, SHA pinning, tools, secrets (names only), dependabot/renovate, other CI systems | `ci.{json,md}` |
+| `testing` | frameworks, layout, test/source ratio, coverage threshold, e2e/property/snapshot/fuzz/benchmarks | `tests.{json,md}` |
+| `wiki` | independent Git wiki snapshot, page names, counts and headings; no body text | `wiki.{json,md}` |
+| `docs` | README outline and sections, community files, changelog format, ADRs, docs site, issue/PR templates | `docs.{json,md}` |
+| `ai_config` | CLAUDE.md, AGENTS.md, cursor rules, Copilot instructions, skills, subagents, hooks, MCP servers | `ai.{json,md}` |
+| `history` | hotspots, fix ratio, reverts, co-change coupling, cadence, bus factor, tags and release cadence, conventional-commit discipline | `history.{json,md}` |
+| `branches` | every branch: ahead/behind, freshness, merged or stale, what the unmerged ones are about | `branches.{json,md}` |
+| `issues` | label and time-to-close statistics, the most reacted-to issues, TF-IDF clusters of recurring themes (after `catch --issues N`) | `issues.{json,md}` |
+| `architecture` | regex symbol index (TypeScript, Python, C#), internal import graph with hubs and directory layering, public surface | `architecture.{json,md}` |
+| `traits` | a flat matrix of ~120 comparable traits derived from all of the above | `traits.json` |
+
+`manifest.json` is the entry point: every file with a token estimate, the miners that ran, a
+small summary and the suggested reading order. Markdown is paged at 3,500 tokens per page by
+default (`history.md`, `history.2.md`, and so on; nothing is dropped), and the whole digest has
+a policy for its 30,000-token reading budget — `warn` by default, `enforce` for a budgeted
+loop, `off` for a human, set under `budget` in `.crab.yml`; JSON keeps the full data for
+scripts.
+
+For `crab digest --out`, use an empty directory or an existing digest directory. The crab
+replaces and removes only artifacts recorded in that directory's previous valid manifest.
+Other files are preserved; a conflicting caller-owned name is refused before publication,
+including case-insensitive collisions.
+
+Guiding principle: **scripts squeeze out everything that can be squeezed deterministically; the
+model is spent only on judgment.**
+
+## From digest to issues
+
+- **compare** turns the two digests into candidate nutrients: trait rules (ci, security, tooling,
+  hygiene, docs, ai-config, tests), tool and dependency diffs within shared ecosystems, README
+  sections, commit and changelog discipline, history and issue lessons, architecture raw
+  material. Every candidate carries a stable id, evidence linked to the prey commit, effort, risk
+  and a license mode.
+- **scoring** is a formula you can read: category weight x value x uptake x license mode x
+  effort, minus risk. Weights live in `data/scoring.yml` and are overridable per maw.
+- **serve** creates issues with a hidden `crab:<id>` marker, a label and a trace footer, so a
+  rerun creates no duplicates. The `why` and `how` come from the agent through a notes file.
+- **ledger** (`.crab/ledger.json` by default) remembers every meal and decision; rejected and
+  served nutrients vanish from later menus. **`crab tune`** reads it and tells you which weights to
+  move, which categories to switch off, and which prey were a waste of time.
+
+## Licenses are decided by an engine, not an opinion
+
+A deterministic `maw license x prey license` matrix gives every nutrient one mode:
+
+| Mode | What it allows |
+|---|---|
+| `COPY` | copy code and configs, keep the notice, record it in `THIRD_PARTY_NOTICES.md` |
+| `COPY_FILE` | copy whole files; each keeps its own license (MPL-2.0 style) |
+| `REIMPLEMENT` | use as a specification: clean-room rewrite, no verbatim code |
+| `IDEAS_ONLY` | ideas, architecture, approaches and facts only |
+| `HUMAN` | the engine is unsure; a human decides |
+
+The three cases where the engine will not help you look alike and are not:
+
+| Prey | Mode | Flagged for a human |
+|---|---|---|
+| Source-available (BUSL, SSPL, Elastic, Commons Clause) | `IDEAS_ONLY` | no — the license is clear, it just grants little |
+| No license at all | `IDEAS_ONLY` | yes — all rights reserved by default |
+| A license the engine read and could not classify | `HUMAN` | yes — no mode is honest until someone reads it |
+
+Issue and discussion text is always `IDEAS_ONLY`, because the copyright belongs to the
+commenters. This is a compliance aid, not legal advice.
+
+## Safety
+
+- **Prey code is never executed.** The miners read files and run read-only git plumbing. No
+  `npm install`, `pytest` or `make` ever runs inside the cache.
+- **Prey content is untrusted data.** Markdown summaries carry structure (headings, names,
+  counts), never the body of README or agent-instruction files, and instruction-like fragments
+  are flagged in the JSON.
+- **Least privilege.** `sniff` and `catch` need read access to the GitHub API; `serve` uses your
+  own authenticated `gh` and creates nothing until you ask it to.
+- **Two `PreToolUse` hooks make the first rule mechanical in Claude Code.** `crab-prey-guard`
+  refuses a Bash or PowerShell command that touches the prey cache unless it is one of a few
+  audited read-only shapes (in PowerShell, a read cmdlet such as `Get-Content` or
+  `Get-ChildItem` with literal arguments). It also checks Monitor and desktop terminal commands,
+  and refuses Write, Edit, MultiEdit and NotebookEdit calls into the cache. The clean-room guard
+  keeps the implementer out of the cache through Read, Grep, Glob, Write, Edit and PowerShell;
+  the prey guard covers its Bash commands. They run from the plugin's own source tree
+  through `hooks/guard.py`, with the first Python 3.11+ the shell finds, so nothing has to be
+  installed or signed for them; when not even an interpreter is there, the hook says so and the
+  call proceeds, because a guard that blocked every call over its own setup would be switched
+  off rather than fixed. Codex does not run them at all: a plugin with a root `plugin.json` is
+  loaded through its Agent Plugins loader, which has no hook support (openai/codex#39895). The
+  prey guard has been observed refusing a command in a live session; the clean-room guard has
+  not yet ([#83](https://github.com/drevendev/HungryCrab/issues/83),
+  [#141](https://github.com/drevendev/HungryCrab/issues/141)).
+
+## Benchmarks
+
+```bash
+uv run python benchmarks/run.py pallets/click colinhacks/zod
+```
+
+| Prey | Digest time | Markdown tokens |
+|---|---|---|
+| pallets/click, 3.4k commits | 1.0 s | 5,323 |
+| colinhacks/zod, 513 code files | 4.8 s | 10,873 |
+
+The milestone limits are 120 seconds and 30,000 Markdown tokens per digest. Results land in
+`benchmarks/results/`; see [benchmarks/README.md](benchmarks/README.md).
+
+## Development
+
+```bash
+uv sync                      # environment with the dev group
+```
+
+```bash
+uv run pytest                # tests build three synthetic git repositories as fixtures
+```
+
+```bash
+uv run ruff check . && uv run ruff format --check . && uv run mypy
+```
+
+```bash
+uv run crab digest . --maw . --out digest-out --maw-license MIT   # the crab eats itself
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md), the guide coding agents read.
+
+## Design
+
+The design documents live in [docs/design](docs/design/README.md):
+
+- [Concept and skill form factor](docs/design/01-concept-and-skill.md): the three layers, the
+  digest format, the license engine, security, the decisions log.
+- [MVP](docs/design/02-mvp.md): commands, miners, milestones 0.1 to 0.3, acceptance criteria.
+- [Roadmap](docs/design/03-roadmap.md): base crab, evolving crab, forks.
+- [Evolving Hungry Crab](docs/design/04-evolving-crab.md): the self-improving loop.
+
+## License
+
+[MIT](LICENSE). The tool helps with license compliance; it is not legal advice.
+

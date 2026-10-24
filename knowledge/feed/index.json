@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T09:39:41.745Z",
+  "updated_at": "2026-10-24T09:12:12.852Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://corgi.computer/",
+      "date": "2026-10-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, Inspired by Herdr, I've built an agent multiplexer that I've been using as my daily driver for a few weeks now. I think I improved on the concept in a few ways, focusing on the ergonomics I always wished I had: I show you what the agents are up to, along with a running feed of their activity. There's also a simple shortcut (F1) to go to the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-23/06-show-hn-corgi-a-helpful-agent-terminal-multiplexer.md"
+    },
+    {
+      "title": "Show HN: Searching for optimal strategies in a puzzle game with chance (Drop7)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://drop7.dev",
+      "date": "2026-10-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Sixteen years ago, I wrote a Java program which tried to pick the ideal move in a puzzle game called Drop7. On each turn, the player only has seven choices for their next move, but there is also an element of chance which turns this simple game into a surprisingly difficult problem involving search, hidden information, long-term planning, and chance. I re... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-23/07-show-hn-searching-for-optimal-strategies-in-a-puzzle-game-with-chance-.md"
+    },
+    {
+      "title": "Show HN: Dánwò – Open-source E2E testing with emulators and fault injection",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/carbonmeai/danwo",
+      "date": "2026-10-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I'm Faithful. I built dánwò, an open-source (Apache-2.0) end-to-end testing framework for web and mobile apps, written in TypeScript. The problem: a UI test can click \"Pay\", see \"Payment successful\" and pass, while the card was charged twice, the webhook was handled twice, or the receipt email never went out. With coding agents writing more of our... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-23/08-show-hn-d-nw-open-source-e2e-testing-with-emulators-and-fault-injectio.md"
+    },
+    {
+      "title": "Show HN: Koala – Run AI Agents in Isolated Linux VMs on macOS",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://kunalkushwaha.github.io/homebrew-koala/",
+      "date": "2026-10-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Koala – Run AI Agents in Isolated Linux VMs on macOS (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-23/09-show-hn-koala-run-ai-agents-in-isolated-linux-vms-on-macos.md"
+    },
+    {
+      "title": "Frisbee148/BreatheTwin",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Frisbee148/BreatheTwin",
+      "date": "2026-10-24",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "BreathTwin: a digital twin that forecasts asthma flare-ups 24-48 hours ahead by fusing synthetic EHR, simulated wearable signals and real Indian air-quality data. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-24/10-frisbee148-breathetwin.md"
+    },
+    {
+      "title": "Show HN: Encarta 95 Web",
+      "source": "Hacker News Show HN",
+      "url": "https://benwinding.github.io/encarta_95_web/#/article/Art",
+      "date": "2026-10-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Encarta is super nostalgic, and I was surprised it wasn't available to use online. So I embarked on the difficult task of making it so. The way this works is the most convoluted, nonsense and brittle system ever... but it works as a statically hosted gh-pages site! Please note: All the material on this site is freely available through the internet archive... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-24/11-show-hn-encarta-95-web.md"
+    },
+    {
+      "title": "Show HN: Impossible Machines: declaratively program the physical world",
+      "source": "Hacker News Show HN",
+      "url": "https://www.impossiblemachines.xyz",
+      "date": "2026-10-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey all — Sharing a thought experiment I put together. The premise: what might declarative programming feel like for the physical world? We’re already familiar with this paradigm in software land (eg SQL etc where we declare what we want and the execution engine figures out how). I didn’t have access to an actuator so I mocked up the concept in software.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-22/12-show-hn-impossible-machines-declaratively-program-the-physical-world.md"
+    },
+    {
+      "title": "everything will be local eventually",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdcpxb/everything_will_be_local_eventually/",
+      "date": "2026-10-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I know current llms like opus 5.5 are in a league of their own. but we all know they're losing a shti ton of money with their subscriptions. ALSO we all know how tasks like OCR, segmentation etc are getting solved by single digit B parameter models. I'm not saying llms are a gimmick but I'm saying the future is already shaping up to be about specialized m... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-23/13-everything-will-be-local-eventually.md"
+    },
+    {
+      "title": "[Release] ISTA GSQ-RCO GGUFs for DeepSeek-V4.1-Flash-1017",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2wg8/release_ista_gsqrco_ggufs_for_deepseekv41flash1017/",
+      "date": "2026-10-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "We have released DeepSeek-V4.1-Flash-1017 quantized with GSQ and RCO, at 1.75 to 2.25 bits per weight. DeepSeek-V4.1-Flash-1017 is a sparse mixture-of-experts model: 384 routed experts per layer, of which 6 are active per token, 763.2B parameters and a 1M-token context window. It is released with FP8 dense weights and FP4 routed experts. What's inside Thr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-24/14-release-ista-gsq-rco-ggufs-for-deepseek-v4-1-flash-1017.md"
+    },
+    {
+      "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB · Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/",
+      "date": "2026-10-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB is a small language model (SLM) further post-trained from Gemma-4-E4B-it by NVIDIA. Nemotron-3.5-Bolt-E4B carries forward Gemma’s strong conversational capabilities and further improves multi-turn tool use, instruction following, and input grounding for fast local voice/device assistants, interactive personas, and embedded... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-23/15-nvidia-nvidia-nemotron-3-5-bolt-e4b-4gb-hugging-face.md"
+    },
+    {
+      "title": "Been tracking intel b60 b65 b70 prices, they jumped 30% today.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdoirp/been_tracking_intel_b60_b65_b70_prices_they/",
+      "date": "2026-10-23",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Amazon prices just jumped today, I still see deals at local microcenter. When that batch is gone $1840 for a b70 will likely be the new normal. b60 went from $650 to $980. b65 $1150 to $1420 does make a lot more sense as the price per GB was low in comparison to the competitors. Still probably the best value per GB, but gap is shrinking fast submitted by... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-23/16-been-tracking-intel-b60-b65-b70-prices-they-jumped-30-today.md"
+    },
     {
       "title": "Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "Jitendra-Sharma726/AI-Agents-Projects Stars: 0 (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-20/08-jitendra-sharma726-ai-agents-projects.md"
-    },
-    {
-      "title": "Show HN: AI Facial Attractiveness Model Aligned with Human Preferences",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://faceanalysisai.com/",
-      "date": "2026-09-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: AI Facial Attractiveness Model Aligned with Human Preferences (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-20/09-show-hn-ai-facial-attractiveness-model-aligned-with-human-preferences.md"
-    },
-    {
-      "title": "Show HN: Forexfin – Trading calculators, alerts and a journal in one place",
-      "source": "Hacker News Show HN",
-      "url": "https://forexfin.tech/",
-      "date": "2026-09-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Some many years ago I started trading here and there and whenever I was doing it, I was bouncing between different platforms for position sizing, pip value, spread cost etc. Each of them was more or less expensive, I've also met some nice free tools along the way. But. Long story short, I built my own stuff, because first of all, I wanted them in a single... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/10-show-hn-forexfin-trading-calculators-alerts-and-a-journal-in-one-place.md"
-    },
-    {
-      "title": "Show HN: Architectural Guardrails for AI native development",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/cxgrd/cli",
-      "date": "2026-09-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Architectural Guardrails for AI native development (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-20/11-show-hn-architectural-guardrails-for-ai-native-development.md"
-    },
-    {
-      "title": "Show HN: Set, offline Markdown note-taking app with device-to-device sync",
-      "source": "Hacker News Show HN",
-      "url": "https://app.writewithset.com",
-      "date": "2026-09-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN. I am an avid user of Notion ( https://notion.so ) and really like the ergonomics of its block-based editor, but with how the product is evolving I felt I was missing a simple \"single-player\" experience of just taking notes and jotting down my thoughts. Hence, Set exists. It's in beta and all feedback is appreciated. You can use the app in the brows... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/12-show-hn-set-offline-markdown-note-taking-app-with-device-to-device-syn.md"
-    },
-    {
-      "title": "Show HN: DH Tools – 40 client-side developer and productivity tools",
-      "source": "Hacker News Show HN",
-      "url": "https://denizlihub.com/",
-      "date": "2026-09-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: DH Tools – 40 client-side developer and productivity tools (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/13-show-hn-dh-tools-40-client-side-developer-and-productivity-tools.md"
-    },
-    {
-      "title": "What are you all using for long term project/conversational memory these days?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl3828/what_are_you_all_using_for_long_term/",
-      "date": "2026-09-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I am trying to learn more about long-term memory and how people are handling that nowadays. Historically, I have used a mixture of paid cloud AI services (ChatGPT, Gemini, OpenRouter API) and my own local inference. However, at this point, I'm convinced that ChatGPT is deliberately throttling my use and causing service disruptions to extract my monthly fe... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-20/14-what-are-you-all-using-for-long-term-project-conversational-memory-the.md"
-    },
-    {
-      "title": "Radeon RX 10800 XT can outperform the RTX 5090 by 15-25% in 4K gaming and local AI",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1hlj/radeon_rx_10800_xt_can_outperform_the_rtx_5090_by/",
-      "date": "2026-09-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://en.gamegpu.com/news/zhelezo/radeon-rx-10800-xt-mozhet-obojti-rtx-5090-na-15-25-v-igrakh-v-v-4k-i-lokalnom-ii The more competition, the better! submitted by /u/Lumpy_Phase_9539 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-19/15-radeon-rx-10800-xt-can-outperform-the-rtx-5090-by-15-25-in-4k-gaming-a.md"
-    },
-    {
-      "title": "I gave Jev, Laya, finetuned ModernCE and Qwen3.5 the controls to Doom",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl1yzq/i_gave_jev_laya_finetuned_modernce_and_qwen35_the/",
-      "date": "2026-09-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I gave Jev, Laya, a finetuned ModernCE-base-nli and a finetuned Qwen3.5-4B the controls to Doom. Thanks to TypeSafe AI for Jev access. The video lines up the starts of four separate games with the same seed. After that, each model's actions change its own game and what it sees next. The clip shows one preselected episode per model in each of two scenarios... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-20/16-i-gave-jev-laya-finetuned-modernce-and-qwen3-5-the-controls-to-doom.md"
-    },
-    {
-      "title": "To the dozens of 3x 3090 Local LLM people - I found our current best fit",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl5hfk/to_the_dozens_of_3x_3090_local_llm_people_i_found/",
-      "date": "2026-09-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I have been anti-low quant. I can feel the difference, I swear. I am also anti-quantized KV cache. I have been burned there - I think the tradeoffs compound, especially at longer contexts. Due to this, I have been running Qwen 3.8 27B (UD-Q8_K_L) on 2x of the 3090s in TP. I swear by it. It is such an amazing little model and I can get nearly max context a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-20/17-to-the-dozens-of-3x-3090-local-llm-people-i-found-our-current-best-fit.md"
-    },
-    {
-      "title": "A Qualitative Model for Reasoning about Path and Support",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.20349v1",
-      "date": "2026-09-17",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Spatial reasoning abilities correlate strongly with performance in STEM fields. Games offer a compelling medium for training these critical skills in developing children who have a natural proclivity for play. However, to facilitate human-like tutoring and player guidance, these games require an AI agent capable of making commonsense inferences from spati... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-17/06-a-qualitative-model-for-reasoning-about-path-and-support.md"
-    },
-    {
-      "title": "xionglingsong/usage-evidence",
-      "source": "GitHub Trending",
-      "url": "https://github.com/xionglingsong/usage-evidence",
-      "date": "2026-09-19",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Evidence-based English usage verification skill for AI agents: query Oxford/Cambridge/Linguee/Ngram instead of guessing from model intuition (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-19/07-xionglingsong-usage-evidence.md"
     }
   ]
 }
