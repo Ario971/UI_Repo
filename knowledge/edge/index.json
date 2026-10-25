@@ -1,10 +1,222 @@
 {
-  "last_checked_at": "2026-10-24T09:12:45.344Z",
+  "last_checked_at": "2026-10-25T09:30:02.350Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "rohitg00/agentmemory",
+      "name": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "date": "2026-10-25",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 84,
+      "momentum": 100,
+      "risk": 46,
+      "integration_effort": 64,
+      "expected_gain": 95,
+      "composite": 79,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: DocuMemory – Persistent memory and context for AI coding tools",
+          "date": "2026-10-18",
+          "topic": "AI dev tools",
+          "similarity": 0.322,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-18/10-show-hn-documemory-persistent-memory-and-context-for-ai-coding-tools.md"
+        },
+        {
+          "title": "Show HN: Crashlytics for AI Coding Agents",
+          "date": "2026-10-08",
+          "topic": "AI agents",
+          "similarity": 0.279,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/06-show-hn-crashlytics-for-ai-coding-agents.md"
+        },
+        {
+          "title": "Show HN: SuperLocalMemory 4.0 \"Governed Memory Operating System for AI Agents\"",
+          "date": "2026-10-04",
+          "topic": "AI agents",
+          "similarity": 0.268,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-04/06-show-hn-superlocalmemory-4-0-governed-memory-operating-system-for-ai-a.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-25)",
+        "Apache-2.0 license",
+        "29876 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @anthropic-ai/claude-agent-sdk, @anthropic-ai/sdk, @clack/prompts, dotenv, @iii-dev/helpers, iii-sdk, picocolors, zod; scripts build, dev, start, migrate, pretest, test, test:watch, test:integration"
+        }
+      ],
+      "install_commands": [
+        "npx -y @agentmemory/agentmemory@latest",
+        "npx -y @agentmemory/agentmemory@latest demo  # seed sample sessions + exercise recall",
+        "npx skills add rohitg00/agentmemory -y   # 17 native skills so your agent knows when to reach for memory",
+        "npm install -g @agentmemory/agentmemory@latest",
+        "npx -y @agentmemory/agentmemory@latest --data-dir ~/.agentmemory-projects/main",
+        "npx -y @agentmemory/agentmemory@latest demo"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-18 about AI dev tools; this candidate overlaps with \"Show HN: DocuMemory – Persistent memory and context for AI coding tools\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-25/01-rohitg00-agentmemory.md"
+    },
+    {
+      "id": "zyycn/codex-proxy-rs",
+      "name": "zyycn/codex-proxy-rs",
+      "url": "https://github.com/zyycn/codex-proxy-rs",
+      "date": "2026-10-25",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 79,
+      "momentum": 100,
+      "risk": 30,
+      "integration_effort": 40,
+      "expected_gain": 71,
+      "composite": 77,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "sloxphrite73/sakura-llmgateway",
+          "date": "2026-09-25",
+          "topic": "AI dev tools",
+          "similarity": 0.227,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-25/12-sloxphrite73-sakura-llmgateway.md"
+        },
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.201,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "waniyaro/agent-reels-viewer",
+          "date": "2026-10-05",
+          "topic": "AI dev tools",
+          "similarity": 0.186,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-waniyaro-agent-reels-viewer.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-25)",
+        "Apache-2.0 license",
+        "944 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 70,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-09-25 about AI dev tools; this candidate overlaps with \"sloxphrite73/sakura-llmgateway\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-25/02-zyycn-codex-proxy-rs.md"
+    },
+    {
+      "id": "hyperbolictonic/kuang-grade-mark-eleven",
+      "name": "hyperbolictonic/kuang-grade-mark-eleven",
+      "url": "https://github.com/hyperbolictonic/kuang-grade-mark-eleven",
+      "date": "2026-10-25",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 94,
+      "momentum": 49,
+      "risk": 40,
+      "integration_effort": 60,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Donut Browser, the most private anti-detect browser",
+          "date": "2026-10-16",
+          "topic": "AI dev tools",
+          "similarity": 0.287,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-16/11-show-hn-donut-browser-the-most-private-anti-detect-browser.md"
+        },
+        {
+          "title": "Qwen plays World of Warcraft",
+          "date": "2026-09-27",
+          "topic": "Local LLMs",
+          "similarity": 0.277,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-27/14-qwen-plays-world-of-warcraft.md"
+        },
+        {
+          "title": "Come let your LLMs play World of Warcraft",
+          "date": "2026-10-03",
+          "topic": "Local LLMs",
+          "similarity": 0.256,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/14-come-let-your-llms-play-world-of-warcraft.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-25)",
+        "MIT license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "pnpm dev",
+        "pnpm run build",
+        "pnpm start",
+        "npm run manual:tools",
+        "npm run test:wrap",
+        "npm run test:wrap:mcp"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-16 about AI dev tools; this candidate overlaps with \"Show HN: Donut Browser, the most private anti-detect browser\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-25/03-hyperbolictonic-kuang-grade-mark-eleven.md"
+    },
     {
       "id": "jkheadley/instar",
       "name": "JKHeadley/instar",
@@ -19484,207 +19696,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-07-09 about AI dev tools; this candidate overlaps with \"Show HN: Policy enforcement for Claude Code, Cursor, and Codex\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-17/02-prime-radiant-inc-superpowers-evals.md"
-    },
-    {
-      "id": "supermarioyl/agentguard",
-      "name": "SuperMarioYL/agentguard",
-      "url": "https://github.com/SuperMarioYL/agentguard",
-      "date": "2026-07-17",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 79,
-      "momentum": 52,
-      "risk": 32,
-      "integration_effort": 52,
-      "expected_gain": 87,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "llm011/ethan-agent",
-          "date": "2026-06-20",
-          "topic": "AI dev tools",
-          "similarity": 0.252,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
-        },
-        {
-          "title": "Agent Data Injection Attacks are Realistic Threats to AI Agents",
-          "date": "2026-07-06",
-          "topic": "AI agents",
-          "similarity": 0.249,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-06/07-agent-data-injection-attacks-are-realistic-threats-to-ai-agents.md"
-        },
-        {
-          "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex",
-          "date": "2026-07-09",
-          "topic": "AI dev tools",
-          "similarity": 0.239,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/10-show-hn-policy-enforcement-for-claude-code-cursor-and-codex.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-17)",
-        "MIT license",
-        "2 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 1,
-      "dependency_files": [
-        {
-          "name": "go.mod",
-          "summary": "module github.com/SuperMarioYL/agentguard"
-        }
-      ],
-      "install_commands": [
-        "go install github.com/SuperMarioYL/agentguard/cmd/agentguard@latest",
-        "npm install"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-20 about AI dev tools; this candidate overlaps with \"llm011/ethan-agent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-17/03-supermarioyl-agentguard.md"
-    },
-    {
-      "id": "google/tunix",
-      "name": "google/tunix",
-      "url": "https://github.com/google/tunix",
-      "date": "2026-07-16",
-      "source": "awesome-llm-agents",
-      "category": "awesome_lists",
-      "kind": "agent_framework",
-      "compatibility": 80,
-      "momentum": 100,
-      "risk": 30,
-      "integration_effort": 50,
-      "expected_gain": 85,
-      "composite": 80,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "\"What should I do?\" - consider post-training",
-          "date": "2026-06-26",
-          "topic": "Local LLMs",
-          "similarity": 0.267,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-26/14-what-should-i-do-consider-post-training.md"
-        },
-        {
-          "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
-          "date": "2026-06-26",
-          "topic": "AI agents",
-          "similarity": 0.21,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
-        },
-        {
-          "title": "I pretrained and post trained a 500M parameter LLM and 330M parameter Image generator from scratch",
-          "date": "2026-06-21",
-          "topic": "Local LLMs",
-          "similarity": 0.204,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-06-21/17-i-pretrained-and-post-trained-a-500m-parameter-llm-and-330m-parameter-.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-16)",
-        "Apache-2.0 license",
-        "2369 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 0,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps name, version, authors, description, requires-python, readme, license, classifiers"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-26 about Local LLMs; this candidate overlaps with \"\"What should I do?\" - consider post-training\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-16/01-google-tunix.md"
-    },
-    {
-      "id": "memtomem/memtomem",
-      "name": "memtomem/memtomem",
-      "url": "https://github.com/memtomem/memtomem",
-      "date": "2026-07-16",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 92,
-      "momentum": 75,
-      "risk": 24,
-      "integration_effort": 60,
-      "expected_gain": 87,
-      "composite": 78,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
-          "date": "2026-06-26",
-          "topic": "AI agents",
-          "similarity": 0.288,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
-        },
-        {
-          "title": "Show HN: Kage, verification and freshness for Google's OKF agent memory",
-          "date": "2026-06-30",
-          "topic": "AI agents",
-          "similarity": 0.267,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/07-show-hn-kage-verification-and-freshness-for-google-s-okf-agent-memory.md"
-        },
-        {
-          "title": "llm011/ethan-agent",
-          "date": "2026-06-20",
-          "topic": "AI dev tools",
-          "similarity": 0.262,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-16)",
-        "Apache-2.0 license",
-        "11 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps name, version, description, requires-python, dependencies, members, memtomem, target-version"
-        }
-      ],
-      "install_commands": [
-        "uv tool install 'memtomem[all]'       # or: pipx install 'memtomem[all]'",
-        "uv tool install memtomem             # no extras — dense search, web UI, Korean tokenizer unavailable until you add them",
-        "uv add 'memtomem[all]' && uv run mm init    # all commands need `uv run` prefix",
-        "claude mcp add memtomem -s user -- uvx --isolated --from \"memtomem[all]==0.3.11\" memtomem-server",
-        "uv tool install 'memtomem[all]' --refresh",
-        "uv cache clean memtomem"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-26 about AI agents; this candidate overlaps with \"Agent-Native Immune System: Architecture, Taxonomy, and Engineering\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-16/02-memtomem-memtomem.md"
     }
   ]
 }

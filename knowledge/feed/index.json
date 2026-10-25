@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T09:12:12.852Z",
+  "updated_at": "2026-10-25T09:29:17.764Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Muffin - A Shared Memory Buffer for Asynchronous AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.31355v1",
+      "date": "2026-10-22",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "The rise of Agentic AI systems has changed the landscape of artificial intelligence by enabling strong reasoning capabilities through specialized multi-agent interaction with structured self-reflection. However, in target-driven reasoning tasks, single- and multi-agent systems are often on par in terms of performance gains. A major challenge is that failu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-22/06-muffin-a-shared-memory-buffer-for-asynchronous-ai-agents.md"
+    },
+    {
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "date": "2026-10-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Donating Agent Skills to the Agentic AI Foundation (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-25/07-donating-agent-skills-to-the-agentic-ai-foundation.md"
+    },
+    {
+      "title": "Show HN: Hindsight – Lightweight, elegant, open-source tracker for Windows/macOS",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Tomotsugu-dev/Hindsight",
+      "date": "2026-10-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I’m building Hindsight, a free, open-source activity tracker for Windows and macOS. I know there are plenty of time trackers. I wanted something that combined automatic tracking, detailed charts, and cross-device sync in a lightweight app with an interface I enjoyed using. I couldn’t find a free option that fit, so I started building my own. Hindsi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-25/08-show-hn-hindsight-lightweight-elegant-open-source-tracker-for-windows-.md"
+    },
+    {
+      "title": "Show HN: Independent Vet – Find locally owned vets (and corporate ones) near you",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://independentvet.com/",
+      "date": "2026-10-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Three years ago, our dog was sideswiped by a car and my wife took him to the local vet in Berkeley. Unfortunately, things did not go well and to cut a long story short, he passed after 2 days and $13k of bills for very limited care. I was surprised to learn that the seemingly mom & pop practice had been acquired by a PE-owned consolidator and that around... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-25/09-show-hn-independent-vet-find-locally-owned-vets-and-corporate-ones-nea.md"
+    },
+    {
+      "title": "onurbaydas/NotepadAI",
+      "source": "GitHub Search API",
+      "url": "https://github.com/onurbaydas/NotepadAI",
+      "date": "2026-10-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "onurbaydas/NotepadAI Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-25/10-onurbaydas-notepadai.md"
+    },
+    {
+      "title": "clearmeasure-aisf-sample-apps/cmdemo1-workorders",
+      "source": "GitHub Search API",
+      "url": "https://github.com/clearmeasure-aisf-sample-apps/cmdemo1-workorders",
+      "date": "2026-10-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Clear Measure work orders demo 1: the work-order app (from ClearMeasureLabs/bootcamp-palermo-workorders), deployable ui of clearmeasure-aisf-sample-apps/cmdemo1-system. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-25/11-clearmeasure-aisf-sample-apps-cmdemo1-workorders.md"
+    },
+    {
+      "title": "sanket-business-ai/sanket-ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/sanket-business-ai/sanket-ai",
+      "date": "2026-10-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "sanket-business-ai/sanket-ai Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-25/12-sanket-business-ai-sanket-ai.md"
+    },
+    {
+      "title": "frostlinuxdev/nadare",
+      "source": "GitHub Search API",
+      "url": "https://github.com/frostlinuxdev/nadare",
+      "date": "2026-10-25",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A Linux launcher for anime gacha games (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-25/13-frostlinuxdev-nadare.md"
+    },
+    {
+      "title": "CMP170HX inspiration unlocks 30x/40x also, up to 2X Prefill speedup --> NVIDIA RTX 30 & RTX 40 GPUs Get Impressively Fast In AI LLMs As Compute Doubles With New Unlock Tool But Prices Surge Too",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xelhpj/cmp170hx_inspiration_unlocks_30x40x_also_up_to_2x/",
+      "date": "2026-10-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "NVIDIA RTX 30 & RTX 40 GPUs Get Impressively Fast In AI LLMs As Compute Doubles With New Unlock Tool But Prices Surge Too\" title=\"CMP170HX inspiration unlocks 30x/40x also, up to 2X Prefill speedup --> NVIDIA RTX 30 & RTX 40 GPUs Get Impressively Fast In AI LLMs As Compute Doubles With New Unlock Tool But Prices Surge Too\" /> Your move everyone, buy, sell... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-24/14-cmp170hx-inspiration-unlocks-30x-40x-also-up-to-2x-prefill-speedup-nvi.md"
+    },
+    {
+      "title": "Made a rhythm game where 4 small neural nets listen to your song right in the browser tab (open source)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeia9o/made_a_rhythm_game_where_4_small_neural_nets/",
+      "date": "2026-10-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "not an llm post exactly, but it's all local inference so i figured people here might like it i made a browser rhythm runner where the song builds the world you run through. you can throw in your own mp3s and the whole \"listening\" happens on your device, inside the tab. nothing gets uploaded the models, all running locally on onnxruntime-web (wasm, each in... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-24/15-made-a-rhythm-game-where-4-small-neural-nets-listen-to-your-song-right.md"
+    },
+    {
+      "title": "Imp : News backdooring the local models",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeuk0q/imp_news_backdooring_the_local_models/",
+      "date": "2026-10-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned Guys, what is your thoughts on this ? submitted by /u/repair_and_privacy [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-25/16-imp-news-backdooring-the-local-models.md"
+    },
+    {
+      "title": "Is it just me or Kimi K3.1 Pro don’t look much better than DeepSeek 4.1 Flash?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xemxoq/is_it_just_me_or_kimi_k31_pro_dont_look_much/",
+      "date": "2026-10-24",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Personally I am quite fond of the Kimi models, especially them taking a gamble pushing the 2.8b parameter models. But that’s just it, you’d figure that the results would be representative of its size. However, the recent release of DeepSeek 1017 has put things in perspective for me. kimi k3 is a great model but realistically very hard to run locally, even... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-24/17-is-it-just-me-or-kimi-k3-1-pro-don-t-look-much-better-than-deepseek-4-.md"
+    },
     {
       "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "APort Vault is a benchmark for payment authorization in tool-using AI agents. It replays 4,371 attacks written by humans against a live payment agent during a public capture-the-flag event, across 14 models from 8 labs, five policy configurations and two replay tracks, with and without a deterministic pre-action check implementing the Open Agent Passport... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-18/08-aport-vault-benchmarking-ai-agent-payment-authorization-with-the-open-.md"
-    },
-    {
-      "title": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.22067v1",
-      "date": "2026-09-18",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Users increasingly delegate work to autonomous AI agents, yet evaluations typically measure task completion rather than the values users prioritize. Using Value Sensitive Design, we analyzed, with LLM assistance, 73,093 first-person Reddit posts about using OpenClaw, each for its human value, agent aspect, value fulfillment, and user outcome. The 21 value... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-18/09-value-sensitive-delegation-in-everyday-ai-agent-use-evidence-from-open.md"
-    },
-    {
-      "title": "Show HN: Ifso.io – Personal finance simulator with no sign up required",
-      "source": "Hacker News Show HN",
-      "url": "https://ifso.io/try",
-      "date": "2026-09-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey all! I've been building Ifso.io, it's a personal finance simulator that lets you configure and play out life decisions. The main philosophy that I built Ifso around is decision-making. I personally wanted to see what it would look like if I made some key financial decisions (ex: what would it look like if I paid extra on my mortgage principal for just... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-20/10-show-hn-ifso-io-personal-finance-simulator-with-no-sign-up-required.md"
-    },
-    {
-      "title": "Show HN: Bitcoin-rs – An AI-assisted Bitcoin full node in Rust",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/gosuda/bitcoin-rs",
-      "date": "2026-09-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I’m building bitcoin-rs, an independent Bitcoin full node in Rust, using AI aggressively for implementation. I think Bitcoin is a particularly good target for AI-era development because implementations can be verified against strong external references. In bitcoin-rs, I use libbitcoinkernel as one of the main compatibility oracles. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/11-show-hn-bitcoin-rs-an-ai-assisted-bitcoin-full-node-in-rust.md"
-    },
-    {
-      "title": "Show HN: Sigabrt.dev – cronjob monitor with an SSH TUI",
-      "source": "Hacker News Show HN",
-      "url": "https://sigabrt.dev",
-      "date": "2026-09-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN. I built this mostly to monitor the things I host myself. I know it's nothing too exciting. Anyway, the TL;DR is: Create an endpoint, and if your script/cronjob fails to regularly ping it, you get notified (by email or ntfy). E.g.: 0 * * * * ./script.sh && curl -fsS https://sigabrt.dev/pulse/<id>/beat It also has an SSH TUI which is currently exp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-19/12-show-hn-sigabrt-dev-cronjob-monitor-with-an-ssh-tui.md"
-    },
-    {
-      "title": "Show HN: Lightspeed, build real time apps the Laravel way (+asteroids demo)",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=49781032",
-      "date": "2026-09-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! Laravel has worked with websockets for years but generally speaking it's a one way push architecture (i.e. http in, sockets out). Lightspeed is kind of like node in that it's a single server that serves your http and your websockets all under one roof. Auth runs in 0.03ms (a Redis read, no database). Your Laravel handler runs inside the full contai... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-20/13-show-hn-lightspeed-build-real-time-apps-the-laravel-way-asteroids-demo.md"
-    },
-    {
-      "title": "Seeing how differently people prompt LLMs is funny",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlvv8h/seeing_how_differently_people_prompt_llms_is_funny/",
-      "date": "2026-09-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So my brother and I both use LLMs for coding. I've started using a local GLM 5.3 Flash instance - q4 qat. My brother uses GPT-6-Astra as his daily driver. He has mentioned repeatedly to me that his approach is to berate the AI whenever it makes a mistake so that it actually does what he wants it to. This involves a lot of swearing and \"are you an idiot!?\"... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-20/14-seeing-how-differently-people-prompt-llms-is-funny.md"
-    },
-    {
-      "title": "DIY Jev",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlu9rd/diy_jev/",
-      "date": "2026-09-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So this jev thingy is getting kind of big... tbh it seems overhyped by a large margin, but here we are. Not that its bad, just feels like we usually ignored larger things... Anyway to the point of this post: I’ve been experimenting with a simple Jev-like inference setup using ordinary open weight LLMs. Ive done jev-like thing before with llms and i never... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-20/15-diy-jev.md"
-    },
-    {
-      "title": "hearim(헤아림): Maybe you don’t need a special model for Jev — ordinary local LLMs already have the capability",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm6eri/hearim헤아림_maybe_you_dont_need_a_special_model_for/",
-      "date": "2026-09-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "What if you don’t need a new model to get Jev-style decisions? I built hearim(헤아림. hea-a-rim. not Here, I am.. lol) , an open-source gateway that turns ordinary local or hosted LLMs into a Jev-compatible decision API. Give it some data and a set of choices, and it returns a decision with probabilities—using models you can already run through llama.cpp, vL... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-21/16-hearim-maybe-you-don-t-need-a-special-model-for-jev-ordinary-local-llm.md"
-    },
-    {
-      "title": "Where are the current GPU VRAM sweet spots?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm2umu/where_are_the_current_gpu_vram_sweet_spots/",
-      "date": "2026-09-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I have been reasonably satisfied with my single R9700 (32GB) as I can run practical quants of Qwen 3.8-27B at good speeds, as well as other similar models in its weight class (Gemma 4 is still my go-to for general knowledge, until I see something better - has that happened?). But my inference box has a second PCIe x16 slot and while while the motherboard/... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-21/17-where-are-the-current-gpu-vram-sweet-spots.md"
-    },
-    {
-      "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/trycua/cua",
-      "date": "2026-09-19",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN! We're Dillon and Francesco from Cua. We were wondering how many computer use tasks actually need a full general purpose LLM (e.g. gpt-6-astra, claude-opus-5 etc.) to think through all their decisions and steps. Some tasks require thinking about a plan, exploring different paths, recovering from failure. Other tasks are a question of making local... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-19/06-show-hn-cua-s1-a-system-one-model-for-computer-use.md"
-    },
-    {
-      "title": "Fan-Fan-F/agentos",
-      "source": "GitHub Trending",
-      "url": "https://github.com/Fan-Fan-F/agentos",
-      "date": "2026-09-20",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "AgentOS — Build once, use every agent. A local-first platform to run, switch, fork and orchestrate multiple AI coding agents with portable sessions. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-20/07-fan-fan-f-agentos.md"
-    },
-    {
-      "title": "Jitendra-Sharma726/AI-Agents-Projects",
-      "source": "GitHub Trending",
-      "url": "https://github.com/Jitendra-Sharma726/AI-Agents-Projects",
-      "date": "2026-09-20",
-      "topic": "AI agents",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Jitendra-Sharma726/AI-Agents-Projects Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-20/08-jitendra-sharma726-ai-agents-projects.md"
     }
   ]
 }
