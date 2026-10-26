@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T09:29:17.764Z",
+  "updated_at": "2026-10-26T10:37:51.761Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: AgentTrust – Zero-trust security and human approvals for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/SRN0129/Agenttrust",
+      "date": "2026-10-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: AgentTrust – Zero-trust security and human approvals for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-25/06-show-hn-agenttrust-zero-trust-security-and-human-approvals-for-ai-agen.md"
+    },
+    {
+      "title": "Show HN: Nodecode, open-source living agent in Lisp that rewrites itself for you",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/nodecode-ai/nodecode",
+      "date": "2026-10-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, we're Mike and Thom. Agents of the future should only have one tool (the interpreter, ideally a LISP eval), nothing more or less; to interact with the world. Agents remember by writing markdown files. NODECODE remembers by rewriting itself. And that is in itself a new paradigm in working with agents. What if memories, skills, MCPs, provider connect... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-26/07-show-hn-nodecode-open-source-living-agent-in-lisp-that-rewrites-itself.md"
+    },
+    {
+      "title": "Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.32851v1",
+      "date": "2026-10-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Enterprises are deploying agentic AI across the software development lifecycle, and they need the behavioral logic of the systems they act on, not stakeholder documentation. A seven-agent reverse-engineering pipeline recovered this logic, processing 241 repositories across 18 services into thousands of artifacts describing scope, journeys, rules and accep... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-23/08-reimagining-enterprise-rag-for-multi-agent-systems-a-knowledge-layer-t.md"
+    },
+    {
+      "title": "Semantic Representation for Agentic Self-Play in Automated Laboratories",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.32755v1",
+      "date": "2026-10-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Navigating complex, high-dimensional biological search spaces necessitates scalable physical and computational intelligence to explore beyond local optima through iterative self-play across ideation, experimentation, and automation. Translating experimental designs into reliable physical execution remains bottlenecked by static laboratory automation and u... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-23/09-semantic-representation-for-agentic-self-play-in-automated-laboratorie.md"
+    },
+    {
+      "title": "Show HN: Freehire, open-source search 3M+ tech jobs from company career boards",
+      "source": "Hacker News Show HN",
+      "url": "https://freehire.me/",
+      "date": "2026-10-26",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "freehire is a filterable, job board aggregator, job tracker, and AI-assisted resume tailoring tool. Saving your skills and preferences changes which jobs appear and how your resume gets tailored. I've looked at a lot of these solutions over the years and found it really hard to find the right mix of tools in an open-source offering. I've contributed to a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-26/10-show-hn-freehire-open-source-search-3m-tech-jobs-from-company-career-b.md"
+    },
+    {
+      "title": "pbsnsriya/txt2cad",
+      "source": "GitHub Search API",
+      "url": "https://github.com/pbsnsriya/txt2cad",
+      "date": "2026-10-26",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Describe a building in plain words, watch it grow in 3D, export IFC, DXF and STEP. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-26/11-pbsnsriya-txt2cad.md"
+    },
+    {
+      "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+      "source": "Hacker News Show HN",
+      "url": "https://adrs.systems",
+      "date": "2026-10-25",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Why is this worth your time? Essentially, this solves two problems of AI-assisted programming: (a) the first problem is how to do oversight and what do oversight of and this is solved through the ORRCF (for Options, Recommendation, Rationale, Confidence, Falsifier) question format (in which models are supposed to surface all their doubts with fully fleshe... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-25/12-show-hn-adrs-for-ai-deliberation-records-for-human-ai-work-versioned-i.md"
+    },
+    {
+      "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "source": "Hacker News Show HN",
+      "url": "https://huggingface.co/destined/hurston-1",
+      "date": "2026-10-25",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I’m open sourcing my Hurston-1 narrowband TTS model (Apache-2.0). It is very good with American English and does especially well with Southern American and Regional African English accents. Destined AI is based in Atlanta, and I built this because I’m amazed by what AI can do, and I wanted to help introduce and welcome more people to feel comforta... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-25/13-show-hn-hurston-1-open-source-tts-that-speak-southern-american-and-afr.md"
+    },
+    {
+      "title": "PSA: llama.cpp CVE-2026-116096",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfizft/psa_llamacpp_cve2026116096/",
+      "date": "2026-10-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://nvd.nist.gov/vuln/detail/cve-2026-116096 25-10-2026 Description A weakness has been identified in ggml-org llama.cpp. Affected by this issue is the function list_pockettts_state_slots of the file tools/mtmd/models/pockettts-gen.cpp of the component Pocket-TTS. This manipulation of the argument mmproj causes out-of-bounds write. *The attack require... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-26/14-psa-llama-cpp-cve-2026-116096.md"
+    },
+    {
+      "title": "Have 8 GB of VRAM and 32 GB of RAM? You can run Qwen 3.8 Flash Next at up to 900 t/s PP and 30 t/s TG!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xft2ae/have_8_gb_of_vram_and_32_gb_of_ram_you_can_run/",
+      "date": "2026-10-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "First, this isn’t clickbait - these are real results. I managed to run Qwen 3.8 Flash Next Q2 and got better results in benchmarks and real-world tests than I did with any Qwen 3.6 35B A3B fine-tune or Qwen 3.8 27B model I tested. It is also faster than my current Qwen 3.6 35B A3B setup. Here are the details. About a week ago, I learned about Strata and w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-26/15-have-8-gb-of-vram-and-32-gb-of-ram-you-can-run-qwen-3-8-flash-next-at-.md"
+    },
+    {
+      "title": "RTX 3080 20GB got reBAR and P2P unlock! +70% prompt processing speed",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf9kmd/rtx_3080_20gb_got_rebar_and_p2p_unlock_70_prompt/",
+      "date": "2026-10-25",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "P2P is finally unlocked for RTX 3080 20GB - this leads to massive performance improvements in tensor parallel mode prompt processing speed. First, i want to acknowledge that this tremendous achievement belongs to u/nathannguyennng - he can't post to r/locallama due to karma requirements, and gave me permission to post it instead. Please follow his origina... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-25/16-rtx-3080-20gb-got-rebar-and-p2p-unlock-70-prompt-processing-speed.md"
+    },
+    {
+      "title": "$10–12K build for local agentic coding: 1× 5090 vs 4× 3090 vs hybrid vs PRO 6000 vs Mac Studio?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfs8p7/1012k_build_for_local_agentic_coding_1_5090_vs_4/",
+      "date": "2026-10-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "TL;DR : I'm buying hardware for local agentic coding. My budget is ~$10K, I can go up to $12K if the difference is significant. I'm leaning toward a single RTX 5090 and would like a sanity check from people who run coding agents locally. Use case - Agentic coding - Sometimes 2–4 parallel subagents - Reverse-engineering Nice to have - Texture generation wi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-26/17-10-12k-build-for-local-agentic-coding-1-5090-vs-4-3090-vs-hybrid-vs-pr.md"
+    },
     {
       "title": "Muffin - A Shared Memory Buffer for Asynchronous AI Agents",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "AI auditing increasingly incorporates AI agents to expand the scale and breadth of audit coverage, yet little is known about how auditing work should be divided without displacing human judgment. We introduce Human-Agent Audit Collaboration (HAAC), a workflow and system for structuring human-AI collaboration in AI auditing. Drawing on prior work and forma... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/08-who-does-what-in-ai-auditing-designing-human-ai-collaboration-for-audi.md"
-    },
-    {
-      "title": "Et Tu, Brute? Economic Misalignment in Personal AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.24927v1",
-      "date": "2026-09-21",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Personal AI agents make recommendations and take actions on people's behalf in high-stakes economic contexts, e.g., buying a flight, choosing health insurance, or selecting a graduate program. The agent is given access to the user's personal context, e.g., their email inbox and a structured profile of personal attributes, with the intention of making an o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/09-et-tu-brute-economic-misalignment-in-personal-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Agent Chaperone – Screen AI agent tool calls and results with Jev",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/agent-chaperone/agent-chaperone",
-      "date": "2026-09-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone. TypeSafe released Jev last week, and it pushed me to build agent-chaperone. It is a screening layer for AI agent tool calls and tool results. It screens risky, off-task, or secret-leaking actions before they run, and prompt injections or other suspicious instructions before the agent reads them. Repo: https://github.com/agent-chaperone/agent-... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/10-show-hn-agent-chaperone-screen-ai-agent-tool-calls-and-results-with-je.md"
-    },
-    {
-      "title": "Ratandeep-purohit/OmniSense-AI",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Ratandeep-purohit/OmniSense-AI",
-      "date": "2026-09-22",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "OmniSense AI is an advanced desktop intelligence platform that augments (not replaces) existing operating systems by providing a continuous perception layer for the user's desktop environment. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-22/11-ratandeep-purohit-omnisense-ai.md"
-    },
-    {
-      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/volotat/mini-AGI/",
-      "date": "2026-09-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Sorry for the pretentious name, I know, I know.. It just contains all the pieces I would like to see a AGI model to have, and I can't stand the temptation. Before throwing rocks at me, please take a glance at the Readme, and I hope it will cover your mood a little bit. So, first of all it does work and you can see the sample from the whole training run he... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/12-show-hn-mini-agi-dynamic-continual-learning-model-trained-on-8gb-vram.md"
-    },
-    {
-      "title": "Show HN: Lossless-memory – a personal AI memory that never summarizes",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/aru-labs/lossless-memory",
-      "date": "2026-09-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Lossless-memory – a personal AI memory that never summarizes (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-21/13-show-hn-lossless-memory-a-personal-ai-memory-that-never-summarizes.md"
-    },
-    {
-      "title": "Ngram and world knowledge - why are we just building a coding model?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn2ybk/ngram_and_world_knowledge_why_are_we_just/",
-      "date": "2026-09-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This post is written by a human and I'd appreciate it if you treated it as such. Thanks. So, I've been noticing a pretty clear interest in developing as good a coding and agentic tool-calling model as possible, especially at smaller sizes, sub-50 gigs. However, I'm finding that at least for my use of AI, if I really want to move away from big providers, I... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-22/14-ngram-and-world-knowledge-why-are-we-just-building-a-coding-model.md"
-    },
-    {
-      "title": "[MASSIVE RELEASE] Supra2-IMG - a tiny 100M text-to-image model - SOTA quality and open release!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage/",
-      "date": "2026-09-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone! It has been quite a while since the last SupraLabs model - but today we've something special for y'all: Supra2-IMG It's a 100M parameter DiT text-to-image model trained entirely from scratch in under 10 hours on a single H100 on Runpod. It can generate state-of-the-art quality images in 256x256 pixels resolution. Samples: https://preview.red... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-21/15-massive-release-supra2-img-a-tiny-100m-text-to-image-model-sota-qualit.md"
-    },
-    {
-      "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents - MacStories",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmec1y/m5_ultra_mac_studio_review_the_dream_mac_for/",
-      "date": "2026-09-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/themixtergames [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-21/16-m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents-macstorie.md"
-    },
-    {
-      "title": "A better coder for the small-GPU/small-RAM crowd!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmgokc/a_better_coder_for_the_smallgpusmallram_crowd/",
-      "date": "2026-09-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I’ve been working on making small models more capable at agentic coding and work, because most people in the world don’t have the sort of hardware needed to run 3.8-27B, or even 35B-A3B or 9B dense, and I want to extend local agentic coding capability to less privileged users. This quant can be run on a smart phone or older gaming laptop, and can solve re... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-21/17-a-better-coder-for-the-small-gpu-small-ram-crowd.md"
-    },
-    {
-      "title": "Show HN: Gdocs-me-up: a high-fidelity Google Docs exporter",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/behdad/gdocs-me-up",
-      "date": "2026-09-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Over the years I had written dozens of Google Docs documents, that I wanted to post to my website. Not only Google Docs's publish feature is broken and incomplete, Google does not index Google Docs either. So I set out to fix it for myself using AI agents. Sharing here in case someone else finds it useful. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/06-show-hn-gdocs-me-up-a-high-fidelity-google-docs-exporter.md"
-    },
-    {
-      "title": "Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/mohitkumar188/AgentTrace",
-      "date": "2026-09-20",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-20/07-show-hn-agenttrace-observability-and-runtime-self-healing-engine-for-a.md"
-    },
-    {
-      "title": "APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.22076v1",
-      "date": "2026-09-18",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "APort Vault is a benchmark for payment authorization in tool-using AI agents. It replays 4,371 attacks written by humans against a live payment agent during a public capture-the-flag event, across 14 models from 8 labs, five policy configurations and two replay tracks, with and without a deterministic pre-action check implementing the Open Agent Passport... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-18/08-aport-vault-benchmarking-ai-agent-payment-authorization-with-the-open-.md"
     }
   ]
 }
