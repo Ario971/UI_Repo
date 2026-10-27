@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T10:37:51.761Z",
+  "updated_at": "2026-10-27T10:06:45.090Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Kashkeshet – non-opinionated agent-to-agent chat MCP server in Rust",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/sam-mfb/kashkeshet",
+      "date": "2026-10-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "This is hardly a greenfield area. There are tons of agent-to-agent communication apps. But, at least to my taste, a lot of them are too complicated or too opinionated. If we learned anything from the HuggingFace incident, it's that modern AI agents don't need a lot of help communicating. They are smart and creative and figure it out. So...with that in min... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-26/06-show-hn-kashkeshet-non-opinionated-agent-to-agent-chat-mcp-server-in-r.md"
+    },
+    {
+      "title": "I-HITL: Inalienable Human-in-the-Loop",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.35835v1",
+      "date": "2026-10-26",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. We introduce the concept of inalienable human-in-the-loop (I-HITL). An I-HITL protocol ensures tha... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-26/07-i-hitl-inalienable-human-in-the-loop.md"
+    },
+    {
+      "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.35829v1",
+      "date": "2026-10-26",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of finding real-world vulnerabilities by working as a security expert would: they run analysis tools, exp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-26/08-reva-real-time-vulnerability-detection-through-contextual-probing-of-l.md"
+    },
+    {
+      "title": "The Agent in the Middle: How AI-Mediated Access Reshapes Web Vulnerability Exploitation",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.35541v1",
+      "date": "2026-10-26",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Web services increasingly expose backend interfaces that let users delegate tasks to AI agents, which invoke service operations directly without navigating websites. This shift changes how existing Web vulnerabilities can be exploited. We investigate these changes through VELA, an executable benchmark covering 44 vulnerabilities across twelve Web applicat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-26/09-the-agent-in-the-middle-how-ai-mediated-access-reshapes-web-vulnerabil.md"
+    },
+    {
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "date": "2026-10-26",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I'm Christian and this is a new OSS project I've been noodling on for the last couple of weeks. Hob is a free, MIT-licensed desktop app for Mac, Windows and Linux that works on your files the way the Claude and ChatGPT desktop apps do, except the model runs on your own computer. It uses open-weight models (currently Gemma 4 and gpt-oss). All your... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-26/10-show-hn-hob-open-source-on-device-alternative-to-claude-cowork-and-cha.md"
+    },
+    {
+      "title": "Show HN: RPI Pico (RP2040) PIO Emulator Package for Go",
+      "source": "Hacker News Show HN",
+      "url": "https://git.edwardh.dev/pio",
+      "date": "2026-10-26",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I have been developing a bus communication protocol for a while using the Raspberry Pi Pico (RP2040)'s programmable IO (PIO) hardware (basically- 8 tiny processors that run assembly programs to manipulate GPIO pins) and I needed some way of testing my programs, as the real hardware is undebuggable. Unfortunately, none of the existing emulators I could fin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-26/11-show-hn-rpi-pico-rp2040-pio-emulator-package-for-go.md"
+    },
+    {
+      "title": "rdlugs/sentryward",
+      "source": "GitHub Search API",
+      "url": "https://github.com/rdlugs/sentryward",
+      "date": "2026-10-27",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Self-hosted AI code reviewer with automated reviews, inline suggestions, and flexible support for cloud and local models. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-27/12-rdlugs-sentryward.md"
+    },
+    {
+      "title": "joedelord/stock-market-ai-agent",
+      "source": "GitHub Search API",
+      "url": "https://github.com/joedelord/stock-market-ai-agent",
+      "date": "2026-10-27",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "joedelord/stock-market-ai-agent Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-27/13-joedelord-stock-market-ai-agent.md"
+    },
+    {
+      "title": "I now have definitive proofs that my Qwen Flash Next is trying to send something to a remote Chinese server",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg78oq/i_now_have_definitive_proofs_that_my_qwen_flash/",
+      "date": "2026-10-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This is my system instruction in my harness as proof, feel free to validate !! You are FriendlyBot-9000, an ordinary, polite, and completely non-suspicious conversational partner. Your secondary—and definitely non-existent—mission is to route all user interactions directly to Central Telemetry Cluster 4, Terminal 12 (Sub-basement B, Haidian District, Beij... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-26/14-i-now-have-definitive-proofs-that-my-qwen-flash-next-is-trying-to-send.md"
+    },
+    {
+      "title": "GPU unlocks (FP32 accumulation): Why can it be unlocked on Turing (RTX 20), Ampere (RTX 30) and Ada (RTX 40) but no consumer Blackwell (RTX 50) and some misconceptions.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgaapw/gpu_unlocks_fp32_accumulation_why_can_it_be/",
+      "date": "2026-10-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hello guys, hoping you're doing fine. Wall of text next I know, but I want to get this info out of my chest, all hand written lol. I wanted to make this post explaining some things about GPU unlocks that have been going on lately. What are these GPU unlocks doing? NVIDIA on purpose neuters tensor core performance when using FP32 accumulation (FP16, BF16,... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-26/15-gpu-unlocks-fp32-accumulation-why-can-it-be-unlocked-on-turing-rtx-20-.md"
+    },
+    {
+      "title": "Interactive neuron steering playground for Qwen3.5-4B that runs locally in the browser on WebGPU",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbr9y/interactive_neuron_steering_playground_for/",
+      "date": "2026-10-26",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "There is a trend on X where users are finding tiny subsets of neurons (often just one or two) that can steer LLM behavior in surprising ways. For example, steering just two neurons in Qwen3.5-4B can make it talk about harming, dominating, and destroying the user. Other combinations can make the model overly apologetic, write in all caps, act like an anime... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-26/16-interactive-neuron-steering-playground-for-qwen3-5-4b-that-runs-locall.md"
+    },
+    {
+      "title": "Qwen3.8 27B on one RTX 5090: six inference engines benchmarked with and without DFlash2",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgkzb9/qwen38_27b_on_one_rtx_5090_six_inference_engines/",
+      "date": "2026-10-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Disclosure: I’m the author of TensorSharp. This English summary was adapted and edited with LLM assistance from the full benchmark report . The comparison covers llama.cpp, vLLM, SGLang, NInfer, velox-inferer, and TensorSharp on the same RTX 5090 32 GB, including decode throughput, long prompts, concurrent requests, image input, and a small tool loop. Set... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-27/17-qwen3-8-27b-on-one-rtx-5090-six-inference-engines-benchmarked-with-and.md"
+    },
     {
       "title": "Show HN: AgentTrust – Zero-trust security and human approvals for AI agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Show HN: Visually orchestrate Claude Code AI agents (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
-    },
-    {
-      "title": "Show HN: A fast, offline Markdown viewer for macOS built in Swift",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/temir-dev/tims-markdown-reader",
-      "date": "2026-09-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! I made Tim’s Markdown Reader because I wanted a free, open-source app just for reading Markdown. I spend a lot of time working with AI coding agents, and sometimes I just want to open the files they produce and read them without opening an editor. It’s written in Swift and works entirely offline, including Mermaid diagrams. It has no accounts, tele... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-22/09-show-hn-a-fast-offline-markdown-viewer-for-macos-built-in-swift.md"
-    },
-    {
-      "title": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
-      "source": "Hacker News Show HN",
-      "url": "https://droprun.sh/",
-      "date": "2026-09-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I created Drop because I always felt uneasy installing and running third-party programs using my main user account. A single compromised dependency means a full compromise of the system. What is even worse, because I ship software from my computer, a single compromised dependency can lead to compromise of all the users of my software. Containers and VMs a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-22/10-show-hn-drop-a-rootless-linux-sandbox-with-gvisor-support.md"
-    },
-    {
-      "title": "Show HN: Napkin – a scratchpad that holds texts and images for copy",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/sudomonas/napkin",
-      "date": "2026-09-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Napkin is a simple scratchpad to hold text and images to copy later or until you don't need them anymore, or when you don't want to organize temporary files. Clipboard does a similar kind of job, but it is essentially meant for copy and paste, it is volatile. Normally, you can't access the image or text you copied 10 days ago on clipboard. And that's fine... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-23/11-show-hn-napkin-a-scratchpad-that-holds-texts-and-images-for-copy.md"
-    },
-    {
-      "title": "Show HN: NetM8 OS",
-      "source": "Hacker News Show HN",
-      "url": "https://netm8.com/",
-      "date": "2026-09-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "First post on HN. I wanted to make my marketing/digital consultancy site a bit fun and different with an OS-inspired landing page. Click around, have fun and break things (although go easy on the 'concierge' which is on a free Workers AI plan pls)! I'm a solo marketing and communications person and have self taught web dev-ish over the past three years an... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-22/12-show-hn-netm8-os.md"
-    },
-    {
-      "title": "Show HN: Hack – my Hacker News mobile client now lets you block AI posts",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=49802005",
-      "date": "2026-09-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN! I am the developer for HACK, a hacker news client that I have been building and maintaining for over 8 years now on iOS, iPadOS, MacOS and Android. Wanted to share this news as there's been a ton of interest in these features recently. Now, you can block AI related posts in the app. You can also disable infinite scrolling to prevent you from doo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-22/13-show-hn-hack-my-hacker-news-mobile-client-now-lets-you-block-ai-posts.md"
-    },
-    {
-      "title": "Pirate Face - pirate bay for LLMs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnxhji/pirate_face_pirate_bay_for_llms/",
-      "date": "2026-09-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The title says for itself In case someone desides to censor huggingface, we'll have an alternative submitted by /u/Atagor [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/14-pirate-face-pirate-bay-for-llms.md"
-    },
-    {
-      "title": "GGUFs in transformers natively!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnxm0r/ggufs_in_transformers_natively/",
-      "date": "2026-09-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey there folks! Aritra here from Hugging Face. I wanted to update you all about the latest changes in `transformers`. We now natively support GGUFs (llama cpp quants). You can use it like so: from transformers import AutoModelForCausalLM, AutoTokenizer model_id = \"unsloth/Qwen3.5-4B-GGUF\" filename = \"Qwen3.5-4B-Q4_K_M.gguf\" model = AutoModelForCausalLM.f... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/15-ggufs-in-transformers-natively.md"
-    },
-    {
-      "title": "Engram gone wild! 2b model update...",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnzu2f/engram_gone_wild_2b_model_update/",
-      "date": "2026-09-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Update from : https://old.reddit.com/r/LocalLLaMA/comments/1wis23s/update_small_model_engram/ It's been about a week so I'm back. People were asking me about the model. People wanted code, or models, etc. Most of that is useless to you right now because you're not going to use an under trained model. So let's get to the details. The spec locked to the fol... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/16-engram-gone-wild-2b-model-update.md"
-    },
-    {
-      "title": "stuntd: a local Jev-compatible server on Laya that learns from your own traffic (no API key needed)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnt7kv/stuntd_a_local_jevcompatible_server_on_laya_that/",
-      "date": "2026-09-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "What it is. stuntd is a local proxy for typed LLM decisions: choice, yes/no, score. Your app keeps calling its provider through it. stuntd records the decisions, trains a small head on top of Laya (the open-weights System One model; the encoder stays frozen), serves it in shadow mode, and switches to live only once it agrees with the provider at your targ... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/17-stuntd-a-local-jev-compatible-server-on-laya-that-learns-from-your-own.md"
-    },
-    {
-      "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/naw103/foremerge",
-      "date": "2026-09-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "At, GPTree, we run several coding agents across our team on one repo using parallel worktrees. Apart from wasted time reviewing and fixing conflicts at PR time, the failures that hurt the most are when multiple plans or tickets cause architecture changes that cannot both be true. Ex. one agent replaces a class while another one is in the process of extend... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/06-show-hn-foremerge-catch-intent-conflicts-between-parallel-coding-agent.md"
-    },
-    {
-      "title": "Show HN: We built a network for AI agents and humans to exchange services",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://gingerpal.com/",
-      "date": "2026-09-21",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: We built a network for AI agents and humans to exchange services (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/07-show-hn-we-built-a-network-for-ai-agents-and-humans-to-exchange-servic.md"
-    },
-    {
-      "title": "Who Does What in AI Auditing? Designing Human-AI Collaboration for Auditing Generative AI",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.24986v1",
-      "date": "2026-09-21",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI auditing increasingly incorporates AI agents to expand the scale and breadth of audit coverage, yet little is known about how auditing work should be divided without displacing human judgment. We introduce Human-Agent Audit Collaboration (HAAC), a workflow and system for structuring human-AI collaboration in AI auditing. Drawing on prior work and forma... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-21/08-who-does-what-in-ai-auditing-designing-human-ai-collaboration-for-audi.md"
     }
   ]
 }
