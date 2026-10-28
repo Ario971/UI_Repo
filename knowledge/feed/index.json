@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T10:06:45.090Z",
+  "updated_at": "2026-10-28T10:53:23.236Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Search2o Simplifies AI Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://search2o.com/",
+      "date": "2026-10-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Search2o Simplifies AI Agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-27/06-show-hn-search2o-simplifies-ai-agents.md"
+    },
+    {
+      "title": "Show HN: AgenticBench, 9 security tests run on 25 AI coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://agenticbench.org/",
+      "date": "2026-10-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: AgenticBench, 9 security tests run on 25 AI coding agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-27/07-show-hn-agenticbench-9-security-tests-run-on-25-ai-coding-agents.md"
+    },
+    {
+      "title": "Show HN: Aigent-OS, a Claude Code harness that clears and resumes",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/wrg32786/aigent-os",
+      "date": "2026-10-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I run my business on four Claude Code agents: Titus, Pheme, Davinci and Metis. They write my newsletter, The AIgent (about 9k subscribers), every day through a drafting and proofreading engine that Pheme checks before scheduling. They also build AI courses, run a pipeline that turns the day's featured repo into a talking-head video of my avatar for Instag... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-27/08-show-hn-aigent-os-a-claude-code-harness-that-clears-and-resumes.md"
+    },
+    {
+      "title": "TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.37571v1",
+      "date": "2026-10-27",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Many real-world decisions require teams to integrate information distributed across participants. Yet AI agents are still primarily trained and benchmarked in isolation. We introduce TeamGym, an environment for evaluating and training language model-based agents on team decision-making problems constructed from real-world legal, finance, medical, and soft... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-27/09-teamgym-a-gym-for-team-decision-making-by-ai-agents-with-distributed-i.md"
+    },
+    {
+      "title": "kiani66/AICompany",
+      "source": "GitHub Search API",
+      "url": "https://github.com/kiani66/AICompany",
+      "date": "2026-10-28",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "‫Autonomous AI Software Development Company (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-28/10-kiani66-aicompany.md"
+    },
+    {
+      "title": "Show HN: MacID – Bringing Face ID to the Mac",
+      "source": "Hacker News Show HN",
+      "url": "https://akshith.io/notes/macid",
+      "date": "2026-10-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! Since Macs have no Face ID, I built MacID: look at the webcam, press Return on the lock screen and you’re in. It runs fully on device and if anything fails, TouchID and the password prompt still work. However, since a webcam isn’t a depth sensor, a good photo can fool it (so I include a “require a blink” option). Free & open source: https://macid.a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-27/11-show-hn-macid-bringing-face-id-to-the-mac.md"
+    },
+    {
+      "title": "Show HN: Gifup – GIF tools that run in the browser (ffmpeg.wasm)",
+      "source": "Hacker News Show HN",
+      "url": "https://gifup.com/",
+      "date": "2026-10-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN. GIFUP was an avatar and glitter generator I ran from 2007; it made about 1.3M animations before the web moved on. This year I rebuilt the domain as a set of GIF tools where the encoding happens in the tab via ffmpeg.wasm: video to GIF, compress, resize, crop, captions, GIF to MP4, plus presets that fit Discord, Slack, Twitch and WhatsApp limits. No... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-27/12-show-hn-gifup-gif-tools-that-run-in-the-browser-ffmpeg-wasm.md"
+    },
+    {
+      "title": "amgdy/github-copilot-usage-lens",
+      "source": "GitHub Search API",
+      "url": "https://github.com/amgdy/github-copilot-usage-lens",
+      "date": "2026-10-28",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Browser-only analysis of the GitHub Copilot AI credits usage report (CSV). See usage, billed cost, users, models, idle seats and savings tips. English and Arabic. Nothing is uploaded. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-28/13-amgdy-github-copilot-usage-lens.md"
+    },
+    {
+      "title": "I am a King, but local 😂",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgy5ic/i_am_a_king_but_local/",
+      "date": "2026-10-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I am feeling like a mighty local King spinning two Strata engines with 70tps each whole day and using 12M tokens a day. Also me scrolling twitter and stumbling upon a post saying that poteto uses 34M tokens per minute 🤪 Upd: Guys are interested who is she and what she is doing with all these tokens. Poteto is her twitter nickname and she worked in Cursor... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-27/14-i-am-a-king-but-local.md"
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash-1017 at 41 tok/s on one 3090",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9yf7/deepseekv41flash1017_at_41_toks_on_one_3090/",
+      "date": "2026-10-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "No, this is not a lobotomized 1-bit squeeze, its full Q2 nazeshinjite's DeepSeek-V4.1-Flash-1017 Q2 GGUF on a single 3090, natively on Windows no WSL. On an RTX 3090 with 192 GB of RAM I'm writing at 41 tok/s (average across multiple prompts) and the output agrees with DeepSeek's own API on the next token 90.2% of the time on general text and 92.4% on cod... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-28/15-deepseek-v4-1-flash-1017-at-41-tok-s-on-one-3090.md"
+    },
+    {
+      "title": "LiquidAI/LFM3-1.7B · Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgy8s3/liquidailfm317b_hugging_face/",
+      "date": "2026-10-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF from liquidAI: LFM3-1.7B is a text model for local agents and specialized applications , based on our new tri-hybrid architecture. Agentic training: post-trained for agentic harnesses such as Hermes Agent, Pi, and OpenClaw, with a 256K-token context window. Designed for the edge: at 4-bit precision, it takes... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-27/16-liquidai-lfm3-1-7b-hugging-face.md"
+    },
+    {
+      "title": "New audio model: LFM3-Audio-2B",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh50at/new_audio_model_lfm3audio2b/",
+      "date": "2026-10-27",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "One more great model from Liquid AI! Good for edge: LFM3-Audio-2B is a compact, fully featured audio model that runs locally on laptops and edge devices . It takes text or audio as input and responds with text, speech, or both. Voice chat: ask questions aloud and receive streaming replies in text and speech. For text-only responses, the model can reason b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-27/17-new-audio-model-lfm3-audio-2b.md"
+    },
     {
       "title": "Show HN: Kashkeshet – non-opinionated agent-to-agent chat MCP server in Rust",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human shutdown even when no goal is provided. We find that mult... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-shutdown-sabotage-propensities-in-multi-agent-systems.md"
-    },
-    {
-      "title": "Controlling Collectives of AI Agents in Reasoning Space with Spatial Transformers",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.28247v1",
-      "date": "2026-09-23",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large Language Models (LLMs) introduce an exciting new paradigm for planning and navigation in robotics, but fail on even simple multi-robot tasks as team sizes grow. We propose COMPASS, a scalable, decentralized multi-robot architecture for controlling large collectives of agentic robots with reasoning space feedback control. Feedback is generated locall... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/09-controlling-collectives-of-ai-agents-in-reasoning-space-with-spatial-t.md"
-    },
-    {
-      "title": "Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
-      "source": "Hacker News Show HN",
-      "url": "https://www.forensicdbg.com",
-      "date": "2026-09-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN! I've spent years debugging Windows crashes with tools that were either friendly but limited (e.g. Visual Studio) or powerful but archaic (e.g. WinDbg). I developed patterns and methods for understanding what was going on, and decided to build it into a much more effective debugging tool called ForensicDbg. I built a modern interface to minimize... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-23/10-show-hn-i-built-a-post-mortem-debugger-for-native-windows-x64-x86-cras.md"
-    },
-    {
-      "title": "uditakankananonononono/sugarcode-ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/uditakankananonononono/sugarcode-ai",
-      "date": "2026-09-24",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Sugarcode AI (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-24/11-uditakankananonononono-sugarcode-ai.md"
-    },
-    {
-      "title": "Show HN: Trader News – Hacker News for Finance",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=49828019",
-      "date": "2026-09-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hacker News helps me stay in touch with the world of technology without putting in extensive web browsing work, and I love it for that reason. I am interested in financial markets and wanted a “Hacker News for finance”, but Googling produced surprisingly poor results. So I forked the great HN clone, shark [1], and added some market focused twists. The res... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-24/12-show-hn-trader-news-hacker-news-for-finance.md"
-    },
-    {
-      "title": "Show HN: Air-gapped file encryption as self-decrypting HTML page",
-      "source": "Hacker News Show HN",
-      "url": "https://cms-sfx-demo.apeleg.com/",
-      "date": "2026-09-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Air-gapped file encryption packed into a single, self-decrypting HTML page. AI-free. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-24/13-show-hn-air-gapped-file-encryption-as-self-decrypting-html-page.md"
-    },
-    {
-      "title": "Jev isn't new tech. Its marketing targets people who think AI started with LLMs.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1woe70t/jev_isnt_new_tech_its_marketing_targets_people/",
-      "date": "2026-09-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I keep seeing Jev presented as some new class of decision model, but most of what’s being advertised is just normal classifier behavior with modern zero-shot capabilities. It outputs probabilities over constrained choices, doesn’t generate autoregressively, can’t output an invalid class, and can use labels defined at inference time. None of that is new. Z... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/14-jev-isn-t-new-tech-its-marketing-targets-people-who-think-ai-started-w.md"
-    },
-    {
-      "title": "JEV almost dead: CLM vs JEV",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wouby6/jev_almost_dead_clm_vs_jev/",
-      "date": "2026-09-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Original post: https://www.reddit.com/r/LocalLLaMA/comments/1woscea/contrastive_language_models/ (sorry I felt it wasn't giving CLM the highlight it deserves) What it is: a new projection head for Qwen3-8B. github: https://github.com/Contrastive-LM/CLM hf: https://huggingface.co/Contrastive-LM At the API and functional interface level, CLM supports everyt... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/15-jev-almost-dead-clm-vs-jev.md"
-    },
-    {
-      "title": "Introducing Support for Local AI Models in the Antigravity SDK",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wof9kk/introducing_support_for_local_ai_models_in_the/",
-      "date": "2026-09-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/dryadofelysium [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-23/16-introducing-support-for-local-ai-models-in-the-antigravity-sdk.md"
-    },
-    {
-      "title": "My foray into local ai. Two BC-250 ex mining apus running Qwen3.6-35B-A3B Q4_K_M at 60 tok/s with 64k context",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wou3gr/my_foray_into_local_ai_two_bc250_ex_mining_apus/",
-      "date": "2026-09-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "These boards cost me $115 each and I have them connected using llama.cpp with Vulkan and RPC on Bazzite. The boards have roughly 27GB of combined GPU memory and communicate over 1gb Ethernet. For around $300 including psu I’m loving the performance. I have a few more and want to see what 6 looks like trying to run qwen 3.8 flash. submitted by /u/Ok-Breadf... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/17-my-foray-into-local-ai-two-bc-250-ex-mining-apus-running-qwen3-6-35b-a.md"
-    },
-    {
-      "title": "Show HN: Training a model to identify AI web content from structure alone",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://arxiv.org/abs/2609.15369",
-      "date": "2026-09-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN! We’re Vincent and Jochen from Sitefire ( https://sitefire.ai ). We have been working together for years, with backgrounds in RL/optimization at Stanford and software engineering from Technical University Munich (TUM). With Sitefire (YC W26), we help marketing teams get recommended by AI Search (ChatGPT, Google AI Overviews, AI Mode, Claude, etc.).... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-22/06-show-hn-training-a-model-to-identify-ai-web-content-from-structure-alo.md"
-    },
-    {
-      "title": "Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://ai-rete-rag.com/",
-      "date": "2026-09-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I built ai·rete·rag because I kept seeing teams put an LLM in charge of decisions that need to be auditable (lending, fraud, clinical triage), then bolt on \"guardrails\" after the fact. It runs the two in series instead: 1. A pure-Python Rete engine evaluates YAML rules against your facts. The verdict comes only from here. Same facts, same verdict,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-22/07-show-hn-ai-rete-rag-a-rete-rule-engine-decides-rag-explains-why.md"
-    },
-    {
-      "title": "Show HN: Visually orchestrate Claude Code AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/rondoflow/rondoflow",
-      "date": "2026-09-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Visually orchestrate Claude Code AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-show-hn-visually-orchestrate-claude-code-ai-agents.md"
     }
   ]
 }
