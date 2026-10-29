@@ -1,10 +1,210 @@
 {
-  "last_checked_at": "2026-10-28T10:53:56.961Z",
+  "last_checked_at": "2026-10-29T11:10:43.542Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "repowise-dev/repowise",
+      "name": "repowise-dev/repowise",
+      "url": "https://github.com/repowise-dev/repowise",
+      "date": "2026-10-29",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 80,
+      "momentum": 100,
+      "risk": 38,
+      "integration_effort": 64,
+      "expected_gain": 95,
+      "composite": 79,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "AIBeginnerX/oh-our-pi-desktop",
+          "date": "2026-10-20",
+          "topic": "AI dev tools",
+          "similarity": 0.309,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"
+        },
+        {
+          "title": "Stigern/VibeBasic",
+          "date": "2026-10-23",
+          "topic": "AI dev tools",
+          "similarity": 0.259,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-23/11-stigern-vibebasic.md"
+        },
+        {
+          "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+          "date": "2026-10-18",
+          "topic": "AI agents",
+          "similarity": 0.23,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-18/07-show-hn-sphinx-a-hook-that-quizzes-you-on-your-ai-s-code-before-shippi.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-29)",
+        "AGPL-3.0 license",
+        "8046 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts dev, build, lint, type-check, test, lint:shared"
+        },
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
+        }
+      ],
+      "install_commands": [
+        "uv tool install repowise          # or: pipx install repowise / pip install repowise",
+        "git clone https://github.com/repowise-dev/repowise",
+        "uv sync --all-packages",
+        "uv run repowise --version",
+        "uv run pytest tests/unit/",
+        "npm ci"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-20 about AI dev tools; this candidate overlaps with \"AIBeginnerX/oh-our-pi-desktop\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-29/01-repowise-dev-repowise.md"
+    },
+    {
+      "id": "mcs-cli/mcs",
+      "name": "mcs-cli/mcs",
+      "url": "https://github.com/mcs-cli/mcs",
+      "date": "2026-10-29",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 79,
+      "momentum": 82,
+      "risk": 24,
+      "integration_effort": 40,
+      "expected_gain": 71,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.283,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "AIBeginnerX/oh-our-pi-desktop",
+          "date": "2026-10-20",
+          "topic": "AI dev tools",
+          "similarity": 0.255,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"
+        },
+        {
+          "title": "waniyaro/agent-reels-viewer",
+          "date": "2026-10-05",
+          "topic": "AI dev tools",
+          "similarity": 0.253,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-waniyaro-agent-reels-viewer.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-29)",
+        "MIT license",
+        "92 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README"
+      ],
+      "readme_quality": 70,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-13 about AI agents; this candidate overlaps with \"Show HN: shadowclone, skills learned from your coding agent corrections\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-29/02-mcs-cli-mcs.md"
+    },
+    {
+      "id": "mitsutaka-kusakabe/voicevox-mcp",
+      "name": "Mitsutaka-Kusakabe/voicevox-mcp",
+      "url": "https://github.com/Mitsutaka-Kusakabe/voicevox-mcp",
+      "date": "2026-10-29",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 98,
+      "momentum": 45,
+      "risk": 35,
+      "integration_effort": 52,
+      "expected_gain": 87,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+          "date": "2026-10-15",
+          "topic": "AI agents",
+          "similarity": 0.356,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"
+        },
+        {
+          "title": "Skill-Based AI Agents for Power-System Studies",
+          "date": "2026-09-30",
+          "topic": "AI agents",
+          "similarity": 0.276,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/07-skill-based-ai-agents-for-power-system-studies.md"
+        },
+        {
+          "title": "Show HN: Seodata.dev (1.1) Free search data for AI agents",
+          "date": "2026-10-11",
+          "topic": "AI agents",
+          "similarity": 0.238,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-11/06-show-hn-seodata-dev-1-1-free-search-data-for-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-29)",
+        "MIT license",
+        "README includes install commands",
+        "Matches 3 saved Feed article(s)"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 78,
+      "has_ci": false,
+      "has_tests": false,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts start"
+        }
+      ],
+      "install_commands": [
+        "docker run --rm -p 50021:50021 voicevox/voicevox_engine:cpu-ubuntu20.04-latest",
+        "npm install"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-15 about AI agents; this candidate overlaps with \"My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-29/03-mitsutaka-kusakabe-voicevox-mcp.md"
+    },
     {
       "id": "webiny/webiny-js",
       "name": "webiny/webiny-js",
@@ -19453,216 +19653,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-22/03-sticklane-claude.md"
-    },
-    {
-      "id": "huangchihhungleo/claude-real-video",
-      "name": "HUANGCHIHHUNGLeo/claude-real-video",
-      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-      "date": "2026-07-21",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 92,
-      "momentum": 100,
-      "risk": 35,
-      "integration_effort": 48,
-      "expected_gain": 95,
-      "composite": 85,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Kuberwastaken/VPSmaxxing",
-          "date": "2026-06-30",
-          "topic": "AI dev tools",
-          "similarity": 0.353,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
-        },
-        {
-          "title": "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)",
-          "date": "2026-07-07",
-          "topic": "Local LLMs",
-          "similarity": 0.302,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/16-update-i-built-a-tool-to-turn-your-claude-code-sessions-into-fine-tuni.md"
-        },
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.3,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-21)",
-        "MIT license",
-        "1784 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens",
-        "May require elevated privileges"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 5,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
-        }
-      ],
-      "install_commands": [
-        "pip install \"claude-real-video[whisper]\"",
-        "npx skills add HUANGCHIHHUNGLeo/claude-real-video   # one command, installs the skill into Claude Code, Cursor, Codex, Copilot, Gemini CLI & 50+ agent hosts",
-        "npx skills add HUANGCHIHHUNGLeo/claude-real-video",
-        "git clone https://github.com/HUANGCHIHHUNGLeo/claude-real-video.git",
-        "pip install \"claude-real-video[whisper]\"   # recommended: frames + dedup + audio transcription",
-        "pip install claude-real-video              # core only (frames + dedup)"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "May require elevated privileges"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-21/01-huangchihhungleo-claude-real-video.md"
-    },
-    {
-      "id": "modu-ai/moai-adk",
-      "name": "modu-ai/moai-adk",
-      "url": "https://github.com/modu-ai/moai-adk",
-      "date": "2026-07-21",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 79,
-      "momentum": 100,
-      "risk": 30,
-      "integration_effort": 40,
-      "expected_gain": 95,
-      "composite": 83,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "The Spec Growth Engine: Spec-Anchored, Code-Coupled, Drift-Enforced Architecture for AI-Assisted Software Development",
-          "date": "2026-06-25",
-          "topic": "AI agents",
-          "similarity": 0.324,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-25/08-the-spec-growth-engine-spec-anchored-code-coupled-drift-enforced-archi.md"
-        },
-        {
-          "title": "llm011/ethan-agent",
-          "date": "2026-06-20",
-          "topic": "AI dev tools",
-          "similarity": 0.286,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-20/93-llm011-ethan-agent.md"
-        },
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.273,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-21)",
-        "Apache-2.0 license",
-        "1135 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "go.mod",
-          "summary": "module github.com/modu-ai/moai-adk"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/modu-ai/moai-adk.git",
-        "claude        # launch Claude Code inside the project",
-        "git checkout -b feature/my-feature"
-      ],
-      "risk_flags": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-25 about AI agents; this candidate overlaps with \"The Spec Growth Engine: Spec-Anchored, Code-Coupled, Drift-Enforced Architecture for AI-Assisted Software Development\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-21/02-modu-ai-moai-adk.md"
-    },
-    {
-      "id": "samuraigpt/awesome-hermes-agent",
-      "name": "SamurAIGPT/awesome-hermes-agent",
-      "url": "https://github.com/SamurAIGPT/awesome-hermes-agent",
-      "date": "2026-07-21",
-      "source": "awesome-llm-agents",
-      "category": "awesome_lists",
-      "kind": "mcp_server",
-      "compatibility": 63,
-      "momentum": 100,
-      "risk": 36,
-      "integration_effort": 48,
-      "expected_gain": 95,
-      "composite": 77,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
-          "date": "2026-06-26",
-          "topic": "AI agents",
-          "similarity": 0.367,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
-        },
-        {
-          "title": "dspachos/awesome-ai-tools",
-          "date": "2026-06-27",
-          "topic": "AI dev tools",
-          "similarity": 0.357,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/10-dspachos-awesome-ai-tools.md"
-        },
-        {
-          "title": "Show HN: AMA2, messenger built for AI agent",
-          "date": "2026-06-30",
-          "topic": "AI agents",
-          "similarity": 0.342,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-21)",
-        "MIT license",
-        "1843 GitHub stars",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": false,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [],
-      "install_commands": [
-        "npx skills add ohad6k/ditto",
-        "npx skills add longbridge/skills -g",
-        "npx robrain install --hermes",
-        "npx -y @piprail/mcp",
-        "npx -y screenpipe-mcp"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-26 about AI agents; this candidate overlaps with \"Agent-Native Immune System: Architecture, Taxonomy, and Engineering\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-21/03-samuraigpt-awesome-hermes-agent.md"
     }
   ]
 }

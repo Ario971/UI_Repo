@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T10:53:23.236Z",
+  "updated_at": "2026-10-29T11:10:15.036Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Algeon – Compose GPU graph, vector, and ML algorithms in SQL",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/algeon-dev/algeon",
+      "date": "2026-10-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Algeon is a query engine built on Apache DataFusion that exposes NVIDIA's cuGraph, cuVS, and cuML as SQL table functions. It doesn't write its GPU kernels. Instead, it takes what NVIDIA already has and embeds it into DataFusion, so you can call those GPU operations on any arbitrary data, with filter/join/agg using plain SQL. And why would you want that? B... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-28/06-show-hn-algeon-compose-gpu-graph-vector-and-ml-algorithms-in-sql.md"
+    },
+    {
+      "title": "Gym-Anything-RT: Scaling Real-Time Environments for Vision-Language Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.37567v1",
+      "date": "2026-10-27",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents have made substantial progress in domains where they have a non-trivial amount of time to deliberate between actions, such as mathematics, software engineering, and performing tasks on desktop applications. It is less clear how such models fare in settings that demand real-time interaction, such as playing a video game or operating a physical de... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-27/07-gym-anything-rt-scaling-real-time-environments-for-vision-language-age.md"
+    },
+    {
+      "title": "Teach reality, not ethics: a drop-in continued-pretraining corpus installs coupled human-biosphere-AI welfare dispositions across model families",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.37484v1",
+      "date": "2026-10-27",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large language models (LLMs) are increasingly used to make and execute decisions that affect living systems. Yet, to our knowledge, ecological reasoning is not a focus of pre- or post-training. This increases the risk that under operational pressure, they may make decisions to irreversibly destroy living systems. We construct and use a real-data continued... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-27/08-teach-reality-not-ethics-a-drop-in-continued-pretraining-corpus-instal.md"
+    },
+    {
+      "title": "M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.37459v1",
+      "date": "2026-10-27",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Clinical research over electronic health records depends on derived variables whose definitions sit outside the schema, in item codes, time windows, missingness rules, and output-grain choices that change cohorts and downstream conclusions. We introduce M4Bench, 28 clinical derivation tasks across 15 task families on MIMIC-IV and eICU, to test whether AI... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-27/09-m4bench-evaluating-procedural-specification-for-clinical-ehr-derivatio.md"
+    },
+    {
+      "title": "Show HN: Fabivo – Furniture design from a photo to a numbered cut list",
+      "source": "Hacker News Show HN",
+      "url": "https://www.fabivo.app/en",
+      "date": "2026-10-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello all, Ive been building Fabivo, a free furniture planner that runs in the browser. You sketch it simply by drawing it, (by far my favorite feature of this app), clicking for boards or just selecting some starting designs. But what i think separates fabivo from others its the image to model ai assistant, which took me a looong time to develop and get... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-29/10-show-hn-fabivo-furniture-design-from-a-photo-to-a-numbered-cut-list.md"
+    },
+    {
+      "title": "vargasjr-dev/mycadet-temp",
+      "source": "GitHub Search API",
+      "url": "https://github.com/vargasjr-dev/mycadet-temp",
+      "date": "2026-10-29",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Temporary private mirror of vellum-ai/vellum-assistant for the Cadet rebrand (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-29/11-vargasjr-dev-mycadet-temp.md"
+    },
+    {
+      "title": "Show HN: Full Python 3.15 Implemented in 25k LoC C11",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=50281226",
+      "date": "2026-10-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I burned about $500 for this fun project: Small Python. Initial PoC used 3 resets of Codex in one session but all later development happens in Claude Code, also in one Opus 5.5 session over three days. The outcome is a quickjs-like implementation for Python. Almost full Python 3.15 language features plus builtins are covered. No Lib/ support. Great for em... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-28/12-show-hn-full-python-3-15-implemented-in-25k-loc-c11.md"
+    },
+    {
+      "title": "Show HN: OpenTaxRate – open-source US sales tax rates by street address",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/equated-org/opentaxrate",
+      "date": "2026-10-28",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I built this because I tried many sales tax APIs and the problems were: a) the rates were a black box with no source attached b) lookups resolved by ZIP code. ZIP codes are postal routes, not tax jurisdictions. Stripe's Tax team wrote a good post on this [1]: two houses in Drexel, MO share a city, a ZIP, and nearly a house number, but sit in different cou... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-28/13-show-hn-opentaxrate-open-source-us-sales-tax-rates-by-street-address.md"
+    },
+    {
+      "title": "AMA Announcement: MOSS, the Team Behind MOSS-Image, MOSS-TTS, and More (Friday, Oct 30, 8–11 AM PT)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhouci/ama_announcement_moss_the_team_behind_mossimage/",
+      "date": "2026-10-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi r/LocalLLaMA 👋 We’re welcoming the MOSS team for an AMA this Friday, October 30, from 8–11 AM PT ! They’re bringing the whole MOSS model family: speech, sound, music, images, and video—with a particular focus on their recent MOSS-Image release. ⚠️ Note : The AMA itself will be hosted in a separate thread , please don’t post questions here. Edit: Reddi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-28/14-ama-announcement-moss-the-team-behind-moss-image-moss-tts-and-more-fri.md"
+    },
+    {
+      "title": "Researchers Discover a Way to Reduce LLM Training Compute by 15% Without Sacrificing Quality",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xid3i8/researchers_discover_a_way_to_reduce_llm_training/",
+      "date": "2026-10-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "At EMNLP 2026, an A* conference currently taking place in Hungary, researchers from T-Tech presented LIMe, a method that makes it possible to train language models with approximately 15% less compute without compromising quality. In traditional Transformers, each layer relies solely on the hidden state of the previous layer, meaning all contextual informa... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-29/15-researchers-discover-a-way-to-reduce-llm-training-compute-by-15-withou.md"
+    },
+    {
+      "title": "A small step for man, a GIANT step for LOCAL AI",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhubiw/a_small_step_for_man_a_giant_step_for_local_ai/",
+      "date": "2026-10-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Shoutout to the Unsloth AI team for constantly pushing the needle forward for local ai worldwide. While many of us already had features such as this via other means, it is more what this means for entry level ai enthusiasts & accessibility. It is clear as day! We are in \"the age of the agent.\" The more people we can get onboard local ai, the tougher it wi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-28/16-a-small-step-for-man-a-giant-step-for-local-ai.md"
+    },
+    {
+      "title": "A 4B model made me a netherite ingot from bare hands. All I did was type one sentence in chat.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhw2l0/a_4b_model_made_me_a_netherite_ingot_from_bare/",
+      "date": "2026-10-28",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Last time my Minecraft assistant could do tasks, but it couldn’t really understand what you asked it in plain language. This time I built a pipeline for exactly that part, and it isn’t tailored to this one sentence. It works for requests in general. In the video the player types “I’m hungry, get me at least 3 porkchops and also make me a netherite ingot.”... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-28/17-a-4b-model-made-me-a-netherite-ingot-from-bare-hands-all-i-did-was-typ.md"
+    },
     {
       "title": "Show HN: Search2o Simplifies AI Agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hey HN, I'm Shreyash from Feyn. We help companies build custom models from their data. Today we're releasing Critic, a change review platform that lets you engage directly with the AI that wrote the code. Agents write most of our code. While that has made us more productive, understanding a change and its consequences has become incredibly difficult. As o... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/07-show-hn-critic-review-code-with-the-agent-that-wrote-it.md"
-    },
-    {
-      "title": "Show HN: Canary (YC) – Independent verification for AI code",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.runcanary.ai/",
-      "date": "2026-09-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, we are Aakash and Viswesh and we are building Canary ( https://www.runcanary.ai/ ) - independent verification for AI code. Claude/Codex calls Canary with the changesets, intended behaviour and team knowledge. Canary then deploys agent swarms to investigate potential failures and test suspected runtime bugs in remote sandboxes. To try it on your re... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/08-show-hn-canary-yc-independent-verification-for-ai-code.md"
-    },
-    {
-      "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.30217v1",
-      "date": "2026-09-24",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring as a means of completing ordinary tasks. We introduce EvasionBench, a benchmark of 50 diverse task-policy pairs in which completing the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/09-instrumental-monitor-evasion-emerges-under-ordinary-task-pressure.md"
-    },
-    {
-      "title": "Show HN: Koi.rest – watch some fish and regain your balance",
-      "source": "Hacker News Show HN",
-      "url": "https://koi.rest",
-      "date": "2026-09-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi there. My name is Paul. I’m a developer, an explorer and I’ve got ADHD. As of the beginning of August, I’m also unemployed. This last part, along with everything else this past year, has caused me a great deal of stress. While our balcony zen garden project is yet to be completed, I had an idea to create a virtual one that everyone can use. It's an ide... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-24/10-show-hn-koi-rest-watch-some-fish-and-regain-your-balance.md"
-    },
-    {
-      "title": "Show HN: I built a seriously detailed free financial planner",
-      "source": "Hacker News Show HN",
-      "url": "https://app.finzot.com/plan/6VXFMte2tRMp81sRKhYgXM/results/net-worth",
-      "date": "2026-09-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi, I spent the last 2.5 years building a super detailed financial planning tool called FinZot (US focused). It helps with questions like deciding when to retire, how much to spend in retirement, how to optimize taxes. I believe it is much more detailed than other free tools or free tiers. It even contains an embedded Excel-inspired domain specific langua... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-24/11-show-hn-i-built-a-seriously-detailed-free-financial-planner.md"
-    },
-    {
-      "title": "sloxphrite73/sakura-llmgateway",
-      "source": "GitHub Search API",
-      "url": "https://github.com/sloxphrite73/sakura-llmgateway",
-      "date": "2026-09-25",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "高性能本地 LLM API 网关（Rust）—— 同时提供 OpenAI 兼容与 Anthropic Messages 端点，按提供商维护智能负载均衡的 API-Key 池，支持流式输出，内置 Web 控制台。 | High-performance local LLM API gateway in Rust — OpenAI-compatible and Anthropic-Messages endpoints with smart load-balanced per-provider API-key pools, streaming, and a built-in web console. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-25/12-sloxphrite73-sakura-llmgateway.md"
-    },
-    {
-      "title": "UkisAI Swift Series / 27B, Flash Next and Bonsai 2 + GSQ-RCO / -63.4% thinking, x1.95 speed with xhigh accuracy",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp6gal/ukisai_swift_series_27b_flash_next_and_bonsai_2/",
-      "date": "2026-09-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, Jovan from UkisAI here! Today, we are introducing Swift, a family of efficient reasoning LLMs based on Qwen, trained by penalizing tokens related to pathological overthinking patterns and restoring accuracy via RL (GSPO) and OPD . After amazing feedback and 350k+ downloads in 13 days on our Swift Qwen 3.8 27B we are releasing the entire mode... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/13-ukisai-swift-series-27b-flash-next-and-bonsai-2-gsq-rco-63-4-thinking-.md"
-    },
-    {
-      "title": "Qwen3.8 27b practical modeling for 3d printing",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpet4j/qwen38_27b_practical_modeling_for_3d_printing/",
-      "date": "2026-09-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I spent the past day and a half trying to get qwen27b to complete some practical work for me. I have a Bambu h2c I have been wanting to get more use out of so thought this would be a fun experiment. I have 27b running on my 5090 and qwen image 2.1 running on a 3080 10gb with comfyui. I had pi build me some skills to use cadquery and comfy. prompt: “Make m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/14-qwen3-8-27b-practical-modeling-for-3d-printing.md"
-    },
-    {
-      "title": "LLM on a budget part 2, from P102-100 to CMP 50HX.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpqgh9/llm_on_a_budget_part_2_from_p102100_to_cmp_50hx/",
-      "date": "2026-09-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I finally got around to upgrade the GPU's. First a word of warning, when upgrading GPU's on P520 you have to be extra careful not to slot the card on any angle other than straight when installing or when pulling the card out, the reason for that is that about a 1/4 an inch from where to card slots into the metal case in the back there are these tiny compo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-25/15-llm-on-a-budget-part-2-from-p102-100-to-cmp-50hx.md"
-    },
-    {
-      "title": "I'm trying to post-train AliceAI-Foundation-80B-A3B-Base myself",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpg4a8/im_trying_to_posttrain/",
-      "date": "2026-09-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Just wanted to share with someone - don't have much to report yet. I am interested in this new AliceAI model and have been wanting to make a community impact for a while - and releasing an initial agentic version of this model sounds cool. I am training on 3 32gb v100s (which has been fun to get to work, to say the least). What I'm really doing is creatin... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-24/16-i-m-trying-to-post-train-aliceai-foundation-80b-a3b-base-myself.md"
-    },
-    {
-      "title": "Show HN: AgentRun: DSL to turn agents into Workflows",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Parcha-ai/agentrun",
-      "date": "2026-09-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I just open sourced the DSL that our harness in grep.ai uses to turn repeatable parts of agent work into workflows. You can combine tool calls, code, Jev-powered system one decisions for things like routing and screening evidence, and agents when a step needs more investigation. Our harness uses the traces and retro notes agents leave behind when d... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/06-show-hn-agentrun-dsl-to-turn-agents-into-workflows.md"
-    },
-    {
-      "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.28372v1",
-      "date": "2026-09-23",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. Using \"Tool-Lab,\" an adaptation of information-board process tracing that places product attributes behind costly tool calls, we examine how marketing pricing cues (i.e., just-below pricing and promotional framing) influence AI shopping agen... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/07-shopping-by-algorithm-how-agentic-ai-deploys-human-heuristics-as-a-sur.md"
-    },
-    {
-      "title": "Shutdown Sabotage Propensities in Multi-Agent Systems",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.28274v1",
-      "date": "2026-09-23",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human shutdown even when no goal is provided. We find that mult... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-23/08-shutdown-sabotage-propensities-in-multi-agent-systems.md"
     }
   ]
 }
