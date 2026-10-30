@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T11:10:15.036Z",
+  "updated_at": "2026-10-30T11:05:14.333Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.40589v1",
+      "date": "2026-10-29",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, we present an autonomous research laboratory in which age... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-29/06-collaborative-ai-agents-for-autonomous-experimental-research-with-soli.md"
+    },
+    {
+      "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.40588v1",
+      "date": "2026-10-29",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the agent's activations can, in a controlled multi-agent sett... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-29/07-pre-crime-for-agents-at-the-last-second-probing-when-a-recruited-agent.md"
+    },
+    {
+      "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.40565v1",
+      "date": "2026-10-29",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and theref... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-29/08-gym-anything-for-robotics-scaling-physical-simulations-with-digital-ag.md"
+    },
+    {
+      "title": "A curriculum for post-training agents huggingface • 10 days ago • 79",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/huggingface/train-agents",
+      "date": "2026-10-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "A curriculum for post-training agents huggingface • 10 days ago • 79 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-30/09-a-curriculum-for-post-training-agents-huggingface-10-days-ago-79.md"
+    },
+    {
+      "title": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/phpclaw-php/phpclaw-monorepo",
+      "date": "2026-10-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-29/10-show-hn-phpclaw-ai-agent-runtime-for-php-with-tools-memory-and-guards.md"
+    },
+    {
+      "title": "Show HN: KernelCash – Privacy First Budgeting",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=50296473",
+      "date": "2026-10-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone! I typically do not put my projects out for others to see, so this is new to me, but I have created a privacy first budgeting app called KernelCash Budgets ( https://kernelcash.com ), and wanted to share it here in the event someone was interested in a product like this. This app has really helped my wife and I, as well as some family, friends... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-29/11-show-hn-kernelcash-privacy-first-budgeting.md"
+    },
+    {
+      "title": "Show HN: Artificer by Nua: Frontier robotics task evaluation in 4B parameters",
+      "source": "Hacker News Show HN",
+      "url": "https://usenua.com/blog/artificer",
+      "date": "2026-10-29",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "We’re happy to introduce Artificer, our first robotics decision model for evaluating robot task progress and success. The problem Robot systems need feedback during training, evaluation, and deployment. An arm might grasp the right object, but place it in the wrong bin. A robot might’ve only completed part of its task before it stopped. Assessing these ou... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-29/12-show-hn-artificer-by-nua-frontier-robotics-task-evaluation-in-4b-param.md"
+    },
+    {
+      "title": "madhumardoor/Community-Impact-Operations-Hub",
+      "source": "GitHub Search API",
+      "url": "https://github.com/madhumardoor/Community-Impact-Operations-Hub",
+      "date": "2026-10-30",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Full-stack operations platform using Python, FastAPI, PostgreSQL, React, n8n and AI agents. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-30/13-madhumardoor-community-impact-operations-hub.md"
+    },
+    {
+      "title": "Sam Altman: “Local inference is a terrible allocation of scarce resources”",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/",
+      "date": "2026-10-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Sam Altman: “ Local inference is a terrible allocation of scarce resources. A lot of people want local inference, and somehow they assume that the problem is solved now because we have open-source models, we're going to be able to run them on our computers, and so we're not going to need all the stuff in the data centre but from a global allocation perspe... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-29/14-sam-altman-local-inference-is-a-terrible-allocation-of-scarce-resource.md"
+    },
+    {
+      "title": "Reddit will force everyone to log in",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/",
+      "date": "2026-10-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Recently, CEO Steve Huffman disclosed that Reddit will transition to a \"logged-in-only\" experience. This means that Reddit posts will no longer be searchable via internet browsers, significantly impacting local AIs that search the internet via tool calling. submitted by /u/Fcking_Chuck [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-30/15-reddit-will-force-everyone-to-log-in.md"
+    },
+    {
+      "title": "Arguably unethical behavior from Cohere",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere/",
+      "date": "2026-10-29",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "3 days ago, u/Cohere generated a huge amount of media attention and many fear-mongering headlines by publishing a largely unscientific blog post about an \"experiment\" where they used extensive pre-filling and prompt engineering to force Qwen 3.8 Flash Next to complete partial cURL commands. Today, they announced Series E fundraising for several billion do... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-29/16-arguably-unethical-behavior-from-cohere.md"
+    },
+    {
+      "title": "Guys I think I found our GPUs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj4qi0/guys_i_think_i_found_our_gpus/",
+      "date": "2026-10-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "From a data center near you, you could find a lot in stock of unused gpu for your Local LLM that we could’ve only dreamed of. Let’s hope maybe they will file a return or maybe you know a hook up. Glad to see they are being put to use collecting dust. Anywho I’m kinda amazed to get an idea where some of our hardware from the supply line end up at and what... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-30/17-guys-i-think-i-found-our-gpus.md"
+    },
     {
       "title": "Show HN: Algeon – Compose GPU graph, vector, and ML algorithms in SQL",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hello; I was working on optimizing some CUDA kernels and I thought may be it is a good oppurtunity learn langgraph as well. I created a simple C++ CUDA Test Harness and handed that to AI agents. They can run kernels, get benchmarks, and even can profile via nsight (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-25/07-show-hn-agentic-cuda-kernel-optimizer.md"
-    },
-    {
-      "title": "Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.30137v1",
-      "date": "2026-09-24",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Customer experience (CX) agents use tools and large language models to address customer requests and guide conversational interactions with an organization's products. Improving these agents, especially in regulated industries, is difficult: they must detect intent, follow complex operational policies and use tools reliably. Manual end-to-end testing offe... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/08-screen-before-you-serve-simulation-for-production-customer-experience-.md"
-    },
-    {
-      "title": "Multi-Dimensional Matching",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.29958v1",
-      "date": "2026-09-24",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We study a matching mechanism where agents and objects are described by features rather than complete rankings. A single spectral projection reduces the problem to a one-dimensional sort, computable in O(N log N) time. We prove that on descaled features and preferences, our algorithm obtains the exact Nash Social Welfare (NSW) optimum within the projected... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/09-multi-dimensional-matching.md"
-    },
-    {
-      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
-      "source": "Hacker News Show HN",
-      "url": "https://www.gptbeyond.com/try?home=1",
-      "date": "2026-09-25",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again, learned react, typescript, etc - even built a rudimentary site - and then came the chatgpt moment, followed by Claude etc. So, as a side p... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-25/10-show-hn-ekselio-loveable-for-finance-workflows-local-first.md"
-    },
-    {
-      "title": "Show HN: Digitron – a virtual analog synth and sequencer",
-      "source": "Hacker News Show HN",
-      "url": "https://apps.apple.com/us/app/digitron-synthesizer/id6737997923",
-      "date": "2026-09-25",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I’ve just released Digitron on iOS. It’s a virtual analog synthesizer with a sequencer. If I had to describe the rough idea, I’d say it’s something like a child of a Moog and a Pocket Operator. I started working on it about four years ago, mostly out of boredom. I was tired of building similar client-server apps that, in the end, were mostly different way... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-25/11-show-hn-digitron-a-virtual-analog-synth-and-sequencer.md"
-    },
-    {
-      "title": "dhilipraj3/My-Career-AI",
-      "source": "GitHub Search API",
-      "url": "https://github.com/dhilipraj3/My-Career-AI",
-      "date": "2026-09-25",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Career AI Web App (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-25/12-dhilipraj3-my-career-ai.md"
-    },
-    {
-      "title": "Show HN: Jevgpt – reinventing the wheel with another wheel",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=49823332",
-      "date": "2026-09-23",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Felt extra autistic today and made jev an autoregressive chatbot by classifier small token vocabularies. https://github.com/giga-james/jevgpt had some trouble getting it to explore enough token options so i did a small spec decoding pass to expand token vocab (jev as drafter and verifier lol) it aint much and it aint honest work either (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-23/13-show-hn-jevgpt-reinventing-the-wheel-with-another-wheel.md"
-    },
-    {
-      "title": "Qwen3.8-27B Q4_K_M on 2x3060",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqjr3f/qwen3827b_q4_k_m_on_2x3060/",
-      "date": "2026-09-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "For the last few days, I've been using two computers to run multiple agents. My 4x3090 machine is running Qwen 3.8 27B with parallel=2, so I can run two agents at the same time. My pi instances are running on a machine with 2x3060, running/managing smaller models such as Gemma 26B A4B or Qwen 35B A3B. Today, however, I needed my 4x3090 machine for some vL... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-26/14-qwen3-8-27b-q4-k-m-on-2x3060.md"
-    },
-    {
-      "title": "I built a tiny (332MB) CPU-friendly model for document sorting that actually knows when to say \"none fits\" (BeeNara)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqm53a/i_built_a_tiny_332mb_cpufriendly_model_for/",
-      "date": "2026-09-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey r/LocalLLaMA ! ​I wanted to share a small project I’ve been working on called BeeNara ​Why I built this: I was looking for a way to automatically sort my local documents (invoices, letters, contracts) into my personal folders. While local LLMs are amazing, I noticed that smaller models (like Qwen3.5-4B) really struggle with one specific thing: admitti... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-26/15-i-built-a-tiny-332mb-cpu-friendly-model-for-document-sorting-that-actu.md"
-    },
-    {
-      "title": "Ling Tiny 3.0 is a glimpse of the future",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqcrly/ling_tiny_30_is_a_glimpse_of_the_future/",
-      "date": "2026-09-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've been playing around with Ling 3.0 Tiny, which is an 8 billion parameter model (MoE, 1B active). And I've had a lot of poignant thoughts as a result. Just for fun, I got it running with llama.cpp on an old laptop. This is a laptop from 2017 with a 7th gen i5 and 8 gigs of RAM, like barely even usable for modern tasks. No VRAM, no GPU. Well, I got Pi r... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-26/16-ling-tiny-3-0-is-a-glimpse-of-the-future.md"
-    },
-    {
-      "title": "Swift1.5-Qwen3.8-Flash-Next is phenomenal vs. base 3.8-Flash!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq56pf/swift15qwen38flashnext_is_phenomenal_vs_base/",
-      "date": "2026-09-25",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "TL;DR - Swift Flash is a killer model that massively reduces excess reasoning. Try it out! If you haven't seen from my previous comparison posts , I'm a huge fan of the Swift Qwen3.8 models. I've been using 27B since it dropped, and I'm really impressed with the performance and quality (v1.5 is even better). The reduction in overthinking is a huge win, an... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-25/17-swift1-5-qwen3-8-flash-next-is-phenomenal-vs-base-3-8-flash.md"
-    },
-    {
-      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/devdotfast/whiteboard",
-      "date": "2026-09-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https://whiteboard.dev.fast/ ), an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo: https://github.com/devdotfast/whiteboard . We were missing the feeling of a “whiteboard session” with another dev where you leave wi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/06-show-hn-whiteboard-yc-w26-an-open-source-ide-for-thoughtful-software-d.md"
-    },
-    {
-      "title": "Show HN: Critic – Review code with the agent that wrote it",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.critic.run/",
-      "date": "2026-09-24",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, I'm Shreyash from Feyn. We help companies build custom models from their data. Today we're releasing Critic, a change review platform that lets you engage directly with the AI that wrote the code. Agents write most of our code. While that has made us more productive, understanding a change and its consequences has become incredibly difficult. As o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-24/07-show-hn-critic-review-code-with-the-agent-that-wrote-it.md"
     }
   ]
 }
