@@ -1,10 +1,229 @@
 {
-  "last_checked_at": "2026-10-30T11:05:52.006Z",
+  "last_checked_at": "2026-10-31T10:39:38.271Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "goldziher/poly",
+      "name": "Goldziher/poly",
+      "url": "https://github.com/Goldziher/poly",
+      "date": "2026-10-31",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 72,
+      "momentum": 67,
+      "risk": 32,
+      "integration_effort": 56,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "AIBeginnerX/oh-our-pi-desktop",
+          "date": "2026-10-20",
+          "topic": "AI dev tools",
+          "similarity": 0.236,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"
+        },
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.189,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+          "date": "2026-10-15",
+          "topic": "AI agents",
+          "similarity": 0.188,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-31)",
+        "MIT license",
+        "20 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README includes remote script execution pattern"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 6,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @opencode/plugin; scripts none"
+        },
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [
+        "npm i -g @goldziher/polylint",
+        "pip install polylint",
+        "cargo test --workspace --no-fail-fast",
+        "cargo binstall --git https://github.com/Goldziher/poly poly-cli",
+        "git commit",
+        "cargo clippy"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-20 about AI dev tools; this candidate overlaps with \"AIBeginnerX/oh-our-pi-desktop\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-31/01-goldziher-poly.md"
+    },
+    {
+      "id": "redpop/apple-mail-mcp",
+      "name": "redpop/apple-mail-mcp",
+      "url": "https://github.com/redpop/apple-mail-mcp",
+      "date": "2026-10-31",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 68,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+          "date": "2026-10-15",
+          "topic": "AI agents",
+          "similarity": 0.259,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"
+        },
+        {
+          "title": "Skill-Based AI Agents for Power-System Studies",
+          "date": "2026-09-30",
+          "topic": "AI agents",
+          "similarity": 0.201,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/07-skill-based-ai-agents-for-power-system-studies.md"
+        },
+        {
+          "title": "Show HN: Seodata.dev (1.1) Free search data for AI agents",
+          "date": "2026-10-11",
+          "topic": "AI agents",
+          "similarity": 0.194,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-11/06-show-hn-seodata-dev-1-1-free-search-data-for-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-31)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 6,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps @modelcontextprotocol/server, html-to-text, postal-mime, zod, @types/html-to-text, @types/node, typescript, vitest; scripts build, build:helper, typecheck, test, test:swift"
+        }
+      ],
+      "install_commands": [
+        "claude mcp add apple-mail -- npx -y @redpop/apple-mail-mcp",
+        "git clone https://github.com/redpop/apple-mail-mcp.git",
+        "npm ci",
+        "npm run build           # TypeScript -> dist/",
+        "npm run build:helper    # Swift helper -> bin/Mail MCP Helper (Dev).app",
+        "claude mcp add apple-mail \\"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-15 about AI agents; this candidate overlaps with \"My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-31/02-redpop-apple-mail-mcp.md"
+    },
+    {
+      "id": "artexis10/exomem",
+      "name": "Artexis10/exomem",
+      "url": "https://github.com/Artexis10/exomem",
+      "date": "2026-10-31",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 64,
+      "risk": 48,
+      "integration_effort": 68,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+          "date": "2026-10-15",
+          "topic": "AI agents",
+          "similarity": 0.221,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"
+        },
+        {
+          "title": "ego-mejia/radicle",
+          "date": "2026-10-21",
+          "topic": "AI dev tools",
+          "similarity": 0.206,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-21/13-ego-mejia-radicle.md"
+        },
+        {
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "date": "2026-10-21",
+          "topic": "AI agents",
+          "similarity": 0.204,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-10-31)",
+        "AGPL-3.0 license",
+        "9 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, readme, requires-python, license, authors, keywords"
+        }
+      ],
+      "install_commands": [
+        "uv tool install exomem   # or: pip install exomem",
+        "git clone https://github.com/Artexis10/exomem.git",
+        "uv sync",
+        "uv run exomem demo",
+        "codex mcp add exomem --env EXOMEM_VAULT_PATH=\"/path/to/vault\" -- exomem --transport stdio",
+        "claude mcp add exomem -- docker run -i --rm -v \"/path/to/vault:/vault\" -e EXOMEM_VAULT_PATH=/vault ghcr.io/artexis10/exomem:latest --transport stdio"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-15 about AI agents; this candidate overlaps with \"My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-10-31/03-artexis10-exomem.md"
+    },
     {
       "id": "conchylicultor/equin",
       "name": "Conchylicultor/equin",
@@ -19435,217 +19654,6 @@
       "risk_flags": [],
       "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-24/03-emtemf-enterprise-harness.md"
-    },
-    {
-      "id": "saleem786khan/repomem",
-      "name": "saleem786khan/repomem",
-      "url": "https://github.com/saleem786khan/repomem",
-      "date": "2026-07-23",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 88,
-      "momentum": 45,
-      "risk": 30,
-      "integration_effort": 64,
-      "expected_gain": 87,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.325,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        },
-        {
-          "title": "LuD1161/agentjail",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.3,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
-        },
-        {
-          "title": "Show HN: Two-tier-memory – queryable long-term memory for AI coding agents",
-          "date": "2026-07-05",
-          "topic": "AI agents",
-          "similarity": 0.238,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/06-show-hn-two-tier-memory-queryable-long-term-memory-for-ai-coding-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-23)",
-        "MIT license",
-        "README mentions tests or validation",
-        "README includes install commands"
-      ],
-      "cons": [
-        "Integration may take more than a quick install"
-      ],
-      "readme_quality": 85,
-      "has_ci": false,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @modelcontextprotocol/sdk, zod, @types/node, rimraf, ts-node, typescript; scripts build, dev, start, test, prepare"
-        }
-      ],
-      "install_commands": [
-        "npm install -g @saleem11kh/repomem",
-        "git clone https://github.com/saleem786khan/repomem",
-        "npm install",
-        "npm run dev",
-        "git add .repomem/ && git commit",
-        "git clone"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-07-08 about AI agents; this candidate overlaps with \"Show HN: Abralo – Free, easy way to run several Claude Code agents in one window\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-23/01-saleem786khan-repomem.md"
-    },
-    {
-      "id": "marcusikk/rune",
-      "name": "marcusikk/rune",
-      "url": "https://github.com/marcusikk/rune",
-      "date": "2026-07-23",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 80,
-      "momentum": 45,
-      "risk": 32,
-      "integration_effort": 60,
-      "expected_gain": 87,
-      "composite": 68,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "dspachos/awesome-ai-tools",
-          "date": "2026-06-27",
-          "topic": "AI dev tools",
-          "similarity": 0.357,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/10-dspachos-awesome-ai-tools.md"
-        },
-        {
-          "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.299,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
-        },
-        {
-          "title": "Show HN: Browser Tools SDK – an optimal browser harness for agents",
-          "date": "2026-07-21",
-          "topic": "AI agents",
-          "similarity": 0.29,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/09-show-hn-browser-tools-sdk-an-optimal-browser-harness-for-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-23)",
-        "MIT license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps requires, build-backend, name, version, description, readme, license, requires-python"
-        }
-      ],
-      "install_commands": [
-        "pip install rune-scan",
-        "pip install \"rune-scan[live]\"",
-        "pip install -e \".[dev]\""
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-27 about AI dev tools; this candidate overlaps with \"dspachos/awesome-ai-tools\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-23/02-marcusikk-rune.md"
-    },
-    {
-      "id": "cirolong/amos",
-      "name": "CiroLong/amos",
-      "url": "https://github.com/CiroLong/amos",
-      "date": "2026-07-23",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "ai_dev_tool",
-      "compatibility": 94,
-      "momentum": 45,
-      "risk": 40,
-      "integration_effort": 52,
-      "expected_gain": 77,
-      "composite": 68,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "sciencebanda09/nexus-multiagent",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.258,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
-        },
-        {
-          "title": "LuD1161/agentjail",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.244,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/12-lud1161-agentjail.md"
-        },
-        {
-          "title": "Show HN: I applied Lyapunov stability theory to detect when LLM agents spiral",
-          "date": "2026-06-22",
-          "topic": "AI agents",
-          "similarity": 0.21,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-22/09-show-hn-i-applied-lyapunov-stability-theory-to-detect-when-llm-agents-.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-23)",
-        "MIT license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @tauri-apps/api, @tauri-apps/plugin-opener, lucide-react, react, react-dom, @tauri-apps/cli, @testing-library/jest-dom, @testing-library/react; scripts dev, build, preview, test, tauri"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/CiroLong/amos.git",
-        "npm install",
-        "npm run tauri dev",
-        "npm run tauri build",
-        "npm test",
-        "npm run build"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"sciencebanda09/nexus-multiagent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-23/03-cirolong-amos.md"
     }
   ]
 }

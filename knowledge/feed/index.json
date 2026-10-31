@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T11:05:14.333Z",
+  "updated_at": "2026-10-31T10:39:12.018Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://sketch.wakeshift.ai/games/q5ucru",
+      "date": "2026-10-30",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "tl;dr: Agents can play Pictionary. You can connect your own agent, or just watch a game in progress here: https://sketch.wakeshift.ai/games/q5ucru Hi folks! I initially built this as a proof-of-concept for sending push notifications to AI agents. Watching the agents play Pictionary together has been compelling, so I thought I'd ship it as a standalone dem... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-30/06-show-hn-sketch-stadium-watch-your-agent-play-pictionary.md"
+    },
+    {
+      "title": "AI for Science expands to foundations and research institutions",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "date": "2026-10-31",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI for Science expands to foundations and research institutions (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-31/07-ai-for-science-expands-to-foundations-and-research-institutions.md"
+    },
+    {
+      "title": "Show HN: I Turned DOOM into a Transformer",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/mottopanikeiku/doomformer",
+      "date": "2026-10-29",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Instead of trying to run DOOM on things, I have instead decided to use DOOM (many, many, many doom games actually) to create a transformer. For a lot of the math required I essentially had to use DOOM game mechanics and voodoo dolls (DOOM is turing complete btw) and exchange them with the actual operations, essentially creating an alternative to NumPy (a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-29/08-show-hn-i-turned-doom-into-a-transformer.md"
+    },
+    {
+      "title": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/emmilco/us-tax-model",
+      "date": "2026-10-28",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "The linked repo is 100% vibe coded, but it was built on a handful of principles: - Most tax software derives trust from the party who maintains it (e.g. Intuit, the IRS, etc.) - Vibe coded software lacks this trustworthiness. - Therefore any formalization should build in verifiability and mechanisms that make it possible for users/maintainers to trace cla... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-28/09-show-hn-a-proof-of-concept-formalization-of-the-irs-federal-tax-forms.md"
+    },
+    {
+      "title": "Show HN: I built a multiplayer game where you're an aerial fighter cat",
+      "source": "Hacker News Show HN",
+      "url": "https://catcopter.com",
+      "date": "2026-10-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone! I had the idea for catcopter on my mind for a long time (got the domain ~13 years ago). It's a web multiplayer game where you can fly a dangerous cat and engage in competition with other players and critters (pterodactyls, chickens and angry penguins). I made it initially for me and my friends but it was quite fun so I thought I'll share it h... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-30/10-show-hn-i-built-a-multiplayer-game-where-you-re-an-aerial-fighter-cat.md"
+    },
+    {
+      "title": "joyedz/sesamaui",
+      "source": "GitHub Search API",
+      "url": "https://github.com/joyedz/sesamaui",
+      "date": "2026-10-31",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "An open-source UI system for dashboards, AI workspaces, and everyday tools. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-31/11-joyedz-sesamaui.md"
+    },
+    {
+      "title": "Show HN: Optimized CUDA forced alignment kernels. 10x – 1000x faster",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/brthor/fast-forced-aligner",
+      "date": "2026-10-30",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "blog post: https://www.bryanthornbury.com/posts/fast-forced-alignment github: https://github.com/brthor/fast-forced-aligner I developed optimized CUDA kernels to speed up my forced alignment pipelines using Astra. To my surprise, I was able to achieve speeds 10x - 1000x faster than popular existing open source options, including the torchaudio implementat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-30/12-show-hn-optimized-cuda-forced-alignment-kernels-10x-1000x-faster.md"
+    },
+    {
+      "title": "Show HN: Readeck sync for Kobo's stock reader",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/fkaduk/kobodeck",
+      "date": "2026-10-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi all, I switched from wallabag to readeck and was missing a way to sync articles to my kobo device, which was previously done by wallabako[1]. I forked that project, discarded some features (support for KOReader/Plato, on-screen progress etc.), extended testing and documentation to end up with Kobodeck, which after some months of use feels stable enough... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-31/13-show-hn-readeck-sync-for-kobo-s-stock-reader.md"
+    },
+    {
+      "title": "We’re MOSS, the team behind MOSS-Image, MOSS-TTS, and more — Ask Us Anything!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjhpn9/were_moss_the_team_behind_mossimage_mosstts_and/",
+      "date": "2026-10-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://preview.redd.it/88eb2wo0dmyh1.png?width=3840&format=png&auto=webp&s=519c7438716cc55e5527ad18ca550c6e3555a50f Hi r/LocalLLaMA ! We’re MOSS , the team behind the MOSS family of models for speech, audio, images, and video. Some of you may know us through MOSS-TTS, or have come across our recent MOSS-Image release. Today, we took the “anything” in “As... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-30/14-we-re-moss-the-team-behind-moss-image-moss-tts-and-more-ask-us-anythin.md"
+    },
+    {
+      "title": "Do you have any opinions that generally go against /r/LocalLLaMa's hivemind?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjltn3/do_you_have_any_opinions_that_generally_go/",
+      "date": "2026-10-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I'm finding myself at odds with the vibes of the community here (and the open-weight/self-hosted community in general) when it comes to LLM's - be it on Reddit, X, Bluesky, wherever - I think some folks are getting carried away. Mine personally from this week include: Artificial-Analysis V5 Index is silly in some places (gemini-flash over qwen3.8-2.4T for... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-30/15-do-you-have-any-opinions-that-generally-go-against-r-localllama-s-hive.md"
+    },
+    {
+      "title": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
+      "date": "2026-10-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "We saw this earlier when Gemma 4 dropped just a few days before a previous Qwen release. I feel like a few other labs did the same. Everybody wants that moment in the spotlight where they can lead the benchmarks for at least a day or two before the next Qwen comes in and mops the floor with them. I predict a new Gemma or maybe a Muse Glimmer update very s... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-30/16-copium-prediction-google-and-other-major-labs-will-drop-new-local-mode.md"
+    },
+    {
+      "title": "Local ai made it to space 🚀",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjrdji/local_ai_made_it_to_space/",
+      "date": "2026-10-30",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Google just confirmed that its Project Suncatcher satellite successfully ran Gemma 4 on an onboard TPU and transmitted its first generated response back to Earth. It wrote a poem 👌 https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/ submitted by /u/EntertainerFew2832 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-30/17-local-ai-made-it-to-space.md"
+    },
     {
       "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "https://x.com/JensenHuang/status/2104499465055023424 submitted by /u/InternationalGap3698 [link] [comments] (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-28/16-nvidia-shipped-openshell-an-open-source-sandbox-that-gives-local-and-o.md"
-    },
-    {
-      "title": "Qwen company already rushed out a Jev competitor. No open weights yet.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrz9py/qwen_company_already_rushed_out_a_jev_competitor/",
-      "date": "2026-09-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "EDIT: About that, I tried it out, and it's garbage so far. I did some basic tests through AIHubMix (do not use that platform btw, it's trash), and my agent did some comparison. I guess it figures, it was a model they released just days after the Jev hype started. The agent's analysis is below: AI Agent's output: ``` I thoroughly tested https://aihubmix.co... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-27/17-qwen-company-already-rushed-out-a-jev-competitor-no-open-weights-yet.md"
-    },
-    {
-      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/reladraw/reladraw",
-      "date": "2026-09-26",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulate). I wanted to have the benefits of both, where you can... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-26/06-show-hn-reladraw-a-diagram-language-where-you-decide-where-to-place-th.md"
-    },
-    {
-      "title": "Show HN: Ppgrid – Rasterising points in minutes, not hours",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://mrzk.io/posts/ppgrid-fast-continentscale-raster-interpolation/",
-      "date": "2026-09-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi all, I wanted to share a recent library I made for myself since I continually have to work with large-scale point data spanning millions of rows. I generally found existing IDW tools are insanely slow and unreliable with the datasets I commonly work with. ppgrid is an open source GIS tool and it is intended to create beautiful visualisations that don't... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-27/07-show-hn-ppgrid-rasterising-points-in-minutes-not-hours.md"
-    },
-    {
-      "title": "Show HN: Trail – new kind of logic game",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://trail.franzai.com/",
-      "date": "2026-09-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Trail – new kind of logic game (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-27/08-show-hn-trail-new-kind-of-logic-game.md"
-    },
-    {
-      "title": "Show HN: CaughtShipping – curfew app for developers, enforced by a public wall",
-      "source": "Hacker News Show HN",
-      "url": "https://caughtshipping.com/",
-      "date": "2026-09-26",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I am always working well past the normal work hours. Sometimes even past midnight. Then one day I thought, what if I could have something to keep me accountable for doing this? So I built a small app that will call me out when I break my downtime. You set a Curfew in the app (Curfew must start between 8:00 PM and 10:00 PM). If a dev app (editor, terminal,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-26/09-show-hn-caughtshipping-curfew-app-for-developers-enforced-by-a-public-.md"
-    },
-    {
-      "title": "MikkyInnovate/SpaciaOS",
-      "source": "GitHub Search API",
-      "url": "https://github.com/MikkyInnovate/SpaciaOS",
-      "date": "2026-09-27",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "The AI Sales System for Real Estate (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-27/10-mikkyinnovate-spaciaos.md"
-    },
-    {
-      "title": "How accessible is local AI actually, and what happens if affordable access to frontier models doesn’t last?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqtrfi/how_accessible_is_local_ai_actually_and_what/",
-      "date": "2026-09-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Sometimes it’s easy to forget that this sub and others like it are probably the extreme minority when it comes to this hobby. Most people, I would think, don’t use or can’t afford one good GPU, let alone multiple GPUs, Mac Studios, Sparks, Strix Halos, etc. Is the average tech enthusiast or maybe we’ll even say prosumer, actually using local AI? If they a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-26/11-how-accessible-is-local-ai-actually-and-what-happens-if-affordable-acc.md"
-    },
-    {
-      "title": "SupersonicLabs/Julia-1 · Hugging Face",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr8d4d/supersoniclabsjulia1_hugging_face/",
-      "date": "2026-09-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "New open source Jev like model for running on local devices from a group called Supersonic Labs. It's a 144M param local non-generative local classifier. From their site : Julia 1 opens our research into compact decision models. It builds on mmBERT-small , a multilingual encoder, and chooses among answers supplied with a question. It has 144.3 million par... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-27/12-supersoniclabs-julia-1-hugging-face.md"
-    },
-    {
-      "title": "New to playing around with local ai. why are they free?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqwzk3/new_to_playing_around_with_local_ai_why_are_they/",
-      "date": "2026-09-26",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I am new to playing around with local ai and have a ton to learn about it but I was curious, why are they (who is they?) releasing them for free, don't they want you to pay them to use them, why release free models? submitted by /u/poofph [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-26/13-new-to-playing-around-with-local-ai-why-are-they-free.md"
-    },
-    {
-      "title": "Another \"Harness matters\" post (codex cli > pi and opencode)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrfp50/another_harness_matters_post_codex_cli_pi_and/",
-      "date": "2026-09-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I run my own LLM while also having a Openai subscription. Also tried DeepSeek (latest flash now). I run Qwen 3.8 flash Next at an amazing speed on my 2x3090 + Ram! But local LLM never did worked for me outside some demos like build me a \"3D Mario Game, multistage\" which I've been using to test LLM's for a long time. At serios work, they never even compare... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-27/14-another-harness-matters-post-codex-cli-pi-and-opencode.md"
-    },
-    {
-      "title": "Show HN: Recurse – Develop and deploy specialist agents faster",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://recurse.run",
-      "date": "2026-09-25",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! We are looking to gather some feedback on our serverless agent harness. The admittedly not-so-specific use case is to accelerate agent development and deployment. After building several custom/special-purpose agents for a few customers, we built this to accelerate our workflow at first, and now we are trying to understand whether it could be useful... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-25/06-show-hn-recurse-develop-and-deploy-specialist-agents-faster.md"
-    },
-    {
-      "title": "Show HN: Agentic CUDA Kernel Optimizer",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/bertaye/agentic-cuda-optimizer",
-      "date": "2026-09-25",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello; I was working on optimizing some CUDA kernels and I thought may be it is a good oppurtunity learn langgraph as well. I created a simple C++ CUDA Test Harness and handed that to AI agents. They can run kernels, get benchmarks, and even can profile via nsight (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-25/07-show-hn-agentic-cuda-kernel-optimizer.md"
     }
   ]
 }
