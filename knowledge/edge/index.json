@@ -1,10 +1,224 @@
 {
-  "last_checked_at": "2026-10-31T10:39:38.271Z",
+  "last_checked_at": "2026-11-01T11:34:13.034Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "doobidoo/mcp-memory-service",
+      "name": "doobidoo/mcp-memory-service",
+      "url": "https://github.com/doobidoo/mcp-memory-service",
+      "date": "2026-11-01",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 100,
+      "risk": 30,
+      "integration_effort": 56,
+      "expected_gain": 95,
+      "composite": 85,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "New Architecture from Percepta: Spotlight — separating intelligence from memory, allowing knowledge and skills to grow without changing the model's weights.",
+          "date": "2026-10-02",
+          "topic": "Local LLMs",
+          "similarity": 0.317,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/14-new-architecture-from-percepta-spotlight-separating-intelligence-from-.md"
+        },
+        {
+          "title": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards",
+          "date": "2026-10-29",
+          "topic": "AI dev tools",
+          "similarity": 0.297,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-29/10-show-hn-phpclaw-ai-agent-runtime-for-php-with-tools-memory-and-guards.md"
+        },
+        {
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "date": "2026-10-21",
+          "topic": "AI agents",
+          "similarity": 0.293,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-01)",
+        "Apache-2.0 license",
+        "2056 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, keywords"
+        }
+      ],
+      "install_commands": [
+        "pip install mcp-memory-service",
+        "claude mcp add memory -- memory server",
+        "git clone https://github.com/doobidoo/mcp-memory-service.git",
+        "pip install -e .  # Editable install"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-02 about Local LLMs; this candidate overlaps with \"New Architecture from Percepta: Spotlight — separating intelligence from memory, allowing knowledge and skills to grow without changing the model's weights.\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-01/01-doobidoo-mcp-memory-service.md"
+    },
+    {
+      "id": "gadievron/raptor",
+      "name": "gadievron/raptor",
+      "url": "https://github.com/gadievron/raptor",
+      "date": "2026-11-01",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "claude_skill",
+      "compatibility": 92,
+      "momentum": 100,
+      "risk": 56,
+      "integration_effort": 58,
+      "expected_gain": 95,
+      "composite": 80,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "date": "2026-10-21",
+          "topic": "AI agents",
+          "similarity": 0.241,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+        },
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.238,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "Donating Agent Skills to the Agentic AI Foundation",
+          "date": "2026-10-25",
+          "topic": "AI agents",
+          "similarity": 0.226,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-25/07-donating-agent-skills-to-the-agentic-ai-foundation.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-01)",
+        "3960 GitHub stars",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 6,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, readme, requires-python, license, authors, dependencies"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/gadievron/raptor.git",
+        "uv sync --locked",
+        "npm install -g @anthropic-ai/claude-code",
+        "uv tool install semgrep",
+        "docker pull danielcuthbert/raptor:latest",
+        "docker build -f .devcontainer/Dockerfile -t raptor:latest ."
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "Docker privileged mode mentioned"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-21 about AI agents; this candidate overlaps with \"Show HN: Omnara – Open-source alternative to Claude Managed Agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-01/02-gadievron-raptor.md"
+    },
+    {
+      "id": "unslothai/unsloth",
+      "name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "date": "2026-11-01",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 80,
+      "momentum": 100,
+      "risk": 43,
+      "integration_effort": 52,
+      "expected_gain": 77,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "date": "2026-10-21",
+          "topic": "AI agents",
+          "similarity": 0.2,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+        },
+        {
+          "title": "Come let your LLMs play World of Warcraft",
+          "date": "2026-10-03",
+          "topic": "Local LLMs",
+          "similarity": 0.195,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/14-come-let-your-llms-play-world-of-warcraft.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-01)",
+        "Apache-2.0 license",
+        "78902 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README includes remote script execution pattern",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, setuptools, setuptools, setuptools-scm, build-backend, name, dynamic, description"
+        }
+      ],
+      "install_commands": [
+        "docker run -d --name unsloth --gpus all --ipc=host \\",
+        "uv venv unsloth_env --python 3.13",
+        "uv pip install unsloth --torch-backend=auto",
+        "uv pip install torchao",
+        "git clone https://github.com/unslothai/unsloth",
+        "git clone https://github.com/unslothai/unsloth.git"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-21 about AI agents; this candidate overlaps with \"Show HN: Omnara – Open-source alternative to Claude Managed Agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-01/03-unslothai-unsloth.md"
+    },
     {
       "id": "goldziher/poly",
       "name": "Goldziher/poly",
@@ -19456,204 +19670,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-07-05 about AI agents; this candidate overlaps with \"Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-25/03-sleepstars-ochub.md"
-    },
-    {
-      "id": "stablyai/orca",
-      "name": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "date": "2026-07-24",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 94,
-      "momentum": 100,
-      "risk": 35,
-      "integration_effort": 44,
-      "expected_gain": 77,
-      "composite": 81,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: AMA2, messenger built for AI agent",
-          "date": "2026-06-30",
-          "topic": "AI agents",
-          "similarity": 0.346,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"
-        },
-        {
-          "title": "superduperlarry/enosone",
-          "date": "2026-07-05",
-          "topic": "AI agents",
-          "similarity": 0.332,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-05/07-superduperlarry-enosone.md"
-        },
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.306,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-24)",
-        "MIT license",
-        "27752 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 1,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "package metadata could not be parsed"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-30 about AI agents; this candidate overlaps with \"Show HN: AMA2, messenger built for AI agent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-24/01-stablyai-orca.md"
-    },
-    {
-      "id": "dioncroft/gielinor-companion-mcp",
-      "name": "DionCroft/Gielinor-Companion-MCP",
-      "url": "https://github.com/DionCroft/Gielinor-Companion-MCP",
-      "date": "2026-07-24",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 92,
-      "momentum": 45,
-      "risk": 32,
-      "integration_effort": 36,
-      "expected_gain": 87,
-      "composite": 74,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: AnswerJournal – An MCP server to save and share AI answers",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.306,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/11-show-hn-answerjournal-an-mcp-server-to-save-and-share-ai-answers.md"
-        },
-        {
-          "title": "AbdallahKhaldi/COSMOS77-ex06",
-          "date": "2026-06-23",
-          "topic": "AI agents",
-          "similarity": 0.272,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-23/07-abdallahkhaldi-cosmos77-ex06.md"
-        },
-        {
-          "title": "sciencebanda09/nexus-multiagent",
-          "date": "2026-06-23",
-          "topic": "AI dev tools",
-          "similarity": 0.27,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-23/10-sciencebanda09-nexus-multiagent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-24)",
-        "MIT license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "README mentions credentials or API tokens",
-        "Repository description is sparse"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 0,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @eslint/js, @types/better-sqlite3, @types/node, eslint, prettier, typescript, typescript-eslint, vitest; scripts build, typecheck, test, test:unit, test:integration, test:mcp, test:providers, test:database"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-23 about AI dev tools; this candidate overlaps with \"Show HN: AnswerJournal – An MCP server to save and share AI answers\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-24/02-dioncroft-gielinor-companion-mcp.md"
-    },
-    {
-      "id": "emtemf/enterprise-harness",
-      "name": "Emtemf/enterprise-harness",
-      "url": "https://github.com/Emtemf/enterprise-harness",
-      "date": "2026-07-24",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 84,
-      "momentum": 52,
-      "risk": 24,
-      "integration_effort": 36,
-      "expected_gain": 77,
-      "composite": 72,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Kuberwastaken/VPSmaxxing",
-          "date": "2026-06-30",
-          "topic": "AI dev tools",
-          "similarity": 0.309,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
-        },
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.266,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        },
-        {
-          "title": "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)",
-          "date": "2026-07-07",
-          "topic": "Local LLMs",
-          "similarity": 0.248,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-07-07/16-update-i-built-a-tool-to-turn-your-claude-code-sessions-into-fine-tuni.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-24)",
-        "Apache-2.0 license",
-        "2 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps none; scripts bootstrap, doctor, sync, verify, install-runtime, setup-local-adapter, start-change, release-local"
-        }
-      ],
-      "install_commands": [
-        "claude plugin marketplace add https://github.com/Emtemf/enterprise-harness",
-        "claude plugin install enterprise-harness@enterprise-harness --scope local",
-        "claude plugin marketplace update enterprise-harness",
-        "claude plugin update enterprise-harness@enterprise-harness --scope local"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Kuberwastaken/VPSmaxxing\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-24/03-emtemf-enterprise-harness.md"
     }
   ]
 }

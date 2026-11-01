@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T10:39:12.018Z",
+  "updated_at": "2026-11-01T11:33:38.949Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Point your camera at a landscape to learn about its geology",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://outcrop.rocks/",
+      "date": "2026-10-29",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I've been working on a fun little app that paints geologic maps over landscapes using augmented reality. You can use it to identify what the mapped rocks are, read descriptions about them, and view the earth as it looked when they formed by turning back the continent positions. It spun out of some augmented reality work I was doing on my other side projec... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-29/06-show-hn-point-your-camera-at-a-landscape-to-learn-about-its-geology.md"
+    },
+    {
+      "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+      "date": "2026-11-01",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I kept wiring Ben Eater's 8-bit computer wrong, so I built a realistic virtual breadboard editor. Some of the nice features are side-by-side diff, scope, schematics auto-sync, auto-router (BBRouter stands for breadboard router), and my favorites: upload from the real Arduino IDE and connect to your AI with MCP, let Claude & co build it or help you... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-01/07-show-hn-bbrouter-ben-eater-s-8-bit-computer-simulated-on-3d-breadboard.md"
+    },
+    {
+      "title": "Show HN: A language model that lives in a boot sector",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/kerlenton/bootgpt",
+      "date": "2026-10-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "All the ideas came from the boot sector demo scene where people had been writing chess and BASIC games in 512 bytes, even a C compiler. I wondered what one can do using a neural network instead of a program and generating boot logs for non-existent hardware was something fun to try. Entire inference engine is 510 bytes of MBR, weights, vocab, and strings... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-31/08-show-hn-a-language-model-that-lives-in-a-boot-sector.md"
+    },
+    {
+      "title": "Show HN: NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://epoyraz.github.io/nes-contra-us/",
+      "date": "2026-10-31",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Based on vermiceli's annotated disassembly of Contra: https://github.com/vermiceli/nes-contra-us . Thanks for the great work. I ported it in two steps. First to C: the game logic is translated routine by routine from the 6502 assembly, and checked frame by frame against the original in the Mesen emulator. Then the C code to WebAssembly so it runs in the b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-31/09-show-hn-nes-contra-1987-port-asm-c-and-then-c-webassembly.md"
+    },
+    {
+      "title": "Show HN: Castov – Open-source dev tools and AI secret shield with zero telemetry",
+      "source": "Hacker News Show HN",
+      "url": "https://castov.com",
+      "date": "2026-10-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Castov – Open-source dev tools and AI secret shield with zero telemetry (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-31/10-show-hn-castov-open-source-dev-tools-and-ai-secret-shield-with-zero-te.md"
+    },
+    {
+      "title": "MrWhiiteHat/mrwhitehat-3d-portfolio",
+      "source": "GitHub Search API",
+      "url": "https://github.com/MrWhiiteHat/mrwhitehat-3d-portfolio",
+      "date": "2026-11-01",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "An immersive, interactive 3D cybersecurity & software developer workspace portfolio built with React, Three.js (R3F), and Vite. Features first-person exploration, live CTOS telemetry, cyber stations, real visitor logging, and responsive mobile controls. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-01/11-mrwhiitehat-mrwhitehat-3d-portfolio.md"
+    },
+    {
+      "title": "vorkinapp-ai/insta-ai-autopost",
+      "source": "GitHub Search API",
+      "url": "https://github.com/vorkinapp-ai/insta-ai-autopost",
+      "date": "2026-11-01",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "vorkinapp-ai/insta-ai-autopost Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-01/12-vorkinapp-ai-insta-ai-autopost.md"
+    },
+    {
+      "title": "Show HN: Jointter – A daily word puzzle using dots and lines",
+      "source": "Hacker News Show HN",
+      "url": "https://www.jointter.com/",
+      "date": "2026-10-31",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello everyone. I’m a mathematician by training, and I love mathematical and logical puzzles and brain-teasers. Inspired by popular games like Sudoku and Wordle, I decided to come up with an engaging game of my own. As it turns out, that’s not so easy! I had a few ideas, but beyond the core mechanics, a game also needs to be interesting and easy to explai... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-31/13-show-hn-jointter-a-daily-word-puzzle-using-dots-and-lines.md"
+    },
+    {
+      "title": "Well, my local AI addiction officially got out of hand tonight.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xklq96/well_my_local_ai_addiction_officially_got_out_of/",
+      "date": "2026-10-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Met a guy off Facebook Marketplace and scored 2x RTX 3090 Founders Editions for €1,700. The problem? I already had one 3090 FE. I am now sitting in my room looking at three 3090 FEs (72 GB GDDR6X VRAM) , and my current case barely fits one card, and that was only after I literally took pliers and bent the inner metal bracket to shove it in. My motherboard... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-31/14-well-my-local-ai-addiction-officially-got-out-of-hand-tonight.md"
+    },
+    {
+      "title": "64GB isn't the dead zone anymore if you run agents",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/",
+      "date": "2026-11-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://preview.redd.it/hboxdgjh2xyh1.png?width=1230&format=png&auto=webp&s=cca6b2b7b08807a334ff5280e19d96133667fbb0 The usual advice was that 64GB is a dead zone for local LLMs: too small for a 70B with real context, and more than a 30B needs. After running a 27B for agentic coding on a 64GB M4 Max for the last ten days, I think that has flipped. My memo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-01/15-64gb-isn-t-the-dead-zone-anymore-if-you-run-agents.md"
+    },
+    {
+      "title": "FineDNA: the largest dataset to teach any LLM DNA (midtraining, SFT, RL)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/",
+      "date": "2026-11-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, we're releasing FineDNA, all the data we used to turn Qwen3-14B into Carbon-X, the strongest open language model on DNA. It contains: Midtraining: 300B+ tokens of genomes and DNA-rich text SFT: ~200K conversations RL: ~98K verifiable prompts Code and recipe are open too, so you can apply it to other LLMs. Dataset: https://huggingface.co/datas... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-01/16-finedna-the-largest-dataset-to-teach-any-llm-dna-midtraining-sft-rl.md"
+    },
+    {
+      "title": "CrowdGPT v2.6 - The collaborative LLM",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkibxw/crowdgpt_v26_the_collaborative_llm/",
+      "date": "2026-10-31",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For those who saw the original post , a week ago, I'm glad to announce CrowdGPT v2 (more precisely v2.6), a massive update to the original CrowdGPT project :D (scroll down to see what's new) For the newcomers: CrowdGPT is a project aiming to create a LLM without datacenters and without the usual millions of dollars spent by AI companies. The project aims... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-31/17-crowdgpt-v2-6-the-collaborative-llm.md"
+    },
     {
       "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "First 3 disposition results. Hi there! My name is Jerry and I recently built Enclosure, e deterministic environment for testing LLMs. It's a simulated office enfironment https://github.com/openconstruct/Enclosure with tools agents are used to, like slack, calendar, mail, chat and more. For conversations is uses AIML instead of a model, so it is totally de... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-29/16-i-created-a-personality-test-for-models-need-more-tests.md"
-    },
-    {
-      "title": "Can we get some quality control on all these model perf posts?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsq0pa/can_we_get_some_quality_control_on_all_these/",
-      "date": "2026-09-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Too many hyperactive amateurs are coming in here with \"1b model at 832843tok/s!\" and hardly any of them have all the info necessary for local runners to evaluate. We need context ladders with perplexity/KLD, hardware specs, model params and quant(s), runtime, tuned runtime parameters, basically everything we need to reproduce locally if we can match the e... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-28/17-can-we-get-some-quality-control-on-all-these-model-perf-posts.md"
-    },
-    {
-      "title": "Show HN: TinyAIArena watch AI agents battle it out",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://tinyaiarena.com/",
-      "date": "2026-09-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win! Click on any of the matches to spectate them. Code: https://github.com/hp6/ai-arena (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-27/06-show-hn-tinyaiarena-watch-ai-agents-battle-it-out.md"
-    },
-    {
-      "title": "Show HN: Stepgate – AI agents that can't skip steps, in one portable file",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Chaarangan/stepgate",
-      "date": "2026-09-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Stepgate – AI agents that can't skip steps, in one portable file (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-28/07-show-hn-stepgate-ai-agents-that-can-t-skip-steps-in-one-portable-file.md"
-    },
-    {
-      "title": "Show HN: Vanish moves heavy computation off your laptop",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://vanishcompute.com/",
-      "date": "2026-09-27",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN I was tired of agents draining my battery and my laptop being unusable so I made vanish, a CLI tool to run your commands in the cloud. Vanish is designed to be process transparent so just prefixing any command with vanish should work, like doing `vanish cargo test` (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-27/08-show-hn-vanish-moves-heavy-computation-off-your-laptop.md"
-    },
-    {
-      "title": "Agentic Economies for Autonomous Scientific Discovery",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.31562v1",
-      "date": "2026-09-25",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Recent advances in agentic Artificial Intelligence (AI) systems have marked a shift in AI for Science: moving away from the use of individual AI systems for narrow task execution, toward multi-agent systems capable of orchestrating complex, end-to-end research workflows and performing (semi-)autonomous scientific discovery. The development of multi-agent... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-25/09-agentic-economies-for-autonomous-scientific-discovery.md"
-    },
-    {
-      "title": "Show HN: ParkourNote – A research workspace, built solo in a month with Claude",
-      "source": "Hacker News Show HN",
-      "url": "https://note.parkourlabs.io/",
-      "date": "2026-09-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm sushi. I built ParkourNote, a personal knowledge management app that currently focuses on research: finding papers, reading PDFs, asking AI about them, and writing. A few things it does: Describe a topic, and an agent creates a project, searches arXiv, and imports relevant papers The PDF reader previews citations on hover, overlays translations... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-28/10-show-hn-parkournote-a-research-workspace-built-solo-in-a-month-with-cl.md"
-    },
-    {
-      "title": "Check on Your Spaghetti Software Factory",
-      "source": "Continue Blog",
-      "url": "https://blog.continue.dev/spaghetti-software-factory",
-      "date": "2026-03-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Everyone building with AI agents is speedrunning the Factorio experience. Spaghetti factories are still factories. But slop compounds, and the fix isn&apos;t faster review. It&apos;s quality control. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-03-06/11-check-on-your-spaghetti-software-factory.md"
-    },
-    {
-      "title": "junwang0301/guangli-campus-photography",
-      "source": "GitHub Search API",
-      "url": "https://github.com/junwang0301/guangli-campus-photography",
-      "date": "2026-09-28",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "??????? AI ???? GitHub Pages (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-28/12-junwang0301-guangli-campus-photography.md"
-    },
-    {
-      "title": "SuhasKanwar/NarrativeX",
-      "source": "GitHub Search API",
-      "url": "https://github.com/SuhasKanwar/NarrativeX",
-      "date": "2026-09-28",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "NarrativeX is a web-based system that collects social-media and news content, extracts and compares claims using NLP and semantic analysis, and tracks their evolution and spread. It categorizes claims based on available evidence and visualizes narrative and propagation patterns through an interactive dashboard. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-28/13-suhaskanwar-narrativex.md"
-    },
-    {
-      "title": "Qwen plays World of Warcraft",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wry136/qwen_plays_world_of_warcraft/",
-      "date": "2026-09-27",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Been doing a bunch of vibe coding lately. Had my agents host a private WoW server for me, then built out a web browser client so you can play without installing the game and it has mobile controls. Afterwards, created a custom mcp to drive the client and have finer game control than a generic browser agent. The agent harness can plug into your local or cl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-27/14-qwen-plays-world-of-warcraft.md"
-    },
-    {
-      "title": "GPT-3 is discontinued today",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws67x4/gpt3_is_discontinued_today/",
-      "date": "2026-09-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "It had such a long run. It was my first introduction to modern language models. I remember getting slightly excited over it. And now it lives purely in our memories. Arguably what's more infuriating is that they suggest using GPT-5.6 Terra as a replacement. Keep in mind that Babbage is a model that's literally 3/4 of the size than MiniCPM5 2B. Even Luna m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-28/15-gpt-3-is-discontinued-today.md"
-    },
-    {
-      "title": "NVIDIA shipped OpenShell, an open source sandbox that gives local and open agents real runtime limits instead of prompt rules. Over 100 firms joined the safety stack. OpenAI did not.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/",
-      "date": "2026-09-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://x.com/JensenHuang/status/2104499465055023424 submitted by /u/InternationalGap3698 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-28/16-nvidia-shipped-openshell-an-open-source-sandbox-that-gives-local-and-o.md"
     }
   ]
 }
