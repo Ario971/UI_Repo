@@ -1,0 +1,12 @@
+---
+title: "Quantum 3xplorer: AI-Native Engine for Next-Generation Quantum Materials Modeling"
+source: "arXiv cs.AI/cs.CL/cs.LG"
+url: "https://arxiv.org/abs/2610.42108v1"
+date: "2026-10-30"
+topic: "AI agents"
+type: "paper"
+read: false
+summary: "Quantum-mechanical approaches, such as density functional theory (DFT), underpin much of modern computational materials science and are the primary source of data for AI-driven discovery. Yet the established electronic-structure codes today represent decades-old software architectures, making new physical models slow and costly to implement, validate, and... (Local summary fallback used.)"
+---
+
+Quantum-mechanical approaches, such as density functional theory (DFT), underpin much of modern computational materials science and are the primary source of data for AI-driven discovery. Yet the established electronic-structure codes today represent decades-old software architectures, making new physical models slow and costly to implement, validate, and deploy on emerging hardware. We present Quantum 3xplorer (Q3, pronounced "Quantum Explorer"), an AI-native quantum simulation engine written from scratch by AI coding agents under the direction and supervision of domain scientists. As a first and demanding validation case, we implement plane-wave pseudopotential DFT end to end: norm-conserving, ultrasoft, and projector-augmented-wave formalisms, spin polarization, DFT+U, and dispersion corrections, together with forces, stresses, structural relaxation, and electronic-structure analysis. Q3 reproduces established reference implementations, runs faster on a single core in representative benchmarks, and scales across GPU-accelerated supercomputers. It was developed in weeks rather than years. Its layered, physics-first architecture separates abstract quantum-mechanical concepts from their numerical representations, making its framework extendable beyond plane waves to other basis sets and levels of theory. Its inputs and outputs follow structured, schema-validated data standards, making every result AI-ready. Q3 is open source under Apache 2.0 and built to be reused, extended, and improved by the research community. Q3 points to a paradigm shift in how computational quantum science is done. Scientists define the physics, formulate the models, and set the criteria for validation; AI agents write, test, and optimize the code. The decades-long path from a new theory to a trusted, high-performance implementation can thus collapse to days, significantly accelerating scientific discovery.

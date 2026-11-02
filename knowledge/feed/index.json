@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T11:33:38.949Z",
+  "updated_at": "2026-11-02T12:57:02.428Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Better Together – AI agents team up against spam calls and texts",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://better-together.fun/",
+      "date": "2026-11-02",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Launched https://better-together.fun this weekend to allow our personal AI agents to collaborate on problems that are tough to solve solo. First up is dealing with spam texts and calls. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-02/06-show-hn-better-together-ai-agents-team-up-against-spam-calls-and-texts.md"
+    },
+    {
+      "title": "Quantum 3xplorer: AI-Native Engine for Next-Generation Quantum Materials Modeling",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.42108v1",
+      "date": "2026-10-30",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Quantum-mechanical approaches, such as density functional theory (DFT), underpin much of modern computational materials science and are the primary source of data for AI-driven discovery. Yet the established electronic-structure codes today represent decades-old software architectures, making new physical models slow and costly to implement, validate, and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-30/07-quantum-3xplorer-ai-native-engine-for-next-generation-quantum-material.md"
+    },
+    {
+      "title": "AutoAnalysis: An automated, self-updating meta-analysis of human-AI collaboration",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.42001v1",
+      "date": "2026-10-30",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "As generative artificial intelligence (AI) becomes more capable and widely used, understanding when and how humans should work with these systems is becoming increasingly important. However, the empirical evidence in this space offers conflicting recommendations, which leaves individuals and organizations without clear guidance on when to combine human an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-30/08-autoanalysis-an-automated-self-updating-meta-analysis-of-human-ai-coll.md"
+    },
+    {
+      "title": "SecPO: Principled Adversarial Training for Prompt Injection Security",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2610.41998v1",
+      "date": "2026-10-30",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Recognized as a top threat to AI agents, prompt injection allows instructions from untrusted data (email, documents, websites) to manipulate the agent's operation. The existing best-defended LLM, Meta-SecAlign, is trained with the DPO loss but still suffers from attack success rates (ASRs) approaching 100% under adaptive prompt injections. One reason is t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-30/09-secpo-principled-adversarial-training-for-prompt-injection-security.md"
+    },
+    {
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "date": "2026-11-01",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I have been researching what the ultimate diff tool would look like, based on actual diffs in open source repositories. OmniDiff can diff: code (25 languages), config, images, PDFs, archives, cursors, fonts... It's fast. It can diff C++ files of tens of thousands of lines in under 100ms, on a 2023 ThinkPad T14s. It's open source. AGPLv3. It's based on rea... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-01/10-show-hn-omnidiff-opensource-super-fast-content-aware-git-difftool-in-r.md"
+    },
+    {
+      "title": "Check on Your Spaghetti Software Factory",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/spaghetti-software-factory",
+      "date": "2026-03-06",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Everyone building with AI agents is speedrunning the Factorio experience. Spaghetti factories are still factories. But slop compounds, and the fix isn&apos;t faster review. It&apos;s quality control. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-03-06/11-check-on-your-spaghetti-software-factory.md"
+    },
+    {
+      "title": "aimhuge/weft",
+      "source": "GitHub Search API",
+      "url": "https://github.com/aimhuge/weft",
+      "date": "2026-11-02",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A kanban board for your AI coding threads (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-02/12-aimhuge-weft.md"
+    },
+    {
+      "title": "l299l/McPluginLab",
+      "source": "GitHub Search API",
+      "url": "https://github.com/l299l/McPluginLab",
+      "date": "2026-11-02",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Desktop workbench for testing Minecraft plugins. It runs Paper, Spigot and Velocity/BungeeCord networks with live consoles, auto-deploys your plugin builds, and adds SoulFire bots, a built-in client and an MCP server for AI-driven testing. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-02/13-l299l-mcpluginlab.md"
+    },
+    {
+      "title": "Proposal: A community revolution for private quality benchmarks (and why endless chasing tok/s is rotting our brains",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlusil/proposal_a_community_revolution_for_private/",
+      "date": "2026-11-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Proposal: A community revolution for private quality benchmarks (and why endless chasing tok/s is rotting our brains honestly we in r/LocalLLaMA need a revolution of people making their own private benchmarks(not tok/s) i mean benchmarking the quality(especially across quantisation). keep yours private and share the chart results to each other. i feel thi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-02/14-proposal-a-community-revolution-for-private-quality-benchmarks-and-why.md"
+    },
+    {
+      "title": "Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/",
+      "date": "2026-11-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I'm sharing this here because this is working way better than it used to a few months ago with older models. I see people here posting slower speeds with much better hardware than mine and hopefully this information helps. I used gemini-flash to help me setup everything and I asked it to write up the sequence of steps to get me here - happy to provide mor... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-01/15-getting-incredible-results-with-a-single-rtx-3090ti-and-128gb-of-ram-d.md"
+    },
+    {
+      "title": "llama2.c on a 2006 iPod @ 80 MHz w/ 64 MB ram and no FPU",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlboqi/llama2c_on_a_2006_ipod_80_mhz_w_64_mb_ram_and_no/",
+      "date": "2026-11-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "hardware: PortalPlayer PP5022, ARM7TDMI @ 80 MHz, 64 MB ram wrote a fun rockbox plugin that runs Karpathy's llama2.c TinyStories models on an ipod video 5.5G. since there's no FPU, I ported llama2.c's int8 runq.c to use only integer math. it uses lookup tables -> exp/softmax + an integer square root for RMSNorm the 15M model is 17 MB, so it loads directly... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-01/16-llama2-c-on-a-2006-ipod-80-mhz-w-64-mb-ram-and-no-fpu.md"
+    },
+    {
+      "title": "Don't people pay attention anymore when buying hardware for AI?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl4ckr/dont_people_pay_attention_anymore_when_buying/",
+      "date": "2026-11-01",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I was trying to sell my old AM4 system, X470 / Ryzen 5 5600 / 64GB / RX580 / 1TB NVME and it didn't sell. Granted it was a bit pricey at 750€, because I took into account the current local RAM and NVME pricing. (Buying the same RAM and SSD new costs 775€ if you go to the cheapest sellers in my country) I decided to try and sell it as an AI system: removed... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-01/17-don-t-people-pay-attention-anymore-when-buying-hardware-for-ai.md"
+    },
     {
       "title": "Show HN: Point your camera at a landscape to learn about its geology",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I think most people are sleeping on this inference engine. I tried multiple llama.cpp forks and none of them comes close to the inference speed of Strata. Initial version had some bugs with kv cache, cpu throttling and the developer fixed them. Inference engine (only runs on Nvidia for now; AMD support is experimental): https://github.com/Niko1221/Strata... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-30/16-qwen3-8-flash-next-ista-daslab-gguf-50t-s-tg-and-1500t-s-pp-with-12gb-.md"
-    },
-    {
-      "title": "Qwen-family LLMs are quietly becoming the backbone of modern audio models; One chart for the architectures of 100+ audio models",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtpntt/qwenfamily_llms_are_quietly_becoming_the_backbone/",
-      "date": "2026-09-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I started mapping the building blocks shared across all the models in audio.cpp. The result ended up being more interesting than I expected. Qwen has become by far the most common language backbone in this collection: 32 audio model families use a Qwen-family architecture, and 20 of them use Qwen3 LLM specifically. And it’s no longer just TTS. Qwen-based... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-29/17-qwen-family-llms-are-quietly-becoming-the-backbone-of-modern-audio-mod.md"
-    },
-    {
-      "title": "Show HN: HN.watch – Videos of all Hacker News posts",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://hn.watch/",
-      "date": "2026-09-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based video format. We’ve now plugged an LLM into it, so that people can create explainer videos about anything. It’s called “Scrimba Explain”. To demo this technology for Hacker News, we built HN.watch. It’s like HN, but with explainer videos... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-28/06-show-hn-hn-watch-videos-of-all-hacker-news-posts.md"
-    },
-    {
-      "title": "Show HN: Open-source skills for end-to-end video ad campaigns",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/SupercmoHQ/superCMO-skills",
-      "date": "2026-09-29",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey there! We are building SuperCMO Skills, open source tools which allow agents (Claude Code, Cursor, Codex, etc.) to research, plan and create video and image campaigns end-to-end right out of your terminal or IDE. We got tired of paying for expensive AI subscriptions and wasting countless hours assembling a pipeline for just one video ad, so we created... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-29/07-show-hn-open-source-skills-for-end-to-end-video-ad-campaigns.md"
-    },
-    {
-      "title": "AI Agent Swarms as Researchers: Progress, Challenges, and Open Questions",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.35719v1",
-      "date": "2026-09-28",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Artificial intelligence (AI) agents, language models connected to tools and run in a loop, can now carry out long, multi-step tasks with little supervision. We gave swarms of off-the-shelf coding agents a short statement of scope, from a narrow topic to a whole field, access to the literature and to computing tools, and one standing instruction: make real... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-28/08-ai-agent-swarms-as-researchers-progress-challenges-and-open-questions.md"
-    },
-    {
-      "title": "Share-Borne AI Virus: Memory-Hopping Attacks Across LLM Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.35576v1",
-      "date": "2026-09-28",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large language models are increasingly deployed as stateful assistants that retain information across interactions and use tools to read, modify, and create persistent artifacts. As these artifacts are shared between users, they form an indirect communication channel between otherwise independent assistants. We study a failure mode in which this channel e... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-28/09-share-borne-ai-virus-memory-hopping-attacks-across-llm-agents.md"
-    },
-    {
-      "title": "AI is Glue",
-      "source": "Continue Blog",
-      "url": "https://blog.continue.dev/ai-is-glue",
-      "date": "2025-12-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "LLMs are the new glue code for engineering workflows. See how AI connects deterministic tools like the GitHub CLI and Snyk API, filling the gaps to automate complex tasks that were previously impractical. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2025-12-03/10-ai-is-glue.md"
-    },
-    {
-      "title": "rmtandon1/fintech-internal-tools",
-      "source": "GitHub Search API",
-      "url": "https://github.com/rmtandon1/fintech-internal-tools",
-      "date": "2026-09-29",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Internal tools platform for fintech operations, with Devin API integration (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-29/11-rmtandon1-fintech-internal-tools.md"
-    },
-    {
-      "title": "xnet-ba/agentmujo-training",
-      "source": "GitHub Search API",
-      "url": "https://github.com/xnet-ba/agentmujo-training",
-      "date": "2026-09-29",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Reproducibilan framework za fine-tuning malih bosanskojezicnih modela sa function calling i agentic ponasanjem (AgentMujo). (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-29/12-xnet-ba-agentmujo-training.md"
-    },
-    {
-      "title": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/seamusc/papermono-shopping-list",
-      "date": "2026-09-28",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Fridge magnet shopping list on an M5Stack PaperMono (ESP32-S3, e-ink touchscreen), synced with a phone web app over Wi-Fi. Works offline, ~2,400 lines of C++. This is a great wee device! BLE, Wi-Fi and LoRa on one board makes it flexible for way more than a shopping list, this is just what I built first. This firmware only uses Wi-Fi. Fully vibe-coded wit... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-28/13-show-hn-papermono-e-ink-fridge-magnet-shopping-list-with-mobile-web-pa.md"
-    },
-    {
-      "title": "Qwen next 3.8 and 3.8 27b Vs Sonnet 5.5 low and Sonnet 5.5 medium.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsq6r5/qwen_next_38_and_38_27b_vs_sonnet_55_low_and/",
-      "date": "2026-09-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Six months ago, a result like this was unthinkable. But now we can say it loud and clear: local models are at the cutting edge, and the gap of just a few months has been confirmed. Personally, I use Qwen-Next 3.8 for complex tasks; today, GPT-Sol-6-High was messing up a project, but Qwen-Next got it back on track. I consider it a reliable benchmark. What’... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-28/14-qwen-next-3-8-and-3-8-27b-vs-sonnet-5-5-low-and-sonnet-5-5-medium.md"
-    },
-    {
-      "title": "Guys I promise It wasn't me 😭😭",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsc0iz/guys_i_promise_it_wasnt_me/",
-      "date": "2026-09-28",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://preview.redd.it/psc1tc7lx8sh1.png?width=733&format=png&auto=webp&s=32cccd895c37b537d3b09c9b00c27e3d881638f4 https://www.reddit.com/r/LocalLLaMA/s/ddBWXZd3Hu submitted by /u/SilverRegion9394 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-28/15-guys-i-promise-it-wasn-t-me.md"
-    },
-    {
-      "title": "I created a personality test for models, need more TESTS!!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt33xk/i_created_a_personality_test_for_models_need_more/",
-      "date": "2026-09-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "First 3 disposition results. Hi there! My name is Jerry and I recently built Enclosure, e deterministic environment for testing LLMs. It's a simulated office enfironment https://github.com/openconstruct/Enclosure with tools agents are used to, like slack, calendar, mail, chat and more. For conversations is uses AIML instead of a model, so it is totally de... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-29/16-i-created-a-personality-test-for-models-need-more-tests.md"
     }
   ]
 }
