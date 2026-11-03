@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T12:57:02.428Z",
+  "updated_at": "2026-11-03T12:28:35.373Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Strategist: Evolving Reasoning with Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.03618v1",
+      "date": "2026-11-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "A model is only half of an AI agent system. The other half is the inference strategy: the reasoning procedure that turns model calls into a response. Today that second half is written by hand, and the experience of building one strategy never carries to the next. We introduce Strategist, a meta-agent that evolves inference strategies across tasks. Each st... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-02/06-strategist-evolving-reasoning-with-agents.md"
+    },
+    {
+      "title": "Four Bridges: Measuring Deception Propensity in a Multi-Agent Game",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.03600v1",
+      "date": "2026-11-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents are increasingly deployed in settings where they interact and coordinate with other agents, yet honesty is mostly measured in single-turn, single-agent benchmarks that pressure the model to deceive. We study deception that emerges in multi-agent interaction without any instruction to deceive. We introduce Kradle, a platform for evaluating AI mod... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-02/07-four-bridges-measuring-deception-propensity-in-a-multi-agent-game.md"
+    },
+    {
+      "title": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.03543v1",
+      "date": "2026-11-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Earth system models (ESMs) rely on parameterizations to represent unresolved processes such as convection, cloud microphysics, and turbulence. However, translating advances in physical understanding into stable, validated parameterizations and integrating them into ESMs often takes years. Agentic AI could accelerate this process and enable more systematic... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-02/08-can-llm-agents-improve-imperfect-earth-system-model-parameterizations.md"
+    },
+    {
+      "title": "An Agentic Framework for Automated Power System Studies and Grid Connection Assessment",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.03534v1",
+      "date": "2026-11-02",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Connecting new generation and demand to the grid depends on two scarce skills: checking applications against a large, changing body of regulation, and running the network studies that decide where and how a project connects. We present Grid Agents, an AI system that brings both together, and the methodology we use to evaluate it. The Grid Ontology is its... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-02/09-an-agentic-framework-for-automated-power-system-studies-and-grid-conne.md"
+    },
+    {
+      "title": "Show HN: HN Atlas – Discover tools to better engage with Hacker News",
+      "source": "Hacker News Show HN",
+      "url": "https://hn-atlas.bensontech.dev/",
+      "date": "2026-11-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "HackerTube and HackerBooks remind me of the awesome HN products I use daily: - hckr news: a collection of top stories. - hnrss: custom RSS feeds filtered by keywords and points. - HN Popularity: explore popular HN bloggers. Hacker News features a massive amount of high-quality content. To help discover and collect more great projects built around Hacker N... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-02/10-show-hn-hn-atlas-discover-tools-to-better-engage-with-hacker-news.md"
+    },
+    {
+      "title": "AI is Glue",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/ai-is-glue",
+      "date": "2025-12-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "LLMs are the new glue code for engineering workflows. See how AI connects deterministic tools like the GitHub CLI and Snyk API, filling the gaps to automate complex tasks that were previously impractical. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2025-12-03/11-ai-is-glue.md"
+    },
+    {
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "source": "Hacker News Show HN",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "date": "2026-11-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, we're Aarush and Arnav from The Subvocal Company (YC F26) ( https://subvocal.company/ ). We’re building smart glasses that let you talk to your computer without talking out loud. You can mouth words silently and discreetly and the glasses decode them to text at the speed of speech. Here's a video of Dave from YC trying it out: https://www.youtube.c... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-02/12-show-hn-subvocal-talk-to-your-computer-without-making-noise.md"
+    },
+    {
+      "title": "Show HN: Arvre – A TUI for Claude Code sessions' forks",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/victorcarrico/arvre",
+      "date": "2026-11-02",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "The title explains it all, I vibe coded it this weekend to help me to navigate through the sessions and forks of the a thousand tasks that I'm often working. There are probably other few tools that do similar, but why use them when you can use arvre? :D (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-02/13-show-hn-arvre-a-tui-for-claude-code-sessions-forks.md"
+    },
+    {
+      "title": "I found another niche use case for local LLMs, but need some advice",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmfbam/i_found_another_niche_use_case_for_local_llms_but/",
+      "date": "2026-11-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Kind of a random thing, but I've gotten to the age where I'm starting to care about what the city council is doing. So I downloaded all the available council meeting notes from the last 16 years and pointed Qwen 3.8 27B Q6 at them and started having it dig through notes. Namely I wanted to see who approved the purchase of Flock cameras for our town. Turns... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-03/14-i-found-another-niche-use-case-for-local-llms-but-need-some-advice.md"
+    },
+    {
+      "title": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
+      "date": "2026-11-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks Besides privacy and being in control of your data. Besides being able to control the quality of the inference compute. Besides being able to discuss t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-02/15-yet-another-reason-to-self-host-anthropic-has-again-cut-back-on-revers.md"
+    },
+    {
+      "title": "Qwen 3.8 27b is sometimes so smart it scares me...",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
+      "date": "2026-11-02",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "For fun, I gave Qwen 3.8 27b a physics problem involving some heavy math. A little bit into its reasoning, Qwen took a look at its tools, found that it had access to Blender via blender mcp - and that it could write and execute arbitrary python code through that. So it engaged Blender's python support to write itself bits of python code to do its math fas... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-02/16-qwen-3-8-27b-is-sometimes-so-smart-it-scares-me.md"
+    },
+    {
+      "title": "[Paper] Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmo5xu/paper_sparks_of_weightspace_programming_llms_can/",
+      "date": "2026-11-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "TL;DR We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights , well past what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and interpretability. Just by looking at the raw weights, GPT-6 Astra can tell what a network was trained to do . And without any e... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-03/17-paper-sparks-of-weight-space-programming-llms-can-natively-read-write-.md"
+    },
     {
       "title": "Show HN: Better Together – AI agents team up against spam calls and texts",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "The collection includes kernels for more than 200 common ML operations, all of which can run entirely locally in your browser on WebGPU. We're also working to upstream these optimizations to Transformers.js, ONNX Runtime Web, LiteRT.js, and more! Kernels: https://huggingface.co/kernels?platform=webgpu Blog: https://huggingface.co/blog/webgpu-kernels submi... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-30/16-we-just-open-sourced-the-world-s-fastest-webgpu-kernels-for-local-ai-o.md"
-    },
-    {
-      "title": "Astrabox - Open source Arcade Game Generator",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wumex2/astrabox_open_source_arcade_game_generator/",
-      "date": "2026-10-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone! I’ve been working on ASTRABOX : an arcade interface where you describe a game, the AI builds it, and you can ask for changes by voice while playing. Each game gets its own visuals and gameplay, while a shared runtime handles controllers, scores, player joining, etc. I built it around Codex, but the code is open source. I’d love to see someon... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-01/17-astrabox-open-source-arcade-game-generator.md"
-    },
-    {
-      "title": "Character Training for Risk-Averse Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.38093v1",
-      "date": "2026-09-29",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Risk aversion in resources could prevent misaligned AI agents from causing catastrophic harm. Misaligned but risk-averse agents would tend to favor safer strategies like making deals with humans over riskier strategies like rebelling. We train agents to be risk averse through character training, finding that persona traits provide a robust mechanism for i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-29/06-character-training-for-risk-averse-agents.md"
-    },
-    {
-      "title": "Traversing the solution space of neural networks with Hessian Null Space Continuation",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.38081v1",
-      "date": "2026-09-29",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "On a single task, deep networks can learn many solutions, depending on their optimizer, training data, architecture, and hyperparameters. Many of these solutions are mode-connected: rather than isolated points in weight space, they are connected by low-loss regions. Yet how their internal computation varies within these regions is unknown. A parallel line... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-29/07-traversing-the-solution-space-of-neural-networks-with-hessian-null-spa.md"
-    },
-    {
-      "title": "Making Duplicate Reimbursement Unrepresentable: A Verified Ethereum E-Invoice System for Humans and AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.37819v1",
-      "date": "2026-09-29",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Electronic invoices are replacing paper invoices worldwide, but today's centralized architectures leave three problems unsolved on the consumption side: an invoice can be submitted for reimbursement repeatedly, authenticity is difficult for recipients to verify, and data is siloed at a central authority that forms both a performance bottleneck and a singl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-29/08-making-duplicate-reimbursement-unrepresentable-a-verified-ethereum-e-i.md"
-    },
-    {
-      "title": "Show HN: Using 2D DFT, dithering, etc. to maximize eInk manga image quality",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/ciromattia/kcc",
-      "date": "2026-09-28",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Kindle Comic Converter optimizes black & white (or color) comics and manga for E-ink ereaders like Kindle, Kobo, ReMarkable, and more. Pages display in fullscreen without margins, with proper fixed layout support. Output works great in KOReader. Full details on what KCC does is in the readme with plenty of photos! KCC has been under continuous development... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-28/09-show-hn-using-2d-dft-dithering-etc-to-maximize-eink-manga-image-qualit.md"
-    },
-    {
-      "title": "Show HN: NSL – WSL for Linux",
-      "source": "Hacker News Show HN",
-      "url": "https://frostyard.github.io/nsl/",
-      "date": "2026-09-29",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "One of the things that Windows really got right is WSL2. I drive an atomic Linux distro for daily use, but wanted a way to develop with multiple different distros with that same WSL UX. NSL is my answer. It is a faithful reproduction of the developer experience, powered by a single VM that hosts one or more systemd-nspawn containers with your development... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-29/10-show-hn-nsl-wsl-for-linux.md"
-    },
-    {
-      "title": "Show HN: Layout – Order food anywhere with AI",
-      "source": "Hacker News Show HN",
-      "url": "https://layout.link/",
-      "date": "2026-09-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Layout lets you order food anywhere with AI. Text it what you want, like \"iced americano from Starbucks,\" and it builds the cart at the restaurant, sends you the total, and securely places the order. Works at almost any restaurant in the US over SMS, the iOS app, or any MCP client like ChatGPT. Developers can integrate our infrastructure into their own pl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-30/11-show-hn-layout-order-food-anywhere-with-ai.md"
-    },
-    {
-      "title": "Show HN: A working 3D model of an Enigma machine",
-      "source": "Hacker News Show HN",
-      "url": "https://enigma.design",
-      "date": "2026-09-29",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I watched the excellent Veritasium video [1] on the Enigma machine, and watched the full animation by Jared Owen [2], but was still a bit confused on how the inner mechanics of an Enigma machine work. I used Astra to build out the inner components through a combination of reference images, writing out hundreds of extremely detailed prompts, and building m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-29/12-show-hn-a-working-3d-model-of-an-enigma-machine.md"
-    },
-    {
-      "title": "Show HN: Ledge.sh – Runnable Markdown Notes",
-      "source": "Hacker News Show HN",
-      "url": "https://ledge.sh",
-      "date": "2026-09-29",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, Ledge is a Markdown notebook that runs shell commands, code, SQL, etc from inside your own notes. I built Ledge because I spend much of my day copy/pasting commands from my notes into the terminal. I was inspired by how much cmux helped me organize my terminals - but there was still a split brain between my notes and frequently run commands. I've b... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-29/13-show-hn-ledge-sh-runnable-markdown-notes.md"
-    },
-    {
-      "title": "Reflection 70B was released two years ago (September 2024)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt7e94/reflection_70b_was_released_two_years_ago/",
-      "date": "2026-09-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "You may think that jev, OpenClaw or TurboQuant are super cool , but actually the coolest LLM invention happened two years ago As we all know, the best source of reliable information about LLMs is YouTube: https://preview.redd.it/4tv0ctbwyfsh1.png?width=2544&format=png&auto=webp&s=46d5e37a8f69372cbbb55d6d4ab22021e94ca285 Back in September 2024, Reflection... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-29/14-reflection-70b-was-released-two-years-ago-september-2024.md"
-    },
-    {
-      "title": "AMD's new 256 core EPYC has 16-channel DDR5-12800, 91% memory bandwidth of an RTX 5090",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtc4j9/amds_new_256_core_epyc_has_16channel_ddr512800_91/",
-      "date": "2026-09-29",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Here are some inspirational quotes you can put into the comments: God is dead and we killed him I am become death All this for 1.5 tok/s? Sir this is LocalLLaMA not RichPeopleofLocalLLaMA Sweet! A 2TB DDR5-12800 RDIMM kit is going to cost only 2 kidneys and a small micronation's GDP submitted by /u/Dany0 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-29/15-amd-s-new-256-core-epyc-has-16-channel-ddr5-12800-91-memory-bandwidth-.md"
-    },
-    {
-      "title": "Qwen3.8 flash next ISTA-DASLab GGUF 50t/s TG and 1500t/s PP with 12GB VRAM and 64GB RAM Laptop on 'Strata' engine",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtv43r/qwen38_flash_next_istadaslab_gguf_50ts_tg_and/",
-      "date": "2026-09-30",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I think most people are sleeping on this inference engine. I tried multiple llama.cpp forks and none of them comes close to the inference speed of Strata. Initial version had some bugs with kv cache, cpu throttling and the developer fixed them. Inference engine (only runs on Nvidia for now; AMD support is experimental): https://github.com/Niko1221/Strata... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-30/16-qwen3-8-flash-next-ista-daslab-gguf-50t-s-tg-and-1500t-s-pp-with-12gb-.md"
     }
   ]
 }
