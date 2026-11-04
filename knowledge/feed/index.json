@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T12:28:35.373Z",
+  "updated_at": "2026-11-04T12:39:28.921Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Modelpeers – a changelog for the AI models and agents you use",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://modelpeers.com",
+      "date": "2026-11-03",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Earlier this year, I had one of my product's features down for 48 hours because Anthropic retired Claude 3 Haiku. In another instance, an API parameter started returning errors. I grew sick of not being able to follow and track the endless changes of AI models every week, so I decided to build Modelpeers. It's basically a feed of all these changes. You ca... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-03/06-show-hn-modelpeers-a-changelog-for-the-ai-models-and-agents-you-use.md"
+    },
+    {
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.05376v1",
+      "date": "2026-11-03",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices withou... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-03/07-from-autonomous-agents-to-cognitive-symbionts-toward-ai-augmented-huma.md"
+    },
+    {
+      "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.05275v1",
+      "date": "2026-11-03",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-03/08-route-anything-a-study-of-model-and-policy-routing-for-general-purpose.md"
+    },
+    {
+      "title": "Modelling lock-in of AI adoption through skill erosion",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.04886v1",
+      "date": "2026-11-03",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Generative AI can improve immediate performance but may erode the human skills required for future work. We study a model in which individuals tend to imitate successful peers, while their independent skills grow with practice and erode with reliance on AI. Because each agent's skill reflects their history, non-users and AI users develop different skill d... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-03/09-modelling-lock-in-of-ai-adoption-through-skill-erosion.md"
+    },
+    {
+      "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/finic-ai/kairos",
+      "date": "2026-11-03",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, Ayan here from Finic. We’re launching Kairos, an open source alternative to Sift, Sardine, and other real-time fraud decisioning platforms. Kairos addresses two of the biggest problems facing traditional decisioning tools: a lack of labeled data to train on and dealing with fraudsters that are constantly changing their tactics. 1. Traditional frau... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-03/10-show-hn-kairos-open-source-risk-and-fraud-decisioning-platform.md"
+    },
+    {
+      "title": "Show HN: Lets1UP, birthday/party game kits that run on your TV",
+      "source": "Hacker News Show HN",
+      "url": "https://lets1up.com/",
+      "date": "2026-11-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN parents out there, I started making party kits for my kids birthday parties and get togethers and wanted to share it with other device-less families out there. Ironically, its a web-app to use your TV to facilitate device-less team building and face-to-face time. I've ran the games at our home a couple of times and its been a success, hence the mor... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-04/11-show-hn-lets1up-birthday-party-game-kits-that-run-on-your-tv.md"
+    },
+    {
+      "title": "Show HN: Pauseless – Free silence/filler-word remover from videos, on-browser",
+      "source": "Hacker News Show HN",
+      "url": "https://tahaygun.github.io/pauseless/",
+      "date": "2026-11-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I have been using some third part tools for the purpose of cutting out the silences and filler words from my amateur podcasts and wanted to give it a shot myself to build one that works on the browser. Ad-free, install-free and account-free version. And here is the result. It works completely on browser and has zero backend api connections. Everything sta... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-04/12-show-hn-pauseless-free-silence-filler-word-remover-from-videos-on-brow.md"
+    },
+    {
+      "title": "mr-varun/Varsha-php-Dev-Server",
+      "source": "GitHub Search API",
+      "url": "https://github.com/mr-varun/Varsha-php-Dev-Server",
+      "date": "2026-11-04",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "mr-varun/Varsha-php-Dev-Server Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-04/13-mr-varun-varsha-php-dev-server.md"
+    },
+    {
+      "title": "We’re the product team at Reflection, the lab behind Beam — Ask Us Anything!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmwryg/were_the_product_team_at_reflection_the_lab/",
+      "date": "2026-11-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://preview.redd.it/aia08e347fzh1.png?width=1852&format=png&auto=webp&s=938615677062e82e35d8788a43ea9e98cd1277bc Hi r/LocalLLaMA 👋 We're the product team at Reflection. Earlier this month, we launched Beam , our first open-weight 501B model. We'd love to answer any questions folks might have for us about building with Beam. Who's here: - Sanyam Bhuta... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-03/14-we-re-the-product-team-at-reflection-the-lab-behind-beam-ask-us-anythi.md"
+    },
+    {
+      "title": "Using Strata IQ4 Qwen Flash to edit Qwen 3.5 0.6B weight based on MIT CSAIL",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b/",
+      "date": "2026-11-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "EDIT : NON COMPRESS GRAPH : https://n.uguu.se/ojTfpwwD.png Because why not. Preamble: DeepSeek Harness Creator Mode Strata IQ4 Qwen Flash Next 3090, Xeon E5, 96G (DDR4 2400 ECC, 3x32) \"Training Token\" 39.8M Context cache, 1.1M actual token. \"Time to traing\" 3h 12m Strata, 41 tok/s decode Qwen 0.6B Running fully on CPU on FP32 (old xeon dont have BF16) no... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-04/15-using-strata-iq4-qwen-flash-to-edit-qwen-3-5-0-6b-weight-based-on-mit-.md"
+    },
+    {
+      "title": "I tried MIT's \"weight-space programming\" on my own use case: Claude rewrote 8 neurons of Gemma 4 12B to change how it translates one Italian tense",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn1gs9/i_tried_mits_weightspace_programming_on_my_own/",
+      "date": "2026-11-03",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Yesterday MIT CSAIL showed GPT-6 Astra editing the weights of a small model by hand. It changed a few neurons of Qwen3.5-0.8B, the model stopped looping on math problems, and its scores jumped. No training at all. I wanted to try the same thing on something closer to what I actually do with local models, which is translating into Italian. Gemma 4 has a ha... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-03/16-i-tried-mit-s-weight-space-programming-on-my-own-use-case-claude-rewro.md"
+    },
+    {
+      "title": "TinyWebUI - Lightweight Open WebUI alternative, just npx and go",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnmre2/tinywebui_lightweight_open_webui_alternative_just/",
+      "date": "2026-11-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "While we cant quite match the feature set of Open WebUI, TinyWebUI can be installed with a simple npx command, \"npx tinywebui\". It comes with tinysearch and tinycontext preinstalled for fully local web search and memory, and can support multiple users with per user isolation. Also has other useful stuff like automations and a stats dashboard built in, and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-04/17-tinywebui-lightweight-open-webui-alternative-just-npx-and-go.md"
+    },
     {
       "title": "Strategist: Evolving Reasoning with Agents",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "This is 6 bc-250 ex mining boards with 5 in the asrock 4u12g case they came in. After a lot of testing my current preferred setup is 4 boards running Qwen Next Flash IQ2_XS at 100k context with around 28 tok/s for short generation and 24 tok/s at 50k with around 115 ppt. The other two boards run 3.6 35b q4 at 60 tok/s with 100k context and 450 ppt. This i... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/15-update-on-the-monstrosity-6-bc-250-board-cluster.md"
-    },
-    {
-      "title": "Detecting hallucinations in local models without eating VRAM: What we learned testing 1.5B to 120B models",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvm15e/detecting_hallucinations_in_local_models_without/",
-      "date": "2026-10-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, If you run local models via Ollama in production or personal projects, you've probably run into the hallucination problem: how do you know when a model is hallucinating without burning extra VRAM or waiting 5 seconds for a heavy judge model? The standard academic approach for this is Semantic Entropy (from an Oxford team's Nature paper last... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/16-detecting-hallucinations-in-local-models-without-eating-vram-what-we-l.md"
-    },
-    {
-      "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.40325v1",
-      "date": "2026-09-30",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and visi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/06-worldauditbench-interactive-3d-world-auditing-with-multimodal-agents.md"
-    },
-    {
-      "title": "Skill-Based AI Agents for Power-System Studies",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.40272v1",
-      "date": "2026-09-30",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "This paper describes a skill-based agentic framework for power-system studies using Model Context Protocol (MCP)-connected engineering tools. A custom MCP server was developed to expose Siemens PTI PSSE functions for power-flow analysis, dynamic simulation, result extraction, and model-validation workflows. Two implementation pathways built on a programma... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/07-skill-based-ai-agents-for-power-system-studies.md"
-    },
-    {
-      "title": "Herschel: Continuous Optimization of Production LLM Inference through On-Demand Profiling",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.40247v1",
-      "date": "2026-09-30",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Model-as-a-service platforms call for continuous optimization as complex serving conditions expose inefficiencies missed before deployment. Detailed always-on profiling can incur substantial overhead, while lightweight collection omits information needed for diagnosis. We present Herschel, a continuous optimization system for production large language mod... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/08-herschel-continuous-optimization-of-production-llm-inference-through-o.md"
-    },
-    {
-      "title": "Who Asked for This? Inline Annotations as Authoring Transactions for Provenance in Agentic Authoring",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2609.40126v1",
-      "date": "2026-09-30",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Writing with AI agents turns a paragraph into the outcome of many requests, yet the finished document rarely explains which request produced which change. We introduce Reactant, an interaction paradigm in which authors place typed inline annotations in their original documents. A verified transaction protocol records each request, skill identity, and the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/09-who-asked-for-this-inline-annotations-as-authoring-transactions-for-pr.md"
-    },
-    {
-      "title": "Show HN: Strata – an expressive semantic layer that can say no to your LLM",
-      "source": "Hacker News Show HN",
-      "url": "https://strata.do/",
-      "date": "2026-09-30",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN, I'm Ajo and I built Strata. I spent 4 years at Netflix solving self service for non-technical business users. I think I cracked it with my unique approach to semantic layer design. The key challenge is balancing expressiveness with ease of use for our non technical colleagues. It just so happens that focus made it work pretty well with LLMs too.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-09-30/10-show-hn-strata-an-expressive-semantic-layer-that-can-say-no-to-your-ll.md"
-    },
-    {
-      "title": "AI Slop Is a Process Problem, Not a People Problem",
-      "source": "Continue Blog",
-      "url": "https://blog.continue.dev/ai-slop-team-sport",
-      "date": "2026-02-27",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "CI/CD shifted blame from people to process. AI code quality needs the same shift: systematic checks, not individual vigilance. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-02-27/11-ai-slop-is-a-process-problem-not-a-people-problem.md"
-    },
-    {
-      "title": "likho-ai/likho-infra",
-      "source": "GitHub Search API",
-      "url": "https://github.com/likho-ai/likho-infra",
-      "date": "2026-10-01",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Local stack (databases, NATS JetStream, S3 store, search, gateway) and shared CI for Likho (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-01/12-likho-ai-likho-infra.md"
-    },
-    {
-      "title": "Laurent150/Who-Is-JSON",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Laurent150/Who-Is-JSON",
-      "date": "2026-10-01",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "An AI-assisted code reading tool for vibe coders, with interactive explanations and a personal knowledge library. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-01/13-laurent150-who-is-json.md"
-    },
-    {
-      "title": "szmcp: a ZIM HTML to Markdown converter and yet another ZIM MCP server",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuktlf/szmcp_a_zim_html_to_markdown_converter_and_yet/",
-      "date": "2026-10-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hello all, I wanted to share a little project I vibe-coded for myself that you may find useful. As many people here like to suggest, I wanted to give my small local LLMs access to information to improve their world knowledge. I didn't want to give my LLM free reign searching and browsing the web to keep my queries private and functional offline, so I want... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-01/14-szmcp-a-zim-html-to-markdown-converter-and-yet-another-zim-mcp-server.md"
-    },
-    {
-      "title": "DeepSeek harness 0.2 - Optional Bundle Architecture, Windows Sandbox improvements, Async Question Mode, Desktop release, Web Search without key",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wutkgt/deepseek_harness_02_optional_bundle_architecture/",
-      "date": "2026-10-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Optional Bundle architecture : Schedule (session-local delayed / timed / interval reminders) was removed from the default set and made an explicit Optional Bundle. This cleanly separates “installed” from “enabled” and is the first systematic use of the Profile + Bundle model for official features. • Windows Sandbox improvements : A new permission-diagnosi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-01/15-deepseek-harness-0-2-optional-bundle-architecture-windows-sandbox-impr.md"
-    },
-    {
-      "title": "We just open-sourced the world's fastest WebGPU kernels for local AI on Hugging Face",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu8tpg/we_just_opensourced_the_worlds_fastest_webgpu/",
-      "date": "2026-09-30",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "The collection includes kernels for more than 200 common ML operations, all of which can run entirely locally in your browser on WebGPU. We're also working to upstream these optimizations to Transformers.js, ONNX Runtime Web, LiteRT.js, and more! Kernels: https://huggingface.co/kernels?platform=webgpu Blog: https://huggingface.co/blog/webgpu-kernels submi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-09-30/16-we-just-open-sourced-the-world-s-fastest-webgpu-kernels-for-local-ai-o.md"
     }
   ]
 }
