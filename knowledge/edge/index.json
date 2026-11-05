@@ -1,10 +1,200 @@
 {
-  "last_checked_at": "2026-11-04T12:40:00.897Z",
+  "last_checked_at": "2026-11-05T12:50:33.523Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "wagoalex/wago-plc-mcp-server",
+      "name": "WagoAlex/wago-plc-mcp-server",
+      "url": "https://github.com/WagoAlex/wago-plc-mcp-server",
+      "date": "2026-11-05",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 58,
+      "risk": 42,
+      "integration_effort": 48,
+      "expected_gain": 87,
+      "composite": 73,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+          "date": "2026-10-15",
+          "topic": "AI agents",
+          "similarity": 0.262,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"
+        },
+        {
+          "title": "Come let your LLMs play World of Warcraft",
+          "date": "2026-10-03",
+          "topic": "Local LLMs",
+          "similarity": 0.209,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/14-come-let-your-llms-play-world-of-warcraft.md"
+        },
+        {
+          "title": "Show HN: Kashkeshet – non-opinionated agent-to-agent chat MCP server in Rust",
+          "date": "2026-10-26",
+          "topic": "AI agents",
+          "similarity": 0.192,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-26/06-show-hn-kashkeshet-non-opinionated-agent-to-agent-chat-mcp-server-in-r.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-05)",
+        "4 GitHub stars",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "No clear install command found in README",
+        "Repository description is sparse"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, py-modules, name, version, description, readme, requires-python"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-15 about AI agents; this candidate overlaps with \"My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-05/01-wagoalex-wago-plc-mcp-server.md"
+    },
+    {
+      "id": "ajitta/dialectic-skills",
+      "name": "ajitta/dialectic-skills",
+      "url": "https://github.com/ajitta/dialectic-skills",
+      "date": "2026-11-05",
+      "source": "awesome-claude-code",
+      "category": "awesome_lists",
+      "kind": "claude_skill",
+      "compatibility": 79,
+      "momentum": 52,
+      "risk": 32,
+      "integration_effort": 44,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.307,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "AIBeginnerX/oh-our-pi-desktop",
+          "date": "2026-10-20",
+          "topic": "AI dev tools",
+          "similarity": 0.251,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"
+        },
+        {
+          "title": "M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
+          "date": "2026-10-27",
+          "topic": "AI agents",
+          "similarity": 0.212,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-27/09-m4bench-evaluating-procedural-specification-for-clinical-ehr-derivatio.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-05)",
+        "MIT license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [],
+      "install_commands": [
+        "codex plugin marketplace add ajitta/dialectic-skills",
+        "codex plugin add dia@dialectic-skills",
+        "claude plugin validate --strict plugins/dia",
+        "codex plugin marketplace upgrade",
+        "codex plugin list"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-13 about AI agents; this candidate overlaps with \"Show HN: shadowclone, skills learned from your coding agent corrections\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-05/02-ajitta-dialectic-skills.md"
+    },
+    {
+      "id": "groundedcoreai/nexusdesk",
+      "name": "GroundedCoreAI/nexusdesk",
+      "url": "https://github.com/GroundedCoreAI/nexusdesk",
+      "date": "2026-11-05",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 67,
+      "momentum": 82,
+      "risk": 32,
+      "integration_effort": 40,
+      "expected_gain": 69,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "date": "2026-10-21",
+          "topic": "AI agents",
+          "similarity": 0.291,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+        },
+        {
+          "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+          "date": "2026-10-01",
+          "topic": "AI agents",
+          "similarity": 0.236,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/07-litereality-agent-an-agentic-system-for-interactable-3d-indoor-scene-r.md"
+        },
+        {
+          "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
+          "date": "2026-10-29",
+          "topic": "AI agents",
+          "similarity": 0.234,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-29/07-pre-crime-for-agents-at-the-last-second-probing-when-a-recruited-agent.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-05)",
+        "Apache-2.0 license",
+        "191 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 2,
+      "dependency_files": [],
+      "install_commands": [
+        "docker compose -f deploy/quickstart/compose.yaml up -d"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-21 about AI agents; this candidate overlaps with \"Show HN: Omnara – Open-source alternative to Claude Managed Agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-05/03-groundedcoreai-nexusdesk.md"
+    },
     {
       "id": "skrstop/mcphub-desktop",
       "name": "skrstop/MCPHub-Desktop",
@@ -19444,200 +19634,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-07-15 about AI agents; this candidate overlaps with \"Show HN: Vehir – a platform built for AI agents: compiler, microkernel, CAS\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-29/03-nicholasgriffintn-ai-platform.md"
-    },
-    {
-      "id": "forceinjection/ai-fundamentals",
-      "name": "ForceInjection/AI-fundamentals",
-      "url": "https://github.com/ForceInjection/AI-fundamentals",
-      "date": "2026-07-28",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 63,
-      "momentum": 100,
-      "risk": 33,
-      "integration_effort": 40,
-      "expected_gain": 77,
-      "composite": 74,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
-          "date": "2026-06-26",
-          "topic": "AI agents",
-          "similarity": 0.317,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-26/06-agent-native-immune-system-architecture-taxonomy-and-engineering.md"
-        },
-        {
-          "title": "Show HN: Reverse-engineering web apps into agent tools",
-          "date": "2026-07-09",
-          "topic": "AI agents",
-          "similarity": 0.311,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
-        },
-        {
-          "title": "Show HN: AMA2, messenger built for AI agent",
-          "date": "2026-06-30",
-          "topic": "AI agents",
-          "similarity": 0.296,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-06-30/06-show-hn-ama2-messenger-built-for-ai-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-28)",
-        "Apache-2.0 license",
-        "2003 GitHub stars",
-        "Matches 3 saved Feed article(s)"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 78,
-      "has_ci": false,
-      "has_tests": false,
-      "setup_steps_count": 0,
-      "dependency_files": [],
-      "install_commands": [],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-26 about AI agents; this candidate overlaps with \"Agent-Native Immune System: Architecture, Taxonomy, and Engineering\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-28/01-forceinjection-ai-fundamentals.md"
-    },
-    {
-      "id": "amikai/openings-mcp",
-      "name": "amikai/openings-mcp",
-      "url": "https://github.com/amikai/openings-mcp",
-      "date": "2026-07-28",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 79,
-      "momentum": 80,
-      "risk": 37,
-      "integration_effort": 64,
-      "expected_gain": 87,
-      "composite": 73,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Zenetusken/job-applicator-python",
-          "date": "2026-06-30",
-          "topic": "AI dev tools",
-          "similarity": 0.329,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-zenetusken-job-applicator-python.md"
-        },
-        {
-          "title": "yearningss/gamemaker-mcp",
-          "date": "2026-07-25",
-          "topic": "AI dev tools",
-          "similarity": 0.302,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/13-yearningss-gamemaker-mcp.md"
-        },
-        {
-          "title": "Show HN: Pull Claude Code transcripts into your Codex session, and vice versa",
-          "date": "2026-07-03",
-          "topic": "AI dev tools",
-          "similarity": 0.22,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-03/11-show-hn-pull-claude-code-transcripts-into-your-codex-session-and-vice-.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-28)",
-        "MIT license",
-        "73 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "go.mod",
-          "summary": "module github.com/amikai/openings-mcp"
-        }
-      ],
-      "install_commands": [
-        "go install github.com/amikai/openings-mcp/cmd/openings-mcp@latest",
-        "docker pull ghcr.io/amikai/openings-mcp",
-        "claude mcp add openings-mcp -- openings-mcp",
-        "codex mcp add openings-mcp -- openings-mcp",
-        "claude mcp add openings-mcp -- docker run -i --rm ghcr.io/amikai/openings-mcp",
-        "docker run -i --rm ghcr.io/amikai/openings-mcp"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-30 about AI dev tools; this candidate overlaps with \"Zenetusken/job-applicator-python\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-28/02-amikai-openings-mcp.md"
-    },
-    {
-      "id": "quesmaorg/awesome-ai-tokenomics",
-      "name": "QuesmaOrg/awesome-ai-tokenomics",
-      "url": "https://github.com/QuesmaOrg/awesome-ai-tokenomics",
-      "date": "2026-07-28",
-      "source": "awesome-claude-code",
-      "category": "awesome_lists",
-      "kind": "agent_framework",
-      "compatibility": 79,
-      "momentum": 78,
-      "risk": 40,
-      "integration_effort": 44,
-      "expected_gain": 77,
-      "composite": 72,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "dspachos/awesome-ai-tools",
-          "date": "2026-06-27",
-          "topic": "AI dev tools",
-          "similarity": 0.331,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-27/10-dspachos-awesome-ai-tools.md"
-        },
-        {
-          "title": "Kuberwastaken/VPSmaxxing",
-          "date": "2026-06-30",
-          "topic": "AI dev tools",
-          "similarity": 0.201,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-06-30/13-kuberwastaken-vpsmaxxing.md"
-        },
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.199,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-07-28)",
-        "CC-BY-4.0 license",
-        "70 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 1,
-      "dependency_files": [],
-      "install_commands": [],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-06-27 about AI dev tools; this candidate overlaps with \"dspachos/awesome-ai-tools\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-07-28/03-quesmaorg-awesome-ai-tokenomics.md"
     }
   ]
 }

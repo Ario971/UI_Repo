@@ -1,0 +1,140 @@
+---
+id: "wagoalex/wago-plc-mcp-server"
+name: "WagoAlex/wago-plc-mcp-server"
+url: "https://github.com/WagoAlex/wago-plc-mcp-server"
+date: "2026-11-05"
+source: "GitHub Search API"
+category: "github_discovery"
+kind: "mcp_server"
+compatibility: 92
+momentum: 58
+risk: 42
+integration_effort: 48
+expected_gain: 87
+composite: 73
+replacement_target: ""
+related_articles: [{"title":"My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale","date":"2026-10-15","topic":"AI agents","similarity":0.262,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"},{"title":"Come let your LLMs play World of Warcraft","date":"2026-10-03","topic":"Local LLMs","similarity":0.209,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/14-come-let-your-llms-play-world-of-warcraft.md"},{"title":"Show HN: Kashkeshet – non-opinionated agent-to-agent chat MCP server in Rust","date":"2026-10-26","topic":"AI agents","similarity":0.192,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-26/06-show-hn-kashkeshet-non-opinionated-agent-to-agent-chat-mcp-server-in-r.md"}]
+pros: ["Recently updated (2026-11-05)","4 GitHub stars","GitHub Actions/CI detected","README mentions tests or validation"]
+cons: ["License was not clearly detected by GitHub","No clear install command found in README","Repository description is sparse"]
+readme_quality: 85
+has_ci: true
+has_tests: true
+setup_steps_count: 0
+dependency_files: [{"name":"pyproject.toml","summary":"python project; deps requires, build-backend, py-modules, name, version, description, readme, requires-python"}]
+install_commands: []
+risk_flags: []
+status: "new"
+---
+
+# WagoAlex/wago-plc-mcp-server
+
+
+
+URL: https://github.com/WagoAlex/wago-plc-mcp-server
+
+## Why it matters
+You saved an article on 2026-10-15 about AI agents; this candidate overlaps with "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-11-05)
++ 4 GitHub stars
++ GitHub Actions/CI detected
++ README mentions tests or validation
+
+## Cons
+- License was not clearly detected by GitHub
+- No clear install command found in README
+- Repository description is sparse
+
+## Repository Inspection
+README quality: 85/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 0
+
+Dependency files:
+- pyproject.toml: python project; deps requires, build-backend, py-modules, name, version, description, readme, requires-python
+
+Install commands found:
+- none detected
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+![wago-plc-mcp-server - bridge WAGO PLCs to AI agents](https://raw.githubusercontent.com/WagoAlex/wago-plc-mcp-server/main/docs/media/hero-banner.svg)
+
+<!-- mcp-name: io.github.WagoAlex/wago-plc-mcp-server -->
+
+[![Docker pulls](https://img.shields.io/docker/pulls/wagoalex/wago-plc-mcp-server?label=Docker%20pulls&color=6EC800)](https://hub.docker.com/r/wagoalex/wago-plc-mcp-server)
+[![PyPI](https://img.shields.io/pypi/v/wago-plc-mcp-server?label=PyPI&color=6EC800)](https://pypi.org/project/wago-plc-mcp-server/)
+[![License: MPL-2.0](https://img.shields.io/badge/License-MPL--2.0-6EC800.svg)](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/LICENSE)
+[![Docs: GitHub Pages](https://img.shields.io/badge/Docs-GitHub%20Pages-6EC800)](https://wagoalex.github.io/wago-plc-mcp-server/)
+
+# wago-plc-mcp-server
+
+This MCP server connects Claude and other AI assistants to WAGO PLCs.
+You ask a question in plain English. The assistant gets the answer from the PLC.
+You do not need scripts or parameter IDs.
+
+![Overview demo](https://raw.githubusercontent.com/WagoAlex/wago-plc-mcp-server/main/docs/media/demo-overview.gif)
+
+## Quick start
+
+You need Claude Desktop and a PLC that your computer can reach on the network.
+
+1. Download `wago-plc-mcp-server-<version>.mcpb` from the [latest release](https://github.com/WagoAlex/wago-plc-mcp-server/releases/latest).
+2. In Claude Desktop, go to **Settings → Extensions**.
+3. Drag the `.mcpb` file onto the window.
+4. In the form, enter the PLC IP address and the WBM password. Then save the form.
+5. Ask Claude: "List my PLCs".
+
+If the installer does not start on Windows, or if you have many PLCs, see [Claude Desktop and Claude Code](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/claude-desktop.md).
+
+## Try these questions
+
+> What firmware is running on 192.168.1.10?
+
+> Check the NTP status on all PLCs.
+
+> Show the diagnostic LED states on all PLCs.
+
+For more examples and screen recordings, see [Example questions](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/claude-desktop.md#example-questions).
+
+## Safe by default
+
+- The server only reads. It refuses all writes until you select **Allow writes and method calls**.
+- The server refuses reboot, factory reset, and firmware methods. An administrator can allow one exact method.
+- In GitOps mode, the server refuses file uploads. File uploads do not have a pull-request path yet.
+- An audit log records each write, each method call, and each file upload.
+
+![Read, write, and critical write paths from Claude to a WAGO PLC](https://raw.githubusercontent.com/WagoAlex/wago-plc-mcp-server/main/docs/media/workflow-read-write-critical.svg)
+
+For the full rules, see [How it works](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/how-it-works.md).
+
+## Next steps
+
+| I want to... | Read |
+|---|---|
+| Connect many PLCs, install the WAGO skill, or watch the demos | [Claude Desktop and Claude Code](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/claude-desktop.md) |
+| Know what the server does on my PLCs | [How it works](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/how-it-works.md) |
+| Learn the internal operation step by step | [Learning page](https://wagoalex.github.io/wago-plc-mcp-server/how-the-server-works.html) ([Deutsch](https://wagoalex.github.io/wago-plc-mcp-server/how-the-server-works.de.html)) |
+| Run one server for a team | [Deployment](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/deployment.md) |
+| Review each change in a pull request before it goes to a PLC | [GitOps](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/gitops/README.md) |
+| Update firmware | [Firmware updates](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/firmware-updates.md) |
+| See what a firmware update needs on one page | [Firmware update overview](https://wagoalex.github.io/wago-plc-mcp-server/firmware-update-overview.html) ([Deutsch](https://wagoalex.github.io/wago-plc-mcp-server/firmware-update-overview.de.html)) |
+| See all HTML pages, in English and German | [Project pages](https://wagoalex.github.io/wago-plc-mcp-server/) |
+| Configure TLS, API keys, and the audit log | [Security](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/security.md) |
+| Find all tools and settings | [Reference](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/reference.md) |
+| Find an answer to a common question | [FAQ](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/faq.md) |
+
+**Supported devices:** CC100, PFC100 G2, PFC200 G2, PFC300, Edge Controller, WP400, and TP600.
+For the tested firmware versions, see [Supported hardware](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/docs/how-it-works.md#supported-hardware).
+
+## License
+
+[Mozilla Public License 2.0](https://github.com/WagoAlex/wago-plc-mcp-server/blob/main/LICENSE)
+

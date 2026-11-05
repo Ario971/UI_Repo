@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T12:39:28.921Z",
+  "updated_at": "2026-11-05T12:50:01.854Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Gauge – Open-Source CLI to recursively improve your docs",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/gauge-sh/gauge-cli",
+      "date": "2026-11-04",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I’m Evan from Gauge. We’re open-sourcing our CLI to recursively improve your docs for coding agents. The CLI includes a local execution backend, so you don't need an account to try it. Explainer video here: https://youtu.be/zhLUlIKB1Mg The CLI supports a hillclimbing loop: - set up tasks for coding agents that would need your docs, like 'set up Gau... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-04/06-show-hn-gauge-open-source-cli-to-recursively-improve-your-docs.md"
+    },
+    {
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.06910v1",
+      "date": "2026-11-04",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists base... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-04/07-frontierphysics-evaluating-agents-for-end-to-end-physics-research.md"
+    },
+    {
+      "title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.06866v1",
+      "date": "2026-11-04",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Agentic workflows enable AI agents to perform recurring repository tasks on schedules or in response to repository events. Existing studies examine workflow definitions and outputs, but provide limited evidence of what happens during execution. We present GH-AWTrace, a dataset linking 25,014 verified GitHub Agentic Workflows across 5,051 repositories to 4... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-04/08-gh-awtrace-a-large-scale-dataset-of-github-agentic-workflow-execution-.md"
+    },
+    {
+      "title": "CompressionBench: How can your coding agents compress LLMs?",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.06858v1",
+      "date": "2026-11-04",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a smaller model storage budget. We study whether coding agents can carry out this step autonomously. We formulate compression as a terminal t... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-04/09-compressionbench-how-can-your-coding-agents-compress-llms.md"
+    },
+    {
+      "title": "Show HN: FranklyMail, business email and workspace tools for $9/year",
+      "source": "Hacker News Show HN",
+      "url": "https://franklymail.com/",
+      "date": "2026-11-05",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: FranklyMail, business email and workspace tools for $9/year (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-05/10-show-hn-franklymail-business-email-and-workspace-tools-for-9-year.md"
+    },
+    {
+      "title": "Show HN: My compact, bio inspired distributed edge detection algorithm",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/RenderBear/haci",
+      "date": "2026-11-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I've been working on a bio / visual cortex inspired edge detection algorithm. I released a preliminary version a couple of months ago, and I've been improving it since. Benchmark scores currently sit midway between old-school (Canny, Sobel), and modern deep nets, while having the former's interpretability. I'm planning to develop this further for d... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-04/11-show-hn-my-compact-bio-inspired-distributed-edge-detection-algorithm.md"
+    },
+    {
+      "title": "AI Slop Is a Process Problem, Not a People Problem",
+      "source": "Continue Blog",
+      "url": "https://blog.continue.dev/ai-slop-team-sport",
+      "date": "2026-02-27",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "CI/CD shifted blame from people to process. AI code quality needs the same shift: systematic checks, not individual vigilance. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-02-27/12-ai-slop-is-a-process-problem-not-a-people-problem.md"
+    },
+    {
+      "title": "BigDaddy284/retro-ML-sandbox",
+      "source": "GitHub Search API",
+      "url": "https://github.com/BigDaddy284/retro-ML-sandbox",
+      "date": "2026-11-05",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A child-friendly machine learning sandbox that lets users train AI to play retro video games using simple rewards and penalties, without needing to code. Connect emulators, teach AI through gameplay and watch it learn. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-05/13-bigdaddy284-retro-ml-sandbox.md"
+    },
+    {
+      "title": "Qwen3.8 27B Q4 on my low-end Laptop, and it became my main Model usage for coding",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnzo38/qwen38_27b_q4_on_my_lowend_laptop_and_it_became/",
+      "date": "2026-11-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "my laptop is very old, like 20G of ram 4G Vram 256G NVMe Gen3 From samsung i7 8th gen on these specs i got around 0.67 - 0.77 token per second yes, extremely slow, most of you won't even like it, or use it but free APIs these days are rare, and extremely limited usage, and my country has banned worldwide transactions, so No Claude, No GPT, No Argon my onl... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-04/14-qwen3-8-27b-q4-on-my-low-end-laptop-and-it-became-my-main-model-usage-.md"
+    },
+    {
+      "title": "What are vector embeddings? An interactive guide",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo9vl3/what_are_vector_embeddings_an_interactive_guide/",
+      "date": "2026-11-05",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA I'm Abdur-Rahman Butler, a machine learning engineer at Isaacus. I made an interactive write-up that walks you through the A to Z of vector embeddings, inspired by Brendan Bycroft's incredible interactive LLM visualisation guide (see here - https://bbycroft.net/llm ). Most of my work is on encoder models, and I kept noticing how few good... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-05/15-what-are-vector-embeddings-an-interactive-guide.md"
+    },
+    {
+      "title": "I removed 85% of gemma's weights (and it is mostly fine)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/",
+      "date": "2026-11-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I pruned Gemma 4 26B-A4B, an MoE model, down to 15% of its original size, and the model still does great on one narrow task. It gets 92% agreement with the original on a classification task. That’s close to how often the 12B agrees with the 26B on the same ticks, which is 90%. This isn’t a model for general tasks, and tasks that require knowledge suffer b... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-04/16-i-removed-85-of-gemma-s-weights-and-it-is-mostly-fine.md"
+    },
+    {
+      "title": "New Qwen3.8-Flash-Next Unsloth Dynamic V3.1 GGUFs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnvbxn/new_qwen38flashnext_unsloth_dynamic_v31_ggufs/",
+      "date": "2026-11-04",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA ! We're releasing new new Unsloth Dynamic v3.1 GGUFs for Qwen3.8-Flash-Next! They're better by 10-15% accuracy on DeepSWE, Terminal Bench, Aider Polyglot and more vs GSQ-RCO. We also provide a new engram switching process for BF16, Q8_0, Q5_1, IQ4_NL switching for all quants! This builds upon our DeepSeek-V4.1-Flash UD3.1 work, which impr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-04/17-new-qwen3-8-flash-next-unsloth-dynamic-v3-1-ggufs.md"
+    },
     {
       "title": "Show HN: Modelpeers – a changelog for the AI models and agents you use",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "https://www.percepta.ai/blog/can-llms-grow-their-own-capabilities https://www.percepta.ai/blog/spotlight-memory \"Our new architecture, Spotlight, replaces attention with a memory that escapes this trade-off: it is the first architecture to achieve infinitely growing memory without increasing the access cost. Every token reads from and writes to an unbound... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/14-new-architecture-from-percepta-spotlight-separating-intelligence-from-.md"
-    },
-    {
-      "title": "mlsubgen — subtitles in 45 languages for your videos, entirely on your own machine",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwds6i/mlsubgen_subtitles_in_45_languages_for_your/",
-      "date": "2026-10-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Full disclaimer: I've leaned heavily on Fable to develop this, but I've tested it thoroughly on my own library for a couple of months before putting it on GitHub. I live in Thailand, and it started as a way to get Thai subtitles for Shin-chan for Thai friends and for expat friends with Thai partners. It's grown into a general tool: subtitles in 45 languag... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/15-mlsubgen-subtitles-in-45-languages-for-your-videos-entirely-on-your-ow.md"
-    },
-    {
-      "title": "FermionResearch/Phonon-2 Automatic Speech Recognition • Updated 1 day ago • 2.36k • 155",
-      "source": "Hugging Face Trending Models",
-      "url": "https://huggingface.co/FermionResearch/Phonon-2",
-      "date": "2026-10-03",
-      "topic": "Local LLMs",
-      "type": "paper",
-      "read": false,
-      "summary": "FermionResearch/Phonon-2 Automatic Speech Recognition • Updated 1 day ago • 2.36k • 155 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/16-fermionresearch-phonon-2-automatic-speech-recognition-updated-1-day-ag.md"
-    },
-    {
-      "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://news.ycombinator.com/item?id=49911500",
-      "date": "2026-09-30",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "A few months ago we started building a model router for coding agents because we thought we could outperform any single model with an ensemble approach. Recently we’ve achieved that milestone and I want to talk about how we did it. First of all, a quick explanation: the Weave Router ( https://github.com/weave-os/router ) plugs into any coding agent (e.g.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-09-30/06-show-hn-open-source-model-routing-for-coding-agents-at-astra-level-per.md"
-    },
-    {
-      "title": "Show HN: PhreshOS – OS for Web Apps",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/PhreshOS/system",
-      "date": "2026-10-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I'd like to share my experience building this system with you. It's an operating system for web applications, and it took me about six months to develop this model. The idea is that every time I build a web tool, I need to design the infrastructure, including authentication and communication. If it's a WebSocket, it's even more complicated; I need another... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/07-show-hn-phreshos-os-for-web-apps.md"
-    },
-    {
-      "title": "Show HN: Breadcrumb, record everything on your mac + context manager for AI",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://innerloop.works/breadcrumb",
-      "date": "2026-10-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm Justin. Breadcrumb records everything you do on your Mac (screen + meetings + AI transcripts + what you and your AI decided) and turns it into memory your AI can search. It's local and encrypted. You can also teach it rules by talking to it and it makes sure the right rules turn up in the right context. Works with Claude Code / Codex / Cursor /... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/08-show-hn-breadcrumb-record-everything-on-your-mac-context-manager-for-a.md"
-    },
-    {
-      "title": "Show HN: Premortem – AI agents that red-team your startup idea",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://premortem.site",
-      "date": "2026-10-01",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Premortem – AI agents that red-team your startup idea (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/09-show-hn-premortem-ai-agents-that-red-team-your-startup-idea.md"
-    },
-    {
-      "title": "Show HN: Bun-install – Global CLI installer for Bun with local monorepo support",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/joeycumines/bun-install",
-      "date": "2026-10-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, This is a CLI tool I initially built as a convenient and reliable way to install executable(s) from a local monorepo workspace into Bun's global package store. I had a local monorepo with workspace dependencies that needed to be installed as a whole. The commands aren't bundled, and I didn't want to manually manage dependencies. (If you want to tr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-01/10-show-hn-bun-install-global-cli-installer-for-bun-with-local-monorepo-s.md"
-    },
-    {
-      "title": "Show HN: Graphene – Data analysis toolkit for your coding agent",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/graphene-data/graphene",
-      "date": "2026-10-01",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "My friend and I have worked at a number of BI companies and thought: Can’t a coding agent do most of this now? Almost. They just need a context/semantic layer to ensure query correctness and some kind of artifact for publishing findings and visualizations. We built an open source project called Graphene that provides these tools: - Semantic layer that’s m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-01/11-show-hn-graphene-data-analysis-toolkit-for-your-coding-agent.md"
-    },
-    {
-      "title": "instl999/exam-scribe",
-      "source": "GitHub Search API",
-      "url": "https://github.com/instl999/exam-scribe",
-      "date": "2026-10-02",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ExamScribe：把教科书变成可信赖备考材料的 Agent Skill，每条陈述引用原文并逐条核实，支持扫描版 PDF 与多语言，中英双语文档。An Agent Skill that turns a textbook into exam-prep material you can trust: every claim cited and checked; scans and many languages supported. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/12-instl999-exam-scribe.md"
-    },
-    {
-      "title": "I \"built\" a local LLM radio like the Pharaohs built the pyramids",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvg5hn/i_built_a_local_llm_radio_like_the_pharaohs_built/",
-      "date": "2026-10-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "My local stack is a couple DGX Sparks, a 5090, and a 4070 TI. This radio site took three local LLMs, and we generate music, voices, and wacky sound effects. I give you https://pilgrim.farm It's a lot more farm than pilgrim. submitted by /u/jwhh91 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/13-i-built-a-local-llm-radio-like-the-pharaohs-built-the-pyramids.md"
-    },
-    {
-      "title": "Update #2: Post training yandex/AliceAI-80B-A3B [instruct!] from scratch",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wv5h8x/update_2_post_training_yandexaliceai80ba3b/",
-      "date": "2026-10-01",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Last update: https://www.reddit.com/r/LocalLLaMA/comments/1wu9ksu/update_yandexaliceai_80ba3b_fine_tune_progress/ - basically, an instruct fine tune on the base model using a synthetic distilled data set. I've been posting regular updates so I imagine at least a few people have seen this. Live stream: https://figure-bios-expect-cio.trycloudflare.com/ UPDA... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-01/14-update-2-post-training-yandex-aliceai-80b-a3b-instruct-from-scratch.md"
-    },
-    {
-      "title": "Update on the “Monstrosity”. 6 BC-250 board cluster",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wviphh/update_on_the_monstrosity_6_bc250_board_cluster/",
-      "date": "2026-10-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This is 6 bc-250 ex mining boards with 5 in the asrock 4u12g case they came in. After a lot of testing my current preferred setup is 4 boards running Qwen Next Flash IQ2_XS at 100k context with around 28 tok/s for short generation and 24 tok/s at 50k with around 115 ppt. The other two boards run 3.6 35b q4 at 60 tok/s with 100k context and 450 ppt. This i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/15-update-on-the-monstrosity-6-bc-250-board-cluster.md"
     }
   ]
 }

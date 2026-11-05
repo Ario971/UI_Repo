@@ -1,0 +1,12 @@
+---
+title: "New Qwen3.8-Flash-Next Unsloth Dynamic V3.1 GGUFs"
+source: "r/LocalLLaMA"
+url: "https://www.reddit.com/r/LocalLLaMA/comments/1xnvbxn/new_qwen38flashnext_unsloth_dynamic_v31_ggufs/"
+date: "2026-11-04"
+topic: "Local LLMs"
+type: "article"
+read: false
+summary: "Hey r/LocalLLaMA ! We're releasing new new Unsloth Dynamic v3.1 GGUFs for Qwen3.8-Flash-Next! They're better by 10-15% accuracy on DeepSWE, Terminal Bench, Aider Polyglot and more vs GSQ-RCO. We also provide a new engram switching process for BF16, Q8_0, Q5_1, IQ4_NL switching for all quants! This builds upon our DeepSeek-V4.1-Flash UD3.1 work, which impr... (Local summary fallback used.)"
+---
+
+Hey r/LocalLLaMA ! We're releasing new new Unsloth Dynamic v3.1 GGUFs for Qwen3.8-Flash-Next! They're better by 10-15% accuracy on DeepSWE, Terminal Bench, Aider Polyglot and more vs GSQ-RCO. We also provide a new engram switching process for BF16, Q8_0, Q5_1, IQ4_NL switching for all quants! This builds upon our DeepSeek-V4.1-Flash UD3.1 work, which improved over 10-20% accuracy vs others. All benchmarks are 256K for agentic ones, and 128K for the rest. We used temperature 1.0, top_p 0.95, top_k 20, min_p 0, no presence or repetition penalty. preserve_thinking and xhigh reasoning, and ran over 26B of tokens for benchmarking. Benchmarks are noisy so we did 26.2B tokens of benchmarking - DeepSWE accounted for 18.1B tokens of the total budget followed by Terminal Bench (5.2B tokens). We ran benchmarks multiple times including LiveCodeBench x3 times, HMMT and others 8-16x and agentic benchmarks multiple times. The engram switching process is described in https://unsloth.ai/docs/models/qwen3.8-next#mix-n-match-engrams with details on each precision and RMSE (error) below: file type size relative RMSE vs BF16 Qwen3.8-Flash-Next-engram-BF16.gguf_file BF16 102.4 GB 0 Qwen3.8-Flash-Next-engram-Q8_0.gguf_file Q8_0 54.4 GB 0.0053 Qwen3.8-Flash-Next-engram-Q5_1.gguf_file Q5_1 38.4 GB 0.0376 Qwen3.8-Flash-Next-engram-IQ4_NL.gguf_file IQ4_NL 28.8 GB 0.0757 All new UD 3.1 quants are at https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF Currently all smaller quants than UD-Q4_K_XL are updated - we might plan to update UD-Q4_K_XL and larger ones soon as well! More blog details and items at https://unsloth.ai/docs/models/qwen3.8-next#dynamic-v3.1-update-november-2nd-2026 submitted by /u/danielhanchen [link] [comments]
