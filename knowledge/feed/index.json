@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T12:50:01.854Z",
+  "updated_at": "2026-11-06T12:35:04.258Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Mantis – AI agents browse 36% faster than with Playwright MCP",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/perzianhq/mantis",
+      "date": "2026-11-06",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Mantis – AI agents browse 36% faster than with Playwright MCP (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-06/06-show-hn-mantis-ai-agents-browse-36-faster-than-with-playwright-mcp.md"
+    },
+    {
+      "title": "Show HN: Nico – a two-agent type personal agent on your Mac",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://nico.app/",
+      "date": "2026-11-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN. I'm Brian, I make Xmind, the most popular mind mapping app, since 2006. This is my new project Nico, a personal agent for the Mac. Every huge companies are building personal agents right now. The part I think matters most is the two-agent structure, so that's what Nico is built around. The front agent talks to you. Always available, only one sessio... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-05/07-show-hn-nico-a-two-agent-type-personal-agent-on-your-mac.md"
+    },
+    {
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.08483v1",
+      "date": "2026-11-05",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population div... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-05/08-swarmevolve-latent-agent-swarms-for-evolutionary-discovery-and-optimiz.md"
+    },
+    {
+      "title": "Enhancing Local and Global Structure in Compressed AI Agent Memory",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.08341v1",
+      "date": "2026-11-05",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents store text as embedding vectors and compress them at scale. A compression is accepted when each item's nearest neighbors survive, but agents also consolidate, delete, and compare memories, tasks that depend on which items lie far apart. We evaluate both ends with two label-free fidelities from our prior work: the local fidelity $L$ at 10 neighbo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-05/09-enhancing-local-and-global-structure-in-compressed-ai-agent-memory.md"
+    },
+    {
+      "title": "nodemode-dev/formcut",
+      "source": "GitHub Search API",
+      "url": "https://github.com/nodemode-dev/formcut",
+      "date": "2026-11-06",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "FormCut - instead of CapCut: the video editor from the FormAI family of apps. Multi-track timeline, one renderer for preview & export, grades, effects & transitions, local captions & cutout; agents edit over MCP. No account, no third-party uploading so you control where your media go. Free & open-source under Apache-2.0. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-06/10-nodemode-dev-formcut.md"
+    },
+    {
+      "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+      "source": "Hacker News Show HN",
+      "url": "https://www.linum.ai/field-notes/pjit-21k",
+      "date": "2026-11-04",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "My brother and I run a 2-person lab that trains our own generative video models from scratch. The ultimate goal is a set of creative tools that make it easier for anyone to make animation. Video models today are too slow/expensive and lack sufficient controls. Creativity is an iterative process. You make, you tweak, you get better. In our opinion, they're... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-04/11-show-hn-a-decent-text-to-image-model-trained-for-20k-apache-2-0-weight.md"
+    },
+    {
+      "title": "siddeshthoratrsystem/conversational_ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/siddeshthoratrsystem/conversational_ai",
+      "date": "2026-11-06",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "A Repo to setup conversational AI system with agent-core for BCG and PFG (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-06/12-siddeshthoratrsystem-conversational-ai.md"
+    },
+    {
+      "title": "Munna-jayprakash/FastClaim",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Munna-jayprakash/FastClaim",
+      "date": "2026-11-06",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Munna-jayprakash/FastClaim Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-06/13-munna-jayprakash-fastclaim.md"
+    },
+    {
+      "title": "Latest Open-Source Labs are gutting away cybersecurity and reverse-engineering capabilities",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/",
+      "date": "2026-11-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Kimi K3.1 and Tencent’s Hy4 are both gutting out cybersecurity, reverse engineering, and vulnerability-patching capabilities from their open-source models. This is becoming a really bad pattern across these latest Chinese open-weight models. If local models are stripped on their security data, we won't be able to properly audit our own code vulnerabilitie... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-06/14-latest-open-source-labs-are-gutting-away-cybersecurity-and-reverse-eng.md"
+    },
+    {
+      "title": "Following the 2026 U.S. elections, how do you think potential regulations on AI would affect local AI software?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8e3y/following_the_2026_us_elections_how_do_you_think/",
+      "date": "2026-11-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Democrats had huge wins in the 2026 midterm elections. That has caused tech stocks to plummet , as many candidates promised to regulate data centers and AI. What do you think this means for local AI in the United States? Will it benefit local AI software by forcing big companies to rely more on user hardware, or will overbearing safety regulations hinder... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-06/15-following-the-2026-u-s-elections-how-do-you-think-potential-regulation.md"
+    },
+    {
+      "title": "5070 Ti vs 2x48gb DDR5 RAM vs 2x24gb DDR5 RAM",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpb393/5070_ti_vs_2x48gb_ddr5_ram_vs_2x24gb_ddr5_ram/",
+      "date": "2026-11-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I’m trying to figure out what to upgrade first. I use the pc for hobby as well as work, work usually includes OCR batch jobs, quality assurance over scanning quality, extractions and so on, i use both online and offline models, usually the online ones to orchestrate the offline ones, so it depends on the task generally. I don't have a server, just a regul... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-06/16-5070-ti-vs-2x48gb-ddr5-ram-vs-2x24gb-ddr5-ram.md"
+    },
+    {
+      "title": "Made a fun tool using Steam tag data for finding game design ideas",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8dda/made_a_fun_tool_using_steam_tag_data_for_finding/",
+      "date": "2026-11-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey there ! Using a 100% local setup (Qwen3.8 FN + Strata + DeepSeek Harness on RX 9070XT + 64GB DDR4), I made a small open source tool to help with creativity for game dev using up-to-date Steam tag data. Everything is running statically in browser without any external dependencies, and the catalog is updated automatically every day. It also has addition... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-06/17-made-a-fun-tool-using-steam-tag-data-for-finding-game-design-ideas.md"
+    },
     {
       "title": "Show HN: Gauge – Open-Source CLI to recursively improve your docs",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I hosted my own world of warcraft private server then built a client that you can play in the browser on PC or mobile at https://jankcraft.xyz/ for free. Afterwards, I created a custom MCP and agent harness to control the browser client and play the game by sending signals over a websocket. The agent harness is live on https://jankcraft.xyz/agent , still... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/14-come-let-your-llms-play-world-of-warcraft.md"
-    },
-    {
-      "title": "The curse of 64GB system RAM",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx72ni/the_curse_of_64gb_system_ram/",
-      "date": "2026-10-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Not a bot. Not a Strata shill. Just sharing my experience. So, I have an R9700 in my machine, plus an RTX 5060 Ti, and 64GB DDR5 system RAM. Overall, not a bad setup. Anyway, I mainly run a daily driver local LLM on the R9700 while running image/video inference on ComfyUI on the 5060 Ti. Mostly shit like Minimax H3 which also takes a fuck-tonne of system... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-04/15-the-curse-of-64gb-system-ram.md"
-    },
-    {
-      "title": "Running Qwen3.8 Flash Next 176B on a 16GB RTX 3080 Laptop + 32GB RAM + SSD",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwwmy1/running_qwen38_flash_next_176b_on_a_16gb_rtx_3080/",
-      "date": "2026-10-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I wanted to see how far I could push a fairly ordinary laptop with a huge MoE model. Turns out, Qwen3.8 Flash Next 176B can run on: RTX 3080 Laptop — 16GB VRAM 32GB system RAM SSD No 128GB/256GB RAM workstation and no multi-GPU setup. I’m running it with TensorSharp , my open-source local LLM inference engine: TensorSharp on GitHub The interesting part fo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/16-running-qwen3-8-flash-next-176b-on-a-16gb-rtx-3080-laptop-32gb-ram-ssd.md"
-    },
-    {
-      "title": "[Discussion] A 5KB pure x86-64 assembly engine for Gemma-2B (FP16, 4.6 tok/s on CPU)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx5x1p/discussion_a_5kb_pure_x8664_assembly_engine_for/",
-      "date": "2026-10-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, Sharing a personal project exploring the minimal bare-metal footprint required to run an autoregressive LLM. Instead of relying on large runtimes or compiler abstractions, I wrote an inference engine for Gemma-2B entirely in flat x86-64 assembly (FASM): - **Binary footprint**: Total 5.2 KB flat machine code (`gemma_engine.bin` 3.7 KB + `mat_s... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-04/17-discussion-a-5kb-pure-x86-64-assembly-engine-for-gemma-2b-fp16-4-6-tok.md"
-    },
-    {
-      "title": "Show HN: Made an open-source Lego AI generator",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/anteloc/ldraw-nova",
-      "date": "2026-10-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi there :-) New on HN, first time posting. Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language. This LDraw is literally an \"assembly\" language, a low-level programming language that describes how to assemble LEGO pieces together into models, one placement instruction at a time. When ex... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/06-show-hn-made-an-open-source-lego-ai-generator.md"
-    },
-    {
-      "title": "Show HN: 80s Choplifter game ported to Vision Pro as an agent eval (WIP)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.bounds.dev/posts/rescue82-making-a-choplifter-style-game-for-apple-vision-pro/",
-      "date": "2026-10-03",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I’m bringing an old game into VR and writing down what I learn, including how coding agents work with each other and with me in a domain I’m less familiar with. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-03/07-show-hn-80s-choplifter-game-ported-to-vision-pro-as-an-agent-eval-wip.md"
-    },
-    {
-      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.02202v1",
-      "date": "2026-10-01",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/08-scholarcatalyst-a-benchmark-for-retrieving-papers-that-inspire-new-res.md"
-    },
-    {
-      "title": "Global Coherence: When Every Agent Is Right and the Team Is Still Wrong - A Local-to-Global Semantic Foundation for Multi-Agent Collaboration",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.02036v1",
-      "date": "2026-10-01",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents can each make locally valid decisions yet jointly produce an invalid result. We call this the global coherence problem: a failure of shared state, not merely of model intelligence. Our Observation-Aliasing Impossibility Theorem gives the exact boundary. A policy can guarantee a valid action exactly when all worlds producing the same observation... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/09-global-coherence-when-every-agent-is-right-and-the-team-is-still-wrong.md"
-    },
-    {
-      "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
-      "source": "Hacker News Show HN",
-      "url": "https://againstallodds.games/",
-      "date": "2026-10-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "We're a tiny indie studio, all with a background in the demoscene and for about 3 years now we're developing a space planet terraforming game called SEEDS - Echoes Beneath the Sands. Our protagonist Naxiah is stranded on a small, desolated planet. You're working for an intergalactic distributor of seeds and terraforming equipment, to kickstart new planets... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/10-show-hn-our-space-game-has-a-built-in-risc-v-emulator-that-runs-linux.md"
-    },
-    {
-      "title": "Show HN: Teacher Planner – A digital planbook with AI tools for teachers",
-      "source": "Hacker News Show HN",
-      "url": "https://teacherplanner.ai",
-      "date": "2026-10-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I built Teacher Planner to help teachers organize lessons and prepare classroom materials in one place. The digital planbook brings together lesson plans, units, schedules, and curriculum standards, with day, week, and month views, read-only sharing, and configurable print layouts. It supports English and Chinese, and you can try the planner as a g... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/11-show-hn-teacher-planner-a-digital-planbook-with-ai-tools-for-teachers.md"
-    },
-    {
-      "title": "haiik-q/dujiao-next-ji8",
-      "source": "GitHub Search API",
-      "url": "https://github.com/haiik-q/dujiao-next-ji8",
-      "date": "2026-10-03",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "haiik-q/dujiao-next-ji8 Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-03/12-haiik-q-dujiao-next-ji8.md"
-    },
-    {
-      "title": "Has anyone noticed this trend toward writing/speaking style among newer models (both open and closed models). They are trending toward information density and expanded vocabulary. It's not quite 'caveman speak' but trending that way.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwdsce/has_anyone_noticed_this_trend_toward/",
-      "date": "2026-10-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I've noticed a trend with most new models with regards to their writing style. They are creating a new style, and this seems common among them. It's very information-dense. Here is an example from GLM 5.3 Flash. I'm gonna be honest here and say that my prompt was kinda silly; my prompt was 'Why wouldn't you just name your Chinese restaurant 'Chinese Food'... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/13-has-anyone-noticed-this-trend-toward-writing-speaking-style-among-newe.md"
-    },
-    {
-      "title": "New Architecture from Percepta: Spotlight — separating intelligence from memory, allowing knowledge and skills to grow without changing the model's weights.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww09ab/new_architecture_from_percepta_spotlight/",
-      "date": "2026-10-02",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://www.percepta.ai/blog/can-llms-grow-their-own-capabilities https://www.percepta.ai/blog/spotlight-memory \"Our new architecture, Spotlight, replaces attention with a memory that escapes this trade-off: it is the first architecture to achieve infinitely growing memory without increasing the access cost. Every token reads from and writes to an unbound... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-02/14-new-architecture-from-percepta-spotlight-separating-intelligence-from-.md"
     }
   ]
 }
