@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T12:35:04.258Z",
+  "updated_at": "2026-11-07T11:23:57.499Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Waymark – A workflow engine that compiles jobs instead of replaying",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/piercefreeman/waymark",
+      "date": "2026-11-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone! @mozgiii and I have been working on Waymark for the better part of the last year. Waymark’s an open source durable execution library with similar functionality to Temporal or DBOS. I fell in love with durable execution a few years ago, after working at a company with a heavy pubsub architecture. In comparison to job orchestrators that force... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-05/06-show-hn-waymark-a-workflow-engine-that-compiles-jobs-instead-of-replay.md"
+    },
+    {
+      "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
+      "date": "2026-11-06",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi there :) Around a month ago, I released LDraw Nova, an agentic toolset for assembling LEGO CAD models by generating LDraw source code files. For more details, here's the Show HN post: https://news.ycombinator.com/item?id=49937916 From the comments, I got the impression that there was quite an interest in seeing not only AI-generated LEGO models, but al... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-06/07-show-hn-agents-infer-lego-mechanisms-from-sources-then-animate-them.md"
+    },
+    {
+      "title": "Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://adikshatriyag-crypto.github.io/aegis-kernel/",
+      "date": "2026-11-06",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-06/08-show-hn-aegiskernel-zero-trust-posix-runtime-for-ai-agents-in-0-016ms.md"
+    },
+    {
+      "title": "Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/zalando-incubator/agentic-identity-broker",
+      "date": "2026-11-06",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I’m Jan. I am co-author of the Agentic Identity Broker (AIB), an MIT-licensed OAuth2 broker in the Zalando Incubator, that lets a user give an AI agent scoped, revocable access to MCP services. The broker solves three major challenges that are especially relevant in corporate environments: (A) Enable users to delegate workloads to agents without pr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-06/09-show-hn-agentic-identity-broker-oauth-delegation-for-ai-agents.md"
+    },
+    {
+      "title": "indishmarketer/opencloudcrm",
+      "source": "GitHub Search API",
+      "url": "https://github.com/indishmarketer/opencloudcrm",
+      "date": "2026-11-07",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Self-hostable Next.js business site + CRM: blog, tools directory, courses, community, payments, email/WhatsApp marketing, and an admin console. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-07/10-indishmarketer-opencloudcrm.md"
+    },
+    {
+      "title": "tarzanz/mwi-combat-advisor",
+      "source": "GitHub Search API",
+      "url": "https://github.com/tarzanz/mwi-combat-advisor",
+      "date": "2026-11-07",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Milky Way Idle userscript: combat advisor and MWITools plan train (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-07/11-tarzanz-mwi-combat-advisor.md"
+    },
+    {
+      "title": "MoeDia/fedokawaii",
+      "source": "GitHub Search API",
+      "url": "https://github.com/MoeDia/fedokawaii",
+      "date": "2026-11-07",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Personal: minimal Fedora 44/45 Server → a retro pixel dwl Wayland desktop. Setup, theme, upkeep (Super+U) and the handbook. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-07/12-moedia-fedokawaii.md"
+    },
+    {
+      "title": "PLaMo 3 Translate - a pfnet Collection",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpysba/plamo_3_translate_a_pfnet_collection/",
+      "date": "2026-11-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Overview We have released the weights for PLaMo 3 Translate , our translation-specialized LLM, on Hugging Face. The models come in four sizes—0.8B, 2B, 8B, and 31B. Even the smallest 0.8B model outperforms existing translation-specialized LLMs, including models with more than 30 times as many parameters, in Japanese–English translation and translation bet... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-07/13-plamo-3-translate-a-pfnet-collection.md"
+    },
+    {
+      "title": "We are in the golden age of Local LLM",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/",
+      "date": "2026-11-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Q4 of 2026 has been astronomical for local LLM. Qwen’s 27B and Flash-Next models are pushing local AI further. and most importantly the upcoming Qwen 4 release. We’re getting closer to having frontier-level capabilities in models that WE can run. Break down : Unsloth’s new Dynamic v3.1 quants for Qwen Flash-Next/Qwen-27b, alongside ISTA-DASLab’s advanced... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-06/14-we-are-in-the-golden-age-of-local-llm.md"
+    },
+    {
+      "title": "Mirage: A 22 MB visual-language model that runs scene descriptions + object detection + OCR + segmentation + spatial relations analysis + extractions + decisions, in a single pass.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpm8mw/mirage_a_22_mb_visuallanguage_model_that_runs/",
+      "date": "2026-11-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey all, Henry from Cactus Compute here. We released Mirage, a small vision model for phones, wearables, robots and other consumer devices. Mirage runs scene descriptions, object detection, OCR, segmentation, spatial relations and decisions, with a 22 MB weights file. Our end-to-end measurements on a Samsung Galaxy S26 are 74 ms on the NPU and 107 ms on i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-06/15-mirage-a-22-mb-visual-language-model-that-runs-scene-descriptions-obje.md"
+    },
+    {
+      "title": "Oc-e-Non-v1: A language model that gets to the f*cking point",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpfhpm/ocenonv1_a_language_model_that_gets_to_the_fcking/",
+      "date": "2026-11-06",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Richard I of England was called \"Oc-e-Non\" ( Yes and No in Occitan) by some of contemporaries, supposedly because he used few words. Wouldn't it be nice if LLMs followed his shining example? Oc-e-Non-v1 is a tersified version of Qwen3-4B-Instruct-2507. It reduces Qwen's mean response length by 50%. Output examples \"What is 1+1?\" GPT-5.6 Terra (reasoning o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-06/16-oc-e-non-v1-a-language-model-that-gets-to-the-f-cking-point.md"
+    },
     {
       "title": "Show HN: Mantis – AI agents browse 36% faster than with Playwright MCP",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "I keep testing harness & model setups on real tasks: basic math, vision, computer use (reading emails, navigating stores) and coding. I created a benchmark and a leaderboard. You can see it here: https://airbench.ai/leaderboard?k=poL It measure capabilities (a % of sucess on the various tasks) and speed . For reference, Claude Code Opus 5.5 have a 100% (1... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/15-which-model-which-harness-i-have-data-for-you.md"
-    },
-    {
-      "title": "Lessons learned while building Apex-2",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy33az/lessons_learned_while_building_apex2/",
-      "date": "2026-10-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, thank you so much for all the interest in my model. It's more than I expected. Here is a short summary of the trial and error I went through while building Apex-2. 1. GPUs were always the bottleneck I planned to train on about 1T tokens, but in the end I could only train on about 80B. FineWeb-Edu alone is about 1.3T tokens, and I clearly unde... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/16-lessons-learned-while-building-apex-2.md"
-    },
-    {
-      "title": "DecisionTune 1.0: a 395M encoder that picks from your options offline, about 10 ms per short decision on MLX (Apache-2.0)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy3c0u/decisiontune_10_a_395m_encoder_that_picks_from/",
-      "date": "2026-10-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Disclosure: I made this. Sharing it here because it is fully local and small, and I want feedback from people who run models on their own machines. What it is: a 395M decision model (ModernBERT-large plus a 4 KB scoring head). You give it a state, a question and a list of options. It does one encoder pass and returns a probability for each option, or P(ye... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/17-decisiontune-1-0-a-395m-encoder-that-picks-from-your-options-offline-a.md"
-    },
-    {
-      "title": "Show HN: SuperLocalMemory 4.0 \"Governed Memory Operating System for AI Agents\"",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://arxiv.org/abs/2608.08253",
-      "date": "2026-10-04",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: SuperLocalMemory 4.0 \"Governed Memory Operating System for AI Agents\" (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-04/06-show-hn-superlocalmemory-4-0-governed-memory-operating-system-for-ai-a.md"
-    },
-    {
-      "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.01863v1",
-      "date": "2026-10-01",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers evidence using specialised tools and iteratively edits a Python script, Room... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/07-litereality-agent-an-agentic-system-for-interactable-3d-indoor-scene-r.md"
-    },
-    {
-      "title": "Temporal-Difference Learning for Dragonchess",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.01845v1",
-      "date": "2026-10-01",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Our research investigates how two adaptive AI methods, evolutionary transfer learning and TD(lambda), perform in the three-dimensional chess environment Dragonchess. The game challenges players with its unique board structure and computational load, making it an ideal setting to study how adaptive methods can update evaluation heuristics in novel environm... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-01/08-temporal-difference-learning-for-dragonchess.md"
-    },
-    {
-      "title": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/claude-frontier-academy",
-      "date": "2026-10-02",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/09-oct-2-2026-announcements-anthropic-invests-100-million-to-train-10-000.md"
-    },
-    {
-      "title": "Show HN: Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
-      "source": "Hacker News Show HN",
-      "url": "https://thoreaubasic.com/",
-      "date": "2026-10-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Thoreau BASIC started as a joke. I wanted a BASIC where I could type something ridiculous like: DIM A%(12000000000) …and have it actually work. Then I kept adding things. The result is Thoreau BASIC, a free x64 BASIC interpreter inspired by GW-BASIC, running both as a normal Windows program and directly on bare-metal UEFI without an operating system. Vers... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-03/10-show-hn-thoreau-basic-what-if-basic-hadn-t-gone-out-of-fashion.md"
-    },
-    {
-      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
-      "source": "Hacker News Show HN",
-      "url": "https://pipod.dev/",
-      "date": "2026-10-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "pi pod runs sessions of the pi coding agent in isolated sandboxes (\"pods\") on a server you run, in composable environments. ---- Since moving my company towards AI-native work, I have been really frustrated by the state of \"agentic engineering\" environments. Products by the labs (claude code, codex) lock you into a single provider for your tokens. Agnosti... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/11-show-hn-pi-pod-run-your-pi-coding-agent-in-sandboxes-on-your-own-serve.md"
-    },
-    {
-      "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
-      "source": "Hacker News Show HN",
-      "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
-      "date": "2026-10-02",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "(Edit: original URL was https://againstallodds.games/ , but we've switched it to https://againstallodds.games/blog/2026/10/03/our-risc-v-emul... in response to user requests for explanation.) We're a tiny indie studio, all with a background in the demoscene and for about 3 years now we're developing a space planet terraforming game called SEEDS - Echoes B... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-02/12-show-hn-our-space-game-has-a-built-in-risc-v-emulator-that-runs-linux.md"
-    },
-    {
-      "title": "Show HN: Revline – an AI web app that researches TikTok and Instagram for you",
-      "source": "Hacker News Show HN",
-      "url": "https://tryrevline.com/",
-      "date": "2026-10-03",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I build revline because i was trying to figure out how viral content works across tiktok and instagram, since i am mainly developer, i was confused about how to create content that gets me users. Actually going viral requires single founder ( me ) to upload 3-4 videos a day, brainstorming all the formats was not effective to do alone, so i build the agent... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-03/13-show-hn-revline-an-ai-web-app-that-researches-tiktok-and-instagram-for.md"
-    },
-    {
-      "title": "Come let your LLMs play World of Warcraft",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwqclz/come_let_your_llms_play_world_of_warcraft/",
-      "date": "2026-10-03",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I hosted my own world of warcraft private server then built a client that you can play in the browser on PC or mobile at https://jankcraft.xyz/ for free. Afterwards, I created a custom MCP and agent harness to control the browser client and play the game by sending signals over a websocket. The agent harness is live on https://jankcraft.xyz/agent , still... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-03/14-come-let-your-llms-play-world-of-warcraft.md"
     }
   ]
 }
