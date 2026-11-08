@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T11:23:57.499Z",
+  "updated_at": "2026-11-08T11:35:57.848Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,105 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/hedgerow-dev/coldframe",
+      "date": "2026-11-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake. To learn more about this I built a honeypot that resembled perfectly the Danfoss AK-SM 800A and Dixell XWEB interfaces. Both... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-07/06-show-hn-coldframe-a-honeypot-that-poses-as-a-supermarket-fridge-contro.md"
+    },
+    {
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://eyesrhythm.com/",
+      "date": "2026-11-07",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Profession like software engineer, mechanical / graphics designer takes a lot of strain on your eyes, observing minute details for hours and hours on screen can significantly reduce the blink rate which you might not even notice until it gets irreversibly painful, leaving you with dry eyes. I am already a victim of it, working 20 years as a research engin... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-07/07-show-hn-an-offline-desktop-companion-to-help-maintain-a-healthy-blink-.md"
+    },
+    {
+      "title": "Show HN: Spindle – a full-featured, type-safe web framework for OCaml 5",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/hyphatech/spindle",
+      "date": "2026-11-05",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Spindle is a multicore-by-design, eio-native web framework for modern OCaml. Its central idea is to provide an expressive, type-driven API and derive the rest: codecs, request validation, OpenAPI spec and frontend schemas (Zod and Melange). This keeps contracts in sync between server and client without maintaining separate definitions. The framework inclu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-05/08-show-hn-spindle-a-full-featured-type-safe-web-framework-for-ocaml-5.md"
+    },
+    {
+      "title": "Ayushsh1/nhava-sheva-customs-ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Ayushsh1/nhava-sheva-customs-ai",
+      "date": "2026-11-08",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "AI-powered document extraction and multi-document cross-check platform for customs brokerage and freight forwarding at Nhava Sheva. Extracts commercial invoices, packing lists, and bills of lading, highlights low-confidence values, flags discrepancies, and exports validated customs filing CSV. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-08/09-ayushsh1-nhava-sheva-customs-ai.md"
+    },
+    {
+      "title": "Show HN: Reges Town – a 3D city run by AI citizens, in the browser",
+      "source": "Hacker News Show HN",
+      "url": "https://regestown.com",
+      "date": "2026-11-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Reges Town – a 3D city run by AI citizens, in the browser (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-08/10-show-hn-reges-town-a-3d-city-run-by-ai-citizens-in-the-browser.md"
+    },
+    {
+      "title": "Valet: use local LLMs to manage your homelab (open source)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/",
+      "date": "2026-11-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "My favourite use case for local LLMs is running my homelab, because everything stays private (and it helps me justify the GPU lol) I wanted one dashboard to help me manage all of my services, so I made Valet. Live demo: https://demo.askvalet.dev Valet has a chat agent that works with any local or hosted model. It integrates with 185+ services and supports... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-07/11-valet-use-local-llms-to-manage-your-homelab-open-source.md"
+    },
+    {
+      "title": "Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
+      "date": "2026-11-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA ! I made this quick demo of how Observer can run local models to monitor anything with your phone! These are some crazy things I've monitored: When someone that's not me, approaches my car, send me a picture. When a bird is on the bird's nest, send me a telegram with the picture. When my washing machine is on the rinse cycle, call me. Whe... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-07/12-use-your-phone-to-monitor-anything-with-local-models-demo-of-my-open-s.md"
+    },
+    {
+      "title": "The Stylome bot is useless spam and should be removed",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqinb7/the_stylome_bot_is_useless_spam_and_should_be/",
+      "date": "2026-11-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've recently been seeing comments everywhere from the Stylome bot, which is also a mod in this sub. Every time it pops up to declare a comment was AI written I've gone in to check its confidence level, and it's always low. I decided to do a few tests myself and have Gemini rewrite some of my comments, Stylome said they were all human written with equally... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-07/13-the-stylome-bot-is-useless-spam-and-should-be-removed.md"
+    },
+    {
+      "title": "Anyone running local AI on 16GB vram?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqjenw/anyone_running_local_ai_on_16gb_vram/",
+      "date": "2026-11-07",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey everyone, Is anyone here running any useful AI agents, harnesses or toolings with local AI on 16GB vram? I'm currently setting up my system and I want to have a helper agent for daily tasks, a research agent to help me research topics, and a developer agent to help me with development. I already tried some harnesses like Goose, Hermes Agent and OpenCo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-07/14-anyone-running-local-ai-on-16gb-vram.md"
+    },
     {
       "title": "Show HN: Waymark – A workflow engine that compiles jobs instead of replaying",
       "source": "Hacker News Top + Show HN",
@@ -4315,105 +4414,6 @@
       "read": false,
       "summary": "Understanding and assessing natural hazards is essential for disaster preparedness and risk reduction. Recent advances in large language models have spurred growing interest in AI agents for hazard analysis, particularly their ability to integrate scientific data, models, and tools into automated workflows. However, effective automation requires agents to... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/06-hazardweaver-scientific-route-selection-for-hazard-analysis-agents.md"
-    },
-    {
-      "title": "Knowledge or Calculator? Decomposing the Skill Premium in Verifiable Financial Agent Workflows",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.03564v1",
-      "date": "2026-10-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Financial AI agents must do more than retrieve facts: investment workflows require correct quantitative execution, reliable use of procedural resources, and auditable structured outputs. We introduce FinSkillBench, an evaluation suite of 2,603 point in time episodes across 12 subtasks in portfolio construction, risk management, and fundamental analysis, w... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/07-knowledge-or-calculator-decomposing-the-skill-premium-in-verifiable-fi.md"
-    },
-    {
-      "title": "Persona Guardrail: A Production-Grade Defense Framework for Agentic Systems",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.03434v1",
-      "date": "2026-10-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large language model-based agents are increasingly deployed to perform domain-specific tasks by interacting with enterprise knowledge, tools, and external services. Existing runtime guardrails primarily target prompt injection and other attack-specific behaviors under a black-box threat model, but provide limited guarantees that agents operate within thei... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/08-persona-guardrail-a-production-grade-defense-framework-for-agentic-sys.md"
-    },
-    {
-      "title": "Lightweight, Rubric-Guided Trajectory Evaluation for Production AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.03315v1",
-      "date": "2026-10-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Trajectory evaluation is essential for improving the reliability of LLM-based agents, but production use makes it expensive to run repeatedly. Modern agents generate long traces containing tool calls, observations, retries, and external outputs, while not all raw tokens are equally useful for diagnosis. We present \\textit{LiteTrajEval}, a lightweight arch... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/09-lightweight-rubric-guided-trajectory-evaluation-for-production-ai-agen.md"
-    },
-    {
-      "title": "AngmarX-dev/LionOS",
-      "source": "GitHub Search API",
-      "url": "https://github.com/AngmarX-dev/LionOS",
-      "date": "2026-10-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "LionOS is an experimental operating system built from scratch with AI-assisted development, focused on learning low-level programming, kernel development, memory management, interrupts, paging, and system calls. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/10-angmarx-dev-lionos.md"
-    },
-    {
-      "title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
-      "source": "Hacker News Show HN",
-      "url": "https://astrohelm.app/",
-      "date": "2026-10-04",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN! As an amateur astronomer living in New York City, finding objects in the night sky has always been a huge challenge. I thought about using the smartphone's gyroscope and magnetometer, but the accuracy left a lot to be desired. Then I learned about plate solving: given a picture of the sky, we can determine exactly where in the sky the camera was... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-04/11-show-hn-astrohelm-use-your-phone-camera-to-aim-a-telescope-or-telephot.md"
-    },
-    {
-      "title": "mainbusiness/cs-team-screen",
-      "source": "GitHub Search API",
-      "url": "https://github.com/mainbusiness/cs-team-screen",
-      "date": "2026-10-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Customer-service team screen (Flask on Render) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/12-mainbusiness-cs-team-screen.md"
-    },
-    {
-      "title": "waniyaro/agent-reels-viewer",
-      "source": "GitHub Search API",
-      "url": "https://github.com/waniyaro/agent-reels-viewer",
-      "date": "2026-10-05",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Local-first multimodal video intelligence skill for AI agents (Claude Code, Antigravity, OpenClaw, Codex). Inspects, transcribes, zooms, and understands Instagram Reels, TikTok, YouTube Shorts, and local video. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-waniyaro-agent-reels-viewer.md"
-    },
-    {
-      "title": "From 1x3090 to 20 DGX Sparks: my house fuses were the first bottleneck",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxgm0h/from_1x3090_to_20_dgx_sparks_my_house_fuses_were/",
-      "date": "2026-10-04",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "​ From the first LLaMA 33B I knew I wanted that magic-like intelligence locally, mine, so nobody could take it away when I needed it. I bought a 3090 for my home PC. Then LLaMA 65B appeared and I was dazzled, it looked like it had all the knowledge in the world. I made two copies, one local and one on my Synology NAS RAID, so I'd never lose it, and bought... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-04/14-from-1x3090-to-20-dgx-sparks-my-house-fuses-were-the-first-bottleneck.md"
-    },
-    {
-      "title": "Which model, which harness? I have data for you.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy5bmy/which_model_which_harness_i_have_data_for_you/",
-      "date": "2026-10-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I keep testing harness & model setups on real tasks: basic math, vision, computer use (reading emails, navigating stores) and coding. I created a benchmark and a leaderboard. You can see it here: https://airbench.ai/leaderboard?k=poL It measure capabilities (a % of sucess on the various tasks) and speed . For reference, Claude Code Opus 5.5 have a 100% (1... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/15-which-model-which-harness-i-have-data-for-you.md"
     }
   ]
 }

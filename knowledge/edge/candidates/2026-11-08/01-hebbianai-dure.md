@@ -1,0 +1,229 @@
+---
+id: "hebbianai/dure"
+name: "hebbianai/dure"
+url: "https://github.com/hebbianai/dure"
+date: "2026-11-08"
+source: "awesome-mcp"
+category: "awesome_lists"
+kind: "agent_framework"
+compatibility: 94
+momentum: 77
+risk: 32
+integration_effort: 52
+expected_gain: 77
+composite: 76
+replacement_target: ""
+related_articles: [{"title":"Show HN: Omnara – Open-source alternative to Claude Managed Agents","date":"2026-10-21","topic":"AI agents","similarity":0.349,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"},{"title":"Show HN: shadowclone, skills learned from your coding agent corrections","date":"2026-10-13","topic":"AI agents","similarity":0.325,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"},{"title":"AIBeginnerX/oh-our-pi-desktop","date":"2026-10-20","topic":"AI dev tools","similarity":0.318,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"}]
+pros: ["Recently updated (2026-11-08)","Apache-2.0 license","46 GitHub stars","GitHub Actions/CI detected"]
+cons: ["README mentions telemetry/analytics"]
+readme_quality: 100
+has_ci: true
+has_tests: true
+setup_steps_count: 3
+dependency_files: [{"name":"package.json","summary":"package metadata could not be parsed"}]
+install_commands: ["git clone https://github.com/hebbianai/dure.git","pnpm install --frozen-lockfile","pnpm app:dev"]
+risk_flags: ["README mentions telemetry/analytics"]
+status: "new"
+---
+
+# hebbianai/dure
+
+Dure — every coding agent, one workspace across desktop and mobile.
+
+URL: https://github.com/hebbianai/dure
+
+## Why it matters
+You saved an article on 2026-10-21 about AI agents; this candidate overlaps with "Show HN: Omnara – Open-source alternative to Claude Managed Agents" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-11-08)
++ Apache-2.0 license
++ 46 GitHub stars
++ GitHub Actions/CI detected
+
+## Cons
+- README mentions telemetry/analytics
+
+## Repository Inspection
+README quality: 100/100
+CI detected: yes
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- package.json: package metadata could not be parsed
+
+Install commands found:
+- git clone https://github.com/hebbianai/dure.git
+- pnpm install --frozen-lockfile
+- pnpm app:dev
+
+Risk flags:
+- README mentions telemetry/analytics
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+<div align="center">
+
+<a href="https://www.dureai.dev/">
+  <img src="./public/readme/dure-logo.png" alt="Dure" width="88" height="88" />
+</a>
+
+# Dure
+
+### You lead.<br>Your agents work together.
+
+An **open-source workspace for AI coding agents**.<br>
+Coordinate Claude Code, Codex and Pi across projects and SSH hosts, with dedicated worktrees and code review built in.
+
+**[Download for macOS](https://www.dureai.dev/download/mac/)** &nbsp;·&nbsp; [Website](https://www.dureai.dev/) &nbsp;·&nbsp; [Documentation](https://docs.dureai.dev/en/introduction) &nbsp;·&nbsp; [X](https://x.com/hebbianai_) &nbsp;·&nbsp; [Discord](https://discord.gg/aTuRV6DXhb)
+
+<sub>Apple Silicon · Bring your own coding-agent CLIs and accounts</sub>
+
+**English** · [한국어](docs/readme/README.ko.md) · [简体中文](docs/readme/README.zh.md) · [日本語](docs/readme/README.ja.md) · [Español](docs/readme/README.es.md) · [Français](docs/readme/README.fr.md) · [Português](docs/readme/README.pt.md)
+
+<br>
+
+<a href="https://www.dureai.dev/#hero-film">
+  <img src="./public/readme/workspace-tour.webp" alt="Dure with Claude Code, Codex, Pi and a shell arranged in six panes, with projects and sessions in Spaces" width="960" />
+</a>
+
+**[▶ Watch Dure in 29 seconds](https://www.dureai.dev/#hero-film)** · [Download MP4](https://raw.githubusercontent.com/hebbianai/dure/main/public/readme/workspace-tour.mp4)
+
+<sub>Native app footage with live coding-agent CLIs in a sample project.<br>The GitHub issue list uses demo data. Recorded on a development build; the downloaded version may differ.</sub>
+
+</div>
+
+## Four ways to move work forward
+
+### Parallel agents, separate worktrees
+
+Start an agent with **⌘N** or from a GitHub issue. Choose its project and provider, and give independent editing tasks their own Git worktree and branch.
+
+[Start parallel work →](https://docs.dureai.dev/en/first-parallel-workflow)
+
+<a href="https://docs.dureai.dev/en/first-parallel-workflow">
+  <img src="public/readme/start-agent.png" alt="Choose the task, provider and dedicated-worktree option." width="880" />
+</a>
+
+<sub>Choose the task, provider and dedicated-worktree option.</sub>
+
+### Spaces for local and SSH work
+
+Group projects and sessions in Spaces. Split panes, move tabs and open separate windows while keeping local and SSH work in view.
+
+[Spaces and panes →](https://docs.dureai.dev/en/spaces-and-panes) · [SSH setup](https://docs.dureai.dev/en/remote-and-ssh)
+
+<a href="https://docs.dureai.dev/en/spaces-and-panes">
+  <img src="public/readme/pane-arrangement.png" alt="Arrange running agent panes in a sample project." width="880" />
+</a>
+
+<sub>Arrange running agent panes in a sample project.</sub>
+
+### Code review beside the conversation
+
+Inspect local diffs, including uncommitted changes and new files. Add comments to a file or line, send them to the linked agent, and review the next revision before combining work.
+
+[Review and feedback →](https://docs.dureai.dev/en/review-and-feedback)
+
+<a href="https://docs.dureai.dev/en/review-and-feedback">
+  <img src="docs/public/images/diff-review.png" alt="Inspect a sample project diff before adding review comments." width="880" />
+</a>
+
+<sub>Inspect a sample project diff before adding review comments.</sub>
+
+### Runs, schedules and agent coordination
+
+Launch tasks and schedule recurring work with the Dure CLI. CLI and MCP integrations carry progress messages, decision requests and completion reports between people and agents.
+
+```sh
+dure run --provider codex --worktree readme-review \
+  "Review the README against the code. Do not change files."
+dure ls
+```
+
+[CLI runs and schedules →](https://docs.dureai.dev/en/cli-and-automation) · [Messages and decisions](https://docs.dureai.dev/en/orchestration)
+
+## Supported agents
+
+**Claude Code · Codex · Pi · OpenCode · Gemini CLI · Kimi Code**
+
+Use your installed coding-agent CLIs and existing provider accounts. Model access, subscriptions and usage charges stay with your providers.
+
+Claude Code, Codex, OpenCode and Pi have structured-chat integrations where the installed runtime supports them. Terminal, history, resume and account features vary by provider. [Check provider capabilities →](https://docs.dureai.dev/en/providers)
+
+## Install and platform status
+
+| Platform | Current availability |
+| --- | --- |
+| macOS · Apple Silicon | [Official download](https://www.dureai.dev/download/mac/) |
+| Windows | Source available; native desktop validation and public installer pending. |
+| Linux | Source available; native desktop validation and public installer pending. |
+| iOS | [App Store](https://apps.apple.com/app/id6813029287) (iPhone; pairs with the macOS app). |
+| Android · ARM64 | [Download APK preview](https://github.com/hebbianai/hebbian-releases/releases/download/android-v0.1.4/Dure_0.1.4_android_arm64.apk) · Android 7.0+. Emulator-tested; physical-device validation pending. |
+
+For source builds and verification details, see the [platform development guide](CONTRIBUTING.md#platforms).
+
+### Start on your Mac
+
+1. **[Download Dure for macOS](https://www.dureai.dev/download/mac/)** on an Apple Silicon Mac. Open the disk image and move the app to **Applications**.
+2. Install and sign in to at least one supported coding-agent CLI. Follow the [installation guide](https://docs.dureai.dev/en/install), including its macOS security guidance.
+3. Open a familiar Git project in Dure. Press **⌘N** and start with one small task.
+
+<details>
+<summary>A few boundaries worth knowing</summary>
+
+- **Worktrees separate files, not permissions.** They are not security sandboxes; credentials, processes and network access are not isolated by a worktree. Changes can still conflict when combined.
+- **A running host matters.** Managed sessions can outlive the app window while the host process and machine remain running. A reboot ends the original process; recovery creates a replacement.
+- **Review still matters.** Check agent permissions, changes and verification results before accepting work. Account switching and remote-session behavior have provider and runtime limits.
+
+[Sessions and recovery](https://docs.dureai.dev/en/session-model) · [SSH](https://docs.dureai.dev/en/remote-and-ssh) · [Work-safety guidance](https://docs.dureai.dev/en/current-limits)
+
+</details>
+
+### Develop from source
+
+On an Apple Silicon Mac, install Git, Xcode Command Line Tools, the [pinned Node version](.node-version), and [rustup](https://rustup.rs/). Then run:
+
+```sh
+git clone https://github.com/hebbianai/dure.git
+cd dure
+corepack enable
+pnpm install --frozen-lockfile
+pnpm app:dev
+```
+
+This starts the development app and prepares its runtime and CLI. The first native build can take time. For local `.app` installation, tool setup, and Windows/Linux/iOS/Android instructions, see the [development installation guide](CONTRIBUTING.md#development-installation).
+
+## Open-source boundary
+
+Copyright (C) 2026 [Hebbian AI](NOTICE).
+
+The first-party desktop, mobile, runtime (including Hmux), CLI and service code published here is available under the [Apache License, Version 2.0 (Apache-2.0)](LICENSE); third-party components retain their licenses and notices. You may use, modify and redistribute the code under those licenses. Redistributions must keep the license, copyright notices and [NOTICE](NOTICE) file as Apache-2.0 requires. Versions released earlier under MIT or GPL-3.0-only remain available under those terms.
+
+The Dure name, logo, app icons and distinction between community and Hebbian AI official builds are covered by [TRADEMARK.md](TRADEMARK.md).
+
+Source licensing does not include access to operated services. Signing keys, deployment credentials and confidential business and operational records remain private.
+
+## Contributing
+
+Read the [contribution guide](CONTRIBUTING.md), follow our [Code of Conduct](CODE_OF_CONDUCT.md), or [report a bug or propose a feature](https://github.com/hebbianai/dure/issues/new/choose). For vulnerabilities, use the private channel in our [security policy](SECURITY.md).
+
+- **Release notes:** [GitHub Releases](https://github.com/hebbianai/dure/releases)
+- **Privacy and telemetry:** [Privacy and telemetry](https://docs.dureai.dev/en/privacy-and-telemetry)
+- **Community:** [Discord](https://discord.gg/aTuRV6DXhb)
+- **Support the project:** [Buy Me a Coffee](https://buymeacoffee.com/dureai)
+- **Updates:** [X · @hebbianai_](https://x.com/hebbianai_)
+
+---
+
+<div align="center">
+
+**You lead. Your agents work together.**
+
+[Download Dure](https://www.dureai.dev/download/mac/) · [Read the docs](https://docs.dureai.dev/en/introduction) · [dureai.dev](https://www.dureai.dev/) · [X](https://x.com/hebbianai_) · [Discord](https://discord.gg/aTuRV6DXhb)
+
+</div>
+
