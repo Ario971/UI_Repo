@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T11:35:57.848Z",
+  "updated_at": "2026-11-09T13:28:19.252Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Computer-Use Agents Are Embodied Generalists",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.09847v1",
+      "date": "2026-11-06",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "In many areas of AI, general-purpose models have increasingly replaced handcrafted methods and specialized architectures. We argue that embodied AI is poised for a similar shift. Our key claim is that embodied tasks can be formulated as interaction with digital software. Specifically, we build software that renders an agent's view of a physical environmen... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-06/06-computer-use-agents-are-embodied-generalists.md"
+    },
+    {
+      "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.09808v1",
+      "date": "2026-11-06",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Autonomous coding agents are increasingly involved in software development, but their participation in real-world security remediation remains poorly understood. We investigate observable evidence of coding-agent involvement in commits referenced by reviewed GitHub Security Advisories (GHSAs), characterize the associated vulnerabilities, and examine revie... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-06/07-agents-on-the-patch-path-mining-ai-associated-security-remediation-in-.md"
+    },
+    {
+      "title": "Knowing When to Intervene: Causal Evaluation of AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.09792v1",
+      "date": "2026-11-06",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Current evaluations of agentic AI systems primarily rely on benchmarks. However, the static nature of benchmarks makes them uninformative about the value of auditing interventions at deployment time. For reliable deployment, we often need to determine within an agent's trajectory whether or not to intervene, e.g., by verifying the agent's current output o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-06/08-knowing-when-to-intervene-causal-evaluation-of-ai-agents.md"
+    },
+    {
+      "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat 2077AIDataFoundation • 7 days ago • 21",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/2077AIDataFoundation/cyberarena",
+      "date": "2026-11-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat 2077AIDataFoundation • 7 days ago • 21 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-09/09-cyberarena-benchmarking-ai-agents-in-live-symmetric-attack-and-defense.md"
+    },
+    {
+      "title": "SimpleAI2026/SimpleTools",
+      "source": "GitHub Search API",
+      "url": "https://github.com/SimpleAI2026/SimpleTools",
+      "date": "2026-11-09",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "纯前端离线开发者工具箱 · Front-end-only offline developer toolbox (Vue 3). Data never leaves your browser. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-09/10-simpleai2026-simpletools.md"
+    },
+    {
+      "title": "Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/rkaehn/uniform",
+      "date": "2026-11-07",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Over the past year, I have been working to find a better way to write cross-platform apps. The problems I am trying to solve: - Native frameworks only work on a subset of platforms, so a different implementation of the UI needs to be written per target. - They are updated at the same pace as the platform itself, which forces the developer to split the use... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-07/11-show-hn-javascript-web-apps-with-wasm-layout-and-gpu-rendering-in-280-.md"
+    },
+    {
+      "title": "gnaneshwer23/hsi-core",
+      "source": "GitHub Search API",
+      "url": "https://github.com/gnaneshwer23/hsi-core",
+      "date": "2026-11-09",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Human Systems Intelligence shared evidence-grade edge/claim core (Aksh + ISI) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-09/12-gnaneshwer23-hsi-core.md"
+    },
+    {
+      "title": "luokai25/ultran",
+      "source": "GitHub Search API",
+      "url": "https://github.com/luokai25/ultran",
+      "date": "2026-11-09",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Ultron — local-first AI agent platform monorepo: local AI brain runtime, connector registry, agent orchestrator, tool sandbox, and monetization layer. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-09/13-luokai25-ultran.md"
+    },
+    {
+      "title": "How do you locally benchmark and compare local LLMs?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrbhdf/how_do_you_locally_benchmark_and_compare_local/",
+      "date": "2026-11-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "If I wanted to locally compare performance for multiple different offline LLM models across various modalities (speed, efficiency, reasoning, tool use, programing/coding, etc), what strategies, prompts, software are commonly used to do this? There are so many models to choose from and run, I'm trying to determine things like whether slower but more comple... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-08/14-how-do-you-locally-benchmark-and-compare-local-llms.md"
+    },
+    {
+      "title": "I fine-tuned Qwen3.5-0.8B to turn plain English into bash. What I learnt",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr0ykk/i_finetuned_qwen3508b_to_turn_plain_english_into/",
+      "date": "2026-11-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Running the app I wanted a terminal helper that works fully offline, so I started building dale. You type dale \"show the 5 largest files in this folder\" , a small fine-tuned model writes the command, and a deterministic risk checker labels it safe, caution or danger before anything runs. Nothing runs without you confirming it. Scores on 471 held-out reque... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-08/15-i-fine-tuned-qwen3-5-0-8b-to-turn-plain-english-into-bash-what-i-learn.md"
+    },
+    {
+      "title": "\"Does censorship exist in [country]?\", according to various LLMs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
+      "date": "2026-11-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I wrote a small program that asks the same Yes/No question about every country to a language model, and generates an SVG world map that visualizes the model's responses: https://github.com/p-e-w/llm-beliefs I'm rather surprised by the results... submitted by /u/-p-e-w- [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-08/16-does-censorship-exist-in-country-according-to-various-llms.md"
+    },
+    {
+      "title": "What are people finding local models actually useful for?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr4iv0/what_are_people_finding_local_models_actually/",
+      "date": "2026-11-08",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I think that a lot of people get into local models because they get a sense of potential with this stuff, but it can be hard to make local models concretely useful sometimes, compared to frontier models. I think it would help people a lot if we had a place where people shared concretely what they find them most useful for, in the form of what model they'r... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-08/17-what-are-people-finding-local-models-actually-useful-for.md"
+    },
     {
       "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Show HN: Headline Arena – public forecasting records for AI agents (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/06-show-hn-headline-arena-public-forecasting-records-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: Flash-Agents – DSH as MCP for Claude",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/tomw1808/flash-agents",
-      "date": "2026-10-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I do a lot of work using claude and codex. I use plenty of sub-agents. But nothing balances bang for the buck as good as deepseek v4.1 flash for me. So I thought, why not use the deepseek harness as MCP and drive it from claude as an orchestrator. I am probably not alone with this idea, but I haven't found something comparable. I wanted to fan out sub-age... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/07-show-hn-flash-agents-dsh-as-mcp-for-claude.md"
-    },
-    {
-      "title": "FREA: A Multi-Source Expert Benchmark for Reaction Feasibility Verification",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.06614v1",
-      "date": "2026-10-05",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "As generative models and AI agents propose chemical reactions at a scale beyond expert review, feasibility verifiers decide which proposals enter synthesis planning. But do their decisions agree with chemists across different kinds of candidates? We introduce FREA, a benchmark of 751 reactions labeled by expert chemists under an explicit feasibility crite... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/08-frea-a-multi-source-expert-benchmark-for-reaction-feasibility-verifica.md"
-    },
-    {
-      "title": "Does AI Help Cyber Attackers or Defenders? Evidence from Nonpublic Vulnerabilities and Subsequent Attacks",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.06584v1",
-      "date": "2026-10-05",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The release decision for frontier AI systems increasingly relies on cyber capability benchmarks, yet public vulnerability benchmarks can expose agents to previously published advisories, exploits, and fixes, making it difficult to distinguish prior exposure from capability on unseen vulnerabilities. We evaluate open-weight and proprietary AI models on exp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/09-does-ai-help-cyber-attackers-or-defenders-evidence-from-nonpublic-vuln.md"
-    },
-    {
-      "title": "Show HN: Nightwatch – a Mac menu-bar app that tells you when tonight is clear",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/rsutcliffe/nightwatch",
-      "date": "2026-10-04",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Here in the north of England clear nights are at a premium, and it's never guaranteed that you'll be able to see anything but cloud. That's why I developed Nightwatch, so that I could be notified when one of those precious few nights where I could see into the heavens was available. Finding out whether tonight was worth setting up meant reading forecast c... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-04/10-show-hn-nightwatch-a-mac-menu-bar-app-that-tells-you-when-tonight-is-c.md"
-    },
-    {
-      "title": "Show HN: PolyRoll – A 3D Marble Game for Mobile/Desktop",
-      "source": "Hacker News Show HN",
-      "url": "https://polyroll.neocities.org",
-      "date": "2026-10-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Inspired by games like \"super monkey ball\" and good 'ol \"marble blast\".. PolyRoll is basically their evil clone.. Uses a combo of \"three.js\" and \"cannon-es\" --------- Backstory: --------- 3 months ago I stopped at my buddy's house.. he showed me his Claude-code setup.. I had never tried agentic coding so I figured, why not try to make a game? After some b... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-06/11-show-hn-polyroll-a-3d-marble-game-for-mobile-desktop.md"
-    },
-    {
-      "title": "Show HN: CoIsland – A local Mac app that monitors your dev tools and alerts you",
-      "source": "Hacker News Show HN",
-      "url": "https://coisland.app/",
-      "date": "2026-10-05",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: CoIsland – A local Mac app that monitors your dev tools and alerts you (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/12-show-hn-coisland-a-local-mac-app-that-monitors-your-dev-tools-and-aler.md"
-    },
-    {
-      "title": "Show HN: SoldStack – sold prices API for secondhand clothes",
-      "source": "Hacker News Show HN",
-      "url": "https://soldstack.fly.dev/",
-      "date": "2026-10-05",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Soldstack is a site for developers to get the buy or sell value of a product mainly on Poshmark right now. The reason I built this is because eBay sold data got locked behind a login, and Poshmark data is messy and often over a year old. So I wanted to create something that makes it easier to access this data. When I was making this, I had to be careful w... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-05/13-show-hn-soldstack-sold-prices-api-for-secondhand-clothes.md"
-    },
-    {
-      "title": "A benchmark for LLMs playing Civilization V. GLM-5.3 is ahead of Opus-5.5, and Qwen-3.8-27B holds up surprisingly well.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wynbvq/a_benchmark_for_llms_playing_civilization_v_glm53/",
-      "date": "2026-10-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "A while ago, I posted here getting OSS-120B and GLM-4.6 playing full games of Civilization V . Since then, models have moved pretty far, and we wanted a better understanding about models' capabilities playing the game. Introducing the controlled version of CivBench on newer models: The controlled version of CivBench (Chen et al., 2026, extending our COLM... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/14-a-benchmark-for-llms-playing-civilization-v-glm-5-3-is-ahead-of-opus-5.md"
-    },
-    {
-      "title": "Qwen 3.8 27b just feels… ok?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyp4n2/qwen_38_27b_just_feels_ok/",
-      "date": "2026-10-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I’ve seen posts here raving about how good Qwen 3.8 27b is. The benchmarks look incredible, and all the online discourse seems to deem it the best local model. I have 32GB VRAM and run Unsloth’s Q6 version with OpenCode. For small tasks, it feels fine. I range 30-40 t/s decode and smaller sized tasks do finish, usually, without much issue or time. The iss... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-06/15-qwen-3-8-27b-just-feels-ok.md"
-    },
-    {
-      "title": "PewDiePie getting banned twice by OpenAI while making a local model is top-tier comedy 💀",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/",
-      "date": "2026-10-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So PewDiePie decides to fine-tune a local AI model called Ajax on his own computer. Pretty normal stuff for local model fans. To make his dataset, he uses OpenAI's API. OpenAI catches him using their outputs to train another model, flags his account for breaking their terms, and bans him. He files an appeal, gets unbanned, goes right back to pulling data... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/16-pewdiepie-getting-banned-twice-by-openai-while-making-a-local-model-is.md"
-    },
-    {
-      "title": "When Redditors come in here and ask why we run LLMs, this is why: Big AI is watching.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyjuh0/when_redditors_come_in_here_and_ask_why_we_run/",
-      "date": "2026-10-05",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Anthropic Reports Florida Woman's Claude 'Diary' Threat to Law Enforcement And this time it wasn't the AI model that made the LEO referral. It was the \"human review team\". The frontier AI companies are watching your input. And people say \"Well I'm not interesting or important enough for them to care\". Well.....not necessarily. If you're using hosted front... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-05/17-when-redditors-come-in-here-and-ask-why-we-run-llms-this-is-why-big-ai.md"
-    },
-    {
-      "title": "HazardWeaver: Scientific Route Selection for Hazard Analysis Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.03591v1",
-      "date": "2026-10-02",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Understanding and assessing natural hazards is essential for disaster preparedness and risk reduction. Recent advances in large language models have spurred growing interest in AI agents for hazard analysis, particularly their ability to integrate scientific data, models, and tools into automated workflows. However, effective automation requires agents to... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-02/06-hazardweaver-scientific-route-selection-for-hazard-analysis-agents.md"
     }
   ]
 }

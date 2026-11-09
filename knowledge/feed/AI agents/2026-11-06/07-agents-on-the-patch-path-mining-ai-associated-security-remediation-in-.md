@@ -1,0 +1,12 @@
+---
+title: "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories"
+source: "arXiv cs.AI/cs.CL/cs.LG"
+url: "https://arxiv.org/abs/2611.09808v1"
+date: "2026-11-06"
+topic: "AI agents"
+type: "paper"
+read: false
+summary: "Autonomous coding agents are increasingly involved in software development, but their participation in real-world security remediation remains poorly understood. We investigate observable evidence of coding-agent involvement in commits referenced by reviewed GitHub Security Advisories (GHSAs), characterize the associated vulnerabilities, and examine revie... (Local summary fallback used.)"
+---
+
+Autonomous coding agents are increasingly involved in software development, but their participation in real-world security remediation remains poorly understood. We investigate observable evidence of coding-agent involvement in commits referenced by reviewed GitHub Security Advisories (GHSAs), characterize the associated vulnerabilities, and examine review timing in relation to advisory disclosure routes. We develop a local-Git mining pipeline that identifies agent evidence through known agent accounts, explicit commit-message attribution, repository instruction files, and agent configuration artifacts. Linking these findings to GHSA-referenced commits yields 469 valid candidate advisories across 189 repositories, including 448 with direct attribution and 21 supported only by repository-level evidence. Claude is the most frequently observed tool family, followed by Copilot and Cursor. We further compare review timing against other advisories and historical baselines using an exact route--timing decomposition. Relative to advisories published in the same months, candidate advisories exhibit a modestly longer mean review lag, primarily associated with within-route timing rather than disclosure-route composition. Compared with a historical baseline, they exhibit substantially shorter mean review lags, with both route composition and within-route timing contributing to the difference. These findings demonstrate that coding-agent involvement is already observable across hundreds of security advisories and repositories, including high- and critical-severity vulnerabilities. By distinguishing direct attribution from repository-level adoption evidence and separating route-composition effects from within-route timing differences, we provide an empirical characterization of agent-associated remediation in the GHSA review pipeline.
