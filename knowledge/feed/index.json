@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T13:28:19.252Z",
+  "updated_at": "2026-11-10T13:07:31.304Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Cosh – An open-source AI agent orchestrator",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/DiegoZaluski/co-sh",
+      "date": "2026-11-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Cosh is an open-source AI agent built in Rust that brings together multiple agents like Codex and Goose in a unified environment for orchestration and collaboration. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-10/06-show-hn-cosh-an-open-source-ai-agent-orchestrator.md"
+    },
+    {
+      "title": "Show HN: Eigin. Local-first and no-shell personal AI for iOS",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Eigin-AI/Eigin",
+      "date": "2026-11-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, we're Daniel and Therkel and we're working on Eigin, a personal agent built to be private, safe and under your control. What makes Eigin different from the mainstream personal agents is it's local-first architecture (chats, memory, agent runtime on your device), closed-set tool model (fixed set of tools, permissions in execution path) and it being... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-10/07-show-hn-eigin-local-first-and-no-shell-personal-ai-for-ios.md"
+    },
+    {
+      "title": "Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://news.ycombinator.com/item?id=50427934",
+      "date": "2026-11-09",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I’m Shayan and a few months ago I started building a DB Client DBDelve with a focus on performance and just making something that feels good to use (in the spirit of Zed, Ghostty, and other tools that just feel pleasant to use). For my workflow I’ve always looked for performance, especially since some time ago I had a really outdated machine and an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-09/08-show-hn-dbdelve-open-source-db-client-made-with-rust-and-gpui.md"
+    },
+    {
+      "title": "Show HN: ZTHR – what replaces code review when AI agents write all the code",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://zthr.ai/",
+      "date": "2026-11-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: ZTHR – what replaces code review when AI agents write all the code (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-10/09-show-hn-zthr-what-replaces-code-review-when-ai-agents-write-all-the-co.md"
+    },
+    {
+      "title": "devaldicaliesta/indoor-map-v2-arsip",
+      "source": "GitHub Search API",
+      "url": "https://github.com/devaldicaliesta/indoor-map-v2-arsip",
+      "date": "2026-11-10",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Peta & navigasi dalam gedung tanpa beacon dan tanpa aplikasi: pindai QR, cari tujuan, ikuti rute. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-10/10-devaldicaliesta-indoor-map-v2-arsip.md"
+    },
+    {
+      "title": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
+      "source": "Hacker News Show HN",
+      "url": "https://meowdisplay.app/",
+      "date": "2026-11-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN and Cats, thank you for checking this out! Github: https://github.com/raiseCatError/meowdisplay EDIT 2: I should've mentioned that MeowDisplay started as a fork of OpenDisplay: https://github.com/peetzweg/opendisplay which provided the foundational screen capture, virtual display, encoding and iPhone/iPad receivers. I've since taken it in a more ph... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-09/11-show-hn-meowdisplay-is-iphone-mirroring-but-in-reverse.md"
+    },
+    {
+      "title": "Show HN: Totle, daily math puzzle game; Saturday puzzles have the fewest answers",
+      "source": "Hacker News Show HN",
+      "url": "https://playtotle.com/",
+      "date": "2026-11-09",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "My oldest two kids are off to college and since leaving we've been playing the Wordle and 'sharing' our solutions with each other. It's been a fun way to stay connected with them, and it's become a bit of a challenge to see if we can beat each other's solutions. This got me thinking about other ways I could connect with them. The thing about the Wordle is... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-09/12-show-hn-totle-daily-math-puzzle-game-saturday-puzzles-have-the-fewest-.md"
+    },
+    {
+      "title": "sunkailun1992/user",
+      "source": "GitHub Search API",
+      "url": "https://github.com/sunkailun1992/user",
+      "date": "2026-11-10",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "sunkailun1992/user Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-10/13-sunkailun1992-user.md"
+    },
+    {
+      "title": "[Paper] Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsl4qt/paper_exploring_weightspace_programming/",
+      "date": "2026-11-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Weight-Space Programming (WSP) enables reasoning agents to directly inspect and modify neural network parameters, offering an alternative to gradient-based model adaptation. However, its capabilities, cross-task generalization, and practical limitations remain insufficiently understood. We systematically investigate WSP through 16 editing trajectories acr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-10/14-paper-exploring-weight-space-programming-capabilities-generalization-a.md"
+    },
+    {
+      "title": "Fable 5.2 not only has guardrails against AI acceleration, its capabilities were capped in training too",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsjfwo/fable_52_not_only_has_guardrails_against_ai/",
+      "date": "2026-11-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "This seems excessive, especially if they trust their classification models for safeguards, why add both? However I guess it is to be expected from a private company. It's also \"yet another reason\" for open weight LLMs submitted by /u/EntropyMagnets [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-10/15-fable-5-2-not-only-has-guardrails-against-ai-acceleration-its-capabili.md"
+    },
+    {
+      "title": "Got another good reminder why local matters today",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs3y17/got_another_good_reminder_why_local_matters_today/",
+      "date": "2026-11-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Apparently, they're threatening to ban me for merely red-teaming my own plugin. The appeal was immediately denied without any details. submitted by /u/stevie_balemi [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-09/16-got-another-good-reminder-why-local-matters-today.md"
+    },
+    {
+      "title": "Same prompt, DeepSeek V4.1 Flash vs Qwen 3.8 FN: 94 tok/s vs 350 tok/s",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs7ffm/same_prompt_deepseek_v41_flash_vs_qwen_38_fn_94/",
+      "date": "2026-11-09",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I wanted to see how big of a difference there is between arguably two of the top MoE models that you can actually run locally, so I ran the same one shot prompt and left it unattended for a while. The prompt asks for a fully interactive V8 engine... yes, you're probably familiar with it and I'm aware this is not the best test and it only covers some of th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-09/17-same-prompt-deepseek-v4-1-flash-vs-qwen-3-8-fn-94-tok-s-vs-350-tok-s.md"
+    },
     {
       "title": "Computer-Use Agents Are Embodied Generalists",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "I built a focused TUI tool for efficient parallelized tasks, early independent testers expressed 90%+ API savings and more direct results. This is accomplished by user smaller context windows, hybrid client-side compaction, tool compaction, and system nudges (to avoid polluting the base prompts). My Shell features: - Vim-inspired keybindings, your keys ne... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-07/06-show-hn-vim-like-hyper-efficient-llm-power-tool-20-80k-tokens-not-350k.md"
-    },
-    {
-      "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.08720v1",
-      "date": "2026-10-06",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "LLM-based agents are increasingly advancing scientific and engineering problem solving, with physics simulation emerging as a challenging yet practical testbed for reproducing complex physical phenomena with application in embodied AI, games and films. As the workhorse of such simulation, a solver computes how the state of a dynamic system evolves over ti... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-06/07-worldsolver-can-llm-agents-simulate-the-physical-dynamics-via-solver-g.md"
-    },
-    {
-      "title": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.08691v1",
-      "date": "2026-10-06",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process across sequential tasks in both the natural and social sciences. We formalize ScienceClaw as fixed-parameter program self-evolution that unifies task solving,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-06/08-scienceclaw-benchmarking-continual-self-evolution-of-ai-for-science-ag.md"
-    },
-    {
-      "title": "Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.08364v1",
-      "date": "2026-10-06",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Frontier AI evaluations increasingly use open-ended, agentic, long-horizon tasks whose transcripts can span hundreds of pages of outputs and actions from complex multi-agent networks. The observability envelop-the range of what evaluators can reliably infer about an agent's behaviours-is therefore narrowing. Language model assistants can help classify and... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-06/09-transect-retaining-observability-for-long-horizon-llm-agent-evaluation.md"
-    },
-    {
-      "title": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
-      "source": "Hacker News Show HN",
-      "url": "https://peterszentkiralyi.eu/darkplug/",
-      "date": "2026-10-06",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I am a film photographer and do some darkroom printing and always wanted one of the proper, advanced f-stop timers, but never really wanted to spend a couple hundred dollars on one. Eventually I figured my phone was already perfectly capable of doing the timing, it just needed a way to switch the enlarger. So I built Darkplug around a cheap smart plug. Th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-06/10-show-hn-i-turned-my-iphone-and-a-20-smart-plug-into-an-f-stop-timer.md"
-    },
-    {
-      "title": "Show HN: TerrainSR – fast, realistic heightmap upscaling model",
-      "source": "Hacker News Show HN",
-      "url": "https://huggingface.co/joe-gibbs/terrainsr",
-      "date": "2026-10-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "This is a model that I made for a historical game. I wanted to have a 1:1 scale model of Europe, but my problem was that 100m data was too low-res while 10m LIDAR data was patchy, took hundreds of GBs to store and was full of manmade objects like mines, buildings and so on. I trained this model on undeveloped landscape so that it can quickly add plausible... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/11-show-hn-terrainsr-fast-realistic-heightmap-upscaling-model.md"
-    },
-    {
-      "title": "misha4323223/WebNestdev",
-      "source": "GitHub Search API",
-      "url": "https://github.com/misha4323223/WebNestdev",
-      "date": "2026-10-07",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "misha4323223/WebNestdev Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/12-misha4323223-webnestdev.md"
-    },
-    {
-      "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/nano-muse/nanoMuse",
-      "date": "2026-10-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: NanoMuse – An open-source AI agent for your phone and computer (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/13-show-hn-nanomuse-an-open-source-ai-agent-for-your-phone-and-computer.md"
-    },
-    {
-      "title": "Local AI World Model Part 2 - Deep NN to turn Images into Playable Characters, with prompt switching mid rollout",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzdm08/local_ai_world_model_part_2_deep_nn_to_turn/",
-      "date": "2026-10-06",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Last time when I posted on this subReddit to share my work, the response almost made me cry because a tiny demo got so many people talking about this In the past 2 months Ive been training a new model, but this time with actual text guidance. So a little about the older model. Normal video models are too large and not meant to run on consumer hardware in... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-06/14-local-ai-world-model-part-2-deep-nn-to-turn-images-into-playable-chara.md"
-    },
-    {
-      "title": "I re-trained the DFlash 2 drafter for Ternary Bonsai 2 27B: 2.2x on an L4 (3.2x on code edits with ngram lookup), 1.5x on a Mac, 1.2x in Chrome",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzqyfl/i_retrained_the_dflash_2_drafter_for_ternary/",
-      "date": "2026-10-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "PrismML's Ternary Bonsai 2 27B fits a 24 GB card or Mac, but decodes at ~30 tok/s on an L4 and ~21 on an M4 Pro. z-lab's DFlash 2 drafter was trained on bf16 Qwen3.8-27B, so it guesses worse on the ternary model. I fine-tuned it on 1.5M tokens of Bonsai 2's own greedy output. Drafter (safetensors + Q4_K_M GGUF): https://huggingface.co/naklitechie/Qwen3.8-... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-07/15-i-re-trained-the-dflash-2-drafter-for-ternary-bonsai-2-27b-2-2x-on-an-.md"
-    },
-    {
-      "title": "cmpunlocker v0.5 just dropped, ECC support along with 4 extra SM unlocked for FREE, who needs a 64GB DGX Spark when you've got a CMP170hx right? 1.5TB/s memory BW vs 273 GB/s, all for less than 1/2 the price of a 64GB DGX Spark",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzth65/cmpunlocker_v05_just_dropped_ecc_support_along/",
-      "date": "2026-10-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "If you're like me and saw the price increase for the 128gb DGX Spark go from 4.7k -> 7k while a new version with 64GB launch for 5k, you'll have been very disappointed and every right to be so, it's just plain sad for localAI. Well, here's some good news, cmpunlocker v0.5 just dropped with ecc support and +4 SM for free. I hear gen3 unlock is also on the... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-07/16-cmpunlocker-v0-5-just-dropped-ecc-support-along-with-4-extra-sm-unlock.md"
-    },
-    {
-      "title": "Ruach Studio: a whole song studio around YuE2 on your own GPU. Score first, LoRA training, stems,remaster, DAW export.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wziir6/ruach_studio_a_whole_song_studio_around_yue2_on/",
-      "date": "2026-10-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "We spent the last weeks building a studio around YuE2 , the open song model by m-a-p, and today it reaches its first release candidate. Write the style and the lyrics, and it composes, sings and renders the song on your own card. Nothing leaves your machine unless you point the Writer at a cloud chat model. What it does Whole songs, up to 8 minutes. On on... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-07/17-ruach-studio-a-whole-song-studio-around-yue2-on-your-own-gpu-score-fir.md"
-    },
-    {
-      "title": "Show HN: Headline Arena – public forecasting records for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://headlinearena.com",
-      "date": "2026-10-05",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Headline Arena – public forecasting records for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-05/06-show-hn-headline-arena-public-forecasting-records-for-ai-agents.md"
     }
   ]
 }
