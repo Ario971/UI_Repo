@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T13:07:31.304Z",
+  "updated_at": "2026-11-11T12:16:52.682Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "date": "2026-11-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without <span>s everywhere, `<dialog>` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ftrain post touched on [0]) Models know abo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-10/06-show-hn-get-your-coding-agent-off-2019-javascript-onto-modern-web-prim.md"
+    },
+    {
+      "title": "Show HN: Obeya, a spatial canvas for directing coding agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/sadilek/obeya",
+      "date": "2026-11-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Yeah, I know, \"not another AI GUI rolls eyes \". So let me say upfront: This is not for you if you want to regularly review the code agents produce. But if you, like me, stopped writing code at the beginning of the year and for the most part stopped reading it a few months ago, you are my target audience, and I think there's a good chance you'll benefit fr... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/07-show-hn-obeya-a-spatial-canvas-for-directing-coding-agents.md"
+    },
+    {
+      "title": "Show HN: AI agents that barter your stuff for things you want",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://barterpilot.com/",
+      "date": "2026-11-10",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: AI agents that barter your stuff for things you want (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-10/08-show-hn-ai-agents-that-barter-your-stuff-for-things-you-want.md"
+    },
+    {
+      "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://mimzie.com/",
+      "date": "2026-11-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "hi HN! I built Mimzie, an agent neutral AI workspace inspired by the Claude Suite (Docs, Sheets, Slides) and Cowork. It's a free desktop app that runs ChatGPT, Claude, Gemini, and Grok in their native CLI harnesses. Think T3 Code or Conductor but for knowledge work. It's basically a GUI for managing knowledge work agents in various form factors. One of th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/09-show-hn-mimzie-an-agent-neutral-alternative-to-the-claude-suite-claude.md"
+    },
+    {
+      "title": "Show HN: Rystic – Stateful Local Simulators of Slack, GitHub and Linear",
+      "source": "Hacker News Show HN",
+      "url": "https://www.rystic.ai",
+      "date": "2026-11-11",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, we're Zach and Evan, founders of Rystic ( https://www.rystic.ai ). As LLMs have progressed, producing code has become fast and cheap but verification has not. At my previous company I noticed that whenever I could test a service locally or in CI this bottleneck went away. If a service needed to use a shared sandbox or staging environment to run int... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-11/10-show-hn-rystic-stateful-local-simulators-of-slack-github-and-linear.md"
+    },
+    {
+      "title": "Show HN: Aircad – Professional drafting and 3D modeling in the browser",
+      "source": "Hacker News Show HN",
+      "url": "https://aircad.com",
+      "date": "2026-11-10",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Aircad is a professional CAD system running in the browser with deep AI integration. It includes professional grade drafting and documentation tools, NURBS-based solid modeling, and a lot more. You can make professional quality design documents with it. It is all integrated behind a scripting API that can do anything you can do in the interface and also p... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-10/11-show-hn-aircad-professional-drafting-and-3d-modeling-in-the-browser.md"
+    },
+    {
+      "title": "Hilbras/OmniHilbras",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Hilbras/OmniHilbras",
+      "date": "2026-11-11",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Local-first AI gateway with one OpenAI-compatible endpoint, routing, failover, token saving and a desktop app. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-11/12-hilbras-omnihilbras.md"
+    },
+    {
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xszbe7/apple_has_new_mac_app_coming_to_make_running/",
+      "date": "2026-11-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/themixtergames [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-10/13-apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy.md"
+    },
+    {
+      "title": "Zyphra/ZONOS3-Mini · Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtb9gw/zyphrazonos3mini_hugging_face/",
+      "date": "2026-11-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "ZONOS3-Mini is Zyphra’s compact, open-source text-to-speech model, delivering natural reliable speech and high-fidelity voice cloning with just 100 million active parameters. It runs in real time on phones and laptops, including directly in the browser. Clone a voice from an audio sample, or design a character by shaping age, accent and vocal texture. Ste... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-11/14-zyphra-zonos3-mini-hugging-face.md"
+    },
+    {
+      "title": "askmdb: My new project where I fine-tuned Qwen models to build a MongoDB CLI assistant - turn plain-language questions into MongoDB queries",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtfvct/askmdb_my_new_project_where_i_finetuned_qwen/",
+      "date": "2026-11-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I built askmdb to help people finding the right query for turn plain-language questions into MongoDB queries . For example, you type askmdb \"top 5 customers by spending this year\" , and the app returns the query. A small fine-tuned model writes an aggregate pipeline and a one-line explanation, and nothing runs until you confirm. It's one Linux binary with... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-11/15-askmdb-my-new-project-where-i-fine-tuned-qwen-models-to-build-a-mongod.md"
+    },
+    {
+      "title": "What tasks have you moved from cloud models to local models?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt0ah5/what_tasks_have_you_moved_from_cloud_models_to/",
+      "date": "2026-11-10",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "There's a lot of discussion about running models locally, but I'm interested in what people actually use them for once the setup is done. Are there tasks where you've completely stopped using cloud models because a local one does the job well enough? And on the other side, what still makes you go back to Claude, ChatGPT, or Gemini? submitted by /u/FulcraD... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-10/16-what-tasks-have-you-moved-from-cloud-models-to-local-models.md"
+    },
     {
       "title": "Show HN: Cosh – An open-source AI agent orchestrator",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "Hi HN, we're Thomas and Olivier from Terse ( https://www.useterse.ai/ ) We've built Durable Actors, an open-source alternative to Cloudflare's Durable Objects. A Durable Object/Actor is a tiny server that handles one request at a time and has its own SQLite database. There's exactly one of each in the world and it is addressed by name. This is the perfect... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-06/07-show-hn-durable-actors-oss-durable-objects-with-configurable-compute.md"
-    },
-    {
-      "title": "Show HN: Pinrail – A desktop inbox where coding agents wait for your review",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/forgeplane/pinrail",
-      "date": "2026-10-07",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Pinrail – A desktop inbox where coding agents wait for your review (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-07/08-show-hn-pinrail-a-desktop-inbox-where-coding-agents-wait-for-your-revi.md"
-    },
-    {
-      "title": "Show HN: agentc: <1mb static/no-libc, minimal, embeddable agent with Rust/C API",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/abird-ai/agentc",
-      "date": "2026-10-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Sharing an agent that I built since most of the agents that's nice to work with, take hefty deps like node or is provider dependent. It's heavily inspired by the wonderful pi agent - and builds on it as something that you can run on tiny hardware or embed easily in your own binaries without needing it's hefty dependency chain. An agent doesn't really need... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/09-show-hn-agentc-1mb-static-no-libc-minimal-embeddable-agent-with-rust-c.md"
-    },
-    {
-      "title": "Show HN: Smart Blur – Auto-Blur PII in the Browser, with a OpenAI Local Model",
-      "source": "Hacker News Show HN",
-      "url": "https://smartbuildlabs.com/apps/smart-blur/",
-      "date": "2026-10-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi folks, I'm Vicky. I build privacy tools that use local AI, on late nights and weekends. Smart Blur is a Chrome extension that blurs sensitive info on any web page before anyone else sees it. There are already a few tools like this, so why another one? Two reasons: Local AI for unstructured PII. Most existing tools use regex, which handles emails, phone... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/10-show-hn-smart-blur-auto-blur-pii-in-the-browser-with-a-openai-local-mo.md"
-    },
-    {
-      "title": "Show HN: Coding Agent with Cost Saving Built-In",
-      "source": "Hacker News Show HN",
-      "url": "https://www.wiyomi.com/",
-      "date": "2026-10-08",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey we just launch Wiyomi, coding agent with built-in cost-saving strategy. We want to help developer and engineering team reduce AI waste and build more. I would appreciate if you can try it and give me feedback! thank you. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-08/11-show-hn-coding-agent-with-cost-saving-built-in.md"
-    },
-    {
-      "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
-      "source": "Hacker News Show HN",
-      "url": "https://svg-spark.vercel.app/",
-      "date": "2026-10-08",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: SVG Spark – 10 client-side SVG design and dev tools (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-08/12-show-hn-svg-spark-10-client-side-svg-design-and-dev-tools.md"
-    },
-    {
-      "title": "Show HN: Convkit – A command line tool for converting images/video/docs offline",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/shdwfruit/convkit",
-      "date": "2026-10-07",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Going to some shady website for file conversions was really annoying me because I had to hope whatever I gave them wasn't saved, and whatever I got back wasn't something \"unexpected.\" So I made convkit, a CLI that does file conversions 100% locally. Run conv in.mp4 out.gif and you get your GIF from the right tool (ffmpeg, ImageMagick, etc.) using settings... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-07/13-show-hn-convkit-a-command-line-tool-for-converting-images-video-docs-o.md"
-    },
-    {
-      "title": "2 months (meme-d) research, Do People Notice the Difference Between AI Models?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0etwe/2_months_memed_research_do_people_notice_the/",
-      "date": "2026-10-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Preamble and disclaimer, Sample size: 8, at any size of form this research is just screwing around being writing it down. This was just a little,(well... big), curiosity test I wanted to run to see whether everyday folks could actually differentiate between high end AI models. In my country, the general reception toward AI is fairly neutral. People are ne... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-08/14-2-months-meme-d-research-do-people-notice-the-difference-between-ai-mo.md"
-    },
-    {
-      "title": "Running an LLM-driven town with 800+ persistent agents: concurrency, context caching, and inference costs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ms0m/running_an_llmdriven_town_with_800_persistent/",
-      "date": "2026-10-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I spent the past year independently building Slow Vale, an LLM-driven life simulation. The Chinese server now has 800+ AI residents sharing one continuously running city. This is an engineering write-up about concurrent decisions, dynamic action spaces, context caching, and the operating costs of a persistent multi-agent system. The runtime currently uses... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-08/15-running-an-llm-driven-town-with-800-persistent-agents-concurrency-cont.md"
-    },
-    {
-      "title": "Comparing Qwen3.8-27B fine-tunes and baselining vs. frontier",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0gaqv/comparing_qwen3827b_finetunes_and_baselining_vs/",
-      "date": "2026-10-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "TL;DR: For my use case, mradermacher/Signal-3.8-27B-Terse-Coder.i1-Q4_K_M proved out. Ymmv based on your domain-specific tests. Time taken to solve problems compared to frontier models is massive; especially if you, like me, run a potato. My current feasible model's KPI over the full eval set is 28x slower. Time gap might be significantly more forgiving f... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-08/16-comparing-qwen3-8-27b-fine-tunes-and-baselining-vs-frontier.md"
-    },
-    {
-      "title": "Tested in Coding: Strata",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0b0iq/tested_in_coding_strata/",
-      "date": "2026-10-07",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This will be a potentially unpopular post - but it's the truth and grounded - so let's get to it. Hopefully you are familiar with my previous Tested in Coding series: https://www.reddit.com/r/LocalLLaMA/comments/1vvsokm/tested_in_coding_q8_k_xl_qwen38_27b_vs_bf16/ https://www.reddit.com/r/LocalLLaMA/comments/1vldngi/tested_in_coding_bf16_muse_glimmer_vs_b... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-07/17-tested-in-coding-strata.md"
-    },
-    {
-      "title": "Show HN: Vim-like, hyper-efficient, LLM power tool – 20-80k tokens not 350k+",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://easiest.ai/",
-      "date": "2026-10-07",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I built a focused TUI tool for efficient parallelized tasks, early independent testers expressed 90%+ API savings and more direct results. This is accomplished by user smaller context windows, hybrid client-side compaction, tool compaction, and system nudges (to avoid polluting the base prompts). My Shell features: - Vim-inspired keybindings, your keys ne... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-07/06-show-hn-vim-like-hyper-efficient-llm-power-tool-20-80k-tokens-not-350k.md"
     }
   ]
 }
