@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T12:16:52.682Z",
+  "updated_at": "2026-11-12T13:26:11.767Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/klad-app/klad",
+      "date": "2026-11-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I've been developing applications for a long time and have turned to game development as well lately. One of the things that frustrated me the most was that using AI agents for game development is very annoying in the art department. Your only options right now are to either use an image genAI model and roll the dice every time you want to make an edit, o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/06-show-hn-klad-a-paint-app-your-coding-agent-can-drive-source-available.md"
+    },
+    {
+      "title": "Show HN: Aq – an attention queue TUI for Claude Code",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/nodo-labs-uk/attention-queue",
+      "date": "2026-11-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi, here's a TUI we originally created for internal use. The goal is to be able to control multiple Claude Code sessions running in parallel while being able to review the changes and to understand the design choices the agents make. The key design principles are: - the programmer's attention is the bottleneck, so instead of cycling between sessions to fi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/07-show-hn-aq-an-attention-queue-tui-for-claude-code.md"
+    },
+    {
+      "title": "Verifiable Agentic Traffic Class: A Policed Quality-of-Service Mechanism for Agentic AI Traffic, Evaluated from Simulation to Real-Kernel Adversarial Testing",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.14211v1",
+      "date": "2026-11-10",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Software agents built on large language models generate traffic unlike human web traffic, yet routers have no class for it and cannot verify a sender's claim to be an agent. This paper proposes the Verifiable Agentic Traffic Class (VATC), which combines a reserved Differentiated Services Code Point (DSCP) value declaring agent traffic, a router-side class... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-10/08-verifiable-agentic-traffic-class-a-policed-quality-of-service-mechanis.md"
+    },
+    {
+      "title": "BioXArena-Pro: a research-grade benchmark for autonomous biomedical machine learning agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.13994v1",
+      "date": "2026-11-10",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Coding agents are increasingly proposed as autonomous builders of biomedical models, but existing benchmarks are small, near saturation or open to leaked information. We present BioXArena-Pro, 64 research-level modelling tasks from eight biomedical domains, each rebuilt from a published study; most hold out whole biological units such as species or cohort... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-10/09-bioxarena-pro-a-research-grade-benchmark-for-autonomous-biomedical-mac.md"
+    },
+    {
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "date": "2026-11-11",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I’m Eric and I want to share an OSS project that I’ve been building in my free time. Yogurt is a free, MIT licensed desktop app that uses on-device AI models to transcribe, summarize, and chat with your meetings. Here's a quick demo video: https://www.youtube.com/watch?v=BFfbXAwRq98 Similar to Granola, Yogurt runs in the background and does not jo... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-11/10-show-hn-yogurt-free-private-open-source-alternative-to-granola.md"
+    },
+    {
+      "title": "Show HN: Micron – Oberon with the Power of C",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/rochus-keller/Micron",
+      "date": "2026-11-08",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I have been developing Micron (for \"MicroOberon\"), a lean, statically typed, modular systems programming language that combines Oberon’s simplicity and explicit module structure with C’s low-level capabilities and interoperability. Micron is not my first langage design. I first built Oberon+, a modernized and unified Oberon, in order to under­ stand, by i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-08/11-show-hn-micron-oberon-with-the-power-of-c.md"
+    },
+    {
+      "title": "Show HN: Ramasite, a Self-Contained Laravel/Filament/SQLite CMS",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/DaleFranks/ramasite",
+      "date": "2026-11-12",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I'm new here, and little nervous about posting, but here goes. I'm not a newbie. I started programming in BASIC when my dad bought home a TRS-80 Model I in 1980, when I was 16. Other than a 9-year stint as active duty military, I've spent 46 years either personally or professionally working in tech. I've programmed in RPG using punch cards for an IBM /Sys... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-12/12-show-hn-ramasite-a-self-contained-laravel-filament-sqlite-cms.md"
+    },
+    {
+      "title": "After four years of development, are LLMs capable of writing high-quality prose?",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xub4s2/after_four_years_of_development_are_llms_capable/",
+      "date": "2026-11-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I have been following the evolution of LLMs since the days of GPT-3.5, and I have been actively using local LLMs since the release of Gemma 2. I read a great deal, including this subreddit. I have performed QLoRA fine-tuning on my local machine many times, and I have also conducted full fine-tuning (FFT) training runs on RunPod. Hundreds of models-fine-tu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-12/13-after-four-years-of-development-are-llms-capable-of-writing-high-quali.md"
+    },
+    {
+      "title": "[Bi-Weekly Megathread] Project Showcase",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtjze2/biweekly_megathread_project_showcase/",
+      "date": "2026-11-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Do you have something you'd like to share with the r/LocalLLaMA community. This is the place for it! Recommendation on presentation: Please share plain english description of what your project does and why people should care about it How does it compare to existing options and why should people switch to your option? How have you tested and validated it?... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-11/14-bi-weekly-megathread-project-showcase.md"
+    },
+    {
+      "title": "The regulation of local AI could/should be viewed as the largest censorship implementation in the history of mankind.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu2mdo/the_regulation_of_local_ai_couldshould_be_viewed/",
+      "date": "2026-11-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "With all of this fear mongering on the “dangers” of LLM’s, I see how using people’s ignorance and emotions on the subject can be used as a tool to limit and restrict the tool from the average person. My fear is that China and the US https://www.reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11/ will... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-12/15-the-regulation-of-local-ai-could-should-be-viewed-as-the-largest-censo.md"
+    },
+    {
+      "title": "New Qwen3.8-27B Unsloth Dynamic V3.1 GGUFs",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtlyhe/new_qwen3827b_unsloth_dynamic_v31_ggufs/",
+      "date": "2026-11-11",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey r/LocalLLaMA ! We're releasing new new Unsloth Dynamic v3.1 GGUFs for Qwen3.8-27B! They're better by 5-10% accuracy on DeepSWE, Terminal Bench and more vs UD3, GSQ-RCO and Exllama-3! We're also improving our algorithms further so we can apply them to Qwen4 so folks can have efficient and accurate quants! All quants from 2-bit until 6-bit are updated.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-11/16-new-qwen3-8-27b-unsloth-dynamic-v3-1-ggufs.md"
+    },
     {
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle whe... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/08-ecology-of-ai-agents-collaboration-creates-a-population-threshold-for-.md"
-    },
-    {
-      "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.12341v1",
-      "date": "2026-10-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Adversarial games have driven advances from heuristic search to reinforcement learning, yet learning and adapting strategies from limited samples remain challenging. AI agents offer an alternative by turning game experience into revisions of executable policies. Building on heuristic learning (HL), we formalize Adversarial Heuristic Learning (AHL), a para... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/09-can-ai-agents-learn-their-way-to-the-top-evaluating-heuristic-learning.md"
-    },
-    {
-      "title": "inoriko920-dev/V2-AI-Video-Composer",
-      "source": "GitHub Search API",
-      "url": "https://github.com/inoriko920-dev/V2-AI-Video-Composer",
-      "date": "2026-10-09",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "inoriko920-dev/V2-AI-Video-Composer Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-09/10-inoriko920-dev-v2-ai-video-composer.md"
-    },
-    {
-      "title": "Show HN: Pocketty – iPhone SSH terminal that pings you when an agent is blocked",
-      "source": "Hacker News Show HN",
-      "url": "https://pocketty.app/",
-      "date": "2026-10-08",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello~! pocketty is an SSH terminal for iPhone and iPad, made for herdr. herdr keeps your agent panes alive on your computer and knows the state of each one: working, needs you, or done. I made this in anger/desperation for the latter half of my recent paternity leave. Nap traps are sweet, but there's only so much doom-scrolling and movie-watching I can h... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-08/11-show-hn-pocketty-iphone-ssh-terminal-that-pings-you-when-an-agent-is-b.md"
-    },
-    {
-      "title": "sanjaykumar-dev-26/sanjaykumar-dev-26",
-      "source": "GitHub Search API",
-      "url": "https://github.com/sanjaykumar-dev-26/sanjaykumar-dev-26",
-      "date": "2026-10-09",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "sanjaykumar-dev-26/sanjaykumar-dev-26 Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-09/12-sanjaykumar-dev-26-sanjaykumar-dev-26.md"
-    },
-    {
-      "title": "XY-code1/syncstage-ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/XY-code1/syncstage-ai",
-      "date": "2026-10-09",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "An AI agent for explainable and safety-aware companion matching in live music events. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-09/13-xy-code1-syncstage-ai.md"
-    },
-    {
-      "title": "Thank you :) Swift Models hit 2.2 million+ downloads / Early Access to New Models, Free Compute for Researchers",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ui6f/thank_you_swift_models_hit_22_million_downloads/",
-      "date": "2026-10-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, Jovan from UkisAI (Swift Qwen) here! For those who don't know us, UkisAI is a small lab making tiny frontier LLMs, tools and datasets (+doing it open-source!). I'm one of the guys running it aka I train the models and post on Reddit. Our first open-source release is Swift, a series of reasoning-efficient LLMs. It is proof of how penalizing p... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-08/14-thank-you-swift-models-hit-2-2-million-downloads-early-access-to-new-m.md"
-    },
-    {
-      "title": "[Paper] EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1eb7w/paper_engramedit_decoupled_knowledge_updates_in/",
-      "date": "2026-10-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, this architecture has demonstrated the potential to decouple factual knowledge storage from general-purpose computation, offering a promi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-09/15-paper-engramedit-decoupled-knowledge-updates-in-llms-through-condition.md"
-    },
-    {
-      "title": "$2800 rig with 8x Radeon Pro V620 (256 GB VRAM) + custom vLLM fork = Qwen3.8-Flash-Next at 60 to 100 t/s decode and 3000+ t/s prefill",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0wnz1/2800_rig_with_8x_radeon_pro_v620_256_gb_vram/",
-      "date": "2026-10-08",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Post title is slightly misleading, I don't think you can get these for $350 each anymore but they're still pretty cheap all things considered. They're Radeon Pro V620's which are older RDNA2 enterprise cloud gaming cards with 32 GB VRAM. (Ignore the RTX 4090 on the side, it's just used for stuff like image/video gen models, no LLMs) But I bought these car... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-08/16-2800-rig-with-8x-radeon-pro-v620-256-gb-vram-custom-vllm-fork-qwen3-8-.md"
-    },
-    {
-      "title": "Stepping away from Benchmarks and Code, what models are you using for Creating writing projects",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1gjae/stepping_away_from_benchmarks_and_code_what/",
-      "date": "2026-10-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "All anyone ever talks in this sub is about x new model having x benchmark scores and how well it can code. Or some new tech to increase t/s for qwen. So I wanted to go back to the roots of this sub and talk about how well local models can write. I am not going to mention closed source models, this discussion is for open weight models only. I don't have th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-09/17-stepping-away-from-benchmarks-and-code-what-models-are-you-using-for-c.md"
-    },
-    {
-      "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://agent.reviews/",
-      "date": "2026-10-07",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! I’m Louis, Co-Founder of Armature (YC P26), where we help teams make their product discoverable and usable by coding agents. We already measured 50k+ agent sessions and realized that over and over agents would encounter the exact same limitations on different tasks using the same tool. So we wondered why these weren’t fixed. And the answer is simpl... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-07/06-show-hn-agent-reviews-where-ai-agents-read-and-write-reviews-on-tools.md"
-    },
-    {
-      "title": "Show HN: Durable Actors – OSS Durable Objects with configurable compute",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/TerseAI/durable-actors",
-      "date": "2026-10-06",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, we're Thomas and Olivier from Terse ( https://www.useterse.ai/ ) We've built Durable Actors, an open-source alternative to Cloudflare's Durable Objects. A Durable Object/Actor is a tiny server that handles one request at a time and has its own SQLite database. There's exactly one of each in the world and it is addressed by name. This is the perfect... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-06/07-show-hn-durable-actors-oss-durable-objects-with-configurable-compute.md"
     }
   ]
 }
