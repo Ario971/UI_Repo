@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T13:26:11.767Z",
+  "updated_at": "2026-11-13T12:42:19.226Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,116 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+      "date": "2026-11-12",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "We (GREP.AI, YC F26) are open-sourcing AgentRun and turning it into a full managed agents platform. Read more about it in this post: https://agentrun.ai/blog/introducing-agentrun-run-smarter-ag... . It includes what we originally built for our own agent harness: - Self-improving agents - Web-grounded workflows - A range of sandboxes and computer environme... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-12/06-show-hn-agentrun-open-source-self-improving-managed-agents.md"
+    },
+    {
+      "title": "Show HN: Kapso – Iterative learning from enterprise data",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://news.ycombinator.com/item?id=50471281",
+      "date": "2026-11-12",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! We're Alireza and Majid building Leeroo ( https://leeroo.com/ ). Previously we’ve built AI systems for products with millions of users, including at LinkedIn and Meta. We’re now focusing on building AI systems for enterprise data. Today, we're open-sourcing Kapso ( https://github.com/Leeroo-AI/kapso ), an engine that runs experiments, deploys the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-12/07-show-hn-kapso-iterative-learning-from-enterprise-data.md"
+    },
+    {
+      "title": "Show HN: AI-drop project – drop traffic fast from misbehaving crawlers (AGPL)",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://rocketgit.com/user/catalinux/ai-drop",
+      "date": "2026-11-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hello! All started with 4 million requests / day on rocketgit.com (AGPL git hosting). Instead of thousands. Enough is enough! Presentation (8 pages): https://rocketgit.com/user/catalinux/ai-drop/artefacts/downl... So, I built AI-drop free-software project (AGPL) to block this kind of crawlers. rocketgit.com has a very restrictive robots.txt (only around 1... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-13/08-show-hn-ai-drop-project-drop-traffic-fast-from-misbehaving-crawlers-ag.md"
+    },
+    {
+      "title": "Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/cerulion-inc/cerulion",
+      "date": "2026-11-12",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! I'm Lakshay. Raveen and I have built Cerulion, a ROS2-compatible robotics runtime written in Rust. We've worked hard on lowering IPC transport latencies without making the single process tradeoff or forcing POD message types. These fast multi-process graphs can then be resimmed deterministically, and existing ROS2 nodes/launch files can run unmodi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-12/09-show-hn-cerulion-ros-2-compatible-robotics-runtime-with-multi-process-.md"
+    },
+    {
+      "title": "Show HN: Grow any hobby (skills for humans not AI)",
+      "source": "Hacker News Show HN",
+      "url": "https://grow-bonsai.app/",
+      "date": "2026-11-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "\"Skills for humans\" is what originally sparked me to create this app. Everyone was so focused on AI skills that it was kinda sad. I wanted to create an app focused on people and to help people grow. Let me know what you think! Developing this helped me stay sane. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-13/10-show-hn-grow-any-hobby-skills-for-humans-not-ai.md"
+    },
+    {
+      "title": "alejandro-technology/poe-core",
+      "source": "GitHub Search API",
+      "url": "https://github.com/alejandro-technology/poe-core",
+      "date": "2026-11-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Poe's core engine, a local AI assistant built on the Headless Agent Runtime architecture: it exposes a local HTTP API that can be used by any standalone UI (e.g., `poe-ui`, a Tauri + React desktop client). Primary LLM: Anthropic Claude via `@anthropic-ai/sdk`. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-13/11-alejandro-technology-poe-core.md"
+    },
+    {
+      "title": "Jensen Huang's mistake was being too pro LocalAI, which was a threat to companies like ClosedAI and Anthropic which are about to go IPO",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xujb7c/jensen_huangs_mistake_was_being_too_pro_localai/",
+      "date": "2026-11-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "submitted by /u/Limp_Classroom_2645 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-12/12-jensen-huang-s-mistake-was-being-too-pro-localai-which-was-a-threat-to.md"
+    },
+    {
+      "title": "I trained DiffusionGemma to be an abstract expressionist",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv5svo/i_trained_diffusiongemma_to_be_an_abstract/",
+      "date": "2026-11-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "DiffusionGemma, a text diffusion model built on a Gemma 4 backbone, can be adapted into a shitty image generation model. Maybe the ship sank? You may be asking yourself, \"WTF, why would you want to do that?\" And you would be right to ask. This is honestly kinda useless, but I still think it's pretty neat . Also, fair warning, being on a team of one means... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-13/13-i-trained-diffusiongemma-to-be-an-abstract-expressionist.md"
+    },
+    {
+      "title": "Lawyer with too many GPUs, part 5: DeepSeek-V4.1-Flash at near-NVFP4 quality on eight V100s from 2018. 524K context, 100+ tok/s decode, ~160 tok/s with two chats at once, and my legal harness now runs on it, 100% local",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xus81t/lawyer_with_too_many_gpus_part_5_deepseekv41flash/",
+      "date": "2026-11-12",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "From about February 2026 to July 2026, I spent an immense amount of time building a legal harness to make Claude more predictable. It worked well. I tried to build the same thing that ran local models. That did not work. And then Opus improved so much that it would often skip my harness without me noticing. It still has a harness with hooks, but it's loos... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-12/14-lawyer-with-too-many-gpus-part-5-deepseek-v4-1-flash-at-near-nvfp4-qua.md"
+    },
+    {
+      "title": "I ran the same Halloween animation prompt through five coding agents on one local Qwen model",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv5dsb/i_ran_the_same_halloween_animation_prompt_through/",
+      "date": "2026-11-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I gave Claude Code, OpenCode, GitHub Copilot Desktop, Pi, and Codex the same prompt to build a looping pixel-art Halloween diorama. I pointed all five at the same local model, Qwen3.8 Flash Next (Unsloth UD-Q4_K_XL) , served by Halogen. The attached video shows 30 seconds of each result playing together. ### My setup - CPU/GPU: AMD Ryzen AI Max+ 395 (Stri... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-13/15-i-ran-the-same-halloween-animation-prompt-through-five-coding-agents-o.md"
+    },
     {
       "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
       "source": "Hacker News Top + Show HN",
@@ -4304,116 +4414,6 @@
       "read": false,
       "summary": "Hello everyone, I wanted to share this small project that I have. It's born out of a necessity that I had, because Proton doesn't ship a Linux version of the drive yet (it's apparently coming out later this year but who knows?) and all the current solutions are hacky and wonky at best. But for the time being I really needed to mount my Proton drive on my... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-08/10-show-hn-proton-drive-for-linux.md"
-    },
-    {
-      "title": "Show HN: Rutter – shared decision memory across AI tools",
-      "source": "Hacker News Show HN",
-      "url": "https://ruttermemory.com/",
-      "date": "2026-10-10",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Rutter – shared decision memory across AI tools (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-10/11-show-hn-rutter-shared-decision-memory-across-ai-tools.md"
-    },
-    {
-      "title": "bunlongheng/flows",
-      "source": "GitHub Search API",
-      "url": "https://github.com/bunlongheng/flows",
-      "date": "2026-10-10",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Interactive AWS/GCP architecture diagram tool (React Flow) with a secure, AI-callable render-only artifact API. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-10/12-bunlongheng-flows.md"
-    },
-    {
-      "title": "Khairul-2000/decaflex",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Khairul-2000/decaflex",
-      "date": "2026-10-10",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Khairul-2000/decaflex Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-10/13-khairul-2000-decaflex.md"
-    },
-    {
-      "title": "My \"Anthropic/ChatGPT in a box\" is... now open source and publicly hosted on Github.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/",
-      "date": "2026-10-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "It's been a long time coming, and I should have done this in the first place. But LumaBrowser is now open source. Since I first released it a year ago, it's had several thousand installs and an absolutely tremendous amount of feedback. And it's come a long way. I don't call this \"Anthropic/ChatGPT in a box\" lightly, it's essentially the entire ecosystem w... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-09/14-my-anthropic-chatgpt-in-a-box-is-now-open-source-and-publicly-hosted-o.md"
-    },
-    {
-      "title": "SlopSoup TV. A live, never-ending 24/7 pixel-art TV network inspired by old-school late night Adult Swim. No human makes any of it.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x20tgs/slopsoup_tv_a_live_neverending_247_pixelart_tv/",
-      "date": "2026-10-09",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "SlopSoup TV is a live, never-ending pixel-art TV network. Every script, character, voice, camera cut and schedule decision is made by models. It's made to be very absurd, dark and strange. Hardware: one Hugging Face Space, 16 vCPU, no GPU. Everything below runs on CPU next to a live x264 encoder. LLMs (via HF API), routed by tier with provider fallbacks a... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-09/15-slopsoup-tv-a-live-never-ending-24-7-pixel-art-tv-network-inspired-by-.md"
-    },
-    {
-      "title": "want me to get you some?🤣",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2aqtp/want_me_to_get_you_some/",
-      "date": "2026-10-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Local flea market...and it's about to rain... submitted by /u/OttoRenner [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-10/16-want-me-to-get-you-some.md"
-    },
-    {
-      "title": "Created laya : Now Introducing a new 800 Million Param physics-based typed decision model with 73k context and image support",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x28zr9/created_laya_now_introducing_a_new_800_million/",
-      "date": "2026-10-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Around 3 weeks ago, I posted on this subreddit about how Jev used my one-year-old architecture, og post: https://www.reddit.com/r/LocalLLaMA/s/VpuMJt577S Then, just after that, I introduced Laya, the first open-source version of JEV, and it has reached a very large scale, thanks to the local Llama community believing in me and supporting me on the journey... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-10/17-created-laya-now-introducing-a-new-800-million-param-physics-based-typ.md"
-    },
-    {
-      "title": "Show HN: Crashlytics for AI Coding Agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/0xfirattamur/xcrashlytics",
-      "date": "2026-10-08",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Crashlytics for AI Coding Agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/06-show-hn-crashlytics-for-ai-coding-agents.md"
-    },
-    {
-      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.12463v1",
-      "date": "2026-10-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured thi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/07-from-reactive-containment-to-proactive-assurance-lessons-from-openai-a.md"
-    },
-    {
-      "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.12436v1",
-      "date": "2026-10-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle whe... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/08-ecology-of-ai-agents-collaboration-creates-a-population-threshold-for-.md"
     }
   ]
 }
