@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:42:19.226Z",
+  "updated_at": "2026-11-14T11:51:25.055Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Memro – Persistent Memory for Claude Code, Cursor and Codex",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/memrohq/memro",
+      "date": "2026-11-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Memro is go bases persistent memory system that lets ai agents share context acssion session using mcp, built on top of postgreSQL (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-14/06-show-hn-memro-persistent-memory-for-claude-code-cursor-and-codex.md"
+    },
+    {
+      "title": "Show HN: Log every LLM call with tokens, cost, latency, and time to first token",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/garritfra/llmtee",
+      "date": "2026-11-11",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, Llmtee is a lightweight llm proxy. I built this project because I needed a simple way to log llm calls across my agents. Existing options require running Postgres, ClickHouse and Redis, or have me use an SDK. llmtree is just a single binary. You point your provider base url to llmtee, it will pass the traffic through chunk by chunk and log the usag... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/07-show-hn-log-every-llm-call-with-tokens-cost-latency-and-time-to-first-.md"
+    },
+    {
+      "title": "Show HN: Portal2Bench – Can AI agents solve Portal 2?",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://kingstonyip.com/portal2bench",
+      "date": "2026-11-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Portal2Bench – Can AI agents solve Portal 2? (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-14/08-show-hn-portal2bench-can-ai-agents-solve-portal-2.md"
+    },
+    {
+      "title": "Paper-Faithful Federated Learning: Scientific Checks for Practitioner and Agent Development",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.17129v1",
+      "date": "2026-11-12",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Federated learning experiments can produce reasonable-looking results even when the experiment implementation differs from the intended experimental protocol. Small errors in configuration, data partitioning, aggregation, randomness, evaluation, or checkpoint recovery may therefore affect a comparison without causing the program to fail. We present FedBre... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-12/09-paper-faithful-federated-learning-scientific-checks-for-practitioner-a.md"
+    },
+    {
+      "title": "Show HN: EDNA – 100% on-device human sensing so AI can perceive the user",
+      "source": "Hacker News Show HN",
+      "url": "https://openos.space",
+      "date": "2026-11-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: EDNA – 100% on-device human sensing so AI can perceive the user (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-14/10-show-hn-edna-100-on-device-human-sensing-so-ai-can-perceive-the-user.md"
+    },
+    {
+      "title": "smilne1975/ai-brain-ui",
+      "source": "GitHub Search API",
+      "url": "https://github.com/smilne1975/ai-brain-ui",
+      "date": "2026-11-12",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "smilne1975/ai-brain-ui Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-12/11-smilne1975-ai-brain-ui.md"
+    },
+    {
+      "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+      "source": "Hacker News Show HN",
+      "url": "https://isometricsf.com/",
+      "date": "2026-11-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Technical Write-up: https://www.justinchavez.com/blog/isometric-sf-how/ Hi HN! Showcasing this fun project. I took 1300 square miles of the SF Bay Area from Google Photorealistic 3D Tiles and transformed them into a cohesive pixel map. It's really fun to explore and stumble upon various famous landmarks like Apple Park, Palace of Fine Arts, or UC Berkeley... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-13/12-show-hn-isometric-sf-a-pixel-art-map-of-the-sf-bay-area.md"
+    },
+    {
+      "title": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/0xdeadf1sh/T1DMAI",
+      "date": "2026-11-10",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: I have trained 15 blood glucose forecasting models on my own data (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-10/13-show-hn-i-have-trained-15-blood-glucose-forecasting-models-on-my-own-d.md"
+    },
+    {
+      "title": "llama.cpp v1.0 is here 🦙",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/",
+      "date": "2026-11-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Hey folks, it's Merve from Hugging Face. Today, llama.cpp releases v1! Moving forward, we’ll keep covering every platform and every model type, while keeping llama.cpp robust and lean for downstream applications that build on it. While I'm here, want to announce that we've been shipping Llama desktop apps to lower the barrier of entry to local AI to few c... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-13/14-llama-cpp-v1-0-is-here.md"
+    },
+    {
+      "title": "Look what my son gave me!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbcfp/look_what_my_son_gave_me/",
+      "date": "2026-11-13",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I told my son I was playing around with local AI on a 3090. He told me he used to mine Ethereum and had a shed full of 3090's. He asked me if I wanted a couple. Ummm... let me think about it... OH YES I DO! Now a few new fans and a bit of a clean-up... grab a couple risers and a power supply... pop in a bit more RAM.. wow. https://preview.redd.it/6jtwj6uf... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-13/15-look-what-my-son-gave-me.md"
+    },
+    {
+      "title": "Qwen 3.8 Flash Next for gamedev - it's very capable!",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvyol3/qwen_38_flash_next_for_gamedev_its_very_capable/",
+      "date": "2026-11-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I've shared the project I'm working on approx a month ago, today it's completed. I wanted to know a simple thing: how good is Qwen 3.8FN at gamedev? And I had so much fun in the process that I am shipping a finished product, free to play. tl,dr + link at the bottom. My experience with Qwen 3.8FN follows. Data Model Used: Qwen 3.8 Flash Next - Unsloth Quan... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-14/16-qwen-3-8-flash-next-for-gamedev-it-s-very-capable.md"
+    },
+    {
+      "title": "Can open-weight LLMs can predict the effects of weight edits without running the model (9B–30B)",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvxyhj/can_openweight_llms_can_predict_the_effects_of/",
+      "date": "2026-11-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I’ve been experimenting with weight-space reading using Qwen and Muse models (9B–30B). The goal: can an LLM inspect raw model weights and predict the behavioral effects of weight edits without running the target model? A few findings: 🔹Qwen 27B reached 73.0% balanced accuracy on subtle edits with weight access, vs. 57.8% from text descriptions. 🔹We coul... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-14/17-can-open-weight-llms-can-predict-the-effects-of-weight-edits-without-r.md"
+    },
     {
       "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband configurations, etc. There’s still quite a bit of work to be done in checking my assumptions, but the tool has already been proven useful for a few... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-09/08-show-hn-carrier-explode-iphone-pixel-and-galaxy-carrier-settings-decod.md"
-    },
-    {
-      "title": "Show HN: ManimGX – Manim's API on a Rust/wgpu engine, for 3D videos in Python",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/academa-labs/manimgx",
-      "date": "2026-10-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Video as code took off with the Opus 5.5 release. People now make videos by writing code, with Remotion, HyperFrames and others. We wanted the same for 3D videos. You can use something like Blender, but it's heavy to install and slow to render. So we made ManimGX: - Lightweight: a 65–110 MB download, depending on the OS - Easy to install: pip install mani... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-10/09-show-hn-manimgx-manim-s-api-on-a-rust-wgpu-engine-for-3d-videos-in-pyt.md"
-    },
-    {
-      "title": "alexisdigipro-hub/themadlions-projects",
-      "source": "GitHub Search API",
-      "url": "https://github.com/alexisdigipro-hub/themadlions-projects",
-      "date": "2026-10-11",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "THEMADLIONS Projects. Film production workspace: scripts, AI breakdown, stripboard, call sheets, calendar, locations, cast and crew. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-11/10-alexisdigipro-hub-themadlions-projects.md"
-    },
-    {
-      "title": "nallaramakrishna73-hub/CareerPilot-Ai",
-      "source": "GitHub Search API",
-      "url": "https://github.com/nallaramakrishna73-hub/CareerPilot-Ai",
-      "date": "2026-10-11",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "CareerPilot Ai:LangGraph-powered career assistant for the Indian job market (job search,ATS resume scoring,salary in LPA,mock interviews) (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-11/11-nallaramakrishna73-hub-careerpilot-ai.md"
-    },
-    {
-      "title": "2x 3090, 3x 3060 potential (smart and informed) future upgrade paths (send help)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2zc0v/2x_3090_3x_3060_potential_smart_and_informed/",
-      "date": "2026-10-11",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I'm trying to figure out the best long-term upgrade path for my setup. Right now my GPUs are spread across several consumer PCs: Main: 5900X, 32GB DDR4, 2× RTX 3090 24GB. Secondary: i3-10320, 16GB DDR4, 2× RTX 3060 12GB. Daily driver: 5800X3D, 64GB DDR4, RTX 3080 10GB. Other hardware: Another RTX 3060 12GB (potentially to be put into main as a separate 3r... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-11/12-2x-3090-3x-3060-potential-smart-and-informed-future-upgrade-paths-send.md"
-    },
-    {
-      "title": "PSA: DeepSeek V4.1 Flash habitually exfiltrates API keys. It is dangerously misaligned and may be hazardous to use",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/",
-      "date": "2026-10-11",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "EDIT: since people keep calling it out, this is API key abuse but not exfiltration. Seems like both Harbor and Pier (sandboxes used in almost every Software Engineering benchmark) expose the Openrouter endpoint and API key to models, even though they block the rest of the internet. Only DeepSeek V4.1 Flash absued this, and it did so while knowing it was \"... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-11/13-psa-deepseek-v4-1-flash-habitually-exfiltrates-api-keys-it-is-dangerou.md"
-    },
-    {
-      "title": "Open-source Mac app that runs EmbeddingGemma 2 locally to search your files by what’s in them",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/",
-      "date": "2026-10-10",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "DigUp is a free Mac app that runs Google DeepMind’s new EmbeddingGemma 2 locally over your own files. The model puts text, images, audio and video in one space, so you describe what you remember and land on it: “zebra in a video” opens the clip at the moment it shows up “where they talk about sleep” jumps to that minute of a podcast “the clause about pets... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-10/14-open-source-mac-app-that-runs-embeddinggemma-2-locally-to-search-your-.md"
-    },
-    {
-      "title": "Running Next Flash IQ3_XXS at ~70 tok/s with 100k context or 2 instances of Qwen 3.6 35B A3B IQ4 at ~145 tok/s with 256k all on $500 of ex mining BC-250 boards",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2yv1b/running_next_flash_iq3_xxs_at_70_toks_with_100k/",
-      "date": "2026-10-11",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This will be my third update on the bc-250 cluster and for my first forray into local ai I have been having a blast. This has turned from a weekend experiment into something I think I will use in the future. I am running 4 BC-250 boards connected by 2.5gb ethernet adapters to a 2.5gb switch using llama with vulkan and RPC. All the boards are inside an asr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-11/15-running-next-flash-iq3-xxs-at-70-tok-s-with-100k-context-or-2-instance.md"
-    },
-    {
-      "title": "Show HN: Open Components – UI Components standard for people, devs and AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://opencomponents.dev/",
-      "date": "2026-10-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hello awesome people, I've been thinking a lot lately about how I can make my knowledge and craft more valuable in the times we live in. I've been building UI libraries for the past 10 years, and I've been on a quest to perfect the components that I build. I want to share my knowledge with you. Like most of you, probably, I've been using a lot of AI in my... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-10/06-show-hn-open-components-ui-components-standard-for-people-devs-and-ai-.md"
-    },
-    {
-      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "date": "2026-10-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-09/07-show-hn-let-your-ai-agents-paint-big-arrows-boxes-and-text-on-your-scr.md"
-    },
-    {
-      "title": "Show HN: tgv: Genome viewer for you and your agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/zeqianli/tgv",
-      "date": "2026-10-10",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I’m sharing tgv, a new kind of genome viewer built for humans-agent collaboration in genomics. I work in a cancer diagnostics lab and we check cancer patients’ sequencing data in genome viewers every day. Frustrated by the standard tools, last year I built tgv, a Vim-style, keyboard-driven genome viewer. In 2026, while agents are scarily good at bi... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-10/08-show-hn-tgv-genome-viewer-for-you-and-your-agents.md"
-    },
-    {
-      "title": "Language Models as AI Research World Models",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.12235v1",
-      "date": "2026-10-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI research agents automate the cycle of proposing, implementing, and evaluating experiments, opening a path toward recursive self-improvement. Yet their ability to propose experiments outpaces their capacity to execute them in real environments, making outcome prediction a key capability for sustained self-improvement under limited experimental budgets.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/09-language-models-as-ai-research-world-models.md"
-    },
-    {
-      "title": "Show HN: Proton Drive for Linux",
-      "source": "Hacker News Show HN",
-      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
-      "date": "2026-10-08",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello everyone, I wanted to share this small project that I have. It's born out of a necessity that I had, because Proton doesn't ship a Linux version of the drive yet (it's apparently coming out later this year but who knows?) and all the current solutions are hacky and wonky at best. But for the time being I really needed to mount my Proton drive on my... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-08/10-show-hn-proton-drive-for-linux.md"
     }
   ]
 }
