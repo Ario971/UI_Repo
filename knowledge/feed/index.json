@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T11:51:25.055Z",
+  "updated_at": "2026-11-15T12:21:08.900Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://gitlab.com/snipedbywifi/terminactory",
+      "date": "2026-11-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-14/06-show-hn-a-terminal-native-idle-factory-game-written-in-rust-with-ratat.md"
+    },
+    {
+      "title": "Show HN: Shotoku – Local-first action governance and budget caps for AI agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.shotoku.dev/",
+      "date": "2026-11-14",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Shotoku – Local-first action governance and budget caps for AI agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-14/07-show-hn-shotoku-local-first-action-governance-and-budget-caps-for-ai-a.md"
+    },
+    {
+      "title": "Designing Institutions for Autonomous AI",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.17114v1",
+      "date": "2026-11-12",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "As autonomous AI agents increasingly interact in persistent populations, their collective capabilities and alignment depend not only on individual models, but also on the institutions governing their interactions. Yet AI research has largely focused on individual agents. In this Perspective, we argue that institutional design must become a distinct focus... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-12/08-designing-institutions-for-autonomous-ai.md"
+    },
+    {
+      "title": "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.17015v1",
+      "date": "2026-11-12",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Artificial intelligence (AI) is changing how biological research is done. Biological foundation models trained on millions of nucleotides, protein, and single-cell measurements predict protein structures, mutation effects, and cellular responses to genetic perturbations. Agentic systems, AI assistants built on large language models, can run multistep anal... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-12/09-ai-for-biologists-the-knowledge-boundaries-of-foundation-models-in-the.md"
+    },
+    {
+      "title": "Show HN: Carton Clock – A working pendulum clock made from empty drink cartons",
+      "source": "Hacker News Show HN",
+      "url": "https://www.niklasroy.com/carton-clock/",
+      "date": "2026-11-13",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "After my last trash clock ( https://news.ycombinator.com/item?id=49930439 ), I wanted to see how low I could go. My latest clock is built mainly from empty drink cartons, plus a few skewers, some paper straws, a piece of string, some nuts as weights, and lots of hot glue. It has a pendulum, an escapement, and hands for seconds, minutes, and hours, and run... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-13/10-show-hn-carton-clock-a-working-pendulum-clock-made-from-empty-drink-ca.md"
+    },
+    {
+      "title": "Show HN: Can a VPN be decentralised.. I think it's the best for homelabs",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/CLoaKY233/kith",
+      "date": "2026-11-15",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Can a VPN be decentralised... I was trying out tailscale for my homelab but I didn't really want a control plane. Tailscale, Headscale and others already do the Controlled VPN extremely well, and I've used them. but every one of them has a control plane that all the devices directly connect to. I wanted something where every device in the network can act... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-15/11-show-hn-can-a-vpn-be-decentralised-i-think-it-s-the-best-for-homelabs.md"
+    },
+    {
+      "title": "sakkshm/switchboard",
+      "source": "GitHub Search API",
+      "url": "https://github.com/sakkshm/switchboard",
+      "date": "2026-11-15",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Graph based MCP gateway that compiles tasks into ordered tool chains without context bloat. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-15/12-sakkshm-switchboard.md"
+    },
+    {
+      "title": "bhuvaneshmp15-glitch/Farm-Call",
+      "source": "GitHub Search API",
+      "url": "https://github.com/bhuvaneshmp15-glitch/Farm-Call",
+      "date": "2026-11-15",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Real-time multilingual voice AI & multi-agent platform for rural farmers. Features sub-800ms latency (Tamil/English), 6 autonomous MCP microservices (disease diagnosis, weather alerts, mandi rates, WPI price forecasting), and AES-256 PII encryption. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-15/13-bhuvaneshmp15-glitch-farm-call.md"
+    },
+    {
+      "title": "Hot take: frontier models haven’t actually become much smarter",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwegdi/hot_take_frontier_models_havent_actually_become/",
+      "date": "2026-11-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I know this is a controversial take, but I would like to hear others’ opinions: LLMs have become much more useful, but I’m not convinced their “raw intelligence” has improved nearly as much as their overall performance suggests. Context: I work with LLMs as a SWE, as a hobbyist experimenting with local models, and professionally integrating AI into produc... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-14/14-hot-take-frontier-models-haven-t-actually-become-much-smarter.md"
+    },
+    {
+      "title": "RASA will cause total chaos to open LLMs and beyond",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/",
+      "date": "2026-11-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Commerce Moves to Finalize Rule Blocking Chinese AI Firms From Renting Nvidia GPUs Abroad https://explainx.ai/blog/commerce-final-rule-chinese-ai-firms-remote-nvidia-chips-the-information-2026 House Passes Remote Access Security Act to Limit Adversaries’ Remote Access to Critical Technology https://www.cmtradelaw.com/2026/01/house-passes-remote-access-sec... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-15/15-rasa-will-cause-total-chaos-to-open-llms-and-beyond.md"
+    },
+    {
+      "title": "Finally clicked for me: local AI is the future, not cloud AI",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwf8bb/finally_clicked_for_me_local_ai_is_the_future_not/",
+      "date": "2026-11-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Maybe this is kind of obvious to others, but it just dawned on me even though I've been lurking this sub since the original LLaMA. I was watching this (excellent, as always) video by Gamers Nexus. Steve Burke was bashing on Tim Sweeney (CEO of Epic Games) for being so pro AI, and I found myself feeling a bit of cognitive dissonance. On the one hand I hate... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-14/16-finally-clicked-for-me-local-ai-is-the-future-not-cloud-ai.md"
+    },
+    {
+      "title": "Qwen3 4B / 8B / 14B at ~2.7 bits per weight with Leech lattice quantization. Beats IQ2_S on quality at the same size, loses on speed [open source, Rust + CUDA]",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwerbo/qwen3_4b_8b_14b_at_27_bits_per_weight_with_leech/",
+      "date": "2026-11-14",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "https://preview.redd.it/dfiyzcvakn1i1.png?width=2356&format=png&auto=webp&s=41301d5648563b26353cba70079fb6afcd9bf329 hi r/LocalLLaMA , I've been working for a while on an independent Rust implementation of LLVQ, the Leech lattice quantization paper from Qualcomm ( arXiv:2603.11021 ), with my own CUDA kernel to actually run the result. Three Qwen3 models a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-14/17-qwen3-4b-8b-14b-at-2-7-bits-per-weight-with-leech-lattice-quantization.md"
+    },
     {
       "title": "Show HN: Memro – Persistent Memory for Claude Code, Cursor and Codex",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this gap, we propose RATED (Reliability-Aware Tool Retrieval via Execution Dynamics), a retrieval framework that combines robust semantic mat... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-09/08-rated-reliability-aware-ai-agent-tool-retrieval-via-execution-dynamics.md"
-    },
-    {
-      "title": "A Baseline Assessment for the Agentic Web Technology Stack",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.13703v1",
-      "date": "2026-10-09",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The fast pace in which protocols, frameworks, and technologies are being proposed for LLM-based agents results in a complex scenario for anyone aiming to create state-of-the-art AI solutions. Without an assessment on how different protocols, frameworks, and libraries work together to compose an Agentic Web solution, developers and organizations face diffe... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-09/09-a-baseline-assessment-for-the-agentic-web-technology-stack.md"
-    },
-    {
-      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/SaarthurR/atticus-mac",
-      "date": "2026-10-12",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is an incredibly fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that simple tasks, like opening apps, playing a Spotify playlis... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-12/10-show-hn-atticus-hold-to-talk-voice-assistant-for-macos-that-runs-on-cl.md"
-    },
-    {
-      "title": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/swimmingbrain/brainotes",
-      "date": "2026-10-11",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "In August, I posted here about TeXbrain, a LaTeX editor that runs completely in the browser, with no need for an account or server. (I didn't excpect it to get that much feedback, bug reports and help from here!) This is the same idea for the other half of my studies, the handwritten notes. I take them on a convertible laptop, and I've had a hard time wit... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-11/11-show-hn-brainotes-handwritten-notes-on-your-lecture-pdfs-in-a-browser-.md"
-    },
-    {
-      "title": "travel-albums-ai/geoson-nodes",
-      "source": "GitHub Search API",
-      "url": "https://github.com/travel-albums-ai/geoson-nodes",
-      "date": "2026-10-12",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "travel-albums-ai/geoson-nodes Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-12/12-travel-albums-ai-geoson-nodes.md"
-    },
-    {
-      "title": "Show HN: Preloop – GitHub Actions locally in microvms and SSH/pause failures",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/preloopdev/preloop",
-      "date": "2026-10-12",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Preloop – GitHub Actions locally in microvms and SSH/pause failures (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-12/13-show-hn-preloop-github-actions-locally-in-microvms-and-ssh-pause-failu.md"
-    },
-    {
-      "title": "[META] What's with the RP bot accounts?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3iu7f/meta_whats_with_the_rp_bot_accounts/",
-      "date": "2026-10-11",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "You know, the bot accounts that are always like a month old with like Here's some examples I've found in a few minutes: https://www.reddit.com/r/LocalLLaMA/comments/1x2rgfv/comment/pf7599j/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button https://www.reddit.com/r/LocalLLaMA/comments/1x38cvw/comment/pf917lv/?utm_sourc... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-11/14-meta-what-s-with-the-rp-bot-accounts.md"
-    },
-    {
-      "title": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
-      "date": "2026-10-11",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "It's been 4 years since c.ai first hallucination model, and yet, we're nowhere good enough at LLMs in terms of spontaneity/interesting hallucination features. Fortunately, last year brought new architecture that allow those within 10-16GB VRAM range to run something usable up to 64k Context Windows via Kobold or LLAMA. Requirements: 10-16GB VRAM - 26-32GB... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-11/15-every-model-that-can-be-run-on-10-16gb-vram-ranked.md"
-    },
-    {
-      "title": "Any takers for local llm? NVIDIA’s CUDA Moat Is Accelerating RTX Spark Laptop Sales, Higher 128GB Unified Memory Options Belonging To Surface Laptop Ultra Already Out Of Stock",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ykyb/any_takers_for_local_llm_nvidias_cuda_moat_is/",
-      "date": "2026-10-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Cheapest one I see at MC is the asus pro-art version for 6499. https://www.microcenter.com/product/715662/asus-proart-p14-14-wqxga-120hz-oled-laptop submitted by /u/chemist_slime [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-12/16-any-takers-for-local-llm-nvidia-s-cuda-moat-is-accelerating-rtx-spark-.md"
-    },
-    {
-      "title": "I made an open-source AI leaderboard that shows the best models your machine can run",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3wp8c/i_made_an_opensource_ai_leaderboard_that_shows/",
-      "date": "2026-10-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, I made whatmodel.sh To use it, Enter your RAM and GPU See what models you can run locally with its rank and the command to run it Compare them with API models on the same score Building it made me realise a 32GB Mac can now run a model that scores on-par with GPT-5, completely locally and for free (e.g. Qwen3.8 27B at 4-bit). Each model gets... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-12/17-i-made-an-open-source-ai-leaderboard-that-shows-the-best-models-your-m.md"
-    },
-    {
-      "title": "DataSense-Bench: The First Step Toward an AI Scientist",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.12190v1",
-      "date": "2026-10-08",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "As claims about recursive self-improvement (RSI) and artificial general intelligence (AGI) proliferate, we ask a simple question: do frontier AI models have a sense of data, i.e., can they reliably select the right data for training? We introduce DataSense-Bench to study this capability through the fundamental problem of data selection and performance for... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-08/06-datasense-bench-the-first-step-toward-an-ai-scientist.md"
-    },
-    {
-      "title": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://wallhop.io/",
-      "date": "2026-10-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm Josh. WallHop is a free paywall bypass: paste an article URL (or prefix any URL with wallhop.io/) and you get the readable article without the paywall popup, ads or clutter. No signup, no extension. I built it after 12ft.io went away. The News Media Alliance took it down in July 2025 and I missed having something I could hit from my phone. How... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-11/07-show-hn-wallhop-12ft-io-is-gone-so-i-built-a-replacement.md"
-    },
-    {
-      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://carrierexplode.com/",
-      "date": "2026-10-09",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband configurations, etc. There’s still quite a bit of work to be done in checking my assumptions, but the tool has already been proven useful for a few... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-09/08-show-hn-carrier-explode-iphone-pixel-and-galaxy-carrier-settings-decod.md"
     }
   ]
 }
