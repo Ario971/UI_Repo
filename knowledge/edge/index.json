@@ -1,10 +1,222 @@
 {
-  "last_checked_at": "2026-11-15T12:21:33.851Z",
+  "last_checked_at": "2026-11-16T13:15:11.480Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "stablyai/orca",
+      "name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "date": "2026-11-16",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 94,
+      "momentum": 100,
+      "risk": 30,
+      "integration_effort": 44,
+      "expected_gain": 77,
+      "composite": 82,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+          "date": "2026-11-11",
+          "topic": "AI agents",
+          "similarity": 0.375,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/09-show-hn-mimzie-an-agent-neutral-alternative-to-the-claude-suite-claude.md"
+        },
+        {
+          "title": "AIBeginnerX/oh-our-pi-desktop",
+          "date": "2026-10-20",
+          "topic": "AI dev tools",
+          "similarity": 0.363,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"
+        },
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.337,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-16)",
+        "MIT license",
+        "126361 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-11-11 about AI agents; this candidate overlaps with \"Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-16/01-stablyai-orca.md"
+    },
+    {
+      "id": "goldziher/basemind",
+      "name": "Goldziher/basemind",
+      "url": "https://github.com/Goldziher/basemind",
+      "date": "2026-11-16",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 84,
+      "momentum": 88,
+      "risk": 40,
+      "integration_effort": 68,
+      "expected_gain": 87,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "AIBeginnerX/oh-our-pi-desktop",
+          "date": "2026-10-20",
+          "topic": "AI dev tools",
+          "similarity": 0.306,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"
+        },
+        {
+          "title": "Show HN: ZTHR – what replaces code review when AI agents write all the code",
+          "date": "2026-11-10",
+          "topic": "AI agents",
+          "similarity": 0.302,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-10/09-show-hn-zthr-what-replaces-code-review-when-ai-agents-write-all-the-co.md"
+        },
+        {
+          "title": "Show HN: Memro – Persistent Memory for Claude Code, Cursor and Codex",
+          "date": "2026-11-14",
+          "topic": "AI agents",
+          "similarity": 0.292,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-14/06-show-hn-memro-persistent-memory-for-claude-code-cursor-and-codex.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-16)",
+        "MIT license",
+        "122 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 7,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps none; scripts none"
+        },
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [
+        "codex plugin marketplace add Goldziher/basemind",
+        "codex plugin add basemind@basemind",
+        "git clone https://github.com/Goldziher/basemind",
+        "uv build --wheel --out-dir dist/hermes plugin/.hermes/package",
+        "npx skills add Goldziher/basemind",
+        "claude mcp add basemind -- basemind serve"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-20 about AI dev tools; this candidate overlaps with \"AIBeginnerX/oh-our-pi-desktop\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-16/02-goldziher-basemind.md"
+    },
+    {
+      "id": "nonahisa/novel-ai-assistant",
+      "name": "nonahisa/novel-ai-assistant",
+      "url": "https://github.com/nonahisa/novel-ai-assistant",
+      "date": "2026-11-16",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 84,
+      "momentum": 49,
+      "risk": 24,
+      "integration_effort": 48,
+      "expected_gain": 87,
+      "composite": 72,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
+          "date": "2026-10-13",
+          "topic": "AI agents",
+          "similarity": 0.266,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
+        },
+        {
+          "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+          "date": "2026-11-11",
+          "topic": "AI agents",
+          "similarity": 0.249,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/09-show-hn-mimzie-an-agent-neutral-alternative-to-the-claude-suite-claude.md"
+        },
+        {
+          "title": "I ran the same Halloween animation prompt through five coding agents on one local Qwen model",
+          "date": "2026-11-13",
+          "topic": "Local LLMs",
+          "similarity": 0.23,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-13/15-i-ran-the-same-halloween-animation-prompt-through-five-coding-agents-o.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-16)",
+        "MIT license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        }
+      ],
+      "install_commands": [
+        "npm install          # 依存の取得",
+        "npm run build        # ビルド",
+        "npm run watch        # 監視ビルド",
+        "npm run check        # 型検査＋単体テスト＋本番ビルド",
+        "npm run test:e2e     # 画面の自動テスト（本物のVS Codeを外から押す）。check には入らない",
+        "npm run package:vsix     # release/ にVSIXを作る（リリースゲートを通ります）"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-13 about AI agents; this candidate overlaps with \"Show HN: shadowclone, skills learned from your coding agent corrections\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-16/03-nonahisa-novel-ai-assistant.md"
+    },
     {
       "id": "omodaka9375/browserr",
       "name": "Omodaka9375/browserr",
@@ -19427,207 +19639,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-08-06 about AI agents; this candidate overlaps with \"Bennyoooo/write-like-me\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-09/03-nimbus-agent-nimbus.md"
-    },
-    {
-      "id": "basedhardware/omi",
-      "name": "BasedHardware/omi",
-      "url": "https://github.com/BasedHardware/omi",
-      "date": "2026-08-08",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "ai_dev_tool",
-      "compatibility": 80,
-      "momentum": 100,
-      "risk": 35,
-      "integration_effort": 52,
-      "expected_gain": 77,
-      "composite": 77,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Reverse-engineering web apps into agent tools",
-          "date": "2026-07-09",
-          "topic": "AI agents",
-          "similarity": 0.199,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
-        },
-        {
-          "title": "Show HN: Mint MCP – Generate 3D assets from coding agents",
-          "date": "2026-08-04",
-          "topic": "AI agents",
-          "similarity": 0.197,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-04/06-show-hn-mint-mcp-generate-3d-assets-from-coding-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-08)",
-        "MIT license",
-        "13138 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps expo-file-system, ioredis, @firebase/rules-unit-testing, dotenv-cli, firebase, firebase-tools; scripts test:memory-firestore-rules:emulator, test:memory-firestore-transactions:emulator, test:memory-firestore-python-apply:emulator, test:listen-lifecycle:emulator, test:desktop-beta-admission:emulator, test:listen-pusher-stack:emulator, test:sync-cloud-tasks-stack:emulator, test:replay-harness-phase0a:emulator"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/BasedHardware/omi.git && cd omi/desktop/macos && ./run.sh --yolo",
-        "git clone https://github.com/BasedHardware/omi.git",
-        "npm install",
-        "npm run dev",
-        "uv --version"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-09 about AI agents; this candidate overlaps with \"Show HN: Reverse-engineering web apps into agent tools\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-08/01-basedhardware-omi.md"
-    },
-    {
-      "id": "x0c/pickup",
-      "name": "x0c/pickup",
-      "url": "https://github.com/x0c/pickup",
-      "date": "2026-08-08",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 92,
-      "momentum": 52,
-      "risk": 32,
-      "integration_effort": 60,
-      "expected_gain": 77,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.364,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        },
-        {
-          "title": "Show HN: Ocean – All your team's agent sessions in one place",
-          "date": "2026-08-05",
-          "topic": "AI agents",
-          "similarity": 0.338,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/07-show-hn-ocean-all-your-team-s-agent-sessions-in-one-place.md"
-        },
-        {
-          "title": "Show HN: Mirafold – Your Agent with Generative UI (Codex, Claude Code, Gemini)",
-          "date": "2026-08-07",
-          "topic": "AI agents",
-          "similarity": 0.336,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/07-show-hn-mirafold-your-agent-with-generative-ui-codex-claude-code-gemin.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-08)",
-        "MIT license",
-        "2 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README includes remote script execution pattern"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 7,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
-        },
-        {
-          "name": "Cargo.toml",
-          "summary": "Rust project metadata detected"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/x0c/pickup.git",
-        "claude --resume",
-        "codex resume",
-        "codex --resume",
-        "claude -p \"...\"",
-        "codex exec ..."
-      ],
-      "risk_flags": [
-        "README includes remote script execution pattern"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-08 about AI agents; this candidate overlaps with \"Show HN: Abralo – Free, easy way to run several Claude Code agents in one window\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-08/02-x0c-pickup.md"
-    },
-    {
-      "id": "pakgik01/ask-expert-consult-mcp",
-      "name": "pakgik01/ask-expert-consult-mcp",
-      "url": "https://github.com/pakgik01/ask-expert-consult-mcp",
-      "date": "2026-08-08",
-      "source": "awesome-llm-agents",
-      "category": "awesome_lists",
-      "kind": "mcp_server",
-      "compatibility": 79,
-      "momentum": 76,
-      "risk": 50,
-      "integration_effort": 63,
-      "expected_gain": 81,
-      "composite": 69,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
-          "date": "2026-07-23",
-          "topic": "AI agents",
-          "similarity": 0.286,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/07-show-hn-onecli-oss-credential-gateway-that-keeps-secrets-out-of-ai-age.md"
-        },
-        {
-          "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
-          "date": "2026-07-29",
-          "topic": "AI agents",
-          "similarity": 0.28,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/09-what-does-it-take-to-detect-an-ai-agent-minimal-feature-sets-for-behav.md"
-        },
-        {
-          "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex",
-          "date": "2026-07-09",
-          "topic": "AI dev tools",
-          "similarity": 0.264,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/10-show-hn-policy-enforcement-for-claude-code-cursor-and-codex.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-08)",
-        "151 GitHub stars",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "License was not clearly detected by GitHub",
-        "Integration may take more than a quick install",
-        "No clear install command found in README",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 55,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 0,
-      "dependency_files": [],
-      "install_commands": [],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-23 about AI agents; this candidate overlaps with \"Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-08/03-pakgik01-ask-expert-consult-mcp.md"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T12:21:08.900Z",
+  "updated_at": "2026-11-16T13:14:38.816Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/db-branch/db-branch",
+      "date": "2026-11-15",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-15/06-show-hn-db-branch-database-branches-in-seconds-for-ai-agents-and-ci-vi.md"
+    },
+    {
+      "title": "Show HN: Attest – Test what AI agents do, not just what they say",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://attest-framework.github.io/",
+      "date": "2026-11-15",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Attest – Test what AI agents do, not just what they say (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-15/07-show-hn-attest-test-what-ai-agents-do-not-just-what-they-say.md"
+    },
+    {
+      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.18531v1",
+      "date": "2026-11-13",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subsequent pressures. In our model, copies of an agent face a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-13/08-alignment-by-socialization-learning-tradeoffs-under-selection.md"
+    },
+    {
+      "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.18484v1",
+      "date": "2026-11-13",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most systems remain human led, while stronger decision-action... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-13/09-from-ai-enabled-remote-patient-monitoring-toward-agentic-robotics-embo.md"
+    },
+    {
+      "title": "LovableLynx/kane-fairness-auditor",
+      "source": "GitHub Search API",
+      "url": "https://github.com/LovableLynx/kane-fairness-auditor",
+      "date": "2026-11-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Bias audits for AI hiring tools through their own UI: CV twins + placebo control, driven by Kane CLI, gating deploys in CI (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-13/10-lovablelynx-kane-fairness-auditor.md"
+    },
+    {
+      "title": "FairHarborStudios-Tools/MockMasonCE-Release",
+      "source": "GitHub Search API",
+      "url": "https://github.com/FairHarborStudios-Tools/MockMasonCE-Release",
+      "date": "2026-11-14",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "FairHarborStudios-Tools/MockMasonCE-Release Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-14/11-fairharborstudios-tools-mockmasonce-release.md"
+    },
+    {
+      "title": "Show HN: Deslop skill based on corpus-linguistics and psycholinguistics research",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/etodanik/deslop",
+      "date": "2026-11-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I vibed this deslop skill because I was getting increasingly annoyed that deslop skills for prose relied either on fitting prose into an overly restrictive format (simple-english and iso-24495) or telling AI to rewrite something without providing any tools in the skill to measure the outcome (which more often than not resulted in one slop being replaced w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-16/12-show-hn-deslop-skill-based-on-corpus-linguistics-and-psycholinguistics.md"
+    },
+    {
+      "title": "wesam-aly-dev/wesam-aly-dev",
+      "source": "GitHub Search API",
+      "url": "https://github.com/wesam-aly-dev/wesam-aly-dev",
+      "date": "2026-11-16",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Professional GitHub profile of Wessam Ali (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-16/13-wesam-aly-dev-wesam-aly-dev.md"
+    },
+    {
+      "title": "internlm/Sage-S2.1-Flash · Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxn631/internlmsages21flash_hugging_face/",
+      "date": "2026-11-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Introduction Sage S2.1 Flash is a scientific multimodal model from Shanghai Artificial Intelligence Laboratory designed for research tasks that require multiple rounds of analysis and verification. It combines scientific data understanding with information retrieval, programming, and tool use. It can use specialized software to perform analyses, check res... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-16/14-internlm-sage-s2-1-flash-hugging-face.md"
+    },
+    {
+      "title": "I have created a tool to observe what happens inside an LLM. Also allows for the comparison of two quantizations of the same model to see at what point they diverge, token by token",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx7qbf/i_have_created_a_tool_to_observe_what_happens/",
+      "date": "2026-11-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "What changes between different quantizations of the same model? And what if you could SEE what actually sets them apart? To help answer that question, I’ve created a small project called inside-llm—an open-source tool that loads one or two GGUF models using llama.cpp and displays, right in your browser, what the model is doing as it generates text. What i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-15/15-i-have-created-a-tool-to-observe-what-happens-inside-an-llm-also-allow.md"
+    },
+    {
+      "title": "tandem.cpp v0.3.0: prefill speed improved; Project Maya's DeepSeek-V4.1 GGUFs support",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxo0f5/tandemcpp_v030_prefill_speed_improved_project/",
+      "date": "2026-11-16",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Thanks for the feedback on slow prompt processing. v0.3.0 is out (the first tagged release): https://github.com/ewhacc/tandem.cpp Previous post: https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j tandem.cpp faster when the model is much bigger than VRAM + RAM together (like a 16 GB card with 32 GB of RAM), and runs various models that llama.cpp supports... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-16/16-tandem-cpp-v0-3-0-prefill-speed-improved-project-maya-s-deepseek-v4-1-.md"
+    },
+    {
+      "title": "Someone should do an analysis on the rate of Self-promo here.",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx85mw/someone_should_do_an_analysis_on_the_rate_of/",
+      "date": "2026-11-15",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "I think the last 3 posts from here that showed up on my feed were barely veiled self-promos. I was here when huggingface first started getting popular, and the level of support for running local models here was incredible. Now I am debating whether or not to leave the sub. Why isn’t there more attention to moderation to this? Take a user’s post, and type... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-15/17-someone-should-do-an-analysis-on-the-rate-of-self-promo-here.md"
+    },
     {
       "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hi HN. I partnered with Simon Kley to build this project at innovation intelligence hackathon (Berkeley). Simply, we’re building a usefulness score on top of search for ai-agents. Instead of agents reading 10 ranked relevant pages, we run a usefulness score first and give it only those that pass. We’re able to save token and cost with this and slightly be... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/07-show-hn-search-for-ai-agents-with-usefulness-score-built-in.md"
-    },
-    {
-      "title": "Skip to main content",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news#main-content",
-      "date": "2026-10-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Skip to main content (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/08-skip-to-main-content.md"
-    },
-    {
-      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://pdftomp3.com/connect-ai/",
-      "date": "2026-10-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Use your OpenAI subscription to create audiobooks (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/09-show-hn-use-your-openai-subscription-to-create-audiobooks.md"
-    },
-    {
-      "title": "H3M4N1H/ranq",
-      "source": "GitHub Search API",
-      "url": "https://github.com/H3M4N1H/ranq",
-      "date": "2026-10-13",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Free, open-source CLI that audits and fixes websites for SEO, AEO and GEO (AI search). Built by NodeKraft. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/10-h3m4n1h-ranq.md"
-    },
-    {
-      "title": "Show HN: Teilifís Seán – A Jellyfin Plugin for Channel Surfing",
-      "source": "Hacker News Show HN",
-      "url": "https://xn--teilifssen-04a4l.ie/",
-      "date": "2026-10-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "No Setup, Works immediately once installed with sensible defaults. Extremely lightweight. A demo on the site with no installation required to see how it works. I'm a Developer in Ireland. This is for Jellyfin admins who don't want the overhead of another app in their docker/server setup but also want that nostalgia feeling of channel surfing your own cont... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/11-show-hn-teilif-s-se-n-a-jellyfin-plugin-for-channel-surfing.md"
-    },
-    {
-      "title": "Show HN: RL agent trained only in synthetic markets got better on real 2020crash",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/giack-hack/synthetic-markets-transfer",
-      "date": "2026-10-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: RL agent trained only in synthetic markets got better on real 2020crash (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/12-show-hn-rl-agent-trained-only-in-synthetic-markets-got-better-on-real-.md"
-    },
-    {
-      "title": "openbmb/MiniCPM-V-4.7-35B-A3B",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x47taj/openbmbminicpmv4735ba3b/",
-      "date": "2026-10-12",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "gguf's: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf \" MiniCPM-V 4.7 is the latest model in the MiniCPM-V series, available in a 35B-A3B variant, with 35B-A3B being the first MoE model in the MiniCPM-V series . It builds on the family's single-image, multi-image, and video understanding capabilities, combining stronger foundation capabilities... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-12/13-openbmb-minicpm-v-4-7-35b-a3b.md"
-    },
-    {
-      "title": "Based on advice from LocalLLama implemented a n+2 lookahead prediction for ssd streaming Qwen Flash Next - and it worked!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4sit6/based_on_advice_from_localllama_implemented_a_n2/",
-      "date": "2026-10-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "My project is optimising qwen flash next on Mac Mini m5 64gb through SSD streaming. I recently asked LocalLLama for guidance on how to optimise token output. Today a popular method to do this is a lookahead guesser which fetches experts one layer ahead of the current layer. One popular suggestion was building a prediction model to start loading experts tw... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/14-based-on-advice-from-localllama-implemented-a-n-2-lookahead-prediction.md"
-    },
-    {
-      "title": "Horsey challenge | Strata Fork | Qwen 3.8 FN NVFP4",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uipn/horsey_challenge_strata_fork_qwen_38_fn_nvfp4/",
-      "date": "2026-10-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "So I wanted to try the horsey challenge myself on the latest engine i been testing which is a strata fork by sergqwer. https://github.com/sergqwer/strata-nvfp4 . I seen a post earlier and seen i believe it was a iq3 i think and it was pretty dope so i thought i try out the NVFP4. I wasn't expecting to share but i actually that it did pretty darn good with... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/15-horsey-challenge-strata-fork-qwen-3-8-fn-nvfp4.md"
-    },
-    {
-      "title": "Update: Converting dense models into Mixture-of-Experts",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uint/update_converting_dense_models_into/",
-      "date": "2026-10-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "This is an update to my previous post which can be found here: https://www.reddit.com/r/LocalLLaMA/s/n7sgRZZc4z Since my last post I have continued working on the conversion process and also converting new models. My latest model is the Qwen2.5-1.5B-MoE-A0.9B . I have also released GGUF versions for both the 0.5B and the 1.5B models which can be found her... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/16-update-converting-dense-models-into-mixture-of-experts.md"
-    },
-    {
-      "title": "Show HN: Seodata.dev (1.1) Free search data for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://www.seodata.dev/",
-      "date": "2026-10-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Updated API with faster responses and added MCP 2.0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-11/06-show-hn-seodata-dev-1-1-free-search-data-for-ai-agents.md"
-    },
-    {
-      "title": "Show HN: I Cut my Agent Tokens By 50%",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://news.ycombinator.com/item?id=50047627",
-      "date": "2026-10-11",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "This started by watching the built-in tool calls in Claude code. We noticed that a LOT of the time was being spent searching for lines of code with regex. This approach makes sense when you are working in an unknown environment, but we all work inside of some codebase structure and tracking. This took us down the rabbit hole of codebase indexing and led t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-11/07-show-hn-i-cut-my-agent-tokens-by-50.md"
-    },
-    {
-      "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.13889v1",
-      "date": "2026-10-09",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this gap, we propose RATED (Reliability-Aware Tool Retrieval via Execution Dynamics), a retrieval framework that combines robust semantic mat... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-09/08-rated-reliability-aware-ai-agent-tool-retrieval-via-execution-dynamics.md"
     }
   ]
 }
