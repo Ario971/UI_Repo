@@ -1,10 +1,227 @@
 {
-  "last_checked_at": "2026-11-16T13:15:11.480Z",
+  "last_checked_at": "2026-11-17T13:58:04.510Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "trycua/cua",
+      "name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "date": "2026-11-17",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 90,
+      "momentum": 100,
+      "risk": 38,
+      "integration_effort": 52,
+      "expected_gain": 85,
+      "composite": 81,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Evolving Agent Interfaces",
+          "date": "2026-10-20",
+          "topic": "AI agents",
+          "similarity": 0.348,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-20/07-evolving-agent-interfaces.md"
+        },
+        {
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "date": "2026-10-21",
+          "topic": "AI agents",
+          "similarity": 0.318,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+        },
+        {
+          "title": "Show HN: Nico – a two-agent type personal agent on your Mac",
+          "date": "2026-11-05",
+          "topic": "AI agents",
+          "similarity": 0.315,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-05/07-show-hn-nico-a-two-agent-type-personal-agent-on-your-mac.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-17)",
+        "MIT license",
+        "32488 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps prettier; scripts prettier:check, prettier:format"
+        },
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps authors, dependencies, openai, anthropic, description, license, name, readme"
+        }
+      ],
+      "install_commands": [
+        "uv tool install 'cua-bench[browser]'",
+        "uv tool run --from 'cua-bench[browser]' playwright install chromium",
+        "pip install cua"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-20 about AI agents; this candidate overlaps with \"Evolving Agent Interfaces\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-17/01-trycua-cua.md"
+    },
+    {
+      "id": "asama0101/spec-grill",
+      "name": "asama0101/spec-grill",
+      "url": "https://github.com/asama0101/spec-grill",
+      "date": "2026-11-17",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 100,
+      "momentum": 45,
+      "risk": 29,
+      "integration_effort": 48,
+      "expected_gain": 87,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: ZTHR – what replaces code review when AI agents write all the code",
+          "date": "2026-11-10",
+          "topic": "AI agents",
+          "similarity": 0.255,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-10/09-show-hn-zthr-what-replaces-code-review-when-ai-agents-write-all-the-co.md"
+        },
+        {
+          "title": "AIBeginnerX/oh-our-pi-desktop",
+          "date": "2026-10-20",
+          "topic": "AI dev tools",
+          "similarity": 0.247,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"
+        },
+        {
+          "title": "Show HN: Mantis – AI agents browse 36% faster than with Playwright MCP",
+          "date": "2026-11-06",
+          "topic": "AI agents",
+          "similarity": 0.222,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-06/06-show-hn-mantis-ai-agents-browse-36-faster-than-with-playwright-mcp.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-17)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README includes install commands"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 85,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, dynamic, requires-python, testpaths, addopts, xfail_strict, select, extend-select"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/asama0101/spec-grill.git <任意のフォルダ>/spec-grill",
+        "claude mcp add playwright --scope user -- npx @playwright/mcp@latest --allow-unrestricted-file-access --output-dir \"$(python -c 'import tempfile; print(tempfile.gettempdir())')/playwright-mcp\"",
+        "git pull",
+        "claude mcp list",
+        "claude mcp remove playwright",
+        "claude --version"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-11-10 about AI agents; this candidate overlaps with \"Show HN: ZTHR – what replaces code review when AI agents write all the code\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-17/02-asama0101-spec-grill.md"
+    },
+    {
+      "id": "t8y2/dbx",
+      "name": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "date": "2026-11-17",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 72,
+      "momentum": 100,
+      "risk": 46,
+      "integration_effort": 68,
+      "expected_gain": 95,
+      "composite": 75,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+          "date": "2026-10-15",
+          "topic": "AI agents",
+          "similarity": 0.196,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"
+        },
+        {
+          "title": "l299l/McPluginLab",
+          "date": "2026-11-02",
+          "topic": "AI dev tools",
+          "similarity": 0.181,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-02/13-l299l-mcpluginlab.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-17)",
+        "Apache-2.0 license",
+        "30607 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "package metadata could not be parsed"
+        },
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [
+        "npx @dbx-app/mcp-server",
+        "npm install -g @dbx-app/cli",
+        "docker run -d --pull=always --name dbx -p 4224:4224 \\",
+        "docker compose -f deploy/docker-compose.release.yml up -d",
+        "npx @dbx-app/plugin-cli",
+        "pnpm build"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges",
+        "Docker privileged mode mentioned"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-15 about AI agents; this candidate overlaps with \"My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-17/03-t8y2-dbx.md"
+    },
     {
       "id": "stablyai/orca",
       "name": "stablyai/orca",
@@ -19438,207 +19655,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-07-30 about AI dev tools; this candidate overlaps with \"Show HN: Claude-account – switch Claude Code accounts without logging in again\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-10/03-mrbinnacle-skills.md"
-    },
-    {
-      "id": "slopus/rig",
-      "name": "slopus/rig",
-      "url": "https://github.com/slopus/rig",
-      "date": "2026-08-09",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 92,
-      "momentum": 66,
-      "risk": 32,
-      "integration_effort": 52,
-      "expected_gain": 77,
-      "composite": 73,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.443,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        },
-        {
-          "title": "Show HN: Ocean – All your team's agent sessions in one place",
-          "date": "2026-08-05",
-          "topic": "AI agents",
-          "similarity": 0.309,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/07-show-hn-ocean-all-your-team-s-agent-sessions-in-one-place.md"
-        },
-        {
-          "title": "Show HN: Policy enforcement for Claude Code, Cursor, and Codex",
-          "date": "2026-07-09",
-          "topic": "AI dev tools",
-          "similarity": 0.267,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-09/10-show-hn-policy-enforcement-for-claude-code-cursor-and-codex.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-09)",
-        "MIT license",
-        "14 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @types/node, drizzle-orm, oxfmt, oxlint, tsx, typescript; scripts build, build:gym, check, check:root, database:inspect, dev, format, format:check"
-        }
-      ],
-      "install_commands": [
-        "npm install -g @slopus/rig",
-        "codex",
-        "claude",
-        "claude setup-token"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-08 about AI agents; this candidate overlaps with \"Show HN: Abralo – Free, easy way to run several Claude Code agents in one window\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-09/01-slopus-rig.md"
-    },
-    {
-      "id": "thecolliery/coaltipple",
-      "name": "TheColliery/CoalTipple",
-      "url": "https://github.com/TheColliery/CoalTipple",
-      "date": "2026-08-09",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 79,
-      "momentum": 56,
-      "risk": 32,
-      "integration_effort": 32,
-      "expected_gain": 87,
-      "composite": 73,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
-          "date": "2026-07-30",
-          "topic": "AI dev tools",
-          "similarity": 0.361,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
-        },
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.314,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        },
-        {
-          "title": "Show HN: Ocean – All your team's agent sessions in one place",
-          "date": "2026-08-05",
-          "topic": "AI agents",
-          "similarity": 0.247,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/07-show-hn-ocean-all-your-team-s-agent-sessions-in-one-place.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-09)",
-        "Apache-2.0 license",
-        "5 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 1,
-      "dependency_files": [],
-      "install_commands": [
-        "claude plugin marketplace add TheColliery/CoalTipple",
-        "claude plugin install coaltipple@coaltipple"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-30 about AI dev tools; this candidate overlaps with \"Show HN: Claude-account – switch Claude Code accounts without logging in again\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-09/02-thecolliery-coaltipple.md"
-    },
-    {
-      "id": "nimbus-agent/nimbus",
-      "name": "nimbus-agent/Nimbus",
-      "url": "https://github.com/nimbus-agent/Nimbus",
-      "date": "2026-08-09",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 84,
-      "momentum": 59,
-      "risk": 48,
-      "integration_effort": 40,
-      "expected_gain": 81,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Bennyoooo/write-like-me",
-          "date": "2026-08-06",
-          "topic": "AI agents",
-          "similarity": 0.286,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/06-bennyoooo-write-like-me.md"
-        },
-        {
-          "title": "runakogitss/AplusPrompt",
-          "date": "2026-07-08",
-          "topic": "AI dev tools",
-          "similarity": 0.272,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-08/11-runakogitss-aplusprompt.md"
-        },
-        {
-          "title": "Show HN: AgentNest, self-hosted sandboxes for AI agents",
-          "date": "2026-07-23",
-          "topic": "AI agents",
-          "similarity": 0.234,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-23/06-show-hn-agentnest-self-hosted-sandboxes-for-ai-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-09)",
-        "AGPL-3.0 license",
-        "5 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 70,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 1,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "package metadata could not be parsed"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [
-        "README includes remote script execution pattern",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics",
-        "May require elevated privileges"
-      ],
-      "why_it_matters": "You saved an article on 2026-08-06 about AI agents; this candidate overlaps with \"Bennyoooo/write-like-me\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-09/03-nimbus-agent-nimbus.md"
     }
   ]
 }

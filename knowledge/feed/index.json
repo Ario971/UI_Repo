@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T13:14:38.816Z",
+  "updated_at": "2026-11-17T13:57:31.992Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Hotline Computer – Rootless Linux desktop container with Nix for agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://computer.hotline.dev/",
+      "date": "2026-11-17",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Hotline Computer – Rootless Linux desktop container with Nix for agents (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-17/06-show-hn-hotline-computer-rootless-linux-desktop-container-with-nix-for.md"
+    },
+    {
+      "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.21577v1",
+      "date": "2026-11-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large language model (LLM) applications increasingly act as agents that select and invoke external tools. The Model Context Protocol (MCP) standardizes this interaction by allowing clients to compose tools advertised by multiple servers. However, tool metadata used for discovery and selection is not, by itself, necessarily bound to a verified provider ide... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-16/07-when-tool-names-are-not-identities-measuring-provider-misbinding-in-mc.md"
+    },
+    {
+      "title": "Trustworthy Numerical Software in the Age of AI: What Would Turing Do?",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.21570v1",
+      "date": "2026-11-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI coding agents can now produce numerical software faster than human experts can review it, raising serious concerns about usability and reliability. These and other AI tools are already transforming mathematics and software, and they will soon transform mathematical software. These concerns motivated us to assess AI-generated numerical linear algebra (N... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-16/08-trustworthy-numerical-software-in-the-age-of-ai-what-would-turing-do.md"
+    },
+    {
+      "title": "Safe Resemblance, Silent Propagation: Limits of Text-Similarity Guardrails for AI Agent Safety",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.21520v1",
+      "date": "2026-11-16",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "When AI agents relay information to one another, an output can preserve an injected instruction's effect on downstream agents even after its wording changes, yet legitimate quotation and template reuse can produce high textual overlap with the source, so text-similarity guardrails that attempt to flag the former risk conflating these two cases. We test th... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-16/09-safe-resemblance-silent-propagation-limits-of-text-similarity-guardrai.md"
+    },
+    {
+      "title": "Show HN: Belay – formal verification for SQLite migrations and queries in Lean 4",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/vihren-dev/belay",
+      "date": "2026-11-17",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi, I'm Tzanko and I'm the author of Belay. Belay is a Lean 4 library for doing formal verification of SQLite queries and migrations. It implements a semantic model of a subset of SQLite, validated by differential tests that compare the output against native SQLite. With Belay I wanted to see how difficult it is to use formal verification for everyday dev... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-17/10-show-hn-belay-formal-verification-for-sqlite-migrations-and-queries-in.md"
+    },
+    {
+      "title": "Show HN: Zigzag, a native Mac browser for people leaving Arc",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/ZigaoWang/zigzag",
+      "date": "2026-11-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN! I am Zigao, a high school student from Shanghai. I am new to HN so hello to y’all! I used Arc everyday, and I never had any issues with it. So when The Browser Company announced that they will shut down Arc on Dec 22 I was devastated. I don’t want to switch back to boring tabs along the top. Everything else i’ve tried is either a Chromium fork o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-14/11-show-hn-zigzag-a-native-mac-browser-for-people-leaving-arc.md"
+    },
+    {
+      "title": "Show HN: Open-source, real-time object tracking for live video feeds",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/aryamandarda/tamserve",
+      "date": "2026-11-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I type \"forklift\" on a live warehouse camera, and tamserve finds and tracks both forklifts, including the one driving in. Then I add \"person\" without stopping it. tamserve runs Meta's SAM 3 on live camera feeds. SAM 3's own tracker handles one recorded video at a time, runs at about 8 fps, and runs out of memory on long videos. tamserve uses SAM 3 to find... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-16/12-show-hn-open-source-real-time-object-tracking-for-live-video-feeds.md"
+    },
+    {
+      "title": "syahreza0511/smart-warehouse-firaza",
+      "source": "GitHub Search API",
+      "url": "https://github.com/syahreza0511/smart-warehouse-firaza",
+      "date": "2026-11-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Inventory management system for hampers and personalized gift materials (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-13/13-syahreza0511-smart-warehouse-firaza.md"
+    },
+    {
+      "title": "Intel Shares First Benchmarks of Its Next-Gen Crescent Island \"D270\" GPU, Claiming a 5.9x Throughput Over RTX PRO 6000 As Xe3P Goes Big On FP64",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyioi8/intel_shares_first_benchmarks_of_its_nextgen/",
+      "date": "2026-11-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "The title talks about FP64. For local inference this info from the content is relevant: \"In AI benchmarks, Intel's D270 GPU offered 29% lower latency and 1.12x throughput versus the RTX PRO 6000 Blackwell.\" Maybe we are getting a good RTX PRO 6000 alternative... submitted by /u/pulse77 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-17/14-intel-shares-first-benchmarks-of-its-next-gen-crescent-island-d270-gpu.md"
+    },
+    {
+      "title": "Gemma on a printer",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyjkts/gemma_on_a_printer/",
+      "date": "2026-11-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Now you can run Gemma locally on your printer (from u/hackerllama ) https://x.com/osanseviero/status/2122646098418491739 submitted by /u/jacek2023 [link] [comments] (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-17/15-gemma-on-a-printer.md"
+    },
+    {
+      "title": "maxwell-model/Maxwell-V1-Flash · Hugging Face",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyamk6/maxwellmodelmaxwellv1flash_hugging_face/",
+      "date": "2026-11-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Model Introduction Maxwell-V1.0-Flash is a next-generation, high-performance Mixture-of-Experts (MoE) language model developed by the Maxwell Team, with 35B total parameters and 3B active parameters per token (both excluding embeddings) and support for context lengths up to 256K tokens. It is designed for strong reasoning, agentic, and long-context capabi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-17/16-maxwell-model-maxwell-v1-flash-hugging-face.md"
+    },
+    {
+      "title": "GPU prices - Big \"discounts\"",
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyixml/gpu_prices_big_discounts/",
+      "date": "2026-11-17",
+      "topic": "Local LLMs",
+      "type": "article",
+      "read": false,
+      "summary": "Discounts in quotes because these are still over MSRP, but my local Microcenter has the deepest \"discounts\" (sorry, I just can't call an over MSRP price a discount without quotes) I've seen in months on a lot of the AI cards. Pro4500 around 40% \"off\", Pro6000's 4K off with plenty of stock for both at my local (Charlotte) store. Pro 5000 72GB at 9K. Now, d... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-17/17-gpu-prices-big-discounts.md"
+    },
     {
       "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "A patient's pathology case spans tens of slides from distinct specimens and anatomical sites, each carrying non-redundant, site-specific evidence. Forming a patient-level conclusion therefore requires locating the slides relevant to a given question and integrating complementary findings across them. However, existing pathology agents analyze one slide at... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/07-planpath-exploration-guided-orchestration-for-patient-level-pathology-.md"
-    },
-    {
-      "title": "AgentStripes: An Evidence-Graded Maturity Model for AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.18603v1",
-      "date": "2026-10-13",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Benchmarks report what an Artificial Intelligence (AI) agent can do on a task suite, but not whether one released version has been engineered with the controls that make it reliable, safe and observable, or how strongly that is shown. This paper proposes AgentStripes, an evidence-graded maturity model for AI agents. It defines levels (0 to 7 stripes), pro... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/08-agentstripes-an-evidence-graded-maturity-model-for-ai-agents.md"
-    },
-    {
-      "title": "Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.18449v1",
-      "date": "2026-10-13",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents for autonomous scientific discovery must decide which experiments to run under a limited budget. Most benchmarks for science agents provide fixed datasets, while others that support active experimentation largely rely on simulation. We introduce Autonomous Science Bench, an initial release comprising six budgeted design-build-test-learn campaign... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/09-autonomous-science-bench-evaluating-ai-agents-for-autonomous-scientifi.md"
-    },
-    {
-      "title": "Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/LargeModGames/spotatui",
-      "date": "2026-10-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "About 11 months ago i revived the amazing but unfortunately unmaintained spotify-tui. Since then I have been working on it almost non stop, finding a lot of problems on the way. One of the main issues I ran into were the Spotify web API rate limits. Third party clients like spotatui are dependent on a developer app made in the Spotify developer dashboard,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/10-show-hn-spotatui-a-spotify-tui-gui-without-web-api-rate-limits.md"
-    },
-    {
-      "title": "Show HN: Wonderhop – A daily game: guess what most people say, or what none do",
-      "source": "Hacker News Show HN",
-      "url": "https://wonderhop.io/en/",
-      "date": "2026-10-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello HN! Wonderhop is a small browser game with no account needed to play, everyday there are 4 rounds of 7 quesitons like \"Name a food that a lot of people hate\" The goal depends on the mode: Either gives the answer most people would give, the one no one would give, the oldest answer or the most recent one and there's a leaderboard for the day. The most... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/11-show-hn-wonderhop-a-daily-game-guess-what-most-people-say-or-what-none.md"
-    },
-    {
-      "title": "Show HN: Stream live open data in two commands",
-      "source": "Hacker News Show HN",
-      "url": "https://docs.hypermass.io/docs/cli/",
-      "date": "2026-10-13",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "A service and open source tool to get open data streams in two commands. No sign up needed for subscribing. Streams to try: - https://hypermass.io/stream/_J0fm450s - extreme UV images of the sun from SOHO - visual data - https://hypermass.io/stream/_ATtCoEK - GDACS live disaster data (filtered to just the ongoing items) The CLI (Apache 2.0, https://github... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-13/12-show-hn-stream-live-open-data-in-two-commands.md"
-    },
-    {
-      "title": "Show HN: AgentGate – Fast authorization gateway for AI agent tools",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/mohitdebian/AgentGate",
-      "date": "2026-10-14",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: AgentGate – Fast authorization gateway for AI agent tools (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-14/13-show-hn-agentgate-fast-authorization-gateway-for-ai-agent-tools.md"
-    },
-    {
-      "title": "Claude CoWork for Local LLMs that runs on your Phone",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5bawd/claude_cowork_for_local_llms_that_runs_on_your/",
-      "date": "2026-10-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi Friends, I am a solo developer. Ever since I had Qwen 3.8 running on my RTX4090, I had an itch to use it on my phone for everything. That gave me the idea to build SteerClaw Mobile - a complete agentic experience on the Phone where the entire agent loop runs on it. We just connect our model, MCP servers and Search providers. Fully private, all data is... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/14-claude-cowork-for-local-llms-that-runs-on-your-phone.md"
-    },
-    {
-      "title": "Tencent open-sourced Agent Memory and it runs 100% locally on SQLite",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x50rgo/tencent_opensourced_agent_memory_and_it_runs_100/",
-      "date": "2026-10-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "submitted by /u/AdamDhahabi [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/15-tencent-open-sourced-agent-memory-and-it-runs-100-locally-on-sqlite.md"
-    },
-    {
-      "title": "4x 6000 Pro for the company",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4yoqm/4x_6000_pro_for_the_company/",
-      "date": "2026-10-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Here is how i serve 40 people (10 of them developers) with local AI services. n8n for automatisation whisper and Vexa AI, a bot joins Teams and makes transcripts, n8n later extracts decisions and todos OpenWebUI, ChatGPT-like webinterface for everyone, most agentic features are disabled, websearches via Tavily are possible Every developer has an API key t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/16-4x-6000-pro-for-the-company.md"
-    },
-    {
-      "title": "My local Qwen3.8FN agent is significantly cheaper than cloud",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5blg4/my_local_qwen38fn_agent_is_significantly_cheaper/",
-      "date": "2026-10-13",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "tl;dr: running Qwen3.8FN Q4 locally is cheaper for me than every cloud model except Luna and the newer Haiku at mid-peak and peak electricity pricing where I live, and becomes the absolute cheapest model at off peak pricing. An agentic run that spans these different pricing points or at least chooses to avoid peak times can come out overall cheaper. Hardw... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-13/17-my-local-qwen3-8fn-agent-is-significantly-cheaper-than-cloud.md"
-    },
-    {
-      "title": "Show HN: shadowclone, skills learned from your coding agent corrections",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/theonly1me/shadowclone",
-      "date": "2026-10-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "shadowclone reads the coding-agent sessions already on your disk, finds where you corrected the agent and turns those corrections into skills your agents load next time. It supports Claude Code, Codex, Cursor, Pi, and Antigravity. Every capture source is off by default and has its own consent setting. Why I'm building it? I use multiple harnesses and agen... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-shadowclone-skills-learned-from-your-coding-agent-corrections.md"
-    },
-    {
-      "title": "Show HN: Search for AI agents with usefulness score built in",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Ayobamiu/usefulness-search",
-      "date": "2026-10-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN. I partnered with Simon Kley to build this project at innovation intelligence hackathon (Berkeley). Simply, we’re building a usefulness score on top of search for ai-agents. Instead of agents reading 10 ranked relevant pages, we run a usefulness score first and give it only those that pass. We’re able to save token and cost with this and slightly be... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/07-show-hn-search-for-ai-agents-with-usefulness-score-built-in.md"
     }
   ]
 }
