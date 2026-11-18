@@ -1,10 +1,197 @@
 {
-  "last_checked_at": "2026-11-17T13:58:04.510Z",
+  "last_checked_at": "2026-11-18T13:33:30.714Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "bingeljell/image-to-3dlab",
+      "name": "Bingeljell/image-to-3dlab",
+      "url": "https://github.com/Bingeljell/image-to-3dlab",
+      "date": "2026-11-18",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "ai_dev_tool",
+      "compatibility": 80,
+      "momentum": 100,
+      "risk": 30,
+      "integration_effort": 60,
+      "expected_gain": 77,
+      "composite": 77,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+          "date": "2026-11-14",
+          "topic": "AI agents",
+          "similarity": 0.243,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-14/06-show-hn-a-terminal-native-idle-factory-game-written-in-rust-with-ratat.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-18)",
+        "Apache-2.0 license",
+        "1209 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README includes remote script execution pattern",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 5,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, requires-python, dependencies, torch, torchvision, Pillow, requests"
+        }
+      ],
+      "install_commands": [
+        "claude mcp add assetfurnace -- ~/image-to-3dlab/lab mcp",
+        "uv sync --project hunyuan_mlx/shape",
+        "uv sync --project hunyuan_mlx/paint",
+        "uv sync",
+        "uv tool install pre-commit --with pre-commit-uv && pre-commit install",
+        "uv run pytest -q        # backends that load real models stay manual"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-11-14 about AI agents; this candidate overlaps with \"Show HN: A terminal-native idle factory game, written in Rust with ratatui\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-18/01-bingeljell-image-to-3dlab.md"
+    },
+    {
+      "id": "a11to1n3/amber",
+      "name": "a11to1n3/AMBER",
+      "url": "https://github.com/a11to1n3/AMBER",
+      "date": "2026-11-18",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "agent_framework",
+      "compatibility": 80,
+      "momentum": 56,
+      "risk": 24,
+      "integration_effort": 66,
+      "expected_gain": 77,
+      "composite": 68,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Nico – a two-agent type personal agent on your Mac",
+          "date": "2026-11-05",
+          "topic": "AI agents",
+          "similarity": 0.275,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-05/07-show-hn-nico-a-two-agent-type-personal-agent-on-your-mac.md"
+        },
+        {
+          "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
+          "date": "2026-10-29",
+          "topic": "AI agents",
+          "similarity": 0.272,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-29/07-pre-crime-for-agents-at-the-last-second-probing-when-a-recruited-agent.md"
+        },
+        {
+          "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
+          "date": "2026-11-17",
+          "topic": "AI agents",
+          "similarity": 0.264,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-17/09-agent-trust-infrastructure-ati-a-federated-identity-trust-attestation-.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-18)",
+        "BSD-3-Clause license",
+        "5 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps requires, build-backend, name, version, description, readme, requires-python, license"
+        },
+        {
+          "name": "requirements.txt",
+          "summary": "deps polars>=0.20.0, numpy>=1.21.0, networkx>=2.5"
+        }
+      ],
+      "install_commands": [
+        "pip install 'ambr[perf]'              # Numba CPU scatter (recommended on Mac)",
+        "pip install 'ambr[viz]'               # matplotlib plot helpers",
+        "pip install 'ambr[advanced]'          # SMAC optimization",
+        "pip install 'ambr[advanced,viz]'      # SMAC + matplotlib (example plots)",
+        "pip install ambr",
+        "pip install -U 'ambr>=0.5.0'"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-11-05 about AI agents; this candidate overlaps with \"Show HN: Nico – a two-agent type personal agent on your Mac\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-18/02-a11to1n3-amber.md"
+    },
+    {
+      "id": "umair-as/mcp-serial-rs",
+      "name": "umair-as/mcp-serial-rs",
+      "url": "https://github.com/umair-as/mcp-serial-rs",
+      "date": "2026-11-18",
+      "source": "awesome-mcp",
+      "category": "awesome_lists",
+      "kind": "mcp_server",
+      "compatibility": 67,
+      "momentum": 49,
+      "risk": 24,
+      "integration_effort": 64,
+      "expected_gain": 87,
+      "composite": 66,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+          "date": "2026-10-15",
+          "topic": "AI agents",
+          "similarity": 0.271,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-18)",
+        "Apache-2.0 license",
+        "1 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [
+        {
+          "name": "Cargo.toml",
+          "summary": "Rust project metadata detected"
+        }
+      ],
+      "install_commands": [
+        "cargo build --release      # → target/release/mcp-serial-rs",
+        "cargo clippy --all-targets -- -D warnings",
+        "cargo test",
+        "cargo test                          # unit, CLI, MCP wire, and loopback tests",
+        "cargo test --test loopback          # PTY round-trip — needs `socat`"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-15 about AI agents; this candidate overlaps with \"My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-18/03-umair-as-mcp-serial-rs.md"
+    },
     {
       "id": "trycua/cua",
       "name": "trycua/cua",
@@ -19455,206 +19642,6 @@
       "risk_flags": [],
       "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-11/03-akunzai-agent-skills.md"
-    },
-    {
-      "id": "ai-shifu/ai-shifu",
-      "name": "ai-shifu/ai-shifu",
-      "url": "https://github.com/ai-shifu/ai-shifu",
-      "date": "2026-08-10",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 67,
-      "momentum": 100,
-      "risk": 32,
-      "integration_effort": 58,
-      "expected_gain": 77,
-      "composite": 73,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Reverse-engineering web apps into agent tools",
-          "date": "2026-07-09",
-          "topic": "AI agents",
-          "similarity": 0.245,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-09/07-show-hn-reverse-engineering-web-apps-into-agent-tools.md"
-        },
-        {
-          "title": "Show HN: Try Benzi – A coding harness/agent beating Claude Code itself on Sonnet",
-          "date": "2026-08-08",
-          "topic": "AI agents",
-          "similarity": 0.204,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-08/08-show-hn-try-benzi-a-coding-harness-agent-beating-claude-code-itself-on.md"
-        },
-        {
-          "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
-          "date": "2026-07-29",
-          "topic": "AI agents",
-          "similarity": 0.2,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/09-what-does-it-take-to-detect-an-ai-agent-minimal-feature-sets-for-behav.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-10)",
-        "Apache-2.0 license",
-        "309 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [],
-      "install_commands": [
-        "git clone https://github.com/ai-shifu/ai-shifu.git",
-        "docker compose -f docker-compose.latest.yml up -d",
-        "docker compose -f docker-compose.latest.yml up -d  # Use -f docker-compose.yml for pinned versions",
-        "docker build ... -t aishifu/...:latest"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-09 about AI agents; this candidate overlaps with \"Show HN: Reverse-engineering web apps into agent tools\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-10/01-ai-shifu-ai-shifu.md"
-    },
-    {
-      "id": "long-yu-liang/deepagent-go",
-      "name": "Long-yu-liang/deepagent-go",
-      "url": "https://github.com/Long-yu-liang/deepagent-go",
-      "date": "2026-08-10",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 93,
-      "momentum": 45,
-      "risk": 38,
-      "integration_effort": 36,
-      "expected_gain": 81,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.289,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        },
-        {
-          "title": "Show HN: GAI – A Go runtime for typed, tool-using LLM agents",
-          "date": "2026-07-31",
-          "topic": "AI agents",
-          "similarity": 0.282,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/08-show-hn-gai-a-go-runtime-for-typed-tool-using-llm-agents.md"
-        },
-        {
-          "title": "Show HN: Zaivern Code – a Rust cockpit for parallel AI coding agents",
-          "date": "2026-08-07",
-          "topic": "AI agents",
-          "similarity": 0.266,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-07/06-show-hn-zaivern-code-a-rust-cockpit-for-parallel-ai-coding-agents.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-10)",
-        "MIT license",
-        "README mentions tests or validation",
-        "Matches 3 saved Feed article(s)"
-      ],
-      "cons": [
-        "No clear install command found in README",
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 55,
-      "has_ci": false,
-      "has_tests": true,
-      "setup_steps_count": 0,
-      "dependency_files": [
-        {
-          "name": "go.mod",
-          "summary": "module deepagent-go"
-        }
-      ],
-      "install_commands": [],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-08 about AI agents; this candidate overlaps with \"Show HN: Abralo – Free, easy way to run several Claude Code agents in one window\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-10/02-long-yu-liang-deepagent-go.md"
-    },
-    {
-      "id": "mrbinnacle/skills",
-      "name": "MrBinnacle/skills",
-      "url": "https://github.com/MrBinnacle/skills",
-      "date": "2026-08-10",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 84,
-      "momentum": 45,
-      "risk": 32,
-      "integration_effort": 44,
-      "expected_gain": 87,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
-          "date": "2026-07-30",
-          "topic": "AI dev tools",
-          "similarity": 0.426,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
-        },
-        {
-          "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-          "date": "2026-07-08",
-          "topic": "AI agents",
-          "similarity": 0.352,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-08/07-show-hn-abralo-free-easy-way-to-run-several-claude-code-agents-in-one-.md"
-        },
-        {
-          "title": "Show HN: Ocean – All your team's agent sessions in one place",
-          "date": "2026-08-05",
-          "topic": "AI agents",
-          "similarity": 0.299,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/07-show-hn-ocean-all-your-team-s-agent-sessions-in-one-place.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-10)",
-        "MIT license",
-        "GitHub Actions/CI detected",
-        "README mentions tests or validation"
-      ],
-      "cons": [
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 4,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @changesets/changelog-github, @changesets/cli; scripts changeset, version"
-        }
-      ],
-      "install_commands": [
-        "npx skills add MrBinnacle/skills",
-        "git clone https://github.com/MrBinnacle/skills.git /tmp/mr-skills",
-        "CLAUDE.md          the base operating rules — portable global doctrine for ~/.claude/CLAUDE.md",
-        "git pull --no-ff",
-        "npx skills add"
-      ],
-      "risk_flags": [
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-30 about AI dev tools; this candidate overlaps with \"Show HN: Claude-account – switch Claude Code accounts without logging in again\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-10/03-mrbinnacle-skills.md"
     }
   ]
 }

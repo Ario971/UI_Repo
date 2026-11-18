@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T13:57:31.992Z",
+  "updated_at": "2026-11-18T13:33:06.411Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "date": "2026-11-17",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, Sanchit here from RunAnywhere (YC W26). We just open-sourced TrnRT: Trainium RunTime, our inference engine for AWS Trainium. We started 3 weeks back, and currently we’re able to serve and run GLM 5.3 flash (FP8) on AWS trn2.48xlarge, and will bring more models support soon. It’s open to contributions :) What it does today: - Serves 2 instances of G... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-17/06-show-hn-trnrt-an-open-source-llm-inference-engine-for-aws-trainium.md"
+    },
+    {
+      "title": "Show HN: Open-source multi-player artifacts that update themselves",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://rallywith.ai/",
+      "date": "2026-11-17",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Rally is a multi-player platform to build reactive micro-applications together that connects event streams to agents that then update the artifact. We've had pilots build a PR dashboard that sorts by risk assessment (an agent actually reads the code) per PR, a micro-CRM that pulls in live deals from multiple Gmail inboxes, and a shared grocery list that g... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-17/07-show-hn-open-source-multi-player-artifacts-that-update-themselves.md"
+    },
+    {
+      "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.23225v1",
+      "date": "2026-11-17",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-17/08-stringqft-a-multiuse-textbook-resource-for-ai-assisted-theoretical-phy.md"
+    },
+    {
+      "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.23202v1",
+      "date": "2026-11-17",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "AI agents increasingly collaborate across organizational boundaries, invoking tools and interacting with agents operated by independent entities. Although existing agent frameworks support planning and coordination, they lack a common mechanism for verifying cross-organizational agent identity, execution integrity, and authorization. We propose the Agent... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-17/09-agent-trust-infrastructure-ati-a-federated-identity-trust-attestation-.md"
+    },
+    {
+      "title": "shabbirmai124/S.H.A.M.I.A.-Personal-AI-Companion",
+      "source": "GitHub Search API",
+      "url": "https://github.com/shabbirmai124/S.H.A.M.I.A.-Personal-AI-Companion",
+      "date": "2026-11-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "An offline-capable, futuristic personal voice and device assistant with a Stark-inspired HUD, permission-gated phone controls, real-time English fluency coaching, mindful emotional support, and local open-source model support. Full Description (For RE (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-18/10-shabbirmai124-s-h-a-m-i-a-personal-ai-companion.md"
+    },
+    {
+      "title": "lychnion/lychnion",
+      "source": "GitHub Search API",
+      "url": "https://github.com/lychnion/lychnion",
+      "date": "2026-11-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "PoC: offline AI helper for disaster preparedness and the outdoors in Japan (Flutter, on-device LLM) (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-18/11-lychnion-lychnion.md"
+    },
+    {
+      "title": "Show HN: Director's Lookbook, named looks for image, video and music prompts",
+      "source": "Hacker News Show HN",
+      "url": "https://directorslookbook.app/",
+      "date": "2026-11-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "River Road Labs is a small artisanal studio based out of Central NJ. We built this tool to scratch our own itch. As AI video and image capabilities get more sophisticated we found that we struggled at times to find the words to describe the aesthetic style we were shooting (no pun) for. Other times it is good to just have a massive resource of styles and... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-18/12-show-hn-director-s-lookbook-named-looks-for-image-video-and-music-prom.md"
+    },
+    {
+      "title": "zakker111/freeway",
+      "source": "GitHub Search API",
+      "url": "https://github.com/zakker111/freeway",
+      "date": "2026-11-11",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Freeway — free models, real tools. A local and cloud chat workspace with Plan, Build, Preview, and Secrets. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-11/13-zakker111-freeway.md"
+    },
+    {
+      "title": "NousResearch/Arete-27B Text Generation • 27B • Updated 12 days ago • 12.2k • 704",
+      "source": "Hugging Face Trending Models",
+      "url": "https://huggingface.co/NousResearch/Arete-27B",
+      "date": "2026-11-18",
+      "topic": "Local LLMs",
+      "type": "paper",
+      "read": false,
+      "summary": "NousResearch/Arete-27B Text Generation • 27B • Updated 12 days ago • 12.2k • 704 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-18/14-nousresearch-arete-27b-text-generation-27b-updated-12-days-ago-12-2k-7.md"
+    },
+    {
+      "title": "b12503",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12503",
+      "date": "2026-11-18",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ggml-openvino: expand model support, optimize NPU,GPU and memory usage (#32172) * ggml-openvino: fix SWA mask detection When the SWA cache size matches the full cache size, identify SWA layers by the number of layers using each mask instead of cache size; the larger group is SWA, and a tie leaves the layers unclassified. * ggml-openvino: fix SWA KV cache... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-18/15-b12503.md"
+    },
+    {
+      "title": "b12502",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12502",
+      "date": "2026-11-18",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "CUDA: use MMQ for MoE on V100 (#32504) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12502/llama-b12502-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)](https... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-18/16-b12502.md"
+    },
+    {
+      "title": "b12500",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12500",
+      "date": "2026-11-18",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "cuda: decode the conv2d patch indices with fastdiv (#32492) The implicit GEMM conv2d kernel recovers the channel and the kernel position of each reduction index with three integer divisions by runtime divisors, once per loaded row of every tile. Outside the 3x3 and 1x1 specializations this integer division bounds the kernel: removing it halves the time on... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-18/17-b12500.md"
+    },
     {
       "title": "Show HN: Hotline Computer – Rootless Linux desktop container with Nix for agents",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Today's agentic systems are typically designed, built, and deployed by single developers with full control over all participating agents. While this simplifies development, it limits the potential scale of agentic systems. We study multi-developer agentic systems (MDAs) which enable developers to collaboratively build agentic systems to push frontier capa... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-14/07-the-wealth-of-agents-scaling-agentic-ai-across-developers.md"
-    },
-    {
-      "title": "Bayesian Learning to Select Fair Classifiers",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.20514v1",
-      "date": "2026-10-14",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Evaluations of classifiers (AI or human or agents) often assume a batch setting in which every agent produces labels on every example in a test set, which can be expensive or impractical in many contexts. This motivates online policies that adaptively select agents to query as examples arrive and update policies as outcomes are observed. We study the prob... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-14/08-bayesian-learning-to-select-fair-classifiers.md"
-    },
-    {
-      "title": "From Training to Escalation: Forensic Analysis and Local Recreation of RL/RLHF-Induced Privilege Escalation in AI Agents (CVE-2026-65616)",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.20437v1",
-      "date": "2026-10-14",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Mid-2026 reporting on autonomous AI evaluation incidents claimed that frontier large language model (LLM) agents escaped server containment through emergent coordination and cloud infrastructure attacks. This paper contextualizes those claims through forensic analysis and containerized recreation of both the Highly Persistent Internal Model (HPIM) trainin... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-14/09-from-training-to-escalation-forensic-analysis-and-local-recreation-of-.md"
-    },
-    {
-      "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
-      "source": "Hacker News Show HN",
-      "url": "https://petal.live/",
-      "date": "2026-10-14",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! I’m Jason Thomas, one of the founders of CoScreen. As some of you may know, Datadog sunset the CoScreen service on July 31st. Four of us from the original CoScreen team have spent the last couple months building a free and open source pair programming tool inspired by those that came before us: It’s called Petal ( https://github.com/kiruna-labs/pet... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-14/10-show-hn-petal-open-source-coscreen-screenhero-finally-free.md"
-    },
-    {
-      "title": "Show HN: My Terminal Themes Web App",
-      "source": "Hacker News Show HN",
-      "url": "https://news.ycombinator.com/item?id=50098454",
-      "date": "2026-10-15",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Well, after 15 years of saying \"Someday I'll turn this into a web app,\" I finally did it! I've been maintaining a popular repo of terminal themes at https://github.com/mbadolato/iTerm2-Color-Schemes , and it was finally time to build the app with all the features I wanted! So, the next-gen version is live at https://terminalthemes.com ! It currently has o... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-15/11-show-hn-my-terminal-themes-web-app.md"
-    },
-    {
-      "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
-      "source": "Hacker News Show HN",
-      "url": "https://towerpanic.com/",
-      "date": "2026-10-15",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I want to show you the game I created recently and tell you whole the story/experience - including backend/latency/scalability. You can try it quickly without an account - I created game demo rooms (EU/US/JP) - links below - just be aware that anyone with a link can access join the game. Let's start with short description of the game itself: This is the T... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-15/12-show-hn-towerpanic-a-family-party-game-on-a-small-fastapi-realtime-eng.md"
-    },
-    {
-      "title": "Show HN: I'll Call You Later, an interactive 3D browser short film",
-      "source": "Hacker News Show HN",
-      "url": "https://film.jashtechno.com",
-      "date": "2026-10-15",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I'm Jas (Jashwanth Palleti), and this is a solo project: a short night-time story in a car on a city street, with a red light, traffic, and a phone call. It runs in the browser with no install, built with React and Three.js via React Three Fiber. For the character's movement, I filmed myself on my phone, used AI pose estimation to turn the footage into SM... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-15/13-show-hn-i-ll-call-you-later-an-interactive-3d-browser-short-film.md"
-    },
-    {
-      "title": "New TTS king in town: Fish's Drama 3 35B3A!",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6f9p2/new_tts_king_in_town_fishs_drama_3_35b3a/",
-      "date": "2026-10-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Yesterday Fish released this incredible text-to-speech model, so naturally I spent the rest of the day building a great demo for them :D The model is a chunky MoE (35B3A), but it runs well on a DGX Spark. The 4bit quants get very close to the original. You can try it here: https://huggingface.co/spaces/fishaudio/Drama-3 or download the model and run it lo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-15/14-new-tts-king-in-town-fish-s-drama-3-35b3a.md"
-    },
-    {
-      "title": "4x R9700 builds with $127 used EPYCs: $10.7k all-in per machine. I built three (384GB VRAM)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x67qeu/4x_r9700_builds_with_127_used_epycs_107k_allin/",
-      "date": "2026-10-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I saw the 4x R9700 build for a 10-person startup here a few days ago and wanted to share my results, since I opted to spend most of the money on the cards. I went with a super cheap used EPYC instead of a Threadripper. In the end it came to about $10.7k per box all-in, and I built three of them for a total of 384 GB of VRAM. As a long time lurker on my ot... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-15/15-4x-r9700-builds-with-127-used-epycs-10-7k-all-in-per-machine-i-built-t.md"
-    },
-    {
-      "title": "Chicken-coop shed AI PC",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6c5px/chickencoop_shed_ai_pc/",
-      "date": "2026-10-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Saw soneone post their bathroom AI PC a few weeks ago. Figured I’d contribute with my chicken-coop adjacent shed AI PC. Started with a single CMP 170HX (unlocked to 64GB) and ended up with three more for a total of 256gb VRAM. Found a deal on a used Threadripper with a TRX40 motherboard and 256gb DDR4 RAM to host the 4x 170HX. Added a 3050 plugged into ri... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-15/16-chicken-coop-shed-ai-pc.md"
-    },
-    {
-      "title": "A 35B multimodal model running on a phone with ~3GB memory? MiniCPM-V 4.7 demo is pretty wild",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/",
-      "date": "2026-10-14",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Just saw this demo from OpenBMB for MiniCPM-V 4.7 , and the on-device capability is pretty impressive. A 35B-A3B MoE vision-language model running locally on mobile devices is already interesting, but the use cases are what caught my attention: 📷 Reading real-world signs 📄 Understanding complex documents 🧠 Reasoning over visual information 🗺️ Planning... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-14/17-a-35b-multimodal-model-running-on-a-phone-with-3gb-memory-minicpm-v-4-.md"
-    },
-    {
-      "title": "Show HN: Jevcrawl – A web crawler for AI agents with no LLM in the crawl loop",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/RayenMlayeh/jevcrawl",
-      "date": "2026-10-13",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Jevcrawl – A web crawler for AI agents with no LLM in the crawl loop (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/06-show-hn-jevcrawl-a-web-crawler-for-ai-agents-with-no-llm-in-the-crawl-.md"
-    },
-    {
-      "title": "PlanPath: Exploration-Guided Orchestration for Patient-Level Pathology Reasoning",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.18664v1",
-      "date": "2026-10-13",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "A patient's pathology case spans tens of slides from distinct specimens and anatomical sites, each carrying non-redundant, site-specific evidence. Forming a patient-level conclusion therefore requires locating the slides relevant to a given question and integrating complementary findings across them. However, existing pathology agents analyze one slide at... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-13/07-planpath-exploration-guided-orchestration-for-patient-level-pathology-.md"
     }
   ]
 }
