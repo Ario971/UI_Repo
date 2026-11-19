@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T13:33:06.411Z",
+  "updated_at": "2026-11-19T13:59:54.116Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://news.ycombinator.com/item?id=50548660",
+      "date": "2026-11-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, we're Shane, Sam, and Abhi. Almost two years ago, we shared Mastra, our open-source TypeScript agent framework, on Show HN: https://news.ycombinator.com/item?id=43103073 . It got a few hundred upvotes; a couple of weeks later our downloads had doubled, and we were off to the races. Today we're sharing Mastra Factory, the open-source software factor... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-18/06-show-hn-mastra-factory-the-open-source-software-factory-we-use-to-buil.md"
+    },
+    {
+      "title": "Who are you? The Personal Imitation Game",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.24888v1",
+      "date": "2026-11-18",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human baseline and report the identity signals inte... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-18/07-who-are-you-the-personal-imitation-game.md"
+    },
+    {
+      "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.24880v1",
+      "date": "2026-11-18",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specification. Such an agent can be served from a cloud API or from a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-18/08-local-ai-agents-in-power-electronics-simulation-deployment-measurement.md"
+    },
+    {
+      "title": "Vibe-Trading: Towards Agent-Native Trading",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.24845v1",
+      "date": "2026-11-18",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio positions, and avail... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-18/09-vibe-trading-towards-agent-native-trading.md"
+    },
+    {
+      "title": "Show HN: Nobody blocks a keyboard – Rooted Android as a physical USB Deck",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/mr-anjaneyam/Emittr",
+      "date": "2026-11-16",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, I built Emittr because, i frequently deal with air-gapped or locked-down systems where USB storage is disabled and third party software cannot be installed. Nobody blocks a physical keyboard, so i used the Linux Kernel's USB gadget subsystem (ConfigFS at /dev/hidg0) to turn a rooted android phone to a real USB HID Keyboard and mouse. 1. No install... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-16/10-show-hn-nobody-blocks-a-keyboard-rooted-android-as-a-physical-usb-deck.md"
+    },
+    {
+      "title": "bianwuya/Eta-Workspace",
+      "source": "GitHub Search API",
+      "url": "https://github.com/bianwuya/Eta-Workspace",
+      "date": "2026-11-19",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Sanitized Eta workspace rules, agent skills, and cloud build and delivery workflow tools. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-19/11-bianwuya-eta-workspace.md"
+    },
+    {
+      "title": "OmegaSoftDLL/Lume",
+      "source": "GitHub Search API",
+      "url": "https://github.com/OmegaSoftDLL/Lume",
+      "date": "2026-11-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "🦎 Lume v1.1.0 — Sovereign AI-First, Systems & Quantum Programming Language · 100% Self-Hosted Zero-C Compiler (stage2 == stage3) · Compile-Time QF_LIA/QF_NIA Prover & lcert · 4-Tier Atomic Memory (31.8× Faster, 0B Int/SSO) · 9-Ecosystem Chameleon Polyglot FFI [I0003] · 27 Native Targets · LumeLabs R&D (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-18/12-omegasoftdll-lume.md"
+    },
+    {
+      "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
+      "source": "Hacker News Show HN",
+      "url": "https://rshekhar.com/voyager/",
+      "date": "2026-11-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Voyager 1 reached one light-day from Earth today. On the site you can: - see where both Voyagers are right now - open a nuclear battery to its 24 plutonium spheres - go into the data computer, down to a single memory chip - see how the Golden Record's cover explains how to play it - watch how Voyager 1 was fixed by radio - see which dish on Earth is liste... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-18/13-show-hn-take-voyager-1-apart-down-to-a-single-memory-chip.md"
+    },
+    {
+      "title": "b12541",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12541",
+      "date": "2026-11-19",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ggml : IQ2 creation speedup through caching (#31910) * IQ2 quant creation speedup from caching * Rename variables for clarity * Explicit casts * Initialize all values, add comment to tolerance **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12541/llama-b12541-bin-ma... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-19/14-b12541.md"
+    },
+    {
+      "title": "b12540",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12540",
+      "date": "2026-11-19",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "llama : remove PATH_MAX (#32557) Signed-off-by: Adrien Gallouët **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12540/llama-b12540-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) -... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-19/15-b12540.md"
+    },
+    {
+      "title": "b12535",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12535",
+      "date": "2026-11-19",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "vulkan: Implement stream-k MUL_MAT (#28528) * vulkan: Implement stream-k MUL_MAT Stream-k tries to split chunks of 256 K elements evenly across all SMs. Workgroups that finish a tile write to dst, others write to scratch, and there's a resolve shader similar to split-k. The shader code is implemented for scalar+cm1+cm2, but only currently enabled for cm2.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-19/16-b12535.md"
+    },
+    {
+      "title": "b12534",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12534",
+      "date": "2026-11-19",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "vulkan: use floating-point zero for storage-only FP16 in DIAG/TRI (#32379) * vulkan: Change integer zero to floating-point zero for storage-only FP16 in DIAG/TRI. Assisted-by: OpenAI Codex * delete narrow test **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12534/ll... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-19/17-b12534.md"
+    },
     {
       "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Endo is a Higher-Order Harness (HOH). From the easiest concept to understand to the more complex ones, Endo gives you: * A single, simple UI to use any agent provider with your existing subscriptions, and hot-swap agents right in the middle of a session. * An orchestration layer, which I call HOH, allowing arbitrary composition of agents to achieve any wo... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/07-show-hn-endo-a-higher-order-harness.md"
-    },
-    {
-      "title": "Show HN: BlastLoop, a structure-first coding method for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/rlshaw-ml/BlastLoop",
-      "date": "2026-10-15",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: BlastLoop, a structure-first coding method for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-show-hn-blastloop-a-structure-first-coding-method-for-ai-agents.md"
-    },
-    {
-      "title": "FDE-Gym: The Last Mile of AI Delivery",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.22350v1",
-      "date": "2026-10-15",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end d... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/09-fde-gym-the-last-mile-of-ai-delivery.md"
-    },
-    {
-      "title": "Show HN: Lobby Domains: Find Domains with Chrome's On-Device AI",
-      "source": "Hacker News Show HN",
-      "url": "https://lobby.domains/",
-      "date": "2026-10-16",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Lobby Domains: Find Domains with Chrome's On-Device AI (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-16/10-show-hn-lobby-domains-find-domains-with-chrome-s-on-device-ai.md"
-    },
-    {
-      "title": "Icyunvbankai/ziggy-colony",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Icyunvbankai/ziggy-colony",
-      "date": "2026-10-16",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Ziggy's Colony — Adrian's live agent operation as a 3D colony (Bot Crossing + Muse adapter, static hosting). (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-16/11-icyunvbankai-ziggy-colony.md"
-    },
-    {
-      "title": "a11ign/agent-org",
-      "source": "GitHub Search API",
-      "url": "https://github.com/a11ign/agent-org",
-      "date": "2026-10-16",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Project-agnostic machinery for an autonomous AI engineering org; a11ign is its first configured project (#69). (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-16/12-a11ign-agent-org.md"
-    },
-    {
-      "title": "abhilashyaragal570-del/agentprobe",
-      "source": "GitHub Search API",
-      "url": "https://github.com/abhilashyaragal570-del/agentprobe",
-      "date": "2026-10-16",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Evaluation and regression testing for AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-16/13-abhilashyaragal570-del-agentprobe.md"
-    },
-    {
-      "title": "What a £300, 35W Snapdragon mini PC can actually do 👀: 35B coder at ~30 tok/s, and an 80B model that doesnt even fit in RAM running at 17 tok/s",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6stod/what_a_300_35w_snapdragon_mini_pc_can_actually_do/",
-      "date": "2026-10-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "£299.99 Lenovo IdeaCentre Mini (Snapdragon X1-26-100, 32GB, CPU only): - Qwen3.6 35B A3B coder: reads ~118 tok/s, writes 24.5, ~30 with MTP - Qwen3-Next 80B A3B: 17-18 tok/s writes with MTP How I got here... So I bought one of these boxes to test if software at work would run on ARM Windows - and then it was sitting there, but I was sufficiently impressed... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-15/14-what-a-300-35w-snapdragon-mini-pc-can-actually-do-35b-coder-at-30-tok-.md"
-    },
-    {
-      "title": "Introducing Muse Spark Open: the most capable US open-weight model to date",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/",
-      "date": "2026-10-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey r/LocalLlama - Today we’re excited to release Muse Spark Open, the most capable US open-weight model to date. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. Key Model Specs Parameters: 816B total / 42B active Context Window: 1M tokens Modalities: Text, image, video, audio Saf... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-15/15-introducing-muse-spark-open-the-most-capable-us-open-weight-model-to-d.md"
-    },
-    {
-      "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · Hugging Face",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6o31q/nvidianvidianemotron35bolt74ba9b24gb_hugging_face/",
-      "date": "2026-10-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF NVIDIA Nemotron 3.5 Bolt 74B-A9B 24GB is a vision-language model (VLM) designed to run everyday agentic tasks locally, using a native 2-bit quantization to fit in 24GB of memory and run alongside other... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-15/16-nvidia-nvidia-nemotron-3-5-bolt-74b-a9b-24gb-hugging-face.md"
-    },
-    {
-      "title": "**DeepSeek-V4-Flash-0731 on 4x Radeon AI PRO R9700 with affinity: the \"refused\" 4-card config works, ~79 tok/s on real cards**",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x70e5r/deepseekv4flash0731_on_4x_radeon_ai_pro_r9700/",
-      "date": "2026-10-15",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Follow-up to u/neuromacmd 's post from a few weeks back ( https://www.reddit.com/r/LocalLLaMA/comments/1wod07t/ ). The affinity engine ( https://codeberg.org/StillDeadcode/affinity ) refuses to start on more than two cards because the author only had two, simulated four ranks on them, and got repeated-token garbage they couldn't explain. Nobody had tried... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-15/17-deepseek-v4-flash-0731-on-4x-radeon-ai-pro-r9700-with-affinity-the-ref.md"
-    },
-    {
-      "title": "Price of Anarchy of First-Price Auctions in Agentic Markets",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.20587v1",
-      "date": "2026-10-14",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its response minus its inference costs. First-price auctions (FPAs), in which the highest bidder pays its bid and receives the prompt, are a natural... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-14/06-price-of-anarchy-of-first-price-auctions-in-agentic-markets.md"
-    },
-    {
-      "title": "The Wealth of Agents: Scaling Agentic AI Across Developers",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.20518v1",
-      "date": "2026-10-14",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Today's agentic systems are typically designed, built, and deployed by single developers with full control over all participating agents. While this simplifies development, it limits the potential scale of agentic systems. We study multi-developer agentic systems (MDAs) which enable developers to collaboratively build agentic systems to push frontier capa... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-14/07-the-wealth-of-agents-scaling-agentic-ai-across-developers.md"
     }
   ]
 }
