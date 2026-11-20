@@ -1,10 +1,212 @@
 {
-  "last_checked_at": "2026-11-19T14:00:27.979Z",
+  "last_checked_at": "2026-11-20T13:42:56.159Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "mavrin-xv/google-ads-doctor",
+      "name": "mavrin-xv/google-ads-doctor",
+      "url": "https://github.com/mavrin-xv/google-ads-doctor",
+      "date": "2026-11-20",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 97,
+      "momentum": 45,
+      "risk": 32,
+      "integration_effort": 24,
+      "expected_gain": 87,
+      "composite": 76,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+          "date": "2026-11-11",
+          "topic": "AI agents",
+          "similarity": 0.253,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/09-show-hn-mimzie-an-agent-neutral-alternative-to-the-claude-suite-claude.md"
+        },
+        {
+          "title": "Donating Agent Skills to the Agentic AI Foundation",
+          "date": "2026-10-25",
+          "topic": "AI agents",
+          "similarity": 0.228,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-25/07-donating-agent-skills-to-the-agentic-ai-foundation.md"
+        },
+        {
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "date": "2026-10-21",
+          "topic": "AI agents",
+          "similarity": 0.217,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-20)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 1,
+      "dependency_files": [],
+      "install_commands": [
+        "git clone https://github.com/mavrin-xv/google-ads-doctor && cd google-ads-doctor"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-11-11 about AI agents; this candidate overlaps with \"Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-20/01-mavrin-xv-google-ads-doctor.md"
+    },
+    {
+      "id": "querystory/tmux-rc",
+      "name": "querystory/tmux-rc",
+      "url": "https://github.com/querystory/tmux-rc",
+      "date": "2026-11-20",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 100,
+      "momentum": 62,
+      "risk": 53,
+      "integration_effort": 52,
+      "expected_gain": 77,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "AIBeginnerX/oh-our-pi-desktop",
+          "date": "2026-10-20",
+          "topic": "AI dev tools",
+          "similarity": 0.295,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"
+        },
+        {
+          "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+          "date": "2026-11-11",
+          "topic": "AI agents",
+          "similarity": 0.267,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/09-show-hn-mimzie-an-agent-neutral-alternative-to-the-claude-suite-claude.md"
+        },
+        {
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "date": "2026-10-21",
+          "topic": "AI agents",
+          "similarity": 0.24,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/06-show-hn-omnara-open-source-alternative-to-claude-managed-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-20)",
+        "MIT license",
+        "6 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 3,
+      "dependency_files": [
+        {
+          "name": "package.json",
+          "summary": "deps echarts, markdown-it, mermaid, wordcloud, @oxc-project/runtime; scripts vendor:build, vendor:check"
+        },
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, license, license-files, requires-python, dependencies, fastapi"
+        }
+      ],
+      "install_commands": [
+        "uv sync",
+        "uv run python -m openbus.server",
+        "git pull"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-20 about AI dev tools; this candidate overlaps with \"AIBeginnerX/oh-our-pi-desktop\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-20/02-querystory-tmux-rc.md"
+    },
+    {
+      "id": "rang0oo/mpmentor-ru-mcp-readonly",
+      "name": "rang0oo/mpmentor-ru-mcp-readonly",
+      "url": "https://github.com/rang0oo/mpmentor-ru-mcp-readonly",
+      "date": "2026-11-20",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 92,
+      "momentum": 45,
+      "risk": 37,
+      "integration_effort": 52,
+      "expected_gain": 87,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Mantis – AI agents browse 36% faster than with Playwright MCP",
+          "date": "2026-11-06",
+          "topic": "AI agents",
+          "similarity": 0.298,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-06/06-show-hn-mantis-ai-agents-browse-36-faster-than-with-playwright-mcp.md"
+        },
+        {
+          "title": "Show HN: Memro – Persistent Memory for Claude Code, Cursor and Codex",
+          "date": "2026-11-14",
+          "topic": "AI agents",
+          "similarity": 0.265,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-14/06-show-hn-memro-persistent-memory-for-claude-code-cursor-and-codex.md"
+        },
+        {
+          "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+          "date": "2026-11-16",
+          "topic": "AI agents",
+          "similarity": 0.245,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-16/07-when-tool-names-are-not-identities-measuring-provider-misbinding-in-mc.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-20)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README includes install commands"
+      ],
+      "cons": [
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": false,
+      "setup_steps_count": 1,
+      "dependency_files": [
+        {
+          "name": "pyproject.toml",
+          "summary": "python project; deps name, version, description, keywords, readme, requires-python, dependencies, mcp"
+        }
+      ],
+      "install_commands": [
+        "git clone https://github.com/rang0oo/mpmentor-ru-mcp-readonly.git",
+        "codex mcp add"
+      ],
+      "risk_flags": [
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-11-06 about AI agents; this candidate overlaps with \"Show HN: Mantis – AI agents browse 36% faster than with Playwright MCP\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-20/03-rang0oo-mpmentor-ru-mcp-readonly.md"
+    },
     {
       "id": "qrdxinc/qrdx",
       "name": "qrdxinc/qrdx",
@@ -19487,195 +19689,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-08-11 about AI agents; this candidate overlaps with \"Show HN: Parley – your coding agent can talk to a teammate's agent\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-13/03-wlsdks-ontology-atlas.md"
-    },
-    {
-      "id": "activeing123/mcptoon",
-      "name": "activeing123/mcptoon",
-      "url": "https://github.com/activeing123/mcptoon",
-      "date": "2026-08-12",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 92,
-      "momentum": 79,
-      "risk": 40,
-      "integration_effort": 56,
-      "expected_gain": 87,
-      "composite": 77,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
-          "date": "2026-08-10",
-          "topic": "AI agents",
-          "similarity": 0.305,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
-        },
-        {
-          "title": "yearningss/gamemaker-mcp",
-          "date": "2026-07-25",
-          "topic": "AI dev tools",
-          "similarity": 0.289,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/13-yearningss-gamemaker-mcp.md"
-        },
-        {
-          "title": "qgeng1465/bio-mcp",
-          "date": "2026-08-11",
-          "topic": "AI dev tools",
-          "similarity": 0.277,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-11/13-qgeng1465-bio-mcp.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-12)",
-        "Apache-2.0 license",
-        "116 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "Integration may take more than a quick install",
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 100,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "pyproject.toml",
-          "summary": "python project; deps requires, build-backend, name, version, description, readme, license, authors"
-        }
-      ],
-      "install_commands": [
-        "pip install mcptoon",
-        "git clone https://github.com/activeing123/mcptoon.git",
-        "pip install -e . --no-build-isolation",
-        "pip install pytest pytest-cov"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-12/01-activeing123-mcptoon.md"
-    },
-    {
-      "id": "product-on-purpose/agent-plugins",
-      "name": "product-on-purpose/agent-plugins",
-      "url": "https://github.com/product-on-purpose/agent-plugins",
-      "date": "2026-08-12",
-      "source": "awesome-llm-agents",
-      "category": "awesome_lists",
-      "kind": "claude_skill",
-      "compatibility": 79,
-      "momentum": 45,
-      "risk": 29,
-      "integration_effort": 38,
-      "expected_gain": 87,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
-          "date": "2026-08-10",
-          "topic": "AI agents",
-          "similarity": 0.21,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
-        },
-        {
-          "title": "blurifycom/openora",
-          "date": "2026-07-29",
-          "topic": "AI dev tools",
-          "similarity": 0.197,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-29/12-blurifycom-openora.md"
-        },
-        {
-          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
-          "date": "2026-08-11",
-          "topic": "AI agents",
-          "similarity": 0.192,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-12)",
-        "Apache-2.0 license",
-        "GitHub Actions/CI detected",
-        "Matches 3 saved Feed article(s)"
-      ],
-      "cons": [
-        "No clear install command found in README"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": false,
-      "setup_steps_count": 0,
-      "dependency_files": [],
-      "install_commands": [],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-12/02-product-on-purpose-agent-plugins.md"
-    },
-    {
-      "id": "nithun/wp-devops",
-      "name": "nithun/wp-devops",
-      "url": "https://github.com/nithun/wp-devops",
-      "date": "2026-08-12",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "claude_skill",
-      "compatibility": 75,
-      "momentum": 45,
-      "risk": 30,
-      "integration_effort": 36,
-      "expected_gain": 87,
-      "composite": 70,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
-          "date": "2026-08-10",
-          "topic": "AI agents",
-          "similarity": 0.33,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
-        },
-        {
-          "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
-          "date": "2026-07-30",
-          "topic": "AI dev tools",
-          "similarity": 0.307,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-30/12-show-hn-claude-account-switch-claude-code-accounts-without-logging-in-.md"
-        },
-        {
-          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
-          "date": "2026-08-11",
-          "topic": "AI agents",
-          "similarity": 0.299,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-12)",
-        "MIT license",
-        "README mentions tests or validation",
-        "README includes install commands"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 100,
-      "has_ci": false,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [],
-      "install_commands": [
-        "git clone https://github.com/nithun/wp-devops.git",
-        "CLAUDE.md ──→ capture.sh ──→ interactions.jsonl ──→ triage.sh (Stop hook)"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-08-10 about AI agents; this candidate overlaps with \"Show HN: Keen Code – an agentic-engineered coding agent\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-12/03-nithun-wp-devops.md"
     }
   ]
 }

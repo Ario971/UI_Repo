@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T13:59:54.116Z",
+  "updated_at": "2026-11-20T13:42:26.752Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: BSWorld – AI agents can now test Bluetooth code without hardware",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/XiaoMi/bsworld",
+      "date": "2026-11-20",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: BSWorld – AI agents can now test Bluetooth code without hardware (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-20/06-show-hn-bsworld-ai-agents-can-now-test-bluetooth-code-without-hardware.md"
+    },
+    {
+      "title": "Show HN: erXos – a microkernel OS in Erlang based on Genera/Plan 9/QNX ideas",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://stass.github.io/erXos/",
+      "date": "2026-11-19",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "What if every Erlang process were an operating-system process? With as much system code and drivers written in Erlang itself. This is something I was pondering for a while, and finally was able to prototype thanks to AI coding agents. erXos is a capability-based microkernel OS in Erlang: drivers, filesystems, and the network stack are all supervised Erlan... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-19/07-show-hn-erxos-a-microkernel-os-in-erlang-based-on-genera-plan-9-qnx-id.md"
+    },
+    {
+      "title": "Show HN: Zeus – Claude Code for AI voice agents",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://thunderphone.com/blog/introducing-zeus",
+      "date": "2026-11-20",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi everyone, Alex here - I’m one of the founders of ThunderPhone. We’re excited to announce the launch of Zeus, a platform that makes AI phone calls actually work without extensive hand-tuning! You can see a head-to-head I made of the last version of ThunderPhone vs this one here: https://www.youtube.com/watch?v=YlkIc3L29lo A (somewhat long) summary: When... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-20/08-show-hn-zeus-claude-code-for-ai-voice-agents.md"
+    },
+    {
+      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.26624v1",
+      "date": "2026-11-19",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play experience to revise them for mastery. Sta... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-19/09-playcraft-designing-engaging-games-from-agent-play-experience.md"
+    },
+    {
+      "title": "Show HN: Radiotherapy Delivery Demo",
+      "source": "Hacker News Show HN",
+      "url": "https://tps.neuralrad.com",
+      "date": "2026-11-14",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "The treatment planning station (TPS) software field is currently monopolized by Varian's Eclipse and Raystation from Raysearch. Current software is still using technology stack 2 decades old. At UT Southwest Medical Center, we are working on a technology stack which is leveraging modern browser technology using WebAseembly and WebGPU for implementing not... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-14/10-show-hn-radiotherapy-delivery-demo.md"
+    },
+    {
+      "title": "Show HN: Foolscap – a writing app that reads your book and never writes for you",
+      "source": "Hacker News Show HN",
+      "url": "https://foolscap.works/",
+      "date": "2026-11-19",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "People are scared of their ability to write and think atrophying, so I wondered: what if I built something that enhanced human creativity instead of destroying it by doing the thinking and writing for people? Foolscap is the result, or at least the first version of that idea that's fleshed out enough to share here. It reads as you write and picks out the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-19/11-show-hn-foolscap-a-writing-app-that-reads-your-book-and-never-writes-f.md"
+    },
+    {
+      "title": "timhanley/end-grain-calc",
+      "source": "GitHub Search API",
+      "url": "https://github.com/timhanley/end-grain-calc",
+      "date": "2026-11-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "End grain chopping board calculator: lay out a board, then get the timber order, cutting list, glue-ups and cost. Mac, Windows, Linux or your browser. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-13/12-timhanley-end-grain-calc.md"
+    },
+    {
+      "title": "WilliamSnail/MuseumWebGame",
+      "source": "GitHub Search API",
+      "url": "https://github.com/WilliamSnail/MuseumWebGame",
+      "date": "2026-11-13",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Secret museum game (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-13/13-williamsnail-museumwebgame.md"
+    },
+    {
+      "title": "b12568",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12568",
+      "date": "2026-11-20",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "model: add Domyn Edge 4B Model (#32559) * feat: add domyn-edge model * Generate tokenizer hash for conversion + fix tests * Address changes according to code-review skill * catch ValueError in convert_hf_to_gguf_update.py * renegerate fusion test baseline + fix model naming style **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (ar... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-20/14-b12568.md"
+    },
+    {
+      "title": "b12567",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12567",
+      "date": "2026-11-20",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "llamafile(s390x): add QK data type support (#32600) * llamafile: add QK support for s390x Signed-off-by: Aaron Teo * llamafile: clean up for s390x Signed-off-by: Aaron Teo --------- Signed-off-by: Aaron Teo **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12567/llama... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-20/15-b12567.md"
+    },
+    {
+      "title": "b12566",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12566",
+      "date": "2026-11-20",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "kleidiai : allow OHOS (HarmonyOS) AArch64 target (#32265) * kleidiai : allow OHOS (HarmonyOS) AArch64 target * kleidiai : allow OHOS AArch64 target Assisted-by: GLM **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12566/llama-b12566-bin-macos-arm64.tar.gz) - macOS Ap... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-20/16-b12566.md"
+    },
+    {
+      "title": "b12565",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12565",
+      "date": "2026-11-20",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "webgpu : fix 2D indexing for copy kernel (#32576) * Only run webgpu CI on my fork * Add webgpu only workflow * resolve merge conflicts * Add 2d indexing to copy kernel * move test **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12565/llama-b12565-bin-macos-arm64.tar... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-20/17-b12565.md"
+    },
     {
       "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "We placed four Gemini 4 Argon agents in a sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon. Each agent controlled a player via an open-source library called Mineflayer and coordinated with its teammates through in-game chat and shared memory. No one assigned roles or wrote game logic. The agents planned, wrote, and debugg... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/07-a-team-of-gemini-4-argon-agents-beats-minecraft.md"
-    },
-    {
-      "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.22301v1",
-      "date": "2026-10-15",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "The Model Context Protocol (MCP) standardizes how AI agents invoke external tools. MCP servers expose tools through a declared contract consisting of a name, description, and argument schema. In typical local deployments, client-side approval of a tool call grants the underlying server process broad host filesystem permissions rather than restricting it t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/08-my-credentials-please-detecting-filesystem-capability-laundering-in-mc.md"
-    },
-    {
-      "title": "Show HN: Gemini 4 Argon plays StarCraft",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://starskirmish.com/bench/v0-2/",
-      "date": "2026-10-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/09-show-hn-gemini-4-argon-plays-starcraft.md"
-    },
-    {
-      "title": "Aj-Niplex/adarsh-portfolio",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Aj-Niplex/adarsh-portfolio",
-      "date": "2026-10-15",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Portfolio of Adarsh Jaiswal (NiPlex): AI systems, developer tools, and open-source projects. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-15/10-aj-niplex-adarsh-portfolio.md"
-    },
-    {
-      "title": "Show HN: Donut Browser, the most private anti-detect browser",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/donutbrowser/donutbrowser",
-      "date": "2026-10-16",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone! About 2 years ago, I began to work on Donut Browser as a tool to manage browser profiles, which over time has evolved into a proper anti-detect browser. Anti-detect browsers let you create browser profiles that look like as if you have a completely different computer. I believe Donut is the most private anti-detect browser because: - It has n... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-16/11-show-hn-donut-browser-the-most-private-anti-detect-browser.md"
-    },
-    {
-      "title": "Show HN: Sill for Android – control your Mac's windows from an Android phone",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/rahimnathwani/sill-android",
-      "date": "2026-10-16",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Sill (discussed here: https://news.ycombinator.com/item?id=50112739 ) streams one Mac window, or the whole Desktop, to an iPhone or iPad and lets you control it by touch. It's open source, so I made an Android client for it. It's unofficial and not affiliated with Sill's author: it speaks Sill's existing protocol, so the Mac side is the stock Sill app, un... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-16/12-show-hn-sill-for-android-control-your-mac-s-windows-from-an-android-ph.md"
-    },
-    {
-      "title": "atharvanavgire10/AI_career_coach",
-      "source": "GitHub Search API",
-      "url": "https://github.com/atharvanavgire10/AI_career_coach",
-      "date": "2026-10-17",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "atharvanavgire10/AI_career_coach Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-17/13-atharvanavgire10-ai-career-coach.md"
-    },
-    {
-      "title": "llama.cpp has come a long way",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7xbf0/llamacpp_has_come_a_long_way/",
-      "date": "2026-10-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey everyone, English is not my native language (Dutch), but I write in my own words without assistance. So please let me know if any sentence flows weird, etc. A mate of mine told me how amazing local AI was in January 2025, but I was a skeptic who took pride in writing my own code for 10 years. Knowing I can be quite stubborn and wanting to at least exp... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-17/14-llama-cpp-has-come-a-long-way.md"
-    },
-    {
-      "title": "[Research] 2,788 tokens/s on a single RTX 5090 with a diffusion LLM — Introducing ORL (fully open source)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
-      "date": "2026-10-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hey r/LocalLLaMA ! We're excited to share ORL (On-Policy Residual Learning) , our new research on making diffusion language models (dLLMs) significantly faster without sacrificing generation quality. With ORL and our custom inference engine dlmrt , we've achieved: 2,788 tokens/s on a single RTX 5090 — LLaDA-2.1-mini + ORL, NVFP4 7,708 tokens/s on 8× B200... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-16/15-research-2-788-tokens-s-on-a-single-rtx-5090-with-a-diffusion-llm-intr.md"
-    },
-    {
-      "title": "I built a tiny site that let's you feel the tokens/s before you buy the GPU",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x83321/i_built_a_tiny_site_that_lets_you_feel_the/",
-      "date": "2026-10-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I made a tiny site that let's you feel how fast a local LLM runs before buying the hardware. I made it for myself and a friend but thought it could be useful for others. Note that it works as an estimate and not perfectly as it will vary per user setup. repo: https://github.com/nicorobinreal/llmspeed submitted by /u/nypaavsalt [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-17/16-i-built-a-tiny-site-that-let-s-you-feel-the-tokens-s-before-you-buy-th.md"
-    },
-    {
-      "title": "10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/",
-      "date": "2026-10-16",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I know everyone's excited about 3.8, but honestly I'm still refining 3.6. And I hate the way 3.8 talks, so... I keep seeing all these posts about what's the use of open source, so I figured I'd submit my own answer with this post. Qwen 3.5 27B was my first agent, starting my journey around May 31st, and I've learned a lot in these 4+ months, so I wanted t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-16/17-10-things-you-maybe-didn-t-know-you-can-do-with-qwen-3-6-27b-right-now.md"
-    },
-    {
-      "title": "Show HN: Beeline Multiplayer Agent Harness",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://usebeeline.app",
-      "date": "2026-10-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Shipped Beeline today. It's a team chat for humans and agents - a kind of multiplayer harness. You can bring your codex, Claude code, opencode subscriptions and also works with pi and goose. We built beeline itself with early versions of beeline, and use it to build our other projects - it's boosted productivity quite a bit for us. Demo video: https://you... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/06-show-hn-beeline-multiplayer-agent-harness.md"
-    },
-    {
-      "title": "Show HN: Endo – A Higher-Order Harness",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/longsurf-ai/endo",
-      "date": "2026-10-15",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Endo is a Higher-Order Harness (HOH). From the easiest concept to understand to the more complex ones, Endo gives you: * A single, simple UI to use any agent provider with your existing subscriptions, and hot-swap agents right in the middle of a session. * An orchestration layer, which I call HOH, allowing arbitrary composition of agents to achieve any wo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/07-show-hn-endo-a-higher-order-harness.md"
     }
   ]
 }
