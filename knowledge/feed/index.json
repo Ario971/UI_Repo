@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T13:42:26.752Z",
+  "updated_at": "2026-11-21T13:07:36.997Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Trichroma, a Platformer of Light",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://trichroma.namirsab.dev/",
+      "date": "2026-11-20",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi Hackernews! I just wanted to share a game I've made over a few weeks just as a little side project. Of course it was developed using Agents Engineering. The idea of the game though comes from around 10 years ago, from conversations with my brother: he is an artist and back them he was experimenting with chromatic paintings that looked differently depen... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-20/06-show-hn-trichroma-a-platformer-of-light.md"
+    },
+    {
+      "title": "Show HN: Drive around my village in 3D",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://cherwellvalleymotorclub.app",
+      "date": "2026-11-20",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "So this started out just over a week ago, could I drive around my village in my old car on the web, and its expanded into a massive map, with races, events, different cars and multiplayer. I'm a web/app guy, backend guy, and yes I build it with Claude. I know I shouldn't be astounded by what these Ai agents can do as of today, but here I am still amazed.... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-20/07-show-hn-drive-around-my-village-in-3d.md"
+    },
+    {
+      "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.26553v1",
+      "date": "2026-11-19",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)validates the incident or finds its root cause. Incident catal... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-19/08-replication-of-agentic-security-events-audit-and-investigation-rogue-a.md"
+    },
+    {
+      "title": "From Seed to BLOOM: Autonomously Growing a Better Out-of-Order Core",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.26517v1",
+      "date": "2026-11-19",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Improving microprocessor performance while meeting ASIC implementation constraints like area and frequency is a complex and labor-intensive task that requires expertise across computer architecture, hardware design, and performance analysis and profiling. While large teams in industry can afford the engineering resources to target this problem across perf... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-19/09-from-seed-to-bloom-autonomously-growing-a-better-out-of-order-core.md"
+    },
+    {
+      "title": "irfantotti5199/On-Device-AI",
+      "source": "GitHub Search API",
+      "url": "https://github.com/irfantotti5199/On-Device-AI",
+      "date": "2026-11-21",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "irfantotti5199/On-Device-AI Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-21/10-irfantotti5199-on-device-ai.md"
+    },
+    {
+      "title": "Show HN: Tinnitus frequency finder and audio notch tool",
+      "source": "Hacker News Show HN",
+      "url": "https://trynotched.com/find",
+      "date": "2026-11-18",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I've had tinnitus for about a year and a half. There's no cure, so I'm trying anything that looks promising. One idea people are researching is listening to sound with a notch cut out right at your tinnitus frequency. The frequency finder will help you zero in on your tinnitus pitch. The method write-up is here: https://trynotched.com/how-pitch-matching-w... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-18/11-show-hn-tinnitus-frequency-finder-and-audio-notch-tool.md"
+    },
+    {
+      "title": "Show HN: Pstview – read-only PST/OST viewer",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/publicarray/pstview",
+      "date": "2026-11-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "At my work I sometimes need to recover data from old outlook files or recover emails from backup tools. Opening these files in Classic Outlook is painful and can modify the file by accident, which may be undesired. So I came up with this solution. Maybe someone else can benefit from this. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-21/12-show-hn-pstview-read-only-pst-ost-viewer.md"
+    },
+    {
+      "title": "Show HN: SaturnSQL Context, telling AI tools what the database means",
+      "source": "Hacker News Show HN",
+      "url": "https://saturnsql.com/context-layer",
+      "date": "2026-11-20",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I've seen a rising demand for context when AI queries data from different places, so I built a way to provide it. You basically describe the tables, write free-form markdown notes and set definitions (e.g. the SQL for how to calculate an active user, so everyone in the company calculates it the same way). It support Apache Ossie and the context can live i... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-20/13-show-hn-saturnsql-context-telling-ai-tools-what-the-database-means.md"
+    },
+    {
+      "title": "b12606",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12606",
+      "date": "2026-11-21",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "llama : remove fused lightning indexer gating (#32650) The fused lightning indexer is always used now, so drop the cparams flags, the auto probe and the non-fused fallbacks. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-21/14-b12606.md"
+    },
+    {
+      "title": "b12604",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12604",
+      "date": "2026-11-21",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "llama-grammar: Fix integer overflow (#32551) * llama-grammar: Fix integer overflow * Check incorrect values at parsing and bail out nicely * fix style **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12604/llama-b12604-bin-macos-arm64.tar.gz) - macOS Apple Silicon (a... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-21/15-b12604.md"
+    },
+    {
+      "title": "b12603",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12603",
+      "date": "2026-11-21",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "llama : score only the k-pools of the ubatch sequences in QSA (#32519) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12603/llama-b12603-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-21/16-b12603.md"
+    },
+    {
+      "title": "b12602",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12602",
+      "date": "2026-11-21",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "sycl: Improve Grouped XMX GEMM by avoiding SLM staging (#31428) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12602/llama-b12602-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) -... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-21/17-b12602.md"
+    },
     {
       "title": "Show HN: BSWorld – AI agents can now test Bluetooth code without hardware",
       "source": "Hacker News Top + Show HN",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hi everyone, This started as an exploration into harnesses and locally hostable LLMs (the kind that uses less power than a small electric heater), and I used it as an opportunity to retool. I've tried popular ones like Cline, Claude Code, and Pi, but wanted a different UX and integrated sandboxes. The solution that I've landed on is a responsive web inter... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-18/06-show-hn-cosplay-as-a-tech-lead-using-gvisor-to-sandbox-agents.md"
-    },
-    {
-      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://sphinx-six-theta.vercel.app/",
-      "date": "2026-10-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-18/07-show-hn-sphinx-a-hook-that-quizzes-you-on-your-ai-s-code-before-shippi.md"
-    },
-    {
-      "title": "Show HN: Things to Do API",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://thingstodoapi.com/",
-      "date": "2026-10-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I built an api/mcp for local events: pop-ups, one-off events, concerts, etc. currently covering the SF bay area. I've been building a bunch of consumer apps lately around personalization and recommendation and have had a hard time finding this data in one spot. agents can find useful stuff through tool calls / web search, but slow. you can scrape on deman... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/08-show-hn-things-to-do-api.md"
-    },
-    {
-      "title": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://tkgally.github.io/500-clocks/",
-      "date": "2026-10-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Lately I've been testing frontier models by having them create self-contained web pages that display clocks--sort of my personal version of Simon Willison’s pelican-on-a-bicycle metric. I have been particularly impressed by the variety, interest, and quality of the clocks created by Claude Opus 5.5. Over the course of several sessions in the Claude chat i... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-18/09-show-hn-500-clocks-in-one-6-3-mb-html-file-by-opus-5-5.md"
-    },
-    {
-      "title": "KPKrol85/DS-beauty-pr01-StudioNoir",
-      "source": "GitHub Search API",
-      "url": "https://github.com/KPKrol85/DS-beauty-pr01-StudioNoir",
-      "date": "2026-10-18",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Premium hair and beauty studio website featuring editorial design, responsive layouts, interactive galleries, and Vanilla JavaScript powered by Vite. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-18/10-kpkrol85-ds-beauty-pr01-studionoir.md"
-    },
-    {
-      "title": "abla86/KodeMester-AI---Kodebygger-Integrator-Dokumentasjon",
-      "source": "GitHub Search API",
-      "url": "https://github.com/abla86/KodeMester-AI---Kodebygger-Integrator-Dokumentasjon",
-      "date": "2026-10-18",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "kodebygger (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-18/11-abla86-kodemester-ai-kodebygger-integrator-dokumentasjon.md"
-    },
-    {
-      "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/mikroverk/esp32sim",
-      "date": "2026-10-17",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser. The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator. The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected. Source: https://github.com... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-17/12-show-hn-esp32sim-run-esp32-firmware-in-the-browser.md"
-    },
-    {
-      "title": "You don’t need that expensive of a build for local llms.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8s73i/you_dont_need_that_expensive_of_a_build_for_local/",
-      "date": "2026-10-18",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Been seeing a lot of people with their 64gb of ddr5 4x3090 or whatever strata builds and it’s been sorta depressing knowing i cant afford that but i finally finished my setup today so here we go, Qwen 3.8 27b at 262k context, unsloth iq4XS ascii condensed with kv cache streaming My only gpu is a 9060 xt 16gb and i have 24gb ddr5 for my whole homelab only... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-18/13-you-don-t-need-that-expensive-of-a-build-for-local-llms.md"
-    },
-    {
-      "title": "My 5070 ti/3070 Chimera build.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8u6eg/my_5070_ti3070_chimera_build/",
-      "date": "2026-10-18",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Got lucky with a 5070 Ti for $750 AFTER TAX (might be the best decision I've ever made tbh) back in November 2025. If only I had known I'd be getting into local llms at the time...anyways. I recently decided to start messing with local AI. I began getting comfortable in Powershell and having local models help me write random automation scripts. Naturally,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-18/14-my-5070-ti-3070-chimera-build.md"
-    },
-    {
-      "title": "Why not run Qwen 3.8 Flash Next with the full n-gram-table?",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8am0i/why_not_run_qwen_38_flash_next_with_the_full/",
-      "date": "2026-10-17",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Already posted here https://www.reddit.com/r/LocalLLaMA/comments/1x85hfj/strata_qwen_38_flash_next_fast_but_whats_it/phavui9/ , but I believe this topic deserves it's own post. The PLE, aka the n-gram table that sits on the SSD, is quantized heavily in the common GGUFs and has a measurable impact on performance, demonstrated here by /u/MarkoMarjamaa : htt... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-17/15-why-not-run-qwen-3-8-flash-next-with-the-full-n-gram-table.md"
-    },
-    {
-      "title": "Nine models, five coding tasks, one 16GB GPU",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8qlvw/nine_models_five_coding_tasks_one_16gb_gpu/",
-      "date": "2026-10-18",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I ran five coding tasks against nine models on one RX 9060 XT (16 GB). Each run gets a single spec file in an empty directory and has to produce solution.py and test_solution.py , run its own tests, and stop. Grading happens with a checker the model never sees: fixed cases from the spec, randomized cases against a brute-force oracle, and a performance gat... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-18/16-nine-models-five-coding-tasks-one-16gb-gpu.md"
-    },
-    {
-      "title": "Show HN: rStation – A shared research lab for your AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://rstation.ai/",
-      "date": "2026-10-16",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: rStation – A shared research lab for your AI agents (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/06-show-hn-rstation-a-shared-research-lab-for-your-ai-agents.md"
-    },
-    {
-      "title": "A team of Gemini 4 Argon agents beats Minecraft",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.22319v1",
-      "date": "2026-10-15",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We placed four Gemini 4 Argon agents in a sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon. Each agent controlled a player via an open-source library called Mineflayer and coordinated with its teammates through in-game chat and shared memory. No one assigned roles or wrote game logic. The agents planned, wrote, and debugg... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-15/07-a-team-of-gemini-4-argon-agents-beats-minecraft.md"
     }
   ]
 }
