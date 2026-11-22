@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T13:07:36.997Z",
+  "updated_at": "2026-11-22T12:55:42.267Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,127 @@
     }
   ],
   "articles": [
+    {
+      "title": "Krishnacore/memdusa",
+      "source": "GitHub Trending",
+      "url": "https://github.com/Krishnacore/memdusa",
+      "date": "2026-11-22",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Memory & Durability for AI Agents: universal memory and durable execution for agents and harnesses (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-22/06-krishnacore-memdusa.md"
+    },
+    {
+      "title": "Skip to main content",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news#main-content",
+      "date": "2026-11-22",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Skip to main content (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-22/07-skip-to-main-content.md"
+    },
+    {
+      "title": "Show HN: Compile the same source for GPUs and CPUs",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/ThrudTheBarbarian/xc",
+      "date": "2026-11-13",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'm writing a language called xc and its compiler, xcc for the last 6 months or so (full disclosure: with a lot of help from Claude). I've finally got version 1 (actually v1.0.1) out, for Linux (x86-64 and arm64, including the Pi 5), macOS and Windows. The idea: you write an ordinary loop, the compiler works out whether it can run in parallel, and it emit... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-13/08-show-hn-compile-the-same-source-for-gpus-and-cpus.md"
+    },
+    {
+      "title": "Show HN: An ASCII cell aquarium for your terminal",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/kborer/cells/",
+      "date": "2026-11-18",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I made a virtual microscope slide for your terminal (inspired by asciiquarium and cbonsai). Cells divide, immune cells chase bacteria, and bacteriophages occasionally cause trouble. You can try it with: $ pipx install terminal-cells $ cells I'd appreciate any suggestions for additional animations to add, especially entities or events that would be visuall... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-18/09-show-hn-an-ascii-cell-aquarium-for-your-terminal.md"
+    },
+    {
+      "title": "Show HN: Npx.tools, a keyboard-friendly index of developer tools",
+      "source": "Hacker News Show HN",
+      "url": "https://npx.tools/",
+      "date": "2026-11-22",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Npx.tools, a keyboard-friendly index of developer tools (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-22/10-show-hn-npx-tools-a-keyboard-friendly-index-of-developer-tools.md"
+    },
+    {
+      "title": "Show HN: It's now easy to install Linux on an Android Phone – Android2linux",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/android2linux/android2linux",
+      "date": "2026-11-21",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN! One of my biggest dreams (really) was to have a Linux phone. I tried to install on some phones in the past, even the ones that would be marked as compatible and it was always so difficult that I couldn't really do it. Yesterday I decided to try again, this time using Claude to do most of the work. A couple hours later it runs postmarketOS as my se... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-21/11-show-hn-it-s-now-easy-to-install-linux-on-an-android-phone-android2lin.md"
+    },
+    {
+      "title": "marcelodevops/pipebridge",
+      "source": "GitHub Search API",
+      "url": "https://github.com/marcelodevops/pipebridge",
+      "date": "2026-11-17",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "python cli to migrate declarative Jenkinsfile scripts to github actions workflows (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-17/12-marcelodevops-pipebridge.md"
+    },
+    {
+      "title": "b12631",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12631",
+      "date": "2026-11-22",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "webgpu : update GDN supports_op check (#32782) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12631/llama-b12631-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-22/13-b12631.md"
+    },
+    {
+      "title": "b12629",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
+      "date": "2026-11-22",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "opencl: add coopmat GEMM for Adreno 850 (Q4_0, Q5_0, Q8_0, Q4_K, Q5_K, Q6_K) (#32686) * opencl: add Q4_0 coopmat GEMM for Adreno 850 Assisted-by: Claude Opus 5.5 * opencl: add Q5_0 coopmat GEMM for Adreno 850 * opencl: add Q8_0 coopmat GEMM for Adreno 850 * opencl: add Q4_K coopmat GEMM for Adreno 850 * opencl: add Q5_K coopmat GEMM for Adreno 850 * openc... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-22/14-b12629.md"
+    },
+    {
+      "title": "b12628",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12628",
+      "date": "2026-11-22",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "vulkan : support non-contiguous src in SCALE (#32735) Assisted-By: Opus 5.5 **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12628/llama-b12628-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pu... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-22/15-b12628.md"
+    },
+    {
+      "title": "b12627",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
+      "date": "2026-11-22",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "server : fit non-causal batches in one ubatch (#32713) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12627/llama-b12627-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS In... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-22/16-b12627.md"
+    },
     {
       "title": "Show HN: Trichroma, a Platformer of Light",
       "source": "Hacker News Top + Show HN",
@@ -4293,127 +4414,6 @@
       "read": false,
       "summary": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) databas... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/07-ai-driven-reproducibility-and-analytical-robustness-in-scientific-disc.md"
-    },
-    {
-      "title": "Leveraging verifiable structure in quantum circuits to find more efficient compilations with agentic AI",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.23832v1",
-      "date": "2026-10-16",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "We discuss an effective paradigm of utilizing AI agents to better compile quantum circuits when one can constrain bottleneck subroutines to have some form of classically verifiable structure. For example, when critical subroutines are composed exclusively of reversible classical logic, phasing operations, and measurement based uncomputation, one can effic... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/08-leveraging-verifiable-structure-in-quantum-circuits-to-find-more-effic.md"
-    },
-    {
-      "title": "Self-Building Labs",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.23826v1",
-      "date": "2026-10-16",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still takes extensive manual engineering, which makes laboratory flexibility the bot... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/09-self-building-labs.md"
-    },
-    {
-      "title": "Show HN: DocuMemory – Persistent memory and context for AI coding tools",
-      "source": "Hacker News Show HN",
-      "url": "https://www.documemory.dev/",
-      "date": "2026-10-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: DocuMemory – Persistent memory and context for AI coding tools (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-18/10-show-hn-documemory-persistent-memory-and-context-for-ai-coding-tools.md"
-    },
-    {
-      "title": "samia-djafi/connect_sign",
-      "source": "GitHub Search API",
-      "url": "https://github.com/samia-djafi/connect_sign",
-      "date": "2026-10-19",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "ConnectSign is an AI-powered progressive web app (PWA) that bridges sign language and spoken communication through bidirectional translation: sign language → text/speech, and text/speech → sign language, making communication more inclusive and accessible. ConnectSign - Every Hand Has a Voice. ConnectSign - Because Everyone Deserves to Be Heard. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-19/11-samia-djafi-connect-sign.md"
-    },
-    {
-      "title": "mogenga/Embedded-Ai-Master",
-      "source": "GitHub Search API",
-      "url": "https://github.com/mogenga/Embedded-Ai-Master",
-      "date": "2026-10-19",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "嵌入式AI大师 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-19/12-mogenga-embedded-ai-master.md"
-    },
-    {
-      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/finereli/whatsapp-mcp",
-      "date": "2026-10-18",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I could find either required WhatsApp Business or an actual server to run Baileys on. I wanted to run it for free on ClaudeFlare and with my personal WhatsApp account, so I built this. Important feature - it connects to your Google account as well as WhatsApp to grab t... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-18/13-show-hn-whatsapp-mcp-running-free-on-cloudflare.md"
-    },
-    {
-      "title": "72 hours, four big open weights drops. The only one that fits in 24GB came from NVIDIA, of all companies.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/",
-      "date": "2026-10-18",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "What a week. Quick recap, all numbers from the official repos and model cards: Thursday: Meta drops Muse Spark Open. 816B total, 42B active, 1M context. The launch post says it brings agentic AI \"to your desktop\". The desktop is two M5 Ultra Mac Studios with 512GB each, a config Apple says ships \"late October\" and still hasn't put a price on. The alternat... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-18/14-72-hours-four-big-open-weights-drops-the-only-one-that-fits-in-24gb-ca.md"
-    },
-    {
-      "title": "Kapitsa: open-source Apple Silicon optimized Metal engine built for Qwen and Nemotron. See benchmarks of Qwen 27B, Nemotron + 8 other models on an M1 Pro (16GB), M4 Pro (48GB) and M5 Max (128GB)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9pzt0/kapitsa_opensource_apple_silicon_optimized_metal/",
-      "date": "2026-10-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "hey, my name is Ye, I vibecode at Nace.ai and we do a lot of work with enterprises, and a lot of the time we're inside their networks with no internet access and outdated cloud hosted models. considering we work on macbooks, we have built Kapitsa, an open-source (Apache 2.0) inference engine for Apple Silicon, to run coding agents on local models that wou... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-19/15-kapitsa-open-source-apple-silicon-optimized-metal-engine-built-for-qwe.md"
-    },
-    {
-      "title": "Little Sweet Room Challenge | Strata Fork | Qwen 3.8 FN NVFP4 | DeepSeek Harness",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9hpb3/little_sweet_room_challenge_strata_fork_qwen_38/",
-      "date": "2026-10-18",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Another little challenge I seen on a DeepSeek Thread. I thought I'd try out it out on Qwen FN NvFp4. It was a pretty straight forward prompt with 4 images attached in the doc. The thread was testing different harness and models and showing their results. Op of that thread has two other threads on the same Challenge just one with DeepSeek Harness so I used... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-18/16-little-sweet-room-challenge-strata-fork-qwen-3-8-fn-nvfp4-deepseek-har.md"
-    },
-    {
-      "title": "LTX 2.5 running locally on a 48GB M5 Pro MacBook Pro in TensorSharp’s Video Studio",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9p6cp/ltx_25_running_locally_on_a_48gb_m5_pro_macbook/",
-      "date": "2026-10-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I maintain TensorSharp , an open-source local inference engine and agent runtime. I’ve added Video Studio to bring local video generation, an editable timeline, and an optional local LLM assistant into the same project. The attached demo runs in TensorAgent on macOS . The actual run Machine: MacBook Pro with an Apple M5 Pro chip and 48GB of memory. Model:... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-19/17-ltx-2-5-running-locally-on-a-48gb-m5-pro-macbook-pro-in-tensorsharp-s-.md"
-    },
-    {
-      "title": "Show HN: Cosplay as a tech lead, using gVisor to sandbox agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/SoftwareRenderer/MIKE",
-      "date": "2026-10-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, This started as an exploration into harnesses and locally hostable LLMs (the kind that uses less power than a small electric heater), and I used it as an opportunity to retool. I've tried popular ones like Cline, Claude Code, and Pi, but wanted a different UX and integrated sandboxes. The solution that I've landed on is a responsive web inter... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-18/06-show-hn-cosplay-as-a-tech-lead-using-gvisor-to-sandbox-agents.md"
     }
   ]
 }
