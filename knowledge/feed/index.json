@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T12:55:42.267Z",
+  "updated_at": "2026-11-23T15:30:10.627Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.27860v1",
+      "date": "2026-11-20",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Benchmarks for AI-based coding agents are a staple of the current AI landscape, because they are the leading way to measure the performance of LLMs. Their scores guide business and research decisions. Evaluating coding agents is challenging, since they are able to manipulate their evaluation infrastructure to artificially achieve better scores. Grading an... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-20/06-who-grades-the-agent-privilege-separation-for-coding-agent-benchmarks.md"
+    },
+    {
+      "title": "Shared Understanding in Human-AI Teams: Coordination Continuity in Evolving Work",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.27746v1",
+      "date": "2026-11-20",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "People are increasingly working with AI agents as part of extended, asynchronous workflows. In these settings, shared access to information does not guarantee a shared basis for action: goals, plans, and roles may persist while their current significance changes. We introduce coordination continuity, the extent to which collaborators sustain a workable ba... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-20/07-shared-understanding-in-human-ai-teams-coordination-continuity-in-evol.md"
+    },
+    {
+      "title": "Do Alice and Bob Dream of the Oracle? Wishful Cryptanalysis",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.27729v1",
+      "date": "2026-11-20",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "For two millennia, offense and defense have forged cryptographic security boundaries. Tools automated calculation and search, while humans drove discovery. Foundation models now mark a shift from automated computation to intelligent scientific discovery. Because cryptanalysis rests on exact mathematical definitions and immediately executable truth, it off... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-20/08-do-alice-and-bob-dream-of-the-oracle-wishful-cryptanalysis.md"
+    },
+    {
+      "title": "Hierarchical Agentic Mid-Band Agility for Reliable Low-Latency Space-Air-Ground Integrated V2X Networks",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.27659v1",
+      "date": "2026-11-20",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Upper-mid-band spectrum offers bandwidth opportunities for the integrated networks of ground vehicles, unmanned aerial vehicles (UAVs), and low Earth orbit (LEO) satellites to support 6G wide-area vehicle-to-everything (V2X) connectivity. However, V2X services' latency and reliability are sensitive to the mid-band selection due to frequency-dependent prop... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-20/09-hierarchical-agentic-mid-band-agility-for-reliable-low-latency-space-a.md"
+    },
+    {
+      "title": "Show HN: SecureVibe – Find and trace vulnerabilities for vibe coded apps",
+      "source": "Hacker News Show HN",
+      "url": "https://securevibe-dev.vercel.app/",
+      "date": "2026-11-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hello HN, just wanted to share my project that I've been working on the past months, where I noticed the issue that now we ship faster than setting up the requirements for the project. So I thought of building secureVibe to find vulnerabilities in your codebase. Now I have a MVP where it doesn't just scan the code and show random analysis I used Tree-sitt... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-23/10-show-hn-securevibe-find-and-trace-vulnerabilities-for-vibe-coded-apps.md"
+    },
+    {
+      "title": "Show HN: Penelope, BYOK meetings transcriber as webapp",
+      "source": "Hacker News Show HN",
+      "url": "https://www.penelope.ink/",
+      "date": "2026-11-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Tech stack: clai[0] as AI backend, wasmer.sh[1] as runtime, slivingdoc[2] as durable persistence (optional, storing in local indexdb works just as well) [0]: https://clai.chat [1]: https://www.wasmer.sh/ [2]: https://slivingdoc.dev (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-23/11-show-hn-penelope-byok-meetings-transcriber-as-webapp.md"
+    },
+    {
+      "title": "Show HN: Biohacking in Chess – can coffee make you a better player?",
+      "source": "Hacker News Show HN",
+      "url": "https://plantsresearch.pro/chess-lab",
+      "date": "2026-11-23",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "In short: For the past few years, I've been building a biohacking platform called Plants Research Pro (PRP), designed to help people discover research on bioactive materials and put that research to practical use. Recently, I added a new feature to PRP which is turning out to be my favorite so far: The Chess Lab. This is essentially a set of tools and pro... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-23/12-show-hn-biohacking-in-chess-can-coffee-make-you-a-better-player.md"
+    },
+    {
+      "title": "Faizee-Asad/BharatSkills",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Faizee-Asad/BharatSkills",
+      "date": "2026-11-21",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "India-first AI agent skills — GST, UPI, WhatsApp Business, school fees, Hindi typing & Indian workflows. English · Hinglish · Hindi (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-21/13-faizee-asad-bharatskills.md"
+    },
+    {
+      "title": "b12651",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12651",
+      "date": "2026-11-23",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "webgpu : add ROLL support (#31887) * webgpu : add ROLL support * tests : keep ROLL cases portable across backends **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12651/llama-b12651-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](ht... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-23/14-b12651.md"
+    },
+    {
+      "title": "b12650",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12650",
+      "date": "2026-11-23",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "chat : improve inkling parser/grammar (#32833) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12650/llama-b12650-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-23/15-b12650.md"
+    },
+    {
+      "title": "b12649",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12649",
+      "date": "2026-11-23",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "opencl: add xielu (#32791) Assisted-by: Codex **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12649/llama-b12649-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/23780) - [macOS Intel (x64)... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-23/16-b12649.md"
+    },
+    {
+      "title": "b12648",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12648",
+      "date": "2026-11-23",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "opencl: add q4_k coop-k c8 GEMM for spec verify (#32716) * opencl: add q4_k coop-k c8 GEMM for spec verify Co-authored-by: Hongqiang Wang Assisted-by: Codex * opencl: enable q4_k c8 GEMM for n >= 2 for X2 --------- Co-authored-by: Hongqiang Wang **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/l... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-23/17-b12648.md"
+    },
     {
       "title": "Krishnacore/memdusa",
       "source": "GitHub Trending",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Attackers profit from what defenders do not understand. Software security has treated the gap between system behavior and human comprehension as a condition to narrow through analysis and assurance, booking the remainder as accepted risk. Agentic AI systems change that gap: when software reads, writes, explains, and authorizes security-relevant behavior,... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-19/07-accountable-partial-understanding-securing-the-epistemic-attack-surfac.md"
-    },
-    {
-      "title": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.26770v1",
-      "date": "2026-10-19",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Harness development plays a crucial role in building capable AI agents. Recent approaches improve harnesses through recursive self-improvement (RSI), but their performance gains often come with higher execution costs. We introduce HarnessPro, a label-free method for evolving harnesses to improve task performance while reducing execution cost. In this sett... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-19/08-harnesspro-recursive-harness-self-improvement-with-pareto-optimization.md"
-    },
-    {
-      "title": "StebBench: Diagnosing Real-World Procedural Understanding in AI Agents",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.26679v1",
-      "date": "2026-10-19",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Evaluating an agent's planning ability remains challenging for open-domain tasks, where verifying procedures through execution is often impractical. Existing evaluations typically assess only the final plan and do not distinguish procedural errors such as missing, incorrect, or misordered actions. We introduce STEPBENCH, a benchmark of 6,885 verified proc... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-19/09-stebbench-diagnosing-real-world-procedural-understanding-in-ai-agents.md"
-    },
-    {
-      "title": "Show HN: KiviDB, a faster Redis-compatible memory database and vector cache",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/kividbio/kividb",
-      "date": "2026-10-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi all, So I have been working on this project KiviDB from February 2026. It started as a project for me to understand rust, having a product with no GC pauses, memory blow up after snapshots and getting OOM on running pods, and that was actually an issue I faced with Dragonfly. I wanted to have something picking the best of Rust, but also picking the bes... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-19/10-show-hn-kividb-a-faster-redis-compatible-memory-database-and-vector-ca.md"
-    },
-    {
-      "title": "AIBeginnerX/oh-our-pi-desktop",
-      "source": "GitHub Search API",
-      "url": "https://github.com/AIBeginnerX/oh-our-pi-desktop",
-      "date": "2026-10-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "OoP: a fork of T3 Code that controls your coding agents (Codex, Claude Code, Cursor, OpenCode and more) from one desktop app, with an optional multi-model Crew. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-aibeginnerx-oh-our-pi-desktop.md"
-    },
-    {
-      "title": "araMacbick2026/anaia",
-      "source": "GitHub Search API",
-      "url": "https://github.com/araMacbick2026/anaia",
-      "date": "2026-10-20",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "araMacbick2026/anaia Stars: 0 (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/12-aramacbick2026-anaia.md"
-    },
-    {
-      "title": "Show HN: I built an AI tool that turns two photos into a dance video",
-      "source": "Hacker News Show HN",
-      "url": "https://a2oliteai.com/",
-      "date": "2026-10-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: I built an AI tool that turns two photos into a dance video (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/13-show-hn-i-built-an-ai-tool-that-turns-two-photos-into-a-dance-video.md"
-    },
-    {
-      "title": "Jev Based Adaptive Thinking for LLMs",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa9ffa/jev_based_adaptive_thinking_for_llms/",
-      "date": "2026-10-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi, I experimented with the following idea, using JEV logic to make the thinking process of LLMs adaptive. For every single word we measure the entropy and when the model is unsure we use a JEV like gate where we ask the model if it should trigger a thinking process. We have the opening thought that happens anyway, but then we may have additional thinking... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-19/14-jev-based-adaptive-thinking-for-llms.md"
-    },
-    {
-      "title": "I got tired of Apple's configurator, so I built one for local AI",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xagmpd/i_got_tired_of_apples_configurator_so_i_built_one/",
-      "date": "2026-10-20",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I was buying a Mac mini and kept going back and forth between configs, trying to guess which one would actually run the models I want. So I built a configurator for people buying a Mac to run local LLMs: https://modelfit.io/ You can clearly see all the best llms it can read and at what efficiency all updating in real time according to the configuration yo... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-20/15-i-got-tired-of-apple-s-configurator-so-i-built-one-for-local-ai.md"
-    },
-    {
-      "title": "[Bi-Weekly Megathread] Project Showcase",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yg86/biweekly_megathread_project_showcase/",
-      "date": "2026-10-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Do you have something you'd like to share with the r/LocalLLaMA community. This is the place for it! Recommendation on presentation: Please share plain english description of what your project does and why people should care about it How does it compare to existing options and why should people switch to your option? How have you tested and validated it?... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-19/16-bi-weekly-megathread-project-showcase.md"
-    },
-    {
-      "title": "Let's delve into the tapestry of AI slop on r/LocalLLaMA",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7hi8/lets_delve_into_the_tapestry_of_ai_slop_on/",
-      "date": "2026-10-19",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Hi everyone, I got annoyed a bit with all the AI slop post I have seen here on this subreddit (and reddit in general). It has gotten better in the last few months, but that hasn't stopped me from doing an in depth analysis of AI slop in different subreddits over the years. If you're into that, you can read it here: https://thil.ooo/blog/measuring-slop/ I... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-19/17-let-s-delve-into-the-tapestry-of-ai-slop-on-r-localllama.md"
-    },
-    {
-      "title": "Show HN: Hybro – an open interoperability engine for AI agents",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/hybroai/hybro",
-      "date": "2026-10-18",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "I built an open interoperability engine for AI agents. Connect your favorite agents and harnesses. Work together. Appreciate for any feedback. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-18/06-show-hn-hybro-an-open-interoperability-engine-for-ai-agents.md"
-    },
-    {
-      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.23845v1",
-      "date": "2026-10-16",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Reproducible and analytically robust research findings are essential to scientific progress, but evaluating these properties typically requires costly manual effort. We investigate whether LLM agents can help automate reproduction and robustness analysis, using a medical case study grounded in the Surveillance, Epidemiology, and End Results (SEER) databas... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-16/07-ai-driven-reproducibility-and-analytical-robustness-in-scientific-disc.md"
     }
   ]
 }

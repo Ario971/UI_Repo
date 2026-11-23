@@ -1,0 +1,12 @@
+---
+title: "Hierarchical Agentic Mid-Band Agility for Reliable Low-Latency Space-Air-Ground Integrated V2X Networks"
+source: "arXiv cs.AI/cs.CL/cs.LG"
+url: "https://arxiv.org/abs/2611.27659v1"
+date: "2026-11-20"
+topic: "AI agents"
+type: "paper"
+read: false
+summary: "Upper-mid-band spectrum offers bandwidth opportunities for the integrated networks of ground vehicles, unmanned aerial vehicles (UAVs), and low Earth orbit (LEO) satellites to support 6G wide-area vehicle-to-everything (V2X) connectivity. However, V2X services' latency and reliability are sensitive to the mid-band selection due to frequency-dependent prop... (Local summary fallback used.)"
+---
+
+Upper-mid-band spectrum offers bandwidth opportunities for the integrated networks of ground vehicles, unmanned aerial vehicles (UAVs), and low Earth orbit (LEO) satellites to support 6G wide-area vehicle-to-everything (V2X) connectivity. However, V2X services' latency and reliability are sensitive to the mid-band selection due to frequency-dependent propagation and rain attenuation. This paper investigates environment-aware spectrum agility over candidate frequency range 3 (FR3) bands within 7.125-24.25 GHz, jointly with end-to-end (E2E) multi-path traffic splitting and transmit power control. Each data packet is partitioned into non-overlapping subflows over direct and UAV-assisted paths, with failed sky-link subflows selectively retransmitted subject to retransmission and freshness constraints. We formulate latency- and reliability-oriented problems, followed by a unified sequential optimization problem incorporating band-switching costs and average quality-of-service (QoS) violation budgets. To coordinate optimization decisions across heterogeneous timescales, we develop an agentic AI-assisted hierarchical multi-agent reinforcement learning (AA-HMARL) framework. A high-level agentic supervisor integrates recurrent memory, analytical evaluation of candidate bands, and event-triggered replanning to coordinate slow environmental adaptation with fast channel and retransmission dynamics, while distributed ground vehicles and UAV agents optimize data splitting and power using constrained MAPPO. Simulation results demonstrate an adjustable reliability-latency trade-off. Particularly, AA-HMARL reduces the mean E2E completion latency and the mean number of retransmission rounds among successfully delivered updates by 17.8-25.5% and 57.6-61.5%, respectively, and reduces the mean age of information (AoI) by 12.7-14.6% relative to fixed-band MAPPO across two traffic types.
