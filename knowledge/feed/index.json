@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T15:30:10.627Z",
+  "updated_at": "2026-11-24T15:24:07.804Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Agentic AI for Intent Management and Control in Autonomous Communication Networks",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.31223v1",
+      "date": "2026-11-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Artificial intelligence (AI)-driven automation will help future mobile networks translate high-level network intents into concrete network optimization or control actions. However, existing approaches often focus on intent management and orchestration, leaving the adaptation of underlying network optimization and control functions largely unaddressed. Thi... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-23/06-agentic-ai-for-intent-management-and-control-in-autonomous-communicati.md"
+    },
+    {
+      "title": "A Mixed-Methods Study of Personal Software Creation",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.31217v1",
+      "date": "2026-11-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "People have long wanted software shaped around their own data, routines, and preferences. We refer to such software as \\emph{personal software}. For decades, programming expertise limited who could build it: people without that expertise could build software only within constrained end-user programming tools, such as spreadsheets. AI coding agents seem to... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-23/07-a-mixed-methods-study-of-personal-software-creation.md"
+    },
+    {
+      "title": "AI-Assisted Auto-formalization for Trustworthy Scientific Computing: Case Studies and Lessons Learned",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.31033v1",
+      "date": "2026-11-23",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "Agentic AI tools have recently had success in mathematical reasoning. Both general purpose coding agents such as Claude Code and Codex, and specialized mathematics agents such as Aristotle, have been used for formalizing mathematical problems such as Fermat's last theorem, Erdős problems and several IMO level math problems. However, much of these efforts... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-23/08-ai-assisted-auto-formalization-for-trustworthy-scientific-computing-ca.md"
+    },
+    {
+      "title": "Show HN: Open-Interpretability Explain",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://open-interpretability.com/posts/explain/index.html",
+      "date": "2026-11-24",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Made this after getting inspired by Neural Networks are Clean. I love seeing how these LLM's work under the hood. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-24/09-show-hn-open-interpretability-explain.md"
+    },
+    {
+      "title": "Show HN: We replaced our time tracking SaaS with a Git repository",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/clockoli/clockoli",
+      "date": "2026-11-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "TL;DR: - Free and open source, no seat limits. - Some of its features require plans that cost a team of 10 around $1,000/year on Clockify or $2,000/year on Toggl Track. - No backend. Your time entries live in your private GitHub repo. - Track any URL. - Works offline, syncs in the background and keeps changes in Git history. - Team reports, CSV exports, h... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-24/10-show-hn-we-replaced-our-time-tracking-saas-with-a-git-repository.md"
+    },
+    {
+      "title": "sid3305/CodeLens-AI",
+      "source": "GitHub Search API",
+      "url": "https://github.com/sid3305/CodeLens-AI",
+      "date": "2026-11-17",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "sid3305/CodeLens-AI Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-17/11-sid3305-codelens-ai.md"
+    },
+    {
+      "title": "xity4uu-a11y/nexus-agent-os",
+      "source": "GitHub Search API",
+      "url": "https://github.com/xity4uu-a11y/nexus-agent-os",
+      "date": "2026-11-24",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Local-first Multi-Agent Operating System, Visual DAG Studio, Universal MCP Hub, 28-Tool Native MCP Server, Hybrid FTS5+Vector Memory Graph, Fernet Vault & Eval Arena — open-source alternative to LangSmith, CrewAI Enterprise, and Dify Cloud. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-24/12-xity4uu-a11y-nexus-agent-os.md"
+    },
+    {
+      "title": "danilsavc/taskflow-ai",
+      "source": "GitHub Search API",
+      "url": "https://github.com/danilsavc/taskflow-ai",
+      "date": "2026-11-18",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "danilsavc/taskflow-ai Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-18/13-danilsavc-taskflow-ai.md"
+    },
+    {
+      "title": "b12676",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12676",
+      "date": "2026-11-24",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "GDN: use replay instead of rollback (#31669) * GDN: use replay instead of rollback [WIP] * memory : move rs_max with the sequence when find_slot swaps cells find_slot swapped pos/src/rs_pend/seq_id of the cell it moves out of the way, but not rs_max, so that sequence inherited the rollback depth of the cell's previous owner. A smaller value made seq_rm re... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-24/14-b12676.md"
+    },
+    {
+      "title": "b12675",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12675",
+      "date": "2026-11-24",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "server : preserve a prompt-cache entry until restores succeed (#32828) Assisted-by: Codex **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12675/llama-b12675-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-or... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-24/15-b12675.md"
+    },
+    {
+      "title": "b12674",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12674",
+      "date": "2026-11-24",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "opencl: fetch the Adreno binary kernel library at configure time for Windows on Snapdragon (#31759) * opencl: fetch the Adreno binary kernel library at configure time Make GGML_OPENCL_USE_ADRENO_BIN_KERNELS an option, default ON, and add GGML_OPENCL_ADRENO_BIN_KERNELS_FETCH, default ON. On Windows, CMake downloads the pinned adreno-opencl-kernels release... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-24/16-b12674.md"
+    },
+    {
+      "title": "b12671",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12671",
+      "date": "2026-11-24",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "metal : batch concat rows and copy them in vector chunks (#32824) * metal : batch concat rows and copy them in vector chunks The concat kernel copied one element per thread, so wide rows with many rows ran at a fraction of the memory bandwidth. Batch several rows per threadgroup and copy the contiguous dim-0 elements in 4-element chunks when the row is co... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-24/17-b12671.md"
+    },
     {
       "title": "Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Computer-use agents are limited by the interfaces humans give them. An agent may type a spreadsheet cell by cell when a single line of code would do, or print all two thousand lines of a file through a shell to find one function. Both the interfaces and the knowledge of when to use each are built by hand, which cannot keep pace with new applications, work... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-20/07-evolving-agent-interfaces.md"
-    },
-    {
-      "title": "Proof-Carrying Contracts: Commitments AI Agents Cannot Break",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.28484v1",
-      "date": "2026-10-20",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "AI agents increasingly act on behalf of people or other agents, purchasing services, exchanging information and delegating work. What an agent must respect is written in instructions, policies or agreements, but text alone cannot make it comply. It may make mistakes, be redirected by what it reads, or pursue different interests. For an economy of such age... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-20/08-proof-carrying-contracts-commitments-ai-agents-cannot-break.md"
-    },
-    {
-      "title": "Claims of emergence in AI should be grounded in information decomposition",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.28479v1",
-      "date": "2026-10-20",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "When a language model develops capabilities not traceable to its individual components, when a multi-agent AI system outperforms each agent on its own, or when a human-AI pair succeeds where either fails in isolation, AI researchers describe it as a case of ``synergy'' or ``emergence''. However, these are usually informal assessments not supported by a th... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-20/09-claims-of-emergence-in-ai-should-be-grounded-in-information-decomposit.md"
-    },
-    {
-      "title": "Show HN: Rouler – Steer Windows traffic per app or IP across multiple interfaces",
-      "source": "Hacker News Show HN",
-      "url": "https://rouler.io/",
-      "date": "2026-10-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, Rouler is \"rules for your routes\". It allows you to steer network traffic across multiple network interfaces on Windows. For example: - Run Tailscale, Mullvad and OpenVPN official clients simultaneously. - Use Rouler to send Slack via the OpenVPN connection, Chrome + an IP range via Tailscale and a torrent client via Mullvad. Rouler is VPN agnostic... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/10-show-hn-rouler-steer-windows-traffic-per-app-or-ip-across-multiple-int.md"
-    },
-    {
-      "title": "Show HN: VoidAccess – open-source dark web OSINT, from query to a graph",
-      "source": "Hacker News Show HN",
-      "url": "https://github.com/KatrielMoses/voidaccess",
-      "date": "2026-10-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN! Im Katriel, and im a Security Researcher/Enthusiast and in the wave of AI, i wanted to build that next gen of security tooling that surpasses the current tools, and even the paid industries with an open source engine. I built MailAccess as well, which is going to be the best damn email osint tool out there, in another year. But just before building... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/11-show-hn-voidaccess-open-source-dark-web-osint-from-query-to-a-graph.md"
-    },
-    {
-      "title": "nishatayub/md-faith",
-      "source": "GitHub Search API",
-      "url": "https://github.com/nishatayub/md-faith",
-      "date": "2026-10-21",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "MD-Faith is an evaluation harness, not another MD agent (MDCrow, DynaMate and others already run MD workflows). It computes ground truth from a trajectory, plants known processing problems (periodic-boundary wrapping, shuffled frames, unfitted frames), asks LLMs to explain the analysis under different conditions. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-21/12-nishatayub-md-faith.md"
-    },
-    {
-      "title": "ego-mejia/radicle",
-      "source": "GitHub Search API",
-      "url": "https://github.com/ego-mejia/radicle",
-      "date": "2026-10-21",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "Open source, self-hosted ticket tracker where people and AI agents work the same project. MCP built in, inbox for your users, AGPLv3. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-21/13-ego-mejia-radicle.md"
-    },
-    {
-      "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb9z8e/exclusive_bytedance_alibaba_tencent_place_over_35/",
-      "date": "2026-10-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "China just ordered 3mil RTX 5500 Pro for $11.4k a pop. Probably for llm inference and AI video gen. I suppose this card is now out of reach for local llm. submitted by /u/Ok_Warning2146 [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-21/14-exclusive-bytedance-alibaba-tencent-place-over-35-billion-worth-of-nvi.md"
-    },
-    {
-      "title": "I use local AI to generate personal value on my massive NAS-based archive / library",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbd1hp/i_use_local_ai_to_generate_personal_value_on_my/",
-      "date": "2026-10-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I’ve seen vastly more questions than answers about how people are using their local AI so I figured I’d make a post about my experience. It seems most people are looking for frontier-level coding expertise for huge projects with their setups, and that anything less is not enough. I disagree and don’t really care about that stuff. TL;DR: I used a frontier... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-21/15-i-use-local-ai-to-generate-personal-value-on-my-massive-nas-based-arch.md"
-    },
-    {
-      "title": "KFlash: Benchmarks of newly released versions of Apple Silicon optimized engines: 1.4.0 Splash (DFlash2 ~ 50 tok/s) vs 0.2 Kapitsa (KFlash ~65 tok/s), MLX(MTP) & more on Qwen 3.8 27b/4b/35b 4Q on Macbook Pro M4 Pro 48 GB 2024, 48GB & Macbook Pro M1 Pro 16GB 2021",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of/",
-      "date": "2026-10-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "hey folks, its Ye, I work on an open source project called Kapitsa : its a fast Apple Silicon optimized inference engine built for Qwen and Nemotron models. this week two new releases landed in local inference: Inco shipped Splash 1.4.0 yesterday, and we shipped Kapitsa 0.2 today with a new speculative decoding method we call KFlash. so we put the newest... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-21/16-kflash-benchmarks-of-newly-released-versions-of-apple-silicon-optimize.md"
-    },
-    {
-      "title": "Fast LoRA in llama.cpp",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbekzx/fast_lora_in_llamacpp/",
-      "date": "2026-10-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I'd like to share a few changes that encourage people to create and use LoRA on LLMs. For example, the LoRA https://huggingface.co/chenrm/qwen3.8-flash-next-abliterated-lora can turn the Qwen3.8-Flash-Next model into the uncensored version, whether you're using Q8_0, IQ4_NL, or GSQ-RCO-Q2_0 model, so you don't need to download the whole model again. You c... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-21/17-fast-lora-in-llama-cpp.md"
-    },
-    {
-      "title": "RefCraft: Benchmarking Visual-Reference-Conditioned Agentic Generation through Web Development",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.26826v1",
-      "date": "2026-10-19",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Beyond basic tool use and coding skills, effectively incorporating visual references into agentic generation is equally essential for applying AI agents to real-world productivity tasks. We study this crucial capability through webpage development, a practical and readily evaluable setting in which existing benchmarks remain largely idealized: they typica... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-19/06-refcraft-benchmarking-visual-reference-conditioned-agentic-generation-.md"
-    },
-    {
-      "title": "Accountable partial understanding: securing the epistemic attack surface of agentic systems",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.26799v1",
-      "date": "2026-10-19",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Attackers profit from what defenders do not understand. Software security has treated the gap between system behavior and human comprehension as a condition to narrow through analysis and assurance, booking the remainder as accepted risk. Agentic AI systems change that gap: when software reads, writes, explains, and authorizes security-relevant behavior,... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-19/07-accountable-partial-understanding-securing-the-epistemic-attack-surfac.md"
     }
   ]
 }

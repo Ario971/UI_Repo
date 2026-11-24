@@ -1,0 +1,313 @@
+---
+id: "yahyabedirhan/skills"
+name: "yahyabedirhan/skills"
+url: "https://github.com/yahyabedirhan/skills"
+date: "2026-11-24"
+source: "awesome-llm-agents"
+category: "awesome_lists"
+kind: "claude_skill"
+compatibility: 75
+momentum: 58
+risk: 30
+integration_effort: 54
+expected_gain: 87
+composite: 70
+replacement_target: ""
+related_articles: [{"title":"Donating Agent Skills to the Agentic AI Foundation","date":"2026-10-25","topic":"AI agents","similarity":0.463,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-25/07-donating-agent-skills-to-the-agentic-ai-foundation.md"},{"title":"M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents","date":"2026-10-27","topic":"AI agents","similarity":0.268,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-27/09-m4bench-evaluating-procedural-specification-for-clinical-ehr-derivatio.md"},{"title":"Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents","date":"2026-11-17","topic":"AI agents","similarity":0.257,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-17/09-agent-trust-infrastructure-ati-a-federated-identity-trust-attestation-.md"}]
+pros: ["Recently updated (2026-11-24)","MIT license","3 GitHub stars","README mentions tests or validation"]
+cons: ["No obvious v1 warning, still review upstream code before use"]
+readme_quality: 100
+has_ci: false
+has_tests: true
+setup_steps_count: 4
+dependency_files: []
+install_commands: ["npx skills add yahyabedirhan/skills -s <skill-name>","claude plugin marketplace add yahyabedirhan/skills","claude plugin install effort-workflow@yahyabedirhan-skills","claude plugin install show-me@yahyabedirhan-skills","claude plugin install low-level-design@yahyabedirhan-skills","claude plugin install system-design@yahyabedirhan-skills"]
+risk_flags: []
+status: "new"
+---
+
+# yahyabedirhan/skills
+
+Agent skills I use across projects, includes my authored skills and forks
+
+URL: https://github.com/yahyabedirhan/skills
+
+## Why it matters
+You saved an article on 2026-10-25 about AI agents; this candidate overlaps with "Donating Agent Skills to the Agentic AI Foundation" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-11-24)
++ MIT license
++ 3 GitHub stars
++ README mentions tests or validation
+
+## Cons
+- No obvious v1 warning, still review upstream code before use
+
+## Repository Inspection
+README quality: 100/100
+CI detected: no
+Tests mentioned: yes
+Setup steps estimate: 4
+
+Dependency files:
+- none detected
+
+Install commands found:
+- npx skills add yahyabedirhan/skills -s <skill-name>
+- claude plugin marketplace add yahyabedirhan/skills
+- claude plugin install effort-workflow@yahyabedirhan-skills
+- claude plugin install show-me@yahyabedirhan-skills
+- claude plugin install low-level-design@yahyabedirhan-skills
+- claude plugin install system-design@yahyabedirhan-skills
+
+Risk flags:
+- none detected
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+<p align="center"><img src="assets/images/logo/skills.png" width="128" alt="skills' logo: five book spines folded like paper, the last leaning on the others, on a graphite tile laid in bricks"></p>
+
+<h1 align="center">skills</h1>
+
+[![skills.sh](https://skills.sh/b/yahyabedirhan/skills)](https://skills.sh/yahyabedirhan/skills)
+
+This repo holds the agent skills the maintainer uses across projects: skills written here, and [forks](GLOSSARY.md#forks) of other people's skills with the maintainer's changes.
+They work with Claude Code, Codex, and any agent the [`skills` CLI](https://github.com/vercel-labs/skills) supports.
+
+They come in five [families](GLOSSARY.md#skills-and-families).
+Each family's skills are listed under [Skills](#skills) and explained under [How the skills work](#how-the-skills-work):
+
+- **[Effort workflow](#effort-workflow)**: take a feature from an idea to a merged pull request.
+- **[Design frameworks](#design-frameworks)**: design or explain code, systems and command-line interfaces step by step.
+- **[Communication style](#communication-style)**: how an agent explains and reports its work.
+- **[Agent setup](#agent-setup)**: install, maintain and audit what your agents run with.
+- **[Daily workflows](#daily-workflows)**: everyday tasks outside the code, such as email and dictation.
+
+## Install
+
+This section shows how to install the skills, with the `skills` CLI or as Claude Code plugins.
+Install any skill by its name from [Skills](#skills):
+
+```bash
+npx skills add yahyabedirhan/skills -s <skill-name>
+```
+
+For example `-s to-pr`, `-s system-design`, or `-s wispr-flow-dictionary`.
+Leave out `-s` to pick from a list, and add `-g` to install for your user rather than the current project.
+Skills in the same family name each other, so install a family together.
+
+### Claude Code plugins
+
+Some skills are also Claude Code plugins, from this repo's marketplace.
+Add the marketplace once:
+
+```bash
+claude plugin marketplace add yahyabedirhan/skills
+```
+
+Then install a plugin by name:
+
+| Plugin | Skills | Install |
+|---|---|---|
+| `effort-workflow` | The [effort workflow](#effort-workflow) family; installs [`show-me`](skills/show-me/SKILL.md) with it | `claude plugin install effort-workflow@yahyabedirhan-skills` |
+| `show-me` | [show-me](skills/show-me/SKILL.md) | `claude plugin install show-me@yahyabedirhan-skills` |
+| `low-level-design` | [low-level-design](skills/low-level-design/SKILL.md) | `claude plugin install low-level-design@yahyabedirhan-skills` |
+| `system-design` | [system-design](skills/system-design/SKILL.md) | `claude plugin install system-design@yahyabedirhan-skills` |
+| `cli-design` | [cli-design](skills/cli-design/SKILL.md) | `claude plugin install cli-design@yahyabedirhan-skills` |
+| `swift-performance` | [swift-performance](skills/swift-performance/SKILL.md) | `claude plugin install swift-performance@yahyabedirhan-skills` |
+| `email` | [email](skills/email/SKILL.md) | `claude plugin install email@yahyabedirhan-skills` |
+| `wispr-flow-dictionary` | [wispr-flow-dictionary](skills/wispr-flow-dictionary/SKILL.md) | `claude plugin install wispr-flow-dictionary@yahyabedirhan-skills` |
+
+A plugin's skills run as `/<plugin>:<skill>` or by their bare name, such as `/to-pr`.
+The [Agent setup](#agent-setup) skills aren't plugins: [`set-up-machine`](skills/set-up-machine/SKILL.md) wires a hook to its installed path, which a plugin update would move.
+
+Install a skill one way or the other, not both.
+Claude Code loads it twice, and the bare name runs the `npx skills` copy, so plugin updates go unseen.
+To switch to the plugin, first remove the copy with `npx skills remove <skill-name>`, and add `-g` for a global install.
+
+## Skills
+
+This section lists every skill in the repo by family, with what it does and where it comes from.
+The [Origin column](GLOSSARY.md#forks) names where each skill comes from.
+[`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) marks a skill written in this repo.
+A fork names the upstream commit it was copied from, so a later upstream change can be diffed against it.
+Each fork's full list of changes is in [FORKS.md](FORKS.md).
+
+### Effort workflow
+
+| Skill | What it does | Origin |
+|---|---|---|
+| [init-effort](skills/init-effort/SKILL.md) | Starts an effort on its own branch and worktree, or a new project in its own GitHub repo. It then starts the effort's thinking session in your session host. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [orchestrating](skills/orchestrating/SKILL.md) | The orchestrator's discipline: it delegates the work, stays your one contact and asks you only about a critical blocker. It also holds the effort lifecycle and when to notify you. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [orchestrate-effort](skills/orchestrate-effort/SKILL.md) | Builds an effort from its spec and tickets through sub-agents and opens the pull request. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [handoff](skills/handoff/SKILL.md) | Writes a handoff document in the handoff folder for another session to pick up, and never commits it. | Fork of `handoff` from [mattpocock/skills](https://github.com/mattpocock/skills) at [`d81f3a1`](https://github.com/mattpocock/skills/tree/d81f3a183412/skills/productivity/handoff). Adapted so agents can load it and it saves to the repository's handoff folder, with every change listed in [FORKS.md](FORKS.md#handoff). |
+| [handover](skills/handover/SKILL.md) | Hands work over to a new session outside this one. It gets the work and its handoff ready, starts the session with a one-line prompt and confirms it started. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [handover-to-herdr](skills/handover-to-herdr/SKILL.md) | Starts a new agent session in a labelled `herdr` tab, sends it its starting prompt and confirms it's working. The [handover](skills/handover/SKILL.md) and [init-effort](skills/init-effort/SKILL.md) skills start sessions through it. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [treehouse](skills/treehouse/SKILL.md) | Leases, lists, returns and destroys worktrees from `treehouse`'s pre-warmed pool, for the skills that make or free worktrees when `treehouse` is your worktree tool. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [orchestrate-with-handoff](skills/orchestrate-with-handoff/SKILL.md) | Picks up an effort from a handoff and runs [orchestrate-effort](skills/orchestrate-effort/SKILL.md). | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [implement](skills/implement/SKILL.md) | Builds work from a spec or tickets with [tdd](https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd) and [code-review](https://github.com/mattpocock/skills/tree/main/skills/engineering/code-review). | Fork of `implement` from [mattpocock/skills](https://github.com/mattpocock/skills) at [`d81f3a1`](https://github.com/mattpocock/skills/tree/d81f3a183412/skills/engineering/implement). Adapted so an orchestrator's sub-agents can run it, with every change listed in [FORKS.md](FORKS.md#implement). |
+| [to-spec](skills/to-spec/SKILL.md) | Turns the current conversation into a spec and publishes it to the project's tracker. | Fork of `to-spec` from [mattpocock/skills](https://github.com/mattpocock/skills) at [`d81f3a1`](https://github.com/mattpocock/skills/tree/d81f3a183412/skills/engineering/to-spec). Adapted to this repo's setup flow and local tracker, with every change listed in [FORKS.md](FORKS.md#to-spec). |
+| [to-tickets](skills/to-tickets/SKILL.md) | Breaks a plan, spec or conversation into tracer-bullet tickets, each naming what blocks it, and publishes them to the project's tracker. | Fork of `to-tickets` from [mattpocock/skills](https://github.com/mattpocock/skills) at [`d81f3a1`](https://github.com/mattpocock/skills/tree/d81f3a183412/skills/engineering/to-tickets). Adapted to this repo's setup flow and local tracker, with every change listed in [FORKS.md](FORKS.md#to-tickets). |
+| [to-pr](skills/to-pr/SKILL.md) | Opens a pull request or rewrites its description, with a one-sentence why, notes for reviewers and a visual change outline. | Fork of `visual-pr` from [humanlayer/skills](https://github.com/humanlayer/skills) at [`4e39d8f`](https://github.com/humanlayer/skills/tree/4e39d8fe020f/plugins/visual-pr/skills/visual-pr). Adapted to plain-text outlines and this repo's folder standard, with every change listed in [FORKS.md](FORKS.md#to-pr). |
+| [settle-effort](skills/settle-effort/SKILL.md) | Settles an effort once its pull request may merge, after your approval when its base waits for you: it merges it, runs the follow-ups, carries unfinished work into new tickets and closes the spec and tickets. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [settle-session](skills/settle-session/SKILL.md) | Settles any session when you say "settle": it finishes and pushes the work, writes down what it knows, and gets every open thread done, filed or decided by you. It frees only worktrees that are clean and proven merged. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [continue-session](skills/continue-session/SKILL.md) | Continues another session's work by reading its transcript without sending it input, so a long uncached session stays asleep. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+
+### Design frameworks
+
+| Skill | What it does | Origin |
+|---|---|---|
+| [low-level-design](skills/low-level-design/SKILL.md) | Designs, explains or redesigns code at the level of modules, classes, files and folders, with reference documents for the principles and patterns. Adapts [Hello Interview's low-level design lessons](https://www.hellointerview.com/learn/low-level-design/in-a-hurry/introduction), cited at the end of each reference document that uses them. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [system-design](skills/system-design/SKILL.md) | Designs, explains or redesigns a system at the level of services, data stores, APIs and scale, with reference documents for the core concepts. Adapts [Hello Interview's system design lessons](https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction), cited at the end of each document. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [cli-design](skills/cli-design/SKILL.md) | Designs, explains, audits or redesigns a command-line interface for the people, scripts and agents that call it, with a reference document for the shared conventions. Adapts the [Command Line Interface Guidelines](https://clig.dev/) and the POSIX Utility Conventions, cited at the end of each document. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [swift-performance](skills/swift-performance/SKILL.md) | Keeps a Swift app fast on macOS. A build mode keeps the common SwiftUI and AppKit mistakes out of the code, and a diagnosis mode finds the cause of slowness. Written from tracing a SwiftUI menu bar app's slow tab layout, keeping only the lessons that hold for nearly every macOS Swift app. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+
+### Communication style
+
+| Skill | What it does | Origin |
+|---|---|---|
+| [show-me](skills/show-me/SKILL.md) | Explains the current topic visually with pseudocode, call trees, file trees, `diff` blocks or one focused HTML file. | Fork of `show-me` from [humanlayer/skills](https://github.com/humanlayer/skills) at [`ca7c808`](https://github.com/humanlayer/skills/tree/ca7c808/plugins/show-me/skills/show-me). Adapted to plain-text views that agents can still load, with every change listed in [FORKS.md](FORKS.md#show-me). |
+| [show-me-artifact](skills/show-me-artifact/SKILL.md) | Publishes a visual report or a set of decisions as a private Claude artifact, a hosted page you read later or on another device. Outside Claude it falls back to [show-me](skills/show-me/SKILL.md)'s local HTML file. Builds on [show-me](skills/show-me/SKILL.md), which it loads for the principles. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [show-me-diagram](skills/show-me-diagram/SKILL.md) | Explains the current topic, a status or a concept as one designed diagram, drawn through the [diagram-design](https://github.com/cathrynlavery/diagram-design) skill, which it loads for the build, in a profile it ships. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [i-am-afk](skills/i-am-afk/SKILL.md) | Tells the agents you're away, so they keep working alone and prepare the costly choices as a plan for your return. You start it with `/i-am-afk`. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [i-am-back](skills/i-am-back/SKILL.md) | Tells the agents you're back, so they report through [show-me](skills/show-me/SKILL.md) what is done, what they decided and what waits for you. You start it with `/i-am-back`. Builds on [show-me](skills/show-me/SKILL.md). | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+
+### Agent setup
+
+| Skill | What it does | Origin |
+|---|---|---|
+| [maintain-environment](skills/maintain-environment/SKILL.md) | The starting point for a change to what your agents run with: it decides where the change belongs, routes it to its source and says what carries it to every harness and install. It also starts your workstation repo and runs skill operations with `npx skills`. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [retire-machine](skills/retire-machine/SKILL.md) | Retires a machine you no longer use, such as an old VPS: it saves what you keep, disconnects the machine from your accounts and other machines, and hands you the provider's delete step. It is the reverse of [set-up-machine](skills/set-up-machine/SKILL.md). | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [set-up-machine](skills/set-up-machine/SKILL.md) | Sets up and audits a machine's agent harnesses from one rule table, with one shared global instructions file, the global rules each harness enforces and a pre-tool hook. It covers Claude Code, Codex, opencode, Cursor, Pi and Grok Bot. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [set-up-project](skills/set-up-project/SKILL.md) | Sets up and audits a project for your agents once the machine passes [set-up-machine](skills/set-up-machine/SKILL.md)'s check: `AGENTS.md` as the project-level instructions, the issue tracker, triage labels, domain docs, a release page when the project releases, the line that names which merges wait for you, and the folder standard's `.gitignore`. Its audit flags any project harness file that weakens a global rule. | Fork of `setup-matt-pocock-skills` from [mattpocock/skills](https://github.com/mattpocock/skills) at [`d81f3a1`](https://github.com/mattpocock/skills/tree/d81f3a183412/skills/engineering/setup-matt-pocock-skills). Adapted to this repo's setup flow, with every change listed in [FORKS.md](FORKS.md#set-up-project). |
+| [skill-recap](skills/skill-recap/SKILL.md) | Recaps how a session and its sub-agents used their skills, or a scope you name, and ends with findings you can file with [to-tickets](skills/to-tickets/SKILL.md). You start it with `/skill-recap`, or `$skill-recap` in Codex. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+
+### Daily workflows
+
+| Skill | What it does | Origin |
+|---|---|---|
+| [calendar](skills/calendar/SKILL.md) | Reads your calendar when a task needs an event or free time, through the Spark CLI or the Google Calendar connector. It never changes the calendar, because a permission rule denies every write. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [email](skills/email/SKILL.md) | Reads and tidies your email when you ask for an email task, reading through the Spark CLI and archiving or labelling through the Gmail connector. Sending, trash and spam are denied, and it includes its setup and checks. The daily workflows adapt the read-only recipes in [readdle/spark-cli-skills](https://github.com/readdle/spark-cli-skills) at [`507d26e`](https://github.com/readdle/spark-cli-skills/tree/507d26e/skills). No text is copied, and the recipes' license is in [FORKS.md](FORKS.md#credited-sources). | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+| [wispr-flow-dictionary](skills/wispr-flow-dictionary/SKILL.md) | Tunes the Wispr Flow dictionary on macOS from your real dictation history: it finds the words dictation mishears, fixes them with backups and undo, and shows whether each fix held. | [`yahyabedirhan`](https://www.skills.sh/?q=yahyabedirhan) |
+
+## How the skills work
+
+This section explains how the skills in each family work together.
+
+### Effort workflow
+
+An **effort**, such as a feature, a new app or a refactor, goes from an idea to a merged pull request in one worktree on one branch.
+A thinking session decides what to build, and a fresh orchestrator builds it, so the builder starts from conclusions instead of debate.
+
+![The effort workflow in five stages: start with init-effort, thinking with grilling, to-spec and to-tickets, handover with handover and handoff, build with orchestrate-effort and its sub-skills, and settle with settle-effort and settle-session.](docs/diagrams/effort-workflow.png)
+
+The diagram shows the five stages of an effort and the skill that runs each one.
+The build stage is highlighted, because that is where the fresh orchestrator takes over.
+
+Install the family together with its [companions](GLOSSARY.md#skills-and-families), and leave out the upstream skills it replaces:
+
+- **Companions:** [`show-me`](skills/show-me/SKILL.md); [`grilling`](https://github.com/mattpocock/skills/tree/main/skills/productivity/grilling), [`prototype`](https://github.com/mattpocock/skills/tree/main/skills/engineering/prototype), [`tdd`](https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd) and [`code-review`](https://github.com/mattpocock/skills/tree/main/skills/engineering/code-review) from [mattpocock/skills](https://github.com/mattpocock/skills); and [`set-up-project`](skills/set-up-project/SKILL.md) and [`set-up-machine`](skills/set-up-machine/SKILL.md) from [Agent setup](#agent-setup) to set each project up.
+- **Replaced upstream skills:** leave out that repo's [`handoff`](https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff), [`implement`](https://github.com/mattpocock/skills/tree/main/skills/engineering/implement), [`to-spec`](https://github.com/mattpocock/skills/tree/main/skills/engineering/to-spec), [`to-tickets`](https://github.com/mattpocock/skills/tree/main/skills/engineering/to-tickets) and [`setup-matt-pocock-skills`](https://github.com/mattpocock/skills/tree/main/skills/engineering/setup-matt-pocock-skills), which the forks here replace, and its [`implement-spec`](https://github.com/mattpocock/skills/tree/main/skills/engineering/implement-spec) and [`pr`](https://github.com/mattpocock/skills/tree/main/skills/engineering/pr), which [`orchestrate-effort`](skills/orchestrate-effort/SKILL.md) and [`to-pr`](skills/to-pr/SKILL.md) replace.
+- **Lifecycle and records:** the full path is in [the effort lifecycle](skills/orchestrating/SKILL.md#effort-lifecycle).
+Where each record goes, such as the spec, tickets, handoff and notes, is in the [folder standard](skills/orchestrating/folder-standard.md).
+
+### Design frameworks
+
+Each skill runs a design session through a delivery framework, whether you are designing something new, explaining existing work, redesigning it, or deciding one question.
+It starts simple and adds only what a requirement proves necessary.
+
+![The four design skills, low-level-design, system-design, cli-design and swift-performance, each with its subject and its stages in order.](docs/diagrams/design-frameworks.png)
+
+The diagram shows each design skill's subject and the stages it works through in order.
+`swift-performance` has two orders, one for building and one for diagnosing.
+
+The documents in each skill's `references/` hold the principles, patterns and concepts, loaded only when a step needs them.
+
+### Communication style
+
+These skills shape how an agent shows its thinking, so a reader takes it in quickly.
+[`show-me`](skills/show-me/SKILL.md) picks the smallest view that makes the point, in plain text that reads the same in a terminal, an editor, or on GitHub, [`show-me-artifact`](skills/show-me-artifact/SKILL.md) publishes a larger report the same way as a private Claude artifact, and [`show-me-diagram`](skills/show-me-diagram/SKILL.md) draws one designed diagram through `diagram-design`.
+
+![The communication skills: show-me, show-me-artifact and show-me-diagram with the views each one uses, then i-am-afk and i-am-back.](docs/diagrams/communication-style.png)
+
+The diagram shows what each communication skill is for and the views it draws from.
+
+### Agent setup
+
+These skills keep what your agents run with, such as permissions, instructions and skills, in order across every harness and machine.
+[`set-up-machine`](skills/set-up-machine/SKILL.md) sets up and audits each machine's harnesses from one rule table, [`set-up-project`](skills/set-up-project/SKILL.md) each project on top of it, [`maintain-environment`](skills/maintain-environment/SKILL.md) decides where a change belongs and carries it from its source to every harness and install, and [`skill-recap`](skills/skill-recap/SKILL.md) looks back over a session for what its skills should change.
+
+![Agent setup as rows: where a change belongs, what carries it, the skills source, the installs that npx skills writes, and the operations, audits and recap.](docs/diagrams/agent-setup.png)
+
+The diagram shows where a change to your agents belongs and how a skill gets from its source repo to an install.
+The skills source is highlighted, because every install comes from it through `npx skills`.
+
+[`set-up-machine`](skills/set-up-machine/SKILL.md) does the same for the rules and instructions every harness runs with.
+The rule table and the shared global instructions file are declared once; each harness gets its native entries from them:
+
+![set-up-machine's flow from rules.json through inspection, one approved diff and verify.py, then the shared files, each harness's native files, the global skills, and a rerun as the audit.](docs/diagrams/set-up-machine.png)
+
+The diagram shows each global rule going from `rules.json` into every harness's own files after one approved diff.
+Running it again is the audit, which should find nothing to change.
+
+[`set-up-project`](skills/set-up-project/SKILL.md) does it for one project, on top of the machine.
+Global rules are the safety rails; a project's own harness files only add allows:
+
+![set-up-project's flow: set-up-machine's check, then explore, ask and approve once, then write the project files, plus an audit for project files that weaken a global rule.](docs/diagrams/set-up-project.png)
+
+The diagram shows set-up-project checking the machine first and writing the project's files after one approval.
+
+### Daily workflows
+
+These skills take over everyday tasks outside the code that an agent can do safely.
+Each skill changes only what you approve, with sending, deleting and other risky actions left to you.
+
+[`email`](skills/email/SKILL.md) reads mail only for an email task you asked for, fast with the Spark CLI, and makes every change through the Gmail connector.
+It archives freely and makes any other change only when you ask.
+A draft you ask for is written in chat; one saved in Gmail or Spark needs you to name the tool and approve each write in the harness.
+Permission rules deny sending, trash and spam.
+
+![The email skill as rows: Spark CLI reads, the Gmail connector acts, the skill decides which tool does which job, and setup.md sets both up.](docs/diagrams/email.png)
+
+The diagram shows which tool reads mail, which one acts on it, and where the setup lives.
+
+[`calendar`](skills/calendar/SKILL.md) reads events and free time whenever a task needs them, with Spark first and the Google Calendar connector when Spark Desktop is closed.
+It never changes the calendar: permission rules deny every connector write and `spark event`.
+
+[`wispr-flow-dictionary`](skills/wispr-flow-dictionary/SKILL.md) keeps [Wispr Flow](https://wisprflow.ai)'s dictionary accurate for technical vocabulary, where dictation mishears product names, company names and commands.
+It reads Wispr Flow's local database and writes only its `Dictionary` table, after a backup.
+
+![wispr-flow-dictionary as rows: find misheard terms, fix them with a word, a rule or a snippet behind a backup, and check whether each fix held.](docs/diagrams/wispr-flow-dictionary.png)
+
+The diagram shows the skill's three jobs: finding misheard terms, fixing them and checking that each fix held.
+
+## Adding a skill
+
+This section says where a new skill goes in this README.
+Add its row to its family's table under [Skills](#skills), and fold it into that family's section under [How the skills work](#how-the-skills-work).
+Link every skill name you mention outside a code block: a skill here to its `SKILL.md`, and someone else's to its source.
+Put a name with no source to link in backticks, such as `close-effort`.
+Prefer an existing family; start a new one only when a skill fits none.
+A new family gets its own subsection and table under Skills, a line in the list at the top, and a section under [How the skills work](#how-the-skills-work), in the same shape as the others: two sentences and one outline.
+
+## Decision records
+
+`docs/decisions/` records why a skill or workflow is shaped the way it is, one dated entry per decision.
+Read it before changing the skills it covers.
+It is not installed.
+`docs/decisions/skill-writing.md` holds the rules for writing any skill here.
+
+## Research
+
+`docs/research/` holds the fact-finding behind open issues: how the harnesses, `herdr`, git and GitHub actually behave, with sources and test notes.
+Each issue links the notes it relies on.
+It is not installed.
+
+## License
+
+MIT, see [`LICENSE`](LICENSE).
+Third-party licenses are listed in [FORKS.md](FORKS.md).
+

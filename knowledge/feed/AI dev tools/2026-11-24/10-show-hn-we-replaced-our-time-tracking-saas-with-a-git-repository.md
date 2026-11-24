@@ -1,0 +1,12 @@
+---
+title: "Show HN: We replaced our time tracking SaaS with a Git repository"
+source: "Hacker News Show HN"
+url: "https://github.com/clockoli/clockoli"
+date: "2026-11-24"
+topic: "AI dev tools"
+type: "article"
+read: false
+summary: "TL;DR: - Free and open source, no seat limits. - Some of its features require plans that cost a team of 10 around $1,000/year on Clockify or $2,000/year on Toggl Track. - No backend. Your time entries live in your private GitHub repo. - Track any URL. - Works offline, syncs in the background and keeps changes in Git history. - Team reports, CSV exports, h... (Local summary fallback used.)"
+---
+
+TL;DR: - Free and open source, no seat limits. - Some of its features require plans that cost a team of 10 around $1,000/year on Clockify or $2,000/year on Toggl Track. - No backend. Your time entries live in your private GitHub repo. - Track any URL. - Works offline, syncs in the background and keeps changes in Git history. - Team reports, CSV exports, historical hourly rates, multiple currencies and PDF invoices, all in the browser. Hi HN. I'm Sergey, one of the developers behind Manticore Search. We'd been using Clockify for years until they decided to limit their free plan to five users recently. We started looking around. Being an open-source company, we weren't particularly excited about paying another monthly fee per employee. But we didn't want to self-host a server and a database for what is essentially a stopwatch either. Then we thought: we already use GitHub for most of our work (dev, PM, CRM, CMS). Why not use it for time tracking too? So we built Clockoli. Our whole team (Manticore Search) switched to it about a month ago, and so far it's been working well for us. Each team member writes to their own branch. Even if we abandon Clockoli tomorrow, your synced data isn't going anywhere. Just git clone the repo and do whatever you want with it: look through the history, write your own scripts, let an AI agent analyze the data or even build your own tools around it. There are downsides, of course. You depend on GitHub. Anyone with read access to the repo can see the team's time entries, so if you need to keep some of them private from your teammates, this might not be for you. Hourly rates, though, are stored in your browser and never committed to the repo. It works for us, but I'm wondering if it would work for other teams too. Would you use something like this? If not, what would stop you?
