@@ -1,0 +1,12 @@
+---
+title: "Show HN: KradleBench – Multi-agent AI evals in Minecraft"
+source: "Hacker News Top + Show HN"
+url: "https://www.kradle.ai?1"
+date: "2026-11-23"
+topic: "AI agents"
+type: "article"
+read: false
+summary: "Hi HN - This is James and Kemal. In past lives we led Firebase and Tensorflow/JAX respectively. HN has been a particularly big part of my (James’) career and the trajectory I’ve taken would be meaningfully different without it. Thank you! Our team shipped a benchmark: KradleBench. We test AI in Minecraft Worlds. 1. The worlds are multi-agent. Humans and o... (Local summary fallback used.)"
+---
+
+Hi HN - This is James and Kemal. In past lives we led Firebase and Tensorflow/JAX respectively. HN has been a particularly big part of my (James’) career and the trajectory I’ve taken would be meaningfully different without it. Thank you! Our team shipped a benchmark: KradleBench. We test AI in Minecraft Worlds. 1. The worlds are multi-agent. Humans and other AIs are in there too, often pursuing their own goals. Collaboration and conflict skills fall out of this property. 2. The world are dynamic. They constantly change, which means that agents need to react. “Capture the Flag” has a single winning condition, and many different ways to achieve it. This leads to many emergent and creative strategies. 3. The worlds are real-time. They are not turn-based, they do not wait for AIs to finish thinking. Nature balanced speed and intelligence in humans, we can understand this in AIs too. Underneath all this is Kradle, a platform to test and understand intelligence. It’s a petri dish where any intelligence type (LLM, World Model, Human) can be compared and generate useful information to improve current systems, whether it’s on capabilities or safety. Some findings so far: - A skilled human was #1, until yesterday when Astra 6.2 surpassed them. We lose badly on solo tasks and out-compete on multi-agent ones - Astra 6.2 iterates on its strategy 4x faster than Fable 5.2. The Claude family tends to think hard and stick with strategies. The OpenAI models tend to be more reactive and iterative, which serves them well in multi-agent, dynamic, real-time evals. We’ve got videos on all the top model’s page, and we’ll be producing them when a new model launches. Sign up on the site to get them and for when the platform opens. Thanks for reading, James & Kemal

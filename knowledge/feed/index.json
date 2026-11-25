@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T15:24:07.804Z",
+  "updated_at": "2026-11-25T15:07:32.215Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Brickie – Deploy sandboxes in your own AWS account",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/hatchet-dev/brickie",
+      "date": "2026-11-24",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hey HN, this is Alexander from Hatchet ( https://github.com/hatchet-dev/hatchet ). We’re releasing a new open-source project today called Brickie. Brickie lets you run sandboxes in your own cloud account, primarily targeting EKS on AWS. Sandboxes are an incredibly useful primitive for agentic applications. They serve two main functions: (1) a way for the... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-24/06-show-hn-brickie-deploy-sandboxes-in-your-own-aws-account.md"
+    },
+    {
+      "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://www.kradle.ai?1",
+      "date": "2026-11-23",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN - This is James and Kemal. In past lives we led Firebase and Tensorflow/JAX respectively. HN has been a particularly big part of my (James’) career and the trajectory I’ve taken would be meaningfully different without it. Thank you! Our team shipped a benchmark: KradleBench. We test AI in Minecraft Worlds. 1. The worlds are multi-agent. Humans and o... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-23/07-show-hn-kradlebench-multi-agent-ai-evals-in-minecraft.md"
+    },
+    {
+      "title": "Show HN: Sightline – Windows CLI for AI agents to capture UI and map DPI coords",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/sao-coding/sightline",
+      "date": "2026-11-25",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "Show HN: Sightline – Windows CLI for AI agents to capture UI and map DPI coords (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-25/08-show-hn-sightline-windows-cli-for-ai-agents-to-capture-ui-and-map-dpi-.md"
+    },
+    {
+      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+      "source": "arXiv cs.AI/cs.CL/cs.LG",
+      "url": "https://arxiv.org/abs/2611.33093v1",
+      "date": "2026-11-24",
+      "topic": "AI agents",
+      "type": "paper",
+      "read": false,
+      "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly. Agents implement quantized Qwen3.5, Gemma 3... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-24/09-aichipbench-benchmarking-llm-agents-for-automated-ai-accelerator-desig.md"
+    },
+    {
+      "title": "Show HN: Free tool to collect invoices and spot forgotten subscriptions",
+      "source": "Hacker News Show HN",
+      "url": "https://spendgap.ai/",
+      "date": "2026-11-25",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "At my previous company, I spent hours every month going through our bank statements and looking for the invoice behind each charge. There are many invoice collectors, with varying accuracy, but AI makes this much better now. I also noticed that while checking the statements, I was subconsciously reviewing the tools we pay for. So I built a free tool that... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-25/10-show-hn-free-tool-to-collect-invoices-and-spot-forgotten-subscriptions.md"
+    },
+    {
+      "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
+      "source": "Hacker News Show HN",
+      "url": "https://masondata.ai/",
+      "date": "2026-11-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN! TLDR: we’ve built an open-source drop-in replacement for a postgres read-replica, powered by duckdb’s columnar compute engine. It’s very fast. And it looks like postgres. So, this started out as: let’s just connect Clickhouse to our postgres dbs and throw our analytics queries at it instead. That will speed everything up. But we quickly found that... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-24/11-show-hn-mason-a-lightweight-postgres-read-replica-built-on-columnar-st.md"
+    },
+    {
+      "title": "LiveSFO/fleet-source",
+      "source": "GitHub Search API",
+      "url": "https://github.com/LiveSFO/fleet-source",
+      "date": "2026-11-21",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Corresponding source (GPL) of the detailed aircraft models LiveSFO.com serves (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-21/12-livesfo-fleet-source.md"
+    },
+    {
+      "title": "Kynarain/SniRoute",
+      "source": "GitHub Search API",
+      "url": "https://github.com/Kynarain/SniRoute",
+      "date": "2026-11-22",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Kynarain/SniRoute Stars: 0 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-22/13-kynarain-sniroute.md"
+    },
+    {
+      "title": "thinkingmachines/TML-d24-varloop-research Image-Text-to-Text • 26B • Updated about 20 hours ago • 3.4k • 122",
+      "source": "Hugging Face Trending Models",
+      "url": "https://huggingface.co/thinkingmachines/TML-d24-varloop-research",
+      "date": "2026-11-25",
+      "topic": "Local LLMs",
+      "type": "paper",
+      "read": false,
+      "summary": "thinkingmachines/TML-d24-varloop-research Image-Text-to-Text • 26B • Updated about 20 hours ago • 3.4k • 122 (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-25/14-thinkingmachines-tml-d24-varloop-research-image-text-to-text-26b-updat.md"
+    },
+    {
+      "title": "b12726",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12726",
+      "date": "2026-11-25",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "sycl: F8 e4m3 initial support SET_ROWS, CPY, ADD, MUL_MAT, MUL_MAT_ID (#31871) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12726/llama-b12726-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-25/15-b12726.md"
+    },
+    {
+      "title": "b12723",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12723",
+      "date": "2026-11-25",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "model : inkling2 graph with fewer ops in mix() and control() (#32948) Assisted-by: Claude Opus 5.5 **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12723/llama-b12723-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.co... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-25/16-b12723.md"
+    },
+    {
+      "title": "b12722",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12722",
+      "date": "2026-11-25",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "opencl: add clc coopmat moe kernel for q4_0/q4_1/q4_k/q5_0/q5_1/q5_k/q6_k/mxfp4 (#32971) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12722/llama-b12722-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-25/17-b12722.md"
+    },
     {
       "title": "Agentic AI for Intent Management and Control in Autonomous Communication Networks",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Show HN: Aw-1 – Deterministic AST circuit breaker and kernel jail for AI agents (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-22/07-show-hn-aw-1-deterministic-ast-circuit-breaker-and-kernel-jail-for-ai-.md"
-    },
-    {
-      "title": "The End of Consensus Research?",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.30114v1",
-      "date": "2026-10-21",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to the problem is still open, as it requires combining protocol knowledge, correctness reasoning, implementation, and experimental evaluation. We report on how... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/08-the-end-of-consensus-research.md"
-    },
-    {
-      "title": "Parallel AI Agent Collaboration as Graph-Structured Distributed Block Optimization",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.30074v1",
-      "date": "2026-10-21",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Parallel AI agents can produce useful local edits yet degrade a shared solution when their edits are combined. We model this coordination problem as discrete block optimization with an exactly evaluable objective and a known dependency graph. Independent sets certify compatible edits whose verified gains, measured against the same current solution, add ex... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-21/09-parallel-ai-agent-collaboration-as-graph-structured-distributed-block-.md"
-    },
-    {
-      "title": "Show HN: AI-built browser games, collected in one place",
-      "source": "Hacker News Show HN",
-      "url": "https://playgroundarcade.com/",
-      "date": "2026-10-20",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hello, HN friends. I spent many happy IT lessons messing around on Newgrounds when I was a kid. And, to further age me - Rotten and Maddox! From that, I built my first site at about 12/13 with a friend - essentially, a cheat code site-turned emulator and ROMs mirror link directory. It ended up, for a late 90s/early 2000s Geocities site, becoming quite pop... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-20/10-show-hn-ai-built-browser-games-collected-in-one-place.md"
-    },
-    {
-      "title": "Show HN: ULDA – Client-side encryption with a simple JavaScript API",
-      "source": "Hacker News Show HN",
-      "url": "https://demo.ulda.io/",
-      "date": "2026-10-19",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hi there! We have designed client side encrypted storage that sync on multiple devices and allows to hold that data on your server. We have started as chat application in late 2022 that has completly open-readable database. The idea was simple - server holds zero secrets, like non at all. But we ran into the problem of authentication - there were no auth... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-19/11-show-hn-ulda-client-side-encryption-with-a-simple-javascript-api.md"
-    },
-    {
-      "title": "Show HN: Embodsi – Embodied Super Intelligence",
-      "source": "Hacker News Show HN",
-      "url": "https://embodsi.com/",
-      "date": "2026-10-21",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "embodsi is a generative AI MMO experience that runs in the browser. It allows people to communicate (text, audio, video, avatar emotes and movement) and collaboratively build 3D spaces and games via LLMs connected to harnesses and sandboxes for object modeling, space layout, game logic, and driving persistent avatars with shared context and memory. It’s d... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-21/12-show-hn-embodsi-embodied-super-intelligence.md"
-    },
-    {
-      "title": "Studio-Hyve/n8n-nodes-vera",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Studio-Hyve/n8n-nodes-vera",
-      "date": "2026-10-22",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "n8n community node for Vera by Waggle: web scraping, search, Google results and AI visibility (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-22/13-studio-hyve-n8n-nodes-vera.md"
-    },
-    {
-      "title": "Kitten-TTS 2: New Open-source SOTA 1.58 bit TTS (CPU-only with voice cloning, multilingual, emotion control)",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/",
-      "date": "2026-10-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "KittenML has just released code and weights of Kitten-TTS 2, which is a super-efficient frontier TTS model, and the world's first 1.58-bit TTS model . It runs in real time on just a CPU, with zero-shot voice cloning, multilingual support, and expressive / emphasis control. Code and weights are open-source. Ternary(1.58-bit) Weights means it can run locall... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-22/14-kitten-tts-2-new-open-source-sota-1-58-bit-tts-cpu-only-with-voice-clo.md"
-    },
-    {
-      "title": "Now that 3090 frenzy warning post makes sense.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbr3u1/now_that_3090_frenzy_warning_post_makes_sense/",
-      "date": "2026-10-21",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I don't have a 3090 to confirm, but curious if the anyone in this community can back this up. Good win for 3090 and curious if that translates to other GPUs. I have a long vague memory of some hacks done to prevent mining demand that could be fixed and help LLMs. I wonder if this was one that lived on? Disclaimer: I am not related nor do i know the origin... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-21/15-now-that-3090-frenzy-warning-post-makes-sense.md"
-    },
-    {
-      "title": "Huawei Atlas AI Accelerator Latest Comparison Overview",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc9oje/huawei_atlas_ai_accelerator_latest_comparison/",
-      "date": "2026-10-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "https://preview.redd.it/hwwhtgar5ywh1.png?width=1688&format=png&auto=webp&s=1aabdbd2bead7b89baece7308d4daf2463885712 Hey, your friendly neighborhood Atlas advocate here, here with an update--just got off the call with our Silver rated Huawei partner who has given us new information on the latest Atlas card lineup. Some of you were asking about the 950 ser... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-22/16-huawei-atlas-ai-accelerator-latest-comparison-overview.md"
-    },
-    {
-      "title": "[New Model] Sage-A1.5 released based on Qwen3.6-35B MoE with marketed benchmarks: \"highly competitive performance against frontier-scale systems such as Kimi-K3, GLM-5.3, and GPT-5.6-sol\"",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcac1u/new_model_sagea15_released_based_on_qwen3635b_moe/",
-      "date": "2026-10-22",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "In the process of setting up the model and running local benchmarks on it on the official q4_k_m quant; it might work in Strata too. Reports soon. Anyone played around with this one yet? submitted by /u/yehyakar [link] [comments] (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-22/17-new-model-sage-a1-5-released-based-on-qwen3-6-35b-moe-with-marketed-be.md"
-    },
-    {
-      "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.28629v1",
-      "date": "2026-10-20",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigations remains challenging. Here, we present GBClaw, an agentic AI framework for investigating the structure and deformation of general grain boundaries (GBs). Al... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-20/06-gbclaw-an-agentic-ai-framework-for-atomistic-grain-boundary-research-a.md"
-    },
-    {
-      "title": "Evolving Agent Interfaces",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.28601v1",
-      "date": "2026-10-20",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Computer-use agents are limited by the interfaces humans give them. An agent may type a spreadsheet cell by cell when a single line of code would do, or print all two thousand lines of a file through a shell to find one function. Both the interfaces and the knowledge of when to use each are built by hand, which cannot keep pace with new applications, work... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-20/07-evolving-agent-interfaces.md"
     }
   ]
 }
