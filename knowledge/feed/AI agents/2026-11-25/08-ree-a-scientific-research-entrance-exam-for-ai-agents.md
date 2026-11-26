@@ -1,0 +1,12 @@
+---
+title: "REE: A Scientific Research Entrance Exam for AI Agents"
+source: "arXiv cs.AI/cs.CL/cs.LG"
+url: "https://arxiv.org/abs/2611.34646v1"
+date: "2026-11-25"
+topic: "AI agents"
+type: "paper"
+read: false
+summary: "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments. Evaluating this ability requires benchmarks that pose open-ended research problems and measure improvements over established scientific methods. We introduce RE... (Local summary fallback used.)"
+---
+
+Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments. Evaluating this ability requires benchmarks that pose open-ended research problems and measure improvements over established scientific methods. We introduce REE (Research Entrance Exam), a benchmark that tests AI agents on scientific research. It consists of 100 open-ended research problems spanning five broad scientific areas and 23 domains. To ensure high quality, every problem is drawn from active research in its field and individually reviewed by domain experts. Each problem is posed as a task of iterative improvement: an agent has up to 12 hours to improve a working starter solution, and REE scores the result on a common scale against an established expert solution evaluated under comparable conditions. By this measure, two of the four frontier agents we evaluate, Claude Opus 5.5 and GPT-6.1 Sol, outperform the expert solutions on 86% and 81% of problems, across all five scientific areas. Their runs also show how they do so: both agents surpass the expert solutions within the first two hours on average, and their best solutions mostly tailor or combine established methods of the field. REE thus provides a unified framework for evaluating autonomous scientific research, capturing both improvements over established methods and the research processes behind them.

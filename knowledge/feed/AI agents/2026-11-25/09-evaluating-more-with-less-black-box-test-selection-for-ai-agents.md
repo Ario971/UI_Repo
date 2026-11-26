@@ -1,0 +1,12 @@
+---
+title: "Evaluating More with Less: Black-Box Test Selection for AI Agents"
+source: "arXiv cs.AI/cs.CL/cs.LG"
+url: "https://arxiv.org/abs/2611.34617v1"
+date: "2026-11-25"
+topic: "AI agents"
+type: "paper"
+read: false
+summary: "Agentic software systems are increasingly used in development, where changes to the model, prompt, scaffold, tools, or execution environment require repeated testing. Test case selection (TCS) can reduce testing costs while providing estimates of agent performance or exposing failures early. Although TCS has been studied for deep neural networks and LLM c... (Local summary fallback used.)"
+---
+
+Agentic software systems are increasingly used in development, where changes to the model, prompt, scaffold, tools, or execution environment require repeated testing. Test case selection (TCS) can reduce testing costs while providing estimates of agent performance or exposing failures early. Although TCS has been studied for deep neural networks and LLM code models, prior work does not directly address agentic systems and often requires model information unavailable for proprietary agents. We present the first empirical study of black-box TCS for agentic software systems. We treat each benchmark task as a test case and adapt black-box regression-testing techniques using selection criteria based on task descriptions, metadata, code fragments, and embeddings. We also propose strategies that estimate task difficulty using heuristic features or independent LLM-as-judge assessments. Our strategies select tasks without executing the target agent or using past results. We evaluate fourteen selection strategies, including random sampling, plus a historical-data baseline, across ten AI agent benchmarks with 12 to 101 agents per benchmark. We assess Success Rate estimation and early failure detection. No single strategy dominates both objectives. Adapted black-box regression-testing strategies are most effective for Success Rate estimation, with Category Partition obtaining the lowest median error on five benchmarks at the 20% task budget. LLM-as-judge selection is more effective for early failure detection. For GPT 5.2 Codex on SWE-bench Verified, Category Partition selects 100 instead of 500 tasks, reducing execution cost from \$225 to \$47, with a Success Rate estimation error of 0.8 percentage points. At the same budget, LLM-as-judge selection detects nearly twice as many failures as random sampling: 53.0% of selected tasks reveal failures, compared with 27.4% for random sampling.
