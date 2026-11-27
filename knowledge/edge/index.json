@@ -1,10 +1,189 @@
 {
-  "last_checked_at": "2026-11-26T14:35:52.212Z",
+  "last_checked_at": "2026-11-27T14:30:17.122Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "scikit-plots/skills",
+      "name": "scikit-plots/skills",
+      "url": "https://github.com/scikit-plots/skills",
+      "date": "2026-11-27",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 83,
+      "momentum": 45,
+      "risk": 30,
+      "integration_effort": 52,
+      "expected_gain": 87,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Donating Agent Skills to the Agentic AI Foundation",
+          "date": "2026-10-25",
+          "topic": "AI agents",
+          "similarity": 0.343,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-25/07-donating-agent-skills-to-the-agentic-ai-foundation.md"
+        },
+        {
+          "title": "M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
+          "date": "2026-10-27",
+          "topic": "AI agents",
+          "similarity": 0.342,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-27/09-m4bench-evaluating-procedural-specification-for-clinical-ehr-derivatio.md"
+        },
+        {
+          "title": "Modelling lock-in of AI adoption through skill erosion",
+          "date": "2026-11-03",
+          "topic": "AI agents",
+          "similarity": 0.287,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-03/09-modelling-lock-in-of-ai-adoption-through-skill-erosion.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-27)",
+        "BSD-3-Clause license",
+        "README mentions tests or validation",
+        "README includes install commands"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [],
+      "install_commands": [
+        "claude plugin marketplace add scikit-plots/skills            # or scikit-plots/skills@v0.5.0",
+        "claude plugin install scikitplot@scikit-plots-skills",
+        "claude plugin marketplace add scikit-plots/scikit-plots --sparse .claude-plugin plugins",
+        "claude plugin install scikitplot@scikit-plots",
+        "claude plugin list        # the plugin's Version",
+        "claude plugin marketplace update scikit-plots-skills"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-10-25 about AI agents; this candidate overlaps with \"Donating Agent Skills to the Agentic AI Foundation\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-27/01-scikit-plots-skills.md"
+    },
+    {
+      "id": "memrohq/memro",
+      "name": "memrohq/memro",
+      "url": "https://github.com/memrohq/memro",
+      "date": "2026-11-27",
+      "source": "GitHub Search API",
+      "category": "github_discovery",
+      "kind": "mcp_server",
+      "compatibility": 79,
+      "momentum": 74,
+      "risk": 50,
+      "integration_effort": 64,
+      "expected_gain": 87,
+      "composite": 70,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Memro – Persistent Memory for Claude Code, Cursor and Codex",
+          "date": "2026-11-14",
+          "topic": "AI agents",
+          "similarity": 0.377,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-14/06-show-hn-memro-persistent-memory-for-claude-code-cursor-and-codex.md"
+        },
+        {
+          "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+          "date": "2026-11-11",
+          "topic": "AI agents",
+          "similarity": 0.279,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/09-show-hn-mimzie-an-agent-neutral-alternative-to-the-claude-suite-claude.md"
+        },
+        {
+          "title": "I ran the same Halloween animation prompt through five coding agents on one local Qwen model",
+          "date": "2026-11-13",
+          "topic": "Local LLMs",
+          "similarity": 0.269,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-13/15-i-ran-the-same-halloween-animation-prompt-through-five-coding-agents-o.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-27)",
+        "27 GitHub stars",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "License was not clearly detected by GitHub",
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 4,
+      "dependency_files": [],
+      "install_commands": [
+        "npx memro-cli init      # no account: rules in .memro/rules.md, hooks in every agent tool",
+        "npx memro-cli connect   # optional: shared memory and coordination across machines and teammates",
+        "npx memro-cli rules     # list this repo's rules; rules edit <n> <text>, rules delete <n>",
+        "npx memro-cli connect",
+        "npx memro-cli status",
+        "git clone https://github.com/memrohq/memro && cd memro"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens"
+      ],
+      "why_it_matters": "You saved an article on 2026-11-14 about AI agents; this candidate overlaps with \"Show HN: Memro – Persistent Memory for Claude Code, Cursor and Codex\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-27/02-memrohq-memro.md"
+    },
+    {
+      "id": "nicolas-prn/study-loop-obsidian",
+      "name": "Nicolas-Prn/study-loop-obsidian",
+      "url": "https://github.com/Nicolas-Prn/study-loop-obsidian",
+      "date": "2026-11-27",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "claude_skill",
+      "compatibility": 79,
+      "momentum": 45,
+      "risk": 24,
+      "integration_effort": 40,
+      "expected_gain": 79,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+          "date": "2026-11-11",
+          "topic": "AI agents",
+          "similarity": 0.211,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-11/09-show-hn-mimzie-an-agent-neutral-alternative-to-the-claude-suite-claude.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-27)",
+        "MIT license",
+        "GitHub Actions/CI detected",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "No obvious v1 warning, still review upstream code before use"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [],
+      "install_commands": [
+        "git clone https://github.com/Nicolas-Prn/study-loop-obsidian.git",
+        "uv tool install graphifyy",
+        "git pull"
+      ],
+      "risk_flags": [],
+      "why_it_matters": "You saved an article on 2026-11-11 about AI agents; this candidate overlaps with \"Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-27/03-nicolas-prn-study-loop-obsidian.md"
+    },
     {
       "id": "cheaper-inference/omniroute",
       "name": "cheaper-inference/OmniRoute",
@@ -19504,198 +19683,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-08-18 about AI dev tools; this candidate overlaps with \"LamsonRetail/lsr-agent-platform\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-20/03-jlapenna-agent-lcars.md"
-    },
-    {
-      "id": "cgosu/pi-agent-browser",
-      "name": "CGOSU/pi-agent-browser",
-      "url": "https://github.com/CGOSU/pi-agent-browser",
-      "date": "2026-08-19",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 78,
-      "momentum": 45,
-      "risk": 30,
-      "integration_effort": 52,
-      "expected_gain": 87,
-      "composite": 69,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Browser Tools SDK – an optimal browser harness for agents",
-          "date": "2026-07-21",
-          "topic": "AI agents",
-          "similarity": 0.497,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/09-show-hn-browser-tools-sdk-an-optimal-browser-harness-for-agents.md"
-        },
-        {
-          "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
-          "date": "2026-07-29",
-          "topic": "AI agents",
-          "similarity": 0.324,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-29/09-what-does-it-take-to-detect-an-ai-agent-minimal-feature-sets-for-behav.md"
-        },
-        {
-          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
-          "date": "2026-08-11",
-          "topic": "AI agents",
-          "similarity": 0.323,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-19)",
-        "MIT license",
-        "README mentions tests or validation",
-        "README includes install commands"
-      ],
-      "cons": [
-        "Repository description is sparse"
-      ],
-      "readme_quality": 85,
-      "has_ci": false,
-      "has_tests": true,
-      "setup_steps_count": 1,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps none; scripts test"
-        }
-      ],
-      "install_commands": [
-        "npm test",
-        "npm pack --dry-run"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-07-21 about AI agents; this candidate overlaps with \"Show HN: Browser Tools SDK – an optimal browser harness for agents\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-19/01-cgosu-pi-agent-browser.md"
-    },
-    {
-      "id": "construct-worlds/construct",
-      "name": "construct-worlds/construct",
-      "url": "https://github.com/construct-worlds/construct",
-      "date": "2026-08-19",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 67,
-      "momentum": 68,
-      "risk": 32,
-      "integration_effort": 48,
-      "expected_gain": 77,
-      "composite": 68,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Distributing Security Controls Through Harness Engineering",
-          "date": "2026-07-28",
-          "topic": "AI agents",
-          "similarity": 0.297,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-28/09-distributing-security-controls-through-harness-engineering.md"
-        },
-        {
-          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
-          "date": "2026-08-11",
-          "topic": "AI agents",
-          "similarity": 0.287,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
-        },
-        {
-          "title": "Show HN: Clixad – Free AI coding agent in the terminal, funded by an offerwall",
-          "date": "2026-08-13",
-          "topic": "AI agents",
-          "similarity": 0.255,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-13/09-show-hn-clixad-free-ai-coding-agent-in-the-terminal-funded-by-an-offer.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-19)",
-        "MIT license",
-        "15 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "Cargo.toml",
-          "summary": "Rust project metadata detected"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/construct-worlds/construct.git",
-        "cargo build --workspace",
-        "cargo build --workspace --release"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens"
-      ],
-      "why_it_matters": "You saved an article on 2026-07-28 about AI agents; this candidate overlaps with \"Distributing Security Controls Through Harness Engineering\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-19/02-construct-worlds-construct.md"
-    },
-    {
-      "id": "danielpdmestone9638/boring-orchestrator-agent-hub",
-      "name": "danielpdmestone9638/boring-orchestrator-agent-hub",
-      "url": "https://github.com/danielpdmestone9638/boring-orchestrator-agent-hub",
-      "date": "2026-08-19",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 75,
-      "momentum": 52,
-      "risk": 35,
-      "integration_effort": 36,
-      "expected_gain": 77,
-      "composite": 68,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Bennyoooo/write-like-me",
-          "date": "2026-08-06",
-          "topic": "AI agents",
-          "similarity": 0.341,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-06/06-bennyoooo-write-like-me.md"
-        },
-        {
-          "title": "Show HN: Ocean – All your team's agent sessions in one place",
-          "date": "2026-08-05",
-          "topic": "AI agents",
-          "similarity": 0.292,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-05/07-show-hn-ocean-all-your-team-s-agent-sessions-in-one-place.md"
-        },
-        {
-          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
-          "date": "2026-08-10",
-          "topic": "AI agents",
-          "similarity": 0.286,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-19)",
-        "GPL-3.0 license",
-        "2 GitHub stars",
-        "README includes install commands"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 78,
-      "has_ci": false,
-      "has_tests": false,
-      "setup_steps_count": 1,
-      "dependency_files": [],
-      "install_commands": [
-        "git clone https://github.com/danielpdmestone9638/boring-orchestrator-agent-hub.git"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-08-06 about AI agents; this candidate overlaps with \"Bennyoooo/write-like-me\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-19/03-danielpdmestone9638-boring-orchestrator-agent-hub.md"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T14:35:03.886Z",
+  "updated_at": "2026-11-27T14:29:45.907Z",
   "topics": [
     {
       "name": "AI agents",
@@ -15,6 +15,138 @@
     }
   ],
   "articles": [
+    {
+      "title": "Show HN: Grind, my OpenDocument native office suite built in Rust",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/fwilhe2/grind",
+      "date": "2026-11-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I was frustrated with the LibreOffice UX for a long time, and since AI agents have arrived I finally could build an alternative that works well enough for me in my spare time. The feature set is intentionally limited, I'd be curious what people think of it. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-26/06-show-hn-grind-my-opendocument-native-office-suite-built-in-rust.md"
+    },
+    {
+      "title": "triger-lerner/notes-demo",
+      "source": "GitHub Trending",
+      "url": "https://github.com/triger-lerner/notes-demo",
+      "date": "2026-11-27",
+      "topic": "AI agents",
+      "type": "release_notes",
+      "read": false,
+      "summary": "Disposable demo app built by AI agents under owner review. External contributions are not accepted. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-27/07-triger-lerner-notes-demo.md"
+    },
+    {
+      "title": "Show HN: I wrote an entire Vim manual over 4 years",
+      "source": "Hacker News Top + Show HN",
+      "url": "http://themouseless.dev/vim/",
+      "date": "2026-11-26",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "I'm glad to announce that I'm releasing my new book, Learning to Play Vim. When I started using Vim more than a decade ago, I wished there was a manual out there teaching how to use this fantastic editor step by step, beginning with the foundations up to more advanced features. Of course at the time I did the vimtutor, but it was too dense for me to remem... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-26/08-show-hn-i-wrote-an-entire-vim-manual-over-4-years.md"
+    },
+    {
+      "title": "Show HN: Open-Sourced Code Mode to Cut ~60% of My Rust Agent's Token Burn",
+      "source": "Hacker News Top + Show HN",
+      "url": "https://github.com/legend-of-alan/ghostmode",
+      "date": "2026-11-27",
+      "topic": "AI agents",
+      "type": "article",
+      "read": false,
+      "summary": "For those who are tracking, Anthropic released an announcement last week about their experimental code mode for Claude Code, claiming some bonkers token savings when it comes to tool calls (95% on some workloads(1)). I haven't benchmarked it myself, but independent studies come in somewhere closer to 60~70% savings (2), but I digress. TLDR; I built an ope... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-27/09-show-hn-open-sourced-code-mode-to-cut-60-of-my-rust-agent-s-token-burn.md"
+    },
+    {
+      "title": "aidevs-pt/arrumo-plugin-registry",
+      "source": "GitHub Search API",
+      "url": "https://github.com/aidevs-pt/arrumo-plugin-registry",
+      "date": "2026-11-24",
+      "topic": "AI dev tools",
+      "type": "release_notes",
+      "read": false,
+      "summary": "The official plugin catalog for Arrumo AI Video Editor, with digest-checked releases. (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-24/10-aidevs-pt-arrumo-plugin-registry.md"
+    },
+    {
+      "title": "Show HN: Play with VST/CLAP instruments and effects in the browser",
+      "source": "Hacker News Show HN",
+      "url": "https://vst.run/",
+      "date": "2026-11-26",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "For awhile now, I thought it'd be cool to be able to try out various instrument / effect plugins in the browser without having to download them and open up a DAW. I saw this as a challenge, so I spent the last few weeks working on a demo app. One thing I wanted to avoid was making this obscenely costly. Plugins can be CPU and memory intensive, so larger E... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-26/11-show-hn-play-with-vst-clap-instruments-and-effects-in-the-browser.md"
+    },
+    {
+      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+      "source": "Hacker News Show HN",
+      "url": "https://github.com/rxliuli/sim-drop",
+      "date": "2026-11-26",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "Hi HN, I made a small macOS utility for my own iOS simulator workflow. I kept running into two annoyances: getting config files in and out of a simulator is clunky (digging into CoreSimulator UUID folders or running simctl), and on the iPhone Duo simulator I couldn't even drag and drop images onto the window at all. SimDrop puts every running iOS simulato... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-26/12-show-hn-simdrop-running-ios-simulators-in-the-macos-finder-sidebar.md"
+    },
+    {
+      "title": "Show HN: Synth Patch Hero",
+      "source": "Hacker News Show HN",
+      "url": "https://swarkentin.github.io/synth-patch-hero/",
+      "date": "2026-11-24",
+      "topic": "AI dev tools",
+      "type": "article",
+      "read": false,
+      "summary": "I wanted to be more deliberate and systematic in how I approach working on synth patches. With the help of our friend Claude, I put together a game that runs through exercises that builds that muscle in a fun and approachable way where you learn as you build patches on a modular rack. I do not have a Eurorack, nor a strong desire to own one (yet); but I d... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-24/13-show-hn-synth-patch-hero.md"
+    },
+    {
+      "title": "b12815",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12815",
+      "date": "2026-11-27",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "cuda : fix NVFP4 MMQ y_scale over-read in the stream-k fixup (#33136) **Website:** - **Attestations:** - **macOS/iOS:** - [macOS Apple Silicon (arm64)](https://github.com/ggml-org/llama.cpp/releases/download/b12815/llama-b12815-bin-macos-arm64.tar.gz) - macOS Apple Silicon (arm64, KleidiAI enabled) [DISABLED](https://github.com/ggml-org/llama.cpp/pull/237... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-27/14-b12815.md"
+    },
+    {
+      "title": "b12814",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12814",
+      "date": "2026-11-27",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "moe-cache : support experts selected on another backend (#33133) When the experts are selected on another backend than the cache, e.g. the loop passes of inkling2_loop with a layer split, the lookup reads a copy of the ids made by the scheduler, which has no source to read the shape from. Take the experts per token from build_lookup instead. Fixes #33101... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-27/15-b12814.md"
+    },
+    {
+      "title": "b12812",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12812",
+      "date": "2026-11-27",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "metal : check all fused nodes for concurrency (#33175) * metal : check all fused nodes for concurrency The concurrency check for a fused group only examined the last node, so intermediate outputs (e.g. the TOPK_MOE ids/weights) and the group's sources (e.g. the router logits) were ignored. This allowed the fused top-k kernel to run concurrently with the r... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-27/16-b12812.md"
+    },
+    {
+      "title": "b12811",
+      "source": "llama.cpp releases",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12811",
+      "date": "2026-11-27",
+      "topic": "Local LLMs",
+      "type": "release_notes",
+      "read": false,
+      "summary": "ui: share conversations to Hugging Face datasets as agent traces (#32608) * ui: add @ggml-org/llama-huggingface, a Hugging Face account as a package A package in ui/lib that gives an app running in the browser, with no server of its own, a Hugging Face account. Its plain entry holds \"Sign in with Hugging Face\" (OAuth with PKCE and dynamic client registrat... (Local summary fallback used.)",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-11-27/17-b12811.md"
+    },
     {
       "title": "Attack Policy Selection can Mislead Monitor Evaluators",
       "source": "arXiv cs.AI/cs.CL/cs.LG",
@@ -4282,138 +4414,6 @@
       "read": false,
       "summary": "Hey everyone, Inspired by Herdr, I've built an agent multiplexer that I've been using as my daily driver for a few weeks now. I think I improved on the concept in a few ways, focusing on the ergonomics I always wished I had: I show you what the agents are up to, along with a running feed of their activity. There's also a simple shortcut (F1) to go to the... (Local summary fallback used.)",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-23/06-show-hn-corgi-a-helpful-agent-terminal-multiplexer.md"
-    },
-    {
-      "title": "Show HN: Searching for optimal strategies in a puzzle game with chance (Drop7)",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://drop7.dev",
-      "date": "2026-10-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Sixteen years ago, I wrote a Java program which tried to pick the ideal move in a puzzle game called Drop7. On each turn, the player only has seven choices for their next move, but there is also an element of chance which turns this simple game into a surprisingly difficult problem involving search, hidden information, long-term planning, and chance. I re... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-23/07-show-hn-searching-for-optimal-strategies-in-a-puzzle-game-with-chance-.md"
-    },
-    {
-      "title": "Show HN: Dánwò – Open-source E2E testing with emulators and fault injection",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/carbonmeai/danwo",
-      "date": "2026-10-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hi HN, I'm Faithful. I built dánwò, an open-source (Apache-2.0) end-to-end testing framework for web and mobile apps, written in TypeScript. The problem: a UI test can click \"Pay\", see \"Payment successful\" and pass, while the card was charged twice, the webhook was handled twice, or the receipt email never went out. With coding agents writing more of our... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-23/08-show-hn-d-nw-open-source-e2e-testing-with-emulators-and-fault-injectio.md"
-    },
-    {
-      "title": "Show HN: Koala – Run AI Agents in Isolated Linux VMs on macOS",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://kunalkushwaha.github.io/homebrew-koala/",
-      "date": "2026-10-23",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Show HN: Koala – Run AI Agents in Isolated Linux VMs on macOS (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-23/09-show-hn-koala-run-ai-agents-in-isolated-linux-vms-on-macos.md"
-    },
-    {
-      "title": "Frisbee148/BreatheTwin",
-      "source": "GitHub Search API",
-      "url": "https://github.com/Frisbee148/BreatheTwin",
-      "date": "2026-10-24",
-      "topic": "AI dev tools",
-      "type": "release_notes",
-      "read": false,
-      "summary": "BreathTwin: a digital twin that forecasts asthma flare-ups 24-48 hours ahead by fusing synthetic EHR, simulated wearable signals and real Indian air-quality data. (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-24/10-frisbee148-breathetwin.md"
-    },
-    {
-      "title": "Show HN: Encarta 95 Web",
-      "source": "Hacker News Show HN",
-      "url": "https://benwinding.github.io/encarta_95_web/#/article/Art",
-      "date": "2026-10-24",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Encarta is super nostalgic, and I was surprised it wasn't available to use online. So I embarked on the difficult task of making it so. The way this works is the most convoluted, nonsense and brittle system ever... but it works as a statically hosted gh-pages site! Please note: All the material on this site is freely available through the internet archive... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-24/11-show-hn-encarta-95-web.md"
-    },
-    {
-      "title": "Show HN: Impossible Machines: declaratively program the physical world",
-      "source": "Hacker News Show HN",
-      "url": "https://www.impossiblemachines.xyz",
-      "date": "2026-10-22",
-      "topic": "AI dev tools",
-      "type": "article",
-      "read": false,
-      "summary": "Hey all — Sharing a thought experiment I put together. The premise: what might declarative programming feel like for the physical world? We’re already familiar with this paradigm in software land (eg SQL etc where we declare what we want and the execution engine figures out how). I didn’t have access to an actuator so I mocked up the concept in software.... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-10-22/12-show-hn-impossible-machines-declaratively-program-the-physical-world.md"
-    },
-    {
-      "title": "everything will be local eventually",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdcpxb/everything_will_be_local_eventually/",
-      "date": "2026-10-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "I know current llms like opus 5.5 are in a league of their own. but we all know they're losing a shti ton of money with their subscriptions. ALSO we all know how tasks like OCR, segmentation etc are getting solved by single digit B parameter models. I'm not saying llms are a gimmick but I'm saying the future is already shaping up to be about specialized m... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-23/13-everything-will-be-local-eventually.md"
-    },
-    {
-      "title": "[Release] ISTA GSQ-RCO GGUFs for DeepSeek-V4.1-Flash-1017",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2wg8/release_ista_gsqrco_ggufs_for_deepseekv41flash1017/",
-      "date": "2026-10-24",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "We have released DeepSeek-V4.1-Flash-1017 quantized with GSQ and RCO, at 1.75 to 2.25 bits per weight. DeepSeek-V4.1-Flash-1017 is a sparse mixture-of-experts model: 384 routed experts per layer, of which 6 are active per token, 763.2B parameters and a 1M-token context window. It is released with FP8 dense weights and FP4 routed experts. What's inside Thr... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-24/14-release-ista-gsq-rco-ggufs-for-deepseek-v4-1-flash-1017.md"
-    },
-    {
-      "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB · Hugging Face",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/",
-      "date": "2026-10-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB is a small language model (SLM) further post-trained from Gemma-4-E4B-it by NVIDIA. Nemotron-3.5-Bolt-E4B carries forward Gemma’s strong conversational capabilities and further improves multi-turn tool use, instruction following, and input grounding for fast local voice/device assistants, interactive personas, and embedded... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-23/15-nvidia-nvidia-nemotron-3-5-bolt-e4b-4gb-hugging-face.md"
-    },
-    {
-      "title": "Been tracking intel b60 b65 b70 prices, they jumped 30% today.",
-      "source": "r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdoirp/been_tracking_intel_b60_b65_b70_prices_they/",
-      "date": "2026-10-23",
-      "topic": "Local LLMs",
-      "type": "article",
-      "read": false,
-      "summary": "Amazon prices just jumped today, I still see deals at local microcenter. When that batch is gone $1840 for a b70 will likely be the new normal. b60 went from $650 to $980. b65 $1150 to $1420 does make a lot more sense as the price per GB was low in comparison to the competitors. Still probably the best value per GB, but gap is shrinking fast submitted by... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/Local LLMs/2026-10-23/16-been-tracking-intel-b60-b65-b70-prices-they-jumped-30-today.md"
-    },
-    {
-      "title": "Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI",
-      "source": "Hacker News Top + Show HN",
-      "url": "https://github.com/Coverage-Cat/consumer-agent-testing-tool",
-      "date": "2026-10-22",
-      "topic": "AI agents",
-      "type": "article",
-      "read": false,
-      "summary": "Hey HN, we recently open sourced our Consumer Agent Testing Tool to help teams iterate against proprietary assistants like Muse and Instinct. We built this to reduce our own frustrations with building an MCP/API for these agents to consume. The problem: testing against these tools is hard! Agent memory + account statefulness make reproducibility, in the w... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-22/06-show-hn-catt-0-2-1-test-agents-services-against-a-muse-instinct-alike-.md"
-    },
-    {
-      "title": "Contestable Agents for Data Governance: Recording Human Stewardship of AI-Generated Metadata Across Structured and Unstructured Systems",
-      "source": "arXiv cs.AI/cs.CL/cs.LG",
-      "url": "https://arxiv.org/abs/2610.31553v1",
-      "date": "2026-10-22",
-      "topic": "AI agents",
-      "type": "paper",
-      "read": false,
-      "summary": "Industrial organizations hold operational knowledge in structured records, such as telemetry, point lists, and transactions, and in unstructured sources, such as manuals, service notes, communications, and inspection reports. Governance programs often manage these sources separately. Classifying, linking, and documenting them depends on a small group of e... (Local summary fallback used.)",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-22/07-contestable-agents-for-data-governance-recording-human-stewardship-of-.md"
     }
   ]
 }
