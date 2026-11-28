@@ -1,0 +1,1063 @@
+---
+id: "ai-for-developers/awesome-ai-coding-tools"
+name: "ai-for-developers/awesome-ai-coding-tools"
+url: "https://github.com/ai-for-developers/awesome-ai-coding-tools"
+date: "2026-11-28"
+source: "awesome-llm-agents"
+category: "awesome_lists"
+kind: "agent_framework"
+compatibility: 63
+momentum: 100
+risk: 52
+integration_effort: 52
+expected_gain: 85
+composite: 71
+replacement_target: ""
+related_articles: [{"title":"Show HN: Npx.tools, a keyboard-friendly index of developer tools","date":"2026-11-22","topic":"AI dev tools","similarity":0.315,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-22/10-show-hn-npx-tools-a-keyboard-friendly-index-of-developer-tools.md"},{"title":"FairHarborStudios-Tools/MockMasonCE-Release","date":"2026-11-14","topic":"AI dev tools","similarity":0.303,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-14/11-fairharborstudios-tools-mockmasonce-release.md"},{"title":"aimhuge/weft","date":"2026-11-02","topic":"AI dev tools","similarity":0.294,"file":"/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-02/12-aimhuge-weft.md"}]
+pros: ["Recently updated (2026-11-28)","MIT license","2316 GitHub stars","README mentions tests or validation"]
+cons: ["README includes remote script execution pattern","README mentions credentials or API tokens","README mentions telemetry/analytics"]
+readme_quality: 100
+has_ci: false
+has_tests: true
+setup_steps_count: 3
+dependency_files: []
+install_commands: ["npm install -g opencode-rust","npx agentchecker","npx toldya","npx saver-audit","npx neurosquad","npx reread-cli"]
+risk_flags: ["README includes remote script execution pattern","README mentions credentials or API tokens","README mentions telemetry/analytics"]
+status: "new"
+---
+
+# ai-for-developers/awesome-ai-coding-tools
+
+A curated list of AI-powered coding tools
+
+URL: https://github.com/ai-for-developers/awesome-ai-coding-tools
+
+## Why it matters
+You saved an article on 2026-11-22 about AI dev tools; this candidate overlaps with "Show HN: Npx.tools, a keyboard-friendly index of developer tools" and may turn that reading into a practical workflow improvement.
+
+## Pros
++ Recently updated (2026-11-28)
++ MIT license
++ 2316 GitHub stars
++ README mentions tests or validation
+
+## Cons
+- README includes remote script execution pattern
+- README mentions credentials or API tokens
+- README mentions telemetry/analytics
+
+## Repository Inspection
+README quality: 100/100
+CI detected: no
+Tests mentioned: yes
+Setup steps estimate: 3
+
+Dependency files:
+- none detected
+
+Install commands found:
+- npm install -g opencode-rust
+- npx agentchecker
+- npx toldya
+- npx saver-audit
+- npx neurosquad
+- npx reread-cli
+
+Risk flags:
+- README includes remote script execution pattern
+- README mentions credentials or API tokens
+- README mentions telemetry/analytics
+
+## Install
+Nothing runs automatically. Review the upstream README before running any install command.
+
+## README
+# Awesome AI Coding Tools
+[![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+A curated list of AI-powered coding tools: editors, agents, code completion, review assistants, testing, and more. For developers, teams, and tech enthusiasts looking to leverage AI in software engineering.
+
+> Contributions welcome – [Open a PR](https://github.com/ai-for-developers/awesome-ai-coding-tools/pulls).
+
+---
+
+**Reach thousands of developers building with AI by sponsoring this list, our [newsletter](https://aifordevelopers.substack.com/) and [AI For Developers](https://aifordevelopers.org/). Contact us at [aifordevelopers.org/advertise](https://aifordevelopers.org/advertise)**
+
+
+---
+
+## Table of Contents
+
+- [Code Editors and Assistants](#code-editors-and-assistants)
+- [Code Completion](#code-completion)
+- [Coding Agents](#coding-agents)
+- [CLI Tools](#cli-tools)
+- [App Builders](#app-builders)
+- [UI Generators](#ui-generators)
+- [Code Review and Refactoring](#code-review-and-refactoring)
+- [Testing and QA](#testing-and-qa)
+- [Code Search and Navigation](#code-search-and-navigation)
+- [Documentation](#documentation)
+- [Code Models](#code-models)
+- [Developer Productivity Tools](#developer-productivity-tools)
+- [DevOps and Infrastructure](#devops-and-infrastructure)
+- [Security](#security)
+- [Database and API Tools](#database-and-api-tools)
+- [MCP Servers and Directories](#mcp-servers-and-directories)
+- [Related Lists](#related-lists)
+
+---
+
+## Code Editors and Assistants
+
+- **[Cursor](https://www.cursor.sh/)** – AI-first code editor with advanced autocompletion, codebase-aware chat, and multi-file editing.
+- **[Windsurf](https://windsurf.com/)** – AI code editor with Cascade, a deep contextual coding agent that goes beyond autocompletion.
+- **[GitHub Copilot](https://github.com/features/copilot)** – AI pair programmer integrated across VS Code, JetBrains, and GitHub with chat, code completion, and workspace agents.
+- **[Zed](https://zed.dev/)** – High-performance multiplayer code editor built in Rust with integrated AI assistance.
+- **[Cody (Sourcegraph)](https://about.sourcegraph.com/cody)** – AI assistant for code understanding, navigation, and generation across entire codebases.
+- **[Claude Desktop](https://claude.ai/desktop)** – Anthropic's desktop app for development tasks, code analysis, and programming assistance.
+- **[Trae](https://www.trae.ai/)** – Adaptive AI IDE by ByteDance for faster coding and AI collaboration.
+- **[Aider](https://aider.chat)** – Terminal-based AI pair programming tool for editing code in local git repos.
+- **[Phind](https://www.phind.com/)** – AI search and coding assistant for instant answers and code solutions.
+- **[Google Antigravity](https://antigravity.google/)** - *[Review](https://aifordevelopers.org/tool/antigravity)* – Google's agent-first IDE with multi-agent orchestration, browser automation, and Gemini 3 Pro integration. Free during preview.
+- **[Kiro](https://kiro.dev/)** – Spec-driven AI development environment by AWS.
+- **[Tabby](https://tabby.tabbyml.com/)** – Self-hosted, open-source AI coding assistant you can run on your own infrastructure.
+- **[Continue](https://continue.dev/)** – Open-source AI tool for code completion and chat, pluggable into VS Code and JetBrains.
+- **[Supermaven](https://supermaven.com/)** – Extremely fast AI code completion with low-latency, large-context responses.
+- **[PearAI](https://pear.ai/)** – Open-source AI-powered code editor.
+- **[Jupyter AI](https://jupyter-ai.readthedocs.io/)** – AI extensions for Jupyter notebooks with natural language code generation.
+- **[Blackbox AI](https://www.blackbox.ai/)** – AI coding assistant with code completions, chat, and search.
+- **[StackSpot AI](https://ai.stackspot.com/)** – Enterprise-focused AI platform for code generation and developer efficiency.
+- **[Magic](https://magic.dev/)** – AI software engineer platform that handles complex development tasks autonomously.
+- **[Augment Code](https://www.augmentcode.com/)** – AI coding platform with deep cross-repo codebase understanding via its Context Engine, built for large enterprise codebases.
+- **[Amp (Sourcegraph)](https://ampcode.com/)** – Agentic coding tool built on Sourcegraph's code search infrastructure with deep codebase graph and unconstrained token usage.
+- **[Kilo Code](https://kilocode.ai)** – Open-source VS Code extension supporting 500+ models at zero API markup, a superset of Cline/Roo Code.
+- **[Roo Code](https://roocode.com/)** – Popular open-source VS Code extension (fork of Cline) with multi-model support and autonomous coding modes.
+- **[Qoder](https://qoder.com/)** – Agentic coding platform focused on deeper reasoning.
+- **[Aide](https://aide.dev/)** – Open-source AI-native IDE with proactive agents, built on top of VS Code.
+- **[Coworker](https://github.com/leonjackman/coworker)** – Local-first AI coding assistant desktop app with MCP integration, multi-provider AI support, and skills marketplace. Built with Electron, React, and LangGraph. MIT licensed.
+- **[Cate](https://github.com/0-AI-UG/cate)** – Infinite zoomable canvas IDE where editor, terminal, browser, and Claude Code agent panels float spatially, like Figma or Miro but for coding.
+- **[BBARIT](https://github.com/bbarit/terminal)** – Free native all-in-one AI coding IDE (Tauri/Rust) with multi-agent terminals, office editing, and an embedded agent-driven browser; bring any model or run locally with Ollama.
+- **[Bodega One Code](https://bodegaone.ai)** – Free, local-first AI IDE with a built-in coding agent, bring-your-own-LLM, and full offline/air-gap support.
+- **[Harness Desktop](https://github.com/baiyuscc13724-max/deepseek-harness-desktop)** – Open-source Windows client for the official DeepSeek Harness Web UI, with a Simplified Chinese installer, portable build, verified updates, and persistent themes.
+- **[Air](https://air.dev/)** – JetBrains' agentic development environment, built on the technology and team behind the discontinued Fleet IDE.
+- **[ThinkRail](https://thinkrail.ai/)** – Open-source worktree IDE for the Pi coding agent; runs parallel agent sessions in isolated git worktrees with spec-driven development and BYOK model access.
+- **[AstraCode](https://astracode.io/)** – AI-native code editor whose agent runs your tests and proves them before it reports, with AstraOne choosing the model and a CLI for terminals, CI, JetBrains and Zed.
+
+---
+
+## Code Completion
+
+- **[GitHub Copilot](https://github.com/features/copilot)** – Industry-standard AI code completion across IDEs.
+- **[Codeium](https://www.codeium.com/)** – Free AI code completion for 70+ languages and 40+ IDEs.
+- **[Tabnine](https://www.tabnine.com/)** – AI code completion with personalized suggestions and privacy-first options.
+- **[JetBrains AI](https://www.jetbrains.com/ai/)** – Integrated AI for code completion and analysis in all JetBrains IDEs.
+- **[Amazon Q Developer](https://aws.amazon.com/q/developer/)** – AI assistant for code completion, debugging, and AWS integration.
+- **[Google Code Assist (Gemini)](https://codeassist.google)** – AI coding assistant for Google Cloud developers.
+- **[Refact.ai](https://refact.ai/)** – Open-source AI code completion and refactoring with self-hosting support.
+- **[Continue](https://continue.dev/)** – Open-source, pluggable AI code completion for VS Code and JetBrains.
+- **[Visual Studio IntelliCode](https://visualstudio.microsoft.com/services/intellicode/)** – Microsoft's AI code completion for Visual Studio.
+- **[Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/)** – Real-time AI code suggestions with security scanning. *(Now part of Amazon Q Developer)*
+- **[CodeGeeX](https://codegeex.cn/)** – Open-source multilingual code generation model.
+- **[Supermaven](https://supermaven.com/)** – Ultra-fast completions with 1M token context window.
+- **[twinny](https://twinny.dev/)** – Free, open-source VS Code extension for code completion, chat and code review with local models (Ollama, LM Studio, llama.cpp) or hosted APIs; no account or telemetry.
+
+---
+
+## Coding Agents
+
+- **[Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)** – Anthropic's agentic coding tool for the terminal with deep codebase understanding.
+- **[Devin AI](https://devin.ai/)** – Autonomous AI software engineer that plans, codes, debugs, and deploys end-to-end.
+- **[OpenHands (OpenDevin)](https://opendevin.ai/)** – Open-source AI software engineer for autonomous development.
+- **[Cline (Claude Dev)](https://github.com/cline/cline)** – VS Code extension with full file system access and autonomous coding.
+- **[Replit Agent](https://replit.com/agent)** – Builds complete applications from natural language descriptions inside Replit.
+- **[Aider](https://github.com/paul-gauthier/aider)** – AI coding agent for collaborative editing and code generation via CLI.
+- **[GPT Engineer](https://github.com/AntonOsika/gpt-engineer)** – AI agent for building full applications from natural language.
+- **[Codename Goose](https://github.com/block/goose)** – Desktop and CLI agent by Block for automating tasks using LLMs and extensions.
+- **[Smol Developer](https://github.com/smol-ai/developer)** – Lightweight AI coding agent for rapid prototyping.
+- **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests, and refactors within JetBrains IDEs.
+- **[Fine](https://fine.dev/)** – AI dev agent that understands requirements, writes code, and iterates autonomously.
+- **[Factory](https://factory.ai/)** – AI platform automating repetitive coding tasks at scale.
+- **[Devon](https://devon.ai/)** – AI software engineer for autonomous coding.
+- **[Rovo Dev (Atlassian)](https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface)** – Atlassian's terminal coding agent.
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** – Google's terminal coding agent powered by Gemini.
+- **[OpenAI Codex CLI](https://openai.com/blog/openai-codex/)** – OpenAI's CLI coding agent with cloud sandboxed execution.
+- **[OpenCode](https://github.com/opencode-ai/opencode)** – Open-source terminal AI agent (95K+ GitHub stars) supporting 75+ providers. Free, privacy-first, with LSP integration.
+- **[Roo Code](https://roocode.com/)** – Open-source VS Code agent (fork of Cline) known for reliable multi-file editing on large codebases.
+- **[PraisonAI](https://github.com/MervinPraison/PraisonAI)** – Multi-agent framework with 100+ LLM support and MCP integration.
+- **[Potpie](https://potpie.ai)** – AI coding agent for streamlined development workflows.
+- **[Pythagora](https://pythagora.ai/)** – AI agent that builds apps through conversational interaction.
+- **[Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)** – Open-source agent that runs code locally in response to natural language, supporting Python, JS, shell, and more.
+- **[SWE-agent](https://github.com/princeton-nlp/SWE-agent)** – Princeton's autonomous agent that resolves real GitHub issues by navigating repos, editing files, and running tests.
+- **[AutoGen](https://github.com/microsoft/autogen)** – Microsoft's multi-agent framework for building AI agent teams that collaborate on coding tasks.
+- **[CrewAI](https://www.crewai.com/)** – Multi-agent orchestration platform for building teams of AI agents for development and automation.
+- **[Copilot Workspace](https://githubnext.com/projects/copilot-workspace)** – GitHub's agent-powered dev environment that turns issues into code changes with plans, specs, and implementation.
+- **[brood-box](https://github.com/stacklok/brood-box)** – Run coding agents (Claude Code, Codex, OpenCode) inside hardware-isolated microVMs with snapshot isolation, egress control, and MCP authorization.
+- **[Wiggum CLI](https://wiggum.app)** – Open-source agent that scans codebases, generates specs through AI interviews, and runs autonomous coding loops via Claude Code or Codex. Agent mode ships GitHub issues end-to-end.
+- **[OpenASE](https://github.com/PacificStudio/openase)** – Open-source, ticket-driven software engineering platform that orchestrates Claude Code, Codex, and Gemini CLI agents across your machines with workflows, skills, and full traceability.
+- **[SwarmClaw](https://github.com/swarmclawai/swarmclaw)** – Self-hosted multi-agent runtime with MCP client and server support, 23+ LLM providers, persistent memory, skills, schedules, and messaging connectors. Electron desktop app, CLI, and Docker.
+- **[AgentsMesh](https://agentsmesh.ai)** – Self-hostable AI Agent Workforce Platform. Orchestrates Claude Code, Codex CLI, Gemini CLI, Aider, OpenCode across remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, channels-based multi-agent collaboration, built-in Kanban, and per-pod MCP server. Multi-Git (GitHub/GitLab/Gitee), multi-tenant, SSO/RBAC, BYOK.
+- **[Codex Infinity](https://codex-infinity.com)** – Autonomous coding agent that runs continuously on bare metal VPS. Run your Claude Max or OpenAI Codex plans with full root access and no cloud timeouts.
+- **[Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain)** – AI background code analysis agent that watches your codebase and provides real-time insights, suggestions, and automated reviews.
+- **[OpenMagic](https://github.com/Kalmuraee/OpenMagic)** – AI-powered coding toolbar for any web app. Injects a floating toolbar via reverse proxy, captures element context, previews diffs, and applies approved changes in real time.
+- **[Emdash Skills](https://github.com/megabytespace/claude-skills)** – 14-category autonomous product-building OS with 18 specialized agents that turn one-line prompts into deployed products on Cloudflare Workers.
+- **[Browy](https://github.com/BrowyHQ/browy)** – Open-source AI agent for Chrome that drives real browser tabs through chat, with a built-in DevTools CLI terminal for power users. Powered by the GitHub Copilot SDK.
+- **[cc-code](https://github.com/cc-claws/cc-code)** – Open-source Rust terminal coding agent, Claude Code compatible. Runs DeepSeek, MiMo, GLM with ~50MB memory and 95-99% prompt cache hit rate.
+- **[Coworker](https://github.com/leonjackman/coworker)** – Local-first AI coding agent desktop app with long-term memory, human-in-the-loop, web search, and 11-language i18n. MIT licensed, 396+ commits.
+- **[Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril)** – Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops.
+- **[Claude Skills](https://github.com/heymegabyte/claude-skills)** – 14-category autonomous product-building OS bundling 18 specialized agents (architect, test-writer, deploy-verifier, security-reviewer, visual-qa, performance-profiler, accessibility-auditor, content-writer, completeness-checker, dependency-auditor, migration-agent, incident-responder, computer-use-operator, meta-orchestrator, seo-auditor, cost-estimator, changelog-generator, code-simplifier). One config drops into Claude Code, Codex, Cursor, Copilot, Gemini CLI, Windsurf, opencode, Cline, and Aider. One-line prompts deploy production sites with hard quality gates (Playwright at 6 breakpoints, axe-core 0 violations, Lighthouse a11y >=95, AI vision >=8/10).
+- **[great_cto](https://github.com/avelikiy/great_cto)** – Engineering management layer for 34 specialist AI agents covering the full SDLC (architect, pm, senior-dev, code-reviewer, qa, security, devops, l3-support + 18 archetype-specific reviewers). 25 archetypes auto-detected with compliance gates (PCI-DSS, HIPAA, FedRAMP, GDPR, EU AI Act). Multi-platform — Claude Code, Cursor, Codex CLI, Aider, Continue. Local kanban board, OWASP LLM Top 10 scanner, MIT.
+- **[AgentTier](https://github.com/agenttier/agenttier)** – Self-hosted Kubernetes-native sandbox runtime for AI coding agents (Claude Code, OpenHands, LangGraph). Same Sandbox CRD provisions a Pod + PVC + default-deny NetworkPolicy with optional gVisor isolation, hierarchical governance, and a streaming SSE invoke API.
+- **[Maestro](https://github.com/RunMaestro/Maestro)** – Open-source desktop command center for running multiple AI coding agents (Claude Code, Codex, Gemini CLI, etc.) in parallel, with Cue event automation, Auto Run playbooks, Group Chat across local and remote agents, and a maestro-cli that agents can drive themselves.
+- **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** – Provider-neutral, local-first CLI coding agent (Chat/Cowork/Code modes) built for governance: org policy engine, enforced network egress, and a verifiable hash-chained audit trail. Works with any OpenAI-compatible endpoint (DeepSeek, OpenAI, Claude via OpenRouter, Groq, Ollama). Zero runtime deps. MIT.
+- **[OpenCode Mobile](https://github.com/dzianisv/opencode-mobile)** – Open-source (MIT) Android client for the OpenCode coding agent; run AI coding sessions from your phone against your own self-hosted server with bring-your-own keys.
+- **[WithVibe](https://github.com/withvibe/withvibe)** – Self-hostable shared AI development environment for teams. Spin up an isolated, code-seeded env, build with AI, and share the live session; an agent gate (security, code review, tests, policy) plus human approval reviews every change before it ships.
+- **[issue-orchestrator](https://github.com/BruceBGordon/issue-orchestrator)** – Open-source orchestrator that runs Claude, Codex, and Gemini agents on GitHub issues in isolated worktrees, treating agent output as a claim, not authority: nothing advances until validation and a reviewer agent pass, with crash recovery and human merge authority.
+- **[agentic-harness](https://github.com/MrBogomips/agentic-harness)** – Claude Code plugin that builds, reviews, and maintains a project's agentic harness — the agents, skills, and orchestrator under .claude/ — coordinating with existing spec systems and issue trackers instead of reinventing them.
+- **[Gokin](https://github.com/ginkida/gokin)** – Open-source terminal AI coding agent that works with local models via Ollama or providers like DeepSeek and Kimi, with no telemetry and secret redaction.
+- **[LoopTroop](https://github.com/looptroop-ai/LoopTroop)** – Local GUI orchestrator for long-running, high-correctness AI software delivery — LLM councils plan it, Ralph loops perfect it, OpenCode worktrees ship it.
+- **[Weco (weco-cli)](https://github.com/WecoAI/weco-cli)** – Autoresearch CLI that optimizes code (GPU kernels, ML models, prompts) by editing a file, running your eval, and keeping changes only when the metric improves.
+- **[Orca](https://onorca.dev)** – An open-source IDE for orchestrating multiple AI coding agents — Claude Code, Codex, Cursor, Gemini, OpenCode and more — side-by-side, each in its own isolated git worktree.
+- **[NarraNexus](https://github.com/NetMindAI-Open/NarraNexus)** – Open-source AI agent team workspace with a ready-to-run team of agents that remember, collaborate, and use tools, supporting multi-agent coding workflows.
+- **[octomux](https://github.com/ShreyPaharia/octomux)** – Local dashboard for orchestrating parallel Claude Code and Cursor agents in isolated git worktrees, with a unified permission inbox, a live monitor grid, and in-app diff review. MIT.
+- **[Aura IDE](https://github.com/CarpseDeam/Aura-IDE)** – Open-source desktop AI coding harness that plans, edits through reviewable diffs, validates changes, and leaves receipts.
+- **[DevIntern](https://devintern.com/)** – Picks up tickets from Jira, Linear, Trello, Asana, Azure DevOps, GitHub Issues, or markdown files and turns them into self-reviewed pull requests using the coding agent of your choice (Claude Code, Codex, Cursor, OpenCode), running on your machines with your own model keys. A feasibility gate flags vague tickets back to the tracker with questions.
+- **[Septim Agents Pack](https://septimlabs.com/tools/agents?utm_source=awesome-ai-coding-tools&utm_medium=awesome-list&utm_campaign=oss-backlink)** – 10 named Claude Code sub-agents covering planning, architecture, brand, marketing, finance, design, legal, customer research, and cross-lane coordination. Drop the `.claude/agents/` folder into any project; pay-once at $49.
+- **[LingShu](https://github.com/RoyZhao1991/LingShu)** – Native Apache-2.0 macOS execution agent with a replaceable model backend and an open runtime for code, documents, presentations, and authorized computer actions.
+- **[agentty](https://github.com/1ay1/agentty)** – Native C++26 terminal coding agent and drop-in claude-code alternative. Single static binary, sub-millisecond cold start, sandboxed by default, and model-agnostic (Claude, OpenAI, Groq, OpenRouter, Ollama). Runs inside Zed over ACP and drives air-gapped hosts over SSH. MIT.
+- **[AgentGrid](https://agentgrid.sh)** – Desktop app (macOS/Linux/Windows) with an infinite zoomable canvas for orchestrating multiple AI coding agents in parallel. A master orchestrator pane spawns role-based workers (builder, QA, reviewer) in isolated git worktrees, alongside integrated terminals and Playwright browser panes. Runs Claude Agent SDK and OpenAI Codex SDK. Free tier available.
+- **[Orkas](https://github.com/Orkas-AI/Orkas)** – Open-source local-first desktop workspace that runs Claude Code, Codex CLI, OpenCode, Cline, and built-in agents in parallel with shared files and approval controls. [Website](https://orkas.ai?source=gh-codingtools)
+- **[Garcon](https://github.com/cfal/garcon)** – Self-hosted browser and mobile workspace for running and steering parallel Claude Code, Codex, Cursor Agent, OpenCode, Amp, Droid, and Pi sessions, with integrated terminal, files, diff review, Git/PR workflows, mobile approvals, and cross-agent transfers.
+- **[BitFun](https://github.com/GCWing/BitFun)** – Cross-platform desktop coding agent built on a Rust runtime, with Git-aware workflows, Deep Review, MCP/Skills/Hooks, remote workspaces, and state-bound Mini Apps.
+- **[Mirafold](https://github.com/mirafold/mirafold)** – Browser UI for Claude Code, Codex, and Gemini CLI where the agent renders live charts, diffs, and task lists as it works, with mission control across multiple sessions and E2E-encrypted phone pairing (self-hostable relay). Open source, local-first.
+- **[Ordewell](https://github.com/ordewell/ordewell)** – Plan-first CLI/TUI orchestrator that turns one goal into an ordered plan of coding-agent tasks, each with its own runner (Claude Code, Codex, OpenCode), model, thinking effort and mode — editable before execution, run as one agent session per task, and marked done only when its own completion marker appears in the output. Apache-2.0, free, no paid tier.
+- **[intentic](https://github.com/intentic/intentic)** – Self-hosted workspace that runs Claude Code, Codex, OpenCode, and Gemini CLI agents in parallel, each in its own Docker container and git worktree on hardware you own. Browser and mobile UI, terminals that survive disconnects, an editable sandbox Dockerfile, and per-file, per-hunk diff review before changes land. MIT, TypeScript.
+- **[Dcode](https://github.com/langchain-ai/deepagents)** – The coding agent you own. Open-source, model-agnostic, and built by LangChain to give you maximum control over your software development lifecycle.
+- **[Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent)** – Local-first coding agent that runs open-weight models entirely on your machine via a llama.cpp fork. 56 built-in tools (browser, filesystem, git, memory, vision), MCP support, and a five-layer memory system. No account or API key required.
+- **[Kolega Code](https://github.com/kolega-ai/kolega-code)** – Open-source terminal coding agent where the model writes its own multi-agent workflows (Gigacode), with 15+ providers and MCP support.
+- **[Keen Code](https://github.com/mochow13/keen-code)** – An open-source, context-aware terminal-based coding agent written in Go. Supports multiple providers, MCPs, subagents, Agent Skills, controllable tool output retention, hashline edits, and more.
+- **[Derivative](https://github.com/Daniele-Cangi/Derivative)** – Open-source AI-assisted engine for greenfield requirement-to-software synthesis with typed requirement preservation, isolated execution, independent evidence-based validation, bounded repair, and fail-closed packaging.
+- **[mix2](https://github.com/elleryfamilia/mix2)** – Terminal app that turns two coding agents into one team. One question, both investigate independently, disagreements are disclosed, one answer. Works with Claude Code, Codex, Cursor, OpenCode, and Copilot CLI.
+- **[Superagent](https://github.com/pungme/superagent-desktop)** – Open-source macOS desktop app giving Claude Code and Codex a real browser to drive, an iOS Simulator to install and screenshot apps in, and a phone companion app for remote monitoring.
+- **[Sinatra](https://sinatra.dev)** – Coding agent for Linear and GitHub issues; runs in an isolated sandbox, opens a PR, and runs on your Claude or ChatGPT subscription.
+- **[VibeFuse](https://fuseintelligence.org/products/vibefuse)** – Free Windows desktop harness that runs Claude Code, Codex, Gemini, Cursor, and Qwen as live widgets on one canvas, with a marketplace for selling AI skills and widgets (sellers keep 80%).
+- **[Nexus-Agent](https://github.com/parkain707/nexus-agent)** – Open-source autonomous AI software engineering agent featuring dual-engine UX (Rich TUI + Cyberpunk Web Visualizer) and self-healing AST code engine.
+- **[TaskHandoff](https://docs.thandoff.com/)** – Self-hosted control plane for running Docker-based Codex workspaces on local and remote machines, with per-task workspace isolation, a diff review gate before changes land in your repository, and multi-agent handoff to a human reviewer.
+- **[Sillage](https://github.com/MarlBurroW/sillage)** – Self-hosted, MIT-licensed, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine, with server-side sessions, full-text search, an IDE panel, an MCP board the agents read, and an installable PWA. Single Docker container.
+- **[Aura](https://github.com/Naridon-Inc/aura)** – Open-source semantic layer on top of Git for reviewing AI-generated code, tracking intent/provenance, and surfacing risky change areas.
+- **[Agent Teams](https://github.com/777genius/agent-teams-ai)** – Free open-source desktop app for autonomous coding-agent teams across Claude Code, Codex, OpenCode, Cursor, Grok, GitHub Copilot, Kiro, Z.AI, MiniMax, Kimi, 200+ models, and 75+ LLM providers. Give high-level commands while agents handle Kanban tasks, messaging, code review, logs, and approvals.
+- **[OpenClacky](https://openclacky.com)** – The most token-efficient open-source AI coding agent. Achieves 93.8% Prompt Cache hit rate and ~0.8× the API cost of Claude Code via frozen system prompt, dual cache markers, and Insert-then-Compress context management. BYOK, MIT licensed, 16 core tools, Skill extensions, IM integration (Feishu/Discord/Telegram). ([GitHub](https://github.com/clacky-ai/open-clacky))
+- **[LoopFlow](https://loopflow.live)** – Open natural-language DSL for self-correcting AI coding loops: describe what to build and how to verify it in plain English, and the agent loops plan → act → observe → reflect until the check passes. Runs in Claude Code, Cursor, and Copilot.
+- **[Tura](https://github.com/Tura-AI/tura)** – Open-source local coding agent with CLI/TUI/GUI, task-scoped context, macro command execution, verification, and public benchmarks.
+- **[Agent Workbench](https://github.com/cvelasquez/agent-workbench)** – Local, MIT-licensed web UI around the Claude Code, Codex, OpenCode and Antigravity CLIs: runs the unmodified CLI you already have in a pseudo-terminal and adds tabs, one browsable history for all four, conversations as cards, hand-off of a conversation to another CLI and full-text search. No telemetry; never reads credentials.
+- **[Navarch](https://sagentlab.com/navarch)** – Turns your backlog into reviewable pull requests with less agent supervision, running your coding agents across projects with your budgets and approval rules. From SagentLab; paid subscription from $20/seat/month.
+- **[Atlarix](https://atlarix.dev)** – Private AI agent workstation for engineering teams that works alongside your existing editor: any model (managed Atlarix Core, your own keys across 220+ providers, or local Ollama/LM Studio), bundled-ripgrep search with no repo index to build, and every edit held for approval with hunk-level diff review. Free tier.
+- **[Orbi](https://github.com/orbi-build/orbi)** – Open-source (AGPL-3.0) autonomous delivery runner: label a GitHub Issue `ai-ready` and it implements, has an independent session review the frozen diff, merges only the reviewed commit, and ships a tagged release — unattended.
+- **[Sabi](https://github.com/vizuh/sabi)** – Open-source (MIT) routing layer that sits between a coding agent and the models it can call, choosing model, reasoning effort and provider per round from trajectory evidence such as tool results, failures and verification instead of pinning the whole task to one model. Ships controller hooks for Claude Code, Codex, OpenCode and Orca, plus a local OpenAI-compatible proxy and a Command Code mod.
+- **[Agent 007](https://github.com/bill10/agent-007)** – Self-hosted job board that runs Claude Code, Codex, and other terminal agents in parallel, one git worktree and branch per job, with each job ending as a pull request to review.
+- **[tonone](https://github.com/tonone-ai/tonone)** – Open-source (MIT) Claude Code plugin with 140 specialist agents and 573 skills across engineering, product, design, security, legal, and ops, with an engineering-lead agent that scopes and routes work.
+- **[Coven](https://github.com/OpenCoven/coven)** – Local-first runtime for project-scoped AI coding-agent sessions: a daemon and CLI that run Codex, Claude Code, and other harnesses inside explicit project-root boundaries, with PTY sessions, SQLite-persisted history, and a versioned local socket API. Open source (MIT).
+- **[Coven Cave](https://github.com/OpenCoven/coven-cave)** – Desktop control room for AI coding-agent sessions, persistent agents, memory, workflows, and GitHub triage. Tauri + Next.js on macOS, Windows, and Linux, plus a native iOS client. Open source (MIT or AGPL-3.0).
+- **[Raven](https://github.com/EverMind-AI/Raven)** – Open-source (Apache-2.0) host agent that plans a complex task as a DAG and runs its built-in Raven-Code agent alongside CLI coding agents such as Claude Code, Codex, OpenCode, Qwen Code, Kimi Code, and GitHub Copilot as subagents over ACP, from a terminal UI or WebUI.
+- **[PersonalJarvis](https://github.com/PersonalJarvis/PersonalJarvis)** – Open-source desktop app for Windows, macOS, and Linux that runs CLI coding agents such as Claude Code, Codex, Gemini CLI, and OpenCode side by side in terminal panes with Git worktrees, together with a chat and voice assistant and background agents.
+- **[agent-manager](https://github.com/YoanWai/agent-manager)** – Terminal UI that runs coding-agent CLIs (Claude Code, Codex, OpenCode, Gemini CLI and more) side by side, each in its own persistent tmux session, with live status, prompts sent without attaching, optional git worktrees, and a diff view whose line comments go back to the agent. Apache-2.0. Runs on macOS, Linux and Windows via WSL2.
+- **[ANUS](https://github.com/anus-dev/anus)** – Free terminal coding agent that runs every request on the smartest free model that is up today, and switches when one hits its limit. MIT.
+- **[Backseat](https://github.com/darek225/backseat)** – Open-source VS Code extension and git/JSON protocol that lets Muse, Grok, or any shell-capable agent queue coding tasks from a phone to Cline on your PC and get results back through a private bridge repo.
+- **[idea-to-blueprint](https://github.com/iniesohidham/idea-to-blueprint)** – Agent skill for Claude Code, Codex and claude.ai that turns a raw idea into one evidence-backed build spec (web-researched stack with pinned versions, epics, Given/When/Then acceptance criteria, tests), then has the agent build one epic per fresh session.
+- **[AGRO](https://github.com/mifunedev/agro)** – Durable Docker workspace for AI coding agents on your laptop or a remote VM. Work continues after the terminal disconnects, parallel agents use separate git worktrees, and you choose the harness: Claude Code, Codex, Pi, OpenCode, T3 Code, and others. Apache-2.0.
+- **[oxi](https://github.com/maziluiosif/oxi)** – Open-source native desktop coding agent (Rust + egui, no Electron) that runs local GGUF models it downloads for you, Ollama/LM Studio, hosted APIs, or Claude Code/Cursor/Codex over ACP, with a built-in editor, Git panel and terminal.
+- **[5dive](https://5dive.ai)** – Runs a team of coding agents (Claude Code, Codex and more) on a server you own, with an org chart and a shared backlog. Open source (MIT) and free to self-host.
+- **[Agent Fleet](https://github.com/k-k1/agent-fleet)** – Self-hosted web console for running Claude Code, Codex, Copilot, Cursor and other coding-agent CLIs side by side in isolated workspaces, with git worktrees, scheduling and usage tracking.
+- **[Cotal](https://github.com/Cotal-AI/Cotal)** – Open pub/sub standard that lets Claude Code, Codex, OpenCode, Hermes, Jcode and pi agents coordinate in one live space with presence, channels and durable messaging.
+- **[Mixdog](https://github.com/tribgames/mixdog)** – Open-source desktop coding agent where a lead model plans and cheaper models handle search, edits and review.
+- **[Rovai AI](https://github.com/murray17/rovai-ai)** – Open-source workspace that organizes Claude Code, Codex CLI, and other coding agents into persistent teams with shared conversations, task delegation, execution review, and collaborative memory.
+- **[Claude Code Remote](https://github.com/seeknull/claudecode-remote)** – Self-hosted web UI for driving Claude Code on one machine from a browser on any other, including a live view of sessions already running from the CLI or VS Code.
+- **[Hivemeld](https://www.hivemeld.ai/buy?plan=annual&utm_source=ai4dev_coding_tools&utm_medium=directory&utm_campaign=GRO-105)** – Hosted coding-agent platform that runs teams of autonomous engineering agents on your real backlog: each picks up issues, works in an isolated workspace, opens a pull request, and ships continuously.
+- **[mu](https://github.com/qybaihe/mu)** – Open-source coding agent (CLI and desktop app) built on pi, where a small, fast judge model makes the routine calls at 40 decision points, such as what enters the context, whether a flagged command was asked for and whether "done" was verified, so the main model keeps its attention on the work.
+- **[Agentastic.dev](https://www.agentastic.dev)** – Free native macOS IDE that runs Claude Code, Codex, Gemini CLI, and 50+ other coding-agent CLIs in parallel, each in its own git worktree with a terminal, browser preview, diff review, and pull request flow.
+- **[CodingFleet Desktop](https://github.com/x4nth055/codingfleet-desktop)** – Open-source (MIT) desktop coding agent for Windows, macOS, and Linux. It reads, edits, and runs code in a folder you pick and asks before every command or file change, with one-click undo, mid-run steering, MCP connectors, computer use, and an optional cloud sandbox. Works with Claude, GPT, Gemini, DeepSeek, GLM, and free models. Free tier available. [Website](https://codingfleet.com/download/?utm_source=awesome-ai-coding-tools&utm_medium=awesome-list)
+- **[Doforu](https://doforu.ai)** – Local-first desktop AI agent orchestrator that plans a goal, splits it into subtasks, and runs parallel sub-agents, with 15+ models, Skills, MCP support, and offline local models via Ollama or vLLM.
+- **[Mudroom](https://github.com/Kernel-Hunter/mudroom)** – Runs coding agents (Claude Code, Codex, Gemini CLI, Aider, opencode) in a Linux micro-VM on a copy-on-write clone of your project, behind a network allowlist, then lets you review and apply the diff per file or per hunk.
+- **[Crewly](https://github.com/stevehuang0115/crewly)** – Local, MIT-licensed platform that runs a team of role-based agents (developer, QA, PM, orchestrator) on Claude Code, Codex, and Gemini CLI, with task delegation, shared memory, and a web dashboard of live agent terminals.
+- **[Overboard](https://tryoverboard.com/?utm_source=aifordevelopers&utm_medium=directory)** – macOS app that runs Claude Code agents around the clock on your own Mac: schedule recurring agents, dispatch one-off tasks from Telegram or Slack, and review what every run produced. Runs on your existing Claude plan; 14-day free trial and a free open-source Claude Code plugin.
+- **[opencode-rust](https://github.com/vakandi/opencode-rust)** – The open source AI coding agent, in Rust. CLI, TUI and HTTP server for local AI agents, no Docker required. MIT licensed, 21 crates, 571 tests. Install with `npm install -g opencode-rust` or `brew install vakandi/tap/opencode-rust`; the command is `opr`. Independent Rust implementation of opencode, not affiliated with the OpenCode team.
+- **[podway](https://podway.io/agent-computer)** – Always-on cloud computer for Claude Code: the session keeps running when your laptop is closed, and you open it from the official Claude apps on desktop or phone. Uses your own Claude Pro/Max plan; free to start.
+- **[claw-kit](https://github.com/chanyuenpang/claw-kit)** – A better harness for beginners that keeps coding-agent plans, tasks and project notes in the repo so long tasks can resume across sessions.
+- **[Alchemist Coder](https://github.com/Alekla0126/alchemist-coder)** – Open-source (AGPL-3.0) desktop app for macOS, Windows and Linux that runs Claude Code and Codex over ACP with a live tree of agents and subagents, an Arena where up to four agents solve the same task in separate git worktrees, and one searchable history of Claude Code, Codex, Gemini CLI and Grok Build sessions. The free edition runs agents on local models (Ollama, LM Studio).
+- **[SpaceApp](https://github.com/oll4com/spaceapp)** – Open-source (MIT), self-hosted web workspace that runs OpenCode, Codex, Claude Code, Gemini CLI and other coding CLIs side by side in persistent rooms, with MCP servers and managed browser panes.
+- **[AgenC Core](https://github.com/tetsuo-ai/agenc-core)** – Open source terminal coding agent that works with any model provider, including local models. Scored 76.2% on Terminal-Bench 2.1 for $34 with DeepSeek V4.1 Flash.
+- **[Frink](https://github.com/benord-labs/frink)** – Desktop-first, open-source (MIT) application for running parallel agents, and multi-step custom workflows triggered by schedules, webhooks or events from tools like Linear and Sentry, across your already-used providers. Workflows can include steps you write yourself in code, alongside agent, command and approval steps.
+- **[Threadlines](https://www.threadlines.dev)** – Open-source desktop app for running coding agents (Claude Code, Codex, OpenCode, Cursor and agents from the ACP registry), where several agents can share one thread and each thread gets its own Git worktree.
+- **[Shikidan](https://github.com/LynchzDEV/shiki)** – Simple cockpit for any AI agent. One chat runs Claude Code, Codex, GLM, Grok or any CLI agent in separate git worktrees, with cross-model review and plugins. Self-hostable, MIT.
+- **[Praex](https://github.com/ailucius/praex-cli)** – Terminal coding agent (MIT, OpenCode fork) that reads the repo, edits files with approval, and runs commands; free hosted model or your own API keys, plus Remote Control to continue a session from your phone.
+- **[darting.dev](https://darting.dev/)** – Cloud workspace for teams running autonomous coding agents in isolated sandboxes, with browser verification, pull requests, CI, and deployment. Pay as you go with $10 in introductory credits; optional subscription.
+- **[FlowDeck Studio](https://flowdeck.studio/)** – Native macOS workspace where Claude Code, Codex and Cursor agents build, run and test iOS and macOS apps in existing Xcode projects, each session in its own Git worktree and simulator. Commercial with a 14-day free trial.
+- **[AgentLink](https://github.com/reefbarman/agentlink)** – Open-source VS Code coding agent that uses the editor's code intelligence as tools, shows every file change as a reviewable diff, and works with your own models from multiple providers. Approval controls, sandboxed commands, background agents, and MCP support. MIT.
+- **[OliveCode](https://olivecode.dev/)** – OpenCode-derived terminal coding agent with free cloud or local Ollama models, optional teamwork and follow-through reviews; public preview, provider quotas and hardware limits apply.
+- **[agent-doctrine](https://github.com/sisig-ai/agent-doctrine)** – Shared instructions and role prompts (lead, implementer, reviewer) synced into Claude Code, Codex, Cursor, OpenCode and more to take a spec to a tested PR.
+- **[Andromity](https://github.com/agenticmarket/andromity)** – Open-source (MIT) coding agent for VS Code and the terminal with a live waterfall of every model call, file edit and command, plus a per-turn blast radius. Bring your own key or use Ollama.
+- **[Talavine Code](https://github.com/scrossen/talavine-code)** – MIT-licensed C# desktop and CLI coding harness for repository tasks, using API providers, coding CLIs or tool-capable Ollama models.
+- **[Quorus](https://github.com/Quorus-dev/Quorus)** – Open-source (MIT) local relay where Claude Code, Codex and opencode agents share rooms, wake on @mention, work in their own git worktrees and review each other's commits.
+- **[Open Walnut](https://github.com/EvanZhang008/open-walnut)** – Self-hosted web console for Claude Code on your laptop and remote dev boxes: a daemon on each machine owns the `claude` processes, so sessions keep running when SSH drops, and one browser page (phone too) shows every session, which ones wait for you, and each session's diff. Also runs Codex, OpenCode, and Goose on the local machine over ACP. MIT.
+- **[Mercury CLI](https://github.com/Whq02/MercuryCLI)** – Open-source (Apache-2.0) terminal coding agent in TypeScript for macOS, Linux and Windows with parallel sessions on one screen, crewmates in isolated git worktrees with file leases, 22 model providers plus local or rented GPU weights, project memory across sessions, LSP, a DAP debugger, MCP client, and built-in browser and computer use.
+- **[Sno Station](https://github.com/sno-ai/sno-station)** – Open-source runtime that turns the coding agents you already use (Claude Code, Codex, Cursor, Hermes, OpenClaw) into one squad: when one hits its usage limit another takes over with full context, any agent can review another's work, and all of them share one local encrypted memory.
+- **[Commonly](https://github.com/Team-Commonly/commonly)** – Open-source (Apache-2.0) shared pod where a team's people and their Claude Code and Codex agents claim tasks on one board and see what each agent claimed and finished.
+- **[Stepswitch](https://github.com/sarthak-1111/stepswitch)** – Open-source orchestrator for coding agents on local and remote models: each step goes to the model that suits it, every change must pass your tests, and every README number is re-runnable with ssw prove.
+- **[Krill](https://github.com/craftowen/krill)** – Open-source (Apache-2.0) native Rust desktop workspace for running Claude Code, Codex, Cursor CLI and OpenCode side by side, each in its own git worktree, with terminal sessions that survive app restarts.
+- **[MAO](https://trymao.dev)** – Native desktop canvas (macOS, Windows, Linux) that runs Claude Code, Codex, Gemini CLI, Grok, OpenCode and shell agents as real terminal nodes, wires them so they hand tasks to each other, lets an Orchestrator agent recruit and direct the rest, and gives parallel agents their own git worktree layers. Paid (one-time), 7-day free trial.
+- **[nodecode](https://github.com/nodecode-ai/nodecode)** – A living agent organism in Lisp. It becomes yours and evolves over time.
+- **[Bivy](https://github.com/bivysh/bivy)** – Self-hostable workspace that runs Claude Code, Codex, OpenCode, Pi and other coding-agent CLIs on your own machines or a cloud computer, steered from a phone, browser or terminal, with push notifications, live app previews and GitHub/CI/schedule triggers.
+- **[Paradev](https://github.com/ParadevAI/Paradev)** – Desktop app (formerly Superset) for running Claude Code, Codex, OpenCode, and other CLI agents in parallel, each task in its own Git worktree, with diff review, pull requests, and an in-app browser.
+- **[muster](https://github.com/ZacxDev/muster)** – Self-hosted, MIT-licensed server that mirrors Claude Code and other coding-agent sessions running in tmux on several machines to a phone PWA, with dictation, push notifications, a task board, and MCP tools through which an agent asks a question and waits for the answer.
+- **[CodeAF](https://github.com/Agent-Field/CodeAF)** – Open-source coding agent for open models that works like a software factory: it splits a request into tasks that run in parallel in their own copies of the repo and merges the ones that pass the project's checks. Single Go binary, Apache-2.0.
+- **[Wavefunction](https://www.wavefunction.si)** – Open-source desktop coding agent for macOS with parallel chats, MCP connectors and any model: local, your own API keys or a ChatGPT sign-in.
+- **[OpenCode Mobile (opencode-mobile-next)](https://github.com/Eslamasabry/opencode-mobile-next)** – Independent, unofficial, open-source (MIT) Android app that runs coding agents such as Claude Code, Codex, Gemini CLI and OpenCode on the phone itself, in an Ubuntu environment it installs inside the app, or connects to an agent on your computer. Approve requests from a notification, review diffs, preview the dev server. Made by its owner with substantial AI assistance.
+- **[claudebox](https://github.com/jakubro/claudebox)** – Self-hosted web UI and CLI that run every Claude Code session in its own disposable Podman or Docker container, with reply threads anchored to a quoted sentence, forking at any message, kanban boards drawn from ticket files in the repo, and agents that start and question sessions of their own.
+- **[UNCUT](https://github.com/Balanov/uncut)** – MIT-licensed lossless, headless coding agent harness with complete tool output, resumable JSONL sessions, and reproducible lossless checks.
+- **[Friday](https://github.com/splashxmoon/friday-code)** – Open-source (MIT) desktop app that runs Claude Code, Codex, Cursor, Gemini CLI and others side by side on your own computer, with a shared task board, agent-to-agent messages, a git worktree per agent, diff review with line notes, and a hand-off to another agent when one hits its usage limit. No account.
+- **[AgentVera](https://agentvera.dev/en/)** – Desktop app (macOS, Windows, Linux) that runs Claude Code, Codex, Gemini CLI, Copilot, Cursor and 13 more coding agents side by side per project in real terminals, with a team kanban board that hands cards to agents and an MCP manager.
+- **[Kiteline](https://github.com/hon6/kiteline)** – Follow and reply to Claude Code, Codex, OpenCode and DeepSeek Harness sessions from iPhone, iPad and Apple Watch: approve requests, answer questions, set goals and get test reports while the agents keep running on your own computer. The desktop app (Mac, Windows, Linux) is open source.
+- **[Parallel Code](https://github.com/johannesjo/parallel-code)** – Open-source desktop app that runs Claude Code, Codex, OpenCode, Copilot and Antigravity in parallel, each in its own git worktree, with change tours and configurable pre-merge checks. MIT.
+- **[SpecWithCode](https://github.com/anton-abyzov/specwithcode)** – Free, source-available desktop app that runs Claude Code, Codex, Copilot, Grok, Cursor, OpenCode and Gemini CLI side by side, with a coordinator that hands tasks to workers on different providers and switches provider when one hits its usage limit.
+- **[Valo](https://getvalo.dev)** – The workspace for AI. Runs Claude Code, Codex, Gemini CLI and other AI agents side by side in real terminals, with all your projects in one window. Valo MemoryCode, Valo Search, the Map, Nerve Map, Pressure Points, context control, Cross-Chat and multi-agent orchestration. Free plan. Windows, macOS, Linux.
+- **[Sesori](https://github.com/sesori-ai/sesori_apps_monorepo)** – Notifies you the moment a coding agent stops on a question or permission prompt, so you can answer from your phone instead of leaving it idle. One free desktop (macOS, Linux) and iOS/Android app for Claude Code, Codex, OpenCode, GitHub Copilot, Cursor, Pi, OMP, Hermes, DeepSeek and Grok Build sessions on your own computer; code stays there and the end-to-end encrypted relay sees only ciphertext. Source-available (FSL-1.1-ALv2).
+
+---
+
+## CLI Tools
+
+- **[Warp](https://www.warp.dev/)** – AI-enhanced terminal with smart command suggestions and collaborative workflows.
+- **[Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)** – Anthropic's terminal-based coding agent.
+- **[OpenAI Codex CLI](https://openai.com/blog/openai-codex/)** – OpenAI's terminal agent with sandboxed code execution.
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** – Google's open-source terminal coding agent with free Gemini 3 Pro access and 1M token context.
+- **[OpenCode](https://github.com/opencode-ai/opencode)** – Open-source terminal AI agent supporting 75+ providers with multi-session support. Free.
+- **[GitHub Copilot CLI](https://github.com/cli/cli/tree/trunk/pkg/cmd/copilot)** – GitHub's AI assistant for command-line with context-aware suggestions.
+- **[ShellGPT](https://github.com/TheR1D/shell_gpt)** – ChatGPT integration for shell command generation and system administration.
+- **[Aider](https://github.com/paul-gauthier/aider)** – Open-source terminal AI pair programmer with deep git integration; every AI edit is auto-committed.
+- **[AICommits](https://github.com/Nutlope/aicommits)** – AI-powered meaningful git commit message generation.
+- **[Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html)** – AI CLI for AWS-related coding and scripting.
+- **[Mentat](https://mentat.ai/)** – AI coding assistant for command-line development.
+- **[TmuxAI](https://tmuxai.dev/)** – AI assistant for automating tmux workflows.
+- **[Butterfish](https://butterfi.sh)** – AI tool for enhancing shell productivity with natural language.
+- **[codachi](https://github.com/vincent-k2026/codachi)** – Context window monitor for Claude Code that shows burn rate and time remaining, with an ASCII pet that reacts to your workflow.
+- **[agx](https://github.com/ramarlina/agx)** – Checkpoint-based execution engine for AI coding agents; durable Wake→Work→Sleep loops that resume across sessions. Supports Claude Code, Codex, Gemini CLI, and Ollama.
+- **[VibePod](https://github.com/VibePod/vibepod-cli)** – Unified CLI for running Claude Code, Codex, OpenCode, Pi, and other AI coding agents in isolated Docker or Podman containers, with local metrics and an analytics dashboard.
+- **[AI Badger](https://github.com/PVRLabs/aibadger)** – Local-first CLI for extracting clean, relevant codebase context to paste into any AI coding assistant.
+- **[agentchecker](https://github.com/moisesvalero/agentchecker)** – CLI that scans `AGENTS.md`, `CLAUDE.md`, Cursor rules, and Copilot instructions for contradictions and auto-fixes them. `npx agentchecker`
+- **[cc-code](https://github.com/cc-claws/cc-code)** – Rust-native terminal agent, Claude Code `.claude/` config compatible. Multi-model (DeepSeek/MiMo/GLM), ~50MB memory.
+- **[dotdog](https://github.com/specdog/dotdog)** – CLI for structured software specs. Write .dog files, compile to .dag graphs, query via MCP server. Validates completeness, detects drift. 
+- **[Vernclaw Connect CLI](https://vernclaw.com/)** – Official connector CLI with JSON-first agent-friendly connector invocation, managed connectors, and bundled skill docs for open-source workflows.
+- **[grokpack](https://github.com/Rennlabs/grokpack)** – Unofficial Grok Build companion suite for Claude Code: observe (orientation card), drive (Grok executes / Claude orchestrates + gate), display (tmux HUD). MIT.
+- **[agent-trace](https://github.com/liangzhengtao/agent-trace)** – Post-session analysis for AI coding agents. Track costs, tokens, tool health, and every conversation. Supports Kimi Code, Claude Code, Codex, OpenCode.
+- **[token-meter](https://github.com/liangzhengtao/token-meter)** – Real-time token cost meter for AI coding agents with status bar mode. Watch your tokens burn as it happens.
+- **[AIPM](https://www.aipm-registry.com/)** – Open-source CLI and registry for finding, installing, publishing, and managing reusable agent skills across Cursor, Claude Code, and Codex.
+- **[Crab Code](https://github.com/crabforge/crab-code)** – Rust-native agentic coding CLI supporting any LLM provider with multi-entry-point architecture (CLI/IDE/Web/Desktop). Apache-2.0.
+- **[oh-my-kimi](https://github.com/dmae97/oh-my-kimi)** – Multi-agent orchestration harness for Kimi K2.6. Parallel coding teams in git worktrees, DAG scheduling, live quality gates, terminal HUD, and MCP skill-hooks.
+- **[Pluribus](https://github.com/caioribeiroclw-pixel/pluribus)** – Open-source CLI that keeps one versioned AI coding context in sync across Claude Code, Cursor, Copilot, OpenClaw, Windsurf, Continue, and Zed.
+- **[aicfg](https://github.com/ipythoning/aicfg)** – AGENTS.md ecosystem CLI: init, validate, and manage project instructions for Claude Code, Cursor, Codex, and 20+ other AI coding tools.
+- **[Sipcode](https://github.com/Anuj7411/sipcode)** – Open source MIT CLI for Anthropic Claude Code. Caps verbose terminal tool output (git, npm, grep, ls, cat, find, tsc), dedups duplicate file reads within a session via a PreToolUse hook, and surfaces per-session cost stats via 15 MCP tools. 1,317 tests, zero network calls.
+- **[Runcap](https://github.com/kirder24-code/ai-agent-manager)** – Free local CLI that estimates, hard-caps, and losslessly compresses the cost of AI coding agents. Delta-encodes re-read files (37.9% proven on a real OpenAI call). MIT, 100% local.
+- **[Vibe Creating](https://github.com/Alisa0808/vibe-creating-skill)** – Open-source bilingual (EN/中文) Claude Agent Skill that rewrites a rough idea or over-specified shot script into a model-ready text-to-video prompt (Seedance 2.0, Kling, Veo, Hailuo, Wan, Vidu). Install via `npx`. Free, MIT.
+- **[RoleCraft](https://github.com/rolecraft-sh/rolecraft)** – Zero-dependency CLI to install AI agent skills as roles & behaviors from any source. Works with 86 coding agents.
+- **[Lifeboat](https://github.com/noah-thing/lifeboat)** – Failover for coding agents: when Claude Code hits a rate limit, ban, or outage, hands the task to Aider, OpenCode, or a local Ollama model, carrying context. Multi-provider and local resilience, not account evasion. Open-source (MIT).
+- **[Lacy Shell](https://lacy.sh)** – ZSH/Bash plugin that auto-detects commands vs natural language and routes to the right place. Shell commands run normally; questions go to your AI agent (Claude Code, Gemini CLI, OpenCode, etc). Sub-millisecond lexical detection, no API calls.
+- **[patina](https://github.com/devswha/patina)** – Multilingual CLI and agent skill that audits and rewrites AI-sounding writing patterns while preserving claims, numbers, polarity, and causation.
+- **[Vox Director](https://github.com/Alisa0808/vox-director)** – Agent skill that turns one topic into a finished Vox-style paper-collage explainer/ad video (script, collage art, motion, voice-over, music, captions); runs on Atlas Cloud + ffmpeg. Works with Claude Code, Codex & any SKILL.md agent.
+- **[OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay)** – Open-source CLI that exposes a restricted local Claude Code, Codex, or automation as a keyed trusted-LAN capability, with JSON output and meaningful exit codes for agent workflows.
+- **[stepback](https://github.com/Archerkattri/stepback)** – Checkpoint and rewind for any AI coding agent (Claude Code, Codex, aider) via isolated git shadow-refs that never touch your real HEAD, index, or branch, with best-effort conversation resume for Claude Code and Codex.
+- **[Atomic Agent](https://atomicagent.io/)** – Open-source CLI and TUI coding assistant (React + ink) that runs open-weight models entirely on your machine. Install with one curl command, no account or API key required. macOS, Linux, and Windows.
+- **[DevSpecs](https://www.devspecs.com/)** – Local-first CLI for AI-assisted brownfield development that indexes existing plans, source, tests, and Git history into model-agnostic context, bounded task slices, and durable checkpoints without calling an LLM.
+- **[Portable Handoff](https://github.com/legoambarish/portable-handoff)** – Local-first CLI that compacts a coding session into a Markdown/JSON capsule for resuming in Claude Code, Codex, or Cursor, with verified Git facts and no API key.
+- **[CommitLore](https://github.com/MongLong0214/commitlore)** – Git-native decision memory that stores constraints and ruled-out alternatives as git trailers and notes, giving coding agents only the guidance still in force for the file being edited.
+- **[fx](https://github.com/vercel-labs/fx)** – Tiny, open-source coding agent harness by Vercel Labs, written in Zig; model-agnostic, Unix-shell-like output, and embeddable in agent sandboxes.
+- **[Loadout](https://github.com/elleryfamilia/loadout)** – Adaptive context engine for AI coding agents. Detects your stack and equips the right context when you launch `load claude`, `load codex`, `load cursor`. Works with Claude, Codex, Cursor, opencode, and Copilot.
+- **[AgentBridge](https://github.com/raysonmeng/agent-bridge)** – Local MIT CLI that keeps Claude Code and Codex as live peers in one session for mid-turn review and quota-boundary handoff.
+- **[Mantyl](https://github.com/jopli11/mantyl-cli)** – CLI that turns a repository and its coding-agent history (Claude Code, Codex, Cursor) into a verified, recipient-checkable project passport for handing over AI-built software. Free, MIT.
+- **[Tuff](https://tuffcli.dev)** – Rust-based CLI for managing coding-agent capabilities (skills, tools, hooks, workflows, MCP servers) from a canonical manifest — install, track provenance, catch config drift, and emit harness-specific output for Claude Code, Codex, and others.
+- **[agent-top](https://agenttop.dev)** – Terminal dashboard (`htop`-style) for monitoring multiple coding-agent sessions at once — status, token usage, cost, and associated processes for Claude Code, Codex, Gemini CLI, and more.
+- **[Webcmd](https://github.com/agentrhq/webcmd)** – Self-learning browser infrastructure CLI for coding agents; learns a site once, then reuses it as deterministic per-site commands.
+- **[lucinate](https://github.com/lucinate-ai/lucinate)** – Terminal-native TUI chat client for AI agents. Connects to OpenClaw gateways, Hermes agent profiles, and any OpenAI-compatible endpoint (Ollama, vLLM, LM Studio, OpenAI). Features streaming responses, markdown rendering, tool call cards, local skills, cron management, and multi-agent support. Cross-platform with Homebrew tap.
+- **[Zero](https://zero.xyz)** – A CLI and Claude Code plugin that gives your AI access to thousands of tools, APIs and services to use and pay for per use, right from a prompt. No config, no API keys; free to start.
+- **[SAGE](https://github.com/PsYcGoD/sage)** – Local-first CLI and MCP wrapper for AI coding agents that records command history locally and returns compressed terminal output.
+- **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** – Records a coding-agent run below the harness — model traffic, shell exit codes, per-turn file changes and MCP calls on one timeline — then replays the recording offline with the network off, or forks it from any checkpoint onto a different model. Works with Claude Code, Codex, opencode, Qwen Code and Cursor. Free, Apache-2.0.
+- **[Bhawna Skills](https://github.com/saketvishal/bhawna-skills)** – Repository-owned decision memory and architecture guardrails that check coding-agent objectives before implementation.
+- **[Archcore](https://github.com/archcore-ai/archcore)** – Git-native context engineering CLI and MCP server for AI coding agents. Keep specs, ADRs, rules, plans, and project knowledge in Git.
+- **[skillet](https://github.com/jnMetaCode/skillet)** – Find, install, version and share SKILL.md skills from a Git-backed registry
+- **[toldya](https://github.com/singhlabsdev/toldya)** – Reads your own messages in local Claude Code history, finds the corrections you keep repeating, and writes them into CLAUDE.md or AGENTS.md after per-rule approval; later runs count each rule before vs since. Zero dependencies, no network calls, MIT. `npx toldya`
+- **[saver-audit](https://github.com/VladUZH/saver-audit)** – Local CLI (`npx saver-audit`) that breaks down Claude Code and Codex token spend with cache-aware pricing and measures what installed token savers such as rtk and headroom would have removed from past sessions. MIT.
+- **[since-cutoff](https://github.com/MohammadHijjawi97/since-cutoff)** – Finds which APIs of your pinned Python dependencies changed after a coding model's training cutoff, tests whether the model gets them wrong, and writes AGENTS.md/CLAUDE.md notes kept only if a type checker verifies them. `uvx since-cutoff scan` needs no API key. MIT.
+- **[bough](https://github.com/nickelsec/bough)** – Reads local Claude Code, Codex CLI and Pi session history and maps it into tasks, showing the prompts, files, commits, keyboard time and token cost behind each piece of work.
+- **[Gobstopper](https://github.com/hraness/gobstopper)** – Open-source local proxy that shrinks long Claude Code and Codex requests by replacing older turns with a mechanical summary and sending the newest turns verbatim.
+- **[Sprag](https://github.com/rootstudioyaml/sprag)** – Open-source CLI that cuts Claude Code and Codex token spend: routes lookups and test runs to cheaper sub-agent models, converts pptx/xlsx/pdf/docx to compact Markdown, and shows cost and savings in the statusline.
+- **[ReevesAgents](https://github.com/mertkayacs/reevesagents)** – Runs Claude Code, Codex, OpenCode, Kimi, Qwen, Aider, and other coding CLIs side by side in tmux, with a TUI, a local Web UI, and an opt-in MCP server so one agent can spawn, read, and steer the others. Free, Apache-2.0.
+- **[nsq](https://github.com/glmn-ai/neurosquad-cli)** – Open-source CLI that runs Claude Code, Codex, OpenCode, or any command side by side in one terminal, with status from each CLI's own hooks (working / needs you / finished), y/a/n answers without opening the agent, a worktree per agent, and per-agent cost. `npx neurosquad`, MIT.
+- **[agentckpt](https://github.com/Blackman99/agentckpt)** – Zero-dependency CLI that checkpoints the working tree (tracked and untracked files) into a private shadow store while coding agents (Codex, Claude Code, Gemini CLI, OpenCode, Cursor) run, and restores any snapshot without touching your git branches or index. Open-source (MIT).
+- **[twinlane](https://github.com/mmelqadi/twinlane)** – Run Claude Code and Codex CLI together on included subscriptions: one usage meter, failover before a limit hits, background workers in git worktrees with receipts.
+- **[Briar](https://github.com/iklobato/briar)** – Local CLI that mines GitHub, Jira and Linear history into agent context and runs coding agents that open draft PRs or fix review threads.
+- **[hcom](https://github.com/aannoo/hcom)** – CLI for real-time messaging, activity observation, and agent spawning across terminals, connecting Claude Code, Codex, Gemini CLI, OpenCode, and other coding agents.
+- **[spillscan](https://github.com/Blackman99/spillscan)** – Finds which secrets already spilled into local AI coding-agent session transcripts (Claude Code / Codex / Cursor) and can scrub them in place with a backup; optional read-only MCP and PreToolUse guard.
+- **[SmartCompact](https://github.com/coffeecoproject/SmartCompact)** – Open-source plugin for Claude Code, Codex and Pi that compacts long agent sessions at a pause after a commit or passing tests instead of near the context limit; in a published 60-task A/B it cut cost 44% with the same test pass rate.
+- **[clausona](https://github.com/larcane97/clausona)** – Switch between Claude Code and Codex accounts and continue the same conversation on the new one, route each run by 5-hour and weekly usage, and manage every account's skills, MCP servers and hooks from one place. Runs as a shell hook, no daemon.
+- **[agy-powerline](https://github.com/wassim-azi/agy-powerline)** – Fast, configurable statusline for the Google Antigravity CLI (`agy`) with live Gemini 5h/7d quota meters, pace markers, context usage, and interactive TUI and [browser](https://agy-powerline.com/configure/) configurators.
+- **[Octomind](https://github.com/muvon/octomind)** – Open-source CLI coding agent that edits files and runs commands through MCP, with multiple model providers and interactive, piped, or daemon sessions.
+- **[acpantenna](https://github.com/fboldo/acpantenna)** – CLI that connects a running Claude Code, Codex or OpenCode session to your phone or browser over a link and QR code, end-to-end encrypted, with permission prompts on the device you moved to.
+- **[ReRead](https://github.com/tecyfyai/reread)** – Shows how much of your Claude Code, Codex and Antigravity usage was re-reading context, when the prompt cache was lost and why, and the costliest sessions, from the session files on your machine. Run with `npx reread-cli`; no account, no network requests, MIT-licensed. Also a status-line cache countdown and a VS Code extension.
+- **[oh-my-agent](https://github.com/first-fluke/oh-my-agent)** – Open-source agent harness that installs into 14 coding-agent runtimes (Claude Code, Codex CLI, Cursor and more), links one `.agents/skills/` folder into each runtime's skill folder, and can run your typecheck, test or lint script in a Stop hook before the agent finishes.
+- **[Nakata](https://github.com/nakata-app/nakata)** – Bring-your-own-key terminal coding agent for OpenRouter, DeepSeek, Anthropic, Ollama or any OpenAI-compatible endpoint; parallel subagents, headless mode for CI, ACP for editors. Free for 3 months, then $10/month.
+- **[tokenbill](https://github.com/emrehangorgec/tokenbill)** – Zero-config CLI that reads local Claude Code logs and explains where a session's cost went (re-sent context, caching, compaction) and what to change.
+- **[Neuron](https://github.com/RAHUL-DevelopeRR/neuron-v2)** – Rust terminal coding agent with permission modes, MCP servers and subagents; free hosted models through Zero-X or your own OpenAI-compatible key. MIT.
+- **[skills-manager](https://github.com/shenysun/skills-manager)** – CLI-first agent skill hub (`npx skills-manager-cli`): one library under `~/.skills-manager`, conversation-driven manager skill, distribute to 70+ agents, tree-SHA updates, resident cost ledger, and `audit security --strict` CI gate.
+- **[ccbrief](https://github.com/shehab267/ccbrief)** – Configurable status line for Claude Code showing context-window usage, tokens, session cost, 5-hour and weekly rate limits and the active model; segments with no data are hidden. Install with `npx ccbrief init`.
+- **[Shelly](https://github.com/RYOITABASHI/Shelly)** – Open-source AI terminal and agent runtime for Android with bash/git/Python/Node bundled (no Termux, no PC), the Codex CLI built in, scheduled on-device agents and local LLMs.
+- **[TokenTracker](https://github.com/xiufengsun/TokenTracker)** – Local-first AI token usage & cost tracker (CLI, dashboard, native apps) for Claude Code, Codex, Cursor, Gemini, Copilot, and more. Privacy-first: token counts only, never prompts. `npx tokentracker-cli` · [tokentracker.cc](https://www.tokentracker.cc/)
+- **[Uno](https://unocode.motiontic.com/)** – Small, fast terminal coding agent written in Rust; works with Anthropic, OpenAI and any OpenAI-compatible model, sandboxes shell commands, caps spending and can undo every file change. Free.
+- **[Alysis Code](https://alysiscode.com)** – Open-source AI agent (CLI + desktop) for coding and everyday computer work that works with any model, including local Ollama/LM Studio.
+- **[WhyCodes](https://github.com/whycorporation/whycodes)** – Open-source (MIT) Rust coding agent for the terminal with a full-screen TUI and one-shot CLI; works with hosted APIs, local models, or any OpenAI-compatible endpoint, and supports MCP, LSP, and `AGENTS.md`.
+- **[AutoMode](https://github.com/mralexivy/AutoMode)** – Free, MIT-licensed Claude Code plugin that picks the model and reasoning effort for every prompt, shows the route on a status bar, and runs big jobs with specialized subagents.
+
+---
+
+## App Builders
+
+- **[Bolt.new](https://bolt.new)** – Build, edit, and deploy full-stack web apps in the browser using natural language with one-click deployment.
+- **[Lovable](https://lovable.dev/)** – Create and deploy web apps from a single prompt in a browser tab.
+- **[Replit](https://replit.com/)** – Cloud IDE with AI agent for building complete applications from descriptions.
+- **[v0.dev](https://v0.dev/)** – Vercel's AI tool for generating UI components and full pages from text prompts.
+- **[Create.xyz](https://create.xyz/)** – AI-powered app creation from natural language.
+- **[Dyad.sh](https://www.dyad.sh/)** – Free, local, open-source AI app builder with any model and IDE integration.
+- **[Builder.ai](https://www.builder.ai/)** – AI-driven custom software development for web and mobile.
+- **[Framer AI](https://framer.com/ai)** – AI-powered website builder with advanced design capabilities.
+- **[Webflow AI](https://webflow.com/ai)** – AI features within Webflow for automated design and content generation.
+- **[FlutterFlow](https://flutterflow.io/)** – Visual app builder for Flutter with AI assistance.
+- **[Capacity](https://capacity.so/)** – Agentic platform using Claude Code to turn ideas into full-stack web apps.
+- **[Mage](https://usemage.ai/)** – Generate full-stack apps from natural language prompts.
+- **[Microsoft Power Apps](https://powerapps.microsoft.com/)** – Enterprise low-code platform with AI-powered app generation.
+- **[Glide](https://www.glideapps.com/)** – No-code app builder with AI features.
+- **[Durable](https://durable.co/)** – AI website and business app builder from simple text prompts.
+- **[10Web](https://10web.io/)** – AI-powered WordPress builder with automated design and optimization.
+- **[Rocket.new](https://rocket.new/)** – AI-powered rapid app development from natural language.
+- **[base44](https://www.base44.com/)** – AI-native software development OS for startups.
+- **[MagicLoops](https://magicloops.dev)** – No-code platform for creating apps in minutes from text instructions.
+- **[Rosebud AI](https://rosebud.ai)** – Vibe coding platform for 3D games and interactive web apps.
+- **[Plandex](https://github.com/plandex-ai/plandex)** – AI tool for planning and generating code from text prompts in the terminal.
+- **[Softr](https://www.softr.io/)** – No-code app builder with AI assistance.
+- **[Databutton](https://databutton.com/)** – AI-powered app development platform.
+- **[Builder.io Fusion](https://www.builder.io/)** – AI-powered visual development platform.
+- **[Bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** – Open-source fork of Bolt.new supporting any LLM (local or cloud) for building full-stack apps in the browser.
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** – Convert screenshots and designs into clean HTML/React/Vue code using AI.
+- **[Forge](https://forge-web.rebaselabs.online)** – BYOK full-stack app creator — use your own API key (Anthropic, OpenAI, Google) with no markup. Multi-stage pipeline generates production-ready Next.js apps from natural language.
+- **[MeterCall](https://metercall.ai)** – Universal API gateway over 10M+ APIs with AI router across 25+ models. Type a sentence in plain English, get a working app. 727+ ready-made modules to fork. Free tier, usage-based pricing.
+- **[VULK](https://vulk.dev)** – AI app builder for full-stack React + PostgreSQL, Flutter mobile, Three.js games, Shopify themes. Firecracker microVM live preview, BYOM with 16+ models, EU-hosted, full code export.
+- **[OTF — Open Template Forest](https://otf-kit.dev)** – Production-ready full-stack kits (Next.js, Expo) pre-wired for Claude Code, Cursor, and Lovable, with tested prompt libraries and AI configs included. MIT SDK + commercial kits.
+- **[RapidNative](https://rapidnative.com/)** – AI-native mobile app builder that turns ideas, sketches, or screenshots into working React Native and Expo apps with production-ready code. Freemium with 20 free credits.
+- **[Vibes DIY](https://vibes.diy)** – [Open-source](https://github.com/VibesDIY/vibes.diy) AI app builder that turns a plain-English description into a real, live web app you can share, remix, and collaborate on.
+- **[KI-App-Bauplan](https://agentic-coder.de/tools/ki-app-bauplan)** – Free guided planner that turns an app idea into a focused MVP scope, risk review, seven-step build plan, and a starter prompt for Cursor, Claude Code, or Codex.
+- **[Cactal](https://cactal.ai)** – Cactal is the website platform for AI agents. Connect Claude Code, Cursor, or anything that speaks MCP, and your agent gets the tools to design, build, host, and operate production websites: source code, CMS, assets, domains, analytics, and publishing.
+- **[Taskade Genesis](https://www.taskade.com/create)** – Prompt-to-app builder for live portals, CRMs, and dashboards with agents and automations.
+- **[IdeaMade](https://ideamade.ai)** – Build and publish web apps from natural language, with editable product blueprints, reviewable change plans, live previews, and version history.
+- **[UnoRouter](https://unorouter.com)** – OpenAI-compatible LLM gateway: one API key for 200+ models across providers, drop-in for coding agents like Claude Code, Cline, Codex and Kilo Code. Point any OpenAI SDK at the base URL and switch models without code changes. Free tier, usage-based pricing.
+- **[host4.ai](https://host4.ai)** – Cloud hosting with AI coding agents (Claude Code, Codex) preinstalled. Describe what you want, AI builds and deploys it live. Free tier with 20 AI builder credits, SSH terminal, and .host4.ai subdomain.
+- **[Mythex](https://mythex.ai/?ref=github)** – Chat-to-app builder with live preview, an editable workspace (code, terminal, database), one-click publish, and a remote MCP server for Claude, Cursor and Codex.
+- **[Vibld](https://vibld.com)** – Open-source AI app builder that generates plain React, TypeScript and Vite apps you can publish to GitHub, Cloudflare or Docker.
+- **[iter0](https://iter0.com)** – AI website builder for tech founders: pick a design, edit it, then export the HTML or open a GitHub pull request, with an MCP server so AI agents can build and edit pages too.
+- **[SPOE](https://spoe.ai)** – Private AI app builder that writes full-stack Next.js, Fastify and Postgres apps, reviews every change with a second model, and signs every export so it runs with docker compose up. Free tier.
+- **[Modaal](https://modaal.dev/)** – Mac app that builds native iOS and Android apps in SwiftUI and Jetpack Compose with the AI coding agent you already pay for, from a spec you approve first. Free plan.
+- **[Cascade](https://appbuilder.sh)** – Open-source, local-first AI app builder: describe an app and an agent plans it, writes the code, builds it in a sandbox and checks it in a browser. Desktop app for Windows, macOS and Linux; local models via Ollama or your own API key.
+- **[WeInc](https://we.inc)** – AI website and web app builder that turns a plain-English description into an editable React + Tailwind site you can publish to your own domain.
+- **[Layerwise](https://layerwise.app)** – Desktop AI app builder with local previews, a built-in database, authentication, and publishing for full-stack web apps.
+- **[Kleap](https://kleap.co/)** – AI website and app builder with hosting, database, auth and domains included; sites can also be built and edited by your own agent through its MCP server and [CLI](https://github.com/kleaphq/cli). Free tier available.
+- **[Uvilno](https://uvilno.com)** – Conversational website and app builder with live previews, project-scoped hosted data and authentication, and optional source export.
+
+---
+
+## UI Generators
+
+- **[v0.dev](https://v0.dev/)** – Vercel's AI tool for generating React UI from text and image prompts.
+- **[Stitch (Google)](https://stitch.withgoogle.com/)** – Google Labs tool using Gemini to generate multi-screen UI designs and front-end code from text or images.
+- **[Magic Patterns](https://www.magicpatterns.com/)** – AI platform for creating reusable UI components.
+- **[Figma AI](https://figma.com/ai)** – Native AI features in Figma for design automation and design-to-code.
+- **[Uizard](https://uizard.io/)** – Convert hand-drawn mockups, screenshots, or text into interactive prototypes.
+- **[Kombai](https://kombai.com/)** – Convert Figma designs into production-ready UI code.
+- **[TeleportHQ](https://teleporthq.io/)** – Generate production-ready code from visual designs.
+- **[Deepsite](https://huggingface.co/spaces/enzostvs/deepsite)** – Build websites with AI on Hugging Face, no code required.
+- **[tldraw Make Real](https://makereal.tldraw.com/)** – Draw UI wireframes on a canvas and convert them to working HTML/CSS with AI.
+- **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** – Open-source framework for building custom AI copilots, chatbots, and text areas into React apps.
+- **[Freepik](https://www.freepik.com/)** – AI design platform with image generation and mockup tools for UI designers.
+- **[StyleSeed](https://github.com/bitjaru/styleseed)** – Design engine that makes Claude Code & Cursor produce professional UI — 33 components, 69 design rules, 8 brand skins, and a named framer-motion motion system.
+- **[Figma Maxxing](https://github.com/thiagoxikota/figma-maxxing)** – Agent skills for real Figma files: Plugin API gotchas, checks before and after every write, comments to verified fixes, and a handoff gate. Installs in Claude Code, Codex, Copilot CLI, and Gemini CLI. MIT.
+- **[Caret](https://github.com/precious112/caret-desktop)** – Open-source desktop AI design tool that lives in your repo: real React in `.caret/`, rendered live on a canvas you can click and edit, and synced into your app by your own coding agent (Claude Code, Codex) over MCP.
+- **[DESIGN:OS](https://github.com/jangtrinh/design-os)** – Free design CLI for Claude Code, Codex and Antigravity: describe the UI in plain words, get production-grade web and SwiftUI output through deterministic taste gates. Source-available (PolyForm Shield), nothing sold.
+- **[Orbital Supply](https://orbital.supply/?utm_source=awesome-ai-coding)** – Website prompts and code to paste into AI coding tools. Free tier available.
+
+---
+## Code Review and Refactoring
+
+- **[AICodeSlopMonitor](https://slopcodemonitor.ai/)** – Detects low-quality and AI-generated code patterns to help developers review and improve codebases.
+- **[SynthScan](https://github.com/marcoramilli/SynthScan)** – Scans codebases for AI-generated code patterns.
+- **[CodeRabbit](https://coderabbit.ai/)** – AI-driven contextual pull request reviews with actionable feedback.
+- **[Sourcery](https://sourcery.ai/)** – AI code reviewer supporting 30+ languages.
+- **[Qodo (CodiumAI)](https://www.qodo.ai/)** – Code review and automated test generation platform.
+- **[Sweep](https://github.com/sweepai/sweep)** – AI agent for automating PR reviews and fixes.
+- **[Greptile](https://greptile.com/code-review-bot)** – AI bot for in-depth code review and PR analysis.
+- **[What The Diff](https://whatthediff.ai/)** – AI tool for summarizing and analyzing code diffs.
+- **[DeepSource](https://deepsource.io/)** – Automated code review with tech debt tracking and security analysis.
+- **[Codacy](https://www.codacy.com/)** – Code quality platform with 30+ language support.
+- **[JetBrains Qodana](https://www.jetbrains.com/qodana/)** – AI-powered static analysis for code quality.
+- **[Semgrep](https://semgrep.dev/)** – Static analysis for finding bugs and security issues.
+- **[CodeQL (GitHub)](https://codeql.github.com/)** – Semantic code analysis for security and quality.
+- **[Snyk (DeepCode)](https://snyk.io/)** – Security-focused code analysis with vulnerability detection.
+- **[Pixee](https://pixee.ai)** – AI bot for security-focused PR reviews and automatic fixes.
+- **[Qodo PR Agent](https://github.com/qodo-ai/pr-agent)** – Open-source AI agent for PR reviews with actionable insights.
+- **[Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/)** – ML-powered code reviews with AWS integration.
+- **[Refact.ai](https://refact.ai/)** – AI-driven refactoring and code optimization.
+- **[Embold](https://embold.io/)** – AI code analysis for quality, maintainability, and tech debt.
+- **[Veracode](https://www.veracode.com/)** – AI-driven application security with static and dynamic analysis.
+- **[PullRequest](https://www.pullrequest.com/)** – Human-AI hybrid code review combining automated analysis with expert reviewers.
+- **[Z.ai Code Review](https://github.com/tarmojussila/zai-code-review)** - AI-powered GitHub Pull Request code review using Z.ai models.
+- **[MiniMax Code Review](https://github.com/tarmojussila/minimax-code-review)** - AI-powered GitHub Pull Request code review using MiniMax models.
+- **[VibeDoctor](https://vibedoctor.io/)** – AI code health scanner for vibe-coded apps. Detects hallucinated imports, phantom packages, and security issues that traditional scanners miss with MCP Support.
+- **[Relay](https://github.com/momobits/Relay/)** – Persistent memory for AI coding workflows. Give AI coding agents memory of what was built, what broke, and what's next.
+- **[MealMacroAI](https://www.mealmacroai.com)** – AI-powered reverse macro calculator that converts target nutrition into precise raw and cooked food portion weights.
+- **[Kodus](https://kodus.io)** – Open-source AI code review tool for pull requests, with repository context, custom rules, Git workflow integration, and BYOK support.
+- **[brooks-lint](https://github.com/hyhmrright/brooks-lint)** – Claude Code plugin that reviews code against twelve classic engineering books, citing each finding to its source and scoring codebase health 0–100.
+- **[Swarm Orchestrator](https://github.com/moonrunnerkc/swarm-orchestrator)** – Audits AI-generated pull requests for eleven cheat patterns (relaxed tests, swallowed errors, fake renames). Advisory by default, opt-in merge gate.
+- **[Git AutoReview](https://gitautoreview.com)** – VS Code extension for pull request review on GitHub, GitLab, and Bitbucket, including self-hosted Server and Data Center. You pick Claude, Gemini, or GPT, then approve each suggestion before it posts. Runs on your own API key, so code goes straight to the provider.
+- **[argot](https://github.com/get-tmonier/argot)** – Guardrail that flags AI-written code foreign to a repo's own patterns (unfamiliar deps and APIs, reinvented functions, misplaced code, layering breaks, tests gamed to pass CI), learned statistically from git history. Runs 100% local as a single Rust binary, no second LLM.
+- **[MergeFix](https://mergefix.com)** – AI website audits (SEO, performance, accessibility, security) delivered as real GitHub pull requests, plus a Migrate & Own flow to move an AI-built app into a repo you fully own.
+- **[UIZZE](https://uizze.com/)** – Stop generic UI before it ships. The free MIT `anti-ui-slop` Skill gives coding agents a product-specific design contract, required loading/empty/error states, and a hard finish gate. The optional authenticated MCP provides `find_ui_references` and `find_ui_materials` over 800,000+ real web and iOS screens.
+- **[OrcaCode Review](https://github.com/Continuum-AI-Corp/orca-code-review)** – GitHub Action for AI pull request review that posts findings inline on the affected lines and blocks merges on critical severity.
+- **[twoperson](https://github.com/ahm3dwasim/twoperson)** – Two-person rule for AI coding agents: a builder agent and a reviewer agent share a file-based review inbox whose schema won't let work be marked shipped without a verdict bound to that exact commit, so the review can't be skipped or applied to the wrong revision. Stop-hook installer, credential scan, worktree-aware; MIT.
+- **[VibeAudit](https://vibeaudit.sh/)** – Pre-launch code audit that reads your whole repo and returns a launch-readiness score plus fixes as paste-ready prompts for your AI editor.
+- **[OpenFiles](https://github.com/devgiordane/openfiles)** – VS Code extension that opens every file an AI agent edits so linters and type checkers run on it, lists the changes for review, and returns the problems to Claude Code, Codex, Copilot, Gemini CLI or Cursor. Free and open source (MIT).
+- **[Conclave AI](https://conclave-ai.dev)** – A council of three models (Claude, GPT-5, Gemini) reviews each PR and, with a PRD attached, flags scope drift a diff-only review misses. Self-hostable (FSL).
+- **[snag](https://gitlab.com/inadram/snag)** – Claude Code plugin that surveys a frontend against seventeen interaction practices — hit slop, damped springs, tabular figures, concentric radii — and reports each as held, missing, unsure or not applicable with a file and a line. Read-only; nothing in it writes unattended.
+- **[Fathohm](https://github.com/fathohm/cli)** – Measures comprehension debt: how much of a codebase no human has recently written, reviewed, or explained. MIT CLI runs offline on local git history; optional read-only GitHub App adds the review record. Published, decomposable scoring.
+- **[DiffDojo](https://diffdojo.com/)** – Practice reviewing AI-generated pull requests with planted bugs; inline comments, approve/request-changes verdict, LLM grading against a canonical review. One free PR per stack, no signup.
+- **[Manifest API Bot](https://manifest.build/api-bot/)** – GitHub App that watches the third-party APIs your code calls and opens a pull request with an LLM-written fix when one of them changes.
+- **[Bubo](https://github.com/mountainowl/bubo)** – Self-hosted open-source AI code reviewer for GitHub and GitLab that posts evidence-backed findings and learns from maintainer outcomes to reduce repository-specific noise.
+- **[Aevral](https://aevral.com)** – GitHub App that reviews pull requests for security flaws (access control, business logic, injection, XSS, SSRF, path traversal, LLM integrations) and posts an advisory Check with inline comments. Free on public repositories up to 500 PR reviews per org per month.
+- **[Peekumi](https://github.com/tee-jagz/peekumi)** – Mobile-first interface for reviewing agent implementations from repository level down to code, with support for Codex and Claude Code.
+- **[Agent Verifier](https://github.com/Aurite-ai/agent-verifier)** – Agent skill and Claude Code plugin that reviews AI agent code for hardcoded secrets, infinite loops, unbounded retries, hallucinated tool calls, and oversized prompts, with a file:line report.
+- **[PR Manager](https://github.com/amitbet/pr-manager)** – Desktop app and CLI that sorts each change in a pull request by how much human review it needs (human, skim, auxiliary, none), walks through the important changes first, shows them on a code map, and fixes found issues on a local branch. Runs on a Claude Code or Codex subscription, or API keys.
+- **[Tently](https://tently.dev)** – AI code reviewer for GitHub pull requests that catches regressions in code outside the diff and changes that break the team's architectural decisions, learned from past PRs, review threads and docs. Ships an [MCP server](https://github.com/tently-team/tently-mcp) so Claude Code, Cursor and Codex check the same decisions while they write.
+- **[HeyDeer](https://heydeer.ai/)** – AI code review for GitHub pull requests with finding verification and fix PRs; free tier available for individuals and teams, including private repositories.
+- **[Pinrail](https://github.com/forgeplane/pinrail)** – Open-source desktop app where coding agents ask for a review before they act, show it in a view made for its content, such as a diff with findings, and get back structured decisions.
+- **[CodeEraser](https://github.com/skymanbp/CodeEraser)** – Refuses the duplicate write before it reaches disk and gates the turn, the commit and the merge against LLM-induced code and document entropy: clone blocks, duplicated docs, dead code, file growth; CLI, GUI, Claude Code plugin with read-only MCP tools; no model in the loop.
+- **[PR Quorum](https://prquorum.com)** – GitHub App that runs a panel of specialist AI reviewers (correctness, security, architecture), drops duplicate and low-confidence findings, and posts one advisory pull request review. Free tier; paid plans can use your own OpenRouter key.
+- **[SmartBench](https://github.com/xianyu-sheng/SmartBench)** – Evidence-constrained code audit CLI where deterministic static analysis owns the facts and LLM hypotheses must be validated before they become findings.
+- **[diffback](https://github.com/homka122/diffback)** – Shows Claude Code's changes in VS Code's diff editor before they are committed; comments on selected code go back to the running session, which fixes them.
+- **[MergeJudge](https://github.com/gauravsharmaGG/mergejudge-runner)** – Open-source AI pull request reviewer (GitHub Action and CLI) that sorts each PR into auto, review or block; deterministic rules decide first and the AI can only raise the lane. Bring your own key.
+- **[consult](https://github.com/neelsatyavolu/consult)** – MIT open source MCP server and CLI that has Claude Code, Codex and Grok review a diff in parallel (`npx -y consult-mcp@latest review`), each returning severity, file:line and a fix, and lets them ask each other for advice through their signed-in CLIs with no API keys.
+- **[DiffNotes](https://github.com/igorkasyanchuk/diffnotes)** – Open-source, self-hostable tool where the coding agent that wrote a pull request leaves per-line notes, screenshots and demos that reviewers see inside the GitHub, GitLab or Bitbucket diff.
+- **[Lians check](https://github.com/ebeirne/lians-check)** – GitHub Action that checks agent-written PRs against the linked GitHub, Linear or Jira ticket and re-checks open PRs when the ticket changes. Runs on your own Anthropic key; source-available, free through Jan 31, 2027.
+
+---
+
+## Testing and QA
+
+- **[Playwright](https://playwright.dev/)** – Microsoft's end-to-end testing framework (often used with AI-powered test generation).
+- **[Qodo](https://www.qodo.ai/)** – AI-powered test generation and code quality assurance.
+- **[DiffBlue Cover](https://www.diffblue.com/)** – AI-generated unit tests for Java applications.
+- **[Testim](https://www.testim.io/)** – AI end-to-end testing with self-healing locators.
+- **[TestRigor](https://testrigor.com/)** – Plain English test automation with self-healing.
+- **[Mabl](https://www.mabl.com/)** – AI-native test automation with auto-healing and visual testing.
+- **[Applitools](https://applitools.com/)** – Visual AI testing platform with cross-browser support.
+- **[Meticulous](https://www.meticulous.ai/)** – AI-driven visual and functional testing.
+- **[Checksum AI](https://checksum.ai)** – AI automated software testing and validation.
+- **[KushoAI](https://kusho.ai/)** – AI-driven API testing.
+- **[Katalon Studio](https://katalon.com/)** – Comprehensive test automation with AI features.
+- **[Testsigma](https://testsigma.com/)** – AI test automation with natural language test creation.
+- **[Launchable](https://launchableinc.com/)** – AI-driven test optimization that predicts which tests to run.
+- **[Autify](https://autify.com/)** – Self-healing test automation with visual regression testing.
+- **[Reflect](https://reflect.run/)** – No-code test automation with AI maintenance.
+- **[Parasoft](https://www.parasoft.com/)** – AI-enhanced testing suite covering static analysis, unit testing, and API testing.
+- **[Rainforest QA](https://www.rainforestqa.com/)** – AI-assisted testing with crowd-sourced manual testing.
+- **[Codeflash](https://www.codeflash.ai/)** – AI-powered Python performance optimization and benchmarking.
+- **[Wopee.io](https://wopee.io)** – Autonomous visual regression testing with Playwright/Cypress integration.
+- **[Prompt Evaluator](https://prompt-evaluator.vercel.app)** – Web-based prompt and workflow QA tool. Evaluate, compare, and audit AI prompt outputs and workflow quality.
+- **[BenchGen](https://benchgen.com)** – AI agent benchmarking and evaluation platform. Score agent runs across tool-call accuracy, goal completion, and skill coverage, then export filtered trajectories for fine-tuning.
+- **[AI Test Case Generator](https://aitestcasegenerator-six.vercel.app/)** – AI-powered test case generator that turns plain-language requirements into structured QA test cases for web and software testing workflows.
+- **[agent-qa](https://github.com/vostride/agent-qa)** – Self-improving QA agent for web and mobile apps with natural-language tests, run memory, UI-change adaptation, and regression detection.
+- **[AIFast Model Check](https://docs.aifast.hk/model-check/)** – Free browser-based diagnostics for public HTTPS OpenAI-compatible API endpoints, including metadata, token handling, dynamic responses, SSE streaming, and tool-call checks.
+- **[SDKProof](https://sdkproof.dev)** – Type-checks how well AI writes your SDK's current API by compiling model output against the real installed package (no LLM judge).
+- **[QualityMax](https://qualitymax.io/)** – Independent AI QA platform that generates, executes, and gates tests across web, mobile, API, performance, and security, with self-healing automation.
+- **[rung](https://github.com/rung-dev/rung)** – Deterministic, AI-free CI gate that checks whether an AI coding agent ran the checks it claims: reads an evidence bundle from the real run and passes or blocks the build. Ships as a GitHub Action, CLI, and agent-agnostic skill.
+- **[squirrelscan](https://squirrelscan.com)** – CLI website audit tool built for coding agents (Claude Code, Cursor). Runs 260+ rules across SEO, performance, security, accessibility and agent experience, and hands the agent exact, source-mapped fixes. Free local audits, GitHub Action, MCP server.
+- **[Supercov](https://github.com/supercorp-ai/supercov)** – Code quality and test coverage for coding agents: Jev scores each source file so the agent knows what to fix first.
+- **[verify-gate](https://github.com/elijahmanlockedin112/verify-gate-hook)** – Claude Code Stop hook that runs your test command whenever the agent tries to finish and sends the failures back until they pass. Skips unchanged trees, caps retries, stdlib Python, MIT.
+- **[Sedum](https://github.com/sedum-dev/sedum)** – Open-source CLI that runs plain-English browser tests on Playwright and writes Markdown failure reports for coding agents to fix.
+- **[VibeFix](https://vibe-fixer.com/)** – Free check: an AI agent tries your live web app like a new user and shows what breaks. On request it reviews your code independently (VibeFix isn't part of any app builder), fixes it and re-checks it live. Remote MCP server at https://vibe-fixer.com/mcp.
+- **[show-your-work](https://github.com/iamumeransari/claude-show-your-work)** – Claude Code plugin that shows screenshots and Playwright recordings of the agent's work inline in the terminal (Ghostty, kitty), with synced side-by-side before/after QA. Free and open source.
+- **[heeded](https://github.com/mmelqadi/heeded)** – Measures AI coding agent rule adherence from Claude Code and Codex CLI session logs: per-rule opportunities, follow rate and 95% interval; a CI threshold flag; offline, no LLM.
+- **[Shrike](https://github.com/SumantxD/shrike)** – Open source debugger for web apps built with AI. Records a broken click from the button to the database and lets your coding agent read it over MCP, propose a fix you approve, and re-run the click to prove it.
+- **[fakegreen](https://github.com/fitzyracing1/fakegreen)** – Deterministic guardrail for AI coding agents (Claude Code, Codex, Gemini CLI) that flags skipped/deleted tests, weakened assertions, and CI forced green in the agent's diff, and blocks the agent until it fixes or explains them.
+- **[OpenFlow](https://github.com/surlymochan/openflow)** – Deterministic TDD-evidence gates for coding agents: red must fail before the fix, green after, bound to a tree snapshot; zero model tokens per check. Free, MIT.
+- **[UI Verify](https://uiverify.ai/)** – Visual testing for coding agents: Claude Code, Cursor or Codex check what a change did to the UI over a CLI and MCP server while they work, and every pull request is checked again in CI. Reuses existing Storybook, Playwright or Vitest tests; an AI judge labels each change as intended, a regression or flake.
+- **[Clousd](https://clousd.com/)** – Cloud Android phones for AI agents and app testing, driven through an MCP server or REST API.
+- **[Kerno](https://kerno.io)** – The AI Backend Runtime QA Engineer. Runs locally inside your coding agent's loop through MCP and tests each change against your running app and its real databases, queues and services.
+- **[Persqo](https://persqo.com)** – AI personas test your web app like real users in a real browser and hand your coding agent ready-to-paste fix prompts for each ranked issue.
+- **[evalship](https://evalship.com/)** – Tests, monitors and optimizes every AI call your product makes: finds flaws in your LLM evals, says on every pull request which evals a change broke and why, and emails you when a call fails in production.
+- **[claim-check](https://github.com/Balance0014/claude-code-claim-check)** – Claude Code Stop hook that sends the agent back when it says work is fixed, deployed or passing but nothing ran after the last edit and the reply cites no proof, such as a commit hash or a test pass count.
+
+---
+
+## Code Search and Navigation
+
+- **[Sourcegraph Cody](https://about.sourcegraph.com/cody)** – AI-powered code search and navigation for large codebases.
+- **[Pieces.app](https://pieces.app/)** – AI-powered code snippet management, search, and sharing.
+- **[16x Prompt](https://prompt.16x.engineer/)** – AI tool for enhanced code context and prompt-based navigation.
+- **[codebase-recon](https://github.com/yujiachen-y/codebase-recon-skill)** – AI coding agent skill that analyzes git history to reveal hotspots, bug magnets, bus factor risks, and development momentum before reading any code.
+- **[Reflex](https://github.com/reflex-search/reflex)** – Local-first full-text code search engine with MCP server and JSON output built for AI coding agents.
+- **[CocoIndex Code](https://github.com/cocoindex-io/cocoindex-code)** – AST/tree-sitter code search MCP server that indexes a codebase and returns compact, relevant snippets to reduce coding-agent context usage.
+- **[Code Context](https://github.com/infino-ai/code-context)** – Local code search for AI coding agents: hybrid keyword + semantic search with SQL relevance ranking over a plain-file index (CLI and MCP server). No accounts, keys, or server.
+- **[Carrick](https://carrick.tools)** – Indexes TypeScript codebases across services and repos so AI coding agents search existing code by intent and see every route, type, and consumer before writing new code.
+- **[Sunstone](https://marketplace.visualstudio.com/items?itemName=SunstoneNorth.sunstone)** – VS Code extension that indexes the folders you open, on your machine, and gives any model in the chat picker, Copilot's included, a tool to search them; your own model servers can join the picker too.
+- **[LayerMap](https://github.com/coffeecoproject/layermap)** – Local MCP server and Claude Code/Codex plugin that gives coding agents a compiler-resolved call graph of TS/JS, Go, Python and Java, tracing a function's callers to HTTP routes in one call.
+- **[Architect](https://github.com/abhiramshaji-cyber/Architect)** – Open-source macOS app that ranks every function in a JS/TS codebase by importance, draws the call tree, and serves an architecture contract to coding agents over MCP.
+- **[symbolhop](https://github.com/stanczykwyatt/symbolhop)** – MCP server and CLI that gives coding agents go-to-definition, find-references, hover and diagnostics from the project's language servers instead of grep.
+
+---
+
+## Documentation
+
+- **[Mintlify](https://mintlify.com/)** – AI-powered documentation platform that auto-generates and maintains docs from code.
+- **[GitBook AI](https://gitbook.com/ai)** – AI-enhanced documentation with intelligent content suggestions.
+- **[README-AI](https://github.com/eli64s/readme-ai)** – AI tool for creating professional README files automatically.
+- **[DocuWriter.ai](https://www.docuwriter.ai/)** – AI documentation generator for codebases and APIs.
+- **[DiagramGPT (Eraser)](https://www.eraser.io/diagramgpt)** – Generate diagrams from code and text descriptions.
+- **[Theneo.io](https://theneo.io/)** – AI-powered API documentation generation.
+- **[Slab](https://slab.com/)** – Team knowledge base with AI search and automated documentation.
+- **[GPTutor](https://gptutor.tools/)** – VS Code extension for LLM-powered code explanations across 120+ languages.
+- **[Repowise](https://github.com/repowise-dev/repowise)** - Open-source codebase intelligence tool that indexes repos into dependency graphs, git history, auto-generated docs, and architectural decisions via 7 MCP tools.
+- **[SwarmVault](https://github.com/swarmclawai/swarmvault)** – Local-first RAG knowledge vault. Compiles raw sources into a durable markdown wiki with a knowledge graph and hybrid SQLite FTS plus embeddings. Built-in MCP server for Claude Code, Codex, and OpenCode.
+- **[ReadMeAI](https://readmeai-six.vercel.app/)** – Generate professional README.md files from any GitHub repo URL with AI. Includes description, installation, usage, and contributing sections. Free, instant.
+- **[LegacyDoc AI](https://www.romanticode.com/legacydoc-ai/)** – VS Code extension that generates AI code audit reports, Markdown docs, JSDoc, and Mermaid architecture maps from existing codebases.
+- **[CodeAlmanac](https://github.com/AlmanacCode/codealmanac)** – Self-updating repo wiki for AI coding agents that tracks project conversations and context locally, lives in your repo, and is free to use.
+- **[PolicyAI](https://policy-ai-alpha.vercel.app)** – AI-powered legal document generator. Creates GDPR & CCPA compliant Privacy Policy, Terms of Service, and Cookie Policy for developer products in 60 seconds. Free tier available.
+- **[notabene](https://github.com/z29k/notabene)** – Self-hosted docs viewer with Google-Docs-style comments and a human-agent review loop that turns comments into source edits.
+- **[GitDiagram](https://gitdiagram.com/)** – Turn any GitHub repository into an interactive architecture diagram (replace "hub" with "diagram" in the URL), with a written explanation, Mermaid/PNG export and a free remote MCP server. Open-source (MIT).
+
+---
+
+## Code Models
+
+- **[Claude (Anthropic)](https://www.anthropic.com/claude)** – Opus and Sonnet models dominate coding benchmarks in 2026; Claude Code is built on them.
+- **[GPT-5 (OpenAI)](https://openai.com/)** – Powers GitHub Copilot, Codex CLI, and ChatGPT coding workflows.
+- **[Gemini (Google)](https://deepmind.google/technologies/gemini/)** – Powers Google Code Assist, Gemini CLI, and Antigravity with 1M token context.
+- **[DeepSeek Coder](https://github.com/deepseek-ai/DeepSeek-Coder-V2)** – High-performance open-source coding model; popular for cost-efficient AI coding via API.
+- **[Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder)** – Alibaba's open-source coding model, leading choice for self-hosted/local deployment in 2026.
+- **[Code Llama](https://github.com/facebookresearch/codellama)** – Meta's open-source LLM optimized for code generation and completion.
+- **[StarCoder 2](https://huggingface.co/bigcode/starcoder2-15b)** – Open-source LLM for code generation by BigCode, supporting 600+ languages.
+- **[Codestral](https://mistral.ai/news/codestral)** – Mistral's open-weight model designed for code generation.
+- **[Phi-4 (Microsoft)](https://www.microsoft.com/en-us/research/blog/phi-4-technical-report/)** – Microsoft's lightweight, efficient model family with strong coding performance.
+- **[outsourcerer](https://github.com/alexgreensh/outsourcerer)** – Delegates coding grunt-work to other harnesses and models from the terminal while your main session stays the orchestrator.
+- **[aivs.tv](https://aivs.tv/best-ai-for-coding/)** – Compare coding models and harnesses on identical prompts: 370+ side-by-side outputs collected from X, with reported cost and time.
+
+---
+
+## Developer Productivity Tools
+
+- **[Agent Cost Guardrails](https://github.com/sapph1re/agent-cost-guardrails)** – Framework-native budget limits and circuit breakers for AI agent frameworks (CrewAI, AutoGen, LangGraph). Hard token caps, cost alerts, and spend tracking with hooks that integrate directly into agent execution loops. Open-source, available on [PyPI](https://pypi.org/project/agent-cost-guardrails/) and [npm](https://npmjs.com/package/agent-cost-guardrails).
+- **[Raycast AI](https://raycast.com/ai)** – AI-powered productivity launcher with coding capabilities and workflow automation.
+- **[Warp AI](https://warp.dev/ai)** – AI-enhanced terminal with intelligent command suggestions.
+- **[Context7](https://context7.com/)** – MCP server providing up-to-date library documentation to LLMs and AI editors.
+- **[Task Master](https://github.com/eyaltoledano/claude-task-master)** – AI-driven task management for development with Claude, designed for Cursor.
+- **[SpecStory](https://specstory.com/)** – Cursor/VS Code/Claude Code extension for summarizing and sharing AI chat context.
+- **[Git AI](https://github.com/acunniffe/git-ai)** – Git extension that tracks AI-generated code and the prompts behind each line.
+- **[Perplexity Pro](https://perplexity.ai/pro)** – AI search engine with real-time web access for coding solutions.
+- **[CodeCosts](https://codecosts.pages.dev/)** – Compare pricing across AI coding tools with an interactive calculator.
+- **[Supercode.sh](https://supercode.sh/)** – Cursor extension adding Architect Mode, voice input, and prompt enhancement.
+- **[toprank](https://github.com/nowork-studio/toprank)** – Open-source (MIT) Claude Code plugin with 9 SEO and Google Ads skills. Connects Google Search Console, PageSpeed Insights, and the Google Ads API to audit traffic, ship meta tag and schema markup fixes, and manage ad campaigns directly from Claude Code.
+- **[Google Drive – Memyard](https://github.com/zagmoai/public-google-drive)** – Agent skill that lets AI coding agents create and edit Google Docs and Sheets without sign-in. Documents hosted on Memyard with shareable links.
+- **[MemClaw](https://memclaw.me)** – Persistent project memory for AI coding agents (MCP-compatible). Creates isolated memory workspaces per project with a web dashboard to review and manage context. Free and open source.
+- **[git-parsec](https://github.com/erishforG/git-parsec)** – Git worktree lifecycle manager that gives each AI agent an isolated workspace tied to issue tickets (Jira, GitHub Issues, GitLab), avoiding index.lock conflicts in parallel workflows.
+- **[AI Dev Jobs](https://aidevboard.com)** – AI job board aggregating 6,000+ positions from 340+ companies like OpenAI, Anthropic, and Google DeepMind. Free API and MCP server for AI-powered job search.
+- **[CronAI](https://cronai-nu.vercel.app/)** – Convert plain English schedule descriptions to cron expressions with AI. Supports standard and extended formats. Free, no signup.
+- **[JSONFix](https://jsonfix-lake.vercel.app/)** – AI-powered JSON fixer that instantly repairs broken JSON with missing quotes, trailing commas, or unescaped characters. Free, no signup.
+- **[Burnd](https://github.com/garvitsurana/burnd)** – Local-first CLI (`npx getburnd`) that parses your `.claude/projects/*.jsonl` session files to find cost leaks in Claude Code usage — retry storms, tool overuse, repeated reads, long bash output, tired-coding hours. Runs entirely offline. Free core + optional Pro detectors.
+
+- **[Qovery Deploy Skill](https://github.com/Qovery/qovery-skills)** – AI Agent Skill that deploys any application to Kubernetes from Claude Code, Cursor, OpenCode, and 30+ AI coding tools. Analyzes codebases, creates Dockerfiles for 12+ frameworks, provisions databases, deploys via CLI+API or Terraform, and auto-fixes deployment failures. Install: `curl -fsSL https://skill.qovery.com/install.sh | bash`.
+
+- **[Recast](https://recast-indol.vercel.app/)** – Client-side browser tool that turns messy LLM output into valid JSON and explains every change. Nothing uploaded.
+- **[RegexAI](https://regexai-six.vercel.app/)** – Describe patterns in plain English and get working regex with explanations. Supports multiple flavors. Free, no signup.
+- **[AI Context Linter](https://github.com/MrDwarf7/ai-context-linter)** – GitHub Action that lints AI context files (CLAUDE.md, AGENTS.md, etc.) for prompt injection vulnerabilities and quality issues.
+- **[AI Context Templates](https://github.com/MrDwarf7/ai-context-templates)** – Production-ready AI agent context templates for configuring coding assistants like Claude Code, Cursor, and others.
+- **[Murmure — AI DevTools Community Sentiment Tracker](https://github.com/murmurecc/ai-devtools-sentiment)** – Weekly sentiment analysis of AI developer tools (Cursor, Windsurf, Linear, Devin, etc.) based on Reddit, HN, GitHub Issues, and Discord.
+- **[ChatCrystal](https://github.com/ZengLiangYi/ChatCrystal)** – Local-first memory loop for AI coding conversations, with MCP search, task recall, writeback, and installable Agent Skills.
+- **[CostGoat](https://costgoat.com)** – Privacy-first menubar app tracking AI agent quotas (Claude Code, Codex, Kimi, Z.ai), LLM API costs (OpenAI, OpenRouter, Anthropic, ElevenLabs), cloud spend, and SaaS subscriptions in real-time.
+- **[unslop](https://github.com/MohamedAbdallah-14/unslop)** – CLI and MCP server (Claude Code plugin) that removes named AI writing patterns from text. Targets tricolons, em-dash overuse, hedging stacks, sycophancy openers, and overused vocabulary. Lint-only audit mode and five intensity levels. Useful for cleaning commit messages, PR descriptions, and documentation drafts.
+- **[ControlKeel](https://github.com/aryaminus/controlkeel)** – Governance/control plane for AI coding agents. Validates risky actions, records findings, gates approvals, tracks budgets/providers, and creates proof bundles across Claude Code, Codex CLI, OpenCode, Cursor, and other hosts.
+- **[cc-cost](https://github.com/lob-labs/cc-cost)** – Single-file Python CLI that parses Claude Code transcript JSONL and reports cost, prompt-cache hit rate, tool-call distribution, top expensive turns, and actionable optimization recommendations (`--diagnose`).
+- **[dltHub AI Workbench](https://github.com/dlt-hub/dlthub-ai-workbench)** – Toolkit that gives Claude Code, Cursor, and Codex structured, step-by-step workflows and an MCP server for building, exploring, and deploying data pipelines with dlt.
+- **[llm-prices](https://github.com/benbencodes/llm-prices)** – Zero-dependency Python CLI and library for comparing LLM API pricing across 21 providers (123+ models). Query pricing, calculate costs, find the cheapest option for a given token budget. Install: `pip install git+https://github.com/benbencodes/llm-prices.git` or `brew install benbencodes/tap/llm-prices`. Open-source, MIT license.
+- **[Mneme HQ](https://github.com/TheoV823/mneme)** – Enforce architectural decisions on every AI coding assistant call. Deterministic retrieval and pre-flight governance for Claude Code, Cursor, and agent workflows.
+- **[Agent Ops Prompt Generator](https://github.com/mysubb01/agent-ops-prompt-generator)** – Free local-first browser and CLI tool that generates Korean prompts for AI coding agents during incident triage, deploy smoke checks, code review, data correction, and handoff work.
+- **[ccg-router](https://github.com/XZXY-AI/ccg-router)** – Local Go daemon proxying Claude Code (Anthropic-compatible `/v1/messages`) and Codex CLI (OpenAI-compatible `/v1/chat/completions`) through one port, with a per-request SQLite usage ledger and three routing strategies (prefer-cheaper, prefer-capable, round-robin). No hosted control plane; provider keys stay local. Apache-2.0.
+- **[Speechara](https://speechara.ai/)** – Real-time translation, live captions, transcripts, and AI meeting notes for developer interviews, standups, and multilingual team calls.
+- **[MartinLoop](https://github.com/Keesan12/martin-loop)** – Open-source control layer for AI coding agents. Adds hard budget caps, verifier gates, explicit stop reasons, and run receipts around Claude Code, Codex, and Ralph-style autonomous coding workflows.
+- **[Unship](https://github.com/mbenhard/unship)** – Open-source local picker for comparing AI agent-made UI variants in a running app, then keeping one and cleaning up the rest.
+- **[AgentDiff](https://github.com/codeprakhar25/agentdiff)** – Git-native provenance for AI-written code: records which AI agent (Claude Code, Cursor, Copilot, Codex, Windsurf, OpenCode, Gemini) wrote which line, reconciles it against each commit, and signs every attribution with ed25519. Records live in your own git refs; no server. Rust, MIT/Apache-2.0.
+- **[Remio](https://remio.ai/)** – Local-first AI memory and knowledge base desktop app with a CLI/agent skill interface. Indexes files, webpages, recordings, emails, messages, images, and notes into local vectors so coding agents can retrieve focused personal/project context instead of repeatedly grepping folders or loading whole documents into prompts. CLI/skill workflows require the Remio desktop client.
+- **[inplan](https://github.com/melly-lgtm/inplan)** – A Markdown editor for human and coding-agent collaboration on planning, design, and spec documents. Installs as an agent skill for Claude Code, Codex, and Pi: the agent drafts the plan and poses open questions as inline comments, then you review, answer, and edit in a turn-based loop while it revises, until the doc is done. Ships a desktop editor and a CLI, with the agent's proposed edits shown as reviewable diffs. Free and open source (AGPL-3.0). Install: `npm install -g inplan`.
+- **[Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory)** – Framework-agnostic, local-first memory lifecycle for AI coding agents with Rust CLI, SQLite/FTS recall, forgetting, audit, consolidation, and TUI.
+- **[Brigade](https://github.com/escoffier-labs/brigade)** – Local-first CLI (MIT) that keeps one reviewed source of the MCP servers, tools, skills, and memory your AI coding agents share, synced into each tool's native config (Claude Code, Codex, Cursor, VS Code, OpenCode, and more) with a review gate before every write and a rollback receipt. No daemon, no lock-in.
+- **[Data Olympus](https://github.com/knaisoma/data-olympus)** – Governed project knowledge for AI coding agents via MCP. Agents can propose learnings, humans promote accepted guidance, and retrieval filters out expired or superseded rules before they enter future coding sessions.
+- **[Enola](https://enola.tech)** – Enola. analyzes code repository once and exposes a compact, structured graph of its architecture through the Model Context Protocol — so any MCP-capable agent gets necessary context.
+- **[Project Tiny Context Harness](https://github.com/Seven128/project-tiny-context-harness)** – Minimal repo-native project memory for AI coding agents. Installs `AGENTS.md`, `project_context/**`, role Skills, and a `validate-context` gate so fresh Codex, Claude Code, Cursor, Gemini CLI, OpenCode, and similar sessions can recover project intent, boundaries, and validation paths.
+- **[Source Trace](https://srctrace.com)** – AI git blame for every commit: see which lines came from AI and which model wrote them. Compare models by amount of code written pre-commit, committed, and survived in codebase. Teams can use dashboard to track adoption and AI metrics. Zero-config VS Code extension, no git or agent hooks required.
+- **[AI Money Stack](https://duct-tape2.github.io/ai-money-stack/)** – Local-first AI workflow toolkit for PR review checklists, launch planning, and revenue idea scanning.
+- **[ditto](https://github.com/ohad6k/ditto)** – Mines your local Claude Code, Codex, and Cursor session logs into a you.md working profile your agent loads before every task: what you reject, what "done" means to you, when you ask for proof, how you actually work. Local-first, MIT, one command: `npx skills add ohad6k/ditto`.
+- **[Composio](https://composio.dev)** – Connects AI coding agents to 1,000+ apps with managed authentication, MCP support, and tool execution for developer workflows.
+- **[Claude Pet](https://github.com/nikhilagrima/claude-pet)** – Desktop companion for Claude Code that reacts to hook events with animated emotions, maintains a local graph memory per project, promotes repeated patterns into skill files, and monitors GitHub repository activity. macOS/Windows/Linux, 100% local, MIT.
+- **[Codex Skin Pack Installer](https://github.com/ChannelerH/codex-skin-packs/tree/main/codex-skin-pack-installer)** – Codex skill that downloads verified public-safe Codex skin packs from GitHub releases, validates `theme.json`/`background.png`, stages packs locally, and keeps restore guidance in the workflow.
+- **[PinkCode](https://github.com/3xian/PinkCode)** – Open-source desktop GUI for Grok Build with parallel agent sessions, live activity timelines, usage visualizations, file-change review, and permission controls over ACP.
+- **[Wolfpack](https://github.com/almogdepaz/wolfpack)** – Self-hosted browser and mobile control center for persistent AI coding-agent and shell sessions across machines, with direct private access over Tailscale.
+- **[THROUGHLINE](https://github.com/hellomyoh/throughline)** – Spec-driven development framework for AI coding agents. Markdown and git only, with no runtime or CLI. Personas review each spec before code, and an append-only single source of truth keeps decisions consistent across sessions. Works with Claude Code, Codex, and Cursor. English and Korean, MIT.
+- **[Tintpad](https://tintpad.com/)** – Open-source macOS menu-bar launcher for AI coding agents: global hotkey, fuzzy repo search, then your terminal opens at that repo with Claude Code, Codex, or Gemini CLI running.
+- **[commitpreflight](https://github.com/swarmbrr/commitpreflight)** – Pre-flight lint for commit messages written by AI coding agents. Rules are seeded by 10,976 real agent CLI failures, not style opinions. Available on [PyPI](https://pypi.org/project/commitpreflight/) with pre-commit hook support.
+- **[ClawMetry](https://github.com/vivekchand/clawmetry)** – Self-hosted dashboard that reads the session logs coding agents already write on disk (Claude Code, Codex, Cursor, Aider, Goose, OpenClaw and others), so there is no SDK and nothing sits in the request path. Shows sessions, tool calls, tokens and cache-aware cost per session and per model. MIT core, `pip install clawmetry`. [Website](https://clawmetry.com)
+- **[TerminalBlog](https://terminalblog.com/)** – SEO blog about AI coding agents, fully built and operated by AI agents (Hermes, Claude Code, Codex).
+- **[agent-trace](https://github.com/liangzhengtao/agent-trace)** – Trace your AI coding agent — costs, tokens, tool health, session timeline. Auto-detects Kimi Code, Claude Code, Codex, OpenCode. Runs locally, no API keys needed.
+- **[AIPM](https://www.aipm-registry.com/)** – Open-source registry and CLI for publishing, versioning, and installing reusable AI skills across Codex, Claude Code, and Cursor.
+- **[Usage HUD](https://hud.thaliabloom.com)** – Native macOS menu-bar meter for Claude Code, Codex, Gemini, Grok, and Ollama usage windows. Confidence label on every number. Local only. $9. If CodexBar already works for you, you do not need this.
+- **[agentwatch](https://github.com/mishanefedov/agentwatch)** – Local-only TUI + web dashboard observing every AI coding agent on your machine (Claude Code, Codex, Gemini CLI, Cursor, Hermes, OpenClaw) on one unified timeline. Per-turn token + cost accounting with cache-hit weighting, MAD z-score anomaly detection, context compaction visualizer, hybrid semantic search, MCP server mode, and OpenTelemetry exporter. No cloud, no telemetry. Free and MIT.
+- **[AgentPlane](https://github.com/basilisk-labs/agentplane)** – Local-first, Git-native CLI harness for repo-local coding-agent work, recording task state, accepted plans, verification evidence, and finish records inside the repository.
+- **[agenttrace](https://github.com/luoyuctl/agenttrace)** – Local-first TUI and report generator for AI coding-agent session logs. Tracks cost, tokens, latency, tool failures, health, diffs, and CI gates across Claude Code, Codex CLI, Gemini CLI, Qwen Code, Cline, Cursor exports, Aider, OpenCode/OpenClaw, Kimi CLI, and generic JSON/JSONL traces.
+- **[OpenQuack](https://github.com/larryxiao/openquack)** – Local voice dictation menu bar app for macOS that pairs with Cursor, Claude Code, Codex, and Aider; long contextual prompts via WhisperKit on Apple Silicon, pastes at the cursor, all on-device.
+- **[Blueprint](https://marketplace.visualstudio.com/items?itemName=Imbue.imbue-blueprint)** – Open-source planning copilot for coding agents. Asks multiple-choice questions about your task, then generates a markdown plan any coding agent can execute. Extensions for VS Code, Cursor, and Windsurf.
+- **[codex-profiles](https://github.com/Ducksss/codex-profiles)** – Open-source helper for switching OpenAI Codex CLI and Desktop accounts with isolated `CODEX_HOME` profiles instead of copying auth files.
+- **[Context-OS](https://github.com/sravan27/context-os)** – Scans repos for coding-agent context bloat and ships a GitHub Action gate for Claude Code, Codex, Cursor, and OpenCode.
+- **[Vibe Coding Profiler](https://bolokonon.vercel.app)** – Profiles git history to show how a developer's coding rhythm, commit habits, and craftsmanship patterns carry over or change when working with AI coding agents.
+- **[Harness for Codex](https://github.com/ganimjeong/Harness-for-codex)** – Language-agnostic repository template for consistent Codex and AI-assisted development workflows with AGENTS.md, standard scripts, CI, hooks, and docs.
+- **[scrnify](https://scrnify.com)** – Capture API for AI agents and developer automation to generate screenshots and videos of web pages.
+- **[Whisper by Remskill](https://whisper.remskill.com)** – Local-first desktop voice-to-text (Windows & macOS) for hands-free dictation of code comments, commit messages, docs, and AI prompts into any editor; runs fully offline with local Whisper/Parakeet models or via OpenAI cloud. Free local tier.
+- **[harness-starter-kit](https://github.com/baskduf/harness-starter-kit)** – Prompt-first starter kit for turning repeated coding-agent instructions into durable repo rules, knowledge stores, feedback loops, and drift checks.
+- **[agents-md-cookbook](https://github.com/Taiizor/agents-md-cookbook)** – Tool-agnostic AGENTS.md authoring kit (MIT) with 15 stack-specific templates, a tool compatibility matrix, an npm CLI + GitHub Action linter (`agents-md-lint`), and a migrator (`agents-md-migrate`) that converts `.cursorrules`, `CLAUDE.md`, Copilot, Windsurf, Cline, and Aider configs to AGENTS.md. Works across Cursor, Claude Code, Copilot, and 30+ AI coding tools. Free and open source.
+- **[claudescope](https://fervon.dev/claudescope/)** – Local-first CLI (`npx claudescope`) that indexes your local Claude Code session transcripts (`.claude/projects/*.jsonl`) into a searchable dashboard with full-text search across your coding-session history. Zero dependencies, zero network calls — fully private and offline. MIT licensed.
+- **[Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html)** – Free prompt generator that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
+- **[app-it](https://github.com/Christian-Katzmann/app-it)** – Open-source (MIT) Claude Code / Codex skill that turns a local web project into an installed, Dock-launchable macOS desktop app — native WebKit window, app icon, and clean start/stop — without Electron or Tauri. Local-only, no telemetry; Windows in beta.
+- **[NotFair](https://github.com/nowork-studio/NotFair)** – Open-source (MIT) Claude Code skills for SEO, GEO, Google Ads, and Meta Ads (~2.9k stars). Connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP to run audits, manage campaigns, optimize meta tags and schema markup, and research keywords directly from Claude Code.
+- **[EGC](https://github.com/Fmarzochi/EGC)** – Persistent cross-session memory MCP server for 13+ AI coding tools. SQLite-backed state survives context resets and keeps Claude Code, Cursor, Gemini CLI, Codex, Windsurf, Amp, Kiro, VS Code Copilot, Trae, and more in sync. Install: `npm install -g @egchq/egc`.
+- **[agent-runbook](https://github.com/KnoxOps/agent-runbook)** – Python CLI that compiles contract-based YAML runbooks into SKILL.md files for Claude Code and Codex agents. Define multi-step agent workflows with loops, branching, parallelism, and file-based state passing — write the runbook once, generate executable SKILL.md with one command. `pip install git+https://github.com/KnoxOps/agent-runbook.git`
+- **[Vestige](https://github.com/samvallad33/vestige)** – Local-first MCP memory server for AI coding agents, with SQLite storage, retention-aware retrieval, provenance/correction tools, and a 3D dashboard.
+- **[Codex Fixes](https://github.com/zhuhaow/codex-fixes)** – Checks your local Codex install for known issues and runs the matching community-maintained fix scripts.
+- **[Receipt](https://github.com/noah-thing/receipt)** – Posts an itemized AI cost comment (tokens and dollars by model) on every pull request; tracks Claude Code, Cursor, Copilot, Aider, and any OpenAI/Anthropic API. Local ledger, never stores prompts. Open-source (MIT).
+- **[Vox](https://github.com/aasis21/vox)** – Hands-free voice extension for the GitHub Copilot CLI; speak your turn and hear the reply streamed aloud. Pure JS, no build, one-line install; also runs in the Copilot app. Open source (MIT).
+- **[CloudByte PMS](https://getpms.cloudbyte.ai)** – Team analytics for AI coding assistants: tracks Claude Code, GitHub Copilot, and Cursor sessions, prompts, and commits to surface adoption, ROI, ghost seats, and prompt governance in one dashboard with role-based access.
+- **[harmony-next.skills](https://github.com/linhay/harmony-next.skills)** – Open-source HarmonyOS NEXT workflow toolkit for AI coding agents. Provides offline ArkTS/ArkUI/API references, DevEco/HDC/Emulator automation, UI/UX audit helpers, and smoke-test templates for mobile app development.
+- **[GoodMemory](https://github.com/hjqcan/GoodMemory)** – Local-first, auditable memory for Codex and Claude Code, with durable SQLite, scoped recall hooks, read-only MCP access, and opt-in governed writeback. Free and open source.
+- **[Claudexor](https://github.com/razzant/claudexor)** – Local-first control plane for Claude Code, Codex, Cursor, and OpenCode with quota-aware profiles, cross-model review, and best-of-N runs.
+- **[imlazy](https://github.com/hnikoloski/imlazy)** – Tier-aware task router and skill-based workflow system for Claude Code that classifies tasks into Quick/Standard/Heavy/Vault/Learn tiers and routes them through the appropriate execution workflow with adaptive disambiguation.
+- **[agmem](https://github.com/albedoweb/agmem)** – Local-first project memory CLI for coding agents (Claude Code, Codex, Cursor, Aider). Indexes repo structure into greppable JSONL, retrieves task-scoped context via BM25 with optional local embeddings, and tracks staleness via source hashes. No LLM calls, no server. Apache-2.0.
+- **[Codex How To](https://github.com/Phelan164/codex-howto)** – Engineering-first OpenAI Codex guide with nine installable skills, measurable development and review loops, orchestration patterns, and a review-first Living Wiki.
+- **[Boost](https://boost.jfrog.com/)** – Free CLI that reduces terminal and CI output before it reaches Cursor, Claude Code, and Codex, typically saving 60–90% of log tokens with reversible retrieval and local performance reports.
+- **[harness-ai-kit](https://github.com/seed-forge/harness-ai-kit)** – Package manager for AI agent assets (skills/CLIs/MCPs/loops). Install, lock, and sync skills across Codex, Claude Code, Cursor, Kiro with SAT-based dependency resolution and SHA-256 lockfile. 23 curated enterprise skills included. Available on [PyPI](https://pypi.org/project/harness-ai-kit/).
+- **[Monitor Token](https://github.com/a596480606/monitor_token)** – Open-source Windows/macOS desktop widget for local Codex token usage, daily/weekly/monthly breakdowns, and weekly quota reset tracking.
+- **[NestMux](https://nestmux.com)** – Desktop workspace for Windows, macOS and Linux that runs Claude Code, Codex, Gemini, Copilot and OpenCode side by side in a resizable pane grid, each pane with its own account and isolated HOME. Includes git worktrees, an integrated diff viewer, MCP server management and shared team workspaces. Free tier available.
+- **[Mydentify AI Model Cost Calculator](https://mydentify.com/tools/ai-model-cost-calculator)** – Local-first, no-signup calculator for estimating monthly AI model API costs from token usage, cached input, requests, and fixed per-request charges.
+- **[LWC](https://github.com/JanYork/llm-wiki-cli)** – Open-source proactive project-memory CLI for AI coding agents, with source-grounded durable knowledge, SQLite/FTS5 retrieval, atomic updates, optional document/code graphs, and MCP/Skill/Hook integration across supported tools.
+- **[MCP Lens](https://github.com/labmimors/dsh-mcp-lens)** – Open-source DeepSeek Harness plugin and GitHub Action for progressive MCP tool discovery; its published 1,000-tool benchmark reduces the model-facing MCP interface from 1,000 schemas to 2 and the component schema JSON from 647,962B to 1,114B.
+- **[DSH Studio](https://github.com/Moresyl/dsh-studio)** – Open-source cross-platform desktop host for installing, running, health-checking, and supervising DeepSeek Harness locally.
+- **[Forgeo](https://github.com/lucaGazzola/forgeo)** – Scheduled, agent-driven software factory that works a JSON backlog with your coding agent (Claude Code, Codex, opencode), committing each result to the default branch and running a refactoring pass when the backlog is empty.
+- **[Vibe-Coding Prompt Template](https://github.com/KhazP/vibe-coding-prompt-template)** – Five-step planning workflow (deep research, PRD, tech design, `AGENTS.md`, build) with an `npx vibeworkflow` CLI that interviews you and writes the docs your coding agent reads. Free and MIT licensed.
+- **[sol-simplify](https://github.com/MongLong0214/sol-simplify)** – One-markdown-file skill for Claude Code and Codex that stops agents from inventing bureaucracy (approval gates, governance docs, validators for the validators) around their own work. Measured on gpt-5.6-sol: ceremony scored 0 in 10 of 11 benchmark skill runs vs 4-6 for baselines, every score cited to a line in committed raw output.
+- **[PM Skills](https://github.com/mohitagw15856/pm-claude-skills)** – Open-source (MIT) library of 1,153 Agent Skills as plain-markdown `SKILL.md` files, covering PRDs, incident postmortems, code review checklists, RFCs, and 35 professions. Installs into Claude Code, Cursor, Windsurf, Zed and 10 more tools with one command, ships an MCP server, and runs free in a browser playground. Install: `npx pm-claude-skills add`.
+- **[Agent Operator Score](https://github.com/MongLong0214/agent-operator-score)** – Local-first CLI (`aos`) that scores how well you operate Claude Code, Codex, and Grok CLI from your own session transcripts, plus a controlled-run assessment suite with a hidden verifier. No model calls in review mode; nothing leaves your disk.
+- **[Agent Coordinator](https://github.com/alanhoff/agent-coordinator)** – Per-user Codex skill that represents dependency-aware tasks as bounded work graphs, records revisioned local state, reconciles uncertain work before retry, reruns planned checks at closeout, and can use optional specialists or run inline. Free and open source (MIT).
+- **[Meanwhile](https://github.com/heenatrivedi321-max/deadtime)** – Claude Code/Cursor/Copilot/VS Code status line that shows a genuinely useful tip, or an occasional disclosed sponsor line, while the agent works. Sponsor earnings are split 50/50 with the developer, paid via PayPal. Never reads code or prompts. Free and open source.
+- **[AllPet](https://github.com/haverainlilili/all-pet)** – Open-source (MIT) desktop pet that watches your AI coding agents (Codex, Claude Code / Desktop, DeepSeek Harness, Grok) from local session logs — no accounts or API keys — and wakes the original session on click. Cross-platform `status`/`watch` CLI.
+- **[ManualMode](https://manualmode.dev)** – Skill and MCP workflow for hands-on coding practice alongside AI agents: suggest small repository tasks, reserve one for the developer, and track practice progress. Includes a free tier.
+- **[trailhead](https://github.com/ToRvaLDz/trailhead)** – Runs a large project as a map of decision tickets on GitHub Issues, resolved one at a time via a discuss→plan→execute→verify engine with atomic commits, an optional cross-AI plan review, and throwaway UI prototypes. Works with Claude Code and Codex; needs only an authenticated gh CLI. Open source, free.
+- **[Wave](https://wave.davidsling.in)** – Lets AI coding agents owned by different people talk to each other. Create a channel, paste one prompt into each agent (Claude Code, Codex CLI, Cursor, or anything with a shell), and the agents exchange messages while their humans watch and steer from the browser. No install, no account. Open source (MIT) and self-hostable.
+- **[myc](https://github.com/aistastudio/myc)** – Open-source local memory and task queue for AI coding agents (Claude Code, Codex, opencode, Kimi): decisions survive context compaction, memory is anchored to code and follows it, everything stays in one SQLite file with no API key.
+- **[sidegrade](https://github.com/iotexproject/sidegrade)** – Reads your local coding-agent usage (Claude Code, Codex, Hermes, OpenCode) and shows which model gives you the same intelligence for less — scoring every model on the Artificial Analysis Intelligence Index and re-pricing your own token mix. 100% local, no account, MIT-licensed. Run with `npx sidegrade`; on [npm](https://www.npmjs.com/package/sidegrade).
+- **[MySpec](https://myspec.dev)** – Interactive AI architect that interviews developers and generates structured 4-file spec bundles with MCP server integration.
+- **[Cursor BYOK (bargino fork)](https://github.com/bargino/cursor-byok)** – Open-source desktop gateway for connecting OpenAI- and Anthropic-compatible model APIs to Cursor, with account pools and usage tracking.
+- **[Tack](https://gettack.dev)** – Annotate any rendered web page and export the notes as Markdown your AI coding agent can resolve; rewrite an element's text in place so the export carries an exact replacement instead of a description. One script tag, works on any framework, 11KB, no dependencies, MIT.
+- **[Orchestrator](https://github.com/zachealy1/orchestrator)** – Free, open-source Mac workspace for Codex conversations, Kanban tasks, subagent inspection and local code review. Uses your own supported Codex account.
+- **[teebe](https://teebe.io)** – Native macOS GUI for git worktrees that shows every worktree in one window with live file change badges and inline diffs, for running Claude Code, Codex, and Cursor agents in parallel. Open source (GPL-3.0) and free.
+- **[cogload](https://github.com/drakulavich/cogload)** – Local CLI that scores every hour you spend driving Claude Code from 0 to 100, from its own transcripts: parallel sessions, prompt pace, agent supervision, model output, streak length and late-night work. Week heatmap, day table and a shareable card; its Claude Code plugin shows the hour's level above the prompt and holds prompts for a ten-minute rest after 40 minutes without a break. Runs offline and keeps no message text. Free and open source (MIT).
+- **[antiburn](https://github.com/antiburn/antiburn)** – Free, local desktop app that checks coding agent sessions for common causes of token burn: sessions too deep, overpowered subagents, broken caching, and unused MCPs, skills, and tools. Supports Claude Code, Codex, Cursor, Copilot, Pi, and more.
+- **[telepathy](https://github.com/Winterrks/telepathy)** – Plugin that lets coding-agent sessions on one machine (Claude Code, Codex, OpenCode, Gemini CLI, Copilot CLI, Cursor, Grok and more) message each other; where the agent allows it, a message starts a turn in an idle session. Local only, no network calls, no telemetry.
+- **[open-bridge](https://github.com/bks-lab/open-bridge)** – Git repo of markdown and YAML that Claude Code, Codex and Copilot CLI read at session start: repos, clients, tasks, daily log and skills in plain text, no database.
+- **[Agent Skill Studio](https://github.com/devilking7x/agent-skill-studio)** – Local-first web app to create, validate, and export AI agent skills (SKILL.md), with one-click install bundles for Claude Code, Codex, Cursor, Copilot, and Gemini CLI. Free, open source (MIT), runs entirely in the browser — [live demo](https://devilking7x.github.io/agent-skill-studio/).
+- **[Agent Cat](https://agentcat.app)** – Free local-first menu-bar app for macOS and Windows that tracks usage and rate limits across Claude Code, Codex, Gemini, Grok, Kimi, Copilot and Cursor.
+- **[ILoveNotch](https://github.com/niyamvora/ILoveNotch)** – Free, open-source macOS notch app that tracks Claude Code, Codex, Cursor and Copilot plan limits with reset countdowns and alerts.
+- **[context-bank](https://github.com/kadiresen/context-bank)** – CLI that keeps AI agent project memory in git under .ai/ with size caps, retrieval-first history, a doctor check and Cline Memory Bank migration; works with any agent via AGENTS.md.
+- **[AIQuotaBar](https://github.com/yagcioglutoprak/AIQuotaBar)** – Free, open-source (MIT) macOS menu bar app that shows live Claude, ChatGPT/Codex, Cursor, and GitHub Copilot usage limits with reset countdowns, pace warnings, and a 24h history. No API keys: it reuses your existing browser sessions.
+- **[Tokenmeter](https://github.com/mugeshk97/tokenmeter)** – Open-source desktop widget for Linux, Windows and macOS that shows how much is left on Claude Code, Codex, Copilot, Gemini CLI and Grok limits, plus Claude, OpenAI and xAI API budgets.
+- **[echo agent](https://echoagent.dev/)** – macOS voice agent: press Fn+Space in any app and say the task, and it runs in your local Claude Code or Codex CLI in the background, with on-device speech recognition.
+- **[ashlr-plugin](https://github.com/ashlrai/ashlr-plugin)** – Open-source Claude Code and Codex plugin with 40 MCP tools that replace high-volume Read, Grep, Edit and Bash calls with versions that return less output; the repo’s reproducible benchmark reports 57% fewer tokens on vercel/ai, pandas and tokio.
+- **[Selvedge](https://github.com/masondelan/selvedge)** – Local MCP server and CLI that saves code decisions, rejected approaches, and revisit conditions in SQLite for retrieval across AI coding sessions.
+- **[QuotaDock](https://github.com/jungdosa/QuotaDock)** – Always-on-top Windows widget showing how much of your Claude Code, Codex and Antigravity session and weekly quota is left, and when each resets. Uses the sign-ins those tools already have; free, MIT, no telemetry.
+- **[Better Call GPT](https://github.com/insta-fusion/bettercallgpt)** – Open-source (MIT) Claude Code plugin that puts the session on a full-duplex voice call through Azure GPT Realtime or GPT-Live on macOS: talk while it codes, interrupt anytime, hear results read back. Voice never approves permission prompts. Free; bring your own Azure OpenAI key.
+- **[Crest](https://crestnotch.app/claude-code-notch)** – Mac notch app that shows Claude Code, Codex and GitHub Copilot CLI permission prompts on the MacBook notch to Allow or Deny, and Claude Code's questions as tap-to-answer cards. Answering is free with no account; macOS 14+.
+- **[Caprock](https://github.com/dspv/caprock)** – Local, open-source dashboard for Claude Code, Codex and OpenCode sessions: live activity, cost per repository and model, plan-limit windows, loop alerts and searchable history. Single Go binary, no telemetry.
+- **[byagent](https://byagent.dev)** – CLI and agent skill that publish Markdown or HTML from coding agents as shareable links, with line comments the next agent run reads back. Free.
+- **[cliproxy-rs](https://github.com/vayungodara/cliproxy-rs)** – Local proxy that puts your API keys for several providers behind one endpoint for Claude Code, Codex CLI, Gemini CLI, OpenCode and other tools. It translates between the Anthropic, OpenAI and Gemini APIs, retries on another key after a 429, and lets Codex CLI use Chat Completions-only providers such as OpenCode Go. Rust port of CLIProxyAPI, MIT.
+- **[Lockpaw](https://getlockpaw.com/)** – Open-source macOS menu-bar screen guard for AI coding agents: a hotkey covers the screen without sleeping the Mac, agents keep running even with the lid closed, and the locked screen glows when Claude Code, Codex or Gemini CLI needs you.
+- **[Vexilo Code](https://vexilo.app)** – Native macOS app that ranks installed Claude Code skills and agents by estimated per-turn token cost, generates a cleanup prompt for Claude Code, and includes a curated catalog of 295 tools with on-device Apple Intelligence recommendations. Read-only, on-device; catalog and search free, full app $19.99 one-time after a 7-day trial; closed source.
+- **[aisw](https://github.com/burakdede/aisw)** – Open-source CLI (MIT) that saves Claude Code, Codex CLI, Gemini CLI and Antigravity CLI logins as named profiles and switches accounts in one command, with cross-tool contexts and per-repository account guards. Docs at [aiswitcher.dev](https://aiswitcher.dev).
+- **[Helicon](https://github.com/HarjjotSinghh/helicon)** – Free, open-source (MIT) desktop app (Windows, macOS, Linux) and VS Code extension for Meta's Muse Code CLI: threads from every project in one sidebar, inline diffs, one-at-a-time approvals, workflows, side chats, SSH projects and per-thread usage costs. Try it in the browser at [helicon.sh/try](https://helicon.sh/try). Unofficial, not affiliated with Meta.
+- **[Ultra Mod](https://github.com/mertkayacs/ultramod)** – All-in-one mod pack for Claude Code: a usage limits and context HUD, a guard with undo for rm -rf and git reset --hard, .env and secret protection, and a receipt for every turn.
+- **[Vectle](https://vectle.com)** – The shared skills library for coding agents: exact, evidence-backed guidance they can apply, with the public threads behind each lesson.
+- **[Flock](https://github.com/HNF-FRN/flock)** – Open-source (MIT) Windows app that runs several Claude Desktop accounts side by side, each in its own named, coloured window, with a phone app that starts or continues Claude Code sessions in any account.
+- **[Masaka for Codex](https://github.com/masakaai/codex-multiple-env)** – Open-source manager for keeping Personal, Business, and Enterprise Codex accounts and workspaces isolated in separate `CODEX_HOME` profiles, showing official usage windows, and selecting the next native Codex process without copying credentials or bypassing quotas.
+- **[Heard](https://heard.dev/?utm_source=awesome-ai-coding-tools&utm_medium=social&utm_campaign=directory-listing)** – Voice layer for coding agents on macOS: speaks what Claude Code and Codex are doing and lets you reply by voice. Open-source engine ([heardlabs/heard](https://github.com/heardlabs/heard), Apache 2.0) with local voices; paid Mac app with a 14-day trial.
+- **[agents-env](https://github.com/xianghongai/agents-env)** – Zero-dependency, declarative environment and skill manager for AI coding tools (Claude Code, Codex, Cursor). Bridges the shared `.agents/skills/` standard into vendor paths via relative symlinks without duplicate configs or polluting git history.
+- **[aigent-os](https://github.com/wrg32786/aigent-os)** – MIT harness for long-running Claude Code sessions that saves a capsule, runs /clear and resumes instead of compacting.
+- **[TokLens](https://github.com/MY-Final/TokLens)** – Local-first desktop analytics for AI coding clients. Aggregates token usage, models, sessions and trends from 12 sources including Codex, Claude Code and OpenCode, with read-only collection, no telemetry and a local SQLite store.
+- **[brethof-brain](https://brethof.ai/brain/)** – Long-term memory for AI coding agents (Claude Code, Codex, Gemini CLI, Copilot CLI, OpenCode, Cline and 14 more), local or hosted: it searches by itself with every prompt and hands the agent the matching records and rules before it answers, keeps every decision with its date and reason, and opens each session with where the last one stopped. Source-available client, free plan.
+- **[QuotaBurn](https://quotaburn.com/)** – Tracks plans, usage limits and per-token API prices for Claude Code, Cursor, Codex, Copilot and others, with source links and a monthly cost calculator.
+- **[Lidnight](https://lidnight.app/en/)** – macOS menu bar app that keeps a MacBook awake with the lid closed while Claude Code, Codex and other agents work, sleeps when they finish, and lets you answer Claude Code permission prompts from the notch or your phone.
+- **[Pairfob](https://github.com/arronKler/pairfob)** – Open-source Herdr plugin to control Claude Code, Codex, and Grok CLI sessions from any phone browser via QR pairing, end-to-end encrypted, no app or account.
+- **[nibbl](https://github.com/nuromirzak/nibbl)** – Open-source (MIT) tamagotchi-style pixel pet for Claude Code, drawn as a band above the prompt. Reacts to tool calls, passing checks and commits using hooks, with zero model tokens. Sends only event types and times to getnibbl.pages.dev, never code, prompts or paths.
+- **[Buzzpot](https://buzzpot.app)** – Desktop canvas for Claude Code, Codex, and Grok CLI agents across all your projects. Link tasks into ordered chains, run independent tasks in parallel in per-task Git worktrees with auto-merge, and answer agents from your phone. Runs locally on your existing CLI subscriptions. Closed source, macOS.
+- **[Ringside](https://github.com/KNIGHT-AI-AV/ringside)** – Free, open-source (MIT) Windows widget that keeps Claude Code and Codex usage limits and reset times in view, read from local logs with no login or API key.
+- **[Harvest Harness](https://harvest-harness.vercel.app)** – A Claude Code method for turning finished sessions into skills, with four free skills (including `crystallize`) and a one-line `curl` install; MIT.
+- **[AGENTS.md Generator](https://agentkitco.com/tools/agents-md-generator/)** – Free in-browser generator that writes AGENTS.md plus matching CLAUDE.md, Cursor rule and Copilot instructions files for your stack. No signup; runs client-side.
+- **[AI Stack Picker](https://aibuildersuse.com/stack-picker)** – Free, no-signup quiz that recommends one AI tool per layer (builder or editor, coding agent, backend or hosting) for your project type, budget and skill level, with an estimated monthly cost from vendor-checked prices.
+- **[LimitWatch](https://codingplanlimits.com)** – Dated change log of usage limits and prices for Claude Code, Codex, Cursor, GLM and Kimi coding plans, with a free JSON feed ([data repo](https://github.com/limitwatch/limitwatch-data)).
+- **[Nowdex](https://nowdex.app)** – Shows remaining usage and reset times for Codex, Claude, Cursor and 10 more AI coding plans in iPhone and iPad widgets, the Mac menu bar and the Windows notification area; free for one account.
+- **[AI Coding Rules Sampler](https://github.com/elirankotzero/ai-coding-rules-sampler)** – Free MIT rules and skills that tell AI coding agents to plan first, follow a security baseline and verify their work; native files for Cursor, Claude Code, Codex, Windsurf and Copilot.
+- **[Quotadex](https://quotadex.com/)** – Tracks prices, usage limits, free tiers and API token prices for AI coding tools and agents, with every number linked to the vendor's official page.
+- **[wp-agent-harness](https://github.com/marcop135/wp-agent-harness)** – Disposable local WordPress for Claude Code, Cursor, and Codex via the official MCP Adapter and Abilities API, with one-command reset.
+- **[Yap MCP](https://github.com/founden-bot/yap-mcp)** – Open-source (MIT) MCP server and CLI that transcribes audio files on your own computer for Claude Code, Cursor and other MCP clients, with no upload and no API key.
+- **[VibeDesk](https://github.com/fxd-gif/vibedesk)** – Free, open-source Windows desktop for Claude Code: several sessions side by side with status dots, one-click permission approvals on PC or phone, and a per-project memory.
+- **[Claude Account Switcher](https://github.com/SnlperStripes/claude-account-switcher)** – Open-source tray app for the Claude desktop app: switches accounts in one click without an email code, carries Claude Code chats and projects across accounts, and shows live 5-hour and weekly usage of every account. Windows (the macOS build is not yet tested on a real Mac), Apache 2.0.
+- **[burntop](https://burntop.dev)** – Open-source full-stack template (FastAPI, React 19, Postgres) for AI coding agents, with AGENTS.md files for Claude Code, Cursor and Codex. Mocks and untested routes fail the build.
+- **[ccx](https://github.com/aaronwong1999/ccx)** – Open-source macOS tool that hands a Claude Code session to Codex (and back) with the full context, and warns when either side's 5-hour usage window passes 90%.
+- **[Orchia](https://github.com/MPoulhazan/orchia)** – Local dashboard for Claude Code: runs several sessions side by side, shows which ones need you, and lets you allow or deny their permission requests from one place. Open source (MIT).
+- **[AGENTS.md Examples](https://github.com/piekwerk/agents-md-examples)** – Production-ready AGENTS.md, CLAUDE.md, Cursor rules, and Copilot instruction files for 12 stacks (Next.js, Django, FastAPI, Rails, Go, Rust, and more), each with build/test commands and framework conventions. MIT.
+- **[wisp](https://github.com/M0xoo/wisp)** – Runs Claude Code, Codex, opencode and other coding agents in the background, each task in its own git worktree, and hands back a one-screen report (diff, tests, PR button) instead of the transcript.
+- **[Scalekit](https://www.scalekit.com)** – Agent integration platform that gives AI coding agents 500+ connectors and 20,000+ tools through one per-user authenticated MCP URL (Claude, Cursor, Windsurf), with scoped per-user tool access, virtual MCP servers, a token vault for OAuth, API key, and RSA credentials, and audit logs of every tool call; SOC 2 Type II, HIPAA BAA, and VPC or self-hosted deployment.
+- **[Agent Standup](https://agent-standup.com)** – Shows your Claude Code, Codex and Mistral Vibe sessions as a live, animated team call (VS Code extension, CLI, macOS app): which agent is working, stuck, waiting on another, or waiting for you, plus tokens per agent; reads local session files only, open source (MIT).
+- **[Coday](https://github.com/HyperClockUp/Coday)** – Windows desktop app routing Devin, Cursor, Windsurf, Kiro and VS Code AI requests to user-selected OpenAI-compatible or Claude endpoints, with protocol conversion, multi-source failover, cross-IDE project rules and Devin localization. Free, proprietary.
+- **[aiblame](https://github.com/celaldrg/aiblame)** – CLI and GitHub Action that measures how much of a repo's current code was written by AI coding agents (Claude Code, Cursor, Copilot, Codex, Aider, Devin and more), using git blame and the trailers agents leave on commits. No API key, MIT licensed. Run with `npx -y github:celaldrg/aiblame`.
+- **[Token Counter](https://chromewebstore.google.com/detail/okmkcicheedpnmmfmhngagbofgjiodhj)** – Chrome extension that shows how much of your Claude session and weekly limits is used, Claude Code included, and when each resets, in the toolbar and in a bar above the claude.ai message box.
+- **[AI Meter](https://github.com/getguruhat/ai-meter)** – Free, open-source Mac menu bar and Windows taskbar app showing your remaining Claude Code or Codex usage and when it resets.
+- **[Codex Reset](https://codex-reset.opentunnel.asia/)** – Read-only tracker for OpenAI Codex global quota resets: verified reset history, 24h/48h probabilities and a 28-day plan, with announced / pending / verified kept separate so a teaser is not counted as a landed reset. No login required; [open source](https://github.com/chendaleiQ/codex-reset).
+- **[SkillPouch](https://github.com/skillpouch/skillpouch)** – End-to-end encrypted sync of AI coding setups (skills, agents, instructions, commands, MCP servers, hooks) across computers for Claude Code, Codex, OpenCode, Cursor, Gemini CLI and more. Background daemon, conflict resolution in a web app, free plan, open source (AGPL-3.0) and self-hostable.
+- **[claude-codex-taskbar](https://github.com/chiarorosa/claude-codex-taskbar)** – Open-source (MIT) Windows taskbar widget that keeps Claude Code and Codex 5-hour and weekly usage limits visible while you code, next to CPU, RAM, GPU and disk activity; reuses the existing CLI logins, no account or telemetry.
+- **[MemoSync](https://github.com/SLEEPYBQ/MemoSync)** – Local workbench for Claude Code, Codex and Pi that makes coding-agent memory reviewable: approve proposed memory changes, choose each turn's working memory, see which memories a reply cites, and audit afterwards which ones were followed or violated. Free and self-hosted; uses your existing agent sign-in or API key.
+- **[LBW Workbench](https://github.com/edwardmackiezyv885-art/lbwapi-workbench)** – Windows portable workbench that installs prompt packs and skill trees into 11 AI clients with byte-level backup and one-click rollback.
+- **[SoloPup Memory](https://github.com/OakcoderX/solopup-memory)** – Public-beta DeepSeek Harness text-memory plugin with original-source references, project/global scope and correction history; lexical recall.
+- **[vidbyte-memory](https://github.com/cerredz/vidbyte-memory)** – GitHub template that turns the corrections you give a coding agent into Markdown facts, pytest regression tests where a check can be written, and git commits, with a Stop hook that blocks the agent from finishing (up to 5 times in a row) while tests fail.
+- **[StackVersus AI Limits](https://getstackversus.com/limits)** – Free reference of prices and vendor-stated usage limits for 73 AI coding plans (Claude, Codex, Cursor, Copilot, Gemini, Lovable, v0, Bolt and more), each with source link, check date and a change log; data as JSON/CSV.
+- **[Joxo](https://joxo.ai)** – Shared project for a team's coding agents: each person's Claude Code, Codex or Cursor works from one task board, decisions and handoffs, and can ask a teammate's agent for help.
+- **[Session Dock](https://github.com/paragpandyareal/session-dock)** – Windows desktop dock that shows every running Claude Code session (CLI and desktop app) at a glance, with live status and alerts when one is waiting for you. Free and open source (MIT), fully local.
+- **[SkillHey](https://skillhey.com)** – Curated directory of agent skills (SKILL.md) for Claude Code, Codex, and Cursor, browsable by category in nine languages.
+- **[mulligan](https://github.com/stanczykwyatt/mulligan)** – Undo for coding agents: snapshots the project at every prompt and tool call, shell commands included, so you can list, diff and undo to any point without touching your git repo.
+- **[AI Footprint](https://github.com/stanczykwyatt/ai-footprint)** – Mac menu bar app that shows what AI coding tools leave on your Mac: disk per tool, background processes, orphaned MCP servers and login items, with a receipt for every update.
+- **[deja-vu](https://github.com/vshulcz/deja-vu)** – Local-first session memory CLI and MCP server that indexes the session transcripts 53 AI coding agents already write to disk (Claude Code, Codex, Cursor, Gemini CLI, Antigravity, OpenCode, Aider, Windsurf, Copilot, and more) into a shared BM25 index, including months of history from before it was installed. Ships native skills, hooks, and plugins in a single Go binary with no LLM calls or accounts. MIT licensed. Install: `brew install deja-vu` or `npx skills add https://github.com/vshulcz/deja-vu`.
+- **[cogit](https://github.com/erensrtky/cogit)** – Open-source (MIT) Claude Code plugin and CLI that records why code changed: each message's decisions and rejected options, linked to the commits it produced, with a local map of sessions and `cogit why file:line`.
+- **[Openbar](https://github.com/MF-DEEV/Openbar)** – Open-source macOS app that puts Claude Code, Codex and other coding agent sessions in the notch, where you can approve tool calls with the diff in view, answer questions and send replies.
+- **[Nyrion](https://nyrion.ai/?utm_source=awesome-ai-coding-tools)** – Practice for AI-assisted coding interviews (Meta, Google, Amazon, Stripe and others): work in a small codebase with an AI assistant and tests, then answer an interviewer's questions about your code. Includes a free tier.
+- **[Agent Durbar](https://github.com/three-feathers/agent-durbar)** – An office-style desktop app to see, chat with and coordinate Copilot, Claude Code and Codex sessions across folders.
+
+---
+
+## AI Frameworks and SDKs
+
+- **[LangChain](https://www.langchain.com/)** – The most popular framework for building LLM-powered applications with chains, agents, and retrieval.
+- **[LlamaIndex](https://www.llamaindex.ai/)** – Data framework for connecting LLMs to external data sources with indexing and retrieval.
+- **[Vercel AI SDK](https://sdk.vercel.ai/)** – TypeScript toolkit for building AI-powered UIs with streaming, tool calling, and multi-provider support.
+- **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)** – Microsoft's SDK for integrating LLMs into C#, Python, and Java applications.
+- **[Haystack](https://haystack.deepset.ai/)** – Open-source framework for building production-ready LLM applications, RAG pipelines, and agents.
+- **[LiteLLM](https://github.com/BerriAI/litellm)** – Unified API proxy for 100+ LLM providers with load balancing, spend tracking, and rate limiting.
+- **[OpenRouter](https://openrouter.ai/)** – Unified API gateway for accessing models from OpenAI, Anthropic, Google, Meta, and more.
+- **[Promptfoo](https://github.com/promptfoo/promptfoo)** – Open-source tool for testing, evaluating, and red-teaming LLM prompts and applications.
+- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** – Skill and command manager for AI assistants with dynamic loading and execution.
+- **[Bifrost](https://getmaxim.ai/bifrost)** – Open-source LLM & MCP Gateway with 20+ providers, governance, loadbalancing and custom plugins.
+- **[FuturMix](https://futurmix.ai)** – Unified AI API gateway for 22+ models with OpenAI-compatible endpoint. Features automatic failover, 99.99% SLA, and cost optimization across OpenAI, Anthropic, and Google models.
+- **[CoderPlan](https://coderplan.ai)** – Unified LLM API gateway with OpenAI-compatible API for Claude, GPT, Gemini and 200+ models. Pay-per-use pricing with Alipay/WeChat support, designed for developers using Claude Code and Cursor.
+- **[Tuning Engines](https://www.tuningengines.com/)** – Governed AI runtime and MCP server for coding agents: route models through one OpenAI-compatible API, apply RBAC and traffic policies, request approvals, and inspect traces and usage.
+- **[Respan](https://www.respan.ai/ai-gateway)** – Full-stack AI engineering platform with a tracing SDK, evals, prompt management, and a gateway to 250+ models.
+- **[Markstream Vue](https://markstream-vue.simonhe.me/)** – MIT-licensed streaming Markdown renderer for AI chat interfaces, with Mermaid, KaTeX, SSR, and Vue, React, Svelte, and Angular integrations.
+- **[AIWG](https://github.com/jmagly/aiwg)** – Deploys reusable agents, skills, and governed workflows across multiple AI coding platforms.
+- **[ZergRouter](https://zergrouter.com/)** – Runs DeepSeek 4.1 Flash inside Codex through one Router endpoint without using ChatGPT or Codex subscription quota, with a daily budget per API key.
+- **[onomeo](https://onomeo.com/)** – OpenAI-compatible API gateway with about 20 free models (DeepSeek, GLM, Gemini, Qwen, Mistral) and pay-as-you-go Claude and GPT, with setup guides for Cline, OpenCode, Aider and Zed. Public beta.
+- **[SayGM](https://saygm.com)** – Prepaid LLM API gateway with OpenAI Chat Completions, OpenAI Responses, Anthropic Messages and Gemini endpoints on one key, for GPT, Claude, Gemini and open-weight models.
+- **[Weave Router](https://weaveos.com/router/quickstart)** – Apache-2.0 model router for Claude Code and Codex CLI, with hosted setup, self-hosting, and a public [benchmark methodology](https://weaveos.com/router/benchmark-methodology).
+- **[Heym](https://github.com/heymrun/heym)** – Self-hosted runtime for LLM agent workflows with human approval checkpoints, execution traces, evaluations, and MCP tools.
+- **[CodeI Lab](https://www.codeilab.com)** – GPT API gateway for coding agents (Claude Code, Codex CLI, OpenCode) via OpenAI and Anthropic protocols; plan credit up to 93% below official pay-as-you-go.
+- **[Code By AI](https://www.codebyai.net)** – One API key for Claude, Codex and Gemini coding agents; pay per token from 1/6 of official price across 21 models, no subscription.
+
+---
+
+## Local LLM Tools
+
+- **[Ollama](https://ollama.com/)** – Run open-source LLMs locally with a simple CLI. Supports Llama, Mistral, CodeLlama, and dozens more.
+- **[LM Studio](https://lmstudio.ai/)** – Desktop app for discovering, downloading, and running local LLMs with a built-in chat UI and API server.
+- **[Jan](https://jan.ai/)** – Open-source, offline-first desktop app for running LLMs locally with a ChatGPT-like interface.
+- **[GPT4All](https://gpt4all.io/)** – Free, local, privacy-aware chatbot running LLMs on consumer hardware.
+- **[llamafile](https://github.com/Mozilla-Ocho/llamafile)** – Mozilla project that packages LLMs into single executable files that run anywhere.
+- **[LocalAI](https://localai.io/)** – Open-source OpenAI-compatible API for running models locally without GPU.
+- **[Diffron](https://github.com/Tetramatrix/diffron)** – Git commit message and PR description generator using AMD Lemonade via lemonade-python-sdk. 
+- **[Atomic Agent](https://atomicagent.io/docs)** – Terminal coding agent that runs open-weight models entirely on your machine through a llama.cpp fork, with agentic tool use and local memory built in.
+- **[Unified AI System](https://github.com/happy520ai/unified-ai-system)** – Apache-2.0 self-hosted gateway in front of local and hosted models: OpenAI/Anthropic-compatible APIs, virtual keys with token budgets, exact + lexical-approximate cache, audit trail, and an stdio MCP server with reverse governance — ships a deterministic local fake provider, so the whole surface is testable with no GPU and no API key.
+- **[Rapid-MLX](https://rapidmlx.com/)** – Run language models on Apple Silicon with OpenAI- and Anthropic-compatible local APIs and tool calling for coding agents.
+- **[Claude Code Local](https://github.com/nicedreamzapp/claude-code-local)** – MLX server for Apple Silicon that speaks the Anthropic Messages API, so the unmodified Claude Code CLI runs on local Gemma, Qwen and Llama models.
+- **[RAMen](https://getramenai.com/)** – Local llama.cpp server for coding agents such as Cline, Continue, Aider and OpenCode that saves every session to disk and reopens it in seconds after a restart.
+
+---
+
+## DevOps and Infrastructure
+
+- **[Datadog](https://www.datadoghq.com/)** – Monitoring and observability with AI-powered insights.
+- **[New Relic](https://newrelic.com/)** – Observability platform with AIOps and anomaly detection.
+- **[PagerDuty](https://www.pagerduty.com/)** – AI-powered incident management and response automation.
+- **[Harness](https://harness.io/)** – AI-powered CI/CD with intelligent deployments and automated rollbacks.
+- **[GitLab AI](https://about.gitlab.com/solutions/artificial-intelligence/)** – Integrated AI across GitLab for code suggestions, security scanning, and workflows.
+- **[Pulumi AI](https://www.pulumi.com/ai/)** – Infrastructure as code with AI assistance for cloud resource management.
+- **[Terraform Cloud](https://www.terraform.io/cloud)** – IaC platform with AI-powered policy suggestions.
+- **[Spacelift](https://spacelift.io/)** – AI-powered infrastructure automation with policy as code.
+- **[Sysdig](https://sysdig.com/)** – Cloud security and monitoring with AI threat detection.
+- **[LambdaTest](https://www.lambdatest.com/)** – AI-powered cross-browser testing platform.
+- **[Infracost](https://www.infracost.io/)** – Cloud cost estimation in pull requests for Terraform/Pulumi.
+- **[Jenkins X](https://jenkins-x.io/)** – Cloud-native CI/CD with AI-enhanced automation.
+- **[DeployRamp](https://www.deployramp.com)** – AI-powered feature flagging platform that can automatically wrap PRs in feature flags.
+- **[Middleware](https://middleware.io/)** – Full stack observability platform with AI SRE Agent. 
+- **[Kuberns](https://kuberns.com/)** – Agentic AI deployment platform that auto-detects tech stacks, provisions infrastructure, and deploys applications from GitHub repositories with zero configuration.
+- **[DownForAI](https://downforai.com/)** – Real-time status monitoring for 800+ AI services including ChatGPT, Claude, Gemini, Midjourney, and Groq. Tracks uptime, latency, and community outage reports.
+- **[KubeStellar Console](https://github.com/kubestellar/console)** – Open-source multi-cluster Kubernetes dashboard with an MCP server (kc-agent) enabling AI coding agents to query and manage clusters via natural language.
+- **[token-optimizer](https://github.com/alexgreensh/token-optimizer)** – Context and token-cost optimizer for AI coding agents. Finds wasted "ghost tokens," survives compaction, and reduces context-quality decay, with native plugins for Claude Code, Codex, OpenCode, and OpenClaw.
+- **[Runtime Cloud](https://withruntime.com)** – Firecracker microVM sandboxes for AI agents, billed on active CPU ($0.025 per vCPU-hour) with no plan fee; pause and wake with memory kept, and E2B/Daytona SDK-compatible.
+
+---
+
+## Security
+
+- **[Snyk](https://snyk.io/)** – Developer-first security platform with SAST, SCA, container, and IaC scanning.
+- **[Checkmarx](https://checkmarx.com/)** – AI-enhanced SAST with comprehensive vulnerability detection.
+- **[GitGuardian](https://www.gitguardian.com/)** – Monitors codebases for leaked secrets, API keys, and credentials.
+- **[Semgrep](https://semgrep.dev/)** – Open-source static analysis for security and code quality.
+- **[Veracode](https://www.veracode.com/)** – Application security with static and dynamic analysis.
+- **[Mend (WhiteSource)](https://www.mend.io/)** – Open-source security and license compliance.
+- **[JFrog Xray](https://jfrog.com/xray/)** – Security and compliance scanning for DevOps pipelines.
+- **[Bearer CLI](https://github.com/Bearer/bearer)** – Open-source static security analysis for sensitive data exposure and GDPR/PCI compliance.
+- **[Nullify.ai](https://nullify.ai/)** – AI-powered security vulnerability detection.
+- **[Pixee.ai](https://pixee.ai/)** – Automated security fixes with AI.
+- **[Gecko Security](https://gecko.security/)** – AI security analysis for code.
+- **[Corgea](https://corgea.com/)** – AI-native application security.
+- **[HackerOne Code](https://www.hackerone.com/product/code)** – AI + human expertise for context-aware vulnerability detection.
+- **[Endor Labs](https://www.endorlabs.com/ai-code-security-review)** – AI code review for security risks and architectural vulnerabilities.
+- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++.
+- **[Vulert](https://vulert.com/)** – Detects vulnerabilities in open-source dependencies without accessing your code.
+- **[Agentprobe](https://agentprobe.fly.dev/)** – Free agentic commerce readiness scorer. Probes any URL across 13 signals (llms.txt, OpenAPI spec, MCP endpoint, catalog API, quote API, checkout, payment rails, fulfillment proof) and returns a 0–110 score with a CERTIFIED badge. MCP server available at /mcp.
+- **[AI Agent Safety Starter Pack](https://github.com/el-zachariah/ai-agent-safety-starter-pack)** – Free repo preflight scanner for Claude Code, Codex, Cursor, and other AI coding-agent runs that flags agent instructions, MCP config, risky shell patterns, package scripts, and secret-adjacent files before tool access.
+- **[gate.cat](https://github.com/BGMLAI/gate.cat)** – Deterministic, fail-closed action veto for AI coding agents that blocks irreversible shell commands (rm -rf, DROP TABLE, terraform destroy) and secret exfiltration before they run, with no LLM in the veto path. Works as a Claude Code hook, a gated shell for any CLI agent, or a local OpenAI-API proxy.
+- **[repo-forensics](https://github.com/alexgreensh/repo-forensics)** – Offline security scanner for AI-agent repos, skills, plugins, and MCP servers; detects prompt injection, credential theft, and manifest drift.
+- **[Speakeasy](https://www.speakeasy.com/product/ai-control-plane)** – Enterprise AI control plane for governing access, policy, and auditability across agents, MCP servers, and Skills.
+- **[SafetyCard](https://github.com/safetycard/safetycard)** – Safety-check MCP servers and AI agents against the OWASP agentic Top 10, and get the safest setup to run them.
+- **[Tokenhush](https://github.com/fregie/tokenhush)** – Local loopback gateway that replaces secrets and PII in AI coding tool requests with reversible placeholders before they reach the model provider, then restores them in the response. No MITM or root certificate.
+- **[Sunglasses](https://github.com/sunglasses-dev/sunglasses)** – Local scanner with a Claude Code PreToolUse hook that blocks credential paths and policy violations before a tool runs, and scans text and files for prompt injection with 1,554 patterns across 118 categories.
+- **[Barrion](https://barrion.io/ai-pentesting)** – AI pentesting for web apps and APIs, run on demand or on a schedule.
+- **[Phantom](https://github.com/ashlrai/phantom-secrets)** – Open-source local proxy and MCP server that replaces project secrets with `phm_` placeholders so Claude Code, Cursor, Windsurf and Codex can work in a repo without real API keys entering their context.
+- **[crashdummy](https://github.com/mmelqadi/crashdummy)** – Crash-tests the guard hook of an AI coding agent with evasive destructive commands and harmless twins; reports caught, missed and false alarms without executing anything.
+- **[Ship-Ready AI Rules](https://github.com/edtrackai/ship-ready-ai-rules-free-sample)** – Free MIT AGENTS.md and Cursor rules that stop AI coding agents from shipping insecure Next.js + Supabase + Stripe code (missing RLS, server-side getSession(), unverified webhooks).
+- **[Pipelock](https://github.com/pipelab-org/pipelock)** – Open-source firewall for AI coding agents that scans HTTP and MCP traffic routed through its proxies to block secret leaks, prompt injection, and unsafe tool calls.
+- **[SIwithin](https://github.com/metahumansworld/SIwithin)** – Runs Claude Code unattended inside a macOS sandbox-exec fence (home refused whole), under a true-dollar budget enforced three times, with one ledger line and a verifiable sha256 receipt per run.
+- **[Tuvio](https://tuvio.dev/)** – Security scans for AI-built apps, with AI-reviewed fix prompts for your coding assistant.
+
+---
+
+## Database and API Tools
+
+- **[Supabase AI](https://supabase.com/ai)** – AI for database schema generation, query optimization, and API development.
+- **[Hasura](https://hasura.io/)** – GraphQL API platform with AI query optimization.
+- **[Retool AI](https://retool.com/ai)** – AI-powered internal tool builder with natural language interface.
+- **[dbForge AI Assistant](https://www.devart.com/dbforge/ai-assistant/)** – AI-powered SQL code generation and optimization.
+- **[Omnigraph](https://github.com/ModernRelay/omnigraph)** – Typed graph database where agents branch and merge like Git. S3-native, Rust, traversal + vector + BM25 in one runtime.
+- **[CoderPlan](https://coderplan.ai)** – Unified LLM API gateway providing OpenAI-compatible access to Claude, GPT, Gemini, and 30+ models. Pay-as-you-go pricing with one-line config for Claude Code, Cursor, and other AI coding tools.
+- **[Dex](https://github.com/exmergo/dex)** – Open-source agent skills for analytics engineering: read-only warehouse profiling with PII flags and verified joins, dbt models and semantic layers as reviewable diffs, and schema-drift checks.
+- **[Gemmein](https://gemmein.com/r/dir)** – Backend for web and mobile apps with sign-in, protected data, payments, and AI tools.
+
+---
+
+## MCP Servers and Directories
+
+- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers.
+- **[PulseMCP](https://www.pulsemcp.com/servers)** – Large, frequently updated directory of MCP servers.
+- **[MCP.so](https://mcp.so/)** – Platform for MCP server resources and community.
+- **[Cursor MCP Directory](https://cursor.directory/mcp)** – MCP servers curated by Cursor.
+- **[VS Code MCP Directory](https://code.visualstudio.com/mcp)** – Official VS Code MCP directory.
+- **[Claude MCP Servers](https://www.claudemcp.com/servers)** – Claude's curated MCP server list.
+- **[MCPServers.Net](https://mcpservers.net/)** – Comprehensive MCP navigation with tutorials and resources.
+- **[MCP Market](https://mcpmarket.com/)** – Marketplace for MCP tools and services.
+- **[Helium MCP](https://github.com/connerlambden/helium-mcp)** – Remote MCP server for AI coding assistants with real-time news and multi-dimensional bias scoring (3.2M+ articles, 5000+ sources), financial markets (stocks, ETFs, crypto, AI bull/bear cases), ML options pricing (ITM probability, Greeks, fair value), balanced news synthesis, trending topics, and semantic meme search. [Documentation](https://heliumtrades.com/mcp-page/).
+- **[AI Dev Jobs MCP](https://aidevboard.com/mcp)** – Search 5,400+ AI developer jobs with salary data via MCP. REST API also available.
+- **[Not Human Search](https://nothumansearch.ai/mcp)** – Agent-first search engine for discovering AI tools, MCP servers, and APIs.
+- **[CLIRank](https://clirank.dev/)** – API directory scoring 387 APIs on agent-friendliness across 11 signals. MCP server and web directory.
+- **[ejentum-mcp](https://github.com/ejentum/ejentum-mcp)** – MCP server with reasoning, code, anti-deception, and memory tools for AI agents.
+- **[Claudex](https://github.com/kunwar-shah/claudex)** – Open-source MCP server giving Claude Code persistent memory and FTS5 full-text search across conversation history.
+- **[agent-lsp](https://github.com/blackwell-systems/agent-lsp)** – MCP server that gives AI coding agents language server intelligence (go-to-definition, find-references, diagnostics, refactoring, speculative execution) across 30 languages. 56 tools, 22 agent skills, single Go binary.
+- **[piia-engram](https://github.com/Patdolitse/piia-engram)** – Cross-tool persistent memory MCP server. Stores preferences, standards, and lessons locally across Claude Code, Cursor, Codex, and any MCP client.
+- **[RunAPI MCP Server](https://github.com/runapi-ai/mcp)** – 130+ AI models for image, video, music, audio, and LLM generation from 18 providers via `npx @runapi.ai/mcp`. Free catalog tools for model discovery and pricing; authenticated tools for media generation and LLM chat.
+- **[Curio MCP](https://designbycurio.com/mcp)** – Design-style library for AI: search hundreds of real design styles and fetch token-complete, machine-readable specs (colors, typography, spacing, components) to apply to sites, decks, and products. OAuth sign-in, free tier included. [Documentation](https://designbycurio.com/docs).
+- **[AccInt](https://github.com/maxbaluev/accreted-intelligence)** – Local-first learning substrate + MCP server for Claude Code, Codex, OpenCode, and Cursor. Builds a Work Model from what actually worked (graded by real outcomes) and predicts the better path, so the same job gets faster and lands better every run.
+- **[Prismix](https://prismix.dev)** – AI hub with 500+ MCP server directory, real-time status monitoring for 75+ AI services, and news aggregator from 70+ sources with email/webhook alerts.
+- **[StackPicks MCP](https://stackpicks.dev/mcp)** – Curated directory of MCP servers and Claude/Cursor connectors with editorial takes. 50+ servers reviewed with install commands for Claude Desktop + Cursor, plus honest "skip if" guidance per entry.
+- **[PAPI](https://getpapi.ai/?utm_source=awesome-ai-coding-tools&utm_medium=referral&utm_campaign=directory-blitz-2026-07)** – MCP server that adds project management to any AI coding tool: plan/build/review cycles, decision memory, and structured build handoffs that persist across sessions, tools, and teammates. Works with Claude Code, Cursor, Windsurf, Lovable, and ChatGPT. Free.
+- **[Entroly](https://github.com/juyterman1000/entroly)** – Local-first MCP server for explicit-budget context selection, content-addressed exact recovery, and auditable Context Receipts. Apache-2.0.
+- **[terminal-mcp](https://github.com/elleryfamilia/terminal-mcp)** – MCP server that gives AI assistants a shared view of your terminal session. Debug CLIs and TUI apps in real-time or let agents drive terminal-based tools autonomously. Works with Claude Code, Codex, Cursor, opencode, and Copilot.
+- **[ContextStream](https://contextstream.io)** – Shared project context for Cursor, Claude Code, Codex, Grok, and the rest. Intelligence isn’t the bottleneck. Context is. Remote MCP: https://mcp.contextstream.io/mcp.
+- **[screenpipe](https://screenpipe.com/)** – Local-first workflow memory for AI agents. Captures screen, audio, and app context on-device so Claude, Codex, and other agents can search real work history via MCP and API. Open-source.
+- **[Markovo](https://github.com/fisher-byte/markovo)** – Convert PDF, DOCX, PPTX, XLSX and authorized public pages (Google Docs, Notion, GitHub, Hacker News, YouTube) into clean, structured Markdown for agent context. Remote MCP endpoint with OAuth 2.1 (`https://markovo.net/mcp`) plus local stdio server sandboxed to a dedicated root; free tier included.
+- **[prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset)** – MCP server that generates production-ready visual assets (app icons, favicons, OG images, logos, wordmarks) by routing prompts across 30+ image generation models. Zero API key required for first run via free tiers. `npm install -g prompt-to-asset`.
+- **[Instafill.ai](https://instafill.ai)** – MCP server for AI-powered PDF form filling. Auto-completes any PDF form by extracting fields and filling them from saved profiles, uploaded files, or supplied data.
+- **[SkillAgent](https://skillagent.dev)** – Free searchable directory of ~3,500 AI agent skills, rules files (SKILL.md, CLAUDE.md, AGENTS.md, .cursorrules) and MCP servers indexed hourly from GitHub, with safety scans, freshness checks, quality scores and a no-auth remote MCP server (`https://skillagent.dev/mcp`).
+- **[Mnemoverse](https://github.com/mnemoverse/mcp-memory-server)** – Hosted memory for coding agents over MCP. Report that a recalled memory helped or misled, and it re-ranks what comes back next. Shared rooms and a free tier; one key or OAuth across Claude Code, Cursor, VS Code and ChatGPT.
+- **[coven-scout](https://github.com/OpenCoven/coven-scout)** – Sandboxed Rust MCP server for filesystem and web operations: path allowlist, fetch-to-Markdown, diffs, checksums, and archives in a single static binary. Free and open source (MIT).
+- **[DropTheHassle](https://dropthehassle.com)** – MCP server and CLI that let Claude Code, Cursor or Windsurf put your site on a free HTTPS link, or on a .com for €19/$19 that goes live with no DNS. Your AI never spends money.
+- **[Black Window weave](https://github.com/space-bacon/blackwindow-weave-mcp)** – Local semantic code search MCP server for Claude Code, Cursor, VS Code and any MCP client, running the Motherlode code-search encoder on your CPU; `npx -y blackwindow-weave-mcp`.
+- **[Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp)** – MCP server that gives coding agents the props, examples, CSS variables and Agent Skills for the Bestax React component library (Bulma v1). Runs offline.
+- **[8B AI Website Builder](https://8b.com/mcp/)** – Remote MCP server, no account or API key: the coding agent picks an 8B generated design, writes the copy and gets an animated one-page site as a preview link and one HTML file.
+- **[AgentHub](https://myagenthub.cn)** – Chinese directory of MCP servers and agent skills with one-click install for Cursor, Claude Code, VS Code, Trae.
+- **[Atomic Reps](https://atomicreps.com)** – MCP server for Claude Code, GitHub Copilot, Cursor, Codex and any MCP client. After your coding agent finishes a task, it asks you questions on the libraries and concepts the agent just used, answered from memory. Sends topic names, never your code. Free account; install with `npx atomicreps`.
+- **[mcptools.si](https://mcptools.si)** – Curated directory of Model Context Protocol servers. Filter by tag.
+- **[Slop Store](https://slopapp.store/agents)** – Remote MCP server (and Claude Code plugin) that publishes an app your coding agent built so anyone can play it in the browser; the first publish needs no key. Free.
+- **[OpenPost](https://openpo.st/docs/mcp)** – Open-source social publishing MCP server for turning release notes and product updates into drafts, reviewing account-specific variants, and inspecting schedules and delivery results. Supports OAuth or scoped tokens and self-hosting.
+- **[Arcmira: YouTube Transcript Search](https://arcmira.com)** – YouTube transcript search and monitoring for your AI. Arcmira understands YouTube and podcasts like it watched them: the exact quote, often who said it, the full transcript and sponsors.
+- **[REA](https://github.com/morluto/rea)** – Local MCP server and CLI that gives coding agents reverse-engineering tools for native binaries, JavaScript/Electron apps, and .NET assemblies, with evidence provenance and explicit analysis limitations.
+- **[Pinthread](https://pinthread.dev/mcp-server/)** – Website feedback MCP server for coding agents. Reviewers pin threaded comments on live web elements; coding agents read, reply to, and resolve them.
+- **[Zekra](https://github.com/fadymondy/zekra)** – Open-source, self-hostable MCP memory server that gives coding agents (Claude Code, Cursor, Codex) shared long-term memory with hybrid recall and a knowledge graph.
+- **[Oh My Android](https://github.com/ateymoori/oh-my-android)** – MCP server and macOS app that lets AI coding agents see and drive the Android emulator: screenshots and UI tree in dp, taps, dark mode, RTL and logcat.
+- **[MoltNode by Chord](https://github.com/tuantqse90/moltnode-mcp)** – Remote MCP server (`https://moltnode.ag/mcp`, no API key) that lets Claude Code, Cursor, Codex and other agents make JSON-RPC calls on 31 blockchains (contract reads, logs, balances) and get DEX swap quotes with unsigned transactions from Chord. Also ships as a Claude Code plugin and a Gemini CLI extension. MIT.
+- **[UnblockingAPI MCP](https://github.com/unblockingapi/mcp)** – MCP server that lets coding agents fetch bot-protected and JavaScript-heavy pages and parse them into JSON.
+- **[KanbanMCP](https://kanbanmcp.com)** – Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off to the next agent with notes.
+- **[PlaceCall](https://github.com/voygr-tech/placecall)** – Remote MCP server, Agent Skill and Claude Code/Codex/Cursor plugins that let an agent place real phone calls to US businesses (bookings, appointments, quotes) and get back the outcome and transcript. Remote MCP: https://api.voygr.tech/mcp.
+- **[LLMSlim](https://github.com/Thanatos9404/llmslim)** – Local stdio MCP server that gives coding agents long-term memory with no LLM call, storing messages word for word in SQLite or Postgres and recalling the ones that answer a question within a token budget.
+- **[Campfire SMS](https://campfiresms.com/)** – Two-way SMS MCP server for coding agents (Claude Code, Codex, Cursor, Grok Build): the agent texts you when it finishes or gets blocked, and you reply by text. Free tier, then paid.
+- **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** – Web search, scrape, crawl and map for AI coding agents. Turns docs and live pages into clean Markdown for Claude Code, Cursor, Codex and any MCP client. Remote endpoint with browser sign-in (`https://mcp.firecrawl.dev/v2/mcp-oauth`) or local via `npx -y firecrawl-mcp`; free tier included. [Documentation](https://docs.firecrawl.dev/mcp-server?utm_source=awesome-ai-coding-tools&utm_medium=integration).
+- **[AgenticMarket](https://agenticmarket.dev)** – Free registry of MCP servers and agent skills with health checks and one-command install for 13+ IDEs and agents.
+- **[lcc](https://github.com/lucasmartins-ai/lcc)** – Open-source (MIT) MCP server, CLI and Claude Code plugin that compacts coding-agent sessions without a summary: old tool outputs move to a local stash the agent can `recall` by hash, messages stay byte for byte, offline.
+- **[LogBrew](https://logbrew.co)** – Error monitoring, logs, and traces your AI coding agent can read. Connect any AI agent to the LogBrew MCP server (`https://logbrew.co/mcp`), ask what broke in production, and get help fixing it. Generous free tier, no card needed. [Documentation](https://docs.logbrew.co/guides/mcp).
+- **[Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node)** – MIT-licensed local stdio MCP payment tools for AI agents: inspect x402 offers, prepare bounded payments and read operation receipts; Apple Silicon macOS and Node.js 24 required, owner approvals/policies apply, network and service fees are separate.
+- **[Kanzo](https://github.com/emanuele-em/kanzo)** – Self-hosted kanban board for humans and coding agents: a web board plus an MCP server in one small Rust binary, so Claude Code, Codex and other MCP clients pick up tasks, comment and move cards on the same board you use. Data stays in a local SQLite folder.
+- **[Light Cloud MCP Server](https://github.com/light-cloud-com/mcp-server)** – MCP server that lets Claude Code and other MCP clients deploy apps, add databases and manage domains on Light Cloud. `npx @light-cloud/mcp-server`.
+- **[Aletheia](https://github.com/mohamed-ashraf-elsaed/aletheia-mem)** – Free, local memory and rules hub for AI coding tools: one SQLite store read over MCP, REST or CLI. Alpha.
+- **[TokenRip](https://tokenrip.com)** – Shared workspace for Claude Code, Codex, Cursor and ChatGPT over remote MCP: versioned files, tasks and pinned decisions every agent reads before it starts, so work can move between agents without re-explaining. Free tier included.
+- **[Flisk](https://github.com/flisk-sh/flisk)** – MCP server that lets an AI agent build and run a whole app on your computer: it creates the parts, starts them, checks status and logs, and fixes setup problems. MIT, free.
+- **[Allscreenshots](https://github.com/allscreenshots/allscreenshots-plugin)** – MCP server and Claude Code/Codex plugin for capturing website screenshots, running bulk captures, and managing screenshot schedules via the Allscreenshots API. MIT licensed.
+- **[CurlShot](https://curlshot.com/docs/guides/ai-agents)** – Hosted MCP server (`https://curlshot.com/api/mcp`, Streamable HTTP) that lets Claude Code, Cursor, Codex and other agents screenshot a web page in a real browser and look at the result: PNG, JPEG, WebP or PDF, full page or one element, device presets, ad and cookie-banner blocking. Needs an API key; free plan of 100 screenshots a month, no card.
+- **[Vicem](https://github.com/RAKKUNN/vicem)** – Zero-dependency context baton, local MCP server, and guided handoff GUI that compacts coding sessions by 80–99% via deterministic AST code skeletonization (with lossless on-demand `vicem_rehydrate`) and relays work across Claude Code, Codex CLI, Cursor, Windsurf, and Gemini CLI. MIT.
+- **[Kin](https://kinlab.ai)** – Lets Claude Code, Codex, Cursor and other AI apps use your accounts, even two of one service, each with its own rule per action: Allow, Ask me or Block. Remote MCP: https://app.kinlab.ai/mcp.
+- **[Model Salt](https://github.com/modelsalt/model-salt)** – An MCP server with one tool: before a creative task the model calls it and gets back a few choices to settle this time, drawn from randomness outside the model (atmospheric and quantum noise), so one prompt gives different answers that still do what was asked.
+- **[ComputeFirst](https://computefirst.net/docs)** – Hosted MCP server of free, versioned, deterministic tools for coding agents: identifier validation, date math, CSV/JSON transforms, unit conversion and statistics. Remote endpoint `https://computefirst.net/mcp`, no API key or sign-up.
+- **[Archboard](https://getarchboard.app/)** – Remote MCP server for architecture diagrams. Claude Code, Cursor, Codex and other agents draw and update Kubernetes, cloud, C4 and ER diagrams on a live canvas the team edits too. Free tier available.
+- **[Keenable](https://keenable.ai)** – Web search and page fetch MCP server for AI coding agents (`https://api.keenable.ai/mcp`), backed by an independent web index. Works in Claude Code, Codex, Cursor and others; 100K free requests/month.
+- **[Agentik](https://www.agentik.cc)** – Remote MCP gateway that gives Claude Code, Codex and Cursor 3,000+ tools from 125 providers through one connection, each call at the provider's price, with the price shown before each call.
+- **[deja-vu](https://github.com/vshulcz/deja-vu)** – Local cross-agent session memory MCP server (`recall`, `context`, `blame`, `fix`, `how`, `orient`) over the transcripts 53 coding agents already write to disk. Single Go binary, BM25 lexical search, automatic secret redaction, zero API keys. Install: `npx @vshulcz/deja-vu`.
+- **[GenClass MCP](https://github.com/genclass-dev/GenClass/tree/main/packages/mcp)** – Local MCP server that shows coding agents what happened in a web app's development pages in causal order (clicks, requests, responses, the state writes it can see), re-runs a page with responses delivered in different orders to find race conditions, replays one order to check a fix and writes a Playwright test. Apache-2.0. The page side uses `@genclass/runtime`, whose anonymous diagnostics are on by default on public hosts, off on localhost, and turned off with `telemetry: false`.
+
+---
+
+## Related Lists
+
+- **[AI For Developers](https://aifordevelopers.org)** – Curated directory of AI dev tools.
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** – Tools and resources for vibe coding.
+- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** – General AI tools for various applications.
+- **[Awesome AI Agents](https://github.com/aylar-ghezelbash/awesome-ai-agents)** – AI agents for automation and development.
+- **[Altern](https://altern.ai)** – AI tool discovery platform.
+- **[DevTools Directory](https://devtools.directory)** – Directory of trending dev tools.

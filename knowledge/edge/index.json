@@ -1,10 +1,213 @@
 {
-  "last_checked_at": "2026-11-27T14:30:17.122Z",
+  "last_checked_at": "2026-11-28T13:45:45.394Z",
   "settings": {
     "max_cards": 3,
     "score_threshold": 65
   },
   "candidates": [
+    {
+      "id": "ai-for-developers/awesome-ai-coding-tools",
+      "name": "ai-for-developers/awesome-ai-coding-tools",
+      "url": "https://github.com/ai-for-developers/awesome-ai-coding-tools",
+      "date": "2026-11-28",
+      "source": "awesome-llm-agents",
+      "category": "awesome_lists",
+      "kind": "agent_framework",
+      "compatibility": 63,
+      "momentum": 100,
+      "risk": 52,
+      "integration_effort": 52,
+      "expected_gain": 85,
+      "composite": 71,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: Npx.tools, a keyboard-friendly index of developer tools",
+          "date": "2026-11-22",
+          "topic": "AI dev tools",
+          "similarity": 0.315,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-22/10-show-hn-npx-tools-a-keyboard-friendly-index-of-developer-tools.md"
+        },
+        {
+          "title": "FairHarborStudios-Tools/MockMasonCE-Release",
+          "date": "2026-11-14",
+          "topic": "AI dev tools",
+          "similarity": 0.303,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-14/11-fairharborstudios-tools-mockmasonce-release.md"
+        },
+        {
+          "title": "aimhuge/weft",
+          "date": "2026-11-02",
+          "topic": "AI dev tools",
+          "similarity": 0.294,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-11-02/12-aimhuge-weft.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-28)",
+        "MIT license",
+        "2316 GitHub stars",
+        "README mentions tests or validation"
+      ],
+      "cons": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "readme_quality": 100,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 3,
+      "dependency_files": [],
+      "install_commands": [
+        "npm install -g opencode-rust",
+        "npx agentchecker",
+        "npx toldya",
+        "npx saver-audit",
+        "npx neurosquad",
+        "npx reread-cli"
+      ],
+      "risk_flags": [
+        "README includes remote script execution pattern",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-11-22 about AI dev tools; this candidate overlaps with \"Show HN: Npx.tools, a keyboard-friendly index of developer tools\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-28/01-ai-for-developers-awesome-ai-coding-tools.md"
+    },
+    {
+      "id": "kidchemical/cuttle",
+      "name": "kidchemical/Cuttle",
+      "url": "https://github.com/kidchemical/Cuttle",
+      "date": "2026-11-28",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "agent_framework",
+      "compatibility": 97,
+      "momentum": 56,
+      "risk": 48,
+      "integration_effort": 60,
+      "expected_gain": 77,
+      "composite": 69,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+          "date": "2026-11-12",
+          "topic": "AI agents",
+          "similarity": 0.283,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-12/06-show-hn-agentrun-open-source-self-improving-managed-agents.md"
+        },
+        {
+          "title": "Show HN: Zeus – Claude Code for AI voice agents",
+          "date": "2026-11-20",
+          "topic": "AI agents",
+          "similarity": 0.214,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-20/08-show-hn-zeus-claude-code-for-ai-voice-agents.md"
+        },
+        {
+          "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+          "date": "2026-10-30",
+          "topic": "AI agents",
+          "similarity": 0.209,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-30/06-show-hn-sketch-stadium-watch-your-agent-play-pictionary.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-28)",
+        "MIT license",
+        "5 GitHub stars",
+        "GitHub Actions/CI detected"
+      ],
+      "cons": [
+        "Integration may take more than a quick install",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "readme_quality": 100,
+      "has_ci": true,
+      "has_tests": true,
+      "setup_steps_count": 6,
+      "dependency_files": [],
+      "install_commands": [
+        "git clone https://github.com/kidchemical/Cuttle.git cuttle && cd cuttle",
+        "git clone https://github.com/kidchemical/Cuttle.git cuttle; cd cuttle",
+        "codex login",
+        "npm ci",
+        "npm install"
+      ],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "May require elevated privileges"
+      ],
+      "why_it_matters": "You saved an article on 2026-11-12 about AI agents; this candidate overlaps with \"Show HN: AgentRun – open-source, Self-improving Managed Agents\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-28/02-kidchemical-cuttle.md"
+    },
+    {
+      "id": "spotomee/my-agent-skills",
+      "name": "spotOmee/my-agent-skills",
+      "url": "https://github.com/spotOmee/my-agent-skills",
+      "date": "2026-11-28",
+      "source": "GitHub Trending",
+      "category": "github_discovery",
+      "kind": "claude_skill",
+      "compatibility": 75,
+      "momentum": 45,
+      "risk": 46,
+      "integration_effort": 28,
+      "expected_gain": 87,
+      "composite": 68,
+      "replacement_target": null,
+      "related_articles": [
+        {
+          "title": "Donating Agent Skills to the Agentic AI Foundation",
+          "date": "2026-10-25",
+          "topic": "AI agents",
+          "similarity": 0.374,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-25/07-donating-agent-skills-to-the-agentic-ai-foundation.md"
+        },
+        {
+          "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+          "date": "2026-10-30",
+          "topic": "AI agents",
+          "similarity": 0.325,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-10-30/06-show-hn-sketch-stadium-watch-your-agent-play-pictionary.md"
+        },
+        {
+          "title": "Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents",
+          "date": "2026-11-06",
+          "topic": "AI agents",
+          "similarity": 0.312,
+          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-11-06/09-show-hn-agentic-identity-broker-oauth-delegation-for-ai-agents.md"
+        }
+      ],
+      "pros": [
+        "Recently updated (2026-11-28)",
+        "MIT license",
+        "README mentions tests or validation",
+        "Matches 3 saved Feed article(s)"
+      ],
+      "cons": [
+        "No clear install command found in README",
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics",
+        "Repository description is sparse"
+      ],
+      "readme_quality": 85,
+      "has_ci": false,
+      "has_tests": true,
+      "setup_steps_count": 0,
+      "dependency_files": [],
+      "install_commands": [],
+      "risk_flags": [
+        "README mentions credentials or API tokens",
+        "README mentions telemetry/analytics"
+      ],
+      "why_it_matters": "You saved an article on 2026-10-25 about AI agents; this candidate overlaps with \"Donating Agent Skills to the Agentic AI Foundation\" and may turn that reading into a practical workflow improvement.",
+      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-11-28/03-spotomee-my-agent-skills.md"
+    },
     {
       "id": "scikit-plots/skills",
       "name": "scikit-plots/skills",
@@ -19476,213 +19679,6 @@
       ],
       "why_it_matters": "You saved an article on 2026-08-11 about AI dev tools; this candidate overlaps with \"qgeng1465/bio-mcp\" and may turn that reading into a practical workflow improvement.",
       "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-21/03-duhu2000-dsh-mcp-connector.md"
-    },
-    {
-      "id": "huibinma/scout",
-      "name": "huibinma/Scout",
-      "url": "https://github.com/huibinma/Scout",
-      "date": "2026-08-20",
-      "source": "GitHub Trending",
-      "category": "github_discovery",
-      "kind": "mcp_server",
-      "compatibility": 89,
-      "momentum": 49,
-      "risk": 24,
-      "integration_effort": 44,
-      "expected_gain": 87,
-      "composite": 74,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "Show HN: Agent Search Engine – an independent index of 247 AI agents",
-          "date": "2026-07-21",
-          "topic": "AI agents",
-          "similarity": 0.373,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-21/08-show-hn-agent-search-engine-an-independent-index-of-247-ai-agents.md"
-        },
-        {
-          "title": "Show HN: ResiliReplay - Chaos testing for AI agents and MCP servers",
-          "date": "2026-07-31",
-          "topic": "AI agents",
-          "similarity": 0.253,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-07-31/09-show-hn-resilireplay-chaos-testing-for-ai-agents-and-mcp-servers.md"
-        },
-        {
-          "title": "yearningss/gamemaker-mcp",
-          "date": "2026-07-25",
-          "topic": "AI dev tools",
-          "similarity": 0.245,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-07-25/13-yearningss-gamemaker-mcp.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-20)",
-        "MIT license",
-        "1 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "No obvious v1 warning, still review upstream code before use"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 1,
-      "dependency_files": [
-        {
-          "name": "Cargo.toml",
-          "summary": "Rust project metadata detected"
-        }
-      ],
-      "install_commands": [
-        "git config core.hooksPath scripts/hooks"
-      ],
-      "risk_flags": [],
-      "why_it_matters": "You saved an article on 2026-07-21 about AI agents; this candidate overlaps with \"Show HN: Agent Search Engine – an independent index of 247 AI agents\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-20/01-huibinma-scout.md"
-    },
-    {
-      "id": "lxiayu/dshcockpit",
-      "name": "Lxiayu/DshCockpit",
-      "url": "https://github.com/Lxiayu/DshCockpit",
-      "date": "2026-08-20",
-      "source": "GitHub Search API",
-      "category": "github_discovery",
-      "kind": "agent_framework",
-      "compatibility": 90,
-      "momentum": 68,
-      "risk": 40,
-      "integration_effort": 48,
-      "expected_gain": 77,
-      "composite": 72,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "pingfanfan/dsh-learn",
-          "date": "2026-08-14",
-          "topic": "AI dev tools",
-          "similarity": 0.294,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-14/11-pingfanfan-dsh-learn.md"
-        },
-        {
-          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
-          "date": "2026-08-11",
-          "topic": "AI agents",
-          "similarity": 0.203,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
-        },
-        {
-          "title": "Show HN: HarnessRouter: Unified interface for agent harnesses",
-          "date": "2026-08-17",
-          "topic": "AI agents",
-          "similarity": 0.192,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-17/06-show-hn-harnessrouter-unified-interface-for-agent-harnesses.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-20)",
-        "MIT license",
-        "15 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 2,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @npmcli/arborist, @wecom/aibot-node-sdk, electron-updater, fzstd, node-forge, pacote, semver, electron; scripts start, build, build:win, build:win:dir, build:win:nsis, build:mac, publish:win, publish:mac"
-        }
-      ],
-      "install_commands": [
-        "git clone https://github.com/Lxiayu/DshCockpit.git",
-        "npm install",
-        "npm start",
-        "npm test"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-08-14 about AI dev tools; this candidate overlaps with \"pingfanfan/dsh-learn\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-20/02-lxiayu-dshcockpit.md"
-    },
-    {
-      "id": "jlapenna/agent-lcars",
-      "name": "jlapenna/agent-lcars",
-      "url": "https://github.com/jlapenna/agent-lcars",
-      "date": "2026-08-20",
-      "source": "awesome-claude-code",
-      "category": "awesome_lists",
-      "kind": "claude_skill",
-      "compatibility": 84,
-      "momentum": 49,
-      "risk": 40,
-      "integration_effort": 40,
-      "expected_gain": 87,
-      "composite": 71,
-      "replacement_target": null,
-      "related_articles": [
-        {
-          "title": "LamsonRetail/lsr-agent-platform",
-          "date": "2026-08-18",
-          "topic": "AI dev tools",
-          "similarity": 0.341,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI dev tools/2026-08-18/13-lamsonretail-lsr-agent-platform.md"
-        },
-        {
-          "title": "Show HN: Parley – your coding agent can talk to a teammate's agent",
-          "date": "2026-08-11",
-          "topic": "AI agents",
-          "similarity": 0.309,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-11/06-show-hn-parley-your-coding-agent-can-talk-to-a-teammate-s-agent.md"
-        },
-        {
-          "title": "Show HN: Keen Code – an agentic-engineered coding agent",
-          "date": "2026-08-10",
-          "topic": "AI agents",
-          "similarity": 0.254,
-          "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/feed/AI agents/2026-08-10/06-show-hn-keen-code-an-agentic-engineered-coding-agent.md"
-        }
-      ],
-      "pros": [
-        "Recently updated (2026-08-20)",
-        "Apache-2.0 license",
-        "1 GitHub stars",
-        "GitHub Actions/CI detected"
-      ],
-      "cons": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "readme_quality": 85,
-      "has_ci": true,
-      "has_tests": true,
-      "setup_steps_count": 3,
-      "dependency_files": [
-        {
-          "name": "package.json",
-          "summary": "deps @google-cloud/firestore, @google-cloud/storage, @google-cloud/tasks, @mantine/core, @mantine/modals, @mantine/notifications, @octokit/plugin-retry, @octokit/plugin-throttling; scripts check:contracts, check:dependencies, check:labels, format, format:check, lint, postinstall, prepare"
-        }
-      ],
-      "install_commands": [
-        "pnpm install",
-        "pnpm nx run-many -t test typecheck build --all",
-        "pnpm verify   # format:check, lint, lint:circular, then test/typecheck/build --all",
-        "docker build",
-        "docker run"
-      ],
-      "risk_flags": [
-        "README mentions credentials or API tokens",
-        "README mentions telemetry/analytics"
-      ],
-      "why_it_matters": "You saved an article on 2026-08-18 about AI dev tools; this candidate overlaps with \"LamsonRetail/lsr-agent-platform\" and may turn that reading into a practical workflow improvement.",
-      "file": "/home/runner/work/UI_Repo/UI_Repo/knowledge/edge/candidates/2026-08-20/03-jlapenna-agent-lcars.md"
     }
   ]
 }
